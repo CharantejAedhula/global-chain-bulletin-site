@@ -1,0 +1,1482 @@
+<title>Global Supply Chain Bulletin</title>
+<style>
+  :root {
+    --bg: #0c1310;
+    --surface: #131f1a;
+    --surface-2: #192821;
+    --ink: #eee8da;
+    --ink-dim: #93a39a;
+    --ink-faint: #5f6f66;
+    --rule: rgba(238,232,218,0.14);
+    --accent: #ec5b57;
+    --accent-soft: rgba(236,91,87,0.14);
+    --teal: #4fb88f;
+    --teal-soft: rgba(79,184,143,0.14);
+    --red: #d1495b;
+    --red-soft: rgba(209,73,91,0.14);
+    --font-display: "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+
+  :root[data-theme="light"] {
+    --bg: #eef0e7;
+    --surface: #f7f7f0;
+    --surface-2: #ffffff;
+    --ink: #16241d;
+    --ink-dim: #4c5c53;
+    --ink-faint: #7c8a80;
+    --rule: rgba(22,36,29,0.14);
+    --accent: #bd3b3b;
+    --accent-soft: rgba(189,59,59,0.12);
+    --teal: #227a5c;
+    --teal-soft: rgba(34,122,92,0.12);
+    --red: #a8324a;
+    --red-soft: rgba(168,50,74,0.1);
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #eef0e7;
+      --surface: #f7f7f0;
+      --surface-2: #ffffff;
+      --ink: #16241d;
+      --ink-dim: #4c5c53;
+      --ink-faint: #7c8a80;
+      --rule: rgba(22,36,29,0.14);
+      --accent: #bd3b3b;
+      --accent-soft: rgba(189,59,59,0.12);
+      --teal: #227a5c;
+      --teal-soft: rgba(34,122,92,0.12);
+      --red: #a8324a;
+      --red-soft: rgba(168,50,74,0.1);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 28px 80px; }
+
+  /* ---------- ticker ---------- */
+  .ticker-band {
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--rule);
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .ticker-track {
+    display: inline-flex;
+    gap: 48px;
+    padding: 9px 28px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    animation: scroll-ticker 42s linear infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; }
+  }
+  .ticker-track span.item { display: inline-flex; gap: 8px; align-items: baseline; color: var(--ink-dim); }
+  .ticker-track .val { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .sentiment-good { color: var(--teal); }
+  .sentiment-bad { color: var(--red); }
+  .sentiment-neutral { color: var(--ink-dim); }
+  @keyframes scroll-ticker {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* ---------- equilibrium index ---------- */
+  .equilibrium-band {
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 28px;
+  }
+  .equilibrium-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .equilibrium-title {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    flex-shrink: 0;
+  }
+  .equilibrium-bar {
+    flex: 1 1 160px;
+    min-width: 120px;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    background: var(--surface);
+  }
+  .equilibrium-fill { height: 100%; transition: width .3s; }
+  .equilibrium-friction { background: var(--red); }
+  .equilibrium-fluidity { background: var(--teal); }
+  .equilibrium-labels {
+    display: flex;
+    gap: 12px;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    flex-shrink: 0;
+  }
+  .equilibrium-label-friction { color: var(--red); }
+  .equilibrium-label-fluidity { color: var(--teal); }
+
+  /* ---------- masthead ---------- */
+  .masthead { padding: 30px 28px 0; }
+  .masthead-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+  .masthead-row .right-group { display: flex; align-items: center; gap: 14px; }
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 1px solid var(--rule);
+    padding: 3px 1px;
+    transition: border-color .15s;
+  }
+  .search-box:focus-within { border-color: var(--accent); }
+  .search-box svg { flex-shrink: 0; opacity: 0.65; color: var(--ink-faint); }
+  .search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--ink-dim);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    width: clamp(90px, 24vw, 190px);
+    transition: width .15s;
+  }
+  .search-box:focus-within input { width: clamp(140px, 34vw, 260px); }
+  .search-box input::placeholder { color: var(--ink-faint); }
+  .search-box input:focus { color: var(--ink); }
+  .search-clear {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0 0 2px;
+  }
+  .search-clear:hover { color: var(--ink); }
+  .search-clear[hidden] { display: none; }
+  .search-results-info {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: -8px 0 16px;
+  }
+  .theme-toggle-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-dim);
+    font-size: 14px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+    transition: border-color .15s, color .15s;
+  }
+  .theme-toggle-circle:hover { border-color: var(--accent); color: var(--ink); }
+  .theme-toggle-circle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .masthead h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(40px, 6vw, 74px);
+    letter-spacing: -0.015em;
+    margin: 6px 0 20px;
+    text-wrap: balance;
+  }
+  .masthead h1 em { color: var(--accent); font-style: italic; font-weight: 400; }
+  .masthead-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 0 0 16px;
+  }
+  .masthead-meta .meta-label {
+    color: var(--ink-dim);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    margin-right: 8px;
+  }
+  .masthead-meta .date-line { color: var(--ink-faint); }
+  .sources-trigger {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+  }
+  .sources-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 100;
+  }
+  .sources-overlay[hidden] { display: none; }
+  .sources-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    max-width: 480px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px 24px 8px;
+  }
+  .sources-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 12px;
+    margin-bottom: 4px;
+  }
+  .sources-card-header h3 {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    color: var(--ink);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .sources-close {
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .sources-close:hover { color: var(--ink); }
+  .sources-intro {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--ink-dim);
+    text-transform: none;
+    letter-spacing: normal;
+    margin: 12px 0 4px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sources-list { list-style: none; margin: 0; padding: 0; }
+  .sources-group-heading {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+    padding: 14px 0 6px;
+  }
+  .sources-list li:not(.sources-group-heading) {
+    font-size: 13.5px;
+    color: var(--ink-dim);
+    padding: 7px 0;
+    border-top: 1px solid var(--rule);
+  }
+  .sources-group-heading + li { border-top: none; }
+  .masthead-rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 0;
+  }
+  .masthead-rule.thick { border-top-width: 3px; }
+
+  /* ---------- controls ---------- */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 0;
+  }
+  .pill {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-dim);
+    border-radius: 999px;
+    padding: 7px 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: border-color .15s, color .15s, background .15s;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--ink); }
+  .pill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pill[aria-pressed="true"] {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--ink);
+  }
+  .pill .count { color: var(--ink-faint); font-size: 10.5px; }
+  .pill[aria-pressed="true"] .count { color: var(--accent); }
+
+  /* ---------- layout ---------- */
+  .board {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) 300px;
+    gap: 34px;
+    margin-top: 8px;
+  }
+  @media (max-width: 860px) {
+    .board { grid-template-columns: 1fr; }
+  }
+
+  /* ---------- lead + summary ---------- */
+  .lead-row {
+    display: grid;
+    grid-template-columns: minmax(0,1.5fr) minmax(0,1fr);
+    gap: 30px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 26px;
+  }
+  @media (max-width: 680px) {
+    .lead-row { grid-template-columns: 1fr; }
+  }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .eyebrow::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+  .lead h2 {
+    font-family: var(--font-display);
+    font-size: clamp(26px, 3.4vw, 38px);
+    line-height: 1.12;
+    font-weight: 400;
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+  .lead p.dek {
+    color: var(--ink-dim);
+    font-size: 15px;
+    margin: 0 0 12px;
+    max-width: 62ch;
+  }
+  .byline {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .byline a { color: var(--ink-faint); text-decoration: underline; text-decoration-color: var(--rule); }
+
+  .briefing-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 14px;
+  }
+  .briefing-play-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 0;
+    transition: background .15s, color .15s;
+  }
+  .briefing-play-btn[aria-pressed="true"] { background: var(--accent); color: #1a0f04; }
+  .briefing-play-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .briefing-info { min-width: 0; }
+  .briefing-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 2px;
+  }
+  .briefing-status {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--ink-faint);
+  }
+
+  .summary-box {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .summary-box h3 {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    margin: 0 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .summary-box h3::before {
+    content: "";
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--red);
+  }
+  .summary-box ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 11px; }
+  .summary-box li { font-size: 13.5px; color: var(--ink); padding-left: 16px; position: relative; }
+  .summary-box li::before {
+    content: "—";
+    position: absolute; left: 0; color: var(--ink-faint);
+  }
+
+  /* ---------- article river ---------- */
+  .river { display: flex; flex-direction: column; }
+  .card {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) auto;
+    gap: 14px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .card[hidden] { display: none; }
+  .card-tags {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    flex-wrap: wrap;
+  }
+  .card-tags .cat { color: var(--accent); }
+  .card-tags .src { color: var(--ink-faint); }
+  .card-tags .india-flag {
+    color: var(--teal);
+    border: 1px solid var(--teal);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 9.5px;
+  }
+  .card-src {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 6px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  a.card-src:hover, a.card-src:focus-visible { color: var(--accent); border-bottom-color: var(--accent); }
+  .card h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.28;
+    margin: 0 0 6px;
+    text-wrap: balance;
+  }
+  .card p.dek { color: var(--ink-dim); font-size: 13.5px; margin: 0 0 8px; max-width: 68ch; }
+  .card .meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .save-btn {
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    padding: 4px;
+    align-self: start;
+  }
+  .save-btn:hover { color: var(--accent); }
+  .save-btn[aria-pressed="true"] { color: var(--accent); }
+  .save-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+  .empty-state {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* ---------- sidebar ---------- */
+  aside { display: flex; flex-direction: column; gap: 26px; }
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 18px 18px 6px;
+  }
+  .panel-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+  }
+  .panel-title h3 {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0;
+  }
+  .panel-title span {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  .idx-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 6px 12px;
+    padding: 10px 0;
+    border-top: 1px solid var(--rule);
+    min-width: 0;
+  }
+  .idx-row:first-of-type { border-top: none; }
+  .idx-name { font-size: 13px; min-width: 0; overflow-wrap: break-word; }
+  .idx-exchange {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-left: 6px;
+  }
+  .idx-bar-track {
+    grid-column: 1 / -1;
+    height: 5px;
+    background: var(--surface-2);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .idx-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  .idx-val {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+  .idx-note {
+    grid-column: 1 / -1;
+    text-align: left;
+    color: var(--ink-faint);
+    font-family: var(--font-body);
+    font-size: 11.5px;
+    line-height: 1.4;
+    margin-top: -2px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    min-width: 0;
+  }
+  .idx-chg-line {
+    grid-column: 1 / -1;
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 1.4;
+    margin-top: -2px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    min-width: 0;
+  }
+  .idx-flag {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 4px;
+    padding: 2px 6px;
+    justify-self: end;
+  }
+  .panel-foot {
+    font-size: 10.5px;
+    color: var(--ink-faint);
+    padding: 10px 0 12px;
+    border-top: 1px solid var(--rule);
+    margin-top: 4px;
+  }
+
+  .chokepoint-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--rule);
+    gap: 6px 10px;
+  }
+  .chokepoint-row:first-of-type { border-top: none; }
+  .chokepoint-name { font-size: 13px; }
+  .chokepoint-note {
+    flex-basis: 100%;
+    color: var(--ink-faint);
+    font-size: 11px;
+    line-height: 1.4;
+  }
+  .status-chip {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .status-high { background: var(--red-soft); color: var(--red); }
+  .status-elevated { background: var(--accent-soft); color: var(--accent); }
+  .status-active { background: var(--teal-soft); color: var(--teal); }
+
+  .about-panel p { font-size: 12.5px; color: var(--ink-dim); margin: 0 0 12px; }
+
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 11.5px;
+    color: var(--ink-faint);
+    text-align: center;
+    font-family: var(--font-mono);
+  }
+</style>
+
+<div class="ticker-band" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<div class="equilibrium-band">
+  <div class="equilibrium-inner">
+    <span class="equilibrium-title">Global Supply Chain Equilibrium Index</span>
+    <div class="equilibrium-bar" role="img" aria-label="Friction versus fluidity balance for today's data">
+      <div class="equilibrium-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:50%"></div>
+      <div class="equilibrium-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:50%"></div>
+    </div>
+    <div class="equilibrium-labels">
+      <span class="equilibrium-label-friction" id="equilibriumFrictionLabel">— % Friction</span>
+      <span class="equilibrium-label-fluidity" id="equilibriumFluidityLabel">— % Fluidity</span>
+    </div>
+  </div>
+</div>
+
+<div class="masthead">
+  <div class="masthead-row">
+    <span>VOL. IV · NO. 219</span>
+    <div class="right-group">
+      <label class="search-box">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="7"></circle><line x1="21" y1="21" x2="15" y2="15"></line></svg>
+        <input type="text" id="searchInput" placeholder="Search (press /)" aria-label="Search stories" autocomplete="off" />
+        <button type="button" id="searchClear" class="search-clear" aria-label="Clear search" hidden>×</button>
+      </label>
+      <button type="button" id="themeBtn" class="theme-toggle-circle" aria-label="Toggle light and dark theme">☀</button>
+    </div>
+  </div>
+  <h1>Global <em>Supply Chain</em> Bulletin</h1>
+  <div class="masthead-meta">
+    <button type="button" id="sourcesBtn" class="meta-label sources-trigger">Sources</button>
+    <div class="date-line" id="clockLine">THURSDAY, AUGUST 6, 2026 · AS OF 18:18 IST</div>
+  </div>
+  <hr class="masthead-rule thick" />
+</div>
+
+<div class="sources-overlay" id="sourcesOverlay" hidden>
+  <div class="sources-card" role="dialog" aria-modal="true" aria-labelledby="sourcesTitle">
+    <div class="sources-card-header">
+      <h3 id="sourcesTitle">Sources</h3>
+      <button type="button" class="sources-close" id="sourcesClose" aria-label="Close">×</button>
+    </div>
+    <p class="sources-intro">State media tells you the narrative each side wants believed. Independent wire press tells you what's been verified on the ground. Physical &amp; market data — ship tracking, insurance, prices — tells you what's actually happening. Only the third settles "what is true."</p>
+    <ul class="sources-list" id="sourcesModalList"></ul>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="controls">
+    <div id="pillRow" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
+      <button class="pill" type="button" data-cat="all" aria-pressed="true">All <span class="count" data-count-for="all"></span></button>
+      <button class="pill" type="button" data-cat="tradeRisk" aria-pressed="false">Trade &amp; Risk <span class="count" data-count-for="tradeRisk"></span></button>
+      <button class="pill" type="button" data-cat="supplyIndustry" aria-pressed="false">Supply Chain &amp; Industry <span class="count" data-count-for="supplyIndustry"></span></button>
+    </div>
+  </div>
+
+  <div class="board">
+    <main>
+      <div class="lead-row">
+        <div class="lead">
+          <div class="eyebrow">Lead · Impact Score 10</div>
+          <h2>Strait of Hormuz remains effectively closed to commercial shipping as war-risk insurance costs stay near record highs</h2>
+          <p class="dek">Vessel transits through the Strait of Hormuz totaled 84 in the week of July 27 to August 2, up from 45 the prior week, though non-Iranian-linked traffic rose to only 52 transits from 28. Both figures remain far below the roughly 73-a-day pace considered normal before the conflict, and most crossings move under naval escort. War-risk insurance for tankers in the region has held at 3% to 10% of a vessel's hull value, up from about 0.25% before the conflict — meaning a $100 million tanker carries $3 million to $10 million in additional insurance cost for a single voyage, versus roughly $250,000 previously.</p>
+          <p class="byline">Compiled from <a href="https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-5-august-2026" target="_blank" rel="noopener">Lloyd's List Intelligence</a>, <a href="https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman" target="_blank" rel="noopener">Bloomberg</a> &amp; <a href="https://www.thenationalnews.com/business/2026/07/17/war-risk-shipping-premium-surges-again-as-tensions-escalate-at-strait-of-hormuz/" target="_blank" rel="noopener">The National</a> · Updated today</p>
+        </div>
+        <div>
+          <div class="briefing-box">
+            <button type="button" id="briefingPlayBtn" class="briefing-play-btn" aria-label="Play today's briefing" aria-pressed="false">▶</button>
+            <div class="briefing-info">
+              <div class="briefing-label">Today's Briefing</div>
+              <div class="briefing-status" id="briefingStatus">Tap to listen</div>
+            </div>
+          </div>
+          <div class="summary-box">
+            <h3>Today's Read</h3>
+            <ul>
+              <li>The Strait of Hormuz and the Red Sea are moving in opposite directions this week: Hormuz transit volume is recovering slightly and Iran and Oman have finalized proposed shipping-route coordinates, even as war-risk insurance remains 12 to 40 times higher than before the conflict and the Houthi movement says it will begin targeting Saudi oil tankers in the northern Red Sea.</li>
+              <li>US trade policy widened further: new forced-labor tariffs of 10% to 12.5% now apply to 60 trading partners including India, on top of existing country-specific rates, and separate Section 338 tariffs take effect August 19 covering nearly all imports. Carriers are still cutting capacity — about 8% of Asia-linked sailings through early September — even as container freight rates fall for a third straight week.</li>
+              <li>India added real capacity this week: Vizhinjam's automated terminal has final Customs clearance for full export-import operations from August 18, Adani Energy Solutions won a roughly $1 billion transmission contract for a green hydrogen hub in Andhra Pradesh, and L&amp;T's green-ammonia supply deal with ITOCHU has moved from joint development to a signed long-term offtake agreement.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <p class="search-results-info" id="searchResultsInfo" hidden></p>
+      <div class="river" id="river"></div>
+      <p class="empty-state" id="emptyState" hidden>No stories match this filter yet — try "All".</p>
+    </main>
+
+    <aside>
+      <div class="panel">
+        <div class="panel-title"><h3>Critical Minerals Index</h3><span>Aug 2026</span></div>
+        <div id="mineralsIndex"></div>
+        <p class="panel-foot">LME · COMEX · China spot (SMM). Snapshot, refreshes with each briefing.</p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><h3>Chokepoint Status</h3><span>Transit telemetry</span></div>
+        <div id="chokepoints"></div>
+        <p class="panel-foot" style="border-top:none; padding-top:0;">Vessel-transit and premium figures per Lloyd's List Intelligence, IMF PortWatch-style AIS tracking, and Marsh/S&amp;P Global insurance-market reporting — not self-reported by any state or carrier.</p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><h3>De-Risking Signals</h3><span>Capacity easing</span></div>
+        <div id="deriskSignals"></div>
+        <p class="panel-foot" style="border-top:none; padding-top:0;">Real capacity-easing developments from today's reporting — not padded to match the row count of Chokepoint Status.</p>
+      </div>
+
+      <div class="panel about-panel">
+        <div class="panel-title"><h3>About this briefing</h3></div>
+        <p>Curated and written by hand, not auto-scraped — built for anyone tracking supply chains, energy transition and trade policy, with India-tagged stories flagged inline.</p>
+        <p>Every story is credited to its source by name, linked to the original article. Ask for a refresh any time you want the day's stories updated.</p>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    Compiled Thursday, August 6, 2026 · Not an official publication of any employer · Data snapshots dated where sourced
+  </footer>
+</div>
+
+<script>
+(function () {
+  var STORAGE_KEY = "gcb-saved-v1";
+  var THEME_KEY = "gcb-theme-v1";
+
+  var minerals = [
+    { name: "Lithium hydroxide", exchange: "LME · Fastmarkets MB", val: "$18,912 /t", pct: 58, chg: "-2.6% today", dir: "down", sentiment: "neutral" },
+    { name: "Nickel", exchange: "LME · Official Cash", val: "$17,116 /t", pct: 54, chg: "+5.2% m/m", dir: "up", sentiment: "bad" },
+    { name: "Cobalt", exchange: "LME · Fastmarkets MB", val: "$57,320 /t (~$26/lb)", pct: 100, chg: "+7.6% since Jun", dir: "up", sentiment: "bad" },
+    { name: "Copper", exchange: "COMEX", val: "$6.73 /lb (~$14,840/t)", pct: 46, chg: "+8.9% m/m", dir: "up", sentiment: "bad" },
+    { name: "Dysprosium", exchange: "China spot (SMM), not exchange-traded", val: "$261.63 /kg", pct: 40, chg: "+25.4% m/m", dir: "up", sentiment: "bad" },
+    { name: "Neodymium", exchange: "China spot (SMM), not exchange-traded", val: "$145.48 /kg", pct: 30, chg: "+17% vs Jun", dir: "up", sentiment: "bad" },
+    { name: "Gallium &amp; Germanium (China)", flag: "Export controlled", note: "Curbs now cover 14 EU firms and 10 US firms; germanium mislabeling probe remains open." }
+  ];
+
+  var chokepoints = [
+    { name: "Strait of Hormuz", status: "Effectively closed", cls: "status-high", note: "84 vessel transits Jul 27–Aug 2, up from 45 the prior week; non-Iranian-linked traffic rose to 52 from 28. Still far below the ~73/day normal pace — Lloyd's List Intelligence." },
+    { name: "Red Sea war-risk premium", status: "3%–10% of hull value", cls: "status-high", note: "Up from about 0.25% before the conflict. The Houthi movement says it will now target Saudi oil tankers in the northern Red Sea, beyond its existing targeting near Bab al-Mandab — Bloomberg." },
+    { name: "Panama Canal", status: "Draft limit tightening in stages", cls: "status-elevated", note: "Maximum vessel draft cut to 14.63 m from Aug 26 and 14.48 m from Sept 3, as a strengthening El Niño pattern lowers Gatun Lake levels. Affects roughly 5% of global maritime trade." },
+    { name: "Container capacity (blank sailings)", status: "~8% of Asia-linked sailings cut", cls: "status-elevated", note: "58 of 723 planned East-West sailings blanked, weeks 32-36 (Aug 3 – Sept 6). Blanked capacity has grown 215% since 2019 on the Asia–North America East Coast route, versus 46% fleet growth — Drewry." }
+  ];
+
+  var deriskSignals = [
+    { name: "Global container freight rates", status: "Falling for a third straight week", cls: "status-active", note: "Drewry's World Container Index is down to $4,255 per 40-foot container as of July 30, even as several carriers introduce new fuel surcharges from August." },
+    { name: "Iran–Oman Hormuz route agreement", status: "Coordinates finalized, joint statement pending", cls: "status-active", note: "Tehran and Muscat have agreed on proposed shipping-lane coordinates, though Iran says the strait will not reopen immediately without a change in US policy." },
+    { name: "Vizhinjam automated terminal", status: "Full EXIM ops from Aug 18", cls: "status-active", note: "India's first fully automated container terminal received final Customs clearance to begin export-import cargo operations." },
+    { name: "US semiconductor R&amp;D investment", status: "$874m committed to domestic capacity", cls: "status-active", note: "Funding targets advanced packaging, AI memory and materials research, aimed at reducing reliance on overseas semiconductor supply chains." }
+  ];
+
+  var tickerItems = [
+    { label: "LITHIUM OH", val: "$18,912/t", dir: "down", sentiment: "neutral" },
+    { label: "NICKEL", val: "$17,116/t", dir: "up", sentiment: "bad" },
+    { label: "COBALT", val: "~$26/lb", dir: "up", sentiment: "bad" },
+    { label: "COPPER", val: "$6.73/lb", dir: "up", sentiment: "bad" },
+    { label: "US–INDIA TARIFF", val: "18%", dir: "down", sentiment: "good" },
+    { label: "FORCED-LABOR TARIFF", val: "60 COUNTRIES", dir: "up", sentiment: "bad" },
+    { label: "HORMUZ WEEKLY TRANSITS", val: "84 (VS 45 PRIOR WEEK)", dir: "up", sentiment: "neutral" },
+    { label: "WAR-RISK PREMIUM", val: "3-10% OF HULL VALUE", dir: "up", sentiment: "bad" },
+    { label: "WCI CONTAINER RATE", val: "$4,255/40FT (-3% WK)", dir: "down", sentiment: "good" },
+    { label: "BLANK SAILINGS", val: "~8% OF ASIA CAPACITY", dir: "up", sentiment: "bad" }
+  ];
+
+  var stories = [
+    {
+      cats: ["conflict"], india: false, impact: 10, signal: "friction",
+      src: "Lloyd's List Intelligence", time: "1 day ago",
+      title: "Hormuz transits rise but stay far below normal levels as war-risk insurance costs hold near record highs",
+      dek: "Vessel transits totaled 84 in the week of July 27 to August 2, up from 45 the week before, but still well under the roughly 73-a-day pace considered normal before the conflict. Non-Iranian-linked traffic rose to 52 transits from 28. War-risk insurance for tankers in the region remains at 3% to 10% of hull value, up from about 0.25% beforehand.",
+      url: "https://www.lloydslistintelligence.com/resources/blog/strait-of-hormuz-brief-5-august-2026"
+    },
+    {
+      cats: ["conflict"], india: false, impact: 9, signal: "friction",
+      src: "Bloomberg", time: "1 day ago",
+      title: "Houthi forces say they will target Saudi oil tankers in the northern Red Sea",
+      dek: "Yemen's Houthi movement said it will attack tankers carrying Saudi crude in the northern Red Sea, an expansion beyond its existing targeting near the Bab al-Mandab Strait. A Houthi spokesperson said the move follows Saudi Arabia's decision to divert tanker traffic away from that chokepoint. The group has already claimed one strike on a Saudi-linked tanker near the port of Yanbu.",
+      url: "https://www.bloomberg.com/news/articles/2026-08-05/yemen-s-houthis-say-they-ll-target-tankers-in-northern-red-sea"
+    },
+    {
+      cats: ["conflict", "outlook"], india: false, impact: 8, signal: "fluidity",
+      src: "Bloomberg", time: "today",
+      title: "Iran and Oman finalize proposed shipping-route coordinates for the Strait of Hormuz",
+      dek: "Tehran and Muscat have agreed on the geographical coordinates of a proposed shipping lane through the strait and are preparing a joint statement covering technical, legal, security and environmental terms. Iranian officials caution that an agreement with Oman would not by itself reopen the strait, which they say depends on a change in United States policy toward Iran.",
+      url: "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman"
+    },
+    {
+      cats: ["geopolitics", "outlook"], india: false, impact: 9, signal: "friction",
+      src: "Morgan Lewis", time: "2 weeks ago",
+      title: "China's rare-earth export enforcement widens; IEA estimates $6.5 trillion in downstream production exposed",
+      dek: "Export licensing controls covering seven heavy rare-earth elements have been extended to 14 European Union firms and 10 United States firms since June, and any product containing 0.1% or more of Chinese-origin rare earths, or made using Chinese processing technology, now needs a license to leave China. A second set of controls on five additional elements — holmium, erbium, thulium, europium and ytterbium — has been pushed back to November 10, 2026. The alloy benchmark for neodymium and praseodymium rose 21.4% in the month to July 1.",
+      url: "https://www.morganlewis.com/pubs/2026/07/recent-china-export-control-actions-signal-active-enforcement-for-rare-earths-and-strategic-minerals"
+    },
+    {
+      cats: ["geopolitics"], india: false, impact: 8, signal: "friction",
+      src: "OIA Global", time: "2 weeks ago",
+      title: "US Section 338 tariffs take effect August 19, covering nearly all imports including USMCA-exempt goods",
+      dek: "The tariff round invoked under Section 338 adds a 50% duty on a wide range of Canadian goods, from cement to industrial equipment, and applies to items previously exempted under the US-Mexico-Canada Agreement. It follows a series of separate tariff actions taken by Washington through the summer.",
+      url: "https://www.oiaglobal.com/tariff-updates/"
+    },
+    {
+      cats: ["geopolitics", "india"], india: true, impact: 8, signal: "friction",
+      src: "Holland &amp; Knight", time: "2 weeks ago",
+      title: "New US forced-labor tariffs take effect on 60 trading partners, including India",
+      dek: "The Office of the United States Trade Representative imposed Section 301 tariffs of 10% or 12.5% on goods from 60 economies found not to adequately prohibit or enforce bans on forced-labor-linked imports, effective July 24. The list includes Canada, Mexico, the European Union, the United Kingdom, China, Japan, India and Switzerland; the Trade Representative's office says these 60 economies account for more than 99% of US imports. The tariff applies on top of each country's existing rate, including India's separate 18% reciprocal tariff agreed in February.",
+      url: "https://www.hklaw.com/en/insights/publications/2026/07/and-the-tariff-beat-goes-on"
+    },
+    {
+      cats: ["geopolitics"], india: false, impact: 6, signal: "friction",
+      src: "Avalara", time: "2 weeks ago",
+      title: "US 25% tariff on Brazilian goods under Section 301 remains in effect",
+      dek: "The tariff, in effect since July 22, applies broadly to imports from Brazil and adds to a series of trade actions taken by Washington this year, alongside separate tariff increases on Chinese, Canadian and forced-labor-linked imports from 60 countries.",
+      url: "https://www.avalara.com/blog/en/north-america/2026/01/tariffs-2026-how-new-trade-rules-impact-business.html"
+    },
+    {
+      cats: ["geopolitics"], india: false, impact: 6, signal: "friction",
+      src: "Global Trade Alert", time: "1 day ago",
+      title: "China tightens export controls on dual-use drone components bound for the United States",
+      dek: "Beijing announced restrictions on four US-linked entities on August 5 and expanded controls on drone-related dual-use items, in response to earlier US trade actions. The move adds to an ongoing exchange of trade restrictions between the two countries.",
+      url: "https://globaltradealert.org/"
+    },
+    {
+      cats: ["logistics"], india: false, impact: 7, signal: "friction",
+      src: "KFGO", time: "1 day ago",
+      title: "Panama Canal tightens draft limits again as El Niño reduces water levels",
+      dek: "The Panama Canal Authority will cut the maximum draft for large vessels using the Neopanamax locks to 14.63 meters from August 26 and to 14.48 meters from September 3, citing lower Gatun Lake levels and a strengthening El Niño weather pattern expected to reduce rainfall in the canal's watershed. Lower draft limits mean ships must carry less cargo to transit safely.",
+      url: "https://kfgo.com/2026/08/05/panama-canal-again-tightens-draft-limits-as-water-levels-under-pressure/"
+    },
+    {
+      cats: ["logistics"], india: false, impact: 7, signal: "friction",
+      src: "Drewry", time: "2 days ago",
+      title: "Blanked sailings become a permanent tool as carriers withdraw up to 14% of scheduled Asia-linked capacity",
+      dek: "58 of 723 planned East-West sailings are set to be cancelled between August 3 and September 6, part of a structural shift in which carriers routinely withdraw 10% to 14% of scheduled space rather than let new vessel deliveries create oversupply. On the Asia-North America East Coast route, scheduled capacity has grown 46% since 2019, while blanked capacity has grown 215% over the same period.",
+      url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/cancelled-sailings-tracker"
+    },
+    {
+      cats: ["logistics"], india: false, impact: 5, signal: "friction",
+      src: "GoComet", time: "1 week ago",
+      title: "Port dwell times remain uneven as Red Sea rerouting continues to concentrate vessels at transshipment hubs",
+      dek: "Most major US ports are not seeing severe vessel queues, but transshipment hubs such as Singapore continue to show elevated dwell times, and the Port of Long Beach's import dwell time keeps fluctuating. Normal import dwell runs three to five days at efficient ports; congested terminals are seeing seven to ten days or more, driven in part by continued rerouting around the Cape of Good Hope.",
+      url: "https://www.gocomet.com/real-time-port-congestion"
+    },
+    {
+      cats: ["logistics", "outlook"], india: false, impact: 5, signal: "fluidity",
+      src: "Drewry", time: "1 week ago",
+      title: "Container freight rates fall for a third straight week despite new fuel surcharges",
+      dek: "Drewry's World Container Index declined 3% to $4,255 per 40-foot container as of July 30, led by lower rates on the Asia-Europe and Transpacific routes. The decline continues even as several carriers introduce emergency fuel surcharges from August in response to Middle East shipping risk.",
+      url: "https://www.drewry.co.uk/trackers-and-indices/latest-trackers-and-indices/world-container-index-assessed-by-drewry"
+    },
+    {
+      cats: ["logistics", "india"], india: true, impact: 6, signal: "fluidity",
+      src: "Business Standard", time: "2 weeks ago",
+      title: "Vizhinjam seaport receives final Customs clearance, will begin full export-import operations August 18",
+      dek: "The Central Board of Indirect Taxes and Customs has granted final approval for India's first fully automated container terminal to begin export-import cargo operations from August 18, converting it from a transshipment-only facility into a full international gateway. Because no dedicated container freight station is yet attached to the port, import cargo will initially be limited to full-container-load shipments eligible for direct delivery to the importer within 48 hours of landing.",
+      url: "https://www.business-standard.com/industry/news/vizhinjam-seaport-gets-customs-nod-to-begin-exim-operations-from-aug-18-126072500196_1.html"
+    },
+    {
+      cats: ["tech", "outlook"], india: false, impact: 6, signal: "friction",
+      src: "Deloitte Insights", time: "1 week ago",
+      title: "Global semiconductor demand set to reach $820 billion in 2026 as delivery speed replaces manufacturing capacity as the binding constraint",
+      dek: "Industry demand is projected to grow 18% since 2024, driven by artificial-intelligence servers and autonomous-vehicle technology. Analysts say the limiting factor has shifted from how many chips can be manufactured to how quickly finished chips can be delivered to customers, a shift reinforced by a separate US Commerce Department commitment of $874 million toward domestic semiconductor research and packaging capacity.",
+      url: "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html"
+    },
+    {
+      cats: ["hydrogen", "india"], india: true, impact: 6, signal: "fluidity",
+      src: "L&amp;T press release", time: "about 3 months ago",
+      title: "L&amp;T Energy GreenTech signs long-term 300,000-tonne green ammonia offtake agreement with Japan's ITOCHU",
+      dek: "The agreement commits L&amp;T Energy GreenTech to supply ITOCHU 300,000 tonnes of green ammonia a year from its proposed Kandla, Gujarat facility, on a take-or-pay basis. It builds on a joint development agreement signed in July 2025 and is intended to support ITOCHU's marine-fuel bunkering operations in Singapore, linking Indian green hydrogen output directly to a traditional bunker-fuel market.",
+      url: "https://www.larsentoubro.com/pressreleases/2026/2026-04-22-lt-energy-greentech-enters-green-ammonia-partnership-with-japans-itochu"
+    },
+    {
+      cats: ["hydrogen", "india"], india: true, impact: 6, signal: "fluidity",
+      src: "Fuel Cells Works", time: "2 weeks ago",
+      title: "Adani Energy Solutions wins roughly $1 billion transmission contract to power a green hydrogen hub in Andhra Pradesh",
+      dek: "The competitively bid transmission project will build a 765/400 kilovolt gas-insulated substation and related high-voltage lines to carry an estimated 4,500 megawatts of power to planned green hydrogen and green ammonia facilities in the Vizag area, linking renewable generation directly to industrial hydrogen output. The project is contracted for delivery within 30 months.",
+      url: "https://fuelcellsworks.com/2026/07/24/clean-energy/india-s-adani-wins-4-5gw-green-hydrogen-transmission-contract-in-andhra-pradesh"
+    }
+  ];
+
+  var briefingScript = [
+    { speaker: "anchor", text: "Today's headline figure is 84." },
+    { speaker: "analyst", text: "That is the number of vessel transits through the Strait of Hormuz last week, up from 45 the week before, though still well under the normal pace of about 73 a day." },
+    { speaker: "anchor", text: "And on the same day, Iran and Oman said they have finalized proposed shipping-route coordinates for the strait." },
+    { speaker: "analyst", text: "They have, though Iranian officials say the strait will not reopen immediately. They describe that as contingent on a change in United States policy." },
+    { speaker: "anchor", text: "Meanwhile, Yemen's Houthi movement says it will now target Saudi oil tankers in the northern Red Sea." },
+    { speaker: "analyst", text: "That is a real expansion of risk. It follows Saudi Arabia rerouting tankers away from the Bab al-Mandab Strait, and the group has already claimed one strike near the port of Yanbu." },
+    { speaker: "anchor", text: "On trade policy, the United States has added a new forced-labor tariff covering 60 trading partners, including India, on top of existing country tariffs." },
+    { speaker: "analyst", text: "That tariff is 10 to 12.5 percent and took effect July 24. Separately, Section 338 tariffs take effect August 19 and will cover nearly all imports, including goods that were previously exempt under the trade agreement with Canada and Mexico." },
+    { speaker: "anchor", text: "On the capacity side, carriers are cancelling roughly 8 percent of Asia-linked sailings through early September, and container freight rates have fallen for a third straight week." },
+    { speaker: "analyst", text: "So shipping capacity is tightening in some places and freight costs are easing in others. Those two trends are moving independently right now." },
+    { speaker: "anchor", text: "On infrastructure, India's Vizhinjam terminal has its final Customs clearance and opens for full operations on August 18." },
+    { speaker: "analyst", text: "And Adani Energy Solutions has won a roughly one billion dollar transmission contract to power a green hydrogen hub in Andhra Pradesh, while L&amp;T's ammonia supply agreement with ITOCHU has moved from joint development to a signed long-term contract." },
+    { speaker: "anchor", text: "That is today's briefing. Watch transit counts and insurance pricing, not headlines." }
+  ];
+
+  var catLabel = {
+    logistics: "Supply Chain &amp; Logistics",
+    geopolitics: "Geopolitics &amp; Trade Policy",
+    conflict: "Conflict &amp; War Impact",
+    leadership: "Leadership Watch",
+    hydrogen: "Green Hydrogen &amp; Energy",
+    tech: "Technology &amp; Industry 4.0",
+    outlook: "Future Outlook",
+    india: "India Focus"
+  };
+
+  var industryCats = ["logistics", "tech", "leadership", "hydrogen"];
+  var tradeCats = ["geopolitics", "conflict", "outlook"];
+
+  var sourceCategories = {
+    "USA": [
+      "Reuters (wire, global)",
+      "The Wall Street Journal",
+      "CENTCOM / State Dept statements (primary source, not neutral)",
+      "CSIS (think tank analysis)"
+    ],
+    "China": [
+      "Caixin Global (most independent-leaning major Chinese outlet)",
+      "South China Morning Post (Hong Kong, commercially independent)",
+      "Global Times (state — official framing only)",
+      "MOFCOM / NDRC statements (primary source, not neutral)"
+    ],
+    "Russia": [
+      "TASS (state — official framing only)",
+      "The Moscow Times (independent, exile-based)",
+      "Valdai Discussion Club (state-adjacent analysis)"
+    ],
+    "European Union": [
+      "Financial Times",
+      "Deutsche Welle (public broadcaster, editorially independent)",
+      "Bruegel (economic policy think tank)"
+    ],
+    "India": [
+      "The Hindu",
+      "Livemint / Economic Times (trade &amp; business angle)",
+      "Observer Research Foundation (think tank analysis)",
+      "MEA / PIB statements (primary source, not neutral)"
+    ],
+    "Middle East / Gulf": [
+      "Al Jazeera (Qatar-funded, strong regional reporting)",
+      "Reuters Gulf desk (external, less state-influenced)",
+      "Iranian state media — IRNA / Press TV (primary source on Iran's own claims, not verification)",
+      "Gulf state ministries (primary source on their own claims, not verification)"
+    ],
+    "US Corridor — Trade, Tariffs, Ports": [
+      "Federal Maritime Commission (FMC) — official US regulator",
+      "Journal of Commerce (JOC) — independent container shipping monitor",
+      "FreightWaves (SONAR) — US trucking capacity &amp; intermodal data"
+    ],
+    "Russia &amp; Black Sea Corridor — Sanctions, War Risk": [
+      "Lloyd's List Intelligence — dark-fleet &amp; war-risk tracking",
+      "Ambrey — real-time maritime security incident reporting",
+      "InfraNews Russia — rail &amp; corridor traffic analytics"
+    ],
+    "Indian Subcontinent Corridor — EXIM, Infrastructure": [
+      "ICEGATE / CBIC — Indian Customs gateway",
+      "Indian Ports Association (IPA) — port dwell &amp; turnaround data",
+      "The Economic Times (Logistics Desk) — freight &amp; PLI trends"
+    ],
+    "Mainland China Corridor — Output, Export Controls": [
+      "Caixin Global — independent Caixin Manufacturing PMI",
+      "Shanghai Shipping Exchange (SSE) — SCFI freight index",
+      "China Ministry of Transport policy monitors — export restriction tracking"
+    ],
+    "Middle East &amp; Suez Corridor — Chokepoints, Bunkering": [
+      "UKMTO — vetted incident coordinates from master mariners",
+      "Port of Fujairah Advisory Board — bunkering price signals",
+      "MEED (Middle East Economic Digest) — MENA infrastructure monitor"
+    ],
+    "Cross-Cutting Neutral Data": [
+      "MarineTraffic / Kpler — ship (AIS) tracking",
+      "Sentinel Hub / Planet Labs — satellite imagery",
+      "Lloyd's List / TradeWinds — shipping industry trade press",
+      "IEA — energy flow data",
+      "Lloyd's of London / Joint War Committee — war-risk insurance premiums"
+    ]
+  };
+
+  function primaryGroup(cats) {
+    if (cats.some(function (c) { return industryCats.indexOf(c) !== -1; })) return "supplyIndustry";
+    if (cats.some(function (c) { return tradeCats.indexOf(c) !== -1; })) return "tradeRisk";
+    return null;
+  }
+
+  function loadSaved() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); } catch (e) { return {}; }
+  }
+  function persistSaved(obj) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(obj)); } catch (e) {}
+  }
+
+  var saved = loadSaved();
+
+  function renderTicker() {
+    var track = document.getElementById("tickerTrack");
+    var html = "";
+    var doubled = tickerItems.concat(tickerItems);
+    doubled.forEach(function (t) {
+      html += '<span class="item">' + t.label + ' <span class="val sentiment-' + t.sentiment + '">' +
+        (t.dir === "up" ? "▲" : "▼") + " " + t.val + "</span></span>";
+    });
+    track.innerHTML = html;
+  }
+
+  function renderMinerals() {
+    var el = document.getElementById("mineralsIndex");
+    var html = "";
+    minerals.forEach(function (m) {
+      if (m.flag) {
+        html += '<div class="idx-row"><div class="idx-name">' + m.name + '</div><div class="idx-flag">' + m.flag + '</div>' +
+          '<div class="idx-note">' + m.note + '</div></div>';
+      } else {
+        html += '<div class="idx-row"><div class="idx-name">' + m.name + '<span class="idx-exchange">' + m.exchange + '</span></div>' +
+          '<div class="idx-val">' + m.val + '</div>' +
+          '<div class="idx-chg-line sentiment-' + m.sentiment + '">' + (m.dir === "up" ? "▲" : "▼") + " " + m.chg + '</div>' +
+          '<div class="idx-bar-track"><div class="idx-bar-fill" style="width:' + m.pct + '%; background:' + (m.sentiment === "bad" ? "var(--red)" : "var(--teal)") + ';"></div></div></div>';
+      }
+    });
+    el.innerHTML = html;
+  }
+
+  function renderEquilibriumIndex() {
+    var frictionFill = document.getElementById("equilibriumFrictionFill");
+    var fluidityFill = document.getElementById("equilibriumFluidityFill");
+    var frictionLabel = document.getElementById("equilibriumFrictionLabel");
+    var fluidityLabel = document.getElementById("equilibriumFluidityLabel");
+    if (!frictionFill || !fluidityFill) return;
+    var friction = 0, fluidity = 0;
+    stories.forEach(function (s) {
+      if (s.signal === "friction") friction++;
+      else if (s.signal === "fluidity") fluidity++;
+    });
+    var total = friction + fluidity;
+    var frictionPct = total ? Math.round((friction / total) * 100) : 50;
+    var fluidityPct = 100 - frictionPct;
+    frictionFill.style.width = frictionPct + "%";
+    fluidityFill.style.width = fluidityPct + "%";
+    if (frictionLabel) frictionLabel.textContent = frictionPct + "% Friction";
+    if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fluidity";
+  }
+
+  function renderSourcesModal() {
+    var el = document.getElementById("sourcesModalList");
+    if (!el) return;
+    var html = "";
+    Object.keys(sourceCategories).forEach(function (group) {
+      html += '<li class="sources-group-heading">' + group + '</li>';
+      sourceCategories[group].forEach(function (name) {
+        html += '<li>' + name + '</li>';
+      });
+    });
+    el.innerHTML = html;
+  }
+
+  function wireSources() {
+    var btn = document.getElementById("sourcesBtn");
+    var overlay = document.getElementById("sourcesOverlay");
+    var closeBtn = document.getElementById("sourcesClose");
+    if (!btn || !overlay || !closeBtn) return;
+    function open() { overlay.hidden = false; }
+    function close() { overlay.hidden = true; }
+    btn.addEventListener("click", open);
+    closeBtn.addEventListener("click", close);
+    overlay.addEventListener("click", function (e) { if (e.target === overlay) close(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !overlay.hidden) close(); });
+  }
+
+  function renderChokepoints() {
+    var el = document.getElementById("chokepoints");
+    var html = "";
+    chokepoints.forEach(function (c) {
+      var note = c.note ? '<div class="chokepoint-note">' + c.note + '</div>' : "";
+      html += '<div class="chokepoint-row"><div class="chokepoint-name">' + c.name + '</div><div class="status-chip ' + c.cls + '">' + c.status + '</div>' + note + '</div>';
+    });
+    el.innerHTML = html;
+  }
+
+  function renderDeriskSignals() {
+    var el = document.getElementById("deriskSignals");
+    if (!el) return;
+    var html = "";
+    deriskSignals.forEach(function (d) {
+      var note = d.note ? '<div class="chokepoint-note">' + d.note + '</div>' : "";
+      html += '<div class="chokepoint-row"><div class="chokepoint-name">' + d.name + '</div><div class="status-chip ' + d.cls + '">' + d.status + '</div>' + note + '</div>';
+    });
+    el.innerHTML = html;
+  }
+
+  function cardHtml(story, idx) {
+    var tags = story.cats.filter(function (c) { return c !== "india"; }).map(function (c) {
+      return '<span class="cat">' + catLabel[c] + '</span>';
+    }).join(' <span class="src">·</span> ');
+    var indiaFlag = story.india ? ' <span class="india-flag">India Focus</span>' : '';
+    var isSaved = !!saved[idx];
+    var catText = story.cats.map(function (c) { return catLabel[c] || c; }).join(" ");
+    var searchBlob = (story.title + " " + story.dek + " " + story.src + " " + catText + (story.india ? " india focus" : "")).toLowerCase().replace(/&amp;/g, "&").replace(/"/g, "&quot;");
+    return '<article class="card" data-cats="' + story.cats.join(",") + '" data-india="' + story.india + '" data-search="' + searchBlob + '">' +
+      '<div>' +
+      '<div class="card-tags">' + tags + indiaFlag + '</div>' +
+      '<a class="card-src" href="' + story.url + '" target="_blank" rel="noopener">' + story.src + '</a>' +
+      '<h3>' + story.title + '</h3>' +
+      '<p class="dek">' + story.dek + '</p>' +
+      '<div class="meta">' + story.time + '</div>' +
+      '</div>' +
+      '<button class="save-btn" type="button" data-idx="' + idx + '" aria-pressed="' + isSaved + '" aria-label="Save story" title="Save">' + (isSaved ? "★" : "☆") + '</button>' +
+      '</article>';
+  }
+
+  function renderRiver() {
+    var river = document.getElementById("river");
+    var html = "";
+    var ordered = stories.map(function (s, i) { return { story: s, idx: i }; })
+      .sort(function (a, b) { return (b.story.impact || 0) - (a.story.impact || 0); });
+    ordered.forEach(function (o) { html += cardHtml(o.story, o.idx); });
+    river.innerHTML = html;
+
+    river.querySelectorAll(".save-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var idx = btn.getAttribute("data-idx");
+        var pressed = btn.getAttribute("aria-pressed") === "true";
+        saved[idx] = !pressed;
+        if (!saved[idx]) delete saved[idx];
+        persistSaved(saved);
+        btn.setAttribute("aria-pressed", String(!pressed));
+        btn.textContent = !pressed ? "★" : "☆";
+      });
+    });
+  }
+
+  var state = { cat: "all", query: "" };
+
+  function updateCounts() {
+    var counts = { all: stories.length, tradeRisk: 0, supplyIndustry: 0 };
+    stories.forEach(function (s) {
+      var g = primaryGroup(s.cats);
+      if (g) counts[g]++;
+    });
+    document.querySelectorAll("[data-count-for]").forEach(function (el) {
+      var key = el.getAttribute("data-count-for");
+      el.textContent = counts[key] != null ? counts[key] : "";
+    });
+  }
+
+  function applyFilter() {
+    var cards = document.querySelectorAll(".card");
+    var visibleCount = 0;
+    var scopeCount = 0;
+    cards.forEach(function (card) {
+      var cats = card.getAttribute("data-cats").split(",");
+      var group = primaryGroup(cats);
+      var catOk = state.cat === "all" || group === state.cat;
+      if (catOk) scopeCount++;
+      var searchOk = !state.query || (card.getAttribute("data-search") || "").indexOf(state.query) !== -1;
+      var visible = catOk && searchOk;
+      card.hidden = !visible;
+      if (visible) visibleCount++;
+    });
+    var emptyState = document.getElementById("emptyState");
+    emptyState.hidden = visibleCount !== 0;
+    emptyState.textContent = state.query
+      ? 'No stories match "' + state.query + '" — try a different search or clear it.'
+      : 'No stories match this filter yet — try "All".';
+    var resultsInfo = document.getElementById("searchResultsInfo");
+    if (resultsInfo) {
+      if (state.query) {
+        resultsInfo.hidden = false;
+        resultsInfo.textContent = "Showing " + visibleCount + " of " + scopeCount + (scopeCount === 1 ? " story" : " stories") + " matching “" + state.query + "”";
+      } else {
+        resultsInfo.hidden = true;
+      }
+    }
+  }
+
+  function wireControls() {
+    var searchInput = document.getElementById("searchInput");
+    var searchClear = document.getElementById("searchClear");
+    var allPill = document.querySelector('.pill[data-cat="all"]');
+
+    function pressPill(cat) {
+      document.querySelectorAll(".pill").forEach(function (p) {
+        p.setAttribute("aria-pressed", p.getAttribute("data-cat") === cat ? "true" : "false");
+      });
+    }
+    function syncClearBtn() {
+      if (searchClear) searchClear.hidden = !searchInput || !searchInput.value;
+    }
+    function clearSearch() {
+      if (searchInput) searchInput.value = "";
+      state.query = "";
+      syncClearBtn();
+      applyFilter();
+    }
+
+    document.querySelectorAll(".pill").forEach(function (pill) {
+      pill.addEventListener("click", function () {
+        pressPill(pill.getAttribute("data-cat"));
+        state.cat = pill.getAttribute("data-cat");
+        applyFilter();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener("input", function () {
+        state.query = searchInput.value.trim().toLowerCase();
+        if (state.query && state.cat !== "all") {
+          state.cat = "all";
+          pressPill("all");
+        }
+        syncClearBtn();
+        applyFilter();
+      });
+      searchInput.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          clearSearch();
+          searchInput.blur();
+        }
+      });
+    }
+
+    if (searchClear) {
+      searchClear.addEventListener("click", function () {
+        clearSearch();
+        if (searchInput) searchInput.focus();
+      });
+    }
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "/" || !searchInput) return;
+      var tag = document.activeElement && document.activeElement.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      e.preventDefault();
+      searchInput.focus();
+    });
+  }
+
+  function currentResolvedTheme(root) {
+    var explicit = root.getAttribute("data-theme");
+    if (explicit === "light" || explicit === "dark") return explicit;
+    return (matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  }
+
+  function updateThemeIcon(btn, root) {
+    btn.textContent = currentResolvedTheme(root) === "dark" ? "☾" : "☀";
+  }
+
+  function wireTheme() {
+    var root = document.documentElement;
+    var btn = document.getElementById("themeBtn");
+    var stored = null;
+    try { stored = localStorage.getItem(THEME_KEY); } catch (e) {}
+    if (stored) root.setAttribute("data-theme", stored);
+    updateThemeIcon(btn, root);
+    btn.addEventListener("click", function () {
+      var current = root.getAttribute("data-theme");
+      var next = current === "dark" ? "light" : (current === "light" ? "dark" : (matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark"));
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem(THEME_KEY, next); } catch (e) {}
+      updateThemeIcon(btn, root);
+    });
+  }
+
+  var briefingVoices = { anchor: null, analyst: null };
+
+  function pickBriefingVoices() {
+    var voices = speechSynthesis.getVoices() || [];
+    if (!voices.length) return;
+    var femaleRe = /female|zira|samantha|victoria|susan|karen|moira|tessa|fiona|google us english/i;
+    var maleRe = /male|daniel|david|alex|fred|george|google uk english male/i;
+    var female = voices.find(function (v) { return femaleRe.test(v.name); });
+    var male = voices.find(function (v) { return maleRe.test(v.name) && v !== female; });
+    if (!female) female = voices.find(function (v) { return /^en/i.test(v.lang); }) || voices[0];
+    if (!male) male = voices.find(function (v) { return /^en/i.test(v.lang) && v !== female; }) || voices.find(function (v) { return v !== female; }) || female;
+    briefingVoices.anchor = female || null;
+    briefingVoices.analyst = male || null;
+  }
+
+  function wireBriefing() {
+    var btn = document.getElementById("briefingPlayBtn");
+    var status = document.getElementById("briefingStatus");
+    if (!btn || !status) return;
+    if (!("speechSynthesis" in window)) {
+      btn.disabled = true;
+      status.textContent = "Audio not supported on this device";
+      return;
+    }
+    pickBriefingVoices();
+    speechSynthesis.addEventListener("voiceschanged", pickBriefingVoices);
+
+    function reset() {
+      btn.setAttribute("aria-pressed", "false");
+      btn.textContent = "▶";
+      status.textContent = "Tap to listen";
+    }
+
+    btn.addEventListener("click", function () {
+      if (speechSynthesis.speaking) {
+        speechSynthesis.cancel();
+        reset();
+        return;
+      }
+      if (!briefingScript.length) return;
+      briefingScript.forEach(function (turn, i) {
+        var utterance = new SpeechSynthesisUtterance(turn.text);
+        var voice = turn.speaker === "anchor" ? briefingVoices.anchor : briefingVoices.analyst;
+        if (voice) utterance.voice = voice;
+        if (turn.speaker === "anchor") {
+          utterance.pitch = 1.22;
+          utterance.rate = 1.04;
+        } else {
+          utterance.pitch = 0.78;
+          utterance.rate = 0.95;
+        }
+        if (i === briefingScript.length - 1) {
+          utterance.onend = reset;
+          utterance.onerror = reset;
+        }
+        speechSynthesis.speak(utterance);
+      });
+      btn.setAttribute("aria-pressed", "true");
+      btn.textContent = "❚❚";
+      status.textContent = "Playing…";
+    });
+  }
+
+  renderTicker();
+  renderMinerals();
+  renderEquilibriumIndex();
+  renderChokepoints();
+  renderDeriskSignals();
+  renderRiver();
+  renderSourcesModal();
+  wireSources();
+  updateCounts();
+  applyFilter();
+  wireControls();
+  wireTheme();
+  wireBriefing();
+})();
+</script>
