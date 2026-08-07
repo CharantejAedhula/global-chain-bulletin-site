@@ -849,9 +849,9 @@
       </div>
 
       <div class="panel">
-        <div class="panel-title"><h3>India Corporate Watch</h3><span>NSE</span></div>
-        <div id="indiaCorporates"></div>
-        <p class="panel-foot">Companies the government has flagged as critical to supply chain, port and green-energy infrastructure. Live NSE price, snapshot per briefing.</p>
+        <div class="panel-title"><h3>India Infrastructure Watch</h3><span>NSE</span></div>
+        <div id="infrastructureWatch"></div>
+        <p class="panel-foot">Top-weighted Nifty Infrastructure &amp; Transportation/Logistics leader per physical-network pillar, re-selected each cycle — not a fixed watchlist.</p>
       </div>
 
       <div class="panel">
@@ -897,11 +897,12 @@
     { name: "Gallium &amp; Germanium (China)", flag: "Export controlled", note: "Curbs remain in force; Shanghai Customs pursued a germanium-mislabeling enforcement case in June, and Beijing's suspension of blanket export denials for gallium, germanium and antimony to the US runs through November 27, 2026." }
   ];
 
-  var indiaCorporates = [
-    { name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,039.80", chg: "-0.54% today", dir: "down", sentiment: "bad" },
-    { name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,681.00", chg: "-0.82% today", dir: "down", sentiment: "bad" },
-    { name: "Adani Energy Solutions", ticker: "NSE: ADANIENSOL", val: "₹1,735.10", chg: "+0.29% today", dir: "up", sentiment: "good" },
-    { name: "Reliance Industries", ticker: "NSE: RELIANCE", val: "₹1,329.00", chg: "+0.31% today", dir: "up", sentiment: "good" }
+  var infrastructureWatch = [
+    { pillar: "Maritime Gateway", name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,681.00", chg: "-0.82% today", dir: "down", sentiment: "bad" },
+    { pillar: "Heavy Build &amp; Capex", name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,039.80", chg: "-0.54% today", dir: "down", sentiment: "bad" },
+    { pillar: "Corridor Inputs", name: "UltraTech Cement", ticker: "NSE: ULTRACEMCO", val: "₹12,198.00", chg: "Aug 5 print", dir: "up", sentiment: "good" },
+    { pillar: "Intermodal Freight", name: "Container Corp. of India", ticker: "NSE: CONCOR", val: "₹486.90", chg: "Jul 23 print", dir: "down", sentiment: "bad" },
+    { pillar: "Surface Transport", name: "IRB Infrastructure", ticker: "NSE: IRB", val: "₹19.93", chg: "Aug 6 close", dir: "down", sentiment: "bad" }
   ];
 
   var chokepoints = [
@@ -925,8 +926,8 @@
     { label: "NDPR ALLOY", val: "$133.67/KG (+0.5% WK)", dir: "up", sentiment: "bad" },
     { label: "VIZHINJAM EXIM LAUNCH", val: "AUG 18, CUSTOMS CLEARED", dir: "up", sentiment: "good" },
     { label: "JNPT/MUNDRA SURCHARGE", val: "UP TO ₹30,000/CONTAINER", dir: "up", sentiment: "bad" },
-    { label: "L&amp;T (NSE)", val: "₹4,039.80 (-0.5%)", dir: "down", sentiment: "bad" },
-    { label: "RELIANCE (NSE)", val: "₹1,329.00 (+0.3%)", dir: "up", sentiment: "good" }
+    { label: "ADANI PORTS (NSE)", val: "₹1,681.00 (-0.8%)", dir: "down", sentiment: "bad" },
+    { label: "L&amp;T (NSE)", val: "₹4,039.80 (-0.5%)", dir: "down", sentiment: "bad" }
   ];
 
   var stories = [
@@ -1196,12 +1197,12 @@
     el.innerHTML = html;
   }
 
-  function renderIndiaCorporates() {
-    var el = document.getElementById("indiaCorporates");
+  function renderInfrastructureWatch() {
+    var el = document.getElementById("infrastructureWatch");
     if (!el) return;
     var html = "";
-    indiaCorporates.forEach(function (c) {
-      html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-exchange">' + c.ticker + '</span></div>' +
+    infrastructureWatch.forEach(function (c) {
+      html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-exchange">' + c.pillar + ' · ' + c.ticker + '</span></div>' +
         '<div class="idx-val">' + c.val + '</div>' +
         '<div class="idx-chg-line sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.chg + '</div></div>';
     });
@@ -1541,7 +1542,7 @@
 
   renderTicker();
   renderMinerals();
-  renderIndiaCorporates();
+  renderInfrastructureWatch();
   renderEquilibriumIndex();
   renderChokepoints();
   renderRiver();
