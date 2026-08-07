@@ -388,10 +388,11 @@
   .lead-row {
     display: grid;
     grid-template-columns: minmax(0,1.5fr) minmax(0,1fr);
+    align-items: start;
     gap: 30px;
-    padding-bottom: 26px;
+    padding-bottom: 18px;
     border-bottom: 1px solid var(--rule);
-    margin-bottom: 26px;
+    margin-bottom: 18px;
   }
   @media (max-width: 680px) {
     .lead-row { grid-template-columns: 1fr; }
@@ -515,7 +516,7 @@
     display: grid;
     grid-template-columns: minmax(0,1fr) auto;
     gap: 14px;
-    padding: 18px 0;
+    padding: 13px 0;
     border-bottom: 1px solid var(--rule);
   }
   .card[hidden] { display: none; }
@@ -818,9 +819,9 @@
           <div class="summary-box">
             <h3>Today's Read</h3>
             <ul>
-              <li>Chokepoint risk stayed elevated this week: the Strait of Hormuz remains open only to vessels moving under naval convoy, with roughly 65 ships still unable to leave the Gulf, and Houthi forces have widened targeting to Saudi oil tankers in the northern Red Sea, even as the Suez Canal shows genuine recovery, with second-quarter revenue up 13% quarter-on-quarter and oil tanker transits up 22.3% year-on-year.</li>
-              <li>Trade-policy and commodity friction widened: Section 301 forced-labor tariffs of 10% to 12.5% remain in force on 60 trading partners including India even as 25 state attorneys general sue to block them, China widened rare-earth export-control denials to 14 European Union companies, COMEX copper extended its record run on tariff speculation, and the Drewry World Container Index ended a three-week decline to rise 1% as Chinese port congestion tightened capacity.</li>
-              <li>India recorded a mixed cycle: chronic congestion at Mundra and Jawaharlal Nehru Port has pushed export surcharges to as much as ₹30,000 per container, prompting a ₹2,580 crore automated container-yard commitment from RSA Global, while Vizhinjam Port received Customs clearance to begin full export-import operations from August 18 and DP World advanced its $510 million Tuna-Tekra terminal at Kandla.</li>
+              <li>Chokepoints are diverging, not moving together: Hormuz and the Red Sea are tightening while Suez is genuinely recovering — read these as two separate risk pictures, not one regional trend.</li>
+              <li>Trade friction is broadening faster than it's being resolved: new tariffs, wider export controls and a record copper price are all pointing the same direction this week, with no comparable easing signal on the other side.</li>
+              <li>India's pattern this week is capacity outpacing policy: new port investment is landing even as existing terminals grow more congested — worth watching whether new capacity closes that gap or just adds to it.</li>
             </ul>
           </div>
         </div>
@@ -1253,7 +1254,9 @@
     var html = "";
     var ordered = stories.map(function (s, i) { return { story: s, idx: i }; })
       .sort(function (a, b) { return (b.story.impact || 0) - (a.story.impact || 0); });
-    ordered.forEach(function (o) { html += cardHtml(o.story, o.idx); });
+    // The single highest-impact story is already shown in the Lead block above —
+    // skip it here so it doesn't appear a second time as the first river card.
+    ordered.slice(1).forEach(function (o) { html += cardHtml(o.story, o.idx); });
     river.innerHTML = html;
 
     river.querySelectorAll(".save-btn").forEach(function (btn) {
