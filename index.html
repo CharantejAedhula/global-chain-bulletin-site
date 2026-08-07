@@ -94,47 +94,30 @@
     to { transform: translateX(-50%); }
   }
 
-  /* ---------- equilibrium index ---------- */
-  .equilibrium-band {
-    background: var(--surface-2);
-    border-bottom: 1px solid var(--rule);
-    padding: 10px 28px;
-  }
-  .equilibrium-inner {
-    max-width: 1240px;
-    margin: 0 auto;
-    display: flex;
+  /* ---------- equilibrium index (compact, lives in masthead-meta) ---------- */
+  .equilibrium-compact {
+    display: inline-flex;
     align-items: center;
-    gap: 14px;
-    flex-wrap: wrap;
-  }
-  .equilibrium-title {
-    font-family: var(--font-mono);
-    font-size: 10.5px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--ink-faint);
+    gap: 6px;
     flex-shrink: 0;
   }
-  .equilibrium-bar {
-    flex: 1 1 160px;
-    min-width: 120px;
-    height: 8px;
-    border-radius: 4px;
-    overflow: hidden;
+  .equilibrium-compact-bar {
     display: flex;
+    width: 60px;
+    height: 5px;
+    border-radius: 3px;
+    overflow: hidden;
     background: var(--surface);
+    flex-shrink: 0;
   }
-  .equilibrium-fill { height: 100%; transition: width .3s; }
+  .equilibrium-compact-fill { height: 100%; transition: width .3s; }
   .equilibrium-friction { background: var(--red); }
   .equilibrium-fluidity { background: var(--teal); }
-  .equilibrium-labels {
-    display: flex;
-    gap: 12px;
+  .equilibrium-compact-label {
     font-family: var(--font-mono);
-    font-size: 10.5px;
-    letter-spacing: 0.04em;
-    flex-shrink: 0;
+    font-size: 9.5px;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
   }
   .equilibrium-label-friction { color: var(--red); }
   .equilibrium-label-fluidity { color: var(--teal); }
@@ -745,20 +728,6 @@
   <div class="ticker-track" id="tickerTrack"></div>
 </div>
 
-<div class="equilibrium-band">
-  <div class="equilibrium-inner">
-    <span class="equilibrium-title">Global Supply Chain Equilibrium Index</span>
-    <div class="equilibrium-bar" role="img" aria-label="Friction versus fluidity balance for today's data">
-      <div class="equilibrium-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:50%"></div>
-      <div class="equilibrium-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:50%"></div>
-    </div>
-    <div class="equilibrium-labels">
-      <span class="equilibrium-label-friction" id="equilibriumFrictionLabel">— % Friction</span>
-      <span class="equilibrium-label-fluidity" id="equilibriumFluidityLabel">— % Fluidity</span>
-    </div>
-  </div>
-</div>
-
 <div class="masthead">
   <div class="masthead-row">
     <span>VOL. I · NO. 1</span>
@@ -774,6 +743,14 @@
   <h1>Global <em>Supply Chain</em> Bulletin</h1>
   <div class="masthead-meta">
     <button type="button" id="sourcesBtn" class="meta-label sources-trigger">Sources</button>
+    <div class="equilibrium-compact" role="img" aria-label="Friction versus fluidity balance for today's data">
+      <span class="equilibrium-compact-bar">
+        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:50%"></span>
+        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:50%"></span>
+      </span>
+      <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">—% F</span>
+      <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">—% Fl</span>
+    </div>
     <div class="date-line" id="clockLine">FRIDAY, AUGUST 7, 2026 · AS OF 14:40 IST</div>
   </div>
   <hr class="masthead-rule thick" />
@@ -840,6 +817,12 @@
       </div>
 
       <div class="panel">
+        <div class="panel-title"><h3>India Corporate Watch</h3><span>NSE</span></div>
+        <div id="indiaCorporates"></div>
+        <p class="panel-foot">Companies the government has flagged as critical to supply chain, port and green-energy infrastructure. Live NSE price, snapshot per briefing.</p>
+      </div>
+
+      <div class="panel">
         <div class="panel-title"><h3>Chokepoint Status</h3><span>Transit telemetry</span></div>
         <div id="chokepoints"></div>
         <p class="panel-foot" style="border-top:none; padding-top:0;">Vessel-transit and premium figures per Al Jazeera, USNI News, the Joint Maritime Information Center and Lloyd's Joint War Committee reporting — not self-reported by any state or carrier.</p>
@@ -879,6 +862,13 @@
     { name: "Gallium &amp; Germanium (China)", flag: "Export controlled", note: "Curbs remain in force; Shanghai Customs pursued a germanium-mislabeling enforcement case in June, and Beijing's suspension of blanket export denials for gallium, germanium and antimony to the US runs through November 27, 2026." }
   ];
 
+  var indiaCorporates = [
+    { name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,039.80", chg: "-0.54% today", dir: "down", sentiment: "bad" },
+    { name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,681.00", chg: "-0.82% today", dir: "down", sentiment: "bad" },
+    { name: "Adani Energy Solutions", ticker: "NSE: ADANIENSOL", val: "₹1,735.10", chg: "+0.29% today", dir: "up", sentiment: "good" },
+    { name: "Reliance Industries", ticker: "NSE: RELIANCE", val: "₹1,329.00", chg: "+0.31% today", dir: "up", sentiment: "good" }
+  ];
+
   var chokepoints = [
     { name: "Strait of Hormuz", status: "Naval convoy only, near-record-low transits", cls: "status-high", note: "Preliminary tracking shows 52 transits for the week of July 27-August 2, up from 28 the prior week but far below a pre-conflict range of roughly 73-138 a day; August 2 alone saw as few as two transits. The safe-passage memorandum of understanding collapsed in July, and roughly 65 ships that entered Gulf waters during a prior lull remain unable to leave — Lloyd's List Intelligence, NBC News." },
     { name: "Red Sea / northern Gulf", status: "Targeting widened to Saudi tankers", cls: "status-high", note: "Houthi forces declared a blockade of Saudi Arabia on July 20 and say they will now target Saudi oil tankers in the northern Red Sea; UK Maritime Trade Operations reported a further uncrewed-vessel attack near the Bab al-Mandab Strait on August 5 — Bloomberg, UKMTO." },
@@ -904,7 +894,9 @@
     { label: "SUEZ Q2 REVENUE", val: "+13% Q/Q ($1.26B)", dir: "up", sentiment: "good" },
     { label: "NDPR ALLOY", val: "$133.67/KG (+0.5% WK)", dir: "up", sentiment: "bad" },
     { label: "VIZHINJAM EXIM LAUNCH", val: "AUG 18, CUSTOMS CLEARED", dir: "up", sentiment: "good" },
-    { label: "JNPT/MUNDRA SURCHARGE", val: "UP TO ₹30,000/CONTAINER", dir: "up", sentiment: "bad" }
+    { label: "JNPT/MUNDRA SURCHARGE", val: "UP TO ₹30,000/CONTAINER", dir: "up", sentiment: "bad" },
+    { label: "L&amp;T (NSE)", val: "₹4,039.80 (-0.5%)", dir: "down", sentiment: "bad" },
+    { label: "RELIANCE (NSE)", val: "₹1,329.00 (+0.3%)", dir: "up", sentiment: "good" }
   ];
 
   var stories = [
@@ -1174,6 +1166,18 @@
     el.innerHTML = html;
   }
 
+  function renderIndiaCorporates() {
+    var el = document.getElementById("indiaCorporates");
+    if (!el) return;
+    var html = "";
+    indiaCorporates.forEach(function (c) {
+      html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-exchange">' + c.ticker + '</span></div>' +
+        '<div class="idx-val">' + c.val + '</div>' +
+        '<div class="idx-chg-line sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.chg + '</div></div>';
+    });
+    el.innerHTML = html;
+  }
+
   function renderEquilibriumIndex() {
     var frictionFill = document.getElementById("equilibriumFrictionFill");
     var fluidityFill = document.getElementById("equilibriumFluidityFill");
@@ -1190,8 +1194,8 @@
     var fluidityPct = 100 - frictionPct;
     frictionFill.style.width = frictionPct + "%";
     fluidityFill.style.width = fluidityPct + "%";
-    if (frictionLabel) frictionLabel.textContent = frictionPct + "% Friction";
-    if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fluidity";
+    if (frictionLabel) frictionLabel.textContent = frictionPct + "% F";
+    if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fl";
   }
 
   function renderSourcesModal() {
@@ -1481,6 +1485,7 @@
 
   renderTicker();
   renderMinerals();
+  renderIndiaCorporates();
   renderEquilibriumIndex();
   renderChokepoints();
   renderDeriskSignals();
