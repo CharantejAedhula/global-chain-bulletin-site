@@ -125,9 +125,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
-    padding: 24px 0 4px;
+    padding: 22px 0 6px;
     font-family: var(--font-mono);
   }
   .equilibrium-footer-title {
@@ -136,7 +136,17 @@
     text-transform: uppercase;
     color: var(--ink-faint);
   }
-  .equilibrium-footer .equilibrium-compact-bar { width: 140px; height: 6px; }
+  .equilibrium-side { flex-shrink: 0; }
+  .equilibrium-footer .equilibrium-compact-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .equilibrium-footer .equilibrium-compact-bar {
+    width: 160px;
+    height: 7px;
+    border: 1px solid var(--rule);
+  }
   .card-focused {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
@@ -713,7 +723,7 @@
     gap: 6px 10px;
   }
   .chokepoint-row:first-of-type { border-top: none; }
-  .chokepoint-name { font-size: 13px; }
+  .chokepoint-name { font-size: 13px; min-width: 0; overflow-wrap: break-word; }
   .chokepoint-note {
     flex-basis: 100%;
     color: var(--ink-faint);
@@ -727,7 +737,12 @@
     text-transform: uppercase;
     padding: 3px 8px;
     border-radius: 4px;
-    white-space: nowrap;
+    white-space: normal;
+    text-align: right;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    flex: 0 1 auto;
+    min-width: 0;
   }
   .status-high { background: var(--red-soft); color: var(--red); }
   .status-elevated { background: var(--accent-soft); color: var(--accent); }
@@ -848,29 +863,25 @@
         <p class="panel-foot" style="border-top:none; padding-top:0;">Real capacity-easing developments from today's reporting — not padded to match the row count of Chokepoint Status.</p>
       </div>
 
-      <div class="panel about-panel">
-        <div class="panel-title"><h3>About this briefing</h3></div>
-        <p>Curated and written by hand, not auto-scraped — built for anyone tracking supply chains, energy transition and trade policy, with India-tagged stories flagged inline.</p>
-        <p>Every story is credited to its source by name, linked to the original article. Ask for a refresh any time you want the day's stories updated.</p>
-      </div>
     </aside>
   </div>
 
   <div class="equilibrium-footer" role="img" aria-label="Friction versus fluidity balance for today's data">
     <span class="equilibrium-footer-title">Global Supply Chain Equilibrium Index</span>
+    <span class="equilibrium-side">
+      <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">63% Friction</span>
+    </span>
     <span class="equilibrium-compact-bar">
       <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:50%"></span>
       <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:50%"></span>
     </span>
-    <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">—% F</span>
-    <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">—% Fl</span>
+    <span class="equilibrium-side">
+      <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">37% Fluidity</span>
+    </span>
   </div>
 
   <footer>
-    Compiled Friday, August 7, 2026 · Not an official publication of any employer · Data snapshots dated where sourced<br />
-    © 2026 GLOBAL SUPPLY CHAIN BULLETIN · AN AI-ASSISTED PUBLICATION<br />
-    SOURCE CODE: GITHUB.COM/CHARANTEJAEDHULA/GLOBAL-CHAIN-BULLETIN-SITE<br />
-    KEYS: J/K TO MOVE · ENTER TO OPEN IN NEW TAB
+    Compiled Friday, August 7, 2026 · Not an official publication of any employer · Data snapshots dated where sourced · © 2026 GLOBAL SUPPLY CHAIN BULLETIN · AN AI-ASSISTED PUBLICATION · SOURCE CODE: GITHUB.COM/CHARANTEJAEDHULA/GLOBAL-CHAIN-BULLETIN-SITE · KEYS: J/K TO MOVE · ENTER TO OPEN IN NEW TAB
   </footer>
 </div>
 
@@ -1221,8 +1232,8 @@
     var fluidityPct = 100 - frictionPct;
     frictionFill.style.width = frictionPct + "%";
     fluidityFill.style.width = fluidityPct + "%";
-    if (frictionLabel) frictionLabel.textContent = frictionPct + "% F";
-    if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fl";
+    if (frictionLabel) frictionLabel.textContent = frictionPct + "% Friction";
+    if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fluidity";
   }
 
   function renderSourcesModal() {
