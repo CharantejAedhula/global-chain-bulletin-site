@@ -857,13 +857,7 @@
       <div class="panel">
         <div class="panel-title"><h3>Chokepoint Status</h3><span>Transit telemetry</span></div>
         <div id="chokepoints"></div>
-        <p class="panel-foot" style="border-top:none; padding-top:0;">Vessel-transit and premium figures per Al Jazeera, USNI News, the Joint Maritime Information Center and Lloyd's Joint War Committee reporting — not self-reported by any state or carrier.</p>
-      </div>
-
-      <div class="panel">
-        <div class="panel-title"><h3>De-Risking Signals</h3><span>Capacity easing</span></div>
-        <div id="deriskSignals"></div>
-        <p class="panel-foot" style="border-top:none; padding-top:0;">Real capacity-easing developments from today's reporting — not padded to match the row count of Chokepoint Status.</p>
+        <p class="panel-foot" style="border-top:none; padding-top:0;">Per Lloyd's List, UKMTO, Suez Canal Authority, Panama Canal Authority and TankerMap — not self-reported by any state or carrier.</p>
       </div>
 
     </aside>
@@ -911,17 +905,12 @@
   ];
 
   var chokepoints = [
-    { name: "Strait of Hormuz", status: "Naval convoy only, near-record-low transits", cls: "status-high", note: "Preliminary tracking shows 52 transits for the week of July 27-August 2, up from 28 the prior week but far below a pre-conflict range of roughly 73-138 a day; August 2 alone saw as few as two transits. The safe-passage memorandum of understanding collapsed in July, and roughly 65 ships that entered Gulf waters during a prior lull remain unable to leave — Lloyd's List Intelligence, NBC News." },
-    { name: "Red Sea / northern Gulf", status: "Targeting widened to Saudi tankers", cls: "status-high", note: "Houthi forces declared a blockade of Saudi Arabia on July 20 and say they will now target Saudi oil tankers in the northern Red Sea; UK Maritime Trade Operations reported a further uncrewed-vessel attack near the Bab al-Mandab Strait on August 5 — Bloomberg, UKMTO." },
-    { name: "Suez Canal", status: "Recovering, revenue up 13% quarter-on-quarter", cls: "status-elevated", note: "Second-quarter 2026 canal revenue reached $1.26 billion, up from $1.1 billion in the first quarter, as oil tanker transits rose 22.3% year-on-year to 1,526 vessels; overall traffic remains below pre-2023 levels — Suez Canal Authority / CAPMAS reporting." },
-    { name: "Panama Canal", status: "Draft limits tightened again for El Nino", cls: "status-elevated", note: "Maximum Neopanamax draft falls to 14.63 meters from August 26 and 14.48 meters from September 3 as Gatun Lake levels decline; the number of daily transit slots is unaffected — Panama Canal Authority." }
-  ];
-
-  var deriskSignals = [
-    { name: "Suez Canal carrier returns", status: "Selective resumption, revenue up 13% Q/Q", cls: "status-active", note: "Second-quarter 2026 canal revenue rose to $1.26 billion as CMA CGM and Maersk continue gradual, naval-escorted returns to Red Sea routing." },
-    { name: "Vizhinjam Port EXIM launch", status: "Customs-cleared for August 18 start", cls: "status-active", note: "Vizhinjam is converting from a transshipment-only hub into a full export-import gateway, having already cut into rival Cochin's comparable transshipment volumes in the 2026 financial year." },
-    { name: "DP World Tuna-Tekra terminal, Kandla", status: "$510 million mega-terminal under construction", cls: "status-active", note: "DP World's Hindustan Infralog joint venture is building a 2.19 million-TEU-per-year terminal able to berth 18,000-plus TEU vessels, targeted for completion in 2027." },
-    { name: "RSA Global empty-container yard, JNPA", status: "₹2,580 crore automated yard planned at Uran", cls: "status-active", note: "The project aims to ease chronic congestion at Mundra and Jawaharlal Nehru Port that has pushed container dwell times to 7-9 days versus a historical 3-4." }
+    { name: "Strait of Hormuz", status: "Naval convoy only, near-record-low transits", cls: "status-high", note: "52 transits last week vs a pre-conflict norm of 73-138/day; ~65 ships still stuck in the Gulf." },
+    { name: "Bab-el-Mandeb / Red Sea", status: "Targeting widened to Saudi tankers", cls: "status-high", note: "Houthi forces declared a blockade of Saudi Arabia July 20; a further attack was reported August 5." },
+    { name: "Suez Canal", status: "Recovering, revenue up 13% Q/Q", cls: "status-elevated", note: "Oil tanker transits up 22.3% year-on-year, though overall traffic stays below pre-2023 levels." },
+    { name: "Panama Canal", status: "Draft limits tightened for El Nino", cls: "status-elevated", note: "Max draft falls to 14.63m Aug 26 and 14.48m Sept 3; daily transit slots unaffected." },
+    { name: "Strait of Malacca", status: "Near seasonal peak congestion", cls: "status-elevated", note: "~277 vessels currently in the strait; bottlenecking at the 2.8km-wide Singapore chokepoint." },
+    { name: "Cape of Good Hope", status: "Record reroute traffic, now structural", cls: "status-elevated", note: "24M deadweight tonnes by April, adding 10-14 days and up to $1M in fuel per Asia-Europe voyage." }
   ];
 
   var tickerItems = [
@@ -1275,17 +1264,6 @@
     el.innerHTML = html;
   }
 
-  function renderDeriskSignals() {
-    var el = document.getElementById("deriskSignals");
-    if (!el) return;
-    var html = "";
-    deriskSignals.forEach(function (d) {
-      var note = d.note ? '<div class="chokepoint-note">' + d.note + '</div>' : "";
-      html += '<div class="chokepoint-row"><div class="chokepoint-name">' + d.name + '</div><div class="status-chip ' + d.cls + '">' + d.status + '</div>' + note + '</div>';
-    });
-    el.innerHTML = html;
-  }
-
   function cardHtml(story, idx) {
     var tags = story.cats.filter(function (c) { return c !== "india"; }).map(function (c) {
       return '<span class="cat">' + catLabel[c] + '</span>';
@@ -1566,7 +1544,6 @@
   renderIndiaCorporates();
   renderEquilibriumIndex();
   renderChokepoints();
-  renderDeriskSignals();
   renderRiver();
   renderSourcesModal();
   wireSources();
