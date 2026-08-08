@@ -153,9 +153,10 @@
     letter-spacing: 0.04em;
   }
   .equilibrium-footer .equilibrium-compact-bar {
-    width: 160px;
+    width: min(160px, 28vw);
     height: 7px;
     border: 1px solid var(--rule);
+    flex-shrink: 1;
   }
   .card-focused {
     outline: 2px solid var(--accent);
@@ -787,8 +788,10 @@
     color: var(--ink-faint);
     text-align: center;
     font-family: var(--font-mono);
-    white-space: nowrap;
-    overflow-x: auto;
+    white-space: normal;
+  }
+  @media (min-width: 640px) {
+    footer { white-space: nowrap; overflow-x: auto; }
   }
 </style>
 
