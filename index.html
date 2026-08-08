@@ -654,6 +654,25 @@
     padding: 10px 0;
     border-top: 1px solid var(--rule);
     min-width: 0;
+    cursor: pointer;
+  }
+  .idx-row .idx-chg-line,
+  .idx-row .idx-note,
+  .idx-row .idx-bar-track,
+  .chokepoint-row .chokepoint-note {
+    display: none;
+  }
+  .idx-row.expanded .idx-chg-line,
+  .idx-row.expanded .idx-note,
+  .idx-row.expanded .idx-bar-track,
+  .chokepoint-row.expanded .chokepoint-note {
+    display: block;
+  }
+  .idx-expand-hint {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--ink-faint);
+    margin-left: 4px;
   }
   .idx-row:first-of-type { border-top: none; }
   .idx-name { font-size: 13px; min-width: 0; overflow-wrap: break-word; }
@@ -750,6 +769,7 @@
     padding: 10px 0;
     border-top: 1px solid var(--rule);
     gap: 6px 10px;
+    cursor: pointer;
   }
   .chokepoint-row:first-of-type { border-top: none; }
   .chokepoint-name { font-size: 13px; min-width: 0; overflow-wrap: break-word; }
@@ -1252,7 +1272,7 @@
     var el = document.getElementById("mineralsIndex");
     var html = "";
     minerals.forEach(function (m) {
-      html += '<div class="idx-row"><div class="idx-name">' + m.name + ' [ALERT: ACTIVE DISRUPTION]<span class="idx-exchange">' + m.exchange + '</span></div>' +
+      html += '<div class="idx-row"><div class="idx-name">' + m.name + ' [ALERT: ACTIVE DISRUPTION]<span class="idx-expand-hint">›</span><span class="idx-exchange">' + m.exchange + '</span></div>' +
         '<div class="idx-val">' + m.val + '</div>' +
         '<div class="idx-chg-line sentiment-' + m.sentiment + '">PRICE STATUS: ' + m.priceStatus + '</div>' +
         '<div class="idx-chg-line sentiment-neutral">MACRO TRIGGER: ' + m.macroTrigger + '</div>' +
@@ -1286,12 +1306,25 @@
     });
   }
 
+  function wireExpandableRows(containerId, rowSelector) {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+    container.addEventListener("click", function (e) {
+      var row = e.target.closest(rowSelector);
+      if (!row || !container.contains(row)) return;
+      var wasExpanded = row.classList.contains("expanded");
+      row.classList.toggle("expanded", !wasExpanded);
+      var hint = row.querySelector(".idx-expand-hint");
+      if (hint) hint.textContent = wasExpanded ? "›" : "‹";
+    });
+  }
+
   function renderInfrastructureWatch() {
     var el = document.getElementById("infrastructureWatch");
     if (!el) return;
     var html = "";
     infrastructureWatch.forEach(function (c) {
-      html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-exchange">' + c.pillar + ' · ' + c.ticker + '</span></div>' +
+      html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span><span class="idx-exchange">' + c.pillar + ' · ' + c.ticker + '</span></div>' +
         '<div class="idx-val">' + c.val + '</div>' +
         '<div class="idx-chg-line sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.chg + '</div></div>';
     });
@@ -1349,7 +1382,7 @@
     var html = "";
     chokepoints.forEach(function (c) {
       var note = c.note ? '<div class="chokepoint-note">' + c.note + '</div>' : "";
-      html += '<div class="chokepoint-row"><div class="chokepoint-name">' + c.name + '</div><div class="status-chip ' + c.cls + '">' + c.status + '</div>' + note + '</div>';
+      html += '<div class="chokepoint-row"><div class="chokepoint-name">' + c.name + '<span class="idx-expand-hint">›</span></div><div class="status-chip ' + c.cls + '">' + c.status + '</div>' + note + '</div>';
     });
     el.innerHTML = html;
   }
@@ -1633,9 +1666,12 @@
   renderMinerals();
   renderMineralsMoreDropdown();
   wireMineralsMore();
+  wireExpandableRows("mineralsIndex", ".idx-row");
   renderInfrastructureWatch();
+  wireExpandableRows("infrastructureWatch", ".idx-row");
   renderEquilibriumIndex();
   renderChokepoints();
+  wireExpandableRows("chokepoints", ".chokepoint-row");
   renderRiver();
   renderSourcesModal();
   wireSources();
