@@ -677,12 +677,26 @@
   .idx-row:first-of-type { border-top: none; }
   .idx-name { font-size: 13px; min-width: 0; overflow-wrap: break-word; }
   .idx-exchange {
+    grid-column: 1 / -1;
+    display: block;
     font-family: var(--font-mono);
     font-size: 9px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--ink-faint);
-    margin-left: 6px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    margin-top: 2px;
+  }
+  .idx-severity {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 8.5px;
+    letter-spacing: 0.03em;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-right: 6px;
+    vertical-align: middle;
   }
   .idx-bar-track {
     grid-column: 1 / -1;
@@ -698,6 +712,13 @@
     font-variant-numeric: tabular-nums;
     text-align: right;
     white-space: nowrap;
+  }
+  /* Below this width, a nowrap price column can squeeze the name column down
+     to almost nothing, forcing single-character line breaks. Stacking removes
+     the squeeze entirely regardless of how long either piece of text is. */
+  @media (max-width: 440px) {
+    .idx-row { grid-template-columns: 1fr; }
+    .idx-row .idx-val { text-align: left; white-space: normal; margin-top: 2px; }
   }
   .idx-note {
     grid-column: 1 / -1;
@@ -821,7 +842,7 @@
 
 <div class="masthead">
   <div class="masthead-row">
-    <span>VOL. I &middot; NO. 5</span>
+    <span>VOL. I &middot; NO. 8</span>
     <div class="right-group">
       <label class="search-box">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="7"></circle><line x1="21" y1="21" x2="15" y2="15"></line></svg>
@@ -834,7 +855,7 @@
   <h1>Global <em>Supply Chain</em> Bulletin</h1>
   <div class="masthead-meta">
     <button type="button" id="sourcesBtn" class="meta-label sources-trigger">Sources</button>
-    <div class="date-line" id="clockLine">SATURDAY, AUGUST 8, 2026 &middot; AS OF 14:39 IST</div>
+    <div class="date-line" id="clockLine">MONDAY, AUGUST 10, 2026 &middot; AS OF 06:52 IST</div>
   </div>
   <hr class="masthead-rule thick" />
 </div>
@@ -864,9 +885,9 @@
       <div class="lead-row">
         <div class="lead">
           <div class="eyebrow">Lead &middot; Impact Score 10</div>
-          <h2>Hormuz crossings fall again to just 8 vessels on August 7 as Tehran calls Oman talks "positive" — the strait stays near-closed regardless</h2>
-          <p class="dek">The Strait of Hormuz saw only 8 confirmed crossings on August 7, down 33% from the day before, with most vessels using Iran's unilateral safe-passage scheme, according to tracking firm Kpler — continuing a week that totaled just 33 transits Monday through Thursday versus 50 in the prior week. Iran's government has called its talks with Oman on reopening the strait "advancing positively," and President Trump has renewed demands for a deal within days, warning of "total surrender" if talks collapse again. But the physical count keeps telling a flatter story than the diplomacy: the strait has been effectively closed since the US and Israel opened a war on Iran on February 28, and Tehran is reported to be rebuilding military strength during the current lull rather than standing down. War-risk insurers are still quoting $10 million to $14 million to cover a single large tanker's transit, roughly forty times pre-war rates, while Bab-el-Mandeb crossings 800 miles south moved the opposite direction, rising 18% to 26 vessels the same day.</p>
-          <p class="byline">Compiled from <a href="https://www.usnews.com/news/world/articles/2026-08-07/vessel-traffic-through-hormuz-dwindles-this-week-as-markets-watch-iran-oman-talks" target="_blank" rel="noopener">U.S. News &amp; World Report</a>, <a href="https://www.al-monitor.com/originals/2026/08/vessel-traffic-through-hormuz-dwindles-week-markets-watch-iran-oman-talks" target="_blank" rel="noopener">Al-Monitor</a> &amp; <a href="https://lmalloyds.com/safety-concerns-not-insurance-availability-driving-reduced-vessel-traffic-in-the-strait-of-hormuz/" target="_blank" rel="noopener">Lloyd's Market Association</a> · Updated today</p>
+          <h2>Iran hardens Hormuz reopening demands hours after the UAE confirms an Iranian missile struck an ADNOC tanker in the strait</h2>
+          <p class="dek">Iran's Supreme National Security Council added new preconditions on August 9 — a full lift of the US naval blockade, a troop withdrawal and a permanent end to the war — before it will fully reopen the Strait of Hormuz, hardening its position even as Tehran and Oman finalize coordinates for a provisional safe-transit route first announced August 5. Hours earlier, the UAE confirmed an Iranian missile struck an ADNOC tanker transiting the strait, with no casualties reported; ADNOC says more than a dozen of its vessels have now been hit since February. President Trump said August 9 the US is "low-keying" talks and shifting toward economic pressure instead. Ship-tracking data still shows crossings swinging between roughly 4 and 17 vessels a day, a fraction of the 130 to 140 daily transits the strait carried before the war, and war-risk insurers continue charging 7.5% to 10% of a tanker's hull value per transit, up from about 0.25% before the war.</p>
+          <p class="byline">Compiled from <a href="https://www.cnn.com/2026/08/09/world/live-news/iran-war-trump" target="_blank" rel="noopener">CNN</a>, <a href="https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2" target="_blank" rel="noopener">Al Jazeera</a> &amp; <a href="https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman" target="_blank" rel="noopener">Bloomberg</a> · Updated today</p>
         </div>
         <div>
           <div class="briefing-box">
@@ -879,9 +900,9 @@
           <div class="summary-box">
             <h3>Today's Read</h3>
             <ul>
-              <li>Officials keep describing progress that vessel-tracking data doesn't show: Tehran calls Oman talks "positive," Cairo reports canal revenue climbing, yet Hormuz crossings and Suez traffic both stayed deep below normal this week.</li>
-              <li>A war fought with missiles in the Gulf is also being fought with helium: Iran's March strike on Qatar's gas hub is still draining Samsung and SK Hynix stockpiles months later.</li>
-              <li>Trade barriers hardened on four separate continents this cycle — Canada, Brazil, the EU-China steel lane and 60 forced-labor economies — arriving together but stemming from unrelated disputes, not one shared shock.</li>
+              <li>Official claims and physical telemetry keep diverging in the same direction: Iran announces route progress while crossings stay near zero, and Suez reports revenue growth while independent trackers still show a sixty percent traffic gap.</li>
+              <li>Export controls keep tightening rather than easing — China's rare-earth licensing now reaches fourteen European firms and a tenth-of-a-percent content threshold, Nvidia's China chip sales stay throttled, and cobalt and copper both trade near cycle highs on quota and tariff pressure.</li>
+              <li>Single points of failure keep proving how far they reach: one Qatari strike is still resetting chipmakers' helium contracts six months later, and researchers now say ransomware crews are targeting industrial and logistics firms specifically for disruption leverage, not just data theft.</li>
             </ul>
           </div>
         </div>
@@ -924,14 +945,14 @@
     <span class="equilibrium-footer-title">Global Supply Chain Equilibrium Index</span>
     <span class="equilibrium-meter">
       <span class="equilibrium-side">
-        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">94% Friction</span>
+        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">88% Friction</span>
       </span>
       <span class="equilibrium-compact-bar">
-        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:94%"></span>
-        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:6%"></span>
+        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:88%"></span>
+        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:12%"></span>
       </span>
       <span class="equilibrium-side">
-        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">6% Fluidity</span>
+        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">12% Fluidity</span>
       </span>
     </span>
   </div>
@@ -950,196 +971,203 @@
   // No fixed row count — this array grows or shrinks with real conditions.
   // mineralsOther = everything currently stable/normal, surfaced only via the dropdown.
   var minerals = [
-    { name: "Helium (ultra-pure)", exchange: "Gasworld", val: "~2x baseline", dir: "up", sentiment: "bad",
-      priceStatus: "▲ Spot running ~2x pre-strike levels", macroTrigger: "Ras Laffan complex strike, Mar 2026 (~1/3 of global supply)",
-      downstreamShock: "Semiconductors, MRI-grade cooling", realityLog: "Samsung, SK Hynix drawing down reserves" },
-    { name: "Gallium &amp; Germanium (China)", exchange: "SMM China Spot", val: "$234.62 /kg (Ga)", dir: "down", sentiment: "bad",
-      priceStatus: "▼ Domestic benchmark -18.8%, export price flat ~$400/kg", macroTrigger: "MOFCOM export curbs, in force through Nov 27, 2026",
-      downstreamShock: "Semiconductors, fiber optics", realityLog: "China customs pursuing a mislabeling enforcement case" },
-    { name: "Cobalt", exchange: "LME · Fastmarkets MB", val: "$57,320 /t", dir: "up", sentiment: "bad",
-      priceStatus: "▲ +160% since Feb '25 low", macroTrigger: "DRC 2026-27 export quota (87,000t + 9,600t discretionary)",
-      downstreamShock: "EV batteries, grid storage", realityLog: "Only 44,333t of 2025 output actually exported" },
-    { name: "Dysprosium", exchange: "SMM China Spot", val: "$231 /kg", dir: "down", sentiment: "neutral",
-      priceStatus: "▼ -11.6% vs Jul, still license-constrained", macroTrigger: "China rare-earth export licensing regime (≥0.1% Chinese content)",
-      downstreamShock: "EV motors, wind turbines, defense", realityLog: "Second licensing wave delayed to Nov 10, 2026" },
-    { name: "Neodymium", exchange: "SMM China Spot", val: "$145.48 /kg", dir: "down", sentiment: "neutral",
-      priceStatus: "▼ -0.3% vs Jul; NdPr alloy +21% in a month", macroTrigger: "Same China export-licensing regime as Dysprosium",
-      downstreamShock: "EV motors, wind turbines", realityLog: "NdPr alloy benchmark separately at $97.40/kg" },
-    { name: "Nickel", exchange: "LME Official Cash", val: "$17,310 /t", dir: "up", sentiment: "bad",
-      priceStatus: "▲ Elevated, pulling back from week highs", macroTrigger: "Indonesia ore-quota policy tightening",
-      downstreamShock: "EV batteries, stainless steel", realityLog: "Spot pullback still above pre-policy baseline" },
-    { name: "Copper", exchange: "LME / COMEX", val: "$13,411 /t", dir: "up", sentiment: "bad",
-      priceStatus: "▲ Record high, +18.6% YTD", macroTrigger: "US tariff speculation (15% 2027, 30% 2028 proposed)",
-      downstreamShock: "Grid buildout, AI data centers, EVs", realityLog: "200,000+ tonnes hit US ports in July, largest since 2014" }
+    { name: "Helium (ultra-pure)", severity: "high", exchange: "Gasworld", val: "~2x baseline", dir: "up", sentiment: "bad",
+      priceStatus: "▲ Spot still roughly 2x pre-strike levels, six months on", macroTrigger: "Qatar's Ras Laffan complex strike, Mar 2026 — ~30% of Qatar's output (~11% of global supply) still offline",
+      downstreamShock: "Semiconductors, memory/storage, MRI-grade cooling", realityLog: "No confirmed restart date; Samsung and SK Hynix locked into long-term Linde/Air Products supply deals" },
+    { name: "Cobalt", severity: "high", exchange: "LME · Fastmarkets MB", val: "$57,320 /t", dir: "up", sentiment: "bad",
+      priceStatus: "▲ +160% since Feb '25 low, holding near cycle highs", macroTrigger: "DRC's ARECOMS confirmed a 96,600t total export cap for 2026-27, replacing the 2025 outright export ban",
+      downstreamShock: "EV batteries, grid storage", realityLog: "Quota now rations exports directly to cathode makers including CATL and Panasonic" },
+    { name: "Dysprosium", severity: "active", exchange: "SMM China Spot", val: "$231.35 /kg", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ -11.6% vs Jul on China's domestic benchmark, still historically elevated", macroTrigger: "China's Apr 2025 rare-earth export licensing regime, now widening further",
+      downstreamShock: "EV motors, wind turbines, defense", realityLog: "Ex-China price still $575-2,500+/kg — up to 11x the domestic print" },
+    { name: "Neodymium", severity: "active", exchange: "SMM China Spot", val: "$145.48 /kg", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ Steady vs Jul; China Rare Earth Price Index near 264.6 in early August", macroTrigger: "Same China export-licensing regime, now extended to 14 EU firms plus 5 more heavy elements from Nov 10",
+      downstreamShock: "EV motors, wind turbines", realityLog: "NdPr oxide $109-112/kg in China vs $120-140+/kg ex-China" },
+    { name: "Nickel", severity: "elevated", exchange: "LME Official Cash", val: "$16,965 /t", dir: "up", sentiment: "bad",
+      priceStatus: "▲ +1.4% on the day, having broken above $18,500-19,000/t earlier this year on quota news before easing", macroTrigger: "Indonesia's 2026 RKAB ore quota cut 30-34% to 260-270M wmt, down from 379M wmt in 2025",
+      downstreamShock: "EV batteries, stainless steel", realityLog: "Smelters still reporting tighter ore feed even as price has eased off its cycle high" },
+    { name: "Copper", severity: "elevated", exchange: "LME / COMEX", val: "$14,781 /t (COMEX)", dir: "up", sentiment: "bad",
+      priceStatus: "▲ Record COMEX print Aug 5, up 18.6% year-to-date", macroTrigger: "US Section 232 50% tariff on semi-finished copper, in force since Aug 2025",
+      downstreamShock: "Grid buildout, AI data centers, EVs", realityLog: "COMEX inventories hit a record 652,200t in July on tariff-front-running hoarding while LME stocks drain" },
+    { name: "Tungsten (APT)", severity: "high", exchange: "SMM China Spot", val: "$79,732 /t", dir: "up", sentiment: "bad",
+      priceStatus: "▲ Up more than 550% since China's early-2025 export controls began", macroTrigger: "China, over 75% of global supply, continues restricting outflows via its licensing regime",
+      downstreamShock: "Cutting tools, defense alloys, aerospace", realityLog: "European APT briefly topped $3,100/mtu in Q1 2026; Q1 prices rose 136.85% quarter-on-quarter" },
+    { name: "Antimony", severity: "active", exchange: "Fastmarkets", val: "$11,116 /t (99.65% Sb)", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ Correcting from 2025's spike as photovoltaic-glass destocking softens demand", macroTrigger: "China's Aug 2024 export licensing regime, ban suspended through Nov 27, 2026 under a trade truce",
+      downstreamShock: "Flame retardants, lead-acid batteries, solar glass", realityLog: "Still license-gated, not free trade — prices remain multiples above pre-2024 levels even after the correction" },
+    { name: "Graphite (battery anode)", severity: "high", exchange: "Benchmark Mineral Intel.", val: "$4,200-6,600 /t (battery-grade)", dir: "up", sentiment: "bad",
+      priceStatus: "▲ Battery-grade artificial anode holding a wide premium over raw flake material", macroTrigger: "China's Oct 2025 export controls plus a 220% US countervailing/anti-dumping duty on Chinese natural graphite anode, finalized Feb 2026",
+      downstreamShock: "EV battery cells", realityLog: "A two-sided chokepoint — Chinese export limits on one side, US duties on the other — threatens an estimated $300B/year of downstream EV-battery production outside China" },
+    { name: "Gallium &amp; Germanium", severity: "elevated", exchange: "SMM China Spot", val: "$234.62 /kg (Ga)", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ Ga down 18.8% m/m to $234.62/kg; Ge down 9.2% m/m to $3,104/kg, both easing but not normalized", macroTrigger: "China's export ban stays suspended through Nov 27, 2026 under the 2025 truce, but case-by-case licensing and a military-end-user ban persist",
+      downstreamShock: "Semiconductors, fiber optics, RF chips", realityLog: "Supply remains policy-contingent — a truce, not a resolution" }
   ];
 
   var mineralsOther = [
-    { name: "Lithium carbonate", exchange: "China Domestic Spot", val: "~$19,600 /t", note: "6-month low; CATL's Jianxiawo mine safety permit resumed Jun 29." },
-    { name: "Platinum", exchange: "NYMEX", val: "$1,758 /oz", note: "Routine spot print, no active disruption." },
-    { name: "Tungsten (APT)", exchange: "SMM China Spot", val: "$79,732 /t", note: "Correcting from the early-2026 supercycle spike." }
+    { name: "Lithium carbonate", exchange: "SMM China Spot", val: "~RMB 139,000 /t (~$19,400/t)", note: "Battery-grade spot trading in a normal bull-bear tug-of-war; no export curb or quota in force — supply-and-demand driven, not a geopolitical disruption." },
+    { name: "Platinum", exchange: "NYMEX", val: "$1,758 /oz", note: "WPIC forecasts a fourth straight annual supply deficit (297,000 oz in 2026), but it's a structural mine-supply shortfall, not an export ban or strike." },
+    { name: "Uranium (U3O8)", exchange: "TradeTech / UxC", val: "$86.48 /lb", note: "Holding a stable $84-87/lb range for months; Cameco absorbed a 12-day Saskatchewan facility outage without cutting guidance." }
   ];
 
   var infrastructureWatch = [
-    { pillar: "Maritime Gateway", name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,679.00", chg: "Aug 7, 2:06pm IST print — India's largest port operator by volume (~24% of national cargo vs ~6% for nearest rival JSW Infrastructure) and top weight in Nifty Transportation &amp; Logistics", dir: "down", sentiment: "bad" },
-    { pillar: "Heavy Build &amp; Capex", name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,040.00", chg: "Aug 7 session (prints ranged ₹4,040-4,058) — market cap ₹5.56 lakh crore; top construction/engineering weight in Nifty Infrastructure at 6.68%", dir: "down", sentiment: "bad" },
-    { pillar: "Corridor Inputs", name: "UltraTech Cement", ticker: "NSE: ULTRACEMCO", val: "₹12,050.00", chg: "Aug 5 session (prints ranged ₹12,050-12,198) — India's largest cement producer, 4.25% weight in Nifty Infrastructure", dir: "down", sentiment: "bad" },
-    { pillar: "Intermodal Freight", name: "Container Corp. of India", ticker: "NSE: CONCOR", val: "₹478.00", chg: "Latest available print (prev. close ₹480) — India's dominant rail-container logistics operator; NSE closed for the weekend ahead of this cycle's publish", dir: "down", sentiment: "bad" },
-    { pillar: "Surface Transport", name: "IRB Infrastructure", ticker: "NSE: IRB", val: "₹19.93", chg: "Aug 6 close (day range ₹19.92-20.08), near 52-wk low of ₹19.15 — market cap ₹24,071 Cr; among India's longest-standing listed highway/expressway developers", dir: "down", sentiment: "bad" }
+    { pillar: "Maritime Gateway", name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,679.00", chg: "Aug 7 close, -0.94% — July cargo volume rose 15% YoY to 46.3 MMT (184.4 MMT YTD); still India's largest port operator and top port weight in Nifty Transportation &amp; Logistics", dir: "down", sentiment: "bad" },
+    { pillar: "Heavy Build &amp; Capex", name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,056.00", chg: "Aug 7 close, -0.14% — won a major ADNOC Offshore contract Aug 4 and secured ONGC pipeline-replacement and wellhead-platform EPCIC orders Aug 7; top construction/engineering weight in Nifty Infrastructure at 6.68%", dir: "down", sentiment: "bad" },
+    { pillar: "Corridor Inputs", name: "UltraTech Cement", ticker: "NSE: ULTRACEMCO", val: "₹12,105.00", chg: "Aug 7 close, +0.25% — still India's largest cement producer at 4.25% weight in Nifty Infrastructure, though down ~6% over six months on pricing pressure", dir: "up", sentiment: "good" },
+    { pillar: "Intermodal Freight", name: "Container Corp. of India", ticker: "NSE: CONCOR", val: "₹459.35", chg: "Recent print, +2.58% — CONCOR raised FY27 volume-growth guidance to 18% from 9.5% after a Q1 EBITDA beat; Jefferies lifted its target to ₹650 (Buy) while Goldman Sachs kept a ₹480 Sell call", dir: "up", sentiment: "good" },
+    { pillar: "Surface Transport", name: "IRB Infrastructure", ticker: "NSE: IRB", val: "₹19.68", chg: "Aug 7 close, -1.30% — Q1 FY27 net profit rose 45% YoY to ₹306 crore on toll collections of ₹18.46 crore/day (+8% YoY); commissioned the Ganga Expressway's Meerut-Budaun stretch and began tolling TOT18 (Chandikhole-Bhadrak, NH-16) from Apr 1", dir: "down", sentiment: "bad" }
   ];
 
   var chokepoints = [
-    { name: "Strait of Hormuz", status: "Near-closed since Feb 28 war; 8 crossings Aug 7, -33% d/d", cls: "status-high", note: "Kpler tracking shows continued near-collapse — 33 transits Mon-Thu this week vs 50 the week before. Tehran calls Oman talks 'advancing positively' and Washington wants a deal within days, but the vessel count hasn't moved to match the diplomatic tone." },
-    { name: "Bab-el-Mandeb / Red Sea", status: "Crossings rose 18% to 26 vessels Aug 7 despite Houthi threat", cls: "status-elevated", note: "Houthi forces claim an August 5 missile strike on the Saudi tanker Wafaa near Yanbu; Riyadh has not confirmed it and the IMO reports no additional vessel attacks confirmed as of Aug 7. Lloyd's Market Association insurers have kept their high-risk notification line moved 800km north regardless." },
-    { name: "Suez Canal", status: "Q2 revenue up 13% Q/Q, traffic still ~60% below normal", cls: "status-elevated", note: "Suez Canal Authority reports Q2 revenue at $1.26B, full-year revenue up 23% to $4.67B; independent trackers BIMCO and Splash247 still put traffic ~60% below pre-2023 levels — both figures are real at once." },
-    { name: "Panama Canal", status: "Draft cut a fourth and fifth time since Dec 2025 for El Nino", cls: "status-elevated", note: "Max Neopanamax draft falls to 14.63m Aug 26 and 14.48m Sept 3; daily transit slots unaffected for now, per the Panama Canal Authority." },
-    { name: "Strait of Malacca", status: "Seasonal peak: 230-250 vessels/day vs 200-220 norm", cls: "status-elevated", note: "August-October is the strait's seasonal peak-flow window; no acute disruption reported this cycle, but analysts say traffic is approaching the lane's modelled safe-capacity ceiling." },
-    { name: "Cape of Good Hope", status: "Reroute now expected to persist through at least 2027", cls: "status-elevated", note: "Cape routing remains the default for the large majority of Asia-Europe and Asia-US East Coast strings as carriers continue avoiding both the Red Sea and Hormuz, adding 10-14 days per voyage." }
+    { name: "Strait of Hormuz", status: "Crossings still 4-17 vessels/day; Iran hardens reopening demands after UAE confirms a tanker strike", cls: "status-high", note: "Iran's Supreme National Security Council added new preconditions on August 9 — a full US naval blockade lift, troop withdrawal and permanent war end — before it will fully reopen the strait, even as Tehran and Oman finalize a provisional safe-transit route first announced August 5. The UAE confirmed the same day that an Iranian missile struck an ADNOC tanker transiting Hormuz; ADNOC says more than a dozen of its vessels have been hit since February. War-risk insurers still charge 7.5-10% of a tanker's hull value per transit, up from about 0.25% before the war." },
+    { name: "Bab-el-Mandeb / Red Sea", status: "Tanker transits -42% to 53 in blockade's first week; overall traffic stabilizing near 266/wk", cls: "status-elevated", note: "Houthi forces say they are widening their Saudi blockade into the northern Red Sea after an August 5 missile claim on the tanker Wafaa near Yanbu; Riyadh has not confirmed the strike, and no further named-vessel attacks have been reported since. Tanker-specific traffic remains sharply down even as overall crossings, including non-tanker traffic, have stabilized." },
+    { name: "Suez Canal", status: "Authority claims 18.5% H1 revenue growth; independent trackers still put traffic ~60% below normal", cls: "status-elevated", note: "Suez Canal Authority reports $449 million in toll revenue and 1,315 transits for the first half of fiscal 2025-26, up 18.5% and 5.8% year-on-year. Independent trackers BIMCO, Splash247 and gCaptain still put overall traffic roughly 60% below pre-2023 levels, and Maersk, CMA CGM and Hapag-Lloyd re-suspended Suez transits after March 2026 strikes on Iran reversed a brief January uptick — both figures are real at once." },
+    { name: "Panama Canal", status: "Draft cut to 48.5ft Aug 15, 48ft Aug 26, 47.5ft Sep 3; daily transit slots unaffected", cls: "status-elevated", note: "The Panama Canal Authority has cut Neopanamax draft limits four times in 2026 as El Niño-driven declines hit Gatun Lake, most recently to 49ft on July 24. Unlike the 2023-24 crisis, the authority says daily transit slot counts remain unaffected thanks to water-saving basins." },
+    { name: "Strait of Malacca", status: "Piracy incidents down 74% YoY in Q1 2026; seasonal peak traffic now approaching", cls: "status-elevated", note: "ReCAAP recorded 21 incidents in the Malacca and Singapore Straits in H1 2026 — 60% of all Asia incidents but sharply down from a year earlier — mostly opportunistic theft from bulkers and barges. A law-enforcement crackdown has held incidents down even as the August-October seasonal peak pushes traffic toward the lane's modelled safe-capacity ceiling." },
+    { name: "Cape of Good Hope", status: "Reroute now semi-permanent; Cape volumes hit a record 24M dwt in April", cls: "status-elevated", note: "A brief January 2026 return to Suez, when more than 70% of diverted traffic came back, reversed after March 2026 US-Israel strikes on Iran prompted major carriers including Maersk to re-divert around Africa. Cape volumes hit a record 24 million dwt in April, with roughly 70% of Red Sea-diverted freight still on the Cape route — this now looks like a parallel, semi-permanent routing system rather than a temporary detour." }
   ];
 
   var tickerItems = [
-    { label: "HORMUZ CROSSINGS", val: "8 VESSELS AUG 7, -33% D/D", dir: "down", sentiment: "bad" },
-    { label: "HORMUZ WAR-RISK INSURANCE", val: "$10-14M PER VLCC VOYAGE", dir: "up", sentiment: "bad" },
-    { label: "BAB-EL-MANDEB CROSSINGS", val: "26 VESSELS AUG 7, +18% D/D", dir: "up", sentiment: "neutral" },
+    { label: "HORMUZ CROSSINGS", val: "4-17 VESSELS/DAY, VS 130-140 PRE-WAR", dir: "down", sentiment: "bad" },
+    { label: "IRAN HORMUZ DEMANDS", val: "HARDENED AUG 9, BLOCKADE LIFT REQUIRED FIRST", dir: "up", sentiment: "bad" },
+    { label: "ADNOC TANKER STRIKE", val: "UAE CONFIRMS HIT, 12+ VESSELS STRUCK SINCE FEB", dir: "up", sentiment: "bad" },
+    { label: "HORMUZ WAR-RISK INSURANCE", val: "7.5-10% OF HULL VALUE, WAS 0.25%", dir: "up", sentiment: "bad" },
+    { label: "BAB-EL-MANDEB TANKER TRAFFIC", val: "-42% TO 53 TRANSITS, BLOCKADE WK1", dir: "down", sentiment: "bad" },
     { label: "UKRAINE GRAIN EXPORTS", val: "SEEN DOWN 54% TO 29.6MT, FY27", dir: "down", sentiment: "bad" },
-    { label: "HELIUM (ULTRA-PURE)", val: "SPOT ~2X SINCE MAR QATAR STRIKE", dir: "up", sentiment: "bad" },
-    { label: "LME COPPER", val: "$13,411/T CASH CLOSE (AUG 7)", dir: "up", sentiment: "bad" },
-    { label: "CANADA TARIFF", val: "50% ON $20B GOODS FROM AUG 19", dir: "up", sentiment: "bad" },
-    { label: "BRAZIL TARIFF", val: "25% EFFECTIVE JUL 22", dir: "up", sentiment: "bad" },
+    { label: "IEEPA TARIFF REFUNDS", val: "$100B+ PAID, UP TO $175B AT STAKE", dir: "up", sentiment: "good" },
+    { label: "SENATE RUSSIA OIL SANCTIONS BILL", val: "PASSED 86-11, HOUSE VOTE PENDING SEPT", dir: "up", sentiment: "bad" },
+    { label: "CANADA TARIFF", val: "50% ON $20B GOODS FROM AUG 19, DEAL SOUGHT", dir: "up", sentiment: "bad" },
     { label: "EU-CHINA STEEL QUOTA", val: "CUT 47%, OUT-OF-QUOTA DUTY TO 50%", dir: "up", sentiment: "bad" },
-    { label: "FORCED-LABOR TARIFF", val: "60 COUNTRIES (10-12.5%)", dir: "up", sentiment: "bad" },
-    { label: "FAO FOOD PRICE INDEX", val: "131.1, 3-YEAR HIGH (JUL)", dir: "up", sentiment: "bad" },
-    { label: "COBALT", val: "~$26/LB (+160% FROM FEB'25 LOW)", dir: "up", sentiment: "bad" },
-    { label: "NICKEL (LME)", val: "$17,310/T (AUG 5)", dir: "up", sentiment: "bad" },
-    { label: "TAIWAN WAR GAMES", val: "ANTI-BLOCKADE DRILLS UNDERWAY", dir: "up", sentiment: "bad" },
-    { label: "SCARBOROUGH SHOAL", val: "PLA WARSHIPS, BOMBERS SURGE AUG 1-3", dir: "up", sentiment: "bad" }
+    { label: "HELIUM (ULTRA-PURE)", val: "SPOT ~2X BASELINE, SIX MONTHS ON", dir: "up", sentiment: "bad" },
+    { label: "LME COPPER", val: "$14,781/T COMEX, RECORD ON TARIFF HOARDING", dir: "up", sentiment: "neutral" },
+    { label: "LME NICKEL", val: "$16,965/T ON INDONESIA QUOTA CUT", dir: "up", sentiment: "bad" },
+    { label: "CHINA RARE EARTH CURBS", val: "NOW COVER 14 EU FIRMS, NOV 10 DEADLINE", dir: "up", sentiment: "bad" },
+    { label: "TAIWAN WAR GAMES", val: "HAN KUANG DRILLS RUN AUG 5-14", dir: "up", sentiment: "bad" }
   ];
 
   var stories = [
     {
       cats: ["conflict"], india: false, impact: 10, signal: "friction",
-      src: "U.S. News &amp; World Report", time: "Updated today",
-      title: "Hormuz crossings fall again to just 8 vessels on August 7 as Tehran calls Oman talks 'positive' — the strait stays near-closed regardless",
-      dek: "The Strait of Hormuz saw only 8 confirmed crossings on August 7, down 33% from the day before, with most vessels using Iran's unilateral safe-passage scheme, according to tracking firm Kpler — continuing a week that totaled just 33 transits Monday through Thursday versus 50 in the prior week. Iran's government has called its talks with Oman on reopening the strait 'advancing positively,' and President Trump has renewed demands for a deal within days, warning of 'total surrender' if talks collapse again. But the physical count keeps telling a flatter story than the diplomacy: the strait has been effectively closed since the US and Israel opened a war on Iran on February 28, and Tehran is reported to be rebuilding military strength during the current lull rather than standing down. War-risk insurers are still quoting $10 million to $14 million to cover a single large tanker's transit.",
-      url: "https://www.usnews.com/news/world/articles/2026-08-07/vessel-traffic-through-hormuz-dwindles-this-week-as-markets-watch-iran-oman-talks"
+      src: "CNN", time: "Updated today",
+      title: "Iran hardens Hormuz reopening demands hours after the UAE confirms an Iranian missile struck an ADNOC tanker in the strait",
+      dek: "Iran's Supreme National Security Council added new preconditions on August 9 — a full lift of the US naval blockade, a troop withdrawal and a permanent end to the war — before it will fully reopen the Strait of Hormuz, hardening its position even as Tehran and Oman finalize coordinates for a provisional safe-transit route first announced August 5. Hours earlier, the UAE confirmed an Iranian missile struck an ADNOC tanker transiting the strait, with no casualties reported; ADNOC says more than a dozen of its vessels have now been hit since February. President Trump said August 9 the US is 'low-keying' talks and shifting toward economic pressure instead. Ship-tracking data still shows crossings swinging between roughly 4 and 17 vessels a day, a fraction of the 130 to 140 daily transits the strait carried before the war, and war-risk insurers continue charging 7.5% to 10% of a tanker's hull value per transit, up from about 0.25% before the war.",
+      url: "https://www.cnn.com/2026/08/09/world/live-news/iran-war-trump"
     },
     {
       cats: ["conflict"], india: false, impact: 9, signal: "friction",
       src: "Bloomberg", time: "Updated today",
-      title: "Ukraine's farm exports set to fall by more than half this season as Russian strikes keep pounding Odesa's ports",
-      dek: "Kyiv now expects total agricultural shipments to drop 54% this marketing year to about 29.6 million tonnes, down from an earlier 64.4 million tonne forecast, with wheat exports alone seen falling 53% to 8.3 million tonnes, after sustained Russian missile and drone strikes on the port cluster around Odesa that handles roughly 90% of Ukrainian grain shipments. Greater Odesa's ports have taken more than 180 strikes so far in 2026, nearly matching all of 2025, with direct agricultural sector losses now exceeding $11 billion. Alternative rail and river routes through Romania are not expected to reach even half of lost Black Sea capacity until the end of August at the earliest.",
+      title: "Ukraine's farm exports still set to fall by more than half as Russian strikes hit Odesa's port cluster and a key Taman terminal",
+      dek: "Kyiv still expects total agricultural exports to drop 54% this marketing year to about 29.6 million tonnes, with wheat exports alone falling 53% to 8.3 million tonnes, as Russian missiles keep hitting the Odesa port cluster that handles roughly 90% of Ukraine's grain shipments. Ukrainian drone strikes have separately damaged Russia's Demetra grain terminal at the port of Taman, while Kerch Strait and Sea of Azov shipping traffic has been suspended since July 10. Ukraine's agriculture minister says alternative rail and road export routes will not reach full capacity until at least the end of August, and even then would replace only about half of what the Black Sea ports used to move.",
       url: "https://www.bloomberg.com/news/articles/2026-08-07/ukraine-grain-exports-to-slump-after-russian-strikes-on-odesa"
     },
     {
       cats: ["tech", "conflict"], india: false, impact: 8, signal: "friction",
-      src: "Bne IntelliNews", time: "Ongoing",
-      title: "A five-month-old missile strike on a Qatari gas complex is still draining Samsung and SK Hynix helium stockpiles",
-      dek: "Iranian strikes on Qatar's Ras Laffan Industrial City in early March knocked out a facility that supplied roughly a third of the world's helium and about 65% of South Korea's — feedstock that Samsung's M15/M16 memory plants and SK Hynix depend on directly for chip manufacturing. Spot prices for ultra-pure helium have roughly doubled since the strike, and more than $200 billion has been wiped off the two companies' combined market value at various points this year. Both firms hold roughly six months of inventory at normal draw rates, but industry estimates put the effective buffer at three to four months given how hard AI-chip production is running — placing the acute phase of the shortage around now, late summer 2026.",
-      url: "https://www.intellinews.com/how-iran-s-strike-on-qatar-is-choking-the-global-ai-economy-433882/"
-    },
-    {
-      cats: ["conflict"], india: false, impact: 8, signal: "friction",
-      src: "Bloomberg", time: "3 days ago",
-      title: "Houthis claim a strike on a Saudi tanker near Yanbu as Bab-el-Mandeb crossings rise 18% despite the threat",
-      dek: "Yemen's Houthi movement said its forces struck the Saudi-flagged tanker Wafaa with a ballistic missile near Yanbu on August 5, the latest claim since it declared a blockade of Saudi Arabia in July after Riyadh began diverting tankers away from the Bab-el-Mandeb chokepoint; Saudi Arabia has not confirmed the strike, and the International Maritime Organisation reported no additional vessel attacks confirmed as of August 7. Independent of the claim, Kpler tracking shows Bab-el-Mandeb crossings actually rose 18% to 26 vessels on August 7, while the Joint War Committee of the Lloyd's Market Association has kept its Red Sea high-risk notification line roughly 800 kilometers further north regardless of whether the specific attack is verified.",
-      url: "https://www.bloomberg.com/news/articles/2026-08-05/yemen-s-houthis-say-they-ll-target-tankers-in-northern-red-sea"
+      src: "Rare Earth Exchanges", time: "Since March, ongoing",
+      title: "Helium shortage from Iran's Qatar strike drags into its sixth month as Micron, Seagate and Western Digital pass on 20-30% cost hikes",
+      dek: "Iranian strikes on Qatar's Ras Laffan Industrial City in early March knocked out a facility that supplied roughly a third of the world's helium and about 65% of South Korea's — feedstock that Samsung's memory plants and SK Hynix depend on directly. Spot prices for ultra-pure helium have roughly doubled since the strike and stayed elevated, and memory and storage makers including Micron, Seagate and Western Digital now report passing 20% to 30% cost increases through on their 2026 production allocations. Samsung and SK Hynix have since locked in long-term supply agreements with US-based suppliers Linde and Air Products, but the Ras Laffan facility itself is expected to run about 15% below its pre-war output for at least five more years even once the wider war ends.",
+      url: "https://rareearthexchanges.com/news/when-a-commodity-becomes-rare-the-helium-crisis-the-ras-laffan-shock-and-the-fragility-of-global-supply/"
     },
     {
       cats: ["geopolitics"], india: false, impact: 8, signal: "friction",
-      src: "Holland &amp; Knight", time: "3 weeks ago",
-      title: "US imposes 50% tariffs on Canadian goods that override USMCA protections entirely, effective August 19",
-      dek: "President Trump's Section 338 proclamations, signed July 20, add a 50% duty on roughly $20 billion of Canadian goods spanning dairy, alcohol, motor vehicles, cement, plywood and dozens of other categories, taking effect August 19 absent a negotiated deal. Trade lawyers note the duties apply cumulatively and regardless of USMCA origin certification, meaning goods that currently clear duty-free under the trade agreement will still face the new tariff. Energy, potash, and goods already covered by Section 232 tariffs (steel, aluminum, copper, semiconductors, pharmaceuticals) are explicitly excluded.",
-      url: "https://www.hklaw.com/en/insights/publications/2026/07/50-percent-opening-bid-canadian-imports-subject-to-section-338-tariffs"
+      src: "Bloomberg", time: "Updated today",
+      title: "Canada races to strike a deal before Washington's 50% tariff on $20 billion of its goods takes effect August 19",
+      dek: "President Trump's Section 338 proclamations add a 50% duty on roughly $20 billion of Canadian goods — dairy, alcohol, motor vehicles, cement and dozens of other categories — effective August 19 unless a deal is reached first, and the duties apply even to goods that currently qualify for duty-free treatment under the US-Mexico-Canada trade agreement. Canadian negotiators are racing to close a deal before the deadline, Bloomberg reported August 7, with no agreement confirmed as of this week. Products already covered by Section 232 tariffs — steel, aluminum, copper and semiconductors — remain excluded, as does energy and potash.",
+      url: "https://www.bloomberg.com/news/articles/2026-08-07/canada-races-for-deal-before-trump-s-50-tariff-inflames-feud"
     },
     {
       cats: ["geopolitics"], india: false, impact: 8, signal: "friction",
-      src: "Discovery Alert", time: "This week",
-      title: "EU slashes tariff-free steel quota for China by nearly half, but rings-fences half the remaining quota for FTA partners",
-      dek: "Brussels' revised steel safeguard framework, in force since July 1, cuts the tariff-free import quota by 47% to 18.3 million tonnes across 26 product categories and doubles the out-of-quota duty from 25% to 50% through 2031, as the EU's trade deficit with China widens toward an estimated 360 billion euros for 2026. Half the remaining quota is now reserved exclusively for free-trade-agreement partners including India, Turkey, South Korea, the UK and Brazil, splitting global steel exporters into two access tiers. China's commerce ministry called the move protectionism that could 'seriously disrupt' global steel trade.",
-      url: "https://discoveryalert.com.au/eu-steel-quotas-china-exports-melt-pour-rule-turkey/"
+      src: "Customs Support Group", time: "This month",
+      title: "EU cuts tariff-free steel quota for China by nearly half, doubles the out-of-quota duty to 50%",
+      dek: "Brussels' revised steel safeguard framework, in force since July 1, cuts the tariff-free import quota by 47% to 18.3 million tonnes across 30 product categories and raises the out-of-quota duty from 25% to 50% through 2031. Countries that supplied 5% or more of a given steel product in 2022-2024 get their own country-specific quota; everyone else competes for the remainder first-come, first-served. China is expected to lose the most access under the new system. Beijing's commerce ministry has called the move protectionism that could 'seriously disrupt' global steel trade.",
+      url: "https://www.customssupport.com/eu-steel-safeguard-regulation-importers-2026/"
     },
     {
       cats: ["conflict", "tech"], india: false, impact: 8, signal: "friction",
-      src: "Washington Times", time: "2 days ago",
-      title: "Taiwan tests relocating weapons production and throttles mobile data in war games rehearsing a Chinese blockade",
-      dek: "Taiwan's Han Kuang defense exercises this week went beyond past drills by testing the relocation of weapons production lines and conversion of civilian factories for military use, aiming to sustain output if Chinese strikes hit supply hubs, while also deliberately slowing mobile internet speeds for the first time to test communications under bandwidth scarcity. The drills follow a stretch of intensified Chinese grey-zone activity around the island. Taiwan-based TSMC still produces more than 90% of the world's most advanced semiconductors, and the strait itself carries close to 30% of global container traffic, leaving both chip and shipping networks exposed to any real disruption.",
-      url: "https://www.washingtontimes.com/news/2026/aug/6/taiwans-annual-military-drills-focus-civilian-resilience-window/"
+      src: "Focus Taiwan", time: "Ongoing, through Aug 14",
+      title: "Taiwan's biggest-ever war games run through August 14 with unscripted drills and a new command built to counter a Chinese blockade",
+      dek: "Taiwan's Han Kuang 42 exercises, running August 5 through 14, mobilize more than 20,000 reservists and debut a new Littoral Combat Command, and for the first time weave in unscripted 'surprise' scenarios rather than the fully rehearsed drills of past years — testing whether weapons production can relocate and civilian factories convert to military use if Chinese strikes hit supply hubs. The drills also deliberately throttled mobile internet speeds to gauge how the public copes with the kind of bandwidth scarcity a cyberattack could cause. Beijing's state broadcaster released footage August 1 of an amphibious assault drill integrating drones and quadrupedal unmanned ground vehicles. Taiwan-based TSMC still produces more than 90% of the world's most advanced semiconductors, and the strait carries close to 30% of global container traffic.",
+      url: "https://focustaiwan.tw/politics/202608020004"
+    },
+    {
+      cats: ["geopolitics", "outlook"], india: false, impact: 8, signal: "fluidity",
+      src: "CNBC", time: "This week",
+      title: "US has now built formal refund plumbing for the $166 billion in tariffs the Supreme Court ruled illegal, with over $100 billion already repaid",
+      dek: "US Customs and Border Protection has repaid more than $100 billion in duties collected under the International Emergency Economic Powers Act, over half of the roughly $166 billion the Supreme Court found was collected without legal authority when it struck down the IEEPA tariff regime in February. CBP has now operationalized a formal digital refund process — called CAPE — inside its ACE portal, with industry estimates putting total potential refunds as high as $175 billion once all claims are processed. Some of the largest repayments have gone to Apple, at roughly $2.2 billion, along with Amazon, Nike and General Motors. The ruling forced the administration to pivot to other tariff authorities, including the Section 301 forced-labor duties now themselves facing a legal challenge from 25 states.",
+      url: "https://www.cnbc.com/2026/08/05/trump-tariffs-refunds-ieepa-lawsuit.html"
     },
     {
       cats: ["conflict"], india: false, impact: 8, signal: "friction",
-      src: "USNI News", time: "This week",
-      title: "Chinese warships and bombers surge to Scarborough Shoal for drills days after the third clash with Manila in a week",
-      dek: "China sortied a guided-missile destroyer, a landing platform dock, a frigate, a corvette and H-6K bombers carrying anti-ship cruise missiles to Scarborough Shoal for exercises in early August, a show of force following a week in late July in which Chinese and Philippine vessels clashed three times, including water-cannon incidents the Philippine Coast Guard says its counterpart fired for a second straight day. Beijing has since warned Manila of 'bitter consequences' after the latest confrontation. Talks toward a regional code of conduct remain stalled while daily friction at sea keeps outpacing diplomatic progress, and joint Philippines-US-Japan maritime drills have followed.",
+      src: "USNI News", time: "Updated this week",
+      title: "US calls China's new 'nature reserve' rules at Scarborough Shoal 'destabilizing' after Beijing surged warships and bombers to the reef",
+      dek: "China sent a Type 052D destroyer, a Type 071 landing platform dock, a frigate and a corvette to Scarborough Shoal over July 31-August 1, alongside H-6K bombers carrying anti-ship missiles, days after the Philippines formally filed a UN maritime baseline claim to the shoal. Beijing has since imposed new 'nature reserve' rules barring Filipino fishing and mining around the reef without Chinese approval, prompting the US State Department to call the move 'destabilizing' on August 9. The Philippines, US and Japan have held joint maritime drills in response, while talks toward a regional code of conduct remain stalled and no new vessel clashes have been reported since early August.",
       url: "https://news.usni.org/2026/08/03/chinese-warships-bombers-surge-to-scarborough-shoal-for-drills"
     },
     {
+      cats: ["geopolitics", "tech"], india: false, impact: 8, signal: "friction",
+      src: "Morgan Lewis", time: "This month",
+      title: "China widens rare-earth export curbs to 14 EU firms and sets a November 10 deadline for licensing five more heavy elements",
+      dek: "Beijing extended its rare-earth export licensing requirements to 14 European firms in July, after adding 10 US companies in June, and a new control wave covering five additional heavy rare earths — holmium, erbium, thulium, europium and ytterbium — plus related processing equipment takes effect November 10. Under the expanded rules, any foreign product containing 0.1% or more Chinese-origin rare-earth content now requires a Chinese export license, extending Beijing's reach deep into global EV, defense and electronics supply chains. China's Rare Earth Price Index held near 264.6 in early August, with heavy rare earths still the tightest chokepoint: dysprosium trades at $205-211/kg inside China but $575 to more than $2,500/kg outside it. Two Japanese nationals were separately detained in Dalian in May over alleged rare-earth smuggling.",
+      url: "https://www.morganlewis.com/pubs/2026/07/recent-china-export-control-actions-signal-active-enforcement-for-rare-earths-and-strategic-minerals"
+    },
+    {
+      cats: ["conflict"], india: false, impact: 7, signal: "friction",
+      src: "Lloyd's List Intelligence", time: "Aug 5, unconfirmed by Riyadh",
+      title: "Houthis claim a strike on a Saudi tanker near Yanbu and vow to widen their blockade into the northern Red Sea",
+      dek: "Yemen's Houthi movement said its forces struck the Saudi-flagged tanker Wafaa with a ballistic missile near Yanbu on August 5, and separately vowed to expand its blockade of Saudi Arabia into the northern Red Sea to also threaten Suez Canal-bound traffic. Saudi Arabia has not confirmed the strike, and vessel-tracking shows mainstream tanker traffic through Bab-el-Mandeb fell 42% to 53 transits in the blockade's first week, even as overall crossings — including non-tanker traffic — held closer to 266 vessels over the most recent seven days. No further named-vessel attacks have been reported in the five days since, but the stated intent to widen the strike zone toward Suez-adjacent waters remains a live threat vector.",
+      url: "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-6-august-2026"
+    },
+    {
       cats: ["geopolitics"], india: false, impact: 7, signal: "friction",
-      src: "Rare Earth Exchanges", time: "This week",
-      title: "China's rare-earth price index holds near multi-year highs after the NdPr alloy benchmark jumped 21% in a month",
-      dek: "China's Rare Earth Price Index has held near its highest sustained level of the year, with heavy rare earths the tightest chokepoint — dysprosium metal at $231.35/kg and neodymium metal at $145.48/kg on China's domestic SMM benchmark as of August 3, both down slightly from July but still elevated. Separately, the NdPr oxide benchmark rose 21.4% in the month through July 1 to $97.40/kg, and Beijing's dual-use export controls are keeping rare-earth shipments to Japan at zero, extending constraints beyond what Western buyers had priced into long-term supply contracts.",
-      url: "https://rareearthexchanges.com/news/china-rare-earth-price-index-holds-near-recent-highs-as-heavy-rare-earths-remain-strategically-tight/"
+      src: "CNBC", time: "Aug 7, House vote pending",
+      title: "Senate's 86-11 vote to threaten 100% tariffs on India, China and other Russian oil buyers now waits on a House that's in recess until September",
+      dek: "The Senate passed the Sanctioning Russia and Iran Act in an 86-11 landslide on August 7, a bill that would let the president impose tariffs of up to 100% on the countries that buy the most Russian oil and gas — currently India, China, Azerbaijan, Hungary and Slovakia. The bill exempts countries sourcing less than 15% of their natural gas from Russia that are taking 'significant' steps to cut imports further, and separately targets Russian President Vladimir Putin, oligarchs and financial institutions with additional sanctions. The House will not vote until at least early September due to recess, and the bill would still need the president's signature before any tariff could take effect — leaving it a forward-looking threat rather than active policy for now.",
+      url: "https://www.cnbc.com/2026/08/07/russia-sanctions-bill-lindsey-graham-senate.html"
+    },
+    {
+      cats: ["geopolitics"], india: false, impact: 7, signal: "friction",
+      src: "Manufacturing Dive", time: "This month",
+      title: "25 states sue to block US forced-labor tariffs, calling them an illegal do-over of the tariffs the Supreme Court struck down",
+      dek: "The Office of the US Trade Representative's Section 301 forced-labor tariffs have applied since July 24 to 60 economies covering about 99.4% of US imports — 10% for countries with at least a partial forced-labor import ban already in place, 12.5% for those without one, stacked on top of each country's existing tariff rate. A coalition of 25 states led by New York sued the administration on August 4, arguing the levies are an illegal attempt to revive the tariff regime the Supreme Court struck down under IEEPA in February. The lawsuit says the administration completed forced-labor investigations into 60 economies in about two and a half months, skipped required country-specific consultations, and set rates with no explanation of how they would reduce forced labor.",
+      url: "https://www.manufacturingdive.com/news/25-states-sue-trump-over-section-301-forced-labor-tariffs/826963/"
     },
     {
       cats: ["tech", "geopolitics"], india: false, impact: 7, signal: "friction",
-      src: "Al Jazeera", time: "Ongoing",
-      title: "US extraterritorial chip ban keeps squeezing Nvidia's China business as Blackwell licensing rules bite",
-      dek: "US Commerce Department rules require an export license for any transfer of Nvidia's most advanced processors, including the Blackwell series, to entities headquartered in China or Macau — closing a loophole that had let Chinese firms acquire restricted chips through overseas subsidiaries. Nvidia, which once commanded more than 90% of the Chinese AI chip market, has seen that share fall to roughly 50% as customers who need long-term procurement certainty hold back from ordering against a policy that could shift again within months. China separately banned imports of some Nvidia chips outright in May, underscoring Beijing's own push for domestic alternatives.",
-      url: "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china"
+      src: "Bloomberg", time: "Updated this week",
+      title: "Washington reviews how Chinese AI firms rent Nvidia chips abroad to dodge export limits, as approved H200 shipments stay 'trivial'",
+      dek: "US Commerce Department enforcement officials are scrutinizing how Chinese AI firms access Nvidia's most advanced chips by renting compute capacity from offshore data centers, Bloomberg reported August 7, after recent Chinese AI breakthroughs raised concern the practice is undercutting export controls. Despite roughly ten Chinese firms being cleared to buy H200 chips under a licensing scheme carrying a 25% fee, a US trade official said in July that actual shipments remain 'very few' months after approval. Nvidia's share of the Chinese AI chip market, once above 90%, has fallen to roughly 50% as customers hold back from ordering against export rules that could shift again within months.",
+      url: "https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs"
     },
     {
-      cats: ["geopolitics"], india: false, impact: 7, signal: "friction",
-      src: "Discovery Alert", time: "This month",
-      title: "Congo's cobalt export quota keeps global supply tight as prices hold near a multi-year high",
-      dek: "The Democratic Republic of Congo's hard export ceiling of 96,600 tonnes for 2026 and 2027 — split into 87,000 tonnes distributed pro rata to producers and 9,600 tonnes held under regulator Arecoms' discretionary control — continues to constrain supply from the country that produces roughly 70% of the world's cobalt. The DRC produced about 100,015 tonnes of cobalt in 2025 but exported only 44,333 tonnes, meaning more than half of domestic output stayed off world markets. Cobalt prices have climbed about 160% from February 2025 lows to roughly $26 a pound as the quota framework persists into a second year.",
-      url: "https://discoveryalert.com.au/cobalt-export-quotas-global-deficit-battery-market-drc-2026/"
-    },
-    {
-      cats: ["geopolitics"], india: false, impact: 7, signal: "friction",
-      src: "USTR", time: "2 weeks ago",
-      title: "US forced-labor tariffs on 60 trading partners remain stacked on top of existing duties three weeks in",
-      dek: "The Office of the US Trade Representative's Section 301 forced-labor tariffs, in effect since July 24, continue to apply to 60 economies covering about 99.4% of total US imports — 10% for countries with at least a partial forced-labor import ban already in place, 12.5% for those without one. The duties stack cumulatively on top of each country's existing tariff rate, adding a further layer of cost to supply chains already absorbing the Canada, Brazil and EU-China measures moving in parallel this cycle.",
-      url: "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-    },
-    {
-      cats: ["conflict", "outlook"], india: false, impact: 7, signal: "friction",
+      cats: ["outlook"], india: false, impact: 7, signal: "friction",
       src: "FAO", time: "Updated today",
-      title: "FAO food price index hits a three-year high as Black Sea strikes and Hormuz disruption squeeze food supply at once",
-      dek: "The UN Food and Agriculture Organization's Food Price Index averaged 131.1 points in July, a three-year high, while its Cereal Price Index averaged 113.8 points, up 3.4% on the month and 6.9% above a year earlier. Wheat prices surged 5.8% month-on-month to stand 9.9% above their year-earlier level amid continued Black Sea export disruption and damage to Ukrainian port infrastructure, while maize rose 3.6% on hot, dry weather in the US Corn Belt and spillover from firmer energy markets tied to the wider run of geopolitical tension. The FAO says global supplies remain broadly adequate even as prices climb.",
-      url: "https://www.fao.org/worldfoodsituation/foodpricesindex/en/"
-    },
-    {
-      cats: ["logistics"], india: false, impact: 7, signal: "friction",
-      src: "Marine Insight", time: "3 days ago",
-      title: "Panama Canal tightens vessel draft limits for a fourth and fifth time since December as El Nino drains reservoirs",
-      dek: "The Panama Canal Authority will cut the maximum draft for Neopanamax-lock vessels to 14.63 meters (48 feet) from August 26 and to 14.48 meters (47.5 feet) from September 3 — the fourth and fifth reductions since conservation protocols began in December 2025 — as a strengthening El Nino weather pattern keeps Gatun Lake levels falling. The authority says daily transit slots remain unaffected for now, but the lower draft forces ships to carry less cargo per crossing, echoing the drought crisis that disrupted trade in 2023 and 2024.",
-      url: "https://www.marineinsight.com/falling-water-levels-push-panama-canal-to-restrict-maximum-ship-draft-to-47-5-feet-from-september/"
-    },
-    {
-      cats: ["geopolitics"], india: false, impact: 6, signal: "friction",
-      src: "CNN Business", time: "3 weeks ago",
-      title: "US slaps a 25% tariff on most Brazilian goods over 'unfair trade practices,' replacing last year's 50% rate",
-      dek: "The Office of the US Trade Representative's new 25% duty on thousands of Brazilian imports — including sugar, apparel, paper and steel, though not coffee, beef, oranges or aerospace parts — took effect July 22 under Section 301, citing Brazilian digital-trade rules, ethanol market access and deforestation enforcement as 'unreasonable' burdens on US commerce. The rate partially replaces a 50% tariff imposed the previous year. Brazilian President Luiz Inacio Lula da Silva called the measure 'illegal and arbitrarily imposed' and said Brazil would pursue countermeasures under its own reciprocity law and a WTO complaint.",
-      url: "https://www.cnn.com/2026/07/16/business/us-brazil-tariffs-trade-intl-hnk"
+      title: "FAO food price index holds near a three-year high as drought cuts Spain's grain harvest by nearly a quarter and China warns of heat risk to autumn crops",
+      dek: "The UN Food and Agriculture Organization's Food Price Index held essentially flat at 130.1 points in its latest reading, up 6.9% from a year earlier, with vegetable oils at a three-year high and meat prices setting a new all-time high. The pressure is compounding on the ground: after Western Europe's hottest June on record, Spain's 2026-27 cereal harvest is now projected to fall from 24 million to about 18.5 million tonnes, with EU-wide forecasts also cut for sunflowers, grain maize and potatoes, while China's government has separately warned that an ongoing heatwave poses a 'serious threat' to its autumn crops. The FAO says global supplies remain broadly adequate even as prices and harvest risk both climb together.",
+      url: "https://www.fao.org/newsroom/detail/fao-food-price-index-is-virtually-unchanged-in-august/en"
     },
     {
       cats: ["logistics", "outlook"], india: false, impact: 6, signal: "fluidity",
-      src: "Middle East Observer", time: "3 days ago",
-      title: "Suez Canal revenue climbs 13% in a quarter, but independent trackers still put traffic 60% below normal",
-      dek: "Egypt's Suez Canal Authority reported second-quarter revenue up 13% quarter-on-quarter to $1.26 billion, taking full-year 2025-26 revenue up 23% to $4.67 billion on a 10% rise in vessel transits. Independent tracking cited by maritime analysts BIMCO and Splash247, however, still puts overall canal traffic at roughly 60% below pre-2023 levels even well over 100 days without a Houthi attack on international shipping. Both figures are real at once: the canal is recovering steadily from a deep trough, but remains far short of its pre-crisis volume.",
-      url: "https://meobserver.news/ports/2026/08/05/suez-canal-recovery-gains-momentum-as-q2-revenues-climb-13/"
+      src: "gCaptain", time: "This week",
+      title: "Suez Canal Authority reports 18.5% revenue growth as independent trackers still put actual traffic 60% below normal",
+      dek: "Egypt's Suez Canal Authority says toll revenue reached $449 million with 1,315 transits in the first half of fiscal 2025-26, up 18.5% and 5.8% year-on-year respectively — an official recovery narrative. Independent trackers BIMCO, Splash247 and gCaptain, however, still put overall canal traffic at roughly 60% below pre-2023 levels, and after US-Israel strikes on Iran in March reversed a brief January uptick, Maersk, CMA CGM and Hapag-Lloyd re-suspended their Suez transits and stayed diverted around Africa. Both figures are real at once: the authority's numbers reflect a narrow recovery window that mostly predates March, while ship-tracking data shows the wider diversion is still largely intact heading into August — a clear gap between the official claim and the physical reality.",
+      url: "https://gcaptain.com/suez-canal-traffic-stalls-at-60-below-normal-despite-100-days-without-houthi-attacks/"
+    },
+    {
+      cats: ["logistics", "tech"], india: false, impact: 6, signal: "friction",
+      src: "The Record", time: "Updated this week",
+      title: "Ransomware groups increasingly target industrial and logistics firms for disruption leverage, Dragos finds, weeks after Japan's cold-chain attack fully resolved",
+      dek: "Nichirei Corp, Japan's largest refrigerated logistics provider, has fully restored normal operations after a mid-July ransomware attack that froze ingredient deliveries to all 1,300 KFC Japan restaurants and disrupted Kura Sushi and Ezaki Glico's cold-storage supply — but the underlying pattern hasn't eased. Dragos's Q1-Q2 2026 industrial ransomware analysis shows groups including Qilin and Akira increasingly targeting construction, industrial-equipment and food-and-beverage manufacturers specifically for their operational-disruption leverage rather than just data theft, with Hyundai Motor Türkiye the latest confirmed victim in early August. The Nichirei case took roughly a month to fully resolve even after recovery began — a reminder of how long a single logistics chokepoint can stay disrupted even once the attack itself is contained.",
+      url: "https://therecord.media/nichirei-japan-food-logistics-cyberattack-recovery"
     }
   ];
 
   var briefingScript = [
-    { speaker: "anchor", text: "Today's headline figure is eight." },
-    { speaker: "analyst", text: "That's how many vessels crossed the Strait of Hormuz on August seventh, down a third from the day before. Tehran calls its talks with Oman on reopening the strait positive, and President Trump wants a deal within days. But the ship count hasn't moved to match the optimism, and Iran is reported to be rebuilding its military during the lull rather than standing down. War-risk insurers are still quoting ten to fourteen million dollars to cover a single large tanker's transit." },
-    { speaker: "anchor", text: "A five-month-old strike is still squeezing the chip industry, and it has nothing to do with chips directly." },
-    { speaker: "analyst", text: "Iran's March missile strike on a Qatari gas complex knocked out a third of the world's helium supply. Samsung and SK Hynix rely on that helium to run their memory plants, and industry estimates put their effective buffer at three to four months from now — meaning the acute phase of this shortage is landing right about now." },
-    { speaker: "anchor", text: "Ukraine's grain exports are about to take a serious hit." },
-    { speaker: "analyst", text: "Kyiv now expects total farm exports to fall by more than half this season, to around thirty million tonnes, after more than a hundred and eighty strikes on the ports around Odesa this year alone. The FAO's food price index just hit a three-year high partly as a result." },
-    { speaker: "anchor", text: "On trade policy, four separate economies raised barriers this cycle." },
-    { speaker: "analyst", text: "Washington's fifty percent tariff on Canadian goods overrides the USMCA trade pact starting August nineteenth, and a twenty-five percent tariff on Brazil took effect last month. The European Union cut its tariff-free steel quota for China by nearly half. And US forced-labor tariffs on sixty countries are still stacking on top of existing duties." },
-    { speaker: "anchor", text: "And in the Pacific, two separate flashpoints heated up at once." },
-    { speaker: "analyst", text: "Taiwan's annual military exercises this week rehearsed what happens if China tries to cut the island off from its supply lines, testing whether weapons production can relocate under fire. Meanwhile China sent warships and bombers to Scarborough Shoal days after its third clash with the Philippines in a week." },
+    { speaker: "anchor", text: "Today's contradiction is still Hormuz, but it just got sharper." },
+    { speaker: "analyst", text: "Iran hardened its position on August ninth, adding new preconditions — a full lift of the US naval blockade, a troop withdrawal, a permanent end to the war — before it'll fully reopen the strait, even as it finalizes a safe-transit route with Oman. Hours earlier, the UAE confirmed an Iranian missile hit one of its tankers transiting Hormuz, the latest of more than a dozen ADNOC vessels struck since February. Crossings are still swinging between four and seventeen vessels a day, a fraction of the hundred and thirty to hundred and forty the strait carried before the war." },
+    { speaker: "anchor", text: "Ukraine's grain exports are still on track to fall by more than half." },
+    { speaker: "analyst", text: "Kyiv still expects a fifty-four percent drop this season after Russian missiles kept hitting Odesa's port cluster, and drone strikes have now also damaged a key Russian grain terminal at Taman. Alternative export routes won't reach full capacity until at least the end of August, and even then would only replace about half of what those ports used to move." },
+    { speaker: "anchor", text: "China just widened its grip on rare earths." },
+    { speaker: "analyst", text: "Beijing extended its export licensing rules to fourteen European firms in July, and from November tenth, five more heavy rare earths come under the same regime. Any foreign product with even a tenth of a percent of Chinese-origin rare earth content will now need a Chinese export license — that reaches deep into EV, defense and electronics supply chains everywhere, not just inside China." },
+    { speaker: "anchor", text: "Two claims-versus-reality gaps are worth watching." },
+    { speaker: "analyst", text: "The Suez Canal Authority says revenue is up eighteen and a half percent this half-year. Independent ship trackers say traffic is still down sixty percent from normal, and major carriers re-diverted around Africa again after March strikes on Iran. Both numbers are true at the same time — the recovery is real but narrow. And on Taiwan, this week's war games are rehearsing for the first time what happens if China cuts the island off from its supply lines entirely, with unscripted drills instead of the usual scripted ones." },
     { speaker: "anchor", text: "That's today's briefing. Watch what ships and satellites show, not what governments say." }
   ];
 
@@ -1255,8 +1283,8 @@
 
   function renderTicker() {
     var track = document.getElementById("tickerTrack");
-    var html = "";
     var doubled = tickerItems.concat(tickerItems);
+    var html = "";
     doubled.forEach(function (t) {
       html += '<span class="item">' + t.label + ' <span class="val sentiment-' + t.sentiment + '">' +
         (t.dir === "up" ? "▲" : "▼") + " " + t.val + "</span></span>";
@@ -1268,12 +1296,17 @@
     return dir === "up" ? "▲" : dir === "down" ? "▼" : "◆";
   }
 
+  function severityLabel(s) {
+    return s === "high" ? "CRITICAL" : s === "elevated" ? "ELEVATED" : "EASING";
+  }
+
   function renderMinerals() {
     var el = document.getElementById("mineralsIndex");
     var html = "";
     minerals.forEach(function (m) {
-      html += '<div class="idx-row"><div class="idx-name">' + m.name + ' [ALERT: ACTIVE DISRUPTION]<span class="idx-expand-hint">›</span><span class="idx-exchange">' + m.exchange + '</span></div>' +
+      html += '<div class="idx-row"><div class="idx-name"><span class="idx-severity status-' + m.severity + '">' + severityLabel(m.severity) + '</span>' + m.name + '<span class="idx-expand-hint">›</span></div>' +
         '<div class="idx-val">' + m.val + '</div>' +
+        '<div class="idx-exchange">' + m.exchange + '</div>' +
         '<div class="idx-chg-line sentiment-' + m.sentiment + '">PRICE STATUS: ' + m.priceStatus + '</div>' +
         '<div class="idx-chg-line sentiment-neutral">MACRO TRIGGER: ' + m.macroTrigger + '</div>' +
         '<div class="idx-chg-line sentiment-neutral">DOWNSTREAM SHOCK: ' + m.downstreamShock + '</div>' +
@@ -1287,7 +1320,7 @@
     if (!select) return;
     var html = '<option value="">More minerals…</option>';
     mineralsOther.forEach(function (m, i) {
-      html += '<option value="' + i + '">' + m.name + ' [STATUS: REGULAR TRANSIT]</option>';
+      html += '<option value="' + i + '">' + m.name + ' — regular transit</option>';
     });
     select.innerHTML = html;
   }
@@ -1300,8 +1333,9 @@
       if (select.value === "") { display.innerHTML = ""; return; }
       var m = mineralsOther[Number(select.value)];
       if (!m) return;
-      display.innerHTML = '<div class="idx-row minerals-more-row"><div class="idx-name">' + m.name + ' [STATUS: REGULAR TRANSIT]<span class="idx-exchange">' + m.exchange + '</span></div>' +
+      display.innerHTML = '<div class="idx-row minerals-more-row expanded"><div class="idx-name"><span class="idx-severity status-active">STABLE</span>' + m.name + '</div>' +
         '<div class="idx-val">' + m.val + '</div>' +
+        '<div class="idx-exchange">' + m.exchange + '</div>' +
         '<div class="idx-chg-line sentiment-neutral">' + m.note + '</div></div>';
     });
   }
@@ -1324,8 +1358,9 @@
     if (!el) return;
     var html = "";
     infrastructureWatch.forEach(function (c) {
-      html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span><span class="idx-exchange">' + c.pillar + ' · ' + c.ticker + '</span></div>' +
+      html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' +
         '<div class="idx-val">' + c.val + '</div>' +
+        '<div class="idx-exchange">' + c.pillar + ' · ' + c.ticker + '</div>' +
         '<div class="idx-chg-line sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.chg + '</div></div>';
     });
     el.innerHTML = html;
@@ -1683,3 +1718,4 @@
   wireBriefing();
 })();
 </script>
+
