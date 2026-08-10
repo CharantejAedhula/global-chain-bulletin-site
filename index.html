@@ -137,8 +137,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
-    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    max-width: 100%;
   }
   .equilibrium-footer-title {
     font-size: 10.5px;
@@ -447,12 +448,22 @@
     font-weight: 400;
     margin: 0 0 12px;
     text-wrap: balance;
+    cursor: pointer;
   }
   .lead p.dek {
+    display: none;
     color: var(--ink-dim);
     font-size: 15px;
     margin: 0 0 12px;
     max-width: 62ch;
+  }
+  .lead.expanded p.dek { display: block; }
+  .card-expand-hint {
+    font-family: var(--font-mono);
+    font-size: 0.6em;
+    color: var(--ink-faint);
+    margin-left: 8px;
+    vertical-align: middle;
   }
   .byline {
     font-family: var(--font-mono);
@@ -585,8 +596,10 @@
     line-height: 1.28;
     margin: 0 0 6px;
     text-wrap: balance;
+    cursor: pointer;
   }
-  .card p.dek { color: var(--ink-dim); font-size: 13.5px; margin: 0 0 8px; max-width: 68ch; }
+  .card p.dek { display: none; color: var(--ink-dim); font-size: 13.5px; margin: 0 0 8px; max-width: 68ch; }
+  .card.expanded p.dek { display: block; }
   .card .meta {
     font-family: var(--font-mono);
     font-size: 11px;
@@ -647,13 +660,11 @@
     text-transform: uppercase;
   }
   .idx-row {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 6px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
     padding: 10px 0;
     border-top: 1px solid var(--rule);
-    min-width: 0;
     cursor: pointer;
   }
   .idx-row .idx-chg-line,
@@ -675,9 +686,8 @@
     margin-left: 4px;
   }
   .idx-row:first-of-type { border-top: none; }
-  .idx-name { font-size: 13px; min-width: 0; overflow-wrap: break-word; }
+  .idx-name { font-size: 13px; overflow-wrap: break-word; }
   .idx-exchange {
-    grid-column: 1 / -1;
     display: block;
     font-family: var(--font-mono);
     font-size: 9px;
@@ -686,7 +696,7 @@
     color: var(--ink-faint);
     white-space: normal;
     overflow-wrap: break-word;
-    margin-top: 2px;
+    margin-top: 1px;
   }
   .idx-severity {
     display: inline-block;
@@ -699,29 +709,26 @@
     vertical-align: middle;
   }
   .idx-bar-track {
-    grid-column: 1 / -1;
     height: 5px;
     background: var(--surface-2);
     border-radius: 3px;
     overflow: hidden;
   }
   .idx-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  /* .idx-row is a column stack (never a side-by-side grid), so a long price
+     string can never squeeze the name text down to a width that forces
+     single-character line breaks — this holds at every viewport width. */
   .idx-val {
+    display: block;
     font-family: var(--font-mono);
-    font-size: 12.5px;
+    font-size: 13px;
+    font-weight: 600;
     font-variant-numeric: tabular-nums;
-    text-align: right;
-    white-space: nowrap;
-  }
-  /* Below this width, a nowrap price column can squeeze the name column down
-     to almost nothing, forcing single-character line breaks. Stacking removes
-     the squeeze entirely regardless of how long either piece of text is. */
-  @media (max-width: 440px) {
-    .idx-row { grid-template-columns: 1fr; }
-    .idx-row .idx-val { text-align: left; white-space: normal; margin-top: 2px; }
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
   .idx-note {
-    grid-column: 1 / -1;
     text-align: left;
     color: var(--ink-faint);
     font-family: var(--font-body);
@@ -734,7 +741,6 @@
     min-width: 0;
   }
   .idx-chg-line {
-    grid-column: 1 / -1;
     text-align: left;
     font-family: var(--font-mono);
     font-size: 11px;
@@ -885,7 +891,7 @@
       <div class="lead-row">
         <div class="lead">
           <div class="eyebrow">Lead &middot; Impact Score 10</div>
-          <h2>Iran hardens Hormuz reopening demands hours after the UAE confirms an Iranian missile struck an ADNOC tanker in the strait</h2>
+          <h2>Iran hardens Hormuz reopening demands hours after the UAE confirms an Iranian missile struck an ADNOC tanker in the strait<span class="card-expand-hint">›</span></h2>
           <p class="dek">Iran's Supreme National Security Council added new preconditions on August 9 — a full lift of the US naval blockade, a troop withdrawal and a permanent end to the war — before it will fully reopen the Strait of Hormuz, hardening its position even as Tehran and Oman finalize coordinates for a provisional safe-transit route first announced August 5. Hours earlier, the UAE confirmed an Iranian missile struck an ADNOC tanker transiting the strait, with no casualties reported; ADNOC says more than a dozen of its vessels have now been hit since February. President Trump said August 9 the US is "low-keying" talks and shifting toward economic pressure instead. Ship-tracking data still shows crossings swinging between roughly 4 and 17 vessels a day, a fraction of the 130 to 140 daily transits the strait carried before the war, and war-risk insurers continue charging 7.5% to 10% of a tanker's hull value per transit, up from about 0.25% before the war.</p>
           <p class="byline">Compiled from <a href="https://www.cnn.com/2026/08/09/world/live-news/iran-war-trump" target="_blank" rel="noopener">CNN</a>, <a href="https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2" target="_blank" rel="noopener">Al Jazeera</a> &amp; <a href="https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman" target="_blank" rel="noopener">Bloomberg</a> · Updated today</p>
         </div>
@@ -974,7 +980,7 @@
     { name: "Helium (ultra-pure)", severity: "high", exchange: "Gasworld", val: "~2x baseline", dir: "up", sentiment: "bad",
       priceStatus: "▲ Spot still roughly 2x pre-strike levels, six months on", macroTrigger: "Qatar's Ras Laffan complex strike, Mar 2026 — ~30% of Qatar's output (~11% of global supply) still offline",
       downstreamShock: "Semiconductors, memory/storage, MRI-grade cooling", realityLog: "No confirmed restart date; Samsung and SK Hynix locked into long-term Linde/Air Products supply deals" },
-    { name: "Cobalt", severity: "high", exchange: "LME · Fastmarkets MB", val: "$57,320 /t", dir: "up", sentiment: "bad",
+    { name: "Cobalt", severity: "high", exchange: "LME · Fastmarkets MB", val: "$57.32 /kg", dir: "up", sentiment: "bad",
       priceStatus: "▲ +160% since Feb '25 low, holding near cycle highs", macroTrigger: "DRC's ARECOMS confirmed a 96,600t total export cap for 2026-27, replacing the 2025 outright export ban",
       downstreamShock: "EV batteries, grid storage", realityLog: "Quota now rations exports directly to cathode makers including CATL and Panasonic" },
     { name: "Dysprosium", severity: "active", exchange: "SMM China Spot", val: "$231.35 /kg", dir: "down", sentiment: "neutral",
@@ -983,19 +989,19 @@
     { name: "Neodymium", severity: "active", exchange: "SMM China Spot", val: "$145.48 /kg", dir: "down", sentiment: "neutral",
       priceStatus: "▼ Steady vs Jul; China Rare Earth Price Index near 264.6 in early August", macroTrigger: "Same China export-licensing regime, now extended to 14 EU firms plus 5 more heavy elements from Nov 10",
       downstreamShock: "EV motors, wind turbines", realityLog: "NdPr oxide $109-112/kg in China vs $120-140+/kg ex-China" },
-    { name: "Nickel", severity: "elevated", exchange: "LME Official Cash", val: "$16,965 /t", dir: "up", sentiment: "bad",
+    { name: "Nickel", severity: "elevated", exchange: "LME Official Cash", val: "$16.97 /kg", dir: "up", sentiment: "bad",
       priceStatus: "▲ +1.4% on the day, having broken above $18,500-19,000/t earlier this year on quota news before easing", macroTrigger: "Indonesia's 2026 RKAB ore quota cut 30-34% to 260-270M wmt, down from 379M wmt in 2025",
       downstreamShock: "EV batteries, stainless steel", realityLog: "Smelters still reporting tighter ore feed even as price has eased off its cycle high" },
-    { name: "Copper", severity: "elevated", exchange: "LME / COMEX", val: "$14,781 /t (COMEX)", dir: "up", sentiment: "bad",
+    { name: "Copper", severity: "elevated", exchange: "LME / COMEX", val: "$14.78 /kg (COMEX)", dir: "up", sentiment: "bad",
       priceStatus: "▲ Record COMEX print Aug 5, up 18.6% year-to-date", macroTrigger: "US Section 232 50% tariff on semi-finished copper, in force since Aug 2025",
       downstreamShock: "Grid buildout, AI data centers, EVs", realityLog: "COMEX inventories hit a record 652,200t in July on tariff-front-running hoarding while LME stocks drain" },
-    { name: "Tungsten (APT)", severity: "high", exchange: "SMM China Spot", val: "$79,732 /t", dir: "up", sentiment: "bad",
+    { name: "Tungsten (APT)", severity: "high", exchange: "SMM China Spot", val: "$79.73 /kg", dir: "up", sentiment: "bad",
       priceStatus: "▲ Up more than 550% since China's early-2025 export controls began", macroTrigger: "China, over 75% of global supply, continues restricting outflows via its licensing regime",
       downstreamShock: "Cutting tools, defense alloys, aerospace", realityLog: "European APT briefly topped $3,100/mtu in Q1 2026; Q1 prices rose 136.85% quarter-on-quarter" },
-    { name: "Antimony", severity: "active", exchange: "Fastmarkets", val: "$11,116 /t (99.65% Sb)", dir: "down", sentiment: "neutral",
+    { name: "Antimony", severity: "active", exchange: "Fastmarkets", val: "$11.12 /kg (99.65% Sb)", dir: "down", sentiment: "neutral",
       priceStatus: "▼ Correcting from 2025's spike as photovoltaic-glass destocking softens demand", macroTrigger: "China's Aug 2024 export licensing regime, ban suspended through Nov 27, 2026 under a trade truce",
       downstreamShock: "Flame retardants, lead-acid batteries, solar glass", realityLog: "Still license-gated, not free trade — prices remain multiples above pre-2024 levels even after the correction" },
-    { name: "Graphite (battery anode)", severity: "high", exchange: "Benchmark Mineral Intel.", val: "$4,200-6,600 /t (battery-grade)", dir: "up", sentiment: "bad",
+    { name: "Graphite (battery anode)", severity: "high", exchange: "Benchmark Mineral Intel.", val: "$4.20-6.60 /kg (battery-grade)", dir: "up", sentiment: "bad",
       priceStatus: "▲ Battery-grade artificial anode holding a wide premium over raw flake material", macroTrigger: "China's Oct 2025 export controls plus a 220% US countervailing/anti-dumping duty on Chinese natural graphite anode, finalized Feb 2026",
       downstreamShock: "EV battery cells", realityLog: "A two-sided chokepoint — Chinese export limits on one side, US duties on the other — threatens an estimated $300B/year of downstream EV-battery production outside China" },
     { name: "Gallium &amp; Germanium", severity: "elevated", exchange: "SMM China Spot", val: "$234.62 /kg (Ga)", dir: "down", sentiment: "neutral",
@@ -1004,7 +1010,7 @@
   ];
 
   var mineralsOther = [
-    { name: "Lithium carbonate", exchange: "SMM China Spot", val: "~RMB 139,000 /t (~$19,400/t)", note: "Battery-grade spot trading in a normal bull-bear tug-of-war; no export curb or quota in force — supply-and-demand driven, not a geopolitical disruption." },
+    { name: "Lithium carbonate", exchange: "SMM China Spot", val: "~RMB 139 /kg (~$19.40/kg)", note: "Battery-grade spot trading in a normal bull-bear tug-of-war; no export curb or quota in force — supply-and-demand driven, not a geopolitical disruption." },
     { name: "Platinum", exchange: "NYMEX", val: "$1,758 /oz", note: "WPIC forecasts a fourth straight annual supply deficit (297,000 oz in 2026), but it's a structural mine-supply shortfall, not an export ban or strike." },
     { name: "Uranium (U3O8)", exchange: "TradeTech / UxC", val: "$86.48 /lb", note: "Holding a stable $84-87/lb range for months; Cameco absorbed a 12-day Saskatchewan facility outage without cutting guidance." }
   ];
@@ -1300,12 +1306,17 @@
     return s === "high" ? "CRITICAL" : s === "elevated" ? "ELEVATED" : "EASING";
   }
 
+  var severityRank = { high: 0, elevated: 1, active: 2 };
+
   function renderMinerals() {
     var el = document.getElementById("mineralsIndex");
     var html = "";
-    minerals.forEach(function (m) {
+    var ordered = minerals.slice().sort(function (a, b) {
+      return severityRank[a.severity] - severityRank[b.severity];
+    });
+    ordered.forEach(function (m) {
       html += '<div class="idx-row"><div class="idx-name"><span class="idx-severity status-' + m.severity + '">' + severityLabel(m.severity) + '</span>' + m.name + '<span class="idx-expand-hint">›</span></div>' +
-        '<div class="idx-val">' + m.val + '</div>' +
+        '<div class="idx-val sentiment-' + m.sentiment + '">' + mineralArrow(m.dir) + ' ' + m.val + '</div>' +
         '<div class="idx-exchange">' + m.exchange + '</div>' +
         '<div class="idx-chg-line sentiment-' + m.sentiment + '">PRICE STATUS: ' + m.priceStatus + '</div>' +
         '<div class="idx-chg-line sentiment-neutral">MACRO TRIGGER: ' + m.macroTrigger + '</div>' +
@@ -1340,6 +1351,34 @@
     });
   }
 
+  function toggleArticleExpand(headingEl, cardEl) {
+    var wasExpanded = cardEl.classList.contains("expanded");
+    cardEl.classList.toggle("expanded", !wasExpanded);
+    var hint = headingEl.querySelector(".card-expand-hint");
+    if (hint) hint.textContent = wasExpanded ? "›" : "‹";
+  }
+
+  function wireCardExpand() {
+    var river = document.getElementById("river");
+    if (river) {
+      river.addEventListener("click", function (e) {
+        var h3 = e.target.closest("h3");
+        if (!h3 || !river.contains(h3)) return;
+        var card = h3.closest(".card");
+        if (!card) return;
+        toggleArticleExpand(h3, card);
+      });
+    }
+    var leadH2 = document.querySelector(".lead h2");
+    if (leadH2) {
+      leadH2.addEventListener("click", function () {
+        var lead = leadH2.closest(".lead");
+        if (!lead) return;
+        toggleArticleExpand(leadH2, lead);
+      });
+    }
+  }
+
   function wireExpandableRows(containerId, rowSelector) {
     var container = document.getElementById(containerId);
     if (!container) return;
@@ -1359,7 +1398,7 @@
     var html = "";
     infrastructureWatch.forEach(function (c) {
       html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' +
-        '<div class="idx-val">' + c.val + '</div>' +
+        '<div class="idx-val sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.val + '</div>' +
         '<div class="idx-exchange">' + c.pillar + ' · ' + c.ticker + '</div>' +
         '<div class="idx-chg-line sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.chg + '</div></div>';
     });
@@ -1434,7 +1473,7 @@
       '<div>' +
       '<div class="card-tags">' + tags + indiaFlag + '</div>' +
       '<a class="card-src" href="' + story.url + '" target="_blank" rel="noopener">' + story.src + '</a>' +
-      '<h3>' + story.title + '</h3>' +
+      '<h3>' + story.title + '<span class="card-expand-hint">›</span></h3>' +
       '<p class="dek">' + story.dek + '</p>' +
       '<div class="meta">' + story.time + '</div>' +
       '</div>' +
@@ -1708,6 +1747,7 @@
   renderChokepoints();
   wireExpandableRows("chokepoints", ".chokepoint-row");
   renderRiver();
+  wireCardExpand();
   renderSourcesModal();
   wireSources();
   updateCounts();
