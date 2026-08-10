@@ -482,7 +482,7 @@
     border: 1px solid var(--rule);
     border-radius: 10px;
     padding: 12px 16px;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
   }
   .briefing-play-btn {
     width: 36px;
@@ -888,6 +888,13 @@
 
   <div class="board">
     <main>
+      <div class="briefing-box">
+        <button type="button" id="briefingPlayBtn" class="briefing-play-btn" aria-label="Play today's briefing" aria-pressed="false">&#9654;</button>
+        <div class="briefing-info">
+          <div class="briefing-label">Today's Briefing</div>
+          <div class="briefing-status" id="briefingStatus">Tap to listen</div>
+        </div>
+      </div>
       <div class="lead-row">
         <div class="lead">
           <div class="eyebrow">Lead &middot; Impact Score 10</div>
@@ -895,22 +902,13 @@
           <p class="dek">Iran's Supreme National Security Council added new preconditions on August 9 — a full lift of the US naval blockade, a troop withdrawal and a permanent end to the war — before it will fully reopen the Strait of Hormuz, hardening its position even as Tehran and Oman finalize coordinates for a provisional safe-transit route first announced August 5. Hours earlier, the UAE confirmed an Iranian missile struck an ADNOC tanker transiting the strait, with no casualties reported; ADNOC says more than a dozen of its vessels have now been hit since February. President Trump said August 9 the US is "low-keying" talks and shifting toward economic pressure instead. Ship-tracking data still shows crossings swinging between roughly 4 and 17 vessels a day, a fraction of the 130 to 140 daily transits the strait carried before the war, and war-risk insurers continue charging 7.5% to 10% of a tanker's hull value per transit, up from about 0.25% before the war.</p>
           <p class="byline">Compiled from <a href="https://www.cnn.com/2026/08/09/world/live-news/iran-war-trump" target="_blank" rel="noopener">CNN</a>, <a href="https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2" target="_blank" rel="noopener">Al Jazeera</a> &amp; <a href="https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman" target="_blank" rel="noopener">Bloomberg</a> · Updated today</p>
         </div>
-        <div>
-          <div class="briefing-box">
-            <button type="button" id="briefingPlayBtn" class="briefing-play-btn" aria-label="Play today's briefing" aria-pressed="false">&#9654;</button>
-            <div class="briefing-info">
-              <div class="briefing-label">Today's Briefing</div>
-              <div class="briefing-status" id="briefingStatus">Tap to listen</div>
-            </div>
-          </div>
-          <div class="summary-box">
-            <h3>Today's Read</h3>
-            <ul>
-              <li>Official claims and physical telemetry keep diverging in the same direction: Iran announces route progress while crossings stay near zero, and Suez reports revenue growth while independent trackers still show a sixty percent traffic gap.</li>
-              <li>Export controls keep tightening rather than easing — China's rare-earth licensing now reaches fourteen European firms and a tenth-of-a-percent content threshold, Nvidia's China chip sales stay throttled, and cobalt and copper both trade near cycle highs on quota and tariff pressure.</li>
-              <li>Single points of failure keep proving how far they reach: one Qatari strike is still resetting chipmakers' helium contracts six months later, and researchers now say ransomware crews are targeting industrial and logistics firms specifically for disruption leverage, not just data theft.</li>
-            </ul>
-          </div>
+        <div class="summary-box">
+          <h3>Today's Read</h3>
+          <ul>
+            <li>Official claims and physical telemetry keep diverging in the same direction: Iran announces route progress while crossings stay near zero, and Suez reports revenue growth while independent trackers still show a sixty percent traffic gap.</li>
+            <li>Export controls keep tightening rather than easing — China's rare-earth licensing now reaches fourteen European firms and a tenth-of-a-percent content threshold, Nvidia's China chip sales stay throttled, and cobalt and copper both trade near cycle highs on quota and tariff pressure.</li>
+            <li>Single points of failure keep proving how far they reach: one Qatari strike is still resetting chipmakers' helium contracts six months later, and researchers now say ransomware crews are targeting industrial and logistics firms specifically for disruption leverage, not just data theft.</li>
+          </ul>
         </div>
       </div>
 
