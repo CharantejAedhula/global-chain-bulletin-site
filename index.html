@@ -1,4 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Global Supply Chain Bulletin</title>
+
+<!-- iOS: makes "Add to Home Screen" launch full-screen, no Safari chrome -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Chain Bulletin" />
+
+<!-- Android / Chrome installable PWA -->
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0c1310" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="icon" type="image/png" href="favicon.png" />
@@ -864,7 +878,8 @@
     footer { white-space: nowrap; overflow-x: auto; }
   }
 </style>
-
+</head>
+<body>
 <div class="ticker-band" aria-hidden="true">
   <div class="ticker-track" id="tickerTrack"></div>
 </div>
@@ -1430,10 +1445,12 @@
     if (!el) return;
     var html = "";
     infrastructureWatch.forEach(function (c) {
+      var arrow = c.dir === "up" ? "▲" : (c.dir === "down" ? "▼" : "●");
+      var dirClass = c.dir === "up" ? "sentiment-good" : (c.dir === "down" ? "sentiment-bad" : "sentiment-neutral");
       html += '<div class="idx-row"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' +
-        '<div class="idx-val sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.val + '</div>' +
+        '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + '</div>' +
         '<div class="idx-exchange">' + c.pillar + ' · ' + c.ticker + '</div>' +
-        '<div class="idx-chg-line sentiment-' + c.sentiment + '">' + (c.dir === "up" ? "▲" : "▼") + " " + c.chg + '</div></div>';
+        '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + '</div></div>';
     });
     el.innerHTML = html;
   }
@@ -1832,3 +1849,6 @@
   wireBriefing();
 })();
 </script>
+
+</body>
+</html>
