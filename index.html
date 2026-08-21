@@ -24,6 +24,9 @@
 <meta name="twitter:title" content="Global Supply Chain Bulletin" />
 <meta name="twitter:description" content="An independent daily briefing on supply chains, energy transition &amp; trade geopolitics — read globally, tuned for an India lens." />
 <meta name="twitter:image" content="https://charantejaedhula.github.io/global-chain-bulletin-site/icon-512.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
 <style>
   :root {
     --bg: #0c1310;
@@ -437,29 +440,21 @@
 
   /* ---------- lead + summary ---------- */
   .lead-row {
-    display: grid;
-    grid-template-columns: minmax(0,1.5fr) minmax(0,1fr);
-    grid-template-areas:
-      "briefing summary"
-      "lead     summary";
-    align-items: start;
-    gap: 14px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
     padding-bottom: 18px;
     border-bottom: 1px solid var(--rule);
     margin-bottom: 18px;
   }
-  .lead-row .briefing-box { grid-area: briefing; margin-bottom: 0; }
-  .lead-row .lead { grid-area: lead; }
-  .lead-row .summary-box { grid-area: summary; }
-  @media (max-width: 680px) {
-    .lead-row {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "lead"
-        "briefing"
-        "summary";
-    }
-    .lead-row .briefing-box { margin-bottom: 14px; margin-top: 4px; }
+  .lead-row .briefing-box { margin-bottom: 0; }
+  .summary-box ul.summary-list-horizontal {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 14px 20px;
+  }
+  @media (max-width: 780px) {
+    .summary-box ul.summary-list-horizontal { grid-template-columns: 1fr; }
   }
   .eyebrow {
     font-family: var(--font-mono);
@@ -720,14 +715,27 @@
   .idx-row .idx-chg-line,
   .idx-row .idx-note,
   .idx-row .idx-bar-track,
+  .idx-row .idx-chart,
   .chokepoint-row .chokepoint-note {
     display: none;
   }
   .idx-row.expanded .idx-chg-line,
   .idx-row.expanded .idx-note,
   .idx-row.expanded .idx-bar-track,
+  .idx-row.expanded .idx-chart,
   .chokepoint-row.expanded .chokepoint-note {
     display: block;
+  }
+  .idx-chart { margin-top: 6px; }
+  .idx-chart-svg { width: 100%; height: 44px; display: block; }
+  .idx-chart-caption {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--ink-faint);
+    margin-top: 2px;
   }
   .idx-expand-hint {
     font-family: var(--font-mono);
@@ -904,6 +912,144 @@
   @media (min-width: 640px) {
     footer { white-space: nowrap; overflow-x: auto; }
   }
+
+  /* ---------- weekly pattern view ---------- */
+  .pattern-trigger-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0;
+  }
+  .pattern-trigger-btn {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    color: var(--ink-dim);
+    border-radius: 999px;
+    padding: 8px 18px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    transition: border-color .15s, color .15s;
+  }
+  .pattern-trigger-btn:hover { border-color: var(--accent); color: var(--ink); }
+  .pattern-trigger-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pattern-week-tag {
+    font-size: 9.5px;
+    color: var(--ink-faint);
+  }
+  .pattern-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 110;
+  }
+  .pattern-overlay[hidden] { display: none; }
+  .pattern-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    max-width: 860px;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    padding: 20px 22px 22px;
+  }
+  .pattern-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .pattern-card-header h3 {
+    font-family: 'Kalam', var(--font-display), cursive;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--ink);
+  }
+  .pattern-subtitle {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 3px 0 0;
+  }
+  .pattern-header-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+  .pattern-action-btn {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-dim);
+    border-radius: 6px;
+    padding: 7px 12px;
+    cursor: pointer;
+  }
+  .pattern-action-btn:hover { border-color: var(--accent); color: var(--ink); }
+  .pattern-close {
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .pattern-close:hover { color: var(--ink); }
+  .pattern-canvas-wrap { width: 100%; }
+  .pattern-svg { width: 100%; height: auto; display: block; }
+  .pat-rough { fill: none; stroke: var(--ink-dim); stroke-width: 1.5; opacity: 0.8; }
+  .pat-tone-bad .pat-rough { stroke: var(--red); }
+  .pat-tone-good .pat-rough { stroke: var(--teal); }
+  .pat-tone-neutral .pat-rough { stroke: var(--ink-faint); }
+  .pat-node-label {
+    font-family: 'Kalam', var(--font-display), cursive;
+    font-size: 12.5px;
+    fill: var(--ink);
+  }
+  .pat-edge { stroke: var(--rule); stroke-width: 1.3; opacity: 0.9; }
+  .pat-edge-label {
+    font-family: 'Kalam', var(--font-display), cursive;
+    font-size: 10px;
+    fill: var(--ink-faint);
+  }
+  .pattern-foot {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--ink-faint);
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule);
+    line-height: 1.5;
+  }
+  @media print {
+    body * { visibility: hidden; }
+    .pattern-overlay, .pattern-overlay * { visibility: visible; }
+    .pattern-overlay {
+      position: absolute;
+      inset: 0;
+      background: #fff;
+      padding: 20px;
+      display: block;
+    }
+    .pattern-card { max-height: none; max-width: none; border: none; box-shadow: none; }
+    .pattern-header-actions { display: none; }
+  }
 </style>
 </head>
 <body>
@@ -914,7 +1060,7 @@
 
 <div class="masthead">
   <div class="masthead-row">
-    <span>VOL. I &middot; NO. 32</span>
+    <span>VOL. I &middot; NO. 33</span>
     <div class="right-group">
       <label class="search-box">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="7"></circle><line x1="21" y1="21" x2="15" y2="15"></line></svg>
@@ -927,7 +1073,7 @@
   <h1>Global <em>Supply Chain</em> Bulletin</h1>
   <div class="masthead-meta">
     <button type="button" id="sourcesBtn" class="meta-label sources-trigger">Sources</button>
-    <div class="date-line" id="clockLine">FRIDAY, AUGUST 21, 2026 &middot; AS OF 07:20 IST</div>
+    <div class="date-line" id="clockLine">FRIDAY, AUGUST 21, 2026 &middot; AS OF 18:50 IST</div>
   </div>
   <hr class="masthead-rule thick" />
 </div>
@@ -955,12 +1101,6 @@
   <div class="board">
     <main>
       <div class="lead-row">
-        <div class="lead">
-          <div class="eyebrow">Lead &middot; Impact Score 10</div>
-          <h2>UAE's total break with Iran deepens the Hormuz crisis as a tanker is confirmed seized off Qeshm and weekly transits fall to 73<span class="card-expand-hint">›</span></h2>
-          <p class="dek">Lloyd's List Intelligence's Aug 19 brief counted just 73 total vessel transits through the Strait of Hormuz in the week of Aug 10-16 — down from 91 the week before — against a pre-crisis baseline near 73 ships a day, or roughly 510 a week; at least 22 tankers entered the Gulf and 21 departed over that week, with crude tankers accounting for most of the traffic still moving. A tanker boarded near Qeshm Island has now been assessed by trackers as seized rather than merely detained, while 24 of 74 matched vessels — 32% — carried AIS identities that didn't match their tracked commercial profile, a spoofing rate far above the 1-2% baseline. The crisis deepened sharply on Aug 19, when the UAE's Foreign Ministry announced it is suspending all trade, commercial and financial dealings with Iran "until further notice," a day after detecting two ballistic missiles fired toward its territory, one of which fell inside UAE waters — the culmination of a run of strikes on ADNOC's own tankers that saw two hit Aug 13 and a third Aug 14, bringing the total to 18 ADNOC vessels struck since the war began, with one crew member killed and 20 injured. The roughly $28 billion trade relationship had supplied more than 30% of Iran's imports (about $21 billion) and taken in some $7 billion, or 13%, of its exports; the embargo lands on an economy the IMF's July update forecasts will contract 5.4% this year amid 68.9% inflation. US-Iran diplomacy has "effectively collapsed" per Lloyd's List, with the 60-day memorandum having lapsed Aug 17 with no extension; US forces have redirected 64 vessels, disabled three and boarded two as of Aug 17, per United Against Nuclear Iran's tracker. War-risk premiums remain at 7.5-10% of hull value, up from a pre-crisis 0.25% — roughly $21 million on a single $210 million VLCC transit. Brent crude climbed to $93.01 a barrel Thursday, its fifth consecutive daily rise, as cargo increasingly reroutes through Fujairah, Khor Fakkan, Oman and the Jeddah land bridge.</p>
-          <p class="byline">Compiled from <a href="https://www.washingtonpost.com/world/2026/08/19/uae-says-it-is-suspending-trade-with-iran-after-missile-attack/" target="_blank" rel="noopener">Washington Post</a> &amp; Lloyd's List Intelligence &amp; Al Jazeera &amp; UANI · <span id="leadFreshness"></span></p>
-        </div>
         <div class="briefing-box">
           <button type="button" id="briefingPlayBtn" class="briefing-play-btn" aria-label="Play today's briefing" aria-pressed="false">&#9654;</button>
           <div class="briefing-info">
@@ -970,11 +1110,17 @@
         </div>
         <div class="summary-box">
           <h3>Today's Read</h3>
-          <ul>
-            <li>Hormuz's weekly transits fall to 73, down from 91, against a roughly 510-a-week baseline, and Aug 19 brought the sharpest escalation yet: the UAE severs all trade with Iran after missiles land in its waters, a tanker off Qeshm is now assessed as seized rather than boarded, AIS spoofing has spiked to 32%, and Brent's fifth straight rise puts crude at $93.01.</li>
-            <li>Canada's tariff pause expires today with no deal signed, while both ends of the Black Sea seize at once: Russia's wheat exports are tracking to a decade low as Ukrainian strikes hit its shipping infrastructure, and Kyiv says no vessel has entered Greater Odesa since Aug 1.</li>
-            <li>Two genuine fluidity signals stand out — copper's squeeze keeps easing as LME stocks build further and Vizhinjam's new EXIM gateway starts cutting Europe transit times — even as DDR5 memory prices climb 485% year-on-year and the Rhine's Kaub gauge sits at its lowest since 1880.</li>
+          <ul class="summary-list-horizontal">
+            <li>Brent has now risen for a sixth straight session to $93.86, and Drewry's World Container Index still sits 4% higher at $4,526 — freight and energy markets are pricing in a Hormuz standoff that PortWatch says fell to just 1 vessel transit on Aug 16, against a 73-a-day baseline.</li>
+            <li>Canada's 50% tariffs are due to hit just after midnight ET tonight unless Ottawa and Washington finalize the "very fair deal" both sides have been touting since Tuesday — while Russia's wheat exports track to a decade low and Ukraine confirms no vessel has entered Greater Odesa since Aug 1.</li>
+            <li>Platinum has jumped to $1,817.50/oz on South African supply strain, even as copper keeps sliding to $6.46-6.48/lb on LME's biggest weekly warehouse inflow since 2020 and Vizhinjam's new EXIM gateway keeps cutting Europe transit times.</li>
           </ul>
+        </div>
+        <div class="lead">
+          <div class="eyebrow">Lead &middot; Impact Score 10</div>
+          <h2>Hormuz traffic collapses to a single tracked transit on Aug 16 as the UAE's total break with Iran deepens and Brent extends its run to $93.86<span class="card-expand-hint">›</span></h2>
+          <p class="dek">IMF-run PortWatch's vessel-tracking data recorded just 1 transit through the Strait of Hormuz on Aug 16 alone, against a pre-crisis baseline of roughly 73 ships a day — the starkest single-day reading yet of how thin traffic has become within the week Lloyd's List Intelligence separately clocked at 73 total transits (Aug 10-16), down from 91 the week before. The tanker boarded near Qeshm Island on Aug 17-18 is now assessed by trackers as seized rather than merely detained, and is reported holding stationary off the Khasab approach in the North Hormuz corridor; Iranian officials say the vessel was held for "violating Iranian maritime laws" and non-payment of transit fees, a justification the UAE and international trackers reject. The crisis deepened sharply on Aug 19, when the UAE's Foreign Ministry announced it is suspending all trade, commercial and financial dealings with Iran "until further notice," a day after detecting two ballistic missiles fired toward its territory, one of which fell inside UAE waters — the culmination of a run of strikes on ADNOC's own tankers that saw two hit Aug 13-14 and a third shortly after, bringing the total to 18 ADNOC vessels struck since the war began. The roughly $28 billion trade relationship had supplied more than 30% of Iran's imports (about $21 billion) and taken in some $7 billion, or 13%, of its exports; the embargo lands on an economy the IMF's July update forecasts will contract 5.4% this year amid 68.9% inflation. Tehran, for its part, says the strait will not reopen until the US "corrects" its behavior — language that closes off any near-term diplomatic off-ramp. US-Iran diplomacy has "effectively collapsed" per Lloyd's List, with the 60-day memorandum having lapsed Aug 17 with no extension. War-risk premiums remain at 7.5-10% of hull value, up from a pre-crisis 0.25% — roughly $21 million on a single $210 million VLCC transit. Brent crude has now risen for a sixth consecutive session, reaching $93.86 a barrel Friday, as cargo increasingly reroutes through Fujairah, Khor Fakkan, Oman and the Jeddah land bridge.</p>
+          <p class="byline">Compiled from <a href="https://www.washingtonpost.com/world/2026/08/19/uae-says-it-is-suspending-trade-with-iran-after-missile-attack/" target="_blank" rel="noopener">Washington Post</a> &amp; Lloyd's List Intelligence &amp; PortWatch (IMF) &amp; Al Jazeera &amp; UANI · <span id="leadFreshness"></span></p>
         </div>
       </div>
 
@@ -1039,9 +1185,30 @@
     </span>
   </div>
 
+  <div class="pattern-trigger-wrap">
+    <button type="button" id="patternBtn" class="pattern-trigger-btn">✎ Pattern <span class="pattern-week-tag" id="patternWeekTag"></span></button>
+  </div>
+
   <footer>
     © 2026 GLOBAL SUPPLY CHAIN BULLETIN · AN AI-ASSISTED PUBLICATION · KEYS: J/K TO MOVE · ENTER TO OPEN IN NEW TAB
   </footer>
+</div>
+
+<div class="pattern-overlay" id="patternOverlay" hidden>
+  <div class="pattern-card" role="dialog" aria-modal="true" aria-labelledby="patternTitle">
+    <div class="pattern-card-header">
+      <div>
+        <h3 id="patternTitle">This Week's Pattern</h3>
+        <p class="pattern-subtitle">Week of <span id="patternWeekOf"></span> · refreshes every Monday</p>
+      </div>
+      <div class="pattern-header-actions">
+        <button type="button" id="patternDownloadBtn" class="pattern-action-btn">Download PDF</button>
+        <button type="button" class="pattern-close" id="patternClose" aria-label="Close">&times;</button>
+      </div>
+    </div>
+    <div class="pattern-canvas-wrap" id="patternCanvasWrap"></div>
+    <p class="pattern-foot">A hand-sketched map of how this week's chokepoints, commodities and top stories connect — drawn from the same verified data already published above, re-drawn fresh every Monday morning.</p>
+  </div>
 </div>
 
 <script>
@@ -1054,46 +1221,46 @@
   // mineralsOther = everything currently stable/normal, surfaced only via the dropdown.
   var minerals = [
     { name: "Helium", severity: "high", exchange: "OTC / Industrial", val: "$198-237/kg ($1,000-1,200/Mcf spot)", dir: "up", sentiment: "bad",
-      priceStatus: "▲ Spot helium has climbed further to $1,000-1,200/Mcf (roughly $198-237/kg) from a pre-shock ~$500/Mcf; European buyers now pay a 10-15% premium to North American spot and Asia-Pacific buyers 20-25% — the clearest sign the Ras Laffan outage's price impact keeps widening even without a fresh trigger this cycle", macroTrigger: "QatarEnergy's Ras Laffan complex remains under its force-majeure declaration, extended repeatedly since the March 2 strike with the latest confirmed extension dated May 4; roughly 30-38% of global helium supply remains offline with no confirmed restart date",
+      priceStatus: "▲ No fresher print located this cycle; spot helium holds at $1,000-1,200/Mcf (roughly $198-237/kg) from a pre-shock ~$500/Mcf, with European buyers still paying a 10-15% premium to North American spot and Asia-Pacific buyers 20-25%", macroTrigger: "QatarEnergy's Ras Laffan complex remains under its force-majeure declaration, extended repeatedly since the March 2026 strike, with roughly 30-38% of global helium supply still offline and no confirmed restart date",
       downstreamShock: "Semiconductor fab cooling gas, MRI magnet manufacturing", realityLog: "Damage assessors have previously estimated full restoration could take anywhere from weeks to as long as five years for the most heavily affected infrastructure — still an open-ended risk, not a resolving one." },
     { name: "Dysprosium", severity: "high", exchange: "SMM China Spot", val: "$231.35/kg (unchanged, down 11.6% vs July)", dir: "flat", sentiment: "bad",
       priceStatus: "◆ SMM's China domestic benchmark holds at $231.35/kg (Aug 3 print, no fresher confirmed), down 11.6% versus July's $261.63/kg; China's Rare Earth Price Index itself held at 259.5 on Aug 17 — roughly 160% above its 2010 baseline — while the ex-China premium stays extreme for heavy rare earths generally", macroTrigger: "China's April 2025 rare-earth export-licensing regime remains fully binding, with the current export-restriction pause confirmed to run only through Nov 10, 2026 — a deadline, not a resolution",
       downstreamShock: "High-temperature magnets for EV motors and defense systems", realityLog: "A softer domestic print looks like relief on paper, but the binding constraint — the export license regime itself — hasn't moved, and the West-China price gap remains structural." },
     { name: "Tin", severity: "high", exchange: "LME", val: "$53.62-54.07/kg (essentially flat)", dir: "flat", sentiment: "bad",
-      priceStatus: "◆ LME tin's August forward range holds near $53,620-54,065/tonne ($53.62-54.07/kg), essentially unchanged from last cycle's $53.66/kg after pulling back from June 2's $59,000/tonne intraday record", macroTrigger: "Indonesia's crackdown keeps escalating: authorities seized 500 tonnes of tin and made arrests after President Prabowo ordered roughly 1,000 illegal mines closed in Sumatra, on top of a confirmed 40%+ year-on-year drop in Indonesian refined-tin shipments in May; Myanmar's Man Maw mine restart remains slow and permit-limited",
+      priceStatus: "◆ No fresher forward-range print located this cycle; LME tin holds near $53,620-54,065/tonne ($53.62-54.07/kg), unchanged from last issue after pulling back from June 2's $59,000/tonne intraday record", macroTrigger: "Indonesia's crackdown keeps escalating: authorities seized 500 tonnes of tin and made arrests after President Prabowo ordered roughly 1,000 illegal mines closed in Sumatra, on top of a confirmed 40%+ year-on-year drop in Indonesian refined-tin shipments in May; Myanmar's Man Maw mine restart remains slow and permit-limited",
       downstreamShock: "Electronics solder, including AI data-center hardware", realityLog: "Enforcement keeps visibly escalating even as the benchmark price sits still — a sign the constraint side is tightening faster than pricing data reflects." },
     { name: "Copper", severity: "elevated", exchange: "COMEX / LME", val: "$14.25/kg ($6.46-6.48/lb, easing further)", dir: "down", sentiment: "good",
-      priceStatus: "▼ COMEX copper eased further to $6.46-6.48/lb ($14.25/kg) as of Aug 20, down 0.4-0.43% on the day and continuing off Monday's $6.714/lb ($14.80/kg) record, as the LME on-warrant stock build that broke last week's squeeze keeps working through the market", macroTrigger: "Freeport Indonesia CEO Tony Wenas now says PT Smelting's Gresik repairs are targeted for completion by end of September, more specific than the earlier \"this quarter\" language, while the backup Manyar smelter's restart has been accelerated to end-August",
+      priceStatus: "▼ COMEX/LME copper holds at $6.46-6.48/lb ($14.25/kg) as of Aug 20's close, down 0.4-0.43% on the day and continuing off Monday's $6.714/lb ($14.80/kg) record; Bloomberg reports the LME warehouse delivery that broke last week's squeeze marked its biggest weekly shed inflow since 2020", macroTrigger: "Freeport Indonesia CEO Tony Wenas now says PT Smelting's Gresik repairs are targeted for completion by end of September, with the backup Manyar smelter's restart accelerated to end-August",
       downstreamShock: "Electrical wiring, EV motors, data-center power buildout", realityLog: "Price keeps drifting down and the acute panic has genuinely broken, but the underlying outage still isn't fixed — this is a market absorbing the shock, not the shock itself ending.", telemetry: "LME" },
-    { name: "Zinc", severity: "elevated", exchange: "LME", val: "$3.51/kg ($3,513/tonne official close)", dir: "down", sentiment: "neutral",
-      priceStatus: "▼ LME zinc's Aug 15 official close fell to $3,513/tonne ($3.51/kg), down from last cycle's $3.71/kg — a notable decline even as four separate smelter-side outages remain unresolved, suggesting demand-side softness is outweighing the supply squeeze for now", macroTrigger: "Kazzinc's smelter remains on reduced capacity post-explosion, Cajamarquilla is only gradually resuming after its fire, Boliden's Garpenberg mine faces fresh uncertainty from recent seismic activity, and the Gresik shutdown's byproduct effects on zinc-bearing concentrate persist",
-      downstreamShock: "Galvanized steel for construction and automotive corrosion protection", realityLog: "Four supply-side outages are still compounding even as price actually falls — worth watching whether this is genuine easing or just softer downstream demand masking the squeeze." },
+    { name: "Zinc", severity: "elevated", exchange: "LME", val: "$3.51/kg ($3,513/tonne, no fresher print)", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ No fresher official close located this cycle; LME zinc holds at $3,513/tonne ($3.51/kg, Aug 15 print), still down from the prior cycle's $3.71/kg even as four separate smelter-side outages remain unresolved", macroTrigger: "Kazzinc's smelter remains on reduced capacity post-explosion, Cajamarquilla is only gradually resuming after its fire, Boliden's Garpenberg mine faces fresh uncertainty from recent seismic activity, and the Gresik shutdown's byproduct effects on zinc-bearing concentrate persist",
+      downstreamShock: "Galvanized steel for construction and automotive corrosion protection", realityLog: "Four supply-side outages are still compounding even as the last confirmed price sits below the prior cycle — worth watching whether this is genuine easing or just softer downstream demand masking the squeeze." },
     { name: "Cobalt", severity: "elevated", exchange: "Fastmarkets", val: "$49.60/kg (unchanged)", dir: "flat", sentiment: "neutral",
-      priceStatus: "◆ No fresher $/lb standard-grade print was located this cycle; the last confirmed $22.00-23.00/lb ($49.60/kg) read from Aug 11 is carried forward", macroTrigger: "DRC's 2026 export quota remains fixed at 96,600 tonnes (87,000t pro-rata to producers, 9,600t under ARECOMS discretionary control); ARECOMS again confirmed this cycle it does not intend to modify the quota given softer prices, despite producer requests for higher allocations",
-      downstreamShock: "EV battery cathode (NMC/NCA) production", realityLog: "The regulator is explicitly declining to loosen the cap even as producers push back — the quota, not logistics, remains the more clearly binding constraint." },
+      priceStatus: "◆ No fresher $/lb standard-grade print was located this cycle; the last confirmed $22.00-23.00/lb ($49.60/kg) read is carried forward", macroTrigger: "DRC's 2026 export quota remains fixed at 96,600 tonnes (87,000t pro-rata to producers, 9,600t under ARECOMS discretionary control); ARECOMS is enforcing a strict \"use it or lose it\" rule, with industry estimates that 60-75% of exporters could forfeit unused first-half allocations to a state-controlled strategic reserve",
+      downstreamShock: "EV battery cathode (NMC/NCA) production", realityLog: "The regulator is tightening enforcement of the existing cap rather than loosening it — the quota, not logistics, remains the more clearly binding constraint." },
     { name: "Tungsten (APT)", severity: "elevated", exchange: "Fastmarkets", val: "$307.50/kg ($3,075/mtu, unchanged)", dir: "flat", sentiment: "neutral",
-      priceStatus: "◆ Fastmarkets' APT CIF Rotterdam assessment holds at $3,075/mtu ($307.50/kg), the same print carried forward with no fresher international read confirmed; Fastmarkets launched a new weekly China-domestic APT price assessment Aug 5, a fragmentation signal as onshore and export tungsten pricing keep diverging", macroTrigger: "China's February 2025 export-license regime remains in force, and tungsten has now been added to China's 2026 dual-use export licensing catalogue — a further tightening of the same lever, not a new one",
-      downstreamShock: "Cutting tools, mining drill bits, defense-grade munitions", realityLog: "The regulatory net just got wider even as the benchmark price sits still, and the market itself is now splitting into two — treating this as continued tightening, not stability." },
+      priceStatus: "◆ Fastmarkets' APT CIF Rotterdam assessment holds at $3,075/mtu ($307.50/kg), no fresher international read confirmed this cycle; domestic China APT (RMB 600,000/tonne, roughly $83.9/kg) continues to trade at a fraction of the international price — the clearest sign yet the market has split into two distinct pools", macroTrigger: "China's February 2025 export-license regime remains in force, and tungsten has now been added to China's 2026 dual-use export licensing catalogue — a further tightening of the same lever, not a new one",
+      downstreamShock: "Cutting tools, mining drill bits, defense-grade munitions", realityLog: "The regulatory net just got wider while the two-tier pricing gap keeps widening — this is continued tightening, not stability." },
     { name: "Neodymium", severity: "elevated", exchange: "SMM China Spot", val: "$145.48/kg (unchanged)", dir: "flat", sentiment: "neutral",
-      priceStatus: "◆ SMM's Aug 3 benchmark holds at $145.48/kg, essentially flat versus July (-0.27%); NdPr alloy held near $133.67/kg (+0.49% vs July's $133.02), while China's broader Rare Earth Price Index registered 259.5 on Aug 17, roughly 160% above its 2010 baseline", macroTrigger: "The same China export-licensing framework constraining dysprosium keeps neodymium's domestic-export split in place",
-      downstreamShock: "EV traction motors and wind turbine permanent magnets", realityLog: "Metal and alloy readings are essentially flat together this cycle — a genuinely quiet print rather than a stale one." },
+      priceStatus: "◆ SMM's Aug 3 benchmark holds at $145.48/kg, essentially flat versus July (-0.27%); NdPr oxide held near ¥711-731/kg ($106.65-109.65), while China's broader Rare Earth Price Index registered 259.5 on Aug 17, roughly 160% above its 2010 baseline", macroTrigger: "The same China export-licensing framework constraining dysprosium keeps neodymium's domestic-export split in place",
+      downstreamShock: "EV traction motors and wind turbine permanent magnets", realityLog: "Metal and oxide readings remain essentially flat together this cycle — a genuinely quiet print rather than a stale one." },
     { name: "Nickel", severity: "elevated", exchange: "LME", val: "$16.98/kg (no fresher LME print located)", dir: "up", sentiment: "neutral",
-      priceStatus: "▲ No fresher LME three-month print was located this cycle; the last confirmed $16,978.50/tonne ($16.98/kg) read from Aug 19 is carried forward", macroTrigger: "Indonesia's 2026 RKAB quota remains cut to 260-270 million wmt from 375-379 million wmt in 2025; ESDM has begun approving revised RKAB applications for dozens of companies including a pending Weda Bay request, but is declining to disclose volumes, saying it could move prices",
-      downstreamShock: "Stainless steel and EV battery precursor (NMC) production", realityLog: "Regulators are visibly moving on quota revisions now, but with volumes still undisclosed, the operative constraint hasn't actually changed yet." },
+      priceStatus: "▲ No fresher LME three-month print was located this cycle; the last confirmed $16,978.50/tonne ($16.98/kg) read is carried forward", macroTrigger: "Indonesia's 2026 RKAB quota remains cut to 260-270 million wmt from 379 million wmt in 2025; the domestic nickel-miner group confirms 2026 quota additions will be granted only selectively, keeping the tighter cap the binding constraint",
+      downstreamShock: "Stainless steel and EV battery precursor (NMC) production", realityLog: "Regulators are visibly moving on selective quota additions, but the base allocation itself hasn't loosened — the operative constraint hasn't actually changed yet." },
     { name: "Gallium &amp; Germanium", severity: "elevated", exchange: "SMM China Spot", val: "$234.62/kg (Ga, down 18.8% vs July)", dir: "down", sentiment: "neutral",
-      priceStatus: "▼ SMM's domestic gallium price holds at $234.62/kg (Aug 3) but is now confirmed down 18.8% from July's $288.82/kg, even as China's FOB gallium export price stays flat near $400/kg; germanium's US-warehouse premium over the $3,104.31/kg China domestic price has widened to 104.6%, up from 82.9% in July", macroTrigger: "Export licensing remains the binding constraint on the export side even as domestic Chinese pricing eases; China's Nov 9, 2025 suspension of export restrictions to the US remains in effect only through Nov 27, 2026",
-      downstreamShock: "Compound semiconductors (GaN power electronics) and fiber optics", realityLog: "Domestic gallium is genuinely softening while the germanium export premium widens further — the two metals are now moving in opposite directions within the same trade regime." },
-    { name: "Uranium (U3O8)", severity: "elevated", exchange: "TradeTech / UxC", val: "$87.55-88.29/lb (up modestly)", dir: "up", sentiment: "neutral",
-      priceStatus: "▲ Spot advanced to $87.55-88.29/lb through Aug 19-20, up modestly from last cycle's $86.48-87.45/lb range, on tightening global supply and surging utility contracting tied to AI data-center power demand", macroTrigger: "Structural nuclear demand growth from utility restocking and AI-driven data-center power deals keeps term-market availability tight",
+      priceStatus: "▼ No fresher print located this cycle; SMM's domestic gallium price holds at $234.62/kg (Aug 3), still down 18.8% from July's $288.82/kg, even as China's FOB gallium export price stays flat near $400/kg; germanium's US-warehouse premium over the $3,104.31/kg China domestic price remains widened at 104.6%, up from 82.9% in July", macroTrigger: "Export licensing remains the binding constraint on the export side even as domestic Chinese pricing eases; China's Nov 9, 2025 suspension of export restrictions to the US remains in effect only through Nov 27, 2026",
+      downstreamShock: "Compound semiconductors (GaN power electronics) and fiber optics", realityLog: "Domestic gallium is genuinely softening while the germanium export premium stays wide — the two metals remain on opposite trajectories within the same trade regime." },
+    { name: "Uranium (U3O8)", severity: "elevated", exchange: "TradeTech / UxC", val: "$88.50/lb (up modestly)", dir: "up", sentiment: "neutral",
+      priceStatus: "▲ Spot advanced to $88.50/lb on Aug 20, up modestly from the prior cycle's $87.55-88.29/lb range, on tightening global supply and surging utility contracting tied to AI data-center power demand", macroTrigger: "Structural nuclear demand growth from utility restocking and AI-driven data-center power deals keeps term-market availability tight",
       downstreamShock: "Nuclear fuel supply for utilities and next-generation reactor and data-center power deals", realityLog: "No fresh supply-disruption news surfaced this cycle — the grind higher continues to be demand-led, not a new outage." },
-    { name: "Platinum", severity: "elevated", exchange: "Spot / NYMEX", val: "$1,722.70/oz (no fresher print located)", dir: "down", sentiment: "bad",
-      priceStatus: "▼ No fresher print was located this cycle; the last confirmed $1,722.70/oz read from Aug 19 (down 1.6% from Aug 17's $1,751.62/oz) is carried forward, still well above June's low near $1,565", macroTrigger: "South African power disruptions and mine-maintenance bottlenecks continue to threaten output, compounded by new AI and data-center-linked industrial demand",
-      downstreamShock: "Catalytic converters and hydrogen fuel cell components", realityLog: "The World Platinum Investment Council's forecast 297,000oz 2026 deficit is unchanged, with roughly 90% of supply still concentrated in South Africa, Russia and Zimbabwe." },
-    { name: "Lithium", severity: "elevated", exchange: "China Futures / Spot", val: "$22.64/kg (carbonate, +0.99% Aug 17)", dir: "up", sentiment: "bad",
-      priceStatus: "▲ SMM's China lithium carbonate 99.5% spot benchmark rose to $22,637.82/tonne ($22.64/kg) as of Aug 17, up $221.94 (+0.99%) on the day, reflecting a continued rebound off the early-August low near ¥136,000/tonne after briefly topping ¥150,000/tonne intraday on Aug 12", macroTrigger: "Battery-grade demand continues outpacing new supply heading into peak EV production season, compounded by China's April 1 cut to lithium-ion battery VAT export rebates",
-      downstreamShock: "EV battery cell production", realityLog: "This remains a multi-week, V-shaped rebound off the early-August low rather than a one-day spike — the trend is still up, not yet a settled correction." },
+    { name: "Platinum", severity: "elevated", exchange: "Spot / NYMEX", val: "$1,817.50/oz (up 5.5% on the cycle)", dir: "up", sentiment: "bad",
+      priceStatus: "▲ Spot platinum rose to $1,817.50/oz on Aug 20, up roughly 5.5% from the prior cycle's $1,722.70/oz read and back above June's low near $1,565", macroTrigger: "South African power disruptions and mine-maintenance bottlenecks continue to threaten output, compounded by new AI and data-center-linked industrial demand",
+      downstreamShock: "Catalytic converters and hydrogen fuel cell components", realityLog: "The World Platinum Investment Council's forecast 297,000oz 2026 deficit is unchanged, with roughly 90% of supply still concentrated in South Africa, Russia and Zimbabwe — this jump reads as the deficit reasserting itself, not a one-day blip." },
+    { name: "Lithium", severity: "elevated", exchange: "China Futures / Spot", val: "$21.12/kg (carbonate, pulled back from Aug17 rally)", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ SMM's China lithium carbonate 99.5% spot benchmark eased to roughly ¥151,000/tonne ($21.12/kg) as of Aug 20, down 0.43% on the day and pulling back from the multi-week rebound that briefly topped ¥150,000-plus intraday on Aug 12 and pushed the benchmark to $22.64/kg by Aug 17", macroTrigger: "Battery-grade demand continues outpacing new supply heading into peak EV production season, compounded by China's April 1 cut to lithium-ion battery VAT export rebates",
+      downstreamShock: "EV battery cell production", realityLog: "This looks like the multi-week rebound cooling rather than reversing — the trend is still up from the early-August low, just no longer accelerating." },
     { name: "Aluminum", severity: "active", exchange: "LME", val: "$3.20/kg", dir: "down", sentiment: "good",
-      priceStatus: "▼ LME aluminum eased toward $3,200/tonne ($3.20/kg), down from last cycle's $3.23/kg, as UK futures retreated from an Aug 11 seven-week high amid easing supply concerns; Europe's physical premium holds near $490/tonne, roughly matching last cycle and still well down from May's $621 peak", macroTrigger: "EGA's Al Taweelah smelter had restarted 227 of its 1,262 reduction cells (18% of capacity) as of Aug 10, with EGA now targeting full pre-war capacity by Q1 2027 as its roughly $400 million repair program continues; the alumina refinery is already back to about 50% of pre-incident output",
+      priceStatus: "▼ No fresher print located this cycle; LME aluminum holds near $3,200/tonne ($3.20/kg), still down from the prior cycle's $3.23/kg, with Europe's physical premium near $490/tonne, still well down from May's $621 peak", macroTrigger: "EGA's Al Taweelah smelter had restarted 227 of its 1,262 reduction cells (18% of capacity) as of Aug 10, with EGA now targeting full pre-war capacity by Q1 2027 as its roughly $400 million repair program continues; the alumina refinery is already back to about 50% of pre-incident output",
       downstreamShock: "Automotive body panels and aerospace airframes", realityLog: "The European \"war premium\" that dominated pricing in H1 2026 keeps unwinding even with the smelter-side timeline still months out — the clearest sustained easing signal of any tracked mineral." },
     { name: "Antimony", severity: "active", exchange: "SMM China Spot", val: "$11.39/kg (unchanged)", dir: "flat", sentiment: "good",
       priceStatus: "◆ SMM's China 99.65% benchmark holds at $11,387.54/tonne ($11.39/kg), re-confirmed this cycle and unchanged from last issue, down sharply from $15,939.71/tonne in early July", macroTrigger: "China's September 2024 export-licensing regime remains formally in place but is being administered predictably, with new 2026 exporter-eligibility rules adding creditworthiness and compliance requirements rather than tightening volume",
@@ -1106,75 +1273,138 @@
   ];
 
   var infrastructureWatch = [
-    { pillar: "Maritime Gateway", name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,681.90", chg: "Held at Aug 19's 3:30pm IST close of ₹1,681.90, the latest confirmed print — the broader market moved the other way Aug 20, with Nifty and Sensex snapping a four-day losing streak to rally 0.64% (to 24,231.85) and 0.82% (to 77,537.72) on easing global bond yields and gains in IT, realty and private banks. Vizhinjam International Seaport's full EXIM operations, which began Aug 18, continue ramping after flagging off its first export container bound for Valencia, Spain — the ₹8,867-crore deep-water gateway cuts South India-to-Europe transit from roughly two months to 24 days, with a ₹16,000-crore Phase 2 to lift capacity to 5.7 million TEU by December 2028", dir: "flat", sentiment: "neutral" },
-    { pillar: "Heavy Build &amp; Capex", name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,041.30", chg: "Held at ₹4,041.30 (3:30pm IST close, Aug 19), no fresher print confirmed this cycle, with the session's range running ₹4,024.80-4,069.00; the order pipeline keeps strengthening regardless — L&amp;T's LTN Compute/Vyoma.AI unit secured a ₹10,000-15,000 crore ($1.57bn) order from Together AI on Aug 13 for a 10,000-GPU Nvidia B300 AI data-centre in Chennai, on top of the roughly ₹15,000-crore ADNOC Offshore EPCIC contract won Aug 4", dir: "flat", sentiment: "neutral" },
-    { pillar: "Corridor Inputs", name: "UltraTech Cement", ticker: "NSE: ULTRACEMCO", val: "₹11,619.00 (unchanged)", chg: "Held at ₹11,619.00 for a second straight cycle (Aug 14 print), still down 10.37% over six months against a 52-week range of ₹10,325-13,110; Q1 FY27 net sales rose 16% year-on-year to ₹24,465 crore and PAT 17.2% to ₹2,604 crore on record domestic volumes of 39.2 million tonnes (+13.1%) at 81% capacity utilisation, and the company is entering wires &amp; cables in Q3 FY27 with ₹1,800 crore of planned capex", dir: "flat", sentiment: "neutral" },
-    { pillar: "Intermodal Freight", name: "Container Corp. of India", ticker: "NSE: CONCOR", val: "₹514.65 (no fresher print confirmed)", chg: "Held near ₹514.65 as of Aug 13, the latest print this cycle can independently confirm, against a 52-week range of ₹421.4-569.8; the new weekly Chennai Port-to-Hyderabad rail freight service launched with OOCL on Aug 12 carried 46 TEU on its inaugural train, expected to cut Far East-bound export transit times by up to seven days", dir: "flat", sentiment: "neutral" },
-    { pillar: "Surface Transport", name: "IRB Infrastructure", ticker: "NSE: IRB", val: "₹18.95 (down from ₹19.03)", chg: "Eased to ₹18.95 (Aug 20 close) from ₹19.03 two days earlier, trading just above its tightened 52-week low of ₹18.90 (versus a 52-week high of ₹23.95); Q1 FY27 net profit rose 51.26% year-on-year to ₹306.27 crore from ₹202.48 crore, with the market cap now at ₹22,876 crore — strong operating results still not moving the stock", dir: "down", sentiment: "bad" }
+    { pillar: "Maritime Gateway", name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,697.20", chg: "Advanced to ₹1,697.20 as of Aug 21, up from Aug 19's ₹1,681.90 close, tracking a broader market rally as Nifty and Sensex extend Thursday's bounce on easing global bond yields; Vizhinjam International Seaport's full EXIM operations, which began Aug 18, continue ramping after flagging off its first export container bound for Valencia, Spain — the ₹8,867-crore deep-water gateway cuts South India-to-Europe transit from roughly two months to 24 days, with a ₹16,000-crore Phase 2 to lift capacity to 5.7 million TEU by December 2028", dir: "up", sentiment: "good" },
+    { pillar: "Heavy Build &amp; Capex", name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,081.50", chg: "Advanced to ₹4,081.50 (Aug 20 midday print), up from Aug 19's ₹4,041.30 close, against a 52-week range of ₹3,288.10-4,440.00; the order pipeline keeps strengthening regardless — L&amp;T's LTN Compute/Vyoma.AI unit secured a ₹10,000-15,000 crore ($1.57bn) order from Together AI on Aug 13 for a 10,000-GPU Nvidia B300 AI data-centre in Chennai, on top of the roughly ₹15,000-crore ADNOC Offshore EPCIC contract won Aug 4", dir: "up", sentiment: "good" },
+    { pillar: "Corridor Inputs", name: "UltraTech Cement", ticker: "NSE: ULTRACEMCO", val: "₹11,535.00", chg: "Eased to ₹11,535.00 (Aug 21 print) from ₹11,619.00 on Aug 14, trading in a ₹11,526-11,620 range against a 52-week range of ₹10,325-13,110; Q1 FY27 net sales rose 16% year-on-year to ₹24,465 crore and PAT 17.2% to ₹2,604 crore on record domestic volumes of 39.2 million tonnes (+13.1%) at 81% capacity utilisation, and the company is entering wires &amp; cables in Q3 FY27 with ₹1,800 crore of planned capex", dir: "down", sentiment: "neutral" },
+    { pillar: "Intermodal Freight", name: "Container Corp. of India", ticker: "NSE: CONCOR", val: "₹533.00", chg: "Advanced to ₹533.00 as of Aug 14, up from ₹514.65 on Aug 13, against a 52-week range of ₹421.4-569.8; the new weekly Chennai Port-to-Hyderabad rail freight service launched with OOCL on Aug 12 carried 46 TEU on its inaugural train, expected to cut Far East-bound export transit times by up to seven days", dir: "up", sentiment: "good" },
+    { pillar: "Surface Transport", name: "IRB Infrastructure", ticker: "NSE: IRB", val: "₹19.03", chg: "Held near ₹19.03 (Aug 18 close), the latest print this cycle can independently confirm, against a tightened 52-week range of ₹18.90-23.95; Q1 FY27 net profit rose 51.26% year-on-year to ₹306.27 crore from ₹202.48 crore, with the market cap now at ₹22,876 crore — strong operating results still not moving the stock decisively", dir: "flat", sentiment: "neutral" }
   ];
 
   var freightEnergy = [
-    { pillar: "Freight", name: "Drewry World Container Index", ticker: "Transpacific-led", val: "$4,526/40ft", chg: "+4% w/w as of Aug 20 — the second straight weekly rise, led once again by Transpacific rates; Drewry's Intra-Asia Container Index (IACI) also rose 6% this week to $1,091/40ft", dir: "up" },
-    { pillar: "Freight", name: "Baltic Dry Index", ticker: "Dry bulk (coal, grain, iron ore)", val: "2,891 pts", chg: "+15 pts Aug 20 — a second straight day higher, rebounding from 2,863 on Aug 14 which had itself fallen from 3,089 on Aug 7 amid softer Pacific conditions", dir: "up" },
-    { pillar: "Energy", name: "Brent Crude", ticker: "Anchor: Strait of Hormuz", val: "$93.01/bbl", chg: "+1.52% Aug 20 — fifth consecutive daily rise as Hormuz's weekly transits fall to 73 and the UAE severs trade with Iran", dir: "up" },
-    { pillar: "Energy", name: "Henry Hub Natural Gas", ticker: "Anchor: Bab-el-Mandeb / Red Sea", val: "$2.79/MMBtu", chg: "EIA lowered its Q3 2026 forecast average to $2.87/MMBtu on reduced LNG feedgas demand and record US production; no fresher spot print confirmed this cycle", dir: "down" }
+    { pillar: "Freight", name: "Drewry World Container Index", ticker: "Transpacific-led", val: "$4,526/40ft", chg: "No fresher weekly print this cycle — Drewry's WCI holds at Aug 20's +4% w/w read of $4,526/40ft, the second straight weekly rise, next update expected around Aug 27; Shanghai-New York rates rose 9% to $9,507/40ft the same week", dir: "up",
+      history: [
+        {d:"2026-02-12", v: 1933}, {d:"2026-02-19", v: 1919}, {d:"2026-02-26", v: 1899}, {d:"2026-03-05", v: 1958},
+        {d:"2026-03-12", v: 2123}, {d:"2026-03-19", v: 2172}, {d:"2026-03-26", v: 2279}, {d:"2026-04-09", v: 2309},
+        {d:"2026-04-23", v: 2232}, {d:"2026-04-30", v: 2216}, {d:"2026-05-07", v: 2286}, {d:"2026-05-14", v: 2553},
+        {d:"2026-05-21", v: 2712}, {d:"2026-05-31", v: 2800}, {d:"2026-06-04", v: 3433}, {d:"2026-06-11", v: 3549},
+        {d:"2026-06-18", v: 3969}, {d:"2026-06-25", v: 4166}, {d:"2026-07-02", v: 4530}, {d:"2026-07-09", v: 4639},
+        {d:"2026-07-16", v: 4547}, {d:"2026-07-23", v: 4374}, {d:"2026-07-30", v: 4255}, {d:"2026-08-06", v: 4297},
+        {d:"2026-08-13", v: 4339}, {d:"2026-08-20", v: 4526}, {d:"2026-08-21", v: 4526}
+      ] },
+    { pillar: "Freight", name: "Baltic Dry Index", ticker: "Dry bulk (coal, grain, iron ore)", val: "2,891 pts", chg: "No fresher print located this cycle — holds at Aug 20's +15pt read of 2,891, a second straight day higher, rebounding from 2,863 on Aug 14 which had itself fallen from 3,089 on Aug 7 amid softer Pacific conditions", dir: "up",
+      history: [
+        {d:"2026-02-06", v: 1923}, {d:"2026-02-20", v: 2043}, {d:"2026-02-27", v: 2140}, {d:"2026-03-06", v: 2010},
+        {d:"2026-03-13", v: 2028}, {d:"2026-03-20", v: 2056}, {d:"2026-03-27", v: 2031}, {d:"2026-04-10", v: 2201},
+        {d:"2026-04-17", v: 2567}, {d:"2026-04-24", v: 2665}, {d:"2026-05-01", v: 2730}, {d:"2026-05-08", v: 2978},
+        {d:"2026-05-15", v: 3151}, {d:"2026-05-22", v: 2991}, {d:"2026-05-29", v: 3224}, {d:"2026-06-05", v: 2981},
+        {d:"2026-06-12", v: 2729}, {d:"2026-06-19", v: 2722}, {d:"2026-06-26", v: 2524}, {d:"2026-07-03", v: 2717},
+        {d:"2026-07-10", v: 2944}, {d:"2026-07-17", v: 2752}, {d:"2026-07-24", v: 2743}, {d:"2026-08-03", v: 2843},
+        {d:"2026-08-07", v: 3089}, {d:"2026-08-14", v: 2863}, {d:"2026-08-20", v: 2891}, {d:"2026-08-21", v: 2891}
+      ] },
+    { pillar: "Energy", name: "Brent Crude", ticker: "Anchor: Strait of Hormuz", val: "$93.86/bbl", chg: "+0.08% Aug 21 — a sixth consecutive daily rise, trading just below $94 and heading for a second straight weekly gain of roughly 6%, as PortWatch clocks Hormuz's daily transits at just 1 and the UAE severs trade with Iran", dir: "up",
+      history: [
+        {d:"2026-02-04", v: 71.15}, {d:"2026-02-11", v: 71.52}, {d:"2026-02-18", v: 71.78}, {d:"2026-02-25", v: 70.69},
+        {d:"2026-03-04", v: 81.56}, {d:"2026-03-11", v: 90.98}, {d:"2026-03-18", v: 118.09}, {d:"2026-03-25", v: 109.14},
+        {d:"2026-04-01", v: 119.56}, {d:"2026-04-08", v: 122.11}, {d:"2026-04-15", v: 114.93}, {d:"2026-04-22", v: 113.44},
+        {d:"2026-04-29", v: 124.16}, {d:"2026-05-06", v: 103.70}, {d:"2026-05-13", v: 110.28}, {d:"2026-05-20", v: 108.93},
+        {d:"2026-05-27", v: 97.11}, {d:"2026-06-03", v: 101.69}, {d:"2026-06-10", v: 95.73}, {d:"2026-06-17", v: 80.33},
+        {d:"2026-06-24", v: 72.09}, {d:"2026-07-01", v: 69.24}, {d:"2026-07-08", v: 76.50}, {d:"2026-07-15", v: 83.08},
+        {d:"2026-07-22", v: 94.12}, {d:"2026-07-29", v: 91.95}, {d:"2026-08-05", v: 86.65}, {d:"2026-08-12", v: 92.52},
+        {d:"2026-08-18", v: 95.29}, {d:"2026-08-20", v: 93.01}, {d:"2026-08-21", v: 93.86}
+      ] },
+    { pillar: "Energy", name: "Henry Hub Natural Gas", ticker: "Anchor: Bab-el-Mandeb / Red Sea", val: "$2.79/MMBtu", chg: "No fresher spot print confirmed this cycle; EIA's Q3 2026 forecast average holds at $2.87/MMBtu on reduced LNG feedgas demand and record US production, with September futures trading near $2.73/MMBtu", dir: "down",
+      history: [
+        {d:"2026-02-04", v: 6.88}, {d:"2026-02-11", v: 3.25}, {d:"2026-02-18", v: 2.98}, {d:"2026-02-25", v: 3.02},
+        {d:"2026-03-04", v: 2.87}, {d:"2026-03-11", v: 3.15}, {d:"2026-03-18", v: 3.12}, {d:"2026-03-25", v: 2.94},
+        {d:"2026-04-01", v: 2.99}, {d:"2026-04-08", v: 2.78}, {d:"2026-04-15", v: 2.78}, {d:"2026-04-22", v: 2.75},
+        {d:"2026-04-29", v: 2.60}, {d:"2026-05-06", v: 2.75}, {d:"2026-05-13", v: 2.88}, {d:"2026-05-20", v: 3.18},
+        {d:"2026-05-27", v: 3.13}, {d:"2026-06-03", v: 2.97}, {d:"2026-06-10", v: 3.27}, {d:"2026-06-17", v: 3.25},
+        {d:"2026-06-24", v: 3.19}, {d:"2026-07-01", v: 3.34}, {d:"2026-07-08", v: 3.13}, {d:"2026-07-15", v: 2.80},
+        {d:"2026-07-22", v: 2.93}, {d:"2026-07-29", v: 2.58}, {d:"2026-08-05", v: 2.60}, {d:"2026-08-12", v: 2.82},
+        {d:"2026-08-18", v: 2.82}, {d:"2026-08-20", v: 2.79}, {d:"2026-08-21", v: 2.79}
+      ] }
   ];
 
   var tradePolicy = [
-    { action: "All trade &amp; financial dealings with Iran suspended", jurisdiction: "UAE / Iran", sector: "All cross-border trade &amp; finance", severity: "high", note: "Announced Aug 19 \"until further notice\" after missiles fell in UAE waters, capping a run of strikes that has hit 18 ADNOC tankers since the war began — severs a roughly $28bn relationship that supplied over 30% of Iran's imports ($21bn) and took 13% of its exports ($7bn), compounding an economy the IMF forecasts will contract 5.4% amid 68.9% inflation." },
-    { action: "50% tariff on Canadian goods", jurisdiction: "Canada", sector: "Cross-border goods", severity: "high", note: "USTR Greer says barriers \"appear to have been resolved\" and Canada's LeBlanc says \"efforts remain ongoing\" toward a finalized agreement — but nothing is signed, and the pause on the roughly $28bn in affected goods runs out end of day today, Friday Aug 21." },
+    { action: "All trade &amp; financial dealings with Iran suspended", jurisdiction: "UAE / Iran", sector: "All cross-border trade &amp; finance", severity: "high", note: "Announced Aug 19 \"until further notice\" after missiles fell in UAE waters, capping a run of strikes that has hit 18 ADNOC tankers since the war began — severs a roughly $28bn relationship that supplied over 30% of Iran's imports ($21bn) and took 13% of its exports ($7bn), compounding an economy the IMF forecasts will contract 5.4% amid 68.9% inflation. Iran says Hormuz stays shut until the US \"corrects\" its behavior." },
+    { action: "50% tariff on Canadian goods", jurisdiction: "Canada", sector: "Cross-border goods", severity: "high", note: "Set to take effect just after midnight ET tonight (Aug 21-22) across dairy, electronics, furniture, building materials, machinery and more unless a deal is finalized first; Trump calls the outline \"very fair,\" with Canada said to be committing to remove measures against US alcohol, dairy and vehicle exports and to lower its own retaliatory tariffs — but no signed text has been published as of this issue." },
     { action: "Section 232 derivative-article expansion proposed", jurisdiction: "Global steel, aluminum &amp; copper exporters", sector: "Derivative metal products", severity: "elevated", note: "BIS requested public comment Aug 4 on adding 14 more derivative articles — aluminum powder, brass-wind instruments, welding machine parts, self-propelled cranes, tanker and agricultural trailers among them — to Section 232 coverage; comments close Aug 27, not yet in force." },
-    { action: "Russia &amp; Iran sanctions bill advances to House floor", jurisdiction: "India, China, Azerbaijan, Hungary, Slovakia", sector: "Crude oil &amp; gas imports from Russia", severity: "elevated", note: "A bipartisan House companion to the Senate's 86-11-passed Graham bill was introduced Aug 10, identical to the Senate text and authorizing up to 100% tariffs on the top five buyers of Russian oil and gas — India and China chief among them. A full House vote is expected only after the chamber returns from recess in September." }
+    { action: "Russia &amp; Iran sanctions bill advances to House floor", jurisdiction: "India, China, Azerbaijan, Hungary, Slovakia", sector: "Crude oil &amp; gas imports from Russia", severity: "elevated", note: "The Senate passed the Lindsey O. Graham Sanctioning Russia and Iran Act 86-11 on Aug 7 and a bipartisan House companion was introduced Aug 10, authorizing up to 100% tariffs on the top five buyers of Russian oil and gas — India and China chief among them. The House remains on recess until September, with a floor vote not expected until at least early fall." }
   ];
 
   var chokepoints = [
-    { name: "Strait of Hormuz", status: "Weekly transits fall to 73 as a tanker is confirmed seized off Qeshm and the UAE severs all trade with Iran", cls: "status-high", note: "Lloyd's List Intelligence's Aug 19 brief counted 73 total vessel transits in the week of Aug 10-16, down from 91 the week before, against a pre-crisis baseline near 73 ships a day (roughly 510 a week); at least 22 tankers entered the Gulf and 21 departed. A tanker boarded near Qeshm Island is now assessed as seized rather than merely detained, and 32% of matched vessels carried AIS identities mismatched to their tracked commercial profile, far above the 1-2% baseline. The UAE announced Aug 19 it is suspending all trade, commercial and financial dealings with Iran \"until further notice\" after two ballistic missiles were fired toward its territory the day before, one landing in UAE waters — the culmination of strikes that have now hit 18 ADNOC tankers since the war began. US-Iran diplomacy has \"effectively collapsed\" per Lloyd's List; the 60-day memorandum lapsed Aug 17 with no extension. War-risk premiums hold at 7.5-10% of hull value, up from a pre-crisis 0.25%. Brent crude climbed to $93.01 a barrel Thursday, its fifth straight daily rise, with cargo increasingly rerouting via Fujairah, Khor Fakkan, Oman and the Jeddah land bridge." },
-    { name: "Bab-el-Mandeb / Red Sea", status: "Mokha stays shut and tanker traffic falls 42% as a Houthi blockade widens and a 14-nation alliance names its commander", cls: "status-high", note: "Yemen's Mokha port director confirmed operations remain fully suspended as of Aug 15 after a new wave of Houthi missile and drone strikes; casualty tolls across the Aug 10-14 window range from 11 killed in the first wave (32 wounded) to a further 4-7 in subsequent strikes, with roughly $16 million in port damage. Separately, a Houthi attack on the cargo ship Tihamah on Aug 12 killed six crew — the first Houthi-linked shipping deaths in over a year. The Houthis' broader maritime blockade of Saudi Arabia, declared after a strike on Sanaa airport, has cut Bab-el-Mandeb vessel traffic 24% and mainstream tanker transits 42% to 53 in the blockade's first week, with Saudi tankers rerouted to Yanbu now also coming under attack there. UN envoy Hans Grundberg told the Security Council Yemen faces its highest risk of returning to full-scale war since the April 2022 truce. The Saudi-led Multinational Maritime Defence Alliance has moved from formation to stand-up, naming Rear Admiral Abdullah bin Salem Al-Shehri as commander of its 14 founding members — an organizational step forward even as the port itself stays closed." },
-    { name: "Suez Canal", status: "MSC joins the gradual return as Maersk's Gemini group shifts a fourth service back, but roughly two-thirds of Bab-el-Mandeb-eligible capacity still runs the Cape", cls: "status-elevated", note: "MSC sent seven ships through the Suez Canal in August, joining CMA CGM — which has now logged 199 transits and 5.2 million tonnes so far in 2026, already nearing 2025's full-year total — and the Gemini Cooperation of Maersk and Hapag-Lloyd, which moved its AE19 Asia-Mediterranean-Europe service back to Suez, the fourth such shift since July, saving roughly four weeks versus the Cape. Hapag-Lloyd still calls this \"a targeted adjustment for one selected service, not a general network-wide return\": Maersk currently runs only four services through Bab-el-Mandeb each week in both directions, about a third of its normal pattern, meaning the bulk of its network still diverts around the Cape." },
-    { name: "Panama Canal", status: "Draft holds on course to 48ft Aug 26 as NOAA lifts \"very strong\" El Niño odds to 95%, with a 69% shot at the strongest event on record", cls: "status-elevated", note: "The Panama Canal Authority's Neopanamax draft limit, cut to 48.5ft (14.78m) effective Aug 15, remains on schedule to fall to 48ft on Aug 26 and 47.5ft (14.48m) on Sep 3 — the fourth and fifth restrictions of the year. The Authority again stresses daily transit counts remain unaffected, a cargo-weight constraint rather than a closure. NOAA's Climate Prediction Center raised the odds of a \"very strong\" El Niño during Oct-Dec to 95%, up from 81% in its July assessment, with a 69% chance it reaches historic strength — the strongest since 1950 record-keeping began; the weekly Niño 3.4 index centered Aug 12 read +2.7°C." },
-    { name: "Strait of Malacca", status: "Asia-wide piracy still down 64% YoY through H1 2026, lowest since 2019, though the Philippines bucks the trend; no Q3 report yet", cls: "status-active", note: "ReCAAP's half-year report counted 35 incidents across Asia versus 96 a year earlier, with the Straits of Malacca and Singapore down 74% YoY even while still accounting for 20 of the 35 total — nearly all of them in the Singapore Strait's eastbound lane. The Philippines bucked the regional trend with 10 incidents versus zero in the same period last year. No Q3 update has been published yet, and transit sits at or near baseline, unlike the Middle East chokepoints." },
-    { name: "Cape of Good Hope", status: "Diversions ease further as carriers add Suez capacity, but Maersk still runs only a third of its normal Bab-el-Mandeb-transiting schedule", cls: "status-elevated", note: "Container-ship diversions around the Cape continue easing as Maersk, Hapag-Lloyd, CMA CGM and now MSC add back Suez capacity — Maersk has moved four services from the Cape since early July — yet Maersk's own Bab-el-Mandeb-transiting schedule still runs at only about a third of its normal frequency, implying the bulk of its Asia-Europe network remains on the longer Cape routing, which adds 10-14 days versus Suez." }
+    { name: "Strait of Hormuz", status: "Daily transits fall to just 1 (Aug 16) as a tanker is confirmed seized off Qeshm and the UAE severs all trade with Iran", cls: "status-high", note: "IMF-run PortWatch recorded just 1 vessel transit through the strait on Aug 16 alone, against a pre-crisis baseline near 73 ships a day; Lloyd's List Intelligence's own weekly rollup counted 73 total transits in the week of Aug 10-16, down from 91 the week before, with at least 22 tankers entering the Gulf and 21 departing over that week. A tanker boarded near Qeshm Island is now assessed as seized rather than merely detained, reported holding stationary off the Khasab approach in the North Hormuz corridor; Iran says it was held for \"violating Iranian maritime laws\" and unpaid transit fees, a claim the UAE and independent trackers reject. 32% of matched vessels carried AIS identities mismatched to their tracked commercial profile, far above the 1-2% baseline. The UAE announced Aug 19 it is suspending all trade, commercial and financial dealings with Iran \"until further notice\" after two ballistic missiles were fired toward its territory the day before, one landing in UAE waters — the culmination of strikes that have now hit 18 ADNOC tankers since the war began. Tehran says the strait stays shut until the US \"corrects\" its behavior, closing off any near-term diplomatic path. War-risk premiums hold at 7.5-10% of hull value, up from a pre-crisis 0.25%. Brent crude has now risen for a sixth straight session to $93.86 a barrel Friday, with cargo increasingly rerouting via Fujairah, Khor Fakkan, Oman and the Jeddah land bridge." },
+    { name: "Bab-el-Mandeb / Red Sea", status: "Mokha stays shut and tanker traffic falls 42% as a Houthi blockade widens and a 14-nation alliance names its commander", cls: "status-high", note: "Yemen's Mokha port director confirmed operations remain fully suspended after a wave of Houthi missile and drone strikes between Aug 10-14; casualty tolls across the window range from at least seven to eleven killed in the initial Aug 10 strike alone (30-32 wounded), with several more in subsequent strikes, and roughly $16 million in port damage. Separately, a Houthi attack on the cargo ship Tihamah on Aug 12 killed six crew — the first Houthi-linked shipping deaths in over a year. Yemen's information minister says the Houthis are working to seize control of the strait outright by expanding their presence along the western coast and Red Sea islands. The Houthis' broader maritime blockade of Saudi Arabia, declared after a strike on Sanaa airport, has cut Bab-el-Mandeb vessel traffic 24% and mainstream tanker transits 42% to 53 in the blockade's first week, with Saudi tankers rerouted to Yanbu now also coming under attack there. UN envoy Hans Grundberg told the Security Council Yemen faces its highest risk of returning to full-scale war since the April 2022 truce. The Saudi-led Multinational Maritime Defence Alliance has moved from formation to stand-up, naming Rear Admiral Abdullah bin Salem Al-Shehri as commander of its 14 founding members — an organizational step forward even as the port itself stays closed." },
+    { name: "Suez Canal", status: "MSC joins the gradual return with seven August transits as CMA CGM logs 199 ships this year, but roughly two-thirds of Bab-el-Mandeb-eligible capacity still runs the Cape", cls: "status-elevated", note: "MSC sent seven ships through the Suez Canal in August, joining CMA CGM — which has now logged 199 transits and 5.2 million tonnes so far in 2026, already nearing 2025's full-year total of 212 ships and 18.8 million tonnes — and the Gemini Cooperation of Maersk and Hapag-Lloyd, which has now moved four services (AE19, AE15, MECL, WAF6) back to Suez since early July. Suez Canal Authority Chairman Osama Rabie met CMA CGM representatives Aug 18 in what both sides called a positive session. Hapag-Lloyd still calls this \"a targeted adjustment for one selected service, not a general network-wide return\": Maersk currently runs only four services through Bab-el-Mandeb each week in both directions, about a third of its normal pattern, meaning the bulk of its network still diverts around the Cape." },
+    { name: "Panama Canal", status: "Draft holds on course to 48ft Aug 26 as NOAA lifts \"very strong\" El Niño odds to 95%, with a 69% shot at the strongest event on record", cls: "status-elevated", note: "The Panama Canal Authority's Neopanamax draft limit, cut to 48.5ft (14.78m) effective Aug 15 — the fourth restriction of the year after July 24's cut to 49ft — remains on schedule to fall to 48ft on Aug 26 and 47.5ft (14.48m) on Sep 3, the fifth restriction. The Authority again stresses daily transit counts remain unaffected thanks to water-saving measures — a cargo-weight constraint rather than a closure. NOAA's Climate Prediction Center's odds of a \"very strong\" El Niño during Oct-Dec hold at 95%, up from 81% in its July assessment, with a 69% chance it reaches historic strength — the strongest since 1950 record-keeping began." },
+    { name: "Strait of Malacca", status: "Asia-wide piracy still down 64% YoY through H1 2026, lowest since 2019, though the Philippines bucks the trend; no Q3 report yet", cls: "status-active", note: "ReCAAP's half-year report counted 35 incidents across Asia versus 96 a year earlier, with the Straits of Malacca and Singapore accounting for 21 of the 35 total — 60% of the regional count, prompting a Mar 19 incident alert urging extra vigilance in the strait's eastbound lane. The Philippines bucked the regional trend with 10 incidents versus zero in the same period last year. No Q3 update has been published yet, and transit sits at or near baseline, unlike the Middle East chokepoints." },
+    { name: "Cape of Good Hope", status: "Diversions ease further to fewer than 300 ships, down 23% from the Q1 peak, but Maersk still runs only a third of its normal Bab-el-Mandeb-transiting schedule", cls: "status-elevated", note: "Container-ship diversions around the Cape continue easing — now down roughly 23% versus the Q1 2026 peak to fewer than 300 containerships routing that way — as Maersk, Hapag-Lloyd, CMA CGM and now MSC keep adding back Suez capacity; Maersk has moved four services from the Cape since early July. Yet Maersk's own Bab-el-Mandeb-transiting schedule still runs at only about a third of its normal frequency, implying the bulk of its Asia-Europe network remains on the longer Cape routing, which still adds roughly 10 days versus Suez." }
   ];
 
+  // patternGraph = a hand-drawn-style relationship map of THIS WEEK's snapshot, drawn
+  // purely from facts already published above (chokepoints/minerals/freightEnergy/top
+  // stories) — never new research. Regenerated fresh every Monday morning by a separate
+  // weekly routine; the twice-daily routine copies this object forward unchanged.
+  var patternGraph = {
+    weekOf: "2026-08-18",
+    nodes: [
+      { id: "hormuz", label: "Strait of Hormuz — transits collapse to 73/wk", kind: "chokepoint", tone: "bad" },
+      { id: "babelmandeb", label: "Bab-el-Mandeb — Mokha shut, blockade widens", kind: "chokepoint", tone: "bad" },
+      { id: "lead", label: "UAE severs all trade with Iran", kind: "story", tone: "bad" },
+      { id: "brent", label: "Brent Crude ▲ $93.01/bbl", kind: "energy", tone: "bad" },
+      { id: "henryhub", label: "Henry Hub ▼ $2.79/MMBtu", kind: "energy", tone: "good" },
+      { id: "tin", label: "Tin — Indonesia crackdown", kind: "mineral", tone: "bad" },
+      { id: "helium", label: "Helium — Ras Laffan outage", kind: "mineral", tone: "bad" },
+      { id: "copper", label: "Copper — squeeze easing", kind: "mineral", tone: "good" },
+      { id: "canada", label: "Canada tariff deadline unresolved", kind: "story", tone: "bad" },
+      { id: "blacksea", label: "Black Sea grain corridor near-shut", kind: "story", tone: "bad" }
+    ],
+    edges: [
+      { from: "hormuz", to: "brent", label: "anchor" },
+      { from: "babelmandeb", to: "henryhub", label: "anchor" },
+      { from: "hormuz", to: "lead", label: "same event" },
+      { from: "hormuz", to: "helium", label: "same Gulf region" }
+    ]
+  };
+
   var tickerItems = [
-    { label: "STRAIT OF HORMUZ", val: "WEEKLY TRANSITS FALL TO 73 (FROM 91) AS UAE SEVERS ALL TRADE WITH IRAN", dir: "up", sentiment: "bad" },
-    { label: "CANADA TARIFFS", val: "BARRIERS \"APPEAR RESOLVED\" PER USTR, STILL UNSIGNED AS FRIDAY DEADLINE HITS TODAY", dir: "down", sentiment: "good" },
-    { label: "BRENT CRUDE", val: "$93.01/BBL AUG20, FIFTH STRAIGHT RISE ON HORMUZ STANDOFF", dir: "up", sentiment: "bad" },
+    { label: "STRAIT OF HORMUZ", val: "PORTWATCH DAILY TRANSITS AT JUST 1 (AUG16) AS UAE SEVERS ALL TRADE WITH IRAN", dir: "up", sentiment: "bad" },
+    { label: "CANADA TARIFFS", val: "50% DUTIES DUE JUST AFTER MIDNIGHT ET TONIGHT DESPITE \"VERY FAIR DEAL\" TOUTED, STILL UNSIGNED", dir: "up", sentiment: "bad" },
+    { label: "BRENT CRUDE", val: "$93.86/BBL AUG21, SIXTH STRAIGHT RISE ON HORMUZ STANDOFF", dir: "up", sentiment: "bad" },
     { label: "RUSSIA WHEAT", val: "AUG EXPORTS TRACK TO DECADE LOW (3-3.4M TONNES) AS UKRAINE HITS SHIPPING INFRASTRUCTURE", dir: "up", sentiment: "bad" },
     { label: "UKRAINE GRAIN", val: "NO VESSELS INTO GREATER ODESA SINCE AUG 1, EXPORT FORECAST CUT 54% TO 29.6M TONNES", dir: "up", sentiment: "bad" },
     { label: "MOKHA PORT", val: "STILL SHUT, HOUTHI BLOCKADE CUTS BAB-EL-MANDEB TANKER TRAFFIC 42%", dir: "down", sentiment: "bad" },
     { label: "RHINE AT KAUB", val: "LOWEST SINCE RECORDS BEGAN IN 1880, RECOVERY MAY DRAG INTO OCTOBER", dir: "down", sentiment: "bad" },
-    { label: "DDR5 MEMORY", val: "64GB KIT AVERAGES $1,118, UP 485% YEAR-ON-YEAR", dir: "up", sentiment: "bad" },
-    { label: "COPPER SQUEEZE", val: "EASES FURTHER TO $6.46-6.48/LB AS LME STOCKS KEEP BUILDING", dir: "down", sentiment: "good" },
+    { label: "PLATINUM", val: "JUMPS TO $1,817.50/OZ ON SOUTH AFRICAN SUPPLY STRAIN, UP 5.5% ON THE CYCLE", dir: "up", sentiment: "bad" },
+    { label: "COPPER SQUEEZE", val: "EASES FURTHER TO $6.46-6.48/LB, BIGGEST WEEKLY LME SHED INFLOW SINCE 2020", dir: "down", sentiment: "good" },
     { label: "GERMAN PORT STRIKES", val: "SIX SEAPORTS HIT AUG17-18, THIRD BARGAINING ROUND SET FOR AUG24-25", dir: "up", sentiment: "bad" },
     { label: "VIZHINJAM PORT", val: "FULL EXIM OPERATIONS BEGIN, CUTS EUROPE TRANSIT TO 24 DAYS", dir: "up", sentiment: "good" },
-    { label: "PANAMA DRAFT", val: "NOAA LIFTS \"VERY STRONG\" EL NINO ODDS TO 95%, UP FROM 81% IN JULY", dir: "down", sentiment: "neutral" },
-    { label: "FERTILIZER SPLIT", val: "DAP UP 3.6% M/M TO $795/T, UREA DOWN 11.5% Y/Y TO $390/T", dir: "up", sentiment: "neutral" },
-    { label: "ALUMINUM PREMIUM", val: "LME EASES TOWARD $3,200/T AS GULF WAR PREMIUM KEEPS UNWINDING", dir: "down", sentiment: "good" },
-    { label: "BHP PORT HEDLAND", val: "12TH BARGAINING ROUND FAILS AGAIN DESPITE $13.2BN PROFIT, TALKS RESUME AUG25", dir: "up", sentiment: "bad" }
+    { label: "PANAMA DRAFT", val: "EL NINO ODDS HOLD AT 95% FOR STRONGEST EVENT ON RECORD, DRAFT TO 48FT AUG26", dir: "down", sentiment: "neutral" },
+    { label: "CAPE OF GOOD HOPE", val: "DIVERSIONS EASE 23% FROM PEAK TO UNDER 300 SHIPS AS SUEZ RETURNS BUILD", dir: "down", sentiment: "good" },
+    { label: "BHP PORT HEDLAND", val: "12TH ROUND FAILS ON A 16%-OVER-4-YEARS OFFER DESPITE $13.2BN PROFIT, TALKS RESUME AUG25", dir: "up", sentiment: "bad" },
+    { label: "DDR5 MEMORY", val: "64GB KIT AVERAGES $1,118, UP 485% YEAR-ON-YEAR", dir: "up", sentiment: "bad" }
   ];
 
   var stories = [
     {
       cats: ["geopolitics", "conflict", "logistics", "outlook"], india: false, impact: 10, direction: "friction",
-      src: "Lloyd's List Intelligence / Washington Post / Al Jazeera / UANI", time: "Aug 17-19", dateISO: "2026-08-19",
-      title: "UAE's total break with Iran deepens the Hormuz crisis as a tanker is confirmed seized off Qeshm and weekly transits fall to 73",
-      dek: "Lloyd's List Intelligence's Aug 19 brief counted just 73 total vessel transits through the Strait of Hormuz in the week of Aug 10-16 — down from 91 the week before — against a pre-crisis baseline near 73 ships a day, or roughly 510 a week; at least 22 tankers entered the Gulf and 21 departed over that week, with crude tankers accounting for most of the traffic still moving. A tanker boarded near Qeshm Island has now been assessed by trackers as seized rather than merely detained, while 24 of 74 matched vessels — 32% — carried AIS identities that didn't match their tracked commercial profile, a spoofing rate far above the 1-2% baseline. The crisis deepened sharply on Aug 19, when the UAE's Foreign Ministry announced it is suspending all trade, commercial and financial dealings with Iran \"until further notice,\" a day after detecting two ballistic missiles fired toward its territory, one of which fell inside UAE waters — the culmination of a run of strikes on ADNOC's own tankers that saw two hit Aug 13 and a third Aug 14, bringing the total to 18 ADNOC vessels struck since the war began, with one crew member killed and 20 injured. The roughly $28 billion trade relationship had supplied more than 30% of Iran's imports (about $21 billion) and taken in some $7 billion, or 13%, of its exports; the embargo lands on an economy the IMF's July update forecasts will contract 5.4% this year amid 68.9% inflation. US-Iran diplomacy has \"effectively collapsed\" per Lloyd's List, with the 60-day memorandum having lapsed Aug 17 with no extension; US forces have redirected 64 vessels, disabled three and boarded two as of Aug 17, per United Against Nuclear Iran's tracker. War-risk premiums remain at 7.5-10% of hull value, up from a pre-crisis 0.25% — roughly $21 million on a single $210 million VLCC transit. Brent crude climbed to $93.01 a barrel Thursday, its fifth consecutive daily rise.",
-      url: "https://www.washingtonpost.com/world/2026/08/19/uae-says-it-is-suspending-trade-with-iran-after-missile-attack/",
-      telemetry: "Lloyd's List Intelligence"
+      src: "Lloyd's List Intelligence / Washington Post / PortWatch (IMF) / Al Jazeera / UANI", time: "Aug 16-21", dateISO: "2026-08-21",
+      title: "Hormuz traffic collapses to a single tracked transit on Aug 16 as the UAE's total break with Iran deepens and Brent extends its run to $93.86",
+      dek: "IMF-run PortWatch's vessel-tracking data recorded just 1 transit through the Strait of Hormuz on Aug 16 alone, against a pre-crisis baseline of roughly 73 ships a day — the starkest single-day reading yet of how thin traffic has become within the week Lloyd's List Intelligence separately clocked at 73 total transits (Aug 10-16), down from 91 the week before. The tanker boarded near Qeshm Island on Aug 17-18 is now assessed by trackers as seized rather than merely detained, and is reported holding stationary off the Khasab approach in the North Hormuz corridor; Iranian officials say the vessel was held for \"violating Iranian maritime laws\" and non-payment of transit fees, a justification the UAE and international trackers reject. The crisis deepened sharply on Aug 19, when the UAE's Foreign Ministry announced it is suspending all trade, commercial and financial dealings with Iran \"until further notice,\" a day after detecting two ballistic missiles fired toward its territory, one of which fell inside UAE waters — the culmination of a run of strikes on ADNOC's own tankers that saw two hit Aug 13-14 and a third shortly after, bringing the total to 18 ADNOC vessels struck since the war began. The roughly $28 billion trade relationship had supplied more than 30% of Iran's imports (about $21 billion) and taken in some $7 billion, or 13%, of its exports; the embargo lands on an economy the IMF's July update forecasts will contract 5.4% this year amid 68.9% inflation. Tehran, for its part, says the strait will not reopen until the US \"corrects\" its behavior — language that closes off any near-term diplomatic off-ramp. US-Iran diplomacy has \"effectively collapsed\" per Lloyd's List, with the 60-day memorandum having lapsed Aug 17 with no extension. War-risk premiums remain at 7.5-10% of hull value, up from a pre-crisis 0.25% — roughly $21 million on a single $210 million VLCC transit. Brent crude has now risen for a sixth consecutive session, reaching $93.86 a barrel Friday.",
+      url: "https://www.washingtonpost.com/world/2026/08/19/uae-says-it-is-suspending-trade-with-iran-after-missile-attack/"
     },
     {
       cats: ["geopolitics", "outlook"], india: false, impact: 9, direction: "fluidity",
-      src: "Al Jazeera / WBUR / Time", time: "Aug 18-19", dateISO: "2026-08-21",
-      title: "Canada's tariff pause runs out today — the deal both sides describe as \"basically done\" still isn't signed",
-      dek: "The 50% Section 338 tariffs on roughly $28 billion in annual Canadian goods — dairy, alcohol, autos, plywood, cement — were paused through end of day today, Friday Aug 21, after Trump announced Aug 18 that the US and Canada have reached a deal \"subject to the finalization of documents.\" Prime Minister Carney confirmed the pause but cautioned \"substantial progress has been made, although there is important work still to be done.\" On Aug 19, USTR Jamieson Greer said the two sides' \"significant trade barriers... appear to have been resolved\" and that his team is \"putting together the documentation\" to brief Trump and Congress; Canadian trade minister Dominic LeBlanc struck a more cautious note the same week, saying \"efforts remain ongoing\" toward a deal that would protect Canada's supply-management system alongside comprehensive US market access, economic security commitments and digital trade alignment. No signed text has been published as of this issue, leaving the outcome genuinely undecided as the deadline itself arrives.",
-      url: "https://www.aljazeera.com/economy/2026/8/19/us-and-canada-reach-very-fair-trade-agreement-trump-says"
+      src: "BNN Bloomberg / CNBC / Al Jazeera", time: "Aug 18-21", dateISO: "2026-08-21",
+      title: "Canada's 50% tariffs are due just after midnight tonight — the \"very fair\" deal both sides describe still isn't signed",
+      dek: "The 50% Section 338 tariffs on roughly $28 billion in annual Canadian goods — dairy, electronics and telecom equipment, furniture, building materials, plastics, clothing, toys, machinery, cosmetics and agricultural products — are set to take effect just after midnight ET tonight, Aug 21 into Aug 22, unless Ottawa and Washington finalize the deal both sides have been touting since Trump's Tuesday pause announcement. Trump says \"we've come to a deal with Canada... a very fair deal for both,\" with a White House proclamation describing Canada as having committed to remove measures the administration considers discriminatory against US alcohol, dairy and motor-vehicle exports, and to lower its own retaliatory tariffs on US goods. Trade minister Dominic LeBlanc met USTR Jamieson Greer in Washington this week to tout the draft, then returned to Ottawa to brief Prime Minister Carney and the provincial premiers on finishing touches. As of this issue, no signed text has been published, and Canadian exporters have been told to prepare for the tariffs to take effect as scheduled if the paperwork isn't finalized before midnight.",
+      url: "https://www.bnnbloomberg.ca/tariffs/2026/08/19/canada-us-both-say-they-made-gains-in-new-trade-deal-that-averted-tariffs/"
     },
     {
       cats: ["geopolitics", "outlook"], india: false, impact: 9, direction: "friction",
       src: "Moscow Times / USDA / IFPRI", time: "Aug 11-18", dateISO: "2026-08-18",
       title: "Russia's wheat exports crash toward a decade low as Ukrainian strikes on shipping infrastructure squeeze the Black Sea's other supplier",
-      dek: "Russian grain exports risk dropping to a decade low in August as escalating Ukrainian attacks on commercial vessels and port infrastructure in the Black Sea create shipping bottlenecks at southern ports. Consultancy SovEcon projects Russia will export just 3-3.4 million tonnes of wheat this month, well below the five-year August average of 5 million tonnes and potentially the lowest August total since 2016-17; ProZerno separately forecasts overall grain exports falling to nearly 2.5 million tonnes amid severe Black Sea and Sea of Azov congestion. Russia's Agriculture Ministry responded by raising the wheat export tax for the Aug 12-18 period even as foreign buyers already back away over soaring shipping costs. The Institute for Agricultural Market Studies has cut its 2026 harvest forecast to 138.5 million tonnes from 140 million and total 2026-27 export-capacity estimate to 60 million tonnes from 61.5 million. Russia and Ukraine together normally supply close to 30% of world wheat exports, so Moscow's collapse compounds Kyiv's own near-total Black Sea shutdown detailed elsewhere in this issue — both ends of the corridor seizing at once, driven more by war damage to shipping than by any single policy announcement.",
+      dek: "Russian grain exports risk dropping to a decade low in August as escalating Ukrainian attacks on commercial vessels and port infrastructure in the Black Sea create shipping bottlenecks at southern ports. Consultancy SovEcon projects Russia will export just 3-3.4 million tonnes of wheat this month, well below the five-year August average of 5 million tonnes and potentially the lowest August total since 2016-17; ProZerno separately forecasts overall grain exports falling to nearly 2.5 million tonnes amid severe Black Sea and Sea of Azov congestion. Higher freight costs are compounding the squeeze, up roughly $10 a tonne for major destinations. Russia's Agriculture Ministry responded by raising the wheat export tax for the Aug 12-18 period even as foreign buyers already back away over soaring shipping costs. The Institute for Agricultural Market Studies has cut its 2026 harvest forecast to 138.5 million tonnes from 140 million and total 2026-27 export-capacity estimate to 60 million tonnes from 61.5 million. Russia and Ukraine together normally supply close to 30% of world wheat exports, so Moscow's collapse compounds Kyiv's own near-total Black Sea shutdown detailed elsewhere in this issue — both ends of the corridor seizing at once, driven more by war damage to shipping than by any single policy announcement.",
       url: "https://www.themoscowtimes.com/2026/08/11/russian-wheat-exports-brace-for-decade-low-in-august-amid-black-sea-attacks-a93462"
     },
     {
@@ -1188,7 +1418,7 @@
       cats: ["conflict", "geopolitics", "logistics"], india: false, impact: 8, direction: "friction",
       src: "Al Jazeera / Arab News / UN", time: "Aug 10-15", dateISO: "2026-08-15",
       title: "Mokha stays shut and a cargo-ship attack kills six as a Saudi-led alliance names its first commander",
-      dek: "Yemen's Mokha port director confirmed commercial operations remain fully suspended as of Aug 15 after a fresh wave of Houthi missile and drone strikes between Aug 10-14; casualty counts across the window range from at least 11 killed in the first wave (32 wounded) to several more in subsequent strikes, with roughly $16 million in port damage and about 1,300 dockworkers left without income. Separately, a Houthi attack on the cargo ship Tihamah on Aug 12 killed six crew — the first Houthi-linked shipping deaths in more than a year. The broader Houthi maritime blockade of Saudi Arabia, declared after a strike on Sanaa's airport, has cut Bab-el-Mandeb vessel traffic 24% and mainstream tanker transits 42% to just 53 in the blockade's first week, with Saudi tankers that rerouted to Yanbu now coming under attack there too. UN envoy Hans Grundberg told the Security Council Yemen faces its highest risk of returning to full-scale war since the April 2022 truce, citing renewed Houthi attacks on Marib and Hadramawt alongside the shipping strikes. The Saudi-led Multinational Maritime Defence Alliance has moved from formation to operational stand-up, with Rear Admiral Abdullah bin Salem Al-Shehri named commander of its 14 founding members — an organizational step forward even as the port itself stays closed and the toll keeps climbing.",
+      dek: "Yemen's Mokha port director confirmed commercial operations remain fully suspended after a fresh wave of Houthi missile and drone strikes between Aug 10-14; casualty counts across the window range from at least seven to eleven killed in the initial Aug 10 strike alone (30-32 wounded) to several more in subsequent strikes, with roughly $16 million in port damage and about 1,300 dockworkers left without income. Separately, a Houthi attack on the cargo ship Tihamah on Aug 12 killed six crew — the first Houthi-linked shipping deaths in more than a year. Yemen's information minister says the Houthis are working to seize control of the Bab el-Mandeb Strait outright by expanding their presence along the western coast and Red Sea islands. The broader Houthi maritime blockade of Saudi Arabia, declared after a strike on Sanaa's airport, has cut Bab-el-Mandeb vessel traffic 24% and mainstream tanker transits 42% to just 53 in the blockade's first week, with Saudi tankers that rerouted to Yanbu now coming under attack there too. UN envoy Hans Grundberg told the Security Council Yemen faces its highest risk of returning to full-scale war since the April 2022 truce. The Saudi-led Multinational Maritime Defence Alliance has moved from formation to operational stand-up, with Rear Admiral Abdullah bin Salem Al-Shehri named commander of its 14 founding members — an organizational step forward even as the port itself stays closed and the toll keeps climbing.",
       url: "https://www.aljazeera.com/news/2026/8/14/saudi-arabia-announces-start-of-red-sea-defence-alliance-will-it-work"
     },
     {
@@ -1202,14 +1432,14 @@
       cats: ["tech", "outlook"], india: false, impact: 7, direction: "friction",
       src: "Tech Times / Rigzone / Goldman Sachs", time: "Aug 17-19", dateISO: "2026-08-17",
       title: "DRAM prices keep spiraling as a 64GB DDR5 kit hits $1,118, up 485% in a year, with Goldman seeing further gains in Q3",
-      dek: "A 64GB DDR5-5600 kit averaged $1,118 as of Aug 17, up from just $191 a year earlier — a 485% increase in twelve months — as AI infrastructure and consumer PCs bid for the same fabrication capacity. Samsung's 16GB DDR5 modules are now priced near $29.56/GB, with DDR5 median pricing at $34.34/GB across the market. Goldman Sachs expects Samsung's DDR5 RDIMM pricing to reach roughly $1,402 in the third quarter of 2026, up about 13% from Q2, with the firm and others seeing no significant relief from new manufacturing capacity until 2028-2029. The squeeze compounds an already-tight chip environment: Washington and the Netherlands continue coordinating export-control tightening on chipmaking equipment aimed at China, adding a policy dimension on top of the raw capacity shortage driving prices higher across both consumer and enterprise memory tiers.",
+      dek: "A 64GB DDR5-5600 kit averaged $1,118 as of Aug 17, up from just $191 a year earlier — a 485% increase in twelve months — as AI infrastructure and consumer PCs bid for the same fabrication capacity; no fresher print on this specific SKU was confirmed this cycle. Samsung's 16GB DDR5 modules are now priced near $29.56/GB, with DDR5 median pricing at $34.34/GB across the market. Goldman Sachs expects Samsung's DDR5 RDIMM pricing to reach roughly $1,402 in the third quarter of 2026, up about 13% from Q2, with the firm and others seeing no significant relief from new manufacturing capacity until 2028-2029. The squeeze compounds an already-tight chip environment: Washington and the Netherlands continue coordinating export-control tightening on chipmaking equipment aimed at China, adding a policy dimension on top of the raw capacity shortage driving prices higher across both consumer and enterprise memory tiers.",
       url: "https://www.techtimes.com/articles/324825/20260818/ai-wiped-out-two-decades-falling-ram-prices-full-ddr5-table-builders.htm"
     },
     {
       cats: ["outlook", "logistics"], india: false, impact: 6, direction: "fluidity",
       src: "Mining.com / Bloomberg", time: "Aug 19-20", dateISO: "2026-08-20",
-      title: "Copper's squeeze keeps easing as COMEX slides to $6.46-6.48/lb even with the Gresik smelter still down",
-      dek: "COMEX copper eased further to $6.46-6.48 a pound ($14.25/kg) as of Aug 20, down 0.4-0.43% on the day and continuing to retreat from Monday's $6.714/lb ($14.80/kg) record, as the more-than-20,000-tonne LME warehouse delivery that broke last week's historic squeeze keeps working through the market. Freeport Indonesia CEO Tony Wenas now says repairs at PT Smelting's Gresik facility, shut since the Aug 8 boiler leak, are targeted for completion by the end of September — more specific than the earlier \"this quarter\" language — while the backup Manyar smelter's restart has been accelerated to end of August, ahead of its original September target. The underlying outage still hasn't actually been fixed, but the acute market-side panic that gripped London for more than a week continues to unwind, with price now drifting lower for a second straight session rather than spiking further.",
+      title: "Copper's squeeze keeps easing as COMEX slides to $6.46-6.48/lb in the biggest weekly LME warehouse inflow since 2020",
+      dek: "COMEX copper eased further to $6.46-6.48 a pound ($14.25/kg) as of Aug 20, down 0.4-0.43% on the day and continuing to retreat from Monday's $6.714/lb ($14.80/kg) record. Bloomberg reports the LME warehouse delivery that broke last week's historic squeeze marked its biggest weekly shed inflow since 2020, as traders keep moving metal into London to capture the arbitrage. Freeport Indonesia CEO Tony Wenas now says repairs at PT Smelting's Gresik facility, shut since the Aug 8 boiler leak, are targeted for completion by the end of September — more specific than the earlier \"this quarter\" language — while the backup Manyar smelter's restart has been accelerated to end of August, ahead of its original September target. The underlying outage still hasn't actually been fixed, but the acute market-side panic that gripped London for more than a week continues to unwind, with price now drifting lower for a second straight session rather than spiking further.",
       url: "https://www.mining.com/web/historic-copper-squeeze-eases-as-traders-deliver-metal-to-lme/",
       telemetry: "LME"
     },
@@ -1217,7 +1447,7 @@
       cats: ["logistics", "outlook"], india: false, impact: 6, direction: "friction",
       src: "Maritime Executive / Container News / World Cargo News", time: "Aug 17-19", dateISO: "2026-08-18",
       title: "Six German seaports hit by warning strikes as ver.di and employers stay apart on pay, third round set for Aug 24-25",
-      dek: "Union ver.di led a 24-hour warning strike across six major German seaports — Hamburg, Bremerhaven, Bremen, Emden, Brake and Wilhelmshaven — running from 22:00 on Aug 17 to the same time Aug 18, with about 5,000 of the 11,000-worker bargaining group taking part and roughly 2,100 out in Hamburg alone; HHLA and Eurogate terminal operations were halted during the walkout. Ver.di is demanding an 8.2% wage increase or at least an extra €2.50 an hour over 12 months, against an employer offer of 5.1% over 19 months backdated to Aug 1, 2026 and running until the end of February 2028. The strike ended without resolving the underlying dispute over contract duration, but a third negotiating round is now set for Aug 24-25 in Hamburg — vessel-queue clearing typically takes two to four weeks after a stoppage of this scale.",
+      dek: "Union ver.di led a 24-hour warning strike across six major German seaports — Hamburg, Bremerhaven, Bremen, Emden, Brake and Wilhelmshaven — running from 22:00 on Aug 17 to the same time Aug 18, with about 5,000 of the roughly 11,000-worker bargaining group taking part; HHLA and Eurogate terminal operations were halted during the walkout. Ver.di is demanding an 8.2% wage increase or at least an extra €2.50 an hour over 12 months, against an employer offer of 5.1% over 19 months backdated to Aug 1, 2026 and running until the end of February 2028; the union says members have overwhelmingly rejected the current proposals. The strike ended without resolving the underlying dispute over contract duration, but a third negotiating round is now confirmed for Aug 24-25 in Hamburg — vessel-queue clearing typically takes two to four weeks after a stoppage of this scale.",
       url: "https://maritime-executive.com/article/german-seaports-paralyzed-by-daylong-strike-over-contract-impasse"
     },
     {
@@ -1230,8 +1460,8 @@
     {
       cats: ["logistics", "outlook"], india: false, impact: 6, direction: "friction",
       src: "Mining.com / Bloomberg", time: "Aug 17-18", dateISO: "2026-08-18",
-      title: "BHP and Port Hedland unions fail again at a 12th bargaining session even as BHP posts a $13.2 billion profit",
-      dek: "BHP and the Combined BHP Ports Unions failed to reach a wage agreement at their twelfth Fair Work Commission session on Aug 18, the same week BHP reported underlying full-year profit up 30% to $13.2 billion, boosted by a copper division that generated record EBITDA above $18 billion at a 70% margin; BHP will pay a final dividend of 99 cents, its highest in four years. The union has spent more than seven months at the table with BHP over a new agreement for roughly 450 operators and maintenance workers at Port Hedland, the world's largest bulk iron-ore export terminal, which ships roughly $80 million of iron ore a day. The first formal strike in decades hit in mid-July, followed by a two-day stoppage Aug 8-9 involving about 150 workers. The parties are due back at the table Aug 25, with no new strike action called as of this issue.",
+      title: "BHP and Port Hedland unions fail again at a 12th bargaining session on a 16%-over-4-years offer, even as BHP posts a $13.2 billion profit",
+      dek: "BHP and the Combined BHP Ports Unions failed to reach a wage agreement at their twelfth Fair Work Commission session on Aug 18, the same week BHP reported underlying full-year profit up 30% to $13.2 billion, boosted by a copper division that generated record EBITDA above $18 billion at a 70% margin; BHP will pay a final dividend of 99 cents, its highest in four years. BHP's latest proposal — a 16% wage increase over four years — falls short of the binding guarantees the roughly 450 operators and maintenance workers at Port Hedland are seeking, with the union arguing extreme heat, long hours and time away from family warrant rates that shouldn't trail city-based pay. Port Hedland ships roughly $80 million of iron ore a day, the world's largest bulk iron-ore export terminal. The first formal strike in decades hit in mid-July, followed by a two-day stoppage Aug 8-9 involving about 150 workers. The parties are due back at the table Aug 25, with no new strike action called as of this issue.",
       url: "https://www.mining.com/web/bhp-port-hedland-unions-fail-to-reach-wage-deal-talks-to-resume-on-august-25"
     },
     {
@@ -1245,50 +1475,49 @@
       cats: ["logistics", "outlook"], india: true, impact: 6, direction: "fluidity",
       src: "Business Standard / The Tribune", time: "Aug 18", dateISO: "2026-08-18",
       title: "Vizhinjam's deep-water port begins full EXIM operations, flagging off its first export container for Valencia, Spain",
-      dek: "Adani Ports' ₹8,867-crore Vizhinjam International Seaport in Kerala formally began full EXIM (export-import) operations on Aug 18, 2026, with Kerala Chief Minister V D Satheesan flagging off the port's first export container, bound for Valencia, Spain. The deep-water transshipment gateway cuts South Indian exporters' transit time to Europe from roughly two months via existing routing to 24 days, and is expected to materially improve export competitiveness for seafood, spices, cashew and engineering-goods shippers in the region. A ₹16,000-crore Phase 2 expansion — including bunkering facilities, a liquid jetty and an integrated logistics ecosystem — is planned to lift capacity to 5.7 million TEU by December 2028, bringing Adani's total Vizhinjam investment to roughly ₹30,000 crore. The launch lands as a genuine capacity-side offset to the Hormuz-driven congestion and freight-cost pressure hitting India-bound trade elsewhere in this issue, on the same Aug 20 session in which the Nifty and Sensex snapped a four-day losing streak to rally on easing global bond yields.",
+      dek: "Adani Ports' ₹8,867-crore Vizhinjam International Seaport in Kerala formally began full EXIM (export-import) operations on Aug 18, 2026, with Kerala Chief Minister V D Satheesan flagging off the port's first export container, bound for Valencia, Spain. The deep-water transshipment gateway cuts South Indian exporters' transit time to Europe from roughly two months via existing routing to 24 days, and is expected to materially improve export competitiveness for seafood, spices, cashew and engineering-goods shippers in the region. A ₹16,000-crore Phase 2 expansion — including bunkering facilities, a liquid jetty and an integrated logistics ecosystem — is planned to lift capacity to 5.7 million TEU by December 2028, bringing Adani's total Vizhinjam investment to roughly ₹30,000 crore. The launch lands as a genuine capacity-side offset to the Hormuz-driven congestion and freight-cost pressure hitting India-bound trade elsewhere in this issue, with Adani Ports shares extending their advance to ₹1,697.20 on Aug 21 as the broader Nifty and Sensex rally continues.",
       url: "https://www.business-standard.com/industry/news/vizhinjam-port-begins-exim-operations-opens-gateway-for-india-s-trade-126081801128_1.html"
     },
     {
       cats: ["outlook", "logistics"], india: false, impact: 5, direction: "friction",
       src: "gCaptain / Fox Weather / pancanal.com", time: "Aug 15-19", dateISO: "2026-08-19",
       title: "Panama Canal's draft schedule holds as NOAA lifts El Niño odds to 95% for the strongest event on record",
-      dek: "The Panama Canal Authority's Neopanamax draft limit was cut to 14.78 meters (48.5 feet) effective Aug 15 — the fourth restriction of the year — with further cuts to 48 feet on Aug 26 and 47.5 feet (14.48 meters) on Sep 3 unchanged from schedule. The Authority again stresses daily transit counts remain unaffected — a cargo-weight constraint on the largest vessels, not a closure. NOAA's Climate Prediction Center raised the odds of the current El Niño reaching \"very strong\" status during Oct-Dec to 95%, up sharply from 81% in its July assessment, with a 69% chance it becomes the strongest event since 1950 record-keeping began; the weekly Niño 3.4 index centered on Aug 12 read +2.7°C, with all 30 forecast ensemble members now clustering around historic strength — a material upgrade in the drought risk facing Gatun Lake's replenishment heading into the rest of the dry season.",
+      dek: "The Panama Canal Authority's Neopanamax draft limit was cut to 14.78 meters (48.5 feet) effective Aug 15 — the fourth restriction of the year — with further cuts to 48 feet on Aug 26 and 47.5 feet (14.48 meters) on Sep 3 unchanged from schedule. The Authority again stresses daily transit counts remain unaffected thanks to water-saving measures — a cargo-weight constraint on the largest vessels, not a closure. NOAA's Climate Prediction Center's odds of the current El Niño reaching \"very strong\" status during Oct-Dec hold at 95%, up sharply from 81% in its July assessment, with a 69% chance it becomes the strongest event since 1950 record-keeping began; all 30 forecast ensemble members now cluster around historic strength — a material upgrade in the drought risk facing Gatun Lake's replenishment heading into the rest of the dry season.",
       url: "https://www.foxweather.com/weather-news/noaa-el-nino-historic-strength-potential-august-2026"
     },
     {
       cats: ["logistics", "tech"], india: false, impact: 5, direction: "friction",
       src: "TechCrunch / The Record / SecurityWeek", time: "Jul 29-Aug 11", dateISO: "2026-08-11",
-      title: "CEVA Logistics data breach ripples across Bol, Ajax, Steam and other clients three weeks on",
-      dek: "CEVA Logistics, the logistics subsidiary of shipping major CMA CGM, disclosed a cyberattack between Jul 29 and Aug 1 that knocked out order-processing systems at eight European warehouses and compromised customer personal data — names, addresses, phone numbers, emails and order data, though not payment or credential information — at clients including Dutch e-commerce giant Bol, department store De Bijenkorf, eyewear retailer Ace & Tate, football club Ajax and Steam's European hardware business. No other CEVA systems, including air, ocean, ground and rail transport management, were affected. CEVA says it activated its security protocols and restored some affected applications for certain customers, though as of the most recent public update operations at the facility had not been fully restored. The Dutch Data Protection Authority is investigating; no group has claimed responsibility. The disruption adds a cyber dimension to a European logistics network already strained by the Rhine's record-low water levels and the German port strikes covered elsewhere in this issue.",
+      title: "CEVA Logistics data breach ripples across Bol, Ajax, Valve and other clients three weeks on",
+      dek: "CEVA Logistics, the logistics subsidiary of shipping major CMA CGM, disclosed a cyberattack between Jul 29 and Aug 1 that knocked out order-processing systems at eight European warehouses and compromised customer personal data — names, addresses, phone numbers, emails and order data, though not payment or credential information — at clients including Dutch e-commerce giant Bol, department store De Bijenkorf, eyewear retailer Ace & Tate, football club Ajax and Valve's European Steam hardware business; ING has since also confirmed impact. No other CEVA systems, including air, ocean, ground and rail transport management, were affected. CEVA has not publicly commented on the breach, though it activated its security protocols and restored some affected applications for certain customers. The Dutch Data Protection Authority is investigating; no group has claimed responsibility. The disruption adds a cyber dimension to a European logistics network already strained by the Rhine's record-low water levels and the German port strikes covered elsewhere in this issue.",
       url: "https://www.securityweek.com/ceva-logistics-operations-disrupted-by-cyberattack/"
     },
     {
       cats: ["logistics", "outlook"], india: false, impact: 5, direction: "friction",
       src: "Drewry / Container News", time: "Week of Aug 20", dateISO: "2026-08-20",
       title: "Drewry's World Container Index jumps 4% to $4,526 as blanked sailings keep absorbing chokepoint disruption",
-      dek: "Drewry's World Container Index rose 4% to $4,526 per 40-foot container in its Aug 20 weekly reading, the second straight weekly rise, driven once again by Transpacific gains; Drewry's Intra-Asia Container Index climbed 6% over the same week to $1,091 per 40-foot container. Carriers continue blanking sailings to absorb Suez and Hormuz risk, Panama's draft restrictions, Asian port congestion and the Rhine's disruption — a single index now capturing nearly every chokepoint disruption covered in this issue at once, and the clearest sign that this cycle's combined friction is still translating directly into freight cost rather than being absorbed elsewhere in the network.",
-      url: "https://container-news.com/drewry-world-container-index-rises-as-early-peak-season-lifts-freight-rates/",
-      telemetry: "Drewry"
+      dek: "Drewry's World Container Index rose 4% to $4,526 per 40-foot container in its Aug 20 weekly reading, the second straight weekly rise, driven once again by Transpacific gains — Shanghai-New York rates alone rose 9% to $9,507 per 40-foot container the same week; Drewry's Intra-Asia Container Index climbed 6% over the same week to $1,091 per 40-foot container. Carriers continue blanking sailings to absorb Suez and Hormuz risk, Panama's draft restrictions, Asian port congestion and the Rhine's disruption — a single index now capturing nearly every chokepoint disruption covered in this issue at once, and the clearest sign that this cycle's combined friction is still translating directly into freight cost rather than being absorbed elsewhere in the network. No fresher weekly print was confirmed as of this issue; Drewry's next update is expected around Aug 27.",
+      url: "https://container-news.com/drewry-world-container-index-rises-as-early-peak-season-lifts-freight-rates/"
     }
   ];
 
   var briefingScript = [
-    { speaker: "anchor", text: "Okay wait, hold on — look at that, sun's not even all the way up and it's already doing the orange thing." },
-    { speaker: "analyst", text: "Mm. That's the good part. Don't waste it staring at your phone, kid." },
-    { speaker: "anchor", text: "I'm not — okay maybe a little. Seventy-three ships a week now, man. Seventy-three. That's not a squeeze, that's basically closed." },
-    { speaker: "analyst", text: "Down from ninety-one the week before that. And the UAE just walked away from the whole relationship. Twenty-eight billion, gone, overnight." },
-    { speaker: "anchor", text: "Wait — they just cut Iran off? All of it, no exceptions?" },
-    { speaker: "analyst", text: "All of it. 'Til further notice.' Missiles land in their water Tuesday, they don't stick around for an explanation." },
-    { speaker: "anchor", text: "And there's a tanker they're saying actually got seized now, not just boarded, right?" },
-    { speaker: "analyst", text: "Off Qeshm, yeah. That's a different word than last week. Boarded you can argue about. Seized, you can't." },
-    { speaker: "anchor", text: "Here — take this before the whole sky changes on us." },
-    { speaker: "analyst", text: "Ha. Appreciate it. Okay, ask me something that isn't awful, go on." },
-    { speaker: "anchor", text: "Fine — copper. Tell me copper's actually fine." },
-    { speaker: "analyst", text: "Copper's genuinely fine. Price keeps sliding, warehouses keep filling up. That one's just... working itself out." },
-    { speaker: "anchor", text: "I'll take it. One thing not on fire." },
-    { speaker: "analyst", text: "One thing. Everything else, though — Canada's deal isn't signed and the clock runs out today, Russia's wheat exports are cratering, and Ukraine hasn't had a ship into Odesa since the first of the month." },
-    { speaker: "anchor", text: "Two of the biggest wheat guys on the planet, both stuck, same week." },
-    { speaker: "analyst", text: "Same week. Look at that color, though — that's a hell of a way to start a Friday." }
+    { speaker: "anchor", text: "Okay, that's — whoa. Look at that sky. It's doing the whole thing tonight, orange all the way to the water." },
+    { speaker: "analyst", text: "It's earned it. Long Friday. Pass that here before you say anything else." },
+    { speaker: "anchor", text: "One transit, man. One. PortWatch clocked a single ship through Hormuz on the sixteenth." },
+    { speaker: "analyst", text: "Out of seventy-three a day, normally. That's not a number anymore, that's a photograph of an empty strait." },
+    { speaker: "anchor", text: "And they've got a whole tanker parked off Khasab now, not boarded — seized. Iran's saying it didn't pay its fees." },
+    { speaker: "analyst", text: "Sure. And the UAE just cut every dollar of trade with them, so — read between that however you want." },
+    { speaker: "anchor", text: "Brent's up six days straight now. Ninety-three eighty-six." },
+    { speaker: "analyst", text: "Sixth day. That's not a spike anymore either, kid, that's a trend with a name on it." },
+    { speaker: "anchor", text: "Meanwhile Canada's just — sitting there. Deadline's tonight. Midnight, their time." },
+    { speaker: "analyst", text: "Trump's calling it 'very fair.' Nobody's signed anything. We've been here before, though — remember Tuesday?" },
+    { speaker: "anchor", text: "Paused with two hours to spare. You think they do it again?" },
+    { speaker: "analyst", text: "I think they always do it again, until the day they don't. Ask me something with good news in it." },
+    { speaker: "anchor", text: "Copper. Still falling?" },
+    { speaker: "analyst", text: "Still falling. Biggest week for metal hitting London warehouses since 2020. That one's actually healing." },
+    { speaker: "anchor", text: "Platinum jumped though — eighteen seventeen an ounce." },
+    { speaker: "analyst", text: "South Africa being South Africa. Can't win 'em all — but look at that color over the water, that's the win tonight." }
   ];
   var catLabel = {
     logistics: "Supply Chain &amp; Logistics",
@@ -1411,6 +1640,29 @@
 
   function mineralArrow(dir) {
     return dir === "up" ? "▲" : dir === "down" ? "▼" : "◆";
+  }
+
+  // Renders a real historical time series (real dated {d,v} points, never fabricated
+  // or interpolated) as an inline SVG line chart, shown inside a row's expanded detail
+  // view. No external chart library — just a polyline mapped from real timestamps/values
+  // into a fixed viewBox, plus a small date-range/min-max caption underneath for basic
+  // axis context.
+  function sparklineSvg(history) {
+    if (!history || history.length < 2) return "";
+    var w = 300, h = 44, pad = 5;
+    var times = history.map(function (p) { return new Date(p.d + "T00:00:00").getTime(); });
+    var vals = history.map(function (p) { return p.v; });
+    var minT = Math.min.apply(null, times), maxT = Math.max.apply(null, times);
+    var minV = Math.min.apply(null, vals), maxV = Math.max.apply(null, vals);
+    var tRange = (maxT - minT) || 1, vRange = (maxV - minV) || 1;
+    var pts = history.map(function (p, i) {
+      var x = ((times[i] - minT) / tRange) * (w - pad * 2) + pad;
+      var y = h - pad - ((p.v - minV) / vRange) * (h - pad * 2);
+      return x.toFixed(1) + "," + y.toFixed(1);
+    }).join(" ");
+    return '<svg class="idx-chart-svg" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none" role="img" aria-label="Price trend over time">' +
+      '<polyline points="' + pts + '" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" /></svg>' +
+      '<div class="idx-chart-caption"><span>' + history[0].d + '</span><span>' + minV + ' – ' + maxV + '</span><span>' + history[history.length - 1].d + '</span></div>';
   }
 
   // Turns a sidebar "exchange"/source line into a real clickable link out to that
@@ -1564,8 +1816,9 @@
       var arrow = c.dir === "up" ? "▲" : (c.dir === "down" ? "▼" : "●");
       var dirClass = c.dir === "up" ? "sentiment-good" : (c.dir === "down" ? "sentiment-bad" : "sentiment-neutral");
       html += '<div class="idx-row"><div class="idx-line2"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' +
-        exchangeHtml(c.pillar + ' · ' + c.ticker) + '</div>' +
-        '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + '</div>' +
+        '<div class="idx-exchange">' + c.pillar + '</div></div>' +
+        '<div class="idx-line2">' + exchangeHtml(c.ticker) +
+        '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + '</div></div>' +
         '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + '</div></div>';
     });
     el.innerHTML = html;
@@ -1632,6 +1885,85 @@
     document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !overlay.hidden) close(); });
   }
 
+  // Hand-drawn-style pattern diagram helpers — plain inline SVG, no external library.
+  // roughRectPath jitters a rectangle's corners; drawn twice with independent jitter to
+  // get the double-stroke sketchy look. roughEdgePath bows a straight connector into a
+  // slightly wobbly curve via a randomly offset quadratic control point.
+  function patJitter(v, amt) { return v + (Math.random() - 0.5) * amt; }
+
+  function roughRectPath(x, y, w, h, amt) {
+    amt = amt || 2.5;
+    var x2 = x + w, y2 = y + h;
+    var pts = [[x, y], [x2, y], [x2, y2], [x, y2], [x, y]];
+    return "M" + pts.map(function (p) {
+      return patJitter(p[0], amt).toFixed(1) + "," + patJitter(p[1], amt).toFixed(1);
+    }).join(" L") + " Z";
+  }
+
+  function roughRectSvg(x, y, w, h) {
+    return '<path class="pat-rough" d="' + roughRectPath(x, y, w, h) + '" />' +
+      '<path class="pat-rough" d="' + roughRectPath(x, y, w, h) + '" />';
+  }
+
+  function roughEdgePath(x1, y1, x2, y2) {
+    var mx = (x1 + x2) / 2 + patJitter(0, 16);
+    var my = (y1 + y2) / 2 + patJitter(0, 16);
+    return "M" + x1.toFixed(1) + "," + y1.toFixed(1) + " Q" + mx.toFixed(1) + "," + my.toFixed(1) + " " + x2.toFixed(1) + "," + y2.toFixed(1);
+  }
+
+  function renderPatternGraph() {
+    var wrap = document.getElementById("patternCanvasWrap");
+    if (!wrap || typeof patternGraph === "undefined") return;
+    var nodes = patternGraph.nodes || [];
+    var edges = patternGraph.edges || [];
+    var w = 760, h = 540, cx = w / 2, cy = h / 2, r = Math.min(w, h) / 2 - 95;
+    var pos = {};
+    nodes.forEach(function (n, i) {
+      var angle = (2 * Math.PI * i / nodes.length) - Math.PI / 2;
+      pos[n.id] = { x: cx + r * Math.cos(angle), y: cy + r * Math.sin(angle) };
+    });
+    var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" class="pattern-svg" role="img" aria-label="This week\'s pattern diagram">';
+    edges.forEach(function (e) {
+      var a = pos[e.from], b = pos[e.to];
+      if (!a || !b) return;
+      svg += '<path class="pat-edge" d="' + roughEdgePath(a.x, a.y, b.x, b.y) + '" fill="none" />';
+      if (e.label) {
+        var mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+        svg += '<text class="pat-edge-label" x="' + mx.toFixed(1) + '" y="' + (my - 5).toFixed(1) + '" text-anchor="middle">' + e.label + '</text>';
+      }
+    });
+    nodes.forEach(function (n) {
+      var p = pos[n.id];
+      var nw = Math.max(96, n.label.length * 6.3), nh = 42;
+      var x = p.x - nw / 2, y = p.y - nh / 2;
+      svg += '<g class="pat-node pat-tone-' + (n.tone || "neutral") + '">' +
+        roughRectSvg(x, y, nw, nh) +
+        '<text class="pat-node-label" x="' + p.x.toFixed(1) + '" y="' + (p.y + 5).toFixed(1) + '" text-anchor="middle">' + n.label + '</text></g>';
+    });
+    svg += '</svg>';
+    wrap.innerHTML = svg;
+  }
+
+  function wirePattern() {
+    var btn = document.getElementById("patternBtn");
+    var overlay = document.getElementById("patternOverlay");
+    var closeBtn = document.getElementById("patternClose");
+    var downloadBtn = document.getElementById("patternDownloadBtn");
+    var weekOfEl = document.getElementById("patternWeekOf");
+    var weekTagEl = document.getElementById("patternWeekTag");
+    if (!btn || !overlay || !closeBtn) return;
+    var weekOf = (typeof patternGraph !== "undefined" && patternGraph.weekOf) || "";
+    if (weekOfEl) weekOfEl.textContent = weekOf;
+    if (weekTagEl && weekOf) weekTagEl.textContent = "· week of " + weekOf;
+    function open() { overlay.hidden = false; renderPatternGraph(); }
+    function close() { overlay.hidden = true; }
+    btn.addEventListener("click", open);
+    closeBtn.addEventListener("click", close);
+    overlay.addEventListener("click", function (e) { if (e.target === overlay) close(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !overlay.hidden) close(); });
+    if (downloadBtn) downloadBtn.addEventListener("click", function () { window.print(); });
+  }
+
   function renderChokepoints() {
     var el = document.getElementById("chokepoints");
     var html = "";
@@ -1653,9 +1985,11 @@
       var arrow = c.dir === "up" ? "▲" : (c.dir === "down" ? "▼" : "●");
       var dirClass = c.dir === "up" ? "sentiment-bad" : (c.dir === "down" ? "sentiment-good" : "sentiment-neutral");
       html += '<div class="idx-row"><div class="idx-line2"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' +
-        exchangeHtml(c.pillar + ' · ' + c.ticker, c.name + ' ' + c.pillar + ' ' + c.ticker) + '</div>' +
-        '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + '</div>' +
-        '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + '</div></div>';
+        '<div class="idx-exchange">' + c.pillar + '</div></div>' +
+        '<div class="idx-line2">' + exchangeHtml(c.ticker, c.name + ' ' + c.pillar + ' ' + c.ticker) +
+        '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + '</div></div>' +
+        '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + '</div>' +
+        '<div class="idx-chart">' + sparklineSvg(c.history) + '</div></div>';
     });
     el.innerHTML = html;
   }
@@ -2000,6 +2334,7 @@
   wireCardExpand();
   renderSourcesModal();
   wireSources();
+  wirePattern();
   updateCounts();
   applyFilter();
   wireControls();
