@@ -5,6 +5,7 @@ Standard library only. Each URL is fetched once per run; robots.txt is
 honoured; failures are recorded, never filled in or estimated.
 """
 import datetime
+import gzip
 import json
 import os
 import re
@@ -58,6 +59,9 @@ def _get(url):
     try:
         with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
             raw = resp.read()
+            # Some servers send gzip even when it was not requested.
+            if resp.headers.get("Content-Encoding", "").lower() == "gzip" or raw[:2] == b"\x1f\x8b":
+                raw = gzip.decompress(raw)
             charset = resp.headers.get_content_charset() or "utf-8"
             return resp.status, raw.decode(charset, errors="replace")
     except urllib.error.HTTPError as e:
@@ -280,6 +284,17 @@ def header_row(table):
     return None
 
 
+def _pct_col(row, i_price, i_pct):
+    """Daily % column: the '%' header if it holds a percentage, else the
+    first cell after the price that is shown as a percentage."""
+    if i_pct is not None and i_pct < len(row) and cell_text(row[i_pct]).endswith("%"):
+        return i_pct
+    for i in range(i_price + 1, len(row)):
+        if cell_text(row[i]).endswith("%"):
+            return i
+    return None
+
+
 def parse_te_commodities(url, html):
     page = parse_page(html)
     items = []
@@ -288,8 +303,7 @@ def parse_te_commodities(url, html):
         if not hdr:
             continue
         group = hdr[0].strip()
-        if group.lower() not in ("metals", "industrial"):
-            continue
+        wanted = group.lower() in ("metals", "industrial")
         cols = [h.lower() for h in hdr]
         i_price = cols.index("price") if "price" in cols else 1
         i_pct = cols.index("%") if "%" in cols else None
@@ -300,6 +314,10 @@ def parse_te_commodities(url, html):
             frags = row[0]["frags"]
             if not frags:
                 continue
+            # Uranium sits in the Energy table; keep it alongside the metals.
+            if not wanted and frags[0].lower() != "uranium":
+                continue
+            i_pct_row = _pct_col(row, i_price, i_pct)
             value = num(cell_text(row[i_price]))
             if value is None:
                 continue
@@ -313,7 +331,7 @@ def parse_te_commodities(url, html):
                 "group": group,
                 "value": value,
                 "unit": frags[-1] if len(frags) > 1 else None,
-                "change_pct": num(cell_text(row[i_pct])) if i_pct is not None and i_pct < len(row) else None,
+                "change_pct": num(cell_text(row[i_pct_row])) if i_pct_row is not None else None,
                 "asOf": asof,
                 "asOf_raw": date_raw,
                 "source_url": url,
@@ -335,7 +353,7 @@ def parse_te_currency(url, html):
             if row[0]["frags"][0].replace("/", "").upper() != "USDCNY":
                 continue
             i_price = cols.index("price") if "price" in cols else 1
-            i_pct = cols.index("%") if "%" in cols else None
+            i_pct = _pct_col(row, i_price, cols.index("%") if "%" in cols else None)
             i_date = cols.index("date") if "date" in cols else len(row) - 1
             value = num(cell_text(row[i_price])) if i_price < len(row) else None
             if value is None:
@@ -345,7 +363,7 @@ def parse_te_currency(url, html):
             if asof is None and re.fullmatch(r"\d{1,2}:\d{2}(:\d{2})?", date_raw):
                 asof = TODAY.isoformat()
             return [{"name": "USD/CNY", "value": value, "unit": "CNY per USD",
-                     "change_pct": num(cell_text(row[i_pct])) if i_pct is not None and i_pct < len(row) else None,
+                     "change_pct": num(cell_text(row[i_pct])) if i_pct is not None else None,
                      "asOf": asof, "asOf_raw": date_raw, "source_url": url}]
     # Fallback: the page's own summary sentence.
     desc = page.meta.get("description", "") + " " + page.text[:3000]
@@ -461,22 +479,26 @@ def parse_smm_tungsten(url, html):
     if not page_date:
         m = re.search(r"\b(20\d{2}-\d{2}-\d{2}|[A-Z][a-z]{2,8}\.? \d{1,2},? 20\d{2})\b", text)
         page_date = parse_date(m.group(1)) if m else None
-    for sent in re.split(r"(?<=[.!?])\s+", text):
-        if re.search(r"\$\s*/\s*mtu|USD\s*/\s*mtu", sent, re.I):
-            if not re.search(r"APT|Rotterdam", sent, re.I):
-                continue
-            m = re.search(r"(\d[\d,]*(?:\.\d+)?)\s*[-–~]\s*(\d[\d,]*(?:\.\d+)?)", sent)
-            item = {"name": "APT 88.5% CIF Rotterdam (market note)",
-                    "value": None, "unit": "USD/mtu", "note": sent[:400],
-                    "asOf": page_date, "source_url": url}
-            if m:
-                lo, hi = num(m.group(1)), num(m.group(2))
-                # The note states a range only; no midpoint is computed.
-                item.update(low=lo, high=hi, average=None)
-            else:
-                item["value"] = num(re.search(r"\d[\d,]*(?:\.\d+)?(?=\s*(?:\$|USD)?\s*/\s*mtu)", sent).group(0)) \
-                    if re.search(r"\d[\d,]*(?:\.\d+)?(?=\s*(?:\$|USD)?\s*/\s*mtu)", sent) else None
-            return [item]
+    price_re = re.compile(r"(?<![\w\-.])(\d[\d,]*(?:\.\d+)?)(?:\s*[-–~]\s*(\d[\d,]*(?:\.\d+)?))?"
+                          r"\s*(?:\$|USD)\s*/\s*mtu", re.I)
+    candidates = re.split(r"(?<=[.!?])\s+", page.meta.get("description", "")) + \
+        re.split(r"(?<=[.!?])\s+", text)
+    for sent in candidates:
+        if not re.search(r"APT|Rotterdam|tungsten", sent, re.I):
+            continue
+        m = price_re.search(sent)
+        if not m:
+            continue
+        lo = num(m.group(1))
+        hi = num(m.group(2)) if m.group(2) else None
+        # The note states a price or range only; no midpoint is computed.
+        return [{"name": "APT 88.5% CIF Rotterdam (market note)",
+                 "value": lo if hi is None else None, "low": lo if hi is not None else None,
+                 "high": hi, "average": None, "unit": "USD/mtu", "note": sent[:400],
+                 "asOf": page_date, "source_url": url}]
+    if re.search(r"sign in to view", text, re.I):
+        raise ParseError("APT price hidden behind sign-in; no $/mtu market note on page",
+                         snippet(page.text, ["Rotterdam", "APT", "mtu"]))
     raise ParseError("no APT CIF Rotterdam price or $/mtu sentence found",
                      snippet(page.text, ["Rotterdam", "APT", "mtu", "tungsten"]))
 
