@@ -454,8 +454,50 @@ def parse_smm_table(url, html, page=None):
                 "source_url": url,
             })
     if not items:
+        items = _smm_text_rows(url, page.text)
+    if not items:
         raise ParseError("no price table rows found",
                          snippet(page.text, ["Avg", "Price", "Change", "yuan", "USD"]))
+    return items
+
+
+_N = r"\d[\d,]*(?:\.\d+)?"
+SMM_ROW_RE = re.compile(
+    r"(?P<name>[^\n]+?)\s+(?P<low>" + _N + r")\s*-\s*(?P<high>" + _N + r")\s+(?P<avg>" + _N +
+    r")\s+(?P<chg>[+\-−]?" + _N + r"%?)\s+(?P<date>[A-Z][a-z]{2} \d{1,2}, \d{4})")
+SMM_HEADER = "Price Range Avg. Change Date"
+
+
+def _smm_text_rows(url, text):
+    """The price lists are laid out with divs, not tables: read the rows
+    (name, low-high, avg, change, date) from the visible text that follows
+    each 'Price Range Avg. Change Date' header."""
+    flat = " ".join(text.split())
+    items = []
+    for block in flat.split(SMM_HEADER)[1:]:
+        pos = 0
+        while True:
+            m = SMM_ROW_RE.match(block, pos) or SMM_ROW_RE.match(block, pos + 1 if pos else 0)
+            if not m:
+                break
+            name = m.group("name").strip()
+            if len(name) > 150:
+                break
+            pos = m.end()
+            um = re.search(r"\(([^()]*/[^()]*)\)\s*$", name)
+            date_raw = m.group("date")
+            items.append({
+                "name": name,
+                "value": num(m.group("avg")),
+                "low": num(m.group("low")),
+                "high": num(m.group("high")),
+                "average": num(m.group("avg")),
+                "unit": um.group(1) if um else None,
+                "change": m.group("chg"),
+                "asOf": parse_date(date_raw),
+                "asOf_raw": date_raw,
+                "source_url": url,
+            })
     return items
 
 
@@ -479,23 +521,24 @@ def parse_smm_tungsten(url, html):
     if not page_date:
         m = re.search(r"\b(20\d{2}-\d{2}-\d{2}|[A-Z][a-z]{2,8}\.? \d{1,2},? 20\d{2})\b", text)
         page_date = parse_date(m.group(1)) if m else None
-    price_re = re.compile(r"(?<![\w\-.])(\d[\d,]*(?:\.\d+)?)(?:\s*[-–~]\s*(\d[\d,]*(?:\.\d+)?))?"
-                          r"\s*(?:\$|USD)\s*/\s*mtu", re.I)
-    candidates = re.split(r"(?<=[.!?])\s+", page.meta.get("description", "")) + \
-        re.split(r"(?<=[.!?])\s+", text)
-    for sent in candidates:
-        if not re.search(r"APT|Rotterdam|tungsten", sent, re.I):
-            continue
-        m = price_re.search(sent)
-        if not m:
-            continue
-        lo = num(m.group(1))
-        hi = num(m.group(2)) if m.group(2) else None
-        # The note states a price or range only; no midpoint is computed.
-        return [{"name": "APT 88.5% CIF Rotterdam (market note)",
-                 "value": lo if hi is None else None, "low": lo if hi is not None else None,
-                 "high": hi, "average": None, "unit": "USD/mtu", "note": sent[:400],
-                 "asOf": page_date, "source_url": url}]
+    price_re = re.compile(
+        r"(?:\$|USD)\s*(" + _N + r")(?:\s*[-–~]\s*(?:\$|USD)?\s*(" + _N + r"))?\s*/\s*mtu"
+        r"|(?<![\w\-./])(" + _N + r")(?:\s*[-–~]\s*(" + _N + r"))?\s*(?:\$|USD)\s*/\s*mtu", re.I)
+    for src in (" ".join(page.meta.get("description", "").split()), text):
+        for m in price_re.finditer(src):
+            start = max(src.rfind(". ", 0, m.start()), src.rfind(":", 0, m.start())) + 1
+            end = src.find(". ", m.end())
+            sent = src[start:len(src) if end < 0 else end + 1].strip()
+            if not re.search(r"APT|Rotterdam|Europe", sent, re.I):
+                continue
+            lo = num(m.group(1) or m.group(3))
+            hi = num(m.group(2) or m.group(4))
+            # The note states a price or range only; no midpoint is computed.
+            return [{"name": "APT 88.5% CIF Rotterdam (market note)",
+                     "value": lo if hi is None else None,
+                     "low": lo if hi is not None else None,
+                     "high": hi, "average": None, "unit": "USD/mtu", "note": sent[:400],
+                     "asOf": page_date, "source_url": url}]
     if re.search(r"sign in to view", text, re.I):
         raise ParseError("APT price hidden behind sign-in; no $/mtu market note on page",
                          snippet(page.text, ["Rotterdam", "APT", "mtu"]))
@@ -580,7 +623,7 @@ def run_source(url, parser):
         items = parser(url, html)
     except ParseError as e:
         reason = e.reason
-        if any(k in html.lower()[:20000] for k in BLOCK_MARKERS):
+        if any(k in parse_page(html).text.lower()[:3000] for k in BLOCK_MARKERS):
             reason += " (page looks like a bot/captcha page)"
         return {"url": url, "error": reason, "status": status, "snippet": e.snip[:200]}
     except Exception as e:
