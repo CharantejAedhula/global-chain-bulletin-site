@@ -1,0 +1,44 @@
+name: Fetch prices
+
+on:
+  schedule:
+    - cron: "45 23 * * *"   # 05:15 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/fetch_prices.py
+      - .github/workflows/fetch-prices.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-prices
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch prices
+        run: python scripts/fetch_prices.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json data/prices_history/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Prices: $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin HEAD:main
