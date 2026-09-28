@@ -2,7 +2,10 @@ name: Fetch prices
 
 on:
   schedule:
-    - cron: "45 23 * * *"   # 05:15 IST
+    # GitHub often starts scheduled jobs 1-2+ hours late (Sep 28: 23:45 UTC fired at 01:57 UTC),
+    # so fetch well before the 06:30 IST bulletin run, with a second pass as a backup.
+    - cron: "17 20 * * *"   # 01:47 IST
+    - cron: "7 0 * * *"     # 05:37 IST backup
   workflow_dispatch:
   push:
     branches: [main]
