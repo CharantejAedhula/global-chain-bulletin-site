@@ -202,6 +202,9 @@ a.idx-exchange:focus-visible,a.idx-exchange:hover{color:var(--accent);text-decor
 .idx-asof{display:block;font-family:var(--font-mono);font-size:9px;letter-spacing:.03em;color:var(--ink-faint);margin-top:-1px}
 .idx-asof-stale{color:var(--accent)}
 .idx-severity.status-stale{background:var(--surface-2);color:var(--ink-faint);border:1px solid var(--rule)}
+.idx-rank{font-family:var(--font-mono);font-size:9.5px;color:var(--ink-faint);margin-right:5px;font-variant-numeric:tabular-nums}
+.idx-factors b{font-weight:700;color:var(--ink)}
+.idx-factor{white-space:nowrap}
 .chokepoint-row .idx-asof{flex-basis:100%;margin-top:0}
 .cross-links{display:none;flex-wrap:wrap;gap:5px;margin-top:6px}
 .card.expanded .cross-links,.lead.expanded .cross-links,.chokepoint-row.expanded .cross-links,.idx-row.expanded .cross-links{display:flex}
@@ -333,7 +336,7 @@ footer{margin-top:24px!important;color:#666!important}
         <div class="panel-title panel-title-toggle"><h3>Chokepoint Status</h3><span>Transit telemetry</span></div>
         <div class="panel-body">
           <div id="chokepoints"></div>
-          <p class="panel-foot" style="border-top:none; padding-top:0;">Per IMF PortWatch, Lloyd's List, UKMTO, TankerMap, UNCTADstat, ReCAAP and the Panama Canal Authority (ACP) advisories portal — not self-reported by any state or carrier. Hormuz/Suez/Bab-el-Mandeb track daily-to-weekly transit telemetry (Lloyd's List's Red Sea Brief now publishes biweekly); Panama tracks ACP's own weekly slot allocations; Malacca tracks ReCAAP's quarterly piracy-incident count in place of an unavailable transit series; Cape of Good Hope stays prose-only — its diversion data is subscription-only with no public recurring series — not forced into one uniform cadence.</p>
+          <p class="panel-foot" style="border-top:none; padding-top:0;">IMF PortWatch · Lloyd's List · UKMTO · ReCAAP · Panama Canal Authority</p>
         </div>
       </div>
 
@@ -341,12 +344,12 @@ footer{margin-top:24px!important;color:#666!important}
         <div class="panel-title panel-title-toggle"><h3>Freight &amp; Energy</h3><span>Daily</span></div>
         <div class="panel-body">
           <div id="freightEnergy"></div>
-          <p class="panel-foot">Drewry WCI · Baltic Exchange · EIA Henry Hub · ICE Brent. Each line anchored to the chokepoint most exposed to that move.</p>
+          <p class="panel-foot">Drewry · Baltic Exchange · ICE Brent · EIA</p>
         </div>
       </div>
 
       <div class="panel">
-        <div class="panel-title panel-title-toggle"><h3>Critical Minerals Index</h3><span>Top ranked</span></div>
+        <div class="panel-title panel-title-toggle"><h3>Critical Minerals Index</h3><span>Supply risk</span></div>
         <div class="panel-body">
           <div id="mineralsIndex"></div>
           <div class="minerals-more">
@@ -355,7 +358,7 @@ footer{margin-top:24px!important;color:#666!important}
             </select>
             <div id="mineralsMoreDisplay"></div>
           </div>
-          <p class="panel-foot">LME · COMEX · China spot (SMM). Ranked by criticality using only prices or developments from the last 7 days; anything older is marked UNVERIFIED and left unranked.</p>
+          <p class="panel-foot">Supply-risk score out of 100, re-scored daily · Prices: Trading Economics, SMM</p>
         </div>
       </div>
 
@@ -363,7 +366,7 @@ footer{margin-top:24px!important;color:#666!important}
         <div class="panel-title panel-title-toggle"><h3>Trade Policy Tracker</h3><span>Active</span></div>
         <div class="panel-body">
           <div id="tradePolicy"></div>
-          <p class="panel-foot" style="border-top:none; padding-top:0;">Tariff actions, export controls &amp; trade rulings currently in force or pending — not proposals still under study.</p>
+          <p class="panel-foot" style="border-top:none; padding-top:0;">Measures in force or pending</p>
         </div>
       </div>
 
@@ -371,7 +374,7 @@ footer{margin-top:24px!important;color:#666!important}
         <div class="panel-title panel-title-toggle"><h3>India Infrastructure Watch</h3><span>NSE</span></div>
         <div class="panel-body">
           <div id="infrastructureWatch"></div>
-          <p class="panel-foot">One NSE-listed bellwether per physical-network pillar — ports, construction, cement, rail freight and roads. Closing prices, updated each trading day.</p>
+          <p class="panel-foot">NSE closing prices, one stock per pillar</p>
         </div>
       </div>
     </aside>
@@ -381,14 +384,14 @@ footer{margin-top:24px!important;color:#666!important}
     <span class="equilibrium-footer-title">Global Supply Chain Equilibrium Index</span>
     <span class="equilibrium-meter">
       <span class="equilibrium-side">
-        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">58% Friction</span>
+        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">54% Friction</span>
       </span>
       <span class="equilibrium-compact-bar">
-        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:58%"></span>
-        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:42%"></span>
+        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:54%"></span>
+        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:46%"></span>
       </span>
       <span class="equilibrium-side">
-        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">42% Fluidity</span>
+        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">46% Fluidity</span>
       </span>
     </span>
   </div>
@@ -403,57 +406,93 @@ footer{margin-top:24px!important;color:#666!important}
 var STORAGE_KEY = "gcb-saved-v1";
 var THEME_KEY = "gcb-theme-v1";
 var minerals = [ {
-name: "Helium",
-severity: "high",
-exchange: "OTC / Industrial",
-val: "$198-237/kg ($1,000-1,200/Mcf)",
-asOf: "2026-08-20",
-checked: "2026-09-28",
-dir: "up",
-sentiment: "bad",
-priceStatus: "▲ Holding at $1,000-1,200/Mcf in shortage-hit zones since Aug 20, with Northeast Asian fabs still paying roughly double the North American rate",
-macroTrigger: "QatarEnergy's Ras Laffan complex remains offline since the Mar 18-19 Iranian missile strikes on the Pearl GTL plant, with the Helium2 plant still running near 25% of capacity on one of four fill bays; QatarEnergy's own CEO has said repairs could take three to five years, and the Houthis' physical control of Bab-el-Mandeb, now extended to the Hanish islands, hardens further as a widening UK-France coalition moves to shield Yanbu rather than any safe-passage precondition easing",
-downstreamShock: "Semiconductor fab cooling gas, MRI magnet manufacturing",
-realityLog: "A repair timeline measured in years, stated by QatarEnergy's own CEO, confirms the market is right to price a multi-year shortage, not a pending fix."
-}, {
 name: "Dysprosium",
 severity: "high",
 exchange: "SMM China Spot",
 val: "$211-217/kg",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's dual-use export licensing (since Apr 2025) is in force; the pause on its wider Oct 2025 controls ends Nov 10, 2026 (+5 for a decision within 90 days)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 20,
+why: "CIF Europe dysprosium oxide averaged about $3,500/kg this month, roughly 16 times China's domestic $211-217/kg (Sept 24)"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
 dir: "flat",
 sentiment: "bad",
-priceStatus: "◆ China's domestic dysprosium oxide benchmark holds near ¥1,415-1,455/kg ($211-217/kg at ¥6.72/$) as of Sept 24, while Benchmark Minerals' Q3 2026 rare earths review confirms ex-China heavy rare earth prices kept climbing through the quarter — CIF Europe dysprosium oxide averaged $3,500/kg this month, a roughly 16-fold premium over the domestic floor",
-macroTrigger: "China's April 2025 rare-earth export-licensing regime remains fully binding; MOFCOM's widened licensing catalogue covering samarium, gadolinium and lutetium remains in force, with the pause on the original Oct 2025 controls confirmed only through Nov 10, 2026",
-downstreamShock: "High-temperature magnets for EV motors and defense systems",
-realityLog: "A widening, not narrowing, gap between domestic and CIF-Europe pricing — shown again by Benchmark's own Q3 review — reflects Beijing's licensing bottleneck tightening even as the metal itself isn't getting scarcer."
+priceStatus: "◆ China's domestic dysprosium oxide benchmark holds near ¥1,415-1,455/kg ($211-217/kg at ¥6.72/$) as of Sept 24, while Benchmark Minerals' Q3 2026 rare earths review confirms ex-China heavy rare earth prices kept climbing through the quarter — CIF Europe dysprosium oxide averaged $3,500/kg this month, a roughly 16-fold premium over the domestic floor"
 }, {
 name: "Tin",
-severity: "high",
+severity: "active",
 exchange: "LME",
 val: "$54.01/kg",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 2,
+why: "China 24% of 2025 mine output, Indonesia 21% (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "Indonesia, 21% of supply, runs an export-quota regime (60,000 t for 2026)"
+},
+disruption: {
+pts: 0,
+why: "Indonesia's crackdown on illegal Bangka-Belitung mines has no dated output loss confirmed in the last 30 days"
+},
+price: {
+pts: 8,
+why: "LME tin at $54,010/t (Sept 24) is within 10% of the June 2 record near $59,000/t"
+}
+},
 dir: "up",
 sentiment: "bad",
-priceStatus: "▲ LME tin holding at $54,010/tonne ($54.01/kg) since Sept 24's close, up 0.21% that day, still below June 2's $59,000/tonne intraday record; unchanged since",
-macroTrigger: "Indonesia's crackdown keeps escalating even as official 2026 export quotas rise to 60,000 tonnes from 53,000 in 2025: Jakarta's plan to shut roughly 1,000 illegal mines in Bangka-Belitung could remove as much as 80% of the region's output, and Indonesia has separately handed six seized illegal tin smelters to state miner PT Timah",
-downstreamShock: "Electronics solder, including AI data-center hardware",
-realityLog: "Price is holding near its high alongside the enforcement escalation — both sides of this story are still moving the same direction."
+priceStatus: "▲ LME tin holding at $54,010/tonne ($54.01/kg) since Sept 24's close, up 0.21% that day, still below June 2's $59,000/tonne intraday record; unchanged since"
 }, {
 name: "Zinc",
-severity: "elevated",
+severity: "active",
 exchange: "LME",
 val: "$3.91/kg ($3,913/tonne)",
 asOf: "2026-09-25",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 6,
+why: "China 32% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No dated smelter outage or mine disruption confirmed in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
 dir: "down",
 sentiment: "bad",
-priceStatus: "▼ LME zinc last confirmed at $3,912.85/tonne ($3.91/kg) on Sept 25, down 1.61% on the day but still near its June 2022 highs; unchanged since",
-macroTrigger: "China flooding layers a fresh weather shock on top of the same four smelter outages carried from last cycle, with warehouse stocks still down 64% from December's level",
-downstreamShock: "Galvanized steel for construction and automotive corrosion protection",
-realityLog: "A single-day pullback from near multi-year highs doesn't change the picture of a tight market — watch warehouse stocks, not one session's move."
+priceStatus: "▼ LME zinc last confirmed at $3,912.85/tonne ($3.91/kg) on Sept 25, down 1.61% on the day but still near its June 2022 highs; unchanged since"
 }, {
 name: "Copper",
 severity: "elevated",
@@ -461,12 +500,31 @@ exchange: "COMEX / LME",
 val: "$14.77/kg ($6.70/lb)",
 asOf: "2026-09-27",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 12,
+why: "China 48% of 2025 refined copper; Chile 23% of mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 25,
+why: "Freeport declared force majeure at Grasberg on Sept 24, cutting 2026 guidance about 35%; BHP's Escondida is restarting after a Sept 23 fatal accident"
+},
+price: {
+pts: 14,
+why: "Comex copper set a record $6.83/lb on Sept 22, within the last 30 days"
+}
+},
+watch: {
+date: "2026-09-30",
+what: "Escondida supervisors' union strike vote closes (Sept 28-30)"
+},
 dir: "down",
 sentiment: "neutral",
-priceStatus: "▼ Comex copper last confirmed at $6.70/lb on Sept 27, five sessions after its Sept 22 record of $6.83/lb; LME three-month copper touched $14,833/tonne on Sept 23, just shy of the $14,858.50 record set Sept 10",
-macroTrigger: "Freeport declared force majeure at Grasberg on Sept 24, cutting its 2026 copper guidance about 35% versus pre-incident forecasts; BHP's Escondida, still restarting in stages after its Sept 23 fatal accident, now also faces a supervisors' union strike vote set for Sept 28-30 after the union unanimously rejected BHP's contract offer",
-downstreamShock: "Electrical wiring, EV motors, data-center power buildout",
-realityLog: "A formal Grasberg force-majeure filing plus a fresh strike threat at Escondida — layered on an accident-driven shutdown that hasn't even finished restarting — is why this market keeps holding near record highs even as one session eases."
+priceStatus: "▼ Comex copper last confirmed at $6.70/lb on Sept 27, five sessions after its Sept 22 record of $6.83/lb; LME three-month copper touched $14,833/tonne on Sept 23, just shy of the $14,858.50 record set Sept 10"
 }, {
 name: "Cobalt",
 severity: "elevated",
@@ -474,25 +532,55 @@ exchange: "LME (Trading Economics)",
 val: "$39.64/kg ($17.98/lb)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 20,
+why: "Congo (Kinshasa) 74% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "Congo's 2026 export quota (96,600 t combined ceiling) is in force"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated 12-month comparison on the LME-linked series; the old Fastmarkets series is not comparable"
+}
+},
 dir: "flat",
 sentiment: "neutral",
-priceStatus: "◆ LME-linked cobalt at $39,640/tonne ($17.98/lb) on Sept 24, flat on the day, per Trading Economics — unchanged since. This row switched benchmark from Fastmarkets standard grade, whose last public print was $25.00/lb on Aug 11 — the two series are not directly comparable",
-macroTrigger: "ARECOMS reconfirms it does not intend to modify the DRC's 2026 export quota (96,600 tonnes combined ceiling) despite the ongoing supply-demand imbalance; producers including China's Jinchuan (Musonoi) and MMG (Kinsevere) are separately seeking larger individual allocations within that ceiling",
-downstreamShock: "EV battery cathode (NMC/NCA) production",
-realityLog: "A regulator holding volumes steady while acknowledging an imbalance it could fix but chooses not to is itself managing the squeeze on a schedule, not responding to it."
+priceStatus: "◆ LME-linked cobalt at $39,640/tonne ($17.98/lb) on Sept 24, flat on the day, per Trading Economics — unchanged since. This row switched benchmark from Fastmarkets standard grade, whose last public print was $25.00/lb on Aug 11 — the two series are not directly comparable"
 }, {
 name: "Tungsten (APT)",
-severity: "elevated",
+severity: "high",
 exchange: "SMM (CIF Rotterdam APT)",
 val: "$290-310/kg ($2,900-3,100/mtu)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 20,
+why: "China 79% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "China's export-licence regime (Feb 2025) limits exports to 15 firms through 2027; Zimbabwe's Sept 8 ban adds to it"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 20,
+why: "APT CIF Rotterdam at $2,900-3,100/mtu (SMM, Sept 24) is more than four times its end-2025 level of $675 (USGS 2026)"
+}
+},
 dir: "flat",
 sentiment: "neutral",
-priceStatus: "◆ SMM's Sept 24 CIF Rotterdam APT note puts quotations at $2,900-3,100/mtu ($290-310/kg), with some deals at the $3,100 top end — in line with Fastmarkets' last public assessment of $3,075/mtu — unchanged since",
-macroTrigger: "Zimbabwe suspended exports of tungsten and antimony in all forms, including ores and concentrates, with immediate effect on Sept 8 to force local refining; the US Commerce Department separately barred tungsten-scrap exports for a year from August. China's export-licence regime still limits tungsten exports to 15 authorized firms through 2027",
-downstreamShock: "Cutting tools, mining drill bits, defense-grade munitions",
-realityLog: "Three separate governments are now restricting tungsten flows at once — China by licence, Zimbabwe by ban, the US by keeping scrap at home — so Western supply is tightening even where China's domestic price has cooled."
+priceStatus: "◆ SMM's Sept 24 CIF Rotterdam APT note puts quotations at $2,900-3,100/mtu ($290-310/kg), with some deals at the $3,100 top end — in line with Fastmarkets' last public assessment of $3,075/mtu — unchanged since"
 }, {
 name: "Neodymium",
 severity: "elevated",
@@ -500,12 +588,31 @@ exchange: "SMM China Spot",
 val: "$109.82/kg (NdPr oxide)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's dual-use export licensing (since Apr 2025) is in force; the pause on its wider Oct 2025 controls ends Nov 10, 2026 (+5 for a decision within 90 days)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "NdPr oxide is 13% below February's peak; no dated ex-China premium confirmed"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
 dir: "down",
 sentiment: "neutral",
-priceStatus: "▼ China's NdPr oxide benchmark eased to ¥738,000/tonne (about $109.82/kg at ¥6.72/$) as of Sept 24, up 79% since January 2025 but 13% below February's ¥850,000 peak; Benchmark Minerals' Q3 review confirms this domestic softness while ex-China heavy rare earth prices keep climbing",
-macroTrigger: "The same China export-licensing framework constraining dysprosium keeps neodymium's domestic-export split in place, now widening to cover samarium, gadolinium and lutetium as well",
-downstreamShock: "EV traction motors and wind turbine permanent magnets",
-realityLog: "A modest pullback within a near-flat basket doesn't touch the export-licensing constraint that actually prices this metal outside China."
+priceStatus: "▼ China's NdPr oxide benchmark eased to ¥738,000/tonne (about $109.82/kg at ¥6.72/$) as of Sept 24, up 79% since January 2025 but 13% below February's ¥850,000 peak; Benchmark Minerals' Q3 review confirms this domestic softness while ex-China heavy rare earth prices keep climbing"
 }, {
 name: "Nickel",
 severity: "elevated",
@@ -513,12 +620,27 @@ exchange: "LME",
 val: "$16.28/kg",
 asOf: "2026-09-25",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 20,
+why: "Indonesia 67% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "Indonesia's 2026 RKAB mining quota, cut to 260-270 million wmt, is in force"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
 dir: "down",
 sentiment: "neutral",
-priceStatus: "▼ LME nickel last confirmed at $16,278/tonne ($16.28/kg) on Sept 25, down 1.52% on the day; unchanged since",
-macroTrigger: "Indonesia's 2026 RKAB quota remains cut to 260-270 million wmt from 375-379 million wmt in 2025; ESDM has indicated any Q3 revision is unlikely to be significant and would mainly target smelters facing ore shortages",
-downstreamShock: "Stainless steel and EV battery precursor (NMC) production",
-realityLog: "The quota narrative keeps moving the price more than the quota itself does — official guidance still points to a modest, smelter-targeted revision at most."
+priceStatus: "▼ LME nickel last confirmed at $16,278/tonne ($16.28/kg) on Sept 25, down 1.52% on the day; unchanged since"
 }, {
 name: "Gallium &amp; Germanium",
 severity: "elevated",
@@ -526,51 +648,115 @@ exchange: "China Spot (Trading Economics)",
 val: "$260.42/kg (Ga)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 25,
+why: "China about 99% of 2025 low-purity gallium output (USGS 2026)"
+},
+policy: {
+pts: 25,
+why: "China's gallium and germanium export licensing is in force; its suspension of the US export ban ends Nov 27, 2026 (+5 for a decision within 90 days)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium confirmed; China spot gallium flat at ¥1,750/kg"
+}
+},
+watch: {
+date: "2026-11-27",
+what: "China's suspension of its gallium, germanium and antimony export ban to the US ends"
+},
 dir: "flat",
 sentiment: "neutral",
-priceStatus: "◆ China spot gallium holding at ¥1,750/kg (≈$260.42/kg at ¥6.72/$) since Sept 24, flat that day; germanium at ¥27,250/kg, up 0.93%, both per Trading Economics — unchanged since",
-macroTrigger: "Export licensing remains the binding constraint on the export side even as domestic Chinese gallium pricing eases; China's Nov 9, 2025 suspension of export restrictions to the US remains in effect only through Nov 27, 2026",
-downstreamShock: "Compound semiconductors (GaN power electronics) and fiber optics",
-realityLog: "Domestic Chinese pricing is steady; the binding constraint for buyers outside China is the export-licensing regime and the Nov 27 expiry of China's suspension of its US export ban."
+priceStatus: "◆ China spot gallium holding at ¥1,750/kg (≈$260.42/kg at ¥6.72/$) since Sept 24, flat that day; germanium at ¥27,250/kg, up 0.93%, both per Trading Economics — unchanged since"
 }, {
 name: "Uranium (U3O8)",
-severity: "elevated",
+severity: "active",
 exchange: "U3O8 Spot (Trading Economics)",
 val: "$89.45/lb",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 6,
+why: "Kazakhstan 39% of 2024 world mine output (World Nuclear Association)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
 dir: "down",
 sentiment: "neutral",
-priceStatus: "▼ Spot uranium last confirmed at $89.45/lb on Sept 24, down 0.11% on the day and little changed from $89.99 on Sept 11 — unchanged since",
-macroTrigger: "Structural nuclear demand growth from utility restocking and AI-driven data-center power deals keeps term-market availability tight",
-downstreamShock: "Nuclear fuel supply for utilities and next-generation reactor and data-center power deals",
-realityLog: "No fresh supply-disruption news this issue — the grind higher continues to be demand-led, not a new outage."
+priceStatus: "▼ Spot uranium last confirmed at $89.45/lb on Sept 24, down 0.11% on the day and little changed from $89.99 on Sept 11 — unchanged since"
 }, {
 name: "Platinum",
-severity: "elevated",
+severity: "active",
 exchange: "Spot / NYMEX",
 val: "$1,769.50/oz",
 asOf: "2026-09-25",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 20,
+why: "South Africa 71% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No dated South African mine or power outage confirmed in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Spot $1,769.50/oz (Sept 25) is below its Aug 21 high of $1,907"
+}
+},
 dir: "up",
 sentiment: "neutral",
-priceStatus: "▲ Spot platinum last confirmed at $1,769.50/oz on Sept 25, up 1.00% on the day, still below its Aug 21 high of $1,907; unchanged since",
-macroTrigger: "South African power disruptions and mine-maintenance bottlenecks continue to threaten output, compounded by new AI and data-center-linked industrial demand",
-downstreamShock: "Catalytic converters and hydrogen fuel cell components",
-realityLog: "A genuine multi-week cooldown after a genuinely sharp rally, not yet a reversal — roughly 90% of supply still sits concentrated in South Africa, Russia and Zimbabwe."
+priceStatus: "▲ Spot platinum last confirmed at $1,769.50/oz on Sept 25, up 1.00% on the day, still below its Aug 21 high of $1,907; unchanged since"
 }, {
 name: "Lithium",
-severity: "elevated",
+severity: "active",
 exchange: "China Futures / Spot",
 val: "$19.81/kg (carbonate)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 6,
+why: "Australia 32% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "China carbonate at ¥133,150/t (Sept 24) is well under the Aug 24 high of ¥160,500"
+}
+},
 dir: "down",
 sentiment: "good",
-priceStatus: "▼ China lithium carbonate last confirmed at ¥133,150/tonne (≈$19.81/kg at ¥6.72/$) on Sept 24, down 1.52% on the day and well under Aug 24's 2026 high of ¥160,500 — unchanged since",
-macroTrigger: "CATL's giant Jianxiawo mine restart remains stalled, keeping a floor under the market even as battery-grade demand heading into peak EV production season and China's cut to lithium-ion battery VAT export rebates continue driving the broader rally",
-downstreamShock: "EV battery cell production",
-realityLog: "A stockpile-data revision, not a fresh demand shock, is still doing as much work on this price as the mine-restart story — worth separating the two going forward."
+priceStatus: "▼ China lithium carbonate last confirmed at ¥133,150/tonne (≈$19.81/kg at ¥6.72/$) on Sept 24, down 1.52% on the day and well under Aug 24's 2026 high of ¥160,500 — unchanged since"
 }, {
 name: "Aluminum",
 severity: "elevated",
@@ -578,12 +764,27 @@ exchange: "LME",
 val: "$3.28/kg",
 asOf: "2026-09-25",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 20,
+why: "China 61% of 2025 smelter output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 15,
+why: "The UAE, the No. 5 smelting country, still has EGA's Al Taweelah smelter only partly restored after the Mar 28 strikes, with Hormuz near-closed"
+},
+price: {
+pts: 8,
+why: "LME $3,281.50/t (Sept 25) is about 31% above the roughly $2,500/t of a year earlier (AL Circle)"
+}
+},
 dir: "up",
 sentiment: "neutral",
-priceStatus: "▲ LME aluminium at $3,281.50/tonne ($3.28/kg) on Sept 25, up 0.78% on the day, about 3% above its Aug 20 level of $3,180 and roughly 31% above the ~$2,500/tonne it traded at a year earlier; unchanged since",
-macroTrigger: "EGA's Al Taweelah alumina refinery has been running again since Jul 10 and is targeting full production by year-end; the smelter itself remains the slower piece, still rebuilding cell-by-cell toward EGA's Q1 2027 full-capacity target",
-downstreamShock: "Automotive body panels and aerospace airframes",
-realityLog: "About 75% of the Gulf's 6.92 million tonnes a year of primary capacity normally ships through Hormuz, which is still near-empty — with price ~31% above a year ago, this is not yet an easing market."
+priceStatus: "▲ LME aluminium at $3,281.50/tonne ($3.28/kg) on Sept 25, up 0.78% on the day, about 3% above its Aug 20 level of $3,180 and roughly 31% above the ~$2,500/tonne it traded at a year earlier; unchanged since"
 }, {
 name: "Yttrium",
 severity: "high",
@@ -591,12 +792,31 @@ exchange: "SMM China Spot / Argus ex-China",
 val: "$34.85/kg (metal, China)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's dual-use export licensing (since Apr 2025) is in force; the pause on its wider Oct 2025 controls ends Nov 10, 2026 (+5 for a decision within 90 days)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 20,
+why: "European offers near $1,175/kg for oxide (July) against about $7.6-7.9/kg inside China (SMM, Aug 14), far above a 3x premium"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
 dir: "flat",
 sentiment: "bad",
-priceStatus: "◆ SMM's China yttrium metal benchmark averaged $34.85/kg on Sept 24 ($34.19-35.51), little changed from $34.82 on Sept 3, while buyers outside China pay many times more: Rotterdam warehouse quotes for 99.999% oxide ran $419-470/kg over May-July, European offers reached about $1,175/kg in July, and Argus put the ex-China premium near 140 times its pre-control level in May",
-macroTrigger: "China put yttrium under dual-use export licensing in April 2025 and the regime is still in force; the separate one-year pause on China's wider October 2025 rare-earth controls ends Nov 10, 2026 with no extension announced",
-downstreamShock: "Thermal-barrier coatings for jet engines (YSZ), semiconductor etch-chamber parts, lasers and phosphors",
-realityLog: "At least two aerospace coating makers have temporarily idled YSZ lines and Lam Research flags the risk in its annual filing — a physical shortage outside China, not a paper price move."
+priceStatus: "◆ SMM's China yttrium metal benchmark averaged $34.85/kg on Sept 24 ($34.19-35.51), little changed from $34.82 on Sept 3, while buyers outside China pay many times more: Rotterdam warehouse quotes for 99.999% oxide ran $419-470/kg over May-July, European offers reached about $1,175/kg in July, and Argus put the ex-China premium near 140 times its pre-control level in May"
 }, {
 name: "Terbium",
 severity: "elevated",
@@ -604,25 +824,63 @@ exchange: "SMM China Spot",
 val: "$1,073.76/kg (metal, China)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's dual-use export licensing (since Apr 2025) is in force; the pause on its wider Oct 2025 controls ends Nov 10, 2026 (+5 for a decision within 90 days)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Domestic metal at $1,073.76/kg (Sept 24) is drifting lower; no dated ex-China premium confirmed"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
 dir: "down",
 sentiment: "neutral",
-priceStatus: "▼ SMM's domestic China terbium metal benchmark averaged $1,073.76/kg on Sept 24 ($1,071.79-1,075.73), down about 2% from $1,097.08 on Sept 3",
-macroTrigger: "Terbium has been under China's dual-use export licensing since April 2025 alongside dysprosium and yttrium; the pause on China's wider October 2025 rare-earth controls ends Nov 10, 2026",
-downstreamShock: "High-temperature NdFeB magnets for EV motors, wind turbines and defense systems",
-realityLog: "The Chinese spot price is drifting lower — for buyers outside China the risk is licence approval and the Nov 10 deadline, not the domestic quote."
+priceStatus: "▼ SMM's domestic China terbium metal benchmark averaged $1,073.76/kg on Sept 24 ($1,071.79-1,075.73), down about 2% from $1,097.08 on Sept 3"
 }, {
 name: "Scandium",
-severity: "elevated",
+severity: "active",
 exchange: "SMM China Spot",
 val: "$3,090.43/kg (metal, China)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 12,
+why: "China is the leading producer (USGS 2026) but no share is published; scored at the 40-59% band as a floor"
+},
+policy: {
+pts: 25,
+why: "China's dual-use export licensing (since Apr 2025) is in force; the pause on its wider Oct 2025 controls ends Nov 10, 2026 (+5 for a decision within 90 days)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Domestic metal at $3,090.43/kg (Sept 24), after three monthly declines"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
 dir: "flat",
 sentiment: "neutral",
-priceStatus: "◆ SMM's domestic China scandium metal price averaged $3,090.43/kg on Sept 24 ($3,024.68-3,156.19), flat since its Sept 3 assessment of $3,087.59, which had marked a third straight monthly decline",
-macroTrigger: "Scandium joined China's dual-use export-licensing list in April 2025 and the regime remains in force, so buyers outside China depend on licensed exports ahead of the Nov 10, 2026 end of the pause on China's wider controls",
-downstreamShock: "Aluminium-scandium aerospace alloys and solid-oxide fuel cells",
-realityLog: "Three monthly declines inside China say domestic supply is ample; the constraint that matters for everyone else is the export licence."
+priceStatus: "◆ SMM's domestic China scandium metal price averaged $3,090.43/kg on Sept 24 ($3,024.68-3,156.19), flat since its Sept 3 assessment of $3,087.59, which had marked a third straight monthly decline"
 }, {
 name: "Silver",
 severity: "active",
@@ -630,41 +888,143 @@ exchange: "Spot (Trading Economics)",
 val: "$64.26/oz",
 asOf: "2026-09-25",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 2,
+why: "Mexico 24% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
 dir: "up",
 sentiment: "neutral",
-priceStatus: "▲ Spot silver at $64.26/oz on Sept 25, up 0.68% on the day; unchanged since",
-macroTrigger: "Added to the US Critical Minerals List in November 2025; the Silver Institute put 2025 at a fifth straight market deficit of about 95 Moz, nearly 820 Moz cumulative since 2021, and China has set 2026-2027 export criteria for silver alongside tungsten and antimony",
-downstreamShock: "Solar cells, AI servers and electronics (contacts, circuit boards, bonding wire)",
-realityLog: "A structural deficit with no single blocked supplier — tracked here for its critical-list status and China's export criteria, not an active shock."
+priceStatus: "▲ Spot silver at $64.26/oz on Sept 25, up 0.68% on the day; unchanged since"
 }, {
 name: "Antimony",
-severity: "elevated",
+severity: "active",
 exchange: "SMM China Spot",
 val: "$13.28/kg",
 asOf: "2026-09-24",
 checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 6,
+why: "China 36% and Russia 29% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 25,
+why: "China's antimony export licensing (Sept 2024) is in force and its suspension of the US export ban ends Nov 27, 2026 (+5); Zimbabwe banned exports Sept 8"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "China 99.65% at $13,282/t (Sept 24) is up 17% since Aug 12 but down year-to-date"
+}
+},
+watch: {
+date: "2026-11-27",
+what: "China's suspension of its antimony export ban to the US ends"
+},
 dir: "up",
 sentiment: "bad",
-priceStatus: "▲ SMM's China 99.65% benchmark averaged $13,282.29/tonne ($13.28/kg) on Sept 24, down $25.91 on the day but about 17% above Aug 12's $11,387.54; SMM's Europe 99.65% price holds at $19,000-19,500/tonne; a separate US antimony-trioxide benchmark trades well above the China spot figure but is not directly comparable, so it is not spliced into this row",
-macroTrigger: "Zimbabwe suspended antimony exports in all forms, including ores and concentrates, with immediate effect on Sept 8, with no domestic smelter yet named to take the concentrate; China's September 2024 export-licensing regime stays in force, and its suspension of the antimony export ban to the US ends Nov 27, 2026",
-downstreamShock: "Lead-acid battery alloys, flame retardants, ammunition primers",
-realityLog: "China's benchmark has climbed about 17% since mid-August and Europe pays about 45% more than China, while Zimbabwe's Sept 8 ban and the Nov 27 US-ban deadline tighten supply outside China further — not an easing market."
-} ];
-var mineralsOther = [ {
+priceStatus: "▲ SMM's China 99.65% benchmark averaged $13,282.29/tonne ($13.28/kg) on Sept 24, down $25.91 on the day but about 17% above Aug 12's $11,387.54; SMM's Europe 99.65% price holds at $19,000-19,500/tonne; a separate US antimony-trioxide benchmark trades well above the China spot figure but is not directly comparable, so it is not spliced into this row"
+}, {
 name: "Manganese",
+severity: "active",
 exchange: "SMM China Spot (EMM)",
 val: "$2.32/kg (EMM)",
 asOf: "2026-09-24",
 checked: "2026-09-28",
-note: "SMM's electrolytic manganese metal benchmark (Guangxi, Hunan, Guizhou) averaged $2,321.11/tonne ($2.32/kg) on Sept 24, down $4.53 on the day; FOB China ran $2,530-2,630/tonne and Rotterdam in-warehouse $2,680-2,780/tonne. This row switched from the ore-based figure used through Aug 18 to SMM's EMM series. No active export restriction comparable to other battery and alloy inputs."
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of manganese refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
+dir: "down",
+sentiment: "neutral",
+priceStatus: "▼ SMM's electrolytic manganese metal benchmark averaged $2,321.11/tonne ($2.32/kg) on Sept 24, down $4.53 on the day; FOB China $2,530-2,630/tonne and Rotterdam in-warehouse $2,680-2,780/tonne"
+}, {
+name: "Helium",
+severity: "active",
+priced: false,
+exchange: "No daily public price",
+reason: "Qatar's Ras Laffan, the No. 2 source, runs near 25% with Hormuz effectively closed",
+checked: "2026-09-28",
+risk: {
+concentration: {
+pts: 12,
+why: "United States 43% and Qatar 33% of 2025 world production (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 25,
+why: "Ras Laffan hit by missiles Mar 18-19; Helium2 back at about 25% of capacity, Hormuz effectively closed"
+},
+price: {
+pts: 0,
+why: "Not scored: helium trades on private contracts with no daily public price"
+}
+}
 }, {
 name: "Graphite (battery anode)",
-exchange: "SMM China Spot",
-val: "$1.60/kg",
-asOf: "2026-08-04",
+severity: "elevated",
+priced: false,
+exchange: "No daily public price",
+reason: "China's export-permit regime is in force; its US easing ends Nov 27",
 checked: "2026-09-28",
-note: "SMM's spherical graphite benchmark held near $1,600.48/tonne ($1.60/kg) as of Aug 4, down from $1,843.72/tonne in July, still the latest public print available. The March 2026 US ITC ruling dismissing anti-dumping duties on Chinese battery-grade anode graphite has held with no appeal, and Chinese anode supply remains in genuine oversupply rather than under any live constraint. Benchmark Minerals' Q3 review (Sept 23) found anode-material prices flat from mid-June to mid-September even as synthetic feedstock costs rose."
+risk: {
+concentration: {
+pts: 25,
+why: "China 78% of 2025 mine output and over 90% of refining (USGS 2026; IEA 2026)"
+},
+policy: {
+pts: 25,
+why: "China's graphite export permits (since Dec 2023) are in force; the suspension of its tighter US rules ends Nov 27, 2026 (+5)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Not scored: no daily public graphite price"
+}
+},
+watch: {
+date: "2026-11-27",
+what: "China's suspension of its tighter graphite export rules for the US ends"
+}
 } ];
+var mineralsOther = [];
 var freightEnergy = [ {
 pillar: "Energy",
 name: "Brent Crude",
@@ -2015,12 +2375,34 @@ if (url) return '<a class="idx-exchange" href="' + url + '" target="_blank" rel=
 return '<div class="idx-exchange">' + displayText + "</div>";
 }
 function severityLabel(s) {
-return s === "high" ? "CRITICAL" : s === "elevated" ? "ELEVATED" : "EASING";
+return s === "high" ? "CRITICAL" : s === "elevated" ? "ELEVATED" : "WATCH";
 }
-var severityRank = {
-high: 0,
-elevated: 1
+var RISK_CAPS = {
+concentration: 25,
+policy: 30,
+disruption: 25,
+price: 20
 };
+var RISK_LABELS = {
+concentration: "Supply",
+policy: "Controls",
+disruption: "Outages",
+price: "Price"
+};
+function attrText(s) {
+return String(s || "").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+var MINERALS_TOP_N = 8;
+function riskScore(m) {
+var r = m.risk || {};
+return Object.keys(RISK_CAPS).reduce(function(sum, k) {
+var p = r[k] ? Number(r[k].pts) || 0 : 0;
+return sum + Math.max(0, Math.min(RISK_CAPS[k], p));
+}, 0);
+}
+function riskTier(score) {
+return score >= 60 ? "high" : score >= 40 ? "elevated" : "active";
+}
 function asOfTag(asOf, label) {
 if (!asOf) return '<span class="idx-asof idx-asof-stale">' + (label || "AS OF") + " DATE UNCONFIRMED</span>";
 var then = new Date(asOf + "T00:00:00");
@@ -2038,33 +2420,73 @@ if (isNaN(then.getTime())) return true;
 var now = new Date;
 return Math.round((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - then) / 864e5) > 7;
 }
+function rankedMinerals() {
+return minerals.filter(function(m) {
+return m.priced !== false && !mineralIsStale(m);
+}).sort(function(a, b) {
+return riskScore(b) - riskScore(a) || a.name.localeCompare(b.name);
+});
+}
+function staleMinerals() {
+return minerals.filter(function(m) {
+return m.priced !== false && mineralIsStale(m);
+});
+}
+function unpricedMinerals() {
+return minerals.filter(function(m) {
+return m.priced === false;
+}).sort(function(a, b) {
+return riskScore(b) - riskScore(a) || a.name.localeCompare(b.name);
+});
+}
+function unpricedRowHtml(m, extraClass) {
+var r = m.risk || {};
+var factors = [ "concentration", "policy", "disruption" ].map(function(k) {
+var f = r[k] || {};
+return '<span class="idx-factor" title="' + attrText(f.why) + '">' + RISK_LABELS[k] + " <b>" + (f.pts || 0) + "</b></span>";
+}).join(" · ");
+var last = m.lastPrice && m.lastPrice.val ? '<div class="idx-val sentiment-neutral">' + m.lastPrice.val + "</div>" + asOfTag(m.lastPrice.asOf) : "";
+var watch = m.watch && m.watch.date ? '<div class="idx-chg-line sentiment-bad">NEXT: ' + watchDateLabel(m.watch.date) + " — " + m.watch.what + "</div>" : "";
+return '<div class="idx-row' + (extraClass || "") + '"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-stale" title="Not ranked: no daily public price">NOT RANKED</span>' + m.name + '<span class="idx-expand-hint">›</span></div><div class="idx-exchange">' + m.exchange + "</div></div>" + last + '<div class="idx-chg-line sentiment-neutral">' + m.reason + "</div>" + '<div class="idx-chg-line sentiment-neutral idx-factors">' + factors + "</div>" + watch + "</div>";
+}
+function watchDateLabel(d) {
+var t = new Date(d + "T00:00:00");
+if (isNaN(t.getTime())) return d;
+var months = [ "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" ];
+return months[t.getMonth()] + " " + t.getDate();
+}
+function mineralRowHtml(m, rank, stale, extraClass) {
+var score = riskScore(m);
+var tier = riskTier(score);
+var badge = stale ? '<span class="idx-severity status-stale" title="Not ranked: no price from the last 7 days">UNVERIFIED</span>' : '<span class="idx-severity status-' + tier + '">' + severityLabel(tier) + " " + score + "</span>";
+var rankHtml = rank ? '<span class="idx-rank">#' + rank + "</span>" : "";
+var r = m.risk || {};
+var factors = Object.keys(RISK_CAPS).map(function(k) {
+var f = r[k] || {};
+return '<span class="idx-factor" title="' + attrText(f.why) + '">' + RISK_LABELS[k] + " <b>" + (f.pts || 0) + "</b></span>";
+}).join(" · ");
+var watch = m.watch && m.watch.date ? '<div class="idx-chg-line sentiment-bad">NEXT: ' + watchDateLabel(m.watch.date) + " — " + m.watch.what + "</div>" : "";
+return '<div class="idx-row' + (extraClass || "") + '"><div class="idx-line2"><div class="idx-name">' + rankHtml + badge + m.name + '<span class="idx-expand-hint">›</span></div>' + exchangeHtml(m.exchange) + "</div>" + '<div class="idx-val sentiment-' + m.sentiment + '" title="' + attrText(m.priceStatus) + '">' + mineralArrow(m.dir) + " " + m.val + "</div>" + asOfTag(m.asOf) + '<div class="idx-chg-line sentiment-neutral idx-factors">' + factors + "</div>" + watch + "</div>";
+}
 function renderMinerals() {
 var el = document.getElementById("mineralsIndex");
-var html = "";
-var ordered = minerals.filter(function(m) {
-return m.severity !== "active";
-}).sort(function(a, b) {
-return (mineralIsStale(a) ? 1 : 0) - (mineralIsStale(b) ? 1 : 0) || severityRank[a.severity] - severityRank[b.severity];
-});
-ordered.forEach(function(m) {
-var asOfTagHtml = asOfTag(m.asOf);
-var stale = mineralIsStale(m);
-html += '<div class="idx-row"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-' + (stale ? "stale" : m.severity) + '" title="' + (stale ? "Not ranked: no price or development newer than 7 days" : "") + '">' + (stale ? "UNVERIFIED" : severityLabel(m.severity)) + "</span>" + m.name + '<span class="idx-expand-hint">›</span></div>' + exchangeHtml(m.exchange) + "</div>" + '<div class="idx-val sentiment-' + m.sentiment + '">' + mineralArrow(m.dir) + " " + m.val + "</div>" + asOfTagHtml + '<div class="idx-chg-line sentiment-' + m.sentiment + '">PRICE STATUS: ' + m.priceStatus + "</div>" + '<div class="idx-chg-line sentiment-neutral">MACRO TRIGGER: ' + m.macroTrigger + "</div>" + '<div class="idx-chg-line sentiment-neutral">DOWNSTREAM SHOCK: ' + m.downstreamShock + "</div>" + '<div class="idx-chg-line sentiment-neutral">REALITY LOG: ' + m.realityLog + "</div></div>";
-});
-el.innerHTML = html;
+if (!el) return;
+el.innerHTML = rankedMinerals().slice(0, MINERALS_TOP_N).map(function(m, i) {
+return mineralRowHtml(m, i + 1, false, "");
+}).join("");
 }
 function renderMineralsMoreDropdown() {
 var select = document.getElementById("mineralsMoreSelect");
 if (!select) return;
 var html = '<option value="">More minerals…</option>';
-var easing = minerals.filter(function(m) {
-return m.severity === "active";
+rankedMinerals().slice(MINERALS_TOP_N).forEach(function(m, i) {
+html += '<option value="r-' + (i + MINERALS_TOP_N) + '">#' + (i + MINERALS_TOP_N + 1) + " " + m.name + " — " + riskScore(m) + "/100</option>";
 });
-easing.forEach(function(m, i) {
-html += '<option value="easing-' + i + '">' + m.name + " — easing</option>";
+staleMinerals().forEach(function(m, i) {
+html += '<option value="s-' + i + '">' + m.name + " — unverified</option>";
 });
-mineralsOther.forEach(function(m, i) {
-html += '<option value="stable-' + i + '">' + m.name + " — regular transit</option>";
+unpricedMinerals().forEach(function(m, i) {
+html += '<option value="u-' + i + '">' + m.name + " — not ranked, no daily price</option>";
 });
 select.innerHTML = html;
 }
@@ -2079,17 +2501,14 @@ return;
 }
 var parts = select.value.split("-");
 var kind = parts[0], idx = Number(parts[1]);
-if (kind === "easing") {
-var m = minerals.filter(function(mm) {
-return mm.severity === "active";
-})[idx];
-if (!m) return;
-display.innerHTML = '<div class="idx-row minerals-more-row expanded"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-active">EASING</span>' + m.name + "</div>" + exchangeHtml(m.exchange) + "</div>" + '<div class="idx-val sentiment-' + m.sentiment + '">' + mineralArrow(m.dir) + " " + m.val + "</div>" + asOfTag(m.asOf) + '<div class="idx-chg-line sentiment-' + m.sentiment + '">PRICE STATUS: ' + m.priceStatus + "</div>" + '<div class="idx-chg-line sentiment-neutral">MACRO TRIGGER: ' + m.macroTrigger + "</div>" + '<div class="idx-chg-line sentiment-neutral">DOWNSTREAM SHOCK: ' + m.downstreamShock + "</div>" + '<div class="idx-chg-line sentiment-neutral">REALITY LOG: ' + m.realityLog + "</div></div>";
-} else {
-var m2 = mineralsOther[idx];
-if (!m2) return;
-display.innerHTML = '<div class="idx-row minerals-more-row expanded"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-active">STABLE</span>' + m2.name + "</div>" + exchangeHtml(m2.exchange) + "</div>" + '<div class="idx-val">' + m2.val + "</div>" + asOfTag(m2.asOf) + '<div class="idx-chg-line sentiment-neutral">' + m2.note + "</div></div>";
+if (kind === "u") {
+var u = unpricedMinerals()[idx];
+if (u) display.innerHTML = unpricedRowHtml(u, " minerals-more-row expanded");
+return;
 }
+var m = kind === "r" ? rankedMinerals()[idx] : staleMinerals()[idx];
+if (!m) return;
+display.innerHTML = mineralRowHtml(m, kind === "r" ? idx + 1 : 0, kind === "s", " minerals-more-row expanded");
 });
 }
 function toggleArticleExpand(headingEl, cardEl) {
