@@ -1,0 +1,2351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base href="../" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Global Supply Chain Bulletin</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Chain Bulletin" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0c1310" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta name="description" content="An independent daily briefing on supply chains, energy transition &amp; trade geopolitics — read globally, tuned for an India lens." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Global Supply Chain Bulletin" />
+<meta property="og:title" content="Global Supply Chain Bulletin" />
+<meta property="og:description" content="An independent daily briefing on supply chains, energy transition &amp; trade geopolitics — read globally, tuned for an India lens." />
+<meta property="og:image" content="https://charantejaedhula.github.io/global-chain-bulletin-site/icon-512.png" />
+<meta property="og:url" content="https://charantejaedhula.github.io/global-chain-bulletin-site/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Global Supply Chain Bulletin" />
+<meta name="twitter:description" content="An independent daily briefing on supply chains, energy transition &amp; trade geopolitics — read globally, tuned for an India lens." />
+<meta name="twitter:image" content="https://charantejaedhula.github.io/global-chain-bulletin-site/icon-512.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0c1310;
+    --surface: #131f1a;
+    --surface-2: #192821;
+    --ink: #eee8da;
+    --ink-dim: #93a39a;
+    --ink-faint: #5f6f66;
+    --rule: rgba(238,232,218,0.14);
+    --accent: #ec5b57;
+    --accent-soft: rgba(236,91,87,0.14);
+    --teal: #4fb88f;
+    --teal-soft: rgba(79,184,143,0.14);
+    --red: #d1495b;
+    --red-soft: rgba(209,73,91,0.14);
+    --font-display: "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  }
+
+  :root[data-theme="light"] {
+    --bg: #eef0e7;
+    --surface: #f7f7f0;
+    --surface-2: #ffffff;
+    --ink: #16241d;
+    --ink-dim: #4c5c53;
+    --ink-faint: #7c8a80;
+    --rule: rgba(22,36,29,0.14);
+    --accent: #bd3b3b;
+    --accent-soft: rgba(189,59,59,0.12);
+    --teal: #227a5c;
+    --teal-soft: rgba(34,122,92,0.12);
+    --red: #a8324a;
+    --red-soft: rgba(168,50,74,0.1);
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #eef0e7;
+      --surface: #f7f7f0;
+      --surface-2: #ffffff;
+      --ink: #16241d;
+      --ink-dim: #4c5c53;
+      --ink-faint: #7c8a80;
+      --rule: rgba(22,36,29,0.14);
+      --accent: #bd3b3b;
+      --accent-soft: rgba(189,59,59,0.12);
+      --teal: #227a5c;
+      --teal-soft: rgba(34,122,92,0.12);
+      --red: #a8324a;
+      --red-soft: rgba(168,50,74,0.1);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 28px 80px; }
+
+  /* ---------- ticker ---------- */
+  .ticker-band {
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--rule);
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .ticker-track {
+    display: inline-flex;
+    gap: 48px;
+    padding: 9px 28px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    animation: scroll-ticker 42s linear infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; }
+  }
+  .ticker-track span.item { display: inline-flex; gap: 8px; align-items: baseline; color: var(--ink-dim); }
+  .ticker-track .val { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .sentiment-good { color: var(--teal); }
+  .sentiment-bad { color: var(--red); }
+  .sentiment-neutral { color: var(--ink-dim); }
+  @keyframes scroll-ticker {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* ---------- equilibrium index (compact, lives in masthead-meta) ---------- */
+  .equilibrium-compact {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  .equilibrium-compact-bar {
+    display: flex;
+    width: 60px;
+    height: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: var(--surface);
+    flex-shrink: 0;
+  }
+  .equilibrium-compact-fill { height: 100%; transition: width .3s; }
+  .equilibrium-friction { background: var(--red); }
+  .equilibrium-fluidity { background: var(--teal); }
+  .equilibrium-compact-label {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .equilibrium-label-friction { color: var(--red); }
+  .equilibrium-label-fluidity { color: var(--teal); }
+  .equilibrium-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 22px 0 6px;
+    font-family: var(--font-mono);
+    width: 100%;
+  }
+  .equilibrium-meter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    max-width: 100%;
+  }
+  .equilibrium-footer-title {
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .equilibrium-side { flex-shrink: 0; }
+  .equilibrium-footer .equilibrium-compact-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .equilibrium-footer .equilibrium-compact-bar {
+    width: min(160px, 28vw);
+    height: 7px;
+    border: 1px solid var(--rule);
+    flex-shrink: 1;
+  }
+  .card-focused {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 6px;
+    background: var(--accent-soft);
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead { padding: 30px 28px 0; }
+  .masthead-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+  .masthead-row .right-group { display: flex; align-items: center; gap: 14px; }
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 1px solid var(--rule);
+    padding: 3px 1px;
+    transition: border-color .15s;
+  }
+  .search-box:focus-within { border-color: var(--accent); }
+  .search-box svg { flex-shrink: 0; opacity: 0.65; color: var(--ink-faint); }
+  .search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--ink-dim);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    width: clamp(90px, 24vw, 190px);
+    transition: width .15s;
+  }
+  .search-box:focus-within input { width: clamp(140px, 34vw, 260px); }
+  .search-box input::placeholder { color: var(--ink-faint); }
+  .search-box input:focus { color: var(--ink); }
+  .search-clear {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0 0 2px;
+  }
+  .search-clear:hover { color: var(--ink); }
+  .search-clear[hidden] { display: none; }
+  .search-results-info {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: -8px 0 16px;
+  }
+  .theme-toggle-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-dim);
+    font-size: 14px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+    transition: border-color .15s, color .15s;
+  }
+  .theme-toggle-circle:hover { border-color: var(--accent); color: var(--ink); }
+  .theme-toggle-circle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .masthead h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(40px, 6vw, 74px);
+    letter-spacing: -0.015em;
+    margin: 6px 0 20px;
+    text-wrap: balance;
+  }
+  .masthead h1 em { color: var(--accent); font-style: italic; font-weight: 400; }
+  .masthead-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 0 0 16px;
+  }
+  .masthead-meta .meta-label {
+    color: var(--ink-dim);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    margin-right: 8px;
+  }
+  .masthead-meta .date-line { color: var(--ink-faint); }
+  .sources-trigger {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+  }
+  .sources-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 100;
+  }
+  .sources-overlay[hidden] { display: none; }
+  .sources-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    max-width: 480px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px 24px 8px;
+  }
+  .sources-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 12px;
+    margin-bottom: 4px;
+  }
+  .sources-card-header h3 {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    color: var(--ink);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  .sources-close {
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .sources-close:hover { color: var(--ink); }
+  .sources-intro {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--ink-dim);
+    text-transform: none;
+    letter-spacing: normal;
+    margin: 12px 0 4px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sources-list { list-style: none; margin: 0; padding: 0; }
+  .sources-group-heading {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+    padding: 14px 0 6px;
+  }
+  .sources-list li:not(.sources-group-heading) {
+    font-size: 13.5px;
+    color: var(--ink-dim);
+    padding: 7px 0;
+    border-top: 1px solid var(--rule);
+  }
+  .sources-group-heading + li { border-top: none; }
+  .masthead-rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 0;
+  }
+  .masthead-rule.thick { border-top-width: 3px; }
+
+  /* ---------- controls ---------- */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 0;
+  }
+  .pill {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-dim);
+    border-radius: 999px;
+    padding: 7px 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: border-color .15s, color .15s, background .15s;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--ink); }
+  .pill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pill[aria-pressed="true"] {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--ink);
+  }
+  .pill .count { color: var(--ink-faint); font-size: 10.5px; }
+  .pill[aria-pressed="true"] .count { color: var(--accent); }
+
+  /* ---------- layout ---------- */
+  .board {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) 380px;
+    align-items: start;
+    gap: 40px;
+    margin-top: 8px;
+  }
+  @media (max-width: 860px) {
+    .board { display: block; }
+  }
+
+  /* ---------- lead + summary ---------- */
+  .lead-row {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 18px;
+  }
+  .lead-row .briefing-box { margin-bottom: 0; }
+  .summary-box ul.summary-list-horizontal {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 14px 20px;
+  }
+  @media (max-width: 780px) {
+    .summary-box ul.summary-list-horizontal { grid-template-columns: 1fr; }
+  }
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .eyebrow::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+  .lead h2 {
+    font-family: var(--font-display);
+    font-size: clamp(26px, 3.4vw, 38px);
+    line-height: 1.12;
+    font-weight: 400;
+    margin: 0 0 12px;
+    text-wrap: balance;
+    cursor: pointer;
+  }
+  .lead p.dek {
+    display: none;
+    color: var(--ink-dim);
+    font-size: 15px;
+    margin: 0 0 12px;
+    max-width: 62ch;
+  }
+  .lead.expanded p.dek { display: block; }
+  .card-expand-hint {
+    font-family: var(--font-mono);
+    font-size: 0.6em;
+    color: var(--ink-faint);
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .byline {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .byline a { color: var(--ink-faint); text-decoration: underline; text-decoration-color: var(--rule); }
+
+  .briefing-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+  }
+  .briefing-play-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 0;
+    transition: background .15s, color .15s;
+  }
+  .briefing-play-btn[aria-pressed="true"] { background: var(--accent); color: #1a0f04; }
+  .briefing-play-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .briefing-info { min-width: 0; }
+  .briefing-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 2px;
+  }
+  .briefing-status {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--ink-faint);
+  }
+
+  .summary-box {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+  .summary-box h3 {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    margin: 0 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .summary-box h3::before {
+    content: "";
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--red);
+  }
+  .summary-box ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 11px; }
+  .summary-box li { font-size: 13.5px; color: var(--ink); padding-left: 16px; position: relative; }
+  .summary-box li::before {
+    content: "—";
+    position: absolute; left: 0; color: var(--ink-faint);
+  }
+
+  /* ---------- article river ---------- */
+  .river { display: flex; flex-direction: column; }
+  .card {
+    display: grid;
+    grid-template-columns: minmax(0,1fr) auto;
+    gap: 14px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .card[hidden] { display: none; }
+  .card-tags {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    flex-wrap: wrap;
+  }
+  .card-tags .cat { color: var(--accent); }
+  .card-tags .src { color: var(--ink-faint); }
+  .card-tags .india-flag {
+    color: var(--teal);
+    border: 1px solid var(--teal);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 9.5px;
+  }
+  .card-src {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 6px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  a.card-src:hover, a.card-src:focus-visible { color: var(--accent); border-bottom-color: var(--accent); }
+  .card h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.28;
+    margin: 0 0 6px;
+    text-wrap: balance;
+    cursor: pointer;
+  }
+  .card p.dek { display: none; color: var(--ink-dim); font-size: 13.5px; margin: 0 0 8px; max-width: 68ch; }
+  .card.expanded p.dek { display: block; }
+  .card .meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .save-btn {
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    padding: 4px;
+    align-self: start;
+  }
+  .save-btn:hover { color: var(--accent); }
+  .save-btn[aria-pressed="true"] { color: var(--accent); }
+  .save-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+  .empty-state {
+    padding: 40px 0;
+    text-align: center;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* ---------- sidebar ---------- */
+  aside {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    align-items: start;
+    gap: 20px;
+  }
+  @media (max-width: 860px) {
+    aside {
+      grid-template-columns: 1fr;
+      margin-top: 40px;
+      padding-top: 32px;
+      border-top: 1px solid var(--rule);
+    }
+  }
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 18px 18px 6px;
+  }
+  .panel-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+  }
+  .panel-title h3 {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0;
+  }
+  .panel-title span {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  .idx-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 0;
+    border-top: 1px solid var(--rule);
+    cursor: pointer;
+  }
+  .idx-row .idx-chg-line,
+  .idx-row .idx-note,
+  .idx-row .idx-bar-track,
+  .idx-row .idx-chart,
+  .chokepoint-row .chokepoint-note {
+    display: none;
+  }
+  .idx-row.expanded .idx-chg-line,
+  .idx-row.expanded .idx-note,
+  .idx-row.expanded .idx-bar-track,
+  .idx-row.expanded .idx-chart,
+  .chokepoint-row.expanded .chokepoint-note {
+    display: block;
+  }
+  .idx-chart { margin-top: 6px; }
+  .idx-chart-svg { width: 100%; height: 44px; display: block; }
+  .idx-chart-caption {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--ink-faint);
+    margin-top: 2px;
+  }
+  .idx-expand-hint {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--ink-faint);
+    margin-left: 4px;
+  }
+  .idx-row:first-of-type { border-top: none; }
+  .idx-name { font-size: 13px; overflow-wrap: break-word; }
+  .idx-exchange {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    white-space: normal;
+    overflow-wrap: break-word;
+    margin-top: 1px;
+  }
+  a.idx-exchange {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a.idx-exchange:hover, a.idx-exchange:focus-visible {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+  }
+  .idx-severity {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 8.5px;
+    letter-spacing: 0.03em;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .idx-bar-track {
+    height: 5px;
+    background: var(--surface-2);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .idx-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  .idx-line2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 4px 10px;
+  }
+  .idx-line2 > * { min-width: 0; }
+  .idx-val {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+  .idx-note {
+    text-align: left;
+    color: var(--ink-faint);
+    font-family: var(--font-body);
+    font-size: 11.5px;
+    line-height: 1.4;
+    margin-top: -2px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    min-width: 0;
+  }
+  .idx-chg-line {
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 1.4;
+    margin-top: -2px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    min-width: 0;
+  }
+  .idx-flag {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 4px;
+    padding: 2px 6px;
+    justify-self: end;
+  }
+  .panel-foot {
+    font-size: 10.5px;
+    color: var(--ink-faint);
+    padding: 10px 0 12px;
+    border-top: 1px solid var(--rule);
+    margin-top: 4px;
+  }
+  .minerals-more { margin-top: 2px; }
+  .minerals-more select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-dim);
+    background: var(--surface-2);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 6px 8px;
+  }
+  .minerals-more-row {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+  }
+
+  .chokepoint-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--rule);
+    gap: 6px 10px;
+    cursor: pointer;
+  }
+  .chokepoint-row:first-of-type { border-top: none; }
+  .chokepoint-name { font-size: 13px; min-width: 0; overflow-wrap: break-word; }
+  .chokepoint-note {
+    flex-basis: 100%;
+    color: var(--ink-faint);
+    font-size: 11px;
+    line-height: 1.4;
+  }
+  .status-chip {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: normal;
+    text-align: right;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+  .status-high { background: var(--red-soft); color: var(--red); }
+  .status-elevated { background: var(--accent-soft); color: var(--accent); }
+  .status-active { background: var(--teal-soft); color: var(--teal); }
+
+  .about-panel p { font-size: 12.5px; color: var(--ink-dim); margin: 0 0 12px; }
+
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 10.5px;
+    letter-spacing: 0.01em;
+    color: var(--ink-faint);
+    text-align: center;
+    font-family: var(--font-mono);
+    white-space: normal;
+  }
+  @media (min-width: 640px) {
+    footer { white-space: nowrap; overflow-x: auto; }
+  }
+
+  /* ---------- weekly pattern view ---------- */
+  .pattern-trigger-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0;
+  }
+  .pattern-trigger-btn {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    color: var(--ink-dim);
+    border-radius: 999px;
+    padding: 8px 18px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    transition: border-color .15s, color .15s;
+  }
+  .pattern-trigger-btn:hover { border-color: var(--accent); color: var(--ink); }
+  .pattern-trigger-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pattern-week-tag {
+    font-size: 9.5px;
+    color: var(--ink-faint);
+  }
+  .pattern-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 110;
+  }
+  .pattern-overlay[hidden] { display: none; }
+  .pattern-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    max-width: 860px;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    padding: 20px 22px 22px;
+  }
+  .pattern-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .pattern-card-header h3 {
+    font-family: 'Kalam', var(--font-display), cursive;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--ink);
+  }
+  .pattern-subtitle {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 3px 0 0;
+  }
+  .pattern-header-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+  .pattern-action-btn {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-dim);
+    border-radius: 6px;
+    padding: 7px 12px;
+    cursor: pointer;
+  }
+  .pattern-action-btn:hover { border-color: var(--accent); color: var(--ink); }
+  .pattern-close {
+    background: none;
+    border: none;
+    color: var(--ink-faint);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .pattern-close:hover { color: var(--ink); }
+  .pattern-canvas-wrap { width: 100%; }
+  .pattern-svg { width: 100%; height: auto; display: block; }
+  .pat-rough { fill: none; stroke: var(--ink-dim); stroke-width: 1.5; opacity: 0.8; }
+  .pat-tone-bad .pat-rough { stroke: var(--red); }
+  .pat-tone-good .pat-rough { stroke: var(--teal); }
+  .pat-tone-neutral .pat-rough { stroke: var(--ink-faint); }
+  .pat-node-label {
+    font-family: 'Kalam', var(--font-display), cursive;
+    font-size: 12.5px;
+    fill: var(--ink);
+  }
+  .pat-edge { stroke: var(--rule); stroke-width: 1.3; opacity: 0.9; }
+  .pat-edge-label {
+    font-family: 'Kalam', var(--font-display), cursive;
+    font-size: 10px;
+    fill: var(--ink-faint);
+  }
+  .pattern-foot {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--ink-faint);
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule);
+    line-height: 1.5;
+  }
+  @media print {
+    body * { visibility: hidden; }
+    .pattern-overlay, .pattern-overlay * { visibility: visible; }
+    .pattern-overlay {
+      position: absolute;
+      inset: 0;
+      background: #fff;
+      padding: 20px;
+      display: block;
+    }
+    .pattern-card { max-height: none; max-width: none; border: none; box-shadow: none; }
+    .pattern-header-actions { display: none; }
+  }
+</style>
+</head>
+<body>
+<div style="font:11px ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:8px 12px;background:#161614;color:#a39c8d;border-bottom:1px solid #333">Archived issue No. 34 &middot; <a href="./" style="color:#ec5b57">Latest issue</a> &middot; <a href="archive/" style="color:#ec5b57">All issues</a></div>
+
+<div class="ticker-band" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<div class="masthead">
+  <div class="masthead-row">
+    <span>VOL. I &middot; NO. 34</span>
+    <div class="right-group">
+      <label class="search-box">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="7"></circle><line x1="21" y1="21" x2="15" y2="15"></line></svg>
+        <input type="text" id="searchInput" placeholder="Search (press /)" aria-label="Search stories" autocomplete="off" />
+        <button type="button" id="searchClear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+      </label>
+      <button type="button" id="themeBtn" class="theme-toggle-circle" aria-label="Toggle light and dark theme">&#9728;</button>
+    </div>
+  </div>
+  <h1>Global <em>Supply Chain</em> Bulletin</h1>
+  <div class="masthead-meta">
+    <button type="button" id="sourcesBtn" class="meta-label sources-trigger">Sources</button>
+    <div class="date-line" id="clockLine">SATURDAY, AUGUST 22, 2026 &middot; AS OF 06:38 IST</div>
+  </div>
+  <hr class="masthead-rule thick" />
+</div>
+
+<div class="sources-overlay" id="sourcesOverlay" hidden>
+  <div class="sources-card" role="dialog" aria-modal="true" aria-labelledby="sourcesTitle">
+    <div class="sources-card-header">
+      <h3 id="sourcesTitle">Sources</h3>
+      <button type="button" class="sources-close" id="sourcesClose" aria-label="Close">&times;</button>
+    </div>
+    <p class="sources-intro">State media tells you the narrative each side wants believed. Independent wire press tells you what's been verified on the ground. Physical &amp; market data — ship tracking, insurance, prices — tells you what's actually happening. Only the third settles "what is true."</p>
+    <ul class="sources-list" id="sourcesModalList"></ul>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="controls">
+    <div id="pillRow" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
+      <button class="pill" type="button" data-cat="all" aria-pressed="true">All <span class="count" data-count-for="all"></span></button>
+      <button class="pill" type="button" data-cat="tradeRisk" aria-pressed="false">Trade &amp; Risk <span class="count" data-count-for="tradeRisk"></span></button>
+      <button class="pill" type="button" data-cat="supplyIndustry" aria-pressed="false">Supply Chain &amp; Industry <span class="count" data-count-for="supplyIndustry"></span></button>
+    </div>
+  </div>
+
+  <div class="board">
+    <main>
+      <div class="lead-row">
+        <div class="briefing-box">
+          <button type="button" id="briefingPlayBtn" class="briefing-play-btn" aria-label="Play today's briefing" aria-pressed="false">&#9654;</button>
+          <div class="briefing-info">
+            <div class="briefing-label">Today's Briefing</div>
+            <div class="briefing-status" id="briefingStatus">Tap to listen</div>
+          </div>
+        </div>
+        <div class="summary-box">
+          <h3>Today's Read</h3>
+          <ul class="summary-list-horizontal">
+            <li>Brent holds just under $94 into the weekend close and Drewry's WCI stays elevated at $4,526, with war-risk premiums still at 7.5-10% of hull value — freight and insurance markets keep pricing in a Hormuz standoff that shows no sign of a near-term thaw.</li>
+            <li>Canada's 50% tariffs were due at 12:01am ET Saturday unless a deal both sides have been touting since Tuesday gets finalized first, while Russia's August wheat exports now track to just 1.8 million tonnes — the lowest for the month since 2010 — as Ukraine confirms zero vessels have entered Greater Odesa all month.</li>
+            <li>Platinum has extended its rally to $1,907.80/oz on deepening South African supply strain, even as copper's Comex/LME backwardation keeps narrowing toward $76 a tonne from Monday's $545 peak and Vizhinjam's new EXIM gateway keeps cutting Indian exporters' Europe transit times.</li>
+          </ul>
+        </div>
+        <div class="lead">
+          <div class="eyebrow">Lead &middot; Impact Score 10</div>
+          <h2>Hormuz standoff drags into the weekend as Brent holds near six-day highs and the UAE's trade freeze with Iran shows no sign of a near-term thaw<span class="card-expand-hint">›</span></h2>
+          <p class="dek">IMF-run PortWatch's vessel-tracking data still shows just 1 transit through the Strait of Hormuz on Aug 16 — the last dated read available — against a pre-crisis baseline of roughly 73 ships a day, with Lloyd's List Intelligence's own weekly count putting total Aug 10-16 transits at 73, down from 91 the week before. No fresher weekly transit count has been published since; the next Lloyd's List rollup is expected to cover the week of Aug 17-23. The tanker boarded near Qeshm Island on Aug 17-18 remains, per trackers, seized rather than merely detained, still reported holding stationary off the Khasab approach in the North Hormuz corridor. The UAE's Aug 19 suspension of all trade, commercial and financial dealings with Iran "until further notice" remains in force, with no diplomatic movement reported since — Tehran continues to insist the strait stays shut until the US "corrects" its behavior, and the 60-day US-Iran memorandum that lapsed Aug 17 has not been extended. War-risk premiums remain at 7.5-10% of hull value, up from a pre-crisis 0.25%. Brent crude closed Friday at $93.86 a barrel — its sixth consecutive daily rise — and holds there into the weekend as markets stay shut; cargo continues rerouting through Fujairah, Khor Fakkan, Oman and the Jeddah land bridge. Nothing in the last day's reporting points to either an escalation or an off-ramp: the standoff is, for now, simply holding.</p>
+          <p class="byline">Compiled from <a href="https://www.washingtonpost.com/world/2026/08/19/uae-says-it-is-suspending-trade-with-iran-after-missile-attack/" target="_blank" rel="noopener">Washington Post</a> &amp; Lloyd's List Intelligence &amp; PortWatch (IMF) &amp; Al Jazeera &amp; UANI · <span id="leadFreshness"></span></p>
+        </div>
+      </div>
+
+      <p class="search-results-info" id="searchResultsInfo" hidden></p>
+      <div class="river" id="river"></div>
+      <p class="empty-state" id="emptyState" hidden>No stories match this filter yet — try "All".</p>
+    </main>
+
+    <aside>
+      <div class="panel">
+        <div class="panel-title"><h3>Critical Minerals Index</h3><span>Top ranked</span></div>
+        <div id="mineralsIndex"></div>
+        <div class="minerals-more">
+          <select id="mineralsMoreSelect" aria-label="Check another tracked mineral">
+            <option value="">More minerals…</option>
+          </select>
+          <div id="mineralsMoreDisplay"></div>
+        </div>
+        <p class="panel-foot">LME · COMEX · China spot (SMM). Ranked by criticality, refreshes with each briefing.</p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><h3>India Infrastructure Watch</h3><span>NSE</span></div>
+        <div id="infrastructureWatch"></div>
+        <p class="panel-foot">Top-weighted Nifty Infrastructure &amp; Transportation/Logistics leader per physical-network pillar, re-selected each cycle — not a fixed watchlist.</p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><h3>Chokepoint Status</h3><span>Transit telemetry</span></div>
+        <div id="chokepoints"></div>
+        <p class="panel-foot" style="border-top:none; padding-top:0;">Per Lloyd's List, UKMTO, Suez Canal Authority, Panama Canal Authority and TankerMap — not self-reported by any state or carrier.</p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><h3>Freight &amp; Energy</h3><span>Live</span></div>
+        <div id="freightEnergy"></div>
+        <p class="panel-foot">Drewry WCI · Baltic Exchange · EIA Henry Hub · ICE Brent. Each line anchored to the chokepoint most exposed to that move.</p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><h3>Trade Policy Tracker</h3><span>Active</span></div>
+        <div id="tradePolicy"></div>
+        <p class="panel-foot" style="border-top:none; padding-top:0;">Tariff actions, export controls &amp; trade rulings currently in force or pending — not proposals still under study.</p>
+      </div>
+
+    </aside>
+  </div>
+
+  <div class="equilibrium-footer" role="img" aria-label="Friction versus fluidity balance for today's data">
+    <span class="equilibrium-footer-title">Global Supply Chain Equilibrium Index</span>
+    <span class="equilibrium-meter">
+      <span class="equilibrium-side">
+        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">78% Friction</span>
+      </span>
+      <span class="equilibrium-compact-bar">
+        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:78%"></span>
+        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:22%"></span>
+      </span>
+      <span class="equilibrium-side">
+        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">22% Fluidity</span>
+      </span>
+    </span>
+  </div>
+
+  <div class="pattern-trigger-wrap">
+    <button type="button" id="patternBtn" class="pattern-trigger-btn">✎ Pattern <span class="pattern-week-tag" id="patternWeekTag"></span></button>
+  </div>
+
+  <footer>
+    © 2026 GLOBAL SUPPLY CHAIN BULLETIN · AN AI-ASSISTED PUBLICATION · KEYS: J/K TO MOVE · ENTER TO OPEN IN NEW TAB
+  </footer>
+</div>
+
+<div class="pattern-overlay" id="patternOverlay" hidden>
+  <div class="pattern-card" role="dialog" aria-modal="true" aria-labelledby="patternTitle">
+    <div class="pattern-card-header">
+      <div>
+        <h3 id="patternTitle">This Week's Pattern</h3>
+        <p class="pattern-subtitle">Week of <span id="patternWeekOf"></span> · refreshes every Monday</p>
+      </div>
+      <div class="pattern-header-actions">
+        <button type="button" id="patternDownloadBtn" class="pattern-action-btn">Download PDF</button>
+        <button type="button" class="pattern-close" id="patternClose" aria-label="Close">&times;</button>
+      </div>
+    </div>
+    <div class="pattern-canvas-wrap" id="patternCanvasWrap"></div>
+    <p class="pattern-foot">A hand-sketched map of how this week's chokepoints, commodities and top stories connect — drawn from the same verified data already published above, re-drawn fresh every Monday morning.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var STORAGE_KEY = "gcb-saved-v1";
+  var THEME_KEY = "gcb-theme-v1";
+
+  // minerals = every mineral with an ACTIVE macro block or supply-runway squeeze right now.
+  // No fixed row count — this array grows or shrinks with real conditions.
+  // mineralsOther = everything currently stable/normal, surfaced only via the dropdown.
+  var minerals = [
+    { name: "Helium", severity: "high", exchange: "OTC / Industrial", val: "$198-237/kg ($1,000-1,200/Mcf spot)", dir: "up", sentiment: "bad",
+      priceStatus: "▲ No fresher print located this cycle; spot helium holds at $1,000-1,200/Mcf (roughly $198-237/kg) from a pre-shock ~$500/Mcf, with European buyers still paying a 10-15% premium to North American spot and Asia-Pacific buyers 20-25%", macroTrigger: "QatarEnergy's Ras Laffan complex remains under its force-majeure declaration, extended repeatedly since the March 2026 strike, with roughly 30-38% of global helium supply still offline and no confirmed restart date",
+      downstreamShock: "Semiconductor fab cooling gas, MRI magnet manufacturing", realityLog: "Damage assessors have previously estimated full restoration could take anywhere from weeks to as long as five years for the most heavily affected infrastructure — still an open-ended risk, not a resolving one." },
+    { name: "Dysprosium", severity: "high", exchange: "SMM China Spot", val: "$231.35/kg (unchanged, down 11.6% vs July)", dir: "flat", sentiment: "bad",
+      priceStatus: "◆ No fresher SMM print located this cycle; China's domestic benchmark holds at $231.35/kg (Aug 3 print), down 11.6% versus July's $261.63/kg; China's Rare Earth Price Index itself held at 259.5 on Aug 17 — roughly 160% above its 2010 baseline — while the ex-China premium for heavy rare earths generally stays extreme, with some Western benchmarks quoting dysprosium oxide several multiples above the domestic Chinese metal price", macroTrigger: "China's April 2025 rare-earth export-licensing regime remains fully binding, with the current export-restriction pause confirmed to run only through Nov 10, 2026 — a deadline, not a resolution",
+      downstreamShock: "High-temperature magnets for EV motors and defense systems", realityLog: "A softer domestic print looks like relief on paper, but the binding constraint — the export license regime itself — hasn't moved, and the West-China price gap remains structural." },
+    { name: "Tin", severity: "high", exchange: "LME", val: "$53.62-54.07/kg (essentially flat)", dir: "flat", sentiment: "bad",
+      priceStatus: "◆ No fresher forward-range print located this cycle; LME tin holds near $53,620-54,065/tonne ($53.62-54.07/kg), unchanged from last issue after pulling back from June 2's $59,000/tonne intraday record", macroTrigger: "Indonesia's crackdown keeps escalating: authorities seized 500 tonnes of tin and made arrests after President Prabowo ordered roughly 1,000 illegal mines closed in Sumatra, on top of a confirmed 40%+ year-on-year drop in Indonesian refined-tin shipments in May; Myanmar's Man Maw mine restart remains slow and permit-limited, though official 2026 Indonesian quota guidance has edged up from 53,000 to 60,000 tonnes as a longer-term offset",
+      downstreamShock: "Electronics solder, including AI data-center hardware", realityLog: "Enforcement keeps visibly escalating even as the benchmark price sits still — a sign the constraint side is tightening faster than pricing data reflects." },
+    { name: "Copper", severity: "elevated", exchange: "COMEX / LME", val: "$14.50/kg ($6.58/lb, bounced overnight)", dir: "up", sentiment: "bad",
+      priceStatus: "▲ COMEX copper bounced to $6.58/lb ($14.50/kg) on Aug 21, up roughly 1.5-1.8% on the day — a reversal after several sessions drifting lower — even as the cash-to-three-month backwardation that defined last week's historic squeeze kept narrowing, to around $76/tonne from Monday's $545, the widest since late 2021; LME warehouse stocks have separately fallen to 214,550 tonnes, down more than 35,000 tonnes (14%) since end-July", macroTrigger: "Freeport Indonesia CEO Tony Wenas's timeline is unchanged: PT Smelting's Gresik repairs are still targeted for completion by end of September, with the backup Manyar smelter's restart accelerated to end-August",
+      downstreamShock: "Electrical wiring, EV motors, data-center power buildout", realityLog: "A genuinely two-sided read this cycle — the structural backwardation that drove the panic keeps easing even as the spot price ticks back up and LME stocks keep falling, so this reads as stabilizing rather than resolved.", telemetry: "LME" },
+    { name: "Zinc", severity: "elevated", exchange: "LME", val: "$3.51/kg ($3,513/tonne, no fresher print)", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ No fresher official close located this cycle; LME zinc holds at $3,513/tonne ($3.51/kg, Aug 15 print), still down from the prior cycle's $3.71/kg even as four separate smelter-side outages remain unresolved", macroTrigger: "Kazzinc's smelter remains on reduced capacity post-explosion, Cajamarquilla is only gradually resuming after its fire, Boliden's Garpenberg mine faces fresh uncertainty from recent seismic activity, and the Gresik shutdown's byproduct effects on zinc-bearing concentrate persist",
+      downstreamShock: "Galvanized steel for construction and automotive corrosion protection", realityLog: "Four supply-side outages are still compounding even as the last confirmed price sits below the prior cycle — worth watching whether this is genuine easing or just softer downstream demand masking the squeeze." },
+    { name: "Cobalt", severity: "elevated", exchange: "Fastmarkets", val: "$49.60/kg (unchanged)", dir: "flat", sentiment: "neutral",
+      priceStatus: "◆ No fresher $/lb standard-grade print was located this cycle; the last confirmed $22.00-23.00/lb ($49.60/kg) read is carried forward", macroTrigger: "DRC's 2026 export quota remains fixed at 96,600 tonnes (87,000t pro-rata to producers, 9,600t under ARECOMS discretionary control); ARECOMS is enforcing a strict \"use it or lose it\" rule, with industry estimates that 60-75% of exporters could forfeit unused first-half allocations to a state-controlled strategic reserve",
+      downstreamShock: "EV battery cathode (NMC/NCA) production", realityLog: "The regulator is tightening enforcement of the existing cap rather than loosening it — the quota, not logistics, remains the more clearly binding constraint." },
+    { name: "Tungsten (APT)", severity: "elevated", exchange: "Fastmarkets", val: "$307.50/kg ($3,075/mtu, unchanged)", dir: "flat", sentiment: "neutral",
+      priceStatus: "◆ Fastmarkets' APT CIF Rotterdam assessment holds at $3,075/mtu ($307.50/kg), no fresher international read confirmed this cycle; domestic China APT (RMB 600,000/tonne, roughly $83.9/kg) continues to trade at a fraction of the international price — the clearest sign yet the market has split into two distinct pools", macroTrigger: "China's February 2025 export-license regime remains in force, and tungsten has now been added to China's 2026 dual-use export licensing catalogue — a further tightening of the same lever, not a new one",
+      downstreamShock: "Cutting tools, mining drill bits, defense-grade munitions", realityLog: "The regulatory net just got wider while the two-tier pricing gap keeps widening — this is continued tightening, not stability." },
+    { name: "Neodymium", severity: "elevated", exchange: "SMM China Spot", val: "$145.48/kg (unchanged)", dir: "flat", sentiment: "neutral",
+      priceStatus: "◆ SMM's Aug 3 benchmark holds at $145.48/kg, essentially flat versus July (-0.27%); NdPr oxide held near ¥711-731/kg ($106.65-109.65), while China's broader Rare Earth Price Index registered 259.5 on Aug 17, roughly 160% above its 2010 baseline", macroTrigger: "The same China export-licensing framework constraining dysprosium keeps neodymium's domestic-export split in place",
+      downstreamShock: "EV traction motors and wind turbine permanent magnets", realityLog: "Metal and oxide readings remain essentially flat together this cycle — a genuinely quiet print rather than a stale one." },
+    { name: "Nickel", severity: "elevated", exchange: "LME", val: "$17.00/kg (essentially flat)", dir: "up", sentiment: "neutral",
+      priceStatus: "▲ LME three-month nickel ticked up to $17,000.63/tonne ($17.00/kg) on Aug 21, up 0.33% on the day and essentially flat versus the prior cycle's $16.98/kg", macroTrigger: "Indonesia's 2026 RKAB quota remains cut to 260-270 million wmt from 379 million wmt in 2025; the domestic nickel-miner group confirms 2026 quota additions will be granted only selectively, keeping the tighter cap the binding constraint",
+      downstreamShock: "Stainless steel and EV battery precursor (NMC) production", realityLog: "A third straight essentially-flat print — the quota story hasn't moved, and neither has the price." },
+    { name: "Gallium &amp; Germanium", severity: "elevated", exchange: "SMM China Spot", val: "$234.62/kg (Ga, down 18.8% vs July)", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ No fresher print located this cycle; SMM's domestic gallium price holds at $234.62/kg (Aug 3), still down 18.8% from July's $288.82/kg, even as China's FOB gallium export price stays flat near $400/kg; germanium's US-warehouse premium over the $3,104.31/kg China domestic price remains widened at 104.6%, up from 82.9% in July", macroTrigger: "Export licensing remains the binding constraint on the export side even as domestic Chinese pricing eases; China's Nov 9, 2025 suspension of export restrictions to the US remains in effect only through Nov 27, 2026",
+      downstreamShock: "Compound semiconductors (GaN power electronics) and fiber optics", realityLog: "Domestic gallium is genuinely softening while the germanium export premium stays wide — the two metals remain on opposite trajectories within the same trade regime." },
+    { name: "Uranium (U3O8)", severity: "elevated", exchange: "TradeTech / UxC", val: "$88.29-88.50/lb (up modestly)", dir: "up", sentiment: "neutral",
+      priceStatus: "▲ No fresher single print located this cycle; spot held in an $88.29-88.50/lb range as of Aug 20, up modestly from the prior cycle's $87.55-88.29/lb range, on tightening global supply and surging utility contracting tied to AI data-center power demand", macroTrigger: "Structural nuclear demand growth from utility restocking and AI-driven data-center power deals keeps term-market availability tight",
+      downstreamShock: "Nuclear fuel supply for utilities and next-generation reactor and data-center power deals", realityLog: "No fresh supply-disruption news surfaced this cycle — the grind higher continues to be demand-led, not a new outage." },
+    { name: "Platinum", severity: "elevated", exchange: "Spot / NYMEX", val: "$1,907.80/oz (up 3.74% on the day)", dir: "up", sentiment: "bad",
+      priceStatus: "▲ Spot platinum rose to $1,907.80/oz on Aug 21, up roughly 3.74% from the prior day's close and extending its climb from $1,817.50 just one cycle ago — a second straight cycle of sharp gains", macroTrigger: "South African power disruptions and mine-maintenance bottlenecks continue to threaten output, compounded by new AI and data-center-linked industrial demand",
+      downstreamShock: "Catalytic converters and hydrogen fuel cell components", realityLog: "The World Platinum Investment Council's forecast 297,000oz 2026 deficit looks less like a one-day blip and more like the market re-rating the shortfall in real time, with roughly 90% of supply still concentrated in South Africa, Russia and Zimbabwe." },
+    { name: "Lithium", severity: "elevated", exchange: "China Futures / Spot", val: "$21.12/kg (carbonate, pulled back from Aug17 rally)", dir: "down", sentiment: "neutral",
+      priceStatus: "▼ No fresher print located this cycle; SMM's China lithium carbonate 99.5% spot benchmark holds at roughly ¥151,000/tonne ($21.12/kg) from Aug 20, pulling back from the multi-week rebound that briefly topped ¥150,000-plus intraday on Aug 12 and pushed the benchmark to $22.64/kg by Aug 17", macroTrigger: "Battery-grade demand continues outpacing new supply heading into peak EV production season, compounded by China's April 1 cut to lithium-ion battery VAT export rebates",
+      downstreamShock: "EV battery cell production", realityLog: "This looks like the multi-week rebound cooling rather than reversing — the trend is still up from the early-August low, just no longer accelerating." },
+    { name: "Aluminum", severity: "active", exchange: "LME", val: "$3.20/kg", dir: "down", sentiment: "good",
+      priceStatus: "▼ No fresher print located this cycle; LME aluminum holds near $3,200/tonne ($3.20/kg), still down from the prior cycle's $3.23/kg, with Europe's physical premium near $490/tonne, still well down from May's $621 peak", macroTrigger: "EGA's Al Taweelah smelter had restarted 227 of its 1,262 reduction cells (18% of capacity) as of Aug 10, with EGA now targeting full pre-war capacity by Q1 2027 as its roughly $400 million repair program continues; the alumina refinery is already back to about 50% of pre-incident output",
+      downstreamShock: "Automotive body panels and aerospace airframes", realityLog: "The European \"war premium\" that dominated pricing in H1 2026 keeps unwinding even with the smelter-side timeline still months out — the clearest sustained easing signal of any tracked mineral." },
+    { name: "Antimony", severity: "active", exchange: "SMM China Spot", val: "$11.39/kg (unchanged)", dir: "flat", sentiment: "good",
+      priceStatus: "◆ SMM's China 99.65% benchmark holds at $11,387.54/tonne ($11.39/kg), no fresher print located this cycle, still unchanged from last issue and down sharply from $15,939.71/tonne in early July", macroTrigger: "China's September 2024 export-licensing regime remains formally in place but is being administered predictably, with new 2026 exporter-eligibility rules adding creditworthiness and compliance requirements rather than tightening volume",
+      downstreamShock: "Lead-acid battery alloys, flame retardants, ammunition primers", realityLog: "This is a genuine, demand-driven correction — output responding to a market that was tight months ago — continuing the broader 2026 easing trend from new Southeast Asian refining capacity." }
+  ];
+
+  var mineralsOther = [
+    { name: "Manganese", exchange: "SMM China Spot", val: "$1.08/kg", note: "Ore prices at Chinese ports held steady-to-soft through Aug 18; no fresh electrolytic-metal print was located this cycle and no active export restriction comparable to other battery and alloy inputs. SMM's newer Electrolytic Manganese (99.9%) assessment remains one to watch for a sharper benchmark next cycle." },
+    { name: "Graphite (battery anode)", exchange: "SMM China Spot", val: "$1.60/kg", note: "SMM's spherical graphite benchmark eased to $1,600.48/tonne ($1.60/kg) as of Aug 4, down from $1,843.72/tonne in July. The March 2026 US ITC ruling dismissing anti-dumping duties on Chinese battery-grade anode graphite has held with no appeal, and Chinese anode supply remains in genuine oversupply rather than under any live constraint." }
+  ];
+
+  var infrastructureWatch = [
+    { pillar: "Maritime Gateway", name: "Adani Ports &amp; SEZ", ticker: "NSE: ADANIPORTS", val: "₹1,697.20", chg: "Markets closed for the weekend; Friday's close of ₹1,697.20 (Aug 21) carries forward, up from Aug 19's ₹1,681.90, tracking a broader market rally as Nifty and Sensex extended Thursday's bounce on easing global bond yields; Vizhinjam International Seaport's full EXIM operations, which began Aug 18, continue ramping after flagging off its first export container bound for Valencia, Spain — the ₹8,867-crore deep-water gateway cuts South India-to-Europe transit from roughly two months to 24 days, with a ₹16,000-crore Phase 2 to lift capacity to 5.7 million TEU by December 2028", dir: "up", sentiment: "good" },
+    { pillar: "Heavy Build &amp; Capex", name: "Larsen &amp; Toubro", ticker: "NSE: LT", val: "₹4,081.50", chg: "Markets closed for the weekend; no fresher print beyond Aug 20's midday read of ₹4,081.50, itself up from Aug 19's ₹4,041.30 close, against a 52-week range of ₹3,288.10-4,440.00; the order pipeline keeps strengthening regardless — L&amp;T's LTN Compute/Vyoma.AI unit secured a ₹10,000-15,000 crore ($1.57bn) order from Together AI on Aug 13 for a 10,000-GPU Nvidia B300 AI data-centre in Chennai, on top of the roughly ₹15,000-crore ADNOC Offshore EPCIC contract won Aug 4", dir: "up", sentiment: "good" },
+    { pillar: "Corridor Inputs", name: "UltraTech Cement", ticker: "NSE: ULTRACEMCO", val: "₹11,535.00", chg: "Markets closed for the weekend; no fresher print beyond Aug 21's ₹11,535.00, down from ₹11,619.00 on Aug 14, trading in a ₹11,526-11,620 range against a 52-week range of ₹10,325-13,110; Q1 FY27 net sales rose 16% year-on-year to ₹24,465 crore and PAT 17.2% to ₹2,604 crore on record domestic volumes of 39.2 million tonnes (+13.1%) at 81% capacity utilisation, and the company is entering wires &amp; cables in Q3 FY27 with ₹1,800 crore of planned capex", dir: "down", sentiment: "neutral" },
+    { pillar: "Intermodal Freight", name: "Container Corp. of India", ticker: "NSE: CONCOR", val: "₹533.00", chg: "Markets closed for the weekend; no fresher print beyond Aug 14's ₹533.00, up from ₹514.65 on Aug 13, against a 52-week range of ₹421.4-569.8; the new weekly Chennai Port-to-Hyderabad rail freight service launched with OOCL on Aug 12 carried 46 TEU on its inaugural train, expected to cut Far East-bound export transit times by up to seven days", dir: "up", sentiment: "good" },
+    { pillar: "Surface Transport", name: "IRB Infrastructure", ticker: "NSE: IRB", val: "₹19.03", chg: "Markets closed for the weekend; no fresher print beyond Aug 18's close of ₹19.03, against a tightened 52-week range of ₹18.90-23.95; Q1 FY27 net profit rose 51.26% year-on-year to ₹306.27 crore from ₹202.48 crore, with the market cap now at ₹22,876 crore — strong operating results still not moving the stock decisively", dir: "flat", sentiment: "neutral" }
+  ];
+
+  var freightEnergy = [
+    { pillar: "Freight", name: "Drewry World Container Index", ticker: "Transpacific-led", val: "$4,526/40ft", chg: "No fresher weekly print this cycle — Drewry's WCI holds at Aug 20's +4% w/w read of $4,526/40ft, the second straight weekly rise, next update expected around Aug 27; Shanghai-New York rates rose 9% to $9,507/40ft the same week", dir: "up",
+      history: [
+        {d:"2026-02-12", v: 1933}, {d:"2026-02-19", v: 1919}, {d:"2026-02-26", v: 1899}, {d:"2026-03-05", v: 1958},
+        {d:"2026-03-12", v: 2123}, {d:"2026-03-19", v: 2172}, {d:"2026-03-26", v: 2279}, {d:"2026-04-09", v: 2309},
+        {d:"2026-04-23", v: 2232}, {d:"2026-04-30", v: 2216}, {d:"2026-05-07", v: 2286}, {d:"2026-05-14", v: 2553},
+        {d:"2026-05-21", v: 2712}, {d:"2026-05-31", v: 2800}, {d:"2026-06-04", v: 3433}, {d:"2026-06-11", v: 3549},
+        {d:"2026-06-18", v: 3969}, {d:"2026-06-25", v: 4166}, {d:"2026-07-02", v: 4530}, {d:"2026-07-09", v: 4639},
+        {d:"2026-07-16", v: 4547}, {d:"2026-07-23", v: 4374}, {d:"2026-07-30", v: 4255}, {d:"2026-08-06", v: 4297},
+        {d:"2026-08-13", v: 4339}, {d:"2026-08-20", v: 4526}, {d:"2026-08-21", v: 4526}, {d:"2026-08-22", v: 4526}
+      ] },
+    { pillar: "Freight", name: "Baltic Dry Index", ticker: "Dry bulk (coal, grain, iron ore)", val: "2,891 pts", chg: "No fresher print located this cycle — holds at Aug 20's +15pt read of 2,891, a second straight day higher, rebounding from 2,863 on Aug 14 which had itself fallen from 3,089 on Aug 7 amid softer Pacific conditions", dir: "up",
+      history: [
+        {d:"2026-02-06", v: 1923}, {d:"2026-02-20", v: 2043}, {d:"2026-02-27", v: 2140}, {d:"2026-03-06", v: 2010},
+        {d:"2026-03-13", v: 2028}, {d:"2026-03-20", v: 2056}, {d:"2026-03-27", v: 2031}, {d:"2026-04-10", v: 2201},
+        {d:"2026-04-17", v: 2567}, {d:"2026-04-24", v: 2665}, {d:"2026-05-01", v: 2730}, {d:"2026-05-08", v: 2978},
+        {d:"2026-05-15", v: 3151}, {d:"2026-05-22", v: 2991}, {d:"2026-05-29", v: 3224}, {d:"2026-06-05", v: 2981},
+        {d:"2026-06-12", v: 2729}, {d:"2026-06-19", v: 2722}, {d:"2026-06-26", v: 2524}, {d:"2026-07-03", v: 2717},
+        {d:"2026-07-10", v: 2944}, {d:"2026-07-17", v: 2752}, {d:"2026-07-24", v: 2743}, {d:"2026-08-03", v: 2843},
+        {d:"2026-08-07", v: 3089}, {d:"2026-08-14", v: 2863}, {d:"2026-08-20", v: 2891}, {d:"2026-08-21", v: 2891},
+        {d:"2026-08-22", v: 2891}
+      ] },
+    { pillar: "Energy", name: "Brent Crude", ticker: "Anchor: Strait of Hormuz", val: "$93.86/bbl", chg: "Markets closed for the weekend; Friday's close of $93.86 (+0.08% on the day, a sixth consecutive daily rise) carries forward, with PortWatch still clocking Hormuz's daily transits at just 1 (Aug 16) and the UAE's trade suspension with Iran still in force", dir: "up",
+      history: [
+        {d:"2026-02-04", v: 71.15}, {d:"2026-02-11", v: 71.52}, {d:"2026-02-18", v: 71.78}, {d:"2026-02-25", v: 70.69},
+        {d:"2026-03-04", v: 81.56}, {d:"2026-03-11", v: 90.98}, {d:"2026-03-18", v: 118.09}, {d:"2026-03-25", v: 109.14},
+        {d:"2026-04-01", v: 119.56}, {d:"2026-04-08", v: 122.11}, {d:"2026-04-15", v: 114.93}, {d:"2026-04-22", v: 113.44},
+        {d:"2026-04-29", v: 124.16}, {d:"2026-05-06", v: 103.70}, {d:"2026-05-13", v: 110.28}, {d:"2026-05-20", v: 108.93},
+        {d:"2026-05-27", v: 97.11}, {d:"2026-06-03", v: 101.69}, {d:"2026-06-10", v: 95.73}, {d:"2026-06-17", v: 80.33},
+        {d:"2026-06-24", v: 72.09}, {d:"2026-07-01", v: 69.24}, {d:"2026-07-08", v: 76.50}, {d:"2026-07-15", v: 83.08},
+        {d:"2026-07-22", v: 94.12}, {d:"2026-07-29", v: 91.95}, {d:"2026-08-05", v: 86.65}, {d:"2026-08-12", v: 92.52},
+        {d:"2026-08-18", v: 95.29}, {d:"2026-08-20", v: 93.01}, {d:"2026-08-21", v: 93.86}, {d:"2026-08-22", v: 93.86}
+      ] },
+    { pillar: "Energy", name: "Henry Hub Natural Gas", ticker: "Anchor: Bab-el-Mandeb / Red Sea", val: "$2.79/MMBtu", chg: "No fresher spot print confirmed this cycle; EIA's Q3 2026 forecast average holds at $2.87/MMBtu on reduced LNG feedgas demand and record US production, with September futures trading near $2.73/MMBtu", dir: "down",
+      history: [
+        {d:"2026-02-04", v: 6.88}, {d:"2026-02-11", v: 3.25}, {d:"2026-02-18", v: 2.98}, {d:"2026-02-25", v: 3.02},
+        {d:"2026-03-04", v: 2.87}, {d:"2026-03-11", v: 3.15}, {d:"2026-03-18", v: 3.12}, {d:"2026-03-25", v: 2.94},
+        {d:"2026-04-01", v: 2.99}, {d:"2026-04-08", v: 2.78}, {d:"2026-04-15", v: 2.78}, {d:"2026-04-22", v: 2.75},
+        {d:"2026-04-29", v: 2.60}, {d:"2026-05-06", v: 2.75}, {d:"2026-05-13", v: 2.88}, {d:"2026-05-20", v: 3.18},
+        {d:"2026-05-27", v: 3.13}, {d:"2026-06-03", v: 2.97}, {d:"2026-06-10", v: 3.27}, {d:"2026-06-17", v: 3.25},
+        {d:"2026-06-24", v: 3.19}, {d:"2026-07-01", v: 3.34}, {d:"2026-07-08", v: 3.13}, {d:"2026-07-15", v: 2.80},
+        {d:"2026-07-22", v: 2.93}, {d:"2026-07-29", v: 2.58}, {d:"2026-08-05", v: 2.60}, {d:"2026-08-12", v: 2.82},
+        {d:"2026-08-18", v: 2.82}, {d:"2026-08-20", v: 2.79}, {d:"2026-08-21", v: 2.79}, {d:"2026-08-22", v: 2.79}
+      ] }
+  ];
+
+  var tradePolicy = [
+    { action: "All trade &amp; financial dealings with Iran suspended", jurisdiction: "UAE / Iran", sector: "All cross-border trade &amp; finance", severity: "high", note: "Announced Aug 19 \"until further notice\" after missiles fell in UAE waters, capping a run of strikes that has hit 18 ADNOC tankers since the war began — severs a roughly $28bn relationship that supplied over 30% of Iran's imports ($21bn) and took 13% of its exports ($7bn), compounding an economy the IMF forecasts will contract 5.4% amid 68.9% inflation. No diplomatic movement has been reported since; Iran says Hormuz stays shut until the US \"corrects\" its behavior." },
+    { action: "50% tariff on Canadian goods", jurisdiction: "Canada", sector: "Cross-border goods", severity: "high", note: "Was due to take effect at 12:01am ET Saturday (Aug 22) unless a deal is finalized first; as of the last confirmed reporting Friday, negotiators were still racing to finish the text both sides have touted since Tuesday's pause, expected to cut Canadian-vehicle tariffs to 15% from 25% and halve steel/aluminum duties to 25% — but nothing signed as of this issue, the second time in a week this exact deadline has arrived unresolved." },
+    { action: "Section 232 derivative-article expansion proposed", jurisdiction: "Global steel, aluminum &amp; copper exporters", sector: "Derivative metal products", severity: "elevated", note: "BIS requested public comment Aug 4 on adding 14 more derivative articles — aluminum powder, brass-wind instruments, welding machine parts, self-propelled cranes, tanker and agricultural trailers among them — to Section 232 coverage; comments close Aug 27, not yet in force." },
+    { action: "Russia &amp; Iran sanctions bill advances to House floor", jurisdiction: "India, China, Azerbaijan, Hungary, Slovakia", sector: "Crude oil &amp; gas imports from Russia", severity: "elevated", note: "The Senate passed the Lindsey O. Graham Sanctioning Russia and Iran Act 86-11 on Aug 7 and a bipartisan House companion was introduced Aug 10, authorizing up to 100% tariffs on the top five buyers of Russian oil and gas — India and China chief among them. The House remains on recess until September, with a floor vote not expected until at least early fall." }
+  ];
+
+  var chokepoints = [
+    { name: "Strait of Hormuz", status: "Daily transits still at just 1 (Aug 16, last confirmed read) as the UAE-Iran trade freeze holds with no de-escalation", cls: "status-high", note: "IMF-run PortWatch's last confirmed read shows 1 vessel transit through the strait on Aug 16 alone, against a pre-crisis baseline near 73 ships a day; Lloyd's List Intelligence's weekly rollup counted 73 total transits in the week of Aug 10-16, down from 91 the week before, with at least 22 tankers entering the Gulf and 21 departing over that week — no fresher weekly count has been published since, with the next rollup expected to cover Aug 17-23. A tanker boarded near Qeshm Island remains assessed as seized rather than merely detained, reported holding stationary off the Khasab approach in the North Hormuz corridor. The UAE's Aug 19 suspension of all trade, commercial and financial dealings with Iran \"until further notice\" remains in force with no diplomatic movement reported since, following two ballistic missiles fired toward UAE territory, one landing in UAE waters — the culmination of strikes that have now hit 18 ADNOC tankers since the war began. Tehran says the strait stays shut until the US \"corrects\" its behavior. War-risk premiums hold at 7.5-10% of hull value, up from a pre-crisis 0.25%. Brent crude closed Friday at $93.86 a barrel, a sixth straight session of gains, and holds there into the weekend as markets stay shut, with cargo still rerouting via Fujairah, Khor Fakkan, Oman and the Jeddah land bridge." },
+    { name: "Bab-el-Mandeb / Red Sea", status: "Mokha stays shut and tanker traffic remains down 42% with no fresher count since the Houthi blockade widened", cls: "status-high", note: "Yemen's Mokha port director confirmed operations remain fully suspended after a wave of Houthi missile and drone strikes between Aug 10-14; casualty tolls across the window range from at least seven to eleven killed in the initial Aug 10 strike alone (30-32 wounded), with several more in subsequent strikes, and roughly $16 million in port damage. Separately, a Houthi attack on the cargo ship Tihamah on Aug 12 killed six crew — three Pakistani nationals and one Indonesian among them — the first Houthi-linked shipping deaths in over a year. Yemen's information minister says the Houthis are working to seize control of the strait outright by expanding their presence along the western coast and Red Sea islands. The Houthis' broader maritime blockade of Saudi Arabia has cut Bab-el-Mandeb vessel traffic 24% and mainstream tanker transits 42% to 53 in the blockade's first week, with Saudi tankers rerouted to Yanbu now also coming under attack there; no fresher weekly transit count has surfaced this cycle. UN envoy Hans Grundberg told the Security Council Yemen faces its highest risk of returning to full-scale war since the April 2022 truce. The Saudi-led Multinational Maritime Defence Alliance, with Rear Admiral Abdullah bin Salem Al-Shehri named commander of its 14 founding members, remains stood up even as the port itself stays closed." },
+    { name: "Suez Canal", status: "MSC's seven August transits and CMA CGM's 199-ship year hold as the gradual return continues, though roughly two-thirds of Bab-el-Mandeb-eligible capacity still runs the Cape", cls: "status-elevated", note: "MSC has sent seven ships through the Suez Canal in August, joining CMA CGM — which has logged 199 transits and 5.2 million tonnes so far in 2026, already nearing 2025's full-year total of 212 ships and 18.8 million tonnes — and the Gemini Cooperation of Maersk and Hapag-Lloyd, which has moved four services (AE19, AE15, MECL, WAF6) back to Suez since early July. Suez Canal Authority Chairman Osama Rabie's Aug 18 meeting with CMA CGM, described by both sides as positive, remains the most recent confirmed development. Hapag-Lloyd still calls this \"a targeted adjustment for one selected service, not a general network-wide return\": Maersk currently runs only four services through Bab-el-Mandeb each week in both directions, about a third of its normal pattern, meaning the bulk of its network still diverts around the Cape." },
+    { name: "Panama Canal", status: "Draft holds on course to 48ft Aug 26 as NOAA's 95% odds of a historic-strength El Niño stand unchanged", cls: "status-elevated", note: "The Panama Canal Authority's Neopanamax draft limit, cut to 48.5ft (14.78m) effective Aug 15 — the fourth restriction of the year after July 24's cut to 49ft — remains on schedule to fall to 48ft on Aug 26 and 47.5ft (14.48m) on Sep 3, the fifth restriction. The Authority again stresses daily transit counts remain unaffected thanks to water-saving measures — a cargo-weight constraint rather than a closure. NOAA's Climate Prediction Center's odds of a \"very strong\" El Niño during Oct-Dec hold at 95%, unchanged this cycle and up from 81% in its July assessment, with a 69% chance it reaches historic strength — the strongest since 1950 record-keeping began." },
+    { name: "Strait of Malacca", status: "Asia-wide piracy still down 64% YoY through H1 2026, lowest since 2019, with no Q3 report yet published", cls: "status-active", note: "ReCAAP's half-year report counted 35 incidents across Asia versus 96 a year earlier, with the Straits of Malacca and Singapore accounting for 21 of the 35 total — 60% of the regional count, prompting a Mar 19 incident alert urging extra vigilance in the strait's eastbound lane. The Philippines bucked the regional trend with 10 incidents versus zero in the same period last year. No Q3 update has been published yet, and transit sits at or near baseline, unlike the Middle East chokepoints; part of the elevated Malacca count itself reflects longer average voyage distances from vessels already diverting via the Cape." },
+    { name: "Cape of Good Hope", status: "Diversions hold near their eased level of fewer than 300 ships, down 23% from the Q1 peak, but Maersk still runs only a third of its normal Bab-el-Mandeb-transiting schedule", cls: "status-elevated", note: "Container-ship diversions around the Cape have held roughly steady this cycle — down roughly 23% versus the Q1 2026 peak to fewer than 300 containerships routing that way — as Maersk, Hapag-Lloyd, CMA CGM and now MSC keep adding back Suez capacity; Maersk has moved four services from the Cape since early July. Yet Maersk's own Bab-el-Mandeb-transiting schedule still runs at only about a third of its normal frequency, implying the bulk of its Asia-Europe network remains on the longer Cape routing, which still adds roughly 10 days versus Suez." }
+  ];
+
+  // patternGraph = a hand-drawn-style relationship map of THIS WEEK's snapshot, drawn
+  // purely from facts already published above (chokepoints/minerals/freightEnergy/top
+  // stories) — never new research. Regenerated fresh every Monday morning by a separate
+  // weekly routine; the twice-daily routine copies this object forward unchanged.
+  var patternGraph = {
+    weekOf: "2026-08-18",
+    nodes: [
+      { id: "hormuz", label: "Strait of Hormuz — transits collapse to 73/wk", kind: "chokepoint", tone: "bad" },
+      { id: "babelmandeb", label: "Bab-el-Mandeb — Mokha shut, blockade widens", kind: "chokepoint", tone: "bad" },
+      { id: "lead", label: "UAE severs all trade with Iran", kind: "story", tone: "bad" },
+      { id: "brent", label: "Brent Crude ▲ $93.01/bbl", kind: "energy", tone: "bad" },
+      { id: "henryhub", label: "Henry Hub ▼ $2.79/MMBtu", kind: "energy", tone: "good" },
+      { id: "tin", label: "Tin — Indonesia crackdown", kind: "mineral", tone: "bad" },
+      { id: "helium", label: "Helium — Ras Laffan outage", kind: "mineral", tone: "bad" },
+      { id: "copper", label: "Copper — squeeze easing", kind: "mineral", tone: "good" },
+      { id: "canada", label: "Canada tariff deadline unresolved", kind: "story", tone: "bad" },
+      { id: "blacksea", label: "Black Sea grain corridor near-shut", kind: "story", tone: "bad" }
+    ],
+    edges: [
+      { from: "hormuz", to: "brent", label: "anchor" },
+      { from: "babelmandeb", to: "henryhub", label: "anchor" },
+      { from: "hormuz", to: "lead", label: "same event" },
+      { from: "hormuz", to: "helium", label: "same Gulf region" }
+    ]
+  };
+
+  var tickerItems = [
+    { label: "STRAIT OF HORMUZ", val: "PORTWATCH DAILY TRANSITS STILL AT JUST 1 (AUG16), NO DE-ESCALATION SINCE", dir: "up", sentiment: "bad" },
+    { label: "CANADA TARIFFS", val: "50% DUTIES DUE 12:01AM ET SATURDAY, STILL UNSIGNED AS OF LAST REPORT", dir: "up", sentiment: "bad" },
+    { label: "BRENT CRUDE", val: "$93.86/BBL, SIXTH STRAIGHT RISE, HOLDING INTO THE WEEKEND CLOSE", dir: "up", sentiment: "bad" },
+    { label: "RUSSIA WHEAT", val: "AUG EXPORTS NOW TRACKING TO JUST 1.8M TONNES, LOWEST FOR THE MONTH SINCE 2010", dir: "up", sentiment: "bad" },
+    { label: "UKRAINE GRAIN", val: "NO VESSELS INTO GREATER ODESA SINCE AUG 1, DANUBE ALTERNATIVE ALSO DROUGHT-LIMITED", dir: "up", sentiment: "bad" },
+    { label: "MOKHA PORT", val: "STILL SHUT, HOUTHI BLOCKADE HOLDS BAB-EL-MANDEB TANKER TRAFFIC DOWN 42%", dir: "down", sentiment: "bad" },
+    { label: "RHINE AT KAUB", val: "BFG PUTS 97% ODDS IT STAYS BELOW LOW-WATER LINE THROUGH AUG27", dir: "down", sentiment: "bad" },
+    { label: "PLATINUM", val: "EXTENDS RALLY TO $1,907.80/OZ, UP 3.74% ON THE DAY", dir: "up", sentiment: "bad" },
+    { label: "COPPER", val: "BOUNCES TO $6.58/LB EVEN AS LME BACKWARDATION NARROWS TO $76/TONNE FROM $545", dir: "up", sentiment: "bad" },
+    { label: "GERMAN PORT STRIKES", val: "THIRD BARGAINING ROUND SET FOR AUG24-25 IN HAMBURG", dir: "up", sentiment: "bad" },
+    { label: "VIZHINJAM PORT", val: "FULL EXIM OPERATIONS CONTINUE RAMPING, CUTS EUROPE TRANSIT TO 24 DAYS", dir: "up", sentiment: "good" },
+    { label: "PANAMA DRAFT", val: "EL NINO ODDS HOLD AT 95% FOR STRONGEST EVENT ON RECORD, DRAFT TO 48FT AUG26", dir: "down", sentiment: "neutral" },
+    { label: "CAPE OF GOOD HOPE", val: "DIVERSIONS HOLD NEAR 23% BELOW PEAK AS SUEZ RETURNS BUILD", dir: "down", sentiment: "good" },
+    { label: "BHP PORT HEDLAND", val: "TALKS RESUME AUG25 AFTER 12TH ROUND FAILS DESPITE $13.2BN PROFIT", dir: "up", sentiment: "bad" },
+    { label: "DDR5 MEMORY", val: "FLAGSHIP 128GB KIT NOW $3,399, DESKTOP MODULES AVERAGE $15.27/GB", dir: "up", sentiment: "bad" }
+  ];
+
+  var stories = [
+    {
+      cats: ["geopolitics", "conflict", "logistics", "outlook"], india: false, impact: 10, direction: "friction",
+      src: "Lloyd's List Intelligence / Washington Post / PortWatch (IMF) / Al Jazeera / UANI", time: "Aug 16-21", dateISO: "2026-08-21",
+      title: "Hormuz standoff drags into the weekend as Brent holds near six-day highs and the UAE's trade freeze with Iran shows no sign of a near-term thaw",
+      dek: "IMF-run PortWatch's vessel-tracking data still shows just 1 transit through the Strait of Hormuz on Aug 16 — the last dated read available — against a pre-crisis baseline of roughly 73 ships a day, with Lloyd's List Intelligence's own weekly count putting total Aug 10-16 transits at 73, down from 91 the week before. No fresher weekly transit count has been published since; the next Lloyd's List rollup is expected to cover the week of Aug 17-23. The tanker boarded near Qeshm Island on Aug 17-18 remains, per trackers, seized rather than merely detained, still reported holding stationary off the Khasab approach in the North Hormuz corridor. The UAE's Aug 19 suspension of all trade, commercial and financial dealings with Iran \"until further notice\" remains in force, with no diplomatic movement reported since — Tehran continues to insist the strait stays shut until the US \"corrects\" its behavior, and the 60-day US-Iran memorandum that lapsed Aug 17 has not been extended. War-risk premiums remain at 7.5-10% of hull value, up from a pre-crisis 0.25%. Brent crude closed Friday at $93.86 a barrel — its sixth consecutive daily rise — and holds there into the weekend as markets stay shut; cargo continues rerouting through Fujairah, Khor Fakkan, Oman and the Jeddah land bridge. Nothing in the last day's reporting points to either an escalation or an off-ramp: the standoff is, for now, simply holding.",
+      url: "https://www.washingtonpost.com/world/2026/08/19/uae-says-it-is-suspending-trade-with-iran-after-missile-attack/"
+    },
+    {
+      cats: ["geopolitics", "outlook"], india: false, impact: 9, direction: "fluidity",
+      src: "BNN Bloomberg / CNBC / Al Jazeera", time: "Aug 18-21", dateISO: "2026-08-21",
+      title: "Canada's 50% tariffs are now due within hours as negotiators race to finish text nobody has signed yet",
+      dek: "The 50% Section 338 tariffs on roughly $28 billion in annual Canadian goods were set to take effect at 12:01am ET Saturday (Aug 22) unless Ottawa and Washington finalize the deal both sides have been touting since Trump's Tuesday pause. As of Friday's last confirmed reporting, negotiators were still meeting to finish the text, with Trump saying the US and Canada \"should be able\" to reach an agreement and the expected terms cutting tariffs on Canadian-built vehicles to 15% from 25% and halving steel and aluminum duties to 25%. Trade minister Dominic LeBlanc has been shuttling between Washington and Ottawa to brief Prime Minister Carney and the provincial premiers on the closing details. No signed text had been published as of this issue going to press, and Canadian exporters were told to prepare for the tariffs to take effect on schedule if the paperwork isn't finalized before the deadline — this is now the second time in a week this exact deadline has arrived with a deal described as close but still unsigned.",
+      url: "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html"
+    },
+    {
+      cats: ["geopolitics", "outlook"], india: false, impact: 9, direction: "friction",
+      src: "Bloomberg / gCaptain / Moscow Times / USDA", time: "Aug 11-21", dateISO: "2026-08-21",
+      title: "Russia's wheat exports now track to just 1.8 million tonnes — the lowest for the month since 2010 — as Black Sea shipping capacity collapses",
+      dek: "Russia's wheat exports for August are now estimated at just 1.8 million tonnes, the lowest level for the month since 2010 — a sharper deterioration than the 3-3.4 million tonnes SovEcon had projected only a cycle ago — as escalating Ukrainian strikes on shipping infrastructure keep squeezing southern Russian ports. Russia's largest grain terminal at Novorossiysk was shut and suspended deliveries and exports after a Ukrainian drone strike, with the nearby Taman grain terminal also halted. Combined Ukrainian and Russian attacks on shipping have now shut down more than 97% of the two countries' grain export capacity in the Azov and Black Sea basin, according to this week's reporting — an almost total seizure of a corridor that together normally supplies close to 30% of world wheat exports. Russia's Agriculture Ministry had already raised its wheat export tax for the Aug 12-18 period even as foreign buyers pull back over shipping costs, and the Institute for Agricultural Market Studies has cut its 2026 harvest forecast to 138.5 million tonnes from 140 million. This compounds Kyiv's own near-total Black Sea shutdown detailed elsewhere in this issue — both ends of the corridor now effectively seized at once.",
+      url: "https://gcaptain.com/russia-and-ukraines-black-sea-grain-exports-grind-to-a-virtual-halt/"
+    },
+    {
+      cats: ["conflict", "geopolitics", "outlook"], india: false, impact: 8, direction: "friction",
+      src: "Bloomberg / Farm Progress / Euromaidan Press", time: "Aug 7-19", dateISO: "2026-08-19",
+      title: "No ship has entered Greater Odesa since Aug 1 as Ukraine cuts its farm-export forecast 54% and the Danube offers no real bypass",
+      dek: "Ukraine's agriculture ministry says no vessel has entered the Greater Odesa ports so far this month, with grain exports slumping to just 590,000 tonnes in August — only about 30% of what needs to be shipped — as Russian airstrikes keep the country's remaining Black Sea ports effectively shut. Shipments are down roughly 76% year-on-year through August. Kyiv has cut its 2026-27 agricultural export forecast 54% to 29.6 million tonnes from an earlier 64.4 million baseline, with wheat exports alone projected to plunge 53% to 8.3 million tonnes; Odesa normally handles about 90% of Ukraine's grain shipments, and the sector generated more than half the country's export revenue last year. Alternative routing via the Danube offers little real relief: a drought has pushed the river's own water levels to record lows, leaving Kyiv with no meaningful bypass for the volumes Odesa normally handles. Ukraine struck back on Aug 12 with a large-scale attack on Novorossiysk using Neptune missiles, Palianytsia jet drones and sea drones, damaging the frigates Admiral Essen and Admiral Makarov and knocking out two Russian grain terminals that remain offline per Russian sources. Moscow has rejected the prospect of a Black Sea ceasefire, saying it sees no basis for \"half-measures\" that would relieve pressure on Kyiv.",
+      url: "https://www.bloomberg.com/news/articles/2026-08-14/ukraine-says-black-sea-port-closures-may-halve-farm-exports"
+    },
+    {
+      cats: ["conflict", "geopolitics", "logistics"], india: false, impact: 8, direction: "friction",
+      src: "Al Jazeera / Arab News / UN", time: "Aug 10-15", dateISO: "2026-08-15",
+      title: "Mokha stays shut and a cargo-ship attack kills six as a Saudi-led alliance's commander remains stood up with no fresher transit count",
+      dek: "Yemen's Mokha port director confirmed commercial operations remain fully suspended after a wave of Houthi missile and drone strikes between Aug 10-14; casualty counts across the window range from at least seven to eleven killed in the initial Aug 10 strike alone (30-32 wounded) to several more in subsequent strikes, with roughly $16 million in port damage and about 1,300 dockworkers left without income. Separately, a Houthi attack on the cargo ship Tihamah on Aug 12 killed six crew — three Pakistani nationals and one Indonesian among them — the first Houthi-linked shipping deaths in more than a year. Yemen's information minister says the Houthis are working to seize control of the Bab el-Mandeb Strait outright by expanding their presence along the western coast and Red Sea islands. The broader Houthi maritime blockade of Saudi Arabia has cut Bab-el-Mandeb vessel traffic 24% and mainstream tanker transits 42% to just 53 in the blockade's first week, with Saudi tankers that rerouted to Yanbu now coming under attack there too; no fresher weekly count has surfaced this cycle. UN envoy Hans Grundberg told the Security Council Yemen faces its highest risk of returning to full-scale war since the April 2022 truce. The Saudi-led Multinational Maritime Defence Alliance, with Rear Admiral Abdullah bin Salem Al-Shehri named commander of its 14 founding members, remains stood up even as the port stays closed and the toll from mid-August keeps standing as the latest confirmed count.",
+      url: "https://www.aljazeera.com/news/2026/8/14/saudi-arabia-announces-start-of-red-sea-defence-alliance-will-it-work"
+    },
+    {
+      cats: ["logistics", "outlook"], india: false, impact: 7, direction: "friction",
+      src: "Bloomberg / Insurance Journal / BfG", time: "Aug 11-21", dateISO: "2026-08-21",
+      title: "Rhine's Kaub gauge stays pinned at its lowest level since 1880 as Germany's own hydrology institute puts 97% odds it holds there through Aug 27",
+      dek: "Germany's Federal Institute of Hydrology (BfG) now says it is almost certain the Kaub gauge — the Rhine's shallowest chokepoint — will remain below its 77cm low-water reference level through Aug 22, and 97% likely to still be under that line on Aug 27, effectively ruling out the rebound earlier forecasts had hoped for this month. Barges still running operate at only 10-20% of normal payload; Covestro says it now takes roughly 60 trucks to replace a single 1,500-tonne barge. The disruption remains concentrated in the bulk segment — tankers, silos and tippers — hitting routes into western and southern Germany, eastern France and Switzerland hardest, with ThyssenKrupp, BASF and Lanxess among the industrial shippers still affected. Germany's relaxed Sunday and holiday driving-ban exemptions, including the summer Saturday ban, are still set to expire Aug 31, leaving a narrowing window before road capacity tightens again just as the water crisis is confirmed to persist into at least late August, with forecasters still warning it could drag into October.",
+      url: "https://www.bloomberg.com/news/articles/2026-08-11/rhine-river-at-record-low-levels-is-forcing-industry-to-react"
+    },
+    {
+      cats: ["tech", "outlook"], india: false, impact: 7, direction: "friction",
+      src: "Tech Times / Tom's Hardware / Goldman Sachs", time: "Aug 14-19", dateISO: "2026-08-19",
+      title: "DRAM keeps spiraling as a flagship 128GB DDR5 kit hits $3,399 and desktop modules average $15.27/GB",
+      dek: "Desktop DDR5 modules now average $15.27 per gigabyte across 193 tracked kits as of mid-August, more than double DDR4's $7.64/GB average, with a flagship 128GB DDR5-6400 kit reaching $3,399. The 64GB DDR5-5600 kit that stood at $1,118 on Aug 17 remains the most cited single benchmark, up from just $191 a year earlier — a 485% increase in twelve months — as AI infrastructure and consumer PCs keep bidding for the same fabrication capacity; no fresher print on that specific SKU was confirmed this cycle. Samsung's 16GB DDR5 modules are priced near $29.56/GB. Goldman Sachs expects Samsung's DDR5 RDIMM pricing to reach roughly $1,402 in Q3 2026, up about 13% from Q2, with the firm and others seeing no significant relief from new manufacturing capacity until 2028-2029. Washington and the Netherlands continue coordinating export-control tightening on chipmaking equipment aimed at China, adding a policy dimension on top of the raw capacity shortage.",
+      url: "https://www.techtimes.com/articles/324825/20260818/ai-wiped-out-two-decades-falling-ram-prices-full-ddr5-table-builders.htm"
+    },
+    {
+      cats: ["outlook", "logistics"], india: false, impact: 6, direction: "friction",
+      src: "Mining.com / Bloomberg", time: "Aug 20-21", dateISO: "2026-08-21",
+      title: "Copper bounces to $6.58 a pound even as the historic backwardation that drove last week's squeeze keeps narrowing",
+      dek: "COMEX copper bounced to $6.58 a pound ($14.50/kg) on Aug 21, up roughly 1.5-1.8% on the day — a reversal from the past several sessions' drift lower. Yet the mechanism that actually defined last week's historic squeeze, the cash-to-three-month backwardation, kept easing: it has narrowed to around $76 a tonne from Monday's $545, the widest gap since late 2021. LME warehouse stocks have separately fallen to 214,550 tonnes, down more than 35,000 tonnes (14%) since the end of July — a genuinely two-sided read, since falling warehouse stocks would normally read as tightening even as the premium that measures acute scarcity keeps shrinking. Freeport Indonesia CEO Tony Wenas's repair timeline is unchanged: PT Smelting's Gresik facility is still targeted for completion by end of September, with the backup Manyar smelter's restart accelerated to end of August. Call this cycle's copper story stabilizing rather than resolved — the underlying outage still isn't fixed, and now neither is the price direction.",
+      url: "https://www.mining.com/web/historic-copper-squeeze-eases-as-traders-deliver-metal-to-lme/",
+      telemetry: "LME"
+    },
+    {
+      cats: ["logistics", "outlook"], india: false, impact: 6, direction: "friction",
+      src: "Maritime Executive / Container News / World Cargo News", time: "Aug 17-19", dateISO: "2026-08-18",
+      title: "Six German seaports hit by warning strikes as ver.di and employers stay apart on pay, third round set for Aug 24-25",
+      dek: "Union ver.di led a 24-hour warning strike across six major German seaports — Hamburg, Bremerhaven, Bremen, Emden, Brake and Wilhelmshaven — running from 22:00 on Aug 17 to the same time Aug 18, with about 5,000 of the roughly 11,000-worker bargaining group taking part; HHLA and Eurogate terminal operations were halted during the walkout. Ver.di is demanding an 8.2% wage increase or at least an extra €2.50 an hour over 12 months, against an employer offer of 5.1% over 19 months backdated to Aug 1, 2026 and running until the end of February 2028; the union says members have overwhelmingly rejected the current proposals. The strike ended without resolving the underlying dispute over contract duration, but a third negotiating round is confirmed for Aug 24-25 in Hamburg — vessel-queue clearing typically takes two to four weeks after a stoppage of this scale, so effects may still be working through the network.",
+      url: "https://maritime-executive.com/article/german-seaports-paralyzed-by-daylong-strike-over-contract-impasse"
+    },
+    {
+      cats: ["outlook", "logistics"], india: false, impact: 6, direction: "friction",
+      src: "iGrow / DTN / TradingEconomics", time: "Week of Aug 17", dateISO: "2026-08-17",
+      title: "China's phosphate export curbs keep DAP tight even as urea falls 11.5% year-on-year, splitting the fertilizer market in two",
+      dek: "The fertilizer market keeps bifurcating rather than uniformly tightening. DAP (diammonium phosphate) rose 0.32% on the week to $795 a tonne, up 3.58% on the month though nearly flat year-on-year (-0.63%), as China's extended restrictions on phosphate exports — covering DAP, MAP and select NPK blends through August, an estimated 50-80% of its export volumes — push import-dependent buyers toward costlier alternatives like Morocco's OCP. Urea has moved the opposite way: it ticked up just 0.52% on the week to $390 a tonne but sits down 7.69% on the month and 11.51% year-on-year, the steepest such decline yet recorded, as this summer's earlier demand spikes continue to unwind; no fresher weekly index read was located this cycle. The pressure still lands unevenly on top of the wheat-side food-security shock detailed elsewhere in this issue — phosphate-dependent farmers face a genuinely tighter input market heading into the next planting cycle, even as nitrogen buyers actually catch a break.",
+      url: "https://igrownews.com/fertilizer-prices-weekly-update/"
+    },
+    {
+      cats: ["logistics", "outlook"], india: false, impact: 6, direction: "friction",
+      src: "Mining.com / Bloomberg", time: "Aug 17-18", dateISO: "2026-08-18",
+      title: "BHP and Port Hedland unions fail again at a 12th bargaining session on a 16%-over-4-years offer, even as BHP posts a $13.2 billion profit",
+      dek: "BHP and the Combined BHP Ports Unions failed to reach a wage agreement at their twelfth Fair Work Commission session on Aug 18, the same week BHP reported underlying full-year profit up 30% to $13.2 billion, boosted by a copper division that generated record EBITDA above $18 billion at a 70% margin; BHP will pay a final dividend of 99 cents, its highest in four years. BHP's latest proposal — a 16% wage increase over four years — falls short of the binding guarantees the roughly 450 operators and maintenance workers at Port Hedland are seeking, with the union arguing extreme heat, long hours and time away from family warrant rates that shouldn't trail city-based pay. Port Hedland ships roughly $80 million of iron ore a day, the world's largest bulk iron-ore export terminal. The first formal strike in decades hit in mid-July, followed by a two-day stoppage Aug 8-9 involving about 150 workers. The parties are due back at the table Aug 25, with no new strike action called as of this issue.",
+      url: "https://www.mining.com/web/bhp-port-hedland-unions-fail-to-reach-wage-deal-talks-to-resume-on-august-25"
+    },
+    {
+      cats: ["logistics", "outlook"], india: true, impact: 6, direction: "friction",
+      src: "Seatrade Maritime / PortNews", time: "Jul 20-Aug 18", dateISO: "2026-08-18",
+      title: "India-bound container capacity down 14% as Hormuz-adjacent freight rates spike on the Shenzhen-Jebel Ali route",
+      dek: "Deployed container capacity between the Far East and the Indian Subcontinent, Middle East and Red Sea has fallen more than 14% year-on-year — roughly 312,000 TEU — to just under 1.9 million TEU, as carriers withdraw ships from waters bordering the Hormuz standoff. South Korea's HMM has cut about 115,000 TEU of capacity and Singapore's SeaLead has withdrawn roughly 66,000 TEU. Freight rates on the Shenzhen-Jebel Ali route had jumped 35-55% to $8,250-9,500 per 40-foot container by mid-August, on top of CMA CGM's Aug 1 emergency fuel surcharge for Middle East and Red Sea trades layered atop existing dangerous-goods surcharges; West Coast India-to-Middle East rates rose even more sharply, up roughly 1,136% since Mar 2 to about $3,400 per FEU, with war-risk surcharges of $1,500-4,000 per container now standard. Indian ports are absorbing Gulf cargo that can no longer transit Hormuz, adding congestion risk on top of the freight-cost pass-through to Indian importers and exporters — a dynamic now colliding with Vizhinjam's new EXIM capacity coming online, covered separately in this issue.",
+      url: "https://www.seatrade-maritime.com/containers/indian-subcontinent-container-capacity-from-east-asia-falls-14-"
+    },
+    {
+      cats: ["logistics", "outlook"], india: true, impact: 6, direction: "fluidity",
+      src: "Business Standard / The Tribune", time: "Aug 18", dateISO: "2026-08-18",
+      title: "Vizhinjam's deep-water port continues ramping its EXIM operations, having flagged off its first export container for Valencia, Spain",
+      dek: "Adani Ports' ₹8,867-crore Vizhinjam International Seaport in Kerala, which formally began full EXIM (export-import) operations on Aug 18, 2026 with Kerala Chief Minister V D Satheesan flagging off the port's first export container bound for Valencia, Spain, continues ramping toward capacity. The deep-water transshipment gateway cuts South Indian exporters' transit time to Europe from roughly two months via existing routing to 24 days, and is expected to materially improve export competitiveness for seafood, spices, cashew and engineering-goods shippers in the region. A ₹16,000-crore Phase 2 expansion — including bunkering facilities, a liquid jetty and an integrated logistics ecosystem — is planned to lift capacity to 5.7 million TEU by December 2028, bringing Adani's total Vizhinjam investment to roughly ₹30,000 crore. The launch lands as a genuine capacity-side offset to the Hormuz-driven congestion and freight-cost pressure hitting India-bound trade elsewhere in this issue, with Adani Ports shares still holding at Friday's close of ₹1,697.20 as markets stay shut for the weekend.",
+      url: "https://www.business-standard.com/industry/news/vizhinjam-port-begins-exim-operations-opens-gateway-for-india-s-trade-126081801128_1.html"
+    },
+    {
+      cats: ["outlook", "logistics"], india: false, impact: 5, direction: "friction",
+      src: "gCaptain / Fox Weather / pancanal.com", time: "Aug 15-19", dateISO: "2026-08-19",
+      title: "Panama Canal's draft schedule holds as NOAA's El Niño odds sit unchanged at 95% for the strongest event on record",
+      dek: "The Panama Canal Authority's Neopanamax draft limit was cut to 14.78 meters (48.5 feet) effective Aug 15 — the fourth restriction of the year — with further cuts to 48 feet on Aug 26 and 47.5 feet (14.48 meters) on Sep 3 unchanged from schedule. The Authority again stresses daily transit counts remain unaffected thanks to water-saving measures — a cargo-weight constraint on the largest vessels, not a closure. NOAA's Climate Prediction Center's odds of the current El Niño reaching \"very strong\" status during Oct-Dec hold at 95% this cycle, unchanged from the last confirmed read and up sharply from 81% in its July assessment, with a 69% chance it becomes the strongest event since 1950 record-keeping began — a material upgrade in the drought risk facing Gatun Lake's replenishment heading into the rest of the dry season.",
+      url: "https://www.foxweather.com/weather-news/noaa-el-nino-historic-strength-potential-august-2026"
+    },
+    {
+      cats: ["logistics", "tech"], india: false, impact: 5, direction: "friction",
+      src: "TechCrunch / The Record / SecurityWeek", time: "Jul 29-Aug 11", dateISO: "2026-08-11",
+      title: "CEVA Logistics data breach ripples across Bol, Ajax, Valve and other clients three weeks on with no new disclosures",
+      dek: "CEVA Logistics, the logistics subsidiary of shipping major CMA CGM, disclosed a cyberattack between Jul 29 and Aug 1 that knocked out order-processing systems at eight European warehouses and compromised customer personal data — names, addresses, phone numbers, emails and order data, though not payment or credential information — at clients including Dutch e-commerce giant Bol, department store De Bijenkorf, eyewear retailer Ace & Tate, football club Ajax and Valve's European Steam hardware business; ING has since also confirmed impact. No other CEVA systems, including air, ocean, ground and rail transport management, were affected. CEVA has not publicly commented further on the breach beyond activating its security protocols and restoring some affected applications for certain customers. The Dutch Data Protection Authority's investigation remains ongoing with no findings published; no group has claimed responsibility. The disruption adds a cyber dimension to a European logistics network already strained by the Rhine's record-low water levels and the German port strikes covered elsewhere in this issue.",
+      url: "https://www.securityweek.com/ceva-logistics-operations-disrupted-by-cyberattack/"
+    },
+    {
+      cats: ["logistics", "outlook"], india: false, impact: 5, direction: "friction",
+      src: "Drewry / Container News", time: "Week of Aug 20", dateISO: "2026-08-20",
+      title: "Drewry's World Container Index holds at $4,526 as blanked sailings keep absorbing chokepoint disruption",
+      dek: "Drewry's World Container Index rose 4% to $4,526 per 40-foot container in its Aug 20 weekly reading, the second straight weekly rise, driven once again by Transpacific gains — Shanghai-New York rates alone rose 9% to $9,507 per 40-foot container the same week; Drewry's Intra-Asia Container Index climbed 6% over the same week to $1,091 per 40-foot container. Carriers continue blanking sailings to absorb Suez and Hormuz risk, Panama's draft restrictions, Asian port congestion and the Rhine's disruption — a single index now capturing nearly every chokepoint disruption covered in this issue at once, and the clearest sign that this cycle's combined friction is still translating directly into freight cost rather than being absorbed elsewhere in the network. No fresher weekly print was confirmed as of this issue; Drewry's next update is expected around Aug 27.",
+      url: "https://container-news.com/drewry-world-container-index-rises-as-early-peak-season-lifts-freight-rates/"
+    }
+  ];
+
+  var briefingScript = [
+    { speaker: "anchor", text: "Morning, morning — sun's barely up and you're already lighting that thing." },
+    { speaker: "analyst", text: "Correct order of operations, kid. Coffee's for people who don't have a briefing to give." },
+    { speaker: "anchor", text: "Fair. Okay — Canada. Clock basically ran out while we were both asleep." },
+    { speaker: "analyst", text: "Midnight came and went their time. Question is whether it actually bit or they found the paper at the last second again." },
+    { speaker: "anchor", text: "Fifty percent, on twenty-something billion in goods, if nobody signed anything." },
+    { speaker: "analyst", text: "Somebody usually signs something. We'll know before this coffee's cold." },
+    { speaker: "anchor", text: "Meanwhile copper's doing something weird overnight. Bounced to six fifty-eight a pound." },
+    { speaker: "analyst", text: "Bounced up, sure. But the actual squeeze — the backwardation — keeps shrinking. Five forty-five down to seventy-six bucks a tonne." },
+    { speaker: "anchor", text: "So which is it, tight or loose?" },
+    { speaker: "analyst", text: "Both, kid. Markets don't do clean stories, that's Hollywood's job." },
+    { speaker: "anchor", text: "Platinum's not confused though. Nineteen-oh-seven an ounce now." },
+    { speaker: "analyst", text: "South Africa keeps tripping over its own power grid. That one's just straightforwardly bad." },
+    { speaker: "anchor", text: "And the Rhine's still stuck at the lowest number since eighteen-eighty." },
+    { speaker: "analyst", text: "Germany's own river people put it at ninety-seven percent odds it stays under the line through the twenty-seventh. That's not a forecast, that's a certainty wearing a forecast costume." },
+    { speaker: "anchor", text: "Cheerful start to a Saturday." },
+    { speaker: "analyst", text: "Sun's coming up anyway, look at that. Doesn't care what the Baltic Dry's doing." }
+  ];
+  var catLabel = {
+    logistics: "Supply Chain &amp; Logistics",
+    geopolitics: "Geopolitics &amp; Trade Policy",
+    conflict: "Conflict &amp; War Impact",
+    tech: "Technology &amp; Industry 4.0",
+    outlook: "Future Outlook",
+    india: "India Focus"
+  };
+
+  var industryCats = ["logistics", "tech"];
+  var tradeCats = ["geopolitics", "conflict", "outlook"];
+
+  var sourceCategories = {
+    "USA": [
+      "Reuters (wire, global)",
+      "The Wall Street Journal",
+      "CENTCOM / State Dept statements (primary source, not neutral)",
+      "CSIS (think tank analysis)"
+    ],
+    "China": [
+      "Caixin Global (most independent-leaning major Chinese outlet)",
+      "South China Morning Post (Hong Kong, commercially independent)",
+      "Global Times (state — official framing only)",
+      "MOFCOM / NDRC statements (primary source, not neutral)"
+    ],
+    "Russia": [
+      "TASS (state — official framing only)",
+      "The Moscow Times (independent, exile-based)",
+      "Valdai Discussion Club (state-adjacent analysis)"
+    ],
+    "European Union": [
+      "Financial Times",
+      "Deutsche Welle (public broadcaster, editorially independent)",
+      "Bruegel (economic policy think tank)"
+    ],
+    "India": [
+      "The Hindu",
+      "Livemint / Economic Times (trade &amp; business angle)",
+      "Observer Research Foundation (think tank analysis)",
+      "MEA / PIB statements (primary source, not neutral)"
+    ],
+    "Middle East / Gulf": [
+      "Al Jazeera (Qatar-funded, strong regional reporting)",
+      "Reuters Gulf desk (external, less state-influenced)",
+      "Iranian state media — IRNA / Press TV (primary source on Iran's own claims, not verification)",
+      "Gulf state ministries (primary source on their own claims, not verification)"
+    ],
+    "US Corridor — Trade, Tariffs, Ports": [
+      "Federal Maritime Commission (FMC) — official US regulator",
+      "Journal of Commerce (JOC) — independent container shipping monitor",
+      "FreightWaves (SONAR) — US trucking capacity &amp; intermodal data"
+    ],
+    "Russia &amp; Black Sea Corridor — Sanctions, War Risk": [
+      "Lloyd's List Intelligence — dark-fleet &amp; war-risk tracking",
+      "Ambrey — real-time maritime security incident reporting",
+      "InfraNews Russia — rail &amp; corridor traffic analytics"
+    ],
+    "Indian Subcontinent Corridor — EXIM, Infrastructure": [
+      "ICEGATE / CBIC — Indian Customs gateway",
+      "Indian Ports Association (IPA) — port dwell &amp; turnaround data",
+      "The Economic Times (Logistics Desk) — freight &amp; PLI trends"
+    ],
+    "Mainland China Corridor — Output, Export Controls": [
+      "Caixin Global — independent Caixin Manufacturing PMI",
+      "Shanghai Shipping Exchange (SSE) — SCFI freight index",
+      "China Ministry of Transport policy monitors — export restriction tracking"
+    ],
+    "Middle East &amp; Suez Corridor — Chokepoints, Bunkering": [
+      "UKMTO — vetted incident coordinates from master mariners",
+      "Port of Fujairah Advisory Board — bunkering price signals",
+      "MEED (Middle East Economic Digest) — MENA infrastructure monitor"
+    ],
+    "Cross-Cutting Neutral Data": [
+      "MarineTraffic / Kpler — ship (AIS) tracking",
+      "Sentinel Hub / Planet Labs — satellite imagery",
+      "Lloyd's List / TradeWinds — shipping industry trade press",
+      "IEA — energy flow data",
+      "Lloyd's of London / Joint War Committee — war-risk insurance premiums"
+    ],
+    "Academic &amp; Policy Research": [
+      "Peterson Institute for International Economics (PIIE) — bilateral trade shifts, tariff and macroeconomic impact analysis",
+      "Center for Strategic and International Studies (CSIS) — supply chain sovereignty, industrial policy, corridor security",
+      "Bruegel — supply chain resilience, technology partnerships, critical raw material dependencies (EU)",
+      "Chatham House — trade barrier regulation, food supply chain vulnerability, maritime regimes",
+      "Observer Research Foundation (ORF) — China Plus One strategy, infrastructure corridors, critical minerals (India)",
+      "Indian Council for Research on International Economic Relations (ICRIER) — domestic manufacturing integration, trade policy (India)",
+      "Caixin Global Research — factory-level economic data, manufacturing and industrial output metrics (China)",
+      "Asian Development Bank (ADB) — Global Value Chain Development Reports, cross-country component pipelines",
+      "Policy Center for the New South — South-South trade lanes, industrial localization, fertilizer logistics",
+      "Gulf Research Center (GRC) — shipping metrics, bunkering costs, chokepoint security (Suez, Hormuz, Bab-el-Mandeb)"
+    ]
+  };
+
+  function primaryGroup(cats) {
+    if (cats.some(function (c) { return industryCats.indexOf(c) !== -1; })) return "supplyIndustry";
+    if (cats.some(function (c) { return tradeCats.indexOf(c) !== -1; })) return "tradeRisk";
+    return null;
+  }
+
+  function loadSaved() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); } catch (e) { return {}; }
+  }
+  function persistSaved(obj) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(obj)); } catch (e) {}
+  }
+
+  var saved = loadSaved();
+
+  function renderTicker() {
+    var track = document.getElementById("tickerTrack");
+    var doubled = tickerItems.concat(tickerItems);
+    var html = "";
+    doubled.forEach(function (t) {
+      html += '<span class="item">' + t.label + ' <span class="val sentiment-' + t.sentiment + '">' +
+        (t.dir === "up" ? "▲" : "▼") + " " + t.val + "</span></span>";
+    });
+    track.innerHTML = html;
+  }
+
+  function mineralArrow(dir) {
+    return dir === "up" ? "▲" : dir === "down" ? "▼" : "◆";
+  }
+
+  // Renders a real historical time series (real dated {d,v} points, never fabricated
+  // or interpolated) as an inline SVG line chart, shown inside a row's expanded detail
+  // view. No external chart library — just a polyline mapped from real timestamps/values
+  // into a fixed viewBox, plus a small date-range/min-max caption underneath for basic
+  // axis context.
+  function sparklineSvg(history) {
+    if (!history || history.length < 2) return "";
+    var w = 300, h = 44, pad = 5;
+    var times = history.map(function (p) { return new Date(p.d + "T00:00:00").getTime(); });
+    var vals = history.map(function (p) { return p.v; });
+    var minT = Math.min.apply(null, times), maxT = Math.max.apply(null, times);
+    var minV = Math.min.apply(null, vals), maxV = Math.max.apply(null, vals);
+    var tRange = (maxT - minT) || 1, vRange = (maxV - minV) || 1;
+    var pts = history.map(function (p, i) {
+      var x = ((times[i] - minT) / tRange) * (w - pad * 2) + pad;
+      var y = h - pad - ((p.v - minV) / vRange) * (h - pad * 2);
+      return x.toFixed(1) + "," + y.toFixed(1);
+    }).join(" ");
+    return '<svg class="idx-chart-svg" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none" role="img" aria-label="Price trend over time">' +
+      '<polyline points="' + pts + '" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" /></svg>' +
+      '<div class="idx-chart-caption"><span>' + history[0].d + '</span><span>' + minV + ' – ' + maxV + '</span><span>' + history[history.length - 1].d + '</span></div>';
+  }
+
+  // Turns a sidebar "exchange"/source line into a real clickable link out to that
+  // provider's own site, the same way .card-src already links out for the 16
+  // articles — never a fabricated deep link, just each provider's homepage (or,
+  // for NSE tickers, a constructed quote-page URL from the ticker itself).
+  var EXCHANGE_HOMEPAGES = [
+    ["Fastmarkets", "https://www.fastmarkets.com"],
+    ["TradeTech", "https://www.tradetech.net"],
+    ["UxC", "https://www.uxc.com"],
+    ["COMEX", "https://www.cmegroup.com/markets/metals.html"],
+    ["NYMEX", "https://www.cmegroup.com/markets/energy.html"],
+    ["LME", "https://www.lme.com"],
+    ["SMM", "https://www.metal.com"],
+    ["Drewry", "https://www.drewry.co.uk"],
+    ["Baltic", "https://www.balticexchange.com"],
+    ["Brent", "https://www.ice.com"],
+    ["Henry Hub", "https://www.eia.gov"]
+  ];
+  function exchangeUrlFor(text) {
+    if (!text) return null;
+    var nseMatch = text.match(/NSE:\s*([A-Z0-9]+)/);
+    if (nseMatch) return "https://www.nseindia.com/get-quotes/equity?symbol=" + nseMatch[1];
+    for (var i = 0; i < EXCHANGE_HOMEPAGES.length; i++) {
+      if (text.indexOf(EXCHANGE_HOMEPAGES[i][0]) !== -1) return EXCHANGE_HOMEPAGES[i][1];
+    }
+    return null;
+  }
+  function exchangeHtml(displayText, searchText) {
+    var url = exchangeUrlFor(searchText || displayText);
+    if (url) return '<a class="idx-exchange" href="' + url + '" target="_blank" rel="noopener">' + displayText + '</a>';
+    return '<div class="idx-exchange">' + displayText + '</div>';
+  }
+
+  function severityLabel(s) {
+    return s === "high" ? "CRITICAL" : s === "elevated" ? "ELEVATED" : "EASING";
+  }
+
+  var severityRank = { high: 0, elevated: 1 };
+
+  function renderMinerals() {
+    var el = document.getElementById("mineralsIndex");
+    var html = "";
+    var ordered = minerals.filter(function (m) {
+      return m.severity !== "active";
+    }).sort(function (a, b) {
+      return severityRank[a.severity] - severityRank[b.severity];
+    });
+    ordered.forEach(function (m) {
+      html += '<div class="idx-row"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-' + m.severity + '">' + severityLabel(m.severity) + '</span>' + m.name + '<span class="idx-expand-hint">›</span></div>' +
+        exchangeHtml(m.exchange) + '</div>' +
+        '<div class="idx-val sentiment-' + m.sentiment + '">' + mineralArrow(m.dir) + ' ' + m.val + '</div>' +
+        '<div class="idx-chg-line sentiment-' + m.sentiment + '">PRICE STATUS: ' + m.priceStatus + '</div>' +
+        '<div class="idx-chg-line sentiment-neutral">MACRO TRIGGER: ' + m.macroTrigger + '</div>' +
+        '<div class="idx-chg-line sentiment-neutral">DOWNSTREAM SHOCK: ' + m.downstreamShock + '</div>' +
+        '<div class="idx-chg-line sentiment-neutral">REALITY LOG: ' + m.realityLog + '</div></div>';
+    });
+    el.innerHTML = html;
+  }
+
+  function renderMineralsMoreDropdown() {
+    var select = document.getElementById("mineralsMoreSelect");
+    if (!select) return;
+    var html = '<option value="">More minerals…</option>';
+    var easing = minerals.filter(function (m) { return m.severity === "active"; });
+    easing.forEach(function (m, i) {
+      html += '<option value="easing-' + i + '">' + m.name + ' — easing</option>';
+    });
+    mineralsOther.forEach(function (m, i) {
+      html += '<option value="stable-' + i + '">' + m.name + ' — regular transit</option>';
+    });
+    select.innerHTML = html;
+  }
+
+  function wireMineralsMore() {
+    var select = document.getElementById("mineralsMoreSelect");
+    var display = document.getElementById("mineralsMoreDisplay");
+    if (!select || !display) return;
+    select.addEventListener("change", function () {
+      if (select.value === "") { display.innerHTML = ""; return; }
+      var parts = select.value.split("-");
+      var kind = parts[0], idx = Number(parts[1]);
+      if (kind === "easing") {
+        var m = minerals.filter(function (mm) { return mm.severity === "active"; })[idx];
+        if (!m) return;
+        display.innerHTML = '<div class="idx-row minerals-more-row expanded"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-active">EASING</span>' + m.name + '</div>' +
+          exchangeHtml(m.exchange) + '</div>' +
+          '<div class="idx-val sentiment-' + m.sentiment + '">' + mineralArrow(m.dir) + ' ' + m.val + '</div>' +
+          '<div class="idx-chg-line sentiment-' + m.sentiment + '">PRICE STATUS: ' + m.priceStatus + '</div>' +
+          '<div class="idx-chg-line sentiment-neutral">MACRO TRIGGER: ' + m.macroTrigger + '</div>' +
+          '<div class="idx-chg-line sentiment-neutral">DOWNSTREAM SHOCK: ' + m.downstreamShock + '</div>' +
+          '<div class="idx-chg-line sentiment-neutral">REALITY LOG: ' + m.realityLog + '</div></div>';
+      } else {
+        var m2 = mineralsOther[idx];
+        if (!m2) return;
+        display.innerHTML = '<div class="idx-row minerals-more-row expanded"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-active">STABLE</span>' + m2.name + '</div>' +
+          exchangeHtml(m2.exchange) + '</div>' +
+          '<div class="idx-val">' + m2.val + '</div>' +
+          '<div class="idx-chg-line sentiment-neutral">' + m2.note + '</div></div>';
+      }
+    });
+  }
+
+  function toggleArticleExpand(headingEl, cardEl) {
+    var wasExpanded = cardEl.classList.contains("expanded");
+    cardEl.classList.toggle("expanded", !wasExpanded);
+    var hint = headingEl.querySelector(".card-expand-hint");
+    if (hint) hint.textContent = wasExpanded ? "›" : "‹";
+  }
+
+  function wireCardExpand() {
+    var river = document.getElementById("river");
+    if (river) {
+      river.addEventListener("click", function (e) {
+        var h3 = e.target.closest("h3");
+        if (!h3 || !river.contains(h3)) return;
+        var card = h3.closest(".card");
+        if (!card) return;
+        toggleArticleExpand(h3, card);
+      });
+    }
+    var leadH2 = document.querySelector(".lead h2");
+    if (leadH2) {
+      leadH2.addEventListener("click", function () {
+        var lead = leadH2.closest(".lead");
+        if (!lead) return;
+        toggleArticleExpand(leadH2, lead);
+      });
+    }
+  }
+
+  function wireExpandableRows(containerId, rowSelector) {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+    container.addEventListener("click", function (e) {
+      if (e.target.closest("a")) return;
+      var row = e.target.closest(rowSelector);
+      if (!row || !container.contains(row)) return;
+      var wasExpanded = row.classList.contains("expanded");
+      row.classList.toggle("expanded", !wasExpanded);
+      var hint = row.querySelector(".idx-expand-hint");
+      if (hint) hint.textContent = wasExpanded ? "›" : "‹";
+    });
+  }
+
+  function renderInfrastructureWatch() {
+    var el = document.getElementById("infrastructureWatch");
+    if (!el) return;
+    var html = "";
+    infrastructureWatch.forEach(function (c) {
+      var arrow = c.dir === "up" ? "▲" : (c.dir === "down" ? "▼" : "●");
+      var dirClass = c.dir === "up" ? "sentiment-good" : (c.dir === "down" ? "sentiment-bad" : "sentiment-neutral");
+      html += '<div class="idx-row"><div class="idx-line2"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' +
+        '<div class="idx-exchange">' + c.pillar + '</div></div>' +
+        '<div class="idx-line2">' + exchangeHtml(c.ticker) +
+        '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + '</div></div>' +
+        '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + '</div></div>';
+    });
+    el.innerHTML = html;
+  }
+
+  function renderEquilibriumIndex() {
+    var frictionFill = document.getElementById("equilibriumFrictionFill");
+    var fluidityFill = document.getElementById("equilibriumFluidityFill");
+    var frictionLabel = document.getElementById("equilibriumFrictionLabel");
+    var fluidityLabel = document.getElementById("equilibriumFluidityLabel");
+    if (!frictionFill || !fluidityFill) return;
+    // Derived from real telemetry and verified editorial content already gathered
+    // each cycle, never a vague per-story label: (1) chokepoint status severity
+    // (status-high = full friction, status-elevated = half, status-active = none),
+    // (2) the share of tracked minerals currently under active disruption (minerals
+    // vs mineralsOther), and (3) the share of this issue's 16 Three-Pillar-verified
+    // stories whose own `direction` field is "friction" vs "fluidity" (an objective
+    // classification: friction = documents an active disruption, escalation, or a
+    // narrative-vs-physical-reality mismatch; fluidity = documents a resolution,
+    // de-escalation, or restored capacity). Averaging all three means the index
+    // reflects the page's full verified evidence base, not just two of four panels.
+    var chokepointWeight = { "status-high": 1, "status-elevated": 0.5, "status-active": 0 };
+    var chokepointFriction = chokepoints.length
+      ? chokepoints.reduce(function (sum, c) {
+          return sum + (chokepointWeight[c.cls] != null ? chokepointWeight[c.cls] : 0.5);
+        }, 0) / chokepoints.length
+      : 0.5;
+    var mineralsTotal = minerals.length + mineralsOther.length;
+    var mineralsFriction = mineralsTotal ? minerals.length / mineralsTotal : 0.5;
+    var storiesFriction = stories.length
+      ? stories.filter(function (s) { return s.direction === "friction"; }).length / stories.length
+      : 0.5;
+    var frictionPct = Math.round(((chokepointFriction + mineralsFriction + storiesFriction) / 3) * 100);
+    var fluidityPct = 100 - frictionPct;
+    frictionFill.style.width = frictionPct + "%";
+    fluidityFill.style.width = fluidityPct + "%";
+    if (frictionLabel) frictionLabel.textContent = frictionPct + "% Friction";
+    if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fluidity";
+  }
+
+  function renderSourcesModal() {
+    var el = document.getElementById("sourcesModalList");
+    if (!el) return;
+    var html = "";
+    Object.keys(sourceCategories).forEach(function (group) {
+      html += '<li class="sources-group-heading">' + group + '</li>';
+      sourceCategories[group].forEach(function (name) {
+        html += '<li>' + name + '</li>';
+      });
+    });
+    el.innerHTML = html;
+  }
+
+  function wireSources() {
+    var btn = document.getElementById("sourcesBtn");
+    var overlay = document.getElementById("sourcesOverlay");
+    var closeBtn = document.getElementById("sourcesClose");
+    if (!btn || !overlay || !closeBtn) return;
+    function open() { overlay.hidden = false; }
+    function close() { overlay.hidden = true; }
+    btn.addEventListener("click", open);
+    closeBtn.addEventListener("click", close);
+    overlay.addEventListener("click", function (e) { if (e.target === overlay) close(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !overlay.hidden) close(); });
+  }
+
+  // Hand-drawn-style pattern diagram helpers — plain inline SVG, no external library.
+  // roughRectPath jitters a rectangle's corners; drawn twice with independent jitter to
+  // get the double-stroke sketchy look. roughEdgePath bows a straight connector into a
+  // slightly wobbly curve via a randomly offset quadratic control point.
+  function patJitter(v, amt) { return v + (Math.random() - 0.5) * amt; }
+
+  function roughRectPath(x, y, w, h, amt) {
+    amt = amt || 2.5;
+    var x2 = x + w, y2 = y + h;
+    var pts = [[x, y], [x2, y], [x2, y2], [x, y2], [x, y]];
+    return "M" + pts.map(function (p) {
+      return patJitter(p[0], amt).toFixed(1) + "," + patJitter(p[1], amt).toFixed(1);
+    }).join(" L") + " Z";
+  }
+
+  function roughRectSvg(x, y, w, h) {
+    return '<path class="pat-rough" d="' + roughRectPath(x, y, w, h) + '" />' +
+      '<path class="pat-rough" d="' + roughRectPath(x, y, w, h) + '" />';
+  }
+
+  function roughEdgePath(x1, y1, x2, y2) {
+    var mx = (x1 + x2) / 2 + patJitter(0, 16);
+    var my = (y1 + y2) / 2 + patJitter(0, 16);
+    return "M" + x1.toFixed(1) + "," + y1.toFixed(1) + " Q" + mx.toFixed(1) + "," + my.toFixed(1) + " " + x2.toFixed(1) + "," + y2.toFixed(1);
+  }
+
+  function renderPatternGraph() {
+    var wrap = document.getElementById("patternCanvasWrap");
+    if (!wrap || typeof patternGraph === "undefined") return;
+    var nodes = patternGraph.nodes || [];
+    var edges = patternGraph.edges || [];
+    var w = 760, h = 540, cx = w / 2, cy = h / 2, r = Math.min(w, h) / 2 - 95;
+    var pos = {};
+    nodes.forEach(function (n, i) {
+      var angle = (2 * Math.PI * i / nodes.length) - Math.PI / 2;
+      pos[n.id] = { x: cx + r * Math.cos(angle), y: cy + r * Math.sin(angle) };
+    });
+    var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" class="pattern-svg" role="img" aria-label="This week\'s pattern diagram">';
+    edges.forEach(function (e) {
+      var a = pos[e.from], b = pos[e.to];
+      if (!a || !b) return;
+      svg += '<path class="pat-edge" d="' + roughEdgePath(a.x, a.y, b.x, b.y) + '" fill="none" />';
+      if (e.label) {
+        var mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+        svg += '<text class="pat-edge-label" x="' + mx.toFixed(1) + '" y="' + (my - 5).toFixed(1) + '" text-anchor="middle">' + e.label + '</text>';
+      }
+    });
+    nodes.forEach(function (n) {
+      var p = pos[n.id];
+      var nw = Math.max(96, n.label.length * 6.3), nh = 42;
+      var x = p.x - nw / 2, y = p.y - nh / 2;
+      svg += '<g class="pat-node pat-tone-' + (n.tone || "neutral") + '">' +
+        roughRectSvg(x, y, nw, nh) +
+        '<text class="pat-node-label" x="' + p.x.toFixed(1) + '" y="' + (p.y + 5).toFixed(1) + '" text-anchor="middle">' + n.label + '</text></g>';
+    });
+    svg += '</svg>';
+    wrap.innerHTML = svg;
+  }
+
+  function wirePattern() {
+    var btn = document.getElementById("patternBtn");
+    var overlay = document.getElementById("patternOverlay");
+    var closeBtn = document.getElementById("patternClose");
+    var downloadBtn = document.getElementById("patternDownloadBtn");
+    var weekOfEl = document.getElementById("patternWeekOf");
+    var weekTagEl = document.getElementById("patternWeekTag");
+    if (!btn || !overlay || !closeBtn) return;
+    var weekOf = (typeof patternGraph !== "undefined" && patternGraph.weekOf) || "";
+    if (weekOfEl) weekOfEl.textContent = weekOf;
+    if (weekTagEl && weekOf) weekTagEl.textContent = "· week of " + weekOf;
+    function open() { overlay.hidden = false; renderPatternGraph(); }
+    function close() { overlay.hidden = true; }
+    btn.addEventListener("click", open);
+    closeBtn.addEventListener("click", close);
+    overlay.addEventListener("click", function (e) { if (e.target === overlay) close(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !overlay.hidden) close(); });
+    if (downloadBtn) downloadBtn.addEventListener("click", function () { window.print(); });
+  }
+
+  function renderChokepoints() {
+    var el = document.getElementById("chokepoints");
+    var html = "";
+    chokepoints.forEach(function (c) {
+      var note = c.note ? '<div class="chokepoint-note">' + c.note + '</div>' : "";
+      html += '<div class="chokepoint-row"><div class="chokepoint-name">' + c.name + '<span class="idx-expand-hint">›</span></div><div class="status-chip ' + c.cls + '">' + c.status + '</div>' + note + '</div>';
+    });
+    el.innerHTML = html;
+  }
+
+  // Freight rates and energy commodities, each tied to the chokepoint most exposed
+  // to that move. Rising freight/energy cost reads as friction (red), easing reads
+  // as fluidity (green) — the inverse of a stock price, where up is good.
+  function renderFreightEnergy() {
+    var el = document.getElementById("freightEnergy");
+    if (!el) return;
+    var html = "";
+    (freightEnergy || []).forEach(function (c) {
+      var arrow = c.dir === "up" ? "▲" : (c.dir === "down" ? "▼" : "●");
+      var dirClass = c.dir === "up" ? "sentiment-bad" : (c.dir === "down" ? "sentiment-good" : "sentiment-neutral");
+      html += '<div class="idx-row"><div class="idx-line2"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' +
+        '<div class="idx-exchange">' + c.pillar + '</div></div>' +
+        '<div class="idx-line2">' + exchangeHtml(c.ticker, c.name + ' ' + c.pillar + ' ' + c.ticker) +
+        '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + '</div></div>' +
+        '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + '</div>' +
+        '<div class="idx-chart">' + sparklineSvg(c.history) + '</div></div>';
+    });
+    el.innerHTML = html;
+  }
+
+  // Active/pending tariff, export-control and trade-ruling actions — not proposals
+  // still under study. severity reuses the same status-chip visual language as
+  // chokepoints: high = binding and biting now, elevated = real but not yet fully
+  // in force, active = eased/resolved.
+  function renderTradePolicy() {
+    var el = document.getElementById("tradePolicy");
+    if (!el) return;
+    var html = "";
+    (tradePolicy || []).forEach(function (t) {
+      var cls = t.severity === "high" ? "status-high" : t.severity === "elevated" ? "status-elevated" : "status-active";
+      var note = t.note ? '<div class="chokepoint-note">' + t.note + '</div>' : "";
+      html += '<div class="chokepoint-row"><div class="chokepoint-name">' + t.action + ' — ' + t.jurisdiction + '<span class="idx-expand-hint">›</span></div><div class="status-chip ' + cls + '">' + t.sector + '</div>' + note + '</div>';
+    });
+    el.innerHTML = html;
+  }
+
+  // Computes "Today" / "1 day ago" / "N days ago" fresh on every page load by
+  // comparing a story's stored ISO date against the viewer's actual current
+  // date — never a hardcoded string baked in at publish time. If the page
+  // sits unrefreshed for a week, this honestly shows "7 days ago" instead of
+  // silently looking as fresh as the day it was published.
+  function relativeFreshness(dateISO) {
+    if (!dateISO) return "";
+    var then = new Date(dateISO + "T00:00:00");
+    if (isNaN(then.getTime())) return "";
+    var now = new Date();
+    var startOfThen = new Date(then.getFullYear(), then.getMonth(), then.getDate());
+    var startOfNow = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var diffDays = Math.round((startOfNow - startOfThen) / 86400000);
+    if (diffDays <= 0) return "Today";
+    if (diffDays === 1) return "1 day ago";
+    return diffDays + " days ago";
+  }
+
+  function cardHtml(story, idx) {
+    var tags = story.cats.filter(function (c) { return c !== "india"; }).map(function (c) {
+      return '<span class="cat">' + catLabel[c] + '</span>';
+    }).join(' <span class="src">·</span> ');
+    var indiaFlag = story.india ? ' <span class="india-flag">India Focus</span>' : '';
+    var isSaved = !!saved[idx];
+    var catText = story.cats.map(function (c) { return catLabel[c] || c; }).join(" ");
+    var searchBlob = (story.title + " " + story.dek + " " + story.src + " " + catText + (story.india ? " india focus" : "")).toLowerCase().replace(/&amp;/g, "&").replace(/"/g, "&quot;");
+    var telemetryBit = (story.telemetry || '') ? ' <span class="src">· Telemetry via ' + story.telemetry + '</span>' : '';
+    return '<article class="card" data-cats="' + story.cats.join(",") + '" data-india="' + story.india + '" data-search="' + searchBlob + '">' +
+      '<div>' +
+      '<div class="card-tags">' + tags + indiaFlag + '</div>' +
+      '<a class="card-src" href="' + story.url + '" target="_blank" rel="noopener">' + story.src + '</a>' + telemetryBit +
+      '<h3>' + story.title + '<span class="card-expand-hint">›</span></h3>' +
+      '<p class="dek">' + story.dek + '</p>' +
+      '<div class="meta">' + relativeFreshness(story.dateISO) + '</div>' +
+      '</div>' +
+      '<button class="save-btn" type="button" data-idx="' + idx + '" aria-pressed="' + isSaved + '" aria-label="Save story" title="Save">' + (isSaved ? "★" : "☆") + '</button>' +
+      '</article>';
+  }
+
+  function renderLeadFreshness() {
+    var el = document.getElementById("leadFreshness");
+    if (!el || !stories.length) return;
+    var lead = stories.reduce(function (max, s) { return (s.impact || 0) > (max.impact || 0) ? s : max; }, stories[0]);
+    el.textContent = relativeFreshness(lead.dateISO) || "Updated today";
+  }
+
+  function renderRiver() {
+    var river = document.getElementById("river");
+    var html = "";
+    var ordered = stories.map(function (s, i) { return { story: s, idx: i }; })
+      .sort(function (a, b) { return (b.story.impact || 0) - (a.story.impact || 0); });
+    // The single highest-impact story is already shown in the Lead block above —
+    // skip it here so it doesn't appear a second time as the first river card.
+    ordered.slice(1).forEach(function (o) { html += cardHtml(o.story, o.idx); });
+    river.innerHTML = html;
+
+    river.querySelectorAll(".save-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var idx = btn.getAttribute("data-idx");
+        var pressed = btn.getAttribute("aria-pressed") === "true";
+        saved[idx] = !pressed;
+        if (!saved[idx]) delete saved[idx];
+        persistSaved(saved);
+        btn.setAttribute("aria-pressed", String(!pressed));
+        btn.textContent = !pressed ? "★" : "☆";
+      });
+    });
+  }
+
+  var state = { cat: "all", query: "" };
+
+  function updateCounts() {
+    var counts = { all: stories.length, tradeRisk: 0, supplyIndustry: 0 };
+    stories.forEach(function (s) {
+      var g = primaryGroup(s.cats);
+      if (g) counts[g]++;
+    });
+    document.querySelectorAll("[data-count-for]").forEach(function (el) {
+      var key = el.getAttribute("data-count-for");
+      el.textContent = counts[key] != null ? counts[key] : "";
+    });
+  }
+
+  function applyFilter() {
+    setCardFocus(-1);
+    var cards = document.querySelectorAll(".card");
+    var visibleCount = 0;
+    var scopeCount = 0;
+    cards.forEach(function (card) {
+      var cats = card.getAttribute("data-cats").split(",");
+      var group = primaryGroup(cats);
+      var catOk = state.cat === "all" || group === state.cat;
+      if (catOk) scopeCount++;
+      var searchOk = !state.query || (card.getAttribute("data-search") || "").indexOf(state.query) !== -1;
+      var visible = catOk && searchOk;
+      card.hidden = !visible;
+      if (visible) visibleCount++;
+    });
+    var emptyState = document.getElementById("emptyState");
+    emptyState.hidden = visibleCount !== 0;
+    emptyState.textContent = state.query
+      ? 'No stories match "' + state.query + '" — try a different search or clear it.'
+      : 'No stories match this filter yet — try "All".';
+    var resultsInfo = document.getElementById("searchResultsInfo");
+    if (resultsInfo) {
+      if (state.query) {
+        resultsInfo.hidden = false;
+        resultsInfo.textContent = "Showing " + visibleCount + " of " + scopeCount + (scopeCount === 1 ? " story" : " stories") + " matching “" + state.query + "”";
+      } else {
+        resultsInfo.hidden = true;
+      }
+    }
+  }
+
+  var focusedCardIdx = -1;
+
+  function getVisibleCards() {
+    return Array.from(document.querySelectorAll("#river .card")).filter(function (c) { return !c.hidden; });
+  }
+
+  function setCardFocus(idx) {
+    var cards = getVisibleCards();
+    cards.forEach(function (c) { c.classList.remove("card-focused"); });
+    if (idx < 0 || idx >= cards.length) { focusedCardIdx = -1; return; }
+    focusedCardIdx = idx;
+    var el = cards[idx];
+    el.classList.add("card-focused");
+    el.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+
+  function wireCardKeyNav() {
+    document.addEventListener("keydown", function (e) {
+      var tag = document.activeElement && document.activeElement.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      var cards = getVisibleCards();
+      if (!cards.length) return;
+      if (e.key === "j" || e.key === "J") {
+        e.preventDefault();
+        setCardFocus(focusedCardIdx < 0 ? 0 : Math.min(focusedCardIdx + 1, cards.length - 1));
+      } else if (e.key === "k" || e.key === "K") {
+        e.preventDefault();
+        setCardFocus(focusedCardIdx < 0 ? 0 : Math.max(focusedCardIdx - 1, 0));
+      } else if (e.key === "Enter") {
+        if (focusedCardIdx < 0 || focusedCardIdx >= cards.length) return;
+        var link = cards[focusedCardIdx].querySelector(".card-src");
+        if (link && link.href) window.open(link.href, "_blank", "noopener");
+      }
+    });
+  }
+
+  function wireControls() {
+    var searchInput = document.getElementById("searchInput");
+    var searchClear = document.getElementById("searchClear");
+    var allPill = document.querySelector('.pill[data-cat="all"]');
+
+    function pressPill(cat) {
+      document.querySelectorAll(".pill").forEach(function (p) {
+        p.setAttribute("aria-pressed", p.getAttribute("data-cat") === cat ? "true" : "false");
+      });
+    }
+    function syncClearBtn() {
+      if (searchClear) searchClear.hidden = !searchInput || !searchInput.value;
+    }
+    function clearSearch() {
+      if (searchInput) searchInput.value = "";
+      state.query = "";
+      syncClearBtn();
+      applyFilter();
+    }
+
+    document.querySelectorAll(".pill").forEach(function (pill) {
+      pill.addEventListener("click", function () {
+        pressPill(pill.getAttribute("data-cat"));
+        state.cat = pill.getAttribute("data-cat");
+        applyFilter();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener("input", function () {
+        state.query = searchInput.value.trim().toLowerCase();
+        if (state.query && state.cat !== "all") {
+          state.cat = "all";
+          pressPill("all");
+        }
+        syncClearBtn();
+        applyFilter();
+      });
+      searchInput.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          clearSearch();
+          searchInput.blur();
+        }
+      });
+    }
+
+    if (searchClear) {
+      searchClear.addEventListener("click", function () {
+        clearSearch();
+        if (searchInput) searchInput.focus();
+      });
+    }
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "/" || !searchInput) return;
+      var tag = document.activeElement && document.activeElement.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      e.preventDefault();
+      searchInput.focus();
+    });
+  }
+
+  function currentResolvedTheme(root) {
+    var explicit = root.getAttribute("data-theme");
+    if (explicit === "light" || explicit === "dark") return explicit;
+    return (matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  }
+
+  function updateThemeIcon(btn, root) {
+    btn.textContent = currentResolvedTheme(root) === "dark" ? "☾" : "☀";
+  }
+
+  function wireTheme() {
+    var root = document.documentElement;
+    var btn = document.getElementById("themeBtn");
+    var stored = null;
+    try { stored = localStorage.getItem(THEME_KEY); } catch (e) {}
+    if (stored) root.setAttribute("data-theme", stored);
+    updateThemeIcon(btn, root);
+    btn.addEventListener("click", function () {
+      var current = root.getAttribute("data-theme");
+      var next = current === "dark" ? "light" : (current === "light" ? "dark" : (matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark"));
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem(THEME_KEY, next); } catch (e) {}
+      updateThemeIcon(btn, root);
+    });
+  }
+
+  var briefingVoices = { anchor: null, analyst: null };
+
+  function pickBriefingVoices() {
+    var voices = speechSynthesis.getVoices() || [];
+    if (!voices.length) return;
+    var maleRe = /male|daniel|david|alex|fred|george|google uk english male/i;
+    var femaleRe = /female|zira|samantha|victoria|susan|karen|moira|tessa|fiona|google us english/i;
+    var maleVoices = voices.filter(function (v) { return maleRe.test(v.name); });
+    var enVoices = voices.filter(function (v) { return /^en/i.test(v.lang); });
+    var trip = maleVoices[0] || enVoices.find(function (v) { return !femaleRe.test(v.name); }) || voices[0];
+    var sauce = maleVoices.find(function (v) { return v !== trip; })
+      || enVoices.find(function (v) { return v !== trip && !femaleRe.test(v.name); })
+      || enVoices.find(function (v) { return v !== trip; })
+      || voices.find(function (v) { return v !== trip; })
+      || trip;
+    briefingVoices.anchor = trip || null;
+    briefingVoices.analyst = sauce || null;
+  }
+
+  function wireBriefing() {
+    var btn = document.getElementById("briefingPlayBtn");
+    var status = document.getElementById("briefingStatus");
+    if (!btn || !status) return;
+    if (!("speechSynthesis" in window)) {
+      btn.disabled = true;
+      status.textContent = "Audio not supported on this device";
+      return;
+    }
+    pickBriefingVoices();
+    speechSynthesis.addEventListener("voiceschanged", pickBriefingVoices);
+
+    function reset() {
+      btn.setAttribute("aria-pressed", "false");
+      btn.textContent = "▶";
+      status.textContent = "Tap to listen";
+    }
+
+    btn.addEventListener("click", function () {
+      if (speechSynthesis.speaking) {
+        speechSynthesis.cancel();
+        reset();
+        return;
+      }
+      if (!briefingScript.length) return;
+      briefingScript.forEach(function (turn, i) {
+        var utterance = new SpeechSynthesisUtterance(turn.text);
+        var voice = turn.speaker === "anchor" ? briefingVoices.anchor : briefingVoices.analyst;
+        if (voice) utterance.voice = voice;
+        if (turn.speaker === "anchor") {
+          utterance.pitch = 1.0;
+          utterance.rate = 1.04;
+        } else {
+          utterance.pitch = 0.96;
+          utterance.rate = 0.95;
+        }
+        if (i === briefingScript.length - 1) {
+          utterance.onend = reset;
+          utterance.onerror = reset;
+        }
+        speechSynthesis.speak(utterance);
+      });
+      btn.setAttribute("aria-pressed", "true");
+      btn.textContent = "❚❚";
+      status.textContent = "Playing…";
+    });
+  }
+
+  renderTicker();
+  renderMinerals();
+  renderMineralsMoreDropdown();
+  wireMineralsMore();
+  wireExpandableRows("mineralsIndex", ".idx-row");
+  renderInfrastructureWatch();
+  wireExpandableRows("infrastructureWatch", ".idx-row");
+  renderEquilibriumIndex();
+  renderChokepoints();
+  wireExpandableRows("chokepoints", ".chokepoint-row");
+  renderFreightEnergy();
+  wireExpandableRows("freightEnergy", ".idx-row");
+  renderTradePolicy();
+  wireExpandableRows("tradePolicy", ".chokepoint-row");
+  renderRiver();
+  renderLeadFreshness();
+  wireCardExpand();
+  renderSourcesModal();
+  wireSources();
+  wirePattern();
+  updateCounts();
+  applyFilter();
+  wireControls();
+  wireCardKeyNav();
+  wireTheme();
+  wireBriefing();
+})();
+</script>
+
+</body>
+</html>

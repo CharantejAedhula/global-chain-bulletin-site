@@ -19,7 +19,16 @@ PWA_HEAD = """<!DOCTYPE html>
 <link rel="manifest" href="manifest.json" />
 <meta name="theme-color" content="#0d0d0b" />
 <meta name="twitter:image" content="https://charantejaedhula.github.io/global-chain-bulletin-site/icon-512.png" />
+<link rel="alternate" type="application/rss+xml" title="Global Supply Chain Bulletin" href="feed.xml" />
 """
+
+# Small links to the archive and RSS feed, added under the page footer.
+ARCHIVE_NAV = (
+    '<nav style="text-align:center;padding:0 16px 40px;font-family:var(--font-mono);font-size:11px;'
+    'letter-spacing:.06em;text-transform:uppercase"><a href="archive/" style="color:var(--ink-faint)">Past issues</a>'
+    ' <span style="color:var(--ink-faint)">&middot;</span> '
+    '<a href="feed.xml" style="color:var(--ink-faint)">RSS</a></nav>\n'
+)
 
 REQUIRED_MARKERS = ['id="clockLine"', "VOL. I &middot; NO.", "var stories = [", "wireChartTooltips();", 'class="panel-title']
 
@@ -54,7 +63,7 @@ def main():
     head = re.sub(r'<meta charset="utf-8" />\s*', "", head, count=1)
     head = re.sub(r'<meta name="viewport"[^>]*/>\s*', "", head, count=1)
 
-    html = PWA_HEAD + head.strip() + "\n</head>\n<body>\n" + body + "\n</body>\n</html>\n"
+    html = PWA_HEAD + head.strip() + "\n</head>\n<body>\n" + body + "\n" + ARCHIVE_NAV + "</body>\n</html>\n"
 
     for marker in REQUIRED_MARKERS:
         if marker not in html:
