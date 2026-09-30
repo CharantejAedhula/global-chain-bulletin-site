@@ -1,0 +1,46 @@
+name: Build archive
+
+# Whenever the bulletin page changes on main, keep a permanent copy of that issue
+# and rebuild the "Past issues" page and the RSS feed.
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - scripts/build_archive.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build archive
+        run: python scripts/build_archive.py --backfill
+
+      - name: Commit archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add issues/ archive/ feed.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Archive: update past issues and feed"
+          git pull --rebase origin main
+          git push origin HEAD:main
