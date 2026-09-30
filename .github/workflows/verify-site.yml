@@ -1,0 +1,44 @@
+name: Verify site
+
+# Checks the published bulletin for broken, missing, stale or mismatched content.
+# A red cross here means something on the live page needs attention (GitHub emails the repo owner).
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - share.js
+      - data/prices.json
+      - scripts/verify_site.js
+  pull_request:
+    paths:
+      - index.html
+      - share.js
+      - scripts/verify_site.js
+  schedule:
+    - cron: "30 5 * * *"    # 11:00 IST, after the 09:30 IST sync: catches a missed day
+    - cron: "0 6 * * 1"     # Mondays: also check that every story link still opens
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Content check
+        if: github.event.schedule != '0 6 * * 1'
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then AGE=1; else AGE=3; fi
+          node scripts/verify_site.js index.html --max-age-days $AGE
+
+      - name: Content check with link check (weekly)
+        if: github.event.schedule == '0 6 * * 1'
+        run: node scripts/verify_site.js index.html --max-age-days 1 --check-links

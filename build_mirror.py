@@ -22,12 +22,13 @@ PWA_HEAD = """<!DOCTYPE html>
 <link rel="alternate" type="application/rss+xml" title="Global Supply Chain Bulletin" href="feed.xml" />
 """
 
-# Small links to the archive and RSS feed, added under the page footer.
+# Small links to the archive and RSS feed under the footer, plus the share buttons (share.js).
 ARCHIVE_NAV = (
     '<nav style="text-align:center;padding:0 16px 40px;font-family:var(--font-mono);font-size:11px;'
     'letter-spacing:.06em;text-transform:uppercase"><a href="archive/" style="color:var(--ink-faint)">Past issues</a>'
     ' <span style="color:var(--ink-faint)">&middot;</span> '
     '<a href="feed.xml" style="color:var(--ink-faint)">RSS</a></nav>\n'
+    '<script src="share.js" defer></script>\n'
 )
 
 REQUIRED_MARKERS = ['id="clockLine"', "VOL. I &middot; NO.", "var stories = [", "wireChartTooltips();", 'class="panel-title']
