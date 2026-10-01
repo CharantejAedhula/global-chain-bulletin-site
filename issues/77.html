@@ -101,6 +101,10 @@ to{transform:translateX(-50%)}
 .sources-close:hover{color:var(--ink)}
 .sources-intro{font-family:var(--font-body);font-style:italic;font-size:12.5px;line-height:1.5;color:var(--ink-dim);text-transform:none;letter-spacing:normal;margin:12px 0 4px;padding-bottom:12px;border-bottom:1px solid var(--rule)}
 .sources-list{list-style:none;margin:0;padding:0}
+.source-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.source-tab{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--rule);background:0 0;color:var(--ink-dim);border-radius:999px;padding:5px 10px;cursor:pointer}
+.source-tab[aria-selected=true]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
+.source-tab-note{font-size:12px;line-height:1.45;color:var(--ink-faint);margin:6px 0 2px}
 .sources-group-heading{font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;padding:14px 0 6px}
 .sources-list li:not(.sources-group-heading){font-size:13.5px;color:var(--ink-dim);padding:7px 0;border-top:1px solid var(--rule)}
 .sources-group-heading+li{border-top:none}
@@ -151,6 +155,10 @@ to{transform:translateX(-50%)}
 .card-tags .india-flag{color:var(--teal);border:1px solid var(--teal);border-radius:4px;padding:1px 5px;font-size:9.5px}
 .card-src{font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:6px;display:inline-block;text-decoration:none;border-bottom:1px solid transparent}
 a.card-src:focus-visible,a.card-src:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.card-srcs{display:block;margin-bottom:6px;font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
+.card-srcs .card-src{margin-bottom:0}
+.src-via{text-transform:none;letter-spacing:normal;font-size:10px;color:var(--ink-faint)}
+.src-sep{color:var(--ink-faint)}
 .card h3{font-family:var(--font-display);font-weight:400;font-size:19px;line-height:1.28;margin:0 0 6px;text-wrap:balance;cursor:pointer}
 .card p.dek{display:none;color:var(--ink-dim);font-size:13.5px;margin:0 0 8px;max-width:68ch}
 .card.expanded p.dek{display:block}
@@ -158,6 +166,12 @@ a.card-src:focus-visible,a.card-src:hover{color:var(--accent);border-bottom-colo
 .card.expanded .action-note,.lead.expanded .action-note{display:block}
 .action-label{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-right:6px}
 .action-text{font-size:13px;color:var(--ink);line-height:1.4}
+.checks{display:none;margin-top:8px;padding-top:4px;border-top:1px dashed var(--rule)}
+.card.expanded .checks,.lead.expanded .checks{display:block}
+.check-row{display:grid;grid-template-columns:78px minmax(0,1fr);gap:3px 8px;margin-top:4px;font-family:var(--font-mono);font-size:10.5px;line-height:1.4}
+.check-lbl{font-size:9px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
+.check-tx{color:var(--ink-dim)}
+.check-tx.check-data{color:var(--ink)}
 .card .meta{font-family:var(--font-mono);font-size:11px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.03em}
 .save-btn{background:0 0;border:none;color:var(--ink-faint);cursor:pointer;font-size:18px;line-height:1;padding:4px;align-self:start}
 .save-btn:hover{color:var(--accent)}
@@ -273,7 +287,7 @@ footer{margin-top:24px!important;color:#666!important}
 <body>
 <div style="font:11px ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:8px 12px;background:#161614;color:#a39c8d;border-bottom:1px solid #333">Archived issue No. 77 &middot; <a href="./" style="color:#ec5b57">Latest issue</a> &middot; <a href="archive/" style="color:#ec5b57">All issues</a></div>
 <div class="ticker-band" aria-hidden="true">
-  <div class="ticker-track" id="tickerTrack"><span class="item"><span class="lbl">STRAIT OF HORMUZ</span> <span class="val sentiment-bad"><span class="arrow">▲</span> TALKS COLLAPSE AS RUBIO EJECTS IRAN'S DELEGATION FROM NEW YORK</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">IRANIAN RIAL</span> <span class="val sentiment-bad"><span class="arrow">▼</span> CRASHES TO FRESH RECORD LOW NEAR 2.57 MILLION PER DOLLAR</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BRENT CRUDE</span> <span class="val sentiment-good"><span class="arrow">▼</span> EASES TO $97.46 AS COLLAPSED TALKS REVIVE THE WAR-RISK PREMIUM</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CHILE COPPER STRIKES</span> <span class="val sentiment-bad"><span class="arrow">▲</span> ESCONDIDA AND CENTINELA BOTH CLEAR STRIKE VOTES BY LOPSIDED MARGINS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">INDIA SENSEX</span> <span class="val sentiment-bad"><span class="arrow">▼</span> FALLS A THIRD SESSION TO 72,480 AS OIL'S WAR PREMIUM REVIVES</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">PANAMA CANAL</span> <span class="val sentiment-good"><span class="arrow">▲</span> LIFTS DAILY TRANSIT CAP TO 33 AS WATERSHED RAINFALL RECOVERS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BALTIC DRY INDEX</span> <span class="val sentiment-good"><span class="arrow">▼</span> EXTENDS SLIDE TO A FOURTH SESSION, LOWEST SINCE LATE AUGUST</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">UKRAINE GRAIN</span> <span class="val sentiment-bad"><span class="arrow">▲</span> DANUBE REROUTE HITS ITS OWN LIMITS AS WATER LEVELS DROP</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CANADA TARIFFS</span> <span class="val sentiment-bad"><span class="arrow">▲</span> WASHINGTON'S IMPORT BANS ON DAIRY AND ALCOHOL TAKE HOLD</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">COMEX COPPER</span> <span class="val sentiment-bad"><span class="arrow">▲</span> HOLDS NEAR RECORD AS CHILE STRIKES AND GRASBERG DELAY COMPOUND</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">STRAIT OF HORMUZ</span> <span class="val sentiment-bad"><span class="arrow">▲</span> TALKS COLLAPSE AS RUBIO EJECTS IRAN'S DELEGATION FROM NEW YORK</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">IRANIAN RIAL</span> <span class="val sentiment-bad"><span class="arrow">▼</span> CRASHES TO FRESH RECORD LOW NEAR 2.57 MILLION PER DOLLAR</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BRENT CRUDE</span> <span class="val sentiment-good"><span class="arrow">▼</span> EASES TO $97.46 AS COLLAPSED TALKS REVIVE THE WAR-RISK PREMIUM</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CHILE COPPER STRIKES</span> <span class="val sentiment-bad"><span class="arrow">▲</span> ESCONDIDA AND CENTINELA BOTH CLEAR STRIKE VOTES BY LOPSIDED MARGINS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">INDIA SENSEX</span> <span class="val sentiment-bad"><span class="arrow">▼</span> FALLS A THIRD SESSION TO 72,480 AS OIL'S WAR PREMIUM REVIVES</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">PANAMA CANAL</span> <span class="val sentiment-good"><span class="arrow">▲</span> LIFTS DAILY TRANSIT CAP TO 33 AS WATERSHED RAINFALL RECOVERS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BALTIC DRY INDEX</span> <span class="val sentiment-good"><span class="arrow">▼</span> EXTENDS SLIDE TO A FOURTH SESSION, LOWEST SINCE LATE AUGUST</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">UKRAINE GRAIN</span> <span class="val sentiment-bad"><span class="arrow">▲</span> DANUBE REROUTE HITS ITS OWN LIMITS AS WATER LEVELS DROP</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CANADA TARIFFS</span> <span class="val sentiment-bad"><span class="arrow">▲</span> WASHINGTON'S IMPORT BANS ON DAIRY AND ALCOHOL TAKE HOLD</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">COMEX COPPER</span> <span class="val sentiment-bad"><span class="arrow">▲</span> HOLDS NEAR RECORD AS CHILE STRIKES AND GRASBERG DELAY COMPOUND</span></span></div>
+  <div class="ticker-track" id="tickerTrack"><span class="item"><span class="lbl">STRAIT OF HORMUZ</span> <span class="val sentiment-bad"><span class="arrow">▲</span> IRAN'S DELEGATION LEFT NEW YORK MONDAY WITH NO DEAL; TRUMP WEIGHS MILITARY ACTION</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">IRANIAN RIAL</span> <span class="val sentiment-bad"><span class="arrow">▼</span> FALLS PAST 2.5 MILLION PER DOLLAR, A SECOND RECORD LOW IN A MONTH</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BRENT CRUDE</span> <span class="val sentiment-good"><span class="arrow">▼</span> DOWN 2.4% TO $97.46 AT THE SEPT 30 SETTLE</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CHILE COPPER STRIKES</span> <span class="val sentiment-bad"><span class="arrow">▲</span> ESCONDIDA AND CENTINELA BOTH CLEAR STRIKE VOTES BY LOPSIDED MARGINS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">INDIA FACTORY PMI</span> <span class="val sentiment-good"><span class="arrow">▲</span> RISES TO 55.1, A SEVEN-MONTH HIGH</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">PANAMA CANAL</span> <span class="val sentiment-good"><span class="arrow">▲</span> LIFTS DAILY TRANSIT CAP TO 33 AS WATERSHED RAINFALL RECOVERS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BALTIC DRY INDEX</span> <span class="val sentiment-good"><span class="arrow">▼</span> EXTENDS SLIDE TO A FOURTH SESSION, LOWEST SINCE LATE AUGUST</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">KOREA EXPORTS</span> <span class="val sentiment-good"><span class="arrow">▲</span> RECORD $120.9BN IN SEPTEMBER AS CHIPS TOP $60BN</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CANADA TARIFFS</span> <span class="val sentiment-bad"><span class="arrow">▲</span> WASHINGTON'S IMPORT BANS ON DAIRY AND ALCOHOL TAKE HOLD</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">COMEX COPPER</span> <span class="val sentiment-bad"><span class="arrow">▲</span> HOLDS NEAR RECORD AS CHILE STRIKES AND GRASBERG DELAY COMPOUND</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">STRAIT OF HORMUZ</span> <span class="val sentiment-bad"><span class="arrow">▲</span> IRAN'S DELEGATION LEFT NEW YORK MONDAY WITH NO DEAL; TRUMP WEIGHS MILITARY ACTION</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">IRANIAN RIAL</span> <span class="val sentiment-bad"><span class="arrow">▼</span> FALLS PAST 2.5 MILLION PER DOLLAR, A SECOND RECORD LOW IN A MONTH</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BRENT CRUDE</span> <span class="val sentiment-good"><span class="arrow">▼</span> DOWN 2.4% TO $97.46 AT THE SEPT 30 SETTLE</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CHILE COPPER STRIKES</span> <span class="val sentiment-bad"><span class="arrow">▲</span> ESCONDIDA AND CENTINELA BOTH CLEAR STRIKE VOTES BY LOPSIDED MARGINS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">INDIA FACTORY PMI</span> <span class="val sentiment-good"><span class="arrow">▲</span> RISES TO 55.1, A SEVEN-MONTH HIGH</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">PANAMA CANAL</span> <span class="val sentiment-good"><span class="arrow">▲</span> LIFTS DAILY TRANSIT CAP TO 33 AS WATERSHED RAINFALL RECOVERS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BALTIC DRY INDEX</span> <span class="val sentiment-good"><span class="arrow">▼</span> EXTENDS SLIDE TO A FOURTH SESSION, LOWEST SINCE LATE AUGUST</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">KOREA EXPORTS</span> <span class="val sentiment-good"><span class="arrow">▲</span> RECORD $120.9BN IN SEPTEMBER AS CHIPS TOP $60BN</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CANADA TARIFFS</span> <span class="val sentiment-bad"><span class="arrow">▲</span> WASHINGTON'S IMPORT BANS ON DAIRY AND ALCOHOL TAKE HOLD</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">COMEX COPPER</span> <span class="val sentiment-bad"><span class="arrow">▲</span> HOLDS NEAR RECORD AS CHILE STRIKES AND GRASBERG DELAY COMPOUND</span></span></div>
 </div>
 
 <div class="masthead">
@@ -291,7 +305,7 @@ footer{margin-top:24px!important;color:#666!important}
   <h1>Global <em>Supply Chain</em> Bulletin</h1>
   <div class="masthead-meta">
     <button type="button" id="sourcesBtn" class="meta-label sources-trigger">Sources</button>
-    <div class="date-line" id="clockLine">THURSDAY, OCTOBER 1, 2026 &middot; AS OF 06:35 IST</div>
+    <div class="date-line" id="clockLine">THURSDAY, OCTOBER 1, 2026 &middot; AS OF 12:35 IST</div>
   </div>
   <hr class="masthead-rule thick" />
 </div>
@@ -303,6 +317,8 @@ footer{margin-top:24px!important;color:#666!important}
       <button type="button" class="sources-close" id="sourcesClose" aria-label="Close">&times;</button>
     </div>
     <p class="sources-intro">State media tells you the narrative each side wants believed. Independent wire press tells you what's been verified on the ground. Physical &amp; market data — ship tracking, insurance, prices — tells you what's actually happening. Only the third settles "what is true."</p>
+    <div class="source-tabs" id="sourceTabs" role="tablist"></div>
+    <p class="source-tab-note" id="sourceTabNote"></p>
     <ul class="sources-list" id="sourcesModalList"></ul>
   </div>
 </div>
@@ -322,18 +338,19 @@ footer{margin-top:24px!important;color:#666!important}
         <div class="summary-box">
           <h3>Today's Read<span class="briefing-inline"><button type="button" id="briefingPlayBtn" class="briefing-play-btn" aria-label="Play today's briefing" aria-pressed="false">&#9654;</button><span class="briefing-status" id="briefingStatus">Tap to listen</span></span></h3>
           <ul class="summary-list-horizontal">
-            <li>Diplomacy didn't just stall, it ruptured: Rubio ejected Iran's UN delegation from New York, and Trump now says the war ends "very soon" one way or another &mdash; a harder signal than any prior rejection, and the Iranian rial crashed to a fresh record low within hours.</li>
-            <li>Chile's copper-mine labor crisis crystallized as both Escondida (95%) and Centinela (98.73%) cleared strike votes the same day, keeping Comex copper pinned near its record alongside Freeport's still-delayed Grasberg recovery.</li>
-            <li>Not every chokepoint is tightening: the Panama Canal Authority is lifting its daily transit cap to 33 slots and easing draft limits as watershed rainfall recovers, even as India's Sensex fell a third session on oil's revived war premium.</li>
+            <li>Saudi Arabia restarted Red Sea exports from Yanbu after a 17-day halt, its main route around Hormuz; ICE Brent settled at $97.46 on Sept 30, with no deal yet on Hormuz.</li>
+            <li>Asia's AI hardware boom is the biggest trade story: South Korea's September exports hit a record $120.9 billion with chips at $60.3 billion, China's factory index returned to growth at 50.1, and Japan's big manufacturers grew more upbeat for a sixth quarter.</li>
+            <li>Bottlenecks are moving down the chain: Chile's Escondida and Centinela disputes are in mediation, Russia kept its diesel export ban to Oct 31, and Stellantis will idle four French plants for lack of EV batteries.</li>
           </ul>
         </div>
         <div class="lead" id="xlink-lead-hormuz">
           <div class="eyebrow">Lead &middot; Impact Score 10</div>
-          <h2>Talks collapse: Rubio orders Iran's delegation out of New York as Trump says &ldquo;we blow them up or make a deal&rdquo;<span class="card-expand-hint">›</span></h2>
-          <p class="dek">Secretary of State Marco Rubio ordered Iran's UN delegation, led by Foreign Minister Abbas Araghchi, to leave New York on Monday night after a week of diplomacy collapsed into stalemate, Axios first reported Wednesday; the delegation flew to Doha at 1:20am Tuesday. President Trump told reporters at the White House on Wednesday he must now decide whether to &ldquo;blow them up or make a deal,&rdquo; adding the war &ldquo;is going to end very soon, one way or another.&rdquo; The rupture follows Trump's Sept 26 rejection of Iran's seven-day Hormuz-reopening proposal, tied to lifting the US naval blockade, oil-sanctions relief and $12 billion in frozen assets.</p>
-          <div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text">A diplomatic expulsion is a harder signal than a rejected proposal — it suggests Washington sees nothing left to extract from this round of talks, raising the odds the next move is military rather than diplomatic.</span></div>
-          <div class="action-note"><span class="action-label">What to do</span><span class="action-text">Watch for Iran's own next statement out of Doha rather than reading the expulsion alone — it raises the near-term odds of the escalation Trump has openly flagged, but doesn't foreclose a later resumption.</span></div>
-          <p class="byline"><span class="byline-sources">Compiled from <a href="https://www.axios.com/2026/10/01/rubio-iran-unga-delegation-kicked-out" target="_blank" rel="noopener">Axios</a> &amp; Times of Israel</span><span class="byline-meta"><span id="leadFreshness"></span> &middot; <span class="source-conf corroborated" title="Independently reported by 2 named outlets">Corroborated &middot; 2 sources</span></span></p>
+          <h2>Iran's UN delegation left New York Monday with no deal; Trump says &ldquo;we blow them up or make a deal&rdquo;<span class="card-expand-hint">›</span></h2>
+          <p class="dek">Iran's UN delegation, led by Foreign Minister Abbas Araghchi, left New York on Monday evening for Doha. Iran's UN mission says the departure followed a schedule it gave the US State Department on Sept 17. On Wednesday, two unnamed US officials told Axios and the Associated Press that Secretary of State Marco Rubio had ordered the delegation out after talks via Qatari mediators stalled; the State Department has said nothing on record, and Iran's mission calls the account &ldquo;baseless.&rdquo; Trump said Wednesday he must decide whether to &ldquo;blow them up or make a deal.&rdquo; ICE Brent closed down 2.4% at $97.46 on Sept 30.</p>
+          <div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text">Both sides agree only on the Monday departure; the expulsion account rests on anonymous US officials, and oil's fall shows traders are not betting on a military move.</span></div>
+          <div class="action-note"><span class="action-label">What to do</span><span class="action-text">Treat the departure as fact and the expulsion as an unconfirmed US claim; watch Iran's next statement from Doha and Brent's next close.</span></div>
+          <div id="leadChecks"></div>
+          <p class="byline"><span class="byline-sources">Compiled from <a href="https://www.axios.com/2026/10/01/rubio-iran-unga-delegation-kicked-out" target="_blank" rel="noopener">Axios</a> &amp; <a href="https://abcnews.com/US/wireStory/rubio-orders-visiting-iranian-delegation-leave-nyc-ahead-136908428" target="_blank" rel="noopener">Associated Press</a> <span class="src-via">(via ABC News)</span></span><span class="byline-meta"><span id="leadFreshness"></span> &middot; <span class="source-conf corroborated" title="Independently reported by 2 named outlets">Corroborated &middot; 2 sources</span></span></p>
           <div class="cross-links" id="leadCrossLinks"></div>
         </div>
       </div>
@@ -396,14 +413,14 @@ footer{margin-top:24px!important;color:#666!important}
     <span class="equilibrium-footer-title">Global Supply Chain Equilibrium Index</span>
     <span class="equilibrium-meter">
       <span class="equilibrium-side">
-        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">54% Friction</span>
+        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">48% Friction</span>
       </span>
       <span class="equilibrium-compact-bar">
-        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:54%"></span>
-        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:46%"></span>
+        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:48%"></span>
+        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:52%"></span>
       </span>
       <span class="equilibrium-side">
-        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">46% Fluidity</span>
+        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">52% Fluidity</span>
       </span>
     </span>
   </div>
@@ -1127,7 +1144,7 @@ ticker: "Anchor: Strait of Hormuz",
 val: "$97.46/bbl",
 asOf: "Sept 30 settle, -2.4%",
 linkTag: "hormuz",
-chg: "Brent eased to $97.46 a barrel Wednesday, down about 2.4% from Tuesday's $99.89, Investing.com and Trading Economics data show, even as news that Rubio had ejected Iran's delegation from New York revived the war-risk premium late in the session. The net move still extends this week's slide below $100 despite that late escalation",
+chg: "Brent eased to $97.46 a barrel Wednesday, down about 2.4% from Tuesday's $99.89, Investing.com and Trading Economics data show, even as unnamed US officials' claims that Rubio had ordered Iran's delegation out of New York revived the war-risk premium late in the session. The net move still extends this week's slide below $100 despite that late escalation",
 dir: "down",
 severity: "elevated",
 history: [
@@ -1771,10 +1788,10 @@ note: "China's commerce ministry suspended the December 2024 US export ban on No
 var chokepoints = [
 {
 name: "Strait of Hormuz",
-status: "Talks collapse as Rubio ejects Iran's delegation from New York; Trump weighs military action",
+status: "Iran's delegation left New York Monday with no deal; Trump weighs military action",
 cls: "status-high",
 linkTag: "hormuz",
-note: "Secretary of State Rubio ordered Iran's UN delegation to leave New York Monday night after talks stalled, Axios reports; the delegation flew to Doha Tuesday at 1:20am. Trump said Wednesday he must decide whether to “blow them up or make a deal.” No fresher Lloyd's List Hormuz Brief transit figure exists beyond Sept 23's confirmed point; independent trackers still put Hormuz's own daily flow anywhere from roughly 5 to 13 million b/d.",
+note: "Iran's UN delegation left New York Monday evening for Doha on a schedule Iran's mission says it filed Sept 17; two unnamed US officials later told Axios and AP that Rubio had ordered it out. Trump said Wednesday he must decide whether to “blow them up or make a deal.” No fresher Lloyd's List Hormuz Brief transit figure exists beyond Sept 23's confirmed point; independent trackers still put Hormuz's own daily flow anywhere from roughly 5 to 13 million b/d.",
 history: [
 {
 d: "2026-08-30",
@@ -1910,19 +1927,19 @@ note: "Cape diversions remain a structural, multi-year commercial reality: the g
 var tickerItems = [
 {
 label: "STRAIT OF HORMUZ",
-val: "TALKS COLLAPSE AS RUBIO EJECTS IRAN'S DELEGATION FROM NEW YORK",
+val: "IRAN'S DELEGATION LEFT NEW YORK MONDAY WITH NO DEAL; TRUMP WEIGHS MILITARY ACTION",
 dir: "up",
 sentiment: "bad"
 },
 {
 label: "IRANIAN RIAL",
-val: "CRASHES TO FRESH RECORD LOW NEAR 2.57 MILLION PER DOLLAR",
+val: "FALLS PAST 2.5 MILLION PER DOLLAR, A SECOND RECORD LOW IN A MONTH",
 dir: "down",
 sentiment: "bad"
 },
 {
 label: "BRENT CRUDE",
-val: "EASES TO $97.46 AS COLLAPSED TALKS REVIVE THE WAR-RISK PREMIUM",
+val: "DOWN 2.4% TO $97.46 AT THE SEPT 30 SETTLE",
 dir: "down",
 sentiment: "good"
 },
@@ -1933,10 +1950,10 @@ dir: "up",
 sentiment: "bad"
 },
 {
-label: "INDIA SENSEX",
-val: "FALLS A THIRD SESSION TO 72,480 AS OIL'S WAR PREMIUM REVIVES",
-dir: "down",
-sentiment: "bad"
+label: "INDIA FACTORY PMI",
+val: "RISES TO 55.1, A SEVEN-MONTH HIGH",
+dir: "up",
+sentiment: "good"
 },
 {
 label: "PANAMA CANAL",
@@ -1951,10 +1968,10 @@ dir: "down",
 sentiment: "good"
 },
 {
-label: "UKRAINE GRAIN",
-val: "DANUBE REROUTE HITS ITS OWN LIMITS AS WATER LEVELS DROP",
+label: "KOREA EXPORTS",
+val: "RECORD $120.9BN IN SEPTEMBER AS CHIPS TOP $60BN",
 dir: "up",
-sentiment: "bad"
+sentiment: "good"
 },
 {
 label: "CANADA TARIFFS",
@@ -1977,92 +1994,134 @@ india: false,
 impact: 10,
 direction: "friction",
 linkTag: "hormuz",
-src: "Axios / Times of Israel",
+src: "Axios / Associated Press",
 time: "Sept 30",
 dateISO: "2026-09-30",
-title: "Talks collapse: Rubio orders Iran's delegation out of New York as Trump says “we blow them up or make a deal”",
-dek: "Secretary of State Marco Rubio ordered Iran's UN delegation, led by Foreign Minister Abbas Araghchi, to leave New York Monday night after talks stalled, Axios first reported; the delegation flew to Doha at 1:20am Tuesday. Trump told reporters at the White House Wednesday he must decide whether to “blow them up or make a deal,” adding the war “is going to end very soon, one way or another.” The rupture follows Trump's Sept 26 rejection of Iran's seven-day Hormuz-reopening proposal, tied to lifting the US naval blockade, oil-sanctions relief and $12 billion in frozen assets.<br><br><strong>Why it matters:</strong> A diplomatic expulsion is a harder signal than a rejected proposal — it suggests Washington sees nothing left to extract from this round of talks, raising the odds the next move is military rather than diplomatic.",
+title: "Iran's UN delegation left New York Monday with no deal; Trump says “we blow them up or make a deal”",
+dek: "Iran's UN delegation, led by Foreign Minister Abbas Araghchi, left New York on Monday evening for Doha. Iran's UN mission says the departure followed a schedule it gave the US State Department on Sept 17. On Wednesday, two unnamed US officials told Axios and the Associated Press that Secretary of State Marco Rubio had ordered the delegation out after talks via Qatari mediators stalled; the State Department has said nothing on record, and Iran's mission calls the account “baseless.” Trump said Wednesday he must decide whether to “blow them up or make a deal.” ICE Brent closed down 2.4% at $97.46 on Sept 30.<br><br><strong>Why it matters:</strong> Both sides agree only on the Monday departure; the expulsion account rests on anonymous US officials, and oil's fall shows traders are not betting on a military move.",
 url: "https://www.axios.com/2026/10/01/rubio-iran-unga-delegation-kicked-out",
-action: "Watch for Iran's own next statement out of Doha rather than reading the expulsion alone — it raises the near-term odds of the escalation Trump has openly flagged, but doesn't foreclose a later resumption."
+links: [{"name": "Axios", "url": "https://www.axios.com/2026/10/01/rubio-iran-unga-delegation-kicked-out"}, {"name": "Associated Press", "url": "https://abcnews.com/US/wireStory/rubio-orders-visiting-iranian-delegation-leave-nyc-ahead-136908428", "via": "ABC News"}],
+action: "Treat the departure as fact and the expulsion as an unconfirmed US claim; watch Iran's next statement from Doha and Brent's next close.",
+checks: {
+claims: "Iran's UN mission: departure scheduled, told to State Dept Sept 17 · US officials (unnamed): Rubio ordered them out",
+verified: "Axios / Associated Press",
+data: "Left New York Monday evening (both sides agree) · Brent −2.4% to $97.46 on Sept 30 (ICE)"
+}
 },
 {
-cats: ["geopolitics", "conflict"],
+cats: ["geopolitics", "logistics", "outlook"],
 india: false,
-impact: 6,
-direction: "friction",
-linkTag: "hormuz",
-src: "PBS NewsHour / Democracy Now",
-time: "Sept 30",
-dateISO: "2026-09-30",
-title: "Iran's rial crashes to a fresh record low as the war grinds into its eighth month",
-dek: "The Iranian rial hit a record 2.567 million per dollar on Sept 30, PBS NewsHour reports, just 27 days after its previous record of 2.2 million on Sept 2 — a collapse that has cut the currency to roughly a third of its pre-war value. Iran has gone nearly two and a half months without a new oil tanker reaching Chinese ports, stripping Tehran of its main remaining export revenue as the US naval blockade and tightened sanctions enforcement bite harder.<br><br><strong>Why it matters:</strong> A currency collapsing this fast, even as diplomacy collapses alongside it, is the clearest sign yet that economic pressure — not just military pressure — is actively reshaping Iran's negotiating position, whichever way talks ultimately break.",
-url: "https://www.pbs.org/newshour/world/irans-currency-hits-a-new-record-low-as-war-erodes-the-countrys-economic-stability",
-action: "Track the rial's black-market rate alongside Chinese tanker-arrival data, not official statements — together they're a more honest read on how much economic runway Tehran has left."
-},
-{
-cats: ["logistics", "outlook", "tech"],
-india: false,
-impact: 6,
-direction: "friction",
-src: "MINING.COM / Discovery Alert",
-time: "Sept 30",
-dateISO: "2026-09-30",
-title: "Antofagasta's Centinela workers vote 98.73% to strike, setting an Oct 13 deadline",
-dek: "Workers at Antofagasta Minerals' Centinela copper mine in Chile voted 98.73% in favour of strike action after rejecting the company's latest offer, MINING.COM reports, with both the Minera Esperanza and Distrito Centinela unions urging rejection over employee-benefit terms. The dispute now moves into mandatory five-day government mediation, extendable by five more days; union leaders estimate a legal strike could begin as early as Oct 13, though Centinela's second beneficiation-plant expansion remains under construction and unaffected so far.<br><br><strong>Why it matters:</strong> A near-unanimous strike vote, not a narrow one, signals a genuine labor rupture rather than a routine tactic — and it lands at a producer whose expansion project markets are counting on for future supply.",
-url: "https://www.mining.com/web/workers-at-antofagastas-centinela-mine-reject-offer-pave-way-for-strike/",
-action: "Watch the mediation clock, not the vote margin — the legally binding strike date still depends on how that process plays out over the next two weeks."
-},
-{
-cats: ["logistics", "outlook", "tech"],
-india: false,
-impact: 5,
-direction: "friction",
-src: "Finimize / MINING.COM",
-time: "Sept 30",
-dateISO: "2026-09-30",
-title: "Escondida supervisors vote 95% to authorize a strike, pushing BHP into mediation",
-dek: "Supervisors at BHP's Escondida, the world's largest copper mine, voted 95% to authorize strike action, Finimize and MINING.COM report, concluding a three-day ballot that ran Sept 28-30. Union president Alexis Barrera had called the company's offer inadequate on task-based work rules and a proposed 14-days-on, 14-days-off rotation; the result triggers the same mandatory mediation process already under way at Centinela.<br><br><strong>Why it matters:</strong> Two of Chile's largest copper producers clearing strike votes by near-identical lopsided margins in the same week raises the odds Chilean supply tightens at both mines together, not sequentially.",
-url: "https://finimize.com/content/strike-risk-rises-at-bhps-escondida-copper-mine",
-action: "Track whether Escondida's and Centinela's mediation windows resolve on similar timelines — a near-simultaneous failure at both would compound supply risk beyond what either mine's own numbers suggest."
-},
-{
-cats: ["logistics", "outlook", "tech"],
-india: false,
-impact: 6,
-direction: "friction",
-src: "Mining.com.au / Bloomberg",
-time: "Sept 29-30",
-dateISO: "2026-09-29",
-title: "Copper holds near its record as Chile's twin strike votes compound Freeport's delayed Grasberg recovery",
-dek: "Copper is holding firm near this month's record as Chile's mine disruptions support the market, Mining.com.au reports, even as Freeport-McMoRan's Grasberg complex in Indonesia continues a repeatedly-delayed recovery from last September's fatal mudslide, with full-capacity restoration pushed into 2027-2028 depending on the update cited. Bloomberg separately reports copper is “at risk of a rare supply decline as mine setbacks mount,” with banks including Morgan Stanley now forecasting a 2026 deficit near 600,000 tonnes.<br><br><strong>Why it matters:</strong> Prices holding firm without a single fresh shock shows the market is pricing cumulative risk across multiple producers at once — Chile's labor disputes and Grasberg's slow restart are reinforcing each other, not offsetting.",
-url: "https://mining.com.au/copper-price-holds-firm-as-chile-mine-disruptions-support-market",
-action: "Watch Chile's two mediation clocks and Freeport's next guidance update together — any one of the three resolving badly pushes the deficit forecasts further out."
-},
-{
-cats: ["outlook", "logistics"],
-india: true,
 impact: 7,
-direction: "friction",
-src: "India TV News / Business Standard",
-time: "Sept 30",
-dateISO: "2026-09-30",
-title: "India's Sensex and Nifty fall for a third straight session as a stalled Iran deal revives oil's war premium",
-dek: "India's Sensex fell 48.78 points to 72,480.29 and the Nifty 50 dropped 95.75 points (0.42%) to 22,620.45 Wednesday, India TV News and Business Standard report, as crude firmed on fading hopes of a US-Iran resolution — a third straight losing session for both benchmarks. Nifty Realty, Private Bank and Media led gains even as Healthcare, Pharma, Consumer Durables and Metal stocks declined, a split Business Standard flagged as evidence of selective rather than broad-based selling.<br><br><strong>Why it matters:</strong> A third losing session driven specifically by oil's reaction to collapsing diplomacy — not a generic risk-off mood — means Indian equities are now trading as a direct function of the Hormuz standoff's news cycle.",
-url: "https://www.indiatvnews.com/business/markets/30-september-2026-stock-market-updates-sensex-drops-88-points-nifty-near-22-700-tcs-top-gainer-2026-09-30-1055680",
-action: "Watch whether Thursday's session tracks Brent's own next move tick-for-tick — that correlation is the tell for how directly oil is now driving Indian sentiment."
+direction: "fluidity",
+linkTag: "bab-el-mandeb",
+src: "Business Standard / Bloomberg / Associated Press",
+time: "Sept 28-30",
+dateISO: "2026-09-29",
+title: "Saudi Arabia restarts Red Sea oil exports from Yanbu after a 17-day halt",
+dek: "Saudi Arabia resumed crude shipments through its East-West pipeline to Yanbu on Monday, Bloomberg reported, ending a 17-day halt after Sept 11 drone strikes on three pumping stations, which Riyadh blamed on Iran-backed militias in Iraq; Iraq's government confirmed the drones came from its territory, and the militias deny it, the Associated Press reports. Tanker loadings at Yanbu restarted on Tuesday, Business Standard reports. Before the outage it carried about 4 million barrels a day, roughly 4% of world supply; restoring its full 7 million b/d could take six to eight weeks.<br><br><strong>Why it matters:</strong> Yanbu is Saudi Arabia's main export outlet that avoids Hormuz, so its restart eases physical supply even as diplomacy stalls. ICE Brent settled at $97.46 on Sept 30.",
+url: "https://www.business-standard.com/markets/commodities/oil-prices-steady-as-investors-assess-us-iran-peace-talks-supply-outlook-126100100084_1.html",
+links: [{"name": "Business Standard", "url": "https://www.business-standard.com/markets/commodities/oil-prices-steady-as-investors-assess-us-iran-peace-talks-supply-outlook-126100100084_1.html"}, {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-28/saudi-arabia-s-crucial-oil-pipeline-starts-exports-after-repairs"}, {"name": "Associated Press", "url": "https://www.pbs.org/newshour/world/attack-on-key-saudi-pipeline-is-blamed-on-iran-backed-militias-in-iraq", "via": "PBS NewsHour"}],
+action: "Watch Yanbu loading volumes and next month's term allocations to European refiners; the pipeline is still running well below its 7 million b/d capacity.",
+checks: {
+claims: "Saudi Arabia: drones came from Iraq · Iraq: confirms the origin, sacked the Maysan commander · Iraqi militias: deny it",
+verified: "Business Standard / Bloomberg / Associated Press",
+data: "Pipeline restart Sept 28 after a 17-day halt (Bloomberg); ICE Brent $97.46 on Sept 30; no Saudi volume data yet"
+}
+},
+{
+cats: ["tech", "logistics", "outlook"],
+india: false,
+impact: 6,
+direction: "fluidity",
+src: "Reuters",
+time: "Oct 1",
+dateISO: "2026-10-01",
+title: "South Korea's exports hit a record $120.9 billion as chip sales top $60 billion",
+dek: "South Korea's exports jumped 83.5% in September from a year earlier to a record $120.9 billion, government data showed on Thursday, Reuters reports. Chip exports rose 262.8% to $60.3 billion, almost half of all exports, as spending on AI data centres lifted demand and prices for memory chips. Shipments to China rose 122.7% to $26.01 billion and to the United States 137.0% to $24.33 billion, and the provisional trade surplus widened to $49.85 billion from $34.79 billion in August. Officials named rising protectionism and the tense situation in the Middle East as the big remaining variables.<br><br><strong>Why it matters:</strong> Korea's figures are an early read on global AI hardware demand; when almost half of a major exporter's shipments are memory chips, a shock to that one product line moves the whole supply chain.",
+url: "https://www.aol.com/articles/south-korea-september-exports-rise-002320000.html",
+links: [{"name": "Reuters", "url": "https://www.aol.com/articles/south-korea-september-exports-rise-002320000.html", "via": "AOL"}],
+action: "Watch memory-chip prices and Korea's 20-day export figures for October; a slowdown there would be the first sign the AI hardware build-out is cooling.",
+checks: {
+claims: "Korean officials (via Reuters): protectionism and the Middle East remain the big variables for exports",
+verified: "Reuters",
+data: "Korea customs data, Oct 1: Sept exports $120.9bn (+83.5%), chips $60.3bn (+262.8%), surplus $49.85bn"
+}
 },
 {
 cats: ["outlook", "tech"],
-india: true,
-impact: 4,
-direction: "friction",
-src: "Business Standard / India TV News",
+india: false,
+impact: 6,
+direction: "fluidity",
+src: "Associated Press / Business Standard",
 time: "Sept 30",
 dateISO: "2026-09-30",
-title: "Sector leadership flips as pharma and metals turn Wednesday's laggards after leading Tuesday's gains",
-dek: "Nifty Pharma, Healthcare, Consumer Durables and Metal stocks led Wednesday's declines, Business Standard reports, a reversal from Tuesday when the same two sectors had bucked the broader selloff entirely. Nifty Realty, Private Bank and Media rose instead, per India TV News, as the broader index slipped for a third day.<br><br><strong>Why it matters:</strong> A full sector-leadership reversal within 24 hours, with no catalyst cited by either outlet, confirms Tuesday's pharma-and-metals strength was a one-day rotation, not the start of a new trend.",
-url: "https://www.business-standard.com/amp/markets/news/stock-market-live-september-30-sensex-today-nifty-gift-nifty-crude-oil-price-adroit-industries-share-ipo-today-126093000100_1.html",
-action: "Treat single-day sector rotations like this one as noise rather than signal unless a specific catalyst is confirmed."
+title: "China's factory activity returns to growth for the first time in three months",
+dek: "China's official manufacturing purchasing managers' index rose to 50.1 in September from 49.8 in August, its first reading above the 50 line that separates growth from contraction in three months, the National Bureau of Statistics said, as reported by the Associated Press and Business Standard. The production subindex rose to 51.7 from 50.4, but new orders slipped to 50.5 from 50.6 and new export orders eased to 50.0 from 50.1. A private survey, the RatingDog PMI, rose to 52.1 from 51.5. The data came after Beijing announced a stimulus package to offset weak consumer spending.<br><br><strong>Why it matters:</strong> Output is rising faster than new export orders, so China's recovery is leaning on domestic stimulus rather than foreign demand, which matters for buyers counting on steady Chinese supply and prices.",
+url: "https://abcnews.com/Business/wireStory/factory-activity-returns-expansion-positive-sign-chinas-economy-136879349",
+links: [{"name": "Associated Press", "url": "https://abcnews.com/Business/wireStory/factory-activity-returns-expansion-positive-sign-chinas-economy-136879349", "via": "ABC News"}, {"name": "Business Standard", "url": "https://www.business-standard.com/amp/world-news/china-s-factory-activity-rebounds-in-sep-with-stimulus-lifting-outlook-126093000130_1.html"}],
+action: "Watch the October export-orders subindex and China's September trade data, due mid-October, to see whether export demand follows output.",
+checks: {
+claims: "Xinhua (state): PMI back in the expansion zone as output and market demand grew",
+verified: "Associated Press / Business Standard",
+data: "NBS manufacturing PMI 50.1 in Sept (49.8 in Aug); new export orders 50.0 (50.1)"
+}
+},
+{
+cats: ["outlook", "tech"],
+india: false,
+impact: 5,
+direction: "fluidity",
+src: "Nikkei Asia / Reuters",
+time: "Oct 1",
+dateISO: "2026-10-01",
+title: "Japan's big manufacturers grow more upbeat for a sixth straight quarter on AI demand",
+dek: "Sentiment among Japan's large manufacturers improved to +24 in September from +22 in June, the Bank of Japan's quarterly tankan survey showed on Thursday, the sixth straight quarterly rise, Nikkei Asia and Reuters report, with AI-related demand cited as the driver despite higher energy prices. The reading was just below forecasts of +25. Sentiment among large non-manufacturers fell to +35 from +37, the first decline in five quarters, and companies expect inflation of 2.6% three years from now and 2.5% in five years, above the central bank's 2% target.<br><br><strong>Why it matters:</strong> Japan supplies much of the machinery and materials behind the AI build-out, so rising manufacturer confidence there shows the demand behind Korea's chip boom reaching the next layer of suppliers.",
+url: "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment",
+links: [{"name": "Nikkei Asia", "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment"}, {"name": "Reuters", "url": "https://www.aol.com/articles/japan-business-mood-improves-tankan-001218000.html", "via": "AOL"}],
+action: "Watch whether the Bank of Japan treats firms' inflation expectations as a reason to raise rates, which would lift the yen and Japanese export prices.",
+checks: {
+claims: "No official claim on record",
+verified: "Nikkei Asia / Reuters",
+data: "Bank of Japan tankan, Oct 1: big manufacturers +24 (June +22); big non-manufacturers +35 (+37)"
+}
+},
+{
+cats: ["logistics", "outlook", "tech"],
+india: false,
+impact: 6,
+direction: "friction",
+src: "MINING.COM / Rio Times / Bloomberg",
+time: "Sept 28-30",
+dateISO: "2026-09-30",
+title: "Chile's Escondida and Centinela head into mediation after strike votes, keeping copper near its record",
+dek: "Supervisors at BHP's Escondida, the world's largest copper mine, voted 95% to authorise a strike, and two unions at Antofagasta Minerals' Centinela voted 98.73% in favour on Sept 28, sending both disputes into Chile's mandatory five-day mediation, which can be extended by five more days, MINING.COM, Rio Times and Bloomberg report. Centinela's unions say the company will not equalise benefits for workers across union lines; wage talks at Escondida had been postponed after a fatal accident at the mine. Comex copper closed at $6.57 a pound on Sept 30, near its Sept 22 record of $6.83.<br><br><strong>Why it matters:</strong> Chile mines nearly a quarter of the world's copper, so strikes at two of its biggest mines at once would hit grid, EV and data-centre buyers already short of Grasberg's output.",
+url: "https://www.mining.com/copper-holds-above-14400-as-chile-strike-risk-grows",
+links: [{"name": "MINING.COM", "url": "https://www.mining.com/copper-holds-above-14400-as-chile-strike-risk-grows"}, {"name": "Rio Times", "url": "https://www.riotimesonline.com/copper-markets-latam-wednesday-september-30-2026/"}, {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-29/copper-edges-higher-as-chile-mine-dispute-raises-supply-concerns"}],
+action: "Watch the end of the mediation windows in early October; a failed mediation at both mines is the trigger for an actual strike.",
+checks: {
+claims: "Centinela unions: Antofagasta will not equalise benefits across union lines",
+verified: "MINING.COM / Rio Times / Bloomberg",
+data: "Comex copper $6.57/lb on Sept 30 (record $6.83 on Sept 22); Chile 23% of 2025 mine output (USGS)"
+}
+},
+{
+cats: ["geopolitics", "logistics"],
+india: false,
+impact: 6,
+direction: "friction",
+src: "Interfax",
+time: "Sept 30",
+dateISO: "2026-09-30",
+title: "Russia keeps its diesel export ban for producers in place through Oct 31",
+dek: "Russia's government extended its ban on exports of diesel, marine fuel and gasoil by producers, which was due to expire on Sept 30, until Oct 31, Interfax reports, citing a signed government resolution. The government said the decision was made to keep the domestic fuel market stable amid heightened demand for motor fuel during the harvest. A separate diesel export ban for non-producers remains in force until Jan 31, 2027, exports of jet fuel are banned until Nov 30, and gasoline exports are fully banned until Jan 31, 2027.<br><br><strong>Why it matters:</strong> Diesel moves trucks, ships and farm machinery everywhere; keeping Russian product at home leaves importers that relied on it competing for other supply.",
+url: "https://interfax.com/newsroom/top-stories/119335/",
+links: [{"name": "Interfax", "url": "https://interfax.com/newsroom/top-stories/119335/"}],
+action: "Watch whether Moscow renews the producer ban again at the end of October; another extension would point to a lasting domestic shortfall rather than a seasonal squeeze.",
+checks: {
+claims: "Russian government: the extension keeps the domestic fuel market stable during harvest demand",
+verified: "Interfax",
+data: "Government resolution: producers' diesel, marine fuel and gasoil export ban in force to Oct 31, 2026"
+}
 },
 {
 cats: ["logistics", "outlook"],
@@ -2074,35 +2133,15 @@ src: "Seatrade Maritime / Newsroom Panama",
 time: "Sept 28-30",
 dateISO: "2026-09-30",
 title: "Panama Canal lifts its daily transit cap to 33 and raises draft limits as watershed rainfall recovers",
-dek: "The Panama Canal Authority will raise daily transit slots to 33 (23 Panamax plus 10 Neopanamax) and lift the maximum Neopanamax draft to 14.94 metres (49 feet), effective Oct 15 and immediately respectively, Seatrade Maritime and Newsroom Panama report, citing near-average watershed rainfall and water-saving measures at the locks. The ACP is also removing per-customer slot limits from Oct 15 and will permit consecutive-date reservations, reversing restrictions first imposed in early September.<br><br><strong>Why it matters:</strong> A canal authority voluntarily easing capacity limits rather than defending them is a genuine fluidity signal — this year's rainfall shortfall is resolving faster than September's cuts had assumed.",
+dek: "The Panama Canal Authority will raise daily transit slots to 33 (23 Panamax plus 10 Neopanamax) and lift the maximum Neopanamax draft to 14.94 metres (49 feet), effective Oct 15 and immediately respectively, Seatrade Maritime and Newsroom Panama report, citing near-average watershed rainfall and water-saving measures at the locks. The ACP is also removing per-customer slot limits from Oct 15 and will permit consecutive-date reservations, reversing restrictions first imposed in early September.<br><br><strong>Why it matters:</strong> A canal authority easing its own limits is a genuine capacity signal; this year's rainfall shortfall is resolving faster than September's cuts had assumed.",
 url: "https://www.seatrade-maritime.com/maritime-transportation/supply-chain-relief-panama-canal-to-increase-in-draught-and-daily-transits",
-action: "Watch whether the 33-slot cap holds through the dry season — a sustained increase would signal the 2024-2026 drought cycle at the canal is genuinely over, not just paused."
-},
-{
-cats: ["logistics", "geopolitics", "outlook"],
-india: false,
-impact: 5,
-direction: "friction",
-src: "UkrAgroConsult / usm.media",
-time: "Sept 29-30",
-dateISO: "2026-09-29",
-title: "Ukraine's Danube reroute hits its own limit as low water throttles barges ahead of October's corn surge",
-dek: "Ukraine exported roughly 1 million tonnes of wheat through Romania's Constanța in September, UkrAgroConsult and usm.media report, with Constanța handling 8 million tonnes of total cargo over two months — but hot, dry weather has cut Danube water levels so sharply that barges can no longer run at full capacity on some stretches, forcing more trips to move the same tonnage and pushing up delivery times and freight rates. Traders warn October's load will intensify further as corn supplies ramp up and compete with wheat for the same constrained river capacity.<br><br><strong>Why it matters:</strong> Rerouting away from Odesa only works if the alternative route has genuine spare capacity — the Danube's own water-level constraint shows capacity, not Black Sea security risk, is now the binding limit.",
-url: "https://ukragroconsult.com/en/news/low-danube-water-levels-limit-ukraines-ability-to-reroute-grain-via-constanta/",
-action: "Watch October's corn-export volumes against Danube water-level data together — a bottleneck caused by river hydrology won't ease just because the war's framing shifts."
-},
-{
-cats: ["logistics", "outlook"],
-india: false,
-impact: 4,
-direction: "fluidity",
-src: "Hellenic Shipping News / Baird Maritime",
-time: "Sept 30",
-dateISO: "2026-09-30",
-title: "Baltic Dry Index extends its slide to a fourth session, its lowest close since late August",
-dek: "The Baltic Exchange's dry-bulk index fell a further 65 points (2.1%) to 3,113 Wednesday, Hellenic Shipping News reports, its lowest close since Aug 27 and a fourth consecutive losing session; the capesize sub-index led the decline, down 3.4% to 4,928, its own lowest since Aug 25, while the panamax index eased a milder 0.3% to 2,384. Baird Maritime separately confirms the broader pattern: a run toward three-month highs earlier in September has now fully reversed.<br><br><strong>Why it matters:</strong> Four consecutive declines, not one or two, confirms a genuine trend reversal rather than a pause — the earlier run-up toward three-month highs looks like the temporary deviation, not the new baseline.",
-url: "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-3113-down-65-points/",
-action: "Watch the capesize sub-index specifically — its sharper decline is leading the broader index lower, so a stabilization there would signal this slide is ending."
+links: [{"name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/maritime-transportation/supply-chain-relief-panama-canal-to-increase-in-draught-and-daily-transits"}, {"name": "Newsroom Panama", "url": "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/"}],
+action: "Watch whether the 33-slot cap holds into the dry season; a sustained increase would signal the drought cycle at the canal is over, not just paused.",
+checks: {
+claims: "Panama Canal Authority: near-average watershed rainfall and water-saving measures allow more slots",
+verified: "Seatrade Maritime / Newsroom Panama",
+data: "ACP advisory: 33 daily slots from Oct 15 (32 now); Neopanamax draft 14.94 m"
+}
 },
 {
 cats: ["geopolitics", "outlook"],
@@ -2110,13 +2149,114 @@ india: false,
 impact: 6,
 direction: "friction",
 linkTag: "canada-tariffs",
-src: "The Hill / GHY Trade Compliance",
+src: "CBC News / Associated Press",
 time: "Sept 29",
 dateISO: "2026-09-29",
-title: "Washington's Canada import bans take hold as Ottawa holds firm on retaliatory tariffs",
-dek: "The US bans on Canadian dairy, motorcycles, cane molasses and most alcoholic beverages took effect Sept 29 as scheduled, The Hill and GHY Trade Compliance report, with Trump signaling no plans to back down. Ottawa's own retaliatory tariffs on C$27.6 billion of US goods — in force since Sept 8 at 15-50% on steel, aluminum, dairy, appliances, agricultural equipment, pulp and paper, plastics and electronics — remain unchanged, alongside a C$5.42 billion domestic support package.<br><br><strong>Why it matters:</strong> Both sides' measures are now simultaneously in force with no new talks announced — a standoff that has moved from threat to enforced reality is harder to unwind than the tit-for-tat escalation of recent months.",
-url: "https://thehill.com/homenews/administration/6059848-trump-canada-import-tariffs/",
-action: "Watch for any signal of a resumed negotiating channel — with both sides' tariffs now simultaneously in force, the next move that matters is whichever side blinks first."
+title: "US bans on Canadian alcohol, whey, motorcycles and molasses take effect as Ottawa keeps its counter-tariffs",
+dek: "Bans on imports of Canadian beer, wine, spirits, cider, whey, molasses and petrol motorcycles above 800cc took effect just after midnight on Sept 29 under five White House proclamations, CBC News and the Associated Press report, covering nearly $1 billion of goods by AP's count. A spokesman for Canada's trade minister Dominic LeBlanc said Ottawa takes note of the measures and called them \"unjustified\". Canada's own tariffs of 15% to 50% on C$27.6 billion of US goods, imposed in response to Washington's 50% tariffs in August, remain in place.<br><br><strong>Why it matters:</strong> Outright bans are harder to unwind than tariffs, so cross-border distillers, dairy processors and their suppliers now face lost market access rather than a price penalty.",
+url: "https://www.cbc.ca/news/canada/donald-trump-bans-canadian-products-alcohol-whey-motorcycles-molasses-9.7359408",
+links: [{"name": "CBC News", "url": "https://www.cbc.ca/news/canada/donald-trump-bans-canadian-products-alcohol-whey-motorcycles-molasses-9.7359408"}, {"name": "Associated Press", "url": "https://www.pbs.org/newshour/world/u-s-ban-on-1-billion-worth-of-canadian-imports-from-motorcycles-to-booze-goes-into-effect", "via": "PBS NewsHour"}],
+action: "Watch for any resumption of talks between Ottawa and Washington, and for provincial retail bans on US alcohol in response.",
+checks: {
+claims: "White House: answers Canadian discrimination against US alcohol · Canada: takes note, calls the measures unjustified",
+verified: "CBC News / Associated Press",
+data: "Five proclamations in force 12:01am ET Sept 29; Canada's tariffs: 15-50% on C$27.6bn of US goods"
+}
+},
+{
+cats: ["outlook", "logistics"],
+india: true,
+impact: 6,
+direction: "fluidity",
+src: "Business Standard / Reuters",
+time: "Oct 1",
+dateISO: "2026-10-01",
+title: "India's factory growth hits a seven-month high as new orders and exports pick up",
+dek: "India's HSBC manufacturing purchasing managers' index rose to 55.1 in September from 52.8 in August, its highest since February, Business Standard and Reuters report, as new orders grew at the fastest pace since February on demand for electronics, food, pharmaceutical and textile products. Export orders also accelerated, with manufacturers citing clients in Brazil, Europe, the UAE and the US, hiring resumed at its fastest pace since May, and firms grew more optimistic about the months ahead. The survey is compiled by S&P Global.<br><br><strong>Why it matters:</strong> Export orders arriving from Brazil, Europe, the UAE and the US suggest Indian factories are winning work as buyers spread their sourcing across more countries.",
+url: "https://www.business-standard.com/amp/economy/news/india-s-manufacturing-pmi-rises-to-55-1-in-september-hits-7-month-high-126100100299_1.html",
+links: [{"name": "Business Standard", "url": "https://www.business-standard.com/amp/economy/news/india-s-manufacturing-pmi-rises-to-55-1-in-september-hits-7-month-high-126100100299_1.html"}, {"name": "Reuters", "url": "https://www.investing.com/news/economy-news/indias-factory-growth-climbs-to-7month-high-on-surging-demand-pmi-shows-4926254", "via": "Investing.com"}],
+action: "Watch the RBI's policy decision due Oct 7 for how it weighs strong factory demand against oil-driven inflation.",
+checks: {
+claims: "No official claim on record",
+verified: "Business Standard / Reuters",
+data: "HSBC India Manufacturing PMI (S&P Global): 55.1 in Sept, 52.8 in Aug"
+}
+},
+{
+cats: ["geopolitics", "outlook"],
+india: false,
+impact: 5,
+direction: "fluidity",
+src: "The Africa Report / Africanews",
+time: "Sept 28-30",
+dateISO: "2026-09-28",
+title: "Burkina Faso opens its first gold refinery to keep processing at home",
+dek: "Burkina Faso's leader Ibrahim Traoré inaugurated the country's first gold refinery, Raffinor, in Ouagadougou on Sept 28, The Africa Report and Africanews report. The presidency says it can process 164 tonnes of gold a year, with plans to raise that to 515 tonnes, and that it cost more than CFA11 billion (about $20 million), financed by the state with domestic private investors. \"We want to refine all our metals here,\" Traoré said. Burkina Faso is Africa's third-largest gold producer, with output of more than 94 tonnes last year.<br><br><strong>Why it matters:</strong> Refining at home lets the government control and tax more of its gold before export, and could reroute doré that now goes to refiners abroad.",
+url: "https://www.theafricareport.com/431964/burkina-faso-ibrahim-traore-opens-first-gold-refinery-in-push-for-mining-sovereignty/",
+links: [{"name": "The Africa Report", "url": "https://www.theafricareport.com/431964/burkina-faso-ibrahim-traore-opens-first-gold-refinery-in-push-for-mining-sovereignty/"}, {"name": "Africanews", "url": "https://www.africanews.com/2026/09/30/burkina-faso-opens-first-gold-refinery-in-push-for-economic-independence/"}],
+action: "Watch whether miners operating in Burkina Faso are required to send their gold to Raffinor, which would change refining flows to Switzerland and the UAE.",
+checks: {
+claims: "Burkina presidency: 164 t/yr capacity, rising to 515 t; a historic step toward economic independence",
+verified: "The Africa Report / Africanews",
+data: "No physical data yet"
+}
+},
+{
+cats: ["geopolitics", "outlook"],
+india: false,
+impact: 4,
+direction: "fluidity",
+src: "BNamericas / Mining.com.au",
+time: "Sept 24-25",
+dateISO: "2026-09-24",
+title: "Argentina and the UAE open trade talks centred on mining, energy and AI",
+dek: "Argentina and the United Arab Emirates launched negotiations on a Comprehensive Economic Partnership Agreement after a Sept 24 meeting in New York between UAE foreign trade minister Thani bin Ahmed Al Zeyoudi and Argentine foreign minister Pablo Quirno, BNamericas and Mining.com.au report. The two governments named mining and minerals, AI and data centres, energy, agribusiness and pharmaceuticals among priority sectors and said they aim to fast-track the talks. The move builds on a partnership between Argentina's YPF and Abu Dhabi's XRG in an LNG development reported to involve about $51 billion of investment.<br><br><strong>Why it matters:</strong> It gives Argentina's lithium and copper projects a source of capital outside the US and Europe, and gives the UAE minerals and gas from outside the Gulf.",
+url: "https://www.bnamericas.com/en/news/argentina-uae-launch-trade-pact-talks-focused-on-mining-energy-and-ai",
+links: [{"name": "BNamericas", "url": "https://www.bnamericas.com/en/news/argentina-uae-launch-trade-pact-talks-focused-on-mining-energy-and-ai"}, {"name": "Mining.com.au", "url": "https://mining.com.au/uae-argentina-open-minerals-trade-talks/"}],
+action: "Watch for the dates of the first negotiating round and whether minerals offtake terms are part of it.",
+checks: {
+claims: "UAE and Argentina (joint statement): aim to fast-track the CEPA talks",
+verified: "BNamericas / Mining.com.au",
+data: "No physical data yet"
+}
+},
+{
+cats: ["logistics"],
+india: false,
+impact: 5,
+direction: "fluidity",
+src: "gCaptain / Seatrade Maritime",
+time: "Sept 24",
+dateISO: "2026-09-24",
+title: "Carriers cut sailings around Golden Week as more container ships return to Suez",
+dek: "Container lines announced seven Asia-Europe and 15 transpacific blank sailings for the week of Sept 28, up from three and nine the week before, as they trim capacity around China's Golden Week holiday, gCaptain and Seatrade Maritime report, citing Drewry. At the same time containership transits of the Suez Canal rose to 48 in week 38 from 41, and Drewry expects the extra capacity from ships returning to the Suez route to outweigh the cuts. Drewry's World Container Index fell 1% to $4,468 per 40-foot box, with Shanghai-Genoa down 5% to $3,835 and Shanghai-Los Angeles up 2% to $7,838.<br><br><strong>Why it matters:</strong> Ships returning to Suez add Asia-Europe capacity faster than carriers can blank it, which is pushing those rates down even as Red Sea security remains unsettled.",
+url: "https://gcaptain.com/container-rates-edge-lower-ahead-of-golden-week-as-suez-traffic-returns/",
+links: [{"name": "gCaptain", "url": "https://gcaptain.com/container-rates-edge-lower-ahead-of-golden-week-as-suez-traffic-returns/"}, {"name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/containers/lines-seize-golden-week-opportunity-for-blank-sailings"}],
+action: "Watch Asia-Europe rates after the holiday in mid-October; continued falls would confirm the Suez return is outrunning carriers' capacity cuts.",
+checks: {
+claims: "No official claim on record",
+verified: "gCaptain / Seatrade Maritime",
+data: "Drewry WCI $4,468/40ft on Sept 24 (−1%); Suez containership transits 48 in week 38 (41) (Drewry)"
+}
+},
+{
+cats: ["logistics", "tech"],
+india: false,
+impact: 5,
+direction: "friction",
+src: "Euronews / Reuters",
+time: "Sept 29",
+dateISO: "2026-09-29",
+title: "Stellantis will idle four French plants in October, two of them for lack of EV batteries",
+dek: "Stellantis will halt production at four French plants in October, Euronews and Reuters report. Sochaux, which builds the Peugeot 3008 and 5008, stops Oct 23-30 and Rennes, which builds the Citroën C5 Aircross, Oct 22-30, because of a shortage of long-range batteries from ACC, its joint venture with Mercedes and TotalEnergies; Mulhouse stops Oct 15-30 and Poissy Oct 19-23 for other reasons. \"Demand for these versions is strong — particularly among fleet customers — and continues to exceed current supply capabilities,\" the company said. Its Mirafiori plant in Turin faces a separate two-week stoppage in late October.<br><br><strong>Why it matters:</strong> European carmakers are competing with AI data centres for batteries and chips, and a shortage of one component can idle whole plants even when demand is strong.",
+url: "https://www.euronews.com/2026/09/29/stellantis-to-halt-four-french-plants-for-several-days-over-supply-shortage",
+links: [{"name": "Euronews", "url": "https://www.euronews.com/2026/09/29/stellantis-to-halt-four-french-plants-for-several-days-over-supply-shortage"}, {"name": "Reuters", "url": "https://www.globalbankingandfinance.com/carmaker-stellantis-pause-production-french-factories-over/", "via": "Global Banking & Finance Review"}],
+action: "Watch whether ACC's battery shortfall spreads to other Stellantis plants or to Mercedes, its partner in the joint venture.",
+checks: {
+claims: "Stellantis: demand for long-range versions exceeds battery supply · CGT union: slow the lines, keep full employment",
+verified: "Euronews / Reuters",
+data: "No physical data yet"
+}
 },
 {
 cats: ["tech", "outlook"],
@@ -2126,120 +2266,94 @@ direction: "friction",
 src: "DigiTimes",
 time: "Sept 30",
 dateISO: "2026-09-30",
-title: "India bars new Semicon 2.0 chip plants from selling assets before reaching full production",
-dek: "India's electronics ministry has barred semiconductor projects approved under its Semicon 2.0 incentive program from selling, disposing of or mortgaging project assets until the entire project reaches declared commercial production, DigiTimes reports, under guidelines issued Sept 17. The lock-in conditions attach to assets, operations and ownership across the INR 1.27 trillion ($13.22 billion) scheme, closing a loophole that had let earlier-stage recipients monetize partially-built capacity before delivering on production commitments.<br><br><strong>Why it matters:</strong> A government tightening its own incentive scheme's exit conditions, rather than just adding subsidies, signals New Delhi is more worried about capital discipline at this stage of its chip buildout than about attracting fresh investment.",
+title: "India bars Semicon 2.0 chip projects from selling or mortgaging assets before full production",
+dek: "India has barred semiconductor projects approved under its Semicon 2.0 incentive programme from selling, disposing of or mortgaging project assets until commercial production of the entire project is declared, DigiTimes reports, under guidelines issued on Sept 17. The lock-in covers each approved project as a whole, so a company cannot raise money against, or exit, a partly built fab or chip-assembly plant while it is still drawing state support. The rule tightens the terms of the programme rather than adding new incentives.<br><br><strong>Why it matters:</strong> Buyers counting on Indian chip capacity get more assurance that subsidised plants will be finished, while investors lose the option to sell out early.",
 url: "https://www.digitimes.com/news/a20260930VL206/semicon-production-commercial-2026-development.html",
-action: "Watch which Semicon 2.0-approved projects are furthest from declared commercial production — those are most exposed to the new lock-in and least able to pivot if timelines slip."
+links: [{"name": "DigiTimes", "url": "https://www.digitimes.com/news/a20260930VL206/semicon-production-commercial-2026-development.html"}],
+action: "Watch which approved projects are furthest from declared production; they face the tightest constraints if timelines slip.",
+checks: {
+claims: "No official claim on record",
+verified: "DigiTimes",
+data: "Semicon 2.0 guidelines issued Sept 17: project assets locked until commercial production is declared"
+}
 },
 {
-cats: ["geopolitics", "tech", "outlook"],
+cats: ["geopolitics", "conflict"],
 india: false,
 impact: 5,
 direction: "friction",
-src: "Metalnomist",
+linkTag: "hormuz",
+src: "Associated Press",
 time: "Sept 29",
 dateISO: "2026-09-29",
-title: "China tightens critical-mineral export enforcement with new anti-circumvention rules",
-dek: "China is introducing new mechanisms to identify violations, prevent circumvention and strengthen oversight of strategic mineral shipments, Metalnomist reports, requiring traders, processors, freight companies, overseas customers and intermediaries to provide stronger documentation on product classification, end users, licensing and shipment routes.<br><br><strong>Why it matters:</strong> Tighter enforcement raises the stakes on China's own Nov 10 and Nov 27 rare-earth and gallium licensing deadlines already on this page's Trade Policy Tracker — even unchanged rules bite harder once circumvention routes start closing.",
-url: "https://www.metalnomist.com/2026/09/china-critical-mineral-export-controls.html",
-action: "Watch for the first enforcement action under China's new documentation rules — that will show how seriously Beijing intends to close the routes it says it's targeting."
-},
-{
-cats: ["geopolitics", "outlook"],
-india: false,
-impact: 5,
-direction: "fluidity",
-src: "MINING.COM / CFR",
-time: "Sept 29",
-dateISO: "2026-09-29",
-title: "Pentagon sets a 2030 target for a “closed loop” of US-allied critical-mineral supply",
-dek: "The US's multibillion-dollar campaign to loosen China's grip on critical minerals is starting to reshape supply chains, MINING.COM reports, with Pentagon officials targeting a “closed loop” of US and allied mineral supply for some materials by 2030. Washington has pursued the goal by taking equity stakes in mineral companies, building a critical-mineral reserve and partnering with allied nations, alongside a coming requirement that defense contractors remove certain China-sourced metals from their own supply chains.<br><br><strong>Why it matters:</strong> A 2030 target with equity stakes and a reserve behind it is a structural commitment, not a talking point — it's the clearest sign yet Washington expects China's leverage over minerals to remain a multi-year problem, not a negotiable one.",
-url: "https://mining.com/us-minerals-push-starts-to-dent-chinas-grip-wsj",
-action: "Track which specific minerals get a defense-contractor sourcing mandate first — that list, more than the 2030 target itself, shows where Washington sees the most urgent exposure."
-},
-{
-cats: ["tech"],
-india: false,
-impact: 4,
-direction: "friction",
-src: "Tom's Hardware",
-time: "Sept 24",
-dateISO: "2026-09-24",
-title: "Military-grade AMD chip surfaces in a Chinese crowdfunded project, reviving export-control circumvention concerns",
-dek: "A semiconductor analyst spotted a heavily export-restricted, military-grade AMD radar chip — normally priced near $36,000 — listed for about $1,000 in a Chinese crowdfunding project's design, Tom's Hardware reports. AMD says the chip's appearance reflects diversion of an export-controlled component rather than any sale by AMD itself, while the analyst has called for a formal investigation into how the restricted part reached an unauthorized buyer.<br><br><strong>Why it matters:</strong> A single diverted chip is a small story alone, but it's exactly the kind of concrete, traceable circumvention case that tests whether export-control enforcement can follow a restricted part to its actual end user, not just stop it at the border.",
-url: "https://www.tomshardware.com/tech-industry/leading-semiconductor-analyst-accuses-amd-of-treason-over-restricted-chips-availability-in-china-amd-blames-diversion-of-export-controlled-rfsoc-usd36-000-radar-silicon-allegedly-quoted-at-usd1-000-for-crowdfunding-project",
-action: "Watch whether US export-control regulators open a formal review of this specific part number — that would be the first real test of enforcement following a single diverted chip."
-},
-{
-cats: ["geopolitics", "outlook"],
-india: false,
-impact: 3,
-direction: "friction",
-src: "European Commission",
-time: "Sept 25",
-dateISO: "2026-09-25",
-title: "EU opens trade-defense action against Chinese pea protein imports",
-dek: "The European Commission acted against imports of pea protein from China on Sept 25, part of continued strong demand for trade-defense action into 2026, following its Sept 18 safeguard measures on grain-oriented electrical steel imports via tariff-rate quotas with price thresholds. The two measures, a week apart, extend the EU's pattern of targeted, product-specific tariff barriers rather than broad China-wide duties.<br><br><strong>Why it matters:</strong> Narrow, product-specific trade-defense actions are easier for Brussels to justify under WTO rules than broad tariffs, but two distinct China-targeted measures within a week show the EU's trade posture hardening by increments.",
-url: "https://policy.trade.ec.europa.eu/news_en",
-action: "Watch for a formal provisional-duty announcement on pea protein within the EU's standard investigation window — that would confirm this is heading toward the same tariff-rate-quota structure applied to electrical steel."
+title: "Iran's rial falls past 2.5 million to the dollar, its second record low in a month",
+dek: "Iran's currency fell to more than 2.5 million rials to the US dollar on Sept 29, the Associated Press reports, 27 days after it hit 2.2 million on Sept 2, as the war and a US naval blockade squeeze the economy. Secretary of State Marco Rubio told Fox News that Iran is heading toward an economic \"cataclysm\" because sanctions and the blockade stop it from selling oil. Foreign Minister Abbas Araghchi told Iranian media that negotiations on reopening the Strait of Hormuz had become \"more serious\", with Qatari mediators expected to engage the US side.<br><br><strong>Why it matters:</strong> A collapsing rial raises the cost of everything Iran imports, from food to spare parts, and shows how much economic pressure sits behind the stalled Hormuz talks.",
+url: "https://www.pbs.org/newshour/world/irans-currency-hits-a-new-record-low-as-war-erodes-the-countrys-economic-stability",
+links: [{"name": "Associated Press", "url": "https://www.pbs.org/newshour/world/irans-currency-hits-a-new-record-low-as-war-erodes-the-countrys-economic-stability", "via": "PBS NewsHour"}],
+action: "Watch the rial alongside any new Qatari-mediated contacts; a sharp recovery would be the clearest market sign that talks have resumed.",
+checks: {
+claims: "US (Rubio, Fox News): Iran nearing an economic 'cataclysm' · Iran (Araghchi): Hormuz talks 'more serious'",
+verified: "Associated Press",
+data: "Tehran open market (via AP): over 2.5m rials per $ on Sept 29; 2.2m on Sept 2"
+}
 }
 ];
 var briefingScript = [
 {
 speaker: "anchor",
-text: "Good morning. Overnight, diplomacy around the Strait of Hormuz didn't just stall, it broke: Secretary of State Rubio ordered Iran's delegation out of New York after talks collapsed."
+text: "Good morning. Iran's delegation left New York on Monday evening with no deal. Two days later, unnamed US officials said Secretary of State Rubio had ordered it out; Tehran says the trip home was filed with Washington on September 17."
 },
 {
 speaker: "analyst",
-text: "When the host tells you to leave the building, that's not a pause in the conversation, that's the conversation ending."
+text: "Two versions of the same flight. The only thing everyone agrees on is that nobody is talking."
 },
 {
 speaker: "anchor",
-text: "President Trump said he now has a decision to make: quote, we blow them up or make a deal. He added the war is going to end very soon, one way or another."
+text: "Saudi Arabia restarted exports from its Red Sea port of Yanbu after a seventeen-day halt. Brent settled at ninety-seven dollars forty-six on Wednesday, down two point four percent."
 },
 {
 speaker: "analyst",
-text: "Blunt, even for him. Markets noticed too — Iran's own currency crashed to a fresh record low within hours."
+text: "One pipeline back, one round of talks stalled. Read the price how you like; the tankers are loading."
 },
 {
 speaker: "anchor",
-text: "In Chile, two of the country's biggest copper mines cleared strike votes on the same day: Escondida at 95 percent, Centinela at nearly 99."
+text: "In Asia, South Korea's September exports hit a record one hundred twenty point nine billion dollars, with chips alone above sixty billion."
 },
 {
 speaker: "analyst",
-text: "That's not a close vote anywhere. When workers agree that hard, management usually finds out the hard way."
+text: "Half a country's exports in one product line. Wonderful, right up until it isn't."
 },
 {
 speaker: "anchor",
-text: "Copper itself barely blinked, holding near this month's record as the market absorbs Chile's labor risk alongside Freeport's still-delayed Grasberg recovery."
+text: "China's factory index climbed back to fifty point one, its first expansion in three months, and Japan's big manufacturers turned more upbeat for a sixth straight quarter."
 },
 {
 speaker: "analyst",
-text: "Two separate headaches, one shared price tag. Supply chains don't care which mine causes the shortfall."
+text: "The factories are humming. Whether export orders follow is October's question."
 },
 {
 speaker: "anchor",
-text: "Back home, the Sensex fell for a third straight session as oil's war premium crept back in, though pharma and metals swapped places with yesterday's winners."
+text: "In Chile, Escondida and Centinela are in government mediation after strike votes of ninety-five and nearly ninety-nine percent, with copper close to its record."
 },
 {
 speaker: "analyst",
-text: "A market that reverses its own leadership in twenty-four hours is basically shrugging and saying, ask me tomorrow."
+text: "Two of the world's biggest copper mines on the same clock. Buyers will be reading the calendar closely."
 },
 {
 speaker: "anchor",
-text: "There was genuine good news, too: the Panama Canal Authority is lifting its daily transit cap to thirty-three slots and easing draft limits as the watershed recovers."
+text: "And in France, Stellantis will idle four plants in October because it cannot get enough long-range electric vehicle batteries."
 },
 {
 speaker: "analyst",
-text: "Proof a chokepoint can actually un-choke. Someone tell the Strait of Hormuz it's allowed to follow that example."
+text: "Strong demand, no batteries. Supply chains have a sense of humour, just not a kind one."
 },
 {
 speaker: "anchor",
-text: "That's today's briefing. We'll have more as New York, Santiago and Panama City all keep moving."
+text: "That's the briefing. We'll be back tomorrow morning with what moved overnight."
 },
 {
 speaker: "analyst",
-text: "Three cities, three different directions. At least one of them is pointed the right way."
+text: "Same time, fresh data, no spin."
 }
 ];
 var catLabel = {
@@ -2261,204 +2375,64 @@ var tradeCats = [
 ];
 
 var sourceCategories = {
-"USA": [
-"CENTCOM / State Dept statements (primary source, not neutral)",
-"U.S. Department of Energy statements (primary source, not neutral)",
-"CSIS (think tank analysis — supply chain sovereignty, industrial policy, corridor security)",
-"CNBC (business wire)",
-"CNN (broadcast & digital wire)",
-"USNI News (naval & maritime trade press)",
-"Bloomberg (wire, global)",
-"NPR (public broadcaster)",
-"PBS NewsHour (public broadcaster)",
-"CBS News (broadcast & digital wire)",
-"The Hill (political news)",
-"Forbes (business wire)",
-"Fortune (business wire — daily oil price tracking)",
-"Axios (digital wire, policy & business news)",
-"FDD Long War Journal (think tank — Yemen & Red Sea conflict monitoring)",
-"Associated Press (wire service)",
-"The Washington Post (broadsheet, national newspaper of record)",
-"TWZ / The War Zone (US defense & military trade press)"
-],
-"Canada": [
-"CBC News (public broadcaster)",
-"BOE Report (Canadian oil & gas industry news wire)",
-"GHY Trade Compliance (Canadian customs & trade-compliance advisory)"
-],
-"China": [
-"Caixin Global (most independent-leaning major Chinese outlet)",
-"South China Morning Post (Hong Kong, commercially independent)",
-"Global Times (state — official framing only)",
-"MOFCOM / NDRC statements (primary source, not neutral)",
-"SunSirs / GFEX (Chinese commodity spot & futures pricing)",
-"China Rare Earth Industry Association (industry body — domestic rare earth price benchmarks)"
-],
-"Russia": [
-"TASS (state — official framing only)",
-"The Moscow Times (independent, exile-based)"
-],
-"European Union": [
-"Reuters (UK-headquartered wire service)",
-"Financial Times",
-"Deutsche Welle (public broadcaster, editorially independent)",
-"Euronews (pan-European broadcaster)",
-"Bruegel (economic policy think tank — supply chain resilience, technology partnerships, critical raw material dependencies)",
-"Verdi.de / ZDS (union & employer primary sources — German seaport wage talks)",
-"Binnenschifffahrt Online / BfG (Rhine water-level & inland-shipping data)",
-"Evertiq (European electronics & semiconductor trade press)",
-"Defense News (transatlantic defense & security trade press)",
-"GlobX (European OEM supply-chain trade analysis)",
-"European Commission (official EU trade body — primary source on its own trade-defense actions, not third-party verification)"
-],
-"India": [
-"The Hindu",
-"Livemint / Economic Times (trade & business angle)",
-"Observer Research Foundation (ORF) — think tank analysis; China Plus One strategy, infrastructure corridors, critical minerals",
-"MEA / PIB statements (primary source, not neutral)",
-"Business Standard",
-"BusinessToday (business & markets wire)",
-"India TV News (business & markets wire)",
-"IndMoney (brokerage — markets & investing wire)",
-"Screener.in (equity fundamentals & price data platform)",
-"The Week (Port Report — maritime & logistics trade coverage)",
-"HDFC Sky (brokerage — markets desk)",
-"Kotak Securities (Kotak Neo — brokerage markets desk)",
-"5paisa / Angel One (brokerage — markets desk)",
-"Trendlyne (equity analytics & markets data)",
-"Bajaj Broking (brokerage — markets desk)",
-"Dhan (brokerage — markets desk)",
-"Deccan Herald (national English-language daily)",
-"Outlook India (national news magazine)"
-],
-"Middle East / Gulf": [
-"Al Jazeera (Qatar-funded, strong regional reporting)",
-"Al Arabiya (UAE-based, English-language wire)",
-"Gulf News (UAE-based, English-language wire)",
-"Arab News (Saudi-based, English-language wire)",
-"Times of Israel (Israel-based, English-language wire)",
-"The Jerusalem Post (Israel-based, English-language wire — Gulf security & conflict analysis)",
-"Iranian state media — IRNA / Press TV (primary source on Iran's own claims, not verification)",
-"Gulf state ministries (primary source on their own claims, not verification)",
-"Oman News Agency (state-run, official statements)",
-"Iraqi government statements (primary source on Iraq's own investigation, not verification)",
-"Middle East Observer / El Estrecho Digital (regional maritime & security reporting)",
-"Sana'a Center for Strategic Studies (Yemen-focused think tank — Houthi/Saudi conflict & peace-talks analysis)",
-"Al-Estiklal (Middle East regional news outlet)",
-"Al-Masirah TV (Houthi state media — primary source on Houthi/Yemen claims, not verification)"
-],
-"Latin America": [
-"Rio Times (Brazil-based, English-language wire — LatAm agriculture, trade & Panama Canal coverage)",
-"MercoPress (Montevideo-based, English-language South Atlantic news agency — Mercosur trade & tariff coverage)",
-"Newsroom Panama (Panama-based English-language wire — Panama Canal Authority advisories & logistics)"
-],
-"Southeast Asia": [
-"The Jakarta Post (Indonesia-based, English-language wire — SE Asia trade & mining coverage)",
-"The Straits Times (Singapore — regional shipping, port & trade coverage)"
-],
-"Africa — DRC/Copperbelt Mining": [
-"Mining Weekly (Creamer Media, Johannesburg — DRC/Katanga copper & cobalt mining coverage)",
-"The Africa Report (pan-African business & policy coverage — DRC copper/cobalt market analysis)",
-"Africanews (pan-African broadcaster — DRC critical-minerals & mining coverage)",
-"Ecofin Agency (pan-African economic news wire — mining & commodities coverage)"
-],
-"US Corridor — Trade, Tariffs, Ports": [
-"Federal Maritime Commission (FMC) — official US regulator",
-"Journal of Commerce (JOC) — independent container shipping monitor",
-"FreightWaves (SONAR) — US trucking capacity & intermodal data",
-"Kurums (trade-compliance & procurement analysis)"
-],
-"Russia & Black Sea Corridor — Sanctions, War Risk": [
-"Lloyd's List Intelligence — dark-fleet & war-risk tracking",
-"Ambrey — real-time maritime security incident reporting",
-"InfraNews Russia — rail & corridor traffic analytics",
-"Rusagrotrans / Moscow Times — grain export & terminal-repair reporting",
-"Euromaidan Press / UkrAgroConsult / Kyiv Post — Ukraine rail, port & grain-market reporting",
-"usm.media (Ukraine/Black Sea ports & grain-logistics trade press)",
-"Business Recorder — wire-sourced Black Sea grain & commodity coverage",
-"Council on Foreign Relations (CFR) — Black Sea grain-crisis policy analysis",
-"Ukraine foreign intelligence service (primary source on Ukraine's own assessments, not neutral)",
-"New Eastern Europe (Central & Eastern Europe policy & security magazine — Ukraine grain corridor coverage)"
-],
-"Indian Subcontinent Corridor — EXIM, Infrastructure": [
-"ICEGATE / CBIC — Indian Customs gateway",
-"Indian Ports Association (IPA) — port dwell & turnaround data",
-"The Economic Times (Logistics Desk) — freight & PLI trends"
-],
-"Mainland China Corridor — Output, Export Controls": [
-"Caixin Global — independent Caixin Manufacturing PMI; factory-level economic data, manufacturing and industrial output metrics",
-"Shanghai Shipping Exchange (SSE) — SCFI freight index",
-"China Ministry of Transport policy monitors — export restriction tracking"
-],
-"Middle East & Suez Corridor — Chokepoints, Bunkering": [
-"UKMTO — vetted incident coordinates from master mariners",
-"Port of Fujairah Advisory Board — bunkering price signals",
-"MEED (Middle East Economic Digest) — MENA infrastructure monitor"
-],
-"Cross-Cutting Neutral Data": [
-"MarineTraffic / Kpler — ship (AIS) tracking",
-"Sentinel Hub / Planet Labs — satellite imagery",
-"Lloyd's List / TradeWinds — shipping industry trade press",
-"Maritime Executive / gCaptain — shipping industry trade press",
-"Hansa News (Hansa International Maritime Journal) — European shipping trade press",
-"Cyprus Shipping News — Mediterranean & Black Sea shipping trade press",
-"WorldCargoNews — shipping & ports trade press",
-"Dimerco Asia Pacific Freight Report — regional freight market intelligence",
-"IEA — energy flow data",
-"Lloyd's of London / Joint War Committee — war-risk insurance premiums",
-"IMF PortWatch Data Hub — AIS-derived port & chokepoint congestion index",
-"TankerMap Straits Analytics — vessel-tracking chokepoint transit analytics",
-"UNCTADstat — UN trade & maritime transport statistics",
-"Panama Canal Authority (ACP) Advisories Portal — official weekly transit-slot allocation notices (primary source, not third-party verification)",
-"ReCAAP Information Sharing Centre — Asia piracy & armed-robbery incident reporting",
-"Drewry / Baltic Exchange — freight index benchmarks",
-"TrendForce — semiconductor & memory market intelligence",
-"MINING.COM / The Northern Miner — mining industry trade press",
-"Benchmark Minerals — battery & critical minerals market intelligence",
-"Mysteel — commodity market analysis (steel, base metals, minerals)",
-"Seatrade Maritime / PortNews — container shipping trade press",
-"Hellenic Shipping News / The DCN — shipping industry trade press",
-"Britannia P&I — marine insurance club incident reporting",
-"World Oil / IndexBox — energy & commodity market data",
-"Trading Economics — cross-market price & macro data aggregator",
-"Fastmarkets — battery & minor-metals price assessments",
-"TradeTech / UxC — nuclear fuel market price indicators",
-"WWD Sourcing Journal / Kuehne+Nagel / SEKO Logistics / Woodland Group — Asia port-congestion trade press",
-"Linerlytica — container-shipping capacity & port-congestion analytics",
-"Yahoo Finance — financial markets data aggregator",
-"Yahoo News — general wire-service news aggregator",
-"Startup Fortune — business & commodity markets news",
-"MacroMicro — Asia-Pacific macro & commodity data aggregator",
-"OpenPR — press-release wire aggregator (rare-earth price tracking)",
-"SMM (Shanghai Metals Market) — China spot metal & rare-earth benchmarks",
-"Argus Media — minor-metals & rare-earth price assessments",
-"Materials Dispatch — rare-earth & minor-metals supply analysis",
-"Silver Institute — silver supply-demand balance",
-"AL Circle — aluminium industry trade press",
-"EnergyNow.com — energy markets trade press",
-"Automotive Supply Chain Risk Digest (ELM Analytics) — automotive & semiconductor supply-chain risk analysis",
-"Kitco News — precious & base metals market news wire",
-"Crux Investor — mining & metals market analysis",
-"TradingView — financial news & charting aggregator",
-"Discovery Alert (mining & metals market analysis)",
-"Finimize (markets & investing digest)",
-"Mining.com.au (Australian mining industry trade press)",
-"Baird Maritime (shipping & maritime trade press)",
-"DigiTimes (global semiconductor & electronics trade press)",
-"Metalnomist (critical minerals & metals policy trade press)",
-"Tom's Hardware (technology & semiconductor hardware trade press)",
-"Democracy Now (independent US news program)"
-],
-"Academic & Policy Research": [
-"Peterson Institute for International Economics (PIIE) — bilateral trade shifts, tariff and macroeconomic impact analysis",
-"Chatham House — trade barrier regulation, food supply chain vulnerability, maritime regimes",
-"Indian Council for Research on International Economic Relations (ICRIER) — domestic manufacturing integration, trade policy (India)",
-"Asian Development Bank (ADB) — Global Value Chain Development Reports, cross-country component pipelines",
-"Policy Center for the New South — South-South trade lanes, industrial localization, fertilizer logistics",
-"Gulf Research Center (GRC) — shipping metrics, bunkering costs, chokepoint security (Suez, Hormuz, Bab-el-Mandeb)",
-"World Economic Forum (WEF) — global economic & supply-chain analysis",
-"Clyde & Co (international law firm — trade sanctions & tariff-law analysis)"
-]
+"Africa": {
+narrative: ["SAnews (South African Government News Agency)", "The Herald (Zimbabwe)", "DRC government / ACP (Agence Congolaise de Presse)"],
+verified: ["Africanews", "The Africa Report", "Mining Weekly", "Ecofin Agency"],
+data: ["Transnet port statistics (South Africa)", "ARECOMS cobalt export-quota notices (DRC)", "Stats SA (Statistics South Africa)"]
+},
+"China": {
+narrative: ["Xinhua", "Global Times", "MOFCOM / NDRC statements"],
+verified: ["Caixin Global", "South China Morning Post", "Yicai Global", "Mysteel (trade press)"],
+data: ["China Customs (GACC) trade data", "Shanghai Shipping Exchange (SCFI freight index)", "SMM (Shanghai Metals Market)", "National Bureau of Statistics of China"]
+},
+"East Asia": {
+narrative: ["Japan METI / MOFA statements", "Yonhap (South Korea)", "Focus Taiwan (CNA)"],
+verified: ["Nikkei Asia", "Kyodo News", "The Korea Herald", "DigiTimes (trade press)"],
+data: ["Japan Customs trade statistics", "Korea Customs Service trade data", "TrendForce (semiconductor market data)"]
+},
+"Europe": {
+narrative: ["European Commission", "UK Government"],
+verified: ["Reuters", "Financial Times", "Deutsche Welle", "Euronews", "Hellenic Shipping News (trade press)", "Seatrade Maritime (trade press)"],
+data: ["ICE Brent futures", "Lloyd's List Intelligence (ship transits)", "Drewry / Baltic Exchange (freight indices)", "Kpler / MarineTraffic (ship tracking)", "Argus / Fastmarkets (price assessments)", "IEA (energy and critical-minerals data)", "World Nuclear Association (uranium data)", "UKMTO (maritime security incidents)"]
+},
+"Latin America": {
+narrative: ["Agência Brasil", "Chile government statements", "Panama Canal Authority statements"],
+verified: ["MercoPress", "BNamericas", "Rio Times", "Newsroom Panama"],
+data: ["Panama Canal Authority advisories (transits and slots)", "Cochilco (Chile copper data)", "Comex Stat (Brazil trade data)"]
+},
+"Middle East": {
+narrative: ["IRNA / Press TV (Iran)", "WAM / SPA / QNA (Gulf state news agencies)", "Al-Masirah (Houthis, Yemen)", "Israeli government statements"],
+verified: ["Al Jazeera", "Al Arabiya", "Times of Israel", "Amwaj.media", "MEED (trade press)"],
+data: ["FOIZ Fujairah oil stocks", "OPEC Monthly Oil Market Report", "Suez Canal Authority transit statistics", "Saudi Aramco official selling prices"]
+},
+"North America": {
+narrative: ["US State Department / White House / USTR statements", "CENTCOM statements", "Government of Canada statements"],
+verified: ["Associated Press", "Bloomberg", "Axios", "CBC News", "MINING.COM (trade press)", "gCaptain (trade press)"],
+data: ["EIA (US Energy Information Administration)", "US Census Bureau trade data", "USGS (mineral statistics)", "CME Group (NYMEX / COMEX prices)", "IMF PortWatch (chokepoint transits)", "Trading Economics (price data)"]
+},
+"Oceania": {
+narrative: ["Australian Government statements", "New Zealand Government statements"],
+verified: ["ABC News (Australia)", "Australian Financial Review", "Mining.com.au", "RNZ"],
+data: ["Resources and Energy Quarterly (Australian Government)", "Australian Bureau of Statistics"]
+},
+"Russia": {
+narrative: ["TASS", "RIA Novosti", "Rossiyskaya Gazeta (official texts of decrees and laws)"],
+verified: ["Interfax", "Kommersant", "Vedomosti", "RBC (RosBiznesConsulting)", "PortNews (trade press)"],
+data: ["Rosstat freight tariff index (monthly)", "Sovcomflot operating reports", "FESCO / Vladivostok port throughput", "Rosmorport and sea-port cargo statistics", "Urals price (Ministry of Economic Development monthly average)"]
+},
+"South Asia": {
+narrative: ["MEA / PIB statements (India)", "DGFT notices (India Commerce Ministry)", "Ministry of Ports, Shipping and Waterways statements (India)"],
+verified: ["The Hindu", "Business Standard", "Livemint / Economic Times", "The Indian Express"],
+data: ["NSE closing prices", "Indian Ports Association traffic data", "India Commerce Ministry trade data"]
+},
+"Southeast Asia": {
+narrative: ["Bernama (Malaysia)", "Antara (Indonesia)", "Vietnam News Agency"],
+verified: ["The Straits Times", "The Jakarta Post", "VnExpress International"],
+data: ["MPA Singapore port statistics", "Statistics Indonesia (BPS)", "Bursa Malaysia palm oil futures", "ReCAAP ISC (piracy incidents)"]
+},
+"Research": {
+research: ["Asian Development Bank (Southeast Asia)", "Bruegel (Europe)", "CCG, Center for China and Globalization (China)", "Gulf Research Center (Middle East)", "ICRIER (South Asia)", "PIIE (North America)", "Policy Center for the New South (Africa)", "RIAC, Russian International Affairs Council (Russia)"]
+}
 };
 function primaryGroup(cats) {
 if (cats.some(function(c) {
@@ -2868,13 +2842,25 @@ fluidityFill.style.width = fluidityPct + "%";
 if (frictionLabel) frictionLabel.textContent = frictionPct + "% Friction";
 if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fluidity";
 }
-function renderSourcesModal() {
+var SOURCE_PILLARS = [ [ "narrative", "1 · Narrative", "State media and officials: what each side wants believed." ], [ "verified", "2 · Verified", "Independent and commercial press reporting from the ground." ], [ "data", "3 · Data", "Each region's own physical and market figures: what is actually happening. Where sides' figures differ, both are shown." ], [ "research", "Research", "Research bodies, used for context and never as verification." ] ];
+function renderSourcesModal(pillar) {
 var el = document.getElementById("sourcesModalList");
+var tabs = document.getElementById("sourceTabs");
+var note = document.getElementById("sourceTabNote");
 if (!el) return;
+pillar = pillar || "narrative";
+if (tabs) tabs.innerHTML = SOURCE_PILLARS.map(function(p) {
+return '<button type="button" class="source-tab" role="tab" data-pillar="' + p[0] + '" aria-selected="' + (p[0] === pillar) + '">' + p[1] + "</button>";
+}).join("");
+SOURCE_PILLARS.forEach(function(p) {
+if (p[0] === pillar && note) note.textContent = p[2];
+});
 var html = "";
-Object.keys(sourceCategories).forEach(function(group) {
-html += '<li class="sources-group-heading">' + group + "</li>";
-sourceCategories[group].forEach(function(name) {
+Object.keys(sourceCategories).forEach(function(region) {
+var list = sourceCategories[region][pillar];
+if (!list || !list.length) return;
+if (pillar !== "research") html += '<li class="sources-group-heading">' + region + "</li>";
+list.forEach(function(name) {
 html += "<li>" + name + "</li>";
 });
 });
@@ -2892,6 +2878,11 @@ function close() {
 overlay.hidden = true;
 }
 btn.addEventListener("click", open);
+var tabs = document.getElementById("sourceTabs");
+if (tabs) tabs.addEventListener("click", function(e) {
+var t = e.target.closest(".source-tab");
+if (t) renderSourcesModal(t.getAttribute("data-pillar"));
+});
 closeBtn.addEventListener("click", close);
 overlay.addEventListener("click", function(e) {
 if (e.target === overlay) close();
@@ -3075,6 +3066,23 @@ var i = dek.indexOf(marker);
 if (i === -1) return { main: dek, why: "" };
 return { main: dek.slice(0, i), why: dek.slice(i + marker.length) };
 }
+function checksHtml(story) {
+var c = story.checks;
+if (!c) return "";
+function row(label, text, cls) {
+return text ? '<div class="check-row"><span class="check-lbl">' + label + '</span><span class="check-tx' + cls + '">' + text + "</span></div>" : "";
+}
+return '<div class="checks">' + row("Claims", c.claims, "") + row("Verified by", c.verified, "") + row("Data", c.data, " check-data") + "</div>";
+}
+function sourceLinksHtml(story) {
+var links = story.links && story.links.length ? story.links : [ {
+name: story.src,
+url: story.url
+} ];
+return '<span class="card-srcs">' + links.map(function(l) {
+return '<a class="card-src" href="' + l.url + '" target="_blank" rel="noopener">' + l.name + "</a>" + (l.via ? '<span class="src-via"> via ' + l.via + "</span>" : "");
+}).join('<span class="src-sep"> / </span>') + "</span>";
+}
 function cardHtml(story, idx) {
 var tags = story.cats.filter(function(c) {
 return c !== "india";
@@ -3091,7 +3099,7 @@ var telemetryBit = story.telemetry || "" ? ' <span class="src">· Telemetry via 
 var rowId = crossLinkRowId("river", idx);
 var xlinks = crossLinksHtml("river", story.linkTag, rowId);
 var deks = splitDek(story.dek);
-return '<article class="card" id="' + rowId + '" data-cats="' + story.cats.join(",") + '" data-india="' + story.india + '" data-search="' + searchBlob + '">' + "<div>" + '<div class="card-tags">' + tags + indiaFlag + "</div>" + '<a class="card-src" href="' + story.url + '" target="_blank" rel="noopener">' + story.src + "</a>" + telemetryBit + "<h3>" + story.title + '<span class="card-expand-hint">›</span></h3>' + '<p class="dek">' + deks.main + "</p>" + (deks.why ? '<div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text">' + deks.why + '</span></div>' : "") + (story.action ? '<div class="action-note"><span class="action-label">What to do</span> <span class="action-text">' + story.action + '</span></div>' : "") + '<div class="meta">' + relativeFreshness(story.dateISO) + " &middot; " + sourceConfidenceHtml(story.src) + "</div>" + xlinks + "</div>" + '<button class="save-btn" type="button" data-idx="' + idx + '" aria-pressed="' + isSaved + '" aria-label="Save story" title="Save">' + (isSaved ? "★" : "☆") + "</button>" + "</article>";
+return '<article class="card" id="' + rowId + '" data-cats="' + story.cats.join(",") + '" data-india="' + story.india + '" data-search="' + searchBlob + '">' + "<div>" + '<div class="card-tags">' + tags + indiaFlag + "</div>" + sourceLinksHtml(story) + telemetryBit + "<h3>" + story.title + '<span class="card-expand-hint">›</span></h3>' + '<p class="dek">' + deks.main + "</p>" + (deks.why ? '<div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text">' + deks.why + '</span></div>' : "") + (story.action ? '<div class="action-note"><span class="action-label">What to do</span> <span class="action-text">' + story.action + '</span></div>' : "") + checksHtml(story) + '<div class="meta">' + relativeFreshness(story.dateISO) + " &middot; " + sourceConfidenceHtml(story.src) + "</div>" + xlinks + "</div>" + '<button class="save-btn" type="button" data-idx="' + idx + '" aria-pressed="' + isSaved + '" aria-label="Save story" title="Save">' + (isSaved ? "★" : "☆") + "</button>" + "</article>";
 }
 function renderLeadFreshness() {
 var el = document.getElementById("leadFreshness");
@@ -3100,6 +3108,14 @@ var lead = stories.reduce(function(max, s) {
 return (s.impact || 0) > (max.impact || 0) ? s : max;
 }, stories[0]);
 el.textContent = relativeFreshness(lead.dateISO) || "Updated today";
+}
+function renderLeadChecks() {
+var el = document.getElementById("leadChecks");
+if (!el || !stories.length) return;
+var lead = stories.reduce(function(max, s) {
+return (s.impact || 0) > (max.impact || 0) ? s : max;
+}, stories[0]);
+el.innerHTML = checksHtml(lead);
 }
 function renderLeadCrossLinks() {
 var el = document.getElementById("leadCrossLinks");
@@ -3440,6 +3456,7 @@ renderTradePolicy();
 wireExpandableRows("tradePolicy", ".chokepoint-row");
 renderRiver();
 renderLeadFreshness();
+renderLeadChecks();
 renderLeadCrossLinks();
 wireCardExpand();
 renderSourcesModal();
