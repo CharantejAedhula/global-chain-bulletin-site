@@ -1,7 +1,8 @@
 name: Verify site
 
 # Checks the published bulletin for broken, missing, stale or mismatched content.
-# A red cross here means something on the live page needs attention (GitHub emails the repo owner).
+# On failure it opens (or comments on) a "site-check" issue, so GitHub emails and pushes a
+# notification to the repo owner; the next passing check closes that issue.
 on:
   push:
     branches: [main]
@@ -10,6 +11,7 @@ on:
       - share.js
       - data/prices.json
       - scripts/verify_site.js
+      - .github/workflows/verify-site.yml
   pull_request:
     paths:
       - index.html
@@ -22,6 +24,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   verify:
@@ -36,9 +39,42 @@ jobs:
       - name: Content check
         if: github.event.schedule != '0 6 * * 1'
         run: |
+          set -o pipefail
           if [ "${{ github.event_name }}" = "schedule" ]; then AGE=1; else AGE=3; fi
-          node scripts/verify_site.js index.html --max-age-days $AGE
+          node scripts/verify_site.js index.html --max-age-days $AGE | tee verify.log
 
       - name: Content check with link check (weekly)
         if: github.event.schedule == '0 6 * * 1'
-        run: node scripts/verify_site.js index.html --max-age-days 1 --check-links
+        run: |
+          set -o pipefail
+          node scripts/verify_site.js index.html --max-age-days 1 --check-links | tee verify.log
+
+      - name: Notify the owner (open or update a site-check issue)
+        if: failure() && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create site-check --color B60205 --description "Verify site check failed" --force
+          {
+            echo "The **Verify site** check failed ($(TZ=Asia/Kolkata date '+%a %d %b %Y, %H:%M IST'), triggered by ${{ github.event_name }})."
+            echo
+            echo '```'
+            grep -E "Checked|ERROR|error\(s\)" verify.log || echo "No check output: the job failed before the check ran. See the run log."
+            echo '```'
+            echo
+            echo "Run log: $RUN_URL"
+          } > body.md
+          num=$(gh issue list --state open --label site-check --json number --jq '.[0].number')
+          if [ -n "$num" ]; then gh issue comment "$num" --body-file body.md
+          else gh issue create --title "Site check failed — $(TZ=Asia/Kolkata date +%Y-%m-%d)" --label site-check --body-file body.md; fi
+
+      - name: Close the site-check issue once the check passes again
+        if: success() && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          for num in $(gh issue list --state open --label site-check --json number --jq '.[].number'); do
+            gh issue close "$num" --comment "Check passes again: $RUN_URL"
+          done

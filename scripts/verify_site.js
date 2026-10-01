@@ -31,11 +31,19 @@ const DAY = 86400000;
 const isoRe = /^\d{4}-\d{2}-\d{2}$/;
 const validIso = (s) => typeof s === "string" && isoRe.test(s) && !isNaN(Date.parse(s + "T00:00:00Z"));
 const ageDays = (iso) => Math.floor((today - new Date(iso + "T00:00:00Z")) / DAY);
+// The page may write a character as an entity (&ldquo;) where the data has the character itself (“); decode both sides.
+const ENTITIES = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", middot: "·", ldquo: "“", rdquo: "”", lsquo: "‘", rsquo: "’",
+  sbquo: "‚", bdquo: "„", mdash: "—", ndash: "–", hellip: "…", rarr: "→", larr: "←", uarr: "↑", darr: "↓", times: "×",
+  deg: "°", plusmn: "±", minus: "−", euro: "€", pound: "£", yen: "¥", rupee: "₹", bull: "•", prime: "′", Prime: "″",
+  laquo: "«", raquo: "»", copy: "©", reg: "®", trade: "™", sect: "§", para: "¶", eacute: "é", Eacute: "É", aacute: "á",
+  iacute: "í", oacute: "ó", uacute: "ú", ntilde: "ñ", ccedil: "ç", uuml: "ü", ouml: "ö", auml: "ä", egrave: "è",
+};
+const decode = (s) =>
+  s.replace(/&(#x[0-9a-f]+|#[0-9]+|[a-z][a-z0-9]*);/gi, (m, e) =>
+    e[0] === "#" ? String.fromCodePoint(e[1] === "x" || e[1] === "X" ? parseInt(e.slice(2), 16) : +e.slice(1)) : ENTITIES[e] !== undefined ? ENTITIES[e] : m);
 const plain = (s) =>
-  String(s)
-    .replace(/<[^>]+>/g, "")
-    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&middot;/g, "·")
+  decode(String(s).replace(/<[^>]+>/g, ""))
     .replace(/\s+/g, " ").trim();
 
 // ---- pull the data arrays out of the page's script ----
