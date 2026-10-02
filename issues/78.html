@@ -162,7 +162,7 @@ a.card-src:focus-visible,a.card-src:hover{color:var(--accent);border-bottom-colo
 .card h3{font-family:var(--font-display);font-weight:400;font-size:19px;line-height:1.28;margin:0 0 6px;text-wrap:balance;cursor:pointer}
 .card p.dek{display:none;color:var(--ink-dim);font-size:13.5px;margin:0 0 8px;max-width:68ch}
 .card.expanded p.dek{display:block}
-.why-matters{display:none;margin-top:8px;padding:7px 10px;border-radius:6px;background:var(--accent-soft);border:1px solid var(--rule)}.card.expanded .why-matters,.lead.expanded .why-matters{display:block}.why-matters-label{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-right:6px}.why-matters-text{font-size:13px;color:var(--ink);line-height:1.4}.action-note{display:none;margin-top:8px;padding:7px 10px;border-radius:6px;background:var(--teal-soft);border:1px solid var(--rule)}
+.why-matters{display:none;margin-top:8px;padding:7px 10px;border-radius:6px;background:var(--accent-soft);border:1px solid var(--rule)}.card.expanded .why-matters,.lead.expanded .why-matters{display:block}.why-matters-label{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-right:6px}.why-matters-text{font-size:13px;color:var(--ink);line-height:1.4}.why-lens{display:block;margin-top:4px}.why-lens b{font-family:var(--font-mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-dim);font-weight:700;margin-right:6px}.action-note{display:none;margin-top:8px;padding:7px 10px;border-radius:6px;background:var(--teal-soft);border:1px solid var(--rule)}
 .card.expanded .action-note,.lead.expanded .action-note{display:block}
 .action-label{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-right:6px}
 .action-text{font-size:13px;color:var(--ink);line-height:1.4}
@@ -350,9 +350,8 @@ footer{margin-top:24px!important;color:#666!important}
         <div class="lead" id="xlink-lead-hormuz">
           <div class="eyebrow">Lead &middot; Impact Score 10</div>
           <h2>Trump calls renewed bombing of Iran after the midterms “possible”; Iran's Revolutionary Guard calls him an “inveterate liar”<span class="card-expand-hint">›</span></h2>
-          <p class="dek">President Trump told TIME, in an interview conducted Sept 28 and published Oct 1, that renewed US bombing of Iran after the November midterms was “possible” and that “by annihilating Iran, we've created peace in the world,” Axios reports. On Sept 29, Revolutionary Guard spokesman Hossein Mohebbi called Trump an “inveterate liar”, Al Jazeera reports; Tehran had said on Sept 27 that diplomacy was the only way to end the conflict. A US official, unnamed, told Bloomberg the US may deploy a third aircraft carrier near Iran. ICE Brent settled at $102.31 on Oct 1.</p>
-          <div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text">Both governments' public statements hardened in the same week while the Strait of Hormuz stays shut to most traffic, so buyers of Gulf crude and LNG should plan for a longer disruption rather than a quick deal.</span></div>
-          <div class="action-note"><span class="action-label">What to do</span><span class="action-text">Watch whether a third carrier actually arrives and whether the mediators report any new US reply to Iran's seven-day Hormuz offer.</span></div>
+          <p class="dek">Trump spoke in a TIME interview held Sept 28 and published Oct 1; the Guard's spokesman Hossein Mohebbi spoke on Sept 29. Tehran said on Sept 27 that diplomacy was the only way out. An unnamed US official told Bloomberg a third carrier may deploy near Iran.</p>
+          <div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text"><span class='why-lens'><b>Investors</b> Brent was $102 on Oct 1; with Hormuz mostly shut, oil, tanker and insurance prices swing with each strike.</span><span class='why-lens'><b>Governments</b> Gulf oil and LNG importers in Asia and Europe keep drawing on reserves and seeking supply elsewhere.</span><span class='why-lens'><b>People</b> Petrol, cooking gas and airfares could stay costly; watch for ships moving through Hormuz again.</span></span></div>
           <div id="leadChecks"></div>
           <p class="byline"><span class="byline-sources">Compiled from <a href="https://www.axios.com/2026/10/01/trump-time-interview-iran-democrats-ai-netanyahu" target="_blank" rel="noopener">Axios</a> &amp; <a href="https://www.aljazeera.com/news/2026/9/29/trump-administration-must-be-changed-irans-irgc-appeals-to-us-voters" target="_blank" rel="noopener">Al Jazeera</a> &amp; <a href="https://www.bloomberg.com/news/articles/2026-10-01/us-may-soon-base-three-carriers-near-iran-official-says" target="_blank" rel="noopener">Bloomberg</a></span><span class="byline-meta"><span id="leadFreshness"></span> &middot; <span class="source-conf corroborated" title="Independently reported by 3 named outlets">Corroborated &middot; 3 sources</span></span></p>
           <div class="cross-links" id="leadCrossLinks"></div>
@@ -1792,12 +1791,12 @@ note: "China's commerce ministry suspended the December 2024 US export ban on No
 var chokepoints = [
 {
 name: "Strait of Hormuz",
-status: "Tanker struck Oct 1, the fourth attack logged in 96 hours (UKMTO, JMIC); US and Iran describe the strait differently",
+status: "Tanker struck Oct 1; 4 attacks logged in 96 hours (UKMTO, JMIC)",
 cls: "status-high",
 linkTag: "hormuz",
-note: "UKMTO logged a tanker strike in the strait at 17:50 UTC on Oct 1 (Warning 147-26) after three tanker strikes reported on Sept 29; the Joint Maritime Information Center counts four attacks or disruptions in 96 hours and rates the threat SEVERE. The two governments describe the strait differently: President Trump told TIME the US had “basically closed it on them” and that a record number of barrels passed one night, while Iran offered on Sept 26 to reopen it within seven days if the US lifts its naval blockade of Iranian ports. Lloyd's List's last confirmed daily count was 1 transit on Sept 23.",
+note: "Iran offered on Sept 26 to reopen the strait within seven days if the US lifts its naval blockade; Washington rejected it.",
 links: [{"name": "gCaptain", "url": "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-attacks-continue/"}, {"name": "Reuters", "url": "https://www.timesofisrael.com/liveblog_entry/uk-maritime-group-says-tanker-struck-by-unknown-projectile-in-strait-of-hormuz/", "via": "Times of Israel"}, {"name": "Associated Press", "url": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news", "via": "PBS NewsHour"}],
-checks: {"claims": "Trump (TIME): US “took it over”, record barrels one night · Iran (Araghchi): will reopen in 7 days if US lifts blockade", "data": "UKMTO Warning 147-26 (Oct 1); JMIC: 4 attacks in 96 hours, SEVERE; Lloyd's List: 1 transit on Sept 23", "verified": "gCaptain / Reuters / Associated Press", "verdict": "Data contradicts the “record barrels” claim (1 transit Sept 23, 4 attacks in 96 h) and fits Iran's position that the strait is shut"},
+checks: {"claims": "US (Trump, TIME): US “took it over”, record barrels one night · Iran: strait shut until blockade lifted", "data": "UKMTO 147-26 (Oct 1); JMIC threat SEVERE; Lloyd's List: 1 transit on Sept 23", "verdict": "Data contradicts the “record barrels” claim and fits Iran's position that the strait is shut"},
 history: [
 {
 d: "2026-08-30",
@@ -1859,12 +1858,12 @@ v: 1
 },
 {
 name: "Bab-el-Mandeb / Red Sea",
-status: "Houthis hold Mokha and Perim; August transits 1,166, down 49% on July (Lloyd's List)",
+status: "Houthis hold Mokha and Perim; August transits down 49% on July",
 cls: "status-high",
 linkTag: "bab-el-mandeb",
-note: "The Houthis took the port of Mokha and Perim (Mayyun) island on the strait around Sept 11, Al Jazeera reports; Houthi politburo member Hazem al-Assad said navigation through Bab al-Mandeb is “safe and orderly”. A US Maritime Administration advisory in force from Sept 23 warns of ongoing Houthi attacks and higher risk for US-, UK-, Israel- and Saudi-linked ships. Lloyd's List Intelligence counted 1,166 transits in August, up 6% on a year earlier but down 49% on July, with only one Saudi-linked tanker transit since July 20. IMF PortWatch daily transit calls stood near 22 on Sept 27.",
+note: "The Houthis took Mokha and Perim (Mayyun) island around Sept 11, Al Jazeera reports.",
 links: [{"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/9/13/red-sea-nations-watch-as-houthis-seize-bab-al-mandeb-strait"}, {"name": "Lloyd's List Intelligence", "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-18-september-2026"}],
-checks: {"claims": "Houthis (al-Assad, Sept 13): navigation “safe and orderly” · US MARAD advisory (from Sept 23): Houthi attacks ongoing", "data": "Lloyd's List: 1,166 transits in Aug (−49% on July, +6% y/y); IMF PortWatch ~22 calls a day on Sept 27", "verified": "Al Jazeera / Lloyd's List Intelligence", "verdict": "Mixed: transits up 6% y/y but down 49% on July, and 1 Saudi-linked tanker since July 20, so not “safe” for every ship"},
+checks: {"claims": "Houthis (al-Assad): navigation “safe and orderly” · US MARAD (Sept 23): attacks ongoing", "data": "Lloyd's List: 1,166 transits Aug (+6% y/y, −49% m/m); 1 Saudi-linked tanker since July 20", "verdict": "Mixed: traffic continues, but Saudi-linked ships have almost stopped, so not “safe” for every ship"},
 history: [
 {
 d: "2026-09-27",
@@ -1874,11 +1873,11 @@ v: 22
 },
 {
 name: "Suez Canal",
-status: "August transits 1,232, up 28% on a year earlier (Lloyd's List); OOCL plans an October trial transit (SCA)",
+status: "Transits up 28% on a year earlier in August; carriers returning",
 cls: "status-elevated",
-note: "Lloyd's List Intelligence counted 1,232 Suez transits in August, up 28% year on year and the busiest month since December 2023. After meeting 20 shipping lines in Ismailia on Sept 24, the Suez Canal Authority said OOCL expects an experimental transit in October, Yang Ming is considering a return and COSCO is weighing more voyages; it said Maersk made 67 transits in September against 8 a year earlier, PortNews reports. This chart tracks a 4-week rolling all-carrier count whose last confirmed reading is 1,090 on Aug 20; the monthly figures above are a different measure.",
+note: "OOCL plans an October trial transit; Yang Ming and COSCO weigh more (SCA, Sept 24). The chart tracks a 4-week rolling count, last confirmed 1,090 on Aug 20.",
 links: [{"name": "PortNews", "url": "https://en.portnews.ru/news/397412/"}, {"name": "Lloyd's List Intelligence", "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-18-september-2026"}],
-checks: {"claims": "Suez Canal Authority: OOCL, Yang Ming and COSCO plan or weigh more transits · Houthis: Red Sea navigation “safe”", "data": "Lloyd's List: 1,232 transits in Aug (+28% y/y); SCA: Maersk 67 transits in Sept vs 8 a year earlier", "verified": "PortNews / Lloyd's List Intelligence", "verdict": "Matches the SCA: Lloyd's List shows August transits up 28% y/y; Maersk made 67 September crossings vs 8"},
+checks: {"claims": "Suez Canal Authority: lines are returning · Houthis: Red Sea navigation “safe”", "data": "Lloyd's List: 1,232 transits Aug (+28% y/y); SCA: Maersk 67 Sept crossings vs 8", "verdict": "Matches the SCA: independent Lloyd's List counts show transits rising"},
 history: [
 {
 d: "2026-07-19",
@@ -1896,11 +1895,11 @@ v: 1090
 },
 {
 name: "Panama Canal",
-status: "Daily transit cap rises to 33 and Neopanamax draft to 14.94 m from Oct 15 (ACP)",
+status: "Daily slots rise to 33 from Oct 15 (ACP)",
 cls: "status-elevated",
-note: "The Panama Canal Authority will raise daily transit slots to 33 (23 Panamax plus 10 Neopanamax) and lift the maximum Neopanamax draft to 14.94 metres (49 feet) from Oct 15, citing near-average watershed rainfall and water-saving measures, Newsroom Panama and Seatrade Maritime report. Per-customer daily and weekly slot limits are removed for bookings from Oct 15. This year's scramble for scarce slots pushed a single-transit auction to a record $5.3 million in August. The 32-slot cap in force since Sept 15 remains the current figure.",
+note: "The Neopanamax draft rises to 14.94 m and per-customer slot limits end the same day.",
 links: [{"name": "Newsroom Panama", "url": "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/"}, {"name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/maritime-transportation/supply-chain-relief-panama-canal-to-increase-in-draught-and-daily-transits"}],
-checks: {"claims": "Panama Canal Authority: 33 slots and 14.94 m draft from Oct 15, citing near-average rainfall", "data": "32 daily slots since Sept 15; 33 from Oct 15 (ACP); record $5.3m single-slot auction in August", "verified": "Newsroom Panama / Seatrade Maritime", "verdict": "Matches: 32 slots now and 33 from Oct 15 are the ACP's own published allocations"},
+checks: {"claims": "Panama Canal Authority: near-average rainfall allows more slots", "data": "32 slots since Sept 15, 33 from Oct 15; record $5.3m slot auction in Aug", "verdict": "Matches: the ACP's own published allocations"},
 allocationHistory: [
 {
 d: "2026-09-03",
@@ -1914,11 +1913,11 @@ v: 32
 },
 {
 name: "Strait of Malacca",
-status: "Piracy and robbery mostly opportunistic theft; 2025 Malacca-Singapore count was the highest since 2007 (ReCAAP)",
+status: "Mostly opportunistic theft; 2025 incidents highest since 2007 (ReCAAP)",
 cls: "status-active",
-note: "ReCAAP ISC counted 108 incidents in the Malacca and Singapore Straits in 2025, up 74% from 62 in 2024 and the most since its records began in 2007, PortNews reported; most were opportunistic theft at night, and in most cases the crew was not harmed. ReCAAP's H1 2026 report put Asia-wide incidents at 35 (10 in Q1, 25 in Q2), and its alerts flagged repeated night-time robberies in the Singapore Strait's Phillip Channel in March. No Q3 2026 report has been published yet.",
+note: "Night-time robberies hit the Singapore Strait's Phillip Channel in March.",
 links: [{"name": "ReCAAP ISC", "url": "https://www.recaap.org/alerts"}, {"name": "PortNews", "url": "https://en.portnews.ru/news/386610/"}],
-checks: {"claims": "No dispute between governments on record · ReCAAP ISC: incidents mostly opportunistic theft at night", "data": "ReCAAP: 108 Malacca-Singapore incidents in 2025 (62 in 2024); Asia-wide 10 in Q1 2026, 25 in Q2", "verified": "ReCAAP ISC / PortNews", "verdict": "Matches: ReCAAP's counts show mostly opportunistic theft; no government disputes them"},
+checks: {"claims": "No dispute on record · ReCAAP ISC: incidents mostly opportunistic theft at night", "data": "ReCAAP: 108 incidents in 2025 (62 in 2024); Asia-wide 10 in Q1 2026, 25 in Q2", "verdict": "Matches: ReCAAP's counts; no government disputes them"},
 monthlyChartLabel: "Quarterly piracy incidents (ReCAAP)",
 monthlyHistory: [
 {
@@ -1933,11 +1932,11 @@ v: 25
 },
 {
 name: "Cape of Good Hope",
-status: "Carriers shift Asia-Europe sailings back toward Suez; the Cape remains the fallback route",
+status: "Carriers shift Asia-Europe sailings back to Suez",
 cls: "status-elevated",
-note: "Cape routing is easing as carriers return to Suez: the Suez Canal Authority says Maersk made 67 Suez transits in September against 8 a year earlier and OOCL plans an October trial transit, PortNews reports, and Lloyd's List Intelligence counted 1,232 Suez transits in August, the busiest month since December 2023. Ships linked to the US, UK, Israel or Saudi Arabia still face higher Houthi risk in the Red Sea under a US maritime advisory in force since Sept 23, so many keep the Cape route. No public recurring count of Cape diversions exists.",
+note: "US-, UK-, Israel- and Saudi-linked ships still face higher Red Sea risk, so many keep the Cape route.",
 links: [{"name": "PortNews", "url": "https://en.portnews.ru/news/397412/"}, {"name": "Lloyd's List Intelligence", "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-18-september-2026"}],
-checks: {"claims": "Suez Canal Authority: lines are returning · US MARAD (from Sept 23): US-, UK-, Israel-, Saudi-linked ships at higher risk", "data": "SCA: Maersk 67 Suez transits in Sept vs 8 a year earlier; Lloyd's List: 1,232 Suez transits in Aug", "verified": "PortNews / Lloyd's List Intelligence", "verdict": "Consistent: rising Suez transits mean fewer Cape voyages, but no public Cape count exists to measure it"}
+checks: {"claims": "Suez Canal Authority: lines returning · US MARAD (Sept 23): some ships at higher Red Sea risk", "data": "SCA: Maersk 67 Suez transits in Sept vs 8; no public Cape diversion count", "verdict": "Consistent: rising Suez use means fewer Cape voyages; no Cape count exists to measure it"}
 }
 ];
 var tickerItems = [
@@ -2015,15 +2014,13 @@ src: "Axios / Al Jazeera / Bloomberg",
 time: "Sept 28-Oct 1",
 dateISO: "2026-10-01",
 title: "Trump calls renewed bombing of Iran after the midterms “possible”; Iran's Revolutionary Guard calls him an “inveterate liar”",
-dek: "President Trump told TIME, in an interview conducted Sept 28 and published Oct 1, that renewed US bombing of Iran after the November midterms was “possible” and that “by annihilating Iran, we've created peace in the world,” Axios reports. On Sept 29, Revolutionary Guard spokesman Hossein Mohebbi called Trump an “inveterate liar”, Al Jazeera reports; Tehran had said on Sept 27 that diplomacy was the only way to end the conflict. A US official, unnamed, told Bloomberg the US may deploy a third aircraft carrier near Iran. ICE Brent settled at $102.31 on Oct 1.<br><br><strong>Why it matters:</strong> Both governments' public statements hardened in the same week while the Strait of Hormuz stays shut to most traffic, so buyers of Gulf crude and LNG should plan for a longer disruption rather than a quick deal.",
+dek: "Trump spoke in a TIME interview held Sept 28 and published Oct 1; the Guard's spokesman Hossein Mohebbi spoke on Sept 29. Tehran said on Sept 27 that diplomacy was the only way out. An unnamed US official told Bloomberg a third carrier may deploy near Iran.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Brent was $102 on Oct 1; with Hormuz mostly shut, oil, tanker and insurance prices swing with each strike.</span><span class='why-lens'><b>Governments</b> Gulf oil and LNG importers in Asia and Europe keep drawing on reserves and seeking supply elsewhere.</span><span class='why-lens'><b>People</b> Petrol, cooking gas and airfares could stay costly; watch for ships moving through Hormuz again.</span>",
 url: "https://www.axios.com/2026/10/01/trump-time-interview-iran-democrats-ai-netanyahu",
 links: [{"name": "Axios", "url": "https://www.axios.com/2026/10/01/trump-time-interview-iran-democrats-ai-netanyahu"}, {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/29/trump-administration-must-be-changed-irans-irgc-appeals-to-us-voters"}, {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-01/us-may-soon-base-three-carriers-near-iran-official-says"}],
-action: "Watch whether a third carrier actually arrives and whether the mediators report any new US reply to Iran's seven-day Hormuz offer.",
 checks: {
-claims: "Trump (TIME): post-midterm bombing “possible” · IRGC (Mohebbi): Trump an “inveterate liar” · US official (unnamed): 3rd carrier may deploy",
-verified: "Axios / Al Jazeera / Bloomberg",
-data: "ICE Brent $102.31 Oct 1; UKMTO: tanker struck in Hormuz Oct 1; Lloyd's List: 1 Hormuz transit on Sept 23",
-verdict: "Statements of intent not testable yet; a third carrier is unconfirmed. Hormuz data (1 transit Sept 23, 4 attacks in 96 h) shows it still largely shut"
+claims: "US (Trump): strikes after midterms possible · Iran (IRGC): calls them lies · US official (unnamed): 3rd carrier",
+data: "UKMTO: tanker struck Oct 1; Lloyd's List: 1 Hormuz transit Sept 23; ICE Brent $102.31 Oct 1",
+verdict: "Intent not testable; 3rd carrier unconfirmed. Transit and incident data show Hormuz still largely shut"
 }
 },
 {
@@ -2035,15 +2032,13 @@ src: "Reuters / Bloomberg",
 time: "Sept 30-Oct 1",
 dateISO: "2026-10-01",
 title: "Chinese refiners suspend October fuel exports; ship-fuel waits at Zhoushan reach one to two weeks",
-dek: "Chinese refiners have suspended gasoline, diesel and jet fuel exports for October, except to Hong Kong and Macau, and PetroChina cancelled most of its October gasoline and jet fuel cargoes, Reuters reports. Kpler estimates China's commercial diesel stocks sit about 20 million barrels below pre-conflict levels and gasoline about 9 million short; it is unclear whether exports resume after the Golden Week holiday ends Oct 7. Separately, ships at Zhoushan, China's main refuelling hub, face waits of one to two weeks instead of one to two days, Bloomberg reports, after China's low-sulphur fuel oil output fell 13% in August.<br><br><strong>Why it matters:</strong> With China's exports paused and its bunker market tight, Asian buyers lose a source of diesel and jet fuel during the Gulf disruption.",
+dek: "PetroChina cancelled most October gasoline and jet fuel cargoes, and refiners will ship only to Hong Kong and Macau until Beijing says otherwise, Reuters reports. Bloomberg reports ship-fuel waits of one to two weeks at Zhoushan, up from one to two days.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Asian diesel and jet fuel margins and ship-fuel prices could rise; watch whether exports restart after Oct 7.</span><span class='why-lens'><b>Governments</b> Countries that rely on Chinese diesel and jet fuel must find other suppliers while Gulf fuel is also scarce.</span><span class='why-lens'><b>People</b> Pump prices and airfares in countries that buy Chinese fuel could rise.</span>",
 url: "https://www.globalbankingandfinance.com/chinese-refiners-suspend-october-fuel-exports-one-cancels/",
 links: [{"name": "Reuters", "url": "https://www.globalbankingandfinance.com/chinese-refiners-suspend-october-fuel-exports-one-cancels/", "via": "Global Banking & Finance Review"}, {"name": "Bloomberg", "url": "https://gcaptain.com/ships-face-fuel-delays-at-chinas-zhoushan-on-supply-squeeze/", "via": "gCaptain"}],
-action: "Watch whether Beijing lets exports resume after Oct 7; Asian diesel buyers should line up other suppliers for October cargoes.",
 checks: {
-claims: "NDRC (China): no comment over the holiday · Refiners (unnamed, via Reuters): exports halted until Beijing says otherwise",
-verified: "Reuters / Bloomberg",
-data: "Kpler: China diesel stocks ~20m bbl, gasoline ~9m bbl below pre-conflict; Zhoushan low-sulphur fuel oil output −13% in Aug",
-verdict: "Consistent: Kpler's stock gap and Zhoushan's 13% fuel-oil drop fit a squeeze; the halt itself awaits China Customs' October export data"
+claims: "Refiners (unnamed, via Reuters): exports halted until further notice · China (NDRC): no comment",
+data: "Kpler: China diesel stocks ~20m bbl, gasoline ~9m bbl below pre-conflict; Zhoushan fuel-oil output −13% Aug",
+verdict: "Consistent: stock gaps and lower fuel-oil output fit a squeeze; China Customs' October data will confirm the halt"
 }
 },
 {
@@ -2056,15 +2051,13 @@ src: "gCaptain / Reuters",
 time: "Sept 29-Oct 1",
 dateISO: "2026-10-01",
 title: "Tanker struck by a projectile in the Strait of Hormuz, the fourth attack logged in 96 hours",
-dek: "A tanker transiting the Strait of Hormuz was struck by an unknown projectile at about 17:50 UTC on Oct 1, starting a fire on board; the crew is safe and the damage is unknown, the UK Maritime Trade Operations centre (UKMTO) said in Warning 147-26, gCaptain and Reuters report. UKMTO did not name the vessel or the attacker. The Joint Maritime Information Center counted four confirmed attacks or disruptions in the 96 hours before the strike and kept its regional threat level at SEVERE, after UKMTO issued three warnings on Sept 29 for separate tanker strikes. gCaptain notes that many attacks reach the public record late, if at all.<br><br><strong>Why it matters:</strong> Shipowners and insurers decide whether to sail on the incident record, not on statements from Washington or Tehran; four logged attacks in four days is that record.",
+dek: "The strike hit at 17:50 UTC and started a fire; the crew is safe, gCaptain and Reuters report. UKMTO named neither the ship nor the attacker. Three more tanker strikes were reported on Sept 29.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Each strike can push up war-risk insurance and tanker rates, which feed into oil and freight prices.</span><span class='why-lens'><b>Governments</b> Four attacks in 96 hours raise pressure on navies to escort ships and on all sides to de-escalate.</span><span class='why-lens'><b>People</b> Higher shipping and insurance costs end up in the price of fuel and imported goods.</span>",
 url: "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-attacks-continue/",
 links: [{"name": "gCaptain", "url": "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-attacks-continue/"}, {"name": "Reuters", "url": "https://www.timesofisrael.com/liveblog_entry/uk-maritime-group-says-tanker-struck-by-unknown-projectile-in-strait-of-hormuz/", "via": "Times of Israel"}],
-action: "Expect war-risk cover for Hormuz transits to stay scarce; check UKMTO warnings before any Gulf loading.",
 checks: {
 claims: "UKMTO (UK): attacker not identified · Iran, US: no statement on this strike found",
-verified: "gCaptain / Reuters",
-data: "UKMTO Warning 147-26, 17:50 UTC Oct 1; JMIC: 4 attacks or disruptions in 96 hours, threat level SEVERE",
-verdict: "Matches: UKMTO and JMIC logs agree on 4 attacks in 96 hours; no published data identifies the attacker"
+data: "UKMTO Warning 147-26 (Oct 1); JMIC: 4 attacks in 96 hours, threat level SEVERE",
+verdict: "Matches: UKMTO and JMIC logs agree; no published data identifies the attacker"
 }
 },
 {
@@ -2076,15 +2069,13 @@ src: "Rio Times / MINING.COM",
 time: "Sept 30-Oct 1",
 dateISO: "2026-10-01",
 title: "Chile's copper output falls to a 15-year low; Escondida and Centinela mediations grind on",
-dek: "Chile's copper output has fallen to its lowest level in 15 years, Rio Times reported Thursday, with copper holding near $14,400 a tonne. Supervisors at BHP's Escondida voted 95% to strike and two unions at Antofagasta's Centinela voted 98.73% on Sept 28; both disputes remain in Chile's mandatory mediation with no agreement reported by Wednesday, MINING.COM reports, and Centinela's window could lapse as soon as Oct 13, opening the door to a legal strike at a mine producing 240,400 tonnes a year.<br><br><strong>Why it matters:</strong> A 15-year production low arriving just as two of the country's biggest mines approach a legal strike deadline adds to supply risk already visible in copper prices.",
+dek: "Escondida supervisors voted 95% to strike and two Centinela unions 98.73% on Sept 28; both disputes are in mandatory mediation, and Centinela's window could lapse around Oct 13, MINING.COM reports. Centinela produces 240,400 t a year.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> A strike at Escondida or Centinela would tighten copper further, with Comex near its Sept 22 record.</span><span class='why-lens'><b>Governments</b> Chile's tax income, and countries building grids, EVs and ammunition, all depend on this copper.</span><span class='why-lens'><b>People</b> Copper is in house wiring, phones, cars and power lines; less of it can mean pricier electrical goods.</span>",
 url: "https://www.riotimesonline.com/copper-markets-latam-thursday-october-1-2026/",
 links: [{"name": "Rio Times", "url": "https://www.riotimesonline.com/copper-markets-latam-thursday-october-1-2026/"}, {"name": "MINING.COM", "url": "https://www.mining.com/copper-holds-above-14400-as-chile-strike-risk-grows"}],
-action: "Watch Centinela's mediation deadline around Oct 13; a failed mediation there is the next concrete trigger for copper supply.",
 checks: {
 claims: "Centinela unions (via MINING.COM): Antofagasta won't equalise benefits across union lines",
-verified: "Rio Times / MINING.COM",
-data: "Chile copper output at a 15-year low (Rio Times, Oct 1); Comex copper $6.52/lb Oct 1, record $6.83 on Sept 22",
-verdict: "Not testable yet: the 15-year low is Rio Times' figure, pending Cochilco's official monthly data; the unions' claim has no data test"
+data: "Rio Times: output at a 15-year low (Oct 1); Comex copper $6.52/lb Oct 1, record $6.83 Sept 22",
+verdict: "Not testable yet: the 15-year low awaits Cochilco's official monthly data"
 }
 },
 {
@@ -2097,15 +2088,13 @@ src: "Bloomberg / Reuters",
 time: "Sept 29-30",
 dateISO: "2026-09-30",
 title: "OPEC+ ministers meet Oct 4 to set November output targets",
-dek: "Key OPEC+ producers led by Saudi Arabia and Russia hold a video conference on Sunday, Oct 4, to set November production targets; delegates told Bloomberg and Reuters the group is likely to keep quotas unchanged and that no final decision has been made. The group has nominally finished reversing its 2023 supply cuts. OPEC data cited by Reuters show the seven core producers pumped 25.0 million barrels a day in August, up 630,000 from July but about 5 million below February, before the conflict cut Gulf output below quota. The group still has to finish a review of members' production capacity before setting 2027 baselines.<br><br><strong>Why it matters:</strong> With Gulf exports constrained, actual loadings rather than quotas decide how much OPEC crude reaches buyers; a hold would mean no extra planned supply for November.",
+dek: "Saudi Arabia, Russia and five other producers hold a video call on Sunday; delegates told Bloomberg and Reuters quotas will likely stay unchanged and no decision is final. The group must still finish a capacity review before setting 2027 baselines.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> A hold means no planned extra oil for November; prices follow actual shipments while Gulf exports are blocked.</span><span class='why-lens'><b>Governments</b> Oil importers get no extra planned supply; what reaches them depends on which producers can still ship.</span><span class='why-lens'><b>People</b> No increase means no relief at the pump from this meeting; watch the Oct 4 decision.</span>",
 url: "https://www.bloomberg.com/news/articles/2026-09-29/opec-likely-to-stick-with-plan-for-steady-quotas-delegates-say",
 links: [{"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-29/opec-likely-to-stick-with-plan-for-steady-quotas-delegates-say"}, {"name": "Reuters", "url": "https://theedgemalaysia.com/node/819972", "via": "The Edge Malaysia"}],
-action: "Read Sunday's statement for the November figures and any word on the 2027 capacity review.",
 checks: {
-claims: "OPEC+ delegates (unnamed, via Bloomberg and Reuters): November quotas likely unchanged; no final decision",
-verified: "Bloomberg / Reuters",
-data: "OPEC data: 7 core producers 25.0m b/d in August, +630,000 on July, ~5m b/d below February",
-verdict: "Not testable until the Oct 4 statement; OPEC's own August data show output about 5m b/d below February"
+claims: "OPEC+ delegates (unnamed): November quotas likely unchanged, no final decision",
+data: "OPEC data: 7 core producers 25.0m b/d in Aug, +630,000 on July, ~5m b/d below Feb",
+verdict: "Not testable until Sunday's statement; output already sits about 5m b/d below February"
 }
 },
 {
@@ -2117,15 +2106,13 @@ src: "Interfax / Reuters",
 time: "Oct 1",
 dateISO: "2026-10-01",
 title: "Russia's draft budget sets a windfall tax on miners worth 200 billion roubles a year in 2027-2029",
-dek: "Russia's draft 2027-2029 federal budget includes a windfall tax on mining and metals companies expected to raise about 200 billion roubles (about $2.4 billion) a year, Interfax and Reuters report. It takes 20-30% of the extra income from world prices above their 2025 level (20% for gold miners) and covers precious and non-ferrous metals and fertilisers. Interfax lists the largest payers as Nornickel (about 52 billion roubles), Rusal (39 billion) and Polyus (25 billion), plus PhosAgro. Russia levied a similar one-off windfall tax in 2023 that raised more than 300 billion roubles.<br><br><strong>Why it matters:</strong> Nornickel and Rusal supply much of the world's nickel, palladium and aluminium; a larger state share of windfall income leaves less for new capacity at producers of metals tracked in this index.",
+dek: "The tax takes 20-30% of extra income from world prices above 2025 levels (20% for gold) from metals and fertiliser producers, Interfax and Reuters report. Interfax names Nornickel, Rusal, Polyus and PhosAgro as the largest payers. A 2023 one-off levy raised over 300bn roubles.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Nornickel, Rusal and Polyus would hand the state about 116bn roubles a year, leaving less for new mines.</span><span class='why-lens'><b>Governments</b> Moscow gains about 200bn roubles a year; buyers of Russian nickel, palladium and aluminium face slower growth.</span><span class='why-lens'><b>People</b> These metals go into batteries, car exhausts and cans; tighter supply later can raise their cost.</span>",
 url: "https://www.interfax.com/newsroom/top-stories/119353/",
 links: [{"name": "Interfax", "url": "https://www.interfax.com/newsroom/top-stories/119353/"}, {"name": "Reuters", "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N45E0BD:0-russia-sees-2-4-billion-a-year-in-windfall-tax-from-mining-and-metals-in-2027-2029-documents/", "via": "TradingView"}],
-action: "Watch the budget's passage through the State Duma and any change to the 2025 price baseline.",
 checks: {
-claims: "Russian government (draft budget): the tax shares resource rent more fairly between business and the state",
-verified: "Interfax / Reuters",
-data: "Draft federal budget 2027-29: 200bn roubles a year; Nornickel ~52bn, Rusal ~39bn, Polyus ~25bn (Interfax)",
-verdict: "Not testable yet: the 200bn-rouble figure comes from the draft budget itself, with no independent data"
+claims: "Russian government (draft budget): a fairer split of resource rent between business and state",
+data: "Draft budget: ~200bn roubles a year in 2027-29; Nornickel ~52bn, Rusal ~39bn, Polyus ~25bn",
+verdict: "Not testable yet: the revenue figures are the draft budget's own"
 }
 },
 {
@@ -2137,15 +2124,13 @@ src: "Al Jazeera / Bloomberg",
 time: "Oct 1",
 dateISO: "2026-10-01",
 title: "Canada names Pacific Link, a 1 million b/d oil pipeline to the Pacific coast, its first project of national interest",
-dek: "Prime Minister Mark Carney designated Pacific Link, a proposed oil pipeline from Alberta to the British Columbia coast, the first project of national interest under the Building Canada Act, a status that speeds federal review, Al Jazeera and Bloomberg report. The line would carry about 1 million barrels a day toward Asian markets, at a cost of C$35.2-43.7 billion, with Ottawa and Alberta as majority owners and Indigenous communities offered at least 10%. Canada sends more than 90% of its crude exports to the US, and the existing Trans Mountain line, at 890,000 b/d, is full, Al Jazeera reports.<br><br><strong>Why it matters:</strong> A second Pacific outlet would let Canadian crude reach Asian refiners directly and reduce reliance on a single US buyer; earlier pipeline projects faced long Indigenous and environmental challenges.",
+dek: "The status speeds federal review of the line from Alberta to the British Columbia coast, costed at C$35.2-43.7bn, with Ottawa and Alberta as majority owners and Indigenous groups offered at least 10%, Al Jazeera and Bloomberg report.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> A C$35-44bn line with state majority ownership; legal challenges are the main risk to timing and returns.</span><span class='why-lens'><b>Governments</b> Canada cuts its reliance on US buyers; Asian importers gain a possible crude supplier outside the Gulf.</span><span class='why-lens'><b>People</b> More oil routes mean fewer shocks when one region is cut off, but the pipeline is years away.</span>",
 url: "https://www.aljazeera.com/economy/2026/10/1/canada-to-fast-track-oil-pipeline-meant-to-diversify-economy-away-from-us",
 links: [{"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/10/1/canada-to-fast-track-oil-pipeline-meant-to-diversify-economy-away-from-us"}, {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-01/carney-invokes-new-powers-to-fast-track-west-coast-oil-pipeline"}],
-action: "Watch for First Nations and British Columbia responses; they decided the pace of every earlier west-coast pipeline.",
 checks: {
-claims: "Carney: part of a mission “to double our non-US exports” · Alberta's Smith: “cooperative federalism can work”",
-verified: "Al Jazeera / Bloomberg",
-data: "Planned 1m b/d, C$35.2-43.7bn (Government of Canada); Trans Mountain full at 890,000 b/d",
-verdict: "Matches: Trans Mountain running full at 890,000 b/d fits Ottawa's stated export-capacity gap; the new line's figures are plans"
+claims: "Carney: aim “to double our non-US exports” · Alberta's Smith: “cooperative federalism can work”",
+data: "Planned 1m b/d (Government of Canada); Trans Mountain full at 890,000 b/d",
+verdict: "Matches: a full Trans Mountain line fits Ottawa's stated export-capacity gap"
 }
 },
 {
@@ -2157,15 +2142,13 @@ src: "South China Morning Post / Euronews",
 time: "Sept 17-30",
 dateISO: "2026-09-30",
 title: "EU trade chief heads to Beijing Oct 8-9 as Brussels prepares new trade tools against China",
-dek: "EU trade commissioner Maroš Šefčovič meets Chinese Commerce Minister Wang Wentao in Beijing on Oct 8-9 to review progress on rebalancing trade since June, the South China Morning Post reports. The European Commission wants China to set voluntary export limits on goods such as plug-in hybrid cars; Beijing has publicly rejected any suggestion it would curb shipments. EU officials told the paper the talks had gone better than expected and could yield deliverables; the outcome goes to an EU leaders' summit the following week, with new trade-defence tools likely proposed in December. Euronews reported in September that Brussels wants a “credible” outcome.<br><br><strong>Why it matters:</strong> If the talks fail, Chinese EVs, hybrids and other exports to Europe face new EU measures, and China has said it would respond.",
+dek: "Brussels wants China to set voluntary export limits on goods such as plug-in hybrids; Beijing has publicly rejected curbing shipments, the South China Morning Post reports. The outcome goes to an EU summit, with new trade tools likely in December.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> EU carmakers and Chinese EV exporters face new trade measures if talks fail; a decision is likely in December.</span><span class='why-lens'><b>Governments</b> Europe weighs cheaper Chinese goods against its own factories; China has said it would respond.</span><span class='why-lens'><b>People</b> Chinese cars and plug-in hybrids could cost more in Europe if new measures come; watch Oct 8-9.</span>",
 url: "https://www.scmp.com/news/china/diplomacy/article/3369303/eu-weighs-sweeping-new-trade-powers-against-china-make-or-break-october",
 links: [{"name": "South China Morning Post", "url": "https://www.scmp.com/news/china/diplomacy/article/3369303/eu-weighs-sweeping-new-trade-powers-against-china-make-or-break-october"}, {"name": "Euronews", "url": "https://www.euronews.com/2026/09/17/brussels-seeks-credible-outcome-in-eu-china-talks-after-key-negotiators-call"}],
-action: "Watch the Oct 8-9 readouts from both MOFCOM and the Commission; compare what each side says was agreed.",
 checks: {
-claims: "European Commission: wants voluntary Chinese export limits · China: has rejected curbing its shipments (via SCMP)",
-verified: "South China Morning Post / Euronews",
+claims: "European Commission: wants voluntary export limits · China: rejects curbing its shipments",
 data: "No physical data yet",
-verdict: "Not testable yet: no physical data; compare MOFCOM's and the Commission's readouts after Oct 8-9"
+verdict: "Not testable yet: compare MOFCOM's and the Commission's readouts after Oct 8-9"
 }
 },
 {
@@ -2177,15 +2160,13 @@ src: "MINING.COM / Mining.com.au",
 time: "Sept 29-Oct 1",
 dateISO: "2026-09-30",
 title: "Brazil regulator halts part of Sigma Lithium's only mine over an \"imminent risk\" pit-slope rupture",
-dek: "Brazil's mining regulator ANM ordered Sigma Lithium to halt work on part of its Grota do Cirilo mine, its only producing site, after finding a ruptured section on the eastern slope of the north pit, MINING.COM reports; the area stays under interdiction until corrective work is finished. Sigma has cut its FY2027 lithium concentrate guidance to 240,000 tonnes from 330,000, Mining.com.au reports, and the mine already faces a separate Sept 4 court suspension of its environmental licences in a Quilombola-community land-rights suit, with restart now depending on a federal appeals ruling.<br><br><strong>Why it matters:</strong> Two separate legal actions now constrain the single mine supplying almost all of Sigma's lithium, a reminder that regulatory and community risk can idle supply as fast as a strike or an accident.",
+dek: "ANM found a ruptured section on the north pit's eastern slope at Grota do Cirilo, Sigma's only producing mine, MINING.COM reports. A Sept 4 court order had already suspended its environmental licences in a land-rights case.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Sigma cut FY2027 guidance to 240,000 t from 330,000 t; with one mine, it has no backup supply.</span><span class='why-lens'><b>Governments</b> Brazil's regulator and courts decide when output resumes; battery supply rests on few mines.</span><span class='why-lens'><b>People</b> Lithium goes into phone and electric-car batteries; supply hiccups can keep them costly.</span>",
 url: "https://www.mining.com/web/brazil-regulator-orders-partial-halt-at-sigma-lithium-mine-over-imminent-risk",
 links: [{"name": "MINING.COM", "url": "https://www.mining.com/web/brazil-regulator-orders-partial-halt-at-sigma-lithium-mine-over-imminent-risk"}, {"name": "Mining.com.au", "url": "https://mining.com.au/sigma-lithium-suspends-operations-amid-brazil-legal-dispute/"}],
-action: "Watch the federal appeals court ruling on the Sept 4 licence suspension; that, not the pit-slope repair alone, determines when Grota do Cirilo can fully restart.",
 checks: {
-claims: "ANM (regulator, via MINING.COM): interdiction stays until eastern-slope corrective work is complete",
-verified: "MINING.COM / Mining.com.au",
-data: "FY2027 guidance cut to 240,000t from 330,000t (Mining.com.au); ANM order follows a ruptured north-pit slope section",
-verdict: "Matches: Sigma's own guidance cut (330,000t to 240,000t) is consistent with the regulator's partial halt"
+claims: "ANM (regulator): interdiction stays until the slope repairs are complete",
+data: "FY2027 guidance cut to 240,000 t from 330,000 t (Mining.com.au)",
+verdict: "Matches: Sigma's own guidance cut is consistent with the regulator's partial halt"
 }
 },
 {
@@ -2197,15 +2178,13 @@ src: "Al Jazeera / Bloomberg",
 time: "Sept 30",
 dateISO: "2026-09-30",
 title: "Trump announces $200 billion of South Korean investment in US energy, including $54 billion for Alaska LNG",
-dek: "President Trump announced $200 billion of South Korean investment in US energy projects at the White House on Sept 30, Al Jazeera and Bloomberg report, including $54 billion for an Alaska LNG venture with a 1,300 km gas pipeline from the North Slope, a 6-gigawatt gas-fired power plant in Encinal, Texas, and nuclear power plants. The money comes from the November 2025 trade deal in which Washington cut its tariff on South Korean cars and parts to 15% from 25% in exchange for $150 billion in shipbuilding and $200 billion in strategic-sector investment.<br><br><strong>Why it matters:</strong> Alaska LNG would add a non-Gulf source of gas for Asian buyers, but projects of this size take years, so they change supply only toward the end of the decade.",
+dek: "The package includes a 1,300 km Alaska gas pipeline, a 6 GW gas power plant in Texas and nuclear plants, Al Jazeera and Bloomberg report. It flows from the Nov 2025 deal that cut US tariffs on Korean cars to 15% from 25%.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Alaska LNG, a Texas gas plant and nuclear projects open long-term US energy contracts worth $200bn.</span><span class='why-lens'><b>Governments</b> Korea trades investment for lower car tariffs; Asia gains a gas source that avoids the Gulf, late this decade.</span><span class='why-lens'><b>People</b> More gas sources make power cuts and price spikes like today's less likely, but not for years.</span>",
 url: "https://www.aljazeera.com/economy/2026/9/30/trump-set-to-announce-200bn-in-energy-investments-from-south-korea",
 links: [{"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/9/30/trump-set-to-announce-200bn-in-energy-investments-from-south-korea"}, {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-30/trump-set-to-unveil-200-billion-of-south-korean-us-investments"}],
-action: "Watch for final investment decisions and offtake contracts; announcements are not yet binding commitments.",
 checks: {
 claims: "Trump: “one of the largest energy infrastructure investments in American history” · South Korea: no statement found",
-verified: "Al Jazeera / Bloomberg",
-data: "$54bn Alaska LNG; 6 GW Texas plant; US tariff on Korean cars 15% from 25% (Nov 2025 deal)",
-verdict: "Not testable yet: no contracts or investment data published; the amounts are the White House's"
+data: "$54bn Alaska LNG; 6 GW Texas plant; US tariff on Korean cars 15% from 25%",
+verdict: "Not testable yet: no contracts or investment data published"
 }
 },
 {
@@ -2218,15 +2197,13 @@ src: "Newsroom Panama / Seatrade Maritime",
 time: "Sept 28-30",
 dateISO: "2026-09-29",
 title: "Panama Canal's scramble for scarce transit slots peaked at a record $5.3 million auction in August",
-dek: "This year's El Niño-driven drought cycle pushed the auction price for a single Panama Canal transit slot to a record $5.3 million in August, Newsroom Panama reports, as shippers competed for capacity cut by low Gatun Lake levels and compounded by Middle East conflict rerouting and East Asian port congestion. The Panama Canal Authority will now raise daily transit slots to 33 and lift the Neopanamax draft limit to 14.94 metres from Oct 15, Seatrade Maritime reports, citing near-average watershed rainfall, and will scrap per-customer slot limits for bookings from that date.<br><br><strong>Why it matters:</strong> A record single-slot auction shows just how tight capacity got before this month's increase — a reminder of how much shippers were already paying to route around a drought that is now easing.",
+dek: "Low Gatun Lake levels cut slots this year, Newsroom Panama reports. From Oct 15 the canal authority raises daily slots to 33 and the Neopanamax draft to 14.94 m, and drops per-customer slot limits, Seatrade Maritime reports.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Slot costs that hit a $5.3m record should ease as daily slots rise to 33 from Oct 15.</span><span class='why-lens'><b>Governments</b> Low lake water shows how drought can choke US-Asia trade, a risk for every trading nation.</span><span class='why-lens'><b>People</b> Shorter queues mean lower shipping costs, which can show up in the price of imported goods.</span>",
 url: "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/",
 links: [{"name": "Newsroom Panama", "url": "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/"}, {"name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/maritime-transportation/supply-chain-relief-panama-canal-to-increase-in-draught-and-daily-transits"}],
-action: "Watch whether slot-auction prices actually fall once the Oct 15 increase and the removal of per-customer limits take effect.",
 checks: {
-claims: "Panama Canal Authority (via Newsroom Panama): near-average watershed rainfall and water-saving measures allow more slots",
-verified: "Newsroom Panama / Seatrade Maritime",
-data: "Single-slot auction record $5.3m in August (Newsroom Panama); 33 daily slots from Oct 15 (32 now)",
-verdict: "Matches: 32 slots now and 33 from Oct 15 are the ACP's own published allocations; the $5.3m auction shows the cap was binding"
+claims: "Panama Canal Authority: near-average rainfall allows more slots",
+data: "Record $5.3m single-slot auction in Aug; 32 daily slots now, 33 from Oct 15 (ACP)",
+verdict: "Matches: the slot figures are the ACP's own published allocations"
 }
 },
 {
@@ -2238,15 +2215,13 @@ src: "Al Jazeera / Axios",
 time: "Sept 29",
 dateISO: "2026-09-29",
 title: "US consumer confidence falls to 81.9, its lowest since April 2014",
-dek: "The Conference Board's US consumer confidence index fell 6.7 points to 81.9 in September, its lowest since April 2014, Al Jazeera and Axios report; its expectations index slid 5.9 points to 63.6. Consumers cited higher prices for goods and services, and “oil and gas prices in particular rose to new heights,” the Board's chief economist Dana Peterson said. AAA put the average US gasoline price at $4.45 a gallon on Sept 29, up from $4.08 a month earlier.<br><br><strong>Why it matters:</strong> Weaker US household spending would cut orders for imported goods heading into the holiday shipping season.",
+dek: "The expectations index fell 5.9 points to 63.6, Al Jazeera and Axios report. Consumers cited higher prices for goods, services, oil and gas.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Weaker US spending can mean fewer holiday orders for Asian factories and for US importers.</span><span class='why-lens'><b>Governments</b> Exporting countries that rely on US shoppers could see slower sales; US petrol at $4.45 adds pressure.</span><span class='why-lens'><b>People</b> When fuel and goods cost more, families cut back, which ripples into jobs where goods are made.</span>",
 url: "https://www.aljazeera.com/economy/2026/9/29/us-consumer-confidence-hits-its-lowest-level-since-2014-ahead-of-midterms",
 links: [{"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/9/29/us-consumer-confidence-hits-its-lowest-level-since-2014-ahead-of-midterms"}, {"name": "Axios", "url": "https://www.axios.com/2026/09/29/new-12-year-low-in-consumer-confidence"}],
-action: "Watch US retailers' holiday import orders and transpacific bookings for the first sign of weaker demand.",
 checks: {
 claims: "Conference Board (Peterson): oil and gas prices “rose to new heights” in September",
-verified: "Al Jazeera / Axios",
-data: "Conference Board index 81.9 in Sept (−6.7), expectations 63.6; AAA gasoline $4.45/gal Sept 29 vs $4.08",
-verdict: "Matches: AAA's gasoline average rose 37 cents in a month, consistent with the Board's price explanation"
+data: "Index 81.9 in Sept (−6.7); AAA gasoline $4.45/gal Sept 29 vs $4.08 a month earlier",
+verdict: "Matches: the 37-cent rise in AAA's gasoline average fits the Board's explanation"
 }
 },
 {
@@ -2258,15 +2233,13 @@ src: "MINING.COM",
 time: "late Sept",
 dateISO: "2026-09-29",
 title: "Bank of America lifts its 2026 copper forecast 11% as analysts flag the largest refined-copper deficit in 20 years",
-dek: "Bank of America raised its average 2026 copper price forecast by 11% to $11,313 a tonne, citing widespread mine disruptions, MINING.COM reports, while Morgan Stanley separately forecasts a 600,000-tonne refined-copper deficit for the year — the largest in more than two decades. Both cite the same compounding sources already on this page: Grasberg's force majeure, Chile's mediation standoffs at Escondida and Centinela, and smelters holding back refined output rather than processing concentrate at a loss.<br><br><strong>Why it matters:</strong> Two separate bank forecasts converging on the same deficit size, from the same named disruptions, is a stronger signal than either call alone that this is a structural shortage, not a seasonal spike.",
+dek: "BofA cited widespread mine disruptions; Morgan Stanley separately forecasts a 600,000 t refined-copper deficit this year, the largest in more than two decades, MINING.COM reports.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Two banks see a deep shortage: BofA lifts its 2026 forecast to $11,313/t; Morgan Stanley sees a 600,000 t gap.</span><span class='why-lens'><b>Governments</b> Countries building grids, data centres and defence production compete for the same scarce copper.</span><span class='why-lens'><b>People</b> Wiring, appliances and electric cars could stay costly for years, not just a season.</span>",
 url: "https://www.mining.com/coppers-tight-supply-and-tariff-risks-set-for-a-volatile-2026/",
 links: [{"name": "MINING.COM", "url": "https://www.mining.com/coppers-tight-supply-and-tariff-risks-set-for-a-volatile-2026/"}],
-action: "Watch whether smelters' throttled output, not just mine disruptions, becomes the binding constraint as the deficit widens into 2027.",
 checks: {
 claims: "No official claim on record",
-verified: "MINING.COM",
-data: "BofA 2026 copper forecast +11% to $11,313/t; Morgan Stanley flags a 600,000t 2026 deficit, largest in 20+ years",
-verdict: "Forecasts, not data: no physical figure yet tests the projected 600,000t deficit"
+data: "BofA 2026 forecast +11% to $11,313/t; Morgan Stanley: 600,000 t deficit",
+verdict: "Forecasts, not data: no physical figure yet tests the projected deficit"
 }
 },
 {
@@ -2278,15 +2251,13 @@ src: "Interfax",
 time: "Oct 1",
 dateISO: "2026-10-01",
 title: "UK extends its licence for shipping Sakhalin-2 LNG to Japan and South Korea to March 2028",
-dek: "Britain's Office of Trade Sanctions Implementation has extended permission for UK firms to support the sea transport of LNG from Russia's Sakhalin-2 project to Japan and South Korea until March 31, 2028, from Jan 1, 2027, for supply contracts signed before June 17, 2025, Interfax reports. Sakhalin-2, operated by Sakhalin Energy and co-owned by Gazprom, Mitsui and Mitsubishi, can produce about 10.3 million tonnes of LNG a year at Prigorodnoye on southern Sakhalin.<br><br><strong>Why it matters:</strong> Japan and South Korea keep a non-Gulf LNG source through early 2028 under existing contracts while Gulf supply is disrupted.",
+dek: "The licence covers supply contracts signed before June 17, 2025, Interfax reports. Sakhalin-2 is run by Sakhalin Energy, co-owned by Gazprom, Mitsui and Mitsubishi.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Mitsui and Mitsubishi keep their Sakhalin-2 LNG flowing to Japan and Korea under contracts to March 2028.</span><span class='why-lens'><b>Governments</b> London keeps a sanctions exception so Tokyo and Seoul keep Russian gas while Gulf supply is disrupted.</span><span class='why-lens'><b>People</b> Homes and power plants in Japan and South Korea keep this gas, helping keep electricity steady.</span>",
 url: "https://www.interfax.com/newsroom/top-stories/119357/",
 links: [{"name": "Interfax", "url": "https://www.interfax.com/newsroom/top-stories/119357/"}],
-action: "Japanese and Korean LNG buyers can plan Sakhalin-2 cargoes under existing contracts to March 2028.",
 checks: {
-claims: "UK Government (OTSI): licence extended for contracts signed before June 17, 2025",
-verified: "Interfax",
-data: "Sakhalin-2 capacity ~10.3 mt a year (Interfax); licence valid to March 31, 2028",
-verdict: "Matches: the licence dates are the UK's own published terms; no cargo data yet"
+claims: "UK Government (OTSI): licence extended from Jan 1, 2027 to March 31, 2028",
+data: "Sakhalin-2 capacity ~10.3 mt of LNG a year (Interfax)",
+verdict: "Matches: the dates are the UK's own published licence terms; no cargo data yet"
 }
 },
 {
@@ -2298,15 +2269,13 @@ src: "Interfax",
 time: "Oct 1",
 dateISO: "2026-10-01",
 title: "Russia's manufacturing PMI rises to 49.8; export orders fall at the fastest pace since May 2022",
-dek: "The S&P Global Russia Manufacturing PMI rose to 49.8 in September from 48.8 in August, still below the 50 line that separates growth from contraction, Interfax reports. New orders fell for a second month and export orders fell at their fastest pace since May 2022; output fell more slowly than in August, and employment dropped for a tenth month. Input cost inflation eased to a three-month low, while companies cited rising supplier prices and an unfavourable exchange rate.<br><br><strong>Why it matters:</strong> Falling export orders point to weaker Russian demand from foreign buyers of its manufactured goods, separate from its energy and metals trade.",
+dek: "New orders fell for a second month and employment for a tenth, Interfax reports. Output fell more slowly than in August, and input cost inflation eased to a three-month low.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Russian factories are still shrinking (49.8), and export orders are falling fastest since May 2022.</span><span class='why-lens'><b>Governments</b> Weaker foreign demand for Russian goods points to lower non-energy export income for Moscow.</span><span class='why-lens'><b>People</b> Fewer orders can mean fewer factory jobs in Russia; employment has fallen ten months running.</span>",
 url: "https://www.interfax.com/newsroom/top-stories/119352/",
 links: [{"name": "Interfax", "url": "https://www.interfax.com/newsroom/top-stories/119352/"}],
-action: "Watch October's export-orders reading; a third month of decline would confirm weaker foreign demand.",
 checks: {
-claims: "Companies surveyed (via Interfax): optimism improved on expected demand and new customers",
-verified: "Interfax",
-data: "S&P Global Russia Manufacturing PMI 49.8 in Sept (48.8 in Aug); export orders fastest fall since May 2022",
-verdict: "Company optimism not testable; the PMI itself, 49.8 and below 50, shows conditions still contracting"
+claims: "Companies surveyed (via Interfax): optimism improved on expected demand",
+data: "S&P Global Russia Manufacturing PMI 49.8 (Aug 48.8); export orders fastest fall since May 2022",
+verdict: "Matches: the PMI below 50 shows conditions still contracting"
 }
 },
 {
@@ -2318,13 +2287,11 @@ src: "Ecofin Agency",
 time: "Sept 27-29",
 dateISO: "2026-09-29",
 title: "Nigeria approves upgrades of four ports outside Lagos: Onne, Rivers, Delta and Calabar",
-dek: "Nigeria's federal government has approved the modernisation of the Onne, Rivers (Port Harcourt), Delta (Warri) and Calabar ports, Minister Adegboyega Oyetola announced on Sept 27, Ecofin Agency reports; the cost, timetable and added capacity were not disclosed. In 2017 the four ports together handled about 37 million tonnes of cargo, with Onne alone 26.05 million, according to the figures Ecofin cites.<br><br><strong>Why it matters:</strong> Spreading cargo beyond congested Lagos could shorten port delays for West African importers and exporters, but without disclosed funding it is still a plan.",
+dek: "Minister Adegboyega Oyetola announced the approval on Sept 27, Ecofin Agency reports; the cost, timetable and added capacity were not disclosed.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> No cost or timetable yet; contracts and funding are the signals to watch for port operators.</span><span class='why-lens'><b>Governments</b> Moving cargo off congested Lagos is a long-standing aim; funding decides whether it happens.</span><span class='why-lens'><b>People</b> Faster ports would cut the time and cost of getting imported goods into Nigeria.</span>",
 url: "https://www.ecofinagency.com/news-infrastructures/2909-59315-nigeria-targets-four-ports-outside-lagos-in-push-to-diversify-cargo-traffic",
 links: [{"name": "Ecofin Agency", "url": "https://www.ecofinagency.com/news-infrastructures/2909-59315-nigeria-targets-four-ports-outside-lagos-in-push-to-diversify-cargo-traffic"}],
-action: "Watch for a concessionaire, budget and timetable before routing any cargo plans around these ports.",
 checks: {
-claims: "Minister Oyetola: four ports outside Lagos approved for modernisation",
-verified: "Ecofin Agency",
+claims: "Minister Oyetola: four ports outside Lagos approved",
 data: "2017 cargo: Onne 26.05m t, Delta 5.20m t, Rivers 3.54m t, Calabar 2.19m t (Ecofin)",
 verdict: "Not testable yet: no cost, timetable or capacity data released"
 }
@@ -3097,7 +3064,7 @@ if (!c) return "";
 function row(label, text, cls) {
 return text ? '<div class="check-row"><span class="check-lbl">' + label + '</span><span class="check-tx' + cls + '">' + text + "</span></div>" : "";
 }
-return '<div class="checks">' + row("Claims", c.claims, "") + row("Verified by", c.verified, "") + row("Data", c.data, " check-data") + row("Data says", c.verdict, " check-data check-verdict") + "</div>";
+return '<div class="checks">' + row("Sides", c.claims, "") + row("Data", c.data, " check-data") + row("Data says", c.verdict, " check-data check-verdict") + "</div>";
 }
 function sourceLinksHtml(story) {
 var links = story.links && story.links.length ? story.links : [ {
