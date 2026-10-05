@@ -1,0 +1,3526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<base href="../" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Global Supply Chain Bulletin</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Chain Bulletin" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0d0d0b" />
+<meta name="twitter:image" content="https://charantejaedhula.github.io/global-chain-bulletin-site/icon-512.png" />
+<link rel="alternate" type="application/rss+xml" title="Global Supply Chain Bulletin" href="feed.xml" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta name="description" content="An independent daily briefing on supply chains, energy transition &amp; trade geopolitics — read globally, tuned for an India lens." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Global Supply Chain Bulletin" />
+<meta property="og:title" content="Global Supply Chain Bulletin" />
+<meta property="og:description" content="An independent daily briefing on supply chains, energy transition &amp; trade geopolitics — read globally, tuned for an India lens." />
+<meta property="og:image" content="https://charantejaedhula.github.io/global-chain-bulletin-site/icon-512.png" />
+<meta property="og:url" content="https://charantejaedhula.github.io/global-chain-bulletin-site/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Global Supply Chain Bulletin" />
+<meta name="twitter:description" content="An independent daily briefing on supply chains, energy transition &amp; trade geopolitics — read globally, tuned for an India lens." />
+<style>:root{--bg:#0d0d0b;--surface:#161614;--surface-2:#1c1c19;--ink:#eee8da;--ink-dim:#a39c8d;--ink-faint:#6b6459;--rule:rgba(238,232,218,0.14);--accent:#ec5b57;--accent-soft:rgba(236,91,87,0.14);--teal:#4fb88f;--teal-soft:rgba(79,184,143,0.14);--red:#d1495b;--red-soft:rgba(209,73,91,0.14);--font-display:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;--font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--font-mono:ui-monospace,"SF Mono","Cascadia Mono",Menlo,Consolas,monospace}
+:root[data-theme=light]{--bg:#f2ede1;--surface:#f8f5ec;--surface-2:#ffffff;--ink:#1c1a15;--ink-dim:#55503f;--ink-faint:#8a8370;--rule:rgba(28,26,21,0.14);--accent:#bd3b3b;--accent-soft:rgba(189,59,59,0.12);--teal:#227a5c;--teal-soft:rgba(34,122,92,0.12);--red:#a8324a;--red-soft:rgba(168,50,74,0.1)}
+@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--bg:#f2ede1;--surface:#f8f5ec;--surface-2:#ffffff;--ink:#1c1a15;--ink-dim:#55503f;--ink-faint:#8a8370;--rule:rgba(28,26,21,0.14);--accent:#bd3b3b;--accent-soft:rgba(189,59,59,0.12);--teal:#227a5c;--teal-soft:rgba(34,122,92,0.12);--red:#a8324a;--red-soft:rgba(168,50,74,0.1)}
+}
+*{box-sizing:border-box}
+body,html{margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px 80px}
+.ticker-band{background:var(--surface-2);border-bottom:1px solid var(--rule);overflow:hidden;white-space:nowrap;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.ticker-track{display:inline-flex;gap:14px;padding:6px 20px;font-family:var(--font-mono);font-size:clamp(8px,1.5vw,11px);letter-spacing:.02em;animation:scroll-ticker 165s linear infinite;will-change:transform;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.ticker-track span.item{display:inline-flex;gap:6px;align-items:baseline;color:var(--ink-dim)}
+@media (max-width:640px){.ticker-track{font-size:8px;padding:5px 14px;gap:8px}
+.ticker-track span.item{gap:4px}
+.ticker-track .dot{margin:0 1px}
+}
+@media (prefers-reduced-motion: reduce){.ticker-track{animation:none}
+.ticker-band{overflow-x:auto;-webkit-overflow-scrolling:touch}
+}
+.ticker-track .lbl{font-weight:700;color:var(--ink)}
+.ticker-track .val{font-variant-numeric:tabular-nums;font-weight:700}
+.ticker-track .arrow{font-size:.85em;line-height:1;display:inline-block;vertical-align:baseline}
+.ticker-track .dot{color:var(--ink-faint)}
+.sentiment-good{color:var(--teal)}
+.sentiment-bad{color:var(--red)}
+.sentiment-neutral{color:var(--ink-dim)}
+@keyframes scroll-ticker{from{transform:translateX(0)}
+to{transform:translateX(-50%)}
+}
+.equilibrium-compact{display:inline-flex;align-items:center;gap:6px;flex-shrink:0}
+.equilibrium-compact-bar{display:flex;width:60px;height:5px;border-radius:3px;overflow:hidden;background:var(--surface);flex-shrink:0}
+.equilibrium-compact-fill{height:100%;transition:width .3s}
+.equilibrium-friction{background:var(--red)}
+.equilibrium-fluidity{background:var(--teal)}
+.equilibrium-compact-label{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.03em;white-space:nowrap}
+.equilibrium-label-friction{color:var(--red)}
+.equilibrium-label-fluidity{color:var(--teal)}
+.equilibrium-footer{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:22px 0 6px;font-family:var(--font-mono);width:100%}
+.equilibrium-meter{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 12px;max-width:100%}
+.equilibrium-footer-title{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
+.equilibrium-side{flex-shrink:0}
+.equilibrium-footer .equilibrium-compact-label{font-size:11px;font-weight:600;letter-spacing:.04em}
+.equilibrium-footer .equilibrium-compact-bar{width:min(160px,28vw);height:7px;border:1px solid var(--rule);flex-shrink:1}
+.card-focused{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px;background:var(--accent-soft)}
+.masthead{padding:30px 28px 0}
+.masthead-row{display:flex;justify-content:space-between;align-items:center;font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;color:var(--ink-faint);text-transform:uppercase}
+.masthead-row .right-group{display:flex;align-items:center;gap:14px}
+.search-box{display:flex;align-items:center;gap:6px;border-bottom:1px solid var(--rule);padding:3px 1px;transition:border-color .15s}
+.search-box:focus-within{border-color:var(--accent)}
+.search-box svg{flex-shrink:0;opacity:.65;color:var(--ink-faint)}
+.search-box input{background:0 0;border:none;outline:0;color:var(--ink-dim);font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;width:clamp(90px,24vw,190px);transition:width .15s}
+.search-box:focus-within input{width:clamp(140px,34vw,260px)}
+.search-box input::placeholder{color:var(--ink-faint)}
+.search-box input:focus{color:var(--ink)}
+.search-clear{flex-shrink:0;background:0 0;border:none;color:var(--ink-faint);font-size:14px;line-height:1;cursor:pointer;padding:0 0 0 2px}
+.search-clear:hover{color:var(--ink)}
+.search-clear[hidden]{display:none}
+.search-results-info{font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);margin:-8px 0 16px}
+.theme-toggle-circle{width:30px;height:30px;border-radius:50%;border:1px solid var(--rule);background:0 0;color:var(--ink-dim);font-size:14px;line-height:1;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;flex-shrink:0;transition:border-color .15s,color .15s}
+.theme-toggle-circle:hover{border-color:var(--accent);color:var(--ink)}
+.theme-toggle-circle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.masthead h1{text-align:center;text-transform:uppercase;font-family:var(--font-display);font-weight:800;font-size:clamp(40px, 6vw, 74px);letter-spacing:-.015em;margin:6px 0 20px;text-wrap:balance}
+.masthead h1 em{color:var(--accent);font-style:italic;font-weight:400}
+.masthead-meta{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:0 0 16px}
+.masthead-meta .meta-label{color:var(--ink-dim);text-decoration:underline;text-decoration-color:var(--rule);margin-right:8px}
+.masthead-meta .date-line{color:var(--ink-faint)}
+.sources-trigger{cursor:pointer;background:0 0;border:none;padding:0;font:inherit}
+.sources-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;padding:24px;z-index:100}
+.sources-overlay[hidden]{display:none}
+.sources-card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;max-width:480px;width:100%;max-height:80vh;overflow-y:auto;padding:20px 24px 8px}
+.sources-card-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:4px}
+.sources-card-header h3{font-family:var(--font-display);font-size:20px;font-weight:800;margin:0;color:var(--ink);text-transform:uppercase;letter-spacing:.02em}
+.sources-close{background:0 0;border:none;color:var(--ink-faint);font-size:20px;line-height:1;cursor:pointer;padding:4px}
+.sources-close:hover{color:var(--ink)}
+.sources-intro{font-family:var(--font-body);font-style:italic;font-size:12.5px;line-height:1.5;color:var(--ink-dim);text-transform:none;letter-spacing:normal;margin:12px 0 4px;padding-bottom:12px;border-bottom:1px solid var(--rule)}
+.sources-list{list-style:none;margin:0;padding:0}
+.source-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.source-tab{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--rule);background:0 0;color:var(--ink-dim);border-radius:999px;padding:5px 10px;cursor:pointer}
+.source-tab[aria-selected=true]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
+.source-tab-note{font-size:12px;line-height:1.45;color:var(--ink-faint);margin:6px 0 2px}
+.sources-group-heading{font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;padding:14px 0 6px}
+.sources-list li:not(.sources-group-heading){font-size:13.5px;color:var(--ink-dim);padding:7px 0;border-top:1px solid var(--rule)}
+.sources-group-heading+li{border-top:none}
+.masthead-rule{border:none;border-top:1px solid var(--rule);margin:0}
+.masthead-rule.thick{border-top-width:3px}
+.controls{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;padding:18px 0}
+.pill{font-family:var(--font-mono);font-size:11.5px;letter-spacing:.03em;text-transform:uppercase;border:1px solid var(--rule);background:0 0;color:var(--ink-dim);border-radius:999px;padding:7px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:border-color .15s,color .15s,background .15s}
+.pill:hover{border-color:var(--accent);color:var(--ink)}
+.pill:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pill[aria-pressed=true]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
+.pill .count{color:var(--ink-faint);font-size:10.5px}
+.pill[aria-pressed=true] .count{color:var(--accent)}
+.board{display:grid;grid-template-columns:minmax(0,1fr) 380px;align-items:start;gap:40px;margin-top:8px}
+@media (max-width:860px){.board{display:block}
+}
+.lead-row{display:flex;flex-direction:column;gap:18px;padding-bottom:18px;border-bottom:1px solid var(--rule);margin-bottom:18px}
+.summary-box ul.summary-list-horizontal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 20px}
+@media (max-width:780px){.summary-box ul.summary-list-horizontal{grid-template-columns:1fr}
+}
+.eyebrow{font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--rule)}
+.lead h2{font-family:var(--font-display);font-size:clamp(26px, 3.4vw, 38px);line-height:1.12;font-weight:400;margin:0 0 12px;text-wrap:balance;cursor:pointer}
+.lead p.dek{display:none;color:var(--ink-dim);font-size:15px;margin:0 0 12px;max-width:62ch}
+.lead.expanded p.dek{display:block}
+.card-expand-hint{font-family:var(--font-mono);font-size:.6em;color:var(--ink-faint);margin-left:8px;vertical-align:middle}
+.byline{font-family:var(--font-mono);font-size:11.5px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.03em;display:flex;flex-direction:column;gap:6px}
+.byline a{color:var(--ink-faint);text-decoration:underline;text-decoration-color:var(--rule)}
+.briefing-play-btn{width:36px;height:36px;border-radius:50%;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);font-size:13px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0;padding:0;transition:background .15s,color .15s}
+.briefing-play-btn[aria-pressed=true]{background:var(--accent);color:#1a0f04}
+.briefing-play-btn:disabled{opacity:.4;cursor:not-allowed}
+.summary-box h3{justify-content:space-between}
+.briefing-inline{display:inline-flex;align-items:center;gap:7px;margin-left:auto}
+.briefing-inline .briefing-play-btn{width:24px;height:24px;font-size:9px}
+.briefing-inline .briefing-status{text-transform:none;letter-spacing:normal;font-size:9.5px}
+.briefing-status{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-faint)}
+.summary-box{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:18px 20px}
+.summary-box h3{font-family:var(--font-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-dim);margin:0 0 12px;display:flex;align-items:center;gap:8px}
+.summary-box h3::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--red)}
+.summary-box ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:11px}
+.summary-box li{font-size:13.5px;color:var(--ink);padding-left:16px;position:relative}
+.summary-box li::before{content:"—";position:absolute;left:0;color:var(--ink-faint)}
+.river{display:flex;flex-direction:column}
+.card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;padding:13px 0;border-bottom:1px solid var(--rule)}
+.card[hidden]{display:none}
+.card-tags{display:flex;gap:8px;align-items:center;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:7px;flex-wrap:wrap}
+.card-tags .cat{color:var(--accent)}
+.card-tags .src{color:var(--ink-faint)}
+.card-tags .india-flag{color:var(--teal);border:1px solid var(--teal);border-radius:4px;padding:1px 5px;font-size:9.5px}
+.card-src{font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:6px;display:inline-block;text-decoration:none;border-bottom:1px solid transparent}
+a.card-src:focus-visible,a.card-src:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.card-srcs{display:block;margin-bottom:6px;font-family:var(--font-mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
+.card-srcs .card-src{margin-bottom:0}
+.src-via{text-transform:none;letter-spacing:normal;font-size:10px;color:var(--ink-faint)}
+.src-sep{color:var(--ink-faint)}
+.card h3{font-family:var(--font-display);font-weight:400;font-size:19px;line-height:1.28;margin:0 0 6px;text-wrap:balance;cursor:pointer}
+.card p.dek{display:none;color:var(--ink-dim);font-size:13.5px;margin:0 0 8px;max-width:68ch}
+.card.expanded p.dek{display:block}
+.why-matters{display:none;margin-top:8px;padding:7px 10px;border-radius:6px;background:var(--accent-soft);border:1px solid var(--rule)}.card.expanded .why-matters,.lead.expanded .why-matters{display:block}.why-matters-label{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-right:6px}.why-matters-text{font-size:13px;color:var(--ink);line-height:1.4}.why-lens{display:block;margin-top:4px}.why-lens b{font-family:var(--font-mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-dim);font-weight:700;margin-right:6px}.action-note{display:none;margin-top:8px;padding:7px 10px;border-radius:6px;background:var(--teal-soft);border:1px solid var(--rule)}
+.card.expanded .action-note,.lead.expanded .action-note{display:block}
+.action-label{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-right:6px}
+.action-text{font-size:13px;color:var(--ink);line-height:1.4}
+.checks{display:none;margin-top:8px;padding-top:4px;border-top:1px dashed var(--rule)}
+.card.expanded .checks,.lead.expanded .checks,.chokepoint-row.expanded .checks{display:block}
+.chokepoint-row .checks,.chokepoint-srcs{flex-basis:100%}
+.chokepoint-srcs{display:none}
+.chokepoint-row.expanded .chokepoint-srcs{display:block}
+.check-row{display:grid;grid-template-columns:78px minmax(0,1fr);gap:3px 8px;margin-top:4px;font-family:var(--font-mono);font-size:10.5px;line-height:1.4}
+.check-lbl{font-size:9px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
+.check-tx{color:var(--ink-dim)}
+.check-tx.check-data{color:var(--ink)}
+.check-tx.check-verdict{font-weight:600}
+.card .meta{font-family:var(--font-mono);font-size:11px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.03em}
+.save-btn{background:0 0;border:none;color:var(--ink-faint);cursor:pointer;font-size:18px;line-height:1;padding:4px;align-self:start}
+.save-btn:hover{color:var(--accent)}
+.save-btn[aria-pressed=true]{color:var(--accent)}
+.save-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.empty-state{padding:40px 0;text-align:center;color:var(--ink-faint);font-family:var(--font-mono);font-size:12.5px;text-transform:uppercase;letter-spacing:.05em}
+aside{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));align-items:start;gap:20px}
+@media (max-width:860px){aside{grid-template-columns:1fr;margin-top:32px;padding-top:0;border-top:none}
+.panel-title-toggle{cursor:pointer}
+.panel-title-toggle::after{content:"+";font-family:var(--font-mono);font-size:14px;color:var(--ink-faint);margin-left:8px;flex-shrink:0}
+.panel.panel-open .panel-title-toggle::after{content:"–"}
+.panel-body{display:none}
+.panel.panel-open .panel-body{display:block}
+}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:18px 18px 6px}
+.panel-title{display:flex;align-items:flex-start;margin-bottom:14px}
+.panel-title h3{font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin:0 8px 0 0;min-width:0}
+.panel-title span{font-family:var(--font-mono);font-size:10px;color:var(--accent);text-transform:uppercase;flex-shrink:0;white-space:nowrap;margin-left:auto}
+.idx-row{display:flex;flex-direction:column;gap:3px;padding:10px 0;border-top:1px solid var(--rule);cursor:pointer}
+.chokepoint-row .chokepoint-note,.chokepoint-row .idx-chart,.idx-row .idx-bar-track,.idx-row .idx-chart,.idx-row .idx-chg-line,.idx-row .idx-note{display:none}
+.chokepoint-row.expanded .chokepoint-note,.chokepoint-row.expanded .idx-chart,.idx-row.expanded .idx-bar-track,.idx-row.expanded .idx-chart,.idx-row.expanded .idx-chg-line,.idx-row.expanded .idx-note{display:block}
+.idx-chart{margin-top:6px}
+.idx-chart-wrap{position:relative}
+.idx-chart-svg{width:100%;height:44px;display:block;cursor:crosshair}
+.idx-chart-cursor-line{stroke:var(--ink-faint);stroke-width:1}
+.idx-chart-cursor-dot{fill:var(--accent);stroke:var(--surface);stroke-width:1.2}
+.idx-chart-tooltip{position:absolute;top:0;transform:translate(-50%,-100%);background:var(--surface-2);border:1px solid var(--rule);border-radius:4px;padding:3px 7px;font-family:var(--font-mono);font-size:10px;color:var(--ink);white-space:nowrap;pointer-events:none;z-index:2;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+.idx-chart-tooltip[hidden]{display:none}
+.idx-chart-label{font-family:var(--font-mono);font-size:8.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:3px}
+.idx-chart+.idx-chart{margin-top:14px;padding-top:10px;border-top:1px dashed var(--rule)}
+.idx-chart-caption{display:flex;justify-content:space-between;gap:6px;font-family:var(--font-mono);font-size:9px;color:var(--ink-faint);margin-top:2px}
+.idx-expand-hint{font-family:var(--font-mono);font-size:9px;color:var(--ink-faint);margin-left:4px}
+.idx-row:first-of-type{border-top:none}
+.idx-name{font-size:13px;overflow-wrap:break-word}
+.idx-exchange{display:block;font-family:var(--font-mono);font-size:9px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-faint);white-space:normal;overflow-wrap:break-word;margin-top:1px}
+a.idx-exchange{text-decoration:none;cursor:pointer}
+a.idx-exchange:focus-visible,a.idx-exchange:hover{color:var(--accent);text-decoration:underline;text-decoration-color:var(--rule)}
+.idx-severity{display:inline-block;font-family:var(--font-mono);font-size:8.5px;letter-spacing:.03em;padding:1px 5px;border-radius:4px;margin-right:6px;vertical-align:middle}
+.idx-bar-track{height:5px;background:var(--surface-2);border-radius:3px;overflow:hidden}
+.idx-bar-fill{height:100%;background:var(--accent);border-radius:3px}
+.idx-line2{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px}
+.idx-line2>*{min-width:0}
+.idx-val{display:block;font-family:var(--font-mono);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums;text-align:left;white-space:normal;overflow-wrap:break-word}
+.idx-asof{display:block;font-family:var(--font-mono);font-size:9px;letter-spacing:.03em;color:var(--ink-faint);margin-top:-1px}
+.idx-asof-stale{color:var(--accent)}
+.idx-severity.status-stale{background:var(--surface-2);color:var(--ink-faint);border:1px solid var(--rule)}
+.idx-rank{font-family:var(--font-mono);font-size:9.5px;color:var(--ink-faint);margin-right:5px;font-variant-numeric:tabular-nums}
+.idx-factors b{font-weight:700;color:var(--ink)}
+.idx-row .idx-detail{display:none}
+.idx-row.expanded .idx-detail{display:block}
+.idx-sup{display:grid;grid-template-columns:74px minmax(0,1fr);gap:3px 8px;align-items:center;margin-top:6px;font-family:var(--font-mono);font-size:10.5px;line-height:1.35;color:var(--ink-dim)}
+.idx-sup-lbl{font-size:9px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
+.idx-sup-bar{display:flex;gap:1px;height:4px;border-radius:2px;overflow:hidden;background:var(--surface-2)}
+.idx-sup-bar span{height:100%}
+.idx-sup-lg{grid-column:2}
+.idx-sup-lg b{color:var(--ink);font-weight:600}
+.idx-sup-tx{color:var(--ink)}
+.idx-factor{white-space:nowrap}
+.chokepoint-row .idx-asof{flex-basis:100%;margin-top:0}
+.cross-links{display:none;flex-wrap:wrap;gap:5px;margin-top:6px}
+.card.expanded .cross-links,.lead.expanded .cross-links,.chokepoint-row.expanded .cross-links,.idx-row.expanded .cross-links{display:flex}
+.cross-link{margin:0;display:inline-flex;align-items:center;gap:3px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.02em;text-transform:uppercase;color:var(--ink-faint);border:1px solid var(--rule);border-radius:4px;padding:2px 6px;text-decoration:none;background:var(--surface-2);cursor:pointer;transition:border-color .15s,color .15s,background .15s}
+.cross-link:hover,.cross-link:focus-visible{border-color:var(--teal);color:var(--teal);background:var(--teal-soft)}
+.cross-link:before{content:"⇄ ";opacity:.7}
+.source-conf{display:inline-flex;align-items:center;gap:4px;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.03em;text-transform:uppercase;padding:1px 6px;border-radius:4px;vertical-align:middle}
+.source-conf.corroborated{color:var(--teal);background:var(--teal-soft)}
+.source-conf.single-source{color:var(--ink-faint);background:var(--surface-2);border:1px solid var(--rule)}
+.source-conf:before{content:"●";font-size:7px}
+.source-conf.single-source:before{content:"○"}
+@keyframes xlinkFlash{0%{background:var(--teal-soft)}100%{background:transparent}}
+.xlink-flash{animation:xlinkFlash 1.6s ease-out}
+.idx-note{text-align:left;color:var(--ink-faint);font-family:var(--font-body);font-size:11.5px;line-height:1.4;margin-top:-2px;white-space:normal;overflow-wrap:anywhere;word-break:break-word;min-width:0}
+.idx-chg-line{text-align:left;font-family:var(--font-mono);font-size:11px;line-height:1.4;margin-top:-2px;white-space:normal;overflow-wrap:anywhere;word-break:break-word;min-width:0}
+.idx-flag{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--red);border:1px solid var(--red);border-radius:4px;padding:2px 6px;justify-self:end}
+.panel-foot{font-size:10.5px;color:var(--ink-faint);padding:10px 0 12px;border-top:1px solid var(--rule);margin-top:4px}
+.minerals-more{margin-top:2px}
+.minerals-more select{width:100%;max-width:100%;box-sizing:border-box;font-family:var(--font-mono);font-size:11px;color:var(--ink-dim);background:var(--surface-2);border:1px solid var(--rule);border-radius:6px;padding:6px 8px}
+.minerals-more-row{margin-top:8px;padding-top:8px;border-top:1px solid var(--rule)}
+.chokepoint-row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:10px 0;border-top:1px solid var(--rule);gap:6px 10px;cursor:pointer}
+.chokepoint-row:first-of-type{border-top:none}
+.chokepoint-name{font-size:13px;min-width:0;overflow-wrap:break-word}
+.chokepoint-note{flex-basis:100%;color:var(--ink-faint);font-size:11px;line-height:1.4}
+.status-chip{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:4px;white-space:normal;text-align:right;overflow-wrap:break-word;max-width:100%;flex:0 1 auto;min-width:0}
+.status-high{background:var(--red-soft);color:var(--red)}
+.status-elevated{background:var(--accent-soft);color:var(--accent)}
+.status-active{background:var(--teal-soft);color:var(--teal)}
+.about-panel p{font-size:12.5px;color:var(--ink-dim);margin:0 0 12px}
+footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);font-size:10.5px;letter-spacing:.01em;color:var(--ink-faint);text-align:center;font-family:var(--font-mono);white-space:normal}
+@media (min-width:640px){footer{white-space:nowrap;overflow-x:auto}
+}
+@media print{@page{margin:14mm 12mm}
+body,html{background:#fff!important}
+body{color:#111!important;font-size:11px}
+.briefing-play-btn,.card-expand-hint,.controls,.idx-expand-hint,.masthead-row .right-group,.save-btn,.search-box,.sources-overlay,.sources-trigger,.theme-toggle-circle,.ticker-band{display:none!important}
+a{color:inherit!important;text-decoration:none!important}
+.wrap{max-width:100%!important;padding:0!important}
+.masthead{padding:0 0 8px!important}
+.masthead h1{font-size:30px!important;color:#111!important}
+.masthead h1 em{color:#111!important}
+.date-line,.masthead-meta,.meta-label{color:#444!important}
+.board{display:block!important}
+aside{display:block!important;margin-top:20px!important}
+.panel{background:#fff!important;border:1px solid #ccc!important;break-inside:avoid;page-break-inside:avoid;margin-bottom:14px!important}
+.card,.chokepoint-row,.idx-row,.lead,.summary-box{break-inside:avoid;page-break-inside:avoid}
+.card h3,.lead h2{color:#111!important}
+.card p.dek,.chokepoint-note,.idx-bar-track,.idx-chart,.idx-chg-line,.idx-note,.lead p.dek{display:block!important}
+.lead p.dek{display:block!important}
+.idx-chart-svg path,.idx-chart-svg polyline{stroke:#111!important}
+.summary-box{border:1px solid #ccc!important;background:#fff!important}
+footer{margin-top:24px!important;color:#666!important}
+}</style>
+</head>
+<body>
+<div style="font:11px ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;text-align:center;padding:8px 12px;background:#161614;color:#a39c8d;border-bottom:1px solid #333">Archived issue No. 80 &middot; <a href="./" style="color:#ec5b57">Latest issue</a> &middot; <a href="archive/" style="color:#ec5b57">All issues</a></div>
+<div class="ticker-band" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack"><span class="item"><span class="lbl">GULF OIL EXPORTS</span> <span class="val sentiment-neutral"><span class="arrow">▲</span> REBOUND TO PRE-WAR LEVELS, ≥16.5M B/D; ~40% NOW BYPASS HORMUZ (REUTERS, KPLER)</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">STRAIT OF HORMUZ</span> <span class="val sentiment-bad"><span class="arrow">▲</span> ATTACKS CONTINUE; US SENDS MORE SHIPS, MARINES AS IRAN WEIGHS RESPONSE</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BRENT CRUDE</span> <span class="val sentiment-bad"><span class="arrow">▲</span> NEAR $102.25/BBL, UP ~2.6% FROM OCT 2'S $99.68 ICE CLOSE (AGGREGATOR DATA)</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">SAUDI PIPELINE</span> <span class="val sentiment-good"><span class="arrow">▲</span> EAST-WEST LINE RESUMES EXPORTS, BYPASSING HORMUZ ENTIRELY (AL ARABIYA)</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">QATAR LNG</span> <span class="val sentiment-bad"><span class="arrow">▲</span> FORCE MAJEURE EXTENDED INTO NOVEMBER; EU STORAGE TRACKING 75-78% VS 90% GOAL</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CHILE COPPER</span> <span class="val sentiment-bad"><span class="arrow">▼</span> ESCONDIDA, CENTINELA HEAD TO MANDATORY MEDIATION; STRIKE POSSIBLE OCT 13</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">COPPER MARKET</span> <span class="val sentiment-bad"><span class="arrow">▲</span> MORGAN STANLEY SEES A 600,000-TONNE 2026 DEFICIT, LARGEST IN 20+ YEARS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">PANAMA CANAL</span> <span class="val sentiment-good"><span class="arrow">▲</span> DAILY TRANSITS RISE TO 33, DRAFT TO 49FT FROM OCT 15 AS DROUGHT EASES</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">INDONESIA NICKEL</span> <span class="val sentiment-neutral"><span class="arrow">▼</span> EXPORTS UP 50%; PRICE NEAR $16,500/T ON HIGH EXCHANGE STOCKS, PER JAKARTA POST</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BALTIC DRY INDEX</span> <span class="val sentiment-neutral"><span class="arrow">▲</span> HOLDING AT 3,148 SINCE THE OCT 2 CLOSE</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">GULF OIL EXPORTS</span> <span class="val sentiment-neutral"><span class="arrow">▲</span> REBOUND TO PRE-WAR LEVELS, ≥16.5M B/D; ~40% NOW BYPASS HORMUZ (REUTERS, KPLER)</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">STRAIT OF HORMUZ</span> <span class="val sentiment-bad"><span class="arrow">▲</span> ATTACKS CONTINUE; US SENDS MORE SHIPS, MARINES AS IRAN WEIGHS RESPONSE</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BRENT CRUDE</span> <span class="val sentiment-bad"><span class="arrow">▲</span> NEAR $102.25/BBL, UP ~2.6% FROM OCT 2'S $99.68 ICE CLOSE (AGGREGATOR DATA)</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">SAUDI PIPELINE</span> <span class="val sentiment-good"><span class="arrow">▲</span> EAST-WEST LINE RESUMES EXPORTS, BYPASSING HORMUZ ENTIRELY (AL ARABIYA)</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">QATAR LNG</span> <span class="val sentiment-bad"><span class="arrow">▲</span> FORCE MAJEURE EXTENDED INTO NOVEMBER; EU STORAGE TRACKING 75-78% VS 90% GOAL</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">CHILE COPPER</span> <span class="val sentiment-bad"><span class="arrow">▼</span> ESCONDIDA, CENTINELA HEAD TO MANDATORY MEDIATION; STRIKE POSSIBLE OCT 13</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">COPPER MARKET</span> <span class="val sentiment-bad"><span class="arrow">▲</span> MORGAN STANLEY SEES A 600,000-TONNE 2026 DEFICIT, LARGEST IN 20+ YEARS</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">PANAMA CANAL</span> <span class="val sentiment-good"><span class="arrow">▲</span> DAILY TRANSITS RISE TO 33, DRAFT TO 49FT FROM OCT 15 AS DROUGHT EASES</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">INDONESIA NICKEL</span> <span class="val sentiment-neutral"><span class="arrow">▼</span> EXPORTS UP 50%; PRICE NEAR $16,500/T ON HIGH EXCHANGE STOCKS, PER JAKARTA POST</span></span><span class="dot">&middot;</span><span class="item"><span class="lbl">BALTIC DRY INDEX</span> <span class="val sentiment-neutral"><span class="arrow">▲</span> HOLDING AT 3,148 SINCE THE OCT 2 CLOSE</span></span></div>
+</div>
+
+<div class="masthead">
+  <div class="masthead-row">
+    <span>VOL. I &middot; NO. 80</span>
+    <div class="right-group">
+      <label class="search-box">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="7"></circle><line x1="21" y1="21" x2="15" y2="15"></line></svg>
+        <input type="text" id="searchInput" placeholder="Search (press /)" aria-label="Search stories" autocomplete="off" />
+        <button type="button" id="searchClear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+      </label>
+      <button type="button" id="themeBtn" class="theme-toggle-circle" aria-label="Toggle light and dark theme">&#9728;</button>
+    </div>
+  </div>
+  <h1>Global <em>Supply Chain</em> Bulletin</h1>
+  <div class="masthead-meta">
+    <button type="button" id="sourcesBtn" class="meta-label sources-trigger">Sources</button>
+    <div class="date-line" id="clockLine">MONDAY, OCTOBER 5, 2026 &middot; AS OF 09:40 IST</div>
+  </div>
+  <hr class="masthead-rule thick" />
+</div>
+
+<div class="sources-overlay" id="sourcesOverlay" hidden>
+  <div class="sources-card" role="dialog" aria-modal="true" aria-labelledby="sourcesTitle">
+    <div class="sources-card-header">
+      <h3 id="sourcesTitle">Sources</h3>
+      <button type="button" class="sources-close" id="sourcesClose" aria-label="Close">&times;</button>
+    </div>
+    <p class="sources-intro">State media tells you the narrative each side wants believed. Independent wire press tells you what's been verified on the ground. Physical &amp; market data — ship tracking, insurance, prices — tells you what's actually happening. Only the third settles "what is true."</p>
+    <div class="source-tabs" id="sourceTabs" role="tablist"></div>
+    <p class="source-tab-note" id="sourceTabNote"></p>
+    <ul class="sources-list" id="sourcesModalList"></ul>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="controls">
+    <div id="pillRow" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
+      <button class="pill" type="button" data-cat="all" aria-pressed="true">All <span class="count" data-count-for="all"></span></button>
+      <button class="pill" type="button" data-cat="tradeRisk" aria-pressed="false">Government <span class="count" data-count-for="tradeRisk"></span></button>
+      <button class="pill" type="button" data-cat="supplyIndustry" aria-pressed="false">Industry <span class="count" data-count-for="supplyIndustry"></span></button>
+    </div>
+  </div>
+
+  <div class="board">
+    <main>
+      <div class="lead-row">
+        <div class="summary-box">
+          <h3>Today's Read<span class="briefing-inline"><button type="button" id="briefingPlayBtn" class="briefing-play-btn" aria-label="Play today's briefing" aria-pressed="false">&#9654;</button><span class="briefing-status" id="briefingStatus">Tap to listen</span></span></h3>
+          <ul class="summary-list-horizontal">
+            <li>QatarEnergy extended its LNG force majeure into November as European gas storage tracks toward just 75-78% of capacity, Bloomberg and Euronews report; JERA's CEO warns LNG prices still have room to climb.</li>
+            <li>Chile's Escondida and Centinela copper mines head into mandatory mediation after strike votes, Mining Weekly and Rio Times report, with a legal strike possible from Oct 13 against a market already pricing a historic supply deficit.</li>
+            <li>Indonesia's nickel exports jumped 50% in August, according to The Jakarta Post, while prices held near $16,500 a tonne on high exchange stocks; factories from Taiwan to Japan kept expanding on AI chip demand through September.</li>
+          </ul>
+        </div>
+        <div class="lead" id="xlink-lead-hormuz">
+          <div class="eyebrow">Lead &middot; Impact Score 10</div>
+          <h2>Gulf oil exports rebound to pre-war levels even as tanker attacks continue and Iran weighs a harder response<span class="card-expand-hint">›</span></h2>
+          <p class="dek">Gulf crude exports have climbed back to pre-war levels, Reuters reports, with Kpler counting at least 16.5m b/d in September as 40% of cargo now bypasses Hormuz by pipeline. ABC News reports the G7's release is only starting to reach refiners as Washington sends more ships and Marines.</p>
+          <div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text"><span class='why-lens'><b>Investors</b> Brent has rebounded to about $102/bbl even as volumes recover; the war-risk premium remains.</span><span class='why-lens'><b>Governments</b> The US is reinforcing its Gulf posture, signaling it doubts the recovery will hold if Iran escalates.</span><span class='why-lens'><b>People</b> More oil is moving, but crews still report fresh strikes; physical risk has not eased with volume.</span></span></div>
+          <div id="leadChecks"></div>
+          <p class="byline"><span class="byline-sources">Compiled from <a href="https://bworldonline.com/world/2026/10/05/784388/middle-east-crude-oil-exports-exceed-pre-war-levels-but-tanker-attacks-increase/" target="_blank" rel="noopener">Reuters</a> <span class="src-via">(via BusinessWorld Online)</span> &amp; <a href="https://www.abc.net.au/news/2026-10-03/g7-to-release-100m-barrels-oil-in-bid-to-curb-soaring-prices/107224282" target="_blank" rel="noopener">ABC News</a></span><span class="byline-meta"><span id="leadFreshness"></span> &middot; <span class="source-conf corroborated" title="Independently reported by 2 named outlets">Corroborated &middot; 2 sources</span></span></p>
+          <div class="cross-links" id="leadCrossLinks"></div>
+        </div>
+      </div>
+
+      <p class="search-results-info" id="searchResultsInfo" hidden></p>
+      <div class="river" id="river"></div>
+      <p class="empty-state" id="emptyState" hidden>No stories match this filter yet — try "All".</p>
+    </main>
+
+    <aside>
+      <div class="panel">
+        <div class="panel-title panel-title-toggle"><h3>Chokepoint Status</h3><span>Transit telemetry</span></div>
+        <div class="panel-body">
+          <div id="chokepoints"></div>
+          <p class="panel-foot" style="border-top:none; padding-top:0;">IMF PortWatch · Lloyd's List · UKMTO · ReCAAP · Panama Canal Authority</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title panel-title-toggle"><h3>Freight &amp; Energy</h3><span>Daily</span></div>
+        <div class="panel-body">
+          <div id="freightEnergy"></div>
+          <p class="panel-foot">Drewry · Baltic Exchange · ICE Brent · EIA</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title panel-title-toggle"><h3>Critical Minerals Index</h3><span>Supply risk</span></div>
+        <div class="panel-body">
+          <div id="mineralsIndex"></div>
+          <div class="minerals-more">
+            <select id="mineralsMoreSelect" aria-label="Check another tracked mineral">
+              <option value="">More minerals…</option>
+            </select>
+            <div id="mineralsMoreDisplay"></div>
+          </div>
+          <p class="panel-foot">Ranked by supply risk, checked daily · Shares: USGS, IEA · Prices: Trading Economics, SMM</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title panel-title-toggle"><h3>Trade Policy Tracker</h3><span>Active</span></div>
+        <div class="panel-body">
+          <div id="tradePolicy"></div>
+          <p class="panel-foot" style="border-top:none; padding-top:0;">Measures in force or pending</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title panel-title-toggle"><h3>India Infrastructure Watch</h3><span>NSE</span></div>
+        <div class="panel-body">
+          <div id="infrastructureWatch"></div>
+          <p class="panel-foot">NSE closing prices, one stock per pillar</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="equilibrium-footer" role="img" aria-label="Friction versus fluidity balance for today's data">
+    <span class="equilibrium-footer-title">Global Supply Chain Equilibrium Index</span>
+    <span class="equilibrium-meter">
+      <span class="equilibrium-side">
+        <span class="equilibrium-compact-label equilibrium-label-friction" id="equilibriumFrictionLabel">45% Friction</span>
+      </span>
+      <span class="equilibrium-compact-bar">
+        <span class="equilibrium-compact-fill equilibrium-friction" id="equilibriumFrictionFill" style="width:45%"></span>
+        <span class="equilibrium-compact-fill equilibrium-fluidity" id="equilibriumFluidityFill" style="width:55%"></span>
+      </span>
+      <span class="equilibrium-side">
+        <span class="equilibrium-compact-label equilibrium-label-fluidity" id="equilibriumFluidityLabel">55% Fluidity</span>
+      </span>
+    </span>
+  </div>
+
+  <footer>
+    © 2026 GLOBAL SUPPLY CHAIN BULLETIN · AN AI-ASSISTED PUBLICATION · KEYS: J/K TO MOVE · ENTER TO OPEN IN NEW TAB
+  </footer>
+
+</div>
+
+<script>(function() {
+var STORAGE_KEY = "gcb-saved-v1";
+var THEME_KEY = "gcb-theme-v1";
+
+var minerals = [
+{
+name: "Dysprosium",
+severity: "high",
+exchange: "SMM China Spot (Metal)",
+val: "$233.55/kg (metal, China)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "EV motors, wind turbines and defense magnets outside China, paying far above China's price",
+supply: {"mined": [["China", 69], ["USA", 13], ["Australia", 7]], "minedSrc": "USGS 2025", "processed": [["China", 84]], "processedSrc": "IEA 2025, magnet rare earths"},
+facts: {"exports": "Licence needed from China · stricter rules may return Nov 10", "now": "No mine or plant shut", "price": "Buyers outside China pay many times China's price"},
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's export licensing is in force, now with stricter anti-circumvention rules (Sept 29); the Oct 2025 pause on wider controls ends Nov 10 (+5)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 20,
+why: "CIF Europe dysprosium oxide has averaged near $3,500/kg this quarter, many times China's domestic metal price"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
+dir: "flat",
+sentiment: "bad",
+priceStatus: "◆ SMM's China dysprosium metal benchmark held at $233.55/kg — China's markets are closed for Golden Week (Oct 1-7), so Sept 30 remains the last published print"
+},
+{
+name: "Tin",
+severity: "active",
+exchange: "LME",
+val: "$54.33/kg",
+asOf: "2026-10-01",
+checked: "2026-10-05",
+hurts: "Solder for chips and circuit boards, as Indonesia caps exports",
+supply: {"mined": [["China", 24], ["Indonesia", 21], ["Peru", 11]], "minedSrc": "USGS 2025", "processedNote": "Share not published"},
+facts: {"exports": "Indonesia export quota — 60,000 t", "now": "No mine or plant shut", "price": "Within 10% of the June record"},
+risk: {
+concentration: {
+pts: 2,
+why: "China 24% of 2025 mine output, Indonesia 21% (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "Indonesia, 21% of supply, runs an export-quota regime (60,000 t for 2026)"
+},
+disruption: {
+pts: 0,
+why: "Indonesia's crackdown on illegal Bangka-Belitung mines has no dated output loss confirmed in the last 30 days"
+},
+price: {
+pts: 8,
+why: "LME tin at $54,332/t (Oct 1) is within 10% of the June 2 record near $59,000/t"
+}
+},
+dir: "down",
+sentiment: "good",
+priceStatus: "▲ LME tin rose to $54,332/tonne ($54.33/kg) on Oct 1, up 0.75% on the day per Trading Economics, still below June 2's $59,000/tonne intraday record"
+},
+{
+name: "Zinc",
+severity: "active",
+exchange: "LME",
+val: "$3.70/kg ($3,698.35/tonne)",
+asOf: "2026-10-02",
+checked: "2026-10-05",
+hurts: "Galvanized steel for construction and cars",
+supply: {"mined": [["China", 32], ["Peru", 12], ["Australia", 8]], "minedSrc": "USGS 2025", "processedNote": "Share not published"},
+facts: {"exports": "No restrictions", "now": "No mine or plant shut", "price": "No sign of price stress"},
+risk: {
+concentration: {
+pts: 6,
+why: "China 32% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No dated smelter outage or mine disruption confirmed in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
+dir: "down",
+sentiment: "good",
+priceStatus: "▼ LME zinc eased to $3,698.35/tonne ($3.70/kg) on Oct 2, down 0.76% on the day per Trading Economics, still near its 2022 highs"
+},
+{
+name: "Copper",
+severity: "elevated",
+exchange: "COMEX / LME",
+val: "$14.39/kg ($6.53/lb)",
+asOf: "2026-10-04",
+checked: "2026-10-05",
+hurts: "Grid cables, EV wiring and data centers as Chile's output hits a 15-year low",
+supply: {"mined": [["Chile", 23], ["Congo", 14], ["Peru", 12]], "minedSrc": "USGS 2025", "processed": [["China", 48], ["Congo", 10], ["Chile", 6]], "processedSrc": "USGS 2025, refining"},
+facts: {"exports": "No restrictions", "now": "Grasberg shut · Chile output at a 15-year low · mediations unresolved", "price": "Near record — $6.83/lb high on Sep 22"},
+risk: {
+concentration: {
+pts: 12,
+why: "China 48% of 2025 refined copper; Chile 23% of mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 25,
+why: "Grasberg's recovery stays delayed into 2027-2028; Chile's copper output has fallen to a 15-year low (Rio Times, Oct 1)"
+},
+price: {
+pts: 14,
+why: "Comex copper set a record $6.83/lb on Sept 22, within the last 30 days"
+}
+},
+dir: "down",
+sentiment: "neutral",
+priceStatus: "▲ Comex copper rose to $6.53/lb on Oct 4 (+0.52% per Trading Economics), holding near Sept 22's $6.83/lb record as LME copper trades near its Sept 10 record of $14,858.50/tonne"
+},
+{
+name: "Cobalt",
+severity: "elevated",
+exchange: "LME (Trading Economics)",
+val: "$39.14/kg ($17.75/lb)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "EV battery and jet-engine alloy makers, as Congo's export quota caps supply",
+supply: {"mined": [["Congo", 74], ["Indonesia", 14], ["Russia", 2]], "minedSrc": "USGS 2025", "processed": [["China", 76]], "processedSrc": "IEA 2025"},
+facts: {"exports": "Congo export quota — 96,600 t cap", "now": "No mine or plant shut", "price": "No sign of price stress"},
+risk: {
+concentration: {
+pts: 20,
+why: "Congo (Kinshasa) 74% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "Congo's 2026-2027 export quota (96,600 t ceiling) is in force; Glencore's own H1 2026 DRC cobalt output fell 46% as it pivots toward copper"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated 12-month comparison on the LME-linked series; the old Fastmarkets series is not comparable"
+}
+},
+dir: "flat",
+sentiment: "neutral",
+priceStatus: "◆ LME-linked cobalt held at $39,140/tonne ($17.75/lb) on Sept 30, unchanged on the day per Trading Economics; Congo's quota keeps shipments capped regardless of price"
+},
+{
+name: "Tungsten (APT)",
+severity: "high",
+exchange: "SMM (CIF Rotterdam APT)",
+val: "$270-310/kg ($2,700-3,100/mtu)",
+asOf: "2026-10-01",
+checked: "2026-10-05",
+hurts: "Cutting tools, drill bits and armor-piercing ammunition makers in the US, EU and Japan",
+supply: {"mined": [["China", 79], ["Vietnam", 4], ["Kazakhstan", 3]], "minedSrc": "USGS 2025", "processedNote": "Share not published"},
+facts: {"exports": "China licences, 15 exporters only · Zimbabwe ore ban since Sep 8", "now": "No mine or plant shut", "price": "About 4× its end-2025 price"},
+risk: {
+concentration: {
+pts: 20,
+why: "China 79% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "China's export-licence regime (Feb 2025) limits exports to 15 firms through 2027; Zimbabwe's Sept 8 ban adds to it"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 20,
+why: "APT CIF Rotterdam at $2,700-3,100/mtu (SMM, Oct 1) is still about four times its end-2025 level of $675 (USGS 2026)"
+}
+},
+dir: "down",
+sentiment: "neutral",
+priceStatus: "▼ SMM's Oct 1 market note puts CIF Rotterdam APT at $2,700-3,100/mtu, the quoted range pulling back at the bottom end from $2,900-3,100 previously"
+},
+{
+name: "Neodymium",
+severity: "elevated",
+exchange: "SMM China Spot (Metal)",
+val: "$124.67/kg (metal, China)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "EV motors, wind turbines and electronics that use neodymium magnets",
+supply: {"mined": [["China", 69], ["USA", 13], ["Australia", 7]], "minedSrc": "USGS 2025", "processed": [["China", 84]], "processedSrc": "IEA 2025, magnet rare earths"},
+facts: {"exports": "Licence needed from China · stricter rules may return Nov 10", "now": "No mine or plant shut", "price": "No sign of price stress"},
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's export licensing is in force, now with stricter anti-circumvention rules (Sept 29); the Oct 2025 pause on wider controls ends Nov 10 (+5)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium confirmed on the metal benchmark"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
+dir: "flat",
+sentiment: "neutral",
+priceStatus: "◆ SMM's China neodymium metal benchmark held at $124.67/kg (¥124,670/tonne) — China's markets are closed for Golden Week (Oct 1-7), so Sept 30 remains the last published print"
+},
+{
+name: "Nickel",
+severity: "elevated",
+exchange: "LME",
+val: "$15.53/kg",
+asOf: "2026-10-02",
+checked: "2026-10-05",
+hurts: "Stainless steel and EV battery makers, as Indonesia's mining quota tightens ore",
+supply: {"mined": [["Indonesia", 67], ["Philippines", 7], ["Russia", 5]], "minedSrc": "USGS 2025", "processedNote": "Indonesia is No. 1; China 31% (IEA 2025)"},
+facts: {"exports": "Indonesia mining quota cut", "now": "No mine or plant shut", "price": "No sign of price stress"},
+risk: {
+concentration: {
+pts: 20,
+why: "Indonesia 67% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 20,
+why: "Indonesia's 2026 RKAB mining quota, cut to 260-270 million wmt, is in force"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
+dir: "down",
+sentiment: "neutral",
+priceStatus: "▼ LME nickel eased to $15,530/tonne ($15.53/kg) on Oct 2, down 0.51% on the day per Trading Economics"
+},
+{
+name: "Gallium & Germanium",
+severity: "elevated",
+exchange: "China Spot (Trading Economics)",
+val: "$259.49/kg (Ga)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "Chip, radar, LED and fibre-optic makers that rely on Chinese supply",
+supply: {"minedNote": "By-product of alumina and zinc refining", "processed": [["China", 99]], "processedSrc": "USGS 2025, gallium"},
+facts: {"exports": "Licence needed from China · US ban paused until Nov 27", "now": "No mine or plant shut", "price": "No sign of price stress"},
+risk: {
+concentration: {
+pts: 25,
+why: "China about 99% of 2025 low-purity gallium output (USGS 2026)"
+},
+policy: {
+pts: 25,
+why: "China's gallium and germanium export licensing is in force; its suspension of the US export ban ends Nov 27, 2026 (+5 for a decision within 90 days)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium confirmed; China spot gallium little changed at ¥1,740/kg"
+}
+},
+watch: {
+date: "2026-11-27",
+what: "China's suspension of its gallium, germanium and antimony export ban to the US ends"
+},
+dir: "flat",
+sentiment: "neutral",
+priceStatus: "◆ China spot gallium held at ¥1,740/kg (≈$259.49/kg at ¥6.7056/$, today's rate) and germanium at ¥27,250/kg (≈$4,063.60/kg) — China's markets are closed for Golden Week (Oct 1-7), both per Trading Economics' last Sept 30 print"
+},
+{
+name: "Uranium (U3O8)",
+severity: "active",
+exchange: "U3O8 Spot (Trading Economics)",
+val: "$89.95/lb",
+asOf: "2026-10-02",
+checked: "2026-10-05",
+hurts: "Nuclear utilities buying reactor fuel",
+supply: {"mined": [["Kazakhstan", 39], ["Canada", 24], ["Namibia", 12]], "minedSrc": "World Nuclear Association 2024", "processedNote": "Share not published"},
+facts: {"exports": "No restrictions", "now": "No mine or plant shut", "price": "Steady near $89/lb"},
+risk: {
+concentration: {
+pts: 6,
+why: "Kazakhstan 39% of 2024 world mine output (World Nuclear Association)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
+dir: "up",
+sentiment: "neutral",
+priceStatus: "▲ Spot uranium rose to $89.95/lb on Oct 2, up 0.56% on the day per Trading Economics, still little changed from mid-September"
+},
+{
+name: "Platinum",
+severity: "active",
+exchange: "Spot / NYMEX (Trading Economics)",
+val: "$1,700.00/oz",
+asOf: "2026-10-02",
+checked: "2026-10-05",
+hurts: "Car catalytic converters and hydrogen electrolysers relying on South African mines",
+supply: {"mined": [["South Africa", 71], ["Russia", 12], ["Zimbabwe", 11]], "minedSrc": "USGS 2025", "processedNote": "Share not published"},
+facts: {"exports": "No restrictions", "now": "No mine or plant shut", "price": "About 10% below the August high"},
+risk: {
+concentration: {
+pts: 20,
+why: "South Africa 71% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No dated South African mine or power outage confirmed in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Spot $1,706.80/oz (Oct 2) is below its Aug 21 high of $1,907"
+}
+},
+dir: "down",
+sentiment: "neutral",
+priceStatus: "▼ Spot platinum eased to $1,700.00/oz on Oct 2 per Trading Economics, down 1.32% on the day and about 11% below its Aug 21 high of $1,907"
+},
+{
+name: "Lithium",
+severity: "active",
+exchange: "China Futures / Spot (Trading Economics)",
+val: "$18.31/kg (carbonate)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "EV and grid-storage battery makers, now exposed to Brazil's Sigma Lithium mine halt",
+supply: {"mined": [["Australia", 32], ["China", 21], ["Chile", 19]], "minedSrc": "USGS 2025", "processed": [["China", 74]], "processedSrc": "IEA 2025"},
+facts: {"exports": "Zimbabwe bans raw-ore exports", "now": "Brazil's Sigma Lithium partial mine halt (pit-slope risk)", "price": "Well below the August high"},
+risk: {
+concentration: {
+pts: 6,
+why: "Australia 32% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 8,
+why: "Brazil's ANM ordered a partial halt at Sigma Lithium's only mine over a pit-slope rupture, cutting FY2027 guidance to 240,000t from 330,000t"
+},
+price: {
+pts: 0,
+why: "China carbonate at ¥122,800/t (Sept 30) is well under the Aug 24 high of ¥160,500"
+}
+},
+dir: "flat",
+sentiment: "good",
+priceStatus: "◆ China lithium carbonate held at ¥122,800/tonne (≈$18.31/kg at ¥6.7056/$) — China's markets are closed for Golden Week (Oct 1-7), with Sept 30 the last published print, still well under Aug 24's 2026 high of ¥160,500"
+},
+{
+name: "Aluminum",
+severity: "active",
+exchange: "LME",
+val: "$3.10/kg",
+asOf: "2026-10-02",
+checked: "2026-10-05",
+hurts: "Car, can and construction buyers of Gulf metal while UAE smelting stays cut",
+supply: {"minedLabel": "Mined (bauxite)", "mined": [["Guinea", 34], ["Australia", 22], ["China", 20]], "minedSrc": "USGS 2025", "processedLabel": "Smelted", "processed": [["China", 61], ["India", 6], ["Russia", 5]], "processedSrc": "USGS 2025"},
+facts: {"exports": "No restrictions", "now": "No new outage", "price": "About 24% above a year ago"},
+risk: {
+concentration: {
+pts: 20,
+why: "China 61% of 2025 smelter output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "UAE's Al Taweelah outage (Mar 28 strikes) is now well over 30 days old"
+},
+price: {
+pts: 8,
+why: "LME $3,120/t (Oct 1) is about 24% above the roughly $2,500/t of a year earlier (AL Circle)"
+}
+},
+dir: "down",
+sentiment: "neutral",
+priceStatus: "▼ LME aluminium eased to $3,097.50/tonne ($3.10/kg) on Oct 2, down 0.73% on the day per Trading Economics, still roughly 24% above year-ago levels"
+},
+{
+name: "Yttrium",
+severity: "high",
+exchange: "SMM China Spot (Metal)",
+val: "$34.87/kg (metal, China)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "Jet-engine and gas-turbine coatings, lasers and chip makers outside China",
+supply: {"minedNote": "Mostly China, with a large share from Myanmar (USGS; shares not published)", "processedNote": "Mostly China (share not published)"},
+facts: {"exports": "Licence needed from China · stricter rules may return Nov 10", "now": "No mine or plant shut", "price": "Offers outside China run far above China's price"},
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's export licensing is in force, now with stricter anti-circumvention rules (Sept 29); the Oct 2025 pause on wider controls ends Nov 10 (+5)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 20,
+why: "European offers have run near $1,175/kg for oxide against about $7.6-7.9/kg inside China (SMM), far above a 3x premium"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
+dir: "flat",
+sentiment: "bad",
+priceStatus: "◆ SMM's China yttrium metal benchmark held at $34.87/kg — China's markets are closed for Golden Week (Oct 1-7); buyers outside China continue paying many times more for oxide"
+},
+{
+name: "Terbium",
+severity: "elevated",
+exchange: "SMM China Spot (Metal)",
+val: "$1,074.34/kg (metal, China)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "High-heat magnets for EV motors and wind turbines outside China",
+supply: {"mined": [["China", 69], ["USA", 13], ["Australia", 7]], "minedSrc": "USGS 2025", "processed": [["China", 84]], "processedSrc": "IEA 2025, magnet rare earths"},
+facts: {"exports": "Licence needed from China · stricter rules may return Nov 10", "now": "No mine or plant shut", "price": "No sign of price stress"},
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of global rare-earth refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 25,
+why: "China's export licensing is in force, now with stricter anti-circumvention rules (Sept 29); the Oct 2025 pause on wider controls ends Nov 10 (+5)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Domestic metal at $1,074.34/kg is little changed; no dated ex-China premium confirmed"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
+dir: "flat",
+sentiment: "neutral",
+priceStatus: "◆ SMM's domestic China terbium metal benchmark held at $1,074.34/kg — China's markets are closed for Golden Week (Oct 1-7), so Sept 30 remains the last published print"
+},
+{
+name: "Scandium",
+severity: "active",
+exchange: "SMM China Spot (Metal)",
+val: "$3,092.09/kg (metal, China)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "Aerospace aluminium-scandium alloys and solid-oxide fuel cells",
+supply: {"minedNote": "By-product; China is the leading producer of about 80 t a year (USGS)", "processedNote": "China leads; Japan refines Philippine feed (USGS)"},
+facts: {"exports": "Licence needed from China · stricter rules may return Nov 10", "now": "No mine or plant shut", "price": "Drifting lower for months"},
+risk: {
+concentration: {
+pts: 12,
+why: "China is the leading producer (USGS 2026) but no share is published; scored at the 40-59% band as a floor"
+},
+policy: {
+pts: 25,
+why: "China's export licensing is in force, now with stricter anti-circumvention rules (Sept 29); the Oct 2025 pause on wider controls ends Nov 10 (+5)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Domestic metal at $3,092.09/kg, little changed on the month"
+}
+},
+watch: {
+date: "2026-11-10",
+what: "China's pause on its Oct 2025 rare-earth export controls ends"
+},
+dir: "flat",
+sentiment: "neutral",
+priceStatus: "◆ SMM's domestic China scandium metal price held at $3,092.09/kg — China's markets are closed for Golden Week (Oct 1-7), continuing a multi-month drift lower overall"
+},
+{
+name: "Silver",
+severity: "active",
+exchange: "Spot (Trading Economics)",
+val: "$60.65/oz",
+asOf: "2026-10-04",
+checked: "2026-10-05",
+hurts: "Solar-panel and electronics makers",
+supply: {"mined": [["Mexico", 24], ["Peru", 14], ["China", 13]], "minedSrc": "USGS 2025", "processedNote": "Share not published"},
+facts: {"exports": "No restrictions", "now": "No mine or plant shut", "price": "Below the Sep 25 high"},
+risk: {
+concentration: {
+pts: 2,
+why: "Mexico 24% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated record-high comparison confirmed despite the recent pullback"
+}
+},
+dir: "up",
+sentiment: "neutral",
+priceStatus: "▲ Spot silver rose to $60.65/oz on Oct 4, up 0.47% on the day per Trading Economics, still below Sept 25's $64.26 high"
+},
+{
+name: "Antimony",
+severity: "active",
+exchange: "SMM China Spot",
+val: "$13.29/kg",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "Flame retardants, lead-acid batteries and ammunition primers outside China",
+supply: {"mined": [["China", 36], ["Russia", 29], ["Tajikistan", 20]], "minedSrc": "USGS 2025", "processedNote": "Share not published"},
+facts: {"exports": "Licence needed from China · US ban paused until Nov 27 · Zimbabwe ban", "now": "No mine or plant shut", "price": "Europe pays about 45% more than China"},
+risk: {
+concentration: {
+pts: 6,
+why: "China 36% and Russia 29% of 2025 mine output (USGS 2026)"
+},
+policy: {
+pts: 25,
+why: "China's antimony export licensing (Sept 2024) is in force and its suspension of the US export ban ends Nov 27, 2026 (+5); Zimbabwe banned exports Sept 8"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "China 99.65% at $13,289/t is roughly flat on the month"
+}
+},
+watch: {
+date: "2026-11-27",
+what: "China's suspension of its antimony export ban to the US ends"
+},
+dir: "flat",
+sentiment: "neutral",
+priceStatus: "◆ SMM's China 99.65% benchmark held at $13,289.40/tonne ($13.29/kg); SMM's Europe 99.65% price is now pinned exactly at $19,250/tonne, about 45% above China's"
+},
+{
+name: "Manganese",
+severity: "active",
+exchange: "SMM China Spot (EMM)",
+val: "$2.31/kg (EMM)",
+asOf: "2026-09-30",
+checked: "2026-10-05",
+hurts: "Steelmakers and battery-cathode makers relying on Chinese refining",
+supply: {"mined": [["South Africa", 38], ["Gabon", 25], ["Ghana", 10]], "minedSrc": "USGS 2025", "processed": [["China", 90]], "processedLegend": "China over 90%", "processedSrc": "IEA"},
+facts: {"exports": "No restrictions", "now": "No mine or plant shut", "price": "No sign of price stress"},
+risk: {
+concentration: {
+pts: 25,
+why: "China holds over 90% of manganese refining (IEA Global Critical Minerals Outlook 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "No dated ex-China premium or 12-month comparison showing stress"
+}
+},
+dir: "flat",
+sentiment: "neutral",
+priceStatus: "◆ SMM's electrolytic manganese metal benchmark held at $2,309.20/tonne ($2.31/kg) — China's markets are closed for Golden Week (Oct 1-7); FOB China $2,550/tonne and Rotterdam in-warehouse $2,700/tonne, both pinned exactly from ranges previously"
+},
+{
+name: "Helium",
+severity: "active",
+priced: false,
+exchange: "No daily public price",
+reason: "Qatar's Ras Laffan, the No. 2 source, runs near 25% with Hormuz effectively closed",
+checked: "2026-10-05",
+hurts: "Chip fabs, MRI scanners and fibre-optic plants while Qatar's supply stays cut",
+supply: {"minedLabel": "Produced", "mined": [["USA", 43], ["Qatar", 33], ["Russia", 9]], "minedSrc": "USGS 2025", "processedNote": "Extracted with natural gas; no separate processing step"},
+facts: {"exports": "No restrictions", "now": "Qatar's Ras Laffan near 25% · Hormuz effectively shut", "price": "No public daily price"},
+risk: {
+concentration: {
+pts: 12,
+why: "United States 43% and Qatar 33% of 2025 world production (USGS 2026)"
+},
+policy: {
+pts: 0,
+why: "No export ban, licence or quota in force by a supplier holding 20% or more"
+},
+disruption: {
+pts: 25,
+why: "Ras Laffan hit by missiles Mar 18-19; Helium2 still running near 25% of capacity with Hormuz effectively closed"
+},
+price: {
+pts: 0,
+why: "Not scored: helium trades on private contracts with no daily public price"
+}
+}
+},
+{
+name: "Graphite (battery anode)",
+severity: "elevated",
+priced: false,
+exchange: "No daily public price",
+reason: "China's export-permit regime is in force; its US easing ends Nov 27",
+checked: "2026-10-05",
+hurts: "EV battery anode makers outside China, exposed to Chinese export permits",
+supply: {"mined": [["China", 78], ["Madagascar", 4], ["Tanzania", 4]], "minedSrc": "USGS 2025", "processed": [["China", 94]], "processedSrc": "IEA 2025, battery grade"},
+facts: {"exports": "China permit needed · US easing ends Nov 27", "now": "No mine or plant shut", "price": "No public daily price"},
+risk: {
+concentration: {
+pts: 25,
+why: "China 78% of 2025 mine output and over 90% of refining (USGS 2026; IEA 2026)"
+},
+policy: {
+pts: 25,
+why: "China's graphite export permits (since Dec 2023) are in force; the suspension of its tighter US rules ends Nov 27, 2026 (+5)"
+},
+disruption: {
+pts: 0,
+why: "No force majeure, strike or outage at a major source reported in the last 30 days"
+},
+price: {
+pts: 0,
+why: "Not scored: no daily public graphite price"
+}
+},
+watch: {
+date: "2026-11-27",
+what: "China's suspension of its tighter graphite export rules for the US ends"
+}
+}
+];
+var mineralsOther = [];
+var freightEnergy = [
+{
+pillar: "Energy",
+name: "Brent Crude",
+ticker: "Anchor: Strait of Hormuz",
+val: "$102.25/bbl",
+asOf: "Oct 4 (aggregator), +2.6%",
+linkTag: "hormuz",
+chg: "Brent traded near $102.25 a barrel Oct 4 per aggregator data (ICE's own weekend settle is unavailable), up about 2.6% from Oct 2's $99.68 ICE close, as renewed tanker strikes and Iran's rejected de-escalation offer kept a war-risk premium in the market",
+dir: "up",
+severity: "elevated",
+history: [
+{
+d: "2026-08-21",
+v: 93.86
+},
+{
+d: "2026-08-22",
+v: 93.86
+},
+{
+d: "2026-08-24",
+v: 94.39
+},
+{
+d: "2026-08-25",
+v: 92.06
+},
+{
+d: "2026-08-26",
+v: 86.8
+},
+{
+d: "2026-08-27",
+v: 87.9
+},
+{
+d: "2026-08-28",
+v: 86.93
+},
+{
+d: "2026-08-29",
+v: 88.22
+},
+{
+d: "2026-08-30",
+v: 88.22
+},
+{
+d: "2026-08-31",
+v: 88.29
+},
+{
+d: "2026-09-01",
+v: 91.28
+},
+{
+d: "2026-09-02",
+v: 94.86
+},
+{
+d: "2026-09-03",
+v: 95.82
+},
+{
+d: "2026-09-04",
+v: 95.23
+},
+{
+d: "2026-09-07",
+v: 97.29
+},
+{
+d: "2026-09-08",
+v: 97.41
+},
+{
+d: "2026-09-09",
+v: 100.71
+},
+{
+d: "2026-09-10",
+v: 101.25
+},
+{
+d: "2026-09-11",
+v: 106.11
+},
+{
+d: "2026-09-12",
+v: 104.61
+},
+{
+d: "2026-09-14",
+v: 108.34
+},
+{
+d: "2026-09-15",
+v: 107.46
+},
+{
+d: "2026-09-16",
+v: 105.83
+},
+{
+d: "2026-09-17",
+v: 103.61
+},
+{
+d: "2026-09-18",
+v: 103.29
+},
+{
+d: "2026-09-21",
+v: 100.34
+},
+{
+d: "2026-09-22",
+v: 98.47
+},
+{
+d: "2026-09-23",
+v: 101.61
+},
+{
+d: "2026-09-24",
+v: 106.6
+},
+{
+d: "2026-09-25",
+v: 104.32
+},
+{
+d: "2026-09-28",
+v: 106.89
+},
+{
+d: "2026-09-29",
+v: 99.89
+},
+{
+d: "2026-09-30",
+v: 97.46
+},
+{
+d: "2026-10-01",
+v: 102.31
+},
+{
+d: "2026-10-02",
+v: 99.68
+},
+{
+d: "2026-10-04",
+v: 102.25
+}
+]
+},
+{
+pillar: "Energy",
+name: "Henry Hub Natural Gas",
+ticker: "Anchor: Bab-el-Mandeb / Red Sea",
+val: "$2.98/MMBtu",
+asOf: "Oct 1 settle, -1.0%",
+linkTag: "bab-el-mandeb",
+chg: "Henry Hub settled at $2.98/MMBtu on Oct 1, down about 1% from $3.01 on Sept 30",
+dir: "down",
+severity: "active",
+history: [
+{
+d: "2026-08-21",
+v: 2.79
+},
+{
+d: "2026-08-22",
+v: 2.79
+},
+{
+d: "2026-08-24",
+v: 2.73
+},
+{
+d: "2026-08-25",
+v: 2.73
+},
+{
+d: "2026-08-26",
+v: 2.73
+},
+{
+d: "2026-08-27",
+v: 2.84
+},
+{
+d: "2026-08-28",
+v: 2.9
+},
+{
+d: "2026-08-29",
+v: 2.9
+},
+{
+d: "2026-08-30",
+v: 2.89
+},
+{
+d: "2026-08-31",
+v: 2.89
+},
+{
+d: "2026-09-01",
+v: 2.9
+},
+{
+d: "2026-09-02",
+v: 2.9
+},
+{
+d: "2026-09-03",
+v: 2.77
+},
+{
+d: "2026-09-04",
+v: 2.93
+},
+{
+d: "2026-09-08",
+v: 2.93
+},
+{
+d: "2026-09-09",
+v: 2.91
+},
+{
+d: "2026-09-10",
+v: 2.87
+},
+{
+d: "2026-09-11",
+v: 2.81
+},
+{
+d: "2026-09-12",
+v: 2.77
+},
+{
+d: "2026-09-14",
+v: 2.88
+},
+{
+d: "2026-09-16",
+v: 2.9
+},
+{
+d: "2026-09-17",
+v: 2.92
+},
+{
+d: "2026-09-22",
+v: 2.84
+},
+{
+d: "2026-09-23",
+v: 3.02
+},
+{
+d: "2026-09-24",
+v: 3.06
+},
+{
+d: "2026-09-28",
+v: 3.11
+},
+{
+d: "2026-09-29",
+v: 3.11
+},
+{
+d: "2026-09-30",
+v: 3.01
+},
+{
+d: "2026-10-01",
+v: 2.98
+}
+]
+},
+{
+pillar: "Freight",
+name: "Baltic Dry Index",
+ticker: "Dry bulk (coal, grain, iron ore)",
+val: "3,148 pts",
+asOf: "Oct 2 close, +0.25%",
+chg: "The Baltic Exchange said its index climbed 8 points (0.25%) to 3,148 Friday, a second straight gain after Oct 1's four-session slide ended",
+dir: "up",
+severity: "active",
+history: [
+{
+d: "2026-08-21",
+v: 2841
+},
+{
+d: "2026-08-22",
+v: 2841
+},
+{
+d: "2026-08-24",
+v: 2882
+},
+{
+d: "2026-08-25",
+v: 2882
+},
+{
+d: "2026-08-26",
+v: 2926
+},
+{
+d: "2026-08-27",
+v: 3056
+},
+{
+d: "2026-08-28",
+v: 3107
+},
+{
+d: "2026-08-29",
+v: 3186
+},
+{
+d: "2026-08-30",
+v: 3186
+},
+{
+d: "2026-08-31",
+v: 3186
+},
+{
+d: "2026-09-01",
+v: 3157
+},
+{
+d: "2026-09-02",
+v: 3331
+},
+{
+d: "2026-09-03",
+v: 3488
+},
+{
+d: "2026-09-04",
+v: 3628
+},
+{
+d: "2026-09-07",
+v: 3575
+},
+{
+d: "2026-09-08",
+v: 3584
+},
+{
+d: "2026-09-09",
+v: 3620
+},
+{
+d: "2026-09-10",
+v: 3521
+},
+{
+d: "2026-09-11",
+v: 3507
+},
+{
+d: "2026-09-14",
+v: 3445
+},
+{
+d: "2026-09-15",
+v: 3360
+},
+{
+d: "2026-09-16",
+v: 3327
+},
+{
+d: "2026-09-17",
+v: 3336
+},
+{
+d: "2026-09-18",
+v: 3370
+},
+{
+d: "2026-09-21",
+v: 3399
+},
+{
+d: "2026-09-22",
+v: 3432
+},
+{
+d: "2026-09-23",
+v: 3430
+},
+{
+d: "2026-09-24",
+v: 3473
+},
+{
+d: "2026-09-25",
+v: 3426
+},
+{
+d: "2026-09-28",
+v: 3268
+},
+{
+d: "2026-09-29",
+v: 3178
+},
+{
+d: "2026-09-30",
+v: 3113
+},
+{
+d: "2026-10-01",
+v: 3140
+},
+{
+d: "2026-10-02",
+v: 3148
+}
+]
+},
+{
+pillar: "Freight",
+name: "Drewry World Container Index",
+ticker: "Asia-Europe-led",
+val: "$4,434/40ft",
+asOf: "Oct 1 reading, -1%",
+chg: "Drewry's index fell 1% to $4,434 Thursday; Shanghai-Genoa dropped 3% to $3,702 and Shanghai-Rotterdam 2% to $3,399, while Shanghai-New York rose 1% to $10,428. Golden Week factory closures should cut cargo volumes further next week, Drewry said",
+dir: "down",
+severity: "active",
+history: [
+{
+d: "2026-08-21",
+v: 4526
+},
+{
+d: "2026-08-22",
+v: 4526
+},
+{
+d: "2026-08-24",
+v: 4526
+},
+{
+d: "2026-08-25",
+v: 4526
+},
+{
+d: "2026-08-26",
+v: 4526
+},
+{
+d: "2026-08-27",
+v: 4526
+},
+{
+d: "2026-08-28",
+v: 4526
+},
+{
+d: "2026-08-29",
+v: 4473
+},
+{
+d: "2026-08-30",
+v: 4473
+},
+{
+d: "2026-08-31",
+v: 4473
+},
+{
+d: "2026-09-01",
+v: 4473
+},
+{
+d: "2026-09-02",
+v: 4473
+},
+{
+d: "2026-09-03",
+v: 4465
+},
+{
+d: "2026-09-04",
+v: 4465
+},
+{
+d: "2026-09-07",
+v: 4465
+},
+{
+d: "2026-09-08",
+v: 4465
+},
+{
+d: "2026-09-09",
+v: 4465
+},
+{
+d: "2026-09-10",
+v: 4465
+},
+{
+d: "2026-09-11",
+v: 4476
+},
+{
+d: "2026-09-15",
+v: 4476
+},
+{
+d: "2026-09-16",
+v: 4476
+},
+{
+d: "2026-09-17",
+v: 4500
+},
+{
+d: "2026-09-21",
+v: 4500
+},
+{
+d: "2026-09-22",
+v: 4500
+},
+{
+d: "2026-09-23",
+v: 4500
+},
+{
+d: "2026-09-24",
+v: 4468
+},
+{
+d: "2026-09-30",
+v: 4468
+},
+{
+d: "2026-10-01",
+v: 4434
+}
+]
+}
+];
+var infrastructureWatch = [
+{
+pillar: "Maritime Gateway",
+name: "Adani Ports & SEZ",
+ticker: "NSE: ADANIPORTS",
+val: "₹1,738",
+asOf: "2026-10-01",
+checked: "2026-10-05",
+chg: "Adani Ports & SEZ closed Thursday at ₹1,738, down 3.36%, within its 52-week range of ₹1,292-1,892 and a market cap near ₹4.00 lakh crore, Screener.in data shows",
+dir: "down",
+severity: "elevated",
+sentiment: "bad"
+},
+{
+pillar: "Heavy Build & Capex",
+name: "Larsen & Toubro",
+ticker: "NSE: LT",
+val: "₹3,693",
+asOf: "2026-10-01",
+checked: "2026-10-05",
+chg: "L&T closed Thursday at ₹3,693, down 1.77%, within its 52-week range of ₹3,288-4,440 and a market cap near ₹5.08 lakh crore. Its order pipeline still includes the Vyoma.AI data-centre order with Together AI and a roughly ₹15,000-crore ADNOC Offshore EPCIC contract",
+dir: "down",
+severity: "active",
+sentiment: "bad"
+},
+{
+pillar: "Corridor Inputs",
+name: "UltraTech Cement",
+ticker: "NSE: ULTRACEMCO",
+val: "₹10,710",
+asOf: "2026-10-01",
+checked: "2026-10-05",
+chg: "UltraTech closed Thursday at ₹10,710, down 2.25%, within its 52-week range of ₹10,325-13,110 and a market cap near ₹3.16 lakh crore. Q1 FY27 net sales had risen 16% year-on-year to ₹24,465 crore on record domestic volumes of 39.2 million tonnes",
+dir: "down",
+severity: "elevated",
+sentiment: "bad"
+},
+{
+pillar: "Intermodal Freight",
+name: "Container Corp. of India",
+ticker: "NSE: CONCOR",
+val: "₹442",
+asOf: "2026-10-01",
+checked: "2026-10-05",
+chg: "CONCOR closed Thursday at ₹442, down 1.23%, within a 52-week range of ₹421-558 and a market cap near ₹33,664 crore",
+dir: "down",
+severity: "active",
+sentiment: "bad"
+},
+{
+pillar: "Surface Transport",
+name: "IRB Infrastructure",
+ticker: "NSE: IRB",
+val: "₹17.00",
+asOf: "2026-10-01",
+checked: "2026-10-05",
+chg: "IRB closed Thursday at ₹17.00, down 2.8%, against a 52-week range of ₹16.80-24.00 and a market cap near ₹20,533 crore. Q1 FY27 net profit had risen 51.26% year-on-year to ₹306.27 crore",
+dir: "down",
+severity: "elevated",
+sentiment: "bad"
+}
+];
+var tradePolicy = [
+{
+action: "Russia & Iran sanctions law signed, letting the president impose tariffs of up to 100% on the five largest buyers of Russian oil and gas",
+jurisdiction: "India, China & other major buyers of Russian energy",
+sector: "Russian crude & gas imports; Russian banks & energy sector",
+severity: "high",
+asOf: "2026-09-23",
+checked: "2026-10-05",
+note: "President Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act (H.R. 5334) into law Sept 18; his first country determinations are due within 30 days of enactment, around Oct 18 — now 13 days away. The tariff power carries a carve-out for countries cutting Russian energy dependence below 15% of Russia's annual gas exports. India's MEA says the issue has been discussed at high levels with US officials; no determination has been announced yet."
+},
+{
+action: "Washington's Sept 29 import bans on Canadian dairy, motorcycles, molasses and alcohol remain in force with no new talks announced",
+jurisdiction: "Canada",
+sector: "Cross-border goods, dairy, motorcycles, alcohol, vehicles, auto parts, steel",
+severity: "high",
+linkTag: "canada-tariffs",
+asOf: "2026-09-29",
+checked: "2026-10-05",
+note: "Washington's import bans on Canadian dairy, motorcycles, cane molasses, non-alcoholic beer and most alcoholic beverages took effect at midnight ET Sept 29 as scheduled, largely replacing the 50% tariffs imposed last month (Crown Royal whiskey is exempt under a container-size provision). A government source says there are currently no talks between the two sides' ministers or officials. Ottawa's retaliatory tariffs on $27.6bn of US goods, in force since Sept 8, remain unchanged: 15-50% levies on steel, aluminum, dairy, appliances, agricultural equipment, pulp & paper, plastics and electronics, plus a $5.42bn support package."
+},
+{
+action: "China's one-year pause on its expanded rare-earth export controls expires Nov 10, now with stricter enforcement rules already in force",
+jurisdiction: "China (MOFCOM) — applies to all buyers of Chinese rare earths",
+sector: "Medium & heavy rare earths, magnets & processing technology",
+severity: "elevated",
+asOf: "2026-09-29",
+checked: "2026-10-05",
+note: "China suspended the rare-earth controls it announced Oct 9, 2025 for one year, to Nov 10, 2026, under the US-China deal following the Xi-Trump meeting. US Treasury Secretary Bessent said Sept 24 the wider truce now runs to Jan 10, 2027; as of Sept 28 Beijing had published no matching notice on these controls, which return automatically without one. Metalnomist reports China has separately introduced new anti-circumvention documentation rules (Sept 29) requiring stronger product-classification and end-user paperwork from traders and intermediaries — a tightening that applies regardless of whether the Nov 10 pause is extended. Dysprosium, neodymium, yttrium, terbium and scandium in the Critical Minerals Index all price directly off this regime."
+},
+{
+action: "China's suspension of its ban on gallium, germanium, antimony and superhard-material exports to the US runs out Nov 27",
+jurisdiction: "China / United States",
+sector: "Gallium, germanium, antimony & superhard materials",
+severity: "elevated",
+asOf: "2026-09-25",
+checked: "2026-10-05",
+note: "China's commerce ministry suspended the December 2024 US export ban on Nov 9, 2025, through Nov 27, 2026. The metals stay on China's dual-use export-control list, so every shipment still needs a licence, and the ban on dual-use exports to US military end users remains in force. The suspension covers the gallium, germanium and antimony rows in the Critical Minerals Index."
+}
+];
+var chokepoints = [
+{
+name: "Strait of Hormuz",
+status: "Exports rebound near pre-war levels even as attacks continue; US sends more ships, Marines",
+cls: "status-high",
+linkTag: "hormuz",
+note: "Kpler/JPMorgan put Gulf exports at 16.5-17.5m b/d, ~40% now bypassing Hormuz via pipeline after Saudi repaired its East-West line; Iran's Sept 26 reopening offer remains rejected by Washington.",
+links: [{"name": "Bloomberg", "url": "https://gcaptain.com/no-lights-no-radio-getting-oil-through-hormuz-is-a-risky-job/", "via": "gCaptain"}, {"name": "Reuters", "url": "https://www.timesofisrael.com/liveblog_entry/uk-maritime-group-says-tanker-struck-by-unknown-projectile-in-strait-of-hormuz/", "via": "Times of Israel"}, {"name": "Associated Press", "url": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news", "via": "PBS NewsHour"}],
+checks: {"claims": "US CENTCOM: more ships, Marines deployed · Iran: no new statement on escalation found", "data": "Kpler: Gulf exports ≥16.5m b/d Sept; JPMorgan ~17.5m b/d (Sept 29); UKMTO: further tanker strikes reported Oct 4", "verdict": "Mixed: export volumes match pre-war trackers, but UKMTO's continuing strike reports contradict any “safe” reading of the strait"},
+history: [
+{
+d: "2026-08-30",
+v: 6
+},
+{
+d: "2026-09-03",
+v: 8
+},
+{
+d: "2026-09-05",
+v: 11
+},
+{
+d: "2026-09-06",
+v: 12
+},
+{
+d: "2026-09-07",
+v: 5
+},
+{
+d: "2026-09-08",
+v: 11
+},
+{
+d: "2026-09-09",
+v: 6
+},
+{
+d: "2026-09-10",
+v: 7
+},
+{
+d: "2026-09-13",
+v: 8
+},
+{
+d: "2026-09-15",
+v: 6
+},
+{
+d: "2026-09-16",
+v: 12
+},
+{
+d: "2026-09-20",
+v: 1
+},
+{
+d: "2026-09-22",
+v: 12
+},
+{
+d: "2026-09-23",
+v: 1
+}
+]
+},
+{
+name: "Bab-el-Mandeb / Red Sea",
+status: "290 transits in week to Sept 27, near a two-year high; Houthi blockade on Saudi ships",
+cls: "status-high",
+linkTag: "bab-el-mandeb",
+note: "The Houthis took Mokha and Perim (Mayyun) island around Sept 11, Al Jazeera reports; Lloyd's List says their Saudi blockade limits further traffic growth.",
+links: [{"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/9/13/red-sea-nations-watch-as-houthis-seize-bab-al-mandeb-strait"}, {"name": "Lloyd's List Intelligence", "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-1-october-2026"}],
+checks: {"claims": "Houthis (al-Assad): navigation “safe and orderly” · US MARAD (Sept 23): attacks ongoing", "data": "Lloyd's List: 290 transits week to Sept 27 (264 prior); 1 Saudi-linked tanker since July 20", "verdict": "Mixed: traffic is at a near two-year high, but Saudi-linked ships have almost stopped, so not “safe” for every ship"},
+history: [
+{
+d: "2026-09-20",
+v: 264
+},
+{
+d: "2026-09-27",
+v: 290
+}
+]
+},
+{
+name: "Suez Canal",
+status: "Transits averaged 287 a week in the 4 weeks to Sept 27 (Lloyd's List)",
+cls: "status-elevated",
+note: "OOCL plans an October trial transit; Yang Ming and COSCO weigh more (SCA, Sept 24). The chart's 4-week rolling count was last published at 1,090 on Aug 20.",
+links: [{"name": "PortNews", "url": "https://en.portnews.ru/news/397412/"}, {"name": "Lloyd's List Intelligence", "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-1-october-2026"}],
+checks: {"claims": "Suez Canal Authority: lines are returning · Houthis: Red Sea navigation “safe”", "data": "Lloyd's List: 278 transits Sept 21-27, 295 Sept 14-20; SCA: Maersk 67 Sept crossings vs 8", "verdict": "Matches the SCA: Lloyd's List counts show traffic holding at 278-295 a week, above August's 281 average"},
+history: [
+{
+d: "2026-07-19",
+v: 1070
+},
+{
+d: "2026-08-16",
+v: 1089
+},
+{
+d: "2026-08-20",
+v: 1090
+}
+]
+},
+{
+name: "Panama Canal",
+status: "Daily slots rise to 33 from Oct 15 (ACP)",
+cls: "status-elevated",
+note: "The Neopanamax draft rises to 14.94 m and per-customer slot limits end the same day.",
+links: [{"name": "Newsroom Panama", "url": "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/"}, {"name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/maritime-transportation/supply-chain-relief-panama-canal-to-increase-in-draught-and-daily-transits"}],
+checks: {"claims": "Panama Canal Authority: near-average rainfall allows more slots", "data": "32 slots since Sept 15, 33 from Oct 15; record $5.3m slot auction in Aug", "verdict": "Matches: the ACP's own published allocations"},
+allocationHistory: [
+{
+d: "2026-09-03",
+v: 34
+},
+{
+d: "2026-09-15",
+v: 32
+}
+]
+},
+{
+name: "Strait of Malacca",
+status: "Mostly opportunistic theft; 2025 incidents highest since 2007 (ReCAAP)",
+cls: "status-active",
+note: "Night-time robberies hit the Singapore Strait's Phillip Channel in March.",
+links: [{"name": "ReCAAP ISC", "url": "https://www.recaap.org/alerts"}, {"name": "PortNews", "url": "https://en.portnews.ru/news/386610/"}],
+checks: {"claims": "No dispute on record · ReCAAP ISC: incidents mostly opportunistic theft at night", "data": "ReCAAP: 108 incidents in 2025 (62 in 2024); Asia-wide 10 in Q1 2026, 25 in Q2", "verdict": "Matches: ReCAAP's counts; no government disputes them"},
+monthlyChartLabel: "Quarterly piracy incidents (ReCAAP)",
+monthlyHistory: [
+{
+d: "2026-03-31",
+v: 10
+},
+{
+d: "2026-06-30",
+v: 25
+}
+]
+},
+{
+name: "Cape of Good Hope",
+status: "Carriers shift Asia-Europe sailings back to Suez",
+cls: "status-elevated",
+note: "US-, UK-, Israel- and Saudi-linked ships still face higher Red Sea risk, so many keep the Cape route.",
+links: [{"name": "PortNews", "url": "https://en.portnews.ru/news/397412/"}, {"name": "Lloyd's List Intelligence", "url": "https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-18-september-2026"}],
+checks: {"claims": "Suez Canal Authority: lines returning · US MARAD (Sept 23): some ships at higher Red Sea risk", "data": "SCA: Maersk 67 Suez transits in Sept vs 8; no public Cape diversion count", "verdict": "Consistent: rising Suez use means fewer Cape voyages; no Cape count exists to measure it"}
+}
+];
+var tickerItems = [
+{
+label: "GULF OIL EXPORTS",
+val: "REBOUND TO PRE-WAR LEVELS, ≥16.5M B/D; ~40% NOW BYPASS HORMUZ (REUTERS, KPLER)",
+dir: "up",
+sentiment: "neutral"
+},
+{
+label: "STRAIT OF HORMUZ",
+val: "ATTACKS CONTINUE; US SENDS MORE SHIPS, MARINES AS IRAN WEIGHS RESPONSE",
+dir: "up",
+sentiment: "bad"
+},
+{
+label: "BRENT CRUDE",
+val: "NEAR $102.25/BBL, UP ~2.6% FROM OCT 2'S $99.68 ICE CLOSE (AGGREGATOR DATA)",
+dir: "up",
+sentiment: "bad"
+},
+{
+label: "SAUDI PIPELINE",
+val: "EAST-WEST LINE RESUMES EXPORTS, BYPASSING HORMUZ ENTIRELY (AL ARABIYA)",
+dir: "up",
+sentiment: "good"
+},
+{
+label: "QATAR LNG",
+val: "FORCE MAJEURE EXTENDED INTO NOVEMBER; EU STORAGE TRACKING 75-78% VS 90% GOAL",
+dir: "up",
+sentiment: "bad"
+},
+{
+label: "CHILE COPPER",
+val: "ESCONDIDA, CENTINELA HEAD TO MANDATORY MEDIATION; STRIKE POSSIBLE OCT 13",
+dir: "down",
+sentiment: "bad"
+},
+{
+label: "COPPER MARKET",
+val: "MORGAN STANLEY SEES A 600,000-TONNE 2026 DEFICIT, LARGEST IN 20+ YEARS",
+dir: "up",
+sentiment: "bad"
+},
+{
+label: "PANAMA CANAL",
+val: "DAILY TRANSITS RISE TO 33, DRAFT TO 49FT FROM OCT 15 AS DROUGHT EASES",
+dir: "up",
+sentiment: "good"
+},
+{
+label: "INDONESIA NICKEL",
+val: "EXPORTS UP 50%; PRICE NEAR $16,500/T ON HIGH EXCHANGE STOCKS, PER JAKARTA POST",
+dir: "down",
+sentiment: "neutral"
+},
+{
+label: "BALTIC DRY INDEX",
+val: "HOLDING AT 3,148 SINCE THE OCT 2 CLOSE",
+dir: "up",
+sentiment: "neutral"
+}
+]
+
+
+var stories = [
+{
+"cats": ["geopolitics","conflict","outlook"],
+"india": false,
+"impact": 10,
+"direction": "friction",
+"linkTag": "hormuz",
+"src": "Reuters / ABC News",
+"time": "Oct 5",
+"dateISO": "2026-10-05",
+"title": "Gulf oil exports rebound to pre-war levels even as tanker attacks continue and Iran weighs a harder response",
+"dek": "Gulf crude exports have climbed back to pre-war levels, Reuters reports, with Kpler counting at least 16.5m b/d in September as 40% of cargo now bypasses Hormuz by pipeline. ABC News reports the G7's release is only starting to reach refiners as Washington sends more ships and Marines.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Brent has rebounded to about $102/bbl even as volumes recover; the war-risk premium remains.</span><span class='why-lens'><b>Governments</b> The US is reinforcing its Gulf posture, signaling it doubts the recovery will hold if Iran escalates.</span><span class='why-lens'><b>People</b> More oil is moving, but crews still report fresh strikes; physical risk has not eased with volume.</span>",
+"url": "https://bworldonline.com/world/2026/10/05/784388/middle-east-crude-oil-exports-exceed-pre-war-levels-but-tanker-attacks-increase/",
+"links": [
+{"name": "Reuters", "url": "https://bworldonline.com/world/2026/10/05/784388/middle-east-crude-oil-exports-exceed-pre-war-levels-but-tanker-attacks-increase/", "via": "BusinessWorld Online"},
+{"name": "ABC News", "url": "https://www.abc.net.au/news/2026-10-03/g7-to-release-100m-barrels-oil-in-bid-to-curb-soaring-prices/107224282"}
+],
+"checks": {
+"claims": "US CENTCOM: more ships, Marines deployed to the Gulf · Iran: no new statement on escalation found",
+"data": "Kpler: Gulf exports ≥16.5m b/d in Sept; ~40% of crude now bypasses Hormuz by pipeline, up from 17% pre-war",
+"verdict": "Matches: trackers agree exports are near pre-war levels; an Iran escalation remains a forecast, not yet data"
+}
+},
+{
+"cats": ["logistics","outlook"],
+"india": false,
+"impact": 8,
+"direction": "friction",
+"src": "Mining Weekly / Rio Times",
+"time": "Oct 1-2",
+"dateISO": "2026-10-02",
+"title": "Chile's Escondida and Centinela copper mines head to mandatory mediation after strike votes",
+"dek": "Supervisors at BHP's Escondida, the world's largest copper mine, rejected a contract offer and voted to strike, Mining Weekly reports; two unions at Centinela did the same. Chilean law forces five-day mediation before any stoppage; copper fell, according to Rio Times, in a broader selloff as the risk lingers.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> A strike could start Oct 13 if mediation fails, tightening an already-deficit copper market.</span><span class='why-lens'><b>Governments</b> Chile supplies roughly a quarter of world mined copper; a stoppage ripples through grid and EV chains.</span><span class='why-lens'><b>People</b> Higher copper costs eventually show up in wiring, appliances and vehicles bought anywhere in the world.</span>",
+"url": "https://www.miningweekly.com/article/supervisors-at-bhp-escondida-mine-in-chile-reject-offer-paving-way-for-strike-2026-10-01",
+"links": [
+{"name": "Mining Weekly", "url": "https://www.miningweekly.com/article/supervisors-at-bhp-escondida-mine-in-chile-reject-offer-paving-way-for-strike-2026-10-01"},
+{"name": "Rio Times", "url": "https://www.riotimesonline.com/copper-markets-latam-friday-october-2-2026"}
+],
+"checks": {
+"claims": "BHP: offer was fair · Escondida supervisors' union: offer no better than the existing contract",
+"data": "95% of voting Escondida supervisors backed a strike; Centinela's 708 workers across 2 unions also voted to strike",
+"verdict": "Matches: both unions' own vote tallies back the strike-risk reporting; mediation's outcome is not yet data"
+}
+},
+{
+"cats": ["geopolitics","logistics"],
+"india": false,
+"impact": 7,
+"direction": "friction",
+"src": "Bloomberg / Euronews",
+"time": "Sept 28",
+"dateISO": "2026-09-28",
+"title": "QatarEnergy extends its LNG force majeure into November as Europe's gas storage falls short of target",
+"dek": "QatarEnergy told customers its force majeure on Hormuz-blocked LNG cargoes, first declared after March's Ras Laffan missile damage, now runs into November, Bloomberg reports; Euronews notes cancellations have run monthly since. Energy Aspects expects European storage to peak near 75-78%, short of the 90% target.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Buyers including JERA's CEO warn LNG prices have further to climb into winter on the shortfall.</span><span class='why-lens'><b>Governments</b> Europe leans harder on US LNG cargoes to cover the gap left by Qatar's blocked shipments.</span><span class='why-lens'><b>People</b> A thinner storage cushion raises the odds of costlier heating bills in Europe this winter.</span>",
+"url": "https://www.bloomberg.com/news/articles/2026-09-28/qatar-extends-lng-force-majeure-as-hormuz-disruptions-drag-on",
+"links": [
+{"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-09-28/qatar-extends-lng-force-majeure-as-hormuz-disruptions-drag-on"},
+{"name": "Euronews", "url": "https://www.euronews.com/2026/08/31/qatarenergy-extends-lng-cancellations-into-november-as-hormuz-disruption-drags-on"}
+],
+"checks": {
+"claims": "QatarEnergy: force majeure is a direct result of Hormuz disruption · No statement on record from Iran",
+"data": "17% of Qatar's LNG export capacity knocked out since March; EU storage tracking near 75-78% vs a 90% target",
+"verdict": "Matches: the capacity-loss figure and storage tracking both support the extension being physically driven"
+}
+},
+{
+"cats": ["logistics","outlook"],
+"india": false,
+"impact": 6,
+"direction": "fluidity",
+"linkTag": "panama-canal",
+"src": "Newsroom Panama / Seatrade Maritime",
+"time": "Sept 28",
+"dateISO": "2026-09-28",
+"title": "Panama Canal to raise daily transits to 33 and its draft limit to 49 feet as drought conditions ease",
+"dek": "The ACP will add a booking slot from Oct 15, lifting daily capacity across both locks to 33, Newsroom Panama reports; the Neopanamax draft limit rises to 14.94m the same day. Seatrade Maritime reports per-customer slot limits end Sept 29, easing a constraint that followed 2023-25 drought years.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> More slots and deeper draft let larger, fuller ships transit, trimming per-unit shipping costs.</span><span class='why-lens'><b>Governments</b> Panama's recovery reduces pressure on alternate routes like the Suez and Cape that absorbed diverted traffic.</span><span class='why-lens'><b>People</b> Cheaper, faster container transits can filter through to lower prices on imported goods over time.</span>",
+"url": "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/",
+"links": [
+{"name": "Newsroom Panama", "url": "https://newsroompanama.com/2026/09/28/panama-canal-increases-daily-transits-to-33-and-maximum-draft-to-49-feet/"},
+{"name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/maritime-transportation/supply-chain-relief-panama-canal-to-increase-in-draught-and-daily-transits"}
+],
+"checks": {
+"claims": "Panama Canal Authority: near-average watershed rainfall and water-saving measures allow the increase",
+"data": "Daily slots rising from 32 to 33 from Oct 15; draft to 14.94m (49ft); per-customer limits end Sept 29 (ACP advisory)",
+"verdict": "Matches: the ACP's own published allocation numbers back the reported capacity increase"
+}
+},
+{
+"cats": ["logistics","geopolitics"],
+"india": false,
+"impact": 6,
+"direction": "friction",
+"src": "The Jakarta Post",
+"time": "Oct 1",
+"dateISO": "2026-10-01",
+"title": "Indonesia's nickel exports jump 50% even as Jakarta loses its grip on world prices",
+"dek": "Nickel and its derivatives posted Indonesia's largest export gain, up $2.87 billion, per The Jakarta Post. LME and Shanghai stocks near 478,000 tonnes, about seven weeks of supply, pulled prices back to around $16,500 a tonne, undercutting Jakarta's push to set world prices.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Large combined exchange inventories cap further nickel upside regardless of output curbs.</span><span class='why-lens'><b>Governments</b> Jakarta's bid to price-set from a dominant supply position is faltering against stock overhangs.</span><span class='why-lens'><b>People</b> Stainless steel and EV battery costs stay contained for now as nickel prices hold below recent highs.</span>",
+"url": "https://www.thejakartapost.com/business/2026/10/01/trade-surplus-grows-in-august-on-higher-manufacturing-exports",
+"links": [
+{"name": "The Jakarta Post", "url": "https://www.thejakartapost.com/business/2026/10/01/trade-surplus-grows-in-august-on-higher-manufacturing-exports"}
+],
+"checks": {
+"claims": "Indonesia (trade ministry): nickel-led export growth shows its downstreaming policy working",
+"data": "Nickel exports +50.12% (+$2.87bn); LME+SHFE nickel stocks ~478,000t; price near $16,500/t",
+"verdict": "Mixed: export volume growth matches the policy's aim, but the price slide undercuts the pricing-power claim"
+}
+},
+{
+"cats": ["tech","outlook"],
+"india": false,
+"impact": 5,
+"direction": "fluidity",
+"src": "Reuters",
+"time": "Oct 1",
+"dateISO": "2026-10-01",
+"title": "Asian factories expand on AI chip demand even as war-linked costs weigh, September PMI surveys show",
+"dek": "Factory activity expanded across Japan, South Korea and Taiwan in September on robust AI and chip demand, Reuters reports. Taiwan's PMI rose to 56.7 from 54.7; South Korea hit 53.9, its best since May; Japan eased to 54.1, still its ninth straight month of rising new export orders.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> New export orders rising for nine straight months signals the AI-hardware cycle still has room to run.</span><span class='why-lens'><b>Governments</b> Policymakers weigh the expansion against cost pressure tied to the Gulf war, Reuters notes.</span><span class='why-lens'><b>People</b> Factory strength supports jobs across the region even as energy-linked costs squeeze households.</span>",
+"url": "https://www.freemalaysiatoday.com/category/business/2026/10/01/asian-factory-activity-expands-thanks-to-global-ai-boom",
+"links": [
+{"name": "Reuters", "url": "https://www.freemalaysiatoday.com/category/business/2026/10/01/asian-factory-activity-expands-thanks-to-global-ai-boom", "via": "Free Malaysia Today"}
+],
+"checks": {
+"claims": "No official claim on record",
+"data": "Taiwan PMI 56.7 (from 54.7); South Korea 53.9 (from 52.3); Japan 54.1 (from 54.9), all S&P Global, Sept 2026",
+"verdict": "Matches: the survey's own published index values support the reported regional expansion"
+}
+},
+{
+"cats": ["geopolitics","outlook"],
+"india": false,
+"impact": 5,
+"direction": "fluidity",
+"src": "Interfax",
+"time": "late Sept",
+"dateISO": "2026-09-29",
+"title": "Russia raises its 2026 oil export estimate to 244.7 million tonnes despite sanctions pressure",
+"dek": "Russia's government revised its 2026 oil export forecast up by 7.5 million tonnes from May's estimate, Interfax reports, even as roughly 30% of Russia's oil and petroleum exports sit under threat from US and EU sanctions targeting Rosneft and Lukoil.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Higher realized export volumes suggest discounted Russian barrels keep finding buyers despite sanctions.</span><span class='why-lens'><b>Governments</b> The upgrade complicates Washington's case that sanctions are materially cutting Russian export capacity.</span><span class='why-lens'><b>People</b> Steady Russian flows to Asia help keep global crude supply, and so pump prices, from tightening further.</span>",
+"url": "https://interfax.com/newsroom/top-stories/119276/",
+"links": [
+{"name": "Interfax", "url": "https://interfax.com/newsroom/top-stories/119276/"}
+],
+"checks": {
+"claims": "Russian government: 2026 export volumes revised up on stronger-than-expected flows",
+"data": "2026 oil export estimate raised to 244.7m tonnes from 237.2m t (May estimate), per the government's own figures",
+"verdict": "Matches the government's own revised figure; independent customs data for 2026 overall is not yet published"
+}
+},
+{
+"cats": ["logistics","outlook"],
+"india": false,
+"impact": 7,
+"direction": "friction",
+"src": "MINING.COM / Mining.com.au",
+"time": "late Sept-Oct",
+"dateISO": "2026-10-01",
+"title": "Copper supply faces a rare structural decline as mine setbacks mount across top producers",
+"dek": "Setbacks at Grasberg and Quebrada Blanca, plus smelter throttling, have opened a supply-demand gap MINING.COM calls unusually severe; Mining.com.au reports the market is bracing for a “big shortfall.” Morgan Stanley forecasts a 600,000-tonne 2026 deficit, the largest in over 20 years.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Comex copper has held near its Sept 22 record of $6.83/lb on the deficit outlook.</span><span class='why-lens'><b>Governments</b> Grid, defence and EV supply chains all compete for the same tightening copper pool.</span><span class='why-lens'><b>People</b> Costlier copper eventually raises prices for wiring, appliances and new construction.</span>",
+"url": "https://www.mining.com/web/copper-at-risk-of-rare-supply-decline-as-mine-setbacks-mount/",
+"links": [
+{"name": "MINING.COM", "url": "https://www.mining.com/web/copper-at-risk-of-rare-supply-decline-as-mine-setbacks-mount/"},
+{"name": "Mining.com.au", "url": "https://mining.com.au/global-copper-market-braces-for-big-shortfall/"}
+],
+"checks": {
+"claims": "No official government claim on record · Morgan Stanley, JPMorgan (analysts): forecast large 2026 deficits",
+"data": "Morgan Stanley: 600,000t 2026 deficit; JPMorgan: 330,000t; Comex record $6.83/lb set Sept 22",
+"verdict": "Not testable yet: deficit forecasts are analyst estimates, not confirmed outcomes; the price record is data"
+}
+},
+{
+"cats": ["geopolitics","logistics"],
+"india": false,
+"impact": 7,
+"direction": "fluidity",
+"linkTag": "hormuz",
+"src": "Al Arabiya / Al Jazeera",
+"time": "Sept 28",
+"dateISO": "2026-09-28",
+"title": "Saudi Arabia resumes oil exports via its repaired East-West Pipeline, bypassing the Strait of Hormuz entirely",
+"dek": "Saudi Aramco restarted exports through the East-West Pipeline after repairing earlier drone damage, Al Arabiya reports; the line carries 4-5 million barrels a day, about 4-5% of global supply, to the Red Sea. Al Jazeera notes the route cuts reliance on Hormuz.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> A fully restored pipeline adds a large, Hormuz-independent flow that caps upside risk to Saudi supply.</span><span class='why-lens'><b>Governments</b> Riyadh reduces its own exposure to any future Hormuz closure or blockade threat.</span><span class='why-lens'><b>People</b> A more resilient Saudi export route supports steadier global fuel supply over time.</span>",
+"url": "https://english.alarabiya.net/News/saudi-arabia/2026/09/28/saudi-arabia-s-key-oil-pipeline-starts-exports-after-repairs",
+"links": [
+{"name": "Al Arabiya", "url": "https://english.alarabiya.net/News/saudi-arabia/2026/09/28/saudi-arabia-s-key-oil-pipeline-starts-exports-after-repairs"},
+{"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/14/why-saudi-arabias-east-west-pipeline-matters-for-global-oil"}
+],
+"checks": {
+"claims": "Saudi Aramco: pipeline restored, testing pressure for flows · No statement on record from the Houthis",
+"data": "Pipeline capacity 4-5m b/d (4-5% of world supply); shut after drone damage, resumed exports Sept 28",
+"verdict": "Matches: Aramco's own restart timeline is confirmed by both outlets; flow volumes since restart are not yet published"
+}
+},
+{
+"cats": ["geopolitics","logistics"],
+"india": false,
+"impact": 5,
+"direction": "friction",
+"src": "Ecofin Agency",
+"time": "Oct 1",
+"dateISO": "2026-10-01",
+"title": "Zimbabwe plans to further restrict lithium exports from 2027 to force more domestic processing",
+"dek": "Ecofin Agency reports Zimbabwe, already the only African country to ban raw-ore lithium exports, is preparing additional restrictions from 2027 aimed at pushing more concentrate and refining onto domestic soil, building on the policy that drew a $400m Zhejiang Huayou Cobalt refining plant.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Battery-grade lithium buyers face more African supply chains requiring in-country processing deals.</span><span class='why-lens'><b>Governments</b> Zimbabwe is testing whether resource nationalism can capture more value than raw exports did.</span><span class='why-lens'><b>People</b> New local refining jobs could follow, though buyers elsewhere may face longer, costlier supply chains.</span>",
+"url": "https://www.ecofinagency.com/news-industry/1811-50582-global-investment-surge-highlights-africa-s-limited-role-in-mineral-processing",
+"links": [
+{"name": "Ecofin Agency", "url": "https://www.ecofinagency.com/news-industry/1811-50582-global-investment-surge-highlights-africa-s-limited-role-in-mineral-processing"}
+],
+"checks": {
+"claims": "Zimbabwe government: restrictions aim to build domestic processing capacity, not just cut raw exports",
+"data": "Zimbabwe's 2026 raw-ore ban already drew a $400m Huayou Cobalt refining investment (Ecofin Agency)",
+"verdict": "Not testable yet: the 2027 restriction is a stated plan; its effect depends on rules not yet published"
+}
+},
+{
+"cats": ["logistics","conflict"],
+"india": false,
+"impact": 6,
+"direction": "friction",
+"linkTag": "bab-el-mandeb",
+"src": "gCaptain",
+"time": "early Oct",
+"dateISO": "2026-10-01",
+"title": "CMA CGM reverses course on a Red Sea return as security uncertainty resurfaces",
+"dek": "gCaptain reports CMA CGM has pulled back from its tentative plans to resume Red Sea transits, reviving uncertainty for carriers that had begun testing the route as Houthi-related risk appeared to ease.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> A major carrier's reversal signals the route is still unsettled, keeping Cape diversions in play.</span><span class='why-lens'><b>Governments</b> The flip-flop shows no single carrier's move yet proves the Red Sea's security picture has durably improved.</span><span class='why-lens'><b>People</b> Continued rerouting keeps shipping times and costs elevated on Asia-Europe cargo.</span>",
+"url": "https://gcaptain.com/uncertainty-returns-to-red-sea-as-cma-cgm-reverses-course-threatening-supply-chain-stability/",
+"links": [
+{"name": "gCaptain", "url": "https://gcaptain.com/uncertainty-returns-to-red-sea-as-cma-cgm-reverses-course-threatening-supply-chain-stability/"}
+],
+"checks": {
+"claims": "No statement on record from CMA CGM or the Houthis",
+"data": "Lloyd's List: Bab-el-Mandeb transits 290/week to Sept 27, near a 2-year high, even as one major carrier pulls back",
+"verdict": "Mixed: aggregate transit counts keep rising even as this carrier's own reported decision points the other way"
+}
+},
+{
+"cats": ["geopolitics","outlook"],
+"india": false,
+"impact": 5,
+"direction": "friction",
+"src": "gCaptain",
+"time": "late Sept",
+"dateISO": "2026-09-30",
+"title": "Industry leaders warn of a widening supply-chain crisis as US tariffs hit US-China trade",
+"dek": "gCaptain reports logistics and manufacturing executives are warning that tariff-driven disruption to US-China trade flows is compounding separately with Red Sea and Panama routing pressures, squeezing an already-strained global shipping network.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Compounding disruptions across three chokepoints at once raise freight-cost volatility for the holiday season.</span><span class='why-lens'><b>Governments</b> Tariff policy is now interacting with physical routing constraints, not operating in isolation from them.</span><span class='why-lens'><b>People</b> Shippers already shifting cargo to costlier air freight signal holiday-season goods could see higher prices.</span>",
+"url": "https://gcaptain.com/industry-leaders-warn-of-supply-chain-crisis-as-trump-tariffs-hit-us-china-trade/",
+"links": [
+{"name": "gCaptain", "url": "https://gcaptain.com/industry-leaders-warn-of-supply-chain-crisis-as-trump-tariffs-hit-us-china-trade/"}
+],
+"checks": {
+"claims": "Industry executives (via gCaptain): compounding disruptions threaten peak-season reliability",
+"data": "Asia-US West Coast on-time arrivals fell from 56% in May to 26% in September (ocean-carrier performance data)",
+"verdict": "Matches: the sharp on-time-arrival decline supports the executives' compounding-disruption warning"
+}
+},
+{
+"cats": ["logistics","outlook"],
+"india": false,
+"impact": 4,
+"direction": "fluidity",
+"src": "Mining.com.au",
+"time": "Oct 1",
+"dateISO": "2026-10-01",
+"title": "Eramet seeks Argentine state backing for a $350m lithium expansion at Centenario-Ratones",
+"dek": "Eramet will apply under Argentina's RIGI investment regime for a first expansion of its Centenario-Ratones project, Mining.com.au reports, adding 11,000 tonnes a year of lithium carbonate capacity to the existing 24,000-tonne plant, almost a 50% increase subject to a final investment decision.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> RIGI's 30-year tax and regulatory stability makes Argentine lithium capacity additions more bankable.</span><span class='why-lens'><b>Governments</b> Argentina deepens its position in the lithium triangle as battery demand growth continues.</span><span class='why-lens'><b>People</b> More lithium supply over time supports battery and EV affordability, though the decision is still years out.</span>",
+"url": "https://mining.com.au/eramet-plans-504-1-million-argentina-lithium-expansion/",
+"links": [
+{"name": "Mining.com.au", "url": "https://mining.com.au/eramet-plans-504-1-million-argentina-lithium-expansion/"}
+],
+"checks": {
+"claims": "Eramet: expansion subject to a final investment decision, possible by end of 2027",
+"data": "Proposed +11,000t/yr LCE on a 24,000t/yr base; ~$350m investment; RIGI gives 30-year regulatory stability",
+"verdict": "Not testable yet: this is a company plan pending FID, not a confirmed capacity addition"
+}
+},
+{
+"cats": ["logistics","outlook"],
+"india": false,
+"impact": 3,
+"direction": "fluidity",
+"src": "Ecofin Agency",
+"time": "Oct 1",
+"dateISO": "2026-10-01",
+"title": "West African financiers turn to mining as their next growth frontier",
+"dek": "Ecofin Agency reports West African financial institutions are increasingly backing mining ventures, as gold remains the top export for Mali and Burkina Faso and a fast-growing one for Côte d'Ivoire, with gold prices surpassing $4,000 an ounce after doubling since 2020.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Record gold prices are pulling regional capital toward mining finance rather than traditional lending.</span><span class='why-lens'><b>Governments</b> Mining already contributes 5-10% of GDP in several West African economies and is growing in share.</span><span class='why-lens'><b>People</b> More domestic mining finance could mean more local jobs tied to the gold boom over time.</span>",
+"url": "https://www.ecofinagency.com/news/3010-49993-west-african-financiers-eye-mining-as-next-frontier-for-growth",
+"links": [
+{"name": "Ecofin Agency", "url": "https://www.ecofinagency.com/news/3010-49993-west-african-financiers-eye-mining-as-next-frontier-for-growth"}
+],
+"checks": {
+"claims": "No official government claim on record",
+"data": "Gold above $4,000/oz, more than double its 2020 level; mining 5-10% of GDP in several West African economies",
+"verdict": "Consistent: the gold-price level and GDP-share figures both support the reported financing shift"
+}
+},
+{
+"cats": ["logistics"],
+"india": false,
+"impact": 3,
+"direction": "friction",
+"src": "Ecofin Agency",
+"time": "Oct 1",
+"dateISO": "2026-10-01",
+"title": "Africa's mining explosives market grows, but local manufacturers struggle to break in",
+"dek": "Ecofin Agency reports demand for mining explosives is rising across Africa with the broader mining boom, but local producers remain a small share of supply, with most explosives still imported from established international manufacturers.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Established international explosives suppliers keep pricing power as African demand grows.</span><span class='why-lens'><b>Governments</b> The gap highlights a broader pattern of Africa capturing mining's upstream boom but not its supply industries.</span><span class='why-lens'><b>People</b> Limited local manufacturing means fewer industrial jobs captured from the region's own mining growth.</span>",
+"url": "https://www.ecofinagency.com/news-industry/0104-54301-africa-s-mining-explosives-market-grows-but-local-players-struggle-to-break-in",
+"links": [
+{"name": "Ecofin Agency", "url": "https://www.ecofinagency.com/news-industry/0104-54301-africa-s-mining-explosives-market-grows-but-local-players-struggle-to-break-in"}
+],
+"checks": {
+"claims": "No official claim on record",
+"data": "Gold trading above $4,000/oz is fueling broad mining investment while local explosives capacity lags (Ecofin Agency)",
+"verdict": "Consistent: no side disputes the reported import-dependence pattern"
+}
+},
+{
+"cats": ["logistics","outlook"],
+"india": false,
+"impact": 5,
+"direction": "friction",
+"linkTag": "hormuz",
+"src": "gCaptain",
+"time": "early Oct",
+"dateISO": "2026-10-01",
+"title": "Shipping lines brace for a tough 2026 as a fuller Red Sea reopening looms",
+"dek": "gCaptain reports ocean carriers are bracing for margin pressure if Red Sea transits keep normalizing, since the longer Cape of Good Hope detour has been absorbing excess vessel capacity that a fuller reopening would release back onto the main Asia-Europe lanes.<br><br><strong>Why it matters:</strong> <span class='why-lens'><b>Investors</b> Released Cape-route capacity could pressure freight rates lower just as Golden Week demand softens further.</span><span class='why-lens'><b>Governments</b> A durable reopening would ease the alternate-route strain Suez's recovery has already started to show.</span><span class='why-lens'><b>People</b> Lower freight costs from eased congestion can eventually feed through to cheaper imported goods.</span>",
+"url": "https://gcaptain.com/shipping-firms-face-tough-2026-as-reopening-of-red-sea-looms/",
+"links": [
+{"name": "gCaptain", "url": "https://gcaptain.com/shipping-firms-face-tough-2026-as-reopening-of-red-sea-looms/"}
+],
+"checks": {
+"claims": "No official carrier statement on record",
+"data": "Lloyd's List: Suez 4-week average 287 transits/week to Sept 27, above August's average",
+"verdict": "Consistent: rising Suez transit counts support concerns that the Cape-detour capacity buffer is shrinking"
+}
+}
+];var briefingScript = [
+{
+"speaker": "anchor",
+"text": "Good morning. Gulf oil exports have climbed back to pre-war levels, with Kpler counting at least sixteen and a half million barrels a day in September."
+},
+{
+"speaker": "analyst",
+"text": "But forty percent of that oil now skips the Strait of Hormuz entirely, routed through pipelines instead. Exports recovered; the strait itself did not get any safer."
+},
+{
+"speaker": "anchor",
+"text": "Brent is trading back near one hundred two dollars a barrel, up from Friday's close, as attacks on tankers continue and Washington sends more ships and Marines to the Gulf."
+},
+{
+"speaker": "analyst",
+"text": "Saudi Arabia's East-West pipeline is back online too, carrying up to five million barrels a day around Hormuz rather than through it."
+},
+{
+"speaker": "anchor",
+"text": "In Chile, supervisors at Escondida and two unions at Centinela have voted to strike. Mandatory mediation is underway, with a legal strike possible from October thirteenth."
+},
+{
+"speaker": "analyst",
+"text": "Escondida alone is the world's largest copper mine. Markets are already pricing in a supply deficit without this strike."
+},
+{
+"speaker": "anchor",
+"text": "QatarEnergy has extended its LNG force majeure into November, and European gas storage is now tracking toward seventy five to seventy eight percent, short of the usual ninety percent target."
+},
+{
+"speaker": "analyst",
+"text": "That gap gets filled by American cargoes, or it doesn't get filled at all this winter."
+},
+{
+"speaker": "anchor",
+"text": "Factories across Japan, South Korea and Taiwan expanded in September on AI chip demand, even as the region's manufacturers flagged war-related costs as a risk to watch."
+},
+{
+"speaker": "analyst",
+"text": "Nine straight months of rising export orders. The AI building boom is still the strongest current running through Asian trade."
+},
+{
+"speaker": "anchor",
+"text": "And Indonesia's nickel exports jumped fifty percent last month, even as prices slipped back toward sixteen thousand five hundred dollars a tonne."
+},
+{
+"speaker": "analyst",
+"text": "More barrels moving, more metal moving, but not more pricing power for the people who dug it up. That's the theme this morning."
+},
+{
+"speaker": "anchor",
+"text": "That's the briefing for Monday. Back tomorrow."
+}
+];var catLabel = {
+logistics: "Supply Chain & Logistics",
+geopolitics: "Geopolitics & Trade Policy",
+conflict: "Conflict & War Impact",
+tech: "Technology & Industry 4.0",
+outlook: "Future Outlook",
+india: "India Focus"
+};
+var industryCats = [
+"logistics",
+"tech"
+];
+var tradeCats = [
+"geopolitics",
+"conflict",
+"outlook"
+];
+
+var sourceCategories = {
+"Africa": {
+narrative: ["SAnews (South African Government News Agency)", "The Herald (Zimbabwe)", "DRC government / ACP (Agence Congolaise de Presse)"],
+verified: ["Africanews", "The Africa Report", "Mining Weekly", "Ecofin Agency"],
+data: ["Transnet port statistics (South Africa)", "ARECOMS cobalt export-quota notices (DRC)", "Stats SA (Statistics South Africa)"]
+},
+"China": {
+narrative: ["Xinhua", "Global Times", "MOFCOM / NDRC statements"],
+verified: ["Caixin Global", "South China Morning Post", "Yicai Global", "Mysteel (trade press)"],
+data: ["China Customs (GACC) trade data", "Shanghai Shipping Exchange (SCFI freight index)", "SMM (Shanghai Metals Market)", "National Bureau of Statistics of China"]
+},
+"East Asia": {
+narrative: ["Japan METI / MOFA statements", "Yonhap (South Korea)", "Focus Taiwan (CNA)"],
+verified: ["Nikkei Asia", "Kyodo News", "The Korea Herald", "DigiTimes (trade press)"],
+data: ["Japan Customs trade statistics", "Korea Customs Service trade data", "TrendForce (semiconductor market data)"]
+},
+"Europe": {
+narrative: ["European Commission", "UK Government"],
+verified: ["Reuters", "Financial Times", "Deutsche Welle", "Euronews", "Hellenic Shipping News (trade press)", "Seatrade Maritime (trade press)"],
+data: ["ICE Brent futures", "Lloyd's List Intelligence (ship transits)", "Drewry / Baltic Exchange (freight indices)", "Kpler / MarineTraffic (ship tracking)", "Argus / Fastmarkets (price assessments)", "IEA (energy and critical-minerals data)", "World Nuclear Association (uranium data)", "UKMTO (maritime security incidents)"]
+},
+"Latin America": {
+narrative: ["Agência Brasil", "Chile government statements", "Panama Canal Authority statements"],
+verified: ["MercoPress", "BNamericas", "Rio Times", "Newsroom Panama"],
+data: ["Panama Canal Authority advisories (transits and slots)", "Cochilco (Chile copper data)", "Comex Stat (Brazil trade data)"]
+},
+"Middle East": {
+narrative: ["IRNA / Press TV (Iran)", "WAM / SPA / QNA (Gulf state news agencies)", "Al-Masirah (Houthis, Yemen)", "Israeli government statements"],
+verified: ["Al Jazeera", "Al Arabiya", "Times of Israel", "Amwaj.media", "MEED (trade press)"],
+data: ["FOIZ Fujairah oil stocks", "OPEC Monthly Oil Market Report", "Suez Canal Authority transit statistics", "Saudi Aramco official selling prices"]
+},
+"North America": {
+narrative: ["US State Department / White House / USTR statements", "CENTCOM statements", "Government of Canada statements"],
+verified: ["Associated Press", "Bloomberg", "Axios", "CBC News", "MINING.COM (trade press)", "gCaptain (trade press)"],
+data: ["EIA (US Energy Information Administration)", "US Census Bureau trade data", "USGS (mineral statistics)", "CME Group (NYMEX / COMEX prices)", "IMF PortWatch (chokepoint transits)", "Trading Economics (price data)"]
+},
+"Oceania": {
+narrative: ["Australian Government statements", "New Zealand Government statements"],
+verified: ["ABC News (Australia)", "Australian Financial Review", "Mining.com.au", "RNZ"],
+data: ["Resources and Energy Quarterly (Australian Government)", "Australian Bureau of Statistics"]
+},
+"Russia": {
+narrative: ["TASS", "RIA Novosti", "Rossiyskaya Gazeta (official texts of decrees and laws)"],
+verified: ["Interfax", "Kommersant", "Vedomosti", "RBC (RosBiznesConsulting)", "PortNews (trade press)"],
+data: ["Rosstat freight tariff index (monthly)", "Sovcomflot operating reports", "FESCO / Vladivostok port throughput", "Rosmorport and sea-port cargo statistics", "Urals price (Ministry of Economic Development monthly average)"]
+},
+"South Asia": {
+narrative: ["MEA / PIB statements (India)", "DGFT notices (India Commerce Ministry)", "Ministry of Ports, Shipping and Waterways statements (India)"],
+verified: ["The Hindu", "Business Standard", "Livemint / Economic Times", "The Indian Express"],
+data: ["NSE closing prices", "Indian Ports Association traffic data", "India Commerce Ministry trade data"]
+},
+"Southeast Asia": {
+narrative: ["Bernama (Malaysia)", "Antara (Indonesia)", "Vietnam News Agency"],
+verified: ["The Straits Times", "The Jakarta Post", "VnExpress International"],
+data: ["MPA Singapore port statistics", "Statistics Indonesia (BPS)", "Bursa Malaysia palm oil futures", "ReCAAP ISC (piracy incidents)"]
+},
+"Research": {
+research: ["Asian Development Bank (Southeast Asia)", "Bruegel (Europe)", "CCG, Center for China and Globalization (China)", "Gulf Research Center (Middle East)", "ICRIER (South Asia)", "PIIE (North America)", "Policy Center for the New South (Africa)", "RIAC, Russian International Affairs Council (Russia)"]
+}
+};
+function primaryGroup(cats) {
+if (cats.some(function(c) {
+return industryCats.indexOf(c) !== -1;
+})) return "supplyIndustry";
+if (cats.some(function(c) {
+return tradeCats.indexOf(c) !== -1;
+})) return "tradeRisk";
+return null;
+}
+
+function loadSaved() {
+try {
+return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+} catch (e) {
+return {};
+}
+}
+function persistSaved(obj) {
+try {
+localStorage.setItem(STORAGE_KEY, JSON.stringify(obj));
+} catch (e) {}
+}
+var saved = loadSaved();
+function renderTicker() {
+var track = document.getElementById("tickerTrack");
+if (track && track.children.length) return;
+var doubled = tickerItems.concat(tickerItems);
+var html = "";
+doubled.forEach(function(t, i) {
+if (i > 0) html += '<span class="dot">&middot;</span>';
+html += '<span class="item"><span class="lbl">' + t.label + '</span> <span class="val sentiment-' + t.sentiment + '"><span class="arrow">' + (t.dir === "up" ? "▲" : "▼") + '</span> ' + t.val + "</span></span>";
+});
+track.innerHTML = html;
+}
+function mineralArrow(dir) {
+return dir === "up" ? "▲" : dir === "down" ? "▼" : "◆";
+}
+function sparklineSvg(history, strokeVar) {
+if (!history || history.length < 2) return "";
+var stroke = strokeVar || "var(--accent)";
+var w = 300, h = 44, pad = 5;
+var times = history.map(function(p) {
+return new Date(p.d + "T00:00:00").getTime();
+});
+var vals = history.map(function(p) {
+return p.v;
+});
+var minT = Math.min.apply(null, times), maxT = Math.max.apply(null, times);
+var minV = Math.min.apply(null, vals), maxV = Math.max.apply(null, vals);
+var tRange = maxT - minT || 1, vRange = maxV - minV || 1;
+var coords = history.map(function(p, i) {
+var x = (times[i] - minT) / tRange * (w - pad * 2) + pad;
+var y = h - pad - (p.v - minV) / vRange * (h - pad * 2);
+return {
+x: Number(x.toFixed(2)),
+y: Number(y.toFixed(2)),
+d: p.d,
+v: p.v
+};
+});
+var pts = coords.map(function(c) {
+return c.x + "," + c.y;
+}).join(" ");
+var pointsAttr = JSON.stringify(coords).replace(/"/g, "&quot;");
+return '<div class="idx-chart-wrap"><svg class="idx-chart-svg" data-points="' + pointsAttr + '" data-h="' + h + '" viewBox="0 0 ' + w + " " + h + '" preserveAspectRatio="none" role="img" aria-label="Trend over time — move pointer across the chart to see date and value">' + '<polyline points="' + pts + '" fill="none" stroke="' + stroke + '" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />' + '<line class="idx-chart-cursor-line" x1="0" y1="0" x2="0" y2="' + h + '" hidden></line>' + '<circle class="idx-chart-cursor-dot" cx="0" cy="0" r="2.6" hidden></circle>' + "</svg>" + '<div class="idx-chart-tooltip" hidden></div></div>' + '<div class="idx-chart-caption"><span>' + history[0].d + "</span><span>" + minV + " – " + maxV + "</span><span>" + history[history.length - 1].d + "</span></div>";
+}
+function nearestChartPoint(points, relX) {
+var nearest = points[0], minDist = Math.abs(points[0].x - relX);
+for (var i = 1; i < points.length; i++) {
+var dist = Math.abs(points[i].x - relX);
+if (dist < minDist) {
+minDist = dist;
+nearest = points[i];
+}
+}
+return nearest;
+}
+function moveChartCursor(svg, clientX) {
+var raw = svg.getAttribute("data-points");
+if (!raw) return;
+var points = JSON.parse(raw);
+var rect = svg.getBoundingClientRect();
+if (!rect.width) return;
+var relX = (clientX - rect.left) / rect.width * 300;
+var nearest = nearestChartPoint(points, relX);
+var line = svg.querySelector(".idx-chart-cursor-line");
+var dot = svg.querySelector(".idx-chart-cursor-dot");
+if (line) {
+line.setAttribute("x1", nearest.x);
+line.setAttribute("x2", nearest.x);
+line.hidden = false;
+}
+if (dot) {
+dot.setAttribute("cx", nearest.x);
+dot.setAttribute("cy", nearest.y);
+dot.hidden = false;
+}
+var wrap = svg.closest(".idx-chart-wrap");
+var tooltip = wrap && wrap.querySelector(".idx-chart-tooltip");
+if (tooltip) {
+tooltip.textContent = nearest.v + " · " + nearest.d;
+tooltip.style.left = nearest.x / 300 * 100 + "%";
+tooltip.hidden = false;
+}
+}
+function hideChartCursor(svg) {
+var line = svg.querySelector(".idx-chart-cursor-line");
+var dot = svg.querySelector(".idx-chart-cursor-dot");
+if (line) line.hidden = true;
+if (dot) dot.hidden = true;
+var wrap = svg.closest(".idx-chart-wrap");
+var tooltip = wrap && wrap.querySelector(".idx-chart-tooltip");
+if (tooltip) tooltip.hidden = true;
+}
+function wireChartTooltips() {
+document.addEventListener("pointermove", function(e) {
+var svg = e.target.closest && e.target.closest(".idx-chart-svg");
+if (svg) moveChartCursor(svg, e.clientX);
+});
+document.addEventListener("pointerout", function(e) {
+var svg = e.target.closest && e.target.closest(".idx-chart-svg");
+if (svg && (!e.relatedTarget || !svg.contains(e.relatedTarget))) hideChartCursor(svg);
+});
+}
+var EXCHANGE_HOMEPAGES = [ [ "Fastmarkets", "https://www.fastmarkets.com" ], [ "TradeTech", "https://www.tradetech.net" ], [ "UxC", "https://www.uxc.com" ], [ "COMEX", "https://www.cmegroup.com/markets/metals.html" ], [ "NYMEX", "https://www.cmegroup.com/markets/energy.html" ], [ "LME", "https://www.lme.com" ], [ "SMM", "https://www.metal.com" ], [ "Drewry", "https://www.drewry.co.uk" ], [ "Baltic", "https://www.balticexchange.com" ], [ "Brent", "https://www.ice.com" ], [ "Henry Hub", "https://www.eia.gov" ] ];
+function exchangeUrlFor(text) {
+if (!text) return null;
+var nseMatch = text.match(/NSE:\s*([A-Z0-9]+)/);
+if (nseMatch) return "https://www.nseindia.com/get-quotes/equity?symbol=" + nseMatch[1];
+for (var i = 0; i < EXCHANGE_HOMEPAGES.length; i++) {
+if (text.indexOf(EXCHANGE_HOMEPAGES[i][0]) !== -1) return EXCHANGE_HOMEPAGES[i][1];
+}
+return null;
+}
+function exchangeHtml(displayText, searchText) {
+var url = exchangeUrlFor(searchText || displayText);
+if (url) return '<a class="idx-exchange" href="' + url + '" target="_blank" rel="noopener">' + displayText + "</a>";
+return '<div class="idx-exchange">' + displayText + "</div>";
+}
+function severityLabel(s) {
+return s === "high" ? "CRITICAL" : s === "elevated" ? "ELEVATED" : "WATCH";
+}
+var RISK_CAPS = {
+concentration: 25,
+policy: 30,
+disruption: 25,
+price: 20
+};
+var RISK_LABELS = {
+concentration: "Supply",
+policy: "Controls",
+disruption: "Outages",
+price: "Price"
+};
+function attrText(s) {
+return String(s || "").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+var MINERALS_TOP_N = 8;
+function riskScore(m) {
+var r = m.risk || {};
+return Object.keys(RISK_CAPS).reduce(function(sum, k) {
+var p = r[k] ? Number(r[k].pts) || 0 : 0;
+return sum + Math.max(0, Math.min(RISK_CAPS[k], p));
+}, 0);
+}
+function riskTier(score) {
+return score >= 60 ? "high" : score >= 40 ? "elevated" : "active";
+}
+function asOfTag(asOf, label) {
+if (!asOf) return '<span class="idx-asof idx-asof-stale">' + (label || "AS OF") + " DATE UNCONFIRMED</span>";
+var then = new Date(asOf + "T00:00:00");
+if (isNaN(then.getTime())) return "";
+var months = [ "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" ];
+var now = new Date;
+var days = Math.round((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - then) / 864e5);
+var stale = days > 7;
+return '<span class="idx-asof' + (stale ? " idx-asof-stale" : "") + '">' + (label || "AS OF") + " " + months[then.getMonth()] + " " + then.getDate() + (stale ? " · " + days + " DAYS OLD" : "") + "</span>";
+}
+function mineralIsStale(m) {
+if (!m.asOf) return true;
+var then = new Date(m.asOf + "T00:00:00");
+if (isNaN(then.getTime())) return true;
+var now = new Date;
+return Math.round((new Date(now.getFullYear(), now.getMonth(), now.getDate()) - then) / 864e5) > 7;
+}
+function rankedMinerals() {
+return minerals.filter(function(m) {
+return m.priced !== false && !mineralIsStale(m);
+}).sort(function(a, b) {
+return riskScore(b) - riskScore(a) || a.name.localeCompare(b.name);
+});
+}
+function staleMinerals() {
+return minerals.filter(function(m) {
+return m.priced !== false && mineralIsStale(m);
+});
+}
+function unpricedMinerals() {
+return minerals.filter(function(m) {
+return m.priced === false;
+}).sort(function(a, b) {
+return riskScore(b) - riskScore(a) || a.name.localeCompare(b.name);
+});
+}
+function hurtsHtml(m) {
+return m.hurts ? supplyTextRow("Hurts", m.hurts) : "";
+}
+var SUPPLY_SHADES = [ 1, .6, .38 ];
+function supplyTextRow(label, text) {
+return '<div class="idx-sup"><span class="idx-sup-lbl">' + label + '</span><span class="idx-sup-tx">' + text + "</span></div>";
+}
+function supplyBarRow(label, shares, note, legend, src) {
+if (!shares || !shares.length) return supplyTextRow(label, note || "Share not published");
+var named = shares.reduce(function(s, c) {
+return s + c[1];
+}, 0);
+var rest = Math.max(0, 100 - named);
+var bar = shares.map(function(c, i) {
+return '<span style="width:' + c[1] + "%;background:var(--red);opacity:" + (SUPPLY_SHADES[i] || .3) + '"></span>';
+}).join("") + (rest ? '<span style="width:' + rest + '%;background:var(--rule)"></span>' : "");
+var lg = legend || shares.map(function(c, i) {
+return i === 0 ? "<b>" + c[0] + " " + c[1] + "%</b>" : c[0] + " " + c[1] + "%";
+}).join(" · ") + (rest ? " · others " + rest + "%" : "");
+return '<div class="idx-sup" title="' + attrText(src) + '"><span class="idx-sup-lbl">' + label + '</span><div class="idx-sup-bar">' + bar + '</div><span class="idx-sup-lg">' + lg + "</span></div>";
+}
+function mineralDetailHtml(m) {
+var s = m.supply || {}, f = m.facts || {};
+return '<div class="idx-detail">' + hurtsHtml(m) + supplyBarRow(s.minedLabel || "Mined", s.mined, s.minedNote, s.minedLegend, s.minedSrc) + supplyBarRow(s.processedLabel || "Processed", s.processed, s.processedNote, s.processedLegend, s.processedSrc) + (f.exports ? supplyTextRow("Exports", f.exports) : "") + (f.now ? supplyTextRow("Right now", f.now) : "") + (f.price ? supplyTextRow("Price", f.price) : "") + "</div>";
+}
+function unpricedRowHtml(m, extraClass) {
+var r = m.risk || {};
+var factors = [ "concentration", "policy", "disruption" ].map(function(k) {
+var f = r[k] || {};
+return '<span class="idx-factor" title="' + attrText(f.why) + '">' + RISK_LABELS[k] + " <b>" + (f.pts || 0) + "</b></span>";
+}).join(" · ");
+var last = m.lastPrice && m.lastPrice.val ? '<div class="idx-val sentiment-neutral">' + m.lastPrice.val + "</div>" + asOfTag(m.lastPrice.asOf) : "";
+var watch = m.watch && m.watch.date ? '<div class="idx-chg-line sentiment-bad">NEXT: ' + watchDateLabel(m.watch.date) + " — " + m.watch.what + "</div>" : "";
+return '<div class="idx-row' + (extraClass || "") + '"><div class="idx-line2"><div class="idx-name"><span class="idx-severity status-stale" title="Not ranked: no daily public price">NOT RANKED</span>' + m.name + '<span class="idx-expand-hint">›</span></div><div class="idx-exchange">' + m.exchange + "</div></div>" + last + '<div class="idx-chg-line sentiment-neutral">' + m.reason + "</div>" + mineralDetailHtml(m) + "</div>";
+}
+function watchDateLabel(d) {
+var t = new Date(d + "T00:00:00");
+if (isNaN(t.getTime())) return d;
+var months = [ "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" ];
+return months[t.getMonth()] + " " + t.getDate();
+}
+function mineralRowHtml(m, rank, stale, extraClass) {
+var score = riskScore(m);
+var tier = riskTier(score);
+var badge = stale ? '<span class="idx-severity status-stale" title="Not ranked: no price from the last 7 days">UNVERIFIED</span>' : '<span class="idx-severity status-' + tier + '" title="Supply-risk score ' + score + ' of 100">' + severityLabel(tier) + "</span>";
+var rankHtml = rank ? '<span class="idx-rank">#' + rank + "</span>" : "";
+var r = m.risk || {};
+var factors = Object.keys(RISK_CAPS).map(function(k) {
+var f = r[k] || {};
+return '<span class="idx-factor" title="' + attrText(f.why) + '">' + RISK_LABELS[k] + " <b>" + (f.pts || 0) + "</b></span>";
+}).join(" · ");
+var watch = m.watch && m.watch.date ? '<div class="idx-chg-line sentiment-bad">NEXT: ' + watchDateLabel(m.watch.date) + " — " + m.watch.what + "</div>" : "";
+return '<div class="idx-row' + (extraClass || "") + '"><div class="idx-line2"><div class="idx-name">' + rankHtml + badge + m.name + '<span class="idx-expand-hint">›</span></div>' + exchangeHtml(m.exchange) + "</div>" + '<div class="idx-val sentiment-' + m.sentiment + '" title="' + attrText(m.priceStatus) + '">' + mineralArrow(m.dir) + " " + m.val + "</div>" + asOfTag(m.asOf) + mineralDetailHtml(m) + "</div>";
+}
+function renderMinerals() {
+var el = document.getElementById("mineralsIndex");
+if (!el) return;
+el.innerHTML = rankedMinerals().slice(0, MINERALS_TOP_N).map(function(m, i) {
+return mineralRowHtml(m, i + 1, false, "");
+}).join("");
+}
+function renderMineralsMoreDropdown() {
+var select = document.getElementById("mineralsMoreSelect");
+if (!select) return;
+var html = '<option value="">More minerals…</option>';
+rankedMinerals().slice(MINERALS_TOP_N).forEach(function(m, i) {
+html += '<option value="r-' + (i + MINERALS_TOP_N) + '">#' + (i + MINERALS_TOP_N + 1) + " " + m.name + " — " + severityLabel(riskTier(riskScore(m))).toLowerCase() + "</option>";
+});
+staleMinerals().forEach(function(m, i) {
+html += '<option value="s-' + i + '">' + m.name + " — unverified</option>";
+});
+unpricedMinerals().forEach(function(m, i) {
+html += '<option value="u-' + i + '">' + m.name + " — not ranked, no daily price</option>";
+});
+select.innerHTML = html;
+}
+function wireMineralsMore() {
+var select = document.getElementById("mineralsMoreSelect");
+var display = document.getElementById("mineralsMoreDisplay");
+if (!select || !display) return;
+select.addEventListener("change", function() {
+if (select.value === "") {
+display.innerHTML = "";
+return;
+}
+var parts = select.value.split("-");
+var kind = parts[0], idx = Number(parts[1]);
+if (kind === "u") {
+var u = unpricedMinerals()[idx];
+if (u) display.innerHTML = unpricedRowHtml(u, " minerals-more-row expanded");
+return;
+}
+var m = kind === "r" ? rankedMinerals()[idx] : staleMinerals()[idx];
+if (!m) return;
+display.innerHTML = mineralRowHtml(m, kind === "r" ? idx + 1 : 0, kind === "s", " minerals-more-row expanded");
+});
+}
+function toggleArticleExpand(headingEl, cardEl) {
+var wasExpanded = cardEl.classList.contains("expanded");
+cardEl.classList.toggle("expanded", !wasExpanded);
+var hint = headingEl.querySelector(".card-expand-hint");
+if (hint) hint.textContent = wasExpanded ? "›" : "‹";
+}
+function wireCardExpand() {
+var river = document.getElementById("river");
+if (river) {
+river.addEventListener("click", function(e) {
+var h3 = e.target.closest("h3");
+if (!h3 || !river.contains(h3)) return;
+var card = h3.closest(".card");
+if (!card) return;
+toggleArticleExpand(h3, card);
+});
+}
+var leadH2 = document.querySelector(".lead h2");
+if (leadH2) {
+leadH2.addEventListener("click", function() {
+var lead = leadH2.closest(".lead");
+if (!lead) return;
+toggleArticleExpand(leadH2, lead);
+});
+}
+}
+function wireExpandableRows(containerId, rowSelector) {
+var container = document.getElementById(containerId);
+if (!container) return;
+container.addEventListener("click", function(e) {
+if (e.target.closest("a,button")) return;
+var row = e.target.closest(rowSelector);
+if (!row || !container.contains(row)) return;
+var wasExpanded = row.classList.contains("expanded");
+row.classList.toggle("expanded", !wasExpanded);
+var hint = row.querySelector(".idx-expand-hint");
+if (hint) hint.textContent = wasExpanded ? "›" : "‹";
+});
+}
+function renderInfrastructureWatch() {
+var el = document.getElementById("infrastructureWatch");
+if (!el) return;
+var html = "";
+var infraSeverityRank = {
+high: 0,
+elevated: 1,
+active: 2
+};
+var infrastructureWatchOrdered = infrastructureWatch.slice().sort(function(a, b) {
+return infraSeverityRank[a.severity] - infraSeverityRank[b.severity];
+});
+infrastructureWatchOrdered.forEach(function(c) {
+var arrow = c.dir === "up" ? "▲" : c.dir === "down" ? "▼" : "●";
+var dirClass = c.dir === "up" ? "sentiment-good" : c.dir === "down" ? "sentiment-bad" : "sentiment-neutral";
+html += '<div class="idx-row"><div class="idx-line2"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' + '<div class="idx-exchange">' + c.pillar + "</div></div>" + '<div class="idx-line2">' + exchangeHtml(c.ticker) + '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + "</div></div>" + asOfTag(c.asOf, "CLOSE") + '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + "</div></div>";
+});
+el.innerHTML = html;
+}
+function renderEquilibriumIndex() {
+var frictionFill = document.getElementById("equilibriumFrictionFill");
+var fluidityFill = document.getElementById("equilibriumFluidityFill");
+var frictionLabel = document.getElementById("equilibriumFrictionLabel");
+var fluidityLabel = document.getElementById("equilibriumFluidityLabel");
+if (!frictionFill || !fluidityFill) return;
+var chokepointWeight = {
+"status-high": 1,
+"status-elevated": .5,
+"status-active": 0
+};
+var chokepointFriction = chokepoints.length ? chokepoints.reduce(function(sum, c) {
+return sum + (chokepointWeight[c.cls] != null ? chokepointWeight[c.cls] : .5);
+}, 0) / chokepoints.length : .5;
+var severityWeight = {
+high: 1,
+elevated: .5,
+active: 0
+};
+var freightEnergyFriction = (freightEnergy || []).length ? freightEnergy.reduce(function(sum, c) {
+return sum + (severityWeight[c.severity] != null ? severityWeight[c.severity] : .5);
+}, 0) / freightEnergy.length : .5;
+var freshMinerals = minerals.filter(function(m) {
+return !mineralIsStale(m);
+});
+var mineralsTotal = freshMinerals.length + mineralsOther.filter(function(m) {
+return !mineralIsStale(m);
+}).length;
+var mineralsFriction = mineralsTotal ? freshMinerals.reduce(function(sum, m) {
+return sum + (severityWeight[m.severity] != null ? severityWeight[m.severity] : .5);
+}, 0) / mineralsTotal : .5;
+var tradePolicyFriction = (tradePolicy || []).length ? tradePolicy.reduce(function(sum, t) {
+return sum + (severityWeight[t.severity] != null ? severityWeight[t.severity] : .5);
+}, 0) / tradePolicy.length : .5;
+var storiesImpactTotal = stories.reduce(function(sum, s) {
+return sum + (s.impact || 0);
+}, 0);
+var storiesFriction = storiesImpactTotal ? stories.filter(function(s) {
+return s.direction === "friction";
+}).reduce(function(sum, s) {
+return sum + (s.impact || 0);
+}, 0) / storiesImpactTotal : .5;
+var frictionPct = Math.round((.25 * chokepointFriction + .25 * freightEnergyFriction + .2 * mineralsFriction + .15 * tradePolicyFriction + .15 * storiesFriction) * 100);
+var fluidityPct = 100 - frictionPct;
+frictionFill.style.width = frictionPct + "%";
+fluidityFill.style.width = fluidityPct + "%";
+if (frictionLabel) frictionLabel.textContent = frictionPct + "% Friction";
+if (fluidityLabel) fluidityLabel.textContent = fluidityPct + "% Fluidity";
+}
+var SOURCE_PILLARS = [ [ "narrative", "1 · Narrative", "State media and officials: what each side wants believed." ], [ "verified", "2 · Verified", "Independent and commercial press reporting from the ground." ], [ "data", "3 · Data", "Each region's own physical and market figures: what is actually happening. Where sides' figures differ, both are shown." ], [ "research", "Research", "Research bodies, used for context and never as verification." ] ];
+function renderSourcesModal(pillar) {
+var el = document.getElementById("sourcesModalList");
+var tabs = document.getElementById("sourceTabs");
+var note = document.getElementById("sourceTabNote");
+if (!el) return;
+pillar = pillar || "narrative";
+if (tabs) tabs.innerHTML = SOURCE_PILLARS.map(function(p) {
+return '<button type="button" class="source-tab" role="tab" data-pillar="' + p[0] + '" aria-selected="' + (p[0] === pillar) + '">' + p[1] + "</button>";
+}).join("");
+SOURCE_PILLARS.forEach(function(p) {
+if (p[0] === pillar && note) note.textContent = p[2];
+});
+var html = "";
+Object.keys(sourceCategories).forEach(function(region) {
+var list = sourceCategories[region][pillar];
+if (!list || !list.length) return;
+if (pillar !== "research") html += '<li class="sources-group-heading">' + region + "</li>";
+list.forEach(function(name) {
+html += "<li>" + name + "</li>";
+});
+});
+el.innerHTML = html;
+}
+function wireSources() {
+var btn = document.getElementById("sourcesBtn");
+var overlay = document.getElementById("sourcesOverlay");
+var closeBtn = document.getElementById("sourcesClose");
+if (!btn || !overlay || !closeBtn) return;
+function open() {
+overlay.hidden = false;
+}
+function close() {
+overlay.hidden = true;
+}
+btn.addEventListener("click", open);
+var tabs = document.getElementById("sourceTabs");
+if (tabs) tabs.addEventListener("click", function(e) {
+var t = e.target.closest(".source-tab");
+if (t) renderSourcesModal(t.getAttribute("data-pillar"));
+});
+closeBtn.addEventListener("click", close);
+overlay.addEventListener("click", function(e) {
+if (e.target === overlay) close();
+});
+document.addEventListener("keydown", function(e) {
+if (e.key === "Escape" && !overlay.hidden) close();
+});
+}
+var linkTopicLabels = {
+"hormuz": "Strait of Hormuz crisis",
+"bab-el-mandeb": "Bab-el-Mandeb crisis",
+"canada-tariffs": "Canada tariff standoff"
+};
+function crossLinkRowId(section, key) {
+return "xlink-" + section + "-" + String(key).replace(/[^a-z0-9]+/gi, "-").toLowerCase();
+}
+function buildLinkIndex() {
+var idx = {};
+function add(section, label, tag, rowId) {
+if (!tag) return;
+if (!idx[tag]) idx[tag] = [];
+idx[tag].push({ section: section, label: label, rowId: rowId });
+}
+(chokepoints || []).forEach(function(c) {
+add("chokepoints", "Chokepoint Status", c.linkTag, crossLinkRowId("chokepoints", c.name));
+});
+(tradePolicy || []).forEach(function(t) {
+add("tradePolicy", "Trade Policy Tracker", t.linkTag, crossLinkRowId("tradePolicy", t.action));
+});
+(freightEnergy || []).forEach(function(f) {
+add("freightEnergy", "Freight &amp; Energy", f.linkTag, crossLinkRowId("freightEnergy", f.name));
+});
+var leadIdx = 0;
+stories.forEach(function(s, i) {
+if ((s.impact || 0) > (stories[leadIdx].impact || 0)) leadIdx = i;
+});
+stories.forEach(function(s, i) {
+if (i === leadIdx) {
+add("lead", "Lead Story", s.linkTag, "xlink-lead-hormuz");
+} else {
+add("river", "Story River", s.linkTag, crossLinkRowId("river", i));
+}
+});
+return idx;
+}
+function crossLinksHtml(section, tag, rowId) {
+if (!tag) return "";
+var idx = buildLinkIndex();
+var entries = (idx[tag] || []).filter(function(e) {
+return !(e.section === section && e.rowId === rowId);
+});
+if (!entries.length) return "";
+var seen = {};
+var chips = entries.filter(function(e) {
+if (seen[e.section]) return false;
+seen[e.section] = true;
+return true;
+}).map(function(e) {
+return '<button type="button" class="cross-link" data-jump="' + e.rowId + '">' + e.label + "</button>";
+}).join("");
+return '<div class="cross-links">' + chips + "</div>";
+}
+function wireCrossLinks() {
+document.querySelectorAll(".cross-link").forEach(function(btn) {
+if (btn.dataset.wired) return;
+btn.dataset.wired = "1";
+btn.addEventListener("click", function(e) {
+e.stopPropagation();
+var target = document.getElementById(btn.getAttribute("data-jump"));
+if (!target) return;
+var panel = target.closest(".panel");
+if (panel) panel.classList.add("panel-open");
+if (!target.classList.contains("expanded")) {
+target.classList.add("expanded");
+var hint = target.querySelector(".idx-expand-hint, .card-expand-hint");
+if (hint) hint.textContent = "‹";
+}
+target.scrollIntoView({ behavior: "smooth", block: "center" });
+target.classList.add("xlink-flash");
+setTimeout(function() {
+target.classList.remove("xlink-flash");
+}, 1600);
+});
+});
+}
+function renderChokepoints() {
+var el = document.getElementById("chokepoints");
+var html = "";
+var statusRank = {
+"status-high": 0,
+"status-elevated": 1,
+"status-active": 2
+};
+var chokepointsOrdered = chokepoints.slice().sort(function(a, b) {
+return statusRank[a.cls] - statusRank[b.cls];
+});
+chokepointsOrdered.forEach(function(c) {
+var rowId = crossLinkRowId("chokepoints", c.name);
+var note = c.note ? '<div class="chokepoint-note">' + c.note + "</div>" : "";
+var chart = c.history && c.history.length >= 2 ? '<div class="idx-chart"><div class="idx-chart-label">Daily/weekly transit telemetry</div>' + sparklineSvg(c.history) + "</div>" : "";
+var allocChart = c.allocationHistory && c.allocationHistory.length >= 2 ? '<div class="idx-chart"><div class="idx-chart-label">Weekly slot allocation (ACP advisory)</div>' + sparklineSvg(c.allocationHistory, "var(--teal)") + "</div>" : "";
+var monthlyChart = c.monthlyHistory && c.monthlyHistory.length >= 2 ? '<div class="idx-chart"><div class="idx-chart-label">' + (c.monthlyChartLabel || "Monthly / rolling trend") + "</div>" + sparklineSvg(c.monthlyHistory, "var(--ink-dim)") + "</div>" : "";
+var xlinks = crossLinksHtml("chokepoints", c.linkTag, rowId);
+var srcs = c.links && c.links.length ? '<div class="chokepoint-srcs">' + sourceLinksHtml(c) + "</div>" : "";
+html += '<div class="chokepoint-row" id="' + rowId + '"><div class="chokepoint-name">' + c.name + '<span class="idx-expand-hint">›</span></div><div class="status-chip ' + c.cls + '">' + c.status + "</div>" + note + srcs + checksHtml(c) + chart + allocChart + monthlyChart + xlinks + "</div>";
+});
+el.innerHTML = html;
+wireCrossLinks();
+}
+function renderFreightEnergy() {
+var el = document.getElementById("freightEnergy");
+if (!el) return;
+var html = "";
+var feSeverityRank = {
+high: 0,
+elevated: 1,
+active: 2
+};
+var freightEnergyOrdered = (freightEnergy || []).slice().sort(function(a, b) {
+return feSeverityRank[a.severity] - feSeverityRank[b.severity];
+});
+freightEnergyOrdered.forEach(function(c) {
+var rowId = crossLinkRowId("freightEnergy", c.name);
+var arrow = c.dir === "up" ? "▲" : c.dir === "down" ? "▼" : "●";
+var dirClass = c.dir === "up" ? "sentiment-bad" : c.dir === "down" ? "sentiment-good" : "sentiment-neutral";
+var asOfTag = c.asOf ? '<span class="idx-asof">AS OF ' + c.asOf.toUpperCase() + '</span>' : "";
+var xlinks = crossLinksHtml("freightEnergy", c.linkTag, rowId);
+html += '<div class="idx-row" id="' + rowId + '"><div class="idx-line2"><div class="idx-name">' + c.name + '<span class="idx-expand-hint">›</span></div>' + '<div class="idx-exchange">' + c.pillar + "</div></div>" + '<div class="idx-line2">' + exchangeHtml(c.ticker, c.name + " " + c.pillar + " " + c.ticker) + '<div class="idx-val ' + dirClass + '">' + arrow + " " + c.val + "</div></div>" + asOfTag + '<div class="idx-chg-line ' + dirClass + '">' + arrow + " " + c.chg + "</div>" + '<div class="idx-chart">' + sparklineSvg(c.history) + "</div>" + xlinks + "</div>";
+});
+el.innerHTML = html;
+wireCrossLinks();
+}
+function renderTradePolicy() {
+var el = document.getElementById("tradePolicy");
+if (!el) return;
+var html = "";
+var tpSeverityRank = {
+high: 0,
+elevated: 1,
+active: 2
+};
+var tradePolicyOrdered = (tradePolicy || []).slice().sort(function(a, b) {
+return tpSeverityRank[a.severity] - tpSeverityRank[b.severity];
+});
+tradePolicyOrdered.forEach(function(t) {
+var rowId = crossLinkRowId("tradePolicy", t.action);
+var cls = t.severity === "high" ? "status-high" : t.severity === "elevated" ? "status-elevated" : "status-active";
+var note = t.note ? '<div class="chokepoint-note">' + t.note + "</div>" : "";
+var xlinks = crossLinksHtml("tradePolicy", t.linkTag, rowId);
+html += '<div class="chokepoint-row" id="' + rowId + '"><div class="chokepoint-name">' + t.action + " — " + t.jurisdiction + '<span class="idx-expand-hint">›</span></div><div class="status-chip ' + cls + '">' + t.sector + "</div>" + asOfTag(t.asOf, "LATEST") + note + xlinks + "</div>";
+});
+el.innerHTML = html;
+wireCrossLinks();
+}
+function relativeFreshness(dateISO) {
+if (!dateISO) return "";
+var then = new Date(dateISO + "T00:00:00");
+if (isNaN(then.getTime())) return "";
+var now = new Date;
+var startOfThen = new Date(then.getFullYear(), then.getMonth(), then.getDate());
+var startOfNow = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+var diffDays = Math.round((startOfNow - startOfThen) / 864e5);
+if (diffDays <= 0) return "Today";
+if (diffDays === 1) return "1 day ago";
+return diffDays + " days ago";
+}
+function sourceCount(src) {
+if (!src) return 0;
+return src.split("/").map(function(s) {
+return s.trim();
+}).filter(Boolean).length;
+}
+function sourceConfidenceHtml(src) {
+var n = sourceCount(src);
+if (n >= 3) return '<span class="source-conf corroborated" title="Independently reported by ' + n + ' named outlets">Corroborated · ' + n + " sources</span>";
+if (n === 2) return '<span class="source-conf corroborated" title="Independently reported by 2 named outlets">Corroborated · 2 sources</span>';
+return '<span class="source-conf single-source" title="Reported by a single named source — treat as unconfirmed elsewhere">Single source</span>';
+}
+function splitDek(dek) {
+var marker = "<br><br><strong>Why it matters:</strong> ";
+var i = dek.indexOf(marker);
+if (i === -1) return { main: dek, why: "" };
+return { main: dek.slice(0, i), why: dek.slice(i + marker.length) };
+}
+function checksHtml(story) {
+var c = story.checks;
+if (!c) return "";
+function row(label, text, cls) {
+return text ? '<div class="check-row"><span class="check-lbl">' + label + '</span><span class="check-tx' + cls + '">' + text + "</span></div>" : "";
+}
+return '<div class="checks">' + row("Sides", c.claims, "") + row("Data", c.data, " check-data") + row("Data says", c.verdict, " check-data check-verdict") + "</div>";
+}
+function sourceLinksHtml(story) {
+var links = story.links && story.links.length ? story.links : [ {
+name: story.src,
+url: story.url
+} ];
+return '<span class="card-srcs">' + links.map(function(l) {
+return '<a class="card-src" href="' + l.url + '" target="_blank" rel="noopener">' + l.name + "</a>" + (l.via ? '<span class="src-via"> via ' + l.via + "</span>" : "");
+}).join('<span class="src-sep"> / </span>') + "</span>";
+}
+function cardHtml(story, idx) {
+var tags = story.cats.filter(function(c) {
+return c !== "india";
+}).map(function(c) {
+return '<span class="cat">' + catLabel[c] + "</span>";
+}).join(' <span class="src">·</span> ');
+var indiaFlag = story.india ? ' <span class="india-flag">India Focus</span>' : "";
+var isSaved = !!saved[idx];
+var catText = story.cats.map(function(c) {
+return catLabel[c] || c;
+}).join(" ");
+var searchBlob = (story.title + " " + story.dek + " " + story.src + " " + catText + (story.india ? " india focus" : "")).toLowerCase().replace(/&amp;/g, "&").replace(/"/g, "&quot;");
+var telemetryBit = story.telemetry || "" ? ' <span class="src">· Telemetry via ' + story.telemetry + "</span>" : "";
+var rowId = crossLinkRowId("river", idx);
+var xlinks = crossLinksHtml("river", story.linkTag, rowId);
+var deks = splitDek(story.dek);
+return '<article class="card" id="' + rowId + '" data-cats="' + story.cats.join(",") + '" data-india="' + story.india + '" data-search="' + searchBlob + '">' + "<div>" + '<div class="card-tags">' + tags + indiaFlag + "</div>" + sourceLinksHtml(story) + telemetryBit + "<h3>" + story.title + '<span class="card-expand-hint">›</span></h3>' + '<p class="dek">' + deks.main + "</p>" + (deks.why ? '<div class="why-matters"><span class="why-matters-label">Why it matters</span><span class="why-matters-text">' + deks.why + '</span></div>' : "") + (story.action ? '<div class="action-note"><span class="action-label">What to do</span> <span class="action-text">' + story.action + '</span></div>' : "") + checksHtml(story) + '<div class="meta">' + relativeFreshness(story.dateISO) + " &middot; " + sourceConfidenceHtml(story.src) + "</div>" + xlinks + "</div>" + '<button class="save-btn" type="button" data-idx="' + idx + '" aria-pressed="' + isSaved + '" aria-label="Save story" title="Save">' + (isSaved ? "★" : "☆") + "</button>" + "</article>";
+}
+function renderLeadFreshness() {
+var el = document.getElementById("leadFreshness");
+if (!el || !stories.length) return;
+var lead = stories.reduce(function(max, s) {
+return (s.impact || 0) > (max.impact || 0) ? s : max;
+}, stories[0]);
+el.textContent = relativeFreshness(lead.dateISO) || "Updated today";
+}
+function renderLeadChecks() {
+var el = document.getElementById("leadChecks");
+if (!el || !stories.length) return;
+var lead = stories.reduce(function(max, s) {
+return (s.impact || 0) > (max.impact || 0) ? s : max;
+}, stories[0]);
+el.innerHTML = checksHtml(lead);
+}
+function renderLeadCrossLinks() {
+var el = document.getElementById("leadCrossLinks");
+if (!el || !stories.length) return;
+var lead = stories.reduce(function(max, s) {
+return (s.impact || 0) > (max.impact || 0) ? s : max;
+}, stories[0]);
+el.innerHTML = crossLinksHtml("lead", lead.linkTag, "xlink-lead-hormuz");
+wireCrossLinks();
+}
+function renderRiver() {
+var river = document.getElementById("river");
+var html = "";
+var ordered = stories.map(function(s, i) {
+return {
+story: s,
+idx: i
+};
+}).sort(function(a, b) {
+return (b.story.impact || 0) - (a.story.impact || 0);
+});
+ordered.slice(1).forEach(function(o) {
+html += cardHtml(o.story, o.idx);
+});
+river.innerHTML = html;
+river.querySelectorAll(".save-btn").forEach(function(btn) {
+btn.addEventListener("click", function() {
+var idx = btn.getAttribute("data-idx");
+var pressed = btn.getAttribute("aria-pressed") === "true";
+saved[idx] = !pressed;
+if (!saved[idx]) delete saved[idx];
+persistSaved(saved);
+btn.setAttribute("aria-pressed", String(!pressed));
+btn.textContent = !pressed ? "★" : "☆";
+});
+});
+wireCrossLinks();
+}
+var state = {
+cat: "all",
+query: ""
+};
+function updateCounts() {
+var counts = {
+all: stories.length,
+tradeRisk: 0,
+supplyIndustry: 0
+};
+stories.forEach(function(s) {
+var g = primaryGroup(s.cats);
+if (g) counts[g]++;
+});
+document.querySelectorAll("[data-count-for]").forEach(function(el) {
+var key = el.getAttribute("data-count-for");
+el.textContent = counts[key] != null ? counts[key] : "";
+});
+}
+function applyFilter() {
+setCardFocus(-1);
+var cards = document.querySelectorAll(".card");
+var visibleCount = 0;
+var scopeCount = 0;
+cards.forEach(function(card) {
+var cats = card.getAttribute("data-cats").split(",");
+var group = primaryGroup(cats);
+var catOk = state.cat === "all" || group === state.cat;
+if (catOk) scopeCount++;
+var searchOk = !state.query || (card.getAttribute("data-search") || "").indexOf(state.query) !== -1;
+var visible = catOk && searchOk;
+card.hidden = !visible;
+if (visible) visibleCount++;
+});
+var emptyState = document.getElementById("emptyState");
+emptyState.hidden = visibleCount !== 0;
+emptyState.textContent = state.query ? 'No stories match "' + state.query + '" — try a different search or clear it.' : 'No stories match this filter yet — try "All".';
+var resultsInfo = document.getElementById("searchResultsInfo");
+if (resultsInfo) {
+if (state.query) {
+resultsInfo.hidden = false;
+resultsInfo.textContent = "Showing " + visibleCount + " of " + scopeCount + (scopeCount === 1 ? " story" : " stories") + " matching “" + state.query + "”";
+} else {
+resultsInfo.hidden = true;
+}
+}
+}
+var focusedCardIdx = -1;
+function getVisibleCards() {
+return Array.from(document.querySelectorAll("#river .card")).filter(function(c) {
+return !c.hidden;
+});
+}
+function setCardFocus(idx) {
+var cards = getVisibleCards();
+cards.forEach(function(c) {
+c.classList.remove("card-focused");
+});
+if (idx < 0 || idx >= cards.length) {
+focusedCardIdx = -1;
+return;
+}
+focusedCardIdx = idx;
+var el = cards[idx];
+el.classList.add("card-focused");
+el.scrollIntoView({
+block: "center",
+behavior: "smooth"
+});
+}
+function wireCardKeyNav() {
+document.addEventListener("keydown", function(e) {
+var tag = document.activeElement && document.activeElement.tagName;
+if (tag === "INPUT" || tag === "TEXTAREA") return;
+var cards = getVisibleCards();
+if (!cards.length) return;
+if (e.key === "j" || e.key === "J") {
+e.preventDefault();
+setCardFocus(focusedCardIdx < 0 ? 0 : Math.min(focusedCardIdx + 1, cards.length - 1));
+} else if (e.key === "k" || e.key === "K") {
+e.preventDefault();
+setCardFocus(focusedCardIdx < 0 ? 0 : Math.max(focusedCardIdx - 1, 0));
+} else if (e.key === "Enter") {
+if (focusedCardIdx < 0 || focusedCardIdx >= cards.length) return;
+var link = cards[focusedCardIdx].querySelector(".card-src");
+if (link && link.href) window.open(link.href, "_blank", "noopener");
+}
+});
+}
+function wireControls() {
+var searchInput = document.getElementById("searchInput");
+var searchClear = document.getElementById("searchClear");
+var allPill = document.querySelector('.pill[data-cat="all"]');
+function pressPill(cat) {
+document.querySelectorAll(".pill").forEach(function(p) {
+p.setAttribute("aria-pressed", p.getAttribute("data-cat") === cat ? "true" : "false");
+});
+}
+function syncClearBtn() {
+if (searchClear) searchClear.hidden = !searchInput || !searchInput.value;
+}
+function clearSearch() {
+if (searchInput) searchInput.value = "";
+state.query = "";
+syncClearBtn();
+applyFilter();
+}
+document.querySelectorAll(".pill").forEach(function(pill) {
+pill.addEventListener("click", function() {
+pressPill(pill.getAttribute("data-cat"));
+state.cat = pill.getAttribute("data-cat");
+applyFilter();
+});
+});
+if (searchInput) {
+searchInput.addEventListener("input", function() {
+state.query = searchInput.value.trim().toLowerCase();
+if (state.query && state.cat !== "all") {
+state.cat = "all";
+pressPill("all");
+}
+syncClearBtn();
+applyFilter();
+});
+searchInput.addEventListener("keydown", function(e) {
+if (e.key === "Escape") {
+clearSearch();
+searchInput.blur();
+}
+});
+}
+if (searchClear) {
+searchClear.addEventListener("click", function() {
+clearSearch();
+if (searchInput) searchInput.focus();
+});
+}
+document.addEventListener("keydown", function(e) {
+if (e.key !== "/" || !searchInput) return;
+var tag = document.activeElement && document.activeElement.tagName;
+if (tag === "INPUT" || tag === "TEXTAREA") return;
+e.preventDefault();
+searchInput.focus();
+});
+}
+function currentResolvedTheme(root) {
+var explicit = root.getAttribute("data-theme");
+if (explicit === "light" || explicit === "dark") return explicit;
+return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+function updateThemeIcon(btn, root) {
+btn.textContent = currentResolvedTheme(root) === "dark" ? "☾" : "☀";
+}
+function wireTheme() {
+var root = document.documentElement;
+var btn = document.getElementById("themeBtn");
+var stored = null;
+try {
+stored = localStorage.getItem(THEME_KEY);
+} catch (e) {}
+if (stored) root.setAttribute("data-theme", stored);
+updateThemeIcon(btn, root);
+btn.addEventListener("click", function() {
+var current = root.getAttribute("data-theme");
+var next = current === "dark" ? "light" : current === "light" ? "dark" : matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark";
+root.setAttribute("data-theme", next);
+try {
+localStorage.setItem(THEME_KEY, next);
+} catch (e) {}
+updateThemeIcon(btn, root);
+});
+}
+var briefingVoices = {
+anchor: null,
+analyst: null
+};
+function pickBriefingVoices() {
+var voices = speechSynthesis.getVoices() || [];
+if (!voices.length) return;
+var femaleRe = /female|zira|samantha|victoria|susan|karen|moira|tessa|fiona|veena|google us english|google uk english female/i;
+var maleRe = /male|aaron|arthur|daniel|david|alex|george|rishi|mark|guy|tom|evan|nathan|oliver|gordon|google uk english male/i;
+var noveltyRe = /fred|albert|bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|ralph|junior|grandpa|grandma|rocko|shelley|sandy|flo|eddy|reed|kathy|princess|hysterical|deranged|pipe organ/i;
+var enVoices = voices.filter(function(v) {
+return /^en/i.test(v.lang);
+});
+var femaleVoices = (enVoices.length ? enVoices : voices).filter(function(v) {
+return femaleRe.test(v.name);
+});
+var anchorVoice = femaleVoices[0] || (enVoices.length ? enVoices : voices)[0] || voices[0];
+var anchorLang = anchorVoice ? String(anchorVoice.lang).replace("_", "-").toLowerCase() : "";
+function voiceScore(v) {
+var lang = String(v.lang).replace("_", "-").toLowerCase();
+var s = 0;
+if (/enhanced|premium|natural|neural/i.test(v.name)) s += 4;
+if (anchorLang && lang === anchorLang) s += 3;
+if (/^google/i.test(v.name)) s += 3;
+return s;
+}
+var maleVoices = (enVoices.length ? enVoices : voices).filter(function(v) {
+return maleRe.test(v.name) && !femaleRe.test(v.name) && !noveltyRe.test(v.name) && v !== anchorVoice;
+}).sort(function(a, b) {
+return voiceScore(b) - voiceScore(a);
+});
+var analystVoice = maleVoices.length && voiceScore(maleVoices[0]) >= 3 ? maleVoices[0] : anchorVoice;
+briefingVoices.anchor = anchorVoice || null;
+briefingVoices.analyst = analystVoice || null;
+}
+function ttsSupported() {
+return "speechSynthesis" in window && typeof window.SpeechSynthesisUtterance === "function";
+}
+function wireBriefing() {
+var btn = document.getElementById("briefingPlayBtn");
+var status = document.getElementById("briefingStatus");
+if (!btn || !status) return;
+if (!ttsSupported()) {
+setTimeout(function() {
+if (!ttsSupported()) {
+btn.disabled = true;
+status.textContent = "Audio not supported on this browser";
+return;
+}
+wireBriefingReady(btn, status);
+}, 300);
+return;
+}
+wireBriefingReady(btn, status);
+}
+function wireBriefingReady(btn, status) {
+pickBriefingVoices();
+speechSynthesis.addEventListener("voiceschanged", pickBriefingVoices);
+function reset() {
+btn.setAttribute("aria-pressed", "false");
+btn.textContent = "▶";
+status.textContent = "Tap to listen";
+}
+btn.addEventListener("click", function() {
+if (speechSynthesis.speaking) {
+speechSynthesis.cancel();
+reset();
+return;
+}
+if (!briefingScript.length) return;
+var started = false;
+var startCheckTimer = setTimeout(function() {
+if (!started) {
+speechSynthesis.cancel();
+btn.setAttribute("aria-pressed", "false");
+btn.textContent = "▶";
+status.textContent = "No voice found on this device — check its Text-to-Speech settings";
+}
+}, 2500);
+briefingScript.forEach(function(turn, i) {
+var utterance = new SpeechSynthesisUtterance(turn.text);
+var voice = turn.speaker === "anchor" ? briefingVoices.anchor : briefingVoices.analyst;
+if (voice) utterance.voice = voice;
+utterance.pitch = 1;
+utterance.rate = .88;
+utterance.volume = 1;
+if (i === 0) {
+utterance.onstart = function() {
+started = true;
+clearTimeout(startCheckTimer);
+};
+}
+if (i === briefingScript.length - 1) {
+utterance.onend = reset;
+}
+utterance.onerror = function() {
+clearTimeout(startCheckTimer);
+reset();
+};
+speechSynthesis.speak(utterance);
+});
+btn.setAttribute("aria-pressed", "true");
+btn.textContent = "❚❚";
+status.textContent = "Playing…";
+});
+}
+function wireMobilePanels() {
+document.querySelectorAll(".panel-title-toggle").forEach(function(title) {
+title.addEventListener("click", function() {
+var panel = title.closest(".panel");
+if (panel) panel.classList.toggle("panel-open");
+});
+});
+}
+renderTicker();
+renderMinerals();
+renderMineralsMoreDropdown();
+wireMineralsMore();
+wireExpandableRows("mineralsIndex", ".idx-row");
+renderInfrastructureWatch();
+wireExpandableRows("infrastructureWatch", ".idx-row");
+renderEquilibriumIndex();
+renderChokepoints();
+wireExpandableRows("chokepoints", ".chokepoint-row");
+renderFreightEnergy();
+wireExpandableRows("freightEnergy", ".idx-row");
+renderTradePolicy();
+wireExpandableRows("tradePolicy", ".chokepoint-row");
+renderRiver();
+renderLeadFreshness();
+renderLeadChecks();
+renderLeadCrossLinks();
+wireCardExpand();
+renderSourcesModal();
+wireSources();
+wireMobilePanels();
+updateCounts();
+applyFilter();
+wireControls();
+wireCardKeyNav();
+wireTheme();
+wireBriefing();
+wireChartTooltips();
+})();
+</script>
+<nav style="text-align:center;padding:0 16px 40px;font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase"><a href="archive/" style="color:var(--ink-faint)">Past issues</a> <span style="color:var(--ink-faint)">&middot;</span> <a href="feed.xml" style="color:var(--ink-faint)">RSS</a></nav>
+<script src="share.js" defer></script>
+</body>
+</html>
