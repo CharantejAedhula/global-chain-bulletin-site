@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-06T03:09:15+00:00",
+ "fetched_at": "2026-10-06T03:14:35+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 521,
+ "outlets_read": 42,
+ "items_read": 520,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 32,
+   "items": 33,
    "errors": []
   },
   "Ecofin Agency": {
@@ -52,7 +52,7 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 10,
+   "items": 8,
    "errors": []
   },
   "The Korea Herald": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Financial Times": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Al Arabiya": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Bloomberg": {
@@ -137,9 +137,9 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 12,
+   "items": 11,
    "errors": [
-    "https://www.cbc.ca/webfeed/rss/rss-business: timeout: The read operation timed out"
+    "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
@@ -199,12 +199,14 @@
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 3,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "The Jakarta Post": {
@@ -594,51 +596,6 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Hindu",
-    "The Indian Express",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-10-05T14:32+00:00",
-   "earliest": "2026-10-05T04:36+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "India-U.S. trade deal talks have plateaued; further demands, concessions will be very difficult: FinMin",
-     "url": "https://www.thehindu.com/business/Economy/india-us-deal-has-reached-plateau-where-further-demands-concessions-will-be-very-difficult-sitharaman/article71547084.ece",
-     "via": "",
-     "published": "2026-10-05T14:32+00:00",
-     "summary": "Finance Minister says U.S. is ‘weaponising’ tariffs to address its trade imbalance instead of addressing it through negotiations; says India’s Russian oil imports did not play determinative role in EU FTA talks"
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "India-US trade deal stuck? Sitharaman says give-and-take ‘very difficult’",
-     "url": "https://indianexpress.com/article/business/india-us-trade-deal-talks-plateau-nirmala-sitharaman-tariffs-10907909/",
-     "via": "",
-     "published": "2026-10-05T13:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "India-US trade talks hit 'plateau', finance minister says, as tariffs narrow room for deal",
-     "url": "https://www.reuters.com/world/india/india-us-have-reached-plateau-trade-talks-indian-finance-minister-says-2026-10-05/",
-     "via": "",
-     "published": "2026-10-05T04:36+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
     "Euronews",
     "Times of Israel",
     "Al Arabiya"
@@ -675,6 +632,41 @@
      "url": "https://english.alarabiya.net/News/middle-east/2026/10/04/iran-says-strait-of-hormuz-will-not-reopen-until-conditions-are-met",
      "via": "",
      "published": "2026-10-04T08:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-06T03:13+00:00",
+   "earliest": "2026-10-05T11:28+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "South Korea says preparing response to force North Korean apology over DMZ blast",
+     "url": "https://www.straitstimes.com/asia/south-korea-says-preparing-response-to-force-north-korean-apology-over-dmz-blast",
+     "via": "",
+     "published": "2026-10-06T03:13+00:00",
+     "summary": "SEOUL, Oct 6 - South Korea is preparing a response to force North Korea to apologise for a mine blast in the Demilitarized Zone (DMZ) that seriously wounded two South Korean soldiers, a defence ministry spokesperson said on Tuesday."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "South Korea blames North Korean mines for border blast injuries and demands apology",
+     "url": "https://apnews.com/article/south-north-korea-mine-blasts-border-5255b87cc2f0bdc25c3c33759934a8c4",
+     "via": "",
+     "published": "2026-10-05T11:28+00:00",
      "summary": ""
     }
    ],
@@ -719,41 +711,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-10-06T02:05+00:00",
-   "earliest": "2026-10-05T20:40+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Ahead of US midterms, Trump signs executive order to expand access to tax-exempt diesel: What we know",
-     "url": "https://www.livemint.com/news/us-news/ahead-of-us-midterms-trump-signs-executive-order-to-expand-access-to-tax-exempt-diesel-what-we-know-11791252029011.html",
-     "via": "",
-     "published": "2026-10-06T02:05+00:00",
-     "summary": "US President Donald Trump has signed an executive order expanding access to tax-exempt diesel as record fuel prices pose a political risk ahead of the November midterm elections, which will determine control of Congress."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump to issue order expanding access to tax-exempt diesel fuel, sources say",
-     "url": "https://www.reuters.com/business/energy/us-expected-unveil-plan-ease-limits-red-dyed-diesel-monday-sources-say-2026-10-05/",
-     "via": "",
-     "published": "2026-10-05T20:40+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Mining.com.au",
     "MINING.COM"
    ],
@@ -761,7 +718,7 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-10-06T01:30+00:00",
+   "latest": "2026-10-06T01:32+00:00",
    "earliest": "2026-10-05T21:27+00:00",
    "items": [
     {
@@ -770,7 +727,7 @@
      "title": "Westwin plans $720 million Class 1 nickel refinery in Mississippi",
      "url": "https://mining.com.au/westwin-plans-720-million-class-1-nickel-refinery-in-mississippi/",
      "via": "",
-     "published": "2026-10-06T01:30+00:00",
+     "published": "2026-10-06T01:32+00:00",
      "summary": ""
     },
     {
@@ -783,7 +740,7 @@
      "summary": "Company has completed a bankable feasibility study for the Natchez site."
     }
    ],
-   "id": 12
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -818,7 +775,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -850,6 +807,41 @@
      "url": "https://www.reuters.com/world/india/gold-gains-october-fed-rate-hike-prospects-fade-2026-10-05/",
      "via": "",
      "published": "2026-10-05T02:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-05T21:10+00:00",
+   "earliest": "2026-10-05T17:20+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Ethiopia’s Abiy demands access to Red Sea as tensions with neighbours rise",
+     "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-05T21:10+00:00",
+     "summary": "Neighbouring countries say coastal states must govern Red Sea as fighting escalates in northern Ethiopia."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Ethiopia again demands access to the Red Sea as tensions with neighbors escalate",
+     "url": "https://apnews.com/article/ethiopia-red-sea-tensions-eritrea-egypt-sudan-bad74909a59297de524fdf377f0605c2",
+     "via": "",
+     "published": "2026-10-05T17:20+00:00",
      "summary": ""
     }
    ],
@@ -1069,6 +1061,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-10-05T14:32+00:00",
+   "earliest": "2026-10-05T04:36+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "India-U.S. trade deal talks have plateaued; further demands, concessions will be very difficult: FinMin",
+     "url": "https://www.thehindu.com/business/Economy/india-us-deal-has-reached-plateau-where-further-demands-concessions-will-be-very-difficult-sitharaman/article71547084.ece",
+     "via": "",
+     "published": "2026-10-05T14:32+00:00",
+     "summary": "Finance Minister says U.S. is ‘weaponising’ tariffs to address its trade imbalance instead of addressing it through negotiations; says India’s Russian oil imports did not play determinative role in EU FTA talks"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "India-US trade talks hit 'plateau', finance minister says, as tariffs narrow room for deal",
+     "url": "https://www.reuters.com/world/india/india-us-have-reached-plateau-trade-talks-indian-finance-minister-says-2026-10-05/",
+     "via": "",
+     "published": "2026-10-05T04:36+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "MINING.COM",
     "Mining Weekly"
    ],
@@ -1098,7 +1125,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1131,41 +1158,6 @@
      "via": "",
      "published": "2026-10-05T07:13+00:00",
      "summary": ""
-    }
-   ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "The Straits Times"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-05T11:28+00:00",
-   "earliest": "2026-10-05T09:13+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "South Korea blames North Korean mines for border blast injuries and demands apology",
-     "url": "https://apnews.com/article/south-north-korea-mine-blasts-border-5255b87cc2f0bdc25c3c33759934a8c4",
-     "via": "",
-     "published": "2026-10-05T11:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "South Korea says border mine blast was caused by North Korea",
-     "url": "https://www.straitstimes.com/asia/south-korea-says-border-mine-blast-was-caused-by-north-korea",
-     "via": "",
-     "published": "2026-10-05T09:13+00:00",
-     "summary": "SEOUL, Oct 5 - South Korea said on Monday that a recent border blast that seriously wounded two of its soldiers was caused by mines planted by North Korea."
     }
    ],
    "id": 23
@@ -1209,41 +1201,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Kyodo News",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "East Asia"
-   ],
-   "latest": "2026-10-05T09:42+00:00",
-   "earliest": "2026-10-05T08:52+00:00",
-   "items": [
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Xcite Uranium Adds Second Drill & Commences Drilling at Black Bay Uranium Project, Saskatchewan",
-     "url": "https://english.kyodonews.net/articles/-/87250",
-     "via": "",
-     "published": "2026-10-05T09:42+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Xcite starts drilling for uranium at historic Black Bay prospect in Saskatchewan",
-     "url": "https://www.miningweekly.com/article/xcite-starts-drilling-for-uranium-at-historic-black-bay-prospect-in-saskatchewan-2026-10-05",
-     "via": "",
-     "published": "2026-10-05T08:52+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "ABC News (Australia)",
     "Associated Press"
    ],
@@ -1252,7 +1209,7 @@
     "Oceania"
    ],
    "latest": "2026-10-05T02:50+00:00",
-   "earliest": "2026-10-04T08:51+00:00",
+   "earliest": "2026-10-04T19:55+00:00",
    "items": [
     {
      "outlet": "ABC News (Australia)",
@@ -1269,11 +1226,11 @@
      "title": "Yemen's government declares a major operation against the Houthis, and other Mideast news",
      "url": "https://apnews.com/article/israel-yemen-houthis-iran-gaza-hormuz-a37b24d446b3066d3b17441ac5bb0264",
      "via": "",
-     "published": "2026-10-04T08:51+00:00",
+     "published": "2026-10-04T19:55+00:00",
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1307,7 +1264,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1341,7 +1298,7 @@
      "summary": "The largest Middle Eastern crude exporter set the November Arab Light crude oil official selling price to Asia at US$5 a barrel."
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1375,7 +1332,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 28
   }
  ]
 }
