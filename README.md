@@ -10,6 +10,7 @@ Each day the bulletin is written in a Claude Artifact. This repository is the pu
 | When (India time) | What happens | Who does it |
 |---|---|---|
 | ~01:47 and ~05:37 | Latest prices are fetched into `data/` | GitHub Action `Fetch prices` |
+| ~02:47, ~04:37 and ~05:47 | Pinned outlets' headlines are grouped into corroborated events in `data/stories.json` | GitHub Action `Fetch news` |
 | 06:30 | New edition is written in the artifact | Claude routine "Daily Refresh" |
 | 09:30 and 20:30 | Artifact is copied to `index.html` on `main` | Claude routine "GitHub Pages Sync" (runs `build_mirror.py`) |
 | right after each change | The edition is saved as `issues/N.html`; the archive page and RSS feed are rebuilt | GitHub Action `Build archive` |
@@ -22,11 +23,12 @@ Each day the bulletin is written in a Claude Artifact. This repository is the pu
 - `share.js` - the Share buttons (phone share sheet, or WhatsApp / Telegram / X / LinkedIn / Email / Copy link).
 - `archive/` and `issues/` - the "Past issues" page and one saved page per edition. Generated.
 - `feed.xml` - RSS feed of the newest 30 editions. Generated.
-- `data/` - daily price data, with one dated copy per day in `prices_history/`.
+- `data/` - daily price data, with one dated copy per day in `prices_history/`, and `stories.json`: events from the last 72 hours that two or more independent pinned outlets reported, each with every outlet's headline, link and time.
 - `build_mirror.py` - turns the artifact into `index.html` and adds the home-screen, archive, RSS and share pieces.
 - `scripts/build_archive.py` - saves editions and rebuilds the archive and feed.
 - `scripts/verify_site.js` - the content checker (see below).
 - `scripts/fetch_prices.py` - fetches prices.
+- `scripts/fetch_news.py` - reads the pinned outlets' feeds and groups headlines about the same event.
 - `.github/workflows/` - the automatic jobs.
 
 ## What the content check looks for
