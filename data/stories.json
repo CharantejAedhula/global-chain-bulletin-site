@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-07T00:45:49+00:00",
+ "fetched_at": "2026-10-07T02:11:25+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 41,
- "items_read": 623,
+ "outlets_read": 42,
+ "items_read": 637,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 25,
+   "items": 19,
    "errors": []
   },
   "Ecofin Agency": {
@@ -42,27 +42,27 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 26,
+   "items": 24,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
@@ -92,7 +92,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Al Jazeera": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Amwaj.media": {
@@ -127,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 23,
+   "items": 25,
    "errors": []
   },
   "Axios": {
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 14,
+   "items": 16,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 15,
+   "items": 18,
    "errors": []
   },
   "RNZ": {
@@ -184,7 +184,7 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Business Standard": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "The Jakarta Post": {
@@ -221,10 +221,8 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 0,
-   "errors": [
-    "https://en.mercopress.com/rss/: URLError: <urlopen error timed out>"
-   ]
+   "items": 7,
+   "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
@@ -233,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 9,
    "errors": []
   },
   "Newsroom Panama": {
@@ -243,6 +241,62 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "ABC News (Australia)",
+    "Associated Press",
+    "CBC News"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-10-06T12:26+00:00",
+   "earliest": "2026-10-05T20:02+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Spain approves housing decrees that triggered snap election",
+     "url": "https://www.reuters.com/world/europe/spain-expected-approve-housing-decrees-that-triggered-snap-election-2026-10-06/",
+     "via": "",
+     "published": "2026-10-06T12:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Housing protests erupt in Barcelona after Spain calls early election",
+     "url": "https://www.abc.net.au/news/2026-10-06/barcelona-protests-spain-election-pedro-sanchez/107232696",
+     "via": "",
+     "published": "2026-10-06T05:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Spain’s prime minister calls snap election aiming to seize momentum over housing crisis",
+     "url": "https://apnews.com/article/spain-sanchez-election-housing-7d8347e35f1a9e2965ea5b0f8c012bd8",
+     "via": "",
+     "published": "2026-10-05T20:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Spanish PM calls snap election amid mounting housing crisis",
+     "url": "https://www.cbc.ca/news/world/spain-snap-election-housing-crisie-9.7369166",
+     "via": "",
+     "published": "2026-10-05T20:02+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [
@@ -303,69 +357,53 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "The Korea Herald",
-     "Associated Press"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
-    "Africanews",
-    "Associated Press",
-    "Times of Israel"
+    "Al Jazeera",
+    "Axios",
+    "Livemint / Economic Times"
    ],
    "regions": [
-    "Africa",
-    "East Asia",
     "Middle East",
-    "North America"
+    "North America",
+    "South Asia"
    ],
-   "latest": "2026-10-06T13:33+00:00",
-   "earliest": "2026-10-05T20:26+00:00",
+   "latest": "2026-10-07T01:07+00:00",
+   "earliest": "2026-10-06T13:56+00:00",
    "items": [
     {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Saudi-backed Yemeni forces expel Houthi rebels from several areas around key strait, officials say",
-     "url": "https://www.koreaherald.com/article/10894238",
-     "via": "",
-     "published": "2026-10-06T13:33+00:00",
-     "summary": "Forces of the Saudi-led coalition fighting in Yemen have recaptured several key areas around the strategic Bab el-Mandeb Strait from Houthi rebels, Yemeni officials said Monday, while the Houthis claimed attacks on Saudi oil facilities, airports and military bases as fighting escalated on Yemen’s western coast. The Yemeni officials said forces allied with the internationally recognized government "
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Yemen fighting intensifies as government forces retake key areas near Bab el-Mandeb",
-     "url": "http://www.africanews.com/2026/10/06/yemen-fighting-intensifies-as-government-forces-retake-key-areas-near-bab-el-mandeb/",
-     "via": "",
-     "published": "2026-10-06T08:08+00:00",
-     "summary": "Forces loyal to the government is the man bswuugdud xForces of the Saudi-led coalition fighting in Yemen have recaptured several key areas around the strategic Bab el-Mandeb Strait from Iran-backed Houthi rebels, Yemeni officials said Monday."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Saudi-backed Yemeni forces expel Houthi rebels from several areas around key strait, officials say",
-     "url": "https://apnews.com/article/yemen-houthis-iran-saudi-arabia-red-sea-taiz-e87beb84a0d146e4f0546b50508f7e32",
-     "via": "",
-     "published": "2026-10-06T03:23+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
+     "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Saudi-backed Yemeni forces expel Houthis from areas around key strait: officials",
-     "url": "https://www.timesofisrael.com/saudi-backed-yemeni-forces-expel-houthis-from-areas-around-key-strait-officials/",
+     "title": "Politicians slam Trump’s suggestion that Iran ‘take’ San Diego, Los Angeles",
+     "url": "https://www.aljazeera.com/news/2026/10/7/politicians-slam-trumps-suggestion-that-iran-take-san-diego-los-angeles?traffic_source=rss",
      "via": "",
-     "published": "2026-10-05T20:26+00:00",
-     "summary": ""
+     "published": "2026-10-07T01:07+00:00",
+     "summary": "Both Democrats and Republicans have expressed outrage at Trump's remarks that cities could be sacrificed in Iran war."
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump remarks that Iran could \"take out\" Los Angeles, San Diego draw backlash",
+     "url": "https://www.axios.com/2026/10/06/trump-iran-take-out-la-san-diego",
+     "via": "",
+     "published": "2026-10-06T14:11+00:00",
+     "summary": "California leaders blasted President Trump after he said during a Monday rally about Iran , \"Let them take out Los Angeles. Let them take out San Diego.\" The big picture: The backlash — and the White House's insistence that Trump was misunderstood — underscored the ambiguity of his meandering speech: An argument that the war was worth enduring to protect Americans came out sounding like an invitat"
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "‘Deranged and dangerous’, ‘He gave terrorists targets’: Trump’s Iran ‘take out LA, San Diego’ remark sparks outrage",
+     "url": "https://www.livemint.com/news/us-news/deranged-and-dangerous-he-gave-terrorists-targets-trump-s-iran-take-out-la-san-diego-remark-sparks-outrage-11791293404839.html",
+     "via": "",
+     "published": "2026-10-06T13:56+00:00",
+     "summary": "The contrasting reactions have largely centred on whether Trump was literally suggesting that an Iranian attack on Los Angeles or San Diego was an acceptable sacrifice, or whether he was describing a hypothetical consequence of Iran acquiring nuclear weapons."
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -411,60 +449,60 @@
      "summary": "Riot police across France have clashed with hundreds of thousands of demonstrators as student protests spread on third day. Tear gas was used in Paris and Marseille and hundreds arrested."
     }
    ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-10-06T06:58+00:00",
-   "earliest": "2026-10-05T21:27+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Westwin Elements to invest $502m in Mississippi nickel refinery",
-     "url": "https://www.miningweekly.com/article/westwin-elements-to-invest-502m-in-mississippi-nickel-refinery-2026-10-06",
-     "via": "",
-     "published": "2026-10-06T06:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Westwin plans $720 million Class 1 nickel refinery in Mississippi",
-     "url": "https://mining.com.au/westwin-plans-720-million-class-1-nickel-refinery-in-mississippi/",
-     "via": "",
-     "published": "2026-10-06T03:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Westwin Elements to build $502M nickel refinery in Mississippi",
-     "url": "https://www.mining.com/westwin-elements-to-build-502m-nickel-refinery-in-mississippi/",
-     "via": "",
-     "published": "2026-10-05T21:27+00:00",
-     "summary": "Company has completed a bankable feasibility study for the Natchez site."
-    }
-   ],
    "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Africanews",
     "Associated Press",
-    "BNamericas",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-06T08:08+00:00",
+   "earliest": "2026-10-05T20:26+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Yemen fighting intensifies as government forces retake key areas near Bab el-Mandeb",
+     "url": "http://www.africanews.com/2026/10/06/yemen-fighting-intensifies-as-government-forces-retake-key-areas-near-bab-el-mandeb/",
+     "via": "",
+     "published": "2026-10-06T08:08+00:00",
+     "summary": "Forces loyal to the government is the man bswuugdud xForces of the Saudi-led coalition fighting in Yemen have recaptured several key areas around the strategic Bab el-Mandeb Strait from Iran-backed Houthi rebels, Yemeni officials said Monday."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Saudi-backed Yemeni forces expel Houthi rebels from several areas around key strait, officials say",
+     "url": "https://apnews.com/article/yemen-houthis-iran-saudi-arabia-red-sea-taiz-e87beb84a0d146e4f0546b50508f7e32",
+     "via": "",
+     "published": "2026-10-06T03:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Saudi-backed Yemeni forces expel Houthis from areas around key strait: officials",
+     "url": "https://www.timesofisrael.com/saudi-backed-yemeni-forces-expel-houthis-from-areas-around-key-strait-officials/",
+     "via": "",
+     "published": "2026-10-05T20:26+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "MercoPress",
     "Africanews"
    ],
    "regions": [
@@ -485,13 +523,13 @@
      "summary": ""
     },
     {
-     "outlet": "BNamericas",
+     "outlet": "MercoPress",
      "region": "Latin America",
-     "title": "Daily headlines: Brazil heads to runoff between Lula and Bolsonaro",
-     "url": "https://www.bnamericas.com/en/news/daily-headlines-brazil-heads-to-runoff-between-lula-and-bolsonaro",
+     "title": "Flávio Bolsonaro edges Lula in the first round; both head to an October 25 runoff",
+     "url": "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
      "via": "",
-     "published": "2026-10-05T12:40+00:00",
-     "summary": ""
+     "published": "2026-10-05T10:30+00:00",
+     "summary": "Senator Flávio Bolsonaro won around 47% of valid votes in the first round of Brazil's presidential election on Sunday, ahead of President Luiz Inácio Lula da Silva, who took about 45%, according to the Superior Electoral Court's count. As neither passed half of the valid votes, the two will face each other in a runoff on October 25."
     },
     {
      "outlet": "Africanews",
@@ -503,7 +541,7 @@
      "summary": "Brazil presidential candidate Sen. Flávio Bolsonaro and incumbent President Luiz Inácio Lula da Silva will face off in a runoff October 25 for the top job after neither won a majority in Sunday's vote."
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -549,7 +587,52 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Africanews",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East"
+   ],
+   "latest": "2026-10-07T00:35+00:00",
+   "earliest": "2026-10-04T17:25+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Yemeni forces launch offensive to retake Houthi-held al-Waziiya in Taiz",
+     "url": "https://www.aljazeera.com/news/2026/10/7/yemeni-forces-launch-offensive-to-retake-houthi-held-al-waziiya-in-taiz?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-07T00:35+00:00",
+     "summary": "The mountainous district is key to control of Mocha, the Red Sea port the Houthis seized last month."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Yemeni government forces launch major offensive to retake Houthi-held territory",
+     "url": "http://www.africanews.com/2026/10/05/yemeni-government-forces-launch-major-offensive-to-retake-houthi-held-territory/",
+     "via": "",
+     "published": "2026-10-05T08:06+00:00",
+     "summary": "Government forces in Yemen have launched a major military operation to retake the territory seized by Houthi rebels last month."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Yemeni forces launch ‘battle of liberation’ to retake Houthi-held territory",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/04/yemeni-forces-launch-battle-of-liberation-to-retake-houthiheld-territory",
+     "via": "",
+     "published": "2026-10-04T17:25+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -569,7 +652,7 @@
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "SpaceX seeking to raise US$40 billion to buy Nvidia chips: Financial Times",
+     "title": "Musk’s SpaceX in talks to borrow US$40 billion to buy Nvidia chips",
      "url": "https://www.straitstimes.com/business/companies-markets/spacex-seeking-to-raise-us40-billion-to-buy-nvidia-chips-financial-times",
      "via": "",
      "published": "2026-10-07T00:25+00:00",
@@ -578,10 +661,10 @@
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports",
+     "title": "SpaceX seeks $40 billion financing led by Apollo to buy Nvidia chips, FT reports",
      "url": "https://www.reuters.com/business/media-telecom/spacex-seeks-40-billion-buy-nvidia-chips-ft-reports-2026-10-06/",
      "via": "",
-     "published": "2026-10-06T22:43+00:00",
+     "published": "2026-10-06T22:37+00:00",
      "summary": ""
     },
     {
@@ -592,96 +675,6 @@
      "via": "",
      "published": "2026-10-06T22:28+00:00",
      "summary": "Blockbuster debt deal is the latest sign of the vast spending on chips and other infrastructure underpinning AI"
-    }
-   ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Associated Press",
-    "CBC News"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-06T12:26+00:00",
-   "earliest": "2026-10-05T20:02+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Spain approves housing decrees that triggered snap election",
-     "url": "https://www.reuters.com/world/europe/spain-expected-approve-housing-decrees-that-triggered-snap-election-2026-10-06/",
-     "via": "",
-     "published": "2026-10-06T12:26+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Spain’s prime minister calls snap election aiming to seize momentum over housing crisis",
-     "url": "https://apnews.com/article/spain-sanchez-election-housing-7d8347e35f1a9e2965ea5b0f8c012bd8",
-     "via": "",
-     "published": "2026-10-05T20:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "Spanish PM calls snap election amid mounting housing crisis",
-     "url": "https://www.cbc.ca/news/world/spain-snap-election-housing-crisie-9.7369166",
-     "via": "",
-     "published": "2026-10-05T20:02+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Associated Press",
-    "CBC News"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-10-06T10:08+00:00",
-   "earliest": "2026-10-05T22:06+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Why Quebec separatism is back in focus after PQ election win, and what it means for Mark Carney",
-     "url": "https://www.livemint.com/news/world/why-quebec-separatism-is-back-in-focus-after-pq-election-win-and-what-it-means-for-mark-carney-11791276352405.html",
-     "via": "",
-     "published": "2026-10-06T10:08+00:00",
-     "summary": "Canada’s Quebec separatism is back in focus as the Parti Québécois eyes a return to power and another independence referendum. The issue could test PM Mark Carney, especially as Alberta debates separation and Donald Trump continues his “51st state” rhetoric."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Quebec separatists vowing independence vote win an election but fall short of majority",
-     "url": "https://apnews.com/article/canada-quebec-election-a4e8ecaa4026c46d0346e9487c5e333d",
-     "via": "",
-     "published": "2026-10-06T04:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "It’s election day in Quebec: What you need to know to vote",
-     "url": "https://www.cbc.ca/news/canada/montreal/quebec-provincial-election-voting-day-2026-9.7364241",
-     "via": "",
-     "published": "2026-10-05T22:06+00:00",
-     "summary": ""
     }
    ],
    "id": 9
@@ -741,6 +734,146 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Livemint / Economic Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-10-07T01:10+00:00",
+   "earliest": "2026-10-06T22:40+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Iran war news LIVE: JD Vance says Tehran must make a \"meaningful\" reduction in nuclear enrichment to end war",
+     "url": "https://www.livemint.com/news/us-news/us-iran-war-latest-news-live-updates-donald-trump-jd-vance-nuclear-enrichment-strait-of-hormuz-oil-prices-houthis-saudi-11791333855687.html",
+     "via": "",
+     "published": "2026-10-07T01:10+00:00",
+     "summary": "Iran war news LIVE: US Vice President JD Vance on Tuesday (local time) said that Washington is now seeking a “meaningful” reduction in Tehran's enrichment capacity to meet the demand and end the conflict, even as the US was unsure how Iran makes decisions in negotiations."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: Vance says Iran must cut enrichment to end war",
+     "url": "https://www.reuters.com/world/interview-us-vice-president-vance-says-iran-must-cut-enrichment-end-war-2026-10-06/",
+     "via": "",
+     "published": "2026-10-06T22:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Mysteel"
+   ],
+   "regions": [
+    "China",
+    "Latin America"
+   ],
+   "latest": "2026-10-07T00:59+00:00",
+   "earliest": "2026-10-06T12:35+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Vale ADR Falls 0.5% as China Steel Output Drops | Iron Ore, Oct 6",
+     "url": "https://www.riotimesonline.com/iron-ore-markets-latam-tuesday-october-6-2026/",
+     "via": "",
+     "published": "2026-10-07T00:59+00:00",
+     "summary": "Iron ore proxies fell on 6 October as China's crude steel output dropped 3.7% in August. Vale and CSN Mineração slipped while Rio Tinto rose. The post Vale ADR Falls 0.5% as China Steel Output Drops | Iron Ore, Oct 6 appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Mysteel",
+     "region": "China",
+     "title": "Mysteel Iron Ore Index (Oct 06, 202...",
+     "url": "https://www.mysteel.net/daily-prices/7192074-mysteel-iron-ore-index",
+     "via": "",
+     "published": "2026-10-06T12:35+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America"
+   ],
+   "latest": "2026-10-07T00:58+00:00",
+   "earliest": "2026-10-06T02:15+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Gold Rises 0.4% to US$4,151 as Dollar Slips | Gold & Silver, Oct 6",
+     "url": "https://www.riotimesonline.com/gold-silver-precious-metals-tuesday-october-6-2026/",
+     "via": "",
+     "published": "2026-10-07T00:58+00:00",
+     "summary": "Gold and silver gained on 6 October as the US dollar index fell 0.22% and Treasury yields eased. Fed minutes on Wednesday are next. The post Gold Rises 0.4% to US$4,151 as Dollar Slips | Gold & Silver, Oct 6 appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Gold climbs as dollar, Treasury yields slip",
+     "url": "https://www.reuters.com/world/india/gold-inches-lower-firmer-dollar-higher-yields-weigh-2026-10-06/",
+     "via": "",
+     "published": "2026-10-06T02:15+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-07T00:39+00:00",
+   "earliest": "2026-10-06T06:01+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Nvidia-backed Reflection AI unveils Beam, pitching an efficient US open model against Chinese rivals",
+     "url": "https://www.digitimes.com/news/a20261006VL211/startup-nvidia-bloomberg-deepmind.html",
+     "via": "",
+     "published": "2026-10-07T00:39+00:00",
+     "summary": "Reflection AI, the Nvidia-backed startup that has cast itself as a US counterweight to China's open-model developers, has unveiled Beam, its first open-weight model, which it says rivals leading options in the US and China while costing less than many competitors."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia-backed start-up Reflection unveils open AI model to rival China offerings",
+     "url": "https://www.straitstimes.com/business/nvidia-backed-start-up-reflection-unveils-open-ai-model-to-rival-china-offerings",
+     "via": "",
+     "published": "2026-10-06T06:01+00:00",
+     "summary": "The model is designed to perform for business customers and developers on coding and AI agent tasks."
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Australian Financial Review",
     "Bloomberg"
    ],
@@ -770,7 +903,7 @@
      "summary": "BHP Group will sell its Kambalda nickel concentrator plant and associated land in Western Australia to Gold Fields Ltd. for an undisclosed price."
     }
    ],
-   "id": 11
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -805,42 +938,42 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Australian Financial Review",
+    "Al Jazeera",
     "Associated Press"
    ],
    "regions": [
-    "North America",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-10-06T22:00+00:00",
-   "earliest": "2026-10-06T19:45+00:00",
+   "latest": "2026-10-06T21:57+00:00",
+   "earliest": "2026-10-06T19:17+00:00",
    "items": [
     {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "White House on the defensive after Trump invites Iran to ‘take out’ LA",
-     "url": "https://www.afr.com/world/north-america/white-house-on-the-defensive-after-trump-invites-iran-to-take-out-la-20261007-p613dz?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Houthis, Saudi-led forces claim victories as Yemen fighting rages on",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/houthis-saudi-led-forces-claim-victories-as-yemen-fighting-rages-on?traffic_source=rss",
      "via": "",
-     "published": "2026-10-06T22:00+00:00",
-     "summary": "While defending the war in Iran to a packed rally in Nebraska, the US president appeared to suggest Tehran was welcome to attack two Californian cities."
+     "published": "2026-10-06T21:57+00:00",
+     "summary": "Saudi Arabia’s Jazan and Najran airports were attacked as Saudi-led gov’t forces launched air strikes on the Houthis."
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "White House aide: Trump did not call for attacks on US cities but explained how he's preventing them",
-     "url": "https://apnews.com/article/trump-take-out-los-angeles-san-diego-52a8262c33c8e28357634a3f06a5034c",
+     "title": "Saudi Arabia says 2 airports were hit in renewed fighting with Houthis and other Mideast news",
+     "url": "https://apnews.com/article/iran-yemen-israel-saudi-uae-gaza-october-6-2026-efdbaff2e5931655543fd86638682ad5",
      "via": "",
-     "published": "2026-10-06T19:45+00:00",
+     "published": "2026-10-06T19:17+00:00",
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -875,7 +1008,7 @@
      "summary": "The latest numbers show President Trump’s tariffs have largely been a failure."
     }
    ],
-   "id": 14
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -910,7 +1043,7 @@
      "summary": "The latest incident involving a Panama-flagged tanker has been condemned by the Indian government with 11 of its nationals injured"
     }
    ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -945,77 +1078,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-10-06T14:17+00:00",
-   "earliest": "2026-10-06T13:45+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Canada's trade surplus widens substantially in August",
-     "url": "https://www.reuters.com/world/americas/canadas-trade-surplus-surprisingly-widens-over-four-year-high-august-2026-10-06/",
-     "via": "",
-     "published": "2026-10-06T14:17+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US trade deficit widens despite Trump's tariffs: What August data tells us",
-     "url": "https://www.livemint.com/news/us-news/us-trade-deficit-widens-despite-trumps-tariffs-what-august-data-tells-us-11791293635945.html",
-     "via": "",
-     "published": "2026-10-06T13:45+00:00",
-     "summary": "The trade shortfall rose 13.7% from the previous month to $105.6 billion, according to data released by the Commerce Department's Bureau of Economic Analysis and Census Bureau on Tuesday."
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Axios",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-10-06T14:11+00:00",
-   "earliest": "2026-10-06T13:56+00:00",
-   "items": [
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump remarks that Iran could \"take out\" Los Angeles, San Diego draw backlash",
-     "url": "https://www.axios.com/2026/10/06/trump-iran-take-out-la-san-diego",
-     "via": "",
-     "published": "2026-10-06T14:11+00:00",
-     "summary": "California leaders blasted President Trump after he said during a Monday rally about Iran , \"Let them take out Los Angeles. Let them take out San Diego.\" The big picture: The backlash — and the White House's insistence that Trump was misunderstood — underscored the ambiguity of his meandering speech: An argument that the war was worth enduring to protect Americans came out sounding like an invitat"
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "‘Deranged and dangerous’, ‘He gave terrorists targets’: Trump’s Iran ‘take out LA, San Diego’ remark sparks outrage",
-     "url": "https://www.livemint.com/news/us-news/deranged-and-dangerous-he-gave-terrorists-targets-trump-s-iran-take-out-la-san-diego-remark-sparks-outrage-11791293404839.html",
-     "via": "",
-     "published": "2026-10-06T13:56+00:00",
-     "summary": "The contrasting reactions have largely centred on whether Trump was literally suggesting that an Iranian attack on Los Angeles or San Diego was an acceptable sacrifice, or whether he was describing a hypothetical consequence of Iran acquiring nuclear weapons."
-    }
-   ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1050,7 +1113,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1085,7 +1148,7 @@
      "summary": "Singapore accounted for nearly 80% of Thailand's egg exports in 2025, data shows."
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1120,42 +1183,77 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "The Hindu"
+    "The Straits Times",
+    "Associated Press"
    ],
    "regions": [
-    "East Asia",
-    "South Asia"
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-06T03:36+00:00",
-   "earliest": "2026-10-05T15:18+00:00",
+   "latest": "2026-10-06T03:13+00:00",
+   "earliest": "2026-10-05T11:28+00:00",
    "items": [
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "AM Intelligence expands India AI infrastructure push with 20,000 more Nvidia Rubin GPUs",
-     "url": "https://www.digitimes.com/news/a20261006PR200/ai-infrastructure-capacity-asia-nvidia-rubin.html",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "South Korea says it is preparing response to force North Korean apology over DMZ blast",
+     "url": "https://www.straitstimes.com/asia/east-asia/south-korea-says-preparing-response-to-force-north-korean-apology-over-dmz-blast",
      "via": "",
-     "published": "2026-10-06T03:36+00:00",
-     "summary": "AM Intelligence (AMI) is widening its AI infrastructure push in India and Malaysia, adding to a regional buildout that could matter well beyond Asia. The latest orders expand access to frontier computing for cloud providers and developers, while signaling a shift in global AI capacity toward new hubs outside North America."
+     "published": "2026-10-06T03:13+00:00",
+     "summary": "The mine blast in the Demilitarized Zone wounded three South Korean soldiers, two of them seriously."
     },
     {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "AM Intelligence orders 20,000 more NVIDIA Rubin GPUs for India, Malaysia AI factories",
-     "url": "https://www.thehindu.com/business/am-intelligence-orders-20000-more-nvidia-rubin-gpus-for-india-malaysia-ai-factories/article71547979.ece",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "South Korea blames North Korean mines for border blast injuries and demands apology",
+     "url": "https://apnews.com/article/south-north-korea-mine-blasts-border-5255b87cc2f0bdc25c3c33759934a8c4",
      "via": "",
-     "published": "2026-10-05T15:18+00:00",
-     "summary": "AMI plans to bring additional 300 MWs of capacity to market in the next 15 months, involving capital expenditure of more than $20 billion in addition to the $6 billion already committed for the initial $100 MW."
+     "published": "2026-10-05T11:28+00:00",
+     "summary": ""
     }
    ],
-   "id": 22
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-10-06T03:06+00:00",
+   "earliest": "2026-10-05T21:27+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Westwin plans $720 million Class 1 nickel refinery in Mississippi",
+     "url": "https://mining.com.au/westwin-plans-720-million-class-1-nickel-refinery-in-mississippi/",
+     "via": "",
+     "published": "2026-10-06T03:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Westwin Elements to build $502M nickel refinery in Mississippi",
+     "url": "https://www.mining.com/westwin-elements-to-build-502m-nickel-refinery-in-mississippi/",
+     "via": "",
+     "published": "2026-10-05T21:27+00:00",
+     "summary": "Company has completed a bankable feasibility study for the Natchez site."
+    }
+   ],
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1190,7 +1288,7 @@
      "summary": "Yemen’s Houthi rebels on Saturday claimed attacks against facilities of Aramco, the world's largest oil company, in Saudi Arabia's capital Riyadh."
     }
    ],
-   "id": 23
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1225,42 +1323,7 @@
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Africa",
-    "Middle East"
-   ],
-   "latest": "2026-10-05T08:06+00:00",
-   "earliest": "2026-10-04T17:25+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Yemeni government forces launch major offensive to retake Houthi-held territory",
-     "url": "http://www.africanews.com/2026/10/05/yemeni-government-forces-launch-major-offensive-to-retake-houthi-held-territory/",
-     "via": "",
-     "published": "2026-10-05T08:06+00:00",
-     "summary": "Government forces in Yemen have launched a major military operation to retake the territory seized by Houthi rebels last month."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Yemeni forces launch ‘battle of liberation’ to retake Houthi-held territory",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/04/yemeni-forces-launch-battle-of-liberation-to-retake-houthiheld-territory",
-     "via": "",
-     "published": "2026-10-04T17:25+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1295,30 +1358,55 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 28
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Financial Times"
+    "DigiTimes",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-10-07T00:52+00:00",
+   "earliest": "2026-10-04T19:42+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Rapidus adds Malaysian chip designers to its semiconductor network",
+     "url": "https://www.digitimes.com/news/a20261007PD205/rapidus-ic-design-intel-ip-design.html",
+     "via": "",
+     "published": "2026-10-07T00:52+00:00",
+     "summary": "Japan's Rapidus is widening its semiconductor push with help from four Malaysian IC design firms, a move that could strengthen chip-development support for customers worldwide. The partnership underlines how Malaysia is emerging as a key design hub, linking Japanese ambitions with global supply-chain and AI-chip demand."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Japan's Rapidus to help 17 companies design chips for clients",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-rapidus-to-help-17-companies-design-chips-for-clients",
+     "via": "",
+     "published": "2026-10-04T19:42+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "Reuters"
    ],
    "regions": [
     "Europe"
    ],
-   "latest": "2026-10-06T21:10+00:00",
-   "earliest": "2026-10-06T21:09+00:00",
+   "latest": "2026-10-06T21:09+00:00",
+   "earliest": "2026-10-06T19:28+00:00",
    "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump says he is thinking about suspending federal gas tax",
-     "url": "https://www.reuters.com/legal/government/trump-says-his-administration-is-thinking-about-suspending-federal-gas-tax-2026-10-06/",
-     "via": "",
-     "published": "2026-10-06T21:10+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Financial Times",
      "region": "Europe",
@@ -1327,9 +1415,18 @@
      "via": "",
      "published": "2026-10-06T21:09+00:00",
      "summary": "Surging fuel prices are heaping pressure on the president and his Republican Party four weeks ahead of midterm elections"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump says he is thinking about suspending federal gas tax",
+     "url": "https://www.reuters.com/legal/government/trump-says-his-administration-is-thinking-about-suspending-federal-gas-tax-2026-10-06/",
+     "via": "",
+     "published": "2026-10-06T19:28+00:00",
+     "summary": ""
     }
    ],
-   "id": 27
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1363,7 +1460,41 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "CBC News"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-10-06T04:38+00:00",
+   "earliest": "2026-10-05T22:06+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Quebec separatists vowing independence vote win an election but fall short of majority",
+     "url": "https://apnews.com/article/canada-quebec-election-a4e8ecaa4026c46d0346e9487c5e333d",
+     "via": "",
+     "published": "2026-10-06T04:38+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "It’s election day in Quebec: What you need to know to vote",
+     "url": "https://www.cbc.ca/news/canada/montreal/quebec-provincial-election-voting-day-2026-9.7364241",
+     "via": "",
+     "published": "2026-10-05T22:06+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1397,7 +1528,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1431,7 +1562,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 34
   }
  ]
 }
