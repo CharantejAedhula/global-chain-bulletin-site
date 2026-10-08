@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-08T01:02:40+00:00",
+ "fetched_at": "2026-10-08T02:37:00+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 682,
+ "items_read": 691,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -42,34 +42,34 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 20,
+   "items": 38,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 32,
+   "items": 24,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 72, column 55"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 380, column 55"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 24,
+   "items": 20,
    "errors": []
   },
   "Financial Times": {
@@ -99,7 +99,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
@@ -109,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,7 +124,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
@@ -139,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 13,
+   "items": 14,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,7 +156,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Australian Financial Review": {
@@ -171,7 +171,7 @@
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Interfax": {
@@ -191,12 +191,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "The Indian Express": {
@@ -213,7 +213,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "VnExpress International": {
@@ -633,32 +633,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "Mining.com.au"
+    "Financial Times",
+    "Nikkei Asia"
    ],
    "regions": [
-    "Africa",
-    "Oceania"
+    "East Asia",
+    "Europe"
    ],
-   "latest": "2026-10-07T21:44+00:00",
-   "earliest": "2026-10-07T15:54+00:00",
+   "latest": "2026-10-08T01:50+00:00",
+   "earliest": "2026-10-08T00:19+00:00",
    "items": [
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Workers at Chile's Centinela copper mine strike after talks fail",
-     "url": "https://www.miningweekly.com/article/workers-at-chiles-centinela-copper-mine-strike-after-talks-fail-2026-10-07",
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Samsung profit surges ninefold to $80bn on AI chip demand",
+     "url": "https://www.ft.com/content/8943785b-0919-4a49-8ab5-48e4a35a6e00?syn-25a6b1a6=1",
      "via": "",
-     "published": "2026-10-07T21:44+00:00",
-     "summary": ""
+     "published": "2026-10-08T01:50+00:00",
+     "summary": "World’s largest memory-chip maker posts record earnings for the three months to September"
     },
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Workers at Chile’s Centinela copper mine set to strike after talks fail",
-     "url": "https://mining.com.au/workers-at-chiles-centinela-copper-mine-set-to-strike-after-talks-fail/",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Samsung Q3 profit jumps nearly 9 times to $80bn in AI chip boom",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/samsung-q3-profit-jumps-nearly-9-times-to-80bn-in-ai-chip-boom",
      "via": "",
-     "published": "2026-10-07T15:54+00:00",
+     "published": "2026-10-08T00:19+00:00",
      "summary": ""
     }
    ],
@@ -738,41 +738,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-07T19:28+00:00",
-   "earliest": "2026-10-07T15:18+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "IEA to accelerate oil reserve release, says 100 million barrels still to come",
-     "url": "https://www.reuters.com/business/energy/iea-meet-wednesday-over-proposed-release-reserves-say-two-eu-diplomats-2026-10-07/",
-     "via": "",
-     "published": "2026-10-07T19:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "IEA member states say ready to release more oil reserves if necessary",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/10/07/iea-member-states-say-ready-to-release-more-oil-reserves-if-necessary",
-     "via": "",
-     "published": "2026-10-07T15:18+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "MINING.COM",
     "BNamericas"
    ],
@@ -802,7 +767,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -837,7 +802,7 @@
      "summary": "Israelis are gathering Wednesday to commemorate the third anniversary of the October 7 attack that killed 1,200 people and saw 251 taken hostage. In Gaza, the territory's almost two million people live in ruins."
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -872,42 +837,7 @@
      "summary": "India’s central bank raised interest rates for the first time in nearly four years and signaled further hikes may be on the table as accelerating inflation and a weakening currency drive a policy pivot."
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-07T10:02+00:00",
-   "earliest": "2026-10-05T02:01+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "China Completes First Season of Regular Arctic Container Service",
-     "url": "https://gcaptain.com/china-completes-first-season-of-regular-arctic-container-service/",
-     "via": "",
-     "published": "2026-10-07T10:02+00:00",
-     "summary": "China has completed the first season of regular weekly container shipping between China and Europe via the Northern Sea Route, with the operator completing all eight sailings planned for 2026 before ending departures slightly earlier than scheduled because of Arctic ice forecasts."
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "China Arctic service container ship returns to Asia via Suez",
-     "url": "https://www.seatrade-maritime.com/containers/china-arctic-service-container-ship-returns-to-asia-via-suez",
-     "via": "",
-     "published": "2026-10-05T02:01+00:00",
-     "summary": "Chinese carrier Sea Legend announced eight weekly sailings between China and Europe via the Russian Arctic starting from August"
-    }
-   ],
-   "id": 16
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -942,7 +872,7 @@
      "summary": "Move comes after talks with US memory chip giant on bonus reforms collapsed."
     }
    ],
-   "id": 17
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -977,7 +907,7 @@
      "summary": "Iraq devalued its currency by 13% against the dollar, as the economy comes under strain with the effective closure of the Strait of Hormuz hitting oil exports."
     }
    ],
-   "id": 18
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1012,31 +942,22 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 17
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Al Arabiya"
+    "Al Arabiya",
+    "Associated Press"
    ],
    "regions": [
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-06T23:37+00:00",
-   "earliest": "2026-10-06T19:07+00:00",
+   "latest": "2026-10-06T19:07+00:00",
+   "earliest": "2026-10-06T09:10+00:00",
    "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "French riot police fire tear gas as more than 250,000 rally nationwide for school funding",
-     "url": "https://apnews.com/article/france-education-protests-macron-police-dd78a1a2b80d4c84a92bcdde6f96e988",
-     "via": "",
-     "published": "2026-10-06T23:37+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
@@ -1045,44 +966,18 @@
      "via": "",
      "published": "2026-10-06T19:07+00:00",
      "summary": ""
-    }
-   ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "China",
-    "East Asia"
-   ],
-   "latest": "2026-10-06T09:19+00:00",
-   "earliest": "2026-10-06T00:59+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Germany joins France in call for China trade defences",
-     "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3369919/germany-joins-france-call-china-trade-defences?utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-06T09:19+00:00",
-     "summary": "Germany and France, the European Union’s two largest economies, jointly called for tougher EU trade defences, as European and Chinese negotiators prepare for crunch talks this week under the shadow of a potential trade war. “The open and rules-based trade system is massively affected by weaponisation of trade, systemic market-distorting practices, and global macroeconomic imbalances,” German Chanc"
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "France, Germany push for rapid EU trade defense tools with focus on China",
-     "url": "https://asia.nikkei.com/economy/trade-war/france-germany-push-for-rapid-eu-trade-defense-tools-with-focus-on-china",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "French riot police fire tear gas as more than 250,000 rally nationwide for school funding",
+     "url": "https://apnews.com/article/france-education-protests-macron-police-dd78a1a2b80d4c84a92bcdde6f96e988",
      "via": "",
-     "published": "2026-10-06T00:59+00:00",
+     "published": "2026-10-06T09:10+00:00",
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1117,7 +1012,7 @@
      "summary": "Company has completed a bankable feasibility study for the Natchez site."
     }
    ],
-   "id": 22
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1152,41 +1047,41 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
+    "Associated Press",
+    "Bloomberg"
    ],
    "regions": [
-    "Middle East"
+    "North America"
    ],
-   "latest": "2026-10-07T20:25+00:00",
-   "earliest": "2026-10-07T19:10+00:00",
+   "latest": "2026-10-07T18:18+00:00",
+   "earliest": "2026-10-07T18:00+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Tanker off Qatar reports hits from multiple projectiles, says maritime agency",
-     "url": "https://www.timesofisrael.com/liveblog_entry/tanker-off-qatar-reports-hits-from-multiple-projectiles-says-maritime-agency/",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Fed minutes: Another rate hike likely coming this year to combat persistent inflation",
+     "url": "https://apnews.com/article/inflation-trump-federal-reserve-warsh-b7ed20e31e1a6fa5da6d78e5fe35b0c3",
      "via": "",
-     "published": "2026-10-07T20:25+00:00",
+     "published": "2026-10-07T18:18+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "UKMTO says tanker struck by multiple projectiles north of Qatar’s Madinat ash Shamal",
-     "url": "https://english.alarabiya.net/amp/News/gulf/2026/10/08/ukmto-says-tanker-struck-by-multiple-projectiles-north-of-qatar-s-madinat-ash-shamal",
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Fed Minutes Show Hawkish Unity Behind September Rate Hike",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-07/fed-minutes-show-hawkish-unity-behind-september-rate-hike",
      "via": "",
-     "published": "2026-10-07T19:10+00:00",
-     "summary": ""
+     "published": "2026-10-07T18:00+00:00",
+     "summary": "All 19 Federal Reserve officials backed the decision in September to raise interest rates, with many supporting the move to guard against the risk of intensifying inflation pressures."
     }
    ],
-   "id": 24
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1220,7 +1115,7 @@
      "summary": "European Commission now considering temporary limits to control surging shipments that could trigger serious trade conflict"
     }
    ],
-   "id": 25
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1254,7 +1149,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1288,7 +1183,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 24
   }
  ]
 }
