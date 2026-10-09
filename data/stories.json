@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-09T01:15:05+00:00",
+ "fetched_at": "2026-10-09T02:51:53+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 743,
+ "items_read": 716,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
@@ -57,17 +57,17 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 35,
+   "items": 31,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 47,
+   "items": 27,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 28,
+   "items": 26,
    "errors": []
   },
   "Financial Times": {
@@ -92,12 +92,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,12 +107,12 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 24,
+   "items": 27,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 8,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 30,
+   "items": 27,
    "errors": []
   },
   "RNZ": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "The Jakarta Post": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 39,
+   "items": 38,
    "errors": []
   },
   "Rio Times": {
@@ -241,6 +241,63 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "The Straits Times",
+    "Nikkei Asia",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-09T02:37+00:00",
+   "earliest": "2026-10-08T22:12+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Nvidia-Backed Firmus IPO Collapses",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-09/nvidia-backed-firmus-ipo-collapses-video",
+     "via": "",
+     "published": "2026-10-09T02:37+00:00",
+     "summary": "Firmus has abandoned its attempt at one of Australia’s biggest-ever initial public offerings after failing to lure global investors. Bloomberg’s Manuel Baigorri says the news comes amid global concerns over frothy AI valuations (Source: Bloomberg)"
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia-backed Firmus shelves IPO, eyes private funding",
+     "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
+     "via": "",
+     "published": "2026-10-09T01:09+00:00",
+     "summary": "Recent market volatility and prevailing market conditions cited as reasons."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Nvidia-backed Firmus scraps $5bn Australian IPO on weak demand",
+     "url": "https://asia.nikkei.com/business/markets/ipo/nvidia-backed-firmus-scraps-5bn-australian-ipo-on-weak-demand",
+     "via": "",
+     "published": "2026-10-09T00:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia-backed Firmus scraps $5 billion Australian IPO on poor demand",
+     "url": "https://www.reuters.com/world/asia-pacific/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-2026-10-08/",
+     "via": "",
+     "published": "2026-10-08T22:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
@@ -296,52 +353,6 @@
      "summary": ""
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-09T01:09+00:00",
-   "earliest": "2026-10-08T23:47+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia-backed Firmus shelves IPO, eyes private funding",
-     "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
-     "via": "",
-     "published": "2026-10-09T01:09+00:00",
-     "summary": "Recent market volatility and prevailing market conditions cited as reasons."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Nvidia-backed Firmus scraps $5bn Australian IPO on weak demand",
-     "url": "https://asia.nikkei.com/business/markets/ipo/nvidia-backed-firmus-scraps-5bn-australian-ipo-on-weak-demand",
-     "via": "",
-     "published": "2026-10-09T00:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia-backed Firmus scraps $5 billion Australian IPO on weak demand",
-     "url": "https://www.reuters.com/world/asia-pacific/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-2026-10-08/",
-     "via": "",
-     "published": "2026-10-08T23:47+00:00",
-     "summary": ""
-    }
-   ],
    "id": 2
   },
   {
@@ -394,6 +405,76 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "DigiTimes",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-10-09T02:43+00:00",
+   "earliest": "2026-10-08T13:01+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap",
+     "url": "https://www.digitimes.com/news/a20261009VL200/tsmc-globalfoundries-packaging-cowos-silicon.html",
+     "via": "",
+     "published": "2026-10-09T02:43+00:00",
+     "summary": "GF said on October 8, 2026, that it has signed a multi-year, US$2 billion manufacturing agreement with TSMC to produce silicon interposers for TSMC's CoWoS ecosystem at its Malta, New York fab, which GF says will become the first US-based source of silicon interposers supporting advanced packaging."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "GlobalFoundries to make key AI chip component for TSMC in $2 billion deal",
+     "url": "https://www.reuters.com/world/asia-pacific/globalfoundries-make-key-ai-chip-component-tsmc-2026-10-08/",
+     "via": "",
+     "published": "2026-10-08T13:01+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Newsroom Panama",
+    "Axios"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-10-09T01:16+00:00",
+   "earliest": "2026-10-08T15:38+00:00",
+   "items": [
+    {
+     "outlet": "Newsroom Panama",
+     "region": "Latin America",
+     "title": "Former Venezuelan President Nicolás Maduro Charged With Torture in a New United States Indictment.",
+     "url": "https://newsroompanama.com/2026/10/08/former-venezuelan-president-nicolas-maduro-charged-with-torture-in-a-new-united-states-indictment/",
+     "via": "",
+     "published": "2026-10-09T01:16+00:00",
+     "summary": "NEW YORK CITY: Authorities added new torture charges Thursday to their case against former Venezuelan... The post Former Venezuelan President Nicolás Maduro Charged With Torture in a New United States Indictment. appeared first on Newsroom Panama ."
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Nicolás Maduro and his wife hit with fresh torture charge",
+     "url": "https://www.axios.com/2026/10/08/maduro-torture-charges-court-case",
+     "via": "",
+     "published": "2026-10-08T15:38+00:00",
+     "summary": "Prosecutors accused former Venezuelan President Nicolás Maduro and his wife of orchestrating the torture of people held in his regime's custody, piling onto the narcoterrorism charges they already face in a fresh indictment unveiled Thursday. The big picture: The charges add new fuel to the historic prosecution seeking to hold the strongman-turned-prisoner accountable for alleged crimes against Am"
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Bloomberg",
     "Mining.com.au"
    ],
@@ -421,76 +502,6 @@
      "via": "",
      "published": "2026-10-08T14:49+00:00",
      "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Bloomberg"
-   ],
-   "regions": [
-    "China",
-    "North America"
-   ],
-   "latest": "2026-10-08T23:37+00:00",
-   "earliest": "2026-10-08T16:27+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Flavio Bolsonaro says he would work with China and US as Brazil’s president",
-     "url": "https://www.scmp.com/news/world/americas/article/3370246/flavio-bolsonaro-says-he-would-work-china-and-us-brazils-president?utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-08T23:37+00:00",
-     "summary": "Flavio Bolsonaro said he would work with the US and China if he becomes Brazil’s president, after a surprise election performance left him poised to join a wave of conservative leaders pushing Latin America closer to Washington. “I’m not going to pick sides,” Bolsonaro said at an event in Brasilia on Thursday. “My side will be the Brazilian people, whether we’re dealing with China, Israel, the Mid"
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Brazil Election: Bolsonaro Says He’d Work With US, China as President",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-08/brazil-election-bolsonaro-says-he-d-work-with-us-china-as-president",
-     "via": "",
-     "published": "2026-10-08T16:27+00:00",
-     "summary": "Flávio Bolsonaro said he would work with the US and China if he becomes Brazil’s president, after a surprise election performance left him poised to join a wave of conservative leaders pushing Latin America closer to Washington."
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-08T19:49+00:00",
-   "earliest": "2026-10-07T13:34+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "India’s Cockroach movement says members detained as protests continue",
-     "url": "https://www.aljazeera.com/news/2026/10/8/indias-cockroach-movement-says-members-detained-as-protests-continue?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-08T19:49+00:00",
-     "summary": "India's opposition and student-led CJP movement demand election chief's resignation, plan mass demonstration Saturday."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Rahul Gandhi, opposition lawmakers detained again in India over election chief protest",
-     "url": "https://www.straitstimes.com/asia/south-asia/rahul-gandhi-indian-opposition-lawmakers-detained-over-election-chief-protest-for-second-day",
-     "via": "",
-     "published": "2026-10-07T13:34+00:00",
-     "summary": "Protesters are seeking the resignation of India's election chief over a controversial revision of voter lists."
     }
    ],
    "id": 6
@@ -604,41 +615,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Axios",
-    "Newsroom Panama"
-   ],
-   "regions": [
-    "Latin America",
-    "North America"
-   ],
-   "latest": "2026-10-08T15:38+00:00",
-   "earliest": "2026-10-07T22:08+00:00",
-   "items": [
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Nicolás Maduro and his wife hit with fresh torture charge",
-     "url": "https://www.axios.com/2026/10/08/maduro-torture-charges-court-case",
-     "via": "",
-     "published": "2026-10-08T15:38+00:00",
-     "summary": "Prosecutors accused former Venezuelan President Nicolás Maduro and his wife of orchestrating the torture of people held in his regime's custody, piling onto the narcoterrorism charges they already face in a fresh indictment unveiled Thursday. The big picture: The charges add new fuel to the historic prosecution seeking to hold the strongman-turned-prisoner accountable for alleged crimes against Am"
-    },
-    {
-     "outlet": "Newsroom Panama",
-     "region": "Latin America",
-     "title": "Venezuela News: Happy Birthday to Maria Corina Machado in Panama. The Alleged Torture of Americans Involving Former Venezuelan President Nicolás Maduro and his Wife Cilia Flores.",
-     "url": "https://newsroompanama.com/2026/10/07/venezuela-news-happy-birthday-to-maria-corina-machado-in-panama-and-the-alleged-torture-of-americans-involving-former-venezuelan-president-nicolas-maduro-and-his-wife-cilia-flores/",
-     "via": "",
-     "published": "2026-10-07T22:08+00:00",
-     "summary": "Former Venezuelan President Nicolás Maduro and his wife Cilia Flores are expected to face new charges over the alleged torture of Americans held in Venezuelan government custody in recent years, according to multiple people familiar with the investigation. The post Venezuela News: Happy Birthday to Maria Corina Machado in Panama. The Alleged Torture of Americans Involving Former Venezuelan Preside"
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Bloomberg",
     "Kyodo News"
    ],
@@ -668,42 +644,7 @@
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "DigiTimes"
-   ],
-   "regions": [
-    "East Asia",
-    "Oceania"
-   ],
-   "latest": "2026-10-08T11:51+00:00",
-   "earliest": "2026-10-08T02:40+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Wolfspeed DoW loan shines light on critical minerals for defense",
-     "url": "https://mining.com.au/wolfspeed-dow-loan-shines-light-on-critical-minerals-for-defense/",
-     "via": "",
-     "published": "2026-10-08T11:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Wolfspeed secures conditional US$1.5B US defense loan for SiC, GaN expansion",
-     "url": "https://www.digitimes.com/news/a20261008VL206/wolfspeed-sic-financing-gan-loan.html",
-     "via": "",
-     "published": "2026-10-08T02:40+00:00",
-     "summary": "Wolfspeed has received a conditional commitment for up to US$1.5 billion in long-term financing from the US Department of War to expand domestic production of silicon carbide (SiC) materials and wide-bandgap power devices, strengthening its focus on defense and other strategic applications."
-    }
-   ],
-   "id": 12
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -738,7 +679,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -773,7 +714,7 @@
      "summary": "The Pentagon instructed U.S. Central Command several days ago to conclude preparations for resuming major combat operations in Iran , U.S. officials said. Why it matters: The directive didn't include a specific date for launching strikes, and President Trump hasn't made any final decisions. But U.S. and Israeli sources say it could happen before the U.S. midterm elections and possibly the Israeli "
     }
    ],
-   "id": 14
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -808,7 +749,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -843,7 +784,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -878,7 +819,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -913,7 +854,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -948,7 +889,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -983,7 +924,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1018,76 +959,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Seatrade Maritime",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-06T13:30+00:00",
-   "earliest": "2026-10-06T10:52+00:00",
-   "items": [
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "At least 12 seafarers injured in Hormuz tanker attack",
-     "url": "https://www.seatrade-maritime.com/security/at-least-12-seafarers-injured-in-hormuz-tanker-attack",
-     "via": "",
-     "published": "2026-10-06T13:30+00:00",
-     "summary": "The latest incident involving a Panama-flagged tanker has been condemned by the Indian government with 11 of its nationals injured"
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "India says 12 injured after tanker attacked off Oman",
-     "url": "https://english.alarabiya.net/amp/News/gulf/2026/10/06/india-says-12-injured-after-tanker-attacked-off-oman",
-     "via": "",
-     "published": "2026-10-06T10:52+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Hellenic Shipping News",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-10-08T21:00+00:00",
-   "earliest": "2026-10-07T09:50+00:00",
-   "items": [
-    {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Baltic dry bulk freight index hits six-week low on weaker rates",
-     "url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-hits-six-week-low-on-weaker-rates/",
-     "via": "",
-     "published": "2026-10-08T21:00+00:00",
-     "summary": "The Baltic Exchange’s dry bulk freight index dropped to its lowest point in more than six weeks on Thursday as declining capesize rates offset increases in the panamax and supramax segments. The main Baltic index, which monitors rates for capesize, panamax and supramax vessels, decreased 21 points, or 0.7%, to 2,973 points. This marked the ..."
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Weekly tanker and dry bulk time charter rates - 7 October",
-     "url": "https://www.seatrade-maritime.com/tankers/weekly-tanker-and-dry-bulk-time-charter-rates-7-october",
-     "via": "",
-     "published": "2026-10-07T09:50+00:00",
-     "summary": "Dry bulk and tanker shipping time charter rates"
-    }
-   ],
-   "id": 23
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1121,7 +993,7 @@
      "summary": "Students clash with police outside French schools as blockades, tear gas and fires mark a new nationwide mobilisation ahead of the 2027 election."
     }
    ],
-   "id": 24
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1155,7 +1027,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1189,7 +1061,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1223,7 +1095,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1257,7 +1129,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 24
   }
  ]
 }
