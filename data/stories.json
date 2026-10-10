@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-10T00:55:59+00:00",
+ "fetched_at": "2026-10-10T02:12:17+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 760,
+ "items_read": 761,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -37,17 +37,17 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 62,
+   "items": 67,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 26,
+   "items": 24,
    "errors": []
   },
   "Kyodo News": {
@@ -92,7 +92,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Al Jazeera": {
@@ -102,12 +102,12 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 40,
+   "items": 39,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Bloomberg": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 18,
    "errors": []
   },
   "The Indian Express": {
@@ -211,7 +211,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "VnExpress International": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 9,
    "errors": []
   },
   "Newsroom Panama": {
@@ -245,12 +245,12 @@
    "independent_outlets": 7,
    "same_headline_groups": [],
    "outlets": [
+    "Livemint / Economic Times",
     "CBC News",
     "Associated Press",
     "MercoPress",
-    "Livemint / Economic Times",
-    "ABC News (Australia)",
     "Al Jazeera",
+    "ABC News (Australia)",
     "Euronews"
    ],
    "regions": [
@@ -261,9 +261,18 @@
     "Oceania",
     "South Asia"
    ],
-   "latest": "2026-10-10T00:40+00:00",
+   "latest": "2026-10-10T02:06+00:00",
    "earliest": "2026-10-09T18:40+00:00",
    "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Panama earthquake today: President declares ‘major disaster’ as buildings collapse and aftershocks rattle country",
+     "url": "https://www.livemint.com/news/world/panama-earthquake-today-president-declares-major-disaster-as-buildings-collapse-and-aftershocks-rattle-country-11791597318607.html",
+     "via": "",
+     "published": "2026-10-10T02:06+00:00",
+     "summary": "A 7.7-magnitude earthquake struck central Panama, prompting President Jose Raul Mulino to declare a major disaster. Roads and buildings collapsed, flights were diverted and more than 80 aftershocks were recorded, although shipping through the Panama Canal continued normally."
+    },
     {
      "outlet": "CBC News",
      "region": "North America",
@@ -292,24 +301,6 @@
      "summary": "A magnitude 7.7 earthquake shook Panama on Friday at 12:56 local time, centred on the Azuero peninsula in Herrera province, according to the US Geological Survey. Panamanian authorities have not so far confirmed any casualties, though inspections are continuing and they have not ruled out injuries or people trapped. Damage to buildings was reported in several provinces."
     },
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Aftershocks Rock Panama Following Largest Quake in Decades",
-     "url": "https://www.livemint.com/news/aftershocks-rock-panama-following-largest-quake-in-decades-11791584798350.html",
-     "via": "",
-     "published": "2026-10-09T22:26+00:00",
-     "summary": "Panama was struck by its strongest earthquake in more than seven decades on Friday, prompting the evacuation of the capital’s international airport and sending people fleeing buildings as powerful aftershocks rattled the country."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Powerful 7.7-magnitude earthquake hits off coast of Panama, prompting tsunami warning",
-     "url": "https://www.abc.net.au/news/2026-10-10/earthquake-panama-tsunami-warning/107250814",
-     "via": "",
-     "published": "2026-10-09T21:52+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "Al Jazeera",
      "region": "Middle East",
      "title": "Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake",
@@ -317,6 +308,15 @@
      "via": "",
      "published": "2026-10-09T19:22+00:00",
      "summary": "Countries including Colombia, Ecuador, Nicaragua, Guatemala and Chile have received warnings after the quake."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Powerful 7.7-magnitude earthquake hits off coast of Panama, prompting tsunami warning",
+     "url": "https://www.abc.net.au/news/2026-10-10/earthquake-panama-tsunami-warning/107250814",
+     "via": "",
+     "published": "2026-10-09T18:58+00:00",
+     "summary": ""
     },
     {
      "outlet": "Euronews",
@@ -331,63 +331,7 @@
    "id": 1
   },
   {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "Africanews",
-    "The Africa Report",
-    "Australian Financial Review"
-   ],
-   "regions": [
-    "Africa",
-    "East Asia",
-    "Oceania"
-   ],
-   "latest": "2026-10-09T20:04+00:00",
-   "earliest": "2026-10-09T12:03+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "South African judge Navi Pillay wins Nobel Peace Prize",
-     "url": "https://www.koreaherald.com/article/10897957",
-     "via": "",
-     "published": "2026-10-09T20:04+00:00",
-     "summary": "The Nobel Peace Prize was awarded Friday to South Africa's Navi Pillay, the judge who headed the Rwanda genocide tribunal and who last year presided over a UN commission which accused Israel of genocide in Gaza. Pillay, currently a judge on the International Court of Justice in a case where Myanmar also stands accused of genocide, has been \"instrumental in ensuring that war crimes, crimes against "
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Navi Pillay wins Nobel Peace Prize as US sanctions threaten international justice",
-     "url": "http://www.africanews.com/2026/10/09/navi-pillay-wins-nobel-peace-prize-as-us-sanctions-threaten-international-justice/",
-     "via": "",
-     "published": "2026-10-09T18:49+00:00",
-     "summary": "From defending Nelson Mandela to leading a panel that found genocide in Gaza, South African-born jurist Navi Pillay has won the Nobel Peace Prize for championing international law."
-    },
-    {
-     "outlet": "The Africa Report",
-     "region": "Africa",
-     "title": "US vows to ‘cripple ICC’ as former judge Navi Pillay wins Nobel Peace Prize",
-     "url": "https://www.theafricareport.com/432899/us-vows-to-cripple-icc-as-former-judge-navi-pillay-wins-nobel-peace-prize/",
-     "via": "",
-     "published": "2026-10-09T16:00+00:00",
-     "summary": "‘Unapologetic pursuit of national power’ butts heads with ‘unaccountable global arbiter’, as America sanctions the International Criminal Court."
-    },
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Human rights judge wins Nobel Peace Prize",
-     "url": "https://www.afr.com/world/europe/human-rights-judge-wins-nobel-peace-prize-20261009-p614c7?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-09T12:03+00:00",
-     "summary": "Navi Pillay, a South African jurist, serves on the International Court of Justice and has a legal career that includes investigating Benjamin Netanyahu for war crimes."
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
+   "independent_outlets": 5,
    "same_headline_groups": [
     [
      "Reuters",
@@ -395,6 +339,7 @@
     ]
    ],
    "outlets": [
+    "Livemint / Economic Times",
     "Reuters",
     "Al Jazeera",
     "Euronews",
@@ -403,11 +348,21 @@
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "Middle East",
+    "South Asia"
    ],
-   "latest": "2026-10-09T21:06+00:00",
+   "latest": "2026-10-10T01:30+00:00",
    "earliest": "2026-10-09T16:37+00:00",
    "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Flydubai co-pilot who attacked Smit Machchhar, inspired by 9/11 attacks, made two visits to Ben Gurion Airport | Updates",
+     "url": "https://www.livemint.com/news/world/flydubai-co-pilot-who-attacked-smit-machchhar-inspired-by-9-11-attacks-made-two-visits-to-ben-gurion-airport-updates-11791595218184.html",
+     "via": "",
+     "published": "2026-10-10T01:30+00:00",
+     "summary": "A preliminary UAE investigation found that flydubai co-pilot Hamam al-Hammami was inspired by the 9/11 attacks and allegedly planned to crash the aircraft into Ben Gurion Airport’s passenger terminal"
+    },
     {
      "outlet": "Reuters",
      "region": "Europe",
@@ -452,6 +407,52 @@
      "via": "",
      "published": "2026-10-09T16:37+00:00",
      "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Korea Herald",
+    "Africanews",
+    "Australian Financial Review"
+   ],
+   "regions": [
+    "Africa",
+    "East Asia",
+    "Oceania"
+   ],
+   "latest": "2026-10-09T20:04+00:00",
+   "earliest": "2026-10-09T12:03+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "South African judge Navi Pillay wins Nobel Peace Prize",
+     "url": "https://www.koreaherald.com/article/10897957",
+     "via": "",
+     "published": "2026-10-09T20:04+00:00",
+     "summary": "The Nobel Peace Prize was awarded Friday to South Africa's Navi Pillay, the judge who headed the Rwanda genocide tribunal and who last year presided over a UN commission which accused Israel of genocide in Gaza. Pillay, currently a judge on the International Court of Justice in a case where Myanmar also stands accused of genocide, has been \"instrumental in ensuring that war crimes, crimes against "
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Navi Pillay wins Nobel Peace Prize as US sanctions threaten international justice",
+     "url": "http://www.africanews.com/2026/10/09/navi-pillay-wins-nobel-peace-prize-as-us-sanctions-threaten-international-justice/",
+     "via": "",
+     "published": "2026-10-09T18:49+00:00",
+     "summary": "From defending Nelson Mandela to leading a panel that found genocide in Gaza, South African-born jurist Navi Pillay has won the Nobel Peace Prize for championing international law."
+    },
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Human rights judge wins Nobel Peace Prize",
+     "url": "https://www.afr.com/world/europe/human-rights-judge-wins-nobel-peace-prize-20261009-p614c7?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-10-09T12:03+00:00",
+     "summary": "Navi Pillay, a South African jurist, serves on the International Court of Justice and has a legal career that includes investigating Benjamin Netanyahu for war crimes."
     }
    ],
    "id": 3
@@ -1270,40 +1271,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-09T17:19+00:00",
-   "earliest": "2026-10-09T14:15+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Drone strike kills 30 people in Sudan’s Blue Nile region",
-     "url": "https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-09T17:19+00:00",
-     "summary": "Drone reportedly linked to RSF targets Wad al-Mahi, killing dozens near displacement camp, including women and children."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "RSF drone strike in Sudan kills 26 women, four children: Official, witnesses",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/09/rsf-drone-strike-in-sudan-kills-26-women-four-children-official-witnesses",
-     "via": "",
-     "published": "2026-10-09T14:15+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "The Korea Herald",
     "DigiTimes"
    ],
@@ -1332,7 +1299,7 @@
      "summary": "Samsung Electronics' next-generation 12-layer HBM4E product, a type of high-bandwidth memory (HBM), has reportedly cleared customer quality validation from Nvidia and major hyperscale data center operators. If confirmed, the result would strengthen Samsung's bid to supply memory for next-gen AI accelerators, though order timing and mass production plans remain unclear."
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1366,7 +1333,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1400,41 +1367,7 @@
      "summary": ""
     }
    ],
-   "id": 28
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-07T15:52+00:00",
-   "earliest": "2026-10-07T07:32+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "On the Gaza border, third anniversary of October 7 revives traumas of war and terror",
-     "url": "https://www.timesofisrael.com/on-the-gaza-border-third-anniversary-of-october-7-revives-traumas-of-war-and-terror/",
-     "via": "",
-     "published": "2026-10-07T15:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israel strikes Gaza on October 7 anniversary, at least two dead: Officials",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/07/israel-strikes-gaza-on-october-7-anniversary-at-least-two-dead-officials",
-     "via": "",
-     "published": "2026-10-07T07:32+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 29
+   "id": 27
   }
  ]
 }
