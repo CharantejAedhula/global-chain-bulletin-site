@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-11T01:44:24+00:00",
+ "fetched_at": "2026-10-11T05:47:59+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 673,
+ "outlets_read": 43,
+ "items_read": 665,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 36,
+   "items": 35,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Yicai Global": {
@@ -47,32 +47,32 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 25,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 21,
+   "items": 19,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Deutsche Welle": {
@@ -92,22 +92,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 13,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 37,
+   "items": 38,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 32,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 8,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -149,17 +149,17 @@
   },
   "gCaptain": {
    "region": "North America",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 19,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 30,
+   "items": 26,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
@@ -206,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 9,
+   "items": 7,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,27 +242,25 @@
  },
  "clusters": [
   {
-   "independent_outlets": 7,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
     "The Jakarta Post",
     "MercoPress",
     "The Korea Herald",
     "Africanews",
-    "ABC News (Australia)",
     "The Africa Report",
-    "Reuters"
+    "Times of Israel"
    ],
    "regions": [
     "Africa",
     "East Asia",
-    "Europe",
     "Latin America",
-    "Oceania",
+    "Middle East",
     "Southeast Asia"
    ],
    "latest": "2026-10-10T04:06+00:00",
-   "earliest": "2026-10-09T14:02+00:00",
+   "earliest": "2026-10-09T10:54+00:00",
    "items": [
     {
      "outlet": "The Jakarta Post",
@@ -301,15 +299,6 @@
      "summary": "From defending Nelson Mandela to leading a panel that found genocide in Gaza, South African-born jurist Navi Pillay has won the Nobel Peace Prize for championing international law."
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "US sanctions 'rogue' ICC hours after former judge wins Nobel Peace Prize",
-     "url": "https://www.abc.net.au/news/2026-10-10/us-to-sanction-icc-after-trump-overlooked-for-peace-prize/107250264",
-     "via": "",
-     "published": "2026-10-09T17:46+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "The Africa Report",
      "region": "Africa",
      "title": "US vows to ‘cripple ICC’ as former judge Navi Pillay wins Nobel Peace Prize",
@@ -319,12 +308,12 @@
      "summary": "‘Unapologetic pursuit of national power’ butts heads with ‘unaccountable global arbiter’, as America sanctions the International Criminal Court."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EXCLUSIVE: US imposes sanctions on ICC hours after former judge wins Nobel Peace Prize",
-     "url": "https://www.reuters.com/world/us-imposes-sanctions-international-criminal-court-hours-after-former-judge-wins-2026-10-09/",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Nobel peace committee says not up to it to decide if Gaza war constitutes genocide, after awarding prize to head of UN panel which said it was",
+     "url": "https://www.timesofisrael.com/liveblog_entry/nobel-peace-committee-says-not-up-to-it-to-decide-if-gaza-war-constitutes-genocide-after-awarding-prize-to-head-of-un-panel-which-said-it-was/",
      "via": "",
-     "published": "2026-10-09T14:02+00:00",
+     "published": "2026-10-09T10:54+00:00",
      "summary": ""
     }
    ],
@@ -334,44 +323,44 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Deutsche Welle",
-    "Al Jazeera"
+    "Al Jazeera",
+    "gCaptain",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East",
-    "South Asia"
+    "North America"
    ],
-   "latest": "2026-10-11T01:27+00:00",
-   "earliest": "2026-10-10T20:43+00:00",
+   "latest": "2026-10-11T03:13+00:00",
+   "earliest": "2026-10-11T01:35+00:00",
    "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Riyadh airport attack: At least 12 killed, over 300 injured, Trump says strikes ‘not acceptable’ | Top Updates",
-     "url": "https://www.livemint.com/news/world/riyadh-airport-attack-at-least-12-killed-over-300-injured-trump-says-strikes-not-acceptable-top-updates-11791681437870.html",
-     "via": "",
-     "published": "2026-10-11T01:27+00:00",
-     "summary": "At least 12 people were killed and over 300 injured when the Houthis attacked Riyadh's King Khalid International Airport on Saturday. Their third attack this week marked an escalation in the ongoing conflict. Here are the top updates."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack",
-     "url": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-10T22:07+00:00",
-     "summary": "Officials said at least 12 people were killed in a strike on King Khalid International Airport in the Saudi capital, Riyadh. The airport had already been targeted multiple times this week."
-    },
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Damage seen inside Saudi airport after third attack this week",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
+     "title": "US forces disable ship ‘attempting to run’ Iran blockade in Gulf of Oman",
+     "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman?traffic_source=rss",
      "via": "",
-     "published": "2026-10-10T20:43+00:00",
-     "summary": "Video shows damage inside King Khalid International Airport in Riyadh after the third attack in a week."
+     "published": "2026-10-11T03:13+00:00",
+     "summary": "US military jet strikes stern of commercial cargo ship 'without harming the crew', CENTCOM says."
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "US Says It Disabled Cargo Vessel Trying To Run Iran Blockade",
+     "url": "https://gcaptain.com/us-says-it-disabled-cargo-vessel-trying-to-run-iran-blockade/",
+     "via": "",
+     "published": "2026-10-11T03:02+00:00",
+     "summary": "Oct 10 (Reuters) – The US military said on Saturday it had disabled a commercial cargo vessel in the Gulf of Oman after the ship’s crew ignored warnings and attempted to run..."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US military says it disabled cargo vessel trying to run Iran blockade",
+     "url": "https://www.reuters.com/world/us-military-says-it-disabled-cargo-vessel-trying-run-iran-blockade-2026-10-11/",
+     "via": "",
+     "published": "2026-10-11T01:35+00:00",
+     "summary": ""
     }
    ],
    "id": 2
@@ -389,7 +378,7 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-10T15:36+00:00",
+   "latest": "2026-10-10T16:11+00:00",
    "earliest": "2026-10-10T13:35+00:00",
    "items": [
     {
@@ -398,7 +387,7 @@
      "title": "Portugal suspends Ronaldo and initiates disciplinary proceedings after walkout",
      "url": "https://apnews.com/article/cristiano-ronaldo-suspended-portugal-c78e840a74f9d4f96c45cb3178e36713",
      "via": "",
-     "published": "2026-10-10T15:36+00:00",
+     "published": "2026-10-10T16:11+00:00",
      "summary": ""
     },
     {
@@ -472,87 +461,78 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Times of Israel",
+    "CBC News",
+    "MercoPress",
     "Euronews"
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "Latin America",
+    "North America"
    ],
-   "latest": "2026-10-09T21:06+00:00",
-   "earliest": "2026-10-09T18:29+00:00",
+   "latest": "2026-10-10T00:40+00:00",
+   "earliest": "2026-10-09T18:40+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
-     "url": "https://www.reuters.com/world/middle-east/uae-says-omani-flydubai-co-pilot-planned-suicide-attack-tel-aviv-flight-2026-10-09/",
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Powerful 7.7 magnitude earthquake rocks Panama",
+     "url": "https://www.cbc.ca/news/world/panama-earthquake-9.7376897",
      "via": "",
-     "published": "2026-10-09T21:06+00:00",
+     "published": "2026-10-10T00:40+00:00",
      "summary": ""
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "UAE confirms flydubai copilot was planning 9/11-style ‘suicide attack’ on Ben Gurion Airport",
-     "url": "https://www.timesofisrael.com/uae-confirms-flydubai-copilot-was-planning-9-11-style-suicide-attack-on-ben-gurion-airport/",
+     "outlet": "MercoPress",
+     "region": "Latin America",
+     "title": "A magnitude 7.7 earthquake shakes Panama",
+     "url": "https://en.mercopress.com/2026/10/09/a-magnitude-7.7-earthquake-shakes-panama?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
      "via": "",
-     "published": "2026-10-09T20:06+00:00",
-     "summary": ""
+     "published": "2026-10-09T22:38+00:00",
+     "summary": "A magnitude 7.7 earthquake shook Panama on Friday at 12:56 local time, centred on the Azuero peninsula in Herrera province, according to the US Geological Survey. Panamanian authorities have not so far confirmed any casualties, though inspections are continuing and they have not ruled out injuries or people trapped. Damage to buildings was reported in several provinces."
     },
     {
      "outlet": "Euronews",
      "region": "Europe",
-     "title": "Flydubai co-pilot planned suicide attack in Tel Aviv airport inspired by 9/11",
-     "url": "https://www.euronews.com/2026/10/09/flydubai-co-pilot-planned-suicide-attack-in-tel-aviv-airport-inspired-by-911",
+     "title": "Powerful 7.7-magnitude earthquake strikes Panama, damaging buildings and injuring at least 27",
+     "url": "https://www.euronews.com/2026/10/09/tsunami-threat-after-76-magnitude-earthquake-strikes-panama-usgs-says",
      "via": "",
-     "published": "2026-10-09T18:29+00:00",
-     "summary": "The Omani co-pilot was previously barred from flying in Oman over extremist views."
+     "published": "2026-10-09T18:40+00:00",
+     "summary": "Local footage showed a cathedral collapsing and a hotel facade falling onto a car in Penonomé, central Panama."
     }
    ],
    "id": 5
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "gCaptain",
-    "Times of Israel",
-    "Al Arabiya"
+    "Associated Press",
+    "Times of Israel"
    ],
    "regions": [
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-09T16:37+00:00",
-   "earliest": "2026-10-09T12:48+00:00",
+   "latest": "2026-10-11T05:05+00:00",
+   "earliest": "2026-10-10T18:43+00:00",
    "items": [
     {
-     "outlet": "gCaptain",
+     "outlet": "Associated Press",
      "region": "North America",
-     "title": "Vessel Struck by Unknown Projectile Off UAE Coast Amid Surge in Attacks, UKMTO Says",
-     "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+     "title": "12 killed and over 300 hurt in latest attack on Riyadh airport, Saudi authorities say",
+     "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-f0e0e6105f33400e37bb20bb9a8130af",
      "via": "",
-     "published": "2026-10-09T16:37+00:00",
-     "summary": "A vessel was struck by an unknown projectile 13 nautical miles west of Al Jazeera in the United Arab Emirates on Friday, causing a fire that has since been extinguished, British navy affiliated agency UKMTO said, citing multiple sources."
+     "published": "2026-10-11T05:05+00:00",
+     "summary": ""
     },
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Ship hit by unknown projectile off UAE coast, says maritime agency",
-     "url": "https://www.timesofisrael.com/liveblog_entry/ship-hit-by-unknown-projectile-off-uae-coast-says-maritime-agency/",
+     "title": "At least 12 killed, more than 300 hurt in Houthi attack on Riyadh airport",
+     "url": "https://www.timesofisrael.com/dozens-hurt-as-houthis-hit-riyadh-airport-trump-us-may-join-saudi-strikes/",
      "via": "",
-     "published": "2026-10-09T13:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Vessel struck by unknown projectile off UAE coast, UKMTO says",
-     "url": "https://english.alarabiya.net/amp/News/gulf/2026/10/09/vessel-struck-by-unknown-projectile-off-uae-coast-ukmto-says",
-     "via": "",
-     "published": "2026-10-09T12:48+00:00",
+     "published": "2026-10-10T18:43+00:00",
      "summary": ""
     }
    ],
@@ -562,33 +542,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Livemint / Economic Times"
+    "Business Standard",
+    "Bloomberg"
    ],
    "regions": [
-    "Middle East",
+    "North America",
     "South Asia"
    ],
-   "latest": "2026-10-11T00:00+00:00",
-   "earliest": "2026-10-10T20:43+00:00",
+   "latest": "2026-10-11T03:58+00:00",
+   "earliest": "2026-10-11T00:00+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran war live: 12 killed in Riyadh, US weighs joining fight against Houthis",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Once-hot AI trade leaves South Korean stocks struggling to attract buyers",
+     "url": "https://www.business-standard.com/world-news/once-hot-ai-trade-leaves-south-korean-stocks-struggling-to-attract-buyers-126101100095_1.html",
      "via": "",
-     "published": "2026-10-11T00:00+00:00",
-     "summary": "As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran."
+     "published": "2026-10-11T03:58+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Riyadh airport attacked again: Trump weighs joining Saudi strikes on Houthis",
-     "url": "https://www.livemint.com/news/us-news/riyadh-airport-attacked-again-trump-weighs-joining-saudi-strikes-on-houthis-11791663546926.html",
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-11/once-hot-ai-trade-leaves-korean-stocks-struggling-for-buyers",
      "via": "",
-     "published": "2026-10-10T20:43+00:00",
-     "summary": "The latest attack came amid an escalation in hostilities between Saudi Arabia and the Houthis."
+     "published": "2026-10-11T00:00+00:00",
+     "summary": "South Korea spent much of this year as a poster child of the scorching global AI trade. Now, by almost every measure, the $4.3 trillion stock market is rapidly losing relevance with investors."
     }
    ],
    "id": 7
@@ -597,32 +577,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Reuters"
+    "South China Morning Post",
+    "Nikkei Asia"
    ],
    "regions": [
-    "Europe",
-    "North America"
+    "China",
+    "East Asia"
    ],
-   "latest": "2026-10-10T22:58+00:00",
-   "earliest": "2026-10-10T14:13+00:00",
+   "latest": "2026-10-11T03:04+00:00",
+   "earliest": "2026-10-08T19:57+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
-     "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-f0e0e6105f33400e37bb20bb9a8130af",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Japan’s Sumitomo Bakelite expands China chip packaging materials output amid AI boom",
+     "url": "https://www.scmp.com/tech/tech-trends/article/3370468/japans-sumitomo-bakelite-expands-china-chip-packaging-materials-output-amid-ai-boom?utm_source=rss_feed",
      "via": "",
-     "published": "2026-10-10T22:58+00:00",
-     "summary": ""
+     "published": "2026-10-11T03:04+00:00",
+     "summary": "Japanese semiconductor materials giant Sumitomo Bakelite plans to expand production of advanced chip packaging materials in China and Singapore, marking the second such announcement for its Chinese operations in less than four months as artificial intelligence drives demand for more sophisticated semiconductors. The Tokyo-based company said on Friday that it would add production lines for mould un"
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say",
-     "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Sumitomo Bakelite to boost chip encapsulant output in China, Singapore",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/sumitomo-bakelite-to-boost-chip-encapsulant-output-in-china-singapore",
      "via": "",
-     "published": "2026-10-10T14:13+00:00",
+     "published": "2026-10-08T19:57+00:00",
      "summary": ""
     }
    ],
@@ -632,33 +612,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Associated Press"
+    "The Jakarta Post",
+    "Euronews"
    ],
    "regions": [
     "Europe",
-    "North America"
+    "Southeast Asia"
    ],
-   "latest": "2026-10-10T15:48+00:00",
-   "earliest": "2026-10-09T19:28+00:00",
+   "latest": "2026-10-11T01:20+00:00",
+   "earliest": "2026-10-10T15:48+00:00",
    "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Houthi attack on Saudi airport kills 12, over 300 wounded",
+     "url": "https://www.thejakartapost.com/world/2026/10/11/houthi-attack-on-saudi-airport-kills-12-over-300-wounded?utm_source",
+     "via": "",
+     "published": "2026-10-11T01:20+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Euronews",
      "region": "Europe",
-     "title": "Evacuations and injuries reported at Riyadh airport after another alleged Houthi attack",
+     "title": "12 killed and more than 300 wounded in attack on Riyadh airport",
      "url": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack",
      "via": "",
      "published": "2026-10-10T15:48+00:00",
-     "summary": "The latest attack follows just two days after three Saudi citizens were killed in Houthi-claimed attacks on Riyadh's international airport on Thursday."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Attacks on Riyadh's international airport killed 3 Saudi citizens, and other Mideast developments",
-     "url": "https://apnews.com/article/saudi-houthis-airport-attack-mideast-october-9-2026-4aba968d517041a89ae2284f0e00bd87",
-     "via": "",
-     "published": "2026-10-09T19:28+00:00",
-     "summary": ""
+     "summary": "Turki Al-Maliki, a spokesperson for the Saudi-led coalition forces, said that the attack had been carried out by Yemen's Houthi rebels and that it had targeted a passenger terminal."
     }
    ],
    "id": 9
@@ -702,41 +682,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-10-10T10:31+00:00",
-   "earliest": "2026-10-08T02:21+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "DMart Q2 Results: Cons profit rises nearly 9% YoY to Rs 743 crore, revenue jumps 18%",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/dmart-q2-results-cons-profit-rises-nearly-9-yoy-to-rs-743-crore-revenue-jumps-18/articleshow/134851993.cms",
-     "via": "",
-     "published": "2026-10-10T10:31+00:00",
-     "summary": "DMart operator Avenue Supermarts reported an 8.5% year-on-year rise in consolidated net profit to Rs 743 crore in Q2FY27, while revenue grew 17.8% to Rs 19,644 crore. However, EBITDA and profit after tax margins declined amid entry-level wage inflation. The company opened 15 new stores during the quarter, taking its total to 518."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Samsung Q3 profit jumps nearly 9 times to $80bn in AI chip boom",
-     "url": "https://asia.nikkei.com/business/tech/semiconductors/samsung-q3-profit-jumps-nearly-9-times-to-80bn-in-ai-chip-boom",
-     "via": "",
-     "published": "2026-10-08T02:21+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Mining.com.au",
     "MINING.COM"
    ],
@@ -766,7 +711,112 @@
      "summary": "Discovery Mining will acquire two Timmins-area properties as McEwen redirects capital toward its expanding mine portfolio."
     }
    ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "gCaptain",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-09T20:34+00:00",
+   "earliest": "2026-10-09T19:18+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Trump Strikes Diesel Deal With Putin to Lower Fuel Prices Ahead of Midterms",
+     "url": "https://gcaptain.com/trump-strikes-diesel-deal-with-putin-to-lower-fuel-prices-ahead-of-midterms/",
+     "via": "",
+     "published": "2026-10-09T20:34+00:00",
+     "summary": "President Donald Trump said Friday that Russia has agreed to release millions of tons of diesel fuel into U.S. and global markets following a telephone call with Russian President Vladimir..."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Trump says Putin agrees to major release of diesel to help soaring costs amid Iran war",
+     "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-putin-agrees-to-major-release-of-diesel-to-help-soaring-costs-amid-iran-war/",
+     "via": "",
+     "published": "2026-10-09T19:18+00:00",
+     "summary": ""
+    }
+   ],
    "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-09T20:06+00:00",
+   "earliest": "2026-10-09T18:29+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "UAE confirms flydubai copilot was planning 9/11-style ‘suicide attack’ on Ben Gurion Airport",
+     "url": "https://www.timesofisrael.com/uae-confirms-flydubai-copilot-was-planning-9-11-style-suicide-attack-on-ben-gurion-airport/",
+     "via": "",
+     "published": "2026-10-09T20:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Flydubai co-pilot planned suicide attack in Tel Aviv airport inspired by 9/11",
+     "url": "https://www.euronews.com/2026/10/09/flydubai-co-pilot-planned-suicide-attack-in-tel-aviv-airport-inspired-by-911",
+     "via": "",
+     "published": "2026-10-09T18:29+00:00",
+     "summary": "The Omani co-pilot was previously barred from flying in Oman over extremist views."
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "gCaptain",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-09T16:37+00:00",
+   "earliest": "2026-10-09T12:48+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Vessel Struck by Unknown Projectile Off UAE Coast Amid Surge in Attacks, UKMTO Says",
+     "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
+     "via": "",
+     "published": "2026-10-09T16:37+00:00",
+     "summary": "A vessel was struck by an unknown projectile 13 nautical miles west of Al Jazeera in the United Arab Emirates on Friday, causing a fire that has since been extinguished, British navy affiliated agency UKMTO said, citing multiple sources."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Vessel struck by unknown projectile off UAE coast, UKMTO says",
+     "url": "https://english.alarabiya.net/amp/News/gulf/2026/10/09/vessel-struck-by-unknown-projectile-off-uae-coast-ukmto-says",
+     "via": "",
+     "published": "2026-10-09T12:48+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -801,7 +851,7 @@
      "summary": "Authorities suspect the mine was dislodged from North Korean territory by heavy summer rainfall."
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -836,7 +886,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -871,7 +921,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -906,42 +956,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-08T18:54+00:00",
-   "earliest": "2026-10-08T18:01+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Tear Gas Fills Paris Square as Clashes Intensify",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/08/tear-gas-fills-paris-square-as-clashes-intensify",
-     "via": "",
-     "published": "2026-10-08T18:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Police fire tear gas at barricaded Paris high school as student protests show no sign of ending",
-     "url": "https://apnews.com/article/france-school-protests-police-clashes-belgium-liege-2f8ce76dbcf1bce398b6f513d49f325f",
-     "via": "",
-     "published": "2026-10-08T18:01+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -976,7 +991,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1011,7 +1026,75 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-11T02:52+00:00",
+   "earliest": "2026-10-10T09:40+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "China says can avoid 'escalation' after EU trade talks",
+     "url": "https://www.thejakartapost.com/business/2026/10/11/china-says-can-avoid-escalation-after-eu-trade-talks?utm_source",
+     "via": "",
+     "published": "2026-10-11T02:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "China says ‘escalation’ of disputes can be avoided after EU trade talks",
+     "url": "https://www.straitstimes.com/asia/china-says-can-avoid-escalation-after-eu-trade-talks",
+     "via": "",
+     "published": "2026-10-10T09:40+00:00",
+     "summary": "Moderating exports of Chinese hybrid vehicles to the European Union was among the topics discussed."
+    }
+   ],
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-10-10T22:18+00:00",
+   "earliest": "2026-10-10T22:07+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Missile strike on Riyadh airport kills 12 and injures hundreds",
+     "url": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-10-10T22:18+00:00",
+     "summary": "Deadly assault in Saudi Arabia comes days after multiple attacks by Iran-backed Houthi rebels"
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack",
+     "url": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-10T22:07+00:00",
+     "summary": "A Saudi-led coalition has vowed a \"decisive\" response after the deadliest strike on Saudi soil in over a decade. Officials have pinned the attack on Iran-backed Houthi militia."
+    }
+   ],
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1045,7 +1128,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1079,7 +1162,7 @@
      "summary": "The Coal Ministry stated that rail loading has also improved, stock depletion and power demand are also expected to moderate mid-October citing historical trends."
     }
    ],
-   "id": 21
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1113,7 +1196,7 @@
      "summary": "China and the Philippines have traded accusations over a medical evacuation near the disputed Second Thomas Shoal, with Manila also reporting a near-doubling of Chinese military and coastguard vessels around contested South China Sea features in September. The latest exchange centred on the evacuation on Thursday of an injured Philippine serviceman from the BRP Sierra Madre, a Philippine naval ves"
     }
    ],
-   "id": 22
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1147,7 +1230,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1181,7 +1264,7 @@
      "summary": "Samsung Electronics' next-generation 12-layer HBM4E product, a type of high-bandwidth memory (HBM), has reportedly cleared customer quality validation from Nvidia and major hyperscale data center operators. If confirmed, the result would strengthen Samsung's bid to supply memory for next-gen AI accelerators, though order timing and mass production plans remain unclear."
     }
    ],
-   "id": 24
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1215,7 +1298,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1249,7 +1332,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1283,7 +1366,41 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 30
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-10-08T17:06+00:00",
+   "earliest": "2026-10-08T16:04+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran will not abandon uranium enrichment or hand over its uranium, nuclear chief says",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/08/iran-will-not-abandon-uranium-enrichment-or-hand-over-its-uranium-nuclear-chief-says",
+     "via": "",
+     "published": "2026-10-08T17:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran nuclear chief says country won’t abandon enrichment or hand over its uranium",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-nuclear-chief-says-country-wont-abandon-enrichment-or-hand-over-its-uranium/",
+     "via": "",
+     "published": "2026-10-08T16:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 31
   }
  ]
 }
