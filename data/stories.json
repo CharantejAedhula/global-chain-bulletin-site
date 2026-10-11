@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-11T00:15:23+00:00",
+ "fetched_at": "2026-10-11T01:44:24+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 676,
+ "items_read": 673,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -37,12 +37,12 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 65,
+   "items": 64,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "DigiTimes": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Axios": {
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Australian Financial Review": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "The Jakarta Post": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 1,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,22 +242,37 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 7,
    "same_headline_groups": [],
    "outlets": [
+    "The Jakarta Post",
     "MercoPress",
     "The Korea Herald",
     "Africanews",
-    "The Africa Report"
+    "ABC News (Australia)",
+    "The Africa Report",
+    "Reuters"
    ],
    "regions": [
     "Africa",
     "East Asia",
-    "Latin America"
+    "Europe",
+    "Latin America",
+    "Oceania",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-09T20:53+00:00",
-   "earliest": "2026-10-09T16:00+00:00",
+   "latest": "2026-10-10T04:06+00:00",
+   "earliest": "2026-10-09T14:02+00:00",
    "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "US announces sanctions on ICC, hours after Nobel award to former judge",
+     "url": "https://www.thejakartapost.com/world/2026/10/10/us-announces-sanctions-on-icc-hours-after-nobel-award-to-former-judge?utm_source",
+     "via": "",
+     "published": "2026-10-10T04:06+00:00",
+     "summary": ""
+    },
     {
      "outlet": "MercoPress",
      "region": "Latin America",
@@ -286,6 +301,15 @@
      "summary": "From defending Nelson Mandela to leading a panel that found genocide in Gaza, South African-born jurist Navi Pillay has won the Nobel Peace Prize for championing international law."
     },
     {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "US sanctions 'rogue' ICC hours after former judge wins Nobel Peace Prize",
+     "url": "https://www.abc.net.au/news/2026-10-10/us-to-sanction-icc-after-trump-overlooked-for-peace-prize/107250264",
+     "via": "",
+     "published": "2026-10-09T17:46+00:00",
+     "summary": ""
+    },
+    {
      "outlet": "The Africa Report",
      "region": "Africa",
      "title": "US vows to ‘cripple ICC’ as former judge Navi Pillay wins Nobel Peace Prize",
@@ -293,9 +317,64 @@
      "via": "",
      "published": "2026-10-09T16:00+00:00",
      "summary": "‘Unapologetic pursuit of national power’ butts heads with ‘unaccountable global arbiter’, as America sanctions the International Criminal Court."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: US imposes sanctions on ICC hours after former judge wins Nobel Peace Prize",
+     "url": "https://www.reuters.com/world/us-imposes-sanctions-international-criminal-court-hours-after-former-judge-wins-2026-10-09/",
+     "via": "",
+     "published": "2026-10-09T14:02+00:00",
+     "summary": ""
     }
    ],
    "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Deutsche Welle",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-11T01:27+00:00",
+   "earliest": "2026-10-10T20:43+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Riyadh airport attack: At least 12 killed, over 300 injured, Trump says strikes ‘not acceptable’ | Top Updates",
+     "url": "https://www.livemint.com/news/world/riyadh-airport-attack-at-least-12-killed-over-300-injured-trump-says-strikes-not-acceptable-top-updates-11791681437870.html",
+     "via": "",
+     "published": "2026-10-11T01:27+00:00",
+     "summary": "At least 12 people were killed and over 300 injured when the Houthis attacked Riyadh's King Khalid International Airport on Saturday. Their third attack this week marked an escalation in the ongoing conflict. Here are the top updates."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack",
+     "url": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-10T22:07+00:00",
+     "summary": "Officials said at least 12 people were killed in a strike on King Khalid International Airport in the Saudi capital, Riyadh. The airport had already been targeted multiple times this week."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Damage seen inside Saudi airport after third attack this week",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-10T20:43+00:00",
+     "summary": "Video shows damage inside King Khalid International Airport in Riyadh after the third attack in a week."
+    }
+   ],
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -311,7 +390,7 @@
     "North America"
    ],
    "latest": "2026-10-10T15:36+00:00",
-   "earliest": "2026-10-10T13:46+00:00",
+   "earliest": "2026-10-10T13:35+00:00",
    "items": [
     {
      "outlet": "Associated Press",
@@ -337,11 +416,11 @@
      "title": "Ronaldo provisionally suspended after national team walkout, media reports say",
      "url": "https://www.reuters.com/sports/soccer/ronaldo-provisionally-suspended-after-national-team-walkout-media-reports-say-2026-10-10/",
      "via": "",
-     "published": "2026-10-10T13:46+00:00",
+     "published": "2026-10-10T13:35+00:00",
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -387,74 +466,22 @@
      "summary": "Taiwan has earmarked a record NT$1.1 trillion (S$44 billion) in defence spending for 2027."
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Reuters",
-    "The Straits Times",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-09T07:54+00:00",
-   "earliest": "2026-10-09T00:03+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia-backed Firmus scraps $5 billion Australia IPO amid growing AI scrutiny",
-     "url": "https://www.reuters.com/world/asia-pacific/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-2026-10-08/",
-     "via": "",
-     "published": "2026-10-09T07:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia-backed Firmus shelves IPO, eyes private funding",
-     "url": "https://www.straitstimes.com/business/nvidia-backed-firmus-shelves-ipo-eyes-private-funding",
-     "via": "",
-     "published": "2026-10-09T01:09+00:00",
-     "summary": "Recent market volatility and prevailing market conditions cited as reasons."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Nvidia-backed data center provider Firmus scraps $5bn Australian IPO",
-     "url": "https://asia.nikkei.com/business/technology/nvidia-backed-data-center-provider-firmus-scraps-5bn-australian-ipo2",
-     "via": "",
-     "published": "2026-10-09T00:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Al Arabiya"
-    ]
-   ],
-   "outlets": [
-    "Reuters",
     "Times of Israel",
-    "Euronews",
-    "Al Arabiya"
+    "Euronews"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
    "latest": "2026-10-09T21:06+00:00",
-   "earliest": "2026-10-09T16:37+00:00",
+   "earliest": "2026-10-09T18:29+00:00",
    "items": [
     {
      "outlet": "Reuters",
@@ -482,69 +509,89 @@
      "via": "",
      "published": "2026-10-09T18:29+00:00",
      "summary": "The Omani co-pilot was previously barred from flying in Oman over extremist views."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
-     "url": "https://english.alarabiya.net/amp/News/gulf/2026/10/09/uae-says-omani-flydubai-copilot-planned-suicide-attack-on-tel-aviv-flight",
-     "via": "",
-     "published": "2026-10-09T16:37+00:00",
-     "summary": ""
     }
    ],
    "id": 5
   },
   {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Africanews",
-     "Euronews"
-    ]
-   ],
+   "independent_outlets": 3,
+   "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "Euronews",
-    "ABC News (Australia)"
+    "gCaptain",
+    "Times of Israel",
+    "Al Arabiya"
    ],
    "regions": [
-    "Africa",
-    "Europe",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-10-10T10:11+00:00",
-   "earliest": "2026-10-09T18:58+00:00",
+   "latest": "2026-10-09T16:37+00:00",
+   "earliest": "2026-10-09T12:48+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Panic in Panama as 7.7 quake hits, cathedral collapses and tsunami warnings spread",
-     "url": "http://www.africanews.com/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread/",
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Vessel Struck by Unknown Projectile Off UAE Coast Amid Surge in Attacks, UKMTO Says",
+     "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
      "via": "",
-     "published": "2026-10-10T10:11+00:00",
-     "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported."
+     "published": "2026-10-09T16:37+00:00",
+     "summary": "A vessel was struck by an unknown projectile 13 nautical miles west of Al Jazeera in the United Arab Emirates on Friday, causing a fire that has since been extinguished, British navy affiliated agency UKMTO said, citing multiple sources."
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Panic in Panama as 7.7 quake hits, cathedral collapses and tsunami warnings spread",
-     "url": "https://www.euronews.com/video/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Ship hit by unknown projectile off UAE coast, says maritime agency",
+     "url": "https://www.timesofisrael.com/liveblog_entry/ship-hit-by-unknown-projectile-off-uae-coast-says-maritime-agency/",
      "via": "",
-     "published": "2026-10-10T10:11+00:00",
-     "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported."
+     "published": "2026-10-09T13:28+00:00",
+     "summary": ""
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Powerful 7.7-magnitude earthquake hits off coast of Panama, prompting tsunami warning",
-     "url": "https://www.abc.net.au/news/2026-10-10/earthquake-panama-tsunami-warning/107250814",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Vessel struck by unknown projectile off UAE coast, UKMTO says",
+     "url": "https://english.alarabiya.net/amp/News/gulf/2026/10/09/vessel-struck-by-unknown-projectile-off-uae-coast-ukmto-says",
      "via": "",
-     "published": "2026-10-09T18:58+00:00",
+     "published": "2026-10-09T12:48+00:00",
      "summary": ""
     }
    ],
    "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-11T00:00+00:00",
+   "earliest": "2026-10-10T20:43+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: 12 killed in Riyadh, US weighs joining fight against Houthis",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-11T00:00+00:00",
+     "summary": "As strikes on airports in Saudi Arabia turn deadly, Washington debates striking Houthis and restarting strikes on Iran."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Riyadh airport attacked again: Trump weighs joining Saudi strikes on Houthis",
+     "url": "https://www.livemint.com/news/us-news/riyadh-airport-attacked-again-trump-weighs-joining-saudi-strikes-on-houthis-11791663546926.html",
+     "via": "",
+     "published": "2026-10-10T20:43+00:00",
+     "summary": "The latest attack came amid an escalation in hostilities between Saudi Arabia and the Houthis."
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -558,7 +605,7 @@
     "North America"
    ],
    "latest": "2026-10-10T22:58+00:00",
-   "earliest": "2026-10-10T22:41+00:00",
+   "earliest": "2026-10-10T14:13+00:00",
    "items": [
     {
      "outlet": "Associated Press",
@@ -575,81 +622,11 @@
      "title": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say",
      "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/",
      "via": "",
-     "published": "2026-10-10T22:41+00:00",
+     "published": "2026-10-10T14:13+00:00",
      "summary": ""
-    }
-   ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-10T22:07+00:00",
-   "earliest": "2026-10-10T20:43+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack",
-     "url": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-10T22:07+00:00",
-     "summary": "Officials said at least 12 people were killed in a strike on King Khalid International Airport in the Saudi capital, Riyadh. The airport had already been targeted multiple times this week."
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Damage seen inside Saudi airport after third attack this week",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-10T20:43+00:00",
-     "summary": "Video shows damage inside King Khalid International Airport in Riyadh after the third attack in a week."
     }
    ],
    "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Rio Times",
-    "Ecofin Agency"
-   ],
-   "regions": [
-    "Africa",
-    "Latin America"
-   ],
-   "latest": "2026-10-10T18:26+00:00",
-   "earliest": "2026-10-10T16:26+00:00",
-   "items": [
-    {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Ethiopia Opens Gold Refinery With 600-Tonne Capacity",
-     "url": "https://www.riotimesonline.com/ethiopia-opens-gold-refinery-600-tonne-capacity-2026/",
-     "via": "",
-     "published": "2026-10-10T18:26+00:00",
-     "summary": "Ethiopia opened a national gold refinery in Addis Ababa on 10 October. Abiy Ahmed says it could support up to US$80 billion in exports a year. The post Ethiopia Opens Gold Refinery With 600-Tonne Capacity appeared first on The Rio Times ."
-    },
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Ethiopia Opens Gold Refinery to Process More Gold Locally",
-     "url": "https://www.ecofinagency.com/news-industry/1010-59634-ethiopia-opens-gold-refinery-to-process-more-gold-locally",
-     "via": "",
-     "published": "2026-10-10T16:26+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -684,7 +661,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -719,7 +696,7 @@
      "summary": "Ethiopia and Eritrea are trading accusations of aggression, as fighting in northern Ethiopia raises fears of a new regional war."
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -754,42 +731,7 @@
      "summary": ""
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MercoPress",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "Latin America"
-   ],
-   "latest": "2026-10-09T22:44+00:00",
-   "earliest": "2026-10-09T19:23+00:00",
-   "items": [
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Trump says Russia will supply millions of tonnes of diesel as US eases sanctions on Moscow",
-     "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-10-09T22:44+00:00",
-     "summary": "US President Donald Trump announced on Friday a deal with Russian President Vladimir Putin for Russia to supply some 4.8 million tonnes of diesel to US and global markets, aiming to curb rising fuel prices. To make it possible, the Treasury Department temporarily suspended sanctions on Russian diesel until April 2027."
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Trump announces major diesel deal with Russia ahead of US midterm elections next month",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3370409/trump-says-us-get-diesel-russia-stunning-bid-ease-prices?utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-09T19:23+00:00",
-     "summary": "US President Donald Trump has opened the American market to Russian diesel, reversing years of sanctions pressure on Moscow just three weeks after signing a law to punish buyers of its energy, as record fuel prices threaten his party in next month’s midterm elections. Trump said on Truth Social on Friday that he and Russian President Vladimir Putin had reached the supply deal in a phone call that "
-    }
-   ],
-   "id": 13
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -824,42 +766,7 @@
      "summary": "Discovery Mining will acquire two Timmins-area properties as McEwen redirects capital toward its expanding mine portfolio."
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-09T16:37+00:00",
-   "earliest": "2026-10-09T12:48+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Vessel Struck by Unknown Projectile Off UAE Coast Amid Surge in Attacks, UKMTO Says",
-     "url": "https://gcaptain.com/vessel-struck-by-unknown-projectile-off-uae-coast-amid-surge-in-attacks-ukmto-says/",
-     "via": "",
-     "published": "2026-10-09T16:37+00:00",
-     "summary": "A vessel was struck by an unknown projectile 13 nautical miles west of Al Jazeera in the United Arab Emirates on Friday, causing a fire that has since been extinguished, British navy affiliated agency UKMTO said, citing multiple sources."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Vessel struck by unknown projectile off UAE coast, UKMTO says",
-     "url": "https://english.alarabiya.net/amp/News/gulf/2026/10/09/vessel-struck-by-unknown-projectile-off-uae-coast-ukmto-says",
-     "via": "",
-     "published": "2026-10-09T12:48+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -894,7 +801,7 @@
      "summary": "Authorities suspect the mine was dislodged from North Korean territory by heavy summer rainfall."
     }
    ],
-   "id": 16
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -929,7 +836,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -964,7 +871,42 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-10-09T07:54+00:00",
+   "earliest": "2026-10-09T00:03+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia-backed Firmus scraps $5 billion Australia IPO amid growing AI scrutiny",
+     "url": "https://www.reuters.com/world/asia-pacific/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-2026-10-08/",
+     "via": "",
+     "published": "2026-10-09T07:54+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Nvidia-backed data center provider Firmus scraps $5bn Australian IPO",
+     "url": "https://asia.nikkei.com/business/technology/nvidia-backed-data-center-provider-firmus-scraps-5bn-australian-ipo2",
+     "via": "",
+     "published": "2026-10-09T00:03+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -999,7 +941,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1034,7 +976,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1069,7 +1011,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1103,7 +1045,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1137,7 +1079,7 @@
      "summary": "The Coal Ministry stated that rail loading has also improved, stock depletion and power demand are also expected to moderate mid-October citing historical trends."
     }
    ],
-   "id": 23
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1171,7 +1113,7 @@
      "summary": "China and the Philippines have traded accusations over a medical evacuation near the disputed Second Thomas Shoal, with Manila also reporting a near-doubling of Chinese military and coastguard vessels around contested South China Sea features in September. The latest exchange centred on the evacuation on Thursday of an injured Philippine serviceman from the BRP Sierra Madre, a Philippine naval ves"
     }
    ],
-   "id": 24
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1205,7 +1147,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1239,7 +1181,7 @@
      "summary": "Samsung Electronics' next-generation 12-layer HBM4E product, a type of high-bandwidth memory (HBM), has reportedly cleared customer quality validation from Nvidia and major hyperscale data center operators. If confirmed, the result would strengthen Samsung's bid to supply memory for next-gen AI accelerators, though order timing and mass production plans remain unclear."
     }
    ],
-   "id": 26
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1273,7 +1215,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1307,7 +1249,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1341,41 +1283,7 @@
      "summary": ""
     }
    ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-08T17:06+00:00",
-   "earliest": "2026-10-08T16:04+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran will not abandon uranium enrichment or hand over its uranium, nuclear chief says",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/08/iran-will-not-abandon-uranium-enrichment-or-hand-over-its-uranium-nuclear-chief-says",
-     "via": "",
-     "published": "2026-10-08T17:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran nuclear chief says country won’t abandon enrichment or hand over its uranium",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-nuclear-chief-says-country-wont-abandon-enrichment-or-hand-over-its-uranium/",
-     "via": "",
-     "published": "2026-10-08T16:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 30
+   "id": 27
   }
  ]
 }
