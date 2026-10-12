@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-12T02:11:41+00:00",
+ "fetched_at": "2026-10-12T05:59:32+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 601,
+ "outlets_read": 42,
+ "items_read": 588,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,22 +17,22 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 41,
+   "items": 34,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 56,
+   "items": 58,
    "errors": []
   },
   "Nikkei Asia": {
@@ -57,22 +57,24 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 20,
+   "items": 11,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 21,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 259, column 113"
+   ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 32,
+   "items": 36,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +84,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -92,7 +94,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Al Jazeera": {
@@ -107,27 +109,27 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 37,
+   "items": 36,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 23,
+   "items": 25,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 15,
+   "items": 18,
    "errors": []
   },
   "Axios": {
@@ -137,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 11,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 9,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 14,
+   "items": 11,
    "errors": []
   },
   "RNZ": {
@@ -206,17 +208,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 16,
+   "items": 20,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "MercoPress": {
@@ -231,7 +233,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,10 +244,9 @@
  },
  "clusters": [
   {
-   "independent_outlets": 9,
+   "independent_outlets": 8,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
     "The Jakarta Post",
     "MercoPress",
     "Africanews",
@@ -263,18 +264,9 @@
     "Middle East",
     "Southeast Asia"
    ],
-   "latest": "2026-10-11T12:46+00:00",
+   "latest": "2026-10-10T04:06+00:00",
    "earliest": "2026-10-09T14:02+00:00",
    "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Nobel peace laureate Pillay calls US sanctions on ICC 'unacceptable'",
-     "url": "https://www.koreaherald.com/article/10898536",
-     "via": "",
-     "published": "2026-10-11T12:46+00:00",
-     "summary": "The winner of this year's Nobel Peace Prize, judge and former UN rights chief Navi Pillay, on Saturday called sanctions announced by the US on the International Criminal Court \"unheard of, unacceptable.\" \"There is so much tension and anxiety over the continued existence of international courts, mainly the International Criminal Court in The Hague,\" Pillay said via video link from Nuremberg during "
-    },
     {
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
@@ -351,124 +343,21 @@
    "id": 1
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Al Jazeera",
-    "Business Standard",
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-11T18:47+00:00",
-   "earliest": "2026-10-11T04:03+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
-     "url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-11T18:47+00:00",
-     "summary": "The US-Israel war on Iran and its inflationary impact will dominate the agenda."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "West Asia war, debt woes top agenda of IMF-World Bank meetings in Bangkok",
-     "url": "https://www.business-standard.com/world-news/west-asia-war-debt-woes-top-agenda-of-imf-world-bank-meetings-in-bangkok-126101100789_1.html",
-     "via": "",
-     "published": "2026-10-11T16:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
-     "url": "https://www.straitstimes.com/asia/se-asia/middle-east-war-high-debt-levels-to-dominate-imf-world-bank-meetings-in-bangkok",
-     "via": "",
-     "published": "2026-10-11T04:05+00:00",
-     "summary": "The global economy is also further strained by the looming super El Nino effect."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
-     "url": "https://www.reuters.com/world/china/middle-east-war-high-debt-levels-dominate-imf-world-bank-meetings-bangkok-2026-10-11/",
-     "via": "",
-     "published": "2026-10-11T04:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Deutsche Welle",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-10-12T01:25+00:00",
-   "earliest": "2026-10-11T14:47+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Riyadh airport attack: 1 killed, 11 injured after Houthis launch strike; Iran-backed group issues warning | Top updates",
-     "url": "https://www.livemint.com/news/world/riyadh-airport-attack-1-killed-11-injured-after-houthis-launch-strike-iran-backed-group-issues-warning-top-updates-11791767536856.html",
-     "via": "",
-     "published": "2026-10-12T01:25+00:00",
-     "summary": "At least one person was killed, and 11 others were injured after the Houthis launched another attack targeting Saudi Arabia’s King Khalid International Airport on Sunday. The latest attack disrupted flights and prompted travel warnings."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Saudi Arabia: Second strike kills at least 1 at Riyadh airport",
-     "url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-11T22:59+00:00",
-     "summary": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Saudi Airport Hit Again as Riyadh Set to Host Major Events",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-11/saudi-arabia-s-main-riyadh-airport-comes-under-further-attack",
-     "via": "",
-     "published": "2026-10-11T14:47+00:00",
-     "summary": "Saudi Arabia’s main airport came under renewed attack from Houthi rebels, a day after a strike on the facility killed 12 people and heaped pressure on the Middle East’s biggest economy as it prepares to host major events that seek to boost foreign investment."
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
     "Reuters",
+    "Africanews",
+    "Al Arabiya",
+    "Associated Press",
     "CBC News",
     "MercoPress"
    ],
    "regions": [
+    "Africa",
     "Europe",
     "Latin America",
+    "Middle East",
     "North America"
    ],
    "latest": "2026-10-11T22:29+00:00",
@@ -481,6 +370,33 @@
      "url": "https://www.reuters.com/business/environment/panama-suffers-over-200-aftershocks-after-fridays-77-magnitude-earthquake-2026-10-11/",
      "via": "",
      "published": "2026-10-11T22:29+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Panic in Panama as 7.7 quake hits, cathedral collapses and tsunami warnings spread",
+     "url": "http://www.africanews.com/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread/",
+     "via": "",
+     "published": "2026-10-10T10:11+00:00",
+     "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Powerful Earthquake Damages Historic Cathedral in Panama",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/10/powerful-earthquake-damages-historic-cathedral-in-panama",
+     "via": "",
+     "published": "2026-10-10T08:54+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Panama rocked by 2 powerful earthquakes and multiple aftershocks, prompting evacuations",
+     "url": "https://apnews.com/article/panama-earthquake-e4e5dc85829714db88a74de3b7019d55",
+     "via": "",
+     "published": "2026-10-10T02:53+00:00",
      "summary": ""
     },
     {
@@ -502,7 +418,203 @@
      "summary": "A magnitude 7.7 earthquake shook Panama on Friday at 12:56 local time, centred on the Azuero peninsula in Herrera province, according to the US Geological Survey. Panamanian authorities have not so far confirmed any casualties, though inspections are continuing and they have not ruled out injuries or people trapped. Damage to buildings was reported in several provinces."
     }
    ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 5,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Livemint / Economic Times",
+    "Al Jazeera",
+    "Deutsche Welle",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-10-12T05:22+00:00",
+   "earliest": "2026-10-12T02:26+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "North Korea fires 'several ballistic missiles' into Sea of Japan, Seoul's military says",
+     "url": "https://www.euronews.com/2026/10/12/north-korea-fires-several-ballistic-missiles-into-sea-of-japan-seouls-military-says",
+     "via": "",
+     "published": "2026-10-12T05:22+00:00",
+     "summary": "South Korea's National Security Office convened an emergency security meeting following the launch to review the country's military readiness."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "North Korea Fires Missiles After Border Breach Warning",
+     "url": "https://www.livemint.com/news/world/north-korea-fires-missiles-after-border-breach-warning-11791777696921.html",
+     "via": "",
+     "published": "2026-10-12T04:01+00:00",
+     "summary": "North Korea fired multiple ballistic missiles off its east coast Monday, days after warning Seoul of retaliation if its territory were violated."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "North Korea fires multiple ballistic missiles towards the sea",
+     "url": "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-12T03:37+00:00",
+     "summary": "Latest missile launch appears to be a show of force since South Korea's hypersonic missile test-fire, Seoul says."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "North Korea fires missiles after Seoul's hypersonic test",
+     "url": "https://www.dw.com/en/north-korea-fires-missiles-after-seoul-s-hypersonic-test/a-79636110?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-12T03:24+00:00",
+     "summary": "North Korea has conducted its fourth missile launch in October. South Korea's military called this launch a \"show of force\" in response to South Korea's successful test launch of a hypersonic missile."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "North Korea fires multiple ballistic missiles, adding to streak of weapons tests",
+     "url": "https://apnews.com/article/north-korea-kim-missiles-south-5b2d3a2d9a31118648b9f82022b9c4e3",
+     "via": "",
+     "published": "2026-10-12T02:26+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Associated Press",
+    "Euronews",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-11T23:03+00:00",
+   "earliest": "2026-10-11T10:25+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Polish police arrest man suspected of planning attack on Prime Minister Donald Tusk",
+     "url": "https://www.timesofisrael.com/polish-police-arrest-man-suspected-of-planning-attack-on-prime-minister-donald-tusk/",
+     "via": "",
+     "published": "2026-10-11T23:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Polish police arrest a man suspected of planning to attack Prime Minister Donald Tusk",
+     "url": "https://apnews.com/article/poland-plot-prime-minister-tusk-defense-863309837b5239327364d868f626c73f",
+     "via": "",
+     "published": "2026-10-11T15:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Man who planned to attack Poland's prime minister has been arrested, interior minister says",
+     "url": "https://www.euronews.com/2026/10/11/polish-police-alerted-over-possible-attack-on-pm-donald-tusk",
+     "via": "",
+     "published": "2026-10-11T10:42+00:00",
+     "summary": "After Poland's police said Sunday they received information about a possible plot to attack Prime Minister Donald Tusk and Defence Minister Władysław Kosiniak-Kamysz, the Polish interior minister announced the man was arrested."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Poland says police got information about possible attack on PM and defense minister",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/10/11/poland-says-police-got-information-about-possible-attack-on-pm-and-defense-minister",
+     "via": "",
+     "published": "2026-10-11T10:25+00:00",
+     "summary": ""
+    }
+   ],
    "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "gCaptain",
+     "Reuters",
+     "Times of Israel"
+    ]
+   ],
+   "outlets": [
+    "Livemint / Economic Times",
+    "gCaptain",
+    "Al Arabiya",
+    "Reuters",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-10-12T02:40+00:00",
+   "earliest": "2026-10-11T16:09+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US-Iran war: Mohsen Rezaei says Washington accepted some conditions to reopen Hormuz, but ‘response inadequate’",
+     "url": "https://www.livemint.com/news/us-news/usiran-war-mohsen-rezaei-says-washington-accepted-some-conditions-to-reopen-hormuz-but-response-inadequate-11791771851766.html",
+     "via": "",
+     "published": "2026-10-12T02:40+00:00",
+     "summary": "The United States has reportedly accepted some of the seven conditions Iran set for reopening the Strait of Hormuz, Tehran’s Supreme National Security Council Secretary Mohsen Rezaei said on Monday (local time), but added that Washington's response was “inadequate.”"
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Iran Says US Response To Its Proposal To Reopen Hormuz Was ‘Insufficient’",
+     "url": "https://gcaptain.com/iran-says-us-response-to-its-proposal-to-reopen-hormuz-was-insufficient/",
+     "via": "",
+     "published": "2026-10-11T23:13+00:00",
+     "summary": "DUBAI, Oct 11 (Reuters) – The United States’ response to Iran’s seven conditions in a proposal to reopen the strategic Strait of Hormuz was “insufficient”, Iran’s security chief, Mohsen Rezaei, was quoted by state..."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran says US response to its proposal to reopen Strait of Hormuz was ‘insufficient’",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/11/iran-says-us-response-to-its-proposal-to-reopen-strait-of-hormuz-was-insufficient-",
+     "via": "",
+     "published": "2026-10-11T17:12+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Iran says US response to its proposal to reopen Hormuz was 'insufficient'",
+     "url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
+     "via": "",
+     "published": "2026-10-11T17:07+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran says US response to its proposal to reopen Hormuz was ‘insufficient’",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-us-response-to-its-proposal-to-reopen-hormuz-was-insufficient/",
+     "via": "",
+     "published": "2026-10-11T16:09+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -548,96 +660,50 @@
      "summary": ""
     }
    ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Euronews",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-11T15:18+00:00",
-   "earliest": "2026-10-11T10:25+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Polish police arrest a man suspected of planning to attack Prime Minister Donald Tusk",
-     "url": "https://apnews.com/article/poland-plot-prime-minister-tusk-defense-863309837b5239327364d868f626c73f",
-     "via": "",
-     "published": "2026-10-11T15:18+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Man who planned to attack Poland's prime minister has been arrested, interior minister says",
-     "url": "https://www.euronews.com/2026/10/11/polish-police-alerted-over-possible-attack-on-pm-donald-tusk",
-     "via": "",
-     "published": "2026-10-11T10:42+00:00",
-     "summary": "After Poland's police said Sunday they received information about a possible plot to attack Prime Minister Donald Tusk and Defence Minister Władysław Kosiniak-Kamysz, the Polish interior minister announced the man was arrested."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Poland says police got information about possible attack on PM and defense minister",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/10/11/poland-says-police-got-information-about-possible-attack-on-pm-and-defense-minister",
-     "via": "",
-     "published": "2026-10-11T10:25+00:00",
-     "summary": ""
-    }
-   ],
    "id": 6
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
+    "Livemint / Economic Times",
     "Al Arabiya",
-    "Africanews"
+    "Euronews"
    ],
    "regions": [
-    "Africa",
-    "East Asia",
-    "Middle East"
+    "Europe",
+    "Middle East",
+    "South Asia"
    ],
-   "latest": "2026-10-11T12:48+00:00",
-   "earliest": "2026-10-09T14:08+00:00",
+   "latest": "2026-10-11T16:57+00:00",
+   "earliest": "2026-10-10T15:48+00:00",
    "items": [
     {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Ethiopia tells UN it is acting in self-defense against Eritrea",
-     "url": "https://www.koreaherald.com/article/10898537",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Saudi-led coalition says new attack at Riyadh airport day after strike killed 12, including one Indian: Details here",
+     "url": "https://www.livemint.com/news/world/saudiled-coalition-says-new-attack-at-riyadh-airport-causes-fire-day-after-strike-kills-12-11791737022799.html",
      "via": "",
-     "published": "2026-10-11T12:48+00:00",
-     "summary": "Ethiopia told the UN Security Council on Friday it is taking measures in self-defense against Eritrea, accusing its neighbor of sending troops across the border and occupying parts of northern Ethiopia. The declaration adds to fears of a wider conflict as government-allied forces report advances in Tigray, a region devastated by a previous war. AP footage on Saturday from Adigrat, about 25 kilomet"
+     "published": "2026-10-11T16:57+00:00",
+     "summary": "A fresh attack on Riyadh airport sparked a fire at Terminal 4 on Sunday, a day after a strike killed 12 people and injured more than 300. One Indian national has since died, while 10 others remain injured, the Indian Embassy said."
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Eritrea urges UN to act against Ethiopia’s ‘declaration of war’",
-     "url": "https://english.alarabiya.net/News/world/2026/10/10/eritrea-urges-un-to-act-against-ethiopia-s-declaration-of-war-",
+     "title": "Saudi-led coalition says Houthi attack on Riyadh airport a ‘war crime,’ vows response",
+     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/11/saudiled-coalition-says-houthi-attack-on-riyadh-airport-a-war-crime-vows-response",
      "via": "",
-     "published": "2026-10-10T14:18+00:00",
+     "published": "2026-10-11T04:46+00:00",
      "summary": ""
     },
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Ethiopia and Eritrea trade war accusations as regional conflict threatens to escalate",
-     "url": "http://www.africanews.com/2026/10/09/ethiopia-and-eritrea-trade-war-accusations-as-regional-conflict-threatens-to-escalate/",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "12 killed and more than 300 wounded in attack on Riyadh airport",
+     "url": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack",
      "via": "",
-     "published": "2026-10-09T14:08+00:00",
-     "summary": "Ethiopia and Eritrea are trading accusations of aggression, as fighting in northern Ethiopia raises fears of a new regional war."
+     "published": "2026-10-10T15:48+00:00",
+     "summary": "Turki Al-Maliki, a spokesperson for the Saudi-led coalition forces, said that the attack had been carried out by Yemen's Houthi rebels and that it had targeted a passenger terminal."
     }
    ],
    "id": 7
@@ -750,96 +816,86 @@
    "id": 9
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
    "outlets": [
-    "Euronews",
-    "Al Arabiya",
-    "Deutsche Welle"
+    "Business Standard",
+    "The Straits Times",
+    "Reuters"
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "South Asia",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-11T13:05+00:00",
-   "earliest": "2026-10-10T22:07+00:00",
+   "latest": "2026-10-11T16:51+00:00",
+   "earliest": "2026-10-11T04:03+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Riyadh airport strikes claimed by Yemen's Houthi day after deadliest attack in Saudi soil in ten years",
-     "url": "https://www.euronews.com/2026/10/11/riyadh-airport-stays-shut-after-deadly-attack-as-trump-says-us-may-join-saudi-strikes-on-h",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "West Asia war, debt woes top agenda of IMF-World Bank meetings in Bangkok",
+     "url": "https://www.business-standard.com/world-news/west-asia-war-debt-woes-top-agenda-of-imf-world-bank-meetings-in-bangkok-126101100789_1.html",
      "via": "",
-     "published": "2026-10-11T13:05+00:00",
-     "summary": "Iran-backed Houthi claimed strikes on Riyadh airport terminal less than a day after a Houthi attack killed 12 people. The attack led to Riyadh’s airport shutdown and drew condemnation from the UN and EU, as the Houthis renew their threats and Washington considers its response."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition says Houthi attack on Riyadh airport a ‘war crime,’ vows response",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/11/saudiled-coalition-says-houthi-attack-on-riyadh-airport-a-war-crime-vows-response",
-     "via": "",
-     "published": "2026-10-11T04:46+00:00",
+     "published": "2026-10-11T16:51+00:00",
      "summary": ""
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack",
-     "url": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-all-1573-rdf",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
+     "url": "https://www.straitstimes.com/asia/se-asia/middle-east-war-high-debt-levels-to-dominate-imf-world-bank-meetings-in-bangkok",
      "via": "",
-     "published": "2026-10-10T22:07+00:00",
-     "summary": "A Saudi-led coalition has vowed a \"decisive\" response after the deadliest strike on Saudi soil in over a decade. Officials have pinned the attack on Iran-backed Houthi militia in Yemen."
+     "published": "2026-10-11T04:05+00:00",
+     "summary": "The global economy is also further strained by the looming super El Nino effect."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok",
+     "url": "https://www.reuters.com/world/china/middle-east-war-high-debt-levels-dominate-imf-world-bank-meetings-bangkok-2026-10-11/",
+     "via": "",
+     "published": "2026-10-11T04:03+00:00",
+     "summary": ""
     }
    ],
    "id": 10
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "gCaptain",
-     "Reuters"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "gCaptain",
-    "Al Arabiya",
+    "Business Standard",
     "Reuters"
    ],
    "regions": [
     "Europe",
-    "Middle East",
-    "North America"
+    "South Asia"
    ],
-   "latest": "2026-10-11T23:13+00:00",
-   "earliest": "2026-10-11T17:11+00:00",
+   "latest": "2026-10-12T03:01+00:00",
+   "earliest": "2026-10-12T00:42+00:00",
    "items": [
     {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Iran Says US Response To Its Proposal To Reopen Hormuz Was ‘Insufficient’",
-     "url": "https://gcaptain.com/iran-says-us-response-to-its-proposal-to-reopen-hormuz-was-insufficient/",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Asian shares cautious as earnings loom, oil prices slip on easing fears",
+     "url": "https://www.business-standard.com/markets/news/asian-shares-cautious-as-earnings-loom-oil-prices-slip-on-easing-fears-126101200044_1.html",
      "via": "",
-     "published": "2026-10-11T23:13+00:00",
-     "summary": "DUBAI, Oct 11 (Reuters) – The United States’ response to Iran’s seven conditions in a proposal to reopen the strategic Strait of Hormuz was “insufficient”, Iran’s security chief, Mohsen Rezaei, was quoted by state..."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says US response to its proposal to reopen Strait of Hormuz was ‘insufficient’",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/11/iran-says-us-response-to-its-proposal-to-reopen-strait-of-hormuz-was-insufficient-",
-     "via": "",
-     "published": "2026-10-11T17:12+00:00",
+     "published": "2026-10-12T03:01+00:00",
      "summary": ""
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Iran says US response to its proposal to reopen Hormuz was 'insufficient'",
-     "url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/",
+     "title": "Share markets choppy in Asia as earnings loom, oil slips",
+     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-12/",
      "via": "",
-     "published": "2026-10-11T17:11+00:00",
+     "published": "2026-10-12T00:42+00:00",
      "summary": ""
     }
    ],
@@ -847,61 +903,34 @@
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Jakarta Post",
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
     "The Jakarta Post",
-    "The Straits Times",
     "Reuters"
    ],
    "regions": [
-    "East Asia",
     "Europe",
     "Southeast Asia"
    ],
-   "latest": "2026-10-11T13:21+00:00",
-   "earliest": "2026-10-10T00:33+00:00",
+   "latest": "2026-10-12T02:03+00:00",
+   "earliest": "2026-10-12T01:51+00:00",
    "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "India detains thousands to foil protest",
-     "url": "https://www.koreaherald.com/article/10898546",
-     "via": "",
-     "published": "2026-10-11T13:21+00:00",
-     "summary": "Police ‌detained more than 2,000 protesters and the founder of the \"Cockroach\" youth movement in Delhi Saturday as security forces locked down parts of the capital to thwart a rally demanding the resignation of India's election chief. Thousands of police and paramilitary personnel were deployed across the city, mobile internet services were suspended in the central business district and dozens of "
-    },
     {
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
-     "title": "India detains thousands, locks down Delhi to foil election chief protest",
-     "url": "https://www.thejakartapost.com/world/2026/10/11/india-detains-thousands-locks-down-delhi-to-foil-election-chief-protest?utm_source",
+     "title": "Dollar stays near 18-month high as Mideast conflict, inflation data in focus",
+     "url": "https://www.thejakartapost.com/business/2026/10/12/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus?utm_source",
      "via": "",
-     "published": "2026-10-11T01:41+00:00",
+     "published": "2026-10-12T02:03+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "India detains thousands, locks down Delhi to foil election chief protest",
-     "url": "https://www.straitstimes.com/asia/south-asia/india-detains-thousands-locks-down-delhi-to-foil-election-chief-protest",
-     "via": "",
-     "published": "2026-10-10T21:01+00:00",
-     "summary": "Protesters want the resignation of India’s election chief over alleged voter list irregularities."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "India detains thousands, locks down Delhi to foil election chief protest",
-     "url": "https://www.reuters.com/world/india/delhi-sealed-off-ahead-youth-protest-against-indian-election-chief-2026-10-10/",
+     "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+     "url": "https://www.reuters.com/world/asia-pacific/dollar-stays-near-18-month-high-mideast-conflict-inflation-data-focus-2026-10-12/",
      "via": "",
-     "published": "2026-10-10T00:33+00:00",
+     "published": "2026-10-12T01:51+00:00",
      "summary": ""
     }
    ],
@@ -909,51 +938,35 @@
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Africanews",
-     "Euronews"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "Euronews",
-    "Al Arabiya"
+    "Livemint / Economic Times",
+    "Deutsche Welle"
    ],
    "regions": [
-    "Africa",
     "Europe",
-    "Middle East"
+    "South Asia"
    ],
-   "latest": "2026-10-10T10:11+00:00",
-   "earliest": "2026-10-10T08:54+00:00",
+   "latest": "2026-10-12T01:25+00:00",
+   "earliest": "2026-10-11T22:59+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Panic in Panama as 7.7 quake hits, cathedral collapses and tsunami warnings spread",
-     "url": "http://www.africanews.com/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread/",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Riyadh airport attack: 1 killed, 11 injured after Houthis launch strike; Iran-backed group issues warning | Top updates",
+     "url": "https://www.livemint.com/news/world/riyadh-airport-attack-1-killed-11-injured-after-houthis-launch-strike-iran-backed-group-issues-warning-top-updates-11791767536856.html",
      "via": "",
-     "published": "2026-10-10T10:11+00:00",
-     "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported."
+     "published": "2026-10-12T01:25+00:00",
+     "summary": "At least one person was killed, and 11 others were injured after the Houthis launched another attack targeting Saudi Arabia’s King Khalid International Airport on Sunday. The latest attack disrupted flights and prompted travel warnings."
     },
     {
-     "outlet": "Euronews",
+     "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "Panic in Panama as 7.7 quake hits, cathedral collapses and tsunami warnings spread",
-     "url": "https://www.euronews.com/video/2026/10/10/panic-in-panama-as-77-quake-hits-cathedral-collapses-and-tsunami-warnings-spread",
+     "title": "Saudi Arabia: Second strike kills at least 1 at Riyadh airport",
+     "url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-10T10:11+00:00",
-     "summary": "Panama was hit by a powerful 7.7 earthquake, a 6.6 aftershock and many tremors, damaging buildings and prompting evacuations but no deaths reported."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Powerful Earthquake Damages Historic Cathedral in Panama",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/10/powerful-earthquake-damages-historic-cathedral-in-panama",
-     "via": "",
-     "published": "2026-10-10T08:54+00:00",
-     "summary": ""
+     "published": "2026-10-11T22:59+00:00",
+     "summary": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit."
     }
    ],
    "id": 13
@@ -962,32 +975,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
+    "Al Jazeera",
     "Reuters"
    ],
    "regions": [
     "Europe",
-    "South Asia"
+    "Middle East"
    ],
-   "latest": "2026-10-12T00:46+00:00",
-   "earliest": "2026-10-12T00:42+00:00",
+   "latest": "2026-10-11T22:08+00:00",
+   "earliest": "2026-10-11T19:44+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Global Market Today: Asian shares cautious as earnings loom, oil slips",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-earnings-loom-oil-slips/articleshow/134880101.cms",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "At least 72 Sudanese miners killed in air strike: Rights monitor",
+     "url": "https://www.aljazeera.com/news/2026/10/11/at-least-72-sudanese-miners-killed-in-air-strike-rights-monitor?traffic_source=rss",
      "via": "",
-     "published": "2026-10-12T00:46+00:00",
-     "summary": "Trade was thin with Japan markets shut and the US on a partial holiday ahead of the earnings season with major US banks kicking off on Tuesday."
+     "published": "2026-10-11T22:08+00:00",
+     "summary": "Emergency Lawyers blames Egypt for the deadly attack in northern Sudan."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Shares cautious in Asia as earnings loom, oil slips",
-     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-12/",
+     "title": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says",
+     "url": "https://www.reuters.com/world/africa/least-72-sudanese-artisanal-miners-killed-strike-saturday-rights-monitor-says-2026-10-11/",
      "via": "",
-     "published": "2026-10-12T00:42+00:00",
+     "published": "2026-10-11T19:44+00:00",
      "summary": ""
     }
    ],
@@ -1032,76 +1045,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Rio Times",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "Latin America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-11T20:48+00:00",
-   "earliest": "2026-10-11T08:56+00:00",
-   "items": [
-    {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Lula Rejects Court ‘Interference’ 14 Days Before Vote",
-     "url": "https://www.riotimesonline.com/brazil-lula-paulista-rally-electoral-court-2026/",
-     "via": "",
-     "published": "2026-10-11T20:48+00:00",
-     "summary": "Before a Lula rally on Avenida Paulista on Sunday, the president accused Brazil's electoral court of biased rulings ahead of the 25 October runoff. The post Lula Rejects Court ‘Interference’ 14 Days Before Vote appeared first on The Rio Times ."
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Lula accuses Meta of election interference",
-     "url": "https://www.thejakartapost.com/world/2026/10/11/lula-accuses-meta-of-election-interference?utm_source",
-     "via": "",
-     "published": "2026-10-11T08:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "gCaptain"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-11T19:19+00:00",
-   "earliest": "2026-10-11T17:31+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Republican senator says Trump diesel agreement with Russia may be illegal",
-     "url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-11T19:19+00:00",
-     "summary": "US President Trump's bid to bring down diesel prices by easing sanctions on Russia prompts rare Republican criticism."
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Republican Senator Says Trump’s Russian Diesel Deal May Be Illegal",
-     "url": "https://gcaptain.com/republican-senator-says-trumps-russian-diesel-deal-may-be-illegal/",
-     "via": "",
-     "published": "2026-10-11T17:31+00:00",
-     "summary": "By Jan Wolfe Oct 11 (Reuters) – Republican US Senator Thom Tillis on Sunday said President Donald Trump’s diesel supply deal with Russia may be illegal and will put American lives at risk, adding to bipartisan..."
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Livemint / Economic Times",
     "MercoPress"
    ],
@@ -1131,77 +1074,7 @@
      "summary": "US President Donald Trump announced on Friday a deal with Russian President Vladimir Putin for Russia to supply some 4.8 million tonnes of diesel to US and global markets, aiming to curb rising fuel prices. To make it possible, the Treasury Department temporarily suspended sanctions on Russian diesel until April 2027."
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-11T14:38+00:00",
-   "earliest": "2026-10-11T08:25+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "AI-powered attacks on Korean financial sectors linked to Chinese DDoS group: report",
-     "url": "https://www.koreaherald.com/article/10898597",
-     "via": "",
-     "published": "2026-10-11T14:38+00:00",
-     "summary": "A recent series of AI-backed cyberattacks on South Korean banks may be linked to a Chinese group that carries out distributed denial-of-service (DDoS) attacks for hire, according to a report released Sunday by a Seoul-based cybersecurity firm Logpresso. The company said the Telegram account “YY520CN,” linked to the bank hackings, was listed as a moderator of an online community called GodNet in Se"
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "AI-powered attacks on South Korean financial sectors linked to Chinese DDoS group: Report",
-     "url": "https://www.straitstimes.com/asia/east-asia/ai-powered-attacks-on-south-korean-financial-sectors-linked-to-chinese-ddos-group-report",
-     "via": "",
-     "published": "2026-10-11T08:25+00:00",
-     "summary": "The attacker reportedly used separate attack servers and alternative access routes."
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East"
-   ],
-   "latest": "2026-10-11T13:20+00:00",
-   "earliest": "2026-10-11T03:56+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "12 killed in Riyadh attack, Saudi says",
-     "url": "https://www.koreaherald.com/article/10898545",
-     "via": "",
-     "published": "2026-10-11T13:20+00:00",
-     "summary": "The latest attack on the international airport in Saudi Arabia's capital of Riyadh killed 12 people and injured over 300 others, civil aviation authorities said early Sunday, with some in critical condition. A Saudi-led coalition blamed the Houthi rebels in neighboring Yemen. It was the deadliest attack in any Gulf Arab country since the start of the Iran war, whose fronts have expanded to include"
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Attack on Riyadh airport kills 12, over 300 wounded: Civil aviation authority",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/11/attack-on-riyadh-airport-kills-12-over-300-wounded-civil-aviation-authority-",
-     "via": "",
-     "published": "2026-10-11T03:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 20
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1236,7 +1109,7 @@
      "summary": "By Joyce Lee SEOUL, Oct 11 (Reuters) – A South Korean container ship completed the country’s first commercial round trip to Europe via the Arctic on Sunday, as authorities bank on the..."
     }
    ],
-   "id": 21
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1249,7 +1122,7 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-10T15:36+00:00",
+   "latest": "2026-10-10T16:11+00:00",
    "earliest": "2026-10-10T15:01+00:00",
    "items": [
     {
@@ -1258,7 +1131,7 @@
      "title": "Portugal suspends Ronaldo and initiates disciplinary proceedings after walkout",
      "url": "https://apnews.com/article/cristiano-ronaldo-suspended-portugal-c78e840a74f9d4f96c45cb3178e36713",
      "via": "",
-     "published": "2026-10-10T15:36+00:00",
+     "published": "2026-10-10T16:11+00:00",
      "summary": ""
     },
     {
@@ -1271,7 +1144,42 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East"
+   ],
+   "latest": "2026-10-10T14:18+00:00",
+   "earliest": "2026-10-09T14:08+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Eritrea urges UN to act against Ethiopia’s ‘declaration of war’",
+     "url": "https://english.alarabiya.net/News/world/2026/10/10/eritrea-urges-un-to-act-against-ethiopia-s-declaration-of-war-",
+     "via": "",
+     "published": "2026-10-10T14:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Ethiopia and Eritrea trade war accusations as regional conflict threatens to escalate",
+     "url": "http://www.africanews.com/2026/10/09/ethiopia-and-eritrea-trade-war-accusations-as-regional-conflict-threatens-to-escalate/",
+     "via": "",
+     "published": "2026-10-09T14:08+00:00",
+     "summary": "Ethiopia and Eritrea are trading accusations of aggression, as fighting in northern Ethiopia raises fears of a new regional war."
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1306,7 +1214,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1341,7 +1249,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1376,7 +1284,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1411,42 +1319,7 @@
      "summary": ""
     }
    ],
-   "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-10-09T07:54+00:00",
-   "earliest": "2026-10-09T06:50+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia-backed Firmus scraps $5 billion Australia IPO amid growing AI scrutiny",
-     "url": "https://www.reuters.com/world/asia-pacific/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-2026-10-08/",
-     "via": "",
-     "published": "2026-10-09T07:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Nvidia-backed data center provider Firmus scraps $5bn Australian IPO",
-     "url": "https://asia.nikkei.com/business/technology/nvidia-backed-data-center-provider-firmus-scraps-5bn-australian-ipo2",
-     "via": "",
-     "published": "2026-10-09T06:50+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 27
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1480,7 +1353,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1514,41 +1387,41 @@
      "summary": "Moderating exports of Chinese hybrid vehicles to the European Union was among the topics discussed."
     }
    ],
-   "id": 29
+   "id": 25
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
+    "Caixin Global",
+    "South China Morning Post"
    ],
    "regions": [
-    "Middle East"
+    "China"
    ],
-   "latest": "2026-10-09T21:33+00:00",
-   "earliest": "2026-10-09T20:57+00:00",
+   "latest": "2026-10-09T14:52+00:00",
+   "earliest": "2026-10-09T08:00+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi-led coalition announces wide-ranging strikes targeting Yemen’s Houthis",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-announces-wide-ranging-strikes-targeting-yemens-houthis/",
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "China, EU Pledge to Contain Trade Disputes After Beijing Talks",
+     "url": "https://www.caixinglobal.com/2026-10-09/china-eu-pledge-to-contain-trade-disputes-after-beijing-talks-102491793.html",
      "via": "",
-     "published": "2026-10-09T21:33+00:00",
+     "published": "2026-10-09T14:52+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition carries out wide-scale operations against Yemen’s Houthis",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/10/saudiled-coalition-carries-out-widescale-operations-against-yemen-s-houthis",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Beijing and Manila trade blame over South China Sea medical mission",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3370306/china-and-philippines-blame-each-other-over-south-china-sea-medical-mission?utm_source=rss_feed",
      "via": "",
-     "published": "2026-10-09T20:57+00:00",
-     "summary": ""
+     "published": "2026-10-09T08:00+00:00",
+     "summary": "China and the Philippines have traded accusations over a medical evacuation near the disputed Second Thomas Shoal, with Manila also reporting a near-doubling of Chinese military and coastguard vessels around contested South China Sea features in September. The latest exchange centred on the evacuation on Thursday of an injured Philippine serviceman from the BRP Sierra Madre, a Philippine naval ves"
     }
    ],
-   "id": 30
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1582,7 +1455,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 27
   }
  ]
 }
