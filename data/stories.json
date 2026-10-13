@@ -1,28 +1,28 @@
 {
- "fetched_at": "2026-10-13T03:26:06+00:00",
+ "fetched_at": "2026-10-13T06:48:35+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 623,
+ "outlets_read": 43,
+ "items_read": 630,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 43,
+   "items": 38,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "Caixin Global": {
@@ -32,17 +32,17 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 1,
+   "items": 3,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 52,
+   "items": 60,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,27 +52,27 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 14,
+   "items": 11,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 20,
+   "items": 15,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 34,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 38,
+   "items": 37,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,27 +107,27 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 29,
+   "items": 30,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 18,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 23,
+   "items": 18,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 9,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -159,12 +159,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 16,
+   "items": 19,
    "errors": []
   },
   "RNZ": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 17,
+   "items": 20,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 18,
+   "items": 21,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 12,
    "errors": []
   },
   "The Indian Express": {
@@ -206,22 +206,22 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 7,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "BNamericas": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 10,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,52 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-13T04:36+00:00",
+   "earliest": "2026-10-13T02:05+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "AI investment props up global growth, but war, debt threaten outlook: IMF",
+     "url": "https://www.business-standard.com/world-news/ai-investment-props-up-global-growth-but-war-debt-threaten-outlook-imf-126101300193_1.html",
+     "via": "",
+     "published": "2026-10-13T04:36+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "IMF says AI investment propping up global growth, but war and debt threaten outlook",
+     "url": "https://www.straitstimes.com/asia/se-asia/imf-says-ai-investment-propping-up-global-growth-but-war-and-debt-threaten-outlook",
+     "via": "",
+     "published": "2026-10-13T02:15+00:00",
+     "summary": "The IMF is forecasting 2026 global growth at 3.1% and a 3.4% global growth for 2027."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "AI investment props up global growth, but war and debt threaten outlook, IMF says",
+     "url": "https://www.reuters.com/world/china/imf-says-ai-investment-propping-up-global-growth-war-debt-threaten-outlook-2026-10-13/",
+     "via": "",
+     "published": "2026-10-13T02:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -285,7 +331,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -346,133 +392,272 @@
      "summary": ""
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Livemint / Economic Times",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-12T14:45+00:00",
-   "earliest": "2026-10-12T09:38+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Opposition parties, supporters march in Delhi despite huge police presence",
-     "url": "https://www.straitstimes.com/asia/south-asia/opposition-parties-supporters-march-in-delhi-despite-huge-police-presence",
-     "via": "",
-     "published": "2026-10-12T14:45+00:00",
-     "summary": "They demanded the sacking of India’s Chief Election Commissioner (CEC) Gyanesh Kumar."
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Rahul Gandhi vs Gyanesh Kumar: PIL challenges SIR in Supreme Court as thousands join INDIA bloc's protest",
-     "url": "https://www.livemint.com/news/india/rahul-gandhi-vs-gyanesh-kumar-pil-challenges-sir-in-supreme-court-as-thousands-join-india-blocs-protest-11791809717316.html",
-     "via": "",
-     "published": "2026-10-12T13:15+00:00",
-     "summary": "The petition in Supreme Court comes amid the Congress-led Opposition's protests against the SIR exercise and seeking the resignation of Chief Election Commissioner Gyanesh Kumar over the alleged irregularities in the voters' roll revision."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "India news: Opposition parties march to Supreme Court",
-     "url": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-12T09:38+00:00",
-     "summary": "Intensifying their demand for Chief Election Commissioner Gyanesh Kumar's resignation, opposition parties are holding a march to the Supreme Court. Follow DW for more."
-    }
-   ],
    "id": 3
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Hellenic Shipping News",
-    "Al Arabiya",
-    "Times of Israel"
+    "Ecofin Agency",
+    "Africanews",
+    "Reuters"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "Africa",
+    "Europe"
    ],
-   "latest": "2026-10-12T21:00+00:00",
-   "earliest": "2026-10-11T16:09+00:00",
+   "latest": "2026-10-13T06:08+00:00",
+   "earliest": "2026-10-12T16:11+00:00",
    "items": [
     {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Iran rejects U.S. stance on Hormuz as Trump weighs strikes over Riyadh attacks",
-     "url": "https://www.hellenicshippingnews.com/iran-rejects-u-s-stance-on-hormuz-as-trump-weighs-strikes-over-riyadh-attacks/",
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Dangote Refinery Extends Record IPO to Attract More African Investors",
+     "url": "https://www.ecofinagency.com/news-finances/1310-59686-dangote-refinery-extends-record-ipo-to-attract-more-african-investors",
      "via": "",
-     "published": "2026-10-12T21:00+00:00",
-     "summary": "Tensions in the Middle East deepened on Sunday after Iran’s top security official declared Washington’s response to its proposal for reopening the strategic Strait of Hormuz “insufficient,” while U.S. President Donald Trump considers renewed military strikes against Tehran following deadly attacks on Saudi Arabia’s primary international airport. Mohsen Rezaei, Secretary of Iran’s Supreme National "
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says US response to its proposal to reopen Strait of Hormuz was ‘insufficient’",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/11/iran-says-us-response-to-its-proposal-to-reopen-strait-of-hormuz-was-insufficient-",
-     "via": "",
-     "published": "2026-10-11T17:12+00:00",
+     "published": "2026-10-13T06:08+00:00",
      "summary": ""
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says US response to its proposal to reopen Hormuz was ‘insufficient’",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-us-response-to-its-proposal-to-reopen-hormuz-was-insufficient/",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Dangote's Nigerian oil refinery extends IPO by 2 weeks",
+     "url": "http://www.africanews.com/2026/10/13/dangotes-nigerian-oil-refinery-extends-ipo-by-2-weeks/",
      "via": "",
-     "published": "2026-10-11T16:09+00:00",
+     "published": "2026-10-13T04:48+00:00",
+     "summary": "Aliko Dangote's Nigerian oil refinery is extending the deadline for its initial public offering in order to broaden participation, its owner said Monday. The IPO, set to be Africa's largest capital market operation, was due to close on Tuesday but it will now be extended for two weeks."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nigeria's Dangote refinery extends $1.6 billion IPO to broaden African investor access",
+     "url": "https://www.reuters.com/business/energy/nigerias-dangote-oil-refinery-ipo-be-extended-by-10-days-executive-adviser-say-2026-10-12/",
+     "via": "",
+     "published": "2026-10-12T16:11+00:00",
      "summary": ""
     }
    ],
    "id": 4
   },
   {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-12T18:52+00:00",
+   "earliest": "2026-10-12T18:25+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Saudi-led coalition says it intercepted ballistic missile fired by Houthis at Riyadh",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-says-it-intercepted-ballistic-missile-fired-by-houthis-at-riyadh/",
+     "via": "",
+     "published": "2026-10-12T18:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led Coalition says ballistic missile fired by Houthis intercepted",
+     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/10/12/saudiled-coalition-says-ballistic-missile-fired-by-houthis-intercepted",
+     "via": "",
+     "published": "2026-10-12T18:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudi-led coalition says it destroyed Houthi ballistic missile fired towards Riyadh",
+     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-destroyed-houthi-ballistic-missile-fired-towards-2026-10-12/",
+     "via": "",
+     "published": "2026-10-12T18:25+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
+    "The Hindu",
+    "The Straits Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-13T06:18+00:00",
+   "earliest": "2026-10-13T02:26+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "No choice: IMF says developing countries must cut spending despite war shock",
+     "url": "https://www.thehindu.com/news/international/no-choice-imf-says-developing-countries-must-cut-spending-despite-war-shock/article71578064.ece",
+     "via": "",
+     "published": "2026-10-13T06:18+00:00",
+     "summary": "\"Unfortunately, after years of the global economy being hit by shock after shock, debt levels have increased quite a lot, and at the same time, inflation has become a problem,\" says IMF deputy director of research"
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "‘No choice’: IMF says developing countries must cut spending or restructure debt",
+     "url": "https://www.straitstimes.com/asia/se-asia/no-choice-imf-says-developing-countries-must-cut-spending-or-restructure-debt",
+     "via": "",
+     "published": "2026-10-13T02:26+00:00",
+     "summary": "Heavily indebted oil-importing countries were facing the worst of the energy shock."
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "The Jakarta Post"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-13T06:16+00:00",
+   "earliest": "2026-10-11T01:41+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "India opposition to huddle over tea after thousands march in their Delhi protest",
+     "url": "https://www.dw.com/en/india-opposition-to-huddle-over-tea-after-thousands-march-in-their-delhi-protest/live-79646819?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-13T06:16+00:00",
+     "summary": "Congress' Rahul Gandhi will reportedly host oppositon MPs for tea after rallying thousands in Monday's election protest. The 'Cockroach' movement says its leaders have been detained during a flash protest. Follow DW."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "India detains thousands, locks down Delhi to foil election chief protest",
+     "url": "https://www.thejakartapost.com/world/2026/10/11/india-detains-thousands-locks-down-delhi-to-foil-election-chief-protest?utm_source",
+     "via": "",
+     "published": "2026-10-11T01:41+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-10-13T04:25+00:00",
+   "earliest": "2026-10-13T01:04+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Omron to buy US industrial PC maker OnLogic for US$675 million",
+     "url": "https://www.digitimes.com/news/a20261013VL217/omron-acquisition-ipc-revenue.html",
+     "via": "",
+     "published": "2026-10-13T04:25+00:00",
+     "summary": "Japan's Omron has agreed to acquire US industrial computer (IPC) maker OnLogic and its parent company, Interlogic, at an enterprise value of US$675 million, seeking to expand its presence in Western markets and combine rugged edge computing with its factory automation and control technologies."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Japan's Omron to buy US industrial PC firm Onlogic for $675 million in physical AI push",
+     "url": "https://www.reuters.com/legal/transactional/japans-omron-buy-us-industrial-pc-firm-onlogic-675-million-physical-ai-push-2026-10-13/",
+     "via": "",
+     "published": "2026-10-13T01:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
     "Bloomberg"
    ],
    "regions": [
     "North America",
-    "Southeast Asia"
+    "South Asia"
    ],
-   "latest": "2026-10-13T01:30+00:00",
-   "earliest": "2026-10-13T00:24+00:00",
+   "latest": "2026-10-13T03:19+00:00",
+   "earliest": "2026-10-13T02:00+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Malaysian King buys stake in miner expanding into rare earths",
-     "url": "https://www.straitstimes.com/business/companies-markets/malaysian-king-buys-stake-in-miner-expanding-into-rare-earths",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Global economy nears limits of resilience as energy squeeze persists: IMF",
+     "url": "https://www.business-standard.com/world-news/global-economy-nears-limits-of-resilience-as-energy-squeeze-persists-imf-126101300113_1.html",
      "via": "",
-     "published": "2026-10-13T01:30+00:00",
-     "summary": "The firm is expanding into Malaysia’s rare earths sector, including a project in his home state, Johor."
+     "published": "2026-10-13T03:19+00:00",
+     "summary": ""
     },
     {
      "outlet": "Bloomberg",
      "region": "North America",
-     "title": "Malaysia King Buys Stake in Miner Expanding Into Rare Earths",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-13/malaysian-king-buys-stake-in-miner-expanding-into-rare-earths",
+     "title": "World Economy Holds Up, Nears Limits of Resilience, IMF Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-13/world-economy-holds-up-but-nears-limits-of-resilience-imf-says",
      "via": "",
-     "published": "2026-10-13T00:24+00:00",
-     "summary": "Malaysia’s billionaire king bought a stake in local miner Southern Alliance Mining Ltd., which is expanding into rare earths, including through a project in his home state of Johor."
+     "published": "2026-10-13T02:00+00:00",
+     "summary": "The International Monetary Fund said global growth should pick up next year with a boost from AI investment, but warned the world economy is nearing the limits of its resilience as the energy squeeze persists and financial risks build."
     }
    ],
-   "id": 5
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-10-13T02:49+00:00",
+   "earliest": "2026-10-13T01:07+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "New safeguards sharply reduce AI distillation attacks, says Anthropic",
+     "url": "https://www.business-standard.com/technology/artificial-intelligence/new-safeguards-sharply-reduce-ai-distillation-attacks-says-anthropic-126101300092_1.html",
+     "via": "",
+     "published": "2026-10-13T02:49+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Anthropic says new safeguards sharply reduce AI distillation attacks",
+     "url": "https://www.reuters.com/world/china/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-2026-10-13/",
+     "via": "",
+     "published": "2026-10-13T01:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -507,7 +692,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -542,7 +727,7 @@
      "summary": "Six commercial vessels were reported struck in and around the Strait of Hormuz on October 11, including five tankers and a container ship, as attacks on merchant shipping continue to..."
     }
    ],
-   "id": 7
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -577,42 +762,7 @@
      "summary": "Hundreds of French supermarkets saw their refrigeration systems defrosted, spoiling tons of frozen food. The unprecedented attack has raised serious questions about food security across Europe."
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-12T18:27+00:00",
-   "earliest": "2026-10-12T18:25+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led Coalition says ballistic missile fired by Houthis intercepted",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/10/12/saudiled-coalition-says-ballistic-missile-fired-by-houthis-intercepted",
-     "via": "",
-     "published": "2026-10-12T18:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Saudi-led coalition says it destroyed Houthi ballistic missile fired towards Riyadh",
-     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-destroyed-houthi-ballistic-missile-fired-towards-2026-10-12/",
-     "via": "",
-     "published": "2026-10-12T18:25+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -647,42 +797,7 @@
      "summary": ""
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-12T15:59+00:00",
-   "earliest": "2026-10-12T07:55+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "China’s carmakers export more as EU caps hybrid vehicle imports at 350,000 a year",
-     "url": "https://apnews.com/article/china-car-sales-exports-evs-0d0bf31b40a68fa75ea6ccf8e9f6467e",
-     "via": "",
-     "published": "2026-10-12T15:59+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "EU and China reach interim trade deal on hybrid vehicle exports",
-     "url": "https://www.seatrade-maritime.com/regulations/eu-and-china-reach-interim-trade-deal-on-hybrid-vehicle-exports",
-     "via": "",
-     "published": "2026-10-12T07:55+00:00",
-     "summary": "China and Europe are likely to cut Chinese hybrid vehicle exports by half"
-    }
-   ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -717,7 +832,42 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-12T14:45+00:00",
+   "earliest": "2026-10-12T09:38+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Opposition parties, supporters march in Delhi despite huge police presence",
+     "url": "https://www.straitstimes.com/asia/south-asia/opposition-parties-supporters-march-in-delhi-despite-huge-police-presence",
+     "via": "",
+     "published": "2026-10-12T14:45+00:00",
+     "summary": "They demanded the sacking of India’s Chief Election Commissioner (CEC) Gyanesh Kumar."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "India news: Opposition parties march to Supreme Court",
+     "url": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-12T09:38+00:00",
+     "summary": "Intensifying their demand for Chief Election Commissioner Gyanesh Kumar's resignation, opposition parties are holding a march to the Supreme Court. Follow DW for more."
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -752,7 +902,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -787,7 +937,7 @@
      "summary": "Saudi Arabia is looking at ways to expand its oil pipeline capacity to destinations outside the Persian Gulf to 10 million barrels a day within two to three years, said Energy Minister Prince Abdulaziz bin Salman."
     }
    ],
-   "id": 14
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -822,7 +972,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -857,42 +1007,7 @@
      "summary": "Starbucks Korea regained the top spot in sales among South Korean coffee chains in September, overtaking A Twosome Place after four months in second place following a public backlash over its controversial \"Tank Day\" promotion. According to by estimated credit and debit card spending data released Sunday by Mobile Index, a market intelligence platform operated by IGAWorks, Starbucks recorded an es"
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Business Standard"
-   ],
-   "regions": [
-    "Africa",
-    "South Asia"
-   ],
-   "latest": "2026-10-12T08:15+00:00",
-   "earliest": "2026-10-11T16:51+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "IMF-World Bank meetings kick off in Thailand with energy shock, AI on agenda",
-     "url": "http://www.africanews.com/2026/10/12/imf-world-bank-meetings-kick-off-in-thailand-with-energy-shock-ai-on-agenda/",
-     "via": "",
-     "published": "2026-10-12T08:15+00:00",
-     "summary": "Finance officials from all over the world are meeting in Bangkok this week for the annual gatherings of the International Monetary Fund and the World Bank. The US-Iran war's energy shock and artificial intelligence should be on the agenda."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "West Asia war, debt woes top agenda of IMF-World Bank meetings in Bangkok",
-     "url": "https://www.business-standard.com/world-news/west-asia-war-debt-woes-top-agenda-of-imf-world-bank-meetings-in-bangkok-126101100789_1.html",
-     "via": "",
-     "published": "2026-10-11T16:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -942,7 +1057,7 @@
      "summary": "Paraguay and Belize are two of just 12 countries to maintain formal diplomatic relations with Taiwan."
     }
    ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -977,77 +1092,7 @@
      "summary": ""
     }
    ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-12T07:15+00:00",
-   "earliest": "2026-10-12T05:07+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "China’s domestic car sales downturn continues, exports retain momentum",
-     "url": "https://www.straitstimes.com/business/companies-markets/chinas-domestic-car-sales-downturn-continues-exports-retain-momentum",
-     "via": "",
-     "published": "2026-10-12T07:15+00:00",
-     "summary": "Passenger vehicle sales fell 28.1% from a year earlier to 1.63 million units in September."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "China home car sales downturn continues, exports retain momentum",
-     "url": "https://www.reuters.com/business/autos-transportation/china-home-car-sales-downturn-continues-exports-retain-momentum-2026-10-12/",
-     "via": "",
-     "published": "2026-10-12T05:07+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-12T04:05+00:00",
-   "earliest": "2026-10-12T04:01+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "As New Zealand First pushes culture-war policies, analysts warn of limited appeal",
-     "url": "https://www.straitstimes.com/asia/australianz/as-new-zealand-first-pushes-culture-war-policies-analysts-warn-of-limited-appeal",
-     "via": "",
-     "published": "2026-10-12T04:05+00:00",
-     "summary": "Some analysts say the same rhetoric that has resonated in other countries is running into a more secular, less polarised electorate in New Zealand."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Why the culture-war push is struggling in New Zealand, even as it surges elsewhere",
-     "url": "https://www.reuters.com/world/asia-pacific/new-zealand-first-pushes-culture-war-policies-analysts-warn-limited-appeal-2026-10-12/",
-     "via": "",
-     "published": "2026-10-12T04:01+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1082,12 +1127,18 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "CBC News",
+     "Al Arabiya"
+    ]
+   ],
    "outlets": [
+    "CBC News",
     "Associated Press",
     "Al Arabiya"
    ],
@@ -1095,9 +1146,18 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-10T15:36+00:00",
+   "latest": "2026-10-10T15:39+00:00",
    "earliest": "2026-10-10T15:01+00:00",
    "items": [
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Portugal suspends Cristiano Ronaldo and initiates disciplinary proceedings after walkout",
+     "url": "https://www.cbc.ca/lite/story/9.7377146",
+     "via": "",
+     "published": "2026-10-10T15:39+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Associated Press",
      "region": "North America",
@@ -1117,7 +1177,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1152,76 +1212,7 @@
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-10T07:17+00:00",
-   "earliest": "2026-10-10T06:50+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Gaza ceasefire promises mostly unfulfilled one year after Trump declared end of war",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/10/gaza-ceasefire-promises-mostly-unfulfilled-one-year-after-trump-declared-end-of-war",
-     "via": "",
-     "published": "2026-10-10T07:17+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "A US-brokered ceasefire was supposed to end the war in Gaza. A year later, progress has stalled",
-     "url": "https://apnews.com/article/israel-palestinians-hamas-war-gaza-ceasefire-explainer-f6c105e8f72d8b478d78312142d888ed",
-     "via": "",
-     "published": "2026-10-10T06:50+00:00",
-     "summary": ""
-    }
-   ],
    "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-12T20:06+00:00",
-   "earliest": "2026-10-12T09:30+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Israeli strike on tent in Gaza’s Khan Younis kills three",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/israeli-strike-on-tent-in-gazas-khan-younis-kills-three?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-12T20:06+00:00",
-     "summary": "Israeli strike on tent in Gaza’s Khan Younis kills three"
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israeli strike kills two people in Gaza, medics say",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/12/israeli-strike-kills-two-people-in-gaza-medics-say",
-     "via": "",
-     "published": "2026-10-12T09:30+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1255,7 +1246,75 @@
      "summary": ""
     }
    ],
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-10-12T12:51+00:00",
+   "earliest": "2026-10-12T08:37+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "LTTS bets on manufacturing AI; eyes 80% revenue from six strategic areas in next 5 years",
+     "url": "https://www.thehindu.com/business/Industry/ltts-bets-on-manufacturing-ai-eyes-80-revenue-from-six-strategic-areas-in-next-5-years/article71575004.ece",
+     "via": "",
+     "published": "2026-10-12T12:51+00:00",
+     "summary": "At the launch of its Bengaluru AI-Native Factory lab, CEO Amit Chadha says AI for manufacturing and operations is a new business area for the company"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "LTTS launches AI-native manufacturing lab in India, plans US facility",
+     "url": "https://www.business-standard.com/technology/artificial-intelligence/ltts-ai-native-ei-lab-digital-manufacturing-physical-ai-126101200447_1.html",
+     "via": "",
+     "published": "2026-10-12T08:37+00:00",
+     "summary": ""
+    }
+   ],
    "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-10-11T17:12+00:00",
+   "earliest": "2026-10-11T16:09+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran says US response to its proposal to reopen Strait of Hormuz was ‘insufficient’",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/11/iran-says-us-response-to-its-proposal-to-reopen-strait-of-hormuz-was-insufficient-",
+     "via": "",
+     "published": "2026-10-11T17:12+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran says US response to its proposal to reopen Hormuz was ‘insufficient’",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-us-response-to-its-proposal-to-reopen-hormuz-was-insufficient/",
+     "via": "",
+     "published": "2026-10-11T16:09+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1289,7 +1348,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 29
   }
  ]
 }
