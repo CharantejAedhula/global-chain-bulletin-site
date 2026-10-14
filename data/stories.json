@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-14T00:20:04+00:00",
+ "fetched_at": "2026-10-14T01:42:59+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 665,
+ "items_read": 669,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -37,47 +37,47 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 53,
+   "items": 51,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 42,
+   "items": 41,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 29,
+   "items": 31,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Euronews": {
@@ -92,12 +92,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 5,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Amwaj.media": {
@@ -127,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 14,
+   "items": 17,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "RNZ": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
@@ -211,7 +211,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "VnExpress International": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,68 +242,47 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Nikkei Asia",
-    "Associated Press",
-    "Al Arabiya",
-    "The Jakarta Post",
-    "Times of Israel"
+    "Al Jazeera",
+    "Financial Times",
+    "Bloomberg"
    ],
    "regions": [
-    "East Asia",
+    "Europe",
     "Middle East",
-    "North America",
-    "Southeast Asia"
+    "North America"
    ],
-   "latest": "2026-10-11T08:02+00:00",
-   "earliest": "2026-10-11T00:47+00:00",
+   "latest": "2026-10-14T00:00+00:00",
+   "earliest": "2026-10-13T20:32+00:00",
    "items": [
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Missile attack on Saudi capital airport kills 12, wounds over 300",
-     "url": "https://asia.nikkei.com/politics/international-relations/missile-attack-on-saudi-capital-airport-kills-12-wounds-over-300",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
      "via": "",
-     "published": "2026-10-11T08:02+00:00",
-     "summary": ""
+     "published": "2026-10-14T00:00+00:00",
+     "summary": "A Saudi Aramco building has been hit in Dhahran, following Saudi-led coalition strikes on Houthi 'vital assets' in Yemen"
     },
     {
-     "outlet": "Associated Press",
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+     "url": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-10-13T22:00+00:00",
+     "summary": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital"
+    },
+    {
+     "outlet": "Bloomberg",
      "region": "North America",
-     "title": "12 killed and over 300 hurt in latest attack on Riyadh airport, Saudi authorities say",
-     "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-f0e0e6105f33400e37bb20bb9a8130af",
+     "title": "Aramco Headquarters Hit as Houthi Missiles Strike Saudi Arabia",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-13/aramco-headquarters-hit-during-houthi-attacks-on-saudi-arabia",
      "via": "",
-     "published": "2026-10-11T05:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Attack on Riyadh airport kills 12, over 300 wounded: Civil aviation authority",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/11/attack-on-riyadh-airport-kills-12-over-300-wounded-civil-aviation-authority-",
-     "via": "",
-     "published": "2026-10-11T03:56+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Houthi attack on Saudi airport kills 12, over 300 wounded",
-     "url": "https://www.thejakartapost.com/world/2026/10/11/houthi-attack-on-saudi-airport-kills-12-over-300-wounded?utm_source",
-     "via": "",
-     "published": "2026-10-11T01:20+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "At least 12 killed, more than 300 hurt in Houthi attack on Riyadh airport",
-     "url": "https://www.timesofisrael.com/dozens-hurt-as-houthis-hit-riyadh-airport-trump-us-may-join-saudi-strikes/",
-     "via": "",
-     "published": "2026-10-11T00:47+00:00",
-     "summary": ""
+     "published": "2026-10-13T20:32+00:00",
+     "summary": "Saudi Aramco’s executive headquarters in eastern Saudi Arabia was hit during a missile attack by Yemen’s Houthi militants on Tuesday, causing a fire in a part of the complex, the kingdom’s energy ministry said."
     }
    ],
    "id": 1
@@ -358,8 +337,132 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "The Korea Herald",
+    "Nikkei Asia",
+    "The Hindu"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-10-14T03:30+00:00",
+   "earliest": "2026-10-13T15:10+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Hyundai bets $15.5b on India as global production hub",
+     "url": "https://www.koreaherald.com/article/10901581",
+     "via": "",
+     "published": "2026-10-14T03:30+00:00",
+     "summary": "NEW DELHI — Hyundai Motor Group is betting $15.5 billion on India over the next seven years, as the Korean auto giant moves to expand its manufacturing footprint and turn the world's third-largest auto market into a major production and export hub. Executive Chair Chung Euisun outlined the investment commitment during talks with Indian Prime Minister Narendra Modi in New Delhi on Tuesday, unveilin"
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Hyundai to invest $15.5bn in Indian manufacturing, R&D",
+     "url": "https://asia.nikkei.com/business/automobiles/hyundai-to-invest-15.5bn-in-indian-manufacturing-r-d",
+     "via": "",
+     "published": "2026-10-13T18:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Hyundai Motor Group to invest $15.5 billion in India by 2032",
+     "url": "https://www.thehindu.com/business/Industry/hyundai-motor-group-to-invest-155-billion-in-india-by-2032/article71580347.ece",
+     "via": "",
+     "published": "2026-10-13T15:10+00:00",
+     "summary": "Focus on manufacturing, R&D and future technologies; India to emerge as a global export hub"
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Bloomberg",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-14T01:15+00:00",
+   "earliest": "2026-10-13T21:00+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US fines Bank of America $1.2bn for money laundering, sanctions violations",
+     "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-14T01:15+00:00",
+     "summary": "The second-largest US bank faces record penalties for failing to comply with money laundering and sanctions laws."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Bank of America Fined More Than $1.2 Billion for Money-Laundering",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-13/bofa-fined-more-than-1-2-billion-for-money-laundering-video",
+     "via": "",
+     "published": "2026-10-13T23:58+00:00",
+     "summary": "Bank of America was fined more than $1.21 billion for money laundering and sanctions violations by US regulators. Katherine Doherty has more on \"The Asia Trade.\" (Source: Bloomberg)"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US hits Bank of America with $1.2 billion fine, saying it violated money laundering, sanctions laws",
+     "url": "https://apnews.com/article/treasury-bank-of-america-money-laundering-29013b2c8f08a3a8d579a96721ed1aa4",
+     "via": "",
+     "published": "2026-10-13T21:00+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Caixin Global"
+   ],
+   "regions": [
+    "China",
+    "East Asia"
+   ],
+   "latest": "2026-10-14T01:13+00:00",
+   "earliest": "2026-10-12T18:17+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "China’s NEV export rebate cut puts budget EV makers under margin pressure",
+     "url": "https://www.digitimes.com/news/a20261013PD237/nev-production-automakers-cost-profit.html",
+     "via": "",
+     "published": "2026-10-14T01:13+00:00",
+     "summary": "China will reduce its export tax rebate for new energy vehicles (NEVs) from 13% to 9% on April 1, 2027, increasing cost pressure on automakers, particularly those selling lower-priced models with thin profit margins. The Ministry of Finance and State Taxation Administration announced the four-percentage-point reduction on October 12."
+    },
+    {
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "China to Cut Export Tax Rebate for New-Energy Vehicles",
+     "url": "https://www.caixinglobal.com/2026-10-13/china-to-cut-export-tax-rebate-for-new-energy-vehicles-102492667.html",
+     "via": "",
+     "published": "2026-10-12T18:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "MercoPress",
-    "Rio Times",
     "Reuters"
    ],
    "regions": [
@@ -379,15 +482,6 @@
      "summary": "Argentina has asked the International Tribunal for the Law of the Sea to order the United Kingdom to prevent the development of the Sea Lion oil project north of the Falklands and to refrain from granting new permits to exploit the resources of the disputed continental shelf, according to a statement published by the Hamburg-based tribunal. The hearing will be set “at the earliest possible date”."
     },
     {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Argentina Asks Sea Tribunal to Halt Falklands Oil Work",
-     "url": "https://www.riotimesonline.com/argentina-falklands-oil-tribunal-2026/",
-     "via": "",
-     "published": "2026-10-13T19:15+00:00",
-     "summary": "Argentina has asked the Law of the Sea tribunal to halt the Sea Lion Falklands oil project. Britain answered with new shields for firms working there. The post Argentina Asks Sea Tribunal to Halt Falklands Oil Work appeared first on The Rio Times ."
-    },
-    {
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Argentina seeks tribunal order against UK oil activity near Falklands",
@@ -397,77 +491,7 @@
      "summary": ""
     }
    ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Financial Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-13T22:00+00:00",
-   "earliest": "2026-10-13T20:32+00:00",
-   "items": [
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
-     "url": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-10-13T22:00+00:00",
-     "summary": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital"
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Aramco Headquarters Hit as Houthi Missiles Strike Saudi Arabia",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-13/aramco-headquarters-hit-during-houthi-attacks-on-saudi-arabia",
-     "via": "",
-     "published": "2026-10-13T20:32+00:00",
-     "summary": "Saudi Aramco’s executive headquarters in eastern Saudi Arabia was hit during a missile attack by Yemen’s Houthi militants on Tuesday, causing a fire in a part of the complex, the kingdom’s energy ministry said."
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-13T21:16+00:00",
-   "earliest": "2026-10-13T20:13+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nasdaq ends lower as chipmakers fall and bank earnings roll in",
-     "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-ends-lower-as-chipmakers-fall-and-bank-earnings-roll-in",
-     "via": "",
-     "published": "2026-10-13T21:16+00:00",
-     "summary": "The Nasdaq declined 0.15% to 27,204.38 points, while the Dow Jones Industrial Average declined 0.35% to 51,670.10 points."
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US stocks: Nasdaq ends down as chipmakers fall and bank earnings roll in",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-nasdaq-ends-down-as-chipmakers-fall-and-bank-earnings-roll-in/articleshow/134926328.cms",
-     "via": "",
-     "published": "2026-10-13T20:13+00:00",
-     "summary": "In a recent trading session, the Nasdaq index took a hit as chip stocks continued their downward spiral, amid diverging results from major banks like Citigroup and Goldman Sachs. The PHLX chip index faced a substantial decline, sparking fears surrounding competition in this sector. Despite the turbulence, analysts express optimism about future earnings linked to AI-driven innovations."
-    }
-   ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -502,7 +526,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -535,41 +559,6 @@
      "via": "",
      "published": "2026-10-12T17:12+00:00",
      "summary": "Republicans already saddled with Trump's unpopular policies in the midterms now face another awkward choice: whether to back his diesel deal with a dictator many of them despise. Why it matters: The agreement President Trump struck with Russian President Vladimir Putin Friday is designed to ease the cost of living for U.S. consumers. But Republicans who pleaded for help with fuel prices now face a"
-    }
-   ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-10-13T17:26+00:00",
-   "earliest": "2026-10-13T14:47+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US chip stocks slide as China’s CXMT advances; AI spending fears rattle investors",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-chip-stocks-slide-as-chinas-cxmt-advances-ai-spending-fears-rattle-investors/articleshow/134923498.cms",
-     "via": "",
-     "published": "2026-10-13T17:26+00:00",
-     "summary": "Shares in US chip manufacturers tumbled, primarily influenced by memory and data storage firms, following competitive moves from China's CXMT. The sector faced significant pressure, stemming from concerns over escalating rivalry and demands for AI investments. Key players like Micron Technology, Seagate Technology, SanDisk, and Western Digital saw notable declines in their stock prices."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US chip stocks extend slide as China memory report, AI spending jitters hit sector",
-     "url": "https://www.reuters.com/world/china/us-chip-stocks-extend-slide-china-memory-report-ai-spending-jitters-hit-sector-2026-10-13/",
-     "via": "",
-     "published": "2026-10-13T14:47+00:00",
-     "summary": ""
     }
    ],
    "id": 8
@@ -836,56 +825,6 @@
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "The Straits Times",
-    "Reuters",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-13T06:05+00:00",
-   "earliest": "2026-10-11T01:41+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Indian police detain 'cockroach' movement leaders demanding election chief stand down",
-     "url": "https://www.straitstimes.com/asia/indian-police-detain-cockroach-movement-leaders-demanding-election-chiefs-resignation",
-     "via": "",
-     "published": "2026-10-13T06:05+00:00",
-     "summary": "NEW DELHI, Oct 13 - India's \\\"cockroach\\\" youth movement leaders were detained on Tuesday after they jumped barricades to enter a historic Delhi site popular for protests, demanding that the chief election commissioner resign over a revision of voter lists."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Indian police detain 'cockroach' movement leaders demanding election chief stand down",
-     "url": "https://www.reuters.com/world/india/indian-police-detain-cockroach-movement-leaders-demanding-election-chiefs-2026-10-13/",
-     "via": "",
-     "published": "2026-10-13T06:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "India detains thousands, locks down Delhi to foil election chief protest",
-     "url": "https://www.thejakartapost.com/world/2026/10/11/india-detains-thousands-locks-down-delhi-to-foil-election-chief-protest",
-     "via": "",
-     "published": "2026-10-11T01:41+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Al Arabiya",
@@ -917,7 +856,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -952,7 +891,7 @@
      "summary": "Starbucks Korea regained the top spot in sales among South Korean coffee chains in September, overtaking A Twosome Place after four months in second place following a public backlash over its controversial \"Tank Day\" promotion. According to by estimated credit and debit card spending data released Sunday by Mobile Index, a market intelligence platform operated by IGAWorks, Starbucks recorded an es"
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -987,41 +926,110 @@
      "summary": ""
     }
    ],
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Nikkei Asia",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "East Asia",
+    "Middle East"
+   ],
+   "latest": "2026-10-11T08:02+00:00",
+   "earliest": "2026-10-11T03:56+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Missile attack on Saudi capital airport kills 12, wounds over 300",
+     "url": "https://asia.nikkei.com/politics/international-relations/missile-attack-on-saudi-capital-airport-kills-12-wounds-over-300",
+     "via": "",
+     "published": "2026-10-11T08:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Attack on Riyadh airport kills 12, over 300 wounded: Civil aviation authority",
+     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/11/attack-on-riyadh-airport-kills-12-over-300-wounded-civil-aviation-authority-",
+     "via": "",
+     "published": "2026-10-11T03:56+00:00",
+     "summary": ""
+    }
+   ],
    "id": 19
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Bloomberg",
-    "Associated Press"
+    "Australian Financial Review",
+    "ABC News (Australia)"
    ],
    "regions": [
-    "North America"
+    "Oceania"
    ],
-   "latest": "2026-10-13T23:58+00:00",
-   "earliest": "2026-10-13T21:00+00:00",
+   "latest": "2026-10-14T01:31+00:00",
+   "earliest": "2026-10-14T00:20+00:00",
    "items": [
     {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Bank of America Fined More Than $1.2 Billion for Money-Laundering",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-13/bofa-fined-more-than-1-2-billion-for-money-laundering-video",
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Court overturns Plibersek’s cultural heritage block on $1b gold mine",
+     "url": "https://www.afr.com/companies/mining/court-overturns-plibersek-s-cultural-heritage-block-on-1b-gold-mine-20261014-p615fq?ref=rss&utm_medium=rss&utm_source=rss_feed",
      "via": "",
-     "published": "2026-10-13T23:58+00:00",
-     "summary": "Bank of America was fined more than $1.21 billion for money laundering and sanctions violations by US regulators. Katherine Doherty has more on \"The Asia Trade.\" (Source: Bloomberg)"
+     "published": "2026-10-14T01:31+00:00",
+     "summary": "Former environment minister Tanya Plibersek used an invalid mechanism to block construction of a NSW mining dam on cultural heritage grounds."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "US hits Bank of America with $1.2 billion fine, saying it violated money laundering, sanctions laws",
-     "url": "https://apnews.com/article/treasury-bank-of-america-money-laundering-29013b2c8f08a3a8d579a96721ed1aa4",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Court dumps Plibersek heritage decision that halted $1b gold mine",
+     "url": "https://www.abc.net.au/news/2026-10-14/federal-court-overturns-commonwealth-gold-mine-decision/107260458",
      "via": "",
-     "published": "2026-10-13T21:00+00:00",
-     "summary": ""
+     "published": "2026-10-14T00:20+00:00",
+     "summary": "The Federal Court rules that a Commonwealth decision that blocked a NSW gold mine was \"made without authority\"."
     }
    ],
    "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-10-14T00:45+00:00",
+   "earliest": "2026-10-12T09:30+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Israeli attacks kill one in Gaza, wound journalists in occupied West Bank",
+     "url": "https://www.aljazeera.com/news/2026/10/14/israeli-attacks-kill-one-in-gaza-wound-journalists-in-occupied-west-bank?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-14T00:45+00:00",
+     "summary": "A year into the ceasefire, nearly two-thirds of Gaza is in Israeli hands and Netanyahu vows control of the West Bank."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israeli strike kills two people in Gaza, medics say",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/12/israeli-strike-kills-two-people-in-gaza-medics-say",
+     "via": "",
+     "published": "2026-10-12T09:30+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1055,7 +1063,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1089,7 +1097,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1123,7 +1131,7 @@
      "summary": "\"Freight revenue during September 2026 increased by ₹1,266 crore over September 2025, registering a 9.3% growth,\" the Railway Board said"
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1157,7 +1165,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1191,7 +1199,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1225,7 +1233,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1256,40 +1264,6 @@
      "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-us-response-to-its-proposal-to-reopen-hormuz-was-insufficient/",
      "via": "",
      "published": "2026-10-11T16:09+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-11T09:32+00:00",
-   "earliest": "2026-10-11T00:29+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US military says it disabled cargo vessel trying to run Iran blockade",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/11/us-military-says-it-disabled-cargo-vessel-trying-to-run-iran-blockade",
-     "via": "",
-     "published": "2026-10-11T09:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US military says it disabled cargo vessel trying to bypass blockade on Iran",
-     "url": "https://www.timesofisrael.com/liveblog_entry/us-military-says-it-disabled-cargo-vessel-trying-to-bypass-iran-blockade/",
-     "via": "",
-     "published": "2026-10-11T00:29+00:00",
      "summary": ""
     }
    ],
