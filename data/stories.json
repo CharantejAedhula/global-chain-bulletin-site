@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-17T01:11:27+00:00",
+ "fetched_at": "2026-10-17T04:27:32+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 809,
+ "items_read": 801,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 66,
+   "items": 65,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 52,
+   "items": 53,
    "errors": []
   },
   "Caixin Global": {
@@ -42,22 +42,22 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 55,
+   "items": 52,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 33,
+   "items": 30,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 44,
+   "items": 41,
    "errors": []
   },
   "DigiTimes": {
@@ -72,12 +72,12 @@
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Euronews": {
@@ -92,27 +92,27 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 4,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 36,
+   "items": 38,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "MEED": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 24,
    "errors": []
   },
   "Bloomberg": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 11,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -159,12 +159,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 28,
+   "items": 22,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 15,
+   "items": 12,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 4,
+   "items": 16,
    "errors": []
   },
   "The Indian Express": {
@@ -206,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 8,
    "errors": []
   },
   "MercoPress": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Rio Times": {
@@ -309,13 +309,68 @@
    "id": 1
   },
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Business Standard",
+    "Nikkei Asia",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-10-17T04:18+00:00",
+   "earliest": "2026-10-17T01:17+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Trump waives key sanctions on Russian oil, invokes Section 115 of the Graham Act: Here's what it means for India",
+     "url": "https://www.livemint.com/news/us-news/trump-waives-key-sanctions-on-russian-oil-invokes-section-115-of-the-graham-act-heres-what-it-means-for-india-11792210114695.html",
+     "via": "",
+     "published": "2026-10-17T04:18+00:00",
+     "summary": "US President Donald Trump on Friday (local time) signed an executive order waiving key Russia-related sanctions and tariffs under the Graham Act, telling Congress that the decision was in the national interest."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Trump waives Russia energy tariffs and sanctions under Graham law",
+     "url": "https://www.business-standard.com/world-news/trump-waives-russia-energy-tariffs-and-sanctions-under-graham-law-126101700093_1.html",
+     "via": "",
+     "published": "2026-10-17T01:55+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Trump waives many Russia-related sanctions, tariffs under new law",
+     "url": "https://asia.nikkei.com/spotlight/trump-administration/trump-waives-many-russia-related-sanctions-tariffs-under-new-law",
+     "via": "",
+     "published": "2026-10-17T01:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
+     "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/",
+     "via": "",
+     "published": "2026-10-17T01:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Reuters",
-    "Financial Times",
-    "Deutsche Welle",
     "CBC News",
+    "Al Arabiya",
     "Times of Israel"
    ],
    "regions": [
@@ -336,30 +391,21 @@
      "summary": ""
     },
     {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Israeli settlers attack Palestinians carrying out olive harvest in West Bank",
-     "url": "https://www.ft.com/content/432c9cff-b86f-4712-8e64-56cf3895d687?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-10-16T19:42+00:00",
-     "summary": "Washington Post journalist among those injured during violence in occupied territory"
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "West Bank: US journalist injured by Israeli settlers",
-     "url": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-16T19:32+00:00",
-     "summary": "Washington Post journalist Heidi Levine said she was beaten by Israeli settlers in the occupied West Bank. Reporters Without Borders slammed the attack as \"brazen violence.\""
-    },
-    {
      "outlet": "CBC News",
      "region": "North America",
      "title": "Israeli settlers attack Palestinians, American journalist during West Bank olive harvest",
      "url": "https://www.cbc.ca/news/world/israeli-settlers-attack-olive-harvest-9.7383174",
      "via": "",
-     "published": "2026-10-16T15:27+00:00",
+     "published": "2026-10-16T14:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israeli Settlers Attack Palestinians During Olive Harvest",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/16/israeli-settlers-attack-palestinians-during-olive-harvest",
+     "via": "",
+     "published": "2026-10-16T11:26+00:00",
      "summary": ""
     },
     {
@@ -370,79 +416,6 @@
      "via": "",
      "published": "2026-10-16T09:09+00:00",
      "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "The Straits Times"
-    ]
-   ],
-   "outlets": [
-    "Reuters",
-    "The Straits Times",
-    "Bloomberg",
-    "Livemint / Economic Times",
-    "Australian Financial Review"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "Oceania",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-16T21:45+00:00",
-   "earliest": "2026-10-16T18:47+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-     "url": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T21:45+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-     "url": "https://www.straitstimes.com/business/companies-markets/us-stocks-close-sharply-lower-worries-about-ai-trade-and-high-oil-prices-weigh",
-     "via": "",
-     "published": "2026-10-16T21:25+00:00",
-     "summary": "The S&P 500 declined 1.09% to end the session at 7,659.44 points while the Nasdaq declined 2.15% to 26,140.03 points."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-16/wall-street-anxiety-spreads-as-ai-rout-meets-110-oil-shock",
-     "via": "",
-     "published": "2026-10-16T20:31+00:00",
-     "summary": "Wall Street has spent the year betting on staggering AI growth while worrying about stubborn inflation. This week, investors got a fresh taste of both risks: a deepening rout in the AI complex that reached into its debt financing, and oil at $110 a barrel threatening to make inflation harder to contain."
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US stocks: US market ends down sharply; worries about AI trade and high oil prices weigh",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-down-sharply-worries-about-ai-trade-and-high-oil-prices-weigh/articleshow/135003266.cms",
-     "via": "",
-     "published": "2026-10-16T20:08+00:00",
-     "summary": "Wall Street faced a sharp decline on Friday as AI-related technology stocks came under renewed pressure. Concerns regarding debt-laden AI infrastructure companies affected investor sentiment heading into the weekend. Additionally, a rise in oil prices fueled market fears about economic stability and rising borrowing costs. The S&P 500, Dow Jones, and Nasdaq all recorded substantial losses amid the"
-    },
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Wall Street tumbles as worries about AI and high oil prices weigh",
-     "url": "https://www.afr.com/markets/equity-markets/wall-street-tumbles-as-worries-about-ai-and-high-oil-prices-weigh-20261017-p616bn?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-16T18:47+00:00",
-     "summary": "CoreWeave plunged again, dragging the Nasdaq down more than 2 per cent, as the tech selloff continues to rattle Wall Street."
     }
    ],
    "id": 3
@@ -520,7 +493,7 @@
     "Africa",
     "Oceania"
    ],
-   "latest": "2026-10-16T20:26+00:00",
+   "latest": "2026-10-16T20:34+00:00",
    "earliest": "2026-10-16T08:51+00:00",
    "items": [
     {
@@ -529,7 +502,7 @@
      "title": "AFC targets iron ore, uranium investments in Africa",
      "url": "https://mining.com.au/afc-targets-iron-ore-uranium-investments-in-africa/",
      "via": "",
-     "published": "2026-10-16T20:26+00:00",
+     "published": "2026-10-16T20:34+00:00",
      "summary": ""
     },
     {
@@ -600,6 +573,178 @@
   },
   {
    "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Al Arabiya"
+    ]
+   ],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-17T02:49+00:00",
+   "earliest": "2026-10-16T12:43+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US-Iran war: Trump says Washington is weighing striking Pickaxe Mountain in Tehran, rejects use of ground troops",
+     "url": "https://www.livemint.com/news/us-news/usiran-war-trump-says-washington-is-weighing-striking-pickaxe-mountain-in-tehran-rejects-use-of-ground-troops-11792204611391.html",
+     "via": "",
+     "published": "2026-10-17T02:49+00:00",
+     "summary": "US President Donald Trump suggested the US could strike Iran’s Pickaxe Mountain nuclear site and dismissed the need for ground troops. He said the war would end soon, as reports indicated he was weighing the use of the “mother of all bombs” if combat resumes."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump says US may need to strike Iran's Pickaxe Mountain",
+     "url": "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
+     "via": "",
+     "published": "2026-10-16T12:54+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump says US may need to strike Iran’s Pickaxe Mountain",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/10/16/trump-says-us-may-need-to-strike-iran-s-pickaxe-mountain",
+     "via": "",
+     "published": "2026-10-16T12:43+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "Australian Financial Review",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-16T21:25+00:00",
+   "earliest": "2026-10-16T11:01+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
+     "url": "https://www.straitstimes.com/business/companies-markets/us-stocks-close-sharply-lower-worries-about-ai-trade-and-high-oil-prices-weigh",
+     "via": "",
+     "published": "2026-10-16T21:25+00:00",
+     "summary": "The S&P 500 declined 1.09% to end the session at 7,659.44 points while the Nasdaq declined 2.15% to 26,140.03 points."
+    },
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Wall Street tumbles as worries about AI and high oil prices weigh",
+     "url": "https://www.afr.com/markets/equity-markets/wall-street-tumbles-as-worries-about-ai-and-high-oil-prices-weigh-20261017-p616bn?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-10-16T18:47+00:00",
+     "summary": "CoreWeave plunged again, dragging the Nasdaq down more than 2 per cent, as the tech selloff continues to rattle Wall Street."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
+     "url": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/",
+     "via": "",
+     "published": "2026-10-16T11:01+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "Latin America"
+   ],
+   "latest": "2026-10-17T03:18+00:00",
+   "earliest": "2026-10-15T03:02+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "US Tech Stocks Fall Over 2% as AI Debt Fears Grow | Global Economy, Oct 17",
+     "url": "https://www.riotimesonline.com/global-economy-briefing-october-17-2026/",
+     "via": "",
+     "published": "2026-10-17T03:18+00:00",
+     "summary": "US tech stocks fell on AI debt worries and the dollar slipped; euro area inflation was confirmed at 3.8% and China's GDP is due on 19 October. The post US Tech Stocks Fall Over 2% as AI Debt Fears Grow | Global Economy, Oct 17 appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Asian stocks plummet as AI debt and inflation fears bite",
+     "url": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite",
+     "via": "",
+     "published": "2026-10-15T03:02+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-17T02:50+00:00",
+   "earliest": "2026-10-16T21:54+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Japan PM Takaichi sends offering to war-linked Yasukuni shrine for autumn rite",
+     "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-sends-offering-to-war-linked-yasukuni-shrine-for-autumn-rite",
+     "via": "",
+     "published": "2026-10-17T02:50+00:00",
+     "summary": "The Shinto shrine has long been a source of diplomatic friction with China and South Korea."
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "BREAKING NEWS: Japan PM sends offering to war-linked Yasukuni shrine for autumn rite",
+     "url": "https://english.kyodonews.net/articles/-/88503",
+     "via": "",
+     "published": "2026-10-16T21:54+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
@@ -631,7 +776,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -644,7 +789,7 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-10-16T20:26+00:00",
+   "latest": "2026-10-16T20:34+00:00",
    "earliest": "2026-10-16T11:08+00:00",
    "items": [
     {
@@ -653,7 +798,7 @@
      "title": "Vale CEO calls for higher iron ore prices as Iran war drives up costs",
      "url": "https://mining.com.au/vale-ceo-calls-for-higher-iron-ore-prices-as-iran-war-drives-up-costs/",
      "via": "",
-     "published": "2026-10-16T20:26+00:00",
+     "published": "2026-10-16T20:34+00:00",
      "summary": ""
     },
     {
@@ -666,7 +811,7 @@
      "summary": "Rising fuel and shipping expenses squeeze producers as weak Chinese demand and new supply push prices to two-year lows."
     }
    ],
-   "id": 8
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -701,7 +846,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -736,7 +881,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -771,7 +916,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -806,7 +951,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -841,7 +986,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -876,7 +1021,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -911,7 +1056,7 @@
      "summary": "Chilean miner's weaker-than-expected output forecast and rising fuel costs raise concerns over earnings and expansion plans."
     }
    ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -946,7 +1091,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -981,7 +1126,7 @@
      "summary": "Refined metal output is set to rebound next year as new smelting capacity comes online, outpacing consumption growth."
     }
    ],
-   "id": 17
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1016,7 +1161,7 @@
      "summary": "An eleventh-hour labour agreement reached at the Chilean operation eases immediate supply concerns as mining disruptions mount nationwide."
     }
    ],
-   "id": 18
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1051,7 +1196,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1064,7 +1209,7 @@
     "East Asia",
     "North America"
    ],
-   "latest": "2026-10-14T20:22+00:00",
+   "latest": "2026-10-14T19:58+00:00",
    "earliest": "2026-10-14T14:16+00:00",
    "items": [
     {
@@ -1073,7 +1218,7 @@
      "title": "GlobalFoundries to open 2 new chip plants in New York with $21 billion in financing from Japan",
      "url": "https://apnews.com/article/globalfoundries-chip-manufacturing-japan-trump-2cba3c18009fc19638dfd721a292bf1a",
      "via": "",
-     "published": "2026-10-14T20:22+00:00",
+     "published": "2026-10-14T19:58+00:00",
      "summary": ""
     },
     {
@@ -1086,42 +1231,41 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 24
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Al Arabiya"
+    "Reuters",
+    "Financial Times"
    ],
    "regions": [
-    "Middle East",
-    "North America"
+    "Europe"
    ],
-   "latest": "2026-10-14T15:36+00:00",
-   "earliest": "2026-10-14T07:16+00:00",
+   "latest": "2026-10-17T00:57+00:00",
+   "earliest": "2026-10-17T00:47+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump says oil, gas and mineral exploration in Greenland is set to begin. It’s not that simple",
-     "url": "https://apnews.com/article/greenland-denmark-trump-oil-security-rare-earths-2974b68aae17d97a69439bd100847d24",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Anthropic offers Blackstone double-digit yield in chip-financing deal, FT reports",
+     "url": "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/",
      "via": "",
-     "published": "2026-10-14T15:36+00:00",
+     "published": "2026-10-17T00:57+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump says ‘massive’ oil, gas and mineral exploration to begin in Greenland",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/10/14/trump-says-massive-oil-gas-and-mineral-exploration-to-begin-in-greenland",
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
+     "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
      "via": "",
-     "published": "2026-10-14T07:16+00:00",
-     "summary": ""
+     "published": "2026-10-17T00:47+00:00",
+     "summary": "High borrowing costs complicate AI lab’s goal of achieving investment-grade status"
     }
    ],
-   "id": 21
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1155,7 +1299,7 @@
      "summary": "Container shipping’s return to Suez Canal transits is in full swing with ONE and HMM expected to be the next lines to transit the Red Sea and canal route"
     }
    ],
-   "id": 22
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1189,7 +1333,7 @@
      "summary": "Under the agreement, carmakers would be required to cut their CO₂ emissions by 90% by 2035, without having to offset the remaining 10%, as initially proposed by the Commission."
     }
    ],
-   "id": 23
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1223,7 +1367,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1257,7 +1401,7 @@
      "summary": "Samsung Electronics Chairman Lee Jae-yong reportedly met with five top executives in Tokyo this week, fueling speculation over the company's semiconductor strategy in Japan and broader business priorities. According to industry sources Thursday, the executives traveled to Tokyo on Tuesday to meet Lee, who was already in Japan. The group included Vice Chairman Chung Hyun-ho, a longtime confidant of"
     }
    ],
-   "id": 25
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1291,7 +1435,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1325,7 +1469,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1359,7 +1503,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 32
   }
  ]
 }
