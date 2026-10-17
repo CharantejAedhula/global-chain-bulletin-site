@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-16T23:38:45+00:00",
+ "fetched_at": "2026-10-17T01:11:27+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 834,
+ "items_read": 809,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 68,
+   "items": 66,
    "errors": []
   },
   "Ecofin Agency": {
@@ -27,7 +27,7 @@
   },
   "Caixin Global": {
    "region": "China",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "South China Morning Post": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 31,
+   "items": 33,
    "errors": []
   },
   "Kyodo News": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 20,
+   "items": 18,
    "errors": []
   },
   "Financial Times": {
@@ -92,12 +92,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Al Arabiya": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Axios": {
@@ -137,14 +137,14 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 14,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "gCaptain": {
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 26,
+   "items": 28,
    "errors": []
   },
   "RNZ": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 31,
+   "items": 26,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 4,
    "errors": []
   },
   "The Indian Express": {
@@ -206,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 30,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "MercoPress": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,73 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 5,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press",
+    "Africanews",
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-16T21:51+00:00",
+   "earliest": "2026-10-15T14:34+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
+     "url": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/",
+     "via": "",
+     "published": "2026-10-16T21:51+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
+     "url": "https://apnews.com/article/mideast-saudi-medina-houthis-october-15-2026-ffa2a29fe8f91f400b0b75067d269ad3",
+     "via": "",
+     "published": "2026-10-15T20:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Houthis struck Riyadh airport 20 times in October, Saudi-led coalition says",
+     "url": "http://www.africanews.com/2026/10/15/houthis-struck-riyadh-airport-20-times-in-october-saudi-led-coalition-says/",
+     "via": "",
+     "published": "2026-10-15T19:16+00:00",
+     "summary": "Yemen’s Houthi rebels have struck Riyadh’s King Khalid international airport 20 times since the start of October. A spokesperson for the Saudi-led coalition said the attacks involved 10 drones, four ballistic missiles, four cruise missiles and two unidentified projectiles."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-Led Coalition: 20 Attacks Targeted Riyadh Airport",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/15/saudiled-coalition-20-attacks-targeted-riyadh-airport",
+     "via": "",
+     "published": "2026-10-15T16:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Saudi Arabia says Houthis declined to meet in Oman, struck Riyadh airport 20 times",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-arabia-says-houthis-declined-to-meet-in-oman-struck-riyadh-airport-20-times/",
+     "via": "",
+     "published": "2026-10-15T14:34+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 5,
    "same_headline_groups": [],
@@ -305,7 +372,80 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "The Straits Times"
+    ]
+   ],
+   "outlets": [
+    "Reuters",
+    "The Straits Times",
+    "Bloomberg",
+    "Livemint / Economic Times",
+    "Australian Financial Review"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Oceania",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-16T21:45+00:00",
+   "earliest": "2026-10-16T18:47+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
+     "url": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/",
+     "via": "",
+     "published": "2026-10-16T21:45+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
+     "url": "https://www.straitstimes.com/business/companies-markets/us-stocks-close-sharply-lower-worries-about-ai-trade-and-high-oil-prices-weigh",
+     "via": "",
+     "published": "2026-10-16T21:25+00:00",
+     "summary": "The S&P 500 declined 1.09% to end the session at 7,659.44 points while the Nasdaq declined 2.15% to 26,140.03 points."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Wall Street Anxiety Spreads as AI Rout Meets $110 Oil Shock",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-16/wall-street-anxiety-spreads-as-ai-rout-meets-110-oil-shock",
+     "via": "",
+     "published": "2026-10-16T20:31+00:00",
+     "summary": "Wall Street has spent the year betting on staggering AI growth while worrying about stubborn inflation. This week, investors got a fresh taste of both risks: a deepening rout in the AI complex that reached into its debt financing, and oil at $110 a barrel threatening to make inflation harder to contain."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US stocks: US market ends down sharply; worries about AI trade and high oil prices weigh",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-down-sharply-worries-about-ai-trade-and-high-oil-prices-weigh/articleshow/135003266.cms",
+     "via": "",
+     "published": "2026-10-16T20:08+00:00",
+     "summary": "Wall Street faced a sharp decline on Friday as AI-related technology stocks came under renewed pressure. Concerns regarding debt-laden AI infrastructure companies affected investor sentiment heading into the weekend. Additionally, a rise in oil prices fueled market fears about economic stability and rising borrowing costs. The S&P 500, Dow Jones, and Nasdaq all recorded substantial losses amid the"
+    },
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Wall Street tumbles as worries about AI and high oil prices weigh",
+     "url": "https://www.afr.com/markets/equity-markets/wall-street-tumbles-as-worries-about-ai-and-high-oil-prices-weigh-20261017-p616bn?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-10-16T18:47+00:00",
+     "summary": "CoreWeave plunged again, dragging the Nasdaq down more than 2 per cent, as the tech selloff continues to rattle Wall Street."
+    }
+   ],
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -366,7 +506,7 @@
      "summary": "Federal Reserve Chairman Kevin Warsh did nothing to dispel market expectations that the US central bank will hold interest rates steady when it meets at the end of the month."
     }
    ],
-   "id": 2
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -411,7 +551,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -454,86 +594,6 @@
      "via": "",
      "published": "2026-10-15T06:02+00:00",
      "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Africa",
-    "Middle East"
-   ],
-   "latest": "2026-10-15T19:16+00:00",
-   "earliest": "2026-10-15T14:34+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Houthis struck Riyadh airport 20 times in October, Saudi-led coalition says",
-     "url": "http://www.africanews.com/2026/10/15/houthis-struck-riyadh-airport-20-times-in-october-saudi-led-coalition-says/",
-     "via": "",
-     "published": "2026-10-15T19:16+00:00",
-     "summary": "Yemen’s Houthi rebels have struck Riyadh’s King Khalid international airport 20 times since the start of October. A spokesperson for the Saudi-led coalition said the attacks involved 10 drones, four ballistic missiles, four cruise missiles and two unidentified projectiles."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-Led Coalition: 20 Attacks Targeted Riyadh Airport",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/15/saudiled-coalition-20-attacks-targeted-riyadh-airport",
-     "via": "",
-     "published": "2026-10-15T16:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi Arabia says Houthis declined to meet in Oman, struck Riyadh airport 20 times",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-arabia-says-houthis-declined-to-meet-in-oman-struck-riyadh-airport-20-times/",
-     "via": "",
-     "published": "2026-10-15T14:34+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Australian Financial Review"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-16T21:25+00:00",
-   "earliest": "2026-10-16T18:47+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-     "url": "https://www.straitstimes.com/business/companies-markets/us-stocks-close-sharply-lower-worries-about-ai-trade-and-high-oil-prices-weigh",
-     "via": "",
-     "published": "2026-10-16T21:25+00:00",
-     "summary": "The S&P 500 declined 1.09% to end the session at 7,659.44 points while the Nasdaq declined 2.15% to 26,140.03 points."
-    },
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Wall Street tumbles as worries about AI and high oil prices weigh",
-     "url": "https://www.afr.com/markets/equity-markets/wall-street-tumbles-as-worries-about-ai-and-high-oil-prices-weigh-20261017-p616bn?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-16T18:47+00:00",
-     "summary": "CoreWeave plunged again, dragging the Nasdaq down more than 2 per cent, as the tech selloff continues to rattle Wall Street."
     }
    ],
    "id": 6
@@ -857,41 +917,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-15T20:19+00:00",
-   "earliest": "2026-10-15T09:08+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
-     "url": "https://apnews.com/article/mideast-saudi-medina-houthis-october-15-2026-ffa2a29fe8f91f400b0b75067d269ad3",
-     "via": "",
-     "published": "2026-10-15T20:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi coalition says missile intercepted in Medina",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/10/15/saudi-coalition-says-missile-intercepted-in-medina-",
-     "via": "",
-     "published": "2026-10-15T09:08+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Deutsche Welle",
     "Al Arabiya"
    ],
@@ -921,7 +946,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -956,7 +981,7 @@
      "summary": "Refined metal output is set to rebound next year as new smelting capacity comes online, outpacing consumption growth."
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -991,7 +1016,7 @@
      "summary": "An eleventh-hour labour agreement reached at the Chilean operation eases immediate supply concerns as mining disruptions mount nationwide."
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1026,39 +1051,74 @@
      "summary": ""
     }
    ],
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "North America"
+   ],
+   "latest": "2026-10-14T20:22+00:00",
+   "earliest": "2026-10-14T14:16+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "GlobalFoundries to open 2 new chip plants in New York with $21 billion in financing from Japan",
+     "url": "https://apnews.com/article/globalfoundries-chip-manufacturing-japan-trump-2cba3c18009fc19638dfd721a292bf1a",
+     "via": "",
+     "published": "2026-10-14T20:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Japan to invest $21bn in up to two GlobalFoundries chip factories in New York",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-to-invest-21bn-in-up-to-two-globalfoundries-chip-factories-in-new-york",
+     "via": "",
+     "published": "2026-10-14T14:16+00:00",
+     "summary": ""
+    }
+   ],
    "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "The Straits Times"
+    "Associated Press",
+    "Al Arabiya"
    ],
    "regions": [
-    "South Asia",
-    "Southeast Asia"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-10-15T03:59+00:00",
-   "earliest": "2026-10-14T23:50+00:00",
+   "latest": "2026-10-14T15:36+00:00",
+   "earliest": "2026-10-14T07:16+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Would halt chip supply to buyers who develop unsafe AI, says Nvidia CEO",
-     "url": "https://www.business-standard.com/technology/tech-news/would-halt-chip-supply-to-buyers-who-develop-unsafe-ai-says-nvidia-ceo-126101500180_1.html",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump says oil, gas and mineral exploration in Greenland is set to begin. It’s not that simple",
+     "url": "https://apnews.com/article/greenland-denmark-trump-oil-security-rare-earths-2974b68aae17d97a69439bd100847d24",
      "via": "",
-     "published": "2026-10-15T03:59+00:00",
+     "published": "2026-10-14T15:36+00:00",
      "summary": ""
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia CEO says he would cut off buyers who build unsafe AI",
-     "url": "https://www.straitstimes.com/business/nvidia-ceo-says-he-would-cut-off-buyers-who-build-unsafe-ai",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump says ‘massive’ oil, gas and mineral exploration to begin in Greenland",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/10/14/trump-says-massive-oil-gas-and-mineral-exploration-to-begin-in-greenland",
      "via": "",
-     "published": "2026-10-14T23:50+00:00",
-     "summary": "Nvidia is the dominant supplier of the chips used to train and run AI models."
+     "published": "2026-10-14T07:16+00:00",
+     "summary": ""
     }
    ],
    "id": 21
@@ -1169,40 +1229,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Hindu",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-10-16T07:55+00:00",
-   "earliest": "2026-10-16T04:10+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Non-tariff barriers are biggest hurdle in India-China trade, says Nirmala Sitharaman",
-     "url": "https://www.thehindu.com/business/Economy/non-tariff-barriers-are-biggest-hurdle-in-india-china-trade-says-nirmala-sitharaman/article71591327.ece",
-     "via": "",
-     "published": "2026-10-16T07:55+00:00",
-     "summary": "India-U.S. trade agreement would be concluded at the earliest, in the interest of global trade and bilateral economic ties between the two countries, says the Union Finance Minister"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "China's trade barriers remain a hurdle to closer bilateral ties: Sitharaman",
-     "url": "https://www.business-standard.com/economy/news/china-s-trade-barriers-remain-a-hurdle-to-closer-bilateral-ties-sitharaman-126101600181_1.html",
-     "via": "",
-     "published": "2026-10-16T04:10+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "DigiTimes",
     "The Korea Herald"
    ],
@@ -1231,7 +1257,7 @@
      "summary": "Samsung Electronics Chairman Lee Jae-yong reportedly met with five top executives in Tokyo this week, fueling speculation over the company's semiconductor strategy in Japan and broader business priorities. According to industry sources Thursday, the executives traveled to Tokyo on Tuesday to meet Lee, who was already in Japan. The group included Vice Chairman Chung Hyun-ho, a longtime confidant of"
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1265,7 +1291,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1299,7 +1325,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1333,41 +1359,7 @@
      "summary": ""
     }
    ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Yicai Global",
-    "Caixin Global"
-   ],
-   "regions": [
-    "China"
-   ],
-   "latest": "2026-10-14T08:14+00:00",
-   "earliest": "2026-10-14T06:04+00:00",
-   "items": [
-    {
-     "outlet": "Yicai Global",
-     "region": "China",
-     "title": "China’s Consumer Inflation Rises at Faster Pace in September as Factory Gate Prices Hit Over Four-Year High",
-     "url": "https://www.yicaiglobal.com/news/chinas-consumer-factory-gate-prices-grow-at-faster-pace-in-september",
-     "via": "",
-     "published": "2026-10-14T08:14+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Caixin Global",
-     "region": "China",
-     "title": "China’s Factory-Gate Inflation Hits Four-Year High as Consumer Prices Lag",
-     "url": "https://www.caixinglobal.com/2026-10-14/chinas-factory-gate-inflation-hits-four-year-high-as-consumer-prices-lag-102493295.html",
-     "via": "",
-     "published": "2026-10-14T06:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 30
+   "id": 28
   }
  ]
 }
