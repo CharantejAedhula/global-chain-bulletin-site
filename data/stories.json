@@ -1,63 +1,63 @@
 {
- "fetched_at": "2026-10-17T04:27:32+00:00",
+ "fetched_at": "2026-10-17T23:09:42+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 801,
+ "items_read": 698,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 65,
+   "items": 56,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 53,
+   "items": 42,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 31,
+   "items": 27,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 52,
+   "items": 50,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 30,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 41,
+   "items": 39,
    "errors": []
   },
   "DigiTimes": {
@@ -77,12 +77,12 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 8,
+   "items": 10,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 7,
+   "items": 11,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -92,22 +92,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 16,
+   "items": 8,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 38,
+   "items": 36,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 25,
+   "items": 31,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,29 +122,29 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 24,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 9,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 13,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 22,
+   "items": 12,
    "errors": []
   },
   "gCaptain": {
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 22,
+   "items": 18,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 26,
+   "items": 14,
    "errors": []
   },
   "PortNews": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 26,
+   "items": 29,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 12,
+   "items": 14,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
@@ -206,12 +206,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 19,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "VnExpress International": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,42 +242,168 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
+    "gCaptain",
+    "Livemint / Economic Times",
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-10-17T14:44+00:00",
+   "earliest": "2026-10-17T02:04+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Iran’s Guards Say Two Tankers Hit Mines In Strait Of Hormuz",
+     "url": "https://gcaptain.com/irans-guards-say-two-tankers-hit-mines-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-10-17T14:44+00:00",
+     "summary": "DUBAI, Oct 17 (Reuters) – Iran’s Revolutionary Guards Navy said on Saturday that two oil tankers had caught fire after hitting naval mines while crossing the Strait of Hormuz, the official Iranian news agency..."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Iran says supertanker carrying 2 million barrels of crude ablaze after hitting naval mine in Strait of Hormuz",
+     "url": "https://www.livemint.com/news/world/iran-says-supertanker-carrying-2-million-barrels-of-crude-ablaze-after-hitting-naval-mine-in-strait-of-hormuz-11792232414310.html",
+     "via": "",
+     "published": "2026-10-17T10:47+00:00",
+     "summary": "Iran’s IRGC Navy said a supertanker carrying over 2 million barrels of crude oil caught fire after hitting a naval mine while crossing the Strait of Hormuz via an unauthorised route. The incident comes amid rising attacks on shipping and Tehran’s tightening grip on the strategic waterway."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Tanker explodes after hitting mine in Strait of Hormuz: Iran’s IRGC",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/17/tanker-explodes-after-hitting-mine-in-strait-of-hormuz-iran-s-irgc",
+     "via": "",
+     "published": "2026-10-17T07:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran Guards say oil tanker exploded after hitting mine in 'unauthorized' route through Hormuz",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-guards-say-oil-tanker-exploded-after-hitting-mine-in-unauthorized-route-through-hormuz/",
+     "via": "",
+     "published": "2026-10-17T02:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "ABC News (Australia)",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Oceania"
+   ],
+   "latest": "2026-10-17T18:11+00:00",
+   "earliest": "2026-10-17T11:40+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Albanian police fire rubber bullets and arrest hundreds as anti-government protests enter fifth day",
+     "url": "https://www.euronews.com/2026/10/17/albanian-police-fire-rubber-bullets-and-arrest-hundreds-as-anti-government-protests-enter-",
+     "via": "",
+     "published": "2026-10-17T18:11+00:00",
+     "summary": "Violent clashes were reported in the capital, Tirana, where protesters threw stones at police, who responded with tear gas, according to Euronews Albania, as nationwide demonstrations entered their fifth consecutive day."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Fires and tear gas as French protests spiral",
+     "url": "https://www.abc.net.au/news/2026-10-18/france-protests-education-cost-of-living/107279688",
+     "via": "",
+     "published": "2026-10-17T14:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "French Police Fire Tear Gas, Detain Protesters",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/17/french-police-fire-tear-gas-detain-protesters",
+     "via": "",
+     "published": "2026-10-17T11:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
     "Associated Press",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-17T07:52+00:00",
+   "earliest": "2026-10-15T06:32+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "North Korea says it tested new AI-powered torpedo system",
+     "url": "https://www.euronews.com/2026/10/17/north-korea-says-it-tested-new-ai-powered-torpedo-system",
+     "via": "",
+     "published": "2026-10-17T07:52+00:00",
+     "summary": "It comes after North Korea tested two types of underwater-launched strategic cruise missiles on Wednesday as part of what is believed to be a push to bolster its naval capabilities."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "North Korea holds first underwater-launched missile tests in nearly 3 years",
+     "url": "https://apnews.com/article/north-korea-missiles-south-korea-submarines-a9c469a236ade7921e7dee2456542740",
+     "via": "",
+     "published": "2026-10-15T09:21+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "North Korea says it test-fired submarine-launched cruise missiles Wednesday",
+     "url": "https://english.kyodonews.net/articles/-/88206",
+     "via": "",
+     "published": "2026-10-15T06:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Africanews",
     "Al Arabiya",
     "Times of Israel"
    ],
    "regions": [
     "Africa",
-    "Europe",
-    "Middle East",
-    "North America"
+    "Middle East"
    ],
-   "latest": "2026-10-16T21:51+00:00",
+   "latest": "2026-10-15T19:16+00:00",
    "earliest": "2026-10-15T14:34+00:00",
    "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
-     "url": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T21:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
-     "url": "https://apnews.com/article/mideast-saudi-medina-houthis-october-15-2026-ffa2a29fe8f91f400b0b75067d269ad3",
-     "via": "",
-     "published": "2026-10-15T20:19+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Africanews",
      "region": "Africa",
@@ -306,321 +432,7 @@
      "summary": ""
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Business Standard",
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-10-17T04:18+00:00",
-   "earliest": "2026-10-17T01:17+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Trump waives key sanctions on Russian oil, invokes Section 115 of the Graham Act: Here's what it means for India",
-     "url": "https://www.livemint.com/news/us-news/trump-waives-key-sanctions-on-russian-oil-invokes-section-115-of-the-graham-act-heres-what-it-means-for-india-11792210114695.html",
-     "via": "",
-     "published": "2026-10-17T04:18+00:00",
-     "summary": "US President Donald Trump on Friday (local time) signed an executive order waiving key Russia-related sanctions and tariffs under the Graham Act, telling Congress that the decision was in the national interest."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Trump waives Russia energy tariffs and sanctions under Graham law",
-     "url": "https://www.business-standard.com/world-news/trump-waives-russia-energy-tariffs-and-sanctions-under-graham-law-126101700093_1.html",
-     "via": "",
-     "published": "2026-10-17T01:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Trump waives many Russia-related sanctions, tariffs under new law",
-     "url": "https://asia.nikkei.com/spotlight/trump-administration/trump-waives-many-russia-related-sanctions-tariffs-under-new-law",
-     "via": "",
-     "published": "2026-10-17T01:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
-     "url": "https://www.reuters.com/world/europe/trump-waives-many-russia-related-sanctions-tariffs-before-they-were-take-effect-2026-10-17/",
-     "via": "",
-     "published": "2026-10-17T01:17+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "CBC News",
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-16T20:05+00:00",
-   "earliest": "2026-10-16T09:09+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Israeli settlers burn olive trees, injure journalist in West Bank attack",
-     "url": "https://www.reuters.com/world/middle-east/israeli-settlers-burn-olive-trees-injure-journalist-west-bank-attack-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T20:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "Israeli settlers attack Palestinians, American journalist during West Bank olive harvest",
-     "url": "https://www.cbc.ca/news/world/israeli-settlers-attack-olive-harvest-9.7383174",
-     "via": "",
-     "published": "2026-10-16T14:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israeli Settlers Attack Palestinians During Olive Harvest",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/16/israeli-settlers-attack-palestinians-during-olive-harvest",
-     "via": "",
-     "published": "2026-10-16T11:26+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Several said hurt, including Washington Post photographer, as settlers attack Palestinians in West Bank during olive harvest",
-     "url": "https://www.timesofisrael.com/liveblog_entry/reports-settlers-attack-palestinians-at-several-locations-in-west-bank-during-olive-harvest/",
-     "via": "",
-     "published": "2026-10-16T09:09+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Bloomberg"
-    ]
-   ],
-   "outlets": [
-    "Axios",
-    "Euronews",
-    "The Straits Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-16T10:25+00:00",
-   "earliest": "2026-10-16T04:57+00:00",
-   "items": [
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Warsh signals steady Fed outlook despite inflation jump",
-     "url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates",
-     "via": "",
-     "published": "2026-10-16T10:25+00:00",
-     "summary": "Federal Reserve chairman Kevin Warsh said Friday that the economy has largely performed as expected since September's rate hike, hinting that little has changed in the central bank's outlook. Why it matters: The Fed is weighing another interest rate increase later this month as inflation heats up and the economy remains strong. What they're saying: \"Over the month or so that's transpired since the"
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Fed’s Warsh sees AI boosting productivity but gives no signal on next rate hike",
-     "url": "https://www.euronews.com/2026/10/16/feds-warsh-sees-ai-boosting-productivity-but-gives-no-signal-on-next-rate-hike",
-     "via": "",
-     "published": "2026-10-16T09:27+00:00",
-     "summary": "US Federal Reserve Chairman Kevin Warsh said in Bangkok on Friday that the global economy has proved surprisingly resilient and called AI the most consequential change of his lifetime, but gave no hint on interest rates ahead of the Fed’s meeting this month."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Warsh boosts market expectations of Fed rate hold in October",
-     "url": "https://www.straitstimes.com/business/warsh-boosts-market-expectations-of-fed-rate-hold-in-october",
-     "via": "",
-     "published": "2026-10-16T07:00+00:00",
-     "summary": "Investors had pared their bets for a rate hike at the US central bank’s Oct 27-28 policy gathering."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Warsh Boosts Market Expectations of Fed Rate Hold in October",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-16/warsh-boosts-market-expectations-of-fed-hold-in-october",
-     "via": "",
-     "published": "2026-10-16T04:57+00:00",
-     "summary": "Federal Reserve Chairman Kevin Warsh did nothing to dispel market expectations that the US central bank will hold interest rates steady when it meets at the end of the month."
-    }
-   ],
    "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Ecofin Agency",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-10-16T20:34+00:00",
-   "earliest": "2026-10-16T08:51+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "AFC targets iron ore, uranium investments in Africa",
-     "url": "https://mining.com.au/afc-targets-iron-ore-uranium-investments-in-africa/",
-     "via": "",
-     "published": "2026-10-16T20:34+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "South Africa Launches $541 Million Upgrade of Iron Ore Export Railway",
-     "url": "https://www.ecofinagency.com/news-infrastructures/1610-59829-south-africa-launches-541-million-upgrade-of-iron-ore-export-railway",
-     "via": "",
-     "published": "2026-10-16T10:24+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "AFC eyes iron-ore and uranium investments in Africa",
-     "url": "https://www.miningweekly.com/article/afc-eyes-iron-ore-and-uranium-investments-in-africa-2026-10-16",
-     "via": "",
-     "published": "2026-10-16T08:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "The Straits Times",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-15T19:19+00:00",
-   "earliest": "2026-10-15T06:02+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "TSMC's net profit hits record in third quarter",
-     "url": "https://www.koreaherald.com/article/10904221",
-     "via": "",
-     "published": "2026-10-15T19:19+00:00",
-     "summary": "TAIPEI (AFP) -- Taiwanese chip giant TSMC said Thursday that net profit soared to another record high in the third quarter, buoyed by massive global demand for AI hardware. The result marked the sixth straight record quarterly net profit for the company, the world's biggest contract maker of microchips, including those used in Nvidia AI data center processors. But with the AI boom only growing, an"
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Taiwan chip giant TSMC says net profit hit record in third quarter",
-     "url": "https://www.straitstimes.com/business/taiwan-chip-giant-tsmc-says-net-profit-hit-record-in-third-quarter",
-     "via": "",
-     "published": "2026-10-15T06:40+00:00",
-     "summary": "The result marked the sixth straight record quarterly net profit for the world’s biggest contract maker of microchips."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "TSMC profit soars 69% in another record quarter fueled by AI boom",
-     "url": "https://asia.nikkei.com/business/tech/semiconductors/tsmc-profit-soars-69-in-another-record-quarter-fueled-by-ai-boom",
-     "via": "",
-     "published": "2026-10-15T06:02+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Al Arabiya"
-    ]
-   ],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-10-17T02:49+00:00",
-   "earliest": "2026-10-16T12:43+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US-Iran war: Trump says Washington is weighing striking Pickaxe Mountain in Tehran, rejects use of ground troops",
-     "url": "https://www.livemint.com/news/us-news/usiran-war-trump-says-washington-is-weighing-striking-pickaxe-mountain-in-tehran-rejects-use-of-ground-troops-11792204611391.html",
-     "via": "",
-     "published": "2026-10-17T02:49+00:00",
-     "summary": "US President Donald Trump suggested the US could strike Iran’s Pickaxe Mountain nuclear site and dismissed the need for ground troops. He said the war would end soon, as reports indicated he was weighing the use of the “mother of all bombs” if combat resumes."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump says US may need to strike Iran's Pickaxe Mountain",
-     "url": "https://www.reuters.com/world/trump-says-us-may-need-strike-irans-pickaxe-mountain-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T12:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump says US may need to strike Iran’s Pickaxe Mountain",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/10/16/trump-says-us-may-need-to-strike-iran-s-pickaxe-mountain",
-     "via": "",
-     "published": "2026-10-16T12:43+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -671,38 +483,143 @@
      "summary": ""
     }
    ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-17T17:51+00:00",
+   "earliest": "2026-10-15T08:17+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Romanian fighter jets shoot down 2 drones over Black Sea",
+     "url": "https://www.dw.com/en/romanian-fighter-jets-shoot-down-2-drones-over-black-sea/a-79689156?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-17T17:51+00:00",
+     "summary": "Romanian Air Force F-16s shot down drones over Romanian territorial waters. Earlier this week, two chemical tankers were hit by drones near Romania's Black Sea coast."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Two ships ablaze in Romanian Black Sea waters, eight sailors missing",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/10/15/two-ships-ablaze-in-romanian-black-sea-waters-eight-sailors-missing",
+     "via": "",
+     "published": "2026-10-15T08:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-17T17:49+00:00",
+   "earliest": "2026-10-17T16:49+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Egypt's Ssisi says he'll defend Saudi Arabia, if asked",
+     "url": "https://www.dw.com/en/egypt-s-ssisi-says-he-ll-defend-saudi-arabia-if-asked/a-79689105?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-17T17:49+00:00",
+     "summary": "The Egyptian president said his country was ready to defend Saudi Arabia \"if requested.\" The comments come amid escalating Houthi attacks."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-17T16:49+00:00",
+     "summary": "Egyptian President Abdel Fattah el-Sisi has vowed to take 'any measure' to defend Saudi Arabia amid Houthi attacks."
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-10-17T16:35+00:00",
+   "earliest": "2026-10-15T13:00+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Hyundai Motor Group to invest $15.5 billion in India by 2032",
+     "url": "https://www.thehindu.com/business/Industry/hyundai-motor-group-to-invest-155-billion-in-india-by-2032/article71580347.ece",
+     "via": "",
+     "published": "2026-10-17T16:35+00:00",
+     "summary": "Focus on manufacturing, R&D and future technologies; India to emerge as a global export hub"
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Hyundai vice chair maps out $15.5b India spending on plants, AI",
+     "url": "https://www.koreaherald.com/article/10903710",
+     "via": "",
+     "published": "2026-10-15T13:00+00:00",
+     "summary": "PUNE, India — Hyundai Motor Group will allocate 60 percent of its planned $15.5 billion investment in India to expanding manufacturing capacity, with the remainder going toward emerging technologies, research and talent development, as the Korean auto giant steps up its push in one of the world's fastest-growing car markets. Vice Chair Chang Jae-hoon outlined the investment breakdown Wednesday fol"
+    }
+   ],
    "id": 8
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Rio Times",
-    "Nikkei Asia"
+    "Deutsche Welle",
+    "Al Arabiya"
    ],
    "regions": [
-    "East Asia",
-    "Latin America"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-10-17T03:18+00:00",
-   "earliest": "2026-10-15T03:02+00:00",
+   "latest": "2026-10-17T16:29+00:00",
+   "earliest": "2026-10-17T15:34+00:00",
    "items": [
     {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "US Tech Stocks Fall Over 2% as AI Debt Fears Grow | Global Economy, Oct 17",
-     "url": "https://www.riotimesonline.com/global-economy-briefing-october-17-2026/",
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "West Bank: Israeli settlers attack EU diplomats, French mayor",
+     "url": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-17T03:18+00:00",
-     "summary": "US tech stocks fell on AI debt worries and the dollar slipped; euro area inflation was confirmed at 3.8% and China's GDP is due on 19 October. The post US Tech Stocks Fall Over 2% as AI Debt Fears Grow | Global Economy, Oct 17 appeared first on The Rio Times ."
+     "published": "2026-10-17T16:29+00:00",
+     "summary": "A group of Israeli settlers attacked vehicles carrying European diplomats in the West Bank, a day after an American photographer was beaten. Belgium and France have condemned the attack."
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Asian stocks plummet as AI debt and inflation fears bite",
-     "url": "https://asia.nikkei.com/business/markets/asian-stocks-plummet-as-ai-debt-and-inflation-fears-bite",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israeli settlers attack diplomatic cars in West Bank, beat French mayor: Witnesses",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/17/israeli-settlers-attack-diplomatic-cars-in-west-bank-beat-french-mayor-witnesses",
      "via": "",
-     "published": "2026-10-15T03:02+00:00",
+     "published": "2026-10-17T15:34+00:00",
      "summary": ""
     }
    ],
@@ -712,33 +629,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Kyodo News"
+    "Reuters",
+    "Bloomberg"
    ],
    "regions": [
-    "East Asia",
-    "Southeast Asia"
+    "Europe",
+    "North America"
    ],
-   "latest": "2026-10-17T02:50+00:00",
-   "earliest": "2026-10-16T21:54+00:00",
+   "latest": "2026-10-17T14:03+00:00",
+   "earliest": "2026-10-17T13:01+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Japan PM Takaichi sends offering to war-linked Yasukuni shrine for autumn rite",
-     "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-sends-offering-to-war-linked-yasukuni-shrine-for-autumn-rite",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
+     "url": "https://www.reuters.com/world/americas/bank-canada-sees-sharply-higher-inflation-outlook-oil-surges-macklem-says-2026-10-17/",
      "via": "",
-     "published": "2026-10-17T02:50+00:00",
-     "summary": "The Shinto shrine has long been a source of diplomatic friction with China and South Korea."
+     "published": "2026-10-17T14:03+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "BREAKING NEWS: Japan PM sends offering to war-linked Yasukuni shrine for autumn rite",
-     "url": "https://english.kyodonews.net/articles/-/88503",
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Macklem Sees Higher Oil Prices Boosting Growth, Inflation",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-17/bank-of-canada-sees-higher-oil-prices-boosting-growth-inflation",
      "via": "",
-     "published": "2026-10-16T21:54+00:00",
-     "summary": ""
+     "published": "2026-10-17T13:01+00:00",
+     "summary": "Bank of Canada Governor Tiff Macklem said he’s seeing more evidence that higher oil prices are supporting economic growth in Canada, and expects the bank will have a higher inflation forecast at the end of the month."
     }
    ],
    "id": 10
@@ -747,36 +664,176 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "Kyodo News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-17T09:05+00:00",
+   "earliest": "2026-10-17T02:50+00:00",
+   "items": [
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Japan PM sends offering to war-linked Yasukuni shrine for autumn rite",
+     "url": "https://english.kyodonews.net/articles/-/88503",
+     "via": "",
+     "published": "2026-10-17T09:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Japan PM Takaichi sends offering to war-linked Yasukuni Shrine in autumn rite",
+     "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-sends-offering-to-war-linked-yasukuni-shrine-for-autumn-rite",
+     "via": "",
+     "published": "2026-10-17T02:50+00:00",
+     "summary": "The Shinto shrine has long been a source of diplomatic friction with China and South Korea."
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East"
+   ],
+   "latest": "2026-10-17T08:51+00:00",
+   "earliest": "2026-10-16T18:49+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Iran denies being behind Houthi attacks as Aden airport hit",
+     "url": "http://www.africanews.com/2026/10/17/iran-denies-being-behind-houthi-attacks-as-aden-airport-hit/",
+     "via": "",
+     "published": "2026-10-17T08:51+00:00",
+     "summary": "Iran has denied any involvement in an escalation of attacks by Houthi rebels on Saudi targets. The international airport in Yemen’s interim capital Aden was struck by two missiles late on Friday, the second such incident in less than two weeks."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran denies Saudi accusation of involvement in Houthi attacks",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-denies-saudi-accusation-of-involvement-in-houthi-attacks/",
+     "via": "",
+     "published": "2026-10-16T18:49+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MercoPress",
     "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America"
+   ],
+   "latest": "2026-10-17T06:17+00:00",
+   "earliest": "2026-10-16T18:35+00:00",
+   "items": [
+    {
+     "outlet": "MercoPress",
+     "region": "Latin America",
+     "title": "Brent touches US$110 for the first time since May on Middle East tensions",
+     "url": "https://en.mercopress.com/2026/10/17/brent-touches-us-110-for-the-first-time-since-may-on-middle-east-tensions?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "via": "",
+     "published": "2026-10-17T06:17+00:00",
+     "summary": "Brent crude reached US$110 a barrel on Friday for the first time since May, driven by fears that escalation in the Middle East could further tighten supplies and by doubts over how much diesel Russia can supply to the market. Brent settled 3.7% higher at US$109.86, its highest since May 19, while US benchmark WTI rose 3.5% to US$101.41."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears",
+     "url": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/",
+     "via": "",
+     "published": "2026-10-16T18:35+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "Al Arabiya"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-10-16T21:08+00:00",
-   "earliest": "2026-10-16T20:28+00:00",
+   "latest": "2026-10-17T04:00+00:00",
+   "earliest": "2026-10-15T15:15+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
-     "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Houthis encircle new target in conflict with Saudi-backed forces",
+     "url": "https://www.ft.com/content/73329157-1277-42f5-802e-fc339415b5ce?syn-25a6b1a6=1",
      "via": "",
-     "published": "2026-10-16T21:08+00:00",
-     "summary": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro's profile and his WhatsApp channel."
+     "published": "2026-10-17T04:00+00:00",
+     "summary": "Iran-backed rebels surround Taiz, one of Yemen’s largest cities, as conflict with Riyadh and its local allies escalates"
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Meta employees said Lula's accounts were hindered during Brazil election, Folha reports",
-     "url": "https://www.reuters.com/world/americas/meta-employees-said-lulas-accounts-were-hindered-during-brazil-election-folha-2026-10-16/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Yemen govt forces say Houthis targeted Marib city with missiles",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/15/yemen-govt-forces-say-houthis-targeted-marib-city-with-missiles",
      "via": "",
-     "published": "2026-10-16T20:28+00:00",
+     "published": "2026-10-15T15:15+00:00",
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-17T02:09+00:00",
+   "earliest": "2026-10-17T01:51+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Trump puts new Russia sanctions on hold",
+     "url": "https://www.dw.com/en/trump-puts-new-russia-sanctions-on-hold/a-79685002?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-17T02:09+00:00",
+     "summary": "The US president cited national interests for his decision to sign a waiver on sanctions Congress voted to place on Russia."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest",
+     "url": "https://apnews.com/article/russia-sanctions-trump-ukraine-e50c561ab805883bb4e484c092d8fadd",
+     "via": "",
+     "published": "2026-10-17T01:51+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -811,7 +868,42 @@
      "summary": "Rising fuel and shipping expenses squeeze producers as weak Chinese demand and new supply push prices to two-year lows."
     }
    ],
-   "id": 12
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-16T19:32+00:00",
+   "earliest": "2026-10-16T11:27+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "West Bank: US journalist injured by Israeli settlers",
+     "url": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-16T19:32+00:00",
+     "summary": "Washington Post journalist Heidi Levine said she was beaten by Israeli settlers in the occupied West Bank. Reporters Without Borders slammed the attack as \"brazen violence.\""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Washington Post Journalist Injured in West Bank Settler Attack",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/16/washington-post-journalist-injured-in-west-bank-settler-attack",
+     "via": "",
+     "published": "2026-10-16T11:27+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -846,7 +938,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -881,42 +973,42 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 19
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Al Arabiya"
+    "CBC News",
+    "Times of Israel"
    ],
    "regions": [
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-16T13:25+00:00",
-   "earliest": "2026-10-16T13:23+00:00",
+   "latest": "2026-10-16T15:27+00:00",
+   "earliest": "2026-10-16T09:09+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
+     "outlet": "CBC News",
      "region": "North America",
-     "title": "Qatar pledges a lifeline for Lebanon’s economy, power grid and reconstruction in the south",
-     "url": "https://apnews.com/article/lebanon-qatar-israel-south-electricity-totalenergies-qatarenergy-da8c3798c9b31240752bf35a9912dc0d",
+     "title": "Israeli settlers attack Palestinians, American journalist during West Bank olive harvest",
+     "url": "https://www.cbc.ca/news/world/israeli-settlers-attack-olive-harvest-9.7383174",
      "via": "",
-     "published": "2026-10-16T13:25+00:00",
+     "published": "2026-10-16T15:27+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
+     "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Qatar pledges to help spark Lebanon energy, electricity revival",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/16/qatar-pledges-to-help-spark-lebanon-energy-electricity-revival",
+     "title": "Several said hurt, including Washington Post photographer, as settlers attack Palestinians in West Bank during olive harvest",
+     "url": "https://www.timesofisrael.com/liveblog_entry/reports-settlers-attack-palestinians-at-several-locations-in-west-bank-during-olive-harvest/",
      "via": "",
-     "published": "2026-10-16T13:23+00:00",
+     "published": "2026-10-16T09:09+00:00",
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -951,77 +1043,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-10-16T07:37+00:00",
-   "earliest": "2026-10-15T08:22+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "EnergyPathways takes steps to expedite hydrogen, graphite facility",
-     "url": "https://mining.com.au/energypathways-takes-steps-to-expedite-hydrogen-graphite-facility/",
-     "via": "",
-     "published": "2026-10-16T07:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "UK-based EnergyPathways works to commercialise hydrogen, graphite project early",
-     "url": "https://www.miningweekly.com/article/uk-based-energypathways-works-to-commercialise-hydrogen-graphite-project-early-2026-10-15",
-     "via": "",
-     "published": "2026-10-15T08:22+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-10-16T06:52+00:00",
-   "earliest": "2026-10-16T01:27+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "BHP sues union at Spence copper mine over 'illegal' stoppages",
-     "url": "https://www.miningweekly.com/article/bhp-sues-union-at-spence-copper-mine-over-illegal-stoppages-2026-10-16",
-     "via": "",
-     "published": "2026-10-16T06:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "BHP sues union at Spence copper mine over ‘illegal’ production stoppages",
-     "url": "https://mining.com.au/bhp-sues-union-at-spence-copper-mine-over-illegal-production-stoppages/",
-     "via": "",
-     "published": "2026-10-16T01:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1056,182 +1078,41 @@
      "summary": "Chilean miner's weaker-than-expected output forecast and rising fuel costs raise concerns over earnings and expansion plans."
     }
    ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-15T14:34+00:00",
-   "earliest": "2026-10-15T08:17+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
-     "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-15T14:34+00:00",
-     "summary": "Two chemical tankers have caught fire in Romanian territorial waters in the Black Sea. The blazes occurred after Russian drones were sighted in Romanian airspace."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Two ships ablaze in Romanian Black Sea waters, eight sailors missing",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/10/15/two-ships-ablaze-in-romanian-black-sea-waters-eight-sailors-missing",
-     "via": "",
-     "published": "2026-10-15T08:17+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-10-15T06:55+00:00",
-   "earliest": "2026-10-14T14:26+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "ICSG sees global refined copper surplus widening in 2027",
-     "url": "https://www.miningweekly.com/article/icsg-sees-global-refined-copper-surplus-widening-in-2027-2026-10-15",
-     "via": "",
-     "published": "2026-10-15T06:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Global copper surplus to more than triple by 2027: ICSG",
-     "url": "https://www.mining.com/global-copper-surplus-to-more-than-triple-by-2027-icsg/",
-     "via": "",
-     "published": "2026-10-14T14:26+00:00",
-     "summary": "Refined metal output is set to rebound next year as new smelting capacity comes online, outpacing consumption growth."
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-10-15T06:52+00:00",
-   "earliest": "2026-10-14T10:56+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "BHP, Escondida supervisors reach deal to avert strike at Chile copper mine",
-     "url": "https://www.miningweekly.com/article/bhp-escondida-supervisors-reach-deal-to-avert-strike-at-chile-copper-mine-2026-10-15",
-     "via": "",
-     "published": "2026-10-15T06:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "BHP averts strike at world’s biggest copper mine",
-     "url": "https://www.mining.com/bhp-averts-strike-at-worlds-biggest-copper-mine-2/",
-     "via": "",
-     "published": "2026-10-14T10:56+00:00",
-     "summary": "An eleventh-hour labour agreement reached at the Chilean operation eases immediate supply concerns as mining disruptions mount nationwide."
-    }
-   ],
    "id": 22
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "Associated Press"
+    "Business Standard",
+    "Livemint / Economic Times"
    ],
    "regions": [
-    "Africa",
-    "North America"
+    "South Asia"
    ],
-   "latest": "2026-10-15T06:46+00:00",
-   "earliest": "2026-10-14T08:13+00:00",
+   "latest": "2026-10-17T13:43+00:00",
+   "earliest": "2026-10-17T10:05+00:00",
    "items": [
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Taiwan cites progress on Alaska LNG after Trump says it will buy 30% of output",
-     "url": "https://www.miningweekly.com/article/taiwan-cites-progress-on-alaska-lng-after-trump-says-it-will-buy-30-of-output-2026-10-15",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "FSSAI proposes curbs on added sugar in infant food, pesticide limits in tea",
+     "url": "https://www.business-standard.com/industry/news/fssai-proposes-curbs-on-added-sugar-in-infant-food-pesticide-limits-in-tea-126101700797_1.html",
      "via": "",
-     "published": "2026-10-15T06:46+00:00",
+     "published": "2026-10-17T13:43+00:00",
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Taiwan plans to buy liquefied natural gas from Alaska pipeline project",
-     "url": "https://apnews.com/article/taiwan-us-gas-alaska-35e41251ac55327ae2f83fbbf73d101d",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "FSSAI proposes ban on added sugar in baby food for infants aged up to six months",
+     "url": "https://www.livemint.com/news/india/fssai-proposes-ban-on-added-sugar-in-baby-food-for-infants-aged-0-6-months-11792228547856.html",
      "via": "",
-     "published": "2026-10-14T08:13+00:00",
-     "summary": ""
+     "published": "2026-10-17T10:05+00:00",
+     "summary": "FSSAI’s draft amendment seeks to prohibit sucrose and fructose in infant nutrition products intended for babies aged up to six months, tightening standards amid concerns over early sugar exposure and childhood obesity."
     }
    ],
    "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "North America"
-   ],
-   "latest": "2026-10-14T19:58+00:00",
-   "earliest": "2026-10-14T14:16+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "GlobalFoundries to open 2 new chip plants in New York with $21 billion in financing from Japan",
-     "url": "https://apnews.com/article/globalfoundries-chip-manufacturing-japan-trump-2cba3c18009fc19638dfd721a292bf1a",
-     "via": "",
-     "published": "2026-10-14T19:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Japan to invest $21bn in up to two GlobalFoundries chip factories in New York",
-     "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-to-invest-21bn-in-up-to-two-globalfoundries-chip-factories-in-new-york",
-     "via": "",
-     "published": "2026-10-14T14:16+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1265,75 +1146,7 @@
      "summary": "High borrowing costs complicate AI lab’s goal of achieving investment-grade status"
     }
    ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Hellenic Shipping News",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-10-16T21:00+00:00",
-   "earliest": "2026-10-14T09:53+00:00",
-   "items": [
-    {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Container carriers adjust rates, add services to Americas, continue gradual return to Suez",
-     "url": "https://www.hellenicshippingnews.com/container-carriers-adjust-rates-add-services-to-americas-continue-gradual-return-to-suez/",
-     "via": "",
-     "published": "2026-10-16T21:00+00:00",
-     "summary": "Global container shipping companies are increasing rates along some trade lanes, adding stops to existing services to the Americas, and improving transit times between India and the US East Coast via gradual returns to the Suez Canal. PRICE HIKES Global container shipper CMA CGM will raise rates for shipments between Oceania and the Americas by ..."
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Full Suez return for container carriers expected by Q1 2027",
-     "url": "https://www.seatrade-maritime.com/containers/full-suez-return-for-container-carriers-expected-by-q1-2027",
-     "via": "",
-     "published": "2026-10-14T09:53+00:00",
-     "summary": "Container shipping’s return to Suez Canal transits is in full swing with ONE and HMM expected to be the next lines to transit the Red Sea and canal route"
-    }
-   ],
-   "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-10-16T15:44+00:00",
-   "earliest": "2026-10-16T12:36+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "France, Germany strike deal on car emissions and UK special status",
-     "url": "https://www.reuters.com/business/france-germany-agree-deal-car-emissions-uk-special-status-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T15:44+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "France and Germany strike car-industry deal linking 2035 engine rules to ‘Made in Europe’ push",
-     "url": "https://www.euronews.com/2026/10/16/france-and-germany-strike-car-industry-deal-linking-2035-engine-rules-to-made-in-europe-pu",
-     "via": "",
-     "published": "2026-10-16T12:36+00:00",
-     "summary": "Under the agreement, carmakers would be required to cut their CO₂ emissions by 90% by 2035, without having to offset the remaining 10%, as initially proposed by the Commission."
-    }
-   ],
-   "id": 27
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1367,7 +1180,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1401,7 +1214,41 @@
      "summary": "Samsung Electronics Chairman Lee Jae-yong reportedly met with five top executives in Tokyo this week, fueling speculation over the company's semiconductor strategy in Japan and broader business priorities. According to industry sources Thursday, the executives traveled to Tokyo on Tuesday to meet Lee, who was already in Japan. The group included Vice Chairman Chung Hyun-ho, a longtime confidant of"
     }
    ],
-   "id": 29
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Korea Herald",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-10-15T19:19+00:00",
+   "earliest": "2026-10-15T06:02+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "TSMC's net profit hits record in third quarter",
+     "url": "https://www.koreaherald.com/article/10904221",
+     "via": "",
+     "published": "2026-10-15T19:19+00:00",
+     "summary": "TAIPEI (AFP) -- Taiwanese chip giant TSMC said Thursday that net profit soared to another record high in the third quarter, buoyed by massive global demand for AI hardware. The result marked the sixth straight record quarterly net profit for the company, the world's biggest contract maker of microchips, including those used in Nvidia AI data center processors. But with the AI boom only growing, an"
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "TSMC profit soars 69% in another record quarter fueled by AI boom",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/tsmc-profit-soars-69-in-another-record-quarter-fueled-by-ai-boom",
+     "via": "",
+     "published": "2026-10-15T06:02+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1435,7 +1282,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1469,41 +1316,7 @@
      "summary": ""
     }
    ],
-   "id": 31
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-10-14T16:22+00:00",
-   "earliest": "2026-10-14T11:28+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Japan weighs considering nuclear-powered subs in updated security policies",
-     "url": "https://asia.nikkei.com/politics/defense/japan-weighs-considering-nuclear-powered-subs-in-updated-security-policies",
-     "via": "",
-     "published": "2026-10-14T16:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Japan PM says to \"seriously consider\" introduction of nuclear subs",
-     "url": "https://english.kyodonews.net/articles/-/88192",
-     "via": "",
-     "published": "2026-10-14T11:28+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 32
+   "id": 29
   }
  ]
 }
