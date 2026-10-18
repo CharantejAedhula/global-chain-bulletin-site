@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-18T00:46:01+00:00",
+ "fetched_at": "2026-10-18T04:35:09+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 697,
+ "items_read": 696,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 56,
+   "items": 60,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 27,
+   "items": 26,
    "errors": []
   },
   "Yicai Global": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 19,
+   "items": 16,
    "errors": []
   },
   "Kyodo News": {
@@ -57,7 +57,7 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 38,
+   "items": 32,
    "errors": []
   },
   "DigiTimes": {
@@ -67,12 +67,12 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 6,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 14,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 9,
+   "items": 11,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 13,
+   "items": 14,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,22 +154,22 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
+   "items": 18,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Interfax": {
@@ -180,23 +180,21 @@
   "PortNews": {
    "region": "Russia",
    "items": 0,
-   "errors": [
-    "https://en.portnews.ru/news/rss/: TimeoutError: The read operation timed out"
-   ]
+   "errors": []
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 29,
+   "items": 27,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 14,
+   "items": 17,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
@@ -213,7 +211,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "VnExpress International": {
@@ -244,9 +242,10 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
+    "Al Jazeera",
     "gCaptain",
     "Livemint / Economic Times",
     "Al Arabiya",
@@ -257,9 +256,18 @@
     "North America",
     "South Asia"
    ],
-   "latest": "2026-10-17T14:44+00:00",
+   "latest": "2026-10-18T01:54+00:00",
    "earliest": "2026-10-17T02:04+00:00",
    "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
+     "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-18T01:54+00:00",
+     "summary": "The vessels, each carrying about two million barrels of crude oil, used an unauthorised route, the IRGC says."
+    },
     {
      "outlet": "gCaptain",
      "region": "North America",
@@ -298,52 +306,6 @@
     }
    ],
    "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "ABC News (Australia)",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "Oceania"
-   ],
-   "latest": "2026-10-17T18:11+00:00",
-   "earliest": "2026-10-17T11:40+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Albanian police fire rubber bullets and arrest hundreds as anti-government protests enter fifth day",
-     "url": "https://www.euronews.com/2026/10/17/albanian-police-fire-rubber-bullets-and-arrest-hundreds-as-anti-government-protests-enter-",
-     "via": "",
-     "published": "2026-10-17T18:11+00:00",
-     "summary": "Violent clashes were reported in the capital, Tirana, where protesters threw stones at police, who responded with tear gas, according to Euronews Albania, as nationwide demonstrations entered their fifth consecutive day."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Fires and tear gas as French protests spiral",
-     "url": "https://www.abc.net.au/news/2026-10-18/france-protests-education-cost-of-living/107279688",
-     "via": "",
-     "published": "2026-10-17T14:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "French Police Fire Tear Gas, Detain Protesters",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/17/french-police-fire-tear-gas-detain-protesters",
-     "via": "",
-     "published": "2026-10-17T11:40+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -389,52 +351,7 @@
      "summary": ""
     }
    ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-17T23:21+00:00",
-   "earliest": "2026-10-15T21:19+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-     "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-17T23:21+00:00",
-     "summary": "Forces intercepted and destroyed four drones over Saudi Arabia's Riyadh, Eastern Province and southern region."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
-     "url": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T21:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-Led Coalition Forces Intercept Multiple Drones",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/16/saudiled-coalition-forces-intercept-multiple-drones",
-     "via": "",
-     "published": "2026-10-15T21:19+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -479,6 +396,76 @@
      "summary": ""
     }
    ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-18T03:40+00:00",
+   "earliest": "2026-10-18T03:15+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
+     "url": "https://www.straitstimes.com/asia/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions",
+     "via": "",
+     "published": "2026-10-18T03:40+00:00",
+     "summary": "Oct 17 - The day after waiving sanctions and tariffs related to Russian exports, US President Donald Trump said on Saturday he has yet to announce a final decision on the matter as Secretary of State Marco Rubio said officials want more time to evaluate the situation."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Russia sanctions waiver: Rubio calls India 'important ally' says it is hard to pivot energy portfolio in one day",
+     "url": "https://www.livemint.com/news/india/russia-sanctions-waiver-rubio-calls-india-important-ally-says-it-is-hard-to-pivot-energy-portfolio-in-one-day-11792292816506.html",
+     "via": "",
+     "published": "2026-10-18T03:15+00:00",
+     "summary": "A day after US President Donald Trump announced he would waive key sanctions related to Russia under the Graham Act, Marco Rubio explained why the US waived some energy tariffs."
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Kyodo News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-18T02:15+00:00",
+   "earliest": "2026-10-17T02:50+00:00",
+   "items": [
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Japan PM sends offering to war-linked Yasukuni shrine for autumn rite",
+     "url": "https://english.kyodonews.net/articles/-/88503",
+     "via": "",
+     "published": "2026-10-18T02:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Japan PM Takaichi sends offering to war-linked Yasukuni Shrine in autumn rite",
+     "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-sends-offering-to-war-linked-yasukuni-shrine-for-autumn-rite",
+     "via": "",
+     "published": "2026-10-17T02:50+00:00",
+     "summary": "The Shinto shrine has long been a source of diplomatic friction with China and South Korea."
+    }
+   ],
    "id": 5
   },
   {
@@ -492,17 +479,17 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-18T00:00+00:00",
-   "earliest": "2026-10-17T20:16+00:00",
+   "latest": "2026-10-18T01:02+00:00",
+   "earliest": "2026-10-17T15:59+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Iran war live: Tankers hit in Hormuz; Israeli settlers attack EU diplomats",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
+     "title": "Israeli settlers attack European diplomats in the occupied West Bank",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
      "via": "",
-     "published": "2026-10-18T00:00+00:00",
-     "summary": "Fires reported on three tankers, as masked settlers attack European politicians in the occupied West Bank."
+     "published": "2026-10-18T01:02+00:00",
+     "summary": "Masked Israeli settlers attacked European diplomats, a French mayor and Palestinians in the occupied West Bank."
     },
     {
      "outlet": "Associated Press",
@@ -510,11 +497,46 @@
      "title": "Masked settlers attack European diplomats in the occupied West Bank",
      "url": "https://apnews.com/article/west-bank-israel-european-diplomats-settlers-89ebd068167669db357ad1fa4f3a8758",
      "via": "",
-     "published": "2026-10-17T20:16+00:00",
+     "published": "2026-10-17T15:59+00:00",
      "summary": ""
     }
    ],
    "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-18T00:48+00:00",
+   "earliest": "2026-10-17T22:53+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Venezuela Sees Nearly $76 Billion Oil Investment Over Five Years",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/venezuela-sees-nearly-76-billion-oil-investment-over-five-years",
+     "via": "",
+     "published": "2026-10-18T00:48+00:00",
+     "summary": "Venezuela expects almost $76 billion of investment in its oil and gas sector over the next five years, Acting President Delcy Rodríguez said Saturday, as the country seeks to draw private capital into a push to boost energy production."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says",
+     "url": "https://www.reuters.com/business/energy/venezuela-expects-nearly-76-billion-oil-investment-over-five-years-acting-2026-10-17/",
+     "via": "",
+     "published": "2026-10-17T22:53+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -549,112 +571,42 @@
      "summary": "Romanian Air Force F-16s shot down drones over Romanian territorial waters. Earlier this week, two chemical tankers were hit by drones near Romania's Black Sea coast."
     }
    ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-17T17:49+00:00",
-   "earliest": "2026-10-17T16:49+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Egypt's Ssisi says he'll defend Saudi Arabia, if asked",
-     "url": "https://www.dw.com/en/egypt-s-ssisi-says-he-ll-defend-saudi-arabia-if-asked/a-79689105?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-17T17:49+00:00",
-     "summary": "The Egyptian president said his country was ready to defend Saudi Arabia \"if requested.\" The comments come amid escalating Houthi attacks."
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-17T16:49+00:00",
-     "summary": "Egyptian President Abdel Fattah el-Sisi has vowed to take 'any measure' to defend Saudi Arabia amid Houthi attacks."
-    }
-   ],
    "id": 8
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Hindu",
-    "The Korea Herald"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-10-17T16:35+00:00",
-   "earliest": "2026-10-15T13:00+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Hyundai Motor Group to invest $15.5 billion in India by 2032",
-     "url": "https://www.thehindu.com/business/Industry/hyundai-motor-group-to-invest-155-billion-in-india-by-2032/article71580347.ece",
-     "via": "",
-     "published": "2026-10-17T16:35+00:00",
-     "summary": "Focus on manufacturing, R&D and future technologies; India to emerge as a global export hub"
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Hyundai vice chair maps out $15.5b India spending on plants, AI",
-     "url": "https://www.koreaherald.com/article/10903710",
-     "via": "",
-     "published": "2026-10-15T13:00+00:00",
-     "summary": "PUNE, India — Hyundai Motor Group will allocate 60 percent of its planned $15.5 billion investment in India to expanding manufacturing capacity, with the remainder going toward emerging technologies, research and talent development, as the Korean auto giant steps up its push in one of the world's fastest-growing car markets. Vice Chair Chang Jae-hoon outlined the investment breakdown Wednesday fol"
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
+    "Euronews",
     "Al Arabiya"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-10-17T16:29+00:00",
-   "earliest": "2026-10-17T15:34+00:00",
+   "latest": "2026-10-17T18:11+00:00",
+   "earliest": "2026-10-17T11:40+00:00",
    "items": [
     {
-     "outlet": "Deutsche Welle",
+     "outlet": "Euronews",
      "region": "Europe",
-     "title": "West Bank: Israeli settlers attack EU diplomats, French mayor",
-     "url": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-all-1573-rdf",
+     "title": "Albanian police fire rubber bullets and arrest hundreds as anti-government protests enter fifth day",
+     "url": "https://www.euronews.com/2026/10/17/albanian-police-fire-rubber-bullets-and-arrest-hundreds-as-anti-government-protests-enter-",
      "via": "",
-     "published": "2026-10-17T16:29+00:00",
-     "summary": "A group of Israeli settlers attacked vehicles carrying European diplomats in the West Bank, a day after an American photographer was beaten. Belgium and France have condemned the attack."
+     "published": "2026-10-17T18:11+00:00",
+     "summary": "Violent clashes were reported in the capital, Tirana, where protesters threw stones at police, who responded with tear gas, according to Euronews Albania, as nationwide demonstrations entered their fifth consecutive day."
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Israeli settlers attack diplomatic cars in West Bank, beat French mayor: Witnesses",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/17/israeli-settlers-attack-diplomatic-cars-in-west-bank-beat-french-mayor-witnesses",
+     "title": "French Police Fire Tear Gas, Detain Protesters",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/17/french-police-fire-tear-gas-detain-protesters",
      "via": "",
-     "published": "2026-10-17T15:34+00:00",
+     "published": "2026-10-17T11:40+00:00",
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -689,42 +641,7 @@
      "summary": "Bank of Canada Governor Tiff Macklem said he’s seeing more evidence that higher oil prices are supporting economic growth in Canada, and expects the bank will have a higher inflation forecast at the end of the month."
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Kyodo News",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-17T09:05+00:00",
-   "earliest": "2026-10-17T02:50+00:00",
-   "items": [
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Japan PM sends offering to war-linked Yasukuni shrine for autumn rite",
-     "url": "https://english.kyodonews.net/articles/-/88503",
-     "via": "",
-     "published": "2026-10-17T09:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Japan PM Takaichi sends offering to war-linked Yasukuni Shrine in autumn rite",
-     "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-sends-offering-to-war-linked-yasukuni-shrine-for-autumn-rite",
-     "via": "",
-     "published": "2026-10-17T02:50+00:00",
-     "summary": "The Shinto shrine has long been a source of diplomatic friction with China and South Korea."
-    }
-   ],
-   "id": 12
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -759,7 +676,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -773,7 +690,7 @@
     "Latin America"
    ],
    "latest": "2026-10-17T06:17+00:00",
-   "earliest": "2026-10-16T00:57+00:00",
+   "earliest": "2026-10-16T18:35+00:00",
    "items": [
     {
      "outlet": "MercoPress",
@@ -790,46 +707,11 @@
      "title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears",
      "url": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/",
      "via": "",
-     "published": "2026-10-16T00:57+00:00",
+     "published": "2026-10-16T18:35+00:00",
      "summary": ""
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Financial Times",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-17T04:00+00:00",
-   "earliest": "2026-10-15T15:15+00:00",
-   "items": [
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Houthis encircle new target in conflict with Saudi-backed forces",
-     "url": "https://www.ft.com/content/73329157-1277-42f5-802e-fc339415b5ce?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-10-17T04:00+00:00",
-     "summary": "Iran-backed rebels surround Taiz, one of Yemen’s largest cities, as conflict with Riyadh and its local allies escalates"
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Yemen govt forces say Houthis targeted Marib city with missiles",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/15/yemen-govt-forces-say-houthis-targeted-marib-city-with-missiles",
-     "via": "",
-     "published": "2026-10-15T15:15+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -864,7 +746,7 @@
      "summary": "The US president cited national interests for his decision to sign a waiver on sanctions Congress voted to place on Russia."
     }
    ],
-   "id": 16
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -899,7 +781,7 @@
      "summary": "Rising fuel and shipping expenses squeeze producers as weak Chinese demand and new supply push prices to two-year lows."
     }
    ],
-   "id": 17
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -934,7 +816,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -969,7 +851,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1004,42 +886,7 @@
      "summary": ""
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-16T12:10+00:00",
-   "earliest": "2026-10-16T12:03+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Iran Ships Some LPG, Jet Fuel Despite US Blockade, Data Shows",
-     "url": "https://gcaptain.com/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows/",
-     "via": "",
-     "published": "2026-10-16T12:10+00:00",
-     "summary": "Iran has managed to export some liquefied petroleum gas and jet fuel since July, despite a US naval blockade, shipping intelligence showed and people involved in security said."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EXCLUSIVE: Iran ships some LPG, jet fuel despite US blockade, data shows",
-     "url": "https://www.reuters.com/business/energy/iran-ships-some-lpg-jet-fuel-despite-us-blockade-data-shows-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T12:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1074,7 +921,7 @@
      "summary": "Chilean miner's weaker-than-expected output forecast and rising fuel costs raise concerns over earnings and expansion plans."
     }
    ],
-   "id": 22
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1109,7 +956,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1144,75 +991,7 @@
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-10-17T13:43+00:00",
-   "earliest": "2026-10-17T10:05+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "FSSAI proposes curbs on added sugar in infant food, pesticide limits in tea",
-     "url": "https://www.business-standard.com/industry/news/fssai-proposes-curbs-on-added-sugar-in-infant-food-pesticide-limits-in-tea-126101700797_1.html",
-     "via": "",
-     "published": "2026-10-17T13:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "FSSAI proposes ban on added sugar in baby food for infants aged up to six months",
-     "url": "https://www.livemint.com/news/india/fssai-proposes-ban-on-added-sugar-in-baby-food-for-infants-aged-0-6-months-11792228547856.html",
-     "via": "",
-     "published": "2026-10-17T10:05+00:00",
-     "summary": "FSSAI’s draft amendment seeks to prohibit sucrose and fructose in infant nutrition products intended for babies aged up to six months, tightening standards amid concerns over early sugar exposure and childhood obesity."
-    }
-   ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Financial Times"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-10-17T00:57+00:00",
-   "earliest": "2026-10-17T00:47+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Anthropic offers Blackstone double-digit yield in chip-financing deal, FT reports",
-     "url": "https://www.reuters.com/business/anthropic-offers-blackstone-double-digit-yield-chip-financing-deal-ft-reports-2026-10-17/",
-     "via": "",
-     "published": "2026-10-17T00:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
-     "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-10-17T00:47+00:00",
-     "summary": "High borrowing costs complicate AI lab’s goal of achieving investment-grade status"
-    }
-   ],
-   "id": 26
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1246,7 +1025,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1280,41 +1059,7 @@
      "summary": "Samsung Electronics Chairman Lee Jae-yong reportedly met with five top executives in Tokyo this week, fueling speculation over the company's semiconductor strategy in Japan and broader business priorities. According to industry sources Thursday, the executives traveled to Tokyo on Tuesday to meet Lee, who was already in Japan. The group included Vice Chairman Chung Hyun-ho, a longtime confidant of"
     }
    ],
-   "id": 28
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-10-15T19:19+00:00",
-   "earliest": "2026-10-15T06:02+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "TSMC's net profit hits record in third quarter",
-     "url": "https://www.koreaherald.com/article/10904221",
-     "via": "",
-     "published": "2026-10-15T19:19+00:00",
-     "summary": "TAIPEI (AFP) -- Taiwanese chip giant TSMC said Thursday that net profit soared to another record high in the third quarter, buoyed by massive global demand for AI hardware. The result marked the sixth straight record quarterly net profit for the company, the world's biggest contract maker of microchips, including those used in Nvidia AI data center processors. But with the AI boom only growing, an"
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "TSMC profit soars 69% in another record quarter fueled by AI boom",
-     "url": "https://asia.nikkei.com/business/tech/semiconductors/tsmc-profit-soars-69-in-another-record-quarter-fueled-by-ai-boom",
-     "via": "",
-     "published": "2026-10-15T06:02+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 29
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1348,7 +1093,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1382,7 +1127,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 24
   }
  ]
 }
