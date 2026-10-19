@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-19T00:59:17+00:00",
+ "fetched_at": "2026-10-19T04:41:50+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 581,
+ "items_read": 616,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,17 +17,17 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 38,
+   "items": 37,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "South China Morning Post": {
@@ -37,17 +37,17 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 3,
+   "items": 5,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 43,
+   "items": 53,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 14,
+   "items": 12,
    "errors": []
   },
   "Kyodo News": {
@@ -57,32 +57,32 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 25,
+   "items": 21,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 24,
+   "items": 30,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 25,
+   "items": 29,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 1,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -97,22 +97,22 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 4,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 37,
+   "items": 36,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 35,
+   "items": 34,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
@@ -127,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 8,
+   "items": 13,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 12,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -149,7 +149,7 @@
   },
   "gCaptain": {
    "region": "North America",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "ABC News (Australia)": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 14,
+   "items": 19,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 10,
+   "items": 12,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 11,
+   "items": 17,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "MercoPress": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 8,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,12 +242,70 @@
  },
  "clusters": [
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters",
+    "Business Standard",
+    "Axios"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-19T01:30+00:00",
+   "earliest": "2026-10-17T19:18+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Oil slips as Trump’s sanction waiver may lead to more Russian fuel supplies",
+     "url": "https://www.straitstimes.com/business/companies-markets/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies",
+     "via": "",
+     "published": "2026-10-19T01:30+00:00",
+     "summary": "Trump signed an executive order waiving key sanctions and tariffs under the Graham Act."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies",
+     "url": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/",
+     "via": "",
+     "published": "2026-10-18T22:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Many don't know what my decision is: Trump on Russia sanctions waiver",
+     "url": "https://www.business-standard.com/world-news/many-don-t-know-what-my-decision-is-trump-on-russia-sanctions-waiver-126101800091_1.html",
+     "via": "",
+     "published": "2026-10-18T04:38+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump's Russia waiver draws instant bipartisan backlash",
+     "url": "https://www.axios.com/2026/10/17/trump-russia-waiver-putin-republicans-democrats",
+     "via": "",
+     "published": "2026-10-17T19:18+00:00",
+     "summary": "Top Republicans and Democrats alike lined up Saturday to condemn President Trump 's decision to waive recent sanctions on Russia , calling it \"irresponsible\" and \"a deal with the devil.\" Why it matters : Trump already faces a bipartisan effort to overturn his Russian diesel deal when Congress returns after the election. Now he may have to deal with even broader outrage over sanctions Congress appr"
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
-    "Reuters",
-    "Times of Israel"
+    "Deutsche Welle",
+    "Times of Israel",
+    "Reuters"
    ],
    "regions": [
     "Europe",
@@ -255,7 +313,7 @@
     "North America"
    ],
    "latest": "2026-10-18T17:10+00:00",
-   "earliest": "2026-10-18T10:59+00:00",
+   "earliest": "2026-10-18T10:12+00:00",
    "items": [
     {
      "outlet": "Associated Press",
@@ -267,13 +325,13 @@
      "summary": ""
     },
     {
-     "outlet": "Reuters",
+     "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
-     "url": "https://www.reuters.com/world/pope-leo-greets-crowds-vatican-first-event-since-cancer-surgery-2026-10-18/",
+     "title": "Pope appears in public for first time since surgery",
+     "url": "https://www.dw.com/en/pope-appears-in-public-for-first-time-since-surgery/a-79692583?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-18T14:09+00:00",
-     "summary": ""
+     "published": "2026-10-18T14:14+00:00",
+     "summary": "After undergoing a lung operation, the pope said he will resume his duties gradually. There is no \"clinical reason\" for his South America trip not to go ahead, his surgeon said."
     },
     {
      "outlet": "Times of Israel",
@@ -283,26 +341,171 @@
      "via": "",
      "published": "2026-10-18T10:59+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+     "url": "https://www.reuters.com/world/pope-leo-greets-crowds-vatican-first-event-since-cancer-surgery-2026-10-18/",
+     "via": "",
+     "published": "2026-10-18T10:12+00:00",
+     "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "CBC News",
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-16T20:05+00:00",
+   "earliest": "2026-10-16T09:09+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Israeli settlers burn olive trees, injure journalist in West Bank attack",
+     "url": "https://www.reuters.com/world/middle-east/israeli-settlers-burn-olive-trees-injure-journalist-west-bank-attack-2026-10-16/",
+     "via": "",
+     "published": "2026-10-16T20:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Israeli settlers attack Palestinians, American journalist during West Bank olive harvest",
+     "url": "https://www.cbc.ca/news/world/israeli-settlers-attack-olive-harvest-9.7383174",
+     "via": "",
+     "published": "2026-10-16T15:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israeli Settlers Attack Palestinians During Olive Harvest",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/16/israeli-settlers-attack-palestinians-during-olive-harvest",
+     "via": "",
+     "published": "2026-10-16T11:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Several said hurt, including Washington Post photographer, as settlers attack Palestinians in West Bank during olive harvest",
+     "url": "https://www.timesofisrael.com/liveblog_entry/reports-settlers-attack-palestinians-at-several-locations-in-west-bank-during-olive-harvest/",
+     "via": "",
+     "published": "2026-10-16T09:09+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "Business Standard",
+    "Al Arabiya",
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-18T18:02+00:00",
+   "earliest": "2026-10-18T03:38+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Russia sanctions waiver a 60-day pause: US Secretary of State Marco Rubio",
+     "url": "https://www.business-standard.com/external-affairs-defence-security/news/russia-sanctions-waiver-a-60-day-pause-us-secretary-of-state-marco-rubio-126101800831_1.html",
+     "via": "",
+     "published": "2026-10-18T18:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump to take up to 60 days to weigh Russia sanctions, Rubio says",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/10/18/trump-to-take-up-to-60-days-to-weigh-russia-sanctions-rubio-says-",
+     "via": "",
+     "published": "2026-10-18T06:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
+     "url": "https://www.straitstimes.com/asia/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions",
+     "via": "",
+     "published": "2026-10-18T03:40+00:00",
+     "summary": "Oct 17 - The day after waiving sanctions and tariffs related to Russian exports, US President Donald Trump said on Saturday he has yet to announce a final decision on the matter, while Secretary of State Marco Rubio said officials want more time to evaluate the situation."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
+     "url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/",
+     "via": "",
+     "published": "2026-10-18T03:38+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "South China Morning Post",
+    "The Straits Times",
     "Kyodo News",
-    "The Straits Times"
+    "South China Morning Post"
    ],
    "regions": [
     "China",
     "East Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-10-18T07:58+00:00",
-   "earliest": "2026-10-17T02:50+00:00",
+   "latest": "2026-10-19T03:35+00:00",
+   "earliest": "2026-10-18T07:58+00:00",
    "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Japan PM Takaichi sends monetary offering to war-linked Yasukuni shrine",
+     "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-sends-monetary-offering-to-war-linked-yasukuni-shrine",
+     "via": "",
+     "published": "2026-10-19T03:35+00:00",
+     "summary": "She also sent a Masakaki ritual offering of evergreen twigs on Oct 17."
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "BREAKING NEWS: Japan PM sends monetary offering to war-linked Yasukuni shrine",
+     "url": "https://english.kyodonews.net/articles/-/88606",
+     "via": "",
+     "published": "2026-10-18T23:12+00:00",
+     "summary": ""
+    },
     {
      "outlet": "South China Morning Post",
      "region": "China",
@@ -311,27 +514,9 @@
      "via": "",
      "published": "2026-10-18T07:58+00:00",
      "summary": "China has condemned Japanese Prime Minister Sanae Takaichi for sending a ritual offering to Tokyo’s war-linked Yasukuni Shrine, a move that threatens to further strain ties between the neighbours. At the start of Yasukuni’s three-day autumn festival on Saturday, Takaichi sent a ritual tree-stand offering to the shrine in her capacity as prime minister, although she did not visit in person. Minoru "
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Japan PM sends offering to war-linked Yasukuni shrine for autumn rite",
-     "url": "https://english.kyodonews.net/articles/-/88503",
-     "via": "",
-     "published": "2026-10-18T02:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Japan PM Takaichi sends offering to war-linked Yasukuni Shrine in autumn rite",
-     "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-sends-offering-to-war-linked-yasukuni-shrine-for-autumn-rite",
-     "via": "",
-     "published": "2026-10-17T02:50+00:00",
-     "summary": "The Shinto shrine has long been a source of diplomatic friction with China and South Korea."
     }
    ],
-   "id": 2
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -377,52 +562,7 @@
      "summary": ""
     }
    ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "The Straits Times",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-18T16:25+00:00",
-   "earliest": "2026-10-18T11:57+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "‘Hybrid warfare’: Taiwan drives away 16 Chinese ships",
-     "url": "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-18T16:25+00:00",
-     "summary": "China is ramping up its presence around Taiwan, in a pattern that Taipei said is designed to 'alter the status quo'."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Taiwan says it drove away 16 Chinese ships involved in ‘maritime harassment’",
-     "url": "https://www.straitstimes.com/asia/east-asia/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment",
-     "via": "",
-     "published": "2026-10-18T14:54+00:00",
-     "summary": "The locations were off Taiwan’s eastern, southern and south-western coastlines, and around Pratas."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Taiwan says drives away 16 Chinese ships involved in ‘maritime harassment’",
-     "url": "https://english.alarabiya.net/News/world/2026/10/18/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment-",
-     "via": "",
-     "published": "2026-10-18T11:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -467,7 +607,7 @@
      "summary": "According to a Defence Ministry press release, two F-16s carrying out air policing missions were involved in the operation to intercept the drones. It later said the targets were \"jet-powered attack drones from the Geran family.\""
     }
    ],
-   "id": 5
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -512,7 +652,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -557,103 +697,217 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Reuters",
-    "Times of Israel"
+    "Al Jazeera",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-10-17T07:59+00:00",
-   "earliest": "2026-10-16T14:25+00:00",
+   "latest": "2026-10-19T04:27+00:00",
+   "earliest": "2026-10-18T16:56+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
+     "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Saudi-led coalition targets Houthi arms-smuggling, destroys missile launch platforms",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/17/saudiled-coalition-targets-houthi-armssmuggling-destroys-missile-launch-platforms",
+     "title": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate",
+     "url": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss",
      "via": "",
-     "published": "2026-10-17T07:59+00:00",
-     "summary": ""
+     "published": "2026-10-19T04:27+00:00",
+     "summary": "Brazil's president and his opponent lob a barrage of attacks on each other in debate a week before the October 25 vote."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
-     "url": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/",
+     "title": "Brazil's Bolsonaro, Lula spar in first debate as personal attacks fly",
+     "url": "https://www.reuters.com/world/americas/brazils-bolsonaro-lula-head-into-first-debate-week-before-vote-2026-10-18/",
      "via": "",
-     "published": "2026-10-16T21:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi-led coalition says it intercepts missiles and drones over Saudi Arabia, Red Sea",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-says-it-intercepts-missiles-and-drones-over-saudi-arabia-red-sea/",
-     "via": "",
-     "published": "2026-10-16T14:25+00:00",
+     "published": "2026-10-18T16:56+00:00",
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
+    "Euronews",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-19T04:11+00:00",
+   "earliest": "2026-10-19T03:19+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "China’s economy grows 4.5% on robust exports as domestic weakness persists",
+     "url": "https://www.euronews.com/2026/10/19/chinas-economy-grows-45-on-robust-exports-as-domestic-weakness-persists",
+     "via": "",
+     "published": "2026-10-19T04:11+00:00",
+     "summary": "The official figure from the July-September quarter beat expectations and picked up from 4.3% in April-June, the slowest pace in more than three years."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "China’s economy accelerates on robust exports as domestic weakness persists",
+     "url": "https://apnews.com/article/china-economy-71354a055a412ef13e4e2edad070b4a5",
+     "via": "",
+     "published": "2026-10-19T03:19+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Financial Times"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America"
+   ],
+   "latest": "2026-10-19T03:28+00:00",
+   "earliest": "2026-10-19T03:05+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "China Grows 4.5% as Euro Inflation Hits 3.8% | Global Economy, Oct 19",
+     "url": "https://www.riotimesonline.com/global-economy-briefing-october-19-2026/",
+     "via": "",
+     "published": "2026-10-19T03:28+00:00",
+     "summary": "China's economy grew 4.5% in the third quarter, beating forecasts, while euro-area inflation hit 3.8% and Brent held near US$106 a barrel. The post China Grows 4.5% as Euro Inflation Hits 3.8% | Global Economy, Oct 19 appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "China’s economy expands 4.5% in third quarter",
+     "url": "https://www.ft.com/content/cf113314-1077-4ab4-b667-9912656684f1?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-10-19T03:05+00:00",
+     "summary": "Strong exports buoy growth as domestic demand lags"
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-10-19T03:11+00:00",
+   "earliest": "2026-10-19T02:09+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Gold edges higher on softer oil; Fed rate outlook in focus",
+     "url": "https://www.reuters.com/world/india/gold-edges-higher-softer-oil-fed-rate-outlook-focus-2026-10-19/",
+     "via": "",
+     "published": "2026-10-19T03:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Gold edges higher as investors assess Fed rate-hike odds",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-as-investors-assess-fed-rate-hike-odds/articleshow/135037837.cms",
+     "via": "",
+     "published": "2026-10-19T02:09+00:00",
+     "summary": "In early Asian trading, gold prices saw a modest uptick as speculation swirled regarding the Federal Reserve's policy stance. Investors are closely watching remarks from Fed Chairman Kevin Warsh on the state of the U.S. economy and rising inflation concerns. As import costs climb, expectations for a rate hike this December are building. Furthermore, unrest in the Middle East is contributing to mar"
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "The Straits Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-19T02:38+00:00",
+   "earliest": "2026-10-18T19:00+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Bond market’s big short bet gets wake-up call as AI trade wobbles",
+     "url": "https://www.straitstimes.com/business/bond-markets-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
+     "via": "",
+     "published": "2026-10-19T02:38+00:00",
+     "summary": "The bond rally was notable after months when Treasuries largely failed to provide their customary protection during periods when stocks were struggling."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Bond Market’s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
+     "via": "",
+     "published": "2026-10-18T19:00+00:00",
+     "summary": "US Treasuries are showing tentative signs of reclaiming their traditional role as a haven — threatening to wrong-foot investors who are heavily positioned for this year’s bond slump to deepen."
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
     "Reuters"
    ],
    "regions": [
     "Europe",
-    "Middle East",
-    "Southeast Asia"
+    "South Asia"
    ],
-   "latest": "2026-10-18T06:09+00:00",
-   "earliest": "2026-10-18T03:38+00:00",
+   "latest": "2026-10-19T02:03+00:00",
+   "earliest": "2026-10-19T00:38+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump to take up to 60 days to weigh Russia sanctions, Rubio says",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/10/18/trump-to-take-up-to-60-days-to-weigh-russia-sanctions-rubio-says-",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Asian stocks skid on AI worries, Wall Street and bonds aided by oil slip",
+     "url": "https://www.business-standard.com/markets/news/asian-stocks-skid-on-ai-worries-wall-street-and-bonds-aided-by-oil-slip-126101900040_1.html",
      "via": "",
-     "published": "2026-10-18T06:09+00:00",
+     "published": "2026-10-19T02:03+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
-     "url": "https://www.straitstimes.com/asia/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions",
-     "via": "",
-     "published": "2026-10-18T03:40+00:00",
-     "summary": "Oct 17 - The day after waiving sanctions and tariffs related to Russian exports, US President Donald Trump said on Saturday he has yet to announce a final decision on the matter, while Secretary of State Marco Rubio said officials want more time to evaluate the situation."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
-     "url": "https://www.reuters.com/world/us/rubio-says-trump-take-up-60-days-weigh-russia-sanctions-2026-10-18/",
+     "title": "Asian stocks slip, Wall St and bonds benefit from oil skid",
+     "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-19/",
      "via": "",
-     "published": "2026-10-18T03:38+00:00",
+     "published": "2026-10-19T00:38+00:00",
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -688,77 +942,42 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Rio Times",
-    "Reuters"
+    "The Straits Times",
+    "Al Arabiya"
    ],
    "regions": [
-    "Europe",
-    "Latin America"
+    "Middle East",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-18T07:05+00:00",
-   "earliest": "2026-10-17T22:53+00:00",
+   "latest": "2026-10-18T14:54+00:00",
+   "earliest": "2026-10-18T11:57+00:00",
    "items": [
     {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Venezuela Sees US$76 Billion Oil Investment",
-     "url": "https://www.riotimesonline.com/venezuela-oil-investment-76-billion-five-years-2026/",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Taiwan says it drove away 16 Chinese ships involved in ‘maritime harassment’",
+     "url": "https://www.straitstimes.com/asia/east-asia/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment",
      "via": "",
-     "published": "2026-10-18T07:05+00:00",
-     "summary": "Delcy Rodríguez said Venezuela's oil industry will get almost US$76 billion in five years, citing 17 deals with the US and 324,000 jobs in a decade. The post Venezuela Sees US$76 Billion Oil Investment appeared first on The Rio Times ."
+     "published": "2026-10-18T14:54+00:00",
+     "summary": "The locations were off Taiwan’s eastern, southern and south-western coastlines, and around Pratas."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says",
-     "url": "https://www.reuters.com/business/energy/venezuela-expects-nearly-76-billion-oil-investment-over-five-years-acting-2026-10-17/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Taiwan says drives away 16 Chinese ships involved in ‘maritime harassment’",
+     "url": "https://english.alarabiya.net/News/world/2026/10/18/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment-",
      "via": "",
-     "published": "2026-10-17T22:53+00:00",
+     "published": "2026-10-18T11:57+00:00",
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Axios"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-10-18T04:38+00:00",
-   "earliest": "2026-10-17T19:18+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Many don't know what my decision is: Trump on Russia sanctions waiver",
-     "url": "https://www.business-standard.com/world-news/many-don-t-know-what-my-decision-is-trump-on-russia-sanctions-waiver-126101800091_1.html",
-     "via": "",
-     "published": "2026-10-18T04:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump's Russia waiver draws instant bipartisan backlash",
-     "url": "https://www.axios.com/2026/10/17/trump-russia-waiver-putin-republicans-democrats",
-     "via": "",
-     "published": "2026-10-17T19:18+00:00",
-     "summary": "Top Republicans and Democrats alike lined up Saturday to condemn President Trump 's decision to waive recent sanctions on Russia , calling it \"irresponsible\" and \"a deal with the devil.\" Why it matters : Trump already faces a bipartisan effort to overturn his Russian diesel deal when Congress returns after the election. Now he may have to deal with even broader outrage over sanctions Congress appr"
-    }
-   ],
-   "id": 12
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -793,111 +1012,75 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MercoPress",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America"
-   ],
-   "latest": "2026-10-17T06:17+00:00",
-   "earliest": "2026-10-16T18:35+00:00",
-   "items": [
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Brent touches US$110 for the first time since May on Middle East tensions",
-     "url": "https://en.mercopress.com/2026/10/17/brent-touches-us-110-for-the-first-time-since-may-on-middle-east-tensions?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-10-17T06:17+00:00",
-     "summary": "Brent crude reached US$110 a barrel on Friday for the first time since May, driven by fears that escalation in the Middle East could further tighten supplies and by doubts over how much diesel Russia can supply to the market. Brent settled 3.7% higher at US$109.86, its highest since May 19, while US benchmark WTI rose 3.5% to US$101.41."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears",
-     "url": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/",
-     "via": "",
-     "published": "2026-10-16T18:35+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "Africa",
-    "East Asia"
-   ],
-   "latest": "2026-10-16T06:47+00:00",
-   "earliest": "2026-10-16T03:09+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Australia's PLS greenlights $1.3bn expansion to lift Pilgangoora lithium output",
-     "url": "https://www.miningweekly.com/article/australias-pls-greenlights-13bn-expansion-to-lift-pilgangoora-lithium-output-2026-10-16",
-     "via": "",
-     "published": "2026-10-16T06:47+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Australian lithium miner PLS green-lights expansion",
-     "url": "https://asia.nikkei.com/business/markets/commodities/australian-lithium-miner-pls-green-lights-expansion",
-     "via": "",
-     "published": "2026-10-16T03:09+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
+   "id": 18
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Australian Financial Review",
-    "ABC News (Australia)"
+    "Mining.com.au"
    ],
    "regions": [
     "Oceania"
    ],
-   "latest": "2026-10-18T22:00+00:00",
-   "earliest": "2026-10-18T21:13+00:00",
+   "latest": "2026-10-19T03:13+00:00",
+   "earliest": "2026-10-19T01:55+00:00",
    "items": [
     {
      "outlet": "Australian Financial Review",
      "region": "Oceania",
-     "title": "Trump endorses Netanyahu in close Israeli election",
-     "url": "https://www.afr.com/world/middle-east/trump-endorses-netanyahu-in-close-israeli-election-20261019-p616ky?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "title": "Coal kings do it again with New Hope’s $1.8b Malabar takeover",
+     "url": "https://www.afr.com/companies/mining/coal-kings-do-it-again-with-new-hope-s-1-8b-malabar-takeover-20261019-p616mc?ref=rss&utm_medium=rss&utm_source=rss_feed",
      "via": "",
-     "published": "2026-10-18T22:00+00:00",
-     "summary": "The president praised the Israeli leader as a “great warrior prime minister” and peace partner, crediting him with joining the US in strikes on Iran in February."
+     "published": "2026-10-19T03:13+00:00",
+     "summary": "Veteran dealmakers Tony Haggarty and Allan Davies have sold their private NSW miner Malabar to ASX-listed company."
     },
     {
-     "outlet": "ABC News (Australia)",
+     "outlet": "Mining.com.au",
      "region": "Oceania",
-     "title": "Trump endorses 'great warrior' Netanyahu ahead of Israeli election",
-     "url": "https://www.abc.net.au/news/2026-10-19/trump-endorses-netanyahu-ahead-of-israeli-election/107281646",
+     "title": "New Hope to fold Malabar Resources into $6.3 billion coal group",
+     "url": "https://mining.com.au/new-hope-to-fold-malabar-resources-into-6-3-billion-coal-group/",
      "via": "",
-     "published": "2026-10-18T21:13+00:00",
+     "published": "2026-10-19T01:55+00:00",
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-10-19T00:50+00:00",
+   "earliest": "2026-10-18T11:03+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Indian refiners’ fuel exports to West surge 43% amid Russian crude imports",
+     "url": "https://www.thehindu.com/business/indian-refiners-fuel-exports-to-west-surge-43-amid-russian-crude-imports/article71599323.ece",
+     "via": "",
+     "published": "2026-10-19T00:50+00:00",
+     "summary": "Reliance Industries Ltd.'s Jamnagar refinery in Gujarat supplied six of the seven cargoes unloaded at EU ports that month, despite the bloc's ban on fuel made from Russian crude"
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Russian oil finding its way to the West? Indian refiners’ fuel exports to nations sanctioning Moscow jump 43%",
+     "url": "https://www.livemint.com/news/world/russian-oil-finding-its-way-to-the-west-indian-refiners-fuel-exports-to-nations-sanctioning-moscow-jump-43-11792318976858.html",
+     "via": "",
+     "published": "2026-10-18T11:03+00:00",
+     "summary": "Indian refineries in India shipped oil products to Russia-sanctioning nations in September, up 43% from August. Reliance Industries’ Jamnagar refinery accounted for six of seven cargoes unloaded at EU ports, despite the bloc’s ban on Russian crude-derived fuel imports."
+    }
+   ],
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -931,7 +1114,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -965,41 +1148,7 @@
      "summary": ""
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Hindu"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-10-18T11:03+00:00",
-   "earliest": "2026-10-18T06:59+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Russian oil finding its way to the West? Indian refiners’ fuel exports to nations sanctioning Moscow jump 43%",
-     "url": "https://www.livemint.com/news/world/russian-oil-finding-its-way-to-the-west-indian-refiners-fuel-exports-to-nations-sanctioning-moscow-jump-43-11792318976858.html",
-     "via": "",
-     "published": "2026-10-18T11:03+00:00",
-     "summary": "Indian refineries in India shipped oil products to Russia-sanctioning nations in September, up 43% from August. Reliance Industries’ Jamnagar refinery accounted for six of seven cargoes unloaded at EU ports, despite the bloc’s ban on Russian crude-derived fuel imports."
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Indian refiners’ fuel exports to West surge 43% amid Russian crude imports",
-     "url": "https://www.thehindu.com/business/indian-refiners-fuel-exports-to-west-surge-43-amid-russian-crude-imports/article71599323.ece",
-     "via": "",
-     "published": "2026-10-18T06:59+00:00",
-     "summary": "Reliance Industries Ltd.'s Jamnagar refinery in Gujarat supplied six of the seven cargoes unloaded at EU ports that month, despite the bloc's ban on fuel made from Russian crude"
-    }
-   ],
-   "id": 19
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1033,7 +1182,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1067,41 +1216,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-16T09:10+00:00",
-   "earliest": "2026-10-16T04:59+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia welcomes UN Security Council condemnation of Houthi attacks",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/16/saudi-arabia-welcomes-un-security-council-condemnation-of-houthi-attacks",
-     "via": "",
-     "published": "2026-10-16T09:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "UN Security Council slams ‘escalatory’ Houthi attacks on Saudi Arabia",
-     "url": "https://www.timesofisrael.com/liveblog_entry/un-security-council-slams-escalatory-houthi-attacks-on-saudi-arabia/",
-     "via": "",
-     "published": "2026-10-16T04:59+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 24
   }
  ]
 }
