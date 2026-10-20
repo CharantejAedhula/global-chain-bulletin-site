@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-20T00:24:14+00:00",
+ "fetched_at": "2026-10-20T01:39:33+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 615,
+ "items_read": 624,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 32,
+   "items": 34,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 20,
+   "items": 18,
    "errors": []
   },
   "Yicai Global": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "Kyodo News": {
@@ -62,7 +62,7 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Reuters": {
@@ -102,7 +102,7 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 32,
+   "items": 42,
    "errors": []
   },
   "Times of Israel": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 9,
+   "items": 11,
    "errors": []
   },
   "Bloomberg": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 9,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -164,12 +164,12 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Interfax": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 15,
+   "items": 17,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "The Jakarta Post": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 10,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -245,21 +245,29 @@
    "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
+    "Livemint / Economic Times",
     "The Straits Times",
     "Axios",
     "Associated Press",
-    "Business Standard",
-    "Nikkei Asia"
+    "Business Standard"
    ],
    "regions": [
-    "East Asia",
     "North America",
     "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-10-19T01:30+00:00",
-   "earliest": "2026-10-17T01:28+00:00",
+   "latest": "2026-10-20T01:26+00:00",
+   "earliest": "2026-10-17T01:55+00:00",
    "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Oil eases as markets assess potential waiver on Russian energy, Middle East supply risks",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks/articleshow/135059323.cms",
+     "via": "",
+     "published": "2026-10-20T01:26+00:00",
+     "summary": "Oil prices fell on Tuesday as markets weighed an executive order from US President Donald Trump that waived some sanctions and tariffs tied to Russian energy exports, while attacks on Saudi Arabia and Yemen kept fears of Middle East supply disruptions in view."
+    },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
@@ -295,15 +303,6 @@
      "via": "",
      "published": "2026-10-17T01:55+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Trump waives key Russia-related sanctions, tariffs under new law",
-     "url": "https://asia.nikkei.com/spotlight/trump-administration/trump-waives-key-russia-related-sanctions-tariffs-under-new-law",
-     "via": "",
-     "published": "2026-10-17T01:28+00:00",
-     "summary": ""
     }
    ],
    "id": 1
@@ -312,47 +311,93 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "The Straits Times",
-    "Al Arabiya"
+    "Livemint / Economic Times",
+    "Al Jazeera",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East",
-    "Southeast Asia"
+    "South Asia"
    ],
-   "latest": "2026-10-19T13:22+00:00",
-   "earliest": "2026-10-19T09:48+00:00",
+   "latest": "2026-10-20T01:18+00:00",
+   "earliest": "2026-10-19T17:34+00:00",
    "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Saudi Arabia delays investor summit to 2027 amid Houthi attacks: S&P Global’s Yergin says, ‘reasonable decision'",
+     "url": "https://www.livemint.com/news/world/saudi-arabia-delays-investor-summit-to-2027-amid-houthi-attacks-s-p-global-s-yergin-says-reasonable-decision-11792456621758.html",
+     "via": "",
+     "published": "2026-10-20T01:18+00:00",
+     "summary": "Saudi Arabia postpones its Future Investment Initiative until 2027 as Houthi missile and drone attacks raise security concerns for investors."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+     "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-20T01:05+00:00",
+     "summary": "Riyadh postpones flagship investment conference until 2027, orders government staff to work from home."
+    },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Terrorism squad probes vehicle attack that critically injured Australian lawmaker",
-     "url": "https://www.reuters.com/world/asia-pacific/australia-pm-says-independent-mp-helen-haines-has-been-attacked-2026-10-19/",
+     "title": "Saudi Arabia postpones its 'Davos in the Desert' conference after attacks",
+     "url": "https://www.reuters.com/world/middle-east/saudi-fii-postpones-flagship-conference-until-2027-2026-10-19/",
      "via": "",
-     "published": "2026-10-19T13:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Helen Haines: Who is the Australian lawmaker targeted in vehicle attack?",
-     "url": "https://www.straitstimes.com/asia/australianz/helen-haines-who-is-the-australian-lawmaker-targeted-in-vehicle-attack",
-     "via": "",
-     "published": "2026-10-19T11:20+00:00",
-     "summary": "The Australian lawmaker has been left critically injured after being struck by a vehicle late on Oct 19."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Australian lawmaker Helen Haines in critical condition after vehicle attack",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/10/19/australian-lawmaker-helen-haines-in-critical-condition-after-vehicle-attack",
-     "via": "",
-     "published": "2026-10-19T09:48+00:00",
+     "published": "2026-10-19T17:34+00:00",
      "summary": ""
     }
    ],
    "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Financial Times",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-10-19T23:45+00:00",
+   "earliest": "2026-10-19T10:28+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "CME to launch tungsten futures in 2027",
+     "url": "https://mining.com.au/cme-to-launch-tungsten-futures-in-2027/",
+     "via": "",
+     "published": "2026-10-19T23:45+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "CME plans tungsten futures as demand for weapons rises",
+     "url": "https://www.ft.com/content/96d88d61-002d-4b5c-8e0b-4f50577518c5?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-10-19T10:30+00:00",
+     "summary": "China has restricted exports of critical mineral used in armour-piercing munitions"
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "CME to launch tungsten futures to meet rising demand for critical minerals",
+     "url": "https://www.miningweekly.com/article/cme-to-launch-tungsten-futures-to-meet-rising-demand-for-critical-minerals-2026-10-19",
+     "via": "",
+     "published": "2026-10-19T10:28+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -398,7 +443,87 @@
      "summary": "China has condemned Japanese Prime Minister Sanae Takaichi for sending a ritual offering to Tokyo’s war-linked Yasukuni Shrine, a move that threatens to further strain ties between the neighbours. At the start of Yasukuni’s three-day autumn festival on Saturday, Takaichi sent a ritual tree-stand offering to the shrine in her capacity as prime minister, although she did not visit in person. Minoru "
     }
    ],
-   "id": 3
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Euronews",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America"
+   ],
+   "latest": "2026-10-20T00:20+00:00",
+   "earliest": "2026-10-19T10:47+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Lula Narrows Flávio’s Lead in 2 Brazil Polls",
+     "url": "https://www.riotimesonline.com/lula-narrows-flavio-poll-lead-runoff-2026/",
+     "via": "",
+     "published": "2026-10-20T00:20+00:00",
+     "summary": "AtlasIntel and Nexus show Lula closing on Flávio Bolsonaro six days before the 25 October runoff, but all five polls checked still have Flávio ahead. The post Lula Narrows Flávio’s Lead in 2 Brazil Polls appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Lula supporters spell out his name in Rio waters before Brazil runoff",
+     "url": "https://www.euronews.com/video/2026/10/19/lula-supporters-spell-out-his-name-in-rio-waters-before-brazil-runoff",
+     "via": "",
+     "published": "2026-10-19T10:52+00:00",
+     "summary": "Brazil’s Lula and Flavio Bolsonaro clash in a tense debate over public spending, corruption and ties to the US, as polls show a tight 51–49 race."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, polls show",
+     "url": "https://www.reuters.com/world/americas/bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-polls-show-2026-10-19/",
+     "via": "",
+     "published": "2026-10-19T10:47+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-10-20T01:31+00:00",
+   "earliest": "2026-10-19T22:09+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Global Market Today: Asian stocks decline in break from US chip rally",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-decline-in-break-from-us-chip-rally/articleshow/135059346.cms",
+     "via": "",
+     "published": "2026-10-20T01:31+00:00",
+     "summary": "Losses were led by a more than 2% drop in South Korea’s Kospi Index — a bellwether for artificial intelligence investments — as chip heavyweight SK Hynix Inc. headed for its lowest close since April. Data-center infrastructure company Elice Inc. plunged as much as 32% in its trading debut in Seoul."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Asian Stocks Decline in Break From US Chip Rally: Markets Wrap",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+     "via": "",
+     "published": "2026-10-19T22:09+00:00",
+     "summary": "Asian stocks dropped, diverging from a chip-led rally on Wall Street, as sentiment toward the artificial intelligence trade remained jittery ahead of key earnings this week that will test the strength of gains in the technology sector."
+    }
+   ],
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -433,7 +558,7 @@
      "summary": "Defense Secretary Pete Hegseth met with Israeli Prime Minister Benjamin Netanyahu in Israel on Monday, two sources with knowledge told Axios. Why it matters: The unannounced visit comes eight days before Israel's election and amid U.S.-Israeli discussions about potentially resuming major combat operations against Iran . Driving the news: The meeting with Netanyahu took place at Ovda Air Base in so"
     }
    ],
-   "id": 4
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -468,42 +593,77 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 8
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Bloomberg",
-    "Business Standard"
+    "Reuters",
+    "The Straits Times"
    ],
    "regions": [
-    "North America",
-    "South Asia"
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-19T22:09+00:00",
-   "earliest": "2026-10-19T02:03+00:00",
+   "latest": "2026-10-19T23:31+00:00",
+   "earliest": "2026-10-19T21:21+00:00",
    "items": [
     {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Asian Stocks Shrug Off US Chip Rally, Oil Steadies: Markets Wrap",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nasdaq climbs as chip and AI-linked stocks bounce back",
+     "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/",
      "via": "",
-     "published": "2026-10-19T22:09+00:00",
-     "summary": "Asian stocks opened lower Tuesday, shrugging off a chip-led rebound on Wall Street that helped the Nasdaq 100 recover from its worst week since the tariff turmoil of April 2025."
+     "published": "2026-10-19T23:31+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Asian stocks skid on AI worries, Wall Street and bonds aided by oil slip",
-     "url": "https://www.business-standard.com/markets/news/asian-stocks-skid-on-ai-worries-wall-street-and-bonds-aided-by-oil-slip-126101900040_1.html",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nasdaq climbs as US chip and AI-linked stocks bounce back",
+     "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-climbs-as-us-chip-and-ai-linked-stocks-bounce-back",
      "via": "",
-     "published": "2026-10-19T02:03+00:00",
+     "published": "2026-10-19T21:21+00:00",
+     "summary": "The Nasdaq Composite gained 290.85 points, or 1.11%, to 26,430.89."
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-19T22:26+00:00",
+   "earliest": "2026-10-19T12:51+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Houthi attack kills 58 at Yemen government training camp, governor says",
+     "url": "https://www.reuters.com/world/least-18-killed-houthi-attack-yemeni-government-military-camp-shabwa-sources-say-2026-10-19/",
+     "via": "",
+     "published": "2026-10-19T22:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Houthi attack kills 53 at Yemen government training camp, officials say",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/19/houthi-attack-on-yemen-govt-camp-kills-over-30-military-sources",
+     "via": "",
+     "published": "2026-10-19T12:51+00:00",
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -538,7 +698,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -573,42 +733,7 @@
      "summary": "Advanced offtake talks could help finance the $1.4-billion Santa Cruz copper project in Arizona as AI and power grid demand accelerates."
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-19T21:21+00:00",
-   "earliest": "2026-10-19T20:54+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nasdaq climbs as US chip and AI-linked stocks bounce back",
-     "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-climbs-as-us-chip-and-ai-linked-stocks-bounce-back",
-     "via": "",
-     "published": "2026-10-19T21:21+00:00",
-     "summary": "The Nasdaq Composite gained 290.85 points, or 1.11%, to 26,430.89."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nasdaq climbs as chip and AI-linked stocks bounce back",
-     "url": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/",
-     "via": "",
-     "published": "2026-10-19T20:54+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -643,42 +768,7 @@
      "summary": ""
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-19T19:14+00:00",
-   "earliest": "2026-10-17T07:19+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Yemeni military says 558 Houthis ‘neutralized’ in 1,164 strikes over 24 hours",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/19/yemeni-military-says-558-houthis-neutralized-in-1164-strikes-over-24-hours",
-     "via": "",
-     "published": "2026-10-19T19:14+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
-     "url": "https://apnews.com/article/yemen-war-houthis-iran-weapons-saudi-airports-27173d5eaf4e27e5d5d41d0e6a98768b",
-     "via": "",
-     "published": "2026-10-17T07:19+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -713,7 +803,42 @@
      "summary": "Canada’s inflation rate ticked up to 3.1% in September as gasoline prices rose, while some gauges of underlying price pressures eased."
     }
    ],
-   "id": 12
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-19T13:22+00:00",
+   "earliest": "2026-10-19T11:20+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Terrorism squad probes vehicle attack that critically injured Australian lawmaker",
+     "url": "https://www.reuters.com/world/asia-pacific/australia-pm-says-independent-mp-helen-haines-has-been-attacked-2026-10-19/",
+     "via": "",
+     "published": "2026-10-19T13:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Helen Haines: Who is the Australian lawmaker targeted in vehicle attack?",
+     "url": "https://www.straitstimes.com/asia/australianz/helen-haines-who-is-the-australian-lawmaker-targeted-in-vehicle-attack",
+     "via": "",
+     "published": "2026-10-19T11:20+00:00",
+     "summary": "The Australian lawmaker has been left critically injured after being struck by a vehicle late on Oct 19."
+    }
+   ],
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -748,7 +873,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -783,42 +908,7 @@
      "summary": ""
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Financial Times",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-10-19T10:30+00:00",
-   "earliest": "2026-10-19T10:28+00:00",
-   "items": [
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "CME plans tungsten futures as demand for weapons rises",
-     "url": "https://www.ft.com/content/96d88d61-002d-4b5c-8e0b-4f50577518c5?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-10-19T10:30+00:00",
-     "summary": "China has restricted exports of critical mineral used in armour-piercing munitions"
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "CME to launch tungsten futures to meet rising demand for critical minerals",
-     "url": "https://www.miningweekly.com/article/cme-to-launch-tungsten-futures-to-meet-rising-demand-for-critical-minerals-2026-10-19",
-     "via": "",
-     "published": "2026-10-19T10:28+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -853,7 +943,7 @@
      "summary": "Two people are in police custody after occupying an offshore Woodside platform about 200 kilometres off Western Australia's coast to protest against the company's gas operations."
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -888,7 +978,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -923,7 +1013,77 @@
      "summary": "The Ghost Shark submarine will be able to deploy up to 12 sea mines, or drones."
     }
    ],
-   "id": 18
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "MercoPress"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America"
+   ],
+   "latest": "2026-10-19T06:01+00:00",
+   "earliest": "2026-10-17T06:23+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Brazil: Lula, Bolsonaro clash in heated presidential debate",
+     "url": "https://www.dw.com/en/brazil-lula-bolsonaro-clash-in-heated-presidential-debate/a-79695420?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-19T06:01+00:00",
+     "summary": "The candidates traded barbs, including over Bolsonaro's ties to US President Donald Trump in their first debate, days before the October 25 election runoff."
+    },
+    {
+     "outlet": "MercoPress",
+     "region": "Latin America",
+     "title": "Bolsonaro and Lula head into the final stretch of Brazil’s campaign in a statistical tie",
+     "url": "https://en.mercopress.com/2026/10/17/bolsonaro-and-lula-head-into-the-final-stretch-of-brazil-s-campaign-in-a-statistical-tie?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "via": "",
+     "published": "2026-10-17T06:23+00:00",
+     "summary": "Senator Flávio Bolsonaro and President Luiz Inácio Lula da Silva are heading into the final days of the campaign for the October 25 runoff in a statistical tie, according to two new polls. A Datafolha survey released on Thursday night gives Bolsonaro 51% of valid votes and Lula 49%, compared with 52% and 48% a week earlier, with a margin of error of two points."
+    }
+   ],
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-18T18:02+00:00",
+   "earliest": "2026-10-18T06:09+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Russia sanctions waiver a 60-day pause: US Secretary of State Marco Rubio",
+     "url": "https://www.business-standard.com/external-affairs-defence-security/news/russia-sanctions-waiver-a-60-day-pause-us-secretary-of-state-marco-rubio-126101800831_1.html",
+     "via": "",
+     "published": "2026-10-18T18:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump to take up to 60 days to weigh Russia sanctions, Rubio says",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/10/18/trump-to-take-up-to-60-days-to-weigh-russia-sanctions-rubio-says-",
+     "via": "",
+     "published": "2026-10-18T06:09+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -958,7 +1118,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -987,13 +1147,47 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Students, trade unions and Yellow Vests set to protest across France",
-     "url": "https://english.alarabiya.net/News/world/2026/10/17/students-trade-unions-and-yellow-vests-set-to-protest-across-france",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/10/17/students-trade-unions-and-yellow-vests-set-to-protest-across-france",
      "via": "",
      "published": "2026-10-17T06:24+00:00",
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "CBC News"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-10-19T22:47+00:00",
+   "earliest": "2026-10-19T20:12+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Gangs in Haiti target foreign troops in the biggest attack since a new force began operations",
+     "url": "https://apnews.com/article/haiti-gangs-salvador-attack-military-dd5d4b617fc526d3f7d994274732fc7e",
+     "via": "",
+     "published": "2026-10-19T22:47+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "4 soldiers from El Salvador missing in Haiti after attack by gangs",
+     "url": "https://www.cbc.ca/news/world/haiti-gang-suppression-force-attacked-9.7387206",
+     "via": "",
+     "published": "2026-10-19T20:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1027,7 +1221,7 @@
      "summary": "Tri-fuel engine makes successful voyage from Houston to New York on US-bunkered 100% bioethanol."
     }
    ],
-   "id": 21
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1061,7 +1255,7 @@
      "summary": "The refuelling was carried at berth in PSA during container handling operations on the vessel"
     }
    ],
-   "id": 22
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1095,41 +1289,7 @@
      "summary": "Local authorities say mosque was not target of attack."
     }
    ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-19T18:11+00:00",
-   "earliest": "2026-10-19T12:52+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Benny Gantz drops out of Israel’s election race",
-     "url": "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-19T18:11+00:00",
-     "summary": "Decision comes after polls showed his Blue and White party below the 3.25 percent threshold needed to enter the Knesset."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Gantz pulls out of election race, eight days ahead of vote",
-     "url": "https://www.timesofisrael.com/liveblog_entry/gantz-pulls-out-of-election-race-eight-days-ahead-of-vote/",
-     "via": "",
-     "published": "2026-10-19T12:52+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 24
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1163,7 +1323,7 @@
      "summary": "The cause of the shortages and when supplies will fully return to normal remain unclear, leaving motorists uncertain about when they will be able to fill their tanks without long waits."
     }
    ],
-   "id": 25
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1197,7 +1357,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1231,7 +1391,41 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-10-19T06:31+00:00",
+   "earliest": "2026-10-18T21:07+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Oil tanker on fire after hitting mine in Hormuz: Iran’s IRGC",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/19/oil-tanker-on-fire-after-hitting-mine-in-hormuz-iran-s-irgc-",
+     "via": "",
+     "published": "2026-10-19T06:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran’s IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/liveblog_entry/irans-irgc-navy-says-oil-tanker-hits-mine-catches-fire-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-10-18T21:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1265,7 +1459,41 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 33
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-10-17T13:09+00:00",
+   "earliest": "2026-10-17T11:40+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Police fire tear gas, scuffle with protesters in Paris as violent rallies engulf France",
+     "url": "https://www.timesofisrael.com/liveblog_entry/police-fire-tear-gas-scuffle-with-protesters-in-paris-as-violent-rallies-engulf-france/",
+     "via": "",
+     "published": "2026-10-17T13:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "French Police Fire Tear Gas, Detain Protesters",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/17/french-police-fire-tear-gas-detain-protesters",
+     "via": "",
+     "published": "2026-10-17T11:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1299,7 +1527,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 35
   }
  ]
 }
