@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-20T01:39:33+00:00",
+ "fetched_at": "2026-10-20T04:51:56+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 624,
+ "items_read": 626,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 34,
+   "items": 31,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Caixin Global": {
@@ -32,22 +32,22 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 56,
+   "items": 60,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "Kyodo News": {
@@ -57,27 +57,27 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 23,
+   "items": 20,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 24,
+   "items": 35,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 17,
+   "items": 22,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Euronews": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,12 +107,12 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 30,
+   "items": 29,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 25,
+   "items": 18,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 9,
+   "items": 8,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,22 +154,22 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 24,
+   "items": 22,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 9,
+   "items": 7,
    "errors": []
   },
   "Interfax": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 17,
+   "items": 13,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 21,
+   "items": 19,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "MercoPress": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 6,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,66 +242,46 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times",
-    "Axios",
-    "Associated Press",
-    "Business Standard"
+    "Al Jazeera",
+    "Mining.com.au",
+    "Reuters"
    ],
    "regions": [
-    "North America",
-    "South Asia",
-    "Southeast Asia"
+    "Europe",
+    "Middle East",
+    "Oceania"
    ],
-   "latest": "2026-10-20T01:26+00:00",
-   "earliest": "2026-10-17T01:55+00:00",
+   "latest": "2026-10-20T03:55+00:00",
+   "earliest": "2026-10-19T23:34+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Oil eases as markets assess potential waiver on Russian energy, Middle East supply risks",
-     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks/articleshow/135059323.cms",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Fourteen dead in illegal Colombian gold mine collapse",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/fourteen-dead-in-illegal-colombian-gold-mine-collapse?traffic_source=rss",
      "via": "",
-     "published": "2026-10-20T01:26+00:00",
-     "summary": "Oil prices fell on Tuesday as markets weighed an executive order from US President Donald Trump that waived some sanctions and tariffs tied to Russian energy exports, while attacks on Saudi Arabia and Yemen kept fears of Middle East supply disruptions in view."
+     "published": "2026-10-20T03:55+00:00",
+     "summary": "Fourteen dead in illegal Colombian gold mine collapse"
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Oil slips as Trump’s sanction waiver may lead to more Russian fuel supplies",
-     "url": "https://www.straitstimes.com/business/companies-markets/oil-slips-as-trumps-sanction-waiver-may-lead-to-more-russian-fuel-supplies",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Colombia illegal gold mine collapse kills 14",
+     "url": "https://mining.com.au/colombia-illegal-gold-mine-collapse-kills-14/",
      "via": "",
-     "published": "2026-10-19T01:30+00:00",
-     "summary": "Trump signed an executive order waiving key sanctions and tariffs under the Graham Act."
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump waives new Russia sanctions in the \"national interests\"",
-     "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions",
-     "via": "",
-     "published": "2026-10-17T17:20+00:00",
-     "summary": "President Trump waived new sanctions on Russia late Friday night, saying it was in the \"national interests\" to hold off on the sweeping levies under the Graham Act that he signed just last month. Why it matters : Trump is easing American pressure on Russia despite a bipartisan chorus calling for him to do the exact opposite. It comes a week after his surprise deal to let Russia sell diesel interna"
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest",
-     "url": "https://apnews.com/article/russia-sanctions-trump-ukraine-e50c561ab805883bb4e484c092d8fadd",
-     "via": "",
-     "published": "2026-10-17T03:18+00:00",
+     "published": "2026-10-20T01:22+00:00",
      "summary": ""
     },
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Trump waives Russia energy tariffs and sanctions under Graham law",
-     "url": "https://www.business-standard.com/world-news/trump-waives-russia-energy-tariffs-and-sanctions-under-graham-law-126101700093_1.html",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "14 dead, 7 injured in Colombia illegal gold mine collapse",
+     "url": "https://www.reuters.com/world/americas/14-dead-7-injured-colombia-illegal-gold-mine-collapse-2026-10-19/",
      "via": "",
-     "published": "2026-10-17T01:55+00:00",
+     "published": "2026-10-19T23:34+00:00",
      "summary": ""
     }
    ],
@@ -357,43 +337,43 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "Financial Times",
-    "Mining Weekly"
+    "Associated Press",
+    "Deutsche Welle",
+    "Al Arabiya"
    ],
    "regions": [
-    "Africa",
     "Europe",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-10-19T23:45+00:00",
-   "earliest": "2026-10-19T10:28+00:00",
+   "latest": "2026-10-19T20:37+00:00",
+   "earliest": "2026-10-19T12:51+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "CME to launch tungsten futures in 2027",
-     "url": "https://mining.com.au/cme-to-launch-tungsten-futures-in-2027/",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Houthi rebels strike Yemen’s government forces, killing at least 53",
+     "url": "https://apnews.com/article/yemen-houthis-saudi-fighting-6afad4ec4c22dcccd379152ea87cb0e2",
      "via": "",
-     "published": "2026-10-19T23:45+00:00",
+     "published": "2026-10-19T20:37+00:00",
      "summary": ""
     },
     {
-     "outlet": "Financial Times",
+     "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "CME plans tungsten futures as demand for weapons rises",
-     "url": "https://www.ft.com/content/96d88d61-002d-4b5c-8e0b-4f50577518c5?syn-25a6b1a6=1",
+     "title": "Houthi strike on Yemen government military camp kills at least 50",
+     "url": "https://www.dw.com/en/houthi-strike-on-yemen-government-military-camp-kills-at-least-50/a-79702163?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-19T10:30+00:00",
-     "summary": "China has restricted exports of critical mineral used in armour-piercing munitions"
+     "published": "2026-10-19T14:39+00:00",
+     "summary": "The Iran-backed group has claimed responsibility for the attack which killed new recruits at a military camp. The strikes follow deadly attacks over the weekend blamed on Saudi-led forces."
     },
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "CME to launch tungsten futures to meet rising demand for critical minerals",
-     "url": "https://www.miningweekly.com/article/cme-to-launch-tungsten-futures-to-meet-rising-demand-for-critical-minerals-2026-10-19",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Houthi attack kills 53 at Yemen government training camp, officials say",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/19/houthi-attack-on-yemen-govt-camp-kills-over-30-military-sources",
      "via": "",
-     "published": "2026-10-19T10:28+00:00",
+     "published": "2026-10-19T12:51+00:00",
      "summary": ""
     }
    ],
@@ -446,46 +426,36 @@
    "id": 4
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Rio Times",
-    "Euronews",
-    "Reuters"
+    "Ecofin Agency",
+    "MINING.COM"
    ],
    "regions": [
-    "Europe",
-    "Latin America"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-10-20T00:20+00:00",
-   "earliest": "2026-10-19T10:47+00:00",
+   "latest": "2026-10-20T03:33+00:00",
+   "earliest": "2026-10-19T17:45+00:00",
    "items": [
     {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Lula Narrows Flávio’s Lead in 2 Brazil Polls",
-     "url": "https://www.riotimesonline.com/lula-narrows-flavio-poll-lead-runoff-2026/",
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Digital Gold Market Projected to Triple to $170 Billion by 2031, Opening New Opportunities for Producers",
+     "url": "https://www.ecofinagency.com/news-industry/2010-59920-digital-gold-market-projected-to-triple-to-170-billion-by-2031-opening-new-opportunities-for-producers",
      "via": "",
-     "published": "2026-10-20T00:20+00:00",
-     "summary": "AtlasIntel and Nexus show Lula closing on Flávio Bolsonaro six days before the 25 October runoff, but all five polls checked still have Flávio ahead. The post Lula Narrows Flávio’s Lead in 2 Brazil Polls appeared first on The Rio Times ."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Lula supporters spell out his name in Rio waters before Brazil runoff",
-     "url": "https://www.euronews.com/video/2026/10/19/lula-supporters-spell-out-his-name-in-rio-waters-before-brazil-runoff",
-     "via": "",
-     "published": "2026-10-19T10:52+00:00",
-     "summary": "Brazil’s Lula and Flavio Bolsonaro clash in a tense debate over public spending, corruption and ties to the US, as polls show a tight 51–49 race."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, polls show",
-     "url": "https://www.reuters.com/world/americas/bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-polls-show-2026-10-19/",
-     "via": "",
-     "published": "2026-10-19T10:47+00:00",
+     "published": "2026-10-20T03:33+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Digital gold could triple by 2031, WGC estimates",
+     "url": "https://www.mining.com/digital-gold-could-triple-by-2031-wgc-estimates/",
+     "via": "",
+     "published": "2026-10-19T17:45+00:00",
+     "summary": "The gold industry’s opportunity is reaching buyers beyond its existing bullion and exchange-traded fund customers."
     }
    ],
    "id": 5
@@ -494,33 +464,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Bloomberg"
+    "The Straits Times",
+    "ABC News (Australia)"
    ],
    "regions": [
-    "North America",
-    "South Asia"
+    "Oceania",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-20T01:31+00:00",
-   "earliest": "2026-10-19T22:09+00:00",
+   "latest": "2026-10-20T02:40+00:00",
+   "earliest": "2026-10-19T23:29+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Global Market Today: Asian stocks decline in break from US chip rally",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-decline-in-break-from-us-chip-rally/articleshow/135059346.cms",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australian barber hailed as a hero for running to lawmaker’s rescue during attack",
+     "url": "https://www.straitstimes.com/asia/australianz/australian-barber-hailed-as-hero-for-running-to-lawmakers-rescue-during-attack",
      "via": "",
-     "published": "2026-10-20T01:31+00:00",
-     "summary": "Losses were led by a more than 2% drop in South Korea’s Kospi Index — a bellwether for artificial intelligence investments — as chip heavyweight SK Hynix Inc. headed for its lowest close since April. Data-center infrastructure company Elice Inc. plunged as much as 32% in its trading debut in Seoul."
+     "published": "2026-10-20T02:40+00:00",
+     "summary": "Prime Minister Anthony Albanese praised the man’s intervention, calling him a hero."
     },
     {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Asian Stocks Decline in Break From US Chip Rally: Markets Wrap",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Barber who intervened in Haines attack denies he is a hero",
+     "url": "https://www.abc.net.au/news/2026-10-20/wangaratta-barber-bystanders-driver-helen-haines-attack/107286296",
      "via": "",
-     "published": "2026-10-19T22:09+00:00",
-     "summary": "Asian stocks dropped, diverging from a chip-led rally on Wall Street, as sentiment toward the artificial intelligence trade remained jittery ahead of key earnings this week that will test the strength of gains in the technology sector."
+     "published": "2026-10-19T23:29+00:00",
+     "summary": ""
     }
    ],
    "id": 6
@@ -529,16 +499,25 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Axios"
+    "Axios",
+    "Al Jazeera"
    ],
    "regions": [
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-20T00:08+00:00",
-   "earliest": "2026-10-19T23:48+00:00",
+   "latest": "2026-10-20T02:06+00:00",
+   "earliest": "2026-10-20T00:08+00:00",
    "items": [
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Scoop: Pete Hegseth meets with Netanyahu in Israel ahead of elections",
+     "url": "https://www.axios.com/2026/10/19/pete-hegseth-israel-visit-netanyahu-meeting",
+     "via": "",
+     "published": "2026-10-20T02:06+00:00",
+     "summary": "Defense Secretary Pete Hegseth met with Israeli Prime Minister Benjamin Netanyahu in Israel on Monday, two sources with knowledge told Axios. Why it matters: The unannounced visit comes eight days before Israel's election and amid U.S.-Israeli discussions about potentially resuming major combat operations against Iran . Behind the scenes: The meeting with Netanyahu took place at Ovda Air Base in s"
+    },
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
@@ -547,15 +526,6 @@
      "via": "",
      "published": "2026-10-20T00:08+00:00",
      "summary": "Hegseth has travelled to Israel to meet Netanyahu ahead of a closely contested election, Axios reported, citing sources."
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Scoop: Pete Hegseth meets with Netanyahu in Israel ahead of elections",
-     "url": "https://www.axios.com/2026/10/19/pete-hegseth-israel-visit-netanyahu-meeting",
-     "via": "",
-     "published": "2026-10-19T23:48+00:00",
-     "summary": "Defense Secretary Pete Hegseth met with Israeli Prime Minister Benjamin Netanyahu in Israel on Monday, two sources with knowledge told Axios. Why it matters: The unannounced visit comes eight days before Israel's election and amid U.S.-Israeli discussions about potentially resuming major combat operations against Iran . Driving the news: The meeting with Netanyahu took place at Ovda Air Base in so"
     }
    ],
    "id": 7
@@ -564,36 +534,71 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Bloomberg",
-    "Mining.com.au"
+    "The Straits Times",
+    "Reuters"
    ],
    "regions": [
-    "North America",
-    "Oceania"
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-19T23:55+00:00",
-   "earliest": "2026-10-19T21:55+00:00",
+   "latest": "2026-10-20T01:55+00:00",
+   "earliest": "2026-10-19T23:21+00:00",
    "items": [
     {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Gold Holds Decline as Energy-Led Inflation Weighs on Rate Path",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-19/gold-holds-decline-as-energy-led-inflation-weighs-on-rate-path",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia-backed Nscale, Anthropic in talks for new US$45 billion AI cloud deal, source says",
+     "url": "https://www.straitstimes.com/business/nvidia-backed-nscale-anthropic-in-talks-for-new-us45-billion-ai-cloud-deal-source-says",
      "via": "",
-     "published": "2026-10-19T23:55+00:00",
-     "summary": "Gold held a decline, as elevated oil prices fueled inflation concerns and clouded the Federal Reserve’s path for interest-rate hikes."
+     "published": "2026-10-20T01:55+00:00",
+     "summary": "The potential tie-up comes amid investor scrutiny of debt-driven AI infrastructure expansion."
     },
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Gold price reverses gains as investors weigh Fed rate path",
-     "url": "https://mining.com.au/gold-price-reverses-gains-as-investors-weigh-fed-rate-path/",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia-backed Nscale, Anthropic in talks for new $45 billion AI cloud deal, source says",
+     "url": "https://www.reuters.com/technology/nscale-anthropic-talks-45-billion-cloud-computing-deal-bloomberg-news-reports-2026-10-19/",
      "via": "",
-     "published": "2026-10-19T21:55+00:00",
+     "published": "2026-10-19T23:21+00:00",
      "summary": ""
     }
    ],
    "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-10-19T23:45+00:00",
+   "earliest": "2026-10-19T10:28+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "CME to launch tungsten futures in 2027",
+     "url": "https://mining.com.au/cme-to-launch-tungsten-futures-in-2027/",
+     "via": "",
+     "published": "2026-10-19T23:45+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "CME to launch tungsten futures to meet rising demand for critical minerals",
+     "url": "https://www.miningweekly.com/article/cme-to-launch-tungsten-futures-to-meet-rising-demand-for-critical-minerals-2026-10-19",
+     "via": "",
+     "published": "2026-10-19T10:28+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -628,42 +633,42 @@
      "summary": "The Nasdaq Composite gained 290.85 points, or 1.11%, to 26,430.89."
     }
    ],
-   "id": 9
+   "id": 10
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Al Arabiya"
+    "Mining.com.au",
+    "MINING.COM"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "North America",
+    "Oceania"
    ],
-   "latest": "2026-10-19T22:26+00:00",
-   "earliest": "2026-10-19T12:51+00:00",
+   "latest": "2026-10-19T21:55+00:00",
+   "earliest": "2026-10-19T12:03+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Houthi attack kills 58 at Yemen government training camp, governor says",
-     "url": "https://www.reuters.com/world/least-18-killed-houthi-attack-yemeni-government-military-camp-shabwa-sources-say-2026-10-19/",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Ivanhoe Electric in talks for Santa Cruz copper offtake",
+     "url": "https://mining.com.au/ivanhoe-electric-in-talks-for-santa-cruz-copper-offtake/",
      "via": "",
-     "published": "2026-10-19T22:26+00:00",
+     "published": "2026-10-19T21:55+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Houthi attack kills 53 at Yemen government training camp, officials say",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/19/houthi-attack-on-yemen-govt-camp-kills-over-30-military-sources",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Copper-hungry US buyers circle Ivanhoe Electric mine",
+     "url": "https://www.mining.com/copper-hungry-us-buyers-circle-ivanhoe-electric-mine/",
      "via": "",
-     "published": "2026-10-19T12:51+00:00",
-     "summary": ""
+     "published": "2026-10-19T12:03+00:00",
+     "summary": "Advanced offtake talks could help finance the $1.4-billion Santa Cruz copper project in Arizona as AI and power grid demand accelerates."
     }
    ],
-   "id": 10
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -698,41 +703,6 @@
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-10-19T21:33+00:00",
-   "earliest": "2026-10-19T12:03+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Ivanhoe Electric in talks for Santa Cruz copper offtake",
-     "url": "https://mining.com.au/ivanhoe-electric-in-talks-for-santa-cruz-copper-offtake/",
-     "via": "",
-     "published": "2026-10-19T21:33+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Copper-hungry US buyers circle Ivanhoe Electric mine",
-     "url": "https://www.mining.com/copper-hungry-us-buyers-circle-ivanhoe-electric-mine/",
-     "via": "",
-     "published": "2026-10-19T12:03+00:00",
-     "summary": "Advanced offtake talks could help finance the $1.4-billion Santa Cruz copper project in Arizona as AI and power grid demand accelerates."
-    }
-   ],
    "id": 12
   },
   {
@@ -747,7 +717,7 @@
     "Europe"
    ],
    "latest": "2026-10-19T21:00+00:00",
-   "earliest": "2026-10-19T12:40+00:00",
+   "earliest": "2026-10-19T08:03+00:00",
    "items": [
     {
      "outlet": "Hellenic Shipping News",
@@ -761,84 +731,14 @@
     {
      "outlet": "Mysteel",
      "region": "China",
-     "title": "DAILY: Seaborne iron ore prices inc...",
-     "url": "https://www.mysteel.net/analysis/5145101-daily-seaborne-iron-ore-prices-increase-slightly-amid-limited-transactions",
+     "title": "WEEKLY: China miners' iron ore outp...",
+     "url": "https://www.mysteel.net/analysis/5145004-weekly-china-miners-iron-ore-output-stable-but-stocks-build",
      "via": "",
-     "published": "2026-10-19T12:40+00:00",
+     "published": "2026-10-19T08:03+00:00",
      "summary": ""
     }
    ],
    "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-19T13:41+00:00",
-   "earliest": "2026-10-19T12:30+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Canada's annual inflation rate rose to 3.1% in September",
-     "url": "https://www.reuters.com/world/americas/canadas-annual-inflation-rate-rose-31-september-2026-10-19/",
-     "via": "",
-     "published": "2026-10-19T13:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Canada Inflation Rate Edges Up to 3.1%, Core Measures Ease",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-19/canada-inflation-rate-edges-up-to-3-1-core-measures-ease",
-     "via": "",
-     "published": "2026-10-19T12:30+00:00",
-     "summary": "Canada’s inflation rate ticked up to 3.1% in September as gasoline prices rose, while some gauges of underlying price pressures eased."
-    }
-   ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-19T13:22+00:00",
-   "earliest": "2026-10-19T11:20+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Terrorism squad probes vehicle attack that critically injured Australian lawmaker",
-     "url": "https://www.reuters.com/world/asia-pacific/australia-pm-says-independent-mp-helen-haines-has-been-attacked-2026-10-19/",
-     "via": "",
-     "published": "2026-10-19T13:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Helen Haines: Who is the Australian lawmaker targeted in vehicle attack?",
-     "url": "https://www.straitstimes.com/asia/australianz/helen-haines-who-is-the-australian-lawmaker-targeted-in-vehicle-attack",
-     "via": "",
-     "published": "2026-10-19T11:20+00:00",
-     "summary": "The Australian lawmaker has been left critically injured after being struck by a vehicle late on Oct 19."
-    }
-   ],
-   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -873,42 +773,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Yicai Global"
-   ],
-   "regions": [
-    "China",
-    "South Asia"
-   ],
-   "latest": "2026-10-19T10:46+00:00",
-   "earliest": "2026-10-19T08:05+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "How China's proposed AI export controls could affect open-weight ecosystem",
-     "url": "https://www.business-standard.com/technology/tech-news/china-ai-export-controls-open-weight-models-126101900723_1.html",
-     "via": "",
-     "published": "2026-10-19T10:46+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Yicai Global",
-     "region": "China",
-     "title": "China Proposes Export Controls on Key AI, Biomedicine, and Solar Technologies",
-     "url": "https://www.yicaiglobal.com/news/china-proposes-export-controls-on-40-ai-biomedicine-and-solar-techs",
-     "via": "",
-     "published": "2026-10-19T08:05+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -943,7 +808,7 @@
      "summary": "Two people are in police custody after occupying an offshore Woodside platform about 200 kilometres off Western Australia's coast to protest against the company's gas operations."
     }
    ],
-   "id": 18
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -978,7 +843,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1013,42 +878,7 @@
      "summary": "The Ghost Shark submarine will be able to deploy up to 12 sea mines, or drones."
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "MercoPress"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America"
-   ],
-   "latest": "2026-10-19T06:01+00:00",
-   "earliest": "2026-10-17T06:23+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Brazil: Lula, Bolsonaro clash in heated presidential debate",
-     "url": "https://www.dw.com/en/brazil-lula-bolsonaro-clash-in-heated-presidential-debate/a-79695420?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-19T06:01+00:00",
-     "summary": "The candidates traded barbs, including over Bolsonaro's ties to US President Donald Trump in their first debate, days before the October 25 election runoff."
-    },
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Bolsonaro and Lula head into the final stretch of Brazil’s campaign in a statistical tie",
-     "url": "https://en.mercopress.com/2026/10/17/bolsonaro-and-lula-head-into-the-final-stretch-of-brazil-s-campaign-in-a-statistical-tie?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-10-17T06:23+00:00",
-     "summary": "Senator Flávio Bolsonaro and President Luiz Inácio Lula da Silva are heading into the final days of the campaign for the October 25 runoff in a statistical tie, according to two new polls. A Datafolha survey released on Thursday night gives Bolsonaro 51% of valid votes and Lula 49%, compared with 52% and 48% a week earlier, with a margin of error of two points."
-    }
-   ],
-   "id": 21
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1083,42 +913,7 @@
      "summary": ""
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-18T14:54+00:00",
-   "earliest": "2026-10-18T11:57+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Taiwan says it drove away 16 Chinese ships involved in ‘maritime harassment’",
-     "url": "https://www.straitstimes.com/asia/east-asia/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment",
-     "via": "",
-     "published": "2026-10-18T14:54+00:00",
-     "summary": "The locations were off Taiwan’s eastern, southern and south-western coastlines, and around Pratas."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Taiwan says drives away 16 Chinese ships involved in ‘maritime harassment’",
-     "url": "https://english.alarabiya.net/News/world/2026/10/18/taiwan-says-drives-away-16-chinese-ships-involved-in-maritime-harassment-",
-     "via": "",
-     "published": "2026-10-18T11:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1153,7 +948,41 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-10-20T02:45+00:00",
+   "earliest": "2026-10-19T15:02+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "South Korean govt, SK Hynix launch KRW2 trillion loan guarantee program for chip suppliers",
+     "url": "https://www.digitimes.com/news/a20261020VL200/sk-hynix-loan-government-trinity-commercial.html",
+     "via": "",
+     "published": "2026-10-20T02:45+00:00",
+     "summary": "SK Hynix, South Korea's industry ministry, the state-run Korea Trade Insurance Corp. (K-SURE), and four major commercial banks launched a KRW2 trillion (US$1.5 billion) loan guarantee program for semiconductor materials, parts, and equipment (MPE) suppliers on October 19, 2026. The program is the largest single-sector package under the government's push to strengthen export supply chains, Yonhap N"
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "SK hynix launches W2tr financing program to bolster chip suppliers",
+     "url": "https://www.koreaherald.com/article/10907390",
+     "via": "",
+     "published": "2026-10-19T15:02+00:00",
+     "summary": "SK hynix has launched a 2 trillion won ($1.5 billion) financing program with major commercial banks and a state-run trade insurer to help domestic semiconductor suppliers secure affordable funding and strengthen Korea's chip supply chain, the company said Monday. SK hynix CEO Kwak Noh-jung, Industry Minister Kim Jung-kwan, representatives from the Korea Trade Insurance Corporation, four major bank"
+    }
+   ],
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1187,7 +1016,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1221,7 +1050,7 @@
      "summary": "Tri-fuel engine makes successful voyage from Houston to New York on US-bunkered 100% bioethanol."
     }
    ],
-   "id": 26
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1255,41 +1084,7 @@
      "summary": "The refuelling was carried at berth in PSA during container handling operations on the vessel"
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-19T20:32+00:00",
-   "earliest": "2026-10-19T19:50+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Police say a shooting in Columbus, Ohio, was not an attack on a mosque, but was nearby",
-     "url": "https://english.alarabiya.net/amp/News/united-states/2026/10/20/police-say-a-shooting-in-columbus-ohio-was-not-an-attack-on-a-mosque-but-was-nearby",
-     "via": "",
-     "published": "2026-10-19T20:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "One killed in US shooting near mosque in Columbus, Ohio",
-     "url": "https://www.aljazeera.com/news/2026/10/19/us-federal-authorities-responding-to-shooting-at-mosque-in-columbus-ohio?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-19T19:50+00:00",
-     "summary": "Local authorities say mosque was not target of attack."
-    }
-   ],
-   "id": 28
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1323,7 +1118,41 @@
      "summary": "The cause of the shortages and when supplies will fully return to normal remain unclear, leaving motorists uncertain about when they will be able to fill their tanks without long waits."
     }
    ],
-   "id": 29
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-10-19T10:52+00:00",
+   "earliest": "2026-10-19T10:47+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Lula supporters spell out his name in Rio waters before Brazil runoff",
+     "url": "https://www.euronews.com/video/2026/10/19/lula-supporters-spell-out-his-name-in-rio-waters-before-brazil-runoff",
+     "via": "",
+     "published": "2026-10-19T10:52+00:00",
+     "summary": "Brazil’s Lula and Flavio Bolsonaro clash in a tense debate over public spending, corruption and ties to the US, as polls show a tight 51–49 race."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, polls show",
+     "url": "https://www.reuters.com/world/americas/bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-polls-show-2026-10-19/",
+     "via": "",
+     "published": "2026-10-19T10:47+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1357,7 +1186,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1391,41 +1220,7 @@
      "summary": ""
     }
    ],
-   "id": 31
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-19T06:31+00:00",
-   "earliest": "2026-10-18T21:07+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Oil tanker on fire after hitting mine in Hormuz: Iran’s IRGC",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/19/oil-tanker-on-fire-after-hitting-mine-in-hormuz-iran-s-irgc-",
-     "via": "",
-     "published": "2026-10-19T06:31+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran’s IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/liveblog_entry/irans-irgc-navy-says-oil-tanker-hits-mine-catches-fire-in-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-10-18T21:07+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 32
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1459,7 +1254,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1493,41 +1288,7 @@
      "summary": ""
     }
    ],
-   "id": 34
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-17T07:27+00:00",
-   "earliest": "2026-10-17T02:04+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Tanker explodes after hitting mine in Strait of Hormuz: Iran’s IRGC",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/17/tanker-explodes-after-hitting-mine-in-strait-of-hormuz-iran-s-irgc",
-     "via": "",
-     "published": "2026-10-17T07:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran Guards say oil tanker exploded after hitting mine in 'unauthorized' route through Hormuz",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-guards-say-oil-tanker-exploded-after-hitting-mine-in-unauthorized-route-through-hormuz/",
-     "via": "",
-     "published": "2026-10-17T02:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 35
+   "id": 29
   }
  ]
 }
