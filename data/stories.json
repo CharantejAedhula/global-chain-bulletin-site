@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-20T23:56:04+00:00",
+ "fetched_at": "2026-10-21T01:24:56+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 709,
+ "items_read": 719,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Yicai Global": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 55,
+   "items": 56,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Kyodo News": {
@@ -62,12 +62,12 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Financial Times": {
@@ -102,12 +102,12 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 37,
+   "items": 36,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Amwaj.media": {
@@ -127,17 +127,17 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 14,
+   "items": 19,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 15,
+   "items": 17,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 8,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,12 +154,12 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 8,
    "errors": []
   },
   "Mining.com.au": {
@@ -184,7 +184,7 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 28,
+   "items": 24,
    "errors": []
   },
   "Business Standard": {
@@ -206,12 +206,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "VnExpress International": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 33,
+   "items": 34,
    "errors": []
   },
   "Rio Times": {
@@ -242,9 +242,10 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
+    "Deutsche Welle",
     "Euronews",
     "Al Jazeera",
     "Livemint / Economic Times",
@@ -255,9 +256,18 @@
     "Middle East",
     "South Asia"
    ],
-   "latest": "2026-10-20T19:04+00:00",
+   "latest": "2026-10-21T01:23+00:00",
    "earliest": "2026-10-20T10:57+00:00",
    "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+     "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-21T01:23+00:00",
+     "summary": "The UK is sending military support to Saudi Arabia as Iran-aligned Houthi rebels launch repeated attacks on the kingdom."
+    },
     {
      "outlet": "Euronews",
      "region": "Europe",
@@ -401,6 +411,52 @@
   },
   {
    "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-10-20T20:33+00:00",
+   "earliest": "2026-10-20T14:06+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Phoenix Tailings to build rare earth facility in New York state",
+     "url": "https://mining.com.au/phoenix-tailings-to-build-rare-earth-facility-in-new-york-state/",
+     "via": "",
+     "published": "2026-10-20T20:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Phoenix Tailings to build $375M rare earth plant in New York",
+     "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
+     "via": "",
+     "published": "2026-10-20T16:56+00:00",
+     "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Phoenix Tailings to build $375-million rare earths facility in New York state",
+     "url": "https://www.reuters.com/world/china/phoenix-tailings-build-375-million-rare-earths-facility-new-york-state-2026-10-20/",
+     "via": "",
+     "published": "2026-10-20T14:06+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
    "same_headline_groups": [
     [
      "Mining Weekly",
@@ -458,7 +514,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -504,7 +560,7 @@
      "summary": "Taiwan says Chinese Coast Guard ship entered \"restricted waters\" near the Pratas Islands it controls."
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -549,94 +605,39 @@
      "summary": ""
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Deutsche Welle",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-20T19:17+00:00",
-   "earliest": "2026-10-20T05:42+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
-     "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d",
-     "via": "",
-     "published": "2026-10-20T19:17+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Sudan drone strike kills around 150 in Abyei market",
-     "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-20T18:09+00:00",
-     "summary": "A drone strike hit a market in the Abyei border region disputed by Sudan and South Sudan and killed dozens. The drone caused a large fire when it hit a fuel depot. South Sudanese officials blamed Sudan's military."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Sudanese drone attack killed more than 150 people in Abyei market, official says",
-     "url": "https://www.reuters.com/world/africa/drone-strike-disputed-sudan-south-sudan-area-kills-dozens-minister-says-2026-10-20/",
-     "via": "",
-     "published": "2026-10-20T05:42+00:00",
-     "summary": ""
-    }
-   ],
    "id": 7
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "Deutsche Welle"
+    "ABC News (Australia)",
+    "Bloomberg"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "North America",
+    "Oceania"
    ],
-   "latest": "2026-10-20T18:43+00:00",
-   "earliest": "2026-10-20T15:12+00:00",
+   "latest": "2026-10-21T01:01+00:00",
+   "earliest": "2026-10-20T23:51+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Lula challenges Bolsonaro to release personal records before election",
-     "url": "https://www.aljazeera.com/news/2026/10/20/lula-challenges-bolsonaro-to-release-personal-records-before-election?traffic_source=rss",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
+     "url": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
      "via": "",
-     "published": "2026-10-20T18:43+00:00",
-     "summary": "Brazil's left-wing president says he will release bank, tax, and phone records if right-wing rival will do the same."
+     "published": "2026-10-21T01:01+00:00",
+     "summary": "As markets put the chance of a rate hike in November at 42 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\"."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Brazil's Lula challenges Flavio Bolsonaro to make financial records public ahead of election",
-     "url": "https://www.reuters.com/business/finance/brazils-lula-challenges-flavio-bolsonaro-make-financial-records-public-ahead-2026-10-20/",
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "RBA’s Hauser Says Australia Inflation Outlook ‘Materially Worse’",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-20/rba-s-hauser-says-australia-inflation-outlook-materially-worse",
      "via": "",
-     "published": "2026-10-20T16:56+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote",
-     "url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-20T15:12+00:00",
-     "summary": "With just under a week to go before the decisive presidential runoff election, polls show left-wing incumbent Luiz Inacio Lula da Silva and his right-wing challenger Flavio Bolsonaro are virtually tied."
+     "published": "2026-10-20T23:51+00:00",
+     "summary": "Australia’s inflation outlook looks “materially worse” than the Reserve Bank predicted in its August forecast, Deputy Governor Andrew Hauser said, pointing to higher oil and technology prices as well as persistent domestic pressures."
     }
    ],
    "id": 8
@@ -645,33 +646,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Deutsche Welle"
+    "Livemint / Economic Times",
+    "Bloomberg"
    ],
    "regions": [
-    "Europe",
-    "Southeast Asia"
+    "North America",
+    "South Asia"
    ],
-   "latest": "2026-10-20T22:36+00:00",
-   "earliest": "2026-10-20T06:02+00:00",
+   "latest": "2026-10-21T01:00+00:00",
+   "earliest": "2026-10-20T22:05+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Man accused of ramming car into Australian lawmaker to face 3 charges in court",
-     "url": "https://www.straitstimes.com/asia/australianz/man-accused-of-ramming-car-into-australian-lawmaker-to-face-three-charges-in-court",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Global Market Today: Asian shares, US futures rise on AI-trade revival",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-us-futures-rise-on-ai-trade-revival/articleshow/135079128.cms",
      "via": "",
-     "published": "2026-10-20T22:36+00:00",
-     "summary": "Authorities say the attack on independent MP Helen Haines was deliberate."
+     "published": "2026-10-21T01:00+00:00",
+     "summary": "The MSCI Asia Pacific Index climbed 0.6% with shares gaining in South Korea and Japan. The Kospi Index rose 1.9%, rebounding after one of the country’s worst IPO debuts on record."
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Australian MP seriously hurt in suspected car attack",
-     "url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-all-1573-rdf",
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Asian Shares, US Futures Rise on AI-Trade Revival: Markets Wrap",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
      "via": "",
-     "published": "2026-10-20T06:02+00:00",
-     "summary": "Helen Haines, an independent federal lawmaker, suffered severe injuries in what Australia's prime minister has called a deliberate attack by a man in a car."
+     "published": "2026-10-20T22:05+00:00",
+     "summary": "Asian shares rose along with US equity-index futures as strong earnings from some of the biggest beneficiaries of the artificial intelligence boom revived optimism over the tech trade."
     }
    ],
    "id": 9
@@ -715,33 +716,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
+    "Associated Press",
+    "Deutsche Welle"
    ],
    "regions": [
-    "North America",
-    "Oceania"
+    "Europe",
+    "North America"
    ],
-   "latest": "2026-10-20T20:33+00:00",
-   "earliest": "2026-10-20T16:56+00:00",
+   "latest": "2026-10-20T19:17+00:00",
+   "earliest": "2026-10-20T18:09+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Phoenix Tailings to build rare earth facility in New York state",
-     "url": "https://mining.com.au/phoenix-tailings-to-build-rare-earth-facility-in-new-york-state/",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+     "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d",
      "via": "",
-     "published": "2026-10-20T20:33+00:00",
+     "published": "2026-10-20T19:17+00:00",
      "summary": ""
     },
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Phoenix Tailings to build $375M rare earth plant in New York",
-     "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Sudan drone strike kills around 150 in Abyei market",
+     "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-20T16:56+00:00",
-     "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
+     "published": "2026-10-20T18:09+00:00",
+     "summary": "A drone strike hit a market in the Abyei border region disputed by Sudan and South Sudan and killed dozens. The drone caused a large fire when it hit a fuel depot. South Sudanese officials blamed Sudan's military."
     }
    ],
    "id": 11
@@ -982,7 +983,7 @@
     {
      "outlet": "Bloomberg",
      "region": "North America",
-     "title": "China’s Benchmark Switch Spells Ramp-Up of Overnight Operations",
+     "title": "China Benchmark Switch Spells Ramp-Up of Overnight Operation",
      "url": "https://www.bloomberg.com/news/articles/2026-10-20/pboc-faces-multi-month-road-to-new-rate-anchor-analysts-say",
      "via": "",
      "published": "2026-10-20T07:33+00:00",
@@ -1065,41 +1066,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "Caixin Global"
-   ],
-   "regions": [
-    "China",
-    "East Asia"
-   ],
-   "latest": "2026-10-20T04:15+00:00",
-   "earliest": "2026-10-19T15:50+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "China tightens drone export controls, extending restrictions to critical components, technologies",
-     "url": "https://www.digitimes.com/news/a20261020PD228/military-aircraft-2026-software.html",
-     "via": "",
-     "published": "2026-10-20T04:15+00:00",
-     "summary": "China's Ministry of Commerce, General Administration of Customs, and military authorities jointly announced revised export controls on drones on October 19, covering complete aircraft, critical components, software, and technologies meeting specified technical thresholds. The measures will take effect on November 18, 2026, requiring export licenses for affected items."
-    },
-    {
-     "outlet": "Caixin Global",
-     "region": "China",
-     "title": "China Tightens Export Controls on Drone Parts, Eases Curbs on Farm Models",
-     "url": "https://www.caixinglobal.com/2026-10-19/china-tightens-export-controls-on-drone-parts-eases-curbs-on-farm-models-102495030.html",
-     "via": "",
-     "published": "2026-10-19T15:50+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Ecofin Agency",
     "MINING.COM"
    ],
@@ -1129,7 +1095,7 @@
      "summary": "The gold industry’s opportunity is reaching buyers beyond its existing bullion and exchange-traded fund customers."
     }
    ],
-   "id": 22
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1164,7 +1130,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1199,7 +1165,7 @@
      "summary": "US President Donald Trump said on Monday he was open to a three-way meeting with Chinese President Xi Jinping and Russian President Vladimir Putin during his visit to China next month, with nuclear weapons on the agenda. “We would have it to talk about nuclear weapons and denuclearisation,” Trump told reporters outside the White House before travelling to Kansas. “If President Xi wants to have it,"
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1234,42 +1200,7 @@
      "summary": ""
     }
    ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Yicai Global"
-   ],
-   "regions": [
-    "China",
-    "South Asia"
-   ],
-   "latest": "2026-10-19T10:46+00:00",
-   "earliest": "2026-10-19T08:05+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "How China's proposed AI export controls could affect open-weight ecosystem",
-     "url": "https://www.business-standard.com/technology/tech-news/china-ai-export-controls-open-weight-models-126101900723_1.html",
-     "via": "",
-     "published": "2026-10-19T10:46+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Yicai Global",
-     "region": "China",
-     "title": "China Proposes Export Controls on Key AI, Biomedicine, and Solar Technologies",
-     "url": "https://www.yicaiglobal.com/news/china-proposes-export-controls-on-40-ai-biomedicine-and-solar-techs",
-     "via": "",
-     "published": "2026-10-19T08:05+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1304,7 +1235,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1338,7 +1269,7 @@
      "summary": "The $35 billion miner produced 20 per cent less gold at a higher cost per ounce in the September quarter, but beat analysts’ expectations across the board."
     }
    ],
-   "id": 28
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1372,7 +1303,41 @@
      "summary": "Wind propulsion systems on two EPS vessels are the first projects financed by GCMD's FEET fund, which uses measured fuel savings to determine repayments."
     }
    ],
-   "id": 29
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-10-20T16:56+00:00",
+   "earliest": "2026-10-20T15:12+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Brazil's Lula challenges Flavio Bolsonaro to make financial records public ahead of election",
+     "url": "https://www.reuters.com/business/finance/brazils-lula-challenges-flavio-bolsonaro-make-financial-records-public-ahead-2026-10-20/",
+     "via": "",
+     "published": "2026-10-20T16:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote",
+     "url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-20T15:12+00:00",
+     "summary": "With just under a week to go before the decisive presidential runoff election, polls show left-wing incumbent Luiz Inacio Lula da Silva and his right-wing challenger Flavio Bolsonaro are virtually tied."
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1406,7 +1371,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1440,7 +1405,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1474,7 +1439,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1508,7 +1473,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 32
   }
  ]
 }
