@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-21T01:24:56+00:00",
+ "fetched_at": "2026-10-21T04:49:01+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 719,
+ "items_read": 737,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 54,
+   "items": 52,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 37,
+   "items": 38,
    "errors": []
   },
   "Caixin Global": {
@@ -32,47 +32,47 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 23,
+   "items": 25,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 8,
+   "items": 11,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 56,
+   "items": 63,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 14,
+   "items": 12,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 25,
+   "items": 20,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 29,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -102,12 +102,12 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 36,
+   "items": 37,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 19,
+   "items": 22,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -159,12 +159,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 25,
+   "items": 20,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "PortNews": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 24,
+   "items": 19,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 29,
+   "items": 30,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,22 +216,22 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 34,
+   "items": 35,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,12 +242,67 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Al Jazeera",
+    "Reuters",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-21T03:11+00:00",
+   "earliest": "2026-10-20T19:17+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Food importer sues Trump admin over 50% tariffs on Canadian goods",
+     "url": "https://www.business-standard.com/world-news/food-importer-sues-trump-admin-over-50-tariffs-on-canadian-goods-126102100108_1.html",
+     "via": "",
+     "published": "2026-10-21T03:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US food importer sues Trump over 50 percent tariffs on Canadian goods",
+     "url": "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-20T21:19+00:00",
+     "summary": "The lawsuit argues Trump bypassed Congress and misused a Depression-era law to impose tariffs on Canadian imports."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Food importer files new lawsuit to block Trump's Canada tariffs",
+     "url": "https://www.reuters.com/world/americas/food-importer-files-new-lawsuit-block-trumps-canada-tariffs-2026-10-20/",
+     "via": "",
+     "published": "2026-10-20T19:53+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "A 1930 law, 50% tariffs and a new lawsuit: Trump faces fresh challenge over Canada duties",
+     "url": "https://www.livemint.com/news/us-news/a-1930-law-50-tariffs-and-a-new-lawsuit-trump-faces-fresh-challenge-over-canada-duties-11792521448579.html",
+     "via": "",
+     "published": "2026-10-20T19:17+00:00",
+     "summary": "The food import business that sued argues President Donald Trump lacked authority to invoke a never-before-used section of US law to order the levies against Canada and that this is part of a broader trend of illegal taxing actions by the administration."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Deutsche Welle",
     "Euronews",
-    "Al Jazeera",
     "Livemint / Economic Times",
     "Al Arabiya"
    ],
@@ -278,15 +333,6 @@
      "summary": "British Defence Secretary Wes Streeting branded Houthi attacks on Saudi Arabia as \"absolutely despicable and dangerous for the region.\""
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "UK to deploy fighter jets to defend Saudi Arabia",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-20T18:55+00:00",
-     "summary": "British Typhoon jets will carry out defensive missions to protect Saudi Arabia from escalating Houthi attacks."
-    },
-    {
      "outlet": "Livemint / Economic Times",
      "region": "South Asia",
      "title": "Britain to defend Saudi Arabia against Houthi drones and missiles, rules out offensive strikes",
@@ -305,7 +351,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 4,
@@ -361,96 +407,50 @@
      "summary": "A power outage at a Google Cloud data centre in London caused serious network disruptions to its services Tuesday, the US tech giant said. The issue has since been \"mitigated\" for \"most\" customers, it added later."
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-10-20T21:19+00:00",
-   "earliest": "2026-10-20T19:17+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "US food importer sues Trump over 50 percent tariffs on Canadian goods",
-     "url": "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-20T21:19+00:00",
-     "summary": "The lawsuit argues Trump bypassed Congress and misused a Depression-era law to impose tariffs on Canadian imports."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Food importer files new lawsuit to block Trump's Canada tariffs",
-     "url": "https://www.reuters.com/world/americas/food-importer-files-new-lawsuit-block-trumps-canada-tariffs-2026-10-20/",
-     "via": "",
-     "published": "2026-10-20T19:53+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "A 1930 law, 50% tariffs and a new lawsuit: Trump faces fresh challenge over Canada duties",
-     "url": "https://www.livemint.com/news/us-news/a-1930-law-50-tariffs-and-a-new-lawsuit-trump-faces-fresh-challenge-over-canada-duties-11792521448579.html",
-     "via": "",
-     "published": "2026-10-20T19:17+00:00",
-     "summary": "The food import business that sued argues President Donald Trump lacked authority to invoke a never-before-used section of US law to order the levies against Canada and that this is part of a broader trend of illegal taxing actions by the administration."
-    }
-   ],
    "id": 3
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "MINING.COM",
-    "Reuters"
+    "Al Jazeera",
+    "Associated Press",
+    "Deutsche Welle"
    ],
    "regions": [
     "Europe",
-    "North America",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-10-20T20:33+00:00",
-   "earliest": "2026-10-20T14:06+00:00",
+   "latest": "2026-10-21T02:18+00:00",
+   "earliest": "2026-10-20T18:09+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Phoenix Tailings to build rare earth facility in New York state",
-     "url": "https://mining.com.au/phoenix-tailings-to-build-rare-earth-facility-in-new-york-state/",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
      "via": "",
-     "published": "2026-10-20T20:33+00:00",
-     "summary": ""
+     "published": "2026-10-21T02:18+00:00",
+     "summary": "Drone strike on Abyei market near Sudan-South Sudan border kills 150"
     },
     {
-     "outlet": "MINING.COM",
+     "outlet": "Associated Press",
      "region": "North America",
-     "title": "Phoenix Tailings to build $375M rare earth plant in New York",
-     "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
+     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
+     "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d",
      "via": "",
-     "published": "2026-10-20T16:56+00:00",
-     "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
+     "published": "2026-10-20T19:17+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Reuters",
+     "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "Phoenix Tailings to build $375-million rare earths facility in New York state",
-     "url": "https://www.reuters.com/world/china/phoenix-tailings-build-375-million-rare-earths-facility-new-york-state-2026-10-20/",
+     "title": "Sudan drone strike kills around 150 in Abyei market",
+     "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-20T14:06+00:00",
-     "summary": ""
+     "published": "2026-10-20T18:09+00:00",
+     "summary": "A drone strike hit a market in the Abyei border region disputed by Sudan and South Sudan and killed dozens. The drone caused a large fire when it hit a fuel depot. South Sudanese officials blamed Sudan's military."
     }
    ],
    "id": 4
@@ -566,6 +566,96 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Australian Financial Review",
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-10-21T04:14+00:00",
+   "earliest": "2026-10-20T07:19+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Northern Star’s costs jump as board awaits sweetened Gold Fields bid",
+     "url": "https://www.afr.com/companies/mining/northern-star-s-costs-jump-as-board-awaits-sweetened-gold-fields-bid-20261021-p616z1?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-10-21T04:14+00:00",
+     "summary": "The $36 billion miner produced 20 per cent less bullion at a higher cost per ounce in the September quarter, but still beat analysts’ expectations."
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Northern Star posts higher quarterly gold sales revenue but misses estimates",
+     "url": "https://mining.com.au/northern-star-posts-higher-quarterly-gold-sales-revenue-but-misses-estimates/",
+     "via": "",
+     "published": "2026-10-20T23:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "BHP misses quarterly copper output estimates on Chile mine disruptions",
+     "url": "https://www.miningweekly.com/article/bhp-misses-quarterly-copper-output-estimates-on-chile-mine-disruptions-2026-10-20",
+     "via": "",
+     "published": "2026-10-20T07:19+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Reuters",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-10-21T02:12+00:00",
+   "earliest": "2026-10-20T08:02+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Oil Price Today (October 21): Crude oil crosses $110 amid Middle East supply concerns. What lies ahead?",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-october-21-crude-oil-crosses-110-amid-middle-east-supply-concerns-what-lies-ahead/articleshow/135079942.cms",
+     "via": "",
+     "published": "2026-10-21T02:12+00:00",
+     "summary": "Brent crude futures jumped more than $1 to trade at around $110 per barrel. WTI Crude futures also gained more than a dollar to trade at around $99 per barrel"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oil rises on Middle East supply fears, US inventory drawdowns",
+     "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/",
+     "via": "",
+     "published": "2026-10-21T00:50+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Oil prices top $110 as traders weigh Middle East supply risks",
+     "url": "https://www.euronews.com/2026/10/20/oil-prices-top-110-as-traders-weigh-middle-east-risks",
+     "via": "",
+     "published": "2026-10-20T08:02+00:00",
+     "summary": "The price of Brent crude remained at a five-month high as uncertainty over when energy supplies will return to normal amid the war with Iran keeps oil inflated."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Al Jazeera",
     "Reuters",
     "Al Arabiya"
@@ -605,7 +695,232 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-10-21T04:42+00:00",
+   "earliest": "2026-10-20T16:37+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "South Africa’s Springbok Lithium Project Draws Offers as Country, Far Behind Neighbor Zimbabwe, Seeks to Build Industry",
+     "url": "https://www.ecofinagency.com/news-industry/2110-59962-south-africa-s-springbok-lithium-project-draws-offers-as-country-far-behind-neighbor-zimbabwe-seeks-to-build-industry",
+     "via": "",
+     "published": "2026-10-21T04:42+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Lithium Africa weighs $60M offer for Springbok lithium project",
+     "url": "https://www.mining.com/lithium-africa-weighs-60m-offer-for-springbok-lithium-project/",
+     "via": "",
+     "published": "2026-10-20T16:37+00:00",
+     "summary": "Two financing proposals could accelerate South African lithium production and fund district-wide exploration and processing."
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-21T04:36+00:00",
+   "earliest": "2026-10-20T17:59+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Iran-US war: Mohsen Rezaei says 'not a single gram of enriched uranium will leave Iran' — what we know so far",
+     "url": "https://www.livemint.com/news/world/iranus-war-mohsen-rezaei-says-not-a-single-gram-of-enriched-uranium-will-leave-iran-what-we-know-so-far-11792555984277.html",
+     "via": "",
+     "published": "2026-10-21T04:36+00:00",
+     "summary": "Iranian Supreme National Security Council Secretary Mohsen Rezaei ruled out sending Iran’s enriched nuclear material abroad."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran rules out transferring enriched nuclear material abroad amid US tensions",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/iran-rules-out-transferring-enriched-nuclear-material-abroad-amid-us-tensions",
+     "via": "",
+     "published": "2026-10-20T17:59+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Nikkei Asia",
+     "The Straits Times"
+    ]
+   ],
+   "outlets": [
+    "DigiTimes",
+    "Nikkei Asia",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-21T03:17+00:00",
+   "earliest": "2026-10-20T02:36+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Micron faces potential Taiwan strike, union cites Samsung, SK Hynix profit-sharing benchmark",
+     "url": "https://www.digitimes.com/news/a20261021PD230/micron-strike-taiwan-samsung-sk-hynix.html",
+     "via": "",
+     "published": "2026-10-21T03:17+00:00",
+     "summary": "Micron Technology's Taoyuan union has announced a one-day warning strike for October 22, coinciding with a second round of labour mediation between the company and its Taichung union. The Taoyuan union is demanding a concrete response to its profit-sharing proposals, particularly the percentage and amount of a one-off bonus for 2026 and a future profit-sharing framework."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Micron union in Taiwan to launch one-day strike as bonus dispute escalates",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/micron-union-in-taiwan-to-launch-one-day-strike-as-bonus-dispute-escalates",
+     "via": "",
+     "published": "2026-10-20T14:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Micron union in Taiwan to launch one-day strike as bonus dispute escalates",
+     "url": "https://www.straitstimes.com/asia/east-asia/micron-union-in-taiwan-to-launch-strike-as-bonus-dispute-escalates",
+     "via": "",
+     "published": "2026-10-20T02:36+00:00",
+     "summary": "Micron employs about 15,000 people in Taiwan."
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-10-21T02:51+00:00",
+   "earliest": "2026-10-20T15:51+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "How ByteDance, Alibaba, Tencent are testing the boundaries of US AI chip restrictions",
+     "url": "https://www.digitimes.com/news/a20261021VL208/alibaba-bytedance-tencent-nvidia-chips.html",
+     "via": "",
+     "published": "2026-10-21T02:51+00:00",
+     "summary": "Chinese tech giants ByteDance, Alibaba, and Tencent have collectively ordered more than 3 million units of Nvidia's new RTX PRO 5500 graphics cards, representing a total value exceeding US$35 billion, as reported by Reuters."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders",
+     "url": "https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/",
+     "via": "",
+     "published": "2026-10-20T15:51+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-21T02:41+00:00",
+   "earliest": "2026-10-20T17:12+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Marco Rubio to visit Jamnagar - Why US needs Reliance Industries to process Venezuelan crude amid record diesel prices?",
+     "url": "https://www.livemint.com/news/india/marco-rubio-to-visit-jamnagar-why-us-needs-reliance-industries-to-process-venezuelan-crude-amid-record-diesel-prices-11792549301377.html",
+     "via": "",
+     "published": "2026-10-21T02:41+00:00",
+     "summary": "During his India visit, Marco Rubio will meet Reliance chairman Mukesh Ambani in Jamnagar to discuss refining more Venezuelan oil. Reliance’s refineries can process the country’s heavy crude, while US efforts to expand production face aging infrastructure challenges in Venezuela."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Rubio: US to Discuss Refining Venezuelan Crude With Reliance",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/20/rubio-us-to-discuss-refining-venezuelan-crude-with-reliance-",
+     "via": "",
+     "published": "2026-10-20T17:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-21T01:30+00:00",
+   "earliest": "2026-10-21T00:00+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "South Korea’s export boom stays strong ahead of central bank rate decision",
+     "url": "https://www.straitstimes.com/business/south-koreas-export-boom-stays-strong-ahead-of-central-bank-rate-decision",
+     "via": "",
+     "published": "2026-10-21T01:30+00:00",
+     "summary": "Booming global demand for artificial intelligence fuelled semiconductor shipments."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "S. Korea’s Export Boom Stays Strong Ahead of BOK Rate Decision",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/s-korea-s-export-boom-stays-strong-ahead-of-bok-rate-decision",
+     "via": "",
+     "published": "2026-10-21T00:00+00:00",
+     "summary": "South Korea’s exports maintained strong growth in early October as booming global demand for artificial intelligence fueled semiconductor shipments, underscoring the economy’s resilience on the eve of the central bank’s interest-rate decision."
+    }
+   ],
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -628,54 +943,19 @@
      "url": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574",
      "via": "",
      "published": "2026-10-21T01:01+00:00",
-     "summary": "As markets put the chance of a rate hike in November at 42 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\"."
+     "summary": "As markets put the chance of a rate hike in November at more than 50 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\"."
     },
     {
      "outlet": "Bloomberg",
      "region": "North America",
-     "title": "RBA’s Hauser Says Australia Inflation Outlook ‘Materially Worse’",
+     "title": "RBA’s Hauser Says Australia Price Outlook ‘Materially Worse’",
      "url": "https://www.bloomberg.com/news/articles/2026-10-20/rba-s-hauser-says-australia-inflation-outlook-materially-worse",
      "via": "",
      "published": "2026-10-20T23:51+00:00",
-     "summary": "Australia’s inflation outlook looks “materially worse” than the Reserve Bank predicted in its August forecast, Deputy Governor Andrew Hauser said, pointing to higher oil and technology prices as well as persistent domestic pressures."
+     "summary": "Australia’s inflation outlook looks “materially worse” than the Reserve Bank predicted in its August forecast, Deputy Governor Andrew Hauser said, bolstering expectations the Reserve Bank will deliver a fifth hike this year in November."
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-10-21T01:00+00:00",
-   "earliest": "2026-10-20T22:05+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Global Market Today: Asian shares, US futures rise on AI-trade revival",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-us-futures-rise-on-ai-trade-revival/articleshow/135079128.cms",
-     "via": "",
-     "published": "2026-10-21T01:00+00:00",
-     "summary": "The MSCI Asia Pacific Index climbed 0.6% with shares gaining in South Korea and Japan. The Kospi Index rose 1.9%, rebounding after one of the country’s worst IPO debuts on record."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Asian Shares, US Futures Rise on AI-Trade Revival: Markets Wrap",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
-     "via": "",
-     "published": "2026-10-20T22:05+00:00",
-     "summary": "Asian shares rose along with US equity-index futures as strong earnings from some of the biggest beneficiaries of the artificial intelligence boom revived optimism over the tech trade."
-    }
-   ],
-   "id": 9
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -710,77 +990,42 @@
      "summary": "Maritime data provider Kpler has reached an agreement with Airbus to expand its ability to track vessels that disappear from conventional ship-tracking systems, adding daily satellite imagery to help identify..."
     }
    ],
-   "id": 10
+   "id": 17
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Deutsche Welle"
+    "Mining.com.au",
+    "MINING.COM"
    ],
    "regions": [
-    "Europe",
-    "North America"
+    "North America",
+    "Oceania"
    ],
-   "latest": "2026-10-20T19:17+00:00",
-   "earliest": "2026-10-20T18:09+00:00",
+   "latest": "2026-10-20T20:33+00:00",
+   "earliest": "2026-10-20T16:56+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Phoenix Tailings to build rare earth facility in New York state",
+     "url": "https://mining.com.au/phoenix-tailings-to-build-rare-earth-facility-in-new-york-state/",
+     "via": "",
+     "published": "2026-10-20T20:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
-     "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d",
+     "title": "Phoenix Tailings to build $375M rare earth plant in New York",
+     "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
      "via": "",
-     "published": "2026-10-20T19:17+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Sudan drone strike kills around 150 in Abyei market",
-     "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-20T18:09+00:00",
-     "summary": "A drone strike hit a market in the Abyei border region disputed by Sudan and South Sudan and killed dozens. The drone caused a large fire when it hit a fuel depot. South Sudanese officials blamed Sudan's military."
+     "published": "2026-10-20T16:56+00:00",
+     "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-10-20T17:12+00:00",
-   "earliest": "2026-10-20T11:02+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Rubio: US to Discuss Refining Venezuelan Crude With Reliance",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/20/rubio-us-to-discuss-refining-venezuelan-crude-with-reliance-",
-     "via": "",
-     "published": "2026-10-20T17:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "India a ‘refining superpower’: Marco Rubio lands in Mumbai, says US to discuss processing Venezuelan crude with Reliance",
-     "url": "https://www.livemint.com/news/india-a-refining-superpower-marco-rubio-lands-in-india-says-us-to-discuss-processing-venezuelan-crude-with-reliance-11792492629496.html",
-     "via": "",
-     "published": "2026-10-20T11:02+00:00",
-     "summary": "US Secretary of State Marco Rubio called India a “refining superpower”, saying Washington will discuss refining more Venezuelan crude with Reliance Industries. Rubio, on a three-day India visit, is expected to meet Mukesh Ambani in Jamnagar on Wednesday, with energy and trade ties in focus."
-    }
-   ],
-   "id": 12
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -815,42 +1060,7 @@
      "summary": "Extreme weather has hit Chilean copper output while weaker diamond prices complicate the miner's divestment plans for De Beers."
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-20T14:30+00:00",
-   "earliest": "2026-10-20T06:12+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Expert warns Busan shark 'Bukang-i' may have just two weeks to live",
-     "url": "https://www.koreaherald.com/article/10908722",
-     "via": "",
-     "published": "2026-10-20T14:30+00:00",
-     "summary": "The shark stranded for more than a month in a canal at Busan's North Port may have only two weeks to live, a marine expert has warned. The three-meter-long dusty shark, named \"Bukang-i,\" was seen slamming its head into the canal wall on Monday, according to local media outlet SBS. Footage taken by visitors the previous day also showed that the tip of its right pectoral fin had turned white and app"
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Busan shark Bukang-i may have just 2 weeks to live, says expert",
-     "url": "https://www.straitstimes.com/asia/east-asia/experts-warn-busan-shark-bukang-i-may-have-just-2-weeks-to-live",
-     "via": "",
-     "published": "2026-10-20T06:12+00:00",
-     "summary": "Bukang-i was first spotted in the canal at the North Port Waterfront Park on Sept 18."
-    }
-   ],
-   "id": 14
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -885,7 +1095,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -920,7 +1130,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -955,7 +1165,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -990,7 +1200,7 @@
      "summary": "China’s central bank may be embarking on a multi-month transition toward an overnight policy interest rate, a shift that will require more frequent liquidity operations using the new benchmark candidate to test market reception, analysts say."
     }
    ],
-   "id": 18
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1025,7 +1235,7 @@
      "summary": "Westwin operates a demonstration plant in Oklahoma, and has selected Natchez, Mississippi, for its upcoming commercial-scale class 1 nickel refinery, the first in the US."
     }
    ],
-   "id": 19
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1060,7 +1270,7 @@
      "summary": "China has condemned Japanese Prime Minister Sanae Takaichi for sending a ritual offering to Tokyo’s war-linked Yasukuni Shrine, a move that threatens to further strain ties between the neighbours. At the start of Yasukuni’s three-day autumn festival on Saturday, Takaichi sent a ritual tree-stand offering to the shrine in her capacity as prime minister, although she did not visit in person. Minoru "
     }
    ],
-   "id": 20
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1095,7 +1305,7 @@
      "summary": "The gold industry’s opportunity is reaching buyers beyond its existing bullion and exchange-traded fund customers."
     }
    ],
-   "id": 21
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1130,7 +1340,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1165,7 +1375,42 @@
      "summary": "US President Donald Trump said on Monday he was open to a three-way meeting with Chinese President Xi Jinping and Russian President Vladimir Putin during his visit to China next month, with nuclear weapons on the agenda. “We would have it to talk about nuclear weapons and denuclearisation,” Trump told reporters outside the White House before travelling to Kansas. “If President Xi wants to have it,"
     }
    ],
-   "id": 23
+   "id": 28
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "South China Morning Post",
+    "Associated Press"
+   ],
+   "regions": [
+    "China",
+    "North America"
+   ],
+   "latest": "2026-10-19T17:49+00:00",
+   "earliest": "2026-10-19T08:59+00:00",
+   "items": [
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Rubio pitches US business in Central Asia, says China ties need not suffer",
+     "url": "https://www.scmp.com/news/us/article/3371420/rubio-pitches-us-business-central-asia-says-china-ties-need-not-suffer",
+     "via": "",
+     "published": "2026-10-19T17:49+00:00",
+     "summary": "US Secretary of State Marco Rubio said on Monday that Washington wanted to compete for business in Central Asia without asking countries to stop working with China, as the United States and five regional governments outlined proposals to deepen cooperation on minerals, transport and technology. Speaking in Samarkand, Uzbekistan, Rubio was asked what Washington could offer as Beijing expanded its p"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Rubio is in Uzbekistan to promote US ties and trade with Central Asia",
+     "url": "https://apnews.com/article/marco-rubio-uzbekstan-asia-india-59f717342e55d96c171a6e78b2135586",
+     "via": "",
+     "published": "2026-10-19T08:59+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1200,76 +1445,76 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 30
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "Mining.com.au"
+    "Associated Press",
+    "Times of Israel"
    ],
    "regions": [
-    "Africa",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-10-19T07:05+00:00",
-   "earliest": "2026-10-19T06:50+00:00",
+   "latest": "2026-10-19T08:15+00:00",
+   "earliest": "2026-10-19T08:07+00:00",
    "items": [
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Freeport bets on chemical solution to reach copper leaching target",
-     "url": "https://www.miningweekly.com/article/freeport-bets-on-chemical-solution-to-reach-copper-leaching-target-2026-10-19",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Israeli police arrest 10 following weekend attacks by settlers on journalist and diplomats",
+     "url": "https://apnews.com/article/israel-settlers-violence-levine-west-bank-palestinians-7812cdfd71fc7486322dd95e3547a176",
      "via": "",
-     "published": "2026-10-19T07:05+00:00",
+     "published": "2026-10-19T08:15+00:00",
      "summary": ""
     },
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Freeport targets copper growth with new leaching compound",
-     "url": "https://mining.com.au/freeport-targets-copper-growth-with-new-leaching-compound/",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Police arrest 11 suspects after West Bank settler attacks on journalist, EU diplomats",
+     "url": "https://www.timesofisrael.com/police-say-10-suspects-arrested-for-west-bank-settler-attacks-on-journalist-eu-diplomats/",
      "via": "",
-     "published": "2026-10-19T06:50+00:00",
+     "published": "2026-10-19T08:07+00:00",
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 31
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "Australian Financial Review"
+    "DigiTimes",
+    "The Korea Herald"
    ],
    "regions": [
-    "Oceania"
+    "East Asia"
    ],
-   "latest": "2026-10-20T23:31+00:00",
-   "earliest": "2026-10-20T23:21+00:00",
+   "latest": "2026-10-21T01:23+00:00",
+   "earliest": "2026-10-19T18:01+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Northern Star posts higher quarterly gold sales revenue but misses estimates",
-     "url": "https://mining.com.au/northern-star-posts-higher-quarterly-gold-sales-revenue-but-misses-estimates/",
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Samsung Electro-Mechanics wins KRW360.5 billion memory substrate deal as AI demand drives expansion",
+     "url": "https://www.digitimes.com/news/a20261021VL201/semco-demand-chips-semiconductors-bga.html",
      "via": "",
-     "published": "2026-10-20T23:31+00:00",
-     "summary": ""
+     "published": "2026-10-21T01:23+00:00",
+     "summary": "Samsung Electro-Mechanics has secured a KRW360.5 billion (US$271.8 million) long-term contract to supply package substrates for memory semiconductors, strengthening its position in the growing AI server component market."
     },
     {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Northern Star’s costs jump as board awaits sweetened Gold Fields bid",
-     "url": "https://www.afr.com/companies/mining/northern-star-s-costs-jump-as-board-awaits-sweetened-gold-fields-bid-20261021-p616z1?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Samsung Electro-Mechanics wins W360.5b memory substrate supply deal",
+     "url": "https://www.koreaherald.com/article/10907706",
      "via": "",
-     "published": "2026-10-20T23:21+00:00",
-     "summary": "The $35 billion miner produced 20 per cent less gold at a higher cost per ounce in the September quarter, but beat analysts’ expectations across the board."
+     "published": "2026-10-19T18:01+00:00",
+     "summary": "Samsung Electro-Mechanics said Monday it has signed a 360.5 billion won ($271 million) contract to supply high-performance package substrates for memory chips to a major global customer, expanding its long-term supply agreements into its substrate business. Under the one-year deal, the company will supply the substrates from Jan. 1 through Dec. 31, 2027. Samsung Electro-Mechanics did not identify "
     }
    ],
-   "id": 26
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1303,41 +1548,41 @@
      "summary": "Wind propulsion systems on two EPS vessels are the first projects financed by GCMD's FEET fund, which uses measured fuel savings to determine repayments."
     }
    ],
-   "id": 27
+   "id": 33
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Deutsche Welle"
+    "Yicai Global",
+    "Caixin Global"
    ],
    "regions": [
-    "Europe"
+    "China"
    ],
-   "latest": "2026-10-20T16:56+00:00",
-   "earliest": "2026-10-20T15:12+00:00",
+   "latest": "2026-10-19T15:00+00:00",
+   "earliest": "2026-10-19T07:43+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Brazil's Lula challenges Flavio Bolsonaro to make financial records public ahead of election",
-     "url": "https://www.reuters.com/business/finance/brazils-lula-challenges-flavio-bolsonaro-make-financial-records-public-ahead-2026-10-20/",
+     "outlet": "Yicai Global",
+     "region": "China",
+     "title": "China’s Third-Quarter GDP Growth Tops Forecasts at 4.5%",
+     "url": "https://www.yicaiglobal.com/news/chinas-gdp-growth-rebounds-to-45-in-third-quarter-as-stimulus-measures-gain-traction",
      "via": "",
-     "published": "2026-10-20T16:56+00:00",
+     "published": "2026-10-19T15:00+00:00",
      "summary": ""
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote",
-     "url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-all-1573-rdf",
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "China’s Third-Quarter GDP Growth Edges Up to 4.5%",
+     "url": "https://www.caixinglobal.com/2026-10-19/chinas-third-quarter-gdp-growth-edges-up-to-45-102494770.html",
      "via": "",
-     "published": "2026-10-20T15:12+00:00",
-     "summary": "With just under a week to go before the decisive presidential runoff election, polls show left-wing incumbent Luiz Inacio Lula da Silva and his right-wing challenger Flavio Bolsonaro are virtually tied."
+     "published": "2026-10-19T07:43+00:00",
+     "summary": ""
     }
    ],
-   "id": 28
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1371,41 +1616,7 @@
      "summary": ""
     }
    ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Yicai Global",
-    "Caixin Global"
-   ],
-   "regions": [
-    "China"
-   ],
-   "latest": "2026-10-19T09:45+00:00",
-   "earliest": "2026-10-19T07:43+00:00",
-   "items": [
-    {
-     "outlet": "Yicai Global",
-     "region": "China",
-     "title": "China’s Third-Quarter GDP Growth Tops Forecasts at 4.5%",
-     "url": "https://www.yicaiglobal.com/news/chinas-gdp-growth-rebounds-to-45-in-third-quarter-as-stimulus-measures-gain-traction",
-     "via": "",
-     "published": "2026-10-19T09:45+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Caixin Global",
-     "region": "China",
-     "title": "China’s Third-Quarter GDP Growth Edges Up to 4.5%",
-     "url": "https://www.caixinglobal.com/2026-10-19/chinas-third-quarter-gdp-growth-edges-up-to-45-102494770.html",
-     "via": "",
-     "published": "2026-10-19T07:43+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 30
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1439,7 +1650,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 36
   },
   {
    "independent_outlets": 2,
@@ -1473,7 +1684,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 37
   }
  ]
 }
