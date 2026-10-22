@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-22T01:22:41+00:00",
+ "fetched_at": "2026-10-22T04:47:27+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 750,
+ "outlets_read": 43,
+ "items_read": 779,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,27 +12,27 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 56,
+   "items": 57,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 36,
+   "items": 38,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Yicai Global": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 60,
+   "items": 62,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
@@ -57,32 +57,32 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 27,
+   "items": 21,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 20,
+   "items": 37,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,27 +107,27 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 19,
+   "items": 29,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 16,
+   "items": 20,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "The Indian Express": {
@@ -206,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 6,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,52 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Africanews",
+    "CBC News"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-22T04:10+00:00",
+   "earliest": "2026-10-19T20:12+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "El Salvador launches military operation in Haiti to free four kidnapped aviation technicians",
+     "url": "https://www.euronews.com/2026/10/22/el-salvador-launches-military-operation-in-haiti-to-free-four-kidnapped-aviation-technicia",
+     "via": "",
+     "published": "2026-10-22T04:10+00:00",
+     "summary": "Bukele warned that failure to free the men who have been missing since Sunday’s attack on an armoured vehicle would trigger a far more powerful operation."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Haitian gangs target foreign troops in biggest attack on new force",
+     "url": "http://www.africanews.com/2026/10/20/haitian-gangs-target-foreign-troops-in-biggest-attack-on-new-force/",
+     "via": "",
+     "published": "2026-10-20T08:42+00:00",
+     "summary": "Four soldiers from El Salvador have been missing since Sunday when they were seen fleeing their burning armoured vehicle near Port-au-Prince."
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "4 soldiers from El Salvador missing in Haiti after attack by gangs",
+     "url": "https://www.cbc.ca/news/world/haiti-gang-suppression-force-attacked-9.7387206",
+     "via": "",
+     "published": "2026-10-19T20:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -285,95 +331,49 @@
      "summary": "A senior executive at Andrew Forrest's Fortescue Metals Group has been sacked following an investigation into allegations of sexual harassment and bullying at the iron ore miner."
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-10-21T07:32+00:00",
-   "earliest": "2026-10-20T16:56+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Phoenix Tailings to build $375m rare earths facility in New York state",
-     "url": "https://www.miningweekly.com/article/phoenix-tailings-to-build-375m-rare-earths-facility-in-new-york-state-2026-10-21",
-     "via": "",
-     "published": "2026-10-21T07:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Phoenix Tailings to build rare earth facility in New York state",
-     "url": "https://mining.com.au/phoenix-tailings-to-build-rare-earth-facility-in-new-york-state/",
-     "via": "",
-     "published": "2026-10-20T20:33+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Phoenix Tailings to build $375M rare earth plant in New York",
-     "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
-     "via": "",
-     "published": "2026-10-20T16:56+00:00",
-     "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
-    }
-   ],
    "id": 2
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Euronews",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
     "Europe",
-    "North America"
+    "Middle East"
    ],
-   "latest": "2026-10-21T15:18+00:00",
-   "earliest": "2026-10-21T09:21+00:00",
+   "latest": "2026-10-21T08:16+00:00",
+   "earliest": "2026-10-21T06:33+00:00",
    "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "UK government approves a natural gas project off Scotland despite environmental concerns",
-     "url": "https://apnews.com/article/uk-natural-gas-project-scotland-environment-b646f449474d0b00620b47f3794a4c2c",
-     "via": "",
-     "published": "2026-10-21T15:18+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "UK approves drilling at controversial North Sea gas field despite environmental concerns",
-     "url": "https://www.euronews.com/2026/10/21/uk-approves-drilling-at-controversial-north-sea-gas-field-despite-environmental-concerns",
-     "via": "",
-     "published": "2026-10-21T10:58+00:00",
-     "summary": "The Shell Group, one of the project's co-developers, predicts the field can produce around 6.5% of the UK’s gas production at its peak."
-    },
     {
      "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "UK approves Jackdaw gas field after years in limbo",
-     "url": "https://www.dw.com/en/uk-approves-jackdaw-gas-field-after-years-in-limbo/a-79720557?maca=en-rss-en-all-1573-rdf",
+     "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
+     "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-21T09:21+00:00",
-     "summary": "Drilling is set to begin in the controversial North Sea plot as the government seeks to tackle high energy costs. Environmental groups have criticized the move and called for more clean energy."
+     "published": "2026-10-21T08:16+00:00",
+     "summary": "Doctors have amputated both of Helen Haines legs after the Australian lawmaker was hit in an apparent deliberate attack. The suspected driver involved in the attack has appeared in court."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Australia lawmaker loses both legs after ‘targeted’ attack",
+     "url": "https://english.alarabiya.net/News/world/2026/10/21/australia-lawmaker-loses-both-legs-after-targeted-attack",
+     "via": "",
+     "published": "2026-10-21T07:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Australia lawmaker wounded in ramming attack has lost both her legs, husband says",
+     "url": "https://www.timesofisrael.com/liveblog_entry/australia-lawmaker-wounded-in-ramming-attack-has-lost-both-her-legs-husband-says/",
+     "via": "",
+     "published": "2026-10-21T06:33+00:00",
+     "summary": ""
     }
    ],
    "id": 3
@@ -433,6 +433,146 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Kyodo News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-22T04:00+00:00",
+   "earliest": "2026-10-22T01:50+00:00",
+   "items": [
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Busan shark returns to canal after brief exit",
+     "url": "https://english.kyodonews.net/articles/-/89073",
+     "via": "",
+     "published": "2026-10-22T04:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Busan’s celebrity shark Bukang-i back in canal again, a day after returning to sea",
+     "url": "https://www.straitstimes.com/asia/east-asia/busans-celebrity-shark-bukang-i-back-in-canal-again-a-day-after-returning-to-sea",
+     "via": "",
+     "published": "2026-10-22T01:50+00:00",
+     "summary": "The authorities are unsure why it keeps returning, but concerns for its health are mounting."
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Mining.com.au"
+   ],
+   "regions": [
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-22T02:25+00:00",
+   "earliest": "2026-10-22T02:15+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Malaysia allows first export of raw rare earths under new rules",
+     "url": "https://www.straitstimes.com/asia/se-asia/malaysia-allows-first-export-of-raw-rare-earths-under-new-rules",
+     "via": "",
+     "published": "2026-10-22T02:25+00:00",
+     "summary": "Earlier in October, Malaysia released guidelines for the conditional export of raw rare earths."
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Malaysia approves first raw rare earths export under new rules",
+     "url": "https://mining.com.au/malaysia-approves-first-raw-rare-earths-export-under-new-rules/",
+     "via": "",
+     "published": "2026-10-22T02:15+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-22T01:58+00:00",
+   "earliest": "2026-10-19T22:59+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Man charged over threats at Australian lawmaker’s office, days after attack on another MP",
+     "url": "https://www.straitstimes.com/asia/australianz/man-charged-over-threats-at-australian-lawmakers-office-days-after-attack-on-another-mp",
+     "via": "",
+     "published": "2026-10-22T01:58+00:00",
+     "summary": "The man allegedly made threats and brandished a pair of nunchucks."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Man charged over attack against Helen Haines named",
+     "url": "https://www.abc.net.au/news/2026-10-20/brendan-nugent-in-custody-attack-against-helen-haines/107286318",
+     "via": "",
+     "published": "2026-10-19T22:59+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-10-22T01:56+00:00",
+   "earliest": "2026-10-21T16:39+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "US critical mineral ambitions drive deep sea mining auction off American Samoa",
+     "url": "https://mining.com.au/us-critical-mineral-ambitions-drive-deep-sea-mining-auction-off-american-samoa/",
+     "via": "",
+     "published": "2026-10-22T01:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "US moves to unlock deep-sea minerals near American Samoa with massive auction",
+     "url": "https://www.mining.com/us-moves-to-unlock-deep-sea-minerals-near-american-samoa-with-massive-auction/",
+     "via": "",
+     "published": "2026-10-21T16:39+00:00",
+     "summary": "The historic November auction advances Trump's critical minerals agenda despite opposition from environmental and local groups."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Newsroom Panama",
     "Reuters"
    ],
@@ -462,7 +602,42 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-22T00:46+00:00",
+   "earliest": "2026-10-21T23:13+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oil rises as US orders diplomats to leave Saudi Arabia amid escalating tensions",
+     "url": "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/",
+     "via": "",
+     "published": "2026-10-22T00:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise",
+     "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b",
+     "via": "",
+     "published": "2026-10-21T23:13+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -497,42 +672,7 @@
      "summary": ""
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-22T00:23+00:00",
-   "earliest": "2026-10-21T23:00+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Eight months of US-Iran war turns China petrochemical glut into a crunch",
-     "url": "https://www.straitstimes.com/business/eight-months-of-us-iran-war-turns-china-petrochemical-glut-into-a-crunch",
-     "via": "",
-     "published": "2026-10-22T00:23+00:00",
-     "summary": "Prices have increased as a result, where inflation rose to a faster-than-expected 5% in September."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "China’s Petrochemicals Glut Turns to Crunch After Months of War",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-21/eight-months-of-war-turns-china-petrochemical-glut-into-a-crunch",
-     "via": "",
-     "published": "2026-10-21T23:00+00:00",
-     "summary": "China has burned through much of a petrochemicals glut built up by years of overproduction as the US-Iran war chokes oil flows, setting the stage for higher prices for an array of industrial materials."
-    }
-   ],
-   "id": 7
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -567,31 +707,22 @@
      "summary": "The Fair Trade Commission cited competition concerns."
     }
    ],
-   "id": 8
+   "id": 12
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Al Jazeera"
+    "Al Jazeera",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-10-21T23:43+00:00",
-   "earliest": "2026-10-21T21:28+00:00",
+   "latest": "2026-10-21T21:28+00:00",
+   "earliest": "2026-10-21T18:59+00:00",
    "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Rice rescues Arsenal at Bayern as Real Madrid hit four",
-     "url": "https://www.reuters.com/sports/soccer/paz-dazzles-como-thrash-manchester-united-4-1-2026-10-21/",
-     "via": "",
-     "published": "2026-10-21T23:43+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
@@ -600,9 +731,18 @@
      "via": "",
      "published": "2026-10-21T21:28+00:00",
      "summary": "Eze gave Arsenal the lead, but Davies levelled and Kane netted a penalty for the hosts before Rice made it 2-2."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Rice rescues Arsenal at Bayern as Real Madrid hit four",
+     "url": "https://www.reuters.com/sports/soccer/paz-dazzles-como-thrash-manchester-united-4-1-2026-10-21/",
+     "via": "",
+     "published": "2026-10-21T18:59+00:00",
+     "summary": ""
     }
    ],
-   "id": 9
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -637,42 +777,7 @@
      "summary": "New terminal at Kandla to handle 18.33 million tonnes of cargo annually."
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-21T20:51+00:00",
-   "earliest": "2026-10-21T19:20+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Colombia seizes 7.6 tonnes of cocaine in biggest haul in a decade",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/colombia-seizes-7-6-tonnes-of-cocaine-in-biggest-haul-in-a-decade?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-21T20:51+00:00",
-     "summary": "Colombian authorities have seized 7.6 tonnes of cocaine at the Caribbean port of Cartagena"
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Colombia seizes 7.6 tonnes of Netherlands-bound cocaine at Cartagena port",
-     "url": "https://www.euronews.com/2026/10/21/colombia-seizes-76-tonnes-of-netherlands-bound-cocaine-at-cartagena-port",
-     "via": "",
-     "published": "2026-10-21T19:20+00:00",
-     "summary": "Separately, two Dutch nationals wanted by prosecutors in the Netherlands have been arrested in Colombia."
-    }
-   ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -707,7 +812,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -742,7 +847,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -777,7 +882,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -812,7 +917,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -826,7 +931,7 @@
     "North America"
    ],
    "latest": "2026-10-21T13:01+00:00",
-   "earliest": "2026-10-21T04:59+00:00",
+   "earliest": "2026-10-20T17:26+00:00",
    "items": [
     {
      "outlet": "The Africa Report",
@@ -843,11 +948,11 @@
      "title": "Drone strike on a market in disputed African region of Abyei kills at least 153",
      "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d",
      "via": "",
-     "published": "2026-10-21T04:59+00:00",
+     "published": "2026-10-20T17:26+00:00",
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -882,7 +987,7 @@
      "summary": "The coffee chain now harbours an appetite for a larger share of the retail landscape."
     }
    ],
-   "id": 17
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -917,77 +1022,42 @@
      "summary": "The company said the partnership converges two research fields that are foundational to national security: rare earth magnets and quantum mechanics."
     }
    ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Deutsche Welle",
-    "Al Arabiya"
+    "Mining Weekly",
+    "MINING.COM"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-10-21T08:16+00:00",
-   "earliest": "2026-10-21T07:33+00:00",
+   "latest": "2026-10-21T07:32+00:00",
+   "earliest": "2026-10-20T16:56+00:00",
    "items": [
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
-     "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-all-1573-rdf",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Phoenix Tailings to build $375m rare earths facility in New York state",
+     "url": "https://www.miningweekly.com/article/phoenix-tailings-to-build-375m-rare-earths-facility-in-new-york-state-2026-10-21",
      "via": "",
-     "published": "2026-10-21T08:16+00:00",
-     "summary": "Doctors have amputated both of Helen Haines legs after the Australian lawmaker was hit in an apparent deliberate attack. The suspected driver involved in the attack has appeared in court."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Australia lawmaker loses both legs after ‘targeted’ attack",
-     "url": "https://english.alarabiya.net/News/world/2026/10/21/australia-lawmaker-loses-both-legs-after-targeted-attack",
-     "via": "",
-     "published": "2026-10-21T07:33+00:00",
+     "published": "2026-10-21T07:32+00:00",
      "summary": ""
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-21T07:57+00:00",
-   "earliest": "2026-10-21T06:23+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Samsung, SK Hynix reportedly upgrading China NAND fabs to fend off YMTC amid softening US stance",
-     "url": "https://www.digitimes.com/news/a20261021VL214/samsung-sk-hynix-nand-ymtc-chips.html",
-     "via": "",
-     "published": "2026-10-21T07:57+00:00",
-     "summary": "Samsung Electronics and SK Hynix are upgrading their NAND flash factories in China to make chips with more than 200 layers, Reuters reported on October 21, citing four people familiar with the plans. The move would let the South Korean memory makers win back ground lost to Yangtze Memory Technologies Co (YMTC), even though US curbs on upgrading their China operations remain formally in place."
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Samsung, SK Hynix upgrading China plants to make more advanced chips: Sources",
-     "url": "https://www.straitstimes.com/business/samsung-sk-hynix-upgrading-china-plants-to-make-more-advanced-chips-sources",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Phoenix Tailings to build $375M rare earth plant in New York",
+     "url": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
      "via": "",
-     "published": "2026-10-21T06:23+00:00",
-     "summary": "They are working to manufacture flash NAND memory chips with more than 200 layers in China."
+     "published": "2026-10-20T16:56+00:00",
+     "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1022,7 +1092,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1057,7 +1127,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1092,7 +1162,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1127,42 +1197,7 @@
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "CBC News"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-10-20T08:42+00:00",
-   "earliest": "2026-10-19T20:12+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Haitian gangs target foreign troops in biggest attack on new force",
-     "url": "http://www.africanews.com/2026/10/20/haitian-gangs-target-foreign-troops-in-biggest-attack-on-new-force/",
-     "via": "",
-     "published": "2026-10-20T08:42+00:00",
-     "summary": "Four soldiers from El Salvador have been missing since Sunday when they were seen fleeing their burning armoured vehicle near Port-au-Prince."
-    },
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "4 soldiers from El Salvador missing in Haiti after attack by gangs",
-     "url": "https://www.cbc.ca/news/world/haiti-gang-suppression-force-attacked-9.7387206",
-     "via": "",
-     "published": "2026-10-19T20:12+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1197,7 +1232,7 @@
      "summary": "Westwin operates a demonstration plant in Oklahoma, and has selected Natchez, Mississippi, for its upcoming commercial-scale class 1 nickel refinery, the first in the US."
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1232,7 +1267,7 @@
      "summary": "The gold industry’s opportunity is reaching buyers beyond its existing bullion and exchange-traded fund customers."
     }
    ],
-   "id": 27
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1267,7 +1302,7 @@
      "summary": "US President Donald Trump said on Monday he was open to a three-way meeting with Chinese President Xi Jinping and Russian President Vladimir Putin during his visit to China next month, with nuclear weapons on the agenda. “We would have it to talk about nuclear weapons and denuclearisation,” Trump told reporters outside the White House before travelling to Kansas. “If President Xi wants to have it,"
     }
    ],
-   "id": 28
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1302,42 +1337,42 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 30
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Yicai Global"
+    "Mining Weekly",
+    "Mining.com.au"
    ],
    "regions": [
-    "China",
-    "South Asia"
+    "Africa",
+    "Oceania"
    ],
-   "latest": "2026-10-19T10:46+00:00",
-   "earliest": "2026-10-19T08:05+00:00",
+   "latest": "2026-10-19T07:05+00:00",
+   "earliest": "2026-10-19T06:50+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "How China's proposed AI export controls could affect open-weight ecosystem",
-     "url": "https://www.business-standard.com/technology/tech-news/china-ai-export-controls-open-weight-models-126101900723_1.html",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Freeport bets on chemical solution to reach copper leaching target",
+     "url": "https://www.miningweekly.com/article/freeport-bets-on-chemical-solution-to-reach-copper-leaching-target-2026-10-19",
      "via": "",
-     "published": "2026-10-19T10:46+00:00",
+     "published": "2026-10-19T07:05+00:00",
      "summary": ""
     },
     {
-     "outlet": "Yicai Global",
-     "region": "China",
-     "title": "China Proposes Export Controls on Key AI, Biomedicine, and Solar Technologies",
-     "url": "https://www.yicaiglobal.com/news/china-proposes-export-controls-on-40-ai-biomedicine-and-solar-techs",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Freeport targets copper growth with new leaching compound",
+     "url": "https://mining.com.au/freeport-targets-copper-growth-with-new-leaching-compound/",
      "via": "",
-     "published": "2026-10-19T08:05+00:00",
+     "published": "2026-10-19T06:50+00:00",
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1371,7 +1406,41 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 32
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-10-21T10:58+00:00",
+   "earliest": "2026-10-21T09:21+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "UK approves drilling at controversial North Sea gas field despite environmental concerns",
+     "url": "https://www.euronews.com/2026/10/21/uk-approves-drilling-at-controversial-north-sea-gas-field-despite-environmental-concerns",
+     "via": "",
+     "published": "2026-10-21T10:58+00:00",
+     "summary": "The Shell Group, one of the project's co-developers, predicts the field can produce around 6.5% of the UK’s gas production at its peak."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "UK approves Jackdaw gas field after years in limbo",
+     "url": "https://www.dw.com/en/uk-approves-jackdaw-gas-field-after-years-in-limbo/a-79720557?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-21T09:21+00:00",
+     "summary": "Drilling is set to begin in the controversial North Sea plot as the government seeks to tackle high energy costs. Environmental groups have criticized the move and called for more clean energy."
+    }
+   ],
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1405,7 +1474,7 @@
      "summary": "Community leaders in the north-eastern Menaka region have blamed the killings on the Islamic State Group."
     }
    ],
-   "id": 32
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1439,41 +1508,7 @@
      "summary": ""
     }
    ],
-   "id": 33
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-10-21T07:53+00:00",
-   "earliest": "2026-10-20T14:05+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Micron's Taichung union deal eases Taiwan DRAM strike risk; Taoyuan dispute remains unresolved",
-     "url": "https://www.digitimes.com/news/a20261021PD250/micron-taiwan-strike-dram-management.html",
-     "via": "",
-     "published": "2026-10-21T07:53+00:00",
-     "summary": "With a strike by Micron Taiwan employees looming, Micron Technology said Micron Memory Taiwan and the Taichung chapter of the Taiwan Micron Memory Union had reached agreement on several issues after multiple rounds of constructive discussions. The two sides signed a labour-management agreement and agreed to withdraw the mediation scheduled for October 22. Micron will continue talks with its Taoyua"
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Micron union in Taiwan to launch one-day strike as bonus dispute escalates",
-     "url": "https://asia.nikkei.com/business/tech/semiconductors/micron-union-in-taiwan-to-launch-one-day-strike-as-bonus-dispute-escalates",
-     "via": "",
-     "published": "2026-10-20T14:05+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 34
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1507,7 +1542,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 36
   },
   {
    "independent_outlets": 2,
@@ -1541,7 +1576,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 37
   }
  ]
 }
