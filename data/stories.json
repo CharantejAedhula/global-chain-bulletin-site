@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-22T00:01:21+00:00",
+ "fetched_at": "2026-10-22T01:22:41+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 785,
+ "items_read": 750,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 55,
+   "items": 56,
    "errors": []
   },
   "Ecofin Agency": {
@@ -27,7 +27,7 @@
   },
   "Caixin Global": {
    "region": "China",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "South China Morning Post": {
@@ -52,22 +52,22 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 29,
+   "items": 27,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 43,
+   "items": 20,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Financial Times": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 27,
+   "items": 26,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 28,
+   "items": 19,
    "errors": []
   },
   "RNZ": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 27,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "MercoPress": {
@@ -337,81 +337,272 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Deutsche Welle",
-    "Al Arabiya",
-    "Times of Israel"
+    "Associated Press",
+    "Euronews",
+    "Deutsche Welle"
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "North America"
    ],
-   "latest": "2026-10-21T08:16+00:00",
-   "earliest": "2026-10-21T06:33+00:00",
+   "latest": "2026-10-21T15:18+00:00",
+   "earliest": "2026-10-21T09:21+00:00",
    "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "UK government approves a natural gas project off Scotland despite environmental concerns",
+     "url": "https://apnews.com/article/uk-natural-gas-project-scotland-environment-b646f449474d0b00620b47f3794a4c2c",
+     "via": "",
+     "published": "2026-10-21T15:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "UK approves drilling at controversial North Sea gas field despite environmental concerns",
+     "url": "https://www.euronews.com/2026/10/21/uk-approves-drilling-at-controversial-north-sea-gas-field-despite-environmental-concerns",
+     "via": "",
+     "published": "2026-10-21T10:58+00:00",
+     "summary": "The Shell Group, one of the project's co-developers, predicts the field can produce around 6.5% of the UK’s gas production at its peak."
+    },
     {
      "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
-     "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-all-1573-rdf",
+     "title": "UK approves Jackdaw gas field after years in limbo",
+     "url": "https://www.dw.com/en/uk-approves-jackdaw-gas-field-after-years-in-limbo/a-79720557?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-21T08:16+00:00",
-     "summary": "Doctors have amputated both of Helen Haines legs after the Australian lawmaker was hit in an apparent deliberate attack. The suspected driver involved in the attack has appeared in court."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Australia lawmaker loses both legs after ‘targeted’ attack",
-     "url": "https://english.alarabiya.net/News/world/2026/10/21/australia-lawmaker-loses-both-legs-after-targeted-attack",
-     "via": "",
-     "published": "2026-10-21T07:33+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Australia lawmaker wounded in ramming attack has lost both her legs, husband says",
-     "url": "https://www.timesofisrael.com/liveblog_entry/australia-lawmaker-wounded-in-ramming-attack-has-lost-both-her-legs-husband-says/",
-     "via": "",
-     "published": "2026-10-21T06:33+00:00",
-     "summary": ""
+     "published": "2026-10-21T09:21+00:00",
+     "summary": "Drilling is set to begin in the controversial North Sea plot as the government seeks to tackle high energy costs. Environmental groups have criticized the move and called for more clean energy."
     }
    ],
    "id": 3
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Al Arabiya"
+    ]
+   ],
    "outlets": [
-    "Al Jazeera",
-    "Bloomberg"
+    "gCaptain",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
+    "Europe",
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-21T23:13+00:00",
-   "earliest": "2026-10-21T20:08+00:00",
+   "latest": "2026-10-21T12:05+00:00",
+   "earliest": "2026-10-21T09:54+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Russia Sees First Diesel Cargo Sailing for US on Thursday",
+     "url": "https://gcaptain.com/russia-sees-first-diesel-cargo-sailing-for-us-on-thursday/",
+     "via": "",
+     "published": "2026-10-21T12:05+00:00",
+     "summary": "A tanker loaded with Russian diesel will sail for the US on Thursday as Moscow starts to implement a fuel supply deal struck by Vladimir Putin and Donald Trump, according to Deputy Prime Minister Alexander Novak."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Russia says it will send first diesel cargo to US on Thursday",
+     "url": "https://www.reuters.com/business/energy/russia-says-it-will-send-first-diesel-cargo-us-thursday-2026-10-21/",
+     "via": "",
+     "published": "2026-10-21T11:51+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Russia says it will send first diesel cargo to US on Thursday",
+     "url": "https://english.alarabiya.net/business/energy/2026/10/21/russia-says-it-will-send-first-diesel-cargo-to-us-on-thursday",
+     "via": "",
+     "published": "2026-10-21T09:54+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Newsroom Panama",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America"
+   ],
+   "latest": "2026-10-22T00:50+00:00",
+   "earliest": "2026-10-21T18:37+00:00",
+   "items": [
+    {
+     "outlet": "Newsroom Panama",
+     "region": "Latin America",
+     "title": "Links to an Iranian Oil Network. The United States Sanctions Seven Ships Along with a Panamanian Firm and its Partners.",
+     "url": "https://newsroompanama.com/2026/10/21/links-to-an-iranian-oil-network-the-united-states-sanctions-seven-ships-along-with-a-panamanian-firm-and-its-partners/",
+     "via": "",
+     "published": "2026-10-22T00:50+00:00",
+     "summary": "The United States sanctioned the Panamanian law firm Karnakis & Karnakis, its partners, and seven... The post Links to an Iranian Oil Network. The United States Sanctions Seven Ships Along with a Panamanian Firm and its Partners. appeared first on Newsroom Panama ."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US sanctions Greece-, Panama-based law firm over aid to Iranian shipping",
+     "url": "https://www.reuters.com/world/americas/us-imposes-sanctions-greek-panama-law-firm-helping-iran-shipping-2026-10-21/",
+     "via": "",
+     "published": "2026-10-21T18:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-22T00:25+00:00",
+   "earliest": "2026-10-21T22:21+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
-     "url": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
+     "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+     "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss",
      "via": "",
-     "published": "2026-10-21T23:13+00:00",
-     "summary": "US State Department says Iran-aligned Houthis have 'increasingly ⁠⁠engaged in hostilities' against Saudi Arabia."
+     "published": "2026-10-22T00:25+00:00",
+     "summary": "Injured immediately transported to hospitals as aviation authority says updates will be forthcoming."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudi civil aviation says one killed, eight injured in attack on King Fahd airport",
+     "url": "https://www.reuters.com/world/saudi-civil-aviation-says-one-killed-eight-injured-attack-king-fahd-airport-2026-10-21/",
+     "via": "",
+     "published": "2026-10-21T22:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-22T00:23+00:00",
+   "earliest": "2026-10-21T23:00+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Eight months of US-Iran war turns China petrochemical glut into a crunch",
+     "url": "https://www.straitstimes.com/business/eight-months-of-us-iran-war-turns-china-petrochemical-glut-into-a-crunch",
+     "via": "",
+     "published": "2026-10-22T00:23+00:00",
+     "summary": "Prices have increased as a result, where inflation rose to a faster-than-expected 5% in September."
     },
     {
      "outlet": "Bloomberg",
      "region": "North America",
-     "title": "US Orders Some Diplomats Out of Saudi Arabia Amid Houthi Attacks",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-orders-some-diplomats-out-of-saudi-arabia-amid-houthi-attacks",
+     "title": "China’s Petrochemicals Glut Turns to Crunch After Months of War",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/eight-months-of-war-turns-china-petrochemical-glut-into-a-crunch",
      "via": "",
-     "published": "2026-10-21T20:08+00:00",
-     "summary": "The US State Department issued an ordered departure for non-emergency personnel and their families from Saudi Arabia because of the growing threat from Houthi militants in neighboring Yemen."
+     "published": "2026-10-21T23:00+00:00",
+     "summary": "China has burned through much of a petrochemicals glut built up by years of overproduction as the US-Iran war chokes oil flows, setting the stage for higher prices for an array of industrial materials."
     }
    ],
-   "id": 4
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-21T23:55+00:00",
+   "earliest": "2026-10-21T08:55+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Taiwan's FTC blocks Grab's Foodpanda acquisition over competition concerns",
+     "url": "https://www.digitimes.com/news/a20261022PD200/grab-ftc-taiwan-acquisition-competition.html",
+     "via": "",
+     "published": "2026-10-21T23:55+00:00",
+     "summary": "Grab Holdings' proposed acquisition of Delivery Hero's Foodpanda operations in Taiwan has been rejected by Taiwan's Fair Trade Commission (FTC). The commission made the announcement on October 21, blocking the deal on the grounds that it would restrict market competition. Grab issued a statement saying while it was disappointed with the decision, it will continue developing its core businesses in "
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Taiwan regulator blocks Grab’s purchase of Foodpanda delivery business in Taiwan",
+     "url": "https://www.straitstimes.com/asia/taiwan-regulator-blocks-grabs-purchase-of-foodpanda-delivery-business-in-taiwan",
+     "via": "",
+     "published": "2026-10-21T08:55+00:00",
+     "summary": "The Fair Trade Commission cited competition concerns."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-21T23:43+00:00",
+   "earliest": "2026-10-21T21:28+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Rice rescues Arsenal at Bayern as Real Madrid hit four",
+     "url": "https://www.reuters.com/sports/soccer/paz-dazzles-como-thrash-manchester-united-4-1-2026-10-21/",
+     "via": "",
+     "published": "2026-10-21T23:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Declan Rice grabs Arsenal draw at Bayern Munich in Champions League",
+     "url": "https://www.aljazeera.com/sports/2026/10/21/declan-rice-grabs-arsenal-draw-at-bayern-munich-in-champions-league?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-21T21:28+00:00",
+     "summary": "Eze gave Arsenal the lead, but Davies levelled and Kane netted a penalty for the hosts before Rice made it 2-2."
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -446,7 +637,7 @@
      "summary": "New terminal at Kandla to handle 18.33 million tonnes of cargo annually."
     }
    ],
-   "id": 5
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -481,7 +672,7 @@
      "summary": "Separately, two Dutch nationals wanted by prosecutors in the Netherlands have been arrested in Colombia."
     }
    ],
-   "id": 6
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -516,7 +707,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -551,7 +742,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -586,7 +777,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -621,7 +812,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -656,7 +847,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -691,7 +882,7 @@
      "summary": "The coffee chain now harbours an appetite for a larger share of the retail landscape."
     }
    ],
-   "id": 12
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -726,7 +917,42 @@
      "summary": "The company said the partnership converges two research fields that are foundational to national security: rare earth magnets and quantum mechanics."
     }
    ],
-   "id": 13
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-21T08:16+00:00",
+   "earliest": "2026-10-21T07:33+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
+     "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-21T08:16+00:00",
+     "summary": "Doctors have amputated both of Helen Haines legs after the Australian lawmaker was hit in an apparent deliberate attack. The suspected driver involved in the attack has appeared in court."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Australia lawmaker loses both legs after ‘targeted’ attack",
+     "url": "https://english.alarabiya.net/News/world/2026/10/21/australia-lawmaker-loses-both-legs-after-targeted-attack",
+     "via": "",
+     "published": "2026-10-21T07:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -761,42 +987,7 @@
      "summary": "They are working to manufacture flash NAND memory chips with more than 200 layers in China."
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "East Asia"
-   ],
-   "latest": "2026-10-21T05:54+00:00",
-   "earliest": "2026-10-19T22:36+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "US sanctions five Chinese entities over trade secret theft tied to ex-Google engineer",
-     "url": "https://www.digitimes.com/news/a20261021VL210/google-ai-software-security-legal-usa-beijing.html",
-     "via": "",
-     "published": "2026-10-21T05:54+00:00",
-     "summary": "The US imposed sanctions on five Chinese entities tied to ex-Google engineer Linwei Ding for theft of trade secrets. The action follows his conviction for stealing confidential AI technology from Google, apparently to benefit Chinese firms."
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "US sanctions 5 Chinese entities over ex-Google engineer’s AI trade secrets theft",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3371434/us-sanctions-5-chinese-entities-over-ex-google-engineers-ai-trade-secrets-theft",
-     "via": "",
-     "published": "2026-10-19T22:36+00:00",
-     "summary": "The US State Department announced on Monday that it was imposing sweeping sanctions under the Protecting American Intellectual Property Act (PAIPA) on five Chinese entities suspected of stealing trade secrets from American companies. The targets include Shanghai Zhisuan Technology, founded by former Google software engineer Ding Linwei, venture capital firm MiraclePlus and three related entities. "
-    }
-   ],
-   "id": 15
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -831,7 +1022,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -866,7 +1057,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -901,7 +1092,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -936,7 +1127,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -971,7 +1162,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1006,7 +1197,7 @@
      "summary": "Westwin operates a demonstration plant in Oklahoma, and has selected Natchez, Mississippi, for its upcoming commercial-scale class 1 nickel refinery, the first in the US."
     }
    ],
-   "id": 21
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1041,7 +1232,7 @@
      "summary": "The gold industry’s opportunity is reaching buyers beyond its existing bullion and exchange-traded fund customers."
     }
    ],
-   "id": 22
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1076,7 +1267,7 @@
      "summary": "US President Donald Trump said on Monday he was open to a three-way meeting with Chinese President Xi Jinping and Russian President Vladimir Putin during his visit to China next month, with nuclear weapons on the agenda. “We would have it to talk about nuclear weapons and denuclearisation,” Trump told reporters outside the White House before travelling to Kansas. “If President Xi wants to have it,"
     }
    ],
-   "id": 23
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1111,7 +1302,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1146,42 +1337,7 @@
      "summary": ""
     }
    ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-10-19T07:05+00:00",
-   "earliest": "2026-10-19T06:50+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Freeport bets on chemical solution to reach copper leaching target",
-     "url": "https://www.miningweekly.com/article/freeport-bets-on-chemical-solution-to-reach-copper-leaching-target-2026-10-19",
-     "via": "",
-     "published": "2026-10-19T07:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Freeport targets copper growth with new leaching compound",
-     "url": "https://mining.com.au/freeport-targets-copper-growth-with-new-leaching-compound/",
-     "via": "",
-     "published": "2026-10-19T06:50+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1215,41 +1371,7 @@
      "summary": ""
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-10-21T10:58+00:00",
-   "earliest": "2026-10-21T09:21+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "UK approves drilling at controversial North Sea gas field despite environmental concerns",
-     "url": "https://www.euronews.com/2026/10/21/uk-approves-drilling-at-controversial-north-sea-gas-field-despite-environmental-concerns",
-     "via": "",
-     "published": "2026-10-21T10:58+00:00",
-     "summary": "The Shell Group, one of the project's co-developers, predicts the field can produce around 6.5% of the UK’s gas production at its peak."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "UK approves Jackdaw gas field after years in limbo",
-     "url": "https://www.dw.com/en/uk-approves-jackdaw-gas-field-after-years-in-limbo/a-79720557?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-21T09:21+00:00",
-     "summary": "Drilling is set to begin in the controversial North Sea plot as the government seeks to tackle high energy costs. Environmental groups have criticized the move and called for more clean energy."
-    }
-   ],
-   "id": 28
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1283,7 +1405,7 @@
      "summary": "Community leaders in the north-eastern Menaka region have blamed the killings on the Islamic State Group."
     }
    ],
-   "id": 29
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1317,75 +1439,41 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 33
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "DigiTimes",
-    "The Korea Herald"
+    "Nikkei Asia"
    ],
    "regions": [
     "East Asia"
    ],
-   "latest": "2026-10-21T01:23+00:00",
-   "earliest": "2026-10-19T18:01+00:00",
+   "latest": "2026-10-21T07:53+00:00",
+   "earliest": "2026-10-20T14:05+00:00",
    "items": [
     {
      "outlet": "DigiTimes",
      "region": "East Asia",
-     "title": "Samsung Electro-Mechanics wins KRW360.5 billion memory substrate deal as AI demand drives expansion",
-     "url": "https://www.digitimes.com/news/a20261021VL201/semco-demand-chips-semiconductors-bga.html",
+     "title": "Micron's Taichung union deal eases Taiwan DRAM strike risk; Taoyuan dispute remains unresolved",
+     "url": "https://www.digitimes.com/news/a20261021PD250/micron-taiwan-strike-dram-management.html",
      "via": "",
-     "published": "2026-10-21T01:23+00:00",
-     "summary": "Samsung Electro-Mechanics has secured a KRW360.5 billion (US$271.8 million) long-term contract to supply package substrates for memory semiconductors, strengthening its position in the growing AI server component market."
+     "published": "2026-10-21T07:53+00:00",
+     "summary": "With a strike by Micron Taiwan employees looming, Micron Technology said Micron Memory Taiwan and the Taichung chapter of the Taiwan Micron Memory Union had reached agreement on several issues after multiple rounds of constructive discussions. The two sides signed a labour-management agreement and agreed to withdraw the mediation scheduled for October 22. Micron will continue talks with its Taoyua"
     },
     {
-     "outlet": "The Korea Herald",
+     "outlet": "Nikkei Asia",
      "region": "East Asia",
-     "title": "Samsung Electro-Mechanics wins W360.5b memory substrate supply deal",
-     "url": "https://www.koreaherald.com/article/10907706",
+     "title": "Micron union in Taiwan to launch one-day strike as bonus dispute escalates",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/micron-union-in-taiwan-to-launch-one-day-strike-as-bonus-dispute-escalates",
      "via": "",
-     "published": "2026-10-19T18:01+00:00",
-     "summary": "Samsung Electro-Mechanics said Monday it has signed a 360.5 billion won ($271 million) contract to supply high-performance package substrates for memory chips to a major global customer, expanding its long-term supply agreements into its substrate business. Under the one-year deal, the company will supply the substrates from Jan. 1 through Dec. 31, 2027. Samsung Electro-Mechanics did not identify "
-    }
-   ],
-   "id": 31
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-20T21:39+00:00",
-   "earliest": "2026-10-20T17:59+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran security chief rejects moving enriched uranium abroad, as Netanyahu vows to topple regime",
-     "url": "https://www.timesofisrael.com/iran-security-chief-rejects-moving-enriched-uranium-abroad-as-netanyahu-vows-to-topple-regime/",
-     "via": "",
-     "published": "2026-10-20T21:39+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran rules out transferring enriched nuclear material abroad amid US tensions",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/iran-rules-out-transferring-enriched-nuclear-material-abroad-amid-us-tensions",
-     "via": "",
-     "published": "2026-10-20T17:59+00:00",
+     "published": "2026-10-20T14:05+00:00",
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1419,7 +1507,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1453,7 +1541,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 36
   }
  ]
 }
