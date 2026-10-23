@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-23T00:00:05+00:00",
+ "fetched_at": "2026-10-23T01:21:14+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 773,
+ "items_read": 742,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 53,
+   "items": 52,
    "errors": []
   },
   "Ecofin Agency": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 66,
+   "items": 55,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
@@ -57,17 +57,17 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 39,
+   "items": 37,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 46,
+   "items": 19,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Financial Times": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 27,
+   "items": 31,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 1,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 30,
+   "items": 29,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "The Indian Express": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 35,
+   "items": 34,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,9 +242,10 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
+    "Nikkei Asia",
     "Reuters",
     "South China Morning Post",
     "Livemint / Economic Times",
@@ -253,14 +254,24 @@
    ],
    "regions": [
     "China",
+    "East Asia",
     "Europe",
     "Middle East",
     "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-10-22T20:55+00:00",
+   "latest": "2026-10-23T00:33+00:00",
    "earliest": "2026-10-22T15:11+00:00",
    "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Magnitude 7 earthquake strikes Tibet, killing 16, Xinhua reports",
+     "url": "https://asia.nikkei.com/economy/natural-disasters/magnitude-7-earthquake-strikes-tibet-killing-16-xinhua-reports",
+     "via": "",
+     "published": "2026-10-23T00:33+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Reuters",
      "region": "Europe",
@@ -367,132 +378,6 @@
    "id": 2
   },
   {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "Al Jazeera",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-22T21:35+00:00",
-   "earliest": "2026-10-22T07:35+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Court issues arrest warrant for suspect in patent firm arson attacks",
-     "url": "https://www.koreaherald.com/article/10911949",
-     "via": "",
-     "published": "2026-10-22T21:35+00:00",
-     "summary": "A Seoul court on Thursday issued an arrest warrant for a man in his 70s suspected of setting fires at two buildings in southern Seoul earlier this week, leaving 19 people injured. The Seoul Central District Court issued the warrant on charges of arson resulting in injuries, saying the man is a flight risk. The suspect was taken into custody hours after setting fires at two patent firms in separate"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Israel frees suspects in two settler attacks as West Bank pogroms intensify",
-     "url": "https://www.aljazeera.com/news/2026/10/22/israel-frees-suspects-in-two-settler-attacks-as-west-bank-pogroms-intensify?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-22T18:17+00:00",
-     "summary": "Israeli court releases nine settler suspects over West Bank attacks as investigations into recent assaults continue."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Israel frees from custody almost all suspects in two settler attacks, puts them under house arrest",
-     "url": "https://www.reuters.com/world/europe/israel-frees-custody-almost-all-suspects-two-settler-attacks-puts-them-under-2026-10-22/",
-     "via": "",
-     "published": "2026-10-22T13:04+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Suspects in West Bank settler attacks put under house arrest",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/22/suspects-in-west-bank-settler-attacks-put-under-house-arrest",
-     "via": "",
-     "published": "2026-10-22T07:35+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [
-    [
-     "Al Arabiya",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Hellenic Shipping News",
-    "Al Jazeera",
-    "Al Arabiya",
-    "Reuters",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-22T21:00+00:00",
-   "earliest": "2026-10-22T04:33+00:00",
-   "items": [
-    {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Iran reports ship fires, mine strikes, threatens wider response against US",
-     "url": "https://www.hellenicshippingnews.com/iran-reports-ship-fires-mine-strikes-threatens-wider-response-against-us/",
-     "via": "",
-     "published": "2026-10-22T21:00+00:00",
-     "summary": "Iran’s Islamic Revolutionary Guard Corps Navy said on Thursday that four vessels involved in illegal oil transfers in the northern Persian Gulf were simultaneously hit and caught fire after being tracked by its forces on Wednesday. The IRGC added that three more vessels collided with mines west of the Strait of Hormuz, and warned the ..."
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
-     "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-22T17:58+00:00",
-     "summary": "The US has pushed back on the IRGC's claims, dismissing them as an attempt to increase oil prices ahead of US elections."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran’s IRGC Navy says seven vessels hit, warns US of wider response",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/22/iran-s-irgc-navy-says-seven-vessels-hit-warns-us-of-wider-response-",
-     "via": "",
-     "published": "2026-10-22T07:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran's IRGC Navy says seven vessels hit, warns US of wider response",
-     "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-seven-vessels-hit-warns-us-wider-response-2026-10-22/",
-     "via": "",
-     "published": "2026-10-22T04:40+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IRGC says four vessels carrying oil hit mines near Hormuz, warns US of wider responses",
-     "url": "https://www.timesofisrael.com/liveblog_entry/irgc-says-four-vessels-carrying-oil-hit-mines-near-hormuz-warns-us-of-wider-responses/",
-     "via": "",
-     "published": "2026-10-22T04:33+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
@@ -536,7 +421,53 @@
      "summary": "Brent crude futures (December) were trading about 3.2% higher than their previous close at $112.35 per barrel on Thursday afternoon"
     }
    ],
-   "id": 5
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Korea Herald",
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-22T21:35+00:00",
+   "earliest": "2026-10-22T07:35+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Court issues arrest warrant for suspect in patent firm arson attacks",
+     "url": "https://www.koreaherald.com/article/10911949",
+     "via": "",
+     "published": "2026-10-22T21:35+00:00",
+     "summary": "A Seoul court on Thursday issued an arrest warrant for a man in his 70s suspected of setting fires at two buildings in southern Seoul earlier this week, leaving 19 people injured. The Seoul Central District Court issued the warrant on charges of arson resulting in injuries, saying the man is a flight risk. The suspect was taken into custody hours after setting fires at two patent firms in separate"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Israel frees from custody almost all suspects in two settler attacks, puts them under house arrest",
+     "url": "https://www.reuters.com/world/europe/israel-frees-custody-almost-all-suspects-two-settler-attacks-puts-them-under-2026-10-22/",
+     "via": "",
+     "published": "2026-10-22T13:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Suspects in West Bank settler attacks put under house arrest",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/22/suspects-in-west-bank-settler-attacks-put-under-house-arrest",
+     "via": "",
+     "published": "2026-10-22T07:35+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -582,7 +513,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -628,7 +559,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -679,7 +610,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -714,42 +645,7 @@
      "summary": ""
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-22T23:15+00:00",
-   "earliest": "2026-10-22T09:31+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Copper price falls to five-week low as LME inventory builds",
-     "url": "https://mining.com.au/copper-price-falls-to-five-week-low-as-lme-inventory-builds/",
-     "via": "",
-     "published": "2026-10-22T23:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Singapore oil product inventories fall to three-week low",
-     "url": "https://www.straitstimes.com/business/singapore-oil-product-inventories-fall-to-three-week-low",
-     "via": "",
-     "published": "2026-10-22T09:31+00:00",
-     "summary": "It was driven by a fall in middle and light distillate stocks."
-    }
-   ],
-   "id": 10
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -784,7 +680,7 @@
      "summary": "QatarEnergy has signed two long-term agreements to purchase up to 4 million tonnes of U.S. liquefied natural gas annually from Cheniere Energy through 2054, as the Gulf producer continues to..."
     }
    ],
-   "id": 11
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -819,7 +715,7 @@
      "summary": "The global fleet of dual-fuel containerships and vehicle carriers has surpassed 500 vessels, with shipowners committing more than $200 billion to ships capable of running on alternative fuels, according to..."
     }
    ],
-   "id": 12
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -854,7 +750,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -889,7 +785,7 @@
      "summary": "In its first formal statement with a Red Sea nation on the fallout from the US-Iran war, China said in a joint communique with Djibouti that it backs “constructive efforts” to ensure international shipping lanes are safe and open. The statement on Thursday was released a day after Chinese Foreign Minister Wang Yi and his Djiboutian counterpart Abdoulkader Houssein Omar met in Beijing. “The two sid"
     }
    ],
-   "id": 14
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -924,7 +820,42 @@
      "summary": "German science and technology company Merck opened a new semiconductor materials plant in South Korea on Thursday, expanding local production of molybdenum as chipmakers adopt the metal for increasingly advanced memory chips. The facility in Eumseong, North Chungcheong Province, will produce molybdenum dioxide dichloride, a chemical used to deposit ultrathin metal films during chip manufacturing. "
     }
    ],
-   "id": 15
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Caixin Global",
+    "The Straits Times"
+   ],
+   "regions": [
+    "China",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-22T09:57+00:00",
+   "earliest": "2026-10-22T05:49+00:00",
+   "items": [
+    {
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "Micron Taiwan Workers Stage Strike Seeking Bigger Share of AI Profits",
+     "url": "https://www.caixinglobal.com/2026-10-22/micron-taiwan-workers-stage-strike-seeking-bigger-share-of-ai-profits-102496116.html",
+     "via": "",
+     "published": "2026-10-22T09:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Handful of Micron workers strike in Taiwan",
+     "url": "https://www.straitstimes.com/asia/east-asia/handful-of-micron-workers-strike-in-taiwan",
+     "via": "",
+     "published": "2026-10-22T05:49+00:00",
+     "summary": "Workers at the Taoyuan plant are pushing for a bigger share of the company’s earnings."
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -959,7 +890,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -994,7 +925,7 @@
      "summary": "Earlier in October, Malaysia released guidelines for the conditional export of raw rare earths."
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1029,7 +960,7 @@
      "summary": "The historic November auction advances Trump's critical minerals agenda despite opposition from environmental and local groups."
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1064,7 +995,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1099,7 +1030,7 @@
      "summary": "A senior executive at Andrew Forrest's Fortescue Metals Group has been sacked following an investigation into allegations of sexual harassment and bullying at the iron ore miner."
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1134,7 +1065,7 @@
      "summary": "The coffee chain now harbours an appetite for a larger share of the retail landscape."
     }
    ],
-   "id": 21
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1169,7 +1100,7 @@
      "summary": "The company said the partnership converges two research fields that are foundational to national security: rare earth magnets and quantum mechanics."
     }
    ],
-   "id": 22
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1204,7 +1135,7 @@
      "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
     }
    ],
-   "id": 23
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1239,7 +1170,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1274,7 +1205,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1309,42 +1240,41 @@
      "summary": "Extreme weather has hit Chilean copper output while weaker diamond prices complicate the miner's divestment plans for De Beers."
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
+    "Ecofin Agency",
+    "Africanews"
    ],
    "regions": [
-    "Africa",
-    "North America"
+    "Africa"
    ],
-   "latest": "2026-10-20T13:09+00:00",
-   "earliest": "2026-10-20T07:42+00:00",
+   "latest": "2026-10-22T17:38+00:00",
+   "earliest": "2026-10-22T07:41+00:00",
    "items": [
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Copper surplus masks looming $332B mine shortfall",
-     "url": "https://www.mining.com/copper-surplus-masks-looming-332b-mine-shortfall/",
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "South Africa Restores Fuel Tax Cuts for Two Months to Ease Price Pressures",
+     "url": "https://www.ecofinagency.com/news-industry/2210-60020-south-africa-restores-fuel-tax-cuts-for-two-months-to-ease-price-pressures",
      "via": "",
-     "published": "2026-10-20T13:09+00:00",
-     "summary": "BNEF predicts enough refined metal until 2027, but lengthy mine development may cause a shortage by 2050."
+     "published": "2026-10-22T17:38+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Mining Weekly",
+     "outlet": "Africanews",
      "region": "Africa",
-     "title": "Copper mines need $332bn new investment to ease shortfall",
-     "url": "https://www.miningweekly.com/article/copper-mines-need-332bn-new-investment-to-ease-shortfall-2026-10-20",
+     "title": "South Africa cuts fuel taxes as pump prices hit record highs",
+     "url": "http://www.africanews.com/2026/10/21/south-africa-cuts-fuel-taxes-as-pump-prices-hit-record-highs/",
      "via": "",
-     "published": "2026-10-20T07:42+00:00",
-     "summary": ""
+     "published": "2026-10-22T07:41+00:00",
+     "summary": "South Africa is stepping in to ease the fuel-price crisis, announcing billions of rand in tax relief as motorists and commuters struggle with record pump prices."
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1378,7 +1308,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1412,7 +1342,7 @@
      "summary": "Egypt’s proposed military support for Saudi Arabia is aimed at defending the Gulf kingdom and will not involve an attack on Yemen, President Sisi said on Wednesday. Sisi has asked parliament to authorize support for Riyadh and its war against Yemen’s Iran-backed Houthi rebels “if requested.”"
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1446,7 +1376,7 @@
      "summary": "The announcement by industrialist Aliko Dangote, comes weeks after he laid the foundation stone for an oil refinery in Kenya's Lamu port."
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1480,7 +1410,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1514,7 +1444,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1548,7 +1478,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 32
   }
  ]
 }
