@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-23T01:21:14+00:00",
+ "fetched_at": "2026-10-23T04:50:29+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 742,
+ "outlets_read": 42,
+ "items_read": 734,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 52,
+   "items": 51,
    "errors": []
   },
   "Ecofin Agency": {
@@ -27,7 +27,7 @@
   },
   "Caixin Global": {
    "region": "China",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "South China Morning Post": {
@@ -37,12 +37,12 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 55,
+   "items": 59,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,32 +52,34 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 37,
+   "items": 28,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 19,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 226, column 49"
+   ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 1,
+   "items": 5,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 9,
+   "items": 11,
    "errors": []
   },
   "Euronews": {
@@ -107,12 +109,12 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "MEED": {
@@ -122,22 +124,22 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 19,
+   "items": 16,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 29,
+   "items": 35,
    "errors": []
   },
   "RNZ": {
@@ -184,17 +186,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 26,
+   "items": 24,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 9,
+   "items": 6,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 7,
+   "items": 10,
    "errors": []
   },
   "The Indian Express": {
@@ -206,12 +208,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 26,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "VnExpress International": {
@@ -226,12 +228,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 34,
+   "items": 35,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,85 +243,6 @@
   }
  },
  "clusters": [
-  {
-   "independent_outlets": 6,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Reuters",
-    "South China Morning Post",
-    "Livemint / Economic Times",
-    "The Straits Times",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "China",
-    "East Asia",
-    "Europe",
-    "Middle East",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-23T00:33+00:00",
-   "earliest": "2026-10-22T15:11+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Magnitude 7 earthquake strikes Tibet, killing 16, Xinhua reports",
-     "url": "https://asia.nikkei.com/economy/natural-disasters/magnitude-7-earthquake-strikes-tibet-killing-16-xinhua-reports",
-     "via": "",
-     "published": "2026-10-23T00:33+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports",
-     "url": "https://www.reuters.com/business/environment/earthquake-magnitude-7-strikes-chinas-tibet-2026-10-22/",
-     "via": "",
-     "published": "2026-10-22T20:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet",
-     "url": "https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet",
-     "via": "",
-     "published": "2026-10-22T20:26+00:00",
-     "summary": "At least 16 people were killed and 32 more injured when a strong 7.0-magnitude earthquake struck China’s western Tibet autonomous region late on Thursday, state news agency Xinhua said, citing local authorities. More than 300 houses collapsed in the earthquake, which struck on Thursday at 10.33pm. Officials were still evaluating the damage, and disaster relief work was ongoing, Xinhua said. The ep"
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Earthquake today: Magnitude 7 quake strikes Tibet in China, epicentre near Nagqu",
-     "url": "https://www.livemint.com/news/world/earthquake-today-magnitude-7-quake-strikes-tibet-in-china-epicentre-near-nagqu-11792682520959.html",
-     "via": "",
-     "published": "2026-10-22T15:26+00:00",
-     "summary": "The epicenter was in northern Tibet's Nagqu at a depth of 10 km. The area has an average elevation of around 4,864 metres. The epicentre was about 400 km from the Tibetan capital, Lhasa."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "7-magnitude earthquake strikes China’s Tibet",
-     "url": "https://www.straitstimes.com/asia/east-asia/7-magnitude-earthquake-strikes-chinas-tibet",
-     "via": "",
-     "published": "2026-10-22T15:14+00:00",
-     "summary": "The epicentre was in a county in Nagqu, northern Tibet, at a depth of 10km."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Earthquake of magnitude seven strikes China’s Tibet",
-     "url": "https://english.alarabiya.net/News/world/2026/10/22/earthquake-of-magnitude-seven-strikes-china-s-tibet",
-     "via": "",
-     "published": "2026-10-22T15:11+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 1
-  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
@@ -375,58 +298,13 @@
      "summary": "The European Parliament has awarded the Sakharov Prize to the International Criminal Court in a show of support after the US imposed sanctions on the court. The abstention of the far-right Patriots for Europe group was decisive in breaking the deadlock over the final choice."
     }
    ],
-   "id": 2
+   "id": 1
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "MEED",
-    "The Hindu"
-   ],
-   "regions": [
-    "Middle East",
-    "Oceania",
-    "South Asia"
-   ],
-   "latest": "2026-10-22T23:43+00:00",
-   "earliest": "2026-10-22T11:16+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Brent crude hits $161 per barrel, sending metals lower",
-     "url": "https://mining.com.au/brent-crude-hits-161-per-barrel-sending-metals-lower/",
-     "via": "",
-     "published": "2026-10-22T23:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MEED",
-     "region": "Middle East",
-     "title": "Brent hits $112 a barrel following Saudi oil field attack",
-     "url": "https://www.meed.com/brent-price-hits-112m-following-attack-on-saudi-oil-field",
-     "via": "",
-     "published": "2026-10-22T13:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Oil hits near six-month high as Houthi attacks rattle Saudi Arabia",
-     "url": "https://www.thehindu.com/business/Economy/oil-hits-near-six-month-high-as-houthi-attacks-rattle-saudi-arabia/article71611009.ece",
-     "via": "",
-     "published": "2026-10-22T11:16+00:00",
-     "summary": "Brent crude futures (December) were trading about 3.2% higher than their previous close at $112.35 per barrel on Thursday afternoon"
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
+    "Al Jazeera",
     "The Korea Herald",
     "Reuters",
     "Al Arabiya"
@@ -436,9 +314,18 @@
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-10-22T21:35+00:00",
+   "latest": "2026-10-23T04:09+00:00",
    "earliest": "2026-10-22T07:35+00:00",
    "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Israel arrests 36 Palestinians in the West Bank, attacks on farmers ramp up",
+     "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-23T04:09+00:00",
+     "summary": "Israeli pogroms on Palestinian farmers and their lands during the olive harvest season intensify."
+    },
     {
      "outlet": "The Korea Herald",
      "region": "East Asia",
@@ -461,105 +348,58 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Suspects in West Bank settler attacks put under house arrest",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/22/suspects-in-west-bank-settler-attacks-put-under-house-arrest",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/22/suspects-in-west-bank-settler-attacks-put-under-house-arrest",
      "via": "",
      "published": "2026-10-22T07:35+00:00",
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 2
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
+    "Hellenic Shipping News",
     "Al Arabiya",
-    "Associated Press"
+    "Times of Israel"
    ],
    "regions": [
-    "Middle East",
-    "North America",
-    "South Asia"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-10-22T08:34+00:00",
-   "earliest": "2026-10-21T23:23+00:00",
+   "latest": "2026-10-22T21:00+00:00",
+   "earliest": "2026-10-22T04:33+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Saudi Arabia drone strike: Indian national among 2 killed in Dammam airport attack, 2 injured",
-     "url": "https://www.livemint.com/news/world/saudi-arabia-drone-strike-indian-national-among-2-killed-in-dammam-airport-attack-2-injured-11792657058359.html",
+     "outlet": "Hellenic Shipping News",
+     "region": "Europe",
+     "title": "Iran reports ship fires, mine strikes, threatens wider response against US",
+     "url": "https://www.hellenicshippingnews.com/iran-reports-ship-fires-mine-strikes-threatens-wider-response-against-us/",
      "via": "",
-     "published": "2026-10-22T08:34+00:00",
-     "summary": "Two people were killed and two injured in a drone strike on Aramco’s Shaybah oil field in Saudi Arabia’s Eastern Province early Wednesday, the latest attack on the kingdom’s energy facilities."
+     "published": "2026-10-22T21:00+00:00",
+     "summary": "Iran’s Islamic Revolutionary Guard Corps Navy said on Thursday that four vessels involved in illegal oil transfers in the northern Persian Gulf were simultaneously hit and caught fire after being tracked by its forces on Wednesday. The IRGC added that three more vessels collided with mines west of the Strait of Hormuz, and warned the ..."
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Two killed, eight injured in attack on Saudi Arabia’s Dammam airport: Aviation authority",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabia-s-dammam-airport-attack-aviation-auth",
+     "title": "Iran’s IRGC Navy says seven vessels hit, warns US of wider response",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/22/iran-s-irgc-navy-says-seven-vessels-hit-warns-us-of-wider-response-",
      "via": "",
-     "published": "2026-10-22T05:19+00:00",
+     "published": "2026-10-22T07:58+00:00",
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "1 person killed in attack on eastern Saudi airport, authorities say",
-     "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7",
-     "via": "",
-     "published": "2026-10-21T23:23+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Al Arabiya",
-    "Business Standard"
-   ],
-   "regions": [
-    "Africa",
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-10-21T15:28+00:00",
-   "earliest": "2026-10-20T02:07+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Yemen: 75 new recruits killed in Houthi missile strike laid to rest",
-     "url": "http://www.africanews.com/2026/10/21/yemen-75-new-recruits-killed-in-houthi-missile-strike-laid-to-rest/",
-     "via": "",
-     "published": "2026-10-21T15:28+00:00",
-     "summary": "A mass funeral was held Wednesday for 75 new recruits killed earlier this week in a Houthi missile strike in southern Yemen that was the deadliest attack since the resurgence of fighting in the Yemen civil war over the summer."
-    },
-    {
-     "outlet": "Al Arabiya",
+     "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Death toll from Houthi attack on Yemen training camp rises to 73",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/20/death-toll-from-houthi-attack-on-yemen-training-camp-rises-to-73",
+     "title": "IRGC says four vessels carrying oil hit mines near Hormuz, warns US of wider responses",
+     "url": "https://www.timesofisrael.com/liveblog_entry/irgc-says-four-vessels-carrying-oil-hit-mines-near-hormuz-warns-us-of-wider-responses/",
      "via": "",
-     "published": "2026-10-20T13:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Houthi missile strike kills 73 recruits at Yemen military training camp",
-     "url": "https://orgecsnew.business-standard.com/world-news/at-least-53-killed-after-houthi-rebels-strike-yemen-s-government-forces-126102000012_1.html",
-     "via": "",
-     "published": "2026-10-20T02:07+00:00",
+     "published": "2026-10-22T04:33+00:00",
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 3
   },
   {
    "independent_outlets": 2,
@@ -610,42 +450,42 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 4
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "Mining Weekly"
+    "Business Standard",
+    "Reuters"
    ],
    "regions": [
-    "Africa",
-    "Oceania"
+    "Europe",
+    "South Asia"
    ],
-   "latest": "2026-10-22T23:15+00:00",
-   "earliest": "2026-10-22T08:59+00:00",
+   "latest": "2026-10-23T02:30+00:00",
+   "earliest": "2026-10-23T01:04+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Ghana moves to standardise mining pay",
-     "url": "https://mining.com.au/ghana-moves-to-standardise-mining-pay/",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi",
+     "url": "https://www.business-standard.com/markets/commodities/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-126102300065_1.html",
      "via": "",
-     "published": "2026-10-22T23:15+00:00",
+     "published": "2026-10-23T02:30+00:00",
      "summary": ""
     },
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Ghana moves to standardise mining pay amid local-content drive",
-     "url": "https://www.miningweekly.com/article/ghana-moves-to-standardise-mining-pay-amid-local-content-drive-2026-10-22",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
+     "url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
      "via": "",
-     "published": "2026-10-22T08:59+00:00",
+     "published": "2026-10-23T01:04+00:00",
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -680,7 +520,7 @@
      "summary": "QatarEnergy has signed two long-term agreements to purchase up to 4 million tonnes of U.S. liquefied natural gas annually from Cheniere Energy through 2054, as the Gulf producer continues to..."
     }
    ],
-   "id": 9
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -715,42 +555,7 @@
      "summary": "The global fleet of dual-fuel containerships and vehicle carriers has surpassed 500 vessels, with shipowners committing more than $200 billion to ships capable of running on alternative fuels, according to..."
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-22T20:21+00:00",
-   "earliest": "2026-10-22T18:08+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Thousands gather at final student-led rally ahead of Serbia election",
-     "url": "https://www.aljazeera.com/news/2026/10/22/thousands-gather-at-final-student-led-rally-ahead-of-serbia-election?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-22T20:21+00:00",
-     "summary": "The student movement aims to end Vucic's 14 years of rule at Sunday's vote, as he holds a rival rally across town."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Huge crowds gather at final pre-election rally of Serbia’s students",
-     "url": "https://apnews.com/article/serbia-election-students-rally-vucic-65df3d9c2842a670c56d253ca8fcfdd3",
-     "via": "",
-     "published": "2026-10-22T18:08+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -785,7 +590,42 @@
      "summary": "In its first formal statement with a Red Sea nation on the fallout from the US-Iran war, China said in a joint communique with Djibouti that it backs “constructive efforts” to ensure international shipping lanes are safe and open. The statement on Thursday was released a day after Chinese Foreign Minister Wang Yi and his Djiboutian counterpart Abdoulkader Houssein Omar met in Beijing. “The two sid"
     }
    ],
-   "id": 12
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "The Straits Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-22T15:26+00:00",
+   "earliest": "2026-10-22T15:14+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Earthquake today: Magnitude 7 quake strikes Tibet in China, epicentre near Nagqu",
+     "url": "https://www.livemint.com/news/world/earthquake-today-magnitude-7-quake-strikes-tibet-in-china-epicentre-near-nagqu-11792682520959.html",
+     "via": "",
+     "published": "2026-10-22T15:26+00:00",
+     "summary": "The epicenter was in northern Tibet's Nagqu at a depth of 10 km. The area has an average elevation of around 4,864 metres. The epicentre was about 400 km from the Tibetan capital, Lhasa."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "7-magnitude earthquake strikes China’s Tibet",
+     "url": "https://www.straitstimes.com/asia/east-asia/7-magnitude-earthquake-strikes-chinas-tibet",
+     "via": "",
+     "published": "2026-10-22T15:14+00:00",
+     "summary": "The epicentre was in a county in Nagqu, northern Tibet, at a depth of 10km."
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -820,7 +660,7 @@
      "summary": "German science and technology company Merck opened a new semiconductor materials plant in South Korea on Thursday, expanding local production of molybdenum as chipmakers adopt the metal for increasingly advanced memory chips. The facility in Eumseong, North Chungcheong Province, will produce molybdenum dioxide dichloride, a chemical used to deposit ultrathin metal films during chip manufacturing. "
     }
    ],
-   "id": 13
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -855,7 +695,7 @@
      "summary": "Workers at the Taoyuan plant are pushing for a bigger share of the company’s earnings."
     }
    ],
-   "id": 14
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -890,42 +730,7 @@
      "summary": ""
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Africa",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-22T07:06+00:00",
-   "earliest": "2026-10-22T02:25+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Malaysia allows first export of rare rare earths under new rules",
-     "url": "https://www.miningweekly.com/article/malaysia-allows-first-export-of-rare-rare-earths-under-new-rules-2026-10-22",
-     "via": "",
-     "published": "2026-10-22T07:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Malaysia allows first export of raw rare earths under new rules",
-     "url": "https://www.straitstimes.com/asia/se-asia/malaysia-allows-first-export-of-raw-rare-earths-under-new-rules",
-     "via": "",
-     "published": "2026-10-22T02:25+00:00",
-     "summary": "Earlier in October, Malaysia released guidelines for the conditional export of raw rare earths."
-    }
-   ],
-   "id": 16
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -960,7 +765,7 @@
      "summary": "The historic November auction advances Trump's critical minerals agenda despite opposition from environmental and local groups."
     }
    ],
-   "id": 17
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -995,42 +800,7 @@
      "summary": ""
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-10-21T11:54+00:00",
-   "earliest": "2026-10-21T05:14+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Fortescue fires executive after sexual harassment probe",
-     "url": "https://www.mining.com/fortescue-fires-top-executive-after-sexual-harassment-probe/",
-     "via": "",
-     "published": "2026-10-21T11:54+00:00",
-     "summary": "Australian mining giant terminates a senior leader's contract following findings of misconduct amid wider industry scrutiny."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Fortescue senior executive sacked after sexual harassment probe",
-     "url": "https://www.abc.net.au/news/2026-10-21/fortescue-executive-sacked-sexual-harassment-bullying/107293046",
-     "via": "",
-     "published": "2026-10-21T05:14+00:00",
-     "summary": "A senior executive at Andrew Forrest's Fortescue Metals Group has been sacked following an investigation into allegations of sexual harassment and bullying at the iron ore miner."
-    }
-   ],
-   "id": 19
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -1065,7 +835,7 @@
      "summary": "The coffee chain now harbours an appetite for a larger share of the retail landscape."
     }
    ],
-   "id": 20
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -1100,7 +870,7 @@
      "summary": "The company said the partnership converges two research fields that are foundational to national security: rare earth magnets and quantum mechanics."
     }
    ],
-   "id": 21
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1135,42 +905,7 @@
      "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region."
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-10-21T05:38+00:00",
-   "earliest": "2026-10-20T09:24+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Rubio to meet Ambani in Jamnagar: Venezuelan oil, energy on agenda",
-     "url": "https://www.business-standard.com/world-news/rubio-to-meet-mukesh-ambani-in-jamnagar-venezuelan-oil-energy-on-agenda-126102100283_1.html",
-     "via": "",
-     "published": "2026-10-21T05:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Rubio kicks off India visit with trade deal, Russian oil on agenda",
-     "url": "https://english.alarabiya.net/News/world/2026/10/20/rubio-kicks-off-india-visit-with-trade-deal-russian-oil-on-agenda",
-     "via": "",
-     "published": "2026-10-20T09:24+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1205,7 +940,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1240,7 +975,7 @@
      "summary": "Extreme weather has hit Chilean copper output while weaker diamond prices complicate the miner's divestment plans for De Beers."
     }
    ],
-   "id": 25
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1274,7 +1009,7 @@
      "summary": "South Africa is stepping in to ease the fuel-price crisis, announcing billions of rand in tax relief as motorists and commuters struggle with record pump prices."
     }
    ],
-   "id": 26
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1308,7 +1043,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1342,7 +1077,7 @@
      "summary": "Egypt’s proposed military support for Saudi Arabia is aimed at defending the Gulf kingdom and will not involve an attack on Yemen, President Sisi said on Wednesday. Sisi has asked parliament to authorize support for Riyadh and its war against Yemen’s Iran-backed Houthi rebels “if requested.”"
     }
    ],
-   "id": 28
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1376,7 +1111,7 @@
      "summary": "The announcement by industrialist Aliko Dangote, comes weeks after he laid the foundation stone for an oil refinery in Kenya's Lamu port."
     }
    ],
-   "id": 29
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1410,7 +1145,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1444,7 +1179,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1478,7 +1213,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 26
   }
  ]
 }
