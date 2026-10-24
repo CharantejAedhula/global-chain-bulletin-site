@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-23T23:52:24+00:00",
+ "fetched_at": "2026-10-24T01:26:22+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 741,
+ "items_read": 725,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 39,
+   "items": 40,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 37,
+   "items": 36,
    "errors": []
   },
   "Caixin Global": {
@@ -37,17 +37,17 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 60,
+   "items": 58,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
@@ -69,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 26,
+   "items": 23,
    "errors": []
   },
   "Financial Times": {
@@ -99,7 +99,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Al Arabiya": {
@@ -109,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 44,
+   "items": 45,
    "errors": []
   },
   "Amwaj.media": {
@@ -134,7 +134,7 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "CBC News": {
@@ -156,7 +156,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Australian Financial Review": {
@@ -166,7 +166,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 25,
+   "items": 17,
    "errors": []
   },
   "RNZ": {
@@ -196,7 +196,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "The Indian Express": {
@@ -208,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "The Jakarta Post": {
@@ -218,7 +218,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "MercoPress": {
@@ -244,67 +244,57 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Associated Press",
-    "Reuters",
-    "Euronews",
-    "Al Arabiya"
+    "ABC News (Australia)",
+    "Deutsche Welle",
+    "Times of Israel",
+    "Euronews"
    ],
    "regions": [
     "Europe",
     "Middle East",
-    "North America"
+    "Oceania"
    ],
-   "latest": "2026-10-23T17:26+00:00",
-   "earliest": "2026-10-23T09:43+00:00",
+   "latest": "2026-10-23T12:07+00:00",
+   "earliest": "2026-10-23T10:27+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Romania blames Russia after drone sinks ship in the Black Sea",
-     "url": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea?traffic_source=rss",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "One dead, five injured in Paris after 'terrorist and racist attack'",
+     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
      "via": "",
-     "published": "2026-10-23T17:26+00:00",
-     "summary": "One sailor killed and three others missing after Comoros-flagged Khoryv hit near Romanian waters."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "A drone hit and sank a cargo vessel in new Black Sea attack near Romania, killing 1",
-     "url": "https://apnews.com/article/black-sea-ship-romania-34175023d59ded8d4d3f82baa7087f1b",
-     "via": "",
-     "published": "2026-10-23T15:19+00:00",
+     "published": "2026-10-23T12:07+00:00",
      "summary": ""
     },
     {
-     "outlet": "Reuters",
+     "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "Romania blames Russia for drone that sinks cargo ship; 1 killed, 3 missing",
-     "url": "https://www.reuters.com/world/romania-blames-russia-drone-that-sinks-cargo-ship-1-killed-3-missing-2026-10-23/",
+     "title": "France: 1 killed, 4 wounded after shooting near Paris",
+     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-23T13:53+00:00",
+     "published": "2026-10-23T11:22+00:00",
+     "summary": "French police arrested a suspect after gunshots were fired on the outskirts of Paris in what President Macron described as a racist and terrorist attack."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "1 killed, 4 wounded in shooting near Paris; prosecutors investigating as suspected terror attack",
+     "url": "https://www.timesofisrael.com/liveblog_entry/1-killed-4-wounded-in-shooting-near-paris-prosecutors-investigating-as-suspected-terror-attack/",
+     "via": "",
+     "published": "2026-10-23T10:54+00:00",
      "summary": ""
     },
     {
      "outlet": "Euronews",
      "region": "Europe",
-     "title": "Romania and EU accuse Russia of new drone attack as ship capsizes in Black Sea",
-     "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+     "title": "Macron denounces deadly shooting near Paris as 'racist terrorist attack'",
+     "url": "https://www.euronews.com/2026/10/23/suspect-arrested-after-1-killed-and-several-injured-in-a-shooting-in-paris-suburb",
      "via": "",
-     "published": "2026-10-23T09:55+00:00",
-     "summary": "A massive search and rescue operation is underway off the Romanian coast in the Black Sea following a new drone attack on a commercial ship that both the European Commission and Romania call as another Russian escalation."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "One dead, three missing from ship in ‘distress’ in Black Sea",
-     "url": "https://english.alarabiya.net/News/world/2026/10/23/one-dead-three-missing-from-ship-in-distress-in-black-sea",
-     "via": "",
-     "published": "2026-10-23T09:43+00:00",
-     "summary": ""
+     "published": "2026-10-23T10:27+00:00",
+     "summary": "One of the wounded, who is of North African origin, is reportedly in 'critical condition.'"
     }
    ],
    "id": 1
@@ -537,51 +527,6 @@
    "id": 6
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "ABC News (Australia)",
-    "Deutsche Welle",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-10-23T12:07+00:00",
-   "earliest": "2026-10-23T10:27+00:00",
-   "items": [
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "One dead, five injured in Paris after 'terrorist and racist attack'",
-     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
-     "via": "",
-     "published": "2026-10-23T12:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "France: 1 killed, 4 wounded after shooting near Paris",
-     "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-23T11:22+00:00",
-     "summary": "French police arrested a suspect after gunshots were fired on the outskirts of Paris in what President Macron described as a racist and terrorist attack."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Macron denounces deadly shooting near Paris as 'racist terrorist attack'",
-     "url": "https://www.euronews.com/2026/10/23/suspect-arrested-after-1-killed-and-several-injured-in-a-shooting-in-paris-suburb",
-     "via": "",
-     "published": "2026-10-23T10:27+00:00",
-     "summary": "One of the wounded, who is of North African origin, is reportedly in 'critical condition.'"
-    }
-   ],
-   "id": 7
-  },
-  {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
@@ -614,42 +559,7 @@
      "summary": ""
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-23T22:30+00:00",
-   "earliest": "2026-10-23T20:54+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump ends tariffs on some Canadian products, aiming to help Senator Collins",
-     "url": "https://www.reuters.com/business/us-expected-remove-50-tariffs-some-canadian-agricultural-forestry-goods-wsj-2026-10-23/",
-     "via": "",
-     "published": "2026-10-23T22:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Coffins and Canoes From Canada Get 50% Tariff Under New Trump Order",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-23/coffins-and-canoes-from-canada-get-50-tariff-under-new-trump-order",
-     "via": "",
-     "published": "2026-10-23T20:54+00:00",
-     "summary": "The White House is exempting some Canadian products from tariffs and adding duties to others, an effort to boost Susan Collins’ campaign to keep her US Senate seat."
-    }
-   ],
-   "id": 9
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -684,7 +594,42 @@
      "summary": "Oil rose on fears of fresh escalation in the conflict between the United States and Iran, pushing the S&P 500 to its second-straight week of losses."
     }
    ],
-   "id": 10
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "Oceania"
+   ],
+   "latest": "2026-10-23T19:24+00:00",
+   "earliest": "2026-10-23T13:54+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Melania Trump says she brokered ceasefire in Russian-occupied Oleshky",
+     "url": "https://www.abc.net.au/news/2026-10-24/ukraine-latest/107304160",
+     "via": "",
+     "published": "2026-10-23T19:24+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "White House: Melania Trump secures ceasefire in Russian-controlled city of Oleshky",
+     "url": "https://www.timesofisrael.com/liveblog_entry/white-house-melania-trump-secures-ceasefire-in-russian-controlled-city-of-oleshky/",
+     "via": "",
+     "published": "2026-10-23T13:54+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -719,7 +664,7 @@
      "summary": "The UAE’s Ministry of Climate Change said teams were deployed to contain a spill affecting Umm Al Quwain’s beaches, days after a tanker was struck by a projectile off the UAE coast, causing a fire."
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -752,6 +697,41 @@
      "via": "",
      "published": "2026-10-23T06:43+00:00",
      "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-23T15:19+00:00",
+   "earliest": "2026-10-23T09:55+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "A drone hit and sank a cargo vessel in new Black Sea attack near Romania, killing 1",
+     "url": "https://apnews.com/article/black-sea-ship-romania-34175023d59ded8d4d3f82baa7087f1b",
+     "via": "",
+     "published": "2026-10-23T15:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Romania and EU accuse Russia of new drone attack as ship capsizes in Black Sea",
+     "url": "https://www.euronews.com/2026/10/23/rescue-operation-in-the-black-sea-following-a-distress-signal-from-a-ship",
+     "via": "",
+     "published": "2026-10-23T09:55+00:00",
+     "summary": "A massive search and rescue operation is underway off the Romanian coast in the Black Sea following a new drone attack on a commercial ship that both the European Commission and Romania call as another Russian escalation."
     }
    ],
    "id": 12
@@ -900,41 +880,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-10-23T07:51+00:00",
-   "earliest": "2026-10-23T04:51+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Neu Horizon plans drilling on large unexplored Swedish uranium target",
-     "url": "https://www.miningweekly.com/article/neu-horizon-plans-drilling-on-large-unexplored-swedish-uranium-target-2026-10-23",
-     "via": "",
-     "published": "2026-10-23T07:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Orpheus Uranium refines targets after maiden Frome drilling",
-     "url": "https://mining.com.au/orpheus-uranium-refines-targets-after-maiden-frome-drilling/",
-     "via": "",
-     "published": "2026-10-23T04:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "ABC News (Australia)",
     "The Straits Times"
    ],
@@ -964,7 +909,7 @@
      "summary": "The two men are alleged to be key operators in Pyongyang’s cybercriminal activities overseas."
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -999,7 +944,7 @@
      "summary": "In its first formal statement with a Red Sea nation on the fallout from the US-Iran war, China said in a joint communique with Djibouti that it backs “constructive efforts” to ensure international shipping lanes are safe and open. The statement on Thursday was released a day after Chinese Foreign Minister Wang Yi and his Djiboutian counterpart Abdoulkader Houssein Omar met in Beijing. “The two sid"
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1034,7 +979,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1069,7 +1014,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1103,41 +1048,7 @@
      "summary": "Dry bulk and tanker shipping time charter rates"
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-23T16:51+00:00",
-   "earliest": "2026-10-23T16:19+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US could strike Iran this weekend, envoy says",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/23/us-could-strike-iran-this-weekend-envoy-says",
-     "via": "",
-     "published": "2026-10-23T16:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US envoy: There ‘absolutely’ could be a US strike on Iran ‘this weekend’",
-     "url": "https://www.timesofisrael.com/liveblog_entry/us-envoy-there-absolutely-could-be-a-us-strike-on-iran-this-weekend/",
-     "via": "",
-     "published": "2026-10-23T16:19+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1171,7 +1082,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1205,7 +1116,7 @@
      "summary": "The South Korean chip giant said it plans to continue to explore ways to fund Solidigm’s expansion."
     }
    ],
-   "id": 25
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1239,7 +1150,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1273,7 +1184,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1307,7 +1218,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1341,7 +1252,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 27
   }
  ]
 }
