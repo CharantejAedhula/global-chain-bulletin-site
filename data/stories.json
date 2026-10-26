@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-26T01:04:09+00:00",
+ "fetched_at": "2026-10-26T04:48:20+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 561,
+ "items_read": 581,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,32 +17,32 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 23,
+   "items": 20,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 64,
+   "items": 66,
    "errors": []
   },
   "Nikkei Asia": {
@@ -57,22 +57,22 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 19,
+   "items": 13,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 25,
+   "items": 29,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -92,27 +92,27 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 13,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 35,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 10,
+   "items": 15,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 12,
+   "items": 17,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 15,
+   "items": 19,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 2,
+   "items": 9,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 20,
+   "items": 14,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "The Indian Express": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 12,
    "errors": []
   },
   "MercoPress": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Rio Times": {
@@ -242,10 +242,152 @@
  },
  "clusters": [
   {
+   "independent_outlets": 6,
+   "same_headline_groups": [],
+   "outlets": [
+    "CBC News",
+    "Deutsche Welle",
+    "Euronews",
+    "Times of Israel",
+    "Associated Press",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-25T14:25+00:00",
+   "earliest": "2026-10-23T07:23+00:00",
+   "items": [
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Israel to close West Bank crossings on election day as military operation continues",
+     "url": "https://www.cbc.ca/player/play/video/9.7395240",
+     "via": "",
+     "published": "2026-10-25T14:25+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Israel to close all West Bank land crossings on election day",
+     "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-25T13:09+00:00",
+     "summary": "After a deadly attack which killed two Israeli soldiers on Friday, the Israeli military has said all land border points between Israel and the occupied West Bank will be closed during Tuesday's election."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Israel orders West Bank crossings to close on election day following Hebron shooting",
+     "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting",
+     "via": "",
+     "published": "2026-10-25T11:21+00:00",
+     "summary": "The move comes as part of a wider clampdown in the occupied West Bank after two Israeli soldiers were killed by Palestinian gunmen in the city of Hebron earlier this week."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "IDF launches major op in Hebron after two soldiers killed in shooting attack",
+     "url": "https://www.timesofisrael.com/idf-launches-major-operation-in-hebron-after-soldiers-killed-in-shooting-attack/",
+     "via": "",
+     "published": "2026-10-24T02:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Israeli military says 2 soldiers were killed in West Bank attack that also left 2 gunmen dead",
+     "url": "https://apnews.com/article/israel-shooting-west-bank-election-f6646718072b4ff6929cff43297edd05",
+     "via": "",
+     "published": "2026-10-23T21:50+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israel’s military says it killed two who had launched an attack in the occupied West Bank",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/23/israel-s-military-says-it-killed-two-who-had-launched-an-attack-in-the-occupied-west-bank",
+     "via": "",
+     "published": "2026-10-23T07:23+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
    "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
+    "Al Jazeera",
+    "Africanews",
+    "Al Arabiya",
+    "Reuters",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "Africa",
+    "East Asia",
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-26T00:00+00:00",
+   "earliest": "2026-10-24T23:49+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: Saudi forces attack Sanaa after Houthis target Riyadh",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-26T00:00+00:00",
+     "summary": "Saudi-led coalition says missiles launchers and tunnels in Yemen destroyed after Houthis targeted Riyadh airport."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Saudi Arabia's Riyadh airport partially resumes flights after Houthi attacks",
+     "url": "http://www.africanews.com/2026/10/25/saudi-arabias-riyadh-airport-partially-resumes-flights-after-houthi-attacks/",
+     "via": "",
+     "published": "2026-10-25T14:35+00:00",
+     "summary": "The announcement comes after a two-week suspension of operations following strikes from Yemen's Houthis on the Saudi capital."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition downs over 10 Houthi missiles including one launched toward Riyadh",
+     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/25/saudiled-coalition-says-downed-houthi-missile-launched-toward-riyadh",
+     "via": "",
+     "published": "2026-10-25T04:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudis say Riyadh airport partly reopens despite renewed Houthi threats",
+     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/",
+     "via": "",
+     "published": "2026-10-24T23:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Saudi-led coalition says it downed 2 missiles fired by Houthis",
+     "url": "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis",
+     "via": "",
+     "published": "2026-10-24T23:49+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
     "The Jakarta Post",
     "Deutsche Welle",
     "Associated Press",
@@ -254,21 +396,11 @@
    "regions": [
     "Europe",
     "North America",
-    "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-10-25T08:43+00:00",
+   "latest": "2026-10-25T06:49+00:00",
    "earliest": "2026-10-24T21:31+00:00",
    "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Audi to invest $4.2 billion in first US factory, plans to build 2 lakh SUVs annually",
-     "url": "https://www.livemint.com/news/us-news/audi-to-invest-4-2-billion-in-first-us-factory-plans-to-build-2-lakh-suvs-annually-11792917236098.html",
-     "via": "",
-     "published": "2026-10-25T08:43+00:00",
-     "summary": "Audi plans to invest $4.2 billion in its first US factory in Georgia, targeting annual production of 2 lakh SUVs and creating around 4,500 jobs. Construction is expected to begin in 2027, with production scheduled to start in the early 2030s."
-    },
     {
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
@@ -306,174 +438,99 @@
      "summary": ""
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 5,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Euronews",
-    "Associated Press",
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-25T13:09+00:00",
-   "earliest": "2026-10-23T07:23+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Israel to close all West Bank land crossings on election day",
-     "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-25T13:09+00:00",
-     "summary": "After a deadly attack which killed two Israeli soldiers on Friday, the Israeli military has said all land border points between Israel and the occupied West Bank will be closed during Tuesday's election."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Israel orders West Bank crossings to close on election day following Hebron shooting",
-     "url": "https://www.euronews.com/2026/10/25/israel-orders-west-bank-crossings-to-close-on-election-day-following-hebron-shooting",
-     "via": "",
-     "published": "2026-10-25T11:21+00:00",
-     "summary": "The move comes as part of a wider clampdown in the occupied West Bank after two Israeli soldiers were killed by Palestinian gunmen in the city of Hebron earlier this week."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Israeli military says 2 soldiers were killed in West Bank attack that also left 2 gunmen dead",
-     "url": "https://apnews.com/article/israel-shooting-west-bank-election-f6646718072b4ff6929cff43297edd05",
-     "via": "",
-     "published": "2026-10-23T21:50+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "2 soldiers killed in West Bank shooting; IDF believes Palestinian gunmen planned larger attack",
-     "url": "https://www.timesofisrael.com/5-injured-2-critically-in-west-bank-shooting-idf-believes-gunmen-planned-larger-attack/",
-     "via": "",
-     "published": "2026-10-23T11:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israel’s military says it killed two who had launched an attack in the occupied West Bank",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/23/israel-s-military-says-it-killed-two-who-had-launched-an-attack-in-the-occupied-west-bank",
-     "via": "",
-     "published": "2026-10-23T07:23+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Financial Times",
-    "Deutsche Welle",
-    "Reuters",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-26T00:38+00:00",
-   "earliest": "2026-10-25T19:19+00:00",
-   "items": [
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Serbia’s ex-president Vučić concedes defeat to Student List in parliamentary poll",
-     "url": "https://www.ft.com/content/546f21f5-22d3-4696-8371-7bef8c0410b3?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-10-26T00:38+00:00",
-     "summary": "Election loss marks a dramatic fall from power for strongman nationalist leader as near-record turnout favours grassroots party"
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Serbia election: Vucic concedes defeat to student-led movement",
-     "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-25T21:07+00:00",
-     "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led movement in the country's parliamentary elections."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Serbia's Vucic concedes defeat to student led movement in parliamentary election",
-     "url": "https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/",
-     "via": "",
-     "published": "2026-10-25T20:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Serbia’s Vucic concedes election defeat to student-led movement",
-     "url": "https://www.aljazeera.com/news/2026/10/25/serbia-voter-turnout-highest-in-decades-as-students-oppose-longtime-leader?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-25T19:19+00:00",
-     "summary": "Vucic says the opposition Student List is projected to win a parliamentary majority after nearly two years of protests."
-    }
-   ],
    "id": 3
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Axios",
-    "Al Jazeera",
-    "MercoPress"
+    "Livemint / Economic Times",
+    "Associated Press",
+    "Al Jazeera"
    ],
    "regions": [
-    "Latin America",
     "Middle East",
-    "North America"
+    "North America",
+    "South Asia"
    ],
-   "latest": "2026-10-26T00:26+00:00",
-   "earliest": "2026-10-25T07:02+00:00",
+   "latest": "2026-10-26T02:24+00:00",
+   "earliest": "2026-10-26T00:02+00:00",
    "items": [
     {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Lula beats Bolsonaro to win Brazil presidential election",
-     "url": "https://www.axios.com/2026/10/26/brazil-election-results-bolsonaro-lula-trump",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "‘Here to keep a jihadist out’: Trump attacks Muslim Senate candidate El-Sayed at Michigan rally",
+     "url": "https://www.livemint.com/news/us-news/here-to-keep-a-jihadist-out-trump-attacks-muslim-senate-candidate-el-sayed-at-michigan-rally-11792978965124.html",
      "via": "",
-     "published": "2026-10-26T00:26+00:00",
-     "summary": "Brazil President Luiz Inácio Lula da Silva was elected to a fourth, nonconsecutive term in the nation's presidential election according to early results released Sunday evening. Why it matters: Lula's victory deals a setback to Brazil's right-wing populist movement and preserves a major counterweight to President Trump 's influence in Latin America, with tensions over trade and tariffs threatening"
+     "published": "2026-10-26T02:24+00:00",
+     "summary": "Seeking to paint El-Sayed as an anti-American Muslim radical, Trump took the rhetoric to a new level, likening him to the attackers who took over United Flight 93 during the 11 September 2001 attacks."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan, drawing Arab American rebuke",
+     "url": "https://apnews.com/article/trump-michigan-elsayed-rogers-senate-midterms-162330c3d193ecb94538f8dd8083f916",
+     "via": "",
+     "published": "2026-10-26T01:54+00:00",
+     "summary": ""
     },
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Brazil election results 2026 live: Lula beats Bolsonaro in tight race",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
+     "title": "Trump escalates anti-Muslim rhetoric in fierce attack on El-Sayed",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-escalates-anti-muslim-rhetoric-in-fierce-attack-on-el-sayed?traffic_source=rss",
      "via": "",
-     "published": "2026-10-25T20:00+00:00",
-     "summary": "Brazil's veteran president has secured an unprecedented fourth term after edging past right-wing challenger in runoff"
-    },
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Brazil chooses between Lula and Bolsonaro in its tightest runoff in recent history",
-     "url": "https://en.mercopress.com/2026/10/25/brazil-chooses-between-lula-and-bolsonaro-in-its-tightest-runoff-in-recent-history?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-10-25T07:02+00:00",
-     "summary": "Nearly 160 million Brazilians are called to vote on Sunday in the presidential runoff, in which President Luiz Inácio Lula da Silva, 80, seeks a fourth term against Senator Flávio Bolsonaro, 45, son of former president Jair Bolsonaro. The two arrive level: the latest Datafolha poll gives each 50% of valid votes."
+     "published": "2026-10-26T00:02+00:00",
+     "summary": "Trump has launched another fierce anti-Muslim attack on Democratic Senate candidate Abdul El-Sayed."
     }
    ],
    "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Newsroom Panama",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America",
+    "South Asia"
+   ],
+   "latest": "2026-10-26T01:47+00:00",
+   "earliest": "2026-10-25T16:54+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Venezuelan leader Maria Corina Machado returns after 10 months in exile, but elections remain uncertain; here's why",
+     "url": "https://www.livemint.com/news/world/venezuelan-leader-maria-corina-machado-returns-after-10-months-in-exile-but-elections-remain-uncertain-heres-why-11792978744712.html",
+     "via": "",
+     "published": "2026-10-26T01:47+00:00",
+     "summary": "Maria Corina Machado has returned to Venezuela after more than 10 months in exile, but an election date remains unset. Washington is prioritising economic stability and institutional reforms, while interim President Delcy Rodríguez says Venezuelans will decide when to vote."
+    },
+    {
+     "outlet": "Newsroom Panama",
+     "region": "Latin America",
+     "title": "After Months in Exile Venezuela’s Opposition Leader Maria Corina Machado Returns Home.",
+     "url": "https://newsroompanama.com/2026/10/25/after-months-in-exile-venezuelas-opposition-leader-maria-corina-machado-returns-home/",
+     "via": "",
+     "published": "2026-10-25T17:54+00:00",
+     "summary": "CARACAS, Venezuela: Opposition leader and Nobel laureate María Corina Machado reappeared in Venezuela Sunday for... The post After Months in Exile Venezuela’s Opposition Leader Maria Corina Machado Returns Home. appeared first on Newsroom Panama ."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "María Corina Machado back in Venezuela after 10 months in exile",
+     "url": "https://www.euronews.com/2026/10/25/maria-corina-machado-back-in-venezuela-after-nearly-10-months-in-exile",
+     "via": "",
+     "published": "2026-10-25T16:54+00:00",
+     "summary": "The opposition leader was last in Venezuela in in December 2025, after which she left to receive the Nobel Peace Prize in Oslo. Since then, she has carried out much of her political activity from the United States and Panama."
+    }
+   ],
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -516,52 +573,6 @@
      "url": "https://www.reuters.com/world/middle-east/uaes-ras-al-khaimah-shuts-all-beaches-neighbours-grapple-with-oil-spill-2026-10-24/",
      "via": "",
      "published": "2026-10-24T12:28+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM",
-    "Ecofin Agency"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-10-24T22:27+00:00",
-   "earliest": "2026-10-23T12:16+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Bannerman approves $502 million Etango uranium mine",
-     "url": "https://mining.com.au/bannerman-approves-502-million-etango-uranium-mine/",
-     "via": "",
-     "published": "2026-10-24T22:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Bannerman pulls trigger on $353M uranium mine",
-     "url": "https://www.mining.com/bannerman-pulls-trigger-on-353m-uranium-mine/",
-     "via": "",
-     "published": "2026-10-23T22:39+00:00",
-     "summary": "Construction on the Etango uranium project in Namibia approved, with funding secured without project debt and first production targeted for 2028."
-    },
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Bannerman Energy Reaches FID on $353 Million Etango Uranium Project in Namibia",
-     "url": "https://www.ecofinagency.com/news-industry/2310-60049-bannerman-energy-reaches-fid-on-353-million-etango-uranium-project-in-namibia",
-     "via": "",
-     "published": "2026-10-23T12:16+00:00",
      "summary": ""
     }
    ],
@@ -613,6 +624,155 @@
    "id": 7
   },
   {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "Deutsche Welle",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-10-26T00:38+00:00",
+   "earliest": "2026-10-25T20:52+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Serbia’s ex-president Vučić concedes defeat to Student List in parliamentary poll",
+     "url": "https://www.ft.com/content/546f21f5-22d3-4696-8371-7bef8c0410b3?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-10-26T00:38+00:00",
+     "summary": "Election loss marks a dramatic fall from power for strongman nationalist leader as near-record turnout favours grassroots party"
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Serbia election: Vucic concedes defeat to student-led movement",
+     "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-25T21:07+00:00",
+     "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led movement in the country's parliamentary elections."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Serbia's Vucic concedes defeat to student led movement in parliamentary election",
+     "url": "https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/",
+     "via": "",
+     "published": "2026-10-25T20:52+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Rio Times"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-10-26T03:23+00:00",
+   "earliest": "2026-10-26T02:52+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Lula is declared winner of Brazil’s election as Bolsonaro rejects results",
+     "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93",
+     "via": "",
+     "published": "2026-10-26T03:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Brazil’s Lula Starts Fourth Term 5 January",
+     "url": "https://www.riotimesonline.com/brazil-runoff-what-happens-next-2026/",
+     "via": "",
+     "published": "2026-10-26T02:52+00:00",
+     "summary": "Brazil’s electoral court declared Lula the runoff winner. The dates before his 5 January 2027 swearing-in, and what Flávio Bolsonaro’s challenge means. The post Brazil’s Lula Starts Fourth Term 5 January appeared first on The Rio Times ."
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-10-26T03:18+00:00",
+   "earliest": "2026-10-26T01:02+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "‘Winning together’: Trump endorses ‘outstanding Warrior’ Netanyahu ahead of Israeli elections",
+     "url": "https://www.livemint.com/news/world/winning-together-trump-endorses-outstanding-warrior-netanyahu-ahead-of-israeli-elections-11792982686485.html",
+     "via": "",
+     "published": "2026-10-26T03:18+00:00",
+     "summary": "Netanyahu has campaigned heavily on his security credentials. Meanwhile, his election contender Gadi Eisenkot vowed to unite the country as he held his final major rally before the vote."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Netanyahu rival Eisenkot holds final rally before Israeli election",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/netanyahu-rival-eisenkot-holds-final-rally-before-israeli-election?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-26T01:02+00:00",
+     "summary": "Gadi Eisenkot, Benjamin Netanyahu’s rival in Israel’s upcoming election, held his final campaign rally on Sunday."
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Axios",
+    "MercoPress"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-10-26T02:04+00:00",
+   "earliest": "2026-10-25T07:02+00:00",
+   "items": [
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Lula beats Bolsonaro to win Brazil presidential election",
+     "url": "https://www.axios.com/2026/10/26/brazil-election-results-bolsonaro-lula-trump",
+     "via": "",
+     "published": "2026-10-26T02:04+00:00",
+     "summary": "Brazil President Luiz Inácio Lula da Silva was elected to a fourth, nonconsecutive term in the nation's presidential election , according to early results released Sunday evening. Why it matters: Lula's victory deals a setback to Brazil's right-wing populist movement and preserves a major counterweight to President Trump 's influence in Latin America, with tensions over trade and tariffs threateni"
+    },
+    {
+     "outlet": "MercoPress",
+     "region": "Latin America",
+     "title": "Brazil chooses between Lula and Bolsonaro in its tightest runoff in recent history",
+     "url": "https://en.mercopress.com/2026/10/25/brazil-chooses-between-lula-and-bolsonaro-in-its-tightest-runoff-in-recent-history?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "via": "",
+     "published": "2026-10-25T07:02+00:00",
+     "summary": "Nearly 160 million Brazilians are called to vote on Sunday in the presidential runoff, in which President Luiz Inácio Lula da Silva, 80, seeks a fourth term against Senator Flávio Bolsonaro, 45, son of former president Jair Bolsonaro. The two arrive level: the latest Datafolha poll gives each 50% of valid votes."
+    }
+   ],
+   "id": 11
+  },
+  {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
@@ -645,7 +805,42 @@
      "summary": "North Korean leader Kim Jong-un's whirlwind one-day visit to China's border city of Dandong on Saturday brought together two defining features of Pyongyang's relationship with Beijing: A longstanding alliance rooted in the Korean War and the prospect of expanded economic cooperation. The trip, Kim's sixth to China overall and his first in 13 months, came just nine days after the long-delayed openi"
     }
    ],
-   "id": 8
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Mysteel"
+   ],
+   "regions": [
+    "China",
+    "Europe"
+   ],
+   "latest": "2026-10-25T23:53+00:00",
+   "earliest": "2026-10-25T09:33+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "COMMENTARY: China's tug-of-war with Australian miners lurks beneath iron ore calm",
+     "url": "https://www.reuters.com/commentary/reuters-open-interest/chinas-tug-of-war-with-australian-miners-lurks-beneath-iron-ore-calm-2026-10-25/",
+     "via": "",
+     "published": "2026-10-25T23:53+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mysteel",
+     "region": "China",
+     "title": "Iron ore concentrates prices: China's major miners (Oct 24, 2026 20:01)",
+     "url": "https://www.mysteel.net/price-summary/523430-iron-ore-concentrates-prices-chinas-major-miners",
+     "via": "",
+     "published": "2026-10-25T09:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -680,7 +875,77 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-25T23:06+00:00",
+   "earliest": "2026-10-25T13:36+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Japan deploys long-range missile launcher during major drill with US",
+     "url": "https://www.straitstimes.com/asia/east-asia/japan-deploys-long-range-missile-launcher-during-major-drill-with-us",
+     "via": "",
+     "published": "2026-10-25T23:06+00:00",
+     "summary": "The Type-25 is a domestically produced missile designed to be fired from a vehicle-mounted launcher."
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Japan deploys long-range missile launcher during major drill with U.S.",
+     "url": "https://english.kyodonews.net/articles/-/89389",
+     "via": "",
+     "published": "2026-10-25T13:36+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-25T21:50+00:00",
+   "earliest": "2026-10-25T21:48+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Early voting opens in New Zealand for Nov 7 election with no clear front runner",
+     "url": "https://www.straitstimes.com/asia/australianz/voting-opens-in-new-zealand-for-november-7-election-with-no-clear-frontrunner",
+     "via": "",
+     "published": "2026-10-25T21:50+00:00",
+     "summary": "Prime Minister Christopher Luxon said the Nov 7 national election would be decided on economic issues."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Early voting opens in New Zealand for November 7 election with no clear frontrunner",
+     "url": "https://www.reuters.com/world/asia-pacific/voting-opens-new-zealand-november-7-election-with-no-clear-frontrunner-2026-10-25/",
+     "via": "",
+     "published": "2026-10-25T21:48+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -715,42 +980,7 @@
      "summary": "COLOMBO, Oct 25 - Sri Lanka coordinated the rescue of 40 Iranian sailors from multiple commercial ships in international waters off the coast of the country and supported their return to Iran, a spokesman for the island nation's foreign ministry said on Sunday."
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Newsroom Panama",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America"
-   ],
-   "latest": "2026-10-25T17:54+00:00",
-   "earliest": "2026-10-25T16:54+00:00",
-   "items": [
-    {
-     "outlet": "Newsroom Panama",
-     "region": "Latin America",
-     "title": "After Months in Exile Venezuela’s Opposition Leader Maria Corina Machado Returns Home.",
-     "url": "https://newsroompanama.com/2026/10/25/after-months-in-exile-venezuelas-opposition-leader-maria-corina-machado-returns-home/",
-     "via": "",
-     "published": "2026-10-25T17:54+00:00",
-     "summary": "CARACAS, Venezuela: Opposition leader and Nobel laureate María Corina Machado reappeared in Venezuela Sunday for... The post After Months in Exile Venezuela’s Opposition Leader Maria Corina Machado Returns Home. appeared first on Newsroom Panama ."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "María Corina Machado back in Venezuela after 10 months in exile",
-     "url": "https://www.euronews.com/2026/10/25/maria-corina-machado-back-in-venezuela-after-nearly-10-months-in-exile",
-     "via": "",
-     "published": "2026-10-25T16:54+00:00",
-     "summary": "The opposition leader was last in Venezuela in in December 2025, after which she left to receive the Nobel Peace Prize in Oslo. Since then, she has carried out much of her political activity from the United States and Panama."
-    }
-   ],
-   "id": 11
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -785,42 +1015,7 @@
      "summary": "Brent crude futures touched an intraday high of $114.94 a barrel on Friday after Houthi attacks on Saudi Arabia’s civilian and energy infrastructure, with India’s crude basket averaging $120.08 so far this month; Adani Total Gas raised CNG prices by ₹4.45 per kg"
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Reuters"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-10-25T14:35+00:00",
-   "earliest": "2026-10-24T23:56+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Saudi Arabia's Riyadh airport partially resumes flights after Houthi attacks",
-     "url": "http://www.africanews.com/2026/10/25/saudi-arabias-riyadh-airport-partially-resumes-flights-after-houthi-attacks/",
-     "via": "",
-     "published": "2026-10-25T14:35+00:00",
-     "summary": "The announcement comes after a two-week suspension of operations following strikes from Yemen's Houthis on the Saudi capital."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Saudis say Riyadh airport partly reopens despite renewed Houthi threats",
-     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/",
-     "via": "",
-     "published": "2026-10-24T23:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -855,42 +1050,7 @@
      "summary": ""
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East"
-   ],
-   "latest": "2026-10-25T04:28+00:00",
-   "earliest": "2026-10-24T23:49+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition downs over 10 Houthi missiles including one launched toward Riyadh",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/25/saudiled-coalition-says-downed-houthi-missile-launched-toward-riyadh",
-     "via": "",
-     "published": "2026-10-25T04:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Saudi-led coalition says it downed 2 missiles fired by Houthis",
-     "url": "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis",
-     "via": "",
-     "published": "2026-10-24T23:49+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -925,7 +1085,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -938,16 +1098,16 @@
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-10-24T21:37+00:00",
+   "latest": "2026-10-24T16:40+00:00",
    "earliest": "2026-10-24T11:03+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Tear Gas Fired at Paris Demonstration",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/25/tear-gas-fired-at-paris-demonstration",
+     "title": "French Police Fire Tear Gas at Protesters in Lyon",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/24/french-police-fire-tear-gas-at-protesters-in-lyon0",
      "via": "",
-     "published": "2026-10-24T21:37+00:00",
+     "published": "2026-10-24T16:40+00:00",
      "summary": ""
     },
     {
@@ -960,92 +1120,77 @@
      "summary": "French police fired tear gas to disperse around 150 protesters outside Lyon 3 University, in an area where demonstrations were banned."
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Jakarta Post",
-     "Al Arabiya"
-    ]
-   ],
-   "outlets": [
-    "The Jakarta Post",
-    "Al Arabiya",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-24T15:15+00:00",
-   "earliest": "2026-10-24T01:54+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Indonesia cuts gas exports to Singapore",
-     "url": "https://www.thejakartapost.com/business/2026/10/24/indonesia-cuts-gas-exports-to-singapore",
-     "via": "",
-     "published": "2026-10-24T15:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Indonesia cuts gas exports to Singapore",
-     "url": "https://english.alarabiya.net/amp/business/energy/2026/10/24/indonesia-cuts-gas-exports-to-singapore",
-     "via": "",
-     "published": "2026-10-24T13:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Indonesia begins cutting natural gas exports to Singapore from Oct 24: Reports",
-     "url": "https://www.straitstimes.com/asia/se-asia/indonesia-begins-cutting-natural-gas-exports-to-singapore-from-oct-24-reports",
-     "via": "",
-     "published": "2026-10-24T01:54+00:00",
-     "summary": "Officials say the reductions are made to meet domestic demand."
-    }
-   ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "Al Arabiya"
+    "Times of Israel",
+    "Associated Press"
    ],
    "regions": [
-    "Africa",
-    "Middle East"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-10-24T09:27+00:00",
-   "earliest": "2026-10-23T16:52+00:00",
+   "latest": "2026-10-24T09:32+00:00",
+   "earliest": "2026-10-23T06:58+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Two 'unauthorised' oil tankers struck in Strait of Hormuz, Iran says",
-     "url": "http://www.africanews.com/2026/10/24/two-unauthorised-oil-tankers-struck-in-strait-of-hormuz-iran-says/",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "In Netanyahu stronghold on northern border, signs of fraying loyalty emerge before election",
+     "url": "https://www.timesofisrael.com/in-netanyahu-stronghold-on-northern-border-signs-of-fraying-loyalty-emerge-before-election/",
      "via": "",
-     "published": "2026-10-24T09:27+00:00",
-     "summary": "Two 'unauthorised' supertankers hit naval mines near the Strait of Hormuz on Friday, according to Iran’s Revolutionary Guard navy. On Thursday, a ship transiting the strait was hit by an unknown projectile, the UK reported."
+     "published": "2026-10-24T09:32+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US Taking More Oil Through Strait Of Hormuz Than Ever: Trump",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/23/us-taking-more-oil-through-strait-of-hormuz-than-ever-trump",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "In Netanyahu stronghold, signs of fraying loyalty emerge before election",
+     "url": "https://apnews.com/article/israel-elections-netanyahu-north-hezbollah-war-88eb7c38cefd13f576778c918a1b8f74",
      "via": "",
-     "published": "2026-10-23T16:52+00:00",
+     "published": "2026-10-23T06:58+00:00",
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-10-24T09:18+00:00",
+   "earliest": "2026-10-23T12:07+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Man killed in suspected racist attack near Paris identified as martial arts fighter",
+     "url": "https://apnews.com/article/shooting-paris-terror-041f5377a97bc4297cf2315ef9ef46e2",
+     "via": "",
+     "published": "2026-10-24T09:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "One dead, five injured in Paris after 'terrorist and racist attack'",
+     "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
+     "via": "",
+     "published": "2026-10-23T12:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1080,145 +1225,76 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 24
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-23T23:03+00:00",
-   "earliest": "2026-10-23T20:04+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iranian officials: Tehran has detailed plans to hit Gulf undersea cables if war resumes",
-     "url": "https://www.timesofisrael.com/iranian-officials-tehran-has-detailed-plans-to-hit-gulf-undersea-cables-if-war-resumes/",
-     "via": "",
-     "published": "2026-10-23T23:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say",
-     "url": "https://www.reuters.com/world/middle-east/iran-has-detailed-plans-hit-gulf-undersea-cables-if-war-resumes-officials-say-2026-10-23/",
-     "via": "",
-     "published": "2026-10-23T20:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
+    "MINING.COM",
+    "Ecofin Agency"
    ],
    "regions": [
     "Africa",
     "North America"
    ],
-   "latest": "2026-10-23T13:49+00:00",
-   "earliest": "2026-10-23T10:59+00:00",
+   "latest": "2026-10-23T22:39+00:00",
+   "earliest": "2026-10-23T12:16+00:00",
    "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Kodal plans West Africa lithium expansion, CEO says",
-     "url": "https://www.miningweekly.com/article/kodal-plans-west-africa-lithium-expansion-ceo-says-2026-10-23",
-     "via": "",
-     "published": "2026-10-23T13:49+00:00",
-     "summary": ""
-    },
     {
      "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Kodal targets Ghana lithium growth beyond Mali mine",
-     "url": "https://www.mining.com/kodal-targets-ghana-lithium-growth-beyond-mali-mine/",
+     "title": "Bannerman pulls trigger on $353M uranium mine",
+     "url": "https://www.mining.com/bannerman-pulls-trigger-on-353m-uranium-mine/",
      "via": "",
-     "published": "2026-10-23T10:59+00:00",
-     "summary": "The miner plans a $13-million exploration push in West Africa, funded by cash flow from its Bougouni operation."
+     "published": "2026-10-23T22:39+00:00",
+     "summary": "Construction on the Etango uranium project in Namibia approved, with funding secured without project debt and first production targeted for 2028."
+    },
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Bannerman Energy Reaches FID on $353 Million Etango Uranium Project in Namibia",
+     "url": "https://www.ecofinagency.com/news-industry/2310-60049-bannerman-energy-reaches-fid-on-353-million-etango-uranium-project-in-namibia",
+     "via": "",
+     "published": "2026-10-23T12:16+00:00",
+     "summary": ""
     }
    ],
-   "id": 22
+   "id": 25
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "The Hindu"
+    "Al Jazeera",
+    "Al Arabiya"
    ],
    "regions": [
-    "South Asia"
+    "Middle East"
    ],
-   "latest": "2026-10-25T03:48+00:00",
-   "earliest": "2026-10-23T11:54+00:00",
+   "latest": "2026-10-26T04:05+00:00",
+   "earliest": "2026-10-25T16:58+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Nifty bears tighten grip as crude, geopolitical risks, FII outflows mount: 5 factors to decide D-Street’s fate next week",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-bears-tighten-grip-as-crude-geopolitical-risks-fii-outflows-mount-5-factors-to-decide-d-streets-fate-next-week/articleshow/135182716.cms",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US military says it helped Gulf states export 1.5 billion barrels of oil",
+     "url": "https://www.aljazeera.com/economy/2026/10/26/us-military-says-it-helped-gulf-states-export-1-5-billion-barrels-of-oil?traffic_source=rss",
      "via": "",
-     "published": "2026-10-25T03:48+00:00",
-     "summary": "Indian stock markets faced a setback as crude oil prices soared, triggered by increasing geopolitical tensions in the Middle East. Despite some defensive buying from domestic institutions, foreign investors pulled back. The forthcoming US Federal Reserve meeting is poised to impact global market moods. Investors will be keenly watching industrial production metrics and second-quarter earnings for "
+     "published": "2026-10-26T04:05+00:00",
+     "summary": "US Central Command says more than 3,000 commercial vessels have transited the Strait of Hormuz with its support."
     },
     {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Indian markets snap 1-week rally following surge in crude, FII outflows",
-     "url": "https://www.thehindu.com/business/markets/indian-markets-snap-1-week-rally-following-surge-in-crude-fii-outflows/article71615820.ece",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "CENTCOM chief visits Hormuz Strait, says US helped export 1.5 billion barrels of oil",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/25/centcom-chief-visits-hormuz-strait-says-us-helped-export-15-billion-barrels-of-oil",
      "via": "",
-     "published": "2026-10-23T11:54+00:00",
+     "published": "2026-10-25T16:58+00:00",
      "summary": ""
     }
    ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-10-24T17:11+00:00",
-   "earliest": "2026-10-24T12:56+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Albanian police fire tear gas as anti-government student protests turn violent",
-     "url": "https://www.reuters.com/world/albanian-police-fire-tear-gas-anti-government-student-protests-turn-violent-2026-10-24/",
-     "via": "",
-     "published": "2026-10-24T17:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Violent protests shake Tirana as police use tear gas and water cannons against demonstrators",
-     "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
-     "via": "",
-     "published": "2026-10-24T12:56+00:00",
-     "summary": "Opposition supporters and students mobilised in the Albanian capital, with riot police using water cannons on large groups of protesters. Authorities said 2,500 police officers were deployed to the streets of Tirana."
-    }
-   ],
-   "id": 24
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1252,7 +1328,41 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-10-23T21:04+00:00",
+   "earliest": "2026-10-23T19:36+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US Envoy Says Strike on Iran This Weekend Is Possible",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/24/us-envoy-says-strike-on-iran-this-weekend-is-possible",
+     "via": "",
+     "published": "2026-10-23T21:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US envoy: We could strike Iran this weekend; Trump: I don’t know anything about that",
+     "url": "https://www.timesofisrael.com/us-envoy-we-could-strike-iran-this-weekend-trump-i-dont-know-anything-about-that/",
+     "via": "",
+     "published": "2026-10-23T19:36+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1286,7 +1396,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 29
   }
  ]
 }
