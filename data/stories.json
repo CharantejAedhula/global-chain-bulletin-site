@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-27T01:55:47+00:00",
+ "fetched_at": "2026-10-27T05:06:12+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 593,
+ "outlets_read": 43,
+ "items_read": 569,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 16,
+   "items": 14,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 23,
+   "items": 25,
    "errors": []
   },
   "Caixin Global": {
@@ -42,47 +42,49 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 55,
+   "items": 49,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 9,
+   "items": 11,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 9,
+   "items": 6,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 21,
+   "items": 14,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 12,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 380, column 59"
+   ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 36,
+   "items": 30,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -97,12 +99,12 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 34,
+   "items": 30,
    "errors": []
   },
   "Times of Israel": {
@@ -122,12 +124,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 16,
+   "items": 19,
    "errors": []
   },
   "Axios": {
@@ -154,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 15,
+   "items": 19,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 8,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +191,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,22 +218,22 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 9,
+   "items": 11,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 8,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,23 +244,35 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
+    "Reuters",
     "Nikkei Asia",
     "Bloomberg",
     "VnExpress International",
-    "Yicai Global"
+    "Yicai Global",
+    "The Korea Herald"
    ],
    "regions": [
     "China",
     "East Asia",
+    "Europe",
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-10-26T23:01+00:00",
-   "earliest": "2026-10-25T20:54+00:00",
+   "latest": "2026-10-26T23:17+00:00",
+   "earliest": "2026-10-25T10:53+00:00",
    "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "South Korea Q3 GDP beats forecasts as AI chip boom boosts exports, investments",
+     "url": "https://www.reuters.com/world/asia-pacific/south-koreas-economy-grows-faster-than-expected-third-quarter-2026-10-26/",
+     "via": "",
+     "published": "2026-10-26T23:17+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Nikkei Asia",
      "region": "East Asia",
@@ -294,18 +308,72 @@
      "via": "",
      "published": "2026-10-25T20:54+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "S. Korea's Q2 current account surplus ranks 2nd on robust chip exports",
+     "url": "https://www.koreaherald.com/article/10913796",
+     "via": "",
+     "published": "2026-10-25T10:53+00:00",
+     "summary": "South Korea posted the second-largest current account surplus among major economies in the second quarter, surpassing the combined surpluses of Germany and Japan, central bank data showed Sunday. The country's current account surplus reached $116.63 billion in the April-June period, trailing only China's $193.72 billion, according to International Monetary Fund data available on the Bank of Korea'"
     }
    ],
    "id": 1
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Arabiya",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-27T02:17+00:00",
+   "earliest": "2026-10-24T23:49+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom",
+     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-intercepted-houthi-missiles-drones-attacking-kingdom-2026-10-27/",
+     "via": "",
+     "published": "2026-10-27T02:17+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition downs over 10 Houthi missiles including one launched toward Riyadh",
+     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/25/saudiled-coalition-says-downed-houthi-missile-launched-toward-riyadh",
+     "via": "",
+     "published": "2026-10-25T04:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Saudi-led coalition says it downed 2 missiles fired by Houthis",
+     "url": "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis",
+     "via": "",
+     "published": "2026-10-24T23:49+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
     "CBC News",
-    "Deutsche Welle",
-    "Reuters"
+    "Deutsche Welle"
    ],
    "regions": [
     "Europe",
@@ -313,7 +381,7 @@
     "North America"
    ],
    "latest": "2026-10-26T23:48+00:00",
-   "earliest": "2026-10-26T03:35+00:00",
+   "earliest": "2026-10-26T22:15+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
@@ -341,61 +409,6 @@
      "via": "",
      "published": "2026-10-26T22:15+00:00",
      "summary": "Jordanian armed forces carried out strikes on \"militant hideouts\" in Syria that it said were linked to a deadly church attack on the kingdom last week. Syria gave a different account."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Jordan says its air force struck 'militant hideouts' in Syria after church attack",
-     "url": "https://www.reuters.com/world/middle-east/jordan-arrests-three-over-karak-church-attack-state-tv-says-2026-10-26/",
-     "via": "",
-     "published": "2026-10-26T03:35+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "The Korea Herald",
-    "Associated Press"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-26T20:17+00:00",
-   "earliest": "2026-10-26T01:54+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "‘Deflections’: Abdul El-Sayed responds to Trump’s anti-Muslim attacks",
-     "url": "https://www.aljazeera.com/news/2026/10/26/deflections-abdul-el-sayed-responds-to-trumps-anti-muslim-attacks?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-26T20:17+00:00",
-     "summary": "The Democratic candidate for the US Senate has been the subject of Islamophobic attacks from Trump."
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Trump attacks El-Sayed in Michigan",
-     "url": "https://www.koreaherald.com/article/10915043",
-     "via": "",
-     "published": "2026-10-26T15:01+00:00",
-     "summary": "US President Donald Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed Sunday, portraying him as a threat to national security and questioning his loyalty to the US in remarks that drew a sharp rebuke from a former top Arab American ally. Trump called El-Sayed, a former Detroit health official, a “jihadist” who was “on the side of the terrorists” and would "
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan, drawing Arab American rebuke",
-     "url": "https://apnews.com/article/trump-michigan-elsayed-rogers-senate-midterms-162330c3d193ecb94538f8dd8083f916",
-     "via": "",
-     "published": "2026-10-26T01:54+00:00",
-     "summary": ""
     }
    ],
    "id": 3
@@ -404,188 +417,47 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Jakarta Post",
-    "Associated Press",
-    "Reuters"
+    "Rio Times",
+    "Africanews",
+    "Al Arabiya"
    ],
    "regions": [
-    "Europe",
-    "North America",
-    "Southeast Asia"
+    "Africa",
+    "Latin America",
+    "Middle East"
    ],
-   "latest": "2026-10-25T06:49+00:00",
-   "earliest": "2026-10-24T21:31+00:00",
+   "latest": "2026-10-26T20:24+00:00",
+   "earliest": "2026-10-26T09:23+00:00",
    "items": [
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Trump announces Audi will build $4 billion US factory in Georgia",
-     "url": "https://www.thejakartapost.com/business/2026/10/25/trump-announces-audi-will-build-4-billion-us-factory-in-georgia?utm_source",
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Drone Strikes Black Out Sudan’s Southeast",
+     "url": "https://www.riotimesonline.com/sudan-drone-strikes-southeast-power-outage/",
      "via": "",
-     "published": "2026-10-25T06:49+00:00",
-     "summary": ""
+     "published": "2026-10-26T20:24+00:00",
+     "summary": "Drone strikes on five substations cut power across four Sudanese states on Monday. The utility blames the RSF; the claim is unverified. The post Drone Strikes Black Out Sudan’s Southeast appeared first on The Rio Times ."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump announces at a Georgia campaign rally that Audi will build a new auto factory in the state",
-     "url": "https://apnews.com/article/audi-georgia-trump-manufacturing-auto-plant-c1d49f2437c1d9cf349af399b8abe3a3",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Sudan experiences massive power outages after RSF drone strikes",
+     "url": "http://www.africanews.com/2026/10/26/sudan-experiences-massive-power-outages-after-rsf-drone-strikes/",
      "via": "",
-     "published": "2026-10-25T02:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Audi defends decision to stand by Trump on $4 billion US factory in Georgia",
-     "url": "https://www.reuters.com/business/autos-transportation/trump-set-announce-plan-by-audi-build-us-factory-georgia-source-says-2026-10-24/",
-     "via": "",
-     "published": "2026-10-24T21:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Jakarta Post",
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-26T04:05+00:00",
-   "earliest": "2026-10-25T15:41+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Netanyahu warns Iran may try to disrupt election - Middle East and Africa",
-     "url": "https://www.thejakartapost.com/world/2026/10/26/netanyahu-warns-iran-may-try-to-disrupt-election?utm_source",
-     "via": "",
-     "published": "2026-10-26T04:05+00:00",
-     "summary": ""
+     "published": "2026-10-26T15:51+00:00",
+     "summary": "Sudan's paramilitary Rapid Support Forces launched a coordinated drone attack Monday against five power stations, causing mass power outages across the country's east, a government official told AFP."
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Netanyahu Says Iran May try to Disrupt Election",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/26/netanyahu-says-iran-may-try-to-disrupt-election",
+     "title": "Mass outages in Sudan after RSF drones hit five power stations",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/26/mass-outages-in-sudan-after-rsf-drones-hit-five-power-stations",
      "via": "",
-     "published": "2026-10-25T21:20+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Netanyahu claims Iran may try to disrupt election, warns, ‘Don’t test us’",
-     "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-claims-iran-may-try-to-disrupt-election-warns-dont-test-us/",
-     "via": "",
-     "published": "2026-10-25T15:41+00:00",
+     "published": "2026-10-26T09:23+00:00",
      "summary": ""
     }
    ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "ABC News (Australia)",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-10-25T21:07+00:00",
-   "earliest": "2026-10-25T20:52+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Serbia election: Vucic concedes defeat to student-led movement",
-     "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-25T21:07+00:00",
-     "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Serbian president concedes defeat to student-led movement in election",
-     "url": "https://www.abc.net.au/news/2026-10-26/serbia-election-vucic-defeat-student-protest/107307808",
-     "via": "",
-     "published": "2026-10-25T21:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Serbia's Vucic concedes defeat to student led movement in parliamentary election",
-     "url": "https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/",
-     "via": "",
-     "published": "2026-10-25T20:52+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Mining Weekly",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "MINING.COM",
-    "Mining Weekly",
-    "Reuters"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-10-26T21:35+00:00",
-   "earliest": "2026-10-25T11:53+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "British Columbia Conservative landslide raises mining hopes, Indigenous rights fears",
-     "url": "https://www.mining.com/bc-tory-landslide-raises-mining-hopes-rights-fears/",
-     "via": "",
-     "published": "2026-10-26T21:35+00:00",
-     "summary": "The Conservatives’ landslide election victory in British Columbia has raised mining industry hopes for faster permits and stronger exploration incentives."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Conservative party wins first election in nearly a century in British Columbia",
-     "url": "https://www.miningweekly.com/article/conservative-party-wins-first-election-in-nearly-a-century-in-british-columbia-2026-10-26",
-     "via": "",
-     "published": "2026-10-26T06:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Conservative party wins first election in nearly a century in British Columbia",
-     "url": "https://www.reuters.com/legal/litigation/conservative-party-wins-first-election-nearly-century-british-columbia-2026-10-25/",
-     "via": "",
-     "published": "2026-10-25T11:53+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
+   "id": 4
   },
   {
    "independent_outlets": 2,
@@ -636,6 +508,111 @@
      "summary": ""
     }
    ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-27T03:50+00:00",
+   "earliest": "2026-10-27T03:42+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Taiwan rebuffs China’s commemorations for post-World War II ‘restoration’ of island",
+     "url": "https://www.straitstimes.com/asia/east-asia/taiwan-rebuffs-chinas-commemorations-for-post-world-war-two-restoration-of-island",
+     "via": "",
+     "published": "2026-10-27T03:50+00:00",
+     "summary": "Both Beijing and Taipei commemorate Japan’s handover of the island to Chinese rule in 1945."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Taiwan rebuffs China's commemorations for post-World War Two 'restoration' of island",
+     "url": "https://www.reuters.com/world/china/taiwan-rebuffs-chinas-commemorations-post-world-war-two-restoration-island-2026-10-27/",
+     "via": "",
+     "published": "2026-10-27T03:42+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-10-27T03:10+00:00",
+   "earliest": "2026-10-26T23:04+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Trump approval rises from record low to 32% ahead of midterm election: Poll",
+     "url": "https://www.business-standard.com/world-news/trump-approval-rises-from-record-low-to-32-ahead-of-midterm-election-poll-126102700113_1.html",
+     "via": "",
+     "published": "2026-10-27T03:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump approval rises from record low to 32% ahead of midterm election, Reuters Ipsos poll finds",
+     "url": "https://www.reuters.com/world/us/trump-approval-rises-record-low-32-ahead-midterm-election-reuters-ipsos-poll-2026-10-26/",
+     "via": "",
+     "published": "2026-10-26T23:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MEED",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-27T02:49+00:00",
+   "earliest": "2026-10-26T15:11+00:00",
+   "items": [
+    {
+     "outlet": "MEED",
+     "region": "Middle East",
+     "title": "Eni signs deals to export Cyprus gas through Egypt",
+     "url": "https://www.meed.com/eni-signs-contracts-for-project-to-export-gas-from-cyprus-via-egypt",
+     "via": "",
+     "published": "2026-10-27T02:49+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Cyprus signs $1.8bn deal to develop first gas field, with exports to Europe via Egypt",
+     "url": "https://www.euronews.com/2026/10/26/cyprus-signs-18bn-deal-to-develop-first-gas-field-with-exports-to-europe-via-egypt",
+     "via": "",
+     "published": "2026-10-26T15:11+00:00",
+     "summary": "The deal is a key step towards harnessing Cyprus' natural gas reserves and bolstering energy cooperation in the Eastern Mediterranean, with exports to Europe via Egypt and production due to start in 2028."
+    }
+   ],
    "id": 8
   },
   {
@@ -668,7 +645,7 @@
      "url": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
      "via": "",
      "published": "2026-10-27T00:54+00:00",
-     "summary": "US President casts doubt on integrity of South American nation’s election result over extension of voting hours"
+     "summary": "US president casts doubt on integrity of election result over extension of voting hours"
     }
    ],
    "id": 9
@@ -677,33 +654,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "Reuters",
     "Africanews"
    ],
    "regions": [
     "Africa",
-    "Middle East"
+    "Europe"
    ],
-   "latest": "2026-10-27T01:06+00:00",
-   "earliest": "2026-10-26T11:26+00:00",
+   "latest": "2026-10-26T22:18+00:00",
+   "earliest": "2026-10-26T15:01+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Serbia’s ‘students’ celebrate for a second night after election victory",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/serbias-students-celebrate-for-a-second-night-after-election-victory?traffic_source=rss",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Machete-wielding mob attack health workers responding to Ebola in Congo",
+     "url": "https://www.reuters.com/world/africa/protesters-kill-longtime-nurse-treating-ebola-patients-congo-2026-10-26/",
      "via": "",
-     "published": "2026-10-27T01:06+00:00",
-     "summary": "Thousands gathered on the streets of Belgrade for a second night to celebrate the student-led movement's victory."
+     "published": "2026-10-26T22:18+00:00",
+     "summary": ""
     },
     {
      "outlet": "Africanews",
      "region": "Africa",
-     "title": "Brazil: Thousands flood streets to celebrate Lula's election victory",
-     "url": "http://www.africanews.com/2026/10/26/brazil-thousands-flood-streets-to-celebrate-lulas-election-victory/",
+     "title": "Nurse killed, health worker injured in DR Congo Ebola attack",
+     "url": "http://www.africanews.com/2026/10/26/nurse-killed-health-worker-injured-in-dr-congo-ebola-attack/",
      "via": "",
-     "published": "2026-10-26T11:26+00:00",
-     "summary": "Tears, hugs and dancing filled the streets of Brazil after Lula narrowly defeated Flávio Bolsonaro. Thousands celebrated in Rio and São Paulo as the president secured another four years in office."
+     "published": "2026-10-26T15:01+00:00",
+     "summary": "A nurse was killed and a health worker severely injured after being attacked while responding to an Ebola alert in Congo, according to the World Health Organisation."
     }
    ],
    "id": 10
@@ -712,71 +689,36 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Reuters"
+    "MINING.COM",
+    "Mining Weekly"
    ],
    "regions": [
-    "Europe",
-    "Southeast Asia"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-10-27T01:00+00:00",
-   "earliest": "2026-10-25T23:24+00:00",
+   "latest": "2026-10-26T21:35+00:00",
+   "earliest": "2026-10-26T06:41+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive",
-     "url": "https://www.straitstimes.com/business/oil-eases-on-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "British Columbia Conservative landslide raises mining hopes, Indigenous rights fears",
+     "url": "https://www.mining.com/bc-tory-landslide-raises-mining-hopes-rights-fears/",
      "via": "",
-     "published": "2026-10-27T01:00+00:00",
-     "summary": "Renewed attacks on key producer Saudi Arabia by Iran-aligned Houthis made hopes for peace look fragile."
+     "published": "2026-10-26T21:35+00:00",
+     "summary": "The Conservatives’ landslide election victory in British Columbia has raised mining industry hopes for faster permits and stronger exploration incentives."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Oil settles lower on peace hopes, Saudi attacks limit losses",
-     "url": "https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Conservative party wins first election in nearly a century in British Columbia",
+     "url": "https://www.miningweekly.com/article/conservative-party-wins-first-election-in-nearly-a-century-in-british-columbia-2026-10-26",
      "via": "",
-     "published": "2026-10-25T23:24+00:00",
+     "published": "2026-10-26T06:41+00:00",
      "summary": ""
     }
    ],
    "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Australian Financial Review",
-    "Financial Times"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-10-26T22:28+00:00",
-   "earliest": "2026-10-26T21:50+00:00",
-   "items": [
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Trump offers $1.4m rewards for election fraud tips",
-     "url": "https://www.afr.com/world/north-america/trump-offers-1-4m-rewards-for-election-fraud-tips-20261027-p618t4?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-26T22:28+00:00",
-     "summary": "The US president offered the payout days before crucial midterm elections that are expected to weaken the Republican Party’s grip on Congress."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Trump offers $1mn reward for tips leading to election fraud conviction",
-     "url": "https://www.ft.com/content/fe3cb92f-bc25-4db7-8fa8-dff3f1f38348?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-10-26T21:50+00:00",
-     "summary": "US president offers payout days before midterm vote that will shape balance of power in Congress"
-    }
-   ],
-   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -811,7 +753,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -846,7 +788,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -881,42 +823,7 @@
      "summary": "Grammy-winning singer Chris Brown avoided prison time Monday for beating a music producer with a tequila bottle at a London nightclub three years ago."
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Africa",
-    "Middle East"
-   ],
-   "latest": "2026-10-26T15:51+00:00",
-   "earliest": "2026-10-26T09:23+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Sudan experiences massive power outages after RSF drone strikes",
-     "url": "http://www.africanews.com/2026/10/26/sudan-experiences-massive-power-outages-after-rsf-drone-strikes/",
-     "via": "",
-     "published": "2026-10-26T15:51+00:00",
-     "summary": "Sudan's paramilitary Rapid Support Forces launched a coordinated drone attack Monday against five power stations, causing mass power outages across the country's east, a government official told AFP."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Mass outages in Sudan after RSF drones hit five power stations",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/26/mass-outages-in-sudan-after-rsf-drones-hit-five-power-stations",
-     "via": "",
-     "published": "2026-10-26T09:23+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -951,77 +858,7 @@
      "summary": ""
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-26T15:02+00:00",
-   "earliest": "2026-10-26T09:41+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "New Call of Duty depicting another Korean War sparks debate",
-     "url": "https://www.koreaherald.com/article/10915044",
-     "via": "",
-     "published": "2026-10-26T15:02+00:00",
-     "summary": "A fictional North Korean invasion of Seoul is becoming fodder for a real political battle in South Korea, with the latest installment of the blockbuster Call of Duty franchise drawing politicians into a debate over national security, inter-Korean relations and freedom of expression. Call of Duty: Modern Warfare 4, which depicts a devastating second Korean War triggered by a surprise North Korean a"
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Call Of Duty game depicting another Korean War sparks debate in South Korea",
-     "url": "https://www.straitstimes.com/asia/east-asia/new-call-of-duty-game-depicting-another-korean-war-sparks-debate-in-south-korea",
-     "via": "",
-     "published": "2026-10-26T09:41+00:00",
-     "summary": "It depicts a fictional second Korean War triggered by a full-scale North Korean invasion of South Korea."
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Associated Press"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-10-26T09:35+00:00",
-   "earliest": "2026-10-24T02:45+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Suspect in Paris shooting moved to police psychiatric unit",
-     "url": "http://www.africanews.com/2026/10/26/suspect-in-paris-shooting-moved-to-police-psychiatric-unit/",
-     "via": "",
-     "published": "2026-10-26T09:35+00:00",
-     "summary": "French authorities have transferred to a psychiatric unit a man suspected of a gun attack in the Paris suburbs that killed one person and wounded five, prosecutors said Sunday. The 39-year-old man, identified as Kevin T., is reportedly suffering from schizophrenia."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "A shooting in the Paris suburbs kills 1 and wounds five in a suspected racist attack",
-     "url": "https://apnews.com/article/france-shooting-trappes-arrest-edcd3ab6c5ec2112505b358ca0a3de5a",
-     "via": "",
-     "published": "2026-10-24T02:45+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -1056,7 +893,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1091,7 +928,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1126,7 +963,42 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-26T04:05+00:00",
+   "earliest": "2026-10-25T15:41+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Netanyahu warns Iran may try to disrupt election - Middle East and Africa",
+     "url": "https://www.thejakartapost.com/world/2026/10/26/netanyahu-warns-iran-may-try-to-disrupt-election?utm_source",
+     "via": "",
+     "published": "2026-10-26T04:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Netanyahu claims Iran may try to disrupt election, warns, ‘Don’t test us’",
+     "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-claims-iran-may-try-to-disrupt-election-warns-dont-test-us/",
+     "via": "",
+     "published": "2026-10-25T15:41+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1161,7 +1033,7 @@
      "summary": "The announcement comes after a two-week suspension of operations following strikes from Yemen's Houthis on the Saudi capital."
     }
    ],
-   "id": 23
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1196,42 +1068,42 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 21
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "Al Arabiya"
+    "Deutsche Welle",
+    "ABC News (Australia)"
    ],
    "regions": [
-    "Africa",
-    "Middle East"
+    "Europe",
+    "Oceania"
    ],
-   "latest": "2026-10-25T12:48+00:00",
-   "earliest": "2026-10-24T14:59+00:00",
+   "latest": "2026-10-25T21:07+00:00",
+   "earliest": "2026-10-25T21:06+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Over 1,000 arrested in France after a day of mostly peaceful protests",
-     "url": "http://www.africanews.com/2026/10/25/over-1000-arrested-in-france-after-a-day-of-mostly-peaceful-protests/",
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Serbia election: Vucic concedes defeat to student-led movement",
+     "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-10-25T12:48+00:00",
-     "summary": "There were clashes after night fall as police fired tear gas and water cannon to disperse protesters in a number of cities."
+     "published": "2026-10-25T21:07+00:00",
+     "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections."
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Tear Gas Sparks Chaos at Protest in France",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/10/24/tear-gas-sparks-chaos-at-protest-in-france",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Serbian president concedes defeat to student-led movement in election",
+     "url": "https://www.abc.net.au/news/2026-10-26/serbia-election-vucic-defeat-student-protest/107307808",
      "via": "",
-     "published": "2026-10-24T14:59+00:00",
+     "published": "2026-10-25T21:06+00:00",
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1266,42 +1138,76 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 23
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Nikkei Asia"
+    "The Jakarta Post",
+    "Associated Press"
    ],
    "regions": [
-    "East Asia",
-    "Middle East"
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-25T04:28+00:00",
-   "earliest": "2026-10-24T23:49+00:00",
+   "latest": "2026-10-25T06:49+00:00",
+   "earliest": "2026-10-25T02:22+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition downs over 10 Houthi missiles including one launched toward Riyadh",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/10/25/saudiled-coalition-says-downed-houthi-missile-launched-toward-riyadh",
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Trump announces Audi will build $4 billion US factory in Georgia",
+     "url": "https://www.thejakartapost.com/business/2026/10/25/trump-announces-audi-will-build-4-billion-us-factory-in-georgia?utm_source",
      "via": "",
-     "published": "2026-10-25T04:28+00:00",
+     "published": "2026-10-25T06:49+00:00",
      "summary": ""
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Saudi-led coalition says it downed 2 missiles fired by Houthis",
-     "url": "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump announces at a Georgia campaign rally that Audi will build a new auto factory in the state",
+     "url": "https://apnews.com/article/audi-georgia-trump-manufacturing-auto-plant-c1d49f2437c1d9cf349af399b8abe3a3",
      "via": "",
-     "published": "2026-10-24T23:49+00:00",
+     "published": "2026-10-25T02:22+00:00",
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "The Hindu"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-10-27T04:44+00:00",
+   "earliest": "2026-10-26T06:19+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Rupee falls 7 paise to 95.22 against US dollar during early trade",
+     "url": "https://www.business-standard.com/finance/news/rupee-falls-7-paise-to-95-22-against-us-dollar-during-early-trade-126102700216_1.html",
+     "via": "",
+     "published": "2026-10-27T04:44+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Rupee falls 5 paise to 94.98 against U.S. dollar in early trade",
+     "url": "https://www.thehindu.com/business/markets/rupee-falls-5-paise-to-9498-against-us-dollar-in-early-trade/article71625708.ece",
+     "via": "",
+     "published": "2026-10-26T06:19+00:00",
+     "summary": "At the interbank foreign exchange market, the rupee opened at 94.92, then lost ground to touch 94.98"
+    }
+   ],
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1335,41 +1241,7 @@
      "summary": ""
     }
    ],
-   "id": 28
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-26T19:25+00:00",
-   "earliest": "2026-10-26T05:20+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Jordan arrests three suspects over deadly church attack",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-26T19:25+00:00",
-     "summary": "Jordanian authorities have arrested three relatives over a church attack in Karak that killed eight people."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Jordan arrests three suspects in deadly church attack: State media",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/26/jordan-arrests-three-suspects-in-deadly-church-attack-state-media-says",
-     "via": "",
-     "published": "2026-10-26T05:20+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 29
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1403,7 +1275,41 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-10-26T16:15+00:00",
+   "earliest": "2026-10-26T15:43+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "India, US fine-tuning trade deal after concluding most discussions, says minister Piyush Goyal",
+     "url": "https://www.livemint.com/news/india/india-us-fine-tuning-trade-deal-after-concluding-most-discussions-says-minister-piyush-goyal-11793025706251.html",
+     "via": "",
+     "published": "2026-10-26T16:15+00:00",
+     "summary": "The proposed trade agreement could give Indian exporters greater certainty on US tariffs as New Delhi pursues preferential access to economies accounting for a majority of global GDP."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "India, US fine-tuning trade agreement; most discussions over: Goyal",
+     "url": "https://www.business-standard.com/economy/news/india-us-fine-tuning-trade-agreement-most-discussions-over-goyal-126102601056_1.html",
+     "via": "",
+     "published": "2026-10-26T15:43+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
   }
  ]
 }
