@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-27T00:30:03+00:00",
+ "fetched_at": "2026-10-27T01:55:47+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 586,
+ "items_read": 593,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Yicai Global": {
@@ -42,37 +42,37 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 70,
+   "items": 55,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 26,
+   "items": 36,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Deutsche Welle": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 30,
+   "items": 32,
    "errors": []
   },
   "Amwaj.media": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 17,
+   "items": 18,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "MercoPress": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 8,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,14 +242,13 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Nikkei Asia",
     "Bloomberg",
     "VnExpress International",
-    "Yicai Global",
-    "The Korea Herald"
+    "Yicai Global"
    ],
    "regions": [
     "China",
@@ -258,7 +257,7 @@
     "Southeast Asia"
    ],
    "latest": "2026-10-26T23:01+00:00",
-   "earliest": "2026-10-25T10:53+00:00",
+   "earliest": "2026-10-25T20:54+00:00",
    "items": [
     {
      "outlet": "Nikkei Asia",
@@ -295,26 +294,18 @@
      "via": "",
      "published": "2026-10-25T20:54+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "S. Korea's Q2 current account surplus ranks 2nd on robust chip exports",
-     "url": "https://www.koreaherald.com/article/10913796",
-     "via": "",
-     "published": "2026-10-25T10:53+00:00",
-     "summary": "South Korea posted the second-largest current account surplus among major economies in the second quarter, surpassing the combined surpluses of Germany and Japan, central bank data showed Sunday. The country's current account surplus reached $116.63 billion in the April-June period, trailing only China's $193.72 billion, according to International Monetary Fund data available on the Bank of Korea'"
     }
    ],
    "id": 1
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
     "CBC News",
-    "Deutsche Welle"
+    "Deutsche Welle",
+    "Reuters"
    ],
    "regions": [
     "Europe",
@@ -322,7 +313,7 @@
     "North America"
    ],
    "latest": "2026-10-26T23:48+00:00",
-   "earliest": "2026-10-26T22:15+00:00",
+   "earliest": "2026-10-26T03:35+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
@@ -350,6 +341,15 @@
      "via": "",
      "published": "2026-10-26T22:15+00:00",
      "summary": "Jordanian armed forces carried out strikes on \"militant hideouts\" in Syria that it said were linked to a deadly church attack on the kingdom last week. Syria gave a different account."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Jordan says its air force struck 'militant hideouts' in Syria after church attack",
+     "url": "https://www.reuters.com/world/middle-east/jordan-arrests-three-over-karak-church-attack-state-tv-says-2026-10-26/",
+     "via": "",
+     "published": "2026-10-26T03:35+00:00",
+     "summary": ""
     }
    ],
    "id": 2
@@ -404,42 +404,43 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "gCaptain",
-    "Reuters",
-    "Associated Press"
+    "The Jakarta Post",
+    "Associated Press",
+    "Reuters"
    ],
    "regions": [
     "Europe",
-    "North America"
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-26T15:18+00:00",
-   "earliest": "2026-10-24T01:17+00:00",
+   "latest": "2026-10-25T06:49+00:00",
+   "earliest": "2026-10-24T21:31+00:00",
    "items": [
     {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Lawmakers Warn U.S. Ports and Banks Over Trump-Putin Russian Diesel Deal",
-     "url": "https://gcaptain.com/lawmakers-warn-u-s-ports-and-banks-over-trump-putin-russian-diesel-deal/",
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Trump announces Audi will build $4 billion US factory in Georgia",
+     "url": "https://www.thejakartapost.com/business/2026/10/25/trump-announces-audi-will-build-4-billion-us-factory-in-georgia?utm_source",
      "via": "",
-     "published": "2026-10-26T15:18+00:00",
-     "summary": "A bipartisan group of U.S. lawmakers is warning major banks and port authorities against facilitating Russian diesel shipments under President Donald Trump’s controversial agreement with Vladimir Putin, raising the prospect..."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Russian refiners ramp up diesel output after US deal, sources say",
-     "url": "https://www.reuters.com/business/energy/russian-refiners-ramp-up-diesel-output-after-us-deal-sources-say-2026-10-26/",
-     "via": "",
-     "published": "2026-10-26T13:12+00:00",
+     "published": "2026-10-25T06:49+00:00",
      "summary": ""
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "First tanker of Russian diesel sets sail for the US in Trump’s controversial deal with Putin",
-     "url": "https://apnews.com/article/russia-united-states-tanker-diesel-shipment-f2c733604fd4fbd82e7b668c94fad978",
+     "title": "Trump announces at a Georgia campaign rally that Audi will build a new auto factory in the state",
+     "url": "https://apnews.com/article/audi-georgia-trump-manufacturing-auto-plant-c1d49f2437c1d9cf349af399b8abe3a3",
      "via": "",
-     "published": "2026-10-24T01:17+00:00",
+     "published": "2026-10-25T02:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Audi defends decision to stand by Trump on $4 billion US factory in Georgia",
+     "url": "https://www.reuters.com/business/autos-transportation/trump-set-announce-plan-by-audi-build-us-factory-georgia-source-says-2026-10-24/",
+     "via": "",
+     "published": "2026-10-24T21:31+00:00",
      "summary": ""
     }
    ],
@@ -491,6 +492,102 @@
    "id": 5
   },
   {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "ABC News (Australia)",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-10-25T21:07+00:00",
+   "earliest": "2026-10-25T20:52+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Serbia election: Vucic concedes defeat to student-led movement",
+     "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-25T21:07+00:00",
+     "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Serbian president concedes defeat to student-led movement in election",
+     "url": "https://www.abc.net.au/news/2026-10-26/serbia-election-vucic-defeat-student-protest/107307808",
+     "via": "",
+     "published": "2026-10-25T21:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Serbia's Vucic concedes defeat to student led movement in parliamentary election",
+     "url": "https://www.reuters.com/world/europe/serbias-vucic-concedes-defeat-student-led-movement-parliamentary-election-2026-10-25/",
+     "via": "",
+     "published": "2026-10-25T20:52+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Mining Weekly",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly",
+    "Reuters"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-26T21:35+00:00",
+   "earliest": "2026-10-25T11:53+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "British Columbia Conservative landslide raises mining hopes, Indigenous rights fears",
+     "url": "https://www.mining.com/bc-tory-landslide-raises-mining-hopes-rights-fears/",
+     "via": "",
+     "published": "2026-10-26T21:35+00:00",
+     "summary": "The Conservatives’ landslide election victory in British Columbia has raised mining industry hopes for faster permits and stronger exploration incentives."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Conservative party wins first election in nearly a century in British Columbia",
+     "url": "https://www.miningweekly.com/article/conservative-party-wins-first-election-in-nearly-a-century-in-british-columbia-2026-10-26",
+     "via": "",
+     "published": "2026-10-26T06:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Conservative party wins first election in nearly a century in British Columbia",
+     "url": "https://www.reuters.com/legal/litigation/conservative-party-wins-first-election-nearly-century-british-columbia-2026-10-25/",
+     "via": "",
+     "published": "2026-10-25T11:53+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
@@ -539,7 +636,112 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Financial Times"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-27T01:32+00:00",
+   "earliest": "2026-10-27T00:54+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Bolsonaro’s party accepts Brazil election after Trump calls vote ‘rigged’",
+     "url": "https://www.aljazeera.com/news/2026/10/27/bolsonaros-party-accepts-result-after-trump-suggests-vote-was?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-27T01:32+00:00",
+     "summary": "Trump pushes unsubstantiated claims about Brazil's presidential vote but says he 'didn't take sides' in the race."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Bolsonaro’s Liberal Party accepts defeat in Brazil as Trump calls result ‘rigged’",
+     "url": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-10-27T00:54+00:00",
+     "summary": "US President casts doubt on integrity of South American nation’s election result over extension of voting hours"
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East"
+   ],
+   "latest": "2026-10-27T01:06+00:00",
+   "earliest": "2026-10-26T11:26+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Serbia’s ‘students’ celebrate for a second night after election victory",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/serbias-students-celebrate-for-a-second-night-after-election-victory?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-27T01:06+00:00",
+     "summary": "Thousands gathered on the streets of Belgrade for a second night to celebrate the student-led movement's victory."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Brazil: Thousands flood streets to celebrate Lula's election victory",
+     "url": "http://www.africanews.com/2026/10/26/brazil-thousands-flood-streets-to-celebrate-lulas-election-victory/",
+     "via": "",
+     "published": "2026-10-26T11:26+00:00",
+     "summary": "Tears, hugs and dancing filled the streets of Brazil after Lula narrowly defeated Flávio Bolsonaro. Thousands celebrated in Rio and São Paulo as the president secured another four years in office."
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-27T01:00+00:00",
+   "earliest": "2026-10-25T23:24+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive",
+     "url": "https://www.straitstimes.com/business/oil-eases-on-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive",
+     "via": "",
+     "published": "2026-10-27T01:00+00:00",
+     "summary": "Renewed attacks on key producer Saudi Arabia by Iran-aligned Houthis made hopes for peace look fragile."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oil settles lower on peace hopes, Saudi attacks limit losses",
+     "url": "https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/",
+     "via": "",
+     "published": "2026-10-25T23:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -574,77 +776,7 @@
      "summary": "US president offers payout days before midterm vote that will shape balance of power in Congress"
     }
    ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Africanews"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-10-26T22:18+00:00",
-   "earliest": "2026-10-26T15:01+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Machete-wielding mob attack health workers responding to Ebola in Congo",
-     "url": "https://www.reuters.com/world/africa/protesters-kill-longtime-nurse-treating-ebola-patients-congo-2026-10-26/",
-     "via": "",
-     "published": "2026-10-26T22:18+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Nurse killed, health worker injured in DR Congo Ebola attack",
-     "url": "http://www.africanews.com/2026/10/26/nurse-killed-health-worker-injured-in-dr-congo-ebola-attack/",
-     "via": "",
-     "published": "2026-10-26T15:01+00:00",
-     "summary": "A nurse was killed and a health worker severely injured after being attacked while responding to an Ebola alert in Congo, according to the World Health Organisation."
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-10-26T21:35+00:00",
-   "earliest": "2026-10-26T06:41+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "British Columbia Conservative landslide raises mining hopes, Indigenous rights fears",
-     "url": "https://www.mining.com/bc-tory-landslide-raises-mining-hopes-rights-fears/",
-     "via": "",
-     "published": "2026-10-26T21:35+00:00",
-     "summary": "The Conservatives’ landslide election victory in British Columbia has raised mining industry hopes for faster permits and stronger exploration incentives."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Conservative party wins first election in nearly a century in British Columbia",
-     "url": "https://www.miningweekly.com/article/conservative-party-wins-first-election-in-nearly-a-century-in-british-columbia-2026-10-26",
-     "via": "",
-     "published": "2026-10-26T06:41+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -679,7 +811,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -714,7 +846,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -749,7 +881,7 @@
      "summary": "Grammy-winning singer Chris Brown avoided prison time Monday for beating a music producer with a tequila bottle at a London nightclub three years ago."
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -784,7 +916,42 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "gCaptain",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-26T15:18+00:00",
+   "earliest": "2026-10-26T13:12+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Lawmakers Warn U.S. Ports and Banks Over Trump-Putin Russian Diesel Deal",
+     "url": "https://gcaptain.com/lawmakers-warn-u-s-ports-and-banks-over-trump-putin-russian-diesel-deal/",
+     "via": "",
+     "published": "2026-10-26T15:18+00:00",
+     "summary": "A bipartisan group of U.S. lawmakers is warning major banks and port authorities against facilitating Russian diesel shipments under President Donald Trump’s controversial agreement with Vladimir Putin, raising the prospect..."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Russian refiners ramp up diesel output after US deal, sources say",
+     "url": "https://www.reuters.com/business/energy/russian-refiners-ramp-up-diesel-output-after-us-deal-sources-say-2026-10-26/",
+     "via": "",
+     "published": "2026-10-26T13:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -819,7 +986,7 @@
      "summary": "It depicts a fictional second Korean War triggered by a full-scale North Korean invasion of South Korea."
     }
    ],
-   "id": 14
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -854,7 +1021,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -889,7 +1056,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -924,7 +1091,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -959,7 +1126,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -994,7 +1161,7 @@
      "summary": "The announcement comes after a two-week suspension of operations following strikes from Yemen's Houthis on the Saudi capital."
     }
    ],
-   "id": 19
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1029,42 +1196,7 @@
      "summary": ""
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-10-25T21:07+00:00",
-   "earliest": "2026-10-25T21:06+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Serbia election: Vucic concedes defeat to student-led movement",
-     "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-25T21:07+00:00",
-     "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Serbian president concedes defeat to student-led movement in election",
-     "url": "https://www.abc.net.au/news/2026-10-26/serbia-election-vucic-defeat-student-protest/107307808",
-     "via": "",
-     "published": "2026-10-25T21:06+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1099,7 +1231,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1134,42 +1266,7 @@
      "summary": ""
     }
    ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Jakarta Post",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-25T06:49+00:00",
-   "earliest": "2026-10-25T02:22+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Trump announces Audi will build $4 billion US factory in Georgia",
-     "url": "https://www.thejakartapost.com/business/2026/10/25/trump-announces-audi-will-build-4-billion-us-factory-in-georgia?utm_source",
-     "via": "",
-     "published": "2026-10-25T06:49+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump announces at a Georgia campaign rally that Audi will build a new auto factory in the state",
-     "url": "https://apnews.com/article/audi-georgia-trump-manufacturing-auto-plant-c1d49f2437c1d9cf349af399b8abe3a3",
-     "via": "",
-     "published": "2026-10-25T02:22+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 24
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1204,7 +1301,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1238,7 +1335,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1272,41 +1369,7 @@
      "summary": ""
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-10-26T17:32+00:00",
-   "earliest": "2026-10-26T11:12+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Britain sanctions Sudanese commanders over weaponised rape",
-     "url": "https://www.aljazeera.com/news/2026/10/26/britain-sanctions-sudanese-commanders-over-weaponised-rape?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-26T17:32+00:00",
-     "summary": "Commanders from the Rapid Support Forces (RSF) and Sudanese Armed Forces face travel and asset freezes."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "UK sanctions 15 commanders from rival Sudan factions over wartime rape",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/26/uk-sanctions-15-commanders-from-rival-sudan-factions-over-wartime-rape",
-     "via": "",
-     "published": "2026-10-26T11:12+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 28
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1340,75 +1403,7 @@
      "summary": ""
     }
    ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-10-26T16:15+00:00",
-   "earliest": "2026-10-26T15:43+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "India, US fine-tuning trade deal after concluding most discussions, says minister Piyush Goyal",
-     "url": "https://www.livemint.com/news/india/india-us-fine-tuning-trade-deal-after-concluding-most-discussions-says-minister-piyush-goyal-11793025706251.html",
-     "via": "",
-     "published": "2026-10-26T16:15+00:00",
-     "summary": "The proposed trade agreement could give Indian exporters greater certainty on US tariffs as New Delhi pursues preferential access to economies accounting for a majority of global GDP."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "India, US fine-tuning trade agreement; most discussions over: Goyal",
-     "url": "https://www.business-standard.com/economy/news/india-us-fine-tuning-trade-agreement-most-discussions-over-goyal-126102601056_1.html",
-     "via": "",
-     "published": "2026-10-26T15:43+00:00",
-     "summary": ""
-    }
-   ],
    "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-10-26T15:51+00:00",
-   "earliest": "2026-10-26T11:28+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Galp, Moeve scrap downstream merger as Iran war boosts refinery valuations",
-     "url": "https://www.reuters.com/business/energy/galp-moeve-scrap-talks-combine-refining-fuel-retail-businesses-2026-10-26/",
-     "via": "",
-     "published": "2026-10-26T15:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Galp and Moeve fail to agree merger of refining and distribution operations",
-     "url": "https://www.euronews.com/2026/10/26/galp-and-moeve-fail-to-agree-merger-of-refining-and-distribution-operations",
-     "via": "",
-     "published": "2026-10-26T11:28+00:00",
-     "summary": "Portuguese multinational energy corporation Galp confirmed that talks with shareholders of major Spanish energy firm Moeve, to merge downstream operations, have collapsed, and says the result will not affect its operations."
-    }
-   ],
-   "id": 31
   }
  ]
 }
