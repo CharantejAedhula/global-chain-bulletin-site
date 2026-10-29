@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-29T02:14:54+00:00",
+ "fetched_at": "2026-10-29T04:22:17+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 792,
+ "items_read": 824,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 42,
+   "items": 40,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,47 +32,47 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 52,
+   "items": 55,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 6,
+   "items": 15,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 22,
+   "items": 19,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 42,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
@@ -92,12 +92,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,12 +107,12 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 34,
+   "items": 35,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "MEED": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 21,
+   "items": 24,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Axios": {
@@ -159,17 +159,17 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 2,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Interfax": {
@@ -189,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -206,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 8,
    "errors": []
   },
   "MercoPress": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 29,
+   "items": 36,
    "errors": []
   },
   "Rio Times": {
@@ -242,31 +242,34 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "Reuters",
     "The Straits Times",
     "Euronews",
-    "ABC News (Australia)"
+    "ABC News (Australia)",
+    "Kyodo News",
+    "Associated Press"
    ],
    "regions": [
+    "East Asia",
     "Europe",
-    "Middle East",
+    "North America",
     "Oceania",
     "Southeast Asia"
    ],
-   "latest": "2026-10-28T18:34+00:00",
-   "earliest": "2026-10-28T09:46+00:00",
+   "latest": "2026-10-28T18:28+00:00",
+   "earliest": "2026-10-28T03:49+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Fuel costs force US cruise ship to suspend multiyear voyage in Cambodia",
-     "url": "https://www.aljazeera.com/news/2026/10/28/fuel-costs-force-us-cruise-ship-to-suspend-multi-year-voyage-in-cambodia?traffic_source=rss",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Cruise ship residents left stranded in Cambodia after fuel prices soar",
+     "url": "https://www.reuters.com/world/asia-pacific/cruise-ship-residents-left-stranded-cambodia-after-fuel-prices-soar-2026-10-28/",
      "via": "",
-     "published": "2026-10-28T18:34+00:00",
-     "summary": "Hundreds of passengers are stranded after the ship’s three-and-a-half-year voyage is cut short due to fuel costs."
+     "published": "2026-10-28T18:28+00:00",
+     "summary": ""
     },
     {
      "outlet": "The Straits Times",
@@ -294,9 +297,73 @@
      "via": "",
      "published": "2026-10-28T09:46+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "A US cruise ship ends a global voyage in Asia due to fuel costs and 200 passengers lose their homes",
+     "url": "https://english.kyodonews.net/articles/-/89654",
+     "via": "",
+     "published": "2026-10-28T05:16+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
+     "url": "https://apnews.com/article/us-cambodia-cruise-ship-fuel-88fa620415d8e490cbe5a25ca5cb0691",
+     "via": "",
+     "published": "2026-10-28T03:49+00:00",
+     "summary": ""
     }
    ],
    "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-28T10:16+00:00",
+   "earliest": "2026-10-28T05:21+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
+     "url": "https://apnews.com/article/malaysia-us-ai-chips-export-transit-technology-79a912de57b21a4e59b27c9a86340202",
+     "via": "",
+     "published": "2026-10-28T10:16+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Customs seizes over $300,000 worth of cannabis flowers, ketamine at Malaysia airport",
+     "url": "https://www.straitstimes.com/asia/se-asia/customs-seizes-over-300000-worth-of-cannabis-flowers-ketamine-at-malaysia-airport",
+     "via": "",
+     "published": "2026-10-28T09:20+00:00",
+     "summary": "Both cases involved shipments with incomplete and false recipient and sender addresses."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "AI chips worth $12.1 million seized at Malaysia airport, customs authority says",
+     "url": "https://www.reuters.com/world/china/ai-chips-worth-121-million-seized-malaysia-airport-customs-authority-says-2026-10-28/",
+     "via": "",
+     "published": "2026-10-28T05:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -327,7 +394,7 @@
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
      "title": "US to grant Flavio Bolsonaro visa as he flees Brazil after election loss",
-     "url": "https://www.thejakartapost.com/world/2026/10/28/us-to-grant-flavio-bolsonaro-visa-as-he-flees-brazil-after-election-loss?utm_source",
+     "url": "https://www.thejakartapost.com/world/2026/10/28/us-to-grant-flavio-bolsonaro-visa-as-he-flees-brazil-after-election-loss",
      "via": "",
      "published": "2026-10-28T03:41+00:00",
      "summary": ""
@@ -342,7 +409,7 @@
      "summary": "The U.S. government is granting visas to Flávio Bolsonaro and his family following his defeat in Brazil's presidential election , a senior Trump administration official tells Axios. Why it matters: The move comes days after Brazilian President Luiz Inácio Lula da Silva defeated Bolsonaro, the son of former President Jair Bolsonaro , in a closely watched election. Driving the news: Following the el"
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -388,7 +455,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -433,7 +500,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -478,7 +545,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -523,7 +590,182 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-29T04:01+00:00",
+   "earliest": "2026-10-29T03:45+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "North Korea fires unknown projectile into East Sea: South Korea defence ministry",
+     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-fires-projectile-toward-sea-off-east-coast-south-korea-military-says",
+     "via": "",
+     "published": "2026-10-29T04:01+00:00",
+     "summary": "Japan’s Coast Guard said the launched projectile could be a ballistic missile and had already fallen into the sea."
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "BREAKING NEWS: N. Korea fires what may be ballistic missile: Japan gov't",
+     "url": "https://english.kyodonews.net/articles/-/89775",
+     "via": "",
+     "published": "2026-10-29T03:45+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Kyodo News",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-10-29T03:04+00:00",
+   "earliest": "2026-10-28T19:26+00:00",
+   "items": [
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Costa Rica drops bid for membership in trans-Pacific trade pact",
+     "url": "https://english.kyodonews.net/articles/-/89734",
+     "via": "",
+     "published": "2026-10-29T03:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Costa Rica drops bid to join Pacific trade pact, sacks trade minister",
+     "url": "https://www.reuters.com/world/americas/costa-rica-drops-bid-join-pacific-trade-pact-sacks-trade-minister-2026-10-28/",
+     "via": "",
+     "published": "2026-10-28T19:26+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-29T02:48+00:00",
+   "earliest": "2026-10-28T21:41+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "US bans imports from 3 Chinese genomics companies, citing ties to forced labour in Xinjiang",
+     "url": "https://www.straitstimes.com/asia/east-asia/us-bans-imports-from-3-chinese-genomics-companies-citing-ties-to-forced-labour-in-xinjiang",
+     "via": "",
+     "published": "2026-10-29T02:48+00:00",
+     "summary": "The US government believes BGI Group tests genetic material of people from the Xinjiang region."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US bans imports from BGI Genomics, MGI Tech, citing ties to forced labor in Xinjiang",
+     "url": "https://www.reuters.com/world/china/us-bans-imports-three-chinese-genomics-companies-citing-forced-labor-2026-10-28/",
+     "via": "",
+     "published": "2026-10-28T21:41+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-29T02:48+00:00",
+   "earliest": "2026-10-27T21:01+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
+     "url": "https://www.aljazeera.com/news/2026/10/29/strikes-on-darfur-market-in-sudan-kill-more-than-100-rights-group-says?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-29T02:48+00:00",
+     "summary": "Women and children killed as witnesses say attack struck civilian shopkeepers, RSF fighters."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "More than 100 people killed in Sudanese army drone attack on market says Sudanese rights group",
+     "url": "https://apnews.com/article/sudan-power-outage-capital-drone-0798818d82bc79ed10300687a514c693",
+     "via": "",
+     "published": "2026-10-27T21:01+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-29T02:42+00:00",
+   "earliest": "2026-10-28T15:19+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Al Jazeera speaks to El-Sayed as religion becomes flashpoint in Senate race",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/al-jazeera-speaks-to-el-sayed-as-religion-becomes-flashpoint-in-senate-race?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-29T02:42+00:00",
+     "summary": "Democratic candidate Abdul El-Sayed is pushing back against attacks over his Muslim faith."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Michigan Senate race a test of attacks on Muslim candidate, progressive agenda",
+     "url": "https://www.reuters.com/world/us/michigan-senate-race-test-attacks-muslim-candidate-progressive-agenda-2026-10-28/",
+     "via": "",
+     "published": "2026-10-28T15:19+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -558,7 +800,7 @@
      "summary": "The British king begins a tour of the Caribbean today, during which he will visit several former British colonies. It has renewed calls for the UK to apologies and pay reparations for its role in the slave trade."
     }
    ],
-   "id": 7
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -593,7 +835,7 @@
      "summary": "The Bank of Japan is widely expected to keep its benchmark interest rate unchanged on Friday while indicating that underlying inflation has finally reached its 2% target, a milestone that would strengthen the case for further rate hikes."
     }
    ],
-   "id": 8
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -628,7 +870,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -663,7 +905,7 @@
      "summary": "The controversial three-second clip shows paramedics performing CPR on an injured person."
     }
    ],
-   "id": 10
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -698,7 +940,42 @@
      "summary": "US points to increase in abstentions in General Assembly as evidence that push to isolate Cuba is slowly succeeding."
     }
    ],
-   "id": 11
+   "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-28T19:28+00:00",
+   "earliest": "2026-10-28T16:58+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US imposes sanctions on Rwandan defense ministry over involvement in eastern Congo conflict",
+     "url": "https://apnews.com/article/congo-rwanda-m23-us-1297c38fde8b5595229fb9700419e098",
+     "via": "",
+     "published": "2026-10-28T19:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US imposes sanctions on Rwanda's defense ministry over Congo conflict",
+     "url": "https://www.reuters.com/world/africa/us-imposes-sanctions-rwandas-ministry-defense-2026-10-28/",
+     "via": "",
+     "published": "2026-10-28T16:58+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -733,7 +1010,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -768,42 +1045,7 @@
      "summary": "Russia expects to begin regular year-round eastbound shipping along the Northern Sea Route in early 2027, as additional nuclear icebreaker capacity, newer ice-class LNG carriers and pressure to redirect energy exports toward Asia bring the long-delayed ambition closer to reality."
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-28T16:51+00:00",
-   "earliest": "2026-10-28T16:14+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Houthis strike Yemen's Aden airport after evacuation warning",
-     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-call-immediate-evacuation-aden-airport-2026-10-28/",
-     "via": "",
-     "published": "2026-10-28T16:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Yemen says Houthi ballistic missile attack on Aden airport wounds civilians",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/28/yemen-says-houthi-ballistic-missile-attack-on-aden-airport-injures-civilians0",
-     "via": "",
-     "published": "2026-10-28T16:14+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -838,7 +1080,7 @@
      "summary": "Mr. Trump is pushing ways of bringing down energy costs ahead of the midterms, amid voter anger over soaring oil costs caused by his war on Iran"
     }
    ],
-   "id": 15
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -873,7 +1115,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -908,42 +1150,42 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 23
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "The Straits Times"
+    "MINING.COM",
+    "Mining Weekly"
    ],
    "regions": [
-    "North America",
-    "Southeast Asia"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-10-28T10:16+00:00",
-   "earliest": "2026-10-28T05:57+00:00",
+   "latest": "2026-10-28T10:56+00:00",
+   "earliest": "2026-10-28T06:31+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
+     "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Malaysia seizes servers with advanced AI chips suspected of violating export controls",
-     "url": "https://apnews.com/article/malaysia-us-ai-chips-export-transit-technology-79a912de57b21a4e59b27c9a86340202",
+     "title": "Rio Tinto eyes 56% CEO pay hike amid talent crunch",
+     "url": "https://www.mining.com/rio-tinto-eyes-56-ceo-pay-hike-amid-talent-crunch/",
      "via": "",
-     "published": "2026-10-28T10:16+00:00",
-     "summary": ""
+     "published": "2026-10-28T10:56+00:00",
+     "summary": "Miner plans to expand executive pay as competition for top leaders intensifies across global markets."
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "AI chips worth $15.5 million seized at Malaysia airport, Customs authority says",
-     "url": "https://www.straitstimes.com/asia/se-asia/ai-chips-worth-15-5-million-seized-at-malaysia-airport-customs-authority-says",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Rio Tinto proposes 56% pay jump for CEO as mining sector fights for talent",
+     "url": "https://www.miningweekly.com/article/rio-tinto-proposes-56-pay-jump-for-ceo-as-mining-sector-fights-for-talent-2026-10-28",
      "via": "",
-     "published": "2026-10-28T05:57+00:00",
-     "summary": "Malaysia imposed export controls in 2025 on the movement of advanced AI chips of US origin."
+     "published": "2026-10-28T06:31+00:00",
+     "summary": ""
     }
    ],
-   "id": 18
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -978,7 +1220,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1013,7 +1255,7 @@
      "summary": "The company said it is cleared to advance the establishment of the first fully integrated US domestic antimony supply chain in decades."
     }
    ],
-   "id": 20
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1048,7 +1290,7 @@
      "summary": "The Donald project in Victoria seeks A$70M from Export Finance Australia and A$110M from the National Fund."
     }
    ],
-   "id": 21
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1083,7 +1325,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1118,7 +1360,42 @@
      "summary": "Canada Nickel would provide Swiss Steel with access to about one million tonnes of semi-finished steel products per year starting in 2030."
     }
    ],
-   "id": 23
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining Weekly",
+    "BNamericas"
+   ],
+   "regions": [
+    "Africa",
+    "Latin America"
+   ],
+   "latest": "2026-10-27T07:06+00:00",
+   "earliest": "2026-10-27T02:15+00:00",
+   "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Canada's Capstone Copper announces $3bn investment plan in Chile",
+     "url": "https://www.miningweekly.com/article/canadas-capstone-copper-announces-3bn-investment-plan-in-chile-2026-10-27/page:2",
+     "via": "",
+     "published": "2026-10-27T07:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Capstone Copper announces US$3bn plan in Chile before President Kast",
+     "url": "https://www.bnamericas.com/en/features/capstone-copper-announces-us3bn-plan-in-chile-before-president-kast",
+     "via": "",
+     "published": "2026-10-27T02:15+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1153,7 +1430,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1188,7 +1465,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1222,7 +1499,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1256,7 +1533,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 34
   }
  ]
 }
