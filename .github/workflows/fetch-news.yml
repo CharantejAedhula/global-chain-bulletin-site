@@ -4,6 +4,8 @@ on:
   schedule:
     # GitHub often starts scheduled jobs 1-2+ hours late, so run well before the
     # 06:30 IST bulletin, with later passes as backups.
+    - cron: "47 19 * * *"   # 01:17 IST, early pass: GitHub sometimes delays or skips later ones (Oct 29)
+    - cron: "47 20 * * *"   # 02:17 IST, early pass
     - cron: "17 21 * * *"   # 02:47 IST
     - cron: "7 23 * * *"    # 04:37 IST
     - cron: "17 0 * * *"    # 05:47 IST backup
