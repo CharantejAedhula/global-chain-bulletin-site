@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-30T01:05:37+00:00",
+ "fetched_at": "2026-10-30T02:29:00+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 797,
+ "items_read": 817,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 40,
+   "items": 37,
    "errors": []
   },
   "Caixin Global": {
@@ -42,27 +42,27 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 53,
+   "items": 50,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 20,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 39,
+   "items": 29,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 28,
+   "items": 31,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,22 +122,22 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 28,
+   "items": 31,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 11,
+   "items": 12,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 24,
+   "items": 35,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 10,
+   "items": 13,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 10,
    "errors": []
   },
   "Newsroom Panama": {
@@ -299,47 +299,57 @@
    "id": 1
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "Mining Weekly",
-    "Bloomberg"
+    "Associated Press",
+    "MercoPress",
+    "Deutsche Welle",
+    "Euronews"
    ],
    "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
+    "Europe",
+    "Latin America",
+    "North America"
    ],
-   "latest": "2026-10-29T21:45+00:00",
-   "earliest": "2026-10-29T17:02+00:00",
+   "latest": "2026-10-29T14:46+00:00",
+   "earliest": "2026-10-29T10:25+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Rio Tinto pauses Oyu Tolgoi copper mine after seismic event",
-     "url": "https://mining.com.au/rio-tinto-pauses-oyu-tolgoi-copper-mine-after-seismic-event/",
-     "via": "",
-     "published": "2026-10-29T21:45+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Rio Tinto pauses Oyu Tolgoi underground copper mine after seismic event",
-     "url": "https://www.miningweekly.com/article/rio-tinto-pauses-oyu-tolgoi-underground-copper-mine-after-seismic-event-2026-10-29",
-     "via": "",
-     "published": "2026-10-29T20:50+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
+     "outlet": "Associated Press",
      "region": "North America",
-     "title": "Rio Tinto Halts Underground Operations at Major Copper Mine",
-     "url": "https://www.bloomberg.com/news/articles/2026-10-29/rio-tinto-s-oyu-tolgoi-mine-suspended-underground-operations",
+     "title": "European Central Bank head resigns, allowing EU leaders to choose successor before French election",
+     "url": "https://apnews.com/article/ecb-lagarde-resignation-bank-c657d818e8f487f2ce990fe57ba55d4a",
      "via": "",
-     "published": "2026-10-29T17:02+00:00",
-     "summary": "Rio Tinto Group has suspended underground operations at its massive Oyu Tolgoi copper mine in Mongolia."
+     "published": "2026-10-29T14:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MercoPress",
+     "region": "Latin America",
+     "title": "Christine Lagarde to step down early as European Central Bank president in February",
+     "url": "https://en.mercopress.com/2026/10/29/christine-lagarde-to-step-down-early-as-european-central-bank-president-in-february?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "via": "",
+     "published": "2026-10-29T14:32+00:00",
+     "summary": "European Central Bank (ECB) President Christine Lagarde will leave her post on February 7, 2027, almost nine months before her term is due to end in late October that year, the Frankfurt-based institution announced on Thursday."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-29T10:33+00:00",
+     "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "ECB President Christine Lagarde to step down next February, months before her mandate ends",
+     "url": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends",
+     "via": "",
+     "published": "2026-10-29T10:25+00:00",
+     "summary": "Christine Lagarde will step down on 7 February 2027, around nine months before the end of her eight-year term, the European Central Bank announced on Thursday, hours before it kept interest rates on hold at 2.5%."
     }
    ],
    "id": 2
@@ -394,51 +404,6 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "MercoPress",
-    "Deutsche Welle",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America"
-   ],
-   "latest": "2026-10-29T14:32+00:00",
-   "earliest": "2026-10-29T10:25+00:00",
-   "items": [
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Christine Lagarde to step down early as European Central Bank president in February",
-     "url": "https://en.mercopress.com/2026/10/29/christine-lagarde-to-step-down-early-as-european-central-bank-president-in-february?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-10-29T14:32+00:00",
-     "summary": "European Central Bank (ECB) President Christine Lagarde will leave her post on February 7, 2027, almost nine months before her term is due to end in late October that year, the Frankfurt-based institution announced on Thursday."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-29T10:33+00:00",
-     "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "ECB President Christine Lagarde to step down next February, months before her mandate ends",
-     "url": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends",
-     "via": "",
-     "published": "2026-10-29T10:25+00:00",
-     "summary": "Christine Lagarde will step down on 7 February 2027, around nine months before the end of her eight-year term, the European Central Bank announced on Thursday, hours before it kept interest rates on hold at 2.5%."
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
     "Associated Press",
     "The Jakarta Post",
     "Axios"
@@ -478,7 +443,7 @@
      "summary": "The U.S. government is granting visas to Flávio Bolsonaro and his family following his defeat in Brazil's presidential election , a senior Trump administration official tells Axios. Why it matters: The move comes days after Brazilian President Luiz Inácio Lula da Silva defeated Bolsonaro, the son of former President Jair Bolsonaro , in a closely watched election. The latest: Bolsonaro has arrived "
     }
    ],
-   "id": 5
+   "id": 4
   },
   {
    "independent_outlets": 2,
@@ -511,6 +476,41 @@
      "via": "",
      "published": "2026-10-29T19:06+00:00",
      "summary": "With all votes now counted, opposition parties could join forces with Palestinian-Israeli parties to unseat Netanyahu."
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-10-29T21:45+00:00",
+   "earliest": "2026-10-29T20:50+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Rio Tinto pauses Oyu Tolgoi copper mine after seismic event",
+     "url": "https://mining.com.au/rio-tinto-pauses-oyu-tolgoi-copper-mine-after-seismic-event/",
+     "via": "",
+     "published": "2026-10-29T21:45+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Rio Tinto pauses Oyu Tolgoi underground copper mine after seismic event",
+     "url": "https://www.miningweekly.com/article/rio-tinto-pauses-oyu-tolgoi-underground-copper-mine-after-seismic-event-2026-10-29",
+     "via": "",
+     "published": "2026-10-29T20:50+00:00",
+     "summary": ""
     }
    ],
    "id": 6
@@ -764,6 +764,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Kyodo News",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-10-29T09:43+00:00",
+   "earliest": "2026-10-29T03:59+00:00",
+   "items": [
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "N. Korea fires around 10 short-range ballistic missiles: Seoul",
+     "url": "https://english.kyodonews.net/articles/-/89775",
+     "via": "",
+     "published": "2026-10-29T09:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "North Korea fires around 10 ballistic missiles toward sea off east coast, Seoul says",
+     "url": "https://www.reuters.com/world/asia-pacific/north-korea-fires-projectile-toward-sea-off-east-coast-south-korea-military-says-2026-10-29/",
+     "via": "",
+     "published": "2026-10-29T03:59+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Africanews",
     "Associated Press"
    ],
@@ -793,7 +828,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -828,42 +863,42 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "MercoPress"
+    "Mining.com.au",
+    "Mining Weekly"
    ],
    "regions": [
     "Africa",
-    "Latin America"
+    "Oceania"
    ],
-   "latest": "2026-10-29T07:34+00:00",
-   "earliest": "2026-10-29T01:11+00:00",
+   "latest": "2026-10-29T07:05+00:00",
+   "earliest": "2026-10-29T06:45+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Calls for slavery reparations grow louder as British king visits Caribbean",
-     "url": "http://www.africanews.com/2026/10/29/calls-for-slavery-reparations-grow-louder-as-british-king-visits-caribbean/",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Mining financiers warn against governments picking winners",
+     "url": "https://mining.com.au/mining-financiers-warn-against-governments-picking-winners/",
      "via": "",
-     "published": "2026-10-29T07:34+00:00",
-     "summary": "King Charles III's nine-day visit is being overshadowed by increasingly vocal demands for Britain to pay for its role in the slave trade."
+     "published": "2026-10-29T07:05+00:00",
+     "summary": ""
     },
     {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "King Charles begins a Caribbean tour overshadowed by calls for slavery reparations",
-     "url": "https://en.mercopress.com/2026/10/29/king-charles-begins-a-caribbean-tour-overshadowed-by-calls-for-slavery-reparations?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Governments should not pick critical minerals winners, mining financiers say",
+     "url": "https://www.miningweekly.com/article/governments-should-not-pick-critical-minerals-winners-mining-financiers-say-2026-10-29",
      "via": "",
-     "published": "2026-10-29T01:11+00:00",
-     "summary": "King Charles III arrived in the Bahamas on Tuesday to begin a nine-day tour of the Caribbean, his first since acceding to the throne in 2022, which will also take him to Guyana and Antigua and Barbuda, where he will attend the Commonwealth Heads of Government Meeting. The trip is overshadowed by calls for an official apology and reparations for Britain’s role in the transatlantic slave trade."
+     "published": "2026-10-29T06:45+00:00",
+     "summary": ""
     }
    ],
-   "id": 16
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -898,7 +933,42 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Interfax"
+   ],
+   "regions": [
+    "Middle East",
+    "Russia"
+   ],
+   "latest": "2026-10-28T11:40+00:00",
+   "earliest": "2026-10-27T18:08+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Russia’s state nuclear corporation says will increase staff at Iran’s Bushehr plant",
+     "url": "https://www.timesofisrael.com/liveblog_entry/russias-state-nuclear-corporation-says-will-increase-staff-at-irans-bushehr-plant/",
+     "via": "",
+     "published": "2026-10-28T11:40+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Interfax",
+     "region": "Russia",
+     "title": "Rosatom to increase staff at Iran's Bushehr nuclear plant to 700 - Likhachev",
+     "url": "https://interfax.com/newsroom/top-stories/119708/",
+     "via": "",
+     "published": "2026-10-27T18:08+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -933,7 +1003,42 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-28T08:42+00:00",
+   "earliest": "2026-10-28T02:37+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran hasn’t tried to repair nuclear facilities damaged in US strikes: UN nuclear chief",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/28/iran-hasn-t-tried-to-repair-nuclear-facilities-damaged-in-us-strikes-un-nuclear-chief-say",
+     "via": "",
+     "published": "2026-10-28T08:42+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Iran hasn’t tried to repair nuclear facilities damaged in US strikes, UN nuclear chief says",
+     "url": "https://apnews.com/article/un-us-iran-nuclear-iaea-strikes-israel-ab585e99b346e02843b858ff5d6523b8",
+     "via": "",
+     "published": "2026-10-28T02:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -968,7 +1073,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1003,7 +1108,42 @@
      "summary": "The company said it is cleared to advance the establishment of the first fully integrated US domestic antimony supply chain in decades."
     }
    ],
-   "id": 20
+   "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-27T22:38+00:00",
+   "earliest": "2026-10-27T08:55+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Jordan and Syria form a joint probe after Jordanian strikes targeting IS kill civilians in Syria",
+     "url": "https://apnews.com/article/syria-jordan-strikes-karak-daraa-is-5c278be71a23176a092779ef8484c213",
+     "via": "",
+     "published": "2026-10-27T22:38+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Jordan strikes armed groups in Syria it says tied to church attack; Damascus: Civilians killed",
+     "url": "https://www.timesofisrael.com/jordan-strikes-armed-groups-in-syria-it-says-tied-to-church-attack-damascus-civilians-killed/",
+     "via": "",
+     "published": "2026-10-27T08:55+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1038,7 +1178,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1072,7 +1212,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1106,7 +1246,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1140,7 +1280,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 28
   }
  ]
 }
