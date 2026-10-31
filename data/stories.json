@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-31T00:50:20+00:00",
+ "fetched_at": "2026-10-31T02:10:44+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 775,
+ "items_read": 754,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 39,
+   "items": 47,
    "errors": []
   },
   "Ecofin Agency": {
@@ -27,12 +27,12 @@
   },
   "Caixin Global": {
    "region": "China",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 55,
+   "items": 47,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 19,
+   "items": 24,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 42,
+   "items": 41,
    "errors": []
   },
   "DigiTimes": {
@@ -69,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Financial Times": {
@@ -79,7 +79,7 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Euronews": {
@@ -99,17 +99,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 35,
+   "items": 33,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,7 +124,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 27,
+   "items": 26,
    "errors": []
   },
   "Bloomberg": {
@@ -134,12 +134,12 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -166,7 +166,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "RNZ": {
@@ -191,7 +191,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
@@ -223,30 +223,31 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 8,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
    "region": "Latin America",
-   "items": 10,
+   "items": 9,
    "errors": []
   }
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
+    "Al Jazeera",
     "Axios",
     "Associated Press",
     "Reuters",
@@ -255,11 +256,21 @@
    "regions": [
     "Europe",
     "Latin America",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-10-30T18:57+00:00",
+   "latest": "2026-10-31T01:31+00:00",
    "earliest": "2026-10-30T17:17+00:00",
    "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Pope Leo becomes first pontiff to vote in US general election",
+     "url": "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election?traffic_source=rss",
+     "via": "",
+     "published": "2026-10-31T01:31+00:00",
+     "summary": "Vatican confirms the pope submitted a mail-in ballot in his native Chicago ahead of November 3 midterm elections"
+    },
     {
      "outlet": "Axios",
      "region": "North America",
@@ -356,57 +367,47 @@
    "id": 2
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Associated Press",
-    "The Jakarta Post",
-    "Axios"
+    "Al Jazeera",
+    "The Straits Times",
+    "Kyodo News"
    ],
    "regions": [
+    "East Asia",
     "Middle East",
-    "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-10-28T13:52+00:00",
-   "earliest": "2026-10-28T02:03+00:00",
+   "latest": "2026-10-30T18:03+00:00",
+   "earliest": "2026-10-29T09:43+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
+     "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Brazil’s Flavio Bolsonaro lands in Florida after election defeat: Report",
-     "url": "https://english.alarabiya.net/News/world/2026/10/28/brazil-s-flavio-bolsonaro-lands-in-florida-after-election-defeat-report",
+     "title": "Kim Jong Un calls for North Korea’s drone technology superiority",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_north-korea-seeks-absolute-superiority-in-drone-301026?traffic_source=rss",
      "via": "",
-     "published": "2026-10-28T13:52+00:00",
-     "summary": ""
+     "published": "2026-10-30T18:03+00:00",
+     "summary": "North Korean leader Kim Jong Un calls for “absolute superiority” in drone capabilities."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Brazil's Flávio Bolsonaro and family will get US visas after election loss, State Department says",
-     "url": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a",
-     "via": "",
-     "published": "2026-10-28T04:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Jakarta Post",
+     "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "US to grant Flavio Bolsonaro visa as he flees Brazil after election loss",
-     "url": "https://www.thejakartapost.com/world/2026/10/28/us-to-grant-flavio-bolsonaro-visa-as-he-flees-brazil-after-election-loss",
+     "title": "Kim Jong Un urges drone dominance as North Korea fires missiles, rockets",
+     "url": "https://www.straitstimes.com/asia/east-asia/kim-jong-un-urges-drone-dominance-as-north-korea-fires-missiles-rockets",
      "via": "",
-     "published": "2026-10-28T03:41+00:00",
-     "summary": ""
+     "published": "2026-10-29T22:01+00:00",
+     "summary": "He was speaking at an unmanned aeronautical technology exhibition and weapons demonstration."
     },
     {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "U.S. granting visas to Flávio Bolsonaro and family",
-     "url": "https://www.axios.com/2026/10/27/us-granting-visas-to-flavio-bolsonaro-and-family",
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "N. Korea fires around 10 short-range ballistic missiles: Seoul",
+     "url": "https://english.kyodonews.net/articles/-/89775",
      "via": "",
-     "published": "2026-10-28T02:03+00:00",
-     "summary": "The U.S. government is granting visas to Flávio Bolsonaro and his family following his defeat in Brazil's presidential election , a senior Trump administration official tells Axios. Why it matters: The move comes days after Brazilian President Luiz Inácio Lula da Silva defeated Bolsonaro, the son of former President Jair Bolsonaro , in a closely watched election. The latest: Bolsonaro has arrived "
+     "published": "2026-10-29T09:43+00:00",
+     "summary": ""
     }
    ],
    "id": 3
@@ -471,7 +472,7 @@
     "North America"
    ],
    "latest": "2026-10-30T17:09+00:00",
-   "earliest": "2026-10-30T12:10+00:00",
+   "earliest": "2026-10-30T11:54+00:00",
    "items": [
     {
      "outlet": "Reuters",
@@ -497,7 +498,7 @@
      "title": "International dock workers strike to protest arms shipments, including to Israel",
      "url": "https://www.timesofisrael.com/international-dock-workers-strike-to-protest-arms-shipments-including-to-israel/",
      "via": "",
-     "published": "2026-10-30T12:10+00:00",
+     "published": "2026-10-30T11:54+00:00",
      "summary": ""
     }
    ],
@@ -507,55 +508,9 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Bloomberg",
-    "MercoPress",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America",
-    "North America"
-   ],
-   "latest": "2026-10-30T15:20+00:00",
-   "earliest": "2026-10-29T10:33+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Who Could Replace Christine Lagarde as ECB President?",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-30/who-could-replace-christine-lagarde-as-ecb-president-video",
-     "via": "",
-     "published": "2026-10-30T15:20+00:00",
-     "summary": "Who could replace Christine Lagarde as president of the European Central Bank? Jana Randow explains who's in the running. (Source: Bloomberg)"
-    },
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Christine Lagarde to step down early as European Central Bank president in February",
-     "url": "https://en.mercopress.com/2026/10/29/christine-lagarde-to-step-down-early-as-european-central-bank-president-in-february?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-10-29T14:32+00:00",
-     "summary": "European Central Bank (ECB) President Christine Lagarde will leave her post on February 7, 2027, almost nine months before her term is due to end in late October that year, the Frankfurt-based institution announced on Thursday."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-29T10:33+00:00",
-     "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway."
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
     "ABC News (Australia)",
-    "Associated Press",
-    "Kyodo News"
+    "Kyodo News",
+    "Associated Press"
    ],
    "regions": [
     "East Asia",
@@ -563,7 +518,7 @@
     "Oceania"
    ],
    "latest": "2026-10-30T02:23+00:00",
-   "earliest": "2026-10-28T05:16+00:00",
+   "earliest": "2026-10-28T03:49+00:00",
    "items": [
     {
      "outlet": "ABC News (Australia)",
@@ -575,15 +530,6 @@
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
-     "url": "https://apnews.com/article/us-cambodia-cruise-ship-fuel-88fa620415d8e490cbe5a25ca5cb0691",
-     "via": "",
-     "published": "2026-10-29T17:30+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "Kyodo News",
      "region": "East Asia",
      "title": "A U.S. cruise ship ends a global voyage in Asia due to fuel costs, 200 passengers lose homes",
@@ -591,9 +537,18 @@
      "via": "",
      "published": "2026-10-28T05:16+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
+     "url": "https://apnews.com/article/us-cambodia-cruise-ship-fuel-88fa620415d8e490cbe5a25ca5cb0691",
+     "via": "",
+     "published": "2026-10-28T03:49+00:00",
+     "summary": ""
     }
    ],
-   "id": 7
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -639,6 +594,52 @@
      "summary": "Two new operations add 25,000 tonnes of annual capacity as the mining giant pursues ambitious growth targets in battery metals."
     }
    ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Associated Press",
+    "The Jakarta Post"
+   ],
+   "regions": [
+    "Middle East",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-28T13:52+00:00",
+   "earliest": "2026-10-28T03:41+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Brazil’s Flavio Bolsonaro lands in Florida after election defeat: Report",
+     "url": "https://english.alarabiya.net/News/world/2026/10/28/brazil-s-flavio-bolsonaro-lands-in-florida-after-election-defeat-report",
+     "via": "",
+     "published": "2026-10-28T13:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Brazil's Flávio Bolsonaro and family will get US visas after election loss, State Department says",
+     "url": "https://apnews.com/article/brazil-flavio-bolsonaro-passport-lula-1f64bda20de066eeea04349e0319820a",
+     "via": "",
+     "published": "2026-10-28T04:58+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "US to grant Flavio Bolsonaro visa as he flees Brazil after election loss",
+     "url": "https://www.thejakartapost.com/world/2026/10/28/us-to-grant-flavio-bolsonaro-visa-as-he-flees-brazil-after-election-loss",
+     "via": "",
+     "published": "2026-10-28T03:41+00:00",
+     "summary": ""
+    }
+   ],
    "id": 8
   },
   {
@@ -659,7 +660,7 @@
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+     "title": "Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end soon",
      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
      "via": "",
      "published": "2026-10-31T00:00+00:00",
@@ -725,6 +726,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Hellenic Shipping News",
+    "Mysteel"
+   ],
+   "regions": [
+    "China",
+    "Europe"
+   ],
+   "latest": "2026-10-30T22:00+00:00",
+   "earliest": "2026-10-30T11:21+00:00",
+   "items": [
+    {
+     "outlet": "Hellenic Shipping News",
+     "region": "Europe",
+     "title": "China: Iron Ore Port Inventory and Port Pick-up Volume on October 30, 2026",
+     "url": "https://www.hellenicshippingnews.com/china-iron-ore-port-inventory-and-port-pick-up-volume-on-october-30-2026/",
+     "via": "",
+     "published": "2026-10-30T22:00+00:00",
+     "summary": "As of October 30, the latest SMM statistics show that iron ore inventory across 35 main ports in China totaled 148.05 million mt, up 300,000 mt MoM. Overall inventory showed a slight accumulation trend, while daily average port pick-up volume edged down 35,000 mt to 3.175 million mt. This week, iron ore port arrivals increased ..."
+    },
+    {
+     "outlet": "Mysteel",
+     "region": "China",
+     "title": "Mysteel Iron Ore Index (Oct 30, 202...",
+     "url": "https://www.mysteel.net/daily-prices/7224116-mysteel-iron-ore-index",
+     "via": "",
+     "published": "2026-10-30T11:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Mining.com.au",
     "MINING.COM"
    ],
@@ -754,7 +790,7 @@
      "summary": "Bullion is headed for its worst October since 2008, dragging down gold and silver producers as much as 8% on Friday."
     }
    ],
-   "id": 11
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -789,42 +825,42 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "The Straits Times"
+    "The Straits Times",
+    "South China Morning Post"
    ],
    "regions": [
-    "Middle East",
+    "China",
     "Southeast Asia"
    ],
-   "latest": "2026-10-30T18:03+00:00",
-   "earliest": "2026-10-29T22:01+00:00",
+   "latest": "2026-10-30T15:51+00:00",
+   "earliest": "2026-10-30T09:03+00:00",
    "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Kim Jong Un calls for North Korea’s drone technology superiority",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_north-korea-seeks-absolute-superiority-in-drone-301026?traffic_source=rss",
-     "via": "",
-     "published": "2026-10-30T18:03+00:00",
-     "summary": "North Korean leader Kim Jong Un calls for “absolute superiority” in drone capabilities."
-    },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "Kim Jong Un urges drone dominance as North Korea fires missiles, rockets",
-     "url": "https://www.straitstimes.com/asia/east-asia/kim-jong-un-urges-drone-dominance-as-north-korea-fires-missiles-rockets",
+     "title": "China says stealth attack drone makes first takeoff, landing on amphibious ship",
+     "url": "https://www.straitstimes.com/asia/east-asia/china-says-stealth-attack-drone-makes-first-takeoff-landing-on-amphibious-ship",
      "via": "",
-     "published": "2026-10-29T22:01+00:00",
-     "summary": "He was speaking at an unmanned aeronautical technology exhibition and weapons demonstration."
+     "published": "2026-10-30T15:51+00:00",
+     "summary": "The GJ-21 drone first appeared at a military parade Beijing held in 2025."
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "China carries out GJ-21 drone take-off, landing from first Type 076 warship: state media",
+     "url": "https://www.scmp.com/news/china/military/article/3372726/china-carries-out-gj-21-drone-take-landing-first-type-076-warship-state-media",
+     "via": "",
+     "published": "2026-10-30T09:03+00:00",
+     "summary": "China has successfully launched and landed a GJ-21 drone from its first Type 076 amphibious assault ship, state media said on Friday. The Sichuan conducted consecutive sea trials late this month, according to state broadcaster CCTV, which did not disclose the location. “The [People’s Liberation Army’s] first shipborne reconnaissance-strike stealth drone, the GJ-21, has successfully completed its m"
     }
    ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -859,7 +895,42 @@
      "summary": "Binance halted trading Thursday after hackers allegedly linked to North Korea stole more than $6 billion, the largest crypto hack in history. Why it matters : The attack comes after a wave of high-profile cyber intrusions and data breaches during \"Black October,\" when a series of security incidents and AI -discovered bugs triggered fears of a global crisis. Driving the news: Binance co-founder Yi "
     }
    ],
-   "id": 14
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-10-30T15:20+00:00",
+   "earliest": "2026-10-29T10:33+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Who Could Replace Christine Lagarde as ECB President?",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-30/who-could-replace-christine-lagarde-as-ecb-president-video",
+     "via": "",
+     "published": "2026-10-30T15:20+00:00",
+     "summary": "Who could replace Christine Lagarde as president of the European Central Bank? Jana Randow explains who's in the running. (Source: Bloomberg)"
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-29T10:33+00:00",
+     "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway."
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -894,7 +965,7 @@
      "summary": "US publisher Activision said it will remove the footage entirely."
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -929,7 +1000,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -964,7 +1035,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -999,7 +1070,7 @@
      "summary": "Oct 30 - The Southeast Asian bloc's special envoy met Myanmar's foreign minister during a visit to the country and discussed its civil war and humanitarian access, according to official statements."
     }
    ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1034,7 +1105,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1069,7 +1140,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1104,77 +1175,42 @@
      "summary": "Four firm dual-fuel PCTCs and options for eight more take Wallenius Wilhelmsen's renewal programme to 26 vessels"
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-29T07:39+00:00",
-   "earliest": "2026-10-29T03:10+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "One injured in fire at South Carolina nuclear site; no contamination reported",
-     "url": "https://english.alarabiya.net/News/united-states/2026/10/29/one-injured-in-fire-at-south-carolina-nuclear-site-no-contamination-reported",
-     "via": "",
-     "published": "2026-10-29T07:39+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Fire briefly triggers emergency at South Carolina lab on former nuclear weapons site",
-     "url": "https://apnews.com/article/savannah-river-national-lab-fire-b9254960a7c54395ec50296198fec54f",
-     "via": "",
-     "published": "2026-10-29T03:10+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-29T05:55+00:00",
-   "earliest": "2026-10-29T03:02+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Hegseth fires Pentagon’s top military planner even as Trump considers new Iran strikes",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/29/hegseth-fires-the-pentagon-s-top-military-planner-even-as-trump-considers-new-iran-strikes",
-     "via": "",
-     "published": "2026-10-29T05:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Hegseth fires the Pentagon’s top military planner even as Trump considers new Iran strikes",
-     "url": "https://apnews.com/article/hegseth-general-firing-iran-war-strikes-6726895f0c7fe93c7cbc94cae0ff7621",
-     "via": "",
-     "published": "2026-10-29T03:02+00:00",
-     "summary": ""
-    }
-   ],
    "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "The Jakarta Post"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-10-29T06:18+00:00",
+   "earliest": "2026-10-29T01:10+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "U.S. Fed holds interest rates steady despite surging inflation",
+     "url": "https://www.thehindu.com/business/Economy/federal-reserve-likely-to-skip-rate-hike-despite-elevated-inflation/article71634402.ece",
+     "via": "",
+     "published": "2026-10-29T06:18+00:00",
+     "summary": "The 12-member FOMC voted 10-2 to hold rates at a target range between 3.75 and 4.00%, citing the need for more data in the fight against inflation"
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "US Fed holds interest rates steady despite 'too high' inflation",
+     "url": "https://www.thejakartapost.com/business/2026/10/29/us-fed-holds-interest-rates-steady-despite-too-high-inflation?utm_source",
+     "via": "",
+     "published": "2026-10-29T01:10+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1209,7 +1245,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1244,7 +1280,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1278,7 +1314,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1312,7 +1348,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1346,7 +1382,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 29
   }
  ]
 }
