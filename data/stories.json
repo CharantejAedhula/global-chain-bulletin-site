@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-10-30T23:14:39+00:00",
+ "fetched_at": "2026-10-31T00:06:31+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 800,
+ "outlets_read": 43,
+ "items_read": 781,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 49,
+   "items": 39,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 38,
+   "items": 41,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 51,
+   "items": 56,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,22 +52,24 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 18,
+   "items": 23,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 44,
+   "items": 42,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 18,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 50, column 138"
+   ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 20,
+   "items": 18,
    "errors": []
   },
   "Financial Times": {
@@ -77,7 +79,7 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Euronews": {
@@ -97,7 +99,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
@@ -132,7 +134,7 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "CBC News": {
@@ -144,7 +146,7 @@
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "gCaptain": {
@@ -154,7 +156,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Australian Financial Review": {
@@ -226,7 +228,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 24,
+   "items": 27,
    "errors": []
   },
   "Rio Times": {
@@ -241,63 +243,6 @@
   }
  },
  "clusters": [
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Australian Financial Review",
-    "Euronews",
-    "DigiTimes",
-    "Business Standard"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "Oceania",
-    "South Asia"
-   ],
-   "latest": "2026-10-30T18:00+00:00",
-   "earliest": "2026-10-29T11:06+00:00",
-   "items": [
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Jensen Huang, Trump and the female Chinese spy plot",
-     "url": "https://www.afr.com/world/north-america/jensen-huang-trump-and-the-female-chinese-spy-plot-20261031-p619wf?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-10-30T18:00+00:00",
-     "summary": "A businesswoman who had a close relationship with the Nvidia CEO was passing intelligence to Beijing. The US president was briefed and took no action."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "China rejects report of spy plot targeting Nvidia's Jensen Huang",
-     "url": "https://www.euronews.com/2026/10/30/china-rejects-report-of-spy-plot-targeting-nvidias-jensen-huang",
-     "via": "",
-     "published": "2026-10-30T12:14+00:00",
-     "summary": "\"Our regional cloud customers receive ordinary business information - not sensitive NVIDIA trade secrets - and zero information relevant to national security,\" a spokesperson for Nvidia told the AFP news agency on Friday."
-    },
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Jensen Huang calls Megaspeed ties normal amid Washington's spy probe",
-     "url": "https://www.digitimes.com/news/a20261030PD221/new-york-times-nvidia-jensen-huang-government-investigation.html",
-     "via": "",
-     "published": "2026-10-30T04:10+00:00",
-     "summary": "After The New York Times reported that a female executive at Singapore-based Megaspeed International was under investigation for allegedly conducting espionage activities for China, Nvidia CEO Jensen Huang said the company's dealings with Megaspeed were normal and involved no irregularities."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia chief Jensen Huang reportedly targeted in Chinese spy plot",
-     "url": "https://www.business-standard.com/world-news/us-intelligence-links-nvidia-ceo-contact-to-china-spying-concerns-report-126102901145_1.html",
-     "via": "",
-     "published": "2026-10-29T11:06+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 1
-  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
@@ -352,63 +297,7 @@
      "summary": "Pope Leo XIV has voted by mail in the US midterm elections to be held on November 3, making him the first pontiff to take part in an election in that country, the Vatican said on Friday."
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Bloomberg",
-    "Associated Press",
-    "MercoPress",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America",
-    "North America"
-   ],
-   "latest": "2026-10-30T15:20+00:00",
-   "earliest": "2026-10-29T10:33+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Who Could Replace Christine Lagarde as ECB President?",
-     "url": "https://www.bloomberg.com/news/videos/2026-10-30/who-could-replace-christine-lagarde-as-ecb-president-video",
-     "via": "",
-     "published": "2026-10-30T15:20+00:00",
-     "summary": "Who could replace Christine Lagarde as president of the European Central Bank? Jana Randow explains who's in the running. (Source: Bloomberg)"
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "European Central Bank head resigns, allowing EU leaders to choose successor before French election",
-     "url": "https://apnews.com/article/ecb-lagarde-resignation-bank-c657d818e8f487f2ce990fe57ba55d4a",
-     "via": "",
-     "published": "2026-10-30T03:42+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Christine Lagarde to step down early as European Central Bank president in February",
-     "url": "https://en.mercopress.com/2026/10/29/christine-lagarde-to-step-down-early-as-european-central-bank-president-in-february?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-10-29T14:32+00:00",
-     "summary": "European Central Bank (ECB) President Christine Lagarde will leave her post on February 7, 2027, almost nine months before her term is due to end in late October that year, the Frankfurt-based institution announced on Thursday."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-10-29T10:33+00:00",
-     "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway."
-    }
-   ],
-   "id": 3
+   "id": 1
   },
   {
    "independent_outlets": 4,
@@ -464,7 +353,7 @@
      "summary": "Attack on tanker in Hormuz marks a new modus operandi by Iran against commercial shipping as multiple incidents reported"
     }
    ],
-   "id": 4
+   "id": 2
   },
   {
    "independent_outlets": 4,
@@ -520,7 +409,191 @@
      "summary": "The U.S. government is granting visas to Flávio Bolsonaro and his family following his defeat in Brazil's presidential election , a senior Trump administration official tells Axios. Why it matters: The move comes days after Brazilian President Luiz Inácio Lula da Silva defeated Bolsonaro, the son of former President Jair Bolsonaro , in a closely watched election. The latest: Bolsonaro has arrived "
     }
    ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Australian Financial Review",
+    "Euronews",
+    "Business Standard"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania",
+    "South Asia"
+   ],
+   "latest": "2026-10-30T18:00+00:00",
+   "earliest": "2026-10-29T11:06+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Jensen Huang, Trump and the female Chinese spy plot",
+     "url": "https://www.afr.com/world/north-america/jensen-huang-trump-and-the-female-chinese-spy-plot-20261031-p619wf?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-10-30T18:00+00:00",
+     "summary": "A businesswoman who had a close relationship with the Nvidia CEO was passing intelligence to Beijing. The US president was briefed and took no action."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "China rejects report of spy plot targeting Nvidia's Jensen Huang",
+     "url": "https://www.euronews.com/2026/10/30/china-rejects-report-of-spy-plot-targeting-nvidias-jensen-huang",
+     "via": "",
+     "published": "2026-10-30T12:14+00:00",
+     "summary": "\"Our regional cloud customers receive ordinary business information - not sensitive NVIDIA trade secrets - and zero information relevant to national security,\" a spokesperson for Nvidia told the AFP news agency on Friday."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia chief Jensen Huang reportedly targeted in Chinese spy plot",
+     "url": "https://www.business-standard.com/world-news/us-intelligence-links-nvidia-ceo-contact-to-china-spying-concerns-report-126102901145_1.html",
+     "via": "",
+     "published": "2026-10-29T11:06+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-30T17:09+00:00",
+   "earliest": "2026-10-30T10:57+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Dockworkers strike in Europe and beyond against arms shipments, war deaths",
+     "url": "https://www.reuters.com/business/world-at-work/dockworkers-strike-in-europe-beyond-against-arms-shipments-war-deaths-2026-10-30/",
+     "via": "",
+     "published": "2026-10-30T17:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Dockworkers worldwide strike against arms shipments and to demand better working conditions",
+     "url": "https://apnews.com/article/port-strikes-arms-shipments-france-greece-italy-4a8813406fd51b91b3b7d17826c1883d",
+     "via": "",
+     "published": "2026-10-30T17:01+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "European dockworkers stage walkout over against arms shipments, as Italians hold nationwide strike",
+     "url": "https://www.timesofisrael.com/liveblog_entry/european-dockworkers-stage-walkout-over-against-arms-shipments-as-italians-hold-nationwide-strike/",
+     "via": "",
+     "published": "2026-10-30T10:57+00:00",
+     "summary": ""
+    }
+   ],
    "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "MercoPress",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-10-30T15:20+00:00",
+   "earliest": "2026-10-29T10:33+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Who Could Replace Christine Lagarde as ECB President?",
+     "url": "https://www.bloomberg.com/news/videos/2026-10-30/who-could-replace-christine-lagarde-as-ecb-president-video",
+     "via": "",
+     "published": "2026-10-30T15:20+00:00",
+     "summary": "Who could replace Christine Lagarde as president of the European Central Bank? Jana Randow explains who's in the running. (Source: Bloomberg)"
+    },
+    {
+     "outlet": "MercoPress",
+     "region": "Latin America",
+     "title": "Christine Lagarde to step down early as European Central Bank president in February",
+     "url": "https://en.mercopress.com/2026/10/29/christine-lagarde-to-step-down-early-as-european-central-bank-president-in-february?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "via": "",
+     "published": "2026-10-29T14:32+00:00",
+     "summary": "European Central Bank (ECB) President Christine Lagarde will leave her post on February 7, 2027, almost nine months before her term is due to end in late October that year, the Frankfurt-based institution announced on Thursday."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+     "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-10-29T10:33+00:00",
+     "summary": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway."
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Kyodo News",
+    "Associated Press"
+   ],
+   "regions": [
+    "East Asia",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-10-30T02:23+00:00",
+   "earliest": "2026-10-28T03:49+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Australians stranded in Cambodia after cruise ship suspends operations",
+     "url": "https://www.abc.net.au/news/2026-10-30/odyssey-residential-cruise-ship-passengers-forced-off-cambodia/107326756",
+     "via": "",
+     "published": "2026-10-30T02:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "A U.S. cruise ship ends a global voyage in Asia due to fuel costs, 200 passengers lose homes",
+     "url": "https://english.kyodonews.net/articles/-/89654",
+     "via": "",
+     "published": "2026-10-28T05:16+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
+     "url": "https://apnews.com/article/us-cambodia-cruise-ship-fuel-88fa620415d8e490cbe5a25ca5cb0691",
+     "via": "",
+     "published": "2026-10-28T03:49+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -566,58 +639,7 @@
      "summary": "Two new operations add 25,000 tonnes of annual capacity as the mining giant pursues ambitious growth targets in battery metals."
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "The Straits Times",
-    "Reuters",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-30T15:51+00:00",
-   "earliest": "2026-10-30T09:03+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "China says stealth attack drone makes first takeoff, landing on amphibious ship",
-     "url": "https://www.straitstimes.com/asia/east-asia/china-says-stealth-attack-drone-makes-first-takeoff-landing-on-amphibious-ship",
-     "via": "",
-     "published": "2026-10-30T15:51+00:00",
-     "summary": "The GJ-21 drone first appeared at a military parade Beijing held in 2025."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "China says stealth attack drone makes first takeoff, landing on amphibious ship",
-     "url": "https://www.reuters.com/world/china/china-says-stealth-attack-drone-makes-first-takeoff-landing-amphibious-ship-2026-10-30/",
-     "via": "",
-     "published": "2026-10-30T15:49+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "China carries out GJ-21 drone take-off, landing from first Type 076 warship: state media",
-     "url": "https://www.scmp.com/news/china/military/article/3372726/china-carries-out-gj-21-drone-take-landing-first-type-076-warship-state-media",
-     "via": "",
-     "published": "2026-10-30T09:03+00:00",
-     "summary": "China has successfully launched and landed a GJ-21 drone from its first Type 076 amphibious assault ship, state media said on Friday. The Sichuan conducted consecutive sea trials late this month, according to state broadcaster CCTV, which did not disclose the location. “The [People’s Liberation Army’s] first shipborne reconnaissance-strike stealth drone, the GJ-21, has successfully completed its m"
-    }
-   ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -652,7 +674,7 @@
      "summary": "Binance co-founder Yi He said withdrawals were expected to resume by Nov 1."
     }
    ],
-   "id": 8
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -687,7 +709,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -722,7 +744,7 @@
      "summary": "Bullion is headed for its worst October since 2008, dragging down gold and silver producers as much as 8% on Friday."
     }
    ],
-   "id": 10
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -757,7 +779,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -792,7 +814,7 @@
      "summary": "Israel election results leave Netanyahu short of a majority as Likud alleges voter fraud by Arab parties. Police and election officials reject claims of widespread irregularities."
     }
    ],
-   "id": 12
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -825,41 +847,6 @@
      "via": "",
      "published": "2026-10-29T22:01+00:00",
      "summary": "He was speaking at an unmanned aeronautical technology exhibition and weapons demonstration."
-    }
-   ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-10-30T17:09+00:00",
-   "earliest": "2026-10-30T10:57+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Dockworkers strike in Europe and beyond against arms shipments, war deaths",
-     "url": "https://www.reuters.com/business/world-at-work/dockworkers-strike-in-europe-beyond-against-arms-shipments-war-deaths-2026-10-30/",
-     "via": "",
-     "published": "2026-10-30T17:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "European dockworkers stage walkout over against arms shipments, as Italians hold nationwide strike",
-     "url": "https://www.timesofisrael.com/liveblog_entry/european-dockworkers-stage-walkout-over-against-arms-shipments-as-italians-hold-nationwide-strike/",
-     "via": "",
-     "published": "2026-10-30T10:57+00:00",
-     "summary": ""
     }
    ],
    "id": 14
@@ -938,6 +925,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Euronews",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-10-30T14:43+00:00",
+   "earliest": "2026-10-29T10:39+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
+     "url": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+     "via": "",
+     "published": "2026-10-30T14:43+00:00",
+     "summary": "Iran’s Revolutionary Guard said Friday that two oil tankers had caught fire and been stopped in the Strait of Hormuz, as Qatari mediators returned to Tehran for another round of talks aimed at ending the war between Iran and the United States."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "3 oil tankers caught fire after hitting mines in Strait of Hormuz, Iran's Revolutionary Guard says",
+     "url": "https://www.timesofisrael.com/liveblog_entry/3-oil-tankers-caught-fire-after-hitting-mines-in-strait-of-hormuz-irans-revolutionary-guard-says/",
+     "via": "",
+     "published": "2026-10-29T10:39+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Reuters",
     "Al Arabiya"
    ],
@@ -967,7 +989,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1002,42 +1024,42 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "ABC News (Australia)",
-    "Associated Press"
+    "Nikkei Asia",
+    "The Straits Times"
    ],
    "regions": [
-    "North America",
-    "Oceania"
+    "East Asia",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-30T02:25+00:00",
-   "earliest": "2026-10-29T17:30+00:00",
+   "latest": "2026-10-30T04:22+00:00",
+   "earliest": "2026-10-30T03:16+00:00",
    "items": [
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Australians stranded in Cambodia after cruise ship suspends operations",
-     "url": "https://www.abc.net.au/news/2026-10-30/odyssey-residential-cruise-ship-passengers-forced-off-cambodia/107326756",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "ASEAN envoy meets Myanmar minister to talk civil war, aid access",
+     "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/asean-envoy-meets-myanmar-minister-to-talk-civil-war-aid-access",
      "via": "",
-     "published": "2026-10-30T02:25+00:00",
+     "published": "2026-10-30T04:22+00:00",
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
-     "url": "https://apnews.com/article/us-cambodia-cruise-ship-fuel-88fa620415d8e490cbe5a25ca5cb0691",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "ASEAN envoy meets Myanmar minister, discusses civil war and aid access",
+     "url": "https://www.straitstimes.com/asia/se-asia/asean-envoy-meets-myanmar-minister-discusses-civil-war-and-aid-access",
      "via": "",
-     "published": "2026-10-29T17:30+00:00",
-     "summary": ""
+     "published": "2026-10-30T03:16+00:00",
+     "summary": "Oct 30 - The Southeast Asian bloc's special envoy met Myanmar's foreign minister during a visit to the country and discussed its civil war and humanitarian access, according to official statements."
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1072,7 +1094,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1107,7 +1129,7 @@
      "summary": "Four firm dual-fuel PCTCs and options for eight more take Wallenius Wilhelmsen's renewal programme to 26 vessels"
     }
    ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1142,7 +1164,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1177,7 +1199,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1212,7 +1234,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1247,7 +1269,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1282,7 +1304,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1315,41 +1337,6 @@
      "via": "",
      "published": "2026-10-28T02:37+00:00",
      "summary": ""
-    }
-   ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-10-28T00:49+00:00",
-   "earliest": "2026-10-27T23:59+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Nova’s Alaska antimony project clears final permits",
-     "url": "https://mining.com.au/novas-alaska-antimony-project-clears-final-permits/",
-     "via": "",
-     "published": "2026-10-28T00:49+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Nova Minerals gets final approvals for Alaska antimony project",
-     "url": "https://www.mining.com/nova-minerals-gets-final-approvals-for-alaska-antimony-project/",
-     "via": "",
-     "published": "2026-10-27T23:59+00:00",
-     "summary": "The company said it is cleared to advance the establishment of the first fully integrated US domestic antimony supply chain in decades."
     }
    ],
    "id": 28
@@ -1392,40 +1379,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Nikkei Asia",
-    "DigiTimes"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-10-30T20:18+00:00",
-   "earliest": "2026-10-30T08:35+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Foxconn unveils 3 EVs to grow contract manufacturing business",
-     "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/foxconn-unveils-3-evs-to-grow-contract-manufacturing-business",
-     "via": "",
-     "published": "2026-10-30T20:18+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "HHTD 26: Foxconn unveils three new EVs, expanding Model A and K platforms",
-     "url": "https://www.digitimes.com/news/a20261030PD232/foxconn-2026-vehicle-design-investment.html",
-     "via": "",
-     "published": "2026-10-30T08:35+00:00",
-     "summary": "Foxconn Technology Group Chief Strategy Officer Jun Seki unveiled three new electric vehicles (EVs) at Hon Hai Tech Day 2026 (HHTD 26): the Model A+, an SUV derived from the Model A platform; the Model K, a light-duty truck built on a new compact platform; and the Model K+, a small SUV based on the Model K."
-    }
-   ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "The Korea Herald",
     "Kyodo News"
    ],
@@ -1454,7 +1407,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1488,7 +1441,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1522,7 +1475,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1556,7 +1509,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 33
   }
  ]
 }
