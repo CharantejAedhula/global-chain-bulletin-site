@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-02T02:14:31+00:00",
+ "fetched_at": "2026-11-02T06:04:30+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 528,
+ "items_read": 548,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 8,
+   "items": 12,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 24,
+   "items": 20,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Yicai Global": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 53,
+   "items": 51,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Kyodo News": {
@@ -57,24 +57,24 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 34,
+   "items": 19,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 204, column 142"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 534, column 142"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 33,
+   "items": 36,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -84,7 +84,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -94,22 +94,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 24,
+   "items": 31,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 29,
+   "items": 32,
    "errors": []
   },
   "Amwaj.media": {
@@ -119,22 +119,22 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 14,
+   "items": 17,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "CBC News": {
@@ -151,22 +151,22 @@
   },
   "gCaptain": {
    "region": "North America",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "RNZ": {
@@ -176,7 +176,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "PortNews": {
@@ -191,12 +191,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 7,
+   "items": 19,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
@@ -208,17 +208,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 17,
+   "items": 25,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "MercoPress": {
@@ -233,16 +233,149 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
    "region": "Latin America",
-   "items": 10,
+   "items": 9,
    "errors": []
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 5,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining Weekly",
+    "Associated Press",
+    "Al Jazeera",
+    "Reuters",
+    "CBC News"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-02T04:01+00:00",
+   "earliest": "2026-11-01T16:47+00:00",
+   "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Trump floats 'concept' of US-Canada deal that includes pipeline",
+     "url": "https://www.miningweekly.com/article/trump-floats-concept-of-us-canada-deal-that-includes-pipeline-2026-11-02",
+     "via": "",
+     "published": "2026-11-02T04:01+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Canada’s Carney reports progress in trade talks with US. Trump talks up ‘concept’ of a deal",
+     "url": "https://apnews.com/article/canada-us-trump-canada-trade-d0bfffc67ecdf22d9a5abffb2d26d848",
+     "via": "",
+     "published": "2026-11-01T21:24+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Carney signals progress on Canada-US trade deal talks as midterms loom",
+     "url": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-01T21:01+00:00",
+     "summary": "Canadian PM Mark Carney announces progress in Canada-US trade deal talks ahead of Tuesday's US midterm elections."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump floats 'concept' of US-Canada deal that includes pipeline talking to Carney",
+     "url": "https://www.reuters.com/world/americas/canada-pm-carney-said-he-had-good-conversation-with-trump-trade-2026-11-01/",
+     "via": "",
+     "published": "2026-11-01T18:44+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Carney has 'good conversation' with Trump on future of Canada-U.S. trade as midterms near",
+     "url": "https://www.cbc.ca/news/politics/carney-trump-conversation-midterms-9.7404845",
+     "via": "",
+     "published": "2026-11-01T16:47+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 5,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters",
+    "gCaptain",
+    "Al Arabiya",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-02T00:00+00:00",
+   "earliest": "2026-10-30T22:10+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-02T00:00+00:00",
+     "summary": "US president warns Iran to make a deal, as IRGC says two tankers have hit mines and caught fire in the Strait of Hormuz."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz",
+     "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz-2026-11-01/",
+     "via": "",
+     "published": "2026-11-01T20:12+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Iran’s IRGC Navy Says Four Tankers Catch Fire In Strait Of Hormuz",
+     "url": "https://gcaptain.com/irans-irgc-navy-says-four-tankers-catch-fire-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-10-31T18:01+00:00",
+     "summary": "DUBAI, Oct 30 (Reuters) – Iran’s Revolutionary Guards Navy said on Friday that four oil tankers had caught fire and exploded in the Strait of Hormuz, while attempting to use what it described as unauthorised routes,..."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iranian navy says tanker caught fire after striking mines near Strait of Hormuz",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/10/31/iranian-navy-says-tanker-caught-fire-after-striking-mines-near-strait-of-hormuz",
+     "via": "",
+     "published": "2026-10-31T17:14+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Iran says 4 tankers strike mines and catch fire in Strait of Hormuz, and other Mideast news",
+     "url": "https://apnews.com/article/mideast-news-october-30-2026-7f7f34ceb62f294a450e48ace0bd56e0",
+     "via": "",
+     "published": "2026-10-30T22:10+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [
@@ -313,272 +446,90 @@
      "summary": "Qatari mediators held talks in Tehran for more than 12 hours on Friday in an effort to reach a deal to restart direct negotiations between the U.S. and Iran and avoid an outbreak of war after the midterms, according to diplomatic sources. The discussions will continue in Doha, Qatar, on Saturday. Why it matters: The U.S. is now just days away from a possible military operation that would inflict e"
     }
    ],
-   "id": 1
+   "id": 3
   },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "gCaptain",
-    "Al Arabiya"
+    "Business Standard",
+    "The Straits Times",
+    "Livemint / Economic Times",
+    "Reuters"
    ],
    "regions": [
     "Europe",
-    "Middle East",
-    "North America"
+    "South Asia",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-02T00:00+00:00",
-   "earliest": "2026-10-31T17:14+00:00",
+   "latest": "2026-11-02T05:20+00:00",
+   "earliest": "2026-11-01T02:58+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Bangladesh garment unrest shuts 529 factories, puts export orders at risk",
+     "url": "https://www.business-standard.com/world-news/bangladesh-garment-unrest-shuts-529-factories-puts-export-orders-at-risk-126110200235_1.html",
      "via": "",
-     "published": "2026-11-02T00:00+00:00",
-     "summary": "US president warns Iran to make a deal, as IRGC says two tankers have hit mines and caught fire in the Strait of Hormuz."
+     "published": "2026-11-02T05:20+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Bangladesh garment factories reopen as wage protests keep industry on edge",
+     "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-factories-reopen-as-wage-protests-keep-industry-on-edge",
+     "via": "",
+     "published": "2026-11-02T05:12+00:00",
+     "summary": "Workers demanded a minimum monthly wage of 30,000 taka (S$308), up from 12,500 taka."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Double pay amid protests? Why are Bangladesh garment workers demanding this? How unrest threatens a $47 bn export sector",
+     "url": "https://www.livemint.com/news/world/double-pay-amid-protests-why-are-bangladesh-garment-workers-demanding-this-how-unrest-threatens-a-47-bn-export-sector-11793543085409.html",
+     "via": "",
+     "published": "2026-11-01T15:31+00:00",
+     "summary": "Bangladesh garment workers are demanding a minimum monthly wage of 30,000 taka, more than double the current rate, as rising living costs fuel violent protests. The unrest has shut 529 factories, threatening a $47 billion export industry that employs millions and supplies global brands."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Iran's IRGC Navy says two tankers 'exploded' after hitting mines in Hormuz",
-     "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-exploded-after-hitting-mines-hormuz-2026-11-01/",
+     "title": "Bangladesh sets up wage board as garment workers' unrest shuts factories",
+     "url": "https://www.reuters.com/business/world-at-work/bangladesh-form-wage-board-after-garment-protests-shut-factories-2026-11-01/",
      "via": "",
-     "published": "2026-11-01T20:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Iran’s IRGC Navy Says Four Tankers Catch Fire In Strait Of Hormuz",
-     "url": "https://gcaptain.com/irans-irgc-navy-says-four-tankers-catch-fire-in-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-10-31T18:01+00:00",
-     "summary": "DUBAI, Oct 30 (Reuters) – Iran’s Revolutionary Guards Navy said on Friday that four oil tankers had caught fire and exploded in the Strait of Hormuz, while attempting to use what it described as unauthorised routes,..."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iranian navy says tanker caught fire after striking mines near Strait of Hormuz",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/10/31/iranian-navy-says-tanker-caught-fire-after-striking-mines-near-strait-of-hormuz",
-     "via": "",
-     "published": "2026-10-31T17:14+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Axios",
-    "Times of Israel",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Middle East",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-10-31T22:25+00:00",
-   "earliest": "2026-10-31T12:37+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Iran's leader says response to attack would have no 'geographic limits,' and other Mideast news",
-     "url": "https://apnews.com/article/mideast-news-october-31-2026-15c0556b92c8c23beb9b8854b4c124f4",
-     "via": "",
-     "published": "2026-10-31T22:25+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Iran's supreme leader orders \"maximum\" response to any U.S. attack",
-     "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack",
-     "via": "",
-     "published": "2026-10-31T14:27+00:00",
-     "summary": "Iran's Supreme Leader Mojtaba Khamenei told the country's top three military commanders that a renewed attack by the U.S. and Israel ״must be met with an immediate and effective response, without geographical limitations״ in order to achieve \"maximum deterrence,\" according to a statement from his office. Why it matters: This is the first publicly disclosed meeting between Khamenei and all the top "
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Khamenei said to order military response without ‘geographic limits’ if US, Israel attacks",
-     "url": "https://www.timesofisrael.com/khamenei-orders-military-response-without-geographic-limits-if-us-israel-attacks/",
-     "via": "",
-     "published": "2026-10-31T14:20+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Iranian military ordered to counter any attack swiftly and without restraint",
-     "url": "https://www.abc.net.au/news/2026-10-31/attacks-on-iran-should-be-met-without-restraint-khamenei-orders/107332392",
-     "via": "",
-     "published": "2026-10-31T12:37+00:00",
-     "summary": "Iran's military chiefs should meet any attack on its country with an immediate and unrestrained response, Supreme Leader Mjotaba Khamenei has ordered."
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Deutsche Welle",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "Oceania"
-   ],
-   "latest": "2026-11-01T18:58+00:00",
-   "earliest": "2026-11-01T14:17+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
-     "url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-01T18:58+00:00",
-     "summary": "No arrests made after several security officers were reportedly injured during incidents at Saturday's protests."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "France opens attempted murder probe after protest attack",
-     "url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-01T14:50+00:00",
-     "summary": "Paris prosecutors have opened an attempted murder investigation after a Molotov attack on police. France reported 779 arrests during nationwide protests and Halloween night, fewer than on previous weekends."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "France opens 'attempted murder' probe after riot police attacked with petrol bomb",
-     "url": "https://www.abc.net.au/news/2026-11-02/france-launches-attempted-murder-probe-into-petrol-bomb-attack/107334294",
-     "via": "",
-     "published": "2026-11-01T14:17+00:00",
+     "published": "2026-11-01T02:58+00:00",
      "summary": ""
     }
    ],
    "id": 4
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Al Arabiya",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-10-30T15:16+00:00",
-   "earliest": "2026-10-30T03:45+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Tanker Hit by Limpet Mines in Strait of Hormuz as New Threat to Shipping Emerges",
-     "url": "https://gcaptain.com/tanker-hit-by-limpet-mines-in-strait-of-hormuz-as-new-threat-to-shipping-emerges/",
-     "via": "",
-     "published": "2026-10-30T15:16+00:00",
-     "summary": "A tanker transiting the Strait of Hormuz was attacked by a small boat that attached two explosive devices to its hull, triggering an engine room fire and temporarily disabling the..."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Tanker in Strait of Hormuz hit by explosives attached to small boat, UKMTO says",
-     "url": "https://english.alarabiya.net/News/gulf/2026/10/30/tanker-in-strait-of-hormuz-hit-by-explosives-attached-to-small-boat-ukmto-says",
-     "via": "",
-     "published": "2026-10-30T07:36+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Tanker catches fire in Hormuz after explosives attached to hull",
-     "url": "https://www.seatrade-maritime.com/security/tanker-catches-fire-in-hormuz-after-explosives-attached-to-hull",
-     "via": "",
-     "published": "2026-10-30T03:45+00:00",
-     "summary": "Attack on tanker in Hormuz marks a new modus operandi by Iran against commercial shipping as multiple incidents reported"
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
-    "Times of Israel",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-02T00:29+00:00",
-   "earliest": "2026-10-30T07:08+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
-     "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-02T00:29+00:00",
-     "summary": "Election body says deadlocked result won't be undermined even if foreign interference claims are found to be true."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "As Netanyahu cries foul, election officials dismiss claim that vote was ‘stolen’",
-     "url": "https://www.timesofisrael.com/as-netanyahu-cries-foul-election-officials-dismiss-claim-that-vote-was-stolen/",
-     "via": "",
-     "published": "2026-10-30T19:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Netanyahu’s party claims election ‘stolen’ as results show him losing majority",
-     "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-arab-results-9a0620a1314fdc127245ba1a7f0aa762",
-     "via": "",
-     "published": "2026-10-30T07:08+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
     "Associated Press",
     "Euronews",
     "Reuters"
    ],
    "regions": [
     "Europe",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-11-01T21:48+00:00",
+   "latest": "2026-11-02T04:25+00:00",
    "earliest": "2026-11-01T18:55+00:00",
    "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Bulgaria has its first elected female president",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/bulgaria-has-its-first-elected-female-president?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-02T04:25+00:00",
+     "summary": "Iliana Iotova has won Bulgaria’s presidential runoff, becoming the country’s first elected female president."
+    },
     {
      "outlet": "Associated Press",
      "region": "North America",
@@ -607,52 +558,7 @@
      "summary": ""
     }
    ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-01T20:52+00:00",
-   "earliest": "2026-10-30T14:37+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israeli strikes in Gaza kill eight, including a child",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/02/israeli-strikes-in-gaza-kill-eight-including-a-child",
-     "via": "",
-     "published": "2026-11-01T20:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Israeli strikes kill eight people in Gaza - medics say",
-     "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-eight-people-gaza-medics-say-2026-11-01/",
-     "via": "",
-     "published": "2026-11-01T16:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF says Hamas commander who held a dozen Israelis hostage killed in Gaza strike",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-hamas-commander-who-held-a-dozen-israelis-hostage-killed-in-gaza-strike/",
-     "via": "",
-     "published": "2026-10-30T14:37+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -697,7 +603,7 @@
      "summary": "Pope Leo XIV has voted by mail in the US midterm elections to be held on November 3, making him the first pontiff to take part in an election in that country, the Vatican said on Friday."
     }
    ],
-   "id": 9
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -742,109 +648,7 @@
      "summary": ""
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "The Straits Times"
-    ]
-   ],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Reuters",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-01T18:27+00:00",
-   "earliest": "2026-11-01T13:30+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "OPEC+ keeps December oil output unchanged: Why Iran war disruptions cloud 2027 production plans",
-     "url": "https://www.livemint.com/news/world/opec-keeps-december-oil-output-unchanged-why-iran-war-disruptions-cloud-2027-production-plans-11793556939912.html",
-     "via": "",
-     "published": "2026-11-01T18:27+00:00",
-     "summary": "OPEC+ has kept December oil production targets unchanged as the Iran war continues to disrupt Gulf exports. With most members pumping below targets, the alliance faces uncertainty over 2027 quotas, amid concerns about supply recovery through the Strait of Hormuz and a possible global oil surplus."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027",
-     "url": "https://www.reuters.com/business/energy/opec-set-keep-oil-output-targets-steady-sources-say-2026-11-01/",
-     "via": "",
-     "published": "2026-11-01T13:36+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027",
-     "url": "https://www.straitstimes.com/business/opec-keeps-december-oil-output-targets-steady-as-iran-war-continues-to-disrupt-flows",
-     "via": "",
-     "published": "2026-11-01T13:30+00:00",
-     "summary": "The organisation has confirmed expectations that more policy adjustments will not occur until 2027."
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-01T15:31+00:00",
-   "earliest": "2026-11-01T02:58+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Double pay amid protests? Why are Bangladesh garment workers demanding this? How unrest threatens a $47 bn export sector",
-     "url": "https://www.livemint.com/news/world/double-pay-amid-protests-why-are-bangladesh-garment-workers-demanding-this-how-unrest-threatens-a-47-bn-export-sector-11793543085409.html",
-     "via": "",
-     "published": "2026-11-01T15:31+00:00",
-     "summary": "Bangladesh garment workers are demanding a minimum monthly wage of 30,000 taka, more than double the current rate, as rising living costs fuel violent protests. The unrest has shut 529 factories, threatening a $47 billion export industry that employs millions and supplies global brands."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Bangladesh sets up wage board as garment workers’ unrest shuts factories",
-     "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-forms-wage-board-as-garment-protests-turn-violent",
-     "via": "",
-     "published": "2026-11-01T07:30+00:00",
-     "summary": "Workers said that rising costs of food, housing, transport and healthcare have sharply eroded their purchasing power."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Bangladesh sets up wage board as garment workers' unrest shuts factories",
-     "url": "https://www.reuters.com/business/world-at-work/bangladesh-form-wage-board-after-garment-protests-shut-factories-2026-11-01/",
-     "via": "",
-     "published": "2026-11-01T02:58+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -906,187 +710,162 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Al Arabiya",
-     "Nikkei Asia"
-    ]
-   ],
-   "outlets": [
-    "The Jakarta Post",
-    "Al Arabiya",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-10-31T10:43+00:00",
-   "earliest": "2026-10-31T04:27+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "China's factory activity returns to contraction in October",
-     "url": "https://www.thejakartapost.com/business/2026/10/31/chinas-factory-activity-returns-to-contraction-in-october",
-     "via": "",
-     "published": "2026-10-31T10:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "China’s factory activity marks third contraction in four months",
-     "url": "https://english.alarabiya.net/amp/business/economy/2026/10/31/china-s-factory-activity-marks-third-contraction-in-four-months",
-     "via": "",
-     "published": "2026-10-31T04:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "China's factory activity marks third contraction in four months",
-     "url": "https://asia.nikkei.com/economy/china-s-factory-activity-marks-third-contraction-in-four-months",
-     "via": "",
-     "published": "2026-10-31T04:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
+   "id": 8
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Bloomberg",
-    "Al Arabiya"
+    "Reuters"
    ],
    "regions": [
-    "Middle East",
+    "Europe",
     "North America"
    ],
-   "latest": "2026-11-02T00:01+00:00",
-   "earliest": "2026-10-31T12:08+00:00",
+   "latest": "2026-11-02T03:54+00:00",
+   "earliest": "2026-11-02T02:42+00:00",
    "items": [
     {
      "outlet": "Bloomberg",
      "region": "North America",
-     "title": "Gulf States Fear Iran Retaliation If US Strikes Again",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-02/gulf-states-fear-iran-retaliation-if-us-strikes-again-video",
+     "title": "Reliance Shares Hit Nine-Month High as Iran War Boosts Refining",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/reliance-industries-surges-most-in-nine-months-on-earnings-beat",
      "via": "",
-     "published": "2026-11-02T00:01+00:00",
-     "summary": "Gulf states fear another US-Israeli attack on Iran could unleash a more destructive war across the region, leaving them to pick up the pieces. Bloomberg's Michael Heath has the latest. (Source: Bloomberg)"
+     "published": "2026-11-02T03:54+00:00",
+     "summary": "Shares of Reliance Industries Ltd. rallied the most in nine months after earnings from India’s most valuable company beat analyst estimates, driven by a strong performance in its oil-to-chemicals business."
     },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Indian shares rise on Iran war talks, Reliance earnings beat",
+     "url": "https://www.reuters.com/world/india/indian-shares-set-positive-start-talks-end-iran-war-strong-reliance-earnings-2026-11-02/",
+     "via": "",
+     "published": "2026-11-02T02:42+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-02T03:37+00:00",
+   "earliest": "2026-10-30T17:05+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "New Zealand early voting surges ahead of November 7 election",
+     "url": "https://www.straitstimes.com/asia/new-zealand-early-voting-surges-ahead-of-november-7-election",
+     "via": "",
+     "published": "2026-11-02T03:37+00:00",
+     "summary": "Nov 2 - Nearly 1 million ballots have been cast in the first week of early voting for the New Zealand general election, the country's electoral commission said on Monday."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Early voting jumps across Senate battlegrounds as millions more Americans vote ahead of Election Day",
+     "url": "https://apnews.com/article/election-early-voting-midterms-3f7d5c378b3d9bff5cde4604a55b9c9a",
+     "via": "",
+     "published": "2026-10-30T17:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-02T02:14+00:00",
+   "earliest": "2026-11-02T01:56+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Singapore, Argentina deepen trade ties as key South American trade pact enters into force",
+     "url": "https://www.straitstimes.com/business/singapore-argentina-deepen-trade-ties-as-key-south-american-trade-pact-enters-into-force",
+     "via": "",
+     "published": "2026-11-02T02:14+00:00",
+     "summary": "The Mercosur-Singapore Free Trade Agreement eliminates import tariffs on 96% of products for up to 15 years."
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Sanya and Maldives Sign Agreements to Deepen Trade and Investment Ties",
+     "url": "https://english.kyodonews.net/articles/-/90104",
+     "via": "",
+     "published": "2026-11-02T01:56+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-01T20:52+00:00",
+   "earliest": "2026-11-01T16:41+00:00",
+   "items": [
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Egypt fears escalation in Iran war would be more destructive",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/31/egypt-fears-escalation-in-iran-war-would-be-more-destructive",
+     "title": "Israeli strikes in Gaza kill eight, including a child",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/02/israeli-strikes-in-gaza-kill-eight-including-a-child",
      "via": "",
-     "published": "2026-10-31T12:08+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Axios",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-01T23:29+00:00",
-   "earliest": "2026-11-01T18:51+00:00",
-   "items": [
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Haley Stevens endorses Mike Rogers amid Michigan Democratic feud",
-     "url": "https://www.axios.com/2026/11/01/haley-stevens-mike-rogers-church-michigan-senate",
-     "via": "",
-     "published": "2026-11-01T23:29+00:00",
-     "summary": "Rep. Haley Stevens (D-Mich.) made a stunning last-minute endorsement of Republican Mike Rogers on Sunday, two days before Michigan's closely watched Senate election . Why it matters: Her endorsement gives Rogers a striking photo op as his party tries to peel away Black and Jewish voters in a tight race that could determine control of the Senate . Driving the news: Stevens appeared Sunday alongside"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Michigan Democrat Haley Stevens endorses Republican Senate candidate",
-     "url": "https://www.aljazeera.com/news/2026/11/1/michigan-dem-haley-stevens-endorses-republican-senate-candidate-mike-rogers?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-01T18:51+00:00",
-     "summary": "Stevens, who lost the primary to Abdul El-Sayed, shifts support to Republican Mike Rogers days before midterm election."
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "CBC News",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-01T23:01+00:00",
-   "earliest": "2026-11-01T21:01+00:00",
-   "items": [
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "Carney has 'good conversation' with Trump on future of Canada-U.S. trade as midterms near",
-     "url": "https://www.cbc.ca/news/politics/carney-trump-conversation-midterms-9.7404845",
-     "via": "",
-     "published": "2026-11-01T23:01+00:00",
+     "published": "2026-11-01T20:52+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Carney signals progress on Canada-US trade deal talks as midterms loom",
-     "url": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom?traffic_source=rss",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Israeli strikes kill eight people in Gaza - medics say",
+     "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-eight-people-gaza-medics-say-2026-11-01/",
      "via": "",
-     "published": "2026-11-01T21:01+00:00",
-     "summary": "Canadian PM Mark Carney announces progress in Canada-US trade deal talks ahead of Tuesday's US midterm elections."
+     "published": "2026-11-01T16:41+00:00",
+     "summary": ""
     }
    ],
-   "id": 17
+   "id": 12
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Livemint / Economic Times"
+    "Livemint / Economic Times",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "South Asia"
    ],
-   "latest": "2026-11-01T21:22+00:00",
-   "earliest": "2026-11-01T18:26+00:00",
+   "latest": "2026-11-01T18:26+00:00",
+   "earliest": "2026-11-01T17:52+00:00",
    "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US judge dismisses Trump election lawsuit in Alaska",
-     "url": "https://www.reuters.com/world/us-judge-throws-out-trump-election-lawsuit-alaska-2026-11-01/",
-     "via": "",
-     "published": "2026-11-01T21:22+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Livemint / Economic Times",
      "region": "South Asia",
@@ -1094,10 +873,19 @@
      "url": "https://www.livemint.com/news/us-news/alaska-senate-race-us-judge-dismisses-trump-administrations-bid-to-block-certification-if-dan-sullivan-loses-11793556771177.html",
      "via": "",
      "published": "2026-11-01T18:26+00:00",
-     "summary": "A federal judge has dismissed a US Justice Department lawsuit seeking to block certification of Alaska's Senate election if Republican incumbent Dan Sullivan loses to Democrat Mary Peltola. The case centred on allegations involving a second candidate with the same name as the Republican senator."
+     "summary": "A federal judge dismissed a US Justice Department lawsuit seeking to block certification of Alaska's Senate election if Republican incumbent Dan Sullivan loses to Democrat Mary Peltola. The case centred on allegations involving a second candidate with the same name as the Republican senator."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US judge dismisses Trump election lawsuit in Alaska",
+     "url": "https://www.reuters.com/world/us-judge-throws-out-trump-election-lawsuit-alaska-2026-11-01/",
+     "via": "",
+     "published": "2026-11-01T17:52+00:00",
+     "summary": ""
     }
    ],
-   "id": 18
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -1132,7 +920,42 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-01T14:50+00:00",
+   "earliest": "2026-11-01T14:19+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "France opens attempted murder probe after protest attack",
+     "url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-01T14:50+00:00",
+     "summary": "Paris prosecutors have opened an attempted murder investigation after a Molotov attack on police. France reported 779 arrests during nationwide protests and Halloween night, fewer than on previous weekends."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "France opens 'attempted murder' probe after riot police attacked with petrol bomb",
+     "url": "https://www.abc.net.au/news/2026-11-02/france-launches-attempted-murder-probe-into-petrol-bomb-attack/107334294",
+     "via": "",
+     "published": "2026-11-01T14:19+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -1167,42 +990,7 @@
      "summary": "Vietnam and China should expand cooperation in manufacturing, technology and logistics to strengthen their roles in global supply chains, officials and business leaders said."
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-01T01:40+00:00",
-   "earliest": "2026-11-01T00:25+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "South Korea exports extend robust growth on AI-fuelled chip boom",
-     "url": "https://www.straitstimes.com/business/economy/south-korea-exports-extend-robust-growth-on-ai-fuelled-chip-boom",
-     "via": "",
-     "published": "2026-11-01T01:40+00:00",
-     "summary": "The export boom is also putting the South on course to exceed US$1 trillion in annual shipments for the first time in 2026."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "S. Korea Exports Extend Robust Growth as Chip Boom Continues",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-01/south-korea-exports-extend-robust-growth-as-chip-boom-continues",
-     "via": "",
-     "published": "2026-11-01T00:25+00:00",
-     "summary": "South Korea’s exports maintained strong growth in October, highlighting the strength of an artificial intelligence-driven boom that has powered the economy, even as a recent selloff in technology stocks raised questions about the durability of the global AI trade."
-    }
-   ],
-   "id": 21
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1237,7 +1025,77 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-10-31T22:25+00:00",
+   "earliest": "2026-10-31T14:20+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Iran's leader says response to attack would have no 'geographic limits,' and other Mideast news",
+     "url": "https://apnews.com/article/mideast-news-october-31-2026-15c0556b92c8c23beb9b8854b4c124f4",
+     "via": "",
+     "published": "2026-10-31T22:25+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Khamenei said to order military response without ‘geographic limits’ if US, Israel attacks",
+     "url": "https://www.timesofisrael.com/khamenei-orders-military-response-without-geographic-limits-if-us-israel-attacks/",
+     "via": "",
+     "published": "2026-10-31T14:20+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa",
+    "Europe"
+   ],
+   "latest": "2026-10-31T19:45+00:00",
+   "earliest": "2026-10-31T07:34+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Ghana says Russia to back 2,000 MW nuclear plant, deepen ties",
+     "url": "https://www.reuters.com/world/africa/ghana-says-russia-back-2000-mw-nuclear-plant-deepen-ties-2026-10-31/",
+     "via": "",
+     "published": "2026-10-31T19:45+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Ghana in talks with Russia for first nuclear power plant",
+     "url": "http://www.africanews.com/2026/10/31/ghana-in-talks-with-russia-for-first-nuclear-power-plant/",
+     "via": "",
+     "published": "2026-10-31T07:34+00:00",
+     "summary": "Russian President Vladimir Putin met his Ghanaian counterpart John Dramani Mahama for bilateral talks the next day after Russia-Africa summit in Moscow"
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1272,42 +1130,42 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Kyodo News"
+    "The Korea Herald",
+    "gCaptain"
    ],
    "regions": [
     "East Asia",
-    "Southeast Asia"
+    "North America"
    ],
-   "latest": "2026-10-31T06:15+00:00",
-   "earliest": "2026-10-31T04:13+00:00",
+   "latest": "2026-10-31T12:03+00:00",
+   "earliest": "2026-10-30T16:46+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Video shows tranquilliser failing to subdue bear in Japan factory rampage",
-     "url": "https://www.straitstimes.com/asia/east-asia/video-shows-tranquillizer-failing-to-subdue-bear-in-japan-factory-rampage",
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Hanwha lands first US Navy shipbuilding order in $269m deal",
+     "url": "https://www.koreaherald.com/article/10921252",
      "via": "",
-     "published": "2026-10-31T06:15+00:00",
-     "summary": "The bear opened a window to escape from the factory and remains at large."
+     "published": "2026-10-31T12:03+00:00",
+     "summary": "Hanwha Defense USA, the US subsidiary of Hanwha Aerospace, has secured a $269 million deal to construct a medium landing ship, or LSM, for the US Navy and Marine Corps at its Philly shipyard, marking a major step in the South Korean defense group's push into the American naval shipbuilding market. The company said Friday it was selected by US maritime services company Tote Services to build one LS"
     },
     {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Video shows tranquilizer failing to subdue bear in Japan factory rampage",
-     "url": "https://english.kyodonews.net/articles/-/90018",
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Hanwha Philly Shipyard Wins $269 Million U.S. Navy Landing Ship Contract",
+     "url": "https://gcaptain.com/hanwha-philly-shipyard-wins-269-million-u-s-navy-landing-ship-contract/",
      "via": "",
-     "published": "2026-10-31T04:13+00:00",
-     "summary": ""
+     "published": "2026-10-30T16:46+00:00",
+     "summary": "Hanwha Philly Shipyard has secured a $269 million contract to build a Medium Landing Ship (LSM) for the U.S. Navy and Marine Corps, marking a major milestone in the South..."
     }
    ],
-   "id": 24
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1342,41 +1200,42 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 22
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
+    "Africanews",
+    "Associated Press"
    ],
    "regions": [
-    "Middle East"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-11-01T14:31+00:00",
-   "earliest": "2026-10-30T04:12+00:00",
+   "latest": "2026-10-30T08:29+00:00",
+   "earliest": "2026-10-30T07:02+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition says it targeted resources used by Houthis in Yemen",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/01/saudiled-coalition-says-it-targeted-resources-used-by-houthis-in-yemen",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Israel's final election results show no bloc has won a majority",
+     "url": "http://www.africanews.com/2026/10/30/israels-final-election-results-show-no-bloc-has-won-a-majority/",
      "via": "",
-     "published": "2026-11-01T14:31+00:00",
-     "summary": ""
+     "published": "2026-10-30T08:29+00:00",
+     "summary": "As opposition politicians meet to explore options for a coalition, the PM has accused Arab-led parties of election fraud."
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi-led coalition says it destroyed drone fired by Yemen’s Houthis over Mecca",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-says-it-destroyed-drone-fired-by-yemens-houthis-over-mecca/",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "What to know after Israel's election results give neither Netanyahu nor the opposition a majority",
+     "url": "https://apnews.com/article/israel-election-netanyahu-gaza-palestinians-trump-iran-9962f87d11534908f553146f07039e92",
      "via": "",
-     "published": "2026-10-30T04:12+00:00",
+     "published": "2026-10-30T07:02+00:00",
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1410,7 +1269,41 @@
      "summary": "The price of Aviation Turbine Fuel was also hiked by ₹1.37 per litre. It now costs ₹138.5 per litre"
     }
    ],
-   "id": 27
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-10-31T15:46+00:00",
+   "earliest": "2026-10-31T12:31+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Textile industry welcomes customs duty exemption extension for cotton",
+     "url": "https://www.thehindu.com/news/cities/Coimbatore/textile-industry-welcomes-customs-duty-exemption-extension-for-cotton/article71650288.ece",
+     "via": "",
+     "published": "2026-10-31T15:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Govt extends customs duty exemption on cotton imports up to Dec 31",
+     "url": "https://www.business-standard.com/economy/news/govt-extends-customs-duty-exemption-on-cotton-imports-up-to-dec-31-126103100989_1.html",
+     "via": "",
+     "published": "2026-10-31T12:31+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1444,7 +1337,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 26
   }
  ]
 }
