@@ -2,8 +2,10 @@ name: Fetch news
 
 on:
   schedule:
-    # GitHub often starts scheduled jobs 1-2+ hours late, so run well before the
-    # 06:30 IST bulletin, with later passes as backups.
+    # GitHub often starts scheduled jobs hours late (5-8 h on Nov 2: the 19:47 pass ran at
+    # 01:47 UTC, after the 01:02 UTC Daily had already stopped on a stale feed). So run
+    # hourly through the afternoon too: a delayed afternoon pass still lands before 01:00 UTC.
+    - cron: "47 13-18 * * *"   # 19:17-00:17 IST, hourly afternoon passes (Nov 3)
     - cron: "47 19 * * *"   # 01:17 IST, early pass: GitHub sometimes delays or skips later ones (Oct 29)
     - cron: "47 20 * * *"   # 02:17 IST, early pass
     - cron: "17 21 * * *"   # 02:47 IST
