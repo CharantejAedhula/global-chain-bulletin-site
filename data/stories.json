@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-03T03:53:21+00:00",
+ "fetched_at": "2026-11-03T04:44:27+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 42,
- "items_read": 567,
+ "outlets_read": 44,
+ "items_read": 580,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,22 +17,22 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 21,
+   "items": 19,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 26,
+   "items": 28,
    "errors": []
   },
   "Yicai Global": {
@@ -42,17 +42,17 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 37,
+   "items": 42,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "The Korea Herald": {
@@ -62,17 +62,17 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -97,37 +97,37 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 24,
+   "items": 30,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 38,
+   "items": 39,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 0,
+   "items": 1,
    "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 0,
+   "items": 1,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -159,7 +159,7 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 4,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
@@ -169,7 +169,7 @@
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Interfax": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "The Jakarta Post": {
@@ -313,10 +313,55 @@
    "id": 1
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
+    "Euronews",
+    "The Jakarta Post",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-02T09:14+00:00",
+   "earliest": "2026-11-01T14:17+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Paris riots: France investigates after petrol bomb sets officer on fire",
+     "url": "https://www.euronews.com/video/2026/11/02/paris-riots-france-investigates-after-petrol-bomb-sets-officer-on-fire",
+     "via": "",
+     "published": "2026-11-02T09:14+00:00",
+     "summary": "France has opened an attempted murder investigation after petrol bombs were thrown at police during protests over the rising cost of living in Paris."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "France opens 'attempted murder' probe over petrol bomb attacks on security forces - Europe",
+     "url": "https://www.thejakartapost.com/world/2026/11/02/france-opens-attempted-murder-probe-over-petrol-bomb-attacks-on-security-forces",
+     "via": "",
+     "published": "2026-11-02T06:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "France opens 'attempted murder' probe after riot police attacked with petrol bomb",
+     "url": "https://www.abc.net.au/news/2026-11-02/france-launches-attempted-murder-probe-into-petrol-bomb-attack/107334294",
+     "via": "",
+     "published": "2026-11-01T14:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Axios",
     "Times of Israel",
     "Al Arabiya"
@@ -325,18 +370,9 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-10-31T22:25+00:00",
+   "latest": "2026-10-31T14:27+00:00",
    "earliest": "2026-10-31T12:05+00:00",
    "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Iran's leader says response to attack would have no 'geographic limits,' and other Mideast news",
-     "url": "https://apnews.com/article/mideast-news-october-31-2026-15c0556b92c8c23beb9b8854b4c124f4",
-     "via": "",
-     "published": "2026-10-31T22:25+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Axios",
      "region": "North America",
@@ -365,7 +401,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 2,
@@ -416,7 +452,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 2,
@@ -451,7 +487,7 @@
      "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -486,7 +522,42 @@
      "summary": "The Fenn-Gib gold project is the fourth chosen under the province's One Project, One Process framework."
     }
    ],
-   "id": 5
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-03T02:19+00:00",
+   "earliest": "2026-11-03T00:32+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "North Korea conducts strategic cruise missile test with dispersal warhead, KCNA says",
+     "url": "https://www.reuters.com/business/aerospace-defense/north-korea-conducts-strategic-cruise-missile-test-with-dispersal-warhead-kcna-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T02:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "North Korea test fires strategic cruise missiles: KCNA",
+     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-test-fires-strategic-cruise-missiles-kcna",
+     "via": "",
+     "published": "2026-11-03T00:32+00:00",
+     "summary": "Unlike ballistic missile launches, North Korean cruise missile tests are not prohibited by UN Security Council sanctions."
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -521,7 +592,7 @@
      "summary": "Investors want clarity on Christmas sales, rising memory costs and Apple's AI plans as John Ternus prepares to lead his first earnings call since taking over from Tim Cook."
     }
    ],
-   "id": 6
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -556,7 +627,7 @@
      "summary": "US forces target Iranian positions in the Strait of Hormuz in \"defensive\" strikes following missile threats."
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -591,7 +662,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -626,7 +697,7 @@
      "summary": "The global shipping industry is ordering alternative-fuel vessels faster than ports can develop the infrastructure needed to fuel them, according to a new report from Lloyd’s Register (LR), highlighting a..."
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -661,7 +732,7 @@
      "summary": "The bank cut its estimates for the battery ingredient through the end of 2028, expecting the market to reach a surplus."
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -696,7 +767,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -731,42 +802,7 @@
      "summary": ""
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-02T09:14+00:00",
-   "earliest": "2026-11-02T06:27+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Paris riots: France investigates after petrol bomb sets officer on fire",
-     "url": "https://www.euronews.com/video/2026/11/02/paris-riots-france-investigates-after-petrol-bomb-sets-officer-on-fire",
-     "via": "",
-     "published": "2026-11-02T09:14+00:00",
-     "summary": "France has opened an attempted murder investigation after petrol bombs were thrown at police during protests over the rising cost of living in Paris."
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "France opens 'attempted murder' probe over petrol bomb attacks on security forces - Europe",
-     "url": "https://www.thejakartapost.com/world/2026/11/02/france-opens-attempted-murder-probe-over-petrol-bomb-attacks-on-security-forces",
-     "via": "",
-     "published": "2026-11-02T06:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -801,7 +837,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -836,7 +872,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -870,7 +906,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -904,7 +940,41 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-01T14:57+00:00",
+   "earliest": "2026-10-31T12:37+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iranian negotiators hold third day of talks in Qatar to end US-Iran war",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/01/iranian-negotiators-hold-third-day-of-talks-in-qatar-to-end-usiran-war",
+     "via": "",
+     "published": "2026-11-01T14:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran negotiators in Doha for Qatar-mediated talks to end US-Iran war, official confirms",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-negotiators-in-doha-for-qatar-mediated-talks-to-end-us-iran-war-official-confirms/",
+     "via": "",
+     "published": "2026-10-31T12:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -938,7 +1008,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 20
   }
  ]
 }
