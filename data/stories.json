@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-11-03T02:39:23+00:00",
+ "fetched_at": "2026-11-03T02:56:12+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
+ "outlets_read": 42,
  "items_read": 558,
  "feeds": {
   "Africanews": {
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Ecofin Agency": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 44,
+   "items": 37,
    "errors": []
   },
   "Nikkei Asia": {
@@ -57,7 +57,7 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Financial Times": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
+   "items": 36,
    "errors": []
   },
   "Amwaj.media": {
@@ -117,7 +117,7 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Associated Press": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 7,
+   "items": 11,
    "errors": []
   },
   "RNZ": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "The Jakarta Post": {
@@ -369,6 +369,68 @@
   },
   {
    "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "Livemint / Economic Times",
+    "The Straits Times",
+    "Reuters",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-03T01:45+00:00",
+   "earliest": "2026-11-03T00:00+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US strikes Iran's Qeshm Island, oil prices rise as fears of renewed conflict and disruptions mount",
+     "url": "https://www.livemint.com/news/world/us-strikes-irans-qeshm-island-oil-prices-rise-as-fears-of-renewed-conflict-and-strait-of-hormuz-supply-disruptions-mou-11793669761803.html",
+     "via": "",
+     "published": "2026-11-03T01:45+00:00",
+     "summary": "The US strikes on Iran's Qeshm Island have pushed oil prices up 0.5% in early Asian trading. The attacks have revived concerns over an escalation of the conflict and prolonged disruption to oil supplies through the Strait of Hormuz."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Oil rises after report of US strike on Iran’s Qeshm Island",
+     "url": "https://www.straitstimes.com/business/oil-rises-after-report-of-us-strike-on-irans-qeshm-island",
+     "via": "",
+     "published": "2026-11-03T01:40+00:00",
+     "summary": "Earlier, US and Iran signalled that diplomatic talks are continuing."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oil rises after report of US strike on Iran's Qeshm Island",
+     "url": "https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T01:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-03T00:00+00:00",
+     "summary": "US forces target Iranian positions in the Strait of Hormuz in \"defensive\" strikes following missile threats."
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Mining.com.au",
@@ -408,57 +470,6 @@
      "url": "https://www.miningweekly.com/article/quebec-ministry-grants-enviro-authorisation-for-gold-fields-windfall-project-2026-11-02",
      "via": "",
      "published": "2026-11-02T07:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-03T01:45+00:00",
-   "earliest": "2026-11-03T01:27+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US strikes Iran's Qeshm Island, oil prices rise as fears of renewed conflict and disruptions mount",
-     "url": "https://www.livemint.com/news/world/us-strikes-irans-qeshm-island-oil-prices-rise-as-fears-of-renewed-conflict-and-strait-of-hormuz-supply-disruptions-mou-11793669761803.html",
-     "via": "",
-     "published": "2026-11-03T01:45+00:00",
-     "summary": "The US strikes on Iran's Qeshm Island have pushed oil prices up 0.5% in early Asian trading. The attacks have revived concerns over an escalation of the conflict and prolonged disruption to oil supplies through the Strait of Hormuz."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Oil rises after report of US strike on Iran’s Qeshm Island",
-     "url": "https://www.straitstimes.com/business/oil-rises-after-report-of-us-strike-on-irans-qeshm-island",
-     "via": "",
-     "published": "2026-11-03T01:40+00:00",
-     "summary": "Earlier, US and Iran signalled that diplomatic talks are continuing."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Oil rises after report of US strike on Iran's Qeshm Island",
-     "url": "https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T01:27+00:00",
      "summary": ""
     }
    ],
@@ -520,41 +531,6 @@
    "same_headline_groups": [],
    "outlets": [
     "Livemint / Economic Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-03T02:11+00:00",
-   "earliest": "2026-11-02T05:04+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Gold edges higher on softer oil; US midterm elections in focus",
-     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
-     "via": "",
-     "published": "2026-11-03T02:11+00:00",
-     "summary": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate a potential interest rate hike from the Federal Reserve in December to combat inflation, while the Bank of England is anticipated to tackle s"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Gold rises over 2% from one-year low on softer oil prices; US midterms in focus",
-     "url": "https://www.reuters.com/world/india/gold-rises-softer-oil-markets-parse-fed-signals-2026-11-02/",
-     "via": "",
-     "published": "2026-11-02T05:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
     "The Straits Times"
    ],
    "regions": [
@@ -583,7 +559,7 @@
      "summary": "The MSCI Asia Pacific gauge dropped 0.5% with South Korea’s Kospi Index dropping more than 3%."
     }
    ],
-   "id": 7
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -618,7 +594,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -653,7 +629,7 @@
      "summary": "The global shipping industry is ordering alternative-fuel vessels faster than ports can develop the infrastructure needed to fuel them, according to a new report from Lloyd’s Register (LR), highlighting a..."
     }
    ],
-   "id": 9
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -688,7 +664,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -723,7 +699,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -758,42 +734,7 @@
      "summary": ""
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-02T02:14+00:00",
-   "earliest": "2026-11-02T01:56+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Singapore, Argentina deepen trade ties as key South American trade pact enters into force",
-     "url": "https://www.straitstimes.com/business/singapore-argentina-deepen-trade-ties-as-key-south-american-trade-pact-enters-into-force",
-     "via": "",
-     "published": "2026-11-02T02:14+00:00",
-     "summary": "The Mercosur-Singapore Free Trade Agreement eliminates import tariffs on 96% of products for up to 15 years."
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Sanya and Maldives Sign Agreements to Deepen Trade and Investment Ties",
-     "url": "https://english.kyodonews.net/articles/-/90104",
-     "via": "",
-     "published": "2026-11-02T01:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -828,7 +769,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -862,7 +803,41 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-01T14:57+00:00",
+   "earliest": "2026-10-31T12:37+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iranian negotiators hold third day of talks in Qatar to end US-Iran war",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/01/iranian-negotiators-hold-third-day-of-talks-in-qatar-to-end-usiran-war",
+     "via": "",
+     "published": "2026-11-01T14:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran negotiators in Doha for Qatar-mediated talks to end US-Iran war, official confirms",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-negotiators-in-doha-for-qatar-mediated-talks-to-end-us-iran-war-official-confirms/",
+     "via": "",
+     "published": "2026-10-31T12:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -896,7 +871,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 15
   }
  ]
 }
