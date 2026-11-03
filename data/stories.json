@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-03T06:48:12+00:00",
+ "fetched_at": "2026-11-03T20:17:38+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 574,
+ "outlets_read": 43,
+ "items_read": 691,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,17 +12,17 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 13,
+   "items": 24,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 20,
+   "items": 32,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 26,
+   "items": 28,
    "errors": []
   },
   "Yicai Global": {
@@ -42,37 +42,37 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 47,
+   "items": 49,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 15,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 10,
+   "items": 31,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 37,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 20,
+   "items": 31,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,32 +82,34 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 9,
+   "items": 14,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 16,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.hellenicshippingnews.com/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 11,
+   "items": 14,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 6,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 25,
+   "items": 33,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 39,
+   "items": 36,
    "errors": []
   },
   "Amwaj.media": {
@@ -117,12 +119,12 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 12,
+   "items": 18,
    "errors": []
   },
   "Bloomberg": {
@@ -132,49 +134,49 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 15,
+   "items": 23,
    "errors": []
   },
   "gCaptain": {
    "region": "North America",
-   "items": 8,
+   "items": 11,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 19,
+   "items": 23,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 10,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Interfax": {
    "region": "Russia",
-   "items": 7,
+   "items": 15,
    "errors": []
   },
   "PortNews": {
@@ -184,17 +186,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 20,
+   "items": 22,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 27,
+   "items": 26,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,17 +218,17 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 10,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 19,
+   "items": 30,
    "errors": []
   },
   "Rio Times": {
@@ -242,126 +244,137 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Deutsche Welle",
-    "Associated Press",
-    "Bloomberg"
+    "MINING.COM",
+    "Mining.com.au",
+    "Mining Weekly"
    ],
    "regions": [
-    "Europe",
-    "North America"
+    "Africa",
+    "North America",
+    "Oceania"
    ],
-   "latest": "2026-11-02T22:59+00:00",
-   "earliest": "2026-11-02T17:04+00:00",
+   "latest": "2026-11-03T17:43+00:00",
+   "earliest": "2026-11-03T05:50+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US to suspend South Africa and Rwanda from duty-free trade access",
-     "url": "https://www.reuters.com/world/africa/us-suspend-south-africa-rwanda-duty-free-trade-access-2026-11-02/",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "MMG, Anglo American extend $500 million nickel deal deadline",
+     "url": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
      "via": "",
-     "published": "2026-11-02T22:59+00:00",
+     "published": "2026-11-03T17:43+00:00",
+     "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production."
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "MMG extends Anglo nickel deal deadline",
+     "url": "https://mining.com.au/mmg-extends-anglo-nickel-deal-deadline/",
+     "via": "",
+     "published": "2026-11-03T07:07+00:00",
      "summary": ""
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "US to drop South Africa, Rwanda from duty-free trade initiative",
-     "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-all-1573-rdf",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
+     "url": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
      "via": "",
-     "published": "2026-11-02T21:40+00:00",
-     "summary": "The Trump administration has said South Africa and Rwanda are breaking the rules of the AGOA free trade initiative, a centerpiece of US economic engagement with sub-Saharan Africa."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump administration will cut South Africa and Rwanda from the AGOA trade program",
-     "url": "https://apnews.com/article/trump-us-south-africa-rwanda-trade-agoa-5b18b1db8995fec67b28b9680d9d8424",
-     "via": "",
-     "published": "2026-11-02T21:05+00:00",
+     "published": "2026-11-03T05:50+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "US Moves to Revoke South Africa, Rwanda Duty-Free Trade Access",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-02/south-africa-rwanda-lose-access-to-preferential-us-trade-pact",
-     "via": "",
-     "published": "2026-11-02T17:04+00:00",
-     "summary": "The US announced plans to revoke South Africa and Rwanda’s access to a duty-free trade pact, intensifying pressure on two African nations whose relations with Washington have become increasingly fraught."
     }
    ],
    "id": 1
   },
   {
    "independent_outlets": 3,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "The Straits Times"
+    ]
+   ],
    "outlets": [
-    "Axios",
-    "Times of Israel",
-    "Al Arabiya"
+    "Euronews",
+    "Reuters",
+    "Nikkei Asia",
+    "The Straits Times"
    ],
    "regions": [
-    "Middle East",
-    "North America"
+    "East Asia",
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-10-31T14:27+00:00",
-   "earliest": "2026-10-31T12:05+00:00",
+   "latest": "2026-11-03T15:21+00:00",
+   "earliest": "2026-11-03T09:57+00:00",
    "items": [
     {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Iran's supreme leader orders \"maximum\" response to any U.S. attack",
-     "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "South Korea and Turkey sign financing pact as Seoul seeks role in planned nuclear power plant",
+     "url": "https://www.euronews.com/2026/11/03/south-korea-and-turkey-sign-financing-pact-as-seoul-seeks-role-in-planned-nuclear-power-pl",
      "via": "",
-     "published": "2026-10-31T14:27+00:00",
-     "summary": "Iran's Supreme Leader Mojtaba Khamenei told the country's top three military commanders that a renewed attack by the U.S. and Israel ״must be met with an immediate and effective response, without geographical limitations״ in order to achieve \"maximum deterrence,\" according to a statement from his office. Why it matters: This is the first publicly disclosed meeting between Khamenei and all the top "
+     "published": "2026-11-03T15:21+00:00",
+     "summary": "Turkey and South Korea are expanding nuclear, defence and trade ties. Their latest agreement explores funding for nuclear projects, while Ankara weighs potential partners for its planned Sinop plant."
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Khamenei said to order military response without ‘geographic limits’ if US, Israel attacks",
-     "url": "https://www.timesofisrael.com/khamenei-orders-military-response-without-geographic-limits-if-us-israel-attacks/",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "South Korea, Turkey to cooperate in nuclear, defence, infrastructure",
+     "url": "https://www.reuters.com/world/asia-pacific/south-korea-turkey-cooperate-nuclear-defence-infrastructure-2026-11-03/",
      "via": "",
-     "published": "2026-10-31T14:20+00:00",
+     "published": "2026-11-03T10:57+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran’s supreme leader warns US, Israel against new attacks",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/10/31/iran-s-supreme-leader-warns-us-israel-against-new-attacks",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "South Korea, Turkey to cooperate in nuclear, defense, infrastructure",
+     "url": "https://asia.nikkei.com/politics/international-relations/south-korea-turkey-to-cooperate-in-nuclear-defense-infrastructure",
      "via": "",
-     "published": "2026-10-31T12:05+00:00",
+     "published": "2026-11-03T10:48+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "South Korea, Turkey to cooperate in nuclear, defence, infrastructure",
+     "url": "https://www.straitstimes.com/asia/south-korea-turkey-to-cooperate-in-nuclear-defence-infrastructure",
+     "via": "",
+     "published": "2026-11-03T09:57+00:00",
+     "summary": "SEOUL, Nov 3 - South Korean President Lee Jae Myung and Turkish President Tayyip Erdogan agreed at a summit on Tuesday to expand cooperation in nuclear energy and defence, including on one of Turkey's biggest power projects, Lee said."
     }
    ],
    "id": 2
   },
   {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
+   "independent_outlets": 3,
+   "same_headline_groups": [],
    "outlets": [
+    "Nikkei Asia",
     "The Straits Times",
-    "Business Standard",
-    "Reuters"
+    "Business Standard"
    ],
    "regions": [
-    "Europe",
+    "East Asia",
     "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-02T17:05+00:00",
-   "earliest": "2026-11-02T05:08+00:00",
+   "latest": "2026-11-03T07:33+00:00",
+   "earliest": "2026-11-02T05:20+00:00",
    "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Bangladesh garment factories become second schools for women",
+     "url": "https://asia.nikkei.com/spotlight/esg/bangladesh-garment-factories-become-second-schools-for-women",
+     "via": "",
+     "published": "2026-11-03T07:33+00:00",
+     "summary": ""
+    },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
@@ -379,53 +392,404 @@
      "via": "",
      "published": "2026-11-02T05:20+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Bangladesh garment factories shut again as wage protests turn violent",
-     "url": "https://www.reuters.com/world/asia-pacific/bangladesh-garment-factories-reopen-wage-protests-keep-industry-edge-2026-11-02/",
-     "via": "",
-     "published": "2026-11-02T05:08+00:00",
-     "summary": ""
     }
    ],
    "id": 3
   },
   {
-   "independent_outlets": 2,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Bloomberg"
+    "Al Jazeera",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
-    "North America",
-    "South Asia"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-11-03T06:31+00:00",
-   "earliest": "2026-11-03T06:00+00:00",
+   "latest": "2026-11-03T15:47+00:00",
+   "earliest": "2026-11-03T12:59+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Central banks worldwide buy gold at fastest pace since 2024, says WGC",
-     "url": "https://www.business-standard.com/world-news/central-banks-worldwide-buy-gold-at-fastest-pace-since-2024-says-wgc-126110300572_1.html",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Syria says it foiled Hezbollah plot to target Homs oil refinery",
+     "url": "https://www.aljazeera.com/news/2026/11/3/syria-arrests-cell-it-links-to-isis-over-plot-against-oil-refinery?traffic_source=rss",
      "via": "",
-     "published": "2026-11-03T06:31+00:00",
+     "published": "2026-11-03T15:47+00:00",
+     "summary": "Hezbollah denies the Syrian accusations, reiterating that it does not have any presence on Syrian territory."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Syria says it foiled Hezbollah plot to attack Homs oil refinery",
+     "url": "https://www.reuters.com/world/middle-east/syria-says-it-foiled-hezbollah-plot-attack-homs-oil-refinery-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T14:30+00:00",
      "summary": ""
     },
     {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Central Banks Buy Gold at Fastest Pace Since 2024, WGC Says",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-03/central-banks-buy-gold-fastest-pace-since-2024-wgc-bullion-precious-metal",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Syria says foiled Hezbollah-linked plot to bomb oil refinery",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/03/syria-says-foiled-hezbollahlinked-plot-to-bomb-oil-refinery",
      "via": "",
-     "published": "2026-11-03T06:00+00:00",
-     "summary": "Central banks bought gold at the fastest pace since the end of 2024 in the third quarter, even as the metal faced pressure from higher oil prices and interest rates."
+     "published": "2026-11-03T12:59+00:00",
+     "summary": ""
     }
    ],
    "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "Associated Press"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-03T19:02+00:00",
+   "earliest": "2026-11-02T21:05+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "US Plans to End AGOA Trade Benefits for South Africa, Rwanda in 2027",
+     "url": "https://www.ecofinagency.com/news/0311-60450-us-plans-to-end-agoa-trade-benefits-for-south-africa-rwanda-in-2027",
+     "via": "",
+     "published": "2026-11-03T19:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump administration will cut South Africa and Rwanda from the AGOA trade program",
+     "url": "https://apnews.com/article/trump-us-south-africa-rwanda-trade-agoa-5b18b1db8995fec67b28b9680d9d8424",
+     "via": "",
+     "published": "2026-11-02T21:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-03T18:50+00:00",
+   "earliest": "2026-11-03T17:35+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Binance hackers used fake job interview in US$6.3 billion attack",
+     "url": "https://www.straitstimes.com/business/companies-markets/binance-hackers-used-fake-job-interview-in-us6-3-billion-attack",
+     "via": "",
+     "published": "2026-11-03T18:50+00:00",
+     "summary": "Fake job interviews are a well-known hacking technique."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Binance hackers used fake job interview in $6.3 billion attack",
+     "url": "https://www.reuters.com/world/binance-says-hackers-used-fake-job-interview-compromise-computer-before-63-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T17:35+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Axios"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-03T18:25+00:00",
+   "earliest": "2026-11-03T13:29+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump's Justice Dept identifies where US election monitors will be in the 50 states",
+     "url": "https://www.reuters.com/legal/government/trumps-justice-dept-identifies-where-us-election-monitors-will-be-50-states-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T18:25+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "DOJ sending 1,000 election monitors to all 50 states",
+     "url": "https://www.axios.com/2026/11/03/election-day-polls-doj-observers",
+     "via": "",
+     "published": "2026-11-03T13:29+00:00",
+     "summary": "The Justice Department said Tuesday it will deploy about 1,000 election monitors to all 50 states for the first time ever to watch the polls. Why it matters: The unprecedented effort comes after courts repeatedly rejected the DOJ's efforts to force states to restrict voting for alleged noncitizens. It comes amid a long-running Trump administration push to fight voter fraud , which studies say isn'"
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-03T18:06+00:00",
+   "earliest": "2026-11-03T10:32+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bomb threats on flights, cruise ship cause disruption in Europe, no devices found",
+     "url": "https://www.reuters.com/business/aerospace-defense/bomb-threats-reported-two-passenger-planes-warsaw-both-land-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T18:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Seven flights and cruise ship disrupted in Europe by bomb threats",
+     "url": "https://www.abc.net.au/news/2026-11-03/warsaw-airport-closed-after-unplanned-landing-of-london-plane/107343338",
+     "via": "",
+     "published": "2026-11-03T10:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-03T17:49+00:00",
+   "earliest": "2026-11-03T04:16+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Dollar Rises With US Yields as Focus on Iran Outweighs Election",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/dollar-rises-with-us-yields-as-focus-on-iran-outweighs-election",
+     "via": "",
+     "published": "2026-11-03T17:49+00:00",
+     "summary": "The dollar rose on Election Day in the US, buoyed by climbing Treasury yields and solid economic data, while traders monitored developments in the Middle East for a sense of the greenback’s direction."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+     "url": "https://www.reuters.com/world/india/gold-eases-ahead-us-midterm-elections-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T04:16+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-03T17:36+00:00",
+   "earliest": "2026-11-03T01:05+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-11-03T17:36+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say",
+     "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T01:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "Financial Times"
+   ],
+   "regions": [
+    "Africa",
+    "Europe"
+   ],
+   "latest": "2026-11-03T14:52+00:00",
+   "earliest": "2026-11-03T10:52+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Americans vote in midterm election that could upend Trump presidency",
+     "url": "http://www.africanews.com/2026/11/03/americans-vote-in-midterm-election-that-could-upend-trump-presidency/",
+     "via": "",
+     "published": "2026-11-03T14:52+00:00",
+     "summary": "Voters across the United States are going to the polls on Tuesday and Washington is bracing for a major upheaval. President Trump’s Republican Party currently holds both chambers of Congress. But poll watchers are predicting a Democratic wave that could see that all change."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Americans vote in election that doubles as referendum on Trump’s presidency",
+     "url": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-03T10:52+00:00",
+     "summary": "Republicans battle to retain majorities in Senate and House of Representatives"
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Korea Herald",
+    "Associated Press"
+   ],
+   "regions": [
+    "East Asia",
+    "North America"
+   ],
+   "latest": "2026-11-03T12:47+00:00",
+   "earliest": "2026-11-03T02:38+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "US strikes Iranian targets in Strait of Hormuz",
+     "url": "https://www.koreaherald.com/article/10924064",
+     "via": "",
+     "published": "2026-11-03T12:47+00:00",
+     "summary": "The United States conducted defensive strikes on Iranian targets in the Strait of Hormuz on Monday, a US official said, as diplomatic efforts continued to avert another major escalation between Washington and Tehran. The official, who was not authorized to comment publicly and spoke on condition of anonymity, said Iranian forces using surface-to-air missiles against US assets were targeted. Irania"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US has conducted defensive strikes on Iranian targets in the Strait of Hormuz, US official says",
+     "url": "https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309",
+     "via": "",
+     "published": "2026-11-03T02:38+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-03T12:03+00:00",
+   "earliest": "2026-11-03T09:25+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Congo seizes copper, cobalt in illegal mining crackdown",
+     "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
+     "via": "",
+     "published": "2026-11-03T12:03+00:00",
+     "summary": "Authorities confiscate hundreds of vehicles and thousands of tons of minerals as Congo steps up enforcement at mine sites."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Congo to probe illegal mining after seizing copper and cobalt",
+     "url": "https://www.miningweekly.com/article/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt-2026-11-03",
+     "via": "",
+     "published": "2026-11-03T09:25+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "The Hindu"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-03T10:23+00:00",
+   "earliest": "2026-11-01T10:48+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "South Africa's diesel price to drop, petrol little changed after levy cut",
+     "url": "https://www.reuters.com/world/africa/south-africas-diesel-price-drop-petrol-little-changed-after-levy-cut-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T10:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Petrol export duty cut to nil, diesel levy raised by ₹3 a litre",
+     "url": "https://www.thehindu.com/business/petrol-export-duty-cut-to-nil-diesel-levy-raised-by-3-a-litre/article71649004.ece",
+     "via": "",
+     "published": "2026-11-01T10:48+00:00",
+     "summary": "The government’s fortnightly review raised the export levy on diesel to ₹11.5 per litre from ₹8.5 and on aviation turbine fuel to ₹11 per litre from ₹10.5, while India’s diesel exports touched 700 kilo barrels per day in October, the highest since September 2025, according to Kpler"
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -438,17 +802,17 @@
     "Europe",
     "Oceania"
    ],
-   "latest": "2026-11-03T06:30+00:00",
+   "latest": "2026-11-03T10:13+00:00",
    "earliest": "2026-11-02T14:21+00:00",
    "items": [
     {
      "outlet": "Euronews",
      "region": "Europe",
-     "title": "Why are supermarket freezers being hacked across Europe and could AI make it worse?",
-     "url": "https://www.euronews.com/2026/11/03/why-are-supermarket-freezers-being-hacked-across-europe-and-could-ai-make-it-worse",
+     "title": "Which countries in Europe have been hit by supermarket fridge cyber incidents?",
+     "url": "https://www.euronews.com/2026/11/03/which-countries-in-europe-have-been-hit-by-supermarket-fridge-cyber-incidents",
      "via": "",
-     "published": "2026-11-03T06:30+00:00",
-     "summary": "Who is responsible for the cyber attacks on supermarket freezers in Europe and why will it get worse with AI? Euronews Next spoke to cybersecurity experts for answers."
+     "published": "2026-11-03T10:13+00:00",
+     "summary": "A total of nine countries have been affected by suspected cyber attacks on 2 November that turned fridges onto defrost setting, including Belgium, Estonia, Finland, Ireland, and Italy."
     },
     {
      "outlet": "ABC News (Australia)",
@@ -460,134 +824,29 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 15
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-03T06:22+00:00",
-   "earliest": "2026-11-03T06:00+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "India tax hike drives illegal gold imports to highest level since 2023",
-     "url": "https://www.business-standard.com/economy/news/india-tax-hike-drives-illegal-gold-imports-to-highest-level-since-2023-126110300555_1.html",
-     "via": "",
-     "published": "2026-11-03T06:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "India’s Tax Hike Drives Illegal Gold Imports to Three-Year High",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-03/india-tax-hike-drives-illegal-gold-imports-to-three-year-high",
-     "via": "",
-     "published": "2026-11-03T06:00+00:00",
-     "summary": "India’s illegal gold imports surged to the highest since 2023 in the third quarter as a government duty hike spurred use of unofficial channels, according to a report from the World Gold Council."
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-03T05:15+00:00",
-   "earliest": "2026-11-03T04:14+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Australia's central bank lifts rates to 18-year high in split vote",
-     "url": "https://asia.nikkei.com/economy/australia-s-central-bank-lifts-rates-to-18-year-high-in-split-vote",
-     "via": "",
-     "published": "2026-11-03T05:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Australia's central bank lifts rates to 18-year high, split vote points to pause ahead",
-     "url": "https://www.reuters.com/world/asia-pacific/australias-central-bank-lifts-rates-18-year-high-split-vote-points-pause-ahead-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T04:14+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
+    "Mining Weekly",
     "MINING.COM"
    ],
    "regions": [
-    "North America",
-    "Oceania"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-11-03T04:52+00:00",
-   "earliest": "2026-11-02T16:03+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Citi cuts lithium price forecasts as battery demand concerns grow",
-     "url": "https://mining.com.au/citi-cuts-lithium-price-forecasts-as-battery-demand-concerns-grow/",
-     "via": "",
-     "published": "2026-11-03T04:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Citi slashes lithium price forecast by 40% on lower demand",
-     "url": "https://www.mining.com/citi-slashes-lithium-price-forecast-by-40-on-lower-demand/",
-     "via": "",
-     "published": "2026-11-02T16:03+00:00",
-     "summary": "The bank cut its estimates for the battery ingredient through the end of 2028, expecting the market to reach a surplus."
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-03T03:15+00:00",
+   "latest": "2026-11-03T10:00+00:00",
    "earliest": "2026-11-02T15:39+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Hudbay backs Pecoy Copper in $51 million raise",
-     "url": "https://mining.com.au/hudbay-backs-pecoy-copper-in-51-million-raise/",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Pecoy Copper secures C$49.8m strategic financing from Hudbay, another investor",
+     "url": "https://www.miningweekly.com/article/pecoy-copper-secures-c498m-strategic-financing-from-hudbay-another-investor-2026-11-03",
      "via": "",
-     "published": "2026-11-03T03:15+00:00",
+     "published": "2026-11-03T10:00+00:00",
      "summary": ""
     },
     {
@@ -600,77 +859,42 @@
      "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
     }
    ],
-   "id": 9
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
+    "Livemint / Economic Times",
+    "Associated Press"
    ],
    "regions": [
     "North America",
-    "Oceania"
+    "South Asia"
    ],
-   "latest": "2026-11-03T03:15+00:00",
-   "earliest": "2026-11-02T13:06+00:00",
+   "latest": "2026-11-03T07:33+00:00",
+   "earliest": "2026-11-01T14:25+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Mayfair Gold’s Fenn-Gib Project selected for Ontario fast-track",
-     "url": "https://mining.com.au/mayfair-golds-fenn-gib-project-selected-for-ontario-fast-track/",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Indian Navy rescues 20 Iranian crew members of fishing vessel Azini hijacked by Somali pirates after 48-hour operation",
+     "url": "https://www.livemint.com/news/india/indian-navy-rescues-20-iranian-crew-members-of-fishing-vessel-azini-hijacked-by-somali-pirates-after-48-hour-operation-11793690593458.html",
      "via": "",
-     "published": "2026-11-03T03:15+00:00",
-     "summary": ""
+     "published": "2026-11-03T07:33+00:00",
+     "summary": "India’s Navy rescued 20 Iranian crew members from the hijacked fishing vessel Azini off Somalia, using surveillance and a coordinated tactical operation supported by the Air Force. Iran praised the rescue, which comes amid a sharp rise in Somali pirate attacks in 2026."
     },
     {
-     "outlet": "MINING.COM",
+     "outlet": "Associated Press",
      "region": "North America",
-     "title": "Ontario fast-tracks Mayfair’s Fenn-Gib gold project",
-     "url": "https://www.mining.com/ontario-fast-tracks-mayfairs-fenn-gib-gold-project/",
+     "title": "Somali pirates seize Iranian fishing vessel, raising fears of attacks on cargo ships",
+     "url": "https://apnews.com/article/somalia-pirates-hijacking-iranian-fishing-vessel-dd4d404235781a3b871668c353540e4c",
      "via": "",
-     "published": "2026-11-02T13:06+00:00",
-     "summary": "The Fenn-Gib gold project is the fourth chosen under the province's One Project, One Process framework."
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "VnExpress International"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-03T03:09+00:00",
-   "earliest": "2026-11-02T07:15+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Gold price rebounds from year low ahead of US midterms",
-     "url": "https://mining.com.au/gold-price-rebounds-from-year-low-ahead-of-us-midterms/",
-     "via": "",
-     "published": "2026-11-03T03:09+00:00",
+     "published": "2026-11-01T14:25+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Gold prices rebound from 4-month low",
-     "url": "https://e.vnexpress.net/news/business/markets/gold-prices-rebound-from-4-month-low-5139724.html",
-     "via": "",
-     "published": "2026-11-02T07:15+00:00",
-     "summary": "Vietnam's gold prices bounced back from a four-month low on Monday amid a recovery in global bullion rates."
     }
    ],
-   "id": 11
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -705,77 +929,7 @@
      "summary": "Unlike ballistic missile launches, North Korean cruise missile tests are not prohibited by UN Security Council sanctions."
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Euronews"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-03T02:07+00:00",
-   "earliest": "2026-11-02T11:38+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Apple's record holiday sales outlook faces costly test from memory inflation, AI spending",
-     "url": "https://www.digitimes.com/news/a20261103VL206/apple-sales-outlook-memory-chips-price.html",
-     "via": "",
-     "published": "2026-11-03T02:07+00:00",
-     "summary": "Apple expects record holiday-quarter revenue, but surging memory prices, supply constraints, and rising Siri AI costs threaten profitability, putting new CEO John Ternus to an early test on the company's pricing power and investment strategy. The central question is no longer whether Apple can sustain sales growth, but how much of that growth it can convert into profit."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Apple's new CEO faces earnings test as rising chip costs cloud outlook",
-     "url": "https://www.euronews.com/2026/11/02/apples-new-ceo-faces-earnings-test-as-rising-chip-costs-cloud-outlook",
-     "via": "",
-     "published": "2026-11-02T11:38+00:00",
-     "summary": "Investors want clarity on Christmas sales, rising memory costs and Apple's AI plans as John Ternus prepares to lead his first earnings call since taking over from Tim Cook."
-    }
-   ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-03T01:05+00:00",
-   "earliest": "2026-11-03T00:00+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say",
-     "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T01:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-03T00:00+00:00",
-     "summary": "US forces target Iranian positions in the Strait of Hormuz in \"defensive\" strikes following missile threats."
-    }
-   ],
-   "id": 14
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -810,42 +964,42 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Hellenic Shipping News",
-    "gCaptain"
+    "Axios",
+    "Times of Israel"
    ],
    "regions": [
-    "Europe",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-11-02T22:00+00:00",
-   "earliest": "2026-11-02T21:06+00:00",
+   "latest": "2026-11-02T21:01+00:00",
+   "earliest": "2026-11-02T18:23+00:00",
    "items": [
     {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Alternative-fuel ships outpace port readiness, new LR report finds",
-     "url": "https://www.hellenicshippingnews.com/alternative-fuel-ships-outpace-port-readiness-new-lr-report-finds/",
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump to Axios: \"No rush\" to decide on bombing Iran again",
+     "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war",
      "via": "",
-     "published": "2026-11-02T22:00+00:00",
-     "summary": "Alternative-fuel vessel orders are outpacing the development of the port infrastructure needed to support them, according to a new global study by Lloyd’s Register (LR), highlighting a growing gap between ship capability and fuel availability. LR’s new Fuel for Thought: Ports report finds that 1,942 alternative-fuel-capable vessels were on order in January 2026, with alternative-fuel ..."
+     "published": "2026-11-02T21:01+00:00",
+     "summary": "President Trump told Axios in a phone interview Monday he's \"in no rush\" to decide whether to resume fighting in Iran . Why it matters: The midterm elections have been seen as an inflection point for Trump on whether to unleash a massive bombing campaign to try to bring the war to an end. But it appears the president, at least for now, will continue on dual tracks — letting negotiations play out w"
     },
     {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Alternative-Fuel Ship Orders Outpace Port Bunkering Infrastructure, Lloyd’s Register Warns",
-     "url": "https://gcaptain.com/alternative-fuel-ship-orders-outpace-port-bunkering-infrastructure-lloyds-register-warns/",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Trump reportedly in no rush to decide whether to resume war with Iran",
+     "url": "https://www.timesofisrael.com/liveblog_entry/trump-reportedly-in-no-rush-to-decide-whether-to-resume-war-with-iran/",
      "via": "",
-     "published": "2026-11-02T21:06+00:00",
-     "summary": "The global shipping industry is ordering alternative-fuel vessels faster than ports can develop the infrastructure needed to fuel them, according to a new report from Lloyd’s Register (LR), highlighting a..."
+     "published": "2026-11-02T18:23+00:00",
+     "summary": ""
     }
    ],
-   "id": 16
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -880,112 +1034,42 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 21
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Caixin Global",
-    "The Jakarta Post"
+    "Africanews",
+    "Times of Israel"
    ],
    "regions": [
-    "China",
-    "Southeast Asia"
+    "Africa",
+    "Middle East"
    ],
-   "latest": "2026-11-02T06:43+00:00",
-   "earliest": "2026-10-31T10:43+00:00",
+   "latest": "2026-11-02T09:57+00:00",
+   "earliest": "2026-11-02T09:17+00:00",
    "items": [
     {
-     "outlet": "Caixin Global",
-     "region": "China",
-     "title": "China’s Manufacturing Activity Returns to Contraction",
-     "url": "https://www.caixinglobal.com/2026-11-02/chinas-manufacturing-activity-returns-to-contraction-102499864.html",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Iran proposes two-day plan to reopen Strait of Hormuz",
+     "url": "http://www.africanews.com/2026/11/02/iran-proposes-two-day-plan-to-reopen-strait-of-hormuz/",
      "via": "",
-     "published": "2026-11-02T06:43+00:00",
-     "summary": ""
+     "published": "2026-11-02T09:57+00:00",
+     "summary": "Iran has agreed to a \"two-day plan\" to reopen the Strait of Hormuz, shortening its earlier seven-day proposal, Iranian Foreign Minister Seyed Abbas Araghchi said on Sunday, as an Iranian delegation continues talks with mediators in Qatar."
     },
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "China's factory activity returns to contraction in October",
-     "url": "https://www.thejakartapost.com/business/2026/10/31/chinas-factory-activity-returns-to-contraction-in-october",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran says considering two-day plan to reopen Hormuz if US meets its ‘demands’",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-considering-two-day-plan-to-reopen-hormuz-if-us-meets-its-demands/",
      "via": "",
-     "published": "2026-10-31T10:43+00:00",
+     "published": "2026-11-02T09:17+00:00",
      "summary": ""
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-02T06:19+00:00",
-   "earliest": "2026-11-02T01:32+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Why Tesla, Samsung are pushing back against new US tariffs on Vietnam",
-     "url": "https://www.business-standard.com/world-news/tesla-samsung-fresh-us-tariffs-vietnam-trump-trade-exports-investigation-126110200381_1.html",
-     "via": "",
-     "published": "2026-11-02T06:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Tesla, Samsung oppose new US tariffs on Vietnam as probe deadline nears",
-     "url": "https://www.thejakartapost.com/business/2026/11/02/tesla-samsung-oppose-new-us-tariffs-on-vietnam-as-probe-deadline-nears",
-     "via": "",
-     "published": "2026-11-02T01:32+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-02T02:14+00:00",
-   "earliest": "2026-11-02T01:56+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Singapore, Argentina deepen trade ties as key South American trade pact enters into force",
-     "url": "https://www.straitstimes.com/business/singapore-argentina-deepen-trade-ties-as-key-south-american-trade-pact-enters-into-force",
-     "via": "",
-     "published": "2026-11-02T02:14+00:00",
-     "summary": "The Mercosur-Singapore Free Trade Agreement eliminates import tariffs on 96% of products for up to 15 years."
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Sanya and Maldives Sign Agreements to Deepen Trade and Investment Ties",
-     "url": "https://english.kyodonews.net/articles/-/90104",
-     "via": "",
-     "published": "2026-11-02T01:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1020,75 +1104,75 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Livemint / Economic Times"
+    "Al Jazeera",
+    "Al Arabiya"
    ],
    "regions": [
-    "South Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-03T05:08+00:00",
-   "earliest": "2026-11-03T04:55+00:00",
+   "latest": "2026-11-03T19:09+00:00",
+   "earliest": "2026-11-03T15:55+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Crude-sensitive stocks gain as oil stays below $105; HPCL, IndiGo rise",
-     "url": "https://www.business-standard.com/markets/news/crude-sensitive-stocks-gain-as-oil-stays-below-105-hpcl-indigo-rise-126110300400_1.html",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Yemen gov’t accuses IRGC, Hezbollah of sending 21 experts to back Houthis",
+     "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
      "via": "",
-     "published": "2026-11-03T05:08+00:00",
-     "summary": ""
+     "published": "2026-11-03T19:09+00:00",
+     "summary": "Yemeni interior minister says foreign involvement expanded beyond arms and training to directing military operations."
     },
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "IndiGo, Indian Oil and other crude-sensitive stocks rally up to 4% as oil dips below $105/bbl. Where are prices headed?",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/indigo-indian-oil-and-other-crude-sensitive-stocks-rally-up-to-4-as-oil-dips-below-105/bbl-where-are-prices-headed/articleshow/135482481.cms",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Yemen says Iranian, Hezbollah ‘general staff’ directing Houthi operations",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/03/yemen-says-iranian-hezbollah-general-staff-directing-houthi-operations",
      "via": "",
-     "published": "2026-11-03T04:55+00:00",
-     "summary": "Crude-sensitive stocks such as IndiGo, BPCL, HPCL and Indian Oil rallied up to 4% as oil prices declined for a second consecutive session amid US-Iran peace talks. Upstream stocks ONGC and Oil India, however, fell up to 2%. Lower crude prices typically benefit downstream companies by easing input costs and supporting refining and marketing margins."
+     "published": "2026-11-03T15:55+00:00",
+     "summary": ""
     }
    ],
-   "id": 22
+   "id": 24
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Financial Times"
+    "Deutsche Welle",
+    "Reuters"
    ],
    "regions": [
     "Europe"
    ],
-   "latest": "2026-11-03T04:27+00:00",
-   "earliest": "2026-11-03T04:11+00:00",
+   "latest": "2026-11-03T11:32+00:00",
+   "earliest": "2026-11-03T06:13+00:00",
    "items": [
     {
-     "outlet": "Euronews",
+     "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "US strikes Iran's Qeshm Island ahead of midterm elections",
-     "url": "https://www.euronews.com/2026/11/03/us-strikes-irans-qeshm-island-ahead-of-midterm-elections",
+     "title": "Asian Cup postponed due to Middle East conflict",
+     "url": "https://www.dw.com/en/asian-cup-postponed-due-to-middle-east-conflict/a-79837334?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-11-03T04:27+00:00",
-     "summary": "The strikes on Iran come on the eve of US midterm elections, and just hours after Trump signalled progress in negotiations with Tehran."
+     "published": "2026-11-03T11:32+00:00",
+     "summary": "The Asian Cup has become the latest sporting event to be affected by the ongoing conflict in the Middle East. Organizers cite \"exceptional circumstances\" in Saudi Arabia, which has seen several Houthi attacks of late."
     },
     {
-     "outlet": "Financial Times",
+     "outlet": "Reuters",
      "region": "Europe",
-     "title": "US strikes Iran’s Qeshm Island on eve of election",
-     "url": "https://www.ft.com/content/ebeaca62-8958-459a-be9d-d3d39e441a53?syn-25a6b1a6=1",
+     "title": "Asian Cup postponed until late 2027 due to attacks on Saudi Arabia",
+     "url": "https://www.reuters.com/sports/soccer/asian-cup-postponed-until-december-2027-afc-says-2026-11-03/",
      "via": "",
-     "published": "2026-11-03T04:11+00:00",
-     "summary": "Oil price steady as Washington says attacks were defensive measure against Tehran’s potential use of surface-to-air missiles"
+     "published": "2026-11-03T06:13+00:00",
+     "summary": ""
     }
    ],
-   "id": 23
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1122,7 +1206,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1156,7 +1240,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 27
   }
  ]
 }
