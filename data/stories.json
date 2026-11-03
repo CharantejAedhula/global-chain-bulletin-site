@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-03T02:56:12+00:00",
+ "fetched_at": "2026-11-03T03:53:21+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 42,
- "items_read": 558,
+ "items_read": 567,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 15,
+   "items": 12,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Caixin Global": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Kyodo News": {
@@ -62,7 +62,7 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
@@ -92,7 +92,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Al Jazeera": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 36,
+   "items": 38,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 8,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
+   "items": 18,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 11,
+   "items": 15,
    "errors": []
   },
   "RNZ": {
@@ -189,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 16,
+   "items": 14,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "The Jakarta Post": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 9,
    "errors": []
   },
   "Newsroom Panama": {
@@ -368,114 +368,6 @@
    "id": 2
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times",
-    "Reuters",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-03T01:45+00:00",
-   "earliest": "2026-11-03T00:00+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US strikes Iran's Qeshm Island, oil prices rise as fears of renewed conflict and disruptions mount",
-     "url": "https://www.livemint.com/news/world/us-strikes-irans-qeshm-island-oil-prices-rise-as-fears-of-renewed-conflict-and-strait-of-hormuz-supply-disruptions-mou-11793669761803.html",
-     "via": "",
-     "published": "2026-11-03T01:45+00:00",
-     "summary": "The US strikes on Iran's Qeshm Island have pushed oil prices up 0.5% in early Asian trading. The attacks have revived concerns over an escalation of the conflict and prolonged disruption to oil supplies through the Strait of Hormuz."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Oil rises after report of US strike on Iran’s Qeshm Island",
-     "url": "https://www.straitstimes.com/business/oil-rises-after-report-of-us-strike-on-irans-qeshm-island",
-     "via": "",
-     "published": "2026-11-03T01:40+00:00",
-     "summary": "Earlier, US and Iran signalled that diplomatic talks are continuing."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Oil rises after report of US strike on Iran's Qeshm Island",
-     "url": "https://www.reuters.com/markets/commodities/oil-rises-after-report-us-strike-irans-qeshm-island-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T01:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-03T00:00+00:00",
-     "summary": "US forces target Iranian positions in the Strait of Hormuz in \"defensive\" strikes following missile threats."
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-02T11:04+00:00",
-   "earliest": "2026-11-02T07:04+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Gold Fields gains Windfall environmental approval",
-     "url": "https://mining.com.au/gold-fields-gains-windfall-environmental-approval/",
-     "via": "",
-     "published": "2026-11-02T11:04+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Gold Fields clears major hurdle for Quebec’s Windfall gold mine",
-     "url": "https://www.mining.com/gold-fields-clears-major-hurdle-for-quebecs-windfall-gold-mine/",
-     "via": "",
-     "published": "2026-11-02T10:44+00:00",
-     "summary": "Quebec grants environmental approval for Windfall, advancing a high-grade project toward a 2027 investment decision."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Quebec Ministry grants enviro authorisation for Gold Fields' Windfall project",
-     "url": "https://www.miningweekly.com/article/quebec-ministry-grants-enviro-authorisation-for-gold-fields-windfall-project-2026-11-02",
-     "via": "",
-     "published": "2026-11-02T07:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
@@ -503,7 +395,7 @@
      "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-factories-shut-again-as-wage-protests-turn-violent",
      "via": "",
      "published": "2026-11-02T17:05+00:00",
-     "summary": "Workers blocked roads, vandalised factories and clashed with police in manufacturing districts, prompting 679 factories to halt production."
+     "summary": "Workers blocked roads and clashed with police in manufacturing districts, prompting 679 factories to halt production."
     },
     {
      "outlet": "Business Standard",
@@ -524,42 +416,147 @@
      "summary": ""
     }
    ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-03T03:05+00:00",
+   "earliest": "2026-11-02T15:39+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Hudbay backs Pecoy Copper in $51 million raise",
+     "url": "https://mining.com.au/hudbay-backs-pecoy-copper-in-51-million-raise/",
+     "via": "",
+     "published": "2026-11-03T03:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Hudbay leads $49.8M investment in Pecoy Copper",
+     "url": "https://www.mining.com/hudbay-leads-49-8m-investment-in-pecoy-copper/",
+     "via": "",
+     "published": "2026-11-02T15:39+00:00",
+     "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-03T03:00+00:00",
+   "earliest": "2026-11-02T13:06+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Mayfair Gold’s Fenn-Gib Project selected for Ontario fast-track",
+     "url": "https://mining.com.au/mayfair-golds-fenn-gib-project-selected-for-ontario-fast-track/",
+     "via": "",
+     "published": "2026-11-03T03:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Ontario fast-tracks Mayfair’s Fenn-Gib gold project",
+     "url": "https://www.mining.com/ontario-fast-tracks-mayfairs-fenn-gib-gold-project/",
+     "via": "",
+     "published": "2026-11-02T13:06+00:00",
+     "summary": "The Fenn-Gib gold project is the fourth chosen under the province's One Project, One Process framework."
+    }
+   ],
    "id": 5
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times"
+    "DigiTimes",
+    "Euronews"
    ],
    "regions": [
-    "South Asia",
-    "Southeast Asia"
+    "East Asia",
+    "Europe"
    ],
-   "latest": "2026-11-03T01:03+00:00",
-   "earliest": "2026-11-03T01:00+00:00",
+   "latest": "2026-11-03T02:07+00:00",
+   "earliest": "2026-11-02T11:38+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Global Market Today: Asian stocks slide as US chip selloff deepens",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-slide-as-us-chip-selloff-deepens/articleshow/135478154.cms",
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Apple's record holiday sales outlook faces costly test from memory inflation, AI spending",
+     "url": "https://www.digitimes.com/news/a20261103VL206/apple-sales-outlook-memory-chips-price.html",
      "via": "",
-     "published": "2026-11-03T01:03+00:00",
-     "summary": "The MSCI Asia Pacific gauge dropped 0.4% with South Korea’s Kospi Index sliding almost 3%. In the US, a gauge of chipmakers extended a three-day rout to 12% and the Nasdaq 100 sank 10% from its peak, entering a technical correction. In a sign some investors are looking to buy on dips, US stock futures gained. Japan is closed for a holiday."
+     "published": "2026-11-03T02:07+00:00",
+     "summary": "Apple expects record holiday-quarter revenue, but surging memory prices, supply constraints, and rising Siri AI costs threaten profitability, putting new CEO John Ternus to an early test on the company's pricing power and investment strategy. The central question is no longer whether Apple can sustain sales growth, but how much of that growth it can convert into profit."
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Asian stocks fall after US losses, oil holds drop",
-     "url": "https://www.straitstimes.com/business/asian-stocks-fall-after-us-losses-oil-holds-drop",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Apple's new CEO faces earnings test as rising chip costs cloud outlook",
+     "url": "https://www.euronews.com/2026/11/02/apples-new-ceo-faces-earnings-test-as-rising-chip-costs-cloud-outlook",
      "via": "",
-     "published": "2026-11-03T01:00+00:00",
-     "summary": "The MSCI Asia Pacific gauge dropped 0.5% with South Korea’s Kospi Index dropping more than 3%."
+     "published": "2026-11-02T11:38+00:00",
+     "summary": "Investors want clarity on Christmas sales, rising memory costs and Apple's AI plans as John Ternus prepares to lead his first earnings call since taking over from Tim Cook."
     }
    ],
    "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-03T01:05+00:00",
+   "earliest": "2026-11-03T00:00+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say",
+     "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T01:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: US carries out ‘defensive’ strikes in Strait of Hormuz",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-03T00:00+00:00",
+     "summary": "US forces target Iranian positions in the Strait of Hormuz in \"defensive\" strikes following missile threats."
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -594,7 +591,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -629,7 +626,42 @@
      "summary": "The global shipping industry is ordering alternative-fuel vessels faster than ports can develop the infrastructure needed to fuel them, according to a new report from Lloyd’s Register (LR), highlighting a..."
     }
    ],
-   "id": 8
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-02T19:16+00:00",
+   "earliest": "2026-11-02T16:03+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Citi cuts lithium price forecasts as battery demand concerns grow",
+     "url": "https://mining.com.au/citi-cuts-lithium-price-forecasts-as-battery-demand-concerns-grow/",
+     "via": "",
+     "published": "2026-11-02T19:16+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Citi slashes lithium price forecast by 40% on lower demand",
+     "url": "https://www.mining.com/citi-slashes-lithium-price-forecast-by-40-on-lower-demand/",
+     "via": "",
+     "published": "2026-11-02T16:03+00:00",
+     "summary": "The bank cut its estimates for the battery ingredient through the end of 2028, expecting the market to reach a surplus."
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -664,7 +696,42 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-02T10:44+00:00",
+   "earliest": "2026-11-02T07:04+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Gold Fields clears major hurdle for Quebec’s Windfall gold mine",
+     "url": "https://www.mining.com/gold-fields-clears-major-hurdle-for-quebecs-windfall-gold-mine/",
+     "via": "",
+     "published": "2026-11-02T10:44+00:00",
+     "summary": "Quebec grants environmental approval for Windfall, advancing a high-grade project toward a 2027 investment decision."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Quebec Ministry grants enviro authorisation for Gold Fields' Windfall project",
+     "url": "https://www.miningweekly.com/article/quebec-ministry-grants-enviro-authorisation-for-gold-fields-windfall-project-2026-11-02",
+     "via": "",
+     "published": "2026-11-02T07:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -699,7 +766,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -734,7 +801,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -769,7 +836,41 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "BNamericas"
+   ],
+   "regions": [
+    "Latin America"
+   ],
+   "latest": "2026-11-03T02:22+00:00",
+   "earliest": "2026-11-02T12:24+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Miner Vale Slips 0.44% as Rio Tinto Gains 1.03% | Iron Ore, Nov 2",
+     "url": "https://www.riotimesonline.com/iron-ore-markets-latam-monday-november-2-2026/",
+     "via": "",
+     "published": "2026-11-03T02:22+00:00",
+     "summary": "Brazil's Vale slipped 0.44% to US$11.34 in New York on 2 November while the B3 exchange in Brazil was closed; Rio Tinto rose 1.03%. The post Miner Vale Slips 0.44% as Rio Tinto Gains 1.03% | Iron Ore, Nov 2 appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Brazil's Vale obtains authorization to expand Fazendão iron ore mine",
+     "url": "https://www.bnamericas.com/en/news/brazils-vale-obtains-authorization-to-expand-fazendao-iron-ore-mine",
+     "via": "",
+     "published": "2026-11-02T12:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -803,41 +904,7 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-01T14:57+00:00",
-   "earliest": "2026-10-31T12:37+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iranian negotiators hold third day of talks in Qatar to end US-Iran war",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/01/iranian-negotiators-hold-third-day-of-talks-in-qatar-to-end-usiran-war",
-     "via": "",
-     "published": "2026-11-01T14:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran negotiators in Doha for Qatar-mediated talks to end US-Iran war, official confirms",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-negotiators-in-doha-for-qatar-mediated-talks-to-end-us-iran-war-official-confirms/",
-     "via": "",
-     "published": "2026-10-31T12:37+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -871,7 +938,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 18
   }
  ]
 }
