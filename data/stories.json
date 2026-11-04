@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-03T20:17:38+00:00",
+ "fetched_at": "2026-11-04T00:12:16+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 691,
+ "outlets_read": 44,
+ "items_read": 688,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "The Africa Report": {
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 24,
+   "items": 14,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Caixin Global": {
@@ -37,7 +37,7 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Mysteel": {
@@ -47,12 +47,12 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 9,
+   "items": 5,
    "errors": []
   },
   "The Korea Herald": {
@@ -62,7 +62,7 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 37,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
@@ -82,15 +82,13 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 0,
-   "errors": [
-    "https://www.hellenicshippingnews.com/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 19,
+   "errors": []
   },
   "Seatrade Maritime": {
    "region": "Europe",
@@ -99,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -119,34 +117,34 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 25,
+   "items": 23,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 17,
+   "items": 20,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 23,
+   "items": 25,
    "errors": []
   },
   "gCaptain": {
@@ -156,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 23,
+   "items": 28,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 10,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "RNZ": {
@@ -191,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,12 +206,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 10,
    "errors": []
   },
   "VnExpress International": {
@@ -228,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -247,43 +245,43 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "MINING.COM",
-    "Mining.com.au",
-    "Mining Weekly"
+    "Nikkei Asia",
+    "The Straits Times",
+    "Reuters"
    ],
    "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
+    "East Asia",
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-03T17:43+00:00",
-   "earliest": "2026-11-03T05:50+00:00",
+   "latest": "2026-11-04T00:04+00:00",
+   "earliest": "2026-11-03T17:35+00:00",
    "items": [
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "MMG, Anglo American extend $500 million nickel deal deadline",
-     "url": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Binance hackers used fake job interview, tampered software in $6.3bn attack",
+     "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/binance-hackers-used-fake-job-interview-tampered-software-in-6.3bn-attack",
      "via": "",
-     "published": "2026-11-03T17:43+00:00",
-     "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production."
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "MMG extends Anglo nickel deal deadline",
-     "url": "https://mining.com.au/mmg-extends-anglo-nickel-deal-deadline/",
-     "via": "",
-     "published": "2026-11-03T07:07+00:00",
+     "published": "2026-11-04T00:04+00:00",
      "summary": ""
     },
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
-     "url": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Binance hackers used fake job interview in US$6.3 billion attack",
+     "url": "https://www.straitstimes.com/business/companies-markets/binance-hackers-used-fake-job-interview-in-us6-3-billion-attack",
      "via": "",
-     "published": "2026-11-03T05:50+00:00",
+     "published": "2026-11-03T18:50+00:00",
+     "summary": "Fake job interviews are a well-known hacking technique."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Binance hackers used fake job interview in $6.3 billion attack",
+     "url": "https://www.reuters.com/world/binance-says-hackers-used-fake-job-interview-compromise-computer-before-63-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T17:35+00:00",
      "summary": ""
     }
    ],
@@ -397,49 +395,144 @@
    "id": 3
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "Al Arabiya"
+    "Associated Press",
+    "Reuters"
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "North America"
    ],
-   "latest": "2026-11-03T15:47+00:00",
-   "earliest": "2026-11-03T12:59+00:00",
+   "latest": "2026-11-03T23:25+00:00",
+   "earliest": "2026-11-03T21:44+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Syria says it foiled Hezbollah plot to target Homs oil refinery",
-     "url": "https://www.aljazeera.com/news/2026/11/3/syria-arrests-cell-it-links-to-isis-over-plot-against-oil-refinery?traffic_source=rss",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Man charged with mailing hundreds of letters containing powder to officials ahead of the election",
+     "url": "https://apnews.com/article/white-powder-mailed-letters-lawmakers-election-f1e30668cbcc84e82849575bdc9d4166",
      "via": "",
-     "published": "2026-11-03T15:47+00:00",
-     "summary": "Hezbollah denies the Syrian accusations, reiterating that it does not have any presence on Syrian territory."
+     "published": "2026-11-03T23:25+00:00",
+     "summary": ""
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Syria says it foiled Hezbollah plot to attack Homs oil refinery",
-     "url": "https://www.reuters.com/world/middle-east/syria-says-it-foiled-hezbollah-plot-attack-homs-oil-refinery-2026-11-03/",
+     "title": "Oklahoma City man charged over threatening letters to election officials",
+     "url": "https://www.reuters.com/world/oklahoma-city-man-charged-with-sending-hundreds-threatening-letters-2026-11-03/",
      "via": "",
-     "published": "2026-11-03T14:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Syria says foiled Hezbollah-linked plot to bomb oil refinery",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/03/syria-says-foiled-hezbollahlinked-plot-to-bomb-oil-refinery",
-     "via": "",
-     "published": "2026-11-03T12:59+00:00",
+     "published": "2026-11-03T21:44+00:00",
      "summary": ""
     }
    ],
    "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-03T20:22+00:00",
+   "earliest": "2026-11-02T14:21+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Italy holds emergency talks as supermarket fridge attacks spread across Europe",
+     "url": "https://www.euronews.com/2026/11/03/italy-holds-emergency-talks-as-supermarket-fridge-attacks-spread-across-europe",
+     "via": "",
+     "published": "2026-11-03T20:22+00:00",
+     "summary": "The EU says the cyberattacks are a deliberate attempt to disrupt the food supply chain, but Romania’s cyber chief calls them “semi-amateurish”."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Cyber attack on fridges hits supermarkets across Europe",
+     "url": "https://www.abc.net.au/news/2026-11-03/european-grocers-report-fridge-cyber-incidents/107338760",
+     "via": "",
+     "published": "2026-11-02T14:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Africa",
+    "Europe"
+   ],
+   "latest": "2026-11-03T20:17+00:00",
+   "earliest": "2026-11-03T18:08+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "King Charles addresses 'monstrous injustice' of slavery as UK PM mulls apology",
+     "url": "http://www.africanews.com/2026/11/03/king-charles-addresses-monstrous-injustice-of-slavery-as-uk-pm-mulls-apology/",
+     "via": "",
+     "published": "2026-11-03T20:17+00:00",
+     "summary": "The transatlantic slave trade was a ‘monstrous injustice,’ Britain’s King Charles III said on Tuesday in a speech to Commonwealth leaders. But he stopped short of an apology."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "UK's King Charles III decries 'monstrous injustice' of slave trade",
+     "url": "https://www.dw.com/en/uk-s-king-charles-iii-decries-monstrous-injustice-of-slave-trade/a-79845889?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-03T18:08+00:00",
+     "summary": "King Charles has told leaders at a Commonwealth summit that the legacy of the transatlantic slave trade \"fills my heart with horror.\" He did not address calls for apologies and reparations."
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "gCaptain"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-03T19:38+00:00",
+   "earliest": "2026-11-03T17:03+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "New Jersey governor warns ports against accepting Russian diesel",
+     "url": "https://www.reuters.com/business/energy/new-jersey-governor-warns-ports-against-accepting-russian-diesel-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T19:38+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "New Jersey Governor Warns Ports Against Handling Russian Diesel",
+     "url": "https://gcaptain.com/new-jersey-governor-warns-ports-against-handling-russian-diesel/",
+     "via": "",
+     "published": "2026-11-03T17:03+00:00",
+     "summary": "New Jersey Governor Mikie Sherrill is warning port and terminal operators not to accept Russian diesel shipments heading toward the U.S. East Coast, arguing that the Trump administration’s authorization of..."
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -474,77 +567,7 @@
      "summary": ""
     }
    ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-03T18:50+00:00",
-   "earliest": "2026-11-03T17:35+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Binance hackers used fake job interview in US$6.3 billion attack",
-     "url": "https://www.straitstimes.com/business/companies-markets/binance-hackers-used-fake-job-interview-in-us6-3-billion-attack",
-     "via": "",
-     "published": "2026-11-03T18:50+00:00",
-     "summary": "Fake job interviews are a well-known hacking technique."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Binance hackers used fake job interview in $6.3 billion attack",
-     "url": "https://www.reuters.com/world/binance-says-hackers-used-fake-job-interview-compromise-computer-before-63-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T17:35+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Axios"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-03T18:25+00:00",
-   "earliest": "2026-11-03T13:29+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump's Justice Dept identifies where US election monitors will be in the 50 states",
-     "url": "https://www.reuters.com/legal/government/trumps-justice-dept-identifies-where-us-election-monitors-will-be-50-states-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T18:25+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "DOJ sending 1,000 election monitors to all 50 states",
-     "url": "https://www.axios.com/2026/11/03/election-day-polls-doj-observers",
-     "via": "",
-     "published": "2026-11-03T13:29+00:00",
-     "summary": "The Justice Department said Tuesday it will deploy about 1,000 election monitors to all 50 states for the first time ever to watch the polls. Why it matters: The unprecedented effort comes after courts repeatedly rejected the DOJ's efforts to force states to restrict voting for alleged noncitizens. It comes amid a long-running Trump administration push to fight voter fraud , which studies say isn'"
-    }
-   ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -579,42 +602,42 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 9
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Bloomberg",
-    "Reuters"
+    "MINING.COM",
+    "Mining Weekly"
    ],
    "regions": [
-    "Europe",
+    "Africa",
     "North America"
    ],
-   "latest": "2026-11-03T17:49+00:00",
-   "earliest": "2026-11-03T04:16+00:00",
+   "latest": "2026-11-03T17:43+00:00",
+   "earliest": "2026-11-03T05:50+00:00",
    "items": [
     {
-     "outlet": "Bloomberg",
+     "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Dollar Rises With US Yields as Focus on Iran Outweighs Election",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-03/dollar-rises-with-us-yields-as-focus-on-iran-outweighs-election",
+     "title": "MMG, Anglo American extend $500 million nickel deal deadline",
+     "url": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
      "via": "",
-     "published": "2026-11-03T17:49+00:00",
-     "summary": "The dollar rose on Election Day in the US, buoyed by climbing Treasury yields and solid economic data, while traders monitored developments in the Middle East for a sense of the greenback’s direction."
+     "published": "2026-11-03T17:43+00:00",
+     "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
-     "url": "https://www.reuters.com/world/india/gold-eases-ahead-us-midterm-elections-2026-11-03/",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
+     "url": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
      "via": "",
-     "published": "2026-11-03T04:16+00:00",
+     "published": "2026-11-03T05:50+00:00",
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -649,42 +672,42 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 11
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "Financial Times"
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
-    "Africa",
-    "Europe"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-11-03T14:52+00:00",
-   "earliest": "2026-11-03T10:52+00:00",
+   "latest": "2026-11-03T14:30+00:00",
+   "earliest": "2026-11-03T12:59+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Americans vote in midterm election that could upend Trump presidency",
-     "url": "http://www.africanews.com/2026/11/03/americans-vote-in-midterm-election-that-could-upend-trump-presidency/",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Syria says it foiled Hezbollah plot to attack Homs oil refinery",
+     "url": "https://www.reuters.com/world/middle-east/syria-says-it-foiled-hezbollah-plot-attack-homs-oil-refinery-2026-11-03/",
      "via": "",
-     "published": "2026-11-03T14:52+00:00",
-     "summary": "Voters across the United States are going to the polls on Tuesday and Washington is bracing for a major upheaval. President Trump’s Republican Party currently holds both chambers of Congress. But poll watchers are predicting a Democratic wave that could see that all change."
+     "published": "2026-11-03T14:30+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Americans vote in election that doubles as referendum on Trump’s presidency",
-     "url": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Syria says foiled Hezbollah-linked plot to bomb oil refinery",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/03/syria-says-foiled-hezbollahlinked-plot-to-bomb-oil-refinery",
      "via": "",
-     "published": "2026-11-03T10:52+00:00",
-     "summary": "Republicans battle to retain majorities in Senate and House of Representatives"
+     "published": "2026-11-03T12:59+00:00",
+     "summary": ""
     }
    ],
-   "id": 11
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -716,41 +739,6 @@
      "url": "https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309",
      "via": "",
      "published": "2026-11-03T02:38+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-03T12:03+00:00",
-   "earliest": "2026-11-03T09:25+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Congo seizes copper, cobalt in illegal mining crackdown",
-     "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
-     "via": "",
-     "published": "2026-11-03T12:03+00:00",
-     "summary": "Authorities confiscate hundreds of vehicles and thousands of tons of minerals as Congo steps up enforcement at mine sites."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Congo to probe illegal mining after seizing copper and cobalt",
-     "url": "https://www.miningweekly.com/article/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt-2026-11-03",
-     "via": "",
-     "published": "2026-11-03T09:25+00:00",
      "summary": ""
     }
    ],
@@ -795,41 +783,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-11-03T10:13+00:00",
-   "earliest": "2026-11-02T14:21+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Which countries in Europe have been hit by supermarket fridge cyber incidents?",
-     "url": "https://www.euronews.com/2026/11/03/which-countries-in-europe-have-been-hit-by-supermarket-fridge-cyber-incidents",
-     "via": "",
-     "published": "2026-11-03T10:13+00:00",
-     "summary": "A total of nine countries have been affected by suspected cyber attacks on 2 November that turned fridges onto defrost setting, including Belgium, Estonia, Finland, Ireland, and Italy."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Cyber attack on fridges hits supermarkets across Europe",
-     "url": "https://www.abc.net.au/news/2026-11-03/european-grocers-report-fridge-cyber-incidents/107338760",
-     "via": "",
-     "published": "2026-11-02T14:21+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Mining Weekly",
     "MINING.COM"
    ],
@@ -859,7 +812,7 @@
      "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
     }
    ],
-   "id": 16
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -894,42 +847,7 @@
      "summary": ""
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-03T02:19+00:00",
-   "earliest": "2026-11-03T00:32+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "North Korea conducts strategic cruise missile test with dispersal warhead, KCNA says",
-     "url": "https://www.reuters.com/business/aerospace-defense/north-korea-conducts-strategic-cruise-missile-test-with-dispersal-warhead-kcna-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T02:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "North Korea test fires strategic cruise missiles: KCNA",
-     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-test-fires-strategic-cruise-missiles-kcna",
-     "via": "",
-     "published": "2026-11-03T00:32+00:00",
-     "summary": "Unlike ballistic missile launches, North Korean cruise missile tests are not prohibited by UN Security Council sanctions."
-    }
-   ],
-   "id": 18
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -964,7 +882,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -999,7 +917,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1034,7 +952,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1069,42 +987,76 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Jakarta Post",
-    "Nikkei Asia"
+    "The Straits Times",
+    "Kyodo News"
    ],
    "regions": [
     "East Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-01T00:53+00:00",
-   "earliest": "2026-10-31T20:47+00:00",
+   "latest": "2026-11-02T02:14+00:00",
+   "earliest": "2026-11-02T01:56+00:00",
    "items": [
     {
-     "outlet": "The Jakarta Post",
+     "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "Quad ministers work on supply chains, denounce export restrictions - Americas",
-     "url": "https://www.thejakartapost.com/world/2026/11/01/indo-pacific-quad-ministers-work-on-supply-chains-denounce-arbitrary-export-restrictions",
+     "title": "Singapore, Argentina deepen trade ties as key South American trade pact enters into force",
+     "url": "https://www.straitstimes.com/business/singapore-argentina-deepen-trade-ties-as-key-south-american-trade-pact-enters-into-force",
      "via": "",
-     "published": "2026-11-01T00:53+00:00",
-     "summary": ""
+     "published": "2026-11-02T02:14+00:00",
+     "summary": "The Mercosur-Singapore Free Trade Agreement eliminates import tariffs on 96% of products for up to 15 years."
     },
     {
-     "outlet": "Nikkei Asia",
+     "outlet": "Kyodo News",
      "region": "East Asia",
-     "title": "Quad ministers discuss supply chains, denounce export restrictions",
-     "url": "https://asia.nikkei.com/politics/international-relations/indo-pacific/quad-ministers-discuss-supply-chains-denounce-export-restrictions",
+     "title": "Sanya and Maldives Sign Agreements to Deepen Trade and Investment Ties",
+     "url": "https://english.kyodonews.net/articles/-/90104",
      "via": "",
-     "published": "2026-10-31T20:47+00:00",
+     "published": "2026-11-02T01:56+00:00",
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Axios",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-03T23:14+00:00",
+   "earliest": "2026-11-03T12:02+00:00",
+   "items": [
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Key election night polls close as Trump rages",
+     "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
+     "via": "",
+     "published": "2026-11-03T23:14+00:00",
+     "summary": "Most polls in Florida, Virginia and South Carolina closed at 7pm ET, with all three states expected to provide strong indicators of where the midterms are headed. Why it matters: The results tonight will be the clearest national test of President Trump's second presidency , following war abroad, economic anxiety at home and sweeping changes in Washington. Trump has made himself the face of the Rep"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Election night agenda: When polls close and when to expect results",
+     "url": "https://apnews.com/article/election-rundown-polls-close-results-timing-0e2078f16af285b22675445d78360e6d",
+     "via": "",
+     "published": "2026-11-03T12:02+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1136,6 +1088,40 @@
      "via": "",
      "published": "2026-11-03T15:55+00:00",
      "summary": ""
+    }
+   ],
+   "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-03T12:03+00:00",
+   "earliest": "2026-11-03T07:25+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Congo seizes copper, cobalt in illegal mining crackdown",
+     "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
+     "via": "",
+     "published": "2026-11-03T12:03+00:00",
+     "summary": "Authorities confiscate hundreds of vehicles and thousands of tons of minerals as Congo steps up enforcement at mine sites."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Congo to Probe Illegal Mining After Seizing Copper, Cobalt",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt",
+     "via": "",
+     "published": "2026-11-03T07:25+00:00",
+     "summary": "Officials in the Democratic Republic of Congo seized thousands of tons of copper and cobalt, prompting the justice minister to order an investigation into allegations of widespread illegal mining."
     }
    ],
    "id": 24
