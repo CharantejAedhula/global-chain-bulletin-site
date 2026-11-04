@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-04T01:26:12+00:00",
+ "fetched_at": "2026-11-04T02:57:20+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 703,
+ "outlets_read": 43,
+ "items_read": 697,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 26,
+   "items": 15,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 28,
+   "items": 27,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 45,
+   "items": 48,
    "errors": []
   },
   "Nikkei Asia": {
@@ -57,7 +57,7 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 30,
+   "items": 25,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 27,
+   "items": 28,
    "errors": []
   },
   "Financial Times": {
@@ -92,17 +92,17 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 36,
+   "items": 35,
    "errors": []
   },
   "Times of Israel": {
@@ -112,32 +112,32 @@
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 2,
+   "items": 0,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 28,
+   "items": 25,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -159,12 +159,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 3,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 14,
+   "items": 17,
    "errors": []
   },
   "RNZ": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 17,
+   "items": 13,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 11,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
@@ -206,12 +206,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 26,
+   "items": 28,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "VnExpress International": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 8,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,11 +242,12 @@
  },
  "clusters": [
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
     "Reuters",
+    "Times of Israel",
     "ABC News (Australia)"
    ],
    "regions": [
@@ -273,6 +274,15 @@
      "url": "https://www.reuters.com/business/aerospace-defense/bomb-threats-reported-two-passenger-planes-warsaw-both-land-2026-11-03/",
      "via": "",
      "published": "2026-11-03T18:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Over 1,500 held up in Greece as bomb threat prompts checks on Israeli-operated cruise ship",
+     "url": "https://www.timesofisrael.com/liveblog_entry/over-1500-held-up-in-greece-as-bomb-threat-prompts-checks-on-israeli-operated-cruise-ship/",
+     "via": "",
+     "published": "2026-11-03T17:09+00:00",
      "summary": ""
     },
     {
@@ -380,51 +390,6 @@
    "id": 3
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining Weekly",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-03T12:03+00:00",
-   "earliest": "2026-11-03T07:25+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Congo seizes copper, cobalt in illegal mining crackdown",
-     "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
-     "via": "",
-     "published": "2026-11-03T12:03+00:00",
-     "summary": "Authorities confiscate hundreds of vehicles and thousands of tons of minerals as Congo steps up enforcement at mine sites."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Congo to probe illegal mining after seizing copper and cobalt",
-     "url": "https://www.miningweekly.com/article/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt-2026-11-03",
-     "via": "",
-     "published": "2026-11-03T09:25+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Congo to Probe Illegal Mining After Seizing Copper, Cobalt",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt",
-     "via": "",
-     "published": "2026-11-03T07:25+00:00",
-     "summary": "Officials in the Democratic Republic of Congo seized thousands of tons of copper and cobalt, prompting the justice minister to order an investigation into allegations of widespread illegal mining."
-    }
-   ],
-   "id": 4
-  },
-  {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
@@ -435,7 +400,7 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-04T01:20+00:00",
+   "latest": "2026-11-04T01:30+00:00",
    "earliest": "2026-11-02T14:22+00:00",
    "items": [
     {
@@ -444,7 +409,7 @@
      "title": "Endeavour halts underground mining at Mana after access ramp sinks",
      "url": "https://mining.com.au/endeavour-halts-underground-mining-at-mana-after-access-ramp-sinks/",
      "via": "",
-     "published": "2026-11-04T01:20+00:00",
+     "published": "2026-11-04T01:30+00:00",
      "summary": ""
     },
     {
@@ -457,39 +422,74 @@
      "summary": "The Oct. 28 incident is another setback for an operation set to miss its annual production target."
     }
    ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Axios",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-04T01:28+00:00",
+   "earliest": "2026-11-04T00:44+00:00",
+   "items": [
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Democrat Roy Cooper flips North Carolina Senate seat",
+     "url": "https://www.axios.com/2026/11/04/nc-senate-results-cooper-whatley",
+     "via": "",
+     "published": "2026-11-04T01:28+00:00",
+     "summary": "Democrat Roy Cooper has defeated President Trump's handpicked candidate, Michael Whatley, flipping one of North Carolina's two GOP-held U.S. Senate seats. Why it matters : Cooper, the popular two-term governor, delivered Democrats one of their best shots at flipping a Republican-held Senate seat. Even in a state that voted all three times for Trump, Cooper has never lost an election. The big pictu"
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US Mid-Term Election Result 2026 LIVE: Democrat candidate flips Senate seat in North Carolina",
+     "url": "https://www.livemint.com/news/us-news/us-mid-term-election-result-2026-live-update-donlad-trump-republicans-democrats-poll-result-today-4-november-latest-news-11793751710141.html",
+     "via": "",
+     "published": "2026-11-04T00:44+00:00",
+     "summary": "US Mid-Term Election Result 2026 LIVE: Democrats have made early gains in the 2026 US midterm elections, flipping North Carolina's Senate seat and winning in New Hampshire and Georgia. Exit polls point to strong voter dissatisfaction with Trump, while the battle for control of Congress continues."
+    }
+   ],
    "id": 5
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Deutsche Welle",
-    "Al Jazeera"
+    "DigiTimes",
+    "Reuters"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "East Asia",
+    "Europe"
    ],
-   "latest": "2026-11-04T01:10+00:00",
-   "earliest": "2026-11-03T22:30+00:00",
+   "latest": "2026-11-04T00:48+00:00",
+   "earliest": "2026-11-03T13:26+00:00",
    "items": [
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "US midterm election results: How Americans voted and what the data tells us",
-     "url": "https://www.dw.com/en/us-midterm-election-results-how-americans-voted-and-what-the-data-tells-us/a-79841886?maca=en-rss-en-all-1573-rdf",
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Bosch creates semiconductor division to expand in robotics, external chipmaking",
+     "url": "https://www.digitimes.com/news/a20261104VL204/bosch-robotics-business-manufacturing-market.html",
      "via": "",
-     "published": "2026-11-04T01:10+00:00",
-     "summary": "Results are starting to come in from across the US, where people voted on their next Congress. DW takes a look at who voted Republican, who voted Democrat and what it all means."
+     "published": "2026-11-04T00:48+00:00",
+     "summary": "Bosch plans to create a dedicated semiconductor division as it seeks more business in robotics, AI infrastructure, and manufacturing for external customers, extending a chip strategy rooted in automotive electronics into additional markets."
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "US midterm election results live: Democrats up early as results roll in",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-election-results-live-polls-to-start-closing-in-some-states?traffic_source=rss",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bosch to create semiconductor division from January 2028",
+     "url": "https://www.reuters.com/world/asia-pacific/bosch-spin-off-semiconductor-division-january-2028-2026-11-03/",
      "via": "",
-     "published": "2026-11-03T22:30+00:00",
-     "summary": "Early results come in from across the US as polls close in the midterm elections and control of Congress is at stake."
+     "published": "2026-11-03T13:26+00:00",
+     "summary": ""
     }
    ],
    "id": 6
@@ -848,41 +848,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-03T07:33+00:00",
-   "earliest": "2026-11-01T14:25+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Indian Navy rescues 20 Iranian crew members of fishing vessel Azini hijacked by Somali pirates after 48-hour operation",
-     "url": "https://www.livemint.com/news/india/indian-navy-rescues-20-iranian-crew-members-of-fishing-vessel-azini-hijacked-by-somali-pirates-after-48-hour-operation-11793690593458.html",
-     "via": "",
-     "published": "2026-11-03T07:33+00:00",
-     "summary": "India’s Navy rescued 20 Iranian crew members from the hijacked fishing vessel Azini off Somalia, using surveillance and a coordinated tactical operation supported by the Air Force. Iran praised the rescue, which comes amid a sharp rise in Somali pirate attacks in 2026."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Somali pirates seize Iranian fishing vessel, raising fears of attacks on cargo ships",
-     "url": "https://apnews.com/article/somalia-pirates-hijacking-iranian-fishing-vessel-dd4d404235781a3b871668c353540e4c",
-     "via": "",
-     "published": "2026-11-01T14:25+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Mining Weekly",
     "Nikkei Asia"
    ],
@@ -912,7 +877,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -947,7 +912,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -982,7 +947,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1017,42 +982,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-02T02:14+00:00",
-   "earliest": "2026-11-02T01:56+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Singapore, Argentina deepen trade ties as key South American trade pact enters into force",
-     "url": "https://www.straitstimes.com/business/singapore-argentina-deepen-trade-ties-as-key-south-american-trade-pact-enters-into-force",
-     "via": "",
-     "published": "2026-11-02T02:14+00:00",
-     "summary": "The Mercosur-Singapore Free Trade Agreement eliminates import tariffs on 96% of products for up to 15 years."
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Sanya and Maldives Sign Agreements to Deepen Trade and Investment Ties",
-     "url": "https://english.kyodonews.net/articles/-/90104",
-     "via": "",
-     "published": "2026-11-02T01:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1086,41 +1016,41 @@
      "summary": "A controversial 155-turbine wind farm has been approved in Victoria's north, just one day before the state government enters caretaker mode."
     }
    ],
-   "id": 23
+   "id": 21
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
+    "MINING.COM",
+    "Bloomberg"
    ],
    "regions": [
-    "Middle East"
+    "North America"
    ],
-   "latest": "2026-11-03T19:09+00:00",
-   "earliest": "2026-11-03T15:55+00:00",
+   "latest": "2026-11-03T12:03+00:00",
+   "earliest": "2026-11-03T07:25+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Yemen gov’t accuses IRGC, Hezbollah of sending 21 experts to back Houthis",
-     "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Congo seizes copper, cobalt in illegal mining crackdown",
+     "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
      "via": "",
-     "published": "2026-11-03T19:09+00:00",
-     "summary": "Yemeni interior minister says foreign involvement expanded beyond arms and training to directing military operations."
+     "published": "2026-11-03T12:03+00:00",
+     "summary": "Authorities confiscate hundreds of vehicles and thousands of tons of minerals as Congo steps up enforcement at mine sites."
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Yemen says Iranian, Hezbollah ‘general staff’ directing Houthi operations",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/03/yemen-says-iranian-hezbollah-general-staff-directing-houthi-operations",
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Congo to Probe Illegal Mining After Seizing Copper, Cobalt",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt",
      "via": "",
-     "published": "2026-11-03T15:55+00:00",
-     "summary": ""
+     "published": "2026-11-03T07:25+00:00",
+     "summary": "Officials in the Democratic Republic of Congo seized thousands of tons of copper and cobalt, prompting the justice minister to order an investigation into allegations of widespread illegal mining."
     }
    ],
-   "id": 24
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1154,7 +1084,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1188,7 +1118,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1222,7 +1152,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 25
   }
  ]
 }
