@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-04T00:12:16+00:00",
+ "fetched_at": "2026-11-04T00:55:03+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 688,
+ "items_read": 696,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 14,
+   "items": 23,
    "errors": []
   },
   "Ecofin Agency": {
@@ -47,12 +47,12 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 5,
+   "items": 9,
    "errors": []
   },
   "The Korea Herald": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "Financial Times": {
@@ -97,17 +97,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 33,
+   "items": 35,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 36,
+   "items": 35,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,12 +154,12 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 9,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
@@ -206,12 +206,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 27,
+   "items": 26,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 7,
    "errors": []
   },
   "VnExpress International": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 31,
+   "items": 29,
    "errors": []
   },
   "Rio Times": {
@@ -241,6 +241,52 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Oceania"
+   ],
+   "latest": "2026-11-04T00:35+00:00",
+   "earliest": "2026-11-03T10:32+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Bomb threats disrupt flights across Europe, no explosive devices found",
+     "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-04T00:35+00:00",
+     "summary": "At least seven flights and an Israel-bound cruise ship received threats, but officials say searches found no explosives."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bomb threats on flights, cruise ship cause disruption in Europe, no devices found",
+     "url": "https://www.reuters.com/business/aerospace-defense/bomb-threats-reported-two-passenger-planes-warsaw-both-land-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T18:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Seven flights and cruise ship disrupted in Europe by bomb threats",
+     "url": "https://www.abc.net.au/news/2026-11-03/warsaw-airport-closed-after-unplanned-landing-of-london-plane/107343338",
+     "via": "",
+     "published": "2026-11-03T10:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -283,67 +329,6 @@
      "via": "",
      "published": "2026-11-03T17:35+00:00",
      "summary": ""
-    }
-   ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "The Straits Times"
-    ]
-   ],
-   "outlets": [
-    "Euronews",
-    "Reuters",
-    "Nikkei Asia",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-03T15:21+00:00",
-   "earliest": "2026-11-03T09:57+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "South Korea and Turkey sign financing pact as Seoul seeks role in planned nuclear power plant",
-     "url": "https://www.euronews.com/2026/11/03/south-korea-and-turkey-sign-financing-pact-as-seoul-seeks-role-in-planned-nuclear-power-pl",
-     "via": "",
-     "published": "2026-11-03T15:21+00:00",
-     "summary": "Turkey and South Korea are expanding nuclear, defence and trade ties. Their latest agreement explores funding for nuclear projects, while Ankara weighs potential partners for its planned Sinop plant."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "South Korea, Turkey to cooperate in nuclear, defence, infrastructure",
-     "url": "https://www.reuters.com/world/asia-pacific/south-korea-turkey-cooperate-nuclear-defence-infrastructure-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T10:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "South Korea, Turkey to cooperate in nuclear, defense, infrastructure",
-     "url": "https://asia.nikkei.com/politics/international-relations/south-korea-turkey-to-cooperate-in-nuclear-defense-infrastructure",
-     "via": "",
-     "published": "2026-11-03T10:48+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "South Korea, Turkey to cooperate in nuclear, defence, infrastructure",
-     "url": "https://www.straitstimes.com/asia/south-korea-turkey-to-cooperate-in-nuclear-defence-infrastructure",
-     "via": "",
-     "published": "2026-11-03T09:57+00:00",
-     "summary": "SEOUL, Nov 3 - South Korean President Lee Jae Myung and Turkish President Tayyip Erdogan agreed at a summit on Tuesday to expand cooperation in nuclear energy and defence, including on one of Turkey's biggest power projects, Lee said."
     }
    ],
    "id": 2
@@ -395,19 +380,108 @@
    "id": 3
   },
   {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly",
+    "Bloomberg"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-03T12:03+00:00",
+   "earliest": "2026-11-03T07:25+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Congo seizes copper, cobalt in illegal mining crackdown",
+     "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
+     "via": "",
+     "published": "2026-11-03T12:03+00:00",
+     "summary": "Authorities confiscate hundreds of vehicles and thousands of tons of minerals as Congo steps up enforcement at mine sites."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Congo to probe illegal mining after seizing copper and cobalt",
+     "url": "https://www.miningweekly.com/article/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt-2026-11-03",
+     "via": "",
+     "published": "2026-11-03T09:25+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Congo to Probe Illegal Mining After Seizing Copper, Cobalt",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt",
+     "via": "",
+     "published": "2026-11-03T07:25+00:00",
+     "summary": "Officials in the Democratic Republic of Congo seized thousands of tons of copper and cobalt, prompting the justice minister to order an investigation into allegations of widespread illegal mining."
+    }
+   ],
+   "id": 4
+  },
+  {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
+    "Australian Financial Review",
     "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-04T00:49+00:00",
+   "earliest": "2026-11-03T18:26+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "ASX slips; Block beats quarterly profit expectations; City Chic soars",
+     "url": "https://www.afr.com/markets/equity-markets/asx-to-slip-oil-drops-chipmakers-gain-20261104-p61b4s?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-04T00:49+00:00",
+     "summary": "Shares open lower amid recession fears; traders await midterm results; oil edges higher on mixed US-Iran progress; AMD tops estimates. Follow live updates."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Marathon profit beats estimates on soaring margins; strikes $4.2 billion refinery deal with CVR",
+     "url": "https://www.reuters.com/business/energy/marathon-beats-quarterly-estimates-sell-two-refineries-cvr-energy-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T18:26+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press"
    ],
    "regions": [
     "Europe",
     "North America"
    ],
-   "latest": "2026-11-03T23:25+00:00",
-   "earliest": "2026-11-03T21:44+00:00",
+   "latest": "2026-11-03T23:47+00:00",
+   "earliest": "2026-11-03T23:25+00:00",
    "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Oklahoma City man charged over threatening letters to election officials",
+     "url": "https://www.reuters.com/world/oklahoma-city-man-charged-with-sending-hundreds-threatening-letters-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T23:47+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Associated Press",
      "region": "North America",
@@ -416,18 +490,9 @@
      "via": "",
      "published": "2026-11-03T23:25+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Oklahoma City man charged over threatening letters to election officials",
-     "url": "https://www.reuters.com/world/oklahoma-city-man-charged-with-sending-hundreds-threatening-letters-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T21:44+00:00",
-     "summary": ""
     }
    ],
-   "id": 4
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -462,7 +527,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -497,7 +562,7 @@
      "summary": "King Charles has told leaders at a Commonwealth summit that the legacy of the transatlantic slave trade \"fills my heart with horror.\" He did not address calls for apologies and reparations."
     }
    ],
-   "id": 6
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -532,7 +597,7 @@
      "summary": "New Jersey Governor Mikie Sherrill is warning port and terminal operators not to accept Russian diesel shipments heading toward the U.S. East Coast, arguing that the Trump administration’s authorization of..."
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -567,42 +632,7 @@
      "summary": ""
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-11-03T18:06+00:00",
-   "earliest": "2026-11-03T10:32+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Bomb threats on flights, cruise ship cause disruption in Europe, no devices found",
-     "url": "https://www.reuters.com/business/aerospace-defense/bomb-threats-reported-two-passenger-planes-warsaw-both-land-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T18:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Seven flights and cruise ship disrupted in Europe by bomb threats",
-     "url": "https://www.abc.net.au/news/2026-11-03/warsaw-airport-closed-after-unplanned-landing-of-london-plane/107343338",
-     "via": "",
-     "published": "2026-11-03T10:32+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -634,41 +664,6 @@
      "url": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
      "via": "",
      "published": "2026-11-03T05:50+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-03T17:36+00:00",
-   "earliest": "2026-11-03T01:05+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-11-03T17:36+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say",
-     "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
-     "via": "",
-     "published": "2026-11-03T01:05+00:00",
      "summary": ""
     }
    ],
@@ -748,6 +743,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Nikkei Asia",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-03T10:48+00:00",
+   "earliest": "2026-11-03T09:57+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "South Korea, Turkey to cooperate in nuclear, defense, infrastructure",
+     "url": "https://asia.nikkei.com/politics/international-relations/south-korea-turkey-to-cooperate-in-nuclear-defense-infrastructure",
+     "via": "",
+     "published": "2026-11-03T10:48+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "South Korea, Turkey to cooperate in nuclear, defence, infrastructure",
+     "url": "https://www.straitstimes.com/asia/south-korea-turkey-to-cooperate-in-nuclear-defence-infrastructure",
+     "via": "",
+     "published": "2026-11-03T09:57+00:00",
+     "summary": "SEOUL, Nov 3 - South Korean President Lee Jae Myung and Turkish President Tayyip Erdogan agreed at a summit on Tuesday to expand cooperation in nuclear energy and defence, including on one of Turkey's biggest power projects, Lee said."
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Reuters",
     "The Hindu"
    ],
@@ -777,7 +807,7 @@
      "summary": "The government’s fortnightly review raised the export levy on diesel to ₹11.5 per litre from ₹8.5 and on aviation turbine fuel to ₹11 per litre from ₹10.5, while India’s diesel exports touched 700 kilo barrels per day in October, the highest since September 2025, according to Kpler"
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -812,7 +842,42 @@
      "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
     }
    ],
-   "id": 15
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-03T08:59+00:00",
+   "earliest": "2026-11-03T01:05+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-11-03T08:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say",
+     "url": "https://www.reuters.com/world/middle-east/us-struck-irans-qeshm-island-wall-street-journal-reports-2026-11-03/",
+     "via": "",
+     "published": "2026-11-03T01:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -847,7 +912,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -882,7 +947,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -917,7 +982,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -952,7 +1017,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -987,7 +1052,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1022,41 +1087,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Axios",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America"
-   ],
-   "latest": "2026-11-03T23:14+00:00",
-   "earliest": "2026-11-03T12:02+00:00",
-   "items": [
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Key election night polls close as Trump rages",
-     "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans",
-     "via": "",
-     "published": "2026-11-03T23:14+00:00",
-     "summary": "Most polls in Florida, Virginia and South Carolina closed at 7pm ET, with all three states expected to provide strong indicators of where the midterms are headed. Why it matters: The results tonight will be the clearest national test of President Trump's second presidency , following war abroad, economic anxiety at home and sweeping changes in Washington. Trump has made himself the face of the Rep"
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Election night agenda: When polls close and when to expect results",
-     "url": "https://apnews.com/article/election-rundown-polls-close-results-timing-0e2078f16af285b22675445d78360e6d",
-     "via": "",
-     "published": "2026-11-03T12:02+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1088,40 +1119,6 @@
      "via": "",
      "published": "2026-11-03T15:55+00:00",
      "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America"
-   ],
-   "latest": "2026-11-03T12:03+00:00",
-   "earliest": "2026-11-03T07:25+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Congo seizes copper, cobalt in illegal mining crackdown",
-     "url": "https://www.mining.com/congo-seizes-copper-cobalt-in-illegal-mining-crackdown/",
-     "via": "",
-     "published": "2026-11-03T12:03+00:00",
-     "summary": "Authorities confiscate hundreds of vehicles and thousands of tons of minerals as Congo steps up enforcement at mine sites."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Congo to Probe Illegal Mining After Seizing Copper, Cobalt",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt",
-     "via": "",
-     "published": "2026-11-03T07:25+00:00",
-     "summary": "Officials in the Democratic Republic of Congo seized thousands of tons of copper and cobalt, prompting the justice minister to order an investigation into allegations of widespread illegal mining."
     }
    ],
    "id": 24
