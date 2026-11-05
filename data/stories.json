@@ -1,98 +1,100 @@
 {
- "fetched_at": "2026-11-05T06:47:57+00:00",
+ "fetched_at": "2026-11-05T20:50:23+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 749,
+ "outlets_read": 43,
+ "items_read": 731,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 13,
+   "items": 17,
    "errors": []
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 13,
+   "items": 16,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 38,
+   "items": 36,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 29,
+   "items": 32,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 31,
+   "items": 39,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 13,
+   "items": 16,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 16,
+   "items": 38,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 38,
+   "items": 23,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 6,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 8,
+   "items": 20,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 18,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.hellenicshippingnews.com/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 20,
+   "items": 22,
    "errors": []
   },
   "Al Jazeera": {
@@ -107,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Amwaj.media": {
@@ -117,54 +119,54 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 27,
+   "items": 22,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 28,
+   "items": 19,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 29,
+   "items": 31,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 11,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 34,
+   "items": 31,
    "errors": []
   },
   "gCaptain": {
    "region": "North America",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +176,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 14,
+   "items": 23,
    "errors": []
   },
   "PortNews": {
@@ -194,7 +196,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 21,
+   "items": 7,
    "errors": []
   },
   "The Indian Express": {
@@ -211,27 +213,27 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 6,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 31,
+   "items": 26,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 6,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +243,153 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya",
+    "Times of Israel",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-05T18:47+00:00",
+   "earliest": "2026-11-05T04:21+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+     "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-05T18:47+00:00",
+     "summary": "Iranian forces say five oil tankers and a tugboat have caught fire in several incidents in the Strait of Hormuz."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran says two tankers and tugboat caught fire in Strait of Hormuz",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/iran-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz",
+     "via": "",
+     "published": "2026-11-05T05:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "IRGC: 2 tankers, tugboat attempting to use unauthorized Hormuz routes catch fire",
+     "url": "https://www.timesofisrael.com/liveblog_entry/irgc-2-tankers-tugboat-attempting-to-use-unauthorized-hormuz-routes-catch-fire/",
+     "via": "",
+     "published": "2026-11-05T04:39+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz",
+     "url": "https://www.reuters.com/world/middle-east/irans-irgc-says-two-tankers-tugboat-caught-fire-strait-hormuz-2026-11-05/",
+     "via": "",
+     "published": "2026-11-05T04:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "BNamericas",
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-05T14:02+00:00",
+   "earliest": "2026-11-03T05:50+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Anglo American and MMG extend deadline to conclude US$500 million deal involving nickel assets in Brazil",
+     "url": "https://www.bnamericas.com/en/news/anglo-american-and-mmg-extend-deadline-to-conclude-us500-million-deal-involving-nickel-assets-in-brazil",
+     "via": "",
+     "published": "2026-11-05T14:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "MMG, Anglo American extend $500 million nickel deal deadline",
+     "url": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
+     "via": "",
+     "published": "2026-11-03T17:43+00:00",
+     "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
+     "url": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
+     "via": "",
+     "published": "2026-11-03T05:50+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Kyodo News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-05T07:07+00:00",
+   "earliest": "2026-11-04T22:02+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "North Korea says it tested air-defense missile, staged cruise missile drill",
+     "url": "https://english.alarabiya.net/News/world/2026/11/05/north-korea-says-it-tested-airdefense-missile-staged-cruise-missile-drill",
+     "via": "",
+     "published": "2026-11-05T07:07+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "N. Korea tests new air defense missile, holds cruise missile drill",
+     "url": "https://english.kyodonews.net/articles/-/90392",
+     "via": "",
+     "published": "2026-11-05T01:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
+     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
+     "via": "",
+     "published": "2026-11-04T22:02+00:00",
+     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
+    }
+   ],
+   "id": 3
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -285,123 +434,23 @@
      "summary": "By greenlighting the Arizona mine expansion Freeport-McMoRan aims to double copper production amid rising demand."
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "ABC News (Australia)",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "Oceania",
-    "South Asia"
-   ],
-   "latest": "2026-11-04T11:50+00:00",
-   "earliest": "2026-11-04T07:58+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Israel election: No fraud found; Netanyahu, Eisenkot begin coalition talks - Govt formation process, timeline explained",
-     "url": "https://www.livemint.com/news/world/israel-election-no-fraud-found-netanyahu-eisenkot-begin-coalition-talks-govt-formation-process-timeline-explained-11793791610075.html",
-     "via": "",
-     "published": "2026-11-04T11:50+00:00",
-     "summary": "Herzog's consultations and coalition talks will determine whether Netanyahu retains power, Eisenkot forms a government or Israel heads for another election."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Commission finds no fraud in Israeli election as results certified",
-     "url": "https://www.abc.net.au/news/2026-11-04/israeli-election-commission-fraud-investigation/107347454",
-     "via": "",
-     "published": "2026-11-04T08:39+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israel election commission rejects Netanyahu charges of fraud",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/04/israel-election-commission-rejects-netanyahu-charges-of-fraud",
-     "via": "",
-     "published": "2026-11-04T07:58+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Al Arabiya",
-    "Reuters",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-05T05:59+00:00",
-   "earliest": "2026-11-05T00:00+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says two tankers and tugboat caught fire in Strait of Hormuz",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/iran-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz",
-     "via": "",
-     "published": "2026-11-05T05:59+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz",
-     "url": "https://www.reuters.com/world/middle-east/irans-irgc-says-two-tankers-tugboat-caught-fire-strait-hormuz-2026-11-05/",
-     "via": "",
-     "published": "2026-11-05T04:21+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-05T00:00+00:00",
-     "summary": "Iran's IRGC says two tankers and a tugboat caught fire in the Strait of Hormuz after using an \"unauthorised route\"."
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya",
-    "Associated Press"
+    "Associated Press",
+    "Times of Israel"
    ],
    "regions": [
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-04T10:39+00:00",
-   "earliest": "2026-11-03T22:44+00:00",
+   "latest": "2026-11-04T09:23+00:00",
+   "earliest": "2026-11-03T03:49+00:00",
    "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Lebanon PM warns Hezbollah against dragging country into another war",
-     "url": "https://www.timesofisrael.com/liveblog_entry/lebanon-pm-warns-hezbollah-against-dragging-country-into-another-war/",
-     "via": "",
-     "published": "2026-11-04T10:39+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
@@ -419,142 +468,110 @@
      "via": "",
      "published": "2026-11-03T22:44+00:00",
      "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "gCaptain",
-     "The Straits Times"
-    ]
-   ],
-   "outlets": [
-    "Kyodo News",
-    "gCaptain",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-05T05:00+00:00",
-   "earliest": "2026-11-04T05:50+00:00",
-   "items": [
+    },
     {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Stranded cruise ship Odyssey leaves Cambodia with no passengers",
-     "url": "https://english.kyodonews.net/articles/-/90424",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Israel said pressing Lebanon to prevent Hezbollah from joining renewed war with Iran",
+     "url": "https://www.timesofisrael.com/israel-said-pressing-lebanon-to-prevent-hezbollah-from-joining-renewed-war-with-iran/",
      "via": "",
-     "published": "2026-11-05T05:00+00:00",
+     "published": "2026-11-03T03:49+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Cruise Ship Leaves Cambodia After Forcing Hundreds of Passengers Off",
-     "url": "https://gcaptain.com/cruise-ship-leaves-cambodia-after-forcing-hundreds-of-passengers-off/",
-     "via": "",
-     "published": "2026-11-04T12:45+00:00",
-     "summary": "After disembarking more than 200 passengers who had paid tens of thousands of dollars to live on board for years, the Villa Vie Odyssey cruise ship departed Cambodia early on Wednesday."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Cruise ship leaves Cambodia after forcing hundreds of passengers off",
-     "url": "https://www.straitstimes.com/asia/se-asia/cruise-ship-leaves-cambodia-after-forcing-hundreds-of-passengers-off",
-     "via": "",
-     "published": "2026-11-04T05:50+00:00",
-     "summary": "The vessel's owner said fuel price increases from the Iran war had made operations prohibitively expensive."
     }
    ],
    "id": 5
   },
   {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
+   "independent_outlets": 3,
+   "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Reuters",
-    "Associated Press"
+    "Times of Israel",
+    "Al Arabiya",
+    "South China Morning Post"
    ],
    "regions": [
-    "Europe",
-    "North America",
-    "Southeast Asia"
+    "China",
+    "Middle East"
    ],
-   "latest": "2026-11-04T22:02+00:00",
-   "earliest": "2026-11-04T05:51+00:00",
+   "latest": "2026-11-03T08:59+00:00",
+   "earliest": "2026-11-03T04:39+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
-     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
      "via": "",
-     "published": "2026-11-04T22:02+00:00",
-     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
-     "url": "https://www.reuters.com/world/asia-pacific/north-korea-test-fires-new-air-defence-missile-system-kcna-reports-2026-11-04/",
-     "via": "",
-     "published": "2026-11-04T21:18+00:00",
+     "published": "2026-11-03T08:59+00:00",
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "North Korea launches missiles toward the sea as Pyongyang protests against US claims on Binance hack",
-     "url": "https://apnews.com/article/north-korea-kim-weapons-tests-036aa8b36ae8401f3c1b3bbb81e9b2ed",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US reportedly strikes Iran’s Qeshm island",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/03/us-reportedly-strikes-iran-s-qeshm-island",
      "via": "",
-     "published": "2026-11-04T05:51+00:00",
+     "published": "2026-11-03T05:40+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "US strikes Iran’s Qeshm Island ahead of midterms as Trump says deal ‘could happen’",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3373075/us-strikes-irans-qeshm-island-ahead-midterms-trump-says-deal-could-happen",
+     "via": "",
+     "published": "2026-11-03T04:39+00:00",
+     "summary": "The United States has attacked an Iranian island in the Strait of Hormuz, the latest in a series of covert, limited strikes ahead of the US midterm elections, as President Donald Trump signalled progress in talks with Tehran and mediators continue pushing for dialogue. A Chinese analyst said Washington faced no urgency to negotiate with an anxious Tehran, with the outcome of the midterms and Trump"
     }
    ],
    "id": 6
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Africanews",
+     "Euronews"
+    ]
+   ],
    "outlets": [
-    "Business Standard",
-    "Reuters"
+    "Africanews",
+    "Euronews",
+    "Al Arabiya"
    ],
    "regions": [
+    "Africa",
     "Europe",
-    "South Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-05T05:41+00:00",
-   "earliest": "2026-11-04T15:46+00:00",
+   "latest": "2026-11-05T14:08+00:00",
+   "earliest": "2026-11-05T13:45+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "PepsiCo marketing beverages as 'energy drinks' to dupe consumers: FSSAI",
-     "url": "https://www.business-standard.com/companies/news/pepsico-energy-drink-label-dupe-consumers-fssai-delhi-high-court-sting-126110500602_1.html",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "France: Up to 55,000 march in Lyon amid clashes and tear gas",
+     "url": "http://www.africanews.com/2026/11/05/france-up-to-55000-march-in-lyon-amid-clashes-and-tear-gas/",
      "via": "",
-     "published": "2026-11-05T05:41+00:00",
-     "summary": ""
+     "published": "2026-11-05T14:08+00:00",
+     "summary": "Tens of thousands marched through Lyon area during a nationwide strike over wages and purchasing power. Police charged demonstrators and used tear gas as clashes erupted along the protest route."
     },
     {
-     "outlet": "Reuters",
+     "outlet": "Euronews",
      "region": "Europe",
-     "title": "India says PepsiCo, Monster marketed with 'energy drink' label to dupe consumers",
-     "url": "https://www.reuters.com/world/india/india-says-pepsico-monster-marketed-with-energy-drink-label-dupe-consumers-2026-11-04/",
+     "title": "France: Up to 55,000 march in Lyon amid clashes and tear gas",
+     "url": "https://www.euronews.com/video/2026/11/05/france-up-to-55000-march-in-lyon-amid-clashes-and-tear-gas",
      "via": "",
-     "published": "2026-11-04T15:46+00:00",
+     "published": "2026-11-05T14:08+00:00",
+     "summary": "Tens of thousands marched through Lyon area during a nationwide strike over wages and purchasing power. Police charged demonstrators and used tear gas as clashes erupted along the protest route."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "French police clash with protesters in Lyon on day of nationwide rallies, strike",
+     "url": "https://english.alarabiya.net/News/world/2026/11/05/french-police-clash-with-protesters-in-lyon-on-day-of-nationwide-rallies-strike-",
+     "via": "",
+     "published": "2026-11-05T13:45+00:00",
      "summary": ""
     }
    ],
@@ -562,123 +579,85 @@
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Times of Israel",
+     "The Straits Times"
+    ]
+   ],
    "outlets": [
-    "Livemint / Economic Times",
-    "Al Arabiya"
+    "Euronews",
+    "Times of Israel",
+    "The Straits Times"
    ],
    "regions": [
+    "Europe",
     "Middle East",
-    "South Asia"
+    "Southeast Asia"
    ],
-   "latest": "2026-11-05T05:20+00:00",
-   "earliest": "2026-11-04T16:22+00:00",
+   "latest": "2026-11-05T12:07+00:00",
+   "earliest": "2026-11-05T02:02+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US midterm election results: Impact on crude oil prices - what's happening after Trump's loss?",
-     "url": "https://www.livemint.com/news/us-news/us-midterm-election-results-impact-on-crude-oil-prices-whats-happening-after-trumps-loss-11793855107211.html",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "South Korea plans to extend anti-piracy patrols closer to Strait of Hormuz",
+     "url": "https://www.euronews.com/2026/11/05/south-korea-plans-to-extend-anti-piracy-patrols-closer-to-strait-of-hormuz",
      "via": "",
-     "published": "2026-11-05T05:20+00:00",
-     "summary": "Crude oil prices have fallen below $94 a barrel as US President Donald Trump's midterm election setback fuels hopes of an end to the Iran war. Here's how the political shift could affect global oil supplies, prices and India's crude imports."
+     "published": "2026-11-05T12:07+00:00",
+     "summary": "Seoul said pirates have recently ventured further from the Somali coast and added that it wanted to send a patrol aircraft to protect merchant ships off Oman while keeping its forces out of the ongoing Iran war."
     },
     {
-     "outlet": "Al Arabiya",
+     "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Brent crude oil drops below $100 per barrel",
-     "url": "https://english.alarabiya.net/News/world/2026/11/04/brent-crude-oil-drops-below-100-per-barrel",
+     "title": "South Korea to expand anti-piracy unit operations closer to Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/liveblog_entry/south-korea-to-expand-anti-piracy-unit-operations-closer-to-strait-of-hormuz/",
      "via": "",
-     "published": "2026-11-04T16:22+00:00",
+     "published": "2026-11-05T02:09+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "South Korea to expand anti-piracy unit operations closer to Strait of Hormuz",
+     "url": "https://www.straitstimes.com/asia/east-asia/south-korea-to-expand-anti-piracy-unit-operations-closer-to-strait-of-hormuz",
+     "via": "",
+     "published": "2026-11-05T02:02+00:00",
+     "summary": "The move came after pressure from US President Donald Trump to provide support for the war in Iran."
     }
    ],
    "id": 8
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Mining Weekly",
+     "MINING.COM"
+    ]
+   ],
    "outlets": [
-    "Reuters",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-05T03:46+00:00",
-   "earliest": "2026-11-04T23:58+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Gold hits a two-week high as dollar, Treasury yields ease after US midterm elections",
-     "url": "https://www.reuters.com/world/india/gold-hits-two-week-high-dollar-treasury-yields-ease-after-us-midterm-elections-2026-11-05/",
-     "via": "",
-     "published": "2026-11-05T03:46+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Gold Extends Rebound Above $4,100 as Dollar and Yields Decline",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-04/gold-holds-above-4-000-as-dollar-yields-fall-on-midterm-result",
-     "via": "",
-     "published": "2026-11-04T23:58+00:00",
-     "summary": "Gold extended gains — after jumping more than 3% on Wednesday — as a Democratic sweep of Congress in the US midterm elections sent the dollar and Treasury yields lower."
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-05T01:37+00:00",
-   "earliest": "2026-11-04T22:00+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Appian, World Bank arm say 70% of mining commitment deployed",
-     "url": "https://mining.com.au/appian-world-bank-arm-say-70-of-mining-commitment-deployed/",
-     "via": "",
-     "published": "2026-11-05T01:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Appian and World Bank arm say 70% of $100m mining commitment deployed",
-     "url": "https://www.miningweekly.com/article/appian-and-world-bank-arm-say-70-of-100m-mining-commitment-deployed-2026-11-05",
-     "via": "",
-     "published": "2026-11-04T22:00+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
+    "Mining Weekly",
     "Mining.com.au",
     "MINING.COM"
    ],
    "regions": [
+    "Africa",
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-05T01:37+00:00",
+   "latest": "2026-11-05T09:16+00:00",
    "earliest": "2026-11-04T22:13+00:00",
    "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Eagle Nuclear Energy to acquire Noble Plains Uranium",
+     "url": "https://www.miningweekly.com/article/eagle-energy-to-acquire-noble-plains-uranium-2026-11-05",
+     "via": "",
+     "published": "2026-11-05T09:16+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Mining.com.au",
      "region": "Oceania",
@@ -698,38 +677,108 @@
      "summary": "The deal will expand Eagle's resource footprint beyond Oregon, where it is advancing its Aurora project,"
     }
    ],
-   "id": 11
+   "id": 9
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
-    "Nikkei Asia"
+    "Al Arabiya"
    ],
    "regions": [
-    "East Asia",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-11-05T01:24+00:00",
-   "earliest": "2026-11-03T07:33+00:00",
+   "latest": "2026-11-05T19:22+00:00",
+   "earliest": "2026-11-05T18:01+00:00",
    "items": [
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Bangladesh garment factories close as workers clash with police in pay protests",
-     "url": "https://apnews.com/article/bangladesh-garment-wage-protest-eca550eb2285e98040778d280600c900",
+     "title": "AP Exclusive: Trump administration held talks with Iran on deporting Iranians during the war",
+     "url": "https://apnews.com/article/iran-immigration-deportation-flights-emails-1f245367d432b2683a546936014a1f90",
      "via": "",
-     "published": "2026-11-05T01:24+00:00",
+     "published": "2026-11-05T19:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump administration held talks with Iran on deporting Iranians during war",
+     "url": "https://english.alarabiya.net/News/united-states/2026/11/05/trump-administration-held-talks-with-iran-on-deporting-iranians-during-war",
+     "via": "",
+     "published": "2026-11-05T18:01+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-05T19:11+00:00",
+   "earliest": "2026-11-05T11:33+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Arabia ‘categorically’ denies WSJ claims about Houthi demands",
+     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/05/saudi-arabia-categorically-denies-wsj-claims-about-houthi-demands",
+     "via": "",
+     "published": "2026-11-05T19:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudi Arabia warns of potential danger in Yanbu oil hub as Houthi attacks continue",
+     "url": "https://www.reuters.com/world/middle-east/saudi-arabia-warns-potential-danger-yanbu-oil-hub-houthi-attacks-continue-2026-11-05/",
+     "via": "",
+     "published": "2026-11-05T11:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "Oceania"
+   ],
+   "latest": "2026-11-05T15:32+00:00",
+   "earliest": "2026-11-03T04:02+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Gold Fields holds guidance, comments on Northern Star",
+     "url": "https://mining.com.au/gold-fields-holds-guidance-comments-on-northern-star/",
+     "via": "",
+     "published": "2026-11-05T15:32+00:00",
      "summary": ""
     },
     {
      "outlet": "Nikkei Asia",
      "region": "East Asia",
-     "title": "Bangladesh garment factories become second schools for women",
-     "url": "https://asia.nikkei.com/spotlight/esg/bangladesh-garment-factories-become-second-schools-for-women",
+     "title": "Australia gold miner Northern Star lifts output amid investor pressure",
+     "url": "https://asia.nikkei.com/business/materials/australia-gold-miner-northern-star-lifts-output-amid-investor-pressure",
      "via": "",
-     "published": "2026-11-03T07:33+00:00",
+     "published": "2026-11-03T04:02+00:00",
      "summary": ""
     }
    ],
@@ -739,36 +788,176 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Reuters"
+    "The Straits Times",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-05T14:03+00:00",
+   "earliest": "2026-11-05T01:24+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Bangladesh garment protests continue despite wage board move",
+     "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-protests-continue-despite-wage-board-move",
+     "via": "",
+     "published": "2026-11-05T14:03+00:00",
+     "summary": "Bangladesh's police used tear gas and sound grenades in Ashulia after workers blocked a highway and threw bricks."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Bangladesh garment factories close as workers clash with police in pay protests",
+     "url": "https://apnews.com/article/bangladesh-garment-wage-protest-eca550eb2285e98040778d280600c900",
+     "via": "",
+     "published": "2026-11-05T01:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-05T12:12+00:00",
+   "earliest": "2026-11-05T10:44+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Sibanye cuts US platinum group metals output forecast after strike",
+     "url": "https://mining.com.au/sibanye-cuts-us-platinum-group-metals-output-forecast-after-strike/",
+     "via": "",
+     "published": "2026-11-05T12:12+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Sibanye cuts US output forecast after five-week strike",
+     "url": "https://www.mining.com/sibanye-cuts-us-output-forecast-after-five-week-strike/",
+     "via": "",
+     "published": "2026-11-05T10:44+00:00",
+     "summary": "A prolonged labour dispute disrupted platinum group metals output as the miner weighs its next move at a Finnish lithium project."
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Al Arabiya"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-05T00:39+00:00",
-   "earliest": "2026-11-04T16:30+00:00",
+   "latest": "2026-11-05T10:17+00:00",
+   "earliest": "2026-11-04T22:44+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Africa’s richest man launches mega oil tank farm in Namibia",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Drone strike sets Ozon warehouse ablaze in southern Russia",
+     "url": "https://www.euronews.com/video/2026/11/05/drone-strike-sets-ozon-warehouse-ablaze-in-southern-russia",
      "via": "",
-     "published": "2026-11-05T00:39+00:00",
-     "summary": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa's supply."
+     "published": "2026-11-05T10:17+00:00",
+     "summary": "A fire broke out at an Ozon warehouse in Adygeysk, southern Russia, on Wednesday. The Russian e-commerce giant said the facility had been targeted in a drone attack."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Drone Strike Sets Russian Warehouse Ablaze",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/05/drone-strike-sets-russian-warehouse-ablaze",
+     "via": "",
+     "published": "2026-11-04T22:44+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-05T09:35+00:00",
+   "earliest": "2026-11-05T09:01+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "India in final-stage talks to expand BrahMos missile sale to Philippines, sources say",
+     "url": "https://www.straitstimes.com/asia/south-asia/india-in-final-stage-talks-to-expand-brahmos-missile-sale-to-philippines-sources-say",
+     "via": "",
+     "published": "2026-11-05T09:35+00:00",
+     "summary": "BrahMos, developed jointly by India and Russia, is among the world’s fastest cruise missiles."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Billionaire industrialist Dangote launches $2.5 billion Namibia fuel storage project",
-     "url": "https://www.reuters.com/world/africa/billionaire-industrialist-dangote-launches-25-billion-namibia-fuel-storage-2026-11-04/",
+     "title": "India in final-stage talks to expand missile sale to Philippines, sources say",
+     "url": "https://www.reuters.com/world/asia-pacific/india-final-stage-talks-expand-missile-sale-philippines-sources-say-2026-11-05/",
      "via": "",
-     "published": "2026-11-04T16:30+00:00",
+     "published": "2026-11-05T09:01+00:00",
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "CBC News"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-05T02:25+00:00",
+   "earliest": "2026-11-04T04:08+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Canadian police find remains of mother and daughter after bear attack",
+     "url": "https://www.abc.net.au/news/2026-11-05/mother-and-daughter-killed-in-bear-attack-in-canada/107349256",
+     "via": "",
+     "published": "2026-11-05T02:25+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Mother and daughter dead in suspected grizzly bear attack near Bella Coola",
+     "url": "https://www.cbc.ca/player/play/video/9.7408339",
+     "via": "",
+     "published": "2026-11-04T04:08+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -803,77 +992,7 @@
      "summary": "In a social media post, Union Coal and Mines Minister G. Kishan Reddy stated the scheme would help strengthen domestic capabilities, boost manufacturing and reduce dependence on imports."
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-04T18:49+00:00",
-   "earliest": "2026-11-04T12:45+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump says Vance post blaming midterm loss on Iran war, floating change to Israel ties, is 'largely true'",
-     "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-vance-post-blaming-midterm-loss-on-iran-war-floating-change-to-israel-ties-is-largely-true/",
-     "via": "",
-     "published": "2026-11-04T18:49+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Trump says 'largely true' Iran war led to Republican midterm loss",
-     "url": "https://www.dw.com/en/trump-says-largely-true-iran-war-led-to-republican-midterm-loss/live-79829440?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-04T12:45+00:00",
-     "summary": "After Democrats won both the House and Senate in a blowout for Republicans, President Donald Trump admitted fuel prices brought on by the Iran war impacted the outcome, but stuck by his decision."
-    }
-   ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Axios",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-04T18:22+00:00",
-   "earliest": "2026-11-04T18:13+00:00",
-   "items": [
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Vance says the Iran war cost Republicans the midterms",
-     "url": "https://www.axios.com/2026/11/04/jd-vance-iran-war-trump-election",
-     "via": "",
-     "published": "2026-11-04T18:22+00:00",
-     "summary": "The Iran war was the reason for the Democrats' blue tsunami that stunned Washington, Vice President Vance said in an X post Wednesday morning. Why it matters: The VP offered a surprisingly blunt assessment of why the GOP got crushed Tuesday night — and started to put at least a little daylight between himself and President Trump as the 2028 cycle begins. Vance's comments come hours after Trump adm"
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Iran War! JD Vance lists 4 reasons voters switched to Democrats: ‘Agree or disagree, that’s at least honest’",
-     "url": "https://www.livemint.com/news/us-news/iran-war-jd-vance-lists-4-reasons-voters-switched-to-democrats-agree-or-disagree-that-s-at-least-honest-11793814944641.html",
-     "via": "",
-     "published": "2026-11-04T18:13+00:00",
-     "summary": "US Vice President JD Vance blamed the Iran war for the Republican Party’s losses in the midterm elections, citing voter concerns over inflation, the ‘America First’ agenda and Washington’s relationship with Israel."
-    }
-   ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -908,7 +1027,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -940,77 +1059,7 @@
      "url": "https://www.axios.com/2026/11/04/musk-republicans-midterm-gop-texas",
      "via": "",
      "published": "2026-11-04T06:32+00:00",
-     "summary": "Elon Musk cracked jokes early Wednesday morning after the Republican candidates he spent record sums supporting got drubbed in a historic midterm election. Why it matters: No one has ever spent as much as Musk for so little payoff — especially in Texas , which ended up with a massive blue wave. He spent an estimated $445 million in this cycle, making him the largest individual donor in modern hist"
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-04T00:04+00:00",
-   "earliest": "2026-11-03T18:50+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Binance hackers used fake job interview, tampered software in $6.3bn attack",
-     "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/binance-hackers-used-fake-job-interview-tampered-software-in-6.3bn-attack",
-     "via": "",
-     "published": "2026-11-04T00:04+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Binance hackers used fake job interview in US$6.3 billion attack",
-     "url": "https://www.straitstimes.com/business/companies-markets/binance-hackers-used-fake-job-interview-in-us6-3-billion-attack",
-     "via": "",
-     "published": "2026-11-03T18:50+00:00",
-     "summary": "Fake job interviews are a well-known hacking technique."
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-03T17:43+00:00",
-   "earliest": "2026-11-03T05:50+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "MMG, Anglo American extend $500 million nickel deal deadline",
-     "url": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
-     "via": "",
-     "published": "2026-11-03T17:43+00:00",
-     "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
-     "url": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
-     "via": "",
-     "published": "2026-11-03T05:50+00:00",
-     "summary": ""
+     "summary": "Elon Musk cracked jokes early Wednesday morning after the Republican candidates he spent record sums supporting got drubbed in historic midterm elections. Why it matters: No one has ever spent as much as Musk for so little payoff — especially in Texas , which ended up with a massive blue wave. He spent an estimated $445 million in this cycle, making him the largest individual donor in modern histo"
     }
    ],
    "id": 20
@@ -1019,33 +1068,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
+    "Al Jazeera",
+    "Al Arabiya"
    ],
    "regions": [
-    "Africa",
-    "North America"
+    "Middle East"
    ],
-   "latest": "2026-11-03T10:00+00:00",
-   "earliest": "2026-11-02T15:39+00:00",
+   "latest": "2026-11-05T17:08+00:00",
+   "earliest": "2026-11-05T11:46+00:00",
    "items": [
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Pecoy Copper secures C$49.8m strategic financing from Hudbay, another investor",
-     "url": "https://www.miningweekly.com/article/pecoy-copper-secures-c498m-strategic-financing-from-hudbay-another-investor-2026-11-03",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Jordanian officer killed in stabbing attack in Amman",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
      "via": "",
-     "published": "2026-11-03T10:00+00:00",
-     "summary": ""
+     "published": "2026-11-05T17:08+00:00",
+     "summary": "A Jordanian security officer has been killed and another one wounded near the Sri Lankan embassy in Amman."
     },
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Hudbay leads $49.8M investment in Pecoy Copper",
-     "url": "https://www.mining.com/hudbay-leads-49-8m-investment-in-pecoy-copper/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Jordan says security officer killed in Amman in ‘terrorist attack’",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/security-officer-attacked-and-killed-near-sri-lankan-embassy-in-jordan-s-capital",
      "via": "",
-     "published": "2026-11-02T15:39+00:00",
-     "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
+     "published": "2026-11-05T11:46+00:00",
+     "summary": ""
     }
    ],
    "id": 21
@@ -1054,32 +1102,31 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
-    "Africa",
-    "North America"
+    "Middle East"
    ],
-   "latest": "2026-11-02T10:44+00:00",
-   "earliest": "2026-11-02T07:04+00:00",
+   "latest": "2026-11-05T11:28+00:00",
+   "earliest": "2026-11-05T10:14+00:00",
    "items": [
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Gold Fields clears major hurdle for Quebec’s Windfall gold mine",
-     "url": "https://www.mining.com/gold-fields-clears-major-hurdle-for-quebecs-windfall-gold-mine/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi air defenses intercept Houthi ballistic missile targeting Medina region",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/saudi-air-defenses-intercept-houthi-ballistic-missile-targeting-medina-region",
      "via": "",
-     "published": "2026-11-02T10:44+00:00",
-     "summary": "Quebec grants environmental approval for Windfall, advancing a high-grade project toward a 2027 investment decision."
+     "published": "2026-11-05T11:28+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Quebec Ministry grants enviro authorisation for Gold Fields' Windfall project",
-     "url": "https://www.miningweekly.com/article/quebec-ministry-grants-enviro-authorisation-for-gold-fields-windfall-project-2026-11-02",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Saudis say they downed ballistic missile as Houthis demand $51 billion in exchange for ceasefire",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudis-say-they-downed-ballistic-missile-as-houthis-demand-51-billion-in-exchange-for-ceasefire/",
      "via": "",
-     "published": "2026-11-02T07:04+00:00",
+     "published": "2026-11-05T10:14+00:00",
      "summary": ""
     }
    ],
@@ -1089,31 +1136,31 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "Nikkei Asia"
+    "The Straits Times",
+    "The Jakarta Post"
    ],
    "regions": [
-    "East Asia"
+    "Southeast Asia"
    ],
-   "latest": "2026-11-05T02:13+00:00",
-   "earliest": "2026-11-04T04:43+00:00",
+   "latest": "2026-11-05T10:40+00:00",
+   "earliest": "2026-11-05T06:50+00:00",
    "items": [
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Mitsui Chemicals reportedly plans US$8.2B acquisition of JSR in Japan chip materials push",
-     "url": "https://www.digitimes.com/news/a20261105VL213/mitsui-chemicals-jsr-materials-acquisition.html",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Indonesia to bypass ‘neighbour’ middlemen in natural resource exports",
+     "url": "https://www.straitstimes.com/asia/se-asia/indonesia-to-bypass-neighbour-middlemen-in-natural-resource-exports",
      "via": "",
-     "published": "2026-11-05T02:13+00:00",
-     "summary": "Mitsui Chemicals is planning to acquire semiconductor materials maker JSR from state-backed Japan Investment (JIC) in a deal potentially worth more than JPY1.3 trillion (US$8.2 billion), which would rank as the largest acquisition in Japan's chemicals sector, according to reports by Nikkei Asia and Reuters on November 4, 2026."
+     "published": "2026-11-05T10:40+00:00",
+     "summary": "It says routing shipments through third countries costs it billions of rupiah in potential revenue."
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
-     "url": "https://asia.nikkei.com/business/business-deals/mitsui-chemicals-to-buy-japan-chip-material-maker-jsr-for-over-8.2bn2",
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Indonesia to bypass ‘neighbor’ middlemen in natural resource exports",
+     "url": "https://www.thejakartapost.com/business/2026/11/05/indonesia-to-bypass-neighbor-middlemen-in-natural-resource-exports?utm_source",
      "via": "",
-     "published": "2026-11-04T04:43+00:00",
+     "published": "2026-11-05T06:50+00:00",
      "summary": ""
     }
    ],
@@ -1123,32 +1170,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Business Standard"
+    "The Jakarta Post",
+    "The Straits Times"
    ],
    "regions": [
-    "South Asia"
+    "Southeast Asia"
    ],
-   "latest": "2026-11-04T17:01+00:00",
-   "earliest": "2026-11-04T15:18+00:00",
+   "latest": "2026-11-05T03:55+00:00",
+   "earliest": "2026-11-05T01:52+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "India draws $400 bn in preliminary renewable investment pledges",
-     "url": "https://www.livemint.com/news/india-receives-investment-commitment-worth-400-billion-at-bharat-renewable-energy-summit-pralhad-joshi-11793806667651.html",
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Democrats gain influence over trade agenda but impact may be limited",
+     "url": "https://www.thejakartapost.com/business/2026/11/05/democrats-gain-influence-over-trade-agenda-but-impact-may-be-limited",
      "via": "",
-     "published": "2026-11-04T17:01+00:00",
-     "summary": "The government will review proposals, while also advancing grid-scale storage and its targets for expanding non-fossil energy capacity."
+     "published": "2026-11-05T03:55+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Clean energy sector receives long-term investment pledges of $400 billion",
-     "url": "https://www.business-standard.com/economy/news/govt-gets-400-billion-in-renewable-energy-investment-commitments-joshi-126110401940_1.html",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Democrats gain influence over trade agenda, but tariff repeals to hit Trump veto wall",
+     "url": "https://www.straitstimes.com/asia/democrats-gain-influence-over-trade-agenda-but-tariff-repeals-to-hit-trump-veto-wall",
      "via": "",
-     "published": "2026-11-04T15:18+00:00",
-     "summary": ""
+     "published": "2026-11-05T01:52+00:00",
+     "summary": "HOUSTON, Nov 4 - Democrats' resounding sweep to a majority in Congress gives them a big microphone and spotlight to scrutinize President Donald Trump's trade policies, but largely leaves them unable to override his veto on any vote to overturn his tariffs or rescind trade authorities, trade and legal experts said on Wednesday."
     }
    ],
    "id": 24
@@ -1164,7 +1211,7 @@
     "North America"
    ],
    "latest": "2026-11-04T12:57+00:00",
-   "earliest": "2026-11-04T01:15+00:00",
+   "earliest": "2026-11-04T01:20+00:00",
    "items": [
     {
      "outlet": "MINING.COM",
@@ -1181,11 +1228,45 @@
      "title": "Earthquake rattles mining town of Esterhazy, Sask.",
      "url": "https://www.cbc.ca/player/play/video/9.7408190",
      "via": "",
-     "published": "2026-11-04T01:15+00:00",
+     "published": "2026-11-04T01:20+00:00",
      "summary": ""
     }
    ],
    "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-04T12:57+00:00",
+   "earliest": "2026-11-04T10:12+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Union Cabinet approves ₹14,500 crore VGF scheme to develop large scale energy storage in India",
+     "url": "https://www.thehindu.com/business/Economy/union-cabinet-approves-14500-crore-vgf-scheme-to-develop-large-scale-energy-storage-in-india/article71665406.ece",
+     "via": "",
+     "published": "2026-11-04T12:57+00:00",
+     "summary": "The scheme is designed to provide for the development of hydro pumped storage plant (PSP) capacity, battery energy storage system (BESS) capacity, as well as alternative energy storage technologies"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Cabinet clears ₹14,500 cr funding scheme for battery energy storage systems",
+     "url": "https://www.business-standard.com/industry/news/cabinet-clears-14-500-cr-funding-scheme-for-battery-energy-storage-systems-126110401014_1.html",
+     "via": "",
+     "published": "2026-11-04T10:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1219,7 +1300,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
   }
  ]
 }
