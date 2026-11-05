@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-05T00:32:18+00:00",
+ "fetched_at": "2026-11-05T01:04:46+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 744,
+ "items_read": 745,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,12 +22,12 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 35,
+   "items": 36,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "South China Morning Post": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 42,
+   "items": 40,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Kyodo News": {
@@ -57,17 +57,17 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 40,
+   "items": 39,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Financial Times": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 32,
+   "items": 34,
    "errors": []
   },
   "Bloomberg": {
@@ -132,7 +132,7 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "CBC News": {
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "The Indian Express": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Rio Times": {
@@ -241,6 +241,63 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Livemint / Economic Times",
+    "ABC News (Australia)",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Latin America",
+    "Middle East",
+    "Oceania",
+    "South Asia"
+   ],
+   "latest": "2026-11-04T23:25+00:00",
+   "earliest": "2026-11-04T07:58+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Israel Certifies Vote, Rejects Fraud Claims",
+     "url": "https://www.riotimesonline.com/israel-certifies-election-rejects-fraud-claims/",
+     "via": "",
+     "published": "2026-11-04T23:25+00:00",
+     "summary": "Israel's election committee certified the result and found no fraud, but neither Netanyahu's 53 seats nor Eisenkot's 48 reach the 61 needed. The post Israel Certifies Vote, Rejects Fraud Claims appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Israel election: No fraud found; Netanyahu, Eisenkot begin coalition talks - Govt formation process, timeline explained",
+     "url": "https://www.livemint.com/news/world/israel-election-no-fraud-found-netanyahu-eisenkot-begin-coalition-talks-govt-formation-process-timeline-explained-11793791610075.html",
+     "via": "",
+     "published": "2026-11-04T11:50+00:00",
+     "summary": "Herzog's consultations and coalition talks will determine whether Netanyahu retains power, Eisenkot forms a government or Israel heads for another election."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Commission finds no fraud in Israeli election as results certified",
+     "url": "https://www.abc.net.au/news/2026-11-04/israeli-election-commission-fraud-investigation/107347454",
+     "via": "",
+     "published": "2026-11-04T08:39+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israel election commission rejects Netanyahu charges of fraud",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/04/israel-election-commission-rejects-netanyahu-charges-of-fraud",
+     "via": "",
+     "published": "2026-11-04T07:58+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -285,7 +342,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -331,7 +388,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -376,7 +433,58 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "Reuters",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-04T22:02+00:00",
+   "earliest": "2026-11-04T05:51+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
+     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
+     "via": "",
+     "published": "2026-11-04T22:02+00:00",
+     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
+     "url": "https://www.reuters.com/world/asia-pacific/north-korea-test-fires-new-air-defence-missile-system-kcna-reports-2026-11-04/",
+     "via": "",
+     "published": "2026-11-04T22:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "North Korea launches missiles toward the sea as Pyongyang protests against US claims on Binance hack",
+     "url": "https://apnews.com/article/north-korea-kim-weapons-tests-036aa8b36ae8401f3c1b3bbb81e9b2ed",
+     "via": "",
+     "published": "2026-11-04T05:51+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -411,42 +519,7 @@
      "summary": "By greenlighting the Arizona mine expansion Freeport-McMoRan aims to double copper production amid rising demand."
     }
    ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-04T22:02+00:00",
-   "earliest": "2026-11-04T05:51+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
-     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
-     "via": "",
-     "published": "2026-11-04T22:02+00:00",
-     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "North Korea launches missiles toward the sea as Pyongyang protests against US claims on Binance hack",
-     "url": "https://apnews.com/article/north-korea-kim-weapons-tests-036aa8b36ae8401f3c1b3bbb81e9b2ed",
-     "via": "",
-     "published": "2026-11-04T05:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -481,7 +554,42 @@
      "summary": "In a social media post, Union Coal and Mines Minister G. Kishan Reddy stated the scheme would help strengthen domestic capabilities, boost manufacturing and reduce dependence on imports."
     }
    ],
-   "id": 6
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "BNamericas",
+    "South China Morning Post"
+   ],
+   "regions": [
+    "China",
+    "Latin America"
+   ],
+   "latest": "2026-11-04T21:57+00:00",
+   "earliest": "2026-11-03T14:00+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Democrats set to scrutinize US trade policy and critical minerals deals with Latin America",
+     "url": "https://www.bnamericas.com/en/analysis/democrats-set-to-scrutinize-us-trade-policy-and-critical-minerals-deals-with-latin-america",
+     "via": "",
+     "published": "2026-11-04T21:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Cuba flight, Taiwan trade pushback, Panama probe: 7 Latin America relations reads",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3372642/cuba-flight-taiwan-trade-pushback-panama-probe-7-latin-america-relations-reads",
+     "via": "",
+     "published": "2026-11-03T14:00+00:00",
+     "summary": "We have selected seven of the most interesting and important news stories covering Latin American relations from the past few weeks. If you would like to see more of our reporting, please consider subscribing. 1. Air China scrambles to fly stranded passengers out of fuel-starved Cuba As a US oil embargo deepened Cuba’s energy crisis, dozens of Air China passengers found themselves stranded on the "
+    }
+   ],
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -516,7 +624,7 @@
      "summary": "Iranians on Wednesday struck a defiant tone, celebrating U.S. voters’ rebuke of President Donald Trump in the midterm elections while many in the Middle East waited to see how the results could affect the Iran war"
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -551,7 +659,7 @@
      "summary": "After Democrats won both the House and Senate in a blowout for Republicans, President Donald Trump admitted fuel prices brought on by the Iran war impacted the outcome, but stuck by his decision. DW has more."
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -586,7 +694,7 @@
      "summary": "US Vice President JD Vance has blamed the Iran war for the Republican Party’s losses in the midterm elections, citing voter concerns over inflation, the ‘America First’ agenda and Washington’s relationship with Israel."
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -621,7 +729,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -656,7 +764,7 @@
      "summary": "The Hindu had learnt previously that the potential scheme could provide support of about 30% for setting up of these processing plants"
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -691,7 +799,7 @@
      "summary": "Elon Musk cracked jokes early Wednesday morning after the Republican candidates he spent record sums supporting got drubbed in a historic midterm election. Why it matters: No one has ever spent as much as Musk for so little payoff — especially in Texas , which ended up with a massive blue wave. He spent an estimated $445 million in this cycle, making him the largest individual donor in modern hist"
     }
    ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -726,7 +834,7 @@
      "summary": "Fake job interviews are a well-known hacking technique."
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -761,7 +869,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -796,42 +904,42 @@
      "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Business Standard"
+    "Africanews",
+    "Nikkei Asia"
    ],
    "regions": [
-    "Middle East",
-    "South Asia"
+    "Africa",
+    "East Asia"
    ],
-   "latest": "2026-11-03T08:59+00:00",
-   "earliest": "2026-11-03T02:29+00:00",
+   "latest": "2026-11-03T09:16+00:00",
+   "earliest": "2026-11-03T06:11+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "US strikes Iran's Qeshm Island on eve of midterm elections",
+     "url": "http://www.africanews.com/2026/11/03/us-strikes-irans-qeshm-island-on-eve-of-midterm-elections/",
      "via": "",
-     "published": "2026-11-03T08:59+00:00",
-     "summary": ""
+     "published": "2026-11-03T09:16+00:00",
+     "summary": "The United States on Monday launched strikes on Iran's Queshm Island, on the eve of crucial midterm elections, the Wall Street Journal reported."
     },
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say",
-     "url": "https://www.business-standard.com/world-news/multiple-explosions-heard-on-iran-s-qeshm-island-bandar-lengeh-near-hormuz-126110300075_1.html",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Oil edges up after report of US strike on Iran's Qeshm Island",
+     "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/oil-edges-up-after-report-of-us-strike-on-iran-s-qeshm-island",
      "via": "",
-     "published": "2026-11-03T02:29+00:00",
+     "published": "2026-11-03T06:11+00:00",
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -866,7 +974,41 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-04T16:19+00:00",
+   "earliest": "2026-11-04T15:07+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "IDF says Lebanon strike, said to kill 1, targeted suspects observing Israeli troops",
+     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-lebanon-strike-said-to-kill-1-targeted-suspects-observing-israeli-troops/",
+     "via": "",
+     "published": "2026-11-04T16:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Lebanon says Israeli strike kills one in south",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/04/lebanon-says-israeli-strike-kills-one-in-south",
+     "via": "",
+     "published": "2026-11-04T15:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -900,7 +1042,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -934,7 +1076,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -968,7 +1110,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 23
   }
  ]
 }
