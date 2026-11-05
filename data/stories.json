@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-05T01:29:27+00:00",
+ "fetched_at": "2026-11-05T03:20:38+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 746,
+ "outlets_read": 44,
+ "items_read": 737,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 36,
+   "items": 37,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 28,
+   "items": 30,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 42,
+   "items": 34,
    "errors": []
   },
   "Nikkei Asia": {
@@ -57,12 +57,12 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 39,
+   "items": 23,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Reuters": {
@@ -97,12 +97,12 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 12,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 38,
+   "items": 40,
    "errors": []
   },
   "Times of Israel": {
@@ -112,12 +112,12 @@
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 0,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 16,
+   "items": 18,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "PortNews": {
@@ -189,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -206,12 +206,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 22,
+   "items": 25,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "VnExpress International": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 10,
+   "items": 6,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,109 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "Times of Israel",
+    "Nikkei Asia",
+    "Business Standard"
+   ],
+   "regions": [
+    "Africa",
+    "East Asia",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-11-03T09:16+00:00",
+   "earliest": "2026-11-03T02:29+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "US strikes Iran's Qeshm Island on eve of midterm elections",
+     "url": "http://www.africanews.com/2026/11/03/us-strikes-irans-qeshm-island-on-eve-of-midterm-elections/",
+     "via": "",
+     "published": "2026-11-03T09:16+00:00",
+     "summary": "The United States on Monday launched strikes on Iran's Queshm Island, on the eve of crucial midterm elections, the Wall Street Journal reported."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-11-03T08:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Oil edges up after report of US strike on Iran's Qeshm Island",
+     "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/oil-edges-up-after-report-of-us-strike-on-iran-s-qeshm-island",
+     "via": "",
+     "published": "2026-11-03T06:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US carries out 'defensive' strikes on Iran's Qeshm Island, officials say",
+     "url": "https://www.business-standard.com/world-news/multiple-explosions-heard-on-iran-s-qeshm-island-bandar-lengeh-near-hormuz-126110300075_1.html",
+     "via": "",
+     "published": "2026-11-03T02:29+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Africa",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-05T01:30+00:00",
+   "earliest": "2026-11-04T15:57+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Freeport greenlights $6.4 billion expansion of Arizona mine",
+     "url": "https://mining.com.au/freeport-greenlights-6-4-billion-expansion-of-arizona-mine/",
+     "via": "",
+     "published": "2026-11-05T01:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Freeport approves $4.5bn expansion, modernisation of Arizona copper project",
+     "url": "https://www.miningweekly.com/article/freeport-approves-45bn-expansion-modernisation-of-arizona-copper-project-2026-11-05",
+     "via": "",
+     "published": "2026-11-04T22:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Freeport approves $4.5 billion Bagdad copper expansion",
+     "url": "https://www.mining.com/freeport-approves-4-5-billion-bagdad-copper-expansion/",
+     "via": "",
+     "published": "2026-11-04T15:57+00:00",
+     "summary": "By greenlighting the Arizona mine expansion Freeport-McMoRan aims to double copper production amid rising demand."
+    }
+   ],
+   "id": 2
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -285,7 +388,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -331,7 +434,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -377,7 +480,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -422,7 +525,51 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Kyodo News",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-11-05T02:13+00:00",
+   "earliest": "2026-11-04T04:43+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Mitsui Chemicals reportedly plans US$8.2B acquisition of JSR in Japan chip materials push",
+     "url": "https://www.digitimes.com/news/a20261105VL213/mitsui-chemicals-jsr-materials-acquisition.html",
+     "via": "",
+     "published": "2026-11-05T02:13+00:00",
+     "summary": "Mitsui Chemicals is planning to acquire semiconductor materials maker JSR from state-backed Japan Investment (JIC) in a deal potentially worth more than JPY1.3 trillion (US$8.2 billion), which would rank as the largest acquisition in Japan's chemicals sector, according to reports by Nikkei Asia and Reuters on November 4, 2026."
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "BREAKING NEWS: Mitsui Chemicals mulls acquisition of major chip material supplier JSR",
+     "url": "https://english.kyodonews.net/articles/-/90322",
+     "via": "",
+     "published": "2026-11-04T07:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
+     "url": "https://asia.nikkei.com/business/business-deals/mitsui-chemicals-to-buy-japan-chip-material-maker-jsr-for-over-8.2bn2",
+     "via": "",
+     "published": "2026-11-04T04:43+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -473,42 +620,77 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 8
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
+    "Mining.com.au",
+    "Mining Weekly"
    ],
    "regions": [
     "Africa",
-    "North America"
+    "Oceania"
    ],
-   "latest": "2026-11-04T22:15+00:00",
-   "earliest": "2026-11-04T15:57+00:00",
+   "latest": "2026-11-05T01:37+00:00",
+   "earliest": "2026-11-04T22:00+00:00",
    "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Appian, World Bank arm say 70% of mining commitment deployed",
+     "url": "https://mining.com.au/appian-world-bank-arm-say-70-of-mining-commitment-deployed/",
+     "via": "",
+     "published": "2026-11-05T01:37+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Mining Weekly",
      "region": "Africa",
-     "title": "Freeport approves $4.5bn expansion, modernisation of Arizona copper project",
-     "url": "https://www.miningweekly.com/article/freeport-approves-45bn-expansion-modernisation-of-arizona-copper-project-2026-11-05",
+     "title": "Appian and World Bank arm say 70% of $100m mining commitment deployed",
+     "url": "https://www.miningweekly.com/article/appian-and-world-bank-arm-say-70-of-100m-mining-commitment-deployed-2026-11-05",
      "via": "",
-     "published": "2026-11-04T22:15+00:00",
+     "published": "2026-11-04T22:00+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-05T01:37+00:00",
+   "earliest": "2026-11-04T22:13+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Eagle Nuclear bids for Noble Plains",
+     "url": "https://mining.com.au/eagle-nuclear-bids-for-noble-plains/",
+     "via": "",
+     "published": "2026-11-05T01:37+00:00",
      "summary": ""
     },
     {
      "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Freeport approves $4.5 billion Bagdad copper expansion",
-     "url": "https://www.mining.com/freeport-approves-4-5-billion-bagdad-copper-expansion/",
+     "title": "Eagle Nuclear Energy to acquire Noble Plains Uranium",
+     "url": "https://www.mining.com/eagle-nuclear-energy-to-acquire-noble-plains-uranium/",
      "via": "",
-     "published": "2026-11-04T15:57+00:00",
-     "summary": "By greenlighting the Arizona mine expansion Freeport-McMoRan aims to double copper production amid rising demand."
+     "published": "2026-11-04T22:13+00:00",
+     "summary": "The deal will expand Eagle's resource footprint beyond Oregon, where it is advancing its Aurora project,"
     }
    ],
-   "id": 6
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -543,42 +725,7 @@
      "summary": "In a social media post, Union Coal and Mines Minister G. Kishan Reddy stated the scheme would help strengthen domestic capabilities, boost manufacturing and reduce dependence on imports."
     }
    ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Africanews"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-04T20:46+00:00",
-   "earliest": "2026-11-04T16:56+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Iran’s leaders say midterm results show US voters have rejected Trump’s war",
-     "url": "https://apnews.com/article/us-iran-midterm-election-f3c48a92df2bd8a658d3e704a7291d11",
-     "via": "",
-     "published": "2026-11-04T20:46+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Iran's leaders say midterm results show voters have rejected Trump's war",
-     "url": "http://www.africanews.com/2026/11/04/irans-leaders-say-midterm-results-show-voters-have-rejected-trumps-war/",
-     "via": "",
-     "published": "2026-11-04T16:56+00:00",
-     "summary": "Iranians on Wednesday struck a defiant tone, celebrating U.S. voters’ rebuke of President Donald Trump in the midterm elections while many in the Middle East waited to see how the results could affect the Iran war"
-    }
-   ],
-   "id": 8
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -606,49 +753,14 @@
     {
      "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "Trump says 'largely true' Iran war led to Republicans midterm loss",
-     "url": "https://www.dw.com/en/trump-says-largely-true-iran-war-led-to-republicans-midterm-loss/live-79829440?maca=en-rss-en-all-1573-rdf",
+     "title": "Trump says 'largely true' Iran war led to Republican midterm loss",
+     "url": "https://www.dw.com/en/trump-says-largely-true-iran-war-led-to-republican-midterm-loss/live-79829440?maca=en-rss-en-all-1573-rdf",
      "via": "",
      "published": "2026-11-04T12:45+00:00",
      "summary": "After Democrats won both the House and Senate in a blowout for Republicans, President Donald Trump admitted fuel prices brought on by the Iran war impacted the outcome, but stuck by his decision. DW has more."
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Financial Times",
-    "Business Standard"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-04T18:33+00:00",
-   "earliest": "2026-11-04T07:22+00:00",
-   "items": [
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Voters have put a helpful chill on the US data centre boom",
-     "url": "https://www.ft.com/content/b7d0761f-e5fb-4746-924f-b15420a57844?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-04T18:33+00:00",
-     "summary": "Midterm results could affect 45 per cent of planned expansion, but there is a silver lining for investors"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "AI data centre boom is set for upheaval after US midterm election rout",
-     "url": "https://www.business-standard.com/world-news/ai-data-centre-boom-is-set-for-upheaval-after-us-midterm-election-rout-126110400718_1.html",
-     "via": "",
-     "published": "2026-11-04T07:22+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -680,10 +792,10 @@
      "url": "https://www.livemint.com/news/us-news/iran-war-jd-vance-lists-4-reasons-voters-switched-to-democrats-agree-or-disagree-that-s-at-least-honest-11793814944641.html",
      "via": "",
      "published": "2026-11-04T18:13+00:00",
-     "summary": "US Vice President JD Vance has blamed the Iran war for the Republican Party’s losses in the midterm elections, citing voter concerns over inflation, the ‘America First’ agenda and Washington’s relationship with Israel."
+     "summary": "US Vice President JD Vance blamed the Iran war for the Republican Party’s losses in the midterm elections, citing voter concerns over inflation, the ‘America First’ agenda and Washington’s relationship with Israel."
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -718,42 +830,7 @@
      "summary": ""
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "The Hindu"
-   ],
-   "regions": [
-    "Oceania",
-    "South Asia"
-   ],
-   "latest": "2026-11-04T13:02+00:00",
-   "earliest": "2026-11-04T09:58+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "India approves $427 million critical minerals processing scheme",
-     "url": "https://mining.com.au/india-approves-427-million-critical-minerals-processing-scheme/",
-     "via": "",
-     "published": "2026-11-04T13:02+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Union Cabinet to discuss capex support for critical mineral processing, VGF for RE grid-scale storage system",
-     "url": "https://www.thehindu.com/business/union-cabinet-discussion-capex-support-for-critical-mineral-processing-vgf-re-grid-scale-storage-system/article71664202.ece",
-     "via": "",
-     "published": "2026-11-04T09:58+00:00",
-     "summary": "The Hindu had learnt previously that the potential scheme could provide support of about 30% for setting up of these processing plants"
-    }
-   ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -788,7 +865,7 @@
      "summary": "Elon Musk cracked jokes early Wednesday morning after the Republican candidates he spent record sums supporting got drubbed in a historic midterm election. Why it matters: No one has ever spent as much as Musk for so little payoff — especially in Texas , which ended up with a massive blue wave. He spent an estimated $445 million in this cycle, making him the largest individual donor in modern hist"
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -823,7 +900,7 @@
      "summary": "Fake job interviews are a well-known hacking technique."
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -858,7 +935,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -891,41 +968,6 @@
      "via": "",
      "published": "2026-11-02T15:39+00:00",
      "summary": "The investment provides funding for drilling and studies needed to better define the deposit and assess how to recover its metals."
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "Africa",
-    "East Asia"
-   ],
-   "latest": "2026-11-03T09:16+00:00",
-   "earliest": "2026-11-03T06:11+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "US strikes Iran's Qeshm Island on eve of midterm elections",
-     "url": "http://www.africanews.com/2026/11/03/us-strikes-irans-qeshm-island-on-eve-of-midterm-elections/",
-     "via": "",
-     "published": "2026-11-03T09:16+00:00",
-     "summary": "The United States on Monday launched strikes on Iran's Queshm Island, on the eve of crucial midterm elections, the Wall Street Journal reported."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Oil edges up after report of US strike on Iran's Qeshm Island",
-     "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/oil-edges-up-after-report-of-us-strike-on-iran-s-qeshm-island",
-     "via": "",
-     "published": "2026-11-03T06:11+00:00",
-     "summary": ""
     }
    ],
    "id": 18
@@ -1066,40 +1108,6 @@
     }
    ],
    "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Kyodo News",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-04T07:31+00:00",
-   "earliest": "2026-11-04T04:43+00:00",
-   "items": [
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "BREAKING NEWS: Mitsui Chemicals mulls acquisition of major chip material supplier JSR",
-     "url": "https://english.kyodonews.net/articles/-/90322",
-     "via": "",
-     "published": "2026-11-04T07:31+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
-     "url": "https://asia.nikkei.com/business/business-deals/mitsui-chemicals-to-buy-japan-chip-material-maker-jsr-for-over-8.2bn2",
-     "via": "",
-     "published": "2026-11-04T04:43+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
   }
  ]
 }
