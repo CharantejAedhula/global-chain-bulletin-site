@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-05T01:04:46+00:00",
+ "fetched_at": "2026-11-05T01:29:27+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 745,
+ "items_read": 746,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Ecofin Agency": {
@@ -42,17 +42,17 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 40,
+   "items": 42,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "Bloomberg": {
@@ -154,12 +154,12 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Mining.com.au": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 19,
+   "items": 16,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "The Jakarta Post": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 6,
+   "items": 10,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,32 +242,67 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Rio Times",
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America",
+    "Middle East"
+   ],
+   "latest": "2026-11-05T01:15+00:00",
+   "earliest": "2026-11-04T16:30+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Dangote Starts US$2.5B Namibia Fuel Hub",
+     "url": "https://www.riotimesonline.com/dangote-namibia-fuel-hub-walvis-bay/",
+     "via": "",
+     "published": "2026-11-05T01:15+00:00",
+     "summary": "Dangote began building a fuel storage hub at Walvis Bay on 4 November, with a 1,700 km pipeline planned for landlocked Africa. The post Dangote Starts US$2.5B Namibia Fuel Hub appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Africa’s richest man launches mega oil tank farm in Namibia",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-05T00:39+00:00",
+     "summary": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa's supply."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Billionaire industrialist Dangote launches $2.5 billion Namibia fuel storage project",
+     "url": "https://www.reuters.com/world/africa/billionaire-industrialist-dangote-launches-25-billion-namibia-fuel-storage-2026-11-04/",
+     "via": "",
+     "published": "2026-11-04T16:30+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Livemint / Economic Times",
     "ABC News (Australia)",
     "Al Arabiya"
    ],
    "regions": [
-    "Latin America",
     "Middle East",
     "Oceania",
     "South Asia"
    ],
-   "latest": "2026-11-04T23:25+00:00",
+   "latest": "2026-11-04T11:50+00:00",
    "earliest": "2026-11-04T07:58+00:00",
    "items": [
-    {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Israel Certifies Vote, Rejects Fraud Claims",
-     "url": "https://www.riotimesonline.com/israel-certifies-election-rejects-fraud-claims/",
-     "via": "",
-     "published": "2026-11-04T23:25+00:00",
-     "summary": "Israel's election committee certified the result and found no fraud, but neither Netanyahu's 53 seats nor Eisenkot's 48 reach the 61 needed. The post Israel Certifies Vote, Rejects Fraud Claims appeared first on The Rio Times ."
-    },
     {
      "outlet": "Livemint / Economic Times",
      "region": "South Asia",
@@ -293,52 +328,6 @@
      "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/04/israel-election-commission-rejects-netanyahu-charges-of-fraud",
      "via": "",
      "published": "2026-11-04T07:58+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Financial Times",
-    "Livemint / Economic Times",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-04T20:18+00:00",
-   "earliest": "2026-11-04T16:22+00:00",
-   "items": [
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Oil tumbles below $100 on post-election peace hopes",
-     "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-04T20:18+00:00",
-     "summary": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war"
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Brent crude oil price falls below $100 a barrel on hopes of Iran peace deal following Democrats' midterm victory",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/brent-crude-oil-price-falls-below-100-a-barrel-on-hopes-of-iran-peace-deal-following-democrats-midterm-victory/articleshow/135550857.cms",
-     "via": "",
-     "published": "2026-11-04T19:53+00:00",
-     "summary": "Crude oil prices experienced a significant decline, with Brent prices falling below $100 per barrel. The decline was influenced by hopes for a peace deal in the Iran war after Democratic victories. Discussions about a possible agreement have prompted Qatar to increase its mediation efforts between Washington and Tehran. Despite the optimism, Iranian officials suggest that an agreement is still far"
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Brent crude oil drops below $100 per barrel",
-     "url": "https://english.alarabiya.net/News/world/2026/11/04/brent-crude-oil-drops-below-100-per-barrel",
-     "via": "",
-     "published": "2026-11-04T16:22+00:00",
      "summary": ""
     }
    ],
@@ -560,41 +549,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "BNamericas",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "Latin America"
-   ],
-   "latest": "2026-11-04T21:57+00:00",
-   "earliest": "2026-11-03T14:00+00:00",
-   "items": [
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Democrats set to scrutinize US trade policy and critical minerals deals with Latin America",
-     "url": "https://www.bnamericas.com/en/analysis/democrats-set-to-scrutinize-us-trade-policy-and-critical-minerals-deals-with-latin-america",
-     "via": "",
-     "published": "2026-11-04T21:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Cuba flight, Taiwan trade pushback, Panama probe: 7 Latin America relations reads",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3372642/cuba-flight-taiwan-trade-pushback-panama-probe-7-latin-america-relations-reads",
-     "via": "",
-     "published": "2026-11-03T14:00+00:00",
-     "summary": "We have selected seven of the most interesting and important news stories covering Latin American relations from the past few weeks. If you would like to see more of our reporting, please consider subscribing. 1. Air China scrambles to fly stranded passengers out of fuel-starved Cuba As a US oil embargo deepened Cuba’s energy crisis, dozens of Air China passengers found themselves stranded on the "
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Associated Press",
     "Africanews"
    ],
@@ -624,7 +578,7 @@
      "summary": "Iranians on Wednesday struck a defiant tone, celebrating U.S. voters’ rebuke of President Donald Trump in the midterm elections while many in the Middle East waited to see how the results could affect the Iran war"
     }
    ],
-   "id": 9
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -657,6 +611,41 @@
      "via": "",
      "published": "2026-11-04T12:45+00:00",
      "summary": "After Democrats won both the House and Senate in a blowout for Republicans, President Donald Trump admitted fuel prices brought on by the Iran war impacted the outcome, but stuck by his decision. DW has more."
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-04T18:33+00:00",
+   "earliest": "2026-11-04T07:22+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Voters have put a helpful chill on the US data centre boom",
+     "url": "https://www.ft.com/content/b7d0761f-e5fb-4746-924f-b15420a57844?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-04T18:33+00:00",
+     "summary": "Midterm results could affect 45 per cent of planned expansion, but there is a silver lining for investors"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "AI data centre boom is set for upheaval after US midterm election rout",
+     "url": "https://www.business-standard.com/world-news/ai-data-centre-boom-is-set-for-upheaval-after-us-midterm-election-rout-126110400718_1.html",
+     "via": "",
+     "published": "2026-11-04T07:22+00:00",
+     "summary": ""
     }
    ],
    "id": 10
@@ -980,31 +969,31 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
+    "Rio Times",
+    "BNamericas"
    ],
    "regions": [
-    "Middle East"
+    "Latin America"
    ],
-   "latest": "2026-11-04T16:19+00:00",
-   "earliest": "2026-11-04T15:07+00:00",
+   "latest": "2026-11-05T00:58+00:00",
+   "earliest": "2026-11-04T10:51+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF says Lebanon strike, said to kill 1, targeted suspects observing Israeli troops",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-lebanon-strike-said-to-kill-1-targeted-suspects-observing-israeli-troops/",
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Miner Vale Rises 4.1% as Rio Tinto Gains 3.6% | Iron Ore, Nov 4",
+     "url": "https://www.riotimesonline.com/iron-ore-markets-latam-wednesday-november-4-2026/",
      "via": "",
-     "published": "2026-11-04T16:19+00:00",
-     "summary": ""
+     "published": "2026-11-05T00:58+00:00",
+     "summary": "Brazil's Vale rose 4.10% to US$11.43 in New York on 4 November, bouncing off a 12-month low, while Rio Tinto gained 3.60% on a softer dollar. The post Miner Vale Rises 4.1% as Rio Tinto Gains 3.6% | Iron Ore, Nov 4 appeared first on The Rio Times ."
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Lebanon says Israeli strike kills one in south",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/04/lebanon-says-israeli-strike-kills-one-in-south",
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Brazil's Vale considers cutting iron ore production in 2027 amid rising freight costs",
+     "url": "https://www.bnamericas.com/en/news/brazils-vale-considers-cutting-iron-ore-production-in-2027-amid-rising-freight-costs",
      "via": "",
-     "published": "2026-11-04T15:07+00:00",
+     "published": "2026-11-04T10:51+00:00",
      "summary": ""
     }
    ],
