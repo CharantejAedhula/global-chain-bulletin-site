@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-06T01:35:40+00:00",
+ "fetched_at": "2026-11-06T03:18:35+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 764,
+ "items_read": 771,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,52 +32,52 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 47,
+   "items": 51,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 35,
+   "items": 29,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 25,
+   "items": 36,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 27,
+   "items": 22,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Euronews": {
@@ -92,17 +92,17 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 45,
+   "items": 46,
    "errors": []
   },
   "Times of Israel": {
@@ -117,17 +117,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 11,
+   "items": 14,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 21,
+   "items": 17,
    "errors": []
   },
   "RNZ": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 6,
+   "items": 9,
    "errors": []
   },
   "The Indian Express": {
@@ -206,12 +206,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 31,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "VnExpress International": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 9,
    "errors": []
   },
   "Newsroom Panama": {
@@ -383,6 +383,52 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Al Arabiya",
+    "Kyodo News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-05T07:07+00:00",
+   "earliest": "2026-11-04T22:02+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "North Korea says it tested air-defense missile, staged cruise missile drill",
+     "url": "https://english.alarabiya.net/News/world/2026/11/05/north-korea-says-it-tested-airdefense-missile-staged-cruise-missile-drill",
+     "via": "",
+     "published": "2026-11-05T07:07+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "N. Korea tests new air defense missile, holds cruise missile drill",
+     "url": "https://english.kyodonews.net/articles/-/90392",
+     "via": "",
+     "published": "2026-11-05T01:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
+     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
+     "via": "",
+     "published": "2026-11-04T22:02+00:00",
+     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Mining.com.au",
     "Mining Weekly",
     "MINING.COM"
@@ -423,7 +469,7 @@
      "summary": "By greenlighting the Arizona mine expansion Freeport-McMoRan aims to double copper production amid rising demand."
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -468,7 +514,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -513,7 +559,52 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-05T12:31+00:00",
+   "earliest": "2026-11-05T10:32+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Adani Ports to acquire Europe’s Evos for €2.56 billion EV",
+     "url": "https://www.thehindu.com/business/Industry/adani-ports-to-acquire-europes-evos-for-256-billion-ev/article71669683.ece",
+     "via": "",
+     "published": "2026-11-05T12:31+00:00",
+     "summary": "The terminals are strategically located in major European energy and industrial hubs, including the Amsterdam-Rotterdam-Antwerp (ARA) region, Hamburg and the Mediterranean."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Adani Ports to acquire European storage major Evos for €2.56 billion",
+     "url": "https://www.business-standard.com/companies/news/adani-ports-to-acquire-european-storage-major-evos-for-2-56-billion-126110501294_1.html",
+     "via": "",
+     "published": "2026-11-05T11:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "India's Adani Ports to buy Dutch storage operator Evos in a deal valued at $2.88 billion",
+     "url": "https://www.reuters.com/world/india/indias-adani-ports-buy-dutch-storage-operator-evos-deal-valued-288-billion-2026-11-05/",
+     "via": "",
+     "published": "2026-11-05T10:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -558,7 +649,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -609,7 +700,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -660,7 +751,7 @@
      "summary": "Hundreds of thousands joined a fourth nationwide day of protests across France. Police used tear gas outside a Paris school, while major demonstrations disrupted Marseille and Nantes."
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -711,7 +802,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -762,7 +853,42 @@
      "summary": "The move came after pressure from US President Donald Trump to provide support for the war in Iran."
     }
    ],
-   "id": 11
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Nikkei Asia",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-06T02:33+00:00",
+   "earliest": "2026-11-05T22:23+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "New Zealand election campaign dominated by cost of living, healthcare",
+     "url": "https://asia.nikkei.com/politics/new-zealand-election-campaign-dominated-by-cost-of-living-healthcare",
+     "via": "",
+     "published": "2026-11-06T02:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "New Zealand election campaign enters final day with result too close to call",
+     "url": "https://www.straitstimes.com/asia/australianz/labour-gains-in-latest-new-zealand-poll-before-vote-results-remain-too-close-to-call",
+     "via": "",
+     "published": "2026-11-05T22:23+00:00",
+     "summary": "Chris Hipkins said Labour was “banking on being the biggest party in Parliament\"."
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -797,7 +923,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -832,42 +958,7 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-05T14:27+00:00",
-   "earliest": "2026-11-03T02:47+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "BoE hikes rate for first time in 3 years; retreating oil prices may allow for more options ahead",
-     "url": "https://apnews.com/article/britain-economy-interest-rates-dce506792fe3b452ec4c3982147286f3",
-     "via": "",
-     "published": "2026-11-05T14:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Asian stocks retreat ahead of US midterms, oil steadies",
-     "url": "https://www.thejakartapost.com/business/2026/11/03/asian-stocks-retreat-ahead-of-us-midterms-oil-steadies",
-     "via": "",
-     "published": "2026-11-03T02:47+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -902,7 +993,7 @@
      "summary": "A prolonged labour dispute disrupted platinum group metals output as the miner weighs its next move at a Finnish lithium project."
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -937,7 +1028,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -972,42 +1063,7 @@
      "summary": ""
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-05T07:07+00:00",
-   "earliest": "2026-11-04T22:02+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "North Korea says it tested air-defense missile, staged cruise missile drill",
-     "url": "https://english.alarabiya.net/News/world/2026/11/05/north-korea-says-it-tested-airdefense-missile-staged-cruise-missile-drill",
-     "via": "",
-     "published": "2026-11-05T07:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
-     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
-     "via": "",
-     "published": "2026-11-04T22:02+00:00",
-     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
-    }
-   ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1042,7 +1098,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1077,7 +1133,7 @@
      "summary": "In a social media post, Union Coal and Mines Minister G. Kishan Reddy stated the scheme would help strengthen domestic capabilities, boost manufacturing and reduce dependence on imports."
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1112,7 +1168,7 @@
      "summary": "Elon Musk cracked jokes early Wednesday morning after the Republican candidates he spent record sums supporting got drubbed in historic midterm elections. Why it matters: No one has ever spent as much as Musk for so little payoff — especially in Texas , which ended up with a massive blue wave. He spent an estimated $445 million in this cycle, making him the largest individual donor in modern histo"
     }
    ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1146,7 +1202,7 @@
      "summary": "Freight intelligence platform Xeneta forecasts that the flood of capacity being delivered and returning to the shorter Red Sea route will cause rates to crash."
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1177,40 +1233,6 @@
      "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/saudi-air-defenses-intercept-houthi-ballistic-missile-targeting-medina-region",
      "via": "",
      "published": "2026-11-05T11:28+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-05T17:08+00:00",
-   "earliest": "2026-11-05T11:46+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Jordanian officer killed in stabbing attack in Amman",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-05T17:08+00:00",
-     "summary": "A Jordanian security officer has been killed and another one wounded near the Sri Lankan embassy in Amman."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Jordan says security officer killed in Amman in ‘terrorist attack’",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/security-officer-attacked-and-killed-near-sri-lankan-embassy-in-jordan-s-capital",
-     "via": "",
-     "published": "2026-11-05T11:46+00:00",
      "summary": ""
     }
    ],
@@ -1288,40 +1310,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-04T16:10+00:00",
-   "earliest": "2026-11-04T09:00+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Seoul shares close higher on early US midterm election outcome",
-     "url": "https://www.koreaherald.com/article/10925908",
-     "via": "",
-     "published": "2026-11-04T16:10+00:00",
-     "summary": "South Korean stocks closed slightly higher Wednesday as early results from the US midterm elections pointed to Democratic victories in both chambers of Congress. The local currency was trading lower against the US dollar. Swinging between gains and losses, the benchmark Korea Composite Stock Price Index finished at 5,683.80, up 35.01 points, or 0.62 percent. After starting 2.43 percent higher, the"
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Seoul shares close higher on early U.S. midterm election outcome",
-     "url": "https://english.kyodonews.net/articles/-/90339",
-     "via": "",
-     "published": "2026-11-04T09:00+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "The Hindu",
     "Business Standard"
    ],
@@ -1350,7 +1338,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1384,7 +1372,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1418,7 +1406,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1452,7 +1440,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   }
  ]
 }
