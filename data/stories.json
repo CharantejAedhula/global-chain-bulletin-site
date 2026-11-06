@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-05T20:50:23+00:00",
+ "fetched_at": "2026-11-06T00:33:25+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 731,
+ "outlets_read": 44,
+ "items_read": 775,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "The Africa Report": {
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 16,
+   "items": 20,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,42 +32,42 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 39,
+   "items": 42,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 16,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 16,
+   "items": 14,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 38,
+   "items": 37,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 26,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 29,
+   "items": 27,
    "errors": []
   },
   "Financial Times": {
@@ -87,19 +87,17 @@
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 0,
-   "errors": [
-    "https://www.hellenicshippingnews.com/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 16,
+   "errors": []
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -119,7 +117,7 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Associated Press": {
@@ -129,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 19,
+   "items": 23,
    "errors": []
   },
   "Axios": {
@@ -139,14 +137,14 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 31,
+   "items": 33,
    "errors": []
   },
   "gCaptain": {
@@ -156,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 3,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 17,
+   "items": 20,
    "errors": []
   },
   "RNZ": {
@@ -191,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 14,
+   "items": 16,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,22 +206,22 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 32,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "BNamericas": {
@@ -233,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,59 +242,96 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya",
-    "Times of Israel",
-    "Reuters"
+    "Mining.com.au",
+    "Mining Weekly",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Africa",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-05T23:32+00:00",
+   "earliest": "2026-11-05T14:23+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Rio Tinto clears $205 million Resolution Copper investment months after court dispute",
+     "url": "https://mining.com.au/rio-tinto-clears-205-million-resolution-copper-investment-months-after-court-dispute/",
+     "via": "",
+     "published": "2026-11-05T23:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Resolution Copper Mining approves $144m investment in Arizona project",
+     "url": "https://www.miningweekly.com/article/resolution-copper-mining-approves-144m-investment-in-arizona-project-2026-11-06",
+     "via": "",
+     "published": "2026-11-05T22:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Rio Tinto injects $144 million into Resolution Copper after land battle win",
+     "url": "https://www.mining.com/rio-tinto-injects-144m-into-resolution-copper-after-land-battle-win/",
+     "via": "",
+     "published": "2026-11-05T14:23+00:00",
+     "summary": "Fresh funding will advance engineering and underground development at the Arizona project as legal and cultural tensions persist."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press",
+    "Al Arabiya"
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-05T18:47+00:00",
-   "earliest": "2026-11-05T04:21+00:00",
+   "latest": "2026-11-05T23:02+00:00",
+   "earliest": "2026-11-05T18:01+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
-     "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: Silver Lake, PIF have held recent talks to buy gaming software provider Unity, sources say",
+     "url": "https://www.reuters.com/world/silver-lake-pif-have-held-recent-talks-buy-gaming-software-provider-unity-2026-11-05/",
      "via": "",
-     "published": "2026-11-05T18:47+00:00",
-     "summary": "Iranian forces say five oil tankers and a tugboat have caught fire in several incidents in the Strait of Hormuz."
+     "published": "2026-11-05T23:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "AP Exclusive: Trump administration held talks with Iran on deporting Iranians during the war",
+     "url": "https://apnews.com/article/iran-immigration-deportation-flights-emails-1f245367d432b2683a546936014a1f90",
+     "via": "",
+     "published": "2026-11-05T22:09+00:00",
+     "summary": ""
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Iran says two tankers and tugboat caught fire in Strait of Hormuz",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/iran-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz",
+     "title": "Trump administration held talks with Iran on deporting Iranians during war",
+     "url": "https://english.alarabiya.net/News/united-states/2026/11/05/trump-administration-held-talks-with-iran-on-deporting-iranians-during-war",
      "via": "",
-     "published": "2026-11-05T05:59+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IRGC: 2 tankers, tugboat attempting to use unauthorized Hormuz routes catch fire",
-     "url": "https://www.timesofisrael.com/liveblog_entry/irgc-2-tankers-tugboat-attempting-to-use-unauthorized-hormuz-routes-catch-fire/",
-     "via": "",
-     "published": "2026-11-05T04:39+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz",
-     "url": "https://www.reuters.com/world/middle-east/irans-irgc-says-two-tankers-tugboat-caught-fire-strait-hormuz-2026-11-05/",
-     "via": "",
-     "published": "2026-11-05T04:21+00:00",
+     "published": "2026-11-05T18:01+00:00",
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -340,52 +375,6 @@
      "via": "",
      "published": "2026-11-03T05:50+00:00",
      "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Kyodo News",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-05T07:07+00:00",
-   "earliest": "2026-11-04T22:02+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "North Korea says it tested air-defense missile, staged cruise missile drill",
-     "url": "https://english.alarabiya.net/News/world/2026/11/05/north-korea-says-it-tested-airdefense-missile-staged-cruise-missile-drill",
-     "via": "",
-     "published": "2026-11-05T07:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "N. Korea tests new air defense missile, holds cruise missile drill",
-     "url": "https://english.kyodonews.net/articles/-/90392",
-     "via": "",
-     "published": "2026-11-05T01:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
-     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
-     "via": "",
-     "published": "2026-11-04T22:02+00:00",
-     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
     }
    ],
    "id": 3
@@ -440,6 +429,96 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Hellenic Shipping News",
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-05T22:00+00:00",
+   "earliest": "2026-11-05T05:59+00:00",
+   "items": [
+    {
+     "outlet": "Hellenic Shipping News",
+     "region": "Europe",
+     "title": "Iran says five tankers and tugboat caught fire in Hormuz",
+     "url": "https://www.hellenicshippingnews.com/iran-says-five-tankers-and-tugboat-caught-fire-in-hormuz/",
+     "via": "",
+     "published": "2026-11-05T22:00+00:00",
+     "summary": "Five oil tankers and a tugboat caught fire in the Strait of Hormuz, Iran’s Revolutionary Guards and army said in separate statements, according to local media on Thursday. Since the outbreak of the Iran war in late February, Tehran has severely restricted traffic through the strategic waterway, which normally carries about one-fifth of global oil ..."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+     "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-05T18:47+00:00",
+     "summary": "Iranian forces say five oil tankers and a tugboat have caught fire in several incidents in the Strait of Hormuz."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran says two tankers and tugboat caught fire in Strait of Hormuz",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/iran-says-two-tankers-and-tugboat-caught-fire-in-strait-of-hormuz",
+     "via": "",
+     "published": "2026-11-05T05:59+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-05T21:23+00:00",
+   "earliest": "2026-11-05T20:34+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+     "url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/",
+     "via": "",
+     "published": "2026-11-05T21:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official says",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/06/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-tells-reuters",
+     "via": "",
+     "published": "2026-11-05T21:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran sent nuclear proposal to the US via Qatar, says senior Iranian official",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-sent-nuclear-proposal-to-the-us-via-qatar-says-senior-iranian-official/",
+     "via": "",
+     "published": "2026-11-05T20:34+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Al Arabiya",
     "Associated Press",
     "Times of Israel"
@@ -479,52 +558,109 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 7
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Al Arabiya"
+    ]
+   ],
    "outlets": [
-    "Times of Israel",
-    "Al Arabiya",
-    "South China Morning Post"
+    "Axios",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
-    "China",
-    "Middle East"
+    "Europe",
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-03T08:59+00:00",
-   "earliest": "2026-11-03T04:39+00:00",
+   "latest": "2026-11-05T23:39+00:00",
+   "earliest": "2026-11-05T18:40+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Nvidia CEO called in by lawmakers over ties to alleged Chinese spy",
+     "url": "https://www.axios.com/2026/11/05/jensen-huang-nvidia-congress-china",
      "via": "",
-     "published": "2026-11-03T08:59+00:00",
+     "published": "2026-11-05T23:39+00:00",
+     "summary": "Nvidia CEO Jensen Huang has been asked by three House Republican committee chairs to brief Congress behind closed doors about his reported ties to a woman accused of spying for China. Why it matters: The request escalates the scrutiny of the Nvidia CEO over his alleged relationship with Alice Huang, a businesswoman accused of spying for China. Catch up quick: Jensen Huang and Alice Huang purported"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations-document",
+     "url": "https://www.reuters.com/legal/litigation/key-republicans-seek-briefing-nvidia-ceo-over-chinese-spy-allegations-document-2026-11-05/",
+     "via": "",
+     "published": "2026-11-05T18:42+00:00",
      "summary": ""
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "US reportedly strikes Iran’s Qeshm island",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/03/us-reportedly-strikes-iran-s-qeshm-island",
+     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations: Document",
+     "url": "https://english.alarabiya.net/amp/business/technology/2026/11/05/key-republicans-seek-briefing-from-nvidia-ceo-over-chinese-spy-allegations-document",
      "via": "",
-     "published": "2026-11-03T05:40+00:00",
+     "published": "2026-11-05T18:40+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "US strikes Iran’s Qeshm Island ahead of midterms as Trump says deal ‘could happen’",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3373075/us-strikes-irans-qeshm-island-ahead-midterms-trump-says-deal-could-happen",
-     "via": "",
-     "published": "2026-11-03T04:39+00:00",
-     "summary": "The United States has attacked an Iranian island in the Strait of Hormuz, the latest in a series of covert, limited strikes ahead of the US midterm elections, as President Donald Trump signalled progress in talks with Tehran and mediators continue pushing for dialogue. A Chinese analyst said Washington faced no urgency to negotiate with an anxious Tehran, with the outcome of the midterms and Trump"
     }
    ],
-   "id": 6
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Africanews",
+     "Euronews"
+    ]
+   ],
+   "outlets": [
+    "Al Jazeera",
+    "Africanews",
+    "Euronews"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-05T20:11+00:00",
+   "earliest": "2026-11-05T11:55+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Mass protests in France driven by nationwide strike action",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-05T20:11+00:00",
+     "summary": "More than 250,000 people took to the streets across France on Thursday as five unions called a day of strike action."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "France: Mass protests and school blockades mark fourth national strike",
+     "url": "http://www.africanews.com/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs/",
+     "via": "",
+     "published": "2026-11-05T13:46+00:00",
+     "summary": "Hundreds of thousands joined a fourth nationwide day of protests across France. Police used tear gas outside a Paris school, while major demonstrations disrupted Marseille and Nantes."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "France: Mass protests and school blockades mark fourth national strike",
+     "url": "https://www.euronews.com/video/2026/11/05/france-workers-and-students-unite-in-nationwide-protests-over-living-costs",
+     "via": "",
+     "published": "2026-11-05T11:55+00:00",
+     "summary": "Hundreds of thousands joined a fourth nationwide day of protests across France. Police used tear gas outside a Paris school, while major demonstrations disrupted Marseille and Nantes."
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -575,7 +711,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -626,127 +762,6 @@
      "summary": "The move came after pressure from US President Donald Trump to provide support for the war in Iran."
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Mining Weekly",
-     "MINING.COM"
-    ]
-   ],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-05T09:16+00:00",
-   "earliest": "2026-11-04T22:13+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Eagle Nuclear Energy to acquire Noble Plains Uranium",
-     "url": "https://www.miningweekly.com/article/eagle-energy-to-acquire-noble-plains-uranium-2026-11-05",
-     "via": "",
-     "published": "2026-11-05T09:16+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Eagle Nuclear bids for Noble Plains",
-     "url": "https://mining.com.au/eagle-nuclear-bids-for-noble-plains/",
-     "via": "",
-     "published": "2026-11-05T01:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Eagle Nuclear Energy to acquire Noble Plains Uranium",
-     "url": "https://www.mining.com/eagle-nuclear-energy-to-acquire-noble-plains-uranium/",
-     "via": "",
-     "published": "2026-11-04T22:13+00:00",
-     "summary": "The deal will expand Eagle's resource footprint beyond Oregon, where it is advancing its Aurora project,"
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-05T19:22+00:00",
-   "earliest": "2026-11-05T18:01+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "AP Exclusive: Trump administration held talks with Iran on deporting Iranians during the war",
-     "url": "https://apnews.com/article/iran-immigration-deportation-flights-emails-1f245367d432b2683a546936014a1f90",
-     "via": "",
-     "published": "2026-11-05T19:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump administration held talks with Iran on deporting Iranians during war",
-     "url": "https://english.alarabiya.net/News/united-states/2026/11/05/trump-administration-held-talks-with-iran-on-deporting-iranians-during-war",
-     "via": "",
-     "published": "2026-11-05T18:01+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-05T19:11+00:00",
-   "earliest": "2026-11-05T11:33+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia ‘categorically’ denies WSJ claims about Houthi demands",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/05/saudi-arabia-categorically-denies-wsj-claims-about-houthi-demands",
-     "via": "",
-     "published": "2026-11-05T19:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Saudi Arabia warns of potential danger in Yanbu oil hub as Houthi attacks continue",
-     "url": "https://www.reuters.com/world/middle-east/saudi-arabia-warns-potential-danger-yanbu-oil-hub-houthi-attacks-continue-2026-11-05/",
-     "via": "",
-     "published": "2026-11-05T11:33+00:00",
-     "summary": ""
-    }
-   ],
    "id": 11
   },
   {
@@ -754,31 +769,31 @@
    "same_headline_groups": [],
    "outlets": [
     "Mining.com.au",
-    "Nikkei Asia"
+    "Al Arabiya"
    ],
    "regions": [
-    "East Asia",
+    "Middle East",
     "Oceania"
    ],
-   "latest": "2026-11-05T15:32+00:00",
-   "earliest": "2026-11-03T04:02+00:00",
+   "latest": "2026-11-05T23:32+00:00",
+   "earliest": "2026-11-05T21:45+00:00",
    "items": [
     {
      "outlet": "Mining.com.au",
      "region": "Oceania",
-     "title": "Gold Fields holds guidance, comments on Northern Star",
-     "url": "https://mining.com.au/gold-fields-holds-guidance-comments-on-northern-star/",
+     "title": "Two Egyptian army officers killed in gold-mining crackdown on southern border",
+     "url": "https://mining.com.au/two-egyptian-army-officers-killed-in-gold-mining-crackdown-on-southern-border/",
      "via": "",
-     "published": "2026-11-05T15:32+00:00",
+     "published": "2026-11-05T23:32+00:00",
      "summary": ""
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Australia gold miner Northern Star lifts output amid investor pressure",
-     "url": "https://asia.nikkei.com/business/materials/australia-gold-miner-northern-star-lifts-output-amid-investor-pressure",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Two Egyptian army officers killed in gold-mining crackdown on southern border, military sa",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/06/two-egyptian-army-officers-killed-in-goldmining-crackdown-on-southern-border-military-sa",
      "via": "",
-     "published": "2026-11-03T04:02+00:00",
+     "published": "2026-11-05T21:45+00:00",
      "summary": ""
     }
    ],
@@ -788,36 +803,106 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Associated Press"
+    "Mining.com.au",
+    "BNamericas"
+   ],
+   "regions": [
+    "Latin America",
+    "Oceania"
+   ],
+   "latest": "2026-11-05T23:32+00:00",
+   "earliest": "2026-11-05T19:16+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Codelco reveals overstated copper production figures",
+     "url": "https://mining.com.au/codelco-reveals-overstated-copper-production-figures/",
+     "via": "",
+     "published": "2026-11-05T23:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Chile’s Codelco raises overstated copper out...",
+     "url": "https://www.bnamericas.com/en/features/chiles-codelco-raises-overstated-copper-output-for-2024-25-to-42100t",
+     "via": "",
+     "published": "2026-11-05T19:16+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-05T23:19+00:00",
+   "earliest": "2026-11-05T22:07+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Blue tsunami wipes out $2.5 trillion from Nasdaq, as investors fret about AI trade",
+     "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/",
+     "via": "",
+     "published": "2026-11-05T23:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Blue tsunami wipes out US$2.5 trillion from Nasdaq, as investors fret about AI trade",
+     "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-posts-biggest-daily-drop-in-19-months-on-fears-of-ai-regulations",
+     "via": "",
+     "published": "2026-11-05T22:07+00:00",
+     "summary": "Chipmakers also sank on fears of tougher AI regulation after Democrats won control of the US Congress."
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "The Jakarta Post"
    ],
    "regions": [
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-05T14:03+00:00",
-   "earliest": "2026-11-05T01:24+00:00",
+   "latest": "2026-11-05T14:27+00:00",
+   "earliest": "2026-11-03T02:47+00:00",
    "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Bangladesh garment protests continue despite wage board move",
-     "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-protests-continue-despite-wage-board-move",
-     "via": "",
-     "published": "2026-11-05T14:03+00:00",
-     "summary": "Bangladesh's police used tear gas and sound grenades in Ashulia after workers blocked a highway and threw bricks."
-    },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Bangladesh garment factories close as workers clash with police in pay protests",
-     "url": "https://apnews.com/article/bangladesh-garment-wage-protest-eca550eb2285e98040778d280600c900",
+     "title": "BoE hikes rate for first time in 3 years; retreating oil prices may allow for more options ahead",
+     "url": "https://apnews.com/article/britain-economy-interest-rates-dce506792fe3b452ec4c3982147286f3",
      "via": "",
-     "published": "2026-11-05T01:24+00:00",
+     "published": "2026-11-05T14:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Asian stocks retreat ahead of US midterms, oil steadies",
+     "url": "https://www.thejakartapost.com/business/2026/11/03/asian-stocks-retreat-ahead-of-us-midterms-oil-steadies",
+     "via": "",
+     "published": "2026-11-03T02:47+00:00",
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -852,7 +937,7 @@
      "summary": "A prolonged labour dispute disrupted platinum group metals output as the miner weighs its next move at a Finnish lithium project."
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -887,7 +972,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -922,7 +1007,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -935,7 +1020,7 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-05T02:25+00:00",
+   "latest": "2026-11-05T08:33+00:00",
    "earliest": "2026-11-04T04:08+00:00",
    "items": [
     {
@@ -944,7 +1029,7 @@
      "title": "Canadian police find remains of mother and daughter after bear attack",
      "url": "https://www.abc.net.au/news/2026-11-05/mother-and-daughter-killed-in-bear-attack-in-canada/107349256",
      "via": "",
-     "published": "2026-11-05T02:25+00:00",
+     "published": "2026-11-05T08:33+00:00",
      "summary": ""
     },
     {
@@ -957,7 +1042,42 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-05T07:07+00:00",
+   "earliest": "2026-11-04T22:02+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "North Korea says it tested air-defense missile, staged cruise missile drill",
+     "url": "https://english.alarabiya.net/News/world/2026/11/05/north-korea-says-it-tested-airdefense-missile-staged-cruise-missile-drill",
+     "via": "",
+     "published": "2026-11-05T07:07+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "North Korea says it tested air-defence missile, staged cruise missile drill",
+     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-air-defence-missile-staged-cruise-missile-drill",
+     "via": "",
+     "published": "2026-11-04T22:02+00:00",
+     "summary": "South Korea said on Nov 4 that Pyongyang fired multiple missiles towards the sea from the Sondok area on the east coast."
+    }
+   ],
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -992,42 +1112,7 @@
      "summary": "In a social media post, Union Coal and Mines Minister G. Kishan Reddy stated the scheme would help strengthen domestic capabilities, boost manufacturing and reduce dependence on imports."
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "BNamericas"
-   ],
-   "regions": [
-    "Latin America",
-    "North America"
-   ],
-   "latest": "2026-11-04T14:59+00:00",
-   "earliest": "2026-11-04T14:56+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "B2Gold’s $740 million Gramalote faces key permit test",
-     "url": "https://www.mining.com/b2golds-740-million-gramalote-faces-key-permit-test/",
-     "via": "",
-     "published": "2026-11-04T14:59+00:00",
-     "summary": "Regulators will weigh proposed design changes as the Canadian miner targets construction in 2027 and first gold in 2029."
-    },
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Gramalote, a US$740mn Colombian gold project, puts changes to public hearing",
-     "url": "https://www.bnamericas.com/en/features/gramalote-a-us740mn-colombian-gold-project-puts-changes-to-public-hearing",
-     "via": "",
-     "published": "2026-11-04T14:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1062,7 +1147,75 @@
      "summary": "Elon Musk cracked jokes early Wednesday morning after the Republican candidates he spent record sums supporting got drubbed in historic midterm elections. Why it matters: No one has ever spent as much as Musk for so little payoff — especially in Texas , which ended up with a massive blue wave. He spent an estimated $445 million in this cycle, making him the largest individual donor in modern histo"
     }
    ],
-   "id": 20
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Hellenic Shipping News",
+    "Seatrade Maritime"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-05T22:00+00:00",
+   "earliest": "2026-11-05T16:32+00:00",
+   "items": [
+    {
+     "outlet": "Hellenic Shipping News",
+     "region": "Europe",
+     "title": "Xeneta Summit: Analysts forecast ocean freight spot rates to fall 30% in 2027 as Red Sea return sees capacity flooding back",
+     "url": "https://www.hellenicshippingnews.com/xeneta-summit-analysts-forecast-ocean-freight-spot-rates-to-fall-30-in-2027-as-red-sea-return-sees-capacity-flooding-back/",
+     "via": "",
+     "published": "2026-11-05T22:00+00:00",
+     "summary": "Global ocean container shipping spot rates are forecast to fall 30% in 2027, according to the Xeneta Ocean Outlook Report unveiled today by Chief Analyst Peter Sand to more than 800 industry leaders from the world’s largest shippers and logistics service providers gathered at the annual Xeneta Summit in Munich. Xeneta – the leading neutral ..."
+    },
+    {
+     "outlet": "Seatrade Maritime",
+     "region": "Europe",
+     "title": "Container rates to plummet in 2027",
+     "url": "https://www.seatrade-maritime.com/containers/container-rates-to-plummet-in-2027",
+     "via": "",
+     "published": "2026-11-05T16:32+00:00",
+     "summary": "Freight intelligence platform Xeneta forecasts that the flood of capacity being delivered and returning to the shorter Red Sea route will cause rates to crash."
+    }
+   ],
+   "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-05T20:48+00:00",
+   "earliest": "2026-11-05T11:28+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Saudi coalition intercepts missile fired towards Medina",
+     "url": "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-05T20:48+00:00",
+     "summary": "Interception comes after Saudi civil defence agency warned of potential danger near the strategic port of Yanbu."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi air defenses intercept Houthi ballistic missile targeting Medina region",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/saudi-air-defenses-intercept-houthi-ballistic-missile-targeting-medina-region",
+     "via": "",
+     "published": "2026-11-05T11:28+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1096,41 +1249,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-05T11:28+00:00",
-   "earliest": "2026-11-05T10:14+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi air defenses intercept Houthi ballistic missile targeting Medina region",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/05/saudi-air-defenses-intercept-houthi-ballistic-missile-targeting-medina-region",
-     "via": "",
-     "published": "2026-11-05T11:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudis say they downed ballistic missile as Houthis demand $51 billion in exchange for ceasefire",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudis-say-they-downed-ballistic-missile-as-houthis-demand-51-billion-in-exchange-for-ceasefire/",
-     "via": "",
-     "published": "2026-11-05T10:14+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1143,7 +1262,7 @@
     "Southeast Asia"
    ],
    "latest": "2026-11-05T10:40+00:00",
-   "earliest": "2026-11-05T06:50+00:00",
+   "earliest": "2026-11-05T05:29+00:00",
    "items": [
     {
      "outlet": "The Straits Times",
@@ -1158,13 +1277,13 @@
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
      "title": "Indonesia to bypass ‘neighbor’ middlemen in natural resource exports",
-     "url": "https://www.thejakartapost.com/business/2026/11/05/indonesia-to-bypass-neighbor-middlemen-in-natural-resource-exports?utm_source",
+     "url": "https://www.thejakartapost.com/business/2026/11/05/indonesia-to-bypass-neighbor-middlemen-in-natural-resource-exports",
      "via": "",
-     "published": "2026-11-05T06:50+00:00",
+     "published": "2026-11-05T05:29+00:00",
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1198,7 +1317,75 @@
      "summary": "HOUSTON, Nov 4 - Democrats' resounding sweep to a majority in Congress gives them a big microphone and spotlight to scrutinize President Donald Trump's trade policies, but largely leaves them unable to override his veto on any vote to overturn his tariffs or rescind trade authorities, trade and legal experts said on Wednesday."
     }
    ],
-   "id": 24
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Korea Herald",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-11-04T16:10+00:00",
+   "earliest": "2026-11-04T09:00+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Seoul shares close higher on early US midterm election outcome",
+     "url": "https://www.koreaherald.com/article/10925908",
+     "via": "",
+     "published": "2026-11-04T16:10+00:00",
+     "summary": "South Korean stocks closed slightly higher Wednesday as early results from the US midterm elections pointed to Democratic victories in both chambers of Congress. The local currency was trading lower against the US dollar. Swinging between gains and losses, the benchmark Korea Composite Stock Price Index finished at 5,683.80, up 35.01 points, or 0.62 percent. After starting 2.43 percent higher, the"
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Seoul shares close higher on early U.S. midterm election outcome",
+     "url": "https://english.kyodonews.net/articles/-/90339",
+     "via": "",
+     "published": "2026-11-04T09:00+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-04T15:48+00:00",
+   "earliest": "2026-11-04T10:12+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Union Cabinet approves new VISTAR scheme to overhaul India’s statistical system",
+     "url": "https://www.thehindu.com/business/Economy/union-cabinet-approves-new-vistar-scheme-to-overhaul-indias-statistical-system/article71665494.ece",
+     "via": "",
+     "published": "2026-11-04T15:48+00:00",
+     "summary": "The three-pronged scheme is aimed at strengthening data collecting, analysis, the incorporation of AI, as well as provide fresh data on the unorganised sector to make the overall GDP figure more accurate"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Cabinet clears ₹14,500 cr funding scheme for battery energy storage systems",
+     "url": "https://www.business-standard.com/industry/news/cabinet-clears-14-500-cr-funding-scheme-for-battery-energy-storage-systems-126110401014_1.html",
+     "via": "",
+     "published": "2026-11-04T10:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1232,41 +1419,7 @@
      "summary": ""
     }
    ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-04T12:57+00:00",
-   "earliest": "2026-11-04T10:12+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Union Cabinet approves ₹14,500 crore VGF scheme to develop large scale energy storage in India",
-     "url": "https://www.thehindu.com/business/Economy/union-cabinet-approves-14500-crore-vgf-scheme-to-develop-large-scale-energy-storage-in-india/article71665406.ece",
-     "via": "",
-     "published": "2026-11-04T12:57+00:00",
-     "summary": "The scheme is designed to provide for the development of hydro pumped storage plant (PSP) capacity, battery energy storage system (BESS) capacity, as well as alternative energy storage technologies"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Cabinet clears ₹14,500 cr funding scheme for battery energy storage systems",
-     "url": "https://www.business-standard.com/industry/news/cabinet-clears-14-500-cr-funding-scheme-for-battery-energy-storage-systems-126110401014_1.html",
-     "via": "",
-     "published": "2026-11-04T10:12+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1300,7 +1453,41 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-03T08:59+00:00",
+   "earliest": "2026-11-03T05:40+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/us-carries-out-defensive-strikes-on-irans-qeshm-island-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-11-03T08:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US reportedly strikes Iran’s Qeshm island",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/03/us-reportedly-strikes-iran-s-qeshm-island",
+     "via": "",
+     "published": "2026-11-03T05:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 32
   }
  ]
 }
