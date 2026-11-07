@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-07T18:19:28+00:00",
+ "fetched_at": "2026-11-07T22:18:17+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 629,
+ "items_read": 599,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 27,
+   "items": 23,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 32,
+   "items": 30,
    "errors": []
   },
   "Yicai Global": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "Kyodo News": {
@@ -57,7 +57,7 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 27,
+   "items": 29,
    "errors": []
   },
   "DigiTimes": {
@@ -72,17 +72,17 @@
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -97,17 +97,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 7,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 35,
+   "items": 33,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 16,
+   "items": 12,
    "errors": []
   },
   "Bloomberg": {
@@ -132,19 +132,19 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 16,
+   "items": 12,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 5,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "gCaptain": {
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "The Jakarta Post": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 29,
+   "items": 31,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,191 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [
+    [
+     "Financial Times",
+     "Australian Financial Review"
+    ]
+   ],
+   "outlets": [
+    "Financial Times",
+    "Axios",
+    "Australian Financial Review",
+    "Nikkei Asia",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "Middle East",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-07T21:41+00:00",
+   "earliest": "2026-11-05T18:40+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+     "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-07T21:41+00:00",
+     "summary": "American intelligence warned the tech boss was involved with executive recruited by China to gather information on US group"
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+     "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
+     "via": "",
+     "published": "2026-11-07T21:06+00:00",
+     "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was i"
+    },
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+     "url": "https://www.afr.com/technology/us-believes-nvidia-s-huang-had-romantic-relationship-with-alleged-chinese-spy-20261107-p61ca6?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-07T06:39+00:00",
+     "summary": "American intelligence warned the tech boss was involved with executive recruited by China’s top spy agency to gather information on US group."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations",
+     "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/key-republicans-seek-briefing-from-nvidia-ceo-over-chinese-spy-allegations",
+     "via": "",
+     "published": "2026-11-06T14:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations: Document",
+     "url": "https://english.alarabiya.net/business/technology/2026/11/05/key-republicans-seek-briefing-from-nvidia-ceo-over-chinese-spy-allegations-document",
+     "via": "",
+     "published": "2026-11-05T18:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Australian Financial Review",
+    "Reuters",
+    "Times of Israel",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Oceania"
+   ],
+   "latest": "2026-11-07T21:08+00:00",
+   "earliest": "2026-11-07T13:39+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "US military strikes cargo ship running Iranian naval blockade",
+     "url": "https://www.afr.com/politics/federal/israeli-president-picks-gadi-eisenkot-to-form-government-20261108-p61cay?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-07T21:08+00:00",
+     "summary": "The US military disables a ship leaving Iranian port; PM scraps Victoria Barracks sale after backlash. Follow live."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
+     "url": "https://www.reuters.com/world/middle-east/expanding-naval-blockade-us-military-looks-restrict-iranian-land-commerce-2026-11-07/",
+     "via": "",
+     "published": "2026-11-07T16:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US military looks to restrict Iranian land commerce, expanding on naval blockade",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-military-looks-to-restrict-iranian-land-commerce-expanding-on-naval-blockade/",
+     "via": "",
+     "published": "2026-11-07T16:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Expanding on naval blockade, US military looks to restrict Iranian land commerce",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/07/expanding-on-naval-blockade-us-military-looks-to-restrict-iranian-land-commerce",
+     "via": "",
+     "published": "2026-11-07T13:39+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Al Arabiya",
+    "ABC News (Australia)",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Oceania"
+   ],
+   "latest": "2026-11-07T11:31+00:00",
+   "earliest": "2026-11-07T00:56+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "US offers $20 million reward and 'possible relocation' for information on 'Iran’s nuclear program'",
+     "url": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
+     "via": "",
+     "published": "2026-11-07T11:31+00:00",
+     "summary": "The State Department said: \"The regime’s lack of compliance with the IAEA on safeguards obligations has led to the agency’s loss of 'continuity of knowledge.'\""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US offers $20 mn reward for info on ‘Iran’s nuclear program’: CENTCOM",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/07/us-offers-20-mn-reward-for-info-on-iran-s-nuclear-program-centcom",
+     "via": "",
+     "published": "2026-11-07T07:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "US offers $29m reward for details on Iran's nuclear program",
+     "url": "https://www.abc.net.au/news/2026-11-07/us-20-million-rewards-for-justice-iran-nuclear-program-details/107359156",
+     "via": "",
+     "published": "2026-11-07T03:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US Central Command announces $20M reward for info on Iranian nuclear program",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-central-command-announces-20m-reward-for-info-on-iranian-nuclear-program/",
+     "via": "",
+     "published": "2026-11-07T00:56+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
@@ -295,98 +480,7 @@
      "summary": ""
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Axios",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-06T14:31+00:00",
-   "earliest": "2026-11-05T18:40+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations",
-     "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/key-republicans-seek-briefing-from-nvidia-ceo-over-chinese-spy-allegations",
-     "via": "",
-     "published": "2026-11-06T14:31+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Nvidia CEO called in by lawmakers over ties to alleged Chinese spy",
-     "url": "https://www.axios.com/2026/11/05/jensen-huang-nvidia-congress-china",
-     "via": "",
-     "published": "2026-11-06T00:53+00:00",
-     "summary": "Nvidia CEO Jensen Huang has been asked by three House Republican committee chairs to brief Congress behind closed doors about his reported ties to a woman accused of spying for China. Why it matters: The request escalates the scrutiny of the Nvidia CEO over his alleged relationship with Alice Huang, a businesswoman accused of spying for China. Catch up quick: Jensen Huang and Alice Huang purported"
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations: Document",
-     "url": "https://english.alarabiya.net/business/technology/2026/11/05/key-republicans-seek-briefing-from-nvidia-ceo-over-chinese-spy-allegations-document",
-     "via": "",
-     "published": "2026-11-05T18:40+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-07T11:54+00:00",
-   "earliest": "2026-11-06T18:01+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "New Zealand election too close to call with over 95% of votes counted",
-     "url": "https://www.dw.com/en/new-zealand-election-too-close-to-call-with-over-95-of-votes-counted/a-79883056?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-07T11:54+00:00",
-     "summary": "Initial results in New Zealand show the two main parties neck-and-neck with fewer than 4,000 votes separating them. Official results aren't expected until later this month once special votes have been counted."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "New Zealand election first count ends with National and Labour running neck and neck",
-     "url": "https://www.straitstimes.com/asia/australianz/new-zealand-election-voting-ends-early-results-due-shortly",
-     "via": "",
-     "published": "2026-11-07T06:48+00:00",
-     "summary": "With the race so close, smaller parties are likely to shape the next governing coalition."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "New Zealand election first count ends with two main parties nearly deadlocked",
-     "url": "https://www.reuters.com/world/asia-pacific/new-zealanders-vote-general-election-2026-11-06/",
-     "via": "",
-     "published": "2026-11-06T18:01+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -429,57 +523,6 @@
      "via": "",
      "published": "2026-11-05T20:34+00:00",
      "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "gCaptain",
-     "Al Arabiya"
-    ]
-   ],
-   "outlets": [
-    "gCaptain",
-    "Al Arabiya",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-06T16:32+00:00",
-   "earliest": "2026-11-06T09:06+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Seafarer Killed in Suspected Missile Attack on Tanker in Gulf",
-     "url": "https://gcaptain.com/seafarer-killed-in-suspected-missile-attack-on-tanker-in-gulf/",
-     "via": "",
-     "published": "2026-11-06T16:32+00:00",
-     "summary": "One seafarer was killed in an explosion believed to have been caused by a missile attack on an oil products tanker in the Gulf on Thursday, the ship's manager said on Friday."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Seafarer killed in suspected missile attack on tanker in Gulf",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/06/one-seafarer-killed-in-missile-attack-on-tanker-in-gulf-",
-     "via": "",
-     "published": "2026-11-06T13:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz",
-     "url": "https://www.seatrade-maritime.com/security/seafarer-fatality-reported-tanker-attack-in-the-gulf",
-     "via": "",
-     "published": "2026-11-06T09:06+00:00",
-     "summary": "Iran widens both geographic area of attacks and types of vessels targeted"
     }
    ],
    "id": 5
@@ -558,36 +601,106 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Al Arabiya"
+    "Associated Press",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-07T16:42+00:00",
+   "earliest": "2026-11-07T13:50+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Airstrikes kill more than 2 dozen people near Yemen’s capital, Houthis say",
+     "url": "https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6",
+     "via": "",
+     "published": "2026-11-07T16:42+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Yemen: 22 killed in strike near Sanaa, Houthis say",
+     "url": "https://www.dw.com/en/yemen-22-killed-in-strike-near-sanaa-houthis-say/a-79885177?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-07T13:50+00:00",
+     "summary": "The Iran-backed Houthi rebel group accused Saudi Arabia of hitting several homes in the village of al-Shariya near the Yemeni capital. There was no initial comment from Riyadh."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-07T16:57+00:00",
-   "earliest": "2026-11-07T13:39+00:00",
+   "latest": "2026-11-07T16:15+00:00",
+   "earliest": "2026-11-07T15:26+00:00",
    "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Guatemalan lawmaker and three police officers killed in armed attack",
+     "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-07T16:15+00:00",
+     "summary": "It happened in a region of the country known to have drug trafficking activity."
+    },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
-     "url": "https://www.reuters.com/world/middle-east/expanding-naval-blockade-us-military-looks-restrict-iranian-land-commerce-2026-11-07/",
+     "title": "Guatemalan lawmaker, three police officers killed in armed attack",
+     "url": "https://www.reuters.com/world/americas/guatemalan-lawmaker-three-police-officers-killed-armed-attack-2026-11-07/",
      "via": "",
-     "published": "2026-11-07T16:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Expanding on naval blockade, US military looks to restrict Iranian land commerce",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/07/expanding-on-naval-blockade-us-military-looks-to-restrict-iranian-land-commerce",
-     "via": "",
-     "published": "2026-11-07T13:39+00:00",
+     "published": "2026-11-07T15:26+00:00",
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-07T08:35+00:00",
+   "earliest": "2026-11-07T02:55+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "US urges China to meet rare earths commitments ahead of Trump-Xi meetings",
+     "url": "https://www.thejakartapost.com/business/2026/11/07/us-urges-china-to-meet-rare-earths-commitments-ahead-of-trump-xi-meetings",
+     "via": "",
+     "published": "2026-11-07T08:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "'Fully and immediately': US urges China to honour trade commitments, flags concerns over rare earths and farm purchases",
+     "url": "https://www.livemint.com/news/us-news/fully-and-immediately-us-urges-china-to-honour-trade-commitments-flags-concerns-over-rare-earths-and-farm-purchases-11794019325217.html",
+     "via": "",
+     "published": "2026-11-07T02:55+00:00",
+     "summary": "The US has urged China to honour its trade commitments on agricultural purchases, rare earths and critical minerals, warning that progress depends on concrete results. Beijing also raised concerns over recent US trade restrictions."
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -622,7 +735,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -655,76 +768,6 @@
      "via": "",
      "published": "2026-11-07T01:54+00:00",
      "summary": "China strongly opposes US sanctions on two Chinese companies over their dealings with a third party and reserves the right to take “necessary measures” to protect its interests, China’s Ministry of Commerce said on Saturday."
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-07T04:44+00:00",
-   "earliest": "2026-11-07T02:55+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "US asks China to uphold Busan trade deal commitments",
-     "url": "https://www.dw.com/en/us-asks-china-to-uphold-busan-trade-deal-commitments/a-79882939?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-07T04:44+00:00",
-     "summary": "The US urged Beijing to meet commitments from a 2025 accord — particularly on agricultural purchases and rare earths supply. China, meanwhile, expressed concern over the US' \"economic, trade restrictive\" measures."
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "'Fully and immediately': US urges China to honour trade commitments, flags concerns over rare earths and farm purchases",
-     "url": "https://www.livemint.com/news/us-news/fully-and-immediately-us-urges-china-to-honour-trade-commitments-flags-concerns-over-rare-earths-and-farm-purchases-11794019325217.html",
-     "via": "",
-     "published": "2026-11-07T02:55+00:00",
-     "summary": "The US has urged China to honour its trade commitments on agricultural purchases, rare earths and critical minerals, warning that progress depends on concrete results. Beijing also raised concerns over recent US trade restrictions."
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-06T22:46+00:00",
-   "earliest": "2026-11-06T22:18+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
-     "url": "https://www.reuters.com/world/middle-east/us-treasury-sanctions-canadian-money-services-firms-over-iran-related-2026-11-06/",
-     "via": "",
-     "published": "2026-11-06T22:46+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US Sanctions Eight Canadian Companies Over Iran Transactions",
-     "url": "https://www.livemint.com/news/us-news/us-sanctions-eight-canadian-companies-over-iran-transactions-11794003533770.html",
-     "via": "",
-     "published": "2026-11-06T22:18+00:00",
-     "summary": "The US imposed sanctions on eight Canadian entities over allegations that they enabled international transactions involving Iran."
     }
    ],
    "id": 12
@@ -838,6 +881,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-06T16:19+00:00",
+   "earliest": "2026-11-05T19:11+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Syria aids Saudi Arabia with military advice and training amid Houthi attacks, sources say",
+     "url": "https://www.reuters.com/world/middle-east/syria-aids-saudi-arabia-with-military-advice-training-amid-houthi-attacks-2026-11-06/",
+     "via": "",
+     "published": "2026-11-06T16:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Arabia ‘categorically’ denies WSJ claims about Houthi demands",
+     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/11/05/saudi-arabia-categorically-denies-wsj-claims-about-houthi-demands",
+     "via": "",
+     "published": "2026-11-05T19:11+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Euronews",
     "Interfax"
    ],
@@ -867,7 +945,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -902,7 +980,7 @@
      "summary": "President Trump has conceded that the Iran war cost Republicans dearly in the midterms . Now he must decide whether to cut his losses and reach a deal — or double down and go back to bombing. Why it matters: All of Trump's options are problematic: The first is to strike. But going back to war would be highly unpopular — keeping gas prices high and probably not yielding a better military result. An"
     }
    ],
-   "id": 17
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -937,7 +1015,7 @@
      "summary": "Fresh funding will advance engineering and underground development at the Arizona project as legal and cultural tensions persist."
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -972,7 +1050,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1007,7 +1085,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1042,7 +1120,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1077,7 +1155,41 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-07T19:06+00:00",
+   "earliest": "2026-11-05T16:23+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
+     "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-07T19:06+00:00",
+     "summary": "Civilians bear the brunt of fighting as 27 people reported killed in strikes on a village in Sanaa province."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Yemeni Forces Say 440 Houthis Neutralized in 1,298 Operations",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/05/yemeni-forces-say-440-houthis-neutralized-in-1298-operations",
+     "via": "",
+     "published": "2026-11-05T16:23+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1090,7 +1202,7 @@
     "Middle East"
    ],
    "latest": "2026-11-07T11:14+00:00",
-   "earliest": "2026-11-05T04:39+00:00",
+   "earliest": "2026-11-07T10:42+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
@@ -1104,14 +1216,14 @@
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "IRGC: 2 tankers, tugboat attempting to use unauthorized Hormuz routes catch fire",
-     "url": "https://www.timesofisrael.com/liveblog_entry/irgc-2-tankers-tugboat-attempting-to-use-unauthorized-hormuz-routes-catch-fire/",
+     "title": "Oil tanker said to catch fire after hitting naval mine in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/liveblog_entry/oil-tanker-said-to-catch-fire-after-hitting-naval-mine-in-strait-of-hormuz/",
      "via": "",
-     "published": "2026-11-05T04:39+00:00",
+     "published": "2026-11-07T10:42+00:00",
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1145,41 +1257,7 @@
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-07T07:30+00:00",
-   "earliest": "2026-11-07T00:56+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US offers $20 mn reward for info on ‘Iran’s nuclear program’: CENTCOM",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/07/us-offers-20-mn-reward-for-info-on-iran-s-nuclear-program-centcom",
-     "via": "",
-     "published": "2026-11-07T07:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US Central Command announces $20M reward for info on Iranian nuclear program",
-     "url": "https://www.timesofisrael.com/liveblog_entry/us-central-command-announces-20m-reward-for-info-on-iranian-nuclear-program/",
-     "via": "",
-     "published": "2026-11-07T00:56+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1213,7 +1291,41 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-05T15:42+00:00",
+   "earliest": "2026-11-05T14:24+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israel and Germany extend energy cooperation",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/05/israel-and-germany-extend-energy-cooperation",
+     "via": "",
+     "published": "2026-11-05T15:42+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Israel and Germany extend their energy cooperation agreement",
+     "url": "https://www.timesofisrael.com/liveblog_entry/israel-and-germany-extend-their-energy-cooperation-agreement/",
+     "via": "",
+     "published": "2026-11-05T14:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1247,7 +1359,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 29
   }
  ]
 }
