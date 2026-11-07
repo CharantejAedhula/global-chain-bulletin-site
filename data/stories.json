@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-06T23:49:42+00:00",
+ "fetched_at": "2026-11-07T00:22:24+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 693,
+ "items_read": 691,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 38,
+   "items": 37,
    "errors": []
   },
   "Caixin Global": {
@@ -42,17 +42,17 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 47,
+   "items": 46,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "The Korea Herald": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Financial Times": {
@@ -97,17 +97,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 41,
+   "items": 43,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 29,
+   "items": 30,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Bloomberg": {
@@ -132,19 +132,19 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 29,
+   "items": 30,
    "errors": []
   },
   "gCaptain": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Rio Times": {
@@ -539,16 +539,25 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Reuters"
+    "Reuters",
+    "Livemint / Economic Times"
    ],
    "regions": [
     "Europe",
     "South Asia"
    ],
-   "latest": "2026-11-06T22:18+00:00",
-   "earliest": "2026-11-06T21:02+00:00",
+   "latest": "2026-11-06T22:46+00:00",
+   "earliest": "2026-11-06T22:18+00:00",
    "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+     "url": "https://www.reuters.com/world/middle-east/us-treasury-sanctions-canadian-money-services-firms-over-iran-related-2026-11-06/",
+     "via": "",
+     "published": "2026-11-06T22:46+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Livemint / Economic Times",
      "region": "South Asia",
@@ -557,15 +566,6 @@
      "via": "",
      "published": "2026-11-06T22:18+00:00",
      "summary": "The US imposed sanctions on eight Canadian entities over allegations that they enabled international transactions involving Iran."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
-     "url": "https://www.reuters.com/world/middle-east/us-treasury-sanctions-canadian-money-services-firms-over-iran-related-2026-11-06/",
-     "via": "",
-     "published": "2026-11-06T21:02+00:00",
-     "summary": ""
     }
    ],
    "id": 7
