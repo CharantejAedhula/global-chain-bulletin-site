@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-08T00:42:26+00:00",
+ "fetched_at": "2026-11-08T02:12:26+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 595,
+ "items_read": 596,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,17 +22,17 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 30,
+   "items": 29,
    "errors": []
   },
   "Yicai Global": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Kyodo News": {
@@ -57,7 +57,7 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 29,
+   "items": 27,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Financial Times": {
@@ -102,7 +102,7 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 33,
+   "items": 30,
    "errors": []
   },
   "Times of Israel": {
@@ -122,17 +122,17 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 15,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "CBC News": {
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "PortNews": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "The Jakarta Post": {
@@ -221,7 +221,7 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "BNamericas": {
@@ -243,16 +243,10 @@
  "clusters": [
   {
    "independent_outlets": 4,
-   "same_headline_groups": [
-    [
-     "Financial Times",
-     "Australian Financial Review"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
     "Financial Times",
     "Axios",
-    "Australian Financial Review",
     "Nikkei Asia",
     "Al Arabiya"
    ],
@@ -260,8 +254,7 @@
     "East Asia",
     "Europe",
     "Middle East",
-    "North America",
-    "Oceania"
+    "North America"
    ],
    "latest": "2026-11-07T21:41+00:00",
    "earliest": "2026-11-05T18:40+00:00",
@@ -283,15 +276,6 @@
      "via": "",
      "published": "2026-11-07T21:06+00:00",
      "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was i"
-    },
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-     "url": "https://www.afr.com/technology/us-believes-nvidia-s-huang-had-romantic-relationship-with-alleged-chinese-spy-20261107-p61ca6?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-11-07T06:39+00:00",
-     "summary": "American intelligence warned the tech boss was involved with executive recruited by China’s top spy agency to gather information on US group."
     },
     {
      "outlet": "Nikkei Asia",
@@ -430,44 +414,44 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "South China Morning Post",
-    "Axios"
+    "Kyodo News",
+    "Associated Press",
+    "The Straits Times"
    ],
    "regions": [
-    "China",
-    "Middle East",
-    "North America"
+    "East Asia",
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-07T11:27+00:00",
-   "earliest": "2026-11-05T00:57+00:00",
+   "latest": "2026-11-08T00:44+00:00",
+   "earliest": "2026-11-07T22:34+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Bessent said to reach out to China to help end Iran war after Republicans' midterm election defeat",
-     "url": "https://www.timesofisrael.com/liveblog_entry/bessent-said-to-reach-out-to-china-to-help-end-iran-war-after-republicans-midterm-election-defeat/",
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "M5.7 quake strikes central Japan, leaves at least 20 injured",
+     "url": "https://english.kyodonews.net/articles/-/90709",
      "via": "",
-     "published": "2026-11-07T11:27+00:00",
+     "published": "2026-11-08T00:44+00:00",
      "summary": ""
     },
     {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Trump left with ‘no good options’ to end Iran war after crushing US midterms defeat",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3373596/trump-left-no-good-options-end-iran-war-following-crushing-us-midterms-defeat",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "A strong earthquake with a preliminary magnitude of 5.7 strikes Japan, meteorological agency says",
+     "url": "https://apnews.com/article/earthquake-japan-170119b720b08d9f40028e5bc40feb17",
      "via": "",
-     "published": "2026-11-06T13:12+00:00",
-     "summary": "As Republican losses in the US midterm elections highlight how unpopular the war in Iran is, all eyes are on Washington’s next moves and whether the election results could set the stage for a quicker end to the conflict. However, experts remain sceptical, arguing that while the results will cripple the Trump administration and force it to rethink its strategy, they leave the broader US position un"
+     "published": "2026-11-07T23:34+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "After midterm defeat, Trump faces mostly bad options in Iran",
-     "url": "https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "5.7-magnitude quake strikes central Japan, over 20 injured in Aichi and Shizuoka prefectures",
+     "url": "https://www.straitstimes.com/asia/east-asia/5-7-magnitude-quake-strikes-central-japan-at-least-20-injured-in-aichi-prefecture",
      "via": "",
-     "published": "2026-11-05T00:57+00:00",
-     "summary": "President Trump has conceded that the Iran war cost Republicans dearly in the midterms . Now he must decide whether to cut his losses and reach a deal — or double down and go back to bombing. Why it matters: All of Trump's options are problematic: The first is to strike. But going back to war would be highly unpopular — keeping gas prices high and probably not yielding a better military result. An"
+     "published": "2026-11-07T22:34+00:00",
+     "summary": "No tsunami warning was issued."
     }
    ],
    "id": 4
@@ -476,46 +460,92 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
+    "Euronews",
     "Associated Press",
-    "Deutsche Welle"
+    "Nikkei Asia"
    ],
    "regions": [
+    "East Asia",
     "Europe",
     "North America"
    ],
-   "latest": "2026-11-07T22:48+00:00",
-   "earliest": "2026-11-07T13:50+00:00",
+   "latest": "2026-11-07T08:33+00:00",
+   "earliest": "2026-11-06T02:33+00:00",
    "items": [
     {
-     "outlet": "Reuters",
+     "outlet": "Euronews",
      "region": "Europe",
-     "title": "Houthi-run health ministry says airstrikes kill 33 near Yemen capital",
-     "url": "https://www.reuters.com/world/middle-east/houthi-run-health-ministry-says-airstrikes-it-blames-saudi-arabia-kill-27-near-2026-11-07/",
+     "title": "New Zealand counts votes in razor-thin election after campaign centred on cost of living",
+     "url": "https://www.euronews.com/2026/11/07/new-zealand-counts-votes-in-razor-thin-election-after-campaign-centred-on-cost-of-living",
      "via": "",
-     "published": "2026-11-07T22:48+00:00",
-     "summary": ""
+     "published": "2026-11-07T08:33+00:00",
+     "summary": "In New Zealand, people cast a party vote as well as an electorate vote in a general election. With their electorate vote, New Zealanders vote for a candidate to represent their local electorate in parliament. They also vote for the party they want to be in government."
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Airstrikes kill more than 2 dozen people near Yemen’s capital, Houthis say",
-     "url": "https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6",
+     "title": "New Zealand votes in an election expected to be tight after a tense campaign",
+     "url": "https://apnews.com/article/new-zealand-election-national-labour-luxon-hipkins-wong-30040766e8b3fbcc8e15d71cf36d185f",
      "via": "",
-     "published": "2026-11-07T16:42+00:00",
+     "published": "2026-11-06T07:56+00:00",
      "summary": ""
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Yemen: 22 killed in strike near Sanaa, Houthis say",
-     "url": "https://www.dw.com/en/yemen-22-killed-in-strike-near-sanaa-houthis-say/a-79885177?maca=en-rss-en-all-1573-rdf",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "New Zealand election campaign dominated by cost of living, healthcare",
+     "url": "https://asia.nikkei.com/politics/new-zealand-election-campaign-dominated-by-cost-of-living-healthcare",
      "via": "",
-     "published": "2026-11-07T13:50+00:00",
-     "summary": "The Iran-backed Houthi rebel group accused Saudi Arabia of hitting several homes in the village of al-Shariya near the Yemeni capital. There was no initial comment from Riyadh."
+     "published": "2026-11-06T02:33+00:00",
+     "summary": ""
     }
    ],
    "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-07T17:33+00:00",
+   "earliest": "2026-11-05T19:11+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Damascus denies report Syria sending troops to Yemen and Saudi Arabia to fight Houthis",
+     "url": "https://www.timesofisrael.com/damascus-denies-report-syria-sending-troops-to-yemen-and-saudi-arabia-to-fight-houthis/",
+     "via": "",
+     "published": "2026-11-07T17:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Syria aids Saudi Arabia with military advice and training amid Houthi attacks, sources say",
+     "url": "https://www.reuters.com/world/middle-east/syria-aids-saudi-arabia-with-military-advice-training-amid-houthi-attacks-2026-11-06/",
+     "via": "",
+     "published": "2026-11-06T16:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Arabia ‘categorically’ denies WSJ claims about Houthi demands",
+     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/11/05/saudi-arabia-categorically-denies-wsj-claims-about-houthi-demands",
+     "via": "",
+     "published": "2026-11-05T19:11+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -560,7 +590,122 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-05T21:23+00:00",
+   "earliest": "2026-11-05T19:48+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official says",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/06/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-tells-reuters",
+     "via": "",
+     "published": "2026-11-05T21:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran sent nuclear proposal to the US via Qatar, says senior Iranian official",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-sent-nuclear-proposal-to-the-us-via-qatar-says-senior-iranian-official/",
+     "via": "",
+     "published": "2026-11-05T20:34+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+     "url": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/",
+     "via": "",
+     "published": "2026-11-05T19:48+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-07T22:48+00:00",
+   "earliest": "2026-11-07T16:42+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Houthi-run health ministry says airstrikes kill 33 near Yemen capital",
+     "url": "https://www.reuters.com/world/middle-east/houthi-run-health-ministry-says-airstrikes-it-blames-saudi-arabia-kill-27-near-2026-11-07/",
+     "via": "",
+     "published": "2026-11-07T22:48+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Airstrikes kill more than 2 dozen people near Yemen’s capital, Houthis say",
+     "url": "https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6",
+     "via": "",
+     "published": "2026-11-07T16:42+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-07T22:29+00:00",
+   "earliest": "2026-11-07T13:12+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Iran says it has lifted its self-imposed limit on missile ranges, and other Mideast news",
+     "url": "https://apnews.com/article/mideast-news-november-7-2026-c26759ac66e6c022a3256adeae40c965",
+     "via": "",
+     "published": "2026-11-07T22:29+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran's Revolutionary Guard says self-proclaimed limit on ballistic missile range 'has been lifted'",
+     "url": "https://www.timesofisrael.com/liveblog_entry/irans-revolutionary-guard-says-self-proclaimed-limit-on-ballistic-missile-range-has-been-lifted/",
+     "via": "",
+     "published": "2026-11-07T13:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -610,7 +755,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -645,7 +790,7 @@
      "summary": "Partial results for South Africa's local elections were released on Friday, and showed the ruling African National Congress was headed for its worst-ever election performance with 32% of the votes after 80% had been counted."
     }
    ],
-   "id": 8
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -680,7 +825,7 @@
      "summary": "Chinese investors have backed mineral processing and manufacturing projects worth more than US$16 billion across Africa, a new report has concluded, amid an increasing push by countries to secure a greater share of the earnings from their natural resources. The continent is a major international supplier of key minerals such as copper, cobalt and iron ore, and countries such as the Democratic Repu"
     }
    ],
-   "id": 9
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -715,7 +860,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -750,42 +895,7 @@
      "summary": "The US has urged China to honour its trade commitments on agricultural purchases, rare earths and critical minerals, warning that progress depends on concrete results. Beijing also raised concerns over recent US trade restrictions."
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-07T08:33+00:00",
-   "earliest": "2026-11-06T02:33+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "New Zealand counts votes in razor-thin election after campaign centred on cost of living",
-     "url": "https://www.euronews.com/2026/11/07/new-zealand-counts-votes-in-razor-thin-election-after-campaign-centred-on-cost-of-living",
-     "via": "",
-     "published": "2026-11-07T08:33+00:00",
-     "summary": "In New Zealand, people cast a party vote as well as an electorate vote in a general election. With their electorate vote, New Zealanders vote for a candidate to represent their local electorate in parliament. They also vote for the party they want to be in government."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "New Zealand election campaign dominated by cost of living, healthcare",
-     "url": "https://asia.nikkei.com/politics/new-zealand-election-campaign-dominated-by-cost-of-living-healthcare",
-     "via": "",
-     "published": "2026-11-06T02:33+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -820,7 +930,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -855,7 +965,7 @@
      "summary": "The terminals are strategically located in major European energy and industrial hubs, including the Amsterdam-Rotterdam-Antwerp (ARA) region, Hamburg and the Mediterranean."
     }
    ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -890,42 +1000,7 @@
      "summary": ""
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-06T16:19+00:00",
-   "earliest": "2026-11-05T19:11+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Syria aids Saudi Arabia with military advice and training amid Houthi attacks, sources say",
-     "url": "https://www.reuters.com/world/middle-east/syria-aids-saudi-arabia-with-military-advice-training-amid-houthi-attacks-2026-11-06/",
-     "via": "",
-     "published": "2026-11-06T16:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia ‘categorically’ denies WSJ claims about Houthi demands",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/11/05/saudi-arabia-categorically-denies-wsj-claims-about-houthi-demands",
-     "via": "",
-     "published": "2026-11-05T19:11+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -960,7 +1035,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -995,7 +1070,7 @@
      "summary": "Fresh funding will advance engineering and underground development at the Arizona project as legal and cultural tensions persist."
     }
    ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1030,7 +1105,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1065,7 +1140,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1100,42 +1175,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East"
-   ],
-   "latest": "2026-11-05T07:07+00:00",
-   "earliest": "2026-11-05T01:15+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "North Korea says it tested air-defense missile, staged cruise missile drill",
-     "url": "https://english.alarabiya.net/News/world/2026/11/05/north-korea-says-it-tested-airdefense-missile-staged-cruise-missile-drill",
-     "via": "",
-     "published": "2026-11-05T07:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "N. Korea tests new air defense missile, holds cruise missile drill",
-     "url": "https://english.kyodonews.net/articles/-/90392",
-     "via": "",
-     "published": "2026-11-05T01:15+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1157,7 +1197,7 @@
      "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
      "via": "",
      "published": "2026-11-08T00:00+00:00",
-     "summary": "Iranian state media report blasts in Qeshm Island in Strait of Hormuz and the cities of Jask, Sirik and Bandar Abbas."
+     "summary": "Iranian state media report blasts on Qeshm Island in Strait of Hormuz and the cities of Jask, Sirik and Bandar Abbas."
     },
     {
      "outlet": "Times of Israel",
@@ -1166,40 +1206,6 @@
      "url": "https://www.timesofisrael.com/liveblog_entry/iran-claims-it-downed-us-drone-over-hormuzs-qeshm-island/",
      "via": "",
      "published": "2026-11-06T15:33+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-07T19:06+00:00",
-   "earliest": "2026-11-05T16:23+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
-     "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-07T19:06+00:00",
-     "summary": "Civilians bear the brunt of fighting as 27 people reported killed in strikes on a village in Sanaa province."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Yemeni Forces Say 440 Houthis Neutralized in 1,298 Operations",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/05/yemeni-forces-say-440-houthis-neutralized-in-1298-operations",
-     "via": "",
-     "published": "2026-11-05T16:23+00:00",
      "summary": ""
     }
    ],
@@ -1306,40 +1312,6 @@
     }
    ],
    "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-05T21:23+00:00",
-   "earliest": "2026-11-05T20:34+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official says",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/06/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-tells-reuters",
-     "via": "",
-     "published": "2026-11-05T21:23+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran sent nuclear proposal to the US via Qatar, says senior Iranian official",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-sent-nuclear-proposal-to-the-us-via-qatar-says-senior-iranian-official/",
-     "via": "",
-     "published": "2026-11-05T20:34+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 28
   }
  ]
 }
