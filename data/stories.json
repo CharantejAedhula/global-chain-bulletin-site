@@ -1,28 +1,28 @@
 {
- "fetched_at": "2026-11-08T18:30:14+00:00",
+ "fetched_at": "2026-11-08T22:29:44+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 498,
+ "items_read": 483,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 13,
+   "items": 10,
    "errors": []
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 19,
+   "items": 11,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 26,
+   "items": 24,
    "errors": []
   },
   "Yicai Global": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 17,
+   "items": 20,
    "errors": []
   },
   "Financial Times": {
@@ -77,37 +77,37 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 17,
+   "items": 14,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 35,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
@@ -137,14 +137,14 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "gCaptain": {
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 13,
+   "items": 16,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 8,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "PortNews": {
@@ -184,7 +184,7 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Business Standard": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "The Jakarta Post": {
@@ -221,17 +221,17 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 21,
+   "items": 17,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,60 +242,127 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
+    "The Korea Herald",
+    "Associated Press",
+    "Bloomberg",
+    "Times of Israel",
     "Al Arabiya",
-    "ABC News (Australia)",
-    "Times of Israel"
+    "Reuters"
    ],
    "regions": [
+    "East Asia",
     "Europe",
     "Middle East",
-    "Oceania"
+    "North America"
    ],
-   "latest": "2026-11-07T11:31+00:00",
-   "earliest": "2026-11-07T00:56+00:00",
+   "latest": "2026-11-08T21:25+00:00",
+   "earliest": "2026-11-08T05:24+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "US offers $20 million reward and 'possible relocation' for information on 'Iran’s nuclear program'",
-     "url": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Riyadh financial district targeted, Aramco skyscraper damaged",
+     "url": "https://www.koreaherald.com/article/10929808",
      "via": "",
-     "published": "2026-11-07T11:31+00:00",
-     "summary": "The State Department said: \"The regime’s lack of compliance with the IAEA on safeguards obligations has led to the agency’s loss of 'continuity of knowledge.'\""
+     "published": "2026-11-08T21:25+00:00",
+     "summary": "An Aramco building in Riyadh was targeted in an \"attempted attack\", the Saudi energy ministry said on Sunday, with eyewitnesses telling AFP the skyscraper sustained damage, after the Saudi-led coalition fighting Yemen's Houthis said it had intercepted missiles launched by the group. Aramco facilities and infrastructure have been repeatedly struck by the Houthis in recent months, with tankers, refi"
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US offers $20 mn reward for info on ‘Iran’s nuclear program’: CENTCOM",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/07/us-offers-20-mn-reward-for-info-on-iran-s-nuclear-program-centcom",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
+     "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
      "via": "",
-     "published": "2026-11-07T07:30+00:00",
+     "published": "2026-11-08T20:23+00:00",
      "summary": ""
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "US offers $29m reward for details on Iran's nuclear program",
-     "url": "https://www.abc.net.au/news/2026-11-07/us-20-million-rewards-for-justice-iran-nuclear-program-details/107359156",
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-08/saudi-aramco-tower-targeted-in-rare-strike-on-riyadh-finance-hub",
      "via": "",
-     "published": "2026-11-07T03:27+00:00",
-     "summary": ""
+     "published": "2026-11-08T17:15+00:00",
+     "summary": "A Houthi attack damaged one of the landmarks of the Saudi Arabian capital’s financial district, upsetting plans for a return to normal about a month after deadly strikes on Riyadh’s airport disrupted travel and canceled showpiece events."
     },
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "US Central Command announces $20M reward for info on Iranian nuclear program",
-     "url": "https://www.timesofisrael.com/liveblog_entry/us-central-command-announces-20m-reward-for-info-on-iranian-nuclear-program/",
+     "title": "Houthis fire cruise missiles at Saudi Arabia; Riyadh’s Aramco tower damaged by debris",
+     "url": "https://www.timesofisrael.com/houthis-fire-cruise-missiles-at-saudi-arabia-riyadhs-aramco-tower-damaged-by-debris/",
      "via": "",
-     "published": "2026-11-07T00:56+00:00",
+     "published": "2026-11-08T10:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Aramco administrative building in Riyadh damaged in attempted attack",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/08/saudi-aramco-administrative-building-in-riyadh-damaged-in-attempted-attack",
+     "via": "",
+     "published": "2026-11-08T09:20+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Houthi attack damages Aramco building in Riyadh's financial district",
+     "url": "https://www.reuters.com/world/middle-east/loud-booms-heard-saudi-capital-riyadh-after-early-warning-alert-issued-2026-11-08/",
+     "via": "",
+     "published": "2026-11-08T05:24+00:00",
      "summary": ""
     }
    ],
    "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "Australian Financial Review",
+    "Axios"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-08T21:08+00:00",
+   "earliest": "2026-11-08T20:14+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy",
+     "url": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-08T21:08+00:00",
+     "summary": "Silicon Valley chipmaker opens investigation into chief executive as he confirms extramarital relationship in message to employees"
+    },
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "‘I was unfaithful’: Nvidia to probe spy case after Huang admits affair",
+     "url": "https://www.afr.com/world/north-america/nvidia-board-to-probe-spying-case-after-huang-admits-affair-20261109-p61ch0?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-08T20:50+00:00",
+     "summary": "Nvidia boss Jensen Huang has admitted to an extramarital affair, triggering a board inquiry into whether the chief executive was targeted by a foreign espionage plot."
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Nvidia CEO Jensen Huang admits affair, board to launch investigation",
+     "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
+     "via": "",
+     "published": "2026-11-08T20:14+00:00",
+     "summary": "Nvidia CEO Jensen Huang admitted to having a romantic relationship with a suspected Chinese spy in a message to his company. The big picture: The company's board launched an independent investigation into reports that he was targeted by Chinese intelligence. Driving the news: \"I owe my family and all of you an apology,\" Huang wrote in a draft email to Nvidia employees obtained by Axios. \"I was unf"
+    }
+   ],
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -370,143 +437,7 @@
      "summary": ""
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Axios",
-    "Nikkei Asia",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "East Asia",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-07T21:06+00:00",
-   "earliest": "2026-11-05T18:40+00:00",
-   "items": [
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
-     "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
-     "via": "",
-     "published": "2026-11-07T21:06+00:00",
-     "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was i"
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations",
-     "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/key-republicans-seek-briefing-from-nvidia-ceo-over-chinese-spy-allegations",
-     "via": "",
-     "published": "2026-11-06T14:31+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations: Document",
-     "url": "https://english.alarabiya.net/business/technology/2026/11/05/key-republicans-seek-briefing-from-nvidia-ceo-over-chinese-spy-allegations-document",
-     "via": "",
-     "published": "2026-11-05T18:40+00:00",
-     "summary": ""
-    }
-   ],
    "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Africanews",
-    "Reuters"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-11-08T17:35+00:00",
-   "earliest": "2026-11-08T08:53+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "South Africa elections: ANC marks its worst-ever performance",
-     "url": "https://www.dw.com/en/south-africa-elections-anc-marks-its-worst-ever-performance/a-79887482?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-08T17:35+00:00",
-     "summary": "The African National Congress, the party of late Nobel Prize winner Nelson Mandela, slumped to its worst-ever result in South Africa's municipal election. The voters blame the ANC for water and electricity shortages."
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "ANC leads South Africa's local polls but records all-time election low: final results",
-     "url": "http://www.africanews.com/2026/11/08/anc-leads-south-africas-local-polls-but-records-all-time-election-low-final-results/",
-     "via": "",
-     "published": "2026-11-08T14:07+00:00",
-     "summary": "The African National Congress came in first place in South Africa's local elections but suffered its worst-ever electoral setback, according to final results on Saturday."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "South Africa's ANC battered by local election losses ahead of coalition talks",
-     "url": "https://www.reuters.com/world/africa/south-africas-anc-battered-by-local-election-losses-ahead-coalition-talks-2026-11-08/",
-     "via": "",
-     "published": "2026-11-08T08:53+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Bloomberg",
-    "Associated Press",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-08T17:15+00:00",
-   "earliest": "2026-11-08T10:19+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-08/saudi-aramco-tower-targeted-in-rare-strike-on-riyadh-finance-hub",
-     "via": "",
-     "published": "2026-11-08T17:15+00:00",
-     "summary": "A Houthi attack damaged one of the landmarks of the Saudi Arabian capital’s financial district, upsetting plans for a return to normal about a month after deadly strikes on Riyadh’s airport disrupted travel and canceled showpiece events."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
-     "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
-     "via": "",
-     "published": "2026-11-08T14:47+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Houthis fire cruise missiles at Saudi Arabia; Riyadh’s Aramco tower damaged by debris",
-     "url": "https://www.timesofisrael.com/houthis-fire-cruise-missiles-at-saudi-arabia-riyadhs-aramco-tower-damaged-by-debris/",
-     "via": "",
-     "published": "2026-11-08T10:19+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -551,7 +482,52 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-07T11:31+00:00",
+   "earliest": "2026-11-07T00:56+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "US offers $20 million reward and 'possible relocation' for information on 'Iran’s nuclear program'",
+     "url": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
+     "via": "",
+     "published": "2026-11-07T11:31+00:00",
+     "summary": "The State Department said: \"The regime’s lack of compliance with the IAEA on safeguards obligations has led to the agency’s loss of 'continuity of knowledge.'\""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US offers $20 mn reward for info on ‘Iran’s nuclear program’: CENTCOM",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/07/us-offers-20-mn-reward-for-info-on-iran-s-nuclear-program-centcom",
+     "via": "",
+     "published": "2026-11-07T07:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US Central Command announces $20M reward for info on Iranian nuclear program",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-central-command-announces-20m-reward-for-info-on-iranian-nuclear-program/",
+     "via": "",
+     "published": "2026-11-07T00:56+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -596,7 +572,182 @@
      "summary": ""
     }
    ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Axios"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-08T21:09+00:00",
+   "earliest": "2026-11-07T21:06+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia opens probe after report of CEO Huang's relationship with alleged Chinese spy",
+     "url": "https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/",
+     "via": "",
+     "published": "2026-11-08T21:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+     "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
+     "via": "",
+     "published": "2026-11-07T21:06+00:00",
+     "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was i"
+    }
+   ],
    "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-08T18:57+00:00",
+   "earliest": "2026-11-06T16:19+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
+     "url": "https://apnews.com/article/syria-saudi-yemen-houthis-fighters-d436bdc81a8e6b28bb99c417aaeaf8b6",
+     "via": "",
+     "published": "2026-11-08T18:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Syria aids Saudi Arabia with military advice and training amid Houthi attacks, sources say",
+     "url": "https://www.reuters.com/world/middle-east/syria-aids-saudi-arabia-with-military-advice-training-amid-houthi-attacks-2026-11-06/",
+     "via": "",
+     "published": "2026-11-06T16:19+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "BNamericas"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-08T18:37+00:00",
+   "earliest": "2026-11-06T11:31+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Brazil picks 27 critical minerals in push for local supply chain",
+     "url": "https://www.mining.com/brazil-picks-27-critical-minerals-in-push-for-local-supply-chain/",
+     "via": "",
+     "published": "2026-11-08T18:37+00:00",
+     "summary": "New classification will steer public funding toward domestic processing and projects considered vital to industrial growth."
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Brazil releases list of 27 critical and strategic minerals with different priority levels",
+     "url": "https://www.bnamericas.com/en/news/brazil-releases-list-of-27-critical-and-strategic-minerals-with-different-priority-levels",
+     "via": "",
+     "published": "2026-11-06T11:31+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa",
+    "Europe"
+   ],
+   "latest": "2026-11-08T17:35+00:00",
+   "earliest": "2026-11-08T14:07+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "South Africa elections: ANC marks its worst-ever performance",
+     "url": "https://www.dw.com/en/south-africa-elections-anc-marks-its-worst-ever-performance/a-79887482?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-08T17:35+00:00",
+     "summary": "The African National Congress, the party of late Nobel Prize winner Nelson Mandela, slumped to its worst-ever result in South Africa's municipal election. The voters blame the ANC for water and electricity shortages."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "ANC leads South Africa's local polls but records all-time election low: final results",
+     "url": "http://www.africanews.com/2026/11/08/anc-leads-south-africas-local-polls-but-records-all-time-election-low-final-results/",
+     "via": "",
+     "published": "2026-11-08T14:07+00:00",
+     "summary": "The African National Congress came in first place in South Africa's local elections but suffered its worst-ever electoral setback, according to final results on Saturday."
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "BNamericas"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-08T14:09+00:00",
+   "earliest": "2026-11-06T18:07+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Democrats plan to push clean energy to lower bills and challenge Trump’s fossil fuel agenda",
+     "url": "https://apnews.com/article/elections-midterms-climate-policy-clean-energy-trump-b193e352f5905acc0e921a13ee237a4a",
+     "via": "",
+     "published": "2026-11-08T14:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Brazil approves energy transition plan, targets lower dependence on fossil fuels",
+     "url": "https://www.bnamericas.com/en/news/brazil-approves-energy-transition-plan-targets-lower-dependence-on-fossil-fuels",
+     "via": "",
+     "published": "2026-11-06T18:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -631,42 +782,7 @@
      "summary": "No tsunami warning was issued."
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "ABC News (Australia)",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "Oceania"
-   ],
-   "latest": "2026-11-08T05:35+00:00",
-   "earliest": "2026-11-07T20:17+00:00",
-   "items": [
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Explosions in Strait of Hormuz as Iran reviews de-escalation proposals",
-     "url": "https://www.abc.net.au/news/2026-11-08/iran-strait-of-hormuz-update-explosions-talks/107360730",
-     "via": "",
-     "published": "2026-11-08T05:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iranian state media reports explosions on island in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iranian-state-media-reports-explosions-on-island-in-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-11-07T20:17+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -701,7 +817,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -736,7 +852,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -771,7 +887,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -806,42 +922,7 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "BNamericas"
-   ],
-   "regions": [
-    "Latin America",
-    "Oceania"
-   ],
-   "latest": "2026-11-06T21:34+00:00",
-   "earliest": "2026-11-06T11:31+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Brazil names 27 critical minerals amid domestic processing push",
-     "url": "https://mining.com.au/brazil-names-27-critical-minerals-amid-domestic-processing-push/",
-     "via": "",
-     "published": "2026-11-06T21:34+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Brazil releases list of 27 critical and strategic minerals with different priority levels",
-     "url": "https://www.bnamericas.com/en/news/brazil-releases-list-of-27-critical-and-strategic-minerals-with-different-priority-levels",
-     "via": "",
-     "published": "2026-11-06T11:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -875,7 +956,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -909,41 +990,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-05T21:23+00:00",
-   "earliest": "2026-11-05T20:34+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official says",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/06/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-tells-reuters",
-     "via": "",
-     "published": "2026-11-05T21:23+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran sent nuclear proposal to the US via Qatar, says senior Iranian official",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-sent-nuclear-proposal-to-the-us-via-qatar-says-senior-iranian-official/",
-     "via": "",
-     "published": "2026-11-05T20:34+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 18
   }
  ]
 }
