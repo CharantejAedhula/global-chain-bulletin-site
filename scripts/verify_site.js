@@ -152,7 +152,9 @@ stories.forEach((s, i) => {
     if (tm) {
       const mo = monthNum[tm[1].slice(0, 3).toLowerCase()];
       const [, m2, d2] = s.dateISO.split("-").map(Number);
-      if (mo !== m2 || Number(tm[2]) !== d2) err(at + ": label '" + s.time + "' does not match dateISO " + s.dateISO);
+      // Cards show the date from dateISO ("2 days ago"), never this label, so a mismatch
+      // is a data slip, not a wrong date on the page (Nov 7: a carried story kept a stale label).
+      if (mo !== m2 || Number(tm[2]) !== d2) warn(at + ": label '" + s.time + "' does not match dateISO " + s.dateISO + " (page shows dateISO)");
     }
   }
   if (s.dek && !s.dek.includes("<strong>Why it matters:</strong>")) warn(at + ": missing 'Why it matters'");
