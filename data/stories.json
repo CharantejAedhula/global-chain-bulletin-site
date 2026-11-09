@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-08T23:09:27+00:00",
+ "fetched_at": "2026-11-09T00:04:02+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 477,
+ "items_read": 480,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "The Africa Report": {
@@ -37,22 +37,22 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 38,
+   "items": 41,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "The Korea Herald": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Financial Times": {
@@ -77,7 +77,7 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Euronews": {
@@ -102,12 +102,12 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Bloomberg": {
@@ -132,19 +132,19 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 5,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "gCaptain": {
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "RNZ": {
@@ -184,12 +184,12 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 5,
+   "items": 7,
    "errors": []
   },
   "MercoPress": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -245,9 +245,9 @@
    "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
+    "Bloomberg",
     "Financial Times",
     "Al Jazeera",
-    "Al Arabiya",
     "Australian Financial Review",
     "Axios"
    ],
@@ -257,9 +257,18 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-08T22:31+00:00",
+   "latest": "2026-11-08T23:22+00:00",
    "earliest": "2026-11-08T20:14+00:00",
    "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Nvidia Probes Huang Affair Amid Spying Controversy",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-08/nvidia-probes-huang-affair-amid-spying-controversy-video",
+     "via": "",
+     "published": "2026-11-08T23:22+00:00",
+     "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang says he is cooperating fully with an independent board investigation after admitting to an extramarital relationship. The inquiry follows US intelligence suspicions that a female executive was recruited by a Chinese intelligence agency. (Source: Bloomberg)"
+    },
     {
      "outlet": "Financial Times",
      "region": "Europe",
@@ -277,15 +286,6 @@
      "via": "",
      "published": "2026-11-08T22:16+00:00",
      "summary": "Huang has confirmed he had been having an affair with a woman accused of spying for China."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Nvidia probes whether Huang was target of foreign intelligence effort as he admits affair",
-     "url": "https://english.alarabiya.net/business/technology/2026/11/09/nvidia-probes-whether-ceo-huang-was-target-of-foreign-intelligence-effort-as-he-admits-aff",
-     "via": "",
-     "published": "2026-11-08T22:10+00:00",
-     "summary": ""
     },
     {
      "outlet": "Australian Financial Review",
@@ -313,18 +313,19 @@
    "same_headline_groups": [],
    "outlets": [
     "The Korea Herald",
-    "Bloomberg",
     "Associated Press",
     "Times of Israel",
-    "Al Arabiya"
+    "Al Arabiya",
+    "Reuters"
    ],
    "regions": [
     "East Asia",
+    "Europe",
     "Middle East",
     "North America"
    ],
    "latest": "2026-11-08T21:25+00:00",
-   "earliest": "2026-11-08T09:20+00:00",
+   "earliest": "2026-11-08T05:24+00:00",
    "items": [
     {
      "outlet": "The Korea Herald",
@@ -334,15 +335,6 @@
      "via": "",
      "published": "2026-11-08T21:25+00:00",
      "summary": "An Aramco building in Riyadh was targeted in an \"attempted attack\", the Saudi energy ministry said on Sunday, with eyewitnesses telling AFP the skyscraper sustained damage, after the Saudi-led coalition fighting Yemen's Houthis said it had intercepted missiles launched by the group. Aramco facilities and infrastructure have been repeatedly struck by the Houthis in recent months, with tankers, refi"
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-08/saudi-aramco-tower-targeted-in-rare-strike-on-riyadh-finance-hub",
-     "via": "",
-     "published": "2026-11-08T17:15+00:00",
-     "summary": "A Houthi attack damaged one of the landmarks of the Saudi Arabian capital’s financial district, upsetting plans for a return to normal about a month after deadly strikes on Riyadh’s airport disrupted travel and canceled showpiece events."
     },
     {
      "outlet": "Associated Press",
@@ -359,7 +351,7 @@
      "title": "Houthis fire cruise missiles at Saudi Arabia; Riyadh’s Aramco tower damaged by debris",
      "url": "https://www.timesofisrael.com/houthis-fire-cruise-missiles-at-saudi-arabia-riyadhs-aramco-tower-damaged-by-debris/",
      "via": "",
-     "published": "2026-11-08T10:19+00:00",
+     "published": "2026-11-08T10:13+00:00",
      "summary": ""
     },
     {
@@ -369,6 +361,15 @@
      "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/08/saudi-aramco-administrative-building-in-riyadh-damaged-in-attempted-attack",
      "via": "",
      "published": "2026-11-08T09:20+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Houthi attack damages Aramco building in Riyadh's financial district",
+     "url": "https://www.reuters.com/world/middle-east/loud-booms-heard-saudi-capital-riyadh-after-early-warning-alert-issued-2026-11-08/",
+     "via": "",
+     "published": "2026-11-08T05:24+00:00",
      "summary": ""
     }
    ],
@@ -588,6 +589,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Bloomberg",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia",
+    "North America"
+   ],
+   "latest": "2026-11-08T23:40+00:00",
+   "earliest": "2026-11-08T10:24+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Gold Holds Decline as US Jobs Data Fan December Rate Hike Bets",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-08/gold-holds-decline-as-us-jobs-data-fan-december-rate-hike-bets",
+     "via": "",
+     "published": "2026-11-08T23:40+00:00",
+     "summary": "Gold held a late-week retreat after strong US jobs data reinforced expectations the Federal Reserve will seek to raise interest rates to combat inflation."
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Fed policymakers consider rate hike after strong jobs report",
+     "url": "https://www.koreaherald.com/article/10929514",
+     "via": "",
+     "published": "2026-11-08T10:24+00:00",
+     "summary": "A stronger-than-expected US jobs report bolstered the case for further Federal Reserve interest rate hikes, which had lost some momentum ‌amid a post-election stock market selloff and growing fears that weaker AI-driven demand could undercut the economy. Employers added 165,000 jobs last month, more than twice what economists had expected, the Bureau of Labor Statistics said Friday, and the unempl"
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "gCaptain",
     "Reuters"
    ],
@@ -617,77 +653,7 @@
      "summary": ""
     }
    ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Axios"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-08T21:09+00:00",
-   "earliest": "2026-11-07T21:06+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia opens probe after report of CEO Huang's relationship with alleged Chinese spy",
-     "url": "https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/",
-     "via": "",
-     "published": "2026-11-08T21:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
-     "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
-     "via": "",
-     "published": "2026-11-07T21:06+00:00",
-     "summary": "Nvidia CEO Jensen Huang is facing increasing congressional scrutiny after multiple reports Friday night suggested he had a romantic relationship with a purported Chinese spy. Why it matters: Huang is arguably the world's most powerful CEO, the man who runs one of the world's largest companies and whose products are central to the world's most important technology. The mere suggestion that he was i"
-    }
-   ],
    "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Axios"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-08T19:12+00:00",
-   "earliest": "2026-11-08T17:59+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump presses Netanyahu to advance Gaza plan after election — report",
-     "url": "https://www.timesofisrael.com/liveblog_entry/trump-presses-netanyahu-to-advance-gaza-plan-after-election-report/",
-     "via": "",
-     "published": "2026-11-08T19:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Scoop: Trump asked Netanyahu to move on Gaza peace plan in post-election call",
-     "url": "https://www.axios.com/2026/11/08/trump-netanyahu-implement-gaza-peace-plan",
-     "via": "",
-     "published": "2026-11-08T17:59+00:00",
-     "summary": "President Trump told Israeli Prime Minister Benjamin Netanyahu during a phone call Thursday that he wants him to take steps to implement his Gaza peace plan , according to two sources with knowledge of the matter. Why it matters: The roadmap calls for disarming Hamas and demilitarizing Gaza, as well as transferring responsibility for governing the enclave to a new Palestinian technocratic governme"
-    }
-   ],
-   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -722,7 +688,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -757,7 +723,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -792,7 +758,7 @@
      "summary": "The African National Congress came in first place in South Africa's local elections but suffered its worst-ever electoral setback, according to final results on Saturday."
     }
    ],
-   "id": 12
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -805,7 +771,7 @@
     "Latin America",
     "North America"
    ],
-   "latest": "2026-11-08T14:09+00:00",
+   "latest": "2026-11-08T13:59+00:00",
    "earliest": "2026-11-06T18:07+00:00",
    "items": [
     {
@@ -814,7 +780,7 @@
      "title": "Democrats plan to push clean energy to lower bills and challenge Trump’s fossil fuel agenda",
      "url": "https://apnews.com/article/elections-midterms-climate-policy-clean-energy-trump-b193e352f5905acc0e921a13ee237a4a",
      "via": "",
-     "published": "2026-11-08T14:09+00:00",
+     "published": "2026-11-08T13:59+00:00",
      "summary": ""
     },
     {
@@ -827,7 +793,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -862,7 +828,7 @@
      "summary": "No tsunami warning was issued."
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -897,7 +863,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -932,7 +898,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -967,7 +933,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1002,7 +968,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1036,7 +1002,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1070,7 +1036,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 19
   }
  ]
 }
