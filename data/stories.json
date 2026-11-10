@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-10T04:32:18+00:00",
+ "fetched_at": "2026-11-10T07:19:04+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 584,
+ "items_read": 598,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,32 +12,32 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 22,
+   "items": 24,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 22,
+   "items": 25,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mysteel": {
@@ -52,39 +52,39 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 13,
+   "items": 10,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 314, column 111"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 501, column 111"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 31,
+   "items": 34,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -94,22 +94,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 6,
+   "items": 8,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 12,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 23,
+   "items": 26,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,12 +124,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 24,
+   "items": 27,
    "errors": []
   },
   "Axios": {
@@ -156,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 26,
+   "items": 28,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 11,
+   "items": 14,
    "errors": []
   },
   "RNZ": {
@@ -186,12 +186,12 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 28,
+   "items": 30,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,17 +208,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 13,
    "errors": []
   },
   "MercoPress": {
@@ -233,7 +233,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 8,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,94 +244,141 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "VnExpress International",
+    "Deutsche Welle",
     "Reuters",
-    "Al Arabiya",
-    "Associated Press",
-    "Times of Israel"
+    "ABC News (Australia)"
    ],
    "regions": [
     "Europe",
-    "Middle East",
-    "North America"
+    "Oceania",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-10T03:17+00:00",
-   "earliest": "2026-11-08T10:13+00:00",
+   "latest": "2026-11-10T04:01+00:00",
+   "earliest": "2026-11-09T20:28+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
-     "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Nvidia, Jensen Huang sued over disclosures related to CEO's alleged affair",
+     "url": "https://e.vnexpress.net/news/business/companies/nvidia-jensen-huang-sued-over-disclosures-related-to-ceo-s-alleged-affair-5142746.html",
      "via": "",
-     "published": "2026-11-10T03:17+00:00",
-     "summary": "Saudi forces intercept two missiles fired towards Riyadh, hours after reporting damage to key East-West pipeline."
+     "published": "2026-11-10T04:01+00:00",
+     "summary": "Nvidia and Chief Executive Jensen Huang have been sued in a proposed class action accusing ‌them of defrauding shareholders by concealing Huang's ties with a suspected Chinese spy."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+     "url": "https://www.dw.com/en/nvidia-shareholders-sue-jensen-huang-over-alleged-spy-ties/a-79905809?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-09T23:55+00:00",
+     "summary": "Nvidia shareholders have sued the chipmaker and its CEO, Jensen Huang, over his alleged ties to a suspected Chinese spy. The case adds to scrutiny over whether sensitive information at the AI giant was compromised."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Saudi-led coalition says it intercepts two Houthi missiles fired towards Riyadh",
-     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-intercepts-two-houthi-missiles-fired-towards-riyadh-2026-11-10/",
+     "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
+     "url": "https://www.reuters.com/world/nvidia-ceo-huang-sued-over-disclosures-related-suspected-chinese-spy-2026-11-09/",
      "via": "",
-     "published": "2026-11-10T01:53+00:00",
+     "published": "2026-11-09T23:10+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition destroys Houthi factory for production of ballistic missile components",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/09/saudiled-coalition-destroys-houthi-factory-for-production-of-ballistic-missile-components",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Shareholders sue Nvidia CEO Huang over affair with suspected Chinese spy",
+     "url": "https://www.abc.net.au/news/2026-11-10/nvidia-share-price-falls-ceo-jensen-huang-investigated/107366868",
      "via": "",
-     "published": "2026-11-09T18:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
-     "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
-     "via": "",
-     "published": "2026-11-09T02:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Houthis fire cruise missiles at Saudi Arabia; Riyadh’s Aramco tower damaged by debris",
-     "url": "https://www.timesofisrael.com/houthis-fire-cruise-missiles-at-saudi-arabia-riyadhs-aramco-tower-damaged-by-debris/",
-     "via": "",
-     "published": "2026-11-08T10:13+00:00",
-     "summary": ""
+     "published": "2026-11-09T20:28+00:00",
+     "summary": "Nvidia shares tumbled after the company opened an investigation into Mr Huang's ties ‌with a ⁠suspected Chinese spy."
     }
    ],
    "id": 1
   },
   {
    "independent_outlets": 4,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
     "Euronews",
-    "The Straits Times",
+    "MINING.COM",
     "Associated Press",
-    "Reuters",
-    "Bloomberg"
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-09T20:14+00:00",
+   "earliest": "2026-11-09T15:52+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "A huge explosion at a steel factory in Western Turkey has left at least 17 people dead and 13 injured",
+     "url": "https://www.euronews.com/2026/11/09/a-huge-explosion-at-a-steel-factory-in-western-turkey-has-left-at-least-17-people-dead-and",
+     "via": "",
+     "published": "2026-11-09T20:14+00:00",
+     "summary": "The explosion occurred when a crane lifting a boiler collapsed into a large industrial furnace, causing a huge fire."
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Blast at steel plant kills 16 in Turkey",
+     "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
+     "via": "",
+     "published": "2026-11-09T20:01+00:00",
+     "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Explosion at steel plant in western Turkey leaves 16 dead and 13 injured",
+     "url": "https://apnews.com/article/turkey-aliaga-explosion-steel-plant-habas-7892a839350d41aa530dfb01323cf7dc",
+     "via": "",
+     "published": "2026-11-09T18:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Turkey: Workers killed in Izmir steel plant blast",
+     "url": "https://www.dw.com/en/turkey-workers-killed-in-izmir-steel-plant-blast/a-79900748?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-09T15:52+00:00",
+     "summary": "At least 16 workers lost their lives in an explosion at a steel factory in Izmir. President Recep Tayyip Erdogan issued an updated casualty toll after a Cabinet meeting."
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "Euronews",
+    "The Straits Times"
    ],
    "regions": [
     "Europe",
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-10T04:29+00:00",
-   "earliest": "2026-11-10T02:40+00:00",
+   "latest": "2026-11-10T06:09+00:00",
+   "earliest": "2026-11-10T03:50+00:00",
    "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "China Trade Surplus Tops $1 Trillion for Second Time",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-10/the-china-show-11-10-2026-video",
+     "via": "",
+     "published": "2026-11-10T06:09+00:00",
+     "summary": "“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Bloomberg)"
+    },
     {
      "outlet": "Euronews",
      "region": "Europe",
@@ -344,41 +391,14 @@
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "China's trade surplus soars past $1 trillion as AI boom powers exports",
-     "url": "https://www.straitstimes.com/asia/chinas-trade-surplus-soars-past-1-trillion-as-ai-boom-powers-exports",
+     "title": "China’s trade surplus soars past US$1 trillion as AI boom powers exports",
+     "url": "https://www.straitstimes.com/business/chinas-trade-surplus-soars-past-us1-trillion-as-ai-boom-powers-exports",
      "via": "",
-     "published": "2026-11-10T03:53+00:00",
-     "summary": "BEIJING, Nov 10 - China's trade surplus surged past $1 trillion in the first 10 months as a global race to build AI infrastructure buoyed sales of high-tech products and helped offset weak domestic demand, a dynamic likely to sharpen tensions with major trading partners."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "China’s trade surplus surpasses $1 trillion for a 2nd straight year, as exports surge 35%",
-     "url": "https://apnews.com/article/china-trade-economy-trump-surplus-0fc56d7bd8bbff86ce6672bb67691f22",
-     "via": "",
-     "published": "2026-11-10T03:08+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "China's trade surplus soars past $1 trillion as AI boom powers exports",
-     "url": "https://www.reuters.com/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
-     "via": "",
-     "published": "2026-11-10T02:42+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Chinese Trade Surplus Tops $1 Trillion for Second Time Ever",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-10/chinese-trade-surplus-surpasses-1-trillion-for-second-time-ever",
-     "via": "",
-     "published": "2026-11-10T02:40+00:00",
-     "summary": "China’s trade surplus ballooned to just over $1 trillion for the year despite the biggest surge in imports since 2021, with exports growing faster than 35% for a second month."
+     "published": "2026-11-10T03:50+00:00",
+     "summary": "China’s trade surplus tops US$1 trillion for a second consecutive year, reaching the milestone a month earlier than in 2025."
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -424,15 +444,15 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Livemint / Economic Times",
-    "Associated Press",
-    "Al Jazeera"
+    "Times of Israel",
+    "Associated Press"
    ],
    "regions": [
     "Middle East",
@@ -440,7 +460,7 @@
     "South Asia"
    ],
    "latest": "2026-11-10T02:38+00:00",
-   "earliest": "2026-11-09T22:31+00:00",
+   "earliest": "2026-11-09T23:37+00:00",
    "items": [
     {
      "outlet": "Livemint / Economic Times",
@@ -452,6 +472,15 @@
      "summary": "US President Donald Trump said the Iran war was “effectively over” militarily but signalled that the US would maintain its economic blockade. His remarks eased concerns over renewed strikes, sending Brent crude prices down more than $7 a barrel in post-settlement trade."
     },
     {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Trump: Iran war is militarily ‘effectively over’; ‘good chance’ a deal can be reached",
+     "url": "https://www.timesofisrael.com/liveblog_entry/trump-good-chance-a-deal-with-iran-can-be-reached-tehran-talking-very-politely/",
+     "via": "",
+     "published": "2026-11-10T01:57+00:00",
+     "summary": ""
+    },
+    {
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
@@ -459,61 +488,6 @@
      "via": "",
      "published": "2026-11-09T23:37+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
-     "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-09T22:31+00:00",
-     "summary": "Iranian officials dismissed Trump's remarks as 'fake news' after he suggested keeping the 'status quo'."
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "VnExpress International",
-    "South China Morning Post",
-    "Axios"
-   ],
-   "regions": [
-    "China",
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-09T14:47+00:00",
-   "earliest": "2026-11-08T20:14+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "4 things to know about Nvidia CEO Jensen Huang and his admitted affair",
-     "url": "https://e.vnexpress.net/news/business/billionaires/4-things-to-know-about-nvidia-ceo-jensen-huang-and-his-admitted-affair-5142359.html",
-     "via": "",
-     "published": "2026-11-09T14:47+00:00",
-     "summary": "Nvidia CEO Jensen Huang has admitted to having an affair as the chipmaking giant launches an investigation that some analysts say could put his top role at risk."
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Nvidia fallout: chipmaker faces extensive risks after CEO affair, analysts and lawyers say",
-     "url": "https://www.scmp.com/tech/tech-war/article/3373820/nvidia-fallout-chipmaker-faces-extensive-risks-after-ceo-affair-analysts-and-lawyers-say",
-     "via": "",
-     "published": "2026-11-09T12:30+00:00",
-     "summary": "As Nvidia launched an investigation into CEO Jensen Huang after he admitted to an extramarital affair, the repercussions threaten not only his three-decade tenure but also the future of the chip giant’s delicate semiconductor trade with China, according to lawyers and analysts. The world’s leading maker of chips for artificial intelligence systems faces an unprecedented corporate and geopolitical "
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Nvidia CEO Jensen Huang admits affair, board to launch investigation",
-     "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
-     "via": "",
-     "published": "2026-11-08T20:14+00:00",
-     "summary": "Nvidia CEO Jensen Huang admitted to having a romantic relationship with a suspected Chinese spy in a message to his company, and the company's board announced an independent investigation Sunday. Why it matters: The scandal raises national security concerns involving one of the world's most powerful tech CEOs, who has pushed to loosen restrictions on selling advanced AI chips to China amid the two"
     }
    ],
    "id": 5
@@ -567,42 +541,42 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "MINING.COM",
-    "Associated Press"
+    "Al Jazeera",
+    "Associated Press",
+    "Times of Israel"
    ],
    "regions": [
-    "Europe",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-11-09T20:14+00:00",
-   "earliest": "2026-11-09T18:18+00:00",
+   "latest": "2026-11-10T03:17+00:00",
+   "earliest": "2026-11-08T10:13+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "A huge explosion at a steel factory in Western Turkey has left at least 17 people dead and 13 injured",
-     "url": "https://www.euronews.com/2026/11/09/a-huge-explosion-at-a-steel-factory-in-western-turkey-has-left-at-least-17-people-dead-and",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+     "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
      "via": "",
-     "published": "2026-11-09T20:14+00:00",
-     "summary": "The explosion occurred when a crane lifting a boiler collapsed into a large industrial furnace, causing a huge fire."
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Blast at steel plant kills 16 in Turkey",
-     "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
-     "via": "",
-     "published": "2026-11-09T20:01+00:00",
-     "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued."
+     "published": "2026-11-10T03:17+00:00",
+     "summary": "Saudi forces intercept two missiles fired towards Riyadh, hours after reporting damage to key East-West pipeline."
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Explosion at steel plant in western Turkey leaves 16 dead and 13 injured",
-     "url": "https://apnews.com/article/turkey-aliaga-explosion-steel-plant-habas-7892a839350d41aa530dfb01323cf7dc",
+     "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
+     "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
      "via": "",
-     "published": "2026-11-09T18:18+00:00",
+     "published": "2026-11-09T02:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Houthis fire cruise missiles at Saudi Arabia; Riyadh’s Aramco tower damaged by debris",
+     "url": "https://www.timesofisrael.com/houthis-fire-cruise-missiles-at-saudi-arabia-riyadhs-aramco-tower-damaged-by-debris/",
+     "via": "",
+     "published": "2026-11-08T10:13+00:00",
      "summary": ""
     }
    ],
@@ -612,16 +586,25 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Al Jazeera"
+    "Euronews",
+    "Livemint / Economic Times"
    ],
    "regions": [
-    "Middle East",
+    "Europe",
     "South Asia"
    ],
-   "latest": "2026-11-10T02:28+00:00",
-   "earliest": "2026-11-09T23:47+00:00",
+   "latest": "2026-11-10T05:28+00:00",
+   "earliest": "2026-11-10T02:28+00:00",
    "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Republican lawmaker launches eight articles of impeachment against US Defence chief Hegseth",
+     "url": "https://www.euronews.com/2026/11/10/republican-lawmaker-launched-eight-articles-of-impeachment-against-us-defence-chief-hegset",
+     "via": "",
+     "published": "2026-11-10T05:28+00:00",
+     "summary": "Republican Kentucky congressman Thomas Massie introduced eight articles of impeachment against US Defense Secretary Pete Hegseth, including alleged violations of the 1973 War Powers Resolution, as well as misconduct involving civilian casualties and operations in Yemen and Venezuela."
+    },
     {
      "outlet": "Livemint / Economic Times",
      "region": "South Asia",
@@ -630,18 +613,184 @@
      "via": "",
      "published": "2026-11-10T02:28+00:00",
      "summary": "Republican Congressman Thomas Massie introduced eight articles of impeachment against Defense Secretary Pete Hegseth, accusing him of waging war without congressional approval and abusing his powers. President Donald Trump defended Hegseth, while Democratic leader Hakeem Jeffries backed impeachment."
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Trump, Rubio defend Hegseth as impeachment bid nears",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-rubio-defend-hegseth-as-impeachment-bid-nears?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-09T23:47+00:00",
-     "summary": "President Trump has lashed out at efforts to impeach Defense Secretary Pete Hegseth over the US war on Iran."
     }
    ],
    "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "VnExpress International"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-10T05:14+00:00",
+   "earliest": "2026-11-09T09:07+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Who is Alice Huang, the Chinese businesswoman tied to Nvidia's CEO?",
+     "url": "https://www.reuters.com/business/finance/alice-huang-chinese-businesswoman-tied-nvidia-ceo-went-finance-chips-2026-11-10/",
+     "via": "",
+     "published": "2026-11-10T05:14+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Who is the alleged mistress of Nvidia CEO Jensen Huang?",
+     "url": "https://e.vnexpress.net/news/business/billionaires/who-is-the-alleged-mistress-of-nvidia-ceo-jensen-huang-5142474.html",
+     "via": "",
+     "published": "2026-11-09T09:07+00:00",
+     "summary": "Alice Huang, the Chinese businesswoman who is allegedly having an affair with Nvidia CEO Jensen Huang, worked as a TV reporter before becoming an executive of a Singapore-based data center company."
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-10T05:02+00:00",
+   "earliest": "2026-11-10T03:28+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "3 workers die of asphyxiation at Tata's iPhone parts factory in Tamil Nadu",
+     "url": "https://www.business-standard.com/companies/news/3-workers-die-of-asphyxiation-at-tata-s-iphone-parts-factory-in-tamil-nadu-126111000129_1.html",
+     "via": "",
+     "published": "2026-11-10T05:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Three workers die at Tata's India iPhone parts factory in latest safety incident",
+     "url": "https://www.reuters.com/world/india/three-workers-die-tata-electronics-iphone-parts-plant-new-indian-express-reports-2026-11-10/",
+     "via": "",
+     "published": "2026-11-10T03:28+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-10T04:48+00:00",
+   "earliest": "2026-11-10T04:26+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Strait of Hormuz LNG traffic hits highest in October since Iran war began",
+     "url": "https://www.thehindu.com/business/Economy/strait-of-hormuz-lng-traffic-hits-highest-in-october-since-iran-war-began/article71684981.ece",
+     "via": "",
+     "published": "2026-11-10T04:48+00:00",
+     "summary": "October exports ‌were ⁠the highest since February when the war ⁠started and were up from September’s corresponding tally of 23 vessels exiting the strait"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Hormuz LNG traffic hits highest in October since Iran war began",
+     "url": "https://www.reuters.com/business/energy/hormuz-lng-traffic-hits-highest-october-since-iran-war-began-2026-11-10/",
+     "via": "",
+     "published": "2026-11-10T04:26+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Financial Times"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-10T02:46+00:00",
+   "earliest": "2026-11-10T00:35+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "FBI looking into Nvidia CEO Jensen Huang's affair with 'Chinese spy': Trump",
+     "url": "https://www.business-standard.com/world-news/fbi-looking-into-nvidia-ceo-jensen-huang-s-affair-with-chinese-spy-trump-126111000054_1.html",
+     "via": "",
+     "published": "2026-11-10T02:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang",
+     "url": "https://www.ft.com/content/cbabf2da-2079-4b69-88e3-0ba84cf8d6fd?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-10T00:35+00:00",
+     "summary": "US company has been rocked by allegations its chief executive had an affair with a Chinese spy"
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-10T01:53+00:00",
+   "earliest": "2026-11-09T18:30+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudi-led coalition reports Houthi missile, drone interceptions; Saba reports Saudi strikes on Sanaa",
+     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-it-intercepts-two-houthi-missiles-fired-towards-riyadh-2026-11-10/",
+     "via": "",
+     "published": "2026-11-10T01:53+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition destroys Houthi factory for production of ballistic missile components",
+     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/09/saudiled-coalition-destroys-houthi-factory-for-production-of-ballistic-missile-components",
+     "via": "",
+     "published": "2026-11-09T18:30+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -676,42 +825,42 @@
      "summary": "Comments by US president come after calls with regional leaders and a meeting with the Qatari prime minister"
     }
    ],
-   "id": 9
+   "id": 14
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Deutsche Welle",
-    "ABC News (Australia)"
+    "Times of Israel",
+    "Axios"
    ],
    "regions": [
-    "Europe",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-09T23:55+00:00",
-   "earliest": "2026-11-09T20:28+00:00",
+   "latest": "2026-11-09T23:24+00:00",
+   "earliest": "2026-11-08T17:59+00:00",
    "items": [
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Nvidia shareholders sue Jensen Huang over alleged spy ties",
-     "url": "https://www.dw.com/en/nvidia-shareholders-sue-jensen-huang-over-alleged-spy-ties/a-79905809?maca=en-rss-en-all-1573-rdf",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Netanyahu said calling Trump ‘every day’ to push him to resume Iran war",
+     "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-said-calling-trump-every-day-to-push-him-to-resume-iran-war/",
      "via": "",
-     "published": "2026-11-09T23:55+00:00",
-     "summary": "Nvidia shareholders have sued the chipmaker and its CEO, Jensen Huang, over his alleged ties to a suspected Chinese spy. The case adds to scrutiny over whether sensitive information at the AI giant was compromised."
+     "published": "2026-11-09T23:24+00:00",
+     "summary": ""
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Shareholders sue Nvidia CEO Huang over affair with suspected Chinese spy",
-     "url": "https://www.abc.net.au/news/2026-11-10/nvidia-share-price-falls-ceo-jensen-huang-investigated/107366868",
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Scoop: Trump asked Netanyahu to move on Gaza peace plan in post-election call",
+     "url": "https://www.axios.com/2026/11/08/trump-netanyahu-implement-gaza-peace-plan",
      "via": "",
-     "published": "2026-11-09T20:28+00:00",
-     "summary": "Nvidia shares tumbled after the company opened an investigation into Mr Huang's ties ‌with a ⁠suspected Chinese spy."
+     "published": "2026-11-08T17:59+00:00",
+     "summary": "President Trump told Israeli Prime Minister Benjamin Netanyahu during a phone call Thursday that he wants him to take steps to implement his Gaza peace plan , according to two sources with knowledge of the matter. Why it matters: The roadmap calls for disarming Hamas and demilitarizing Gaza, as well as transferring responsibility for governing the enclave to a new Palestinian technocratic governme"
     }
    ],
-   "id": 10
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -746,7 +895,42 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "The Hindu"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-09T21:51+00:00",
+   "earliest": "2026-11-08T11:13+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US stocks rally and recover most of last week’s losses as oil prices swing lower",
+     "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b",
+     "via": "",
+     "published": "2026-11-09T21:51+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Stock markets end marginally lower in special Muhurat trading, snapping seven-day rally",
+     "url": "https://www.thehindu.com/business/Industry/stock-markets-begin-samvat-2083-on-a-firm-note-in-special-muhurat-trading/article71680829.ece",
+     "via": "",
+     "published": "2026-11-08T11:13+00:00",
+     "summary": "In the 30 Sensex firms, Mahindra & Mahindra, InterGlobe Aviation, Trent, Infosys, Bharti Airtel and Axis Bank were among the biggest laggards. Sun Pharma, Tata Steel, Maruti and Power Grid were among the gainers"
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -781,7 +965,42 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Caixin Global",
+    "Business Standard"
+   ],
+   "regions": [
+    "China",
+    "South Asia"
+   ],
+   "latest": "2026-11-09T21:43+00:00",
+   "earliest": "2026-11-09T17:43+00:00",
+   "items": [
+    {
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "Who Is Alice Huang, the Former Megaspeed Executive Linked to Nvidia’s CEO?",
+     "url": "https://www.caixinglobal.com/2026-11-10/former-megaspeed-executive-draws-scrutiny-over-ties-to-jensen-huang-102502883.html",
+     "via": "",
+     "published": "2026-11-09T21:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Who is Alice Huang: Power broker or alleged 'Chinese spy' linked to Nvidia?",
+     "url": "https://www.business-standard.com/world-news/who-is-alice-huang-power-broker-or-alleged-chinese-spy-linked-to-nvidia-126110901581_1.html",
+     "via": "",
+     "published": "2026-11-09T17:43+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -816,42 +1035,7 @@
      "summary": "Trump critic Thomas Massie is calling for a vote to impeach Pentagon chief Pete Hegseth, accusing Hegseth of waging war without congressional approval."
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-09T21:24+00:00",
-   "earliest": "2026-11-09T09:56+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "What we know — and what we don't — as Nvidia investigates an alleged spy plot involving its CEO",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-chinese-spy-investigation-df45d21030691f59c67bc0b35adb89a2",
-     "via": "",
-     "published": "2026-11-09T21:24+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "China rejects ‘spy plot’ claims around Nvidia CEO Jensen Huang, calls it ‘nothing but smears’ | What Beijing said",
-     "url": "https://www.livemint.com/news/world/china-rejects-spy-plot-claims-around-nvidia-ceo-jensen-huang-calls-it-nothing-but-smears-what-beijing-said-11794217213248.html",
-     "via": "",
-     "published": "2026-11-09T09:56+00:00",
-     "summary": "China rejected allegations of a spy plot involving Nvidia CEO Jensen Huang, calling them baseless smears. The denial followed a New York Times report about Huang and a business executive whom US intelligence agencies reportedly suspected of gathering information for Beijing."
-    }
-   ],
-   "id": 14
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -886,7 +1070,42 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-09T20:33+00:00",
+   "earliest": "2026-11-09T09:56+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "What we know — and what we don't — as Nvidia investigates an alleged spy plot involving its CEO",
+     "url": "https://apnews.com/article/nvidia-jensen-huang-chinese-spy-investigation-df45d21030691f59c67bc0b35adb89a2",
+     "via": "",
+     "published": "2026-11-09T20:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "China rejects ‘spy plot’ claims around Nvidia CEO Jensen Huang, calls it ‘nothing but smears’ | What Beijing said",
+     "url": "https://www.livemint.com/news/world/china-rejects-spy-plot-claims-around-nvidia-ceo-jensen-huang-calls-it-nothing-but-smears-what-beijing-said-11794217213248.html",
+     "via": "",
+     "published": "2026-11-09T09:56+00:00",
+     "summary": "China rejected allegations of a spy plot involving Nvidia CEO Jensen Huang, calling them baseless smears. The denial followed a New York Times report about Huang and a business executive whom US intelligence agencies reportedly suspected of gathering information for Beijing."
+    }
+   ],
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -921,112 +1140,125 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 23
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Interfax",
-    "Ecofin Agency"
-   ],
-   "regions": [
-    "Africa",
-    "Russia"
-   ],
-   "latest": "2026-11-09T17:06+00:00",
-   "earliest": "2026-11-09T13:08+00:00",
-   "items": [
-    {
-     "outlet": "Interfax",
-     "region": "Russia",
-     "title": "National Bank of Georgia expects inflation to slow to 3.5% in 2027",
-     "url": "https://interfax.com/newsroom/top-stories/119841/",
-     "via": "",
-     "published": "2026-11-09T17:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Senegal Expects Growth to Slow to 1.5% in 2027 Under Debt and Energy Cost Pressures",
-     "url": "https://www.ecofinagency.com/news/0911-60629-senegal-expects-growth-to-slow-to-1-5-in-2027-under-debt-and-energy-cost-pressures",
-     "via": "",
-     "published": "2026-11-09T13:08+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "VnExpress International"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-09T10:53+00:00",
-   "earliest": "2026-11-09T09:07+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
-     "url": "https://www.euronews.com/video/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
-     "via": "",
-     "published": "2026-11-09T10:53+00:00",
-     "summary": "Footage shows Nvidia CEO Jensen Huang alongside Alice Huang, a Chinese businesswoman at the centre of an alleged Chinese intelligence operation targeting him."
-    },
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Who is the alleged mistress of Nvidia CEO Jensen Huang?",
-     "url": "https://e.vnexpress.net/news/business/billionaires/who-is-the-alleged-mistress-of-nvidia-ceo-jensen-huang-5142474.html",
-     "via": "",
-     "published": "2026-11-09T09:07+00:00",
-     "summary": "Alice Huang, the Chinese businesswoman who is allegedly having an affair with Nvidia CEO Jensen Huang, worked as a TV reporter before becoming an executive of a Singapore-based data center company."
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
+    "VnExpress International",
     "Axios"
    ],
    "regions": [
-    "Middle East",
-    "North America"
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-08T19:12+00:00",
-   "earliest": "2026-11-08T17:59+00:00",
+   "latest": "2026-11-09T14:47+00:00",
+   "earliest": "2026-11-08T20:14+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump presses Netanyahu to advance Gaza plan after election — report",
-     "url": "https://www.timesofisrael.com/liveblog_entry/trump-presses-netanyahu-to-advance-gaza-plan-after-election-report/",
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "4 things to know about Nvidia CEO Jensen Huang and his admitted affair",
+     "url": "https://e.vnexpress.net/news/business/billionaires/4-things-to-know-about-nvidia-ceo-jensen-huang-and-his-admitted-affair-5142359.html",
      "via": "",
-     "published": "2026-11-08T19:12+00:00",
-     "summary": ""
+     "published": "2026-11-09T14:47+00:00",
+     "summary": "Nvidia CEO Jensen Huang has admitted to having an affair as the chipmaking giant launches an investigation that some analysts say could put his top role at risk."
     },
     {
      "outlet": "Axios",
      "region": "North America",
-     "title": "Scoop: Trump asked Netanyahu to move on Gaza peace plan in post-election call",
-     "url": "https://www.axios.com/2026/11/08/trump-netanyahu-implement-gaza-peace-plan",
+     "title": "Nvidia CEO Jensen Huang admits affair, board to launch investigation",
+     "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
      "via": "",
-     "published": "2026-11-08T17:59+00:00",
-     "summary": "President Trump told Israeli Prime Minister Benjamin Netanyahu during a phone call Thursday that he wants him to take steps to implement his Gaza peace plan , according to two sources with knowledge of the matter. Why it matters: The roadmap calls for disarming Hamas and demilitarizing Gaza, as well as transferring responsibility for governing the enclave to a new Palestinian technocratic governme"
+     "published": "2026-11-08T20:14+00:00",
+     "summary": "Nvidia CEO Jensen Huang admitted to having a romantic relationship with a suspected Chinese spy in a message to his company, and the company's board announced an independent investigation Sunday. Why it matters: The scandal raises national security concerns involving one of the world's most powerful tech CEOs, who has pushed to loosen restrictions on selling advanced AI chips to China amid the two"
     }
    ],
-   "id": 19
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Al Arabiya",
+     "Times of Israel"
+    ]
+   ],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-10T06:22+00:00",
+   "earliest": "2026-11-08T21:37+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Khor Mor drone attack raises fears over Iraq’s energy security",
+     "url": "https://www.aljazeera.com/news-analysis/2026/11/10/khor-mor-drone-attack-raises-fears-over-iraqs-energy-security?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-10T06:22+00:00",
+     "summary": "Drone strike disrupts electricity supply in Iraq's semi-autonomous Kurdish region, renewing concerns about armed groups."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Production suspended at Iraq’s Khor Mor gas field after drone attack, sources say",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/09/production-suspended-at-iraq-s-khor-mor-gas-field-after-drone-attack-sources-say",
+     "via": "",
+     "published": "2026-11-08T22:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Production suspended at Iraq’s Khor Mor gas field after drone attack, sources say",
+     "url": "https://www.timesofisrael.com/liveblog_entry/production-suspended-at-iraqs-khor-mor-gas-field-after-drone-attack-sources-say/",
+     "via": "",
+     "published": "2026-11-08T21:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Nikkei Asia",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-11-09T17:24+00:00",
+   "earliest": "2026-11-09T02:55+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Japan's Mitsui Chemicals to buy chip materials maker JSR for $11.6bn",
+     "url": "https://asia.nikkei.com/business/business-deals/japan-s-mitsui-chemicals-to-buy-chip-materials-maker-jsr-for-11.6bn",
+     "via": "",
+     "published": "2026-11-09T17:24+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "BREAKING NEWS: Mitsui Chemicals to buy chip material supplier JSR for 1.84 tril. yen",
+     "url": "https://english.kyodonews.net/articles/-/90786",
+     "via": "",
+     "published": "2026-11-09T02:55+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1060,41 +1292,7 @@
      "summary": "A major controversy has emerged over ethanol blending in petrol after the Karnataka government claimed that fuel samples collected from multiple districts contained ethanol levels significantly above India’s permitted E20 limit."
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-08T12:32+00:00",
-   "earliest": "2026-11-08T12:04+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says 3 tankers caught fire in Hormuz",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-3-tankers-caught-fire-in-hormuz/",
-     "via": "",
-     "published": "2026-11-08T12:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says three tankers caught fire in Strait of Hormuz",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/08/iran-says-three-tankers-caught-fire-in-strait-of-hormuz",
-     "via": "",
-     "published": "2026-11-08T12:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1128,7 +1326,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 28
   }
  ]
 }
