@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-10T02:24:23+00:00",
+ "fetched_at": "2026-11-10T02:56:12+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 576,
+ "items_read": 572,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 58,
+   "items": 60,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 22,
+   "items": 15,
    "errors": []
   },
   "DigiTimes": {
@@ -69,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Financial Times": {
@@ -99,17 +99,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,12 +124,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 30,
+   "items": 29,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Axios": {
@@ -156,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 24,
+   "items": 26,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "RNZ": {
@@ -196,7 +196,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "The Indian Express": {
@@ -223,7 +223,7 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "BNamericas": {
@@ -243,6 +243,52 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Associated Press",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Middle East",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-10T02:38+00:00",
+   "earliest": "2026-11-09T22:31+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Trump says US-Iran war ‘effectively over’ militarily but issues another ‘locked and loaded’ warning; oil tumbles",
+     "url": "https://www.livemint.com/news/us-news/trump-says-us-iran-war-effectively-over-militarily-but-issues-another-locked-and-loaded-warning-oil-tumbles-11794277541573.html",
+     "via": "",
+     "published": "2026-11-10T02:38+00:00",
+     "summary": "US President Donald Trump said the Iran war was “effectively over” militarily but signalled that the US would maintain its economic blockade. His remarks eased concerns over renewed strikes, sending Brent crude prices down more than $7 a barrel in post-settlement trade."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
+     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
+     "via": "",
+     "published": "2026-11-09T23:37+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
+     "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-09T22:31+00:00",
+     "summary": "Iranian officials dismissed Trump's remarks as 'fake news' after he suggested keeping the 'status quo'."
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -287,7 +333,7 @@
      "summary": "Nvidia CEO Jensen Huang admitted to having a romantic relationship with a suspected Chinese spy in a message to his company, and the company's board announced an independent investigation Sunday. Why it matters: The scandal raises national security concerns involving one of the world's most powerful tech CEOs, who has pushed to loosen restrictions on selling advanced AI chips to China amid the two"
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -332,7 +378,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -377,7 +423,42 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-11-10T02:28+00:00",
+   "earliest": "2026-11-09T23:47+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "‘Pete Hegseth won two wars’: Trump says as Republican Thomas Massie moves impeachment against Secretary of Defense",
+     "url": "https://www.livemint.com/news/us-news/pete-hegseth-won-two-wars-trump-says-as-republican-thomas-massie-moves-impeachment-against-secretary-of-defense-11794276900792.html",
+     "via": "",
+     "published": "2026-11-10T02:28+00:00",
+     "summary": "Republican Congressman Thomas Massie introduced eight articles of impeachment against Defense Secretary Pete Hegseth, accusing him of waging war without congressional approval and abusing his powers. President Donald Trump defended Hegseth, while Democratic leader Hakeem Jeffries backed impeachment."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Trump, Rubio defend Hegseth as impeachment bid nears",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-rubio-defend-hegseth-as-impeachment-bid-nears?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-09T23:47+00:00",
+     "summary": "President Trump has lashed out at efforts to impeach Defense Secretary Pete Hegseth over the US war on Iran."
+    }
+   ],
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -412,7 +493,7 @@
      "summary": "Chipmaker’s co-founder has no obvious successor as leader of world’s second-largest company"
     }
    ],
-   "id": 4
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -447,7 +528,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -482,42 +563,7 @@
      "summary": "Comments by US president come after calls with regional leaders and a meeting with the Qatari prime minister"
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Bloomberg",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "North America"
-   ],
-   "latest": "2026-11-10T00:29+00:00",
-   "earliest": "2026-11-10T00:11+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "BOJ Summary Suggests Good Chance of December Interest Rate Hike",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-10/boj-summary-suggests-good-chance-of-near-term-interest-rate-hike",
-     "via": "",
-     "published": "2026-11-10T00:29+00:00",
-     "summary": "The Bank of Japan’s brief record of the latest policy meeting indicated many board members see a near-term interest rate hike as necessary, signaling there’s a good chance for a December move."
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "BREAKING NEWS: BOJ member urges rate hike when possible, without caution",
-     "url": "https://english.kyodonews.net/articles/-/90870",
-     "via": "",
-     "published": "2026-11-10T00:11+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -550,41 +596,6 @@
      "via": "",
      "published": "2026-11-09T20:28+00:00",
      "summary": "Nvidia shares tumbled after the company opened an investigation into Mr Huang's ties ‌with a ⁠suspected Chinese spy."
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-09T23:37+00:00",
-   "earliest": "2026-11-09T22:31+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
-     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
-     "via": "",
-     "published": "2026-11-09T23:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
-     "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-09T22:31+00:00",
-     "summary": "Iranian officials dismissed Trump's remarks as 'fake news' after he suggested keeping the 'status quo'."
     }
    ],
    "id": 9
