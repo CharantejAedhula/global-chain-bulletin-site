@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-10T02:56:12+00:00",
+ "fetched_at": "2026-11-10T03:36:39+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 572,
+ "items_read": 583,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 12,
+   "items": 15,
    "errors": []
   },
   "Ecofin Agency": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "Kyodo News": {
@@ -57,24 +57,24 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 28, column 111"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 138, column 111"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 28,
+   "items": 30,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Deutsche Welle": {
@@ -104,7 +104,7 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 20,
+   "items": 22,
    "errors": []
   },
   "Times of Israel": {
@@ -119,17 +119,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 29,
+   "items": 30,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "Axios": {
@@ -161,12 +161,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "RNZ": {
@@ -191,7 +191,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "The Jakarta Post": {
@@ -233,7 +233,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Newsroom Panama": {
@@ -243,6 +243,61 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "MINING.COM",
+    "Associated Press",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-09T20:14+00:00",
+   "earliest": "2026-11-09T18:17+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "A huge explosion at a steel factory in Western Turkey has left at least 17 people dead and 13 injured",
+     "url": "https://www.euronews.com/2026/11/09/a-huge-explosion-at-a-steel-factory-in-western-turkey-has-left-at-least-17-people-dead-and",
+     "via": "",
+     "published": "2026-11-09T20:14+00:00",
+     "summary": "The explosion occurred when a crane lifting a boiler collapsed into a large industrial furnace, causing a huge fire."
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Blast at steel plant kills 16 in Turkey",
+     "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
+     "via": "",
+     "published": "2026-11-09T20:01+00:00",
+     "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Explosion at steel plant in western Turkey leaves 16 dead and 13 injured",
+     "url": "https://apnews.com/article/turkey-aliaga-explosion-steel-plant-habas-7892a839350d41aa530dfb01323cf7dc",
+     "via": "",
+     "published": "2026-11-09T18:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Steel plant blast kills 16 in western Turkey",
+     "url": "https://www.reuters.com/world/steel-plant-blast-kills-3-leaves-10-missing-western-turkey-2026-11-09/",
+     "via": "",
+     "published": "2026-11-09T18:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -287,7 +342,7 @@
      "summary": "Iranian officials dismissed Trump's remarks as 'fake news' after he suggested keeping the 'status quo'."
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -333,97 +388,157 @@
      "summary": "Nvidia CEO Jensen Huang admitted to having a romantic relationship with a suspected Chinese spy in a message to his company, and the company's board announced an independent investigation Sunday. Why it matters: The scandal raises national security concerns involving one of the world's most powerful tech CEOs, who has pushed to loosen restrictions on selling advanced AI chips to China amid the two"
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-09T22:10+00:00",
-   "earliest": "2026-11-09T16:46+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Saudi Arabia reports new attack on key East-West pipeline",
-     "url": "https://www.aljazeera.com/news/2026/11/9/saudi-arabia-reports-new-attack-on-key-east-west-pipeline?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-09T22:10+00:00",
-     "summary": "The oil pipeline runs through the desert to the coast and is essential for bypassing the Strait of Hormuz."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Saudi East-West oil pipeline hit in Medina region, state media reports",
-     "url": "https://www.reuters.com/business/energy/saudi-east-west-oil-pipeline-hit-medina-region-state-media-reports-2026-11-09/",
-     "via": "",
-     "published": "2026-11-09T17:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia’s East-West Pipeline targeted in attack",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/11/09/saudi-arabia-s-eastwest-pipeline-targeted-in-attack",
-     "via": "",
-     "published": "2026-11-09T16:46+00:00",
-     "summary": ""
-    }
-   ],
    "id": 3
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "MINING.COM",
-    "Associated Press"
+    "Al Jazeera",
+    "Associated Press",
+    "Times of Israel"
    ],
    "regions": [
-    "Europe",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-11-09T20:14+00:00",
-   "earliest": "2026-11-09T18:18+00:00",
+   "latest": "2026-11-10T03:17+00:00",
+   "earliest": "2026-11-08T10:13+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "A huge explosion at a steel factory in Western Turkey has left at least 17 people dead and 13 injured",
-     "url": "https://www.euronews.com/2026/11/09/a-huge-explosion-at-a-steel-factory-in-western-turkey-has-left-at-least-17-people-dead-and",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+     "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
      "via": "",
-     "published": "2026-11-09T20:14+00:00",
-     "summary": "The explosion occurred when a crane lifting a boiler collapsed into a large industrial furnace, causing a huge fire."
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Blast at steel plant kills 16 in Turkey",
-     "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
-     "via": "",
-     "published": "2026-11-09T20:01+00:00",
-     "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued."
+     "published": "2026-11-10T03:17+00:00",
+     "summary": "Saudi forces intercept two missiles fired towards Riyadh, hours after reporting damage to key East-West pipeline."
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Explosion at steel plant in western Turkey leaves 16 dead and 13 injured",
-     "url": "https://apnews.com/article/turkey-aliaga-explosion-steel-plant-habas-7892a839350d41aa530dfb01323cf7dc",
+     "title": "Saudi Arabia intercepts missiles as Aramco building in Riyadh is damaged, and other Mideast news",
+     "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
      "via": "",
-     "published": "2026-11-09T18:18+00:00",
+     "published": "2026-11-09T02:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Houthis fire cruise missiles at Saudi Arabia; Riyadh’s Aramco tower damaged by debris",
+     "url": "https://www.timesofisrael.com/houthis-fire-cruise-missiles-at-saudi-arabia-riyadhs-aramco-tower-damaged-by-debris/",
+     "via": "",
+     "published": "2026-11-08T10:13+00:00",
      "summary": ""
     }
    ],
    "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Australian Financial Review",
+    "Financial Times"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-10T03:31+00:00",
+   "earliest": "2026-11-10T00:35+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "FBI ‘looking into’ Nvidia CEO Jensen Huang’s affair as shares slide",
+     "url": "https://www.afr.com/world/north-america/fbi-looking-into-jensen-huang-s-affair-as-nvidia-shares-slide-20261110-p61ctl?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-10T03:31+00:00",
+     "summary": "The leading artificial intelligence chipmaker has been rocked by allegations its chief executive had an affair with a Chinese spy."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang",
+     "url": "https://www.ft.com/content/cbabf2da-2079-4b69-88e3-0ba84cf8d6fd?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-10T00:35+00:00",
+     "summary": "US company has been rocked by allegations its chief executive had an affair with a Chinese spy"
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Nikkei Asia",
+    "Bloomberg"
+   ],
+   "regions": [
+    "East Asia",
+    "North America"
+   ],
+   "latest": "2026-11-10T02:58+00:00",
+   "earliest": "2026-11-10T02:40+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "China exports stay resilient as trade surplus tops $1tn",
+     "url": "https://asia.nikkei.com/economy/trade/china-exports-stay-resilient-as-trade-surplus-tops-1tn",
+     "via": "",
+     "published": "2026-11-10T02:58+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Chinese Trade Surplus Tops $1 Trillion for Second Time Ever",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/chinese-trade-surplus-surpasses-1-trillion-for-second-time-ever",
+     "via": "",
+     "published": "2026-11-10T02:40+00:00",
+     "summary": "China’s trade surplus ballooned to just over $1 trillion for the year despite the biggest surge in imports since 2021, with exports growing faster than 35% for a second month."
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America"
+   ],
+   "latest": "2026-11-10T02:32+00:00",
+   "earliest": "2026-11-09T23:57+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Exxon Signs Preliminary Venezuela Oil Pact",
+     "url": "https://www.riotimesonline.com/exxon-signs-preliminary-venezuela-oil-pact/",
+     "via": "",
+     "published": "2026-11-10T02:32+00:00",
+     "summary": "ExxonMobil signed a non-binding memorandum with PDVSA to explore Venezuela oil, its first formal step back after nearly two decades. The post Exxon Signs Preliminary Venezuela Oil Pact appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Exxon signs preliminary agreement with Venezuela to assess oil opportunities",
+     "url": "https://www.reuters.com/business/energy/exxon-signs-preliminary-agreement-with-venezuela-evaluate-oil-opportunities-2026-11-09/",
+     "via": "",
+     "published": "2026-11-09T23:57+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -458,7 +573,7 @@
      "summary": "President Trump has lashed out at efforts to impeach Defense Secretary Pete Hegseth over the US war on Iran."
     }
    ],
-   "id": 5
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -493,7 +608,7 @@
      "summary": "Chipmaker’s co-founder has no obvious successor as leader of world’s second-largest company"
     }
    ],
-   "id": 6
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -528,7 +643,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -563,7 +678,7 @@
      "summary": "Comments by US president come after calls with regional leaders and a meeting with the Qatari prime minister"
     }
    ],
-   "id": 8
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -598,7 +713,7 @@
      "summary": "Nvidia shares tumbled after the company opened an investigation into Mr Huang's ties ‌with a ⁠suspected Chinese spy."
     }
    ],
-   "id": 9
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -633,7 +748,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -668,7 +783,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -703,7 +818,7 @@
      "summary": "Trump critic Thomas Massie is calling for a vote to impeach Pentagon chief Pete Hegseth, accusing Hegseth of waging war without congressional approval."
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -738,7 +853,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -773,7 +888,7 @@
      "summary": "China rejected allegations of a spy plot involving Nvidia CEO Jensen Huang, calling them baseless smears. The denial followed a New York Times report about Huang and a business executive whom US intelligence agencies reportedly suspected of gathering information for Beijing."
     }
    ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -808,77 +923,7 @@
      "summary": ""
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-09T19:58+00:00",
-   "earliest": "2026-11-09T15:52+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Explosion at Turkish steel plant kills at least 16 people",
-     "url": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-09T19:58+00:00",
-     "summary": "President Erdogan announces an investigation after a crane collapsed into a furnace, triggering the blast near Izmir."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Turkey: Workers killed in Izmir steel plant blast",
-     "url": "https://www.dw.com/en/turkey-workers-killed-in-izmir-steel-plant-blast/a-79900748?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-09T15:52+00:00",
-     "summary": "At least 16 workers lost their lives in an explosion at a steel factory in Izmir. President Recep Tayyip Erdogan issued an updated casualty toll after a Cabinet meeting."
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Business Standard"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-09T18:58+00:00",
-   "earliest": "2026-11-09T03:34+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Senate advances energy permitting bill opposed by some Democrats, tribes",
-     "url": "https://www.reuters.com/legal/litigation/democratic-us-senators-see-hope-permitting-bill-ahead-key-senate-vote-2026-11-09/",
-     "via": "",
-     "published": "2026-11-09T18:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Trump backs US energy permitting reform bill ahead of key Senate vote",
-     "url": "https://www.business-standard.com/world-news/trump-backs-us-energy-permitting-reform-bill-ahead-of-key-senate-vote-126110900118_1.html",
-     "via": "",
-     "published": "2026-11-09T03:34+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -913,7 +958,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -948,7 +993,7 @@
      "summary": "Alice Huang, the Chinese businesswoman who is allegedly having an affair with Nvidia CEO Jensen Huang, worked as a TV reporter before becoming an executive of a Singapore-based data center company."
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -983,7 +1028,7 @@
      "summary": "President Trump told Israeli Prime Minister Benjamin Netanyahu during a phone call Thursday that he wants him to take steps to implement his Gaza peace plan , according to two sources with knowledge of the matter. Why it matters: The roadmap calls for disarming Hamas and demilitarizing Gaza, as well as transferring responsibility for governing the enclave to a new Palestinian technocratic governme"
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1015,40 +1060,6 @@
      "via": "",
      "published": "2026-11-07T09:33+00:00",
      "summary": "A major controversy has emerged over ethanol blending in petrol after the Karnataka government claimed that fuel samples collected from multiple districts contained ethanol levels significantly above India’s permitted E20 limit."
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-08T12:32+00:00",
-   "earliest": "2026-11-08T12:04+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says 3 tankers caught fire in Hormuz",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-3-tankers-caught-fire-in-hormuz/",
-     "via": "",
-     "published": "2026-11-08T12:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says three tankers caught fire in Strait of Hormuz",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/08/iran-says-three-tankers-caught-fire-in-strait-of-hormuz",
-     "via": "",
-     "published": "2026-11-08T12:04+00:00",
-     "summary": ""
     }
    ],
    "id": 22
