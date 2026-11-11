@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-11T02:38:26+00:00",
+ "fetched_at": "2026-11-11T06:22:28+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 700,
+ "items_read": 727,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,17 +12,17 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 27,
+   "items": 29,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 33,
+   "items": 35,
    "errors": []
   },
   "Yicai Global": {
@@ -42,32 +42,32 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 45,
+   "items": 50,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 18,
+   "items": 10,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 41,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 31,
+   "items": 33,
    "errors": []
   },
   "Financial Times": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -92,17 +92,17 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 12,
+   "items": 14,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 26,
+   "items": 24,
    "errors": []
   },
   "Times of Israel": {
@@ -117,17 +117,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 21,
+   "items": 25,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 26,
+   "items": 23,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 5,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 31,
+   "items": 29,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 3,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 21,
    "errors": []
   },
   "RNZ": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 35,
+   "items": 32,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 26,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 9,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,12 +242,67 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Al Jazeera",
+    "Financial Times",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-11-11T04:29+00:00",
+   "earliest": "2026-11-10T13:58+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "US Republicans block efforts to impeach US Defence Secretary Pete Hegseth over Iran war",
+     "url": "https://www.euronews.com/2026/11/11/us-republicans-block-efforts-to-impeach-us-defence-secretary-pete-hegseth-over-iran-war",
+     "via": "",
+     "published": "2026-11-11T04:29+00:00",
+     "summary": "US Defence chief Hegseth defended operations he led in Yemen, Iran and against alleged drug smugglers, stating, \"I stand behind every one of these operations. I was proud to execute them, and I would do it again tomorrow,\" while portraying the impeachment effort as an attack on US troops."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Republicans block Hegseth impeachment motion",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/republicans-block-hegseth-impeachment-motion?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-11T01:43+00:00",
+     "summary": "Republicans have blocked a motion to impeach US Secretary of Defense Pete Hegseth over the war on Iran."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "House blocks impeachment of US defence secretary Pete Hegseth",
+     "url": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-11T00:01+00:00",
+     "summary": "Congressional effort to unseat incumbent over conduct of Iran war fails at first hurdle"
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "‘No Secretary of Defence has ever been impeached’: Pete Hegseth defends Iran war actions amid removal push",
+     "url": "https://www.livemint.com/news/us-news/no-secretary-of-defence-has-ever-been-impeached-pete-hegseth-defends-iran-war-actions-amid-removal-push-11794318707252.html",
+     "via": "",
+     "published": "2026-11-10T13:58+00:00",
+     "summary": "“In the 250 years of our American republic, no Secretary of War or Secretary of Defense has ever been impeached for carrying out lawful military operations,” Hegseth told reporters."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Livemint / Economic Times",
     "Nikkei Asia",
-    "DigiTimes",
     "Business Standard",
     "Reuters"
    ],
@@ -278,15 +333,6 @@
      "summary": ""
     },
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Three workers die at Tata iPhone parts plant, reviving scrutiny of Apple's India supply chain",
-     "url": "https://www.digitimes.com/news/a20261110VL211/apple-plant-iphone-supplier-production.html",
-     "via": "",
-     "published": "2026-11-10T06:14+00:00",
-     "summary": "A fatal gas exposure at an Apple supplier's factory in southern India has renewed scrutiny of worker safety as the company expands production in a country that has already seen fires, hazardous factory conditions, and labor disputes at iPhone-linked facilities."
-    },
-    {
      "outlet": "Business Standard",
      "region": "South Asia",
      "title": "3 workers die of asphyxiation at Tata's iPhone parts factory in Tamil Nadu",
@@ -305,7 +351,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -351,52 +397,6 @@
      "summary": ""
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Reuters",
-    "Caixin Global"
-   ],
-   "regions": [
-    "China",
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-10T06:33+00:00",
-   "earliest": "2026-11-09T21:43+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Nvidia legal chief accused of interfering in Megaspeed probe",
-     "url": "https://www.digitimes.com/news/a20261110PD242/nvidia-probe-jensen-huang-investigation-ceo.html",
-     "via": "",
-     "published": "2026-11-10T06:33+00:00",
-     "summary": "An alleged affair between Nvidia CEO Jensen Huang and former Singapore-based Megaspeed executive Alice Huang has triggered a storm. In 2024, the US Department of Commerce's Bureau of Industry and Security (BIS) launched an investigation into Megaspeed's alleged chip smuggling. New reports indicate that Nvidia closely monitored the probe and was accused of attempting to intervene."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "What we know about Megaspeed, Singapore-based customer of Nvidia",
-     "url": "https://www.reuters.com/world/china/what-we-know-about-megaspeed-singapore-based-customer-nvidia-2026-11-10/",
-     "via": "",
-     "published": "2026-11-10T05:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Caixin Global",
-     "region": "China",
-     "title": "Who Is Alice Huang, the Former Megaspeed Executive Linked to Nvidia’s CEO?",
-     "url": "https://www.caixinglobal.com/2026-11-10/former-megaspeed-executive-draws-scrutiny-over-ties-to-jensen-huang-102502883.html",
-     "via": "",
-     "published": "2026-11-09T21:43+00:00",
-     "summary": ""
-    }
-   ],
    "id": 3
   },
   {
@@ -411,17 +411,17 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-11T01:44+00:00",
+   "latest": "2026-11-11T05:01+00:00",
    "earliest": "2026-11-10T20:46+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
-     "url": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base?traffic_source=rss",
+     "title": "US charges three men for allegedly plotting attack on UK base",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-charges-three-men-for-allegedly-plotting-attack-on-uk-base?traffic_source=rss",
      "via": "",
-     "published": "2026-11-11T01:44+00:00",
-     "summary": "The men, including one who is already in jail, face charges over alleged plot at UK air base used in US war on Iran."
+     "published": "2026-11-11T05:01+00:00",
+     "summary": "The US has charged three men over alleged involvement in a plot to attack a Royal Air Force Base in Fairford, UK."
     },
     {
      "outlet": "Associated Press",
@@ -538,49 +538,49 @@
    "independent_outlets": 2,
    "same_headline_groups": [
     [
-     "Mining Weekly",
-     "The Straits Times"
+     "The Straits Times",
+     "Reuters"
     ]
    ],
    "outlets": [
-    "Mining.com.au",
-    "Mining Weekly",
-    "The Straits Times"
+    "The Straits Times",
+    "Business Standard",
+    "Reuters"
    ],
    "regions": [
-    "Africa",
-    "Oceania",
+    "Europe",
+    "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-10T10:26+00:00",
-   "earliest": "2026-11-10T06:38+00:00",
+   "latest": "2026-11-11T05:44+00:00",
+   "earliest": "2026-11-11T01:33+00:00",
    "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Myanmar urges US rare earth investment push",
-     "url": "https://mining.com.au/myanmar-urges-us-rare-earth-investment-push/",
-     "via": "",
-     "published": "2026-11-10T10:26+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Myanmar lobbies US to invest in its rare earths sector, dominated by China",
-     "url": "https://www.miningweekly.com/article/myanmar-lobbies-us-to-invest-in-its-rare-earths-sector-dominated-by-china-2026-11-10",
-     "via": "",
-     "published": "2026-11-10T06:42+00:00",
-     "summary": ""
-    },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "Myanmar lobbies US to invest in its rare earths sector, dominated by China",
-     "url": "https://www.straitstimes.com/asia/myanmar-lobbies-us-to-invest-in-its-rare-earths-sector-dominated-by-china",
+     "title": "India garment makers rethink reliance on US after tariff shock",
+     "url": "https://www.straitstimes.com/asia/south-asia/india-garment-makers-rethink-reliance-on-us-after-tariff-shock",
      "via": "",
-     "published": "2026-11-10T06:38+00:00",
-     "summary": "BANGKOK, Nov 10 - Myanmar's military-led government is urging the United States to beef up re-engagement efforts and rapidly boost investment in the war-torn nation's rare earths mines, a critical sector now dominated by influential giant neighbour China."
+     "published": "2026-11-11T05:44+00:00",
+     "summary": "Exporters said US tariff uncertainty, higher shipping costs and discount demands have squeezed margins."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Indian garment makers rethink reliance on US after tariffs disrupt trade",
+     "url": "https://www.business-standard.com/industry/news/indian-garment-makers-rethink-reliance-on-us-after-tariffs-disrupt-trade-126111100074_1.html",
+     "via": "",
+     "published": "2026-11-11T02:54+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "India garment makers rethink reliance on US after tariff shock",
+     "url": "https://www.reuters.com/world/india/india-garment-makers-rethink-reliance-on-us-after-tariff-shock-2026-11-11/",
+     "via": "",
+     "published": "2026-11-11T01:33+00:00",
+     "summary": ""
     }
    ],
    "id": 7
@@ -640,33 +640,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Associated Press"
+    "DigiTimes",
+    "South China Morning Post"
    ],
    "regions": [
-    "North America",
-    "South Asia"
+    "China",
+    "East Asia"
    ],
-   "latest": "2026-11-11T02:13+00:00",
-   "earliest": "2026-11-09T20:33+00:00",
+   "latest": "2026-11-11T05:43+00:00",
+   "earliest": "2026-11-10T13:20+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia investigates alleged spy plot involving its CEO: What we know",
-     "url": "https://www.business-standard.com/world-news/nvidia-investigates-alleged-spy-plot-involving-its-ceo-what-we-know-126111001079_1.html",
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Alibaba files to spin off chip design unit T-Head for Hong Kong IPO",
+     "url": "https://www.digitimes.com/news/a20261111VL216/alibaba-t-head-ipo-spin-off-design.html",
      "via": "",
-     "published": "2026-11-11T02:13+00:00",
-     "summary": ""
+     "published": "2026-11-11T05:43+00:00",
+     "summary": "Alibaba filed for a Hong Kong IPO for its chip design unit, T-Head, as a spin-off on November 10. The separate listing would let investors gain direct exposure to the group's chipmaking business as China's AI ecosystem seeks to reduce its reliance on US semiconductors through domestic alternatives."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "What we know — and what we don't — as Nvidia investigates an alleged spy plot involving its CEO",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-chinese-spy-investigation-df45d21030691f59c67bc0b35adb89a2",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Alibaba chip unit T-Head files Hong Kong IPO plan amid China’s AI self-sufficiency drive",
+     "url": "https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive",
      "via": "",
-     "published": "2026-11-09T20:33+00:00",
-     "summary": ""
+     "published": "2026-11-10T13:20+00:00",
+     "summary": "Alibaba Group Holding’s chip design unit T-Head has filed for an initial public offering (IPO) on a confidential basis in Hong Kong, the company said in a stock-exchange filing on Tuesday evening, setting up a high-profile listing in the city amid rising competition between the US and China as the latter continues its push for tech self-sufficiency. The size and structure of the listing were not f"
     }
    ],
    "id": 9
@@ -675,16 +675,60 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Seatrade Maritime",
-    "Newsroom Panama"
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-11T05:33+00:00",
+   "earliest": "2026-11-11T05:13+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "PLA-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+     "url": "https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show",
+     "via": "",
+     "published": "2026-11-11T05:33+00:00",
+     "summary": "BEIJING, Nov 11 - A Chinese university with deep ties to the People's Liberation Army bought Nvidia's powerful H200 AI chips last month despite being on a US export blacklist, procurement records show, highlighting gaps in Washington's efforts to curb China's access to advanced technology."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: PLA-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+     "url": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+     "via": "",
+     "published": "2026-11-11T05:13+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Newsroom Panama",
+    "Seatrade Maritime"
    ],
    "regions": [
     "Europe",
     "Latin America"
    ],
-   "latest": "2026-11-11T00:58+00:00",
-   "earliest": "2026-11-10T11:01+00:00",
+   "latest": "2026-11-11T04:58+00:00",
+   "earliest": "2026-11-11T00:58+00:00",
    "items": [
+    {
+     "outlet": "Newsroom Panama",
+     "region": "Latin America",
+     "title": "Panama Canal’s daily traffic volume increases to 34 vessels: BTC, ETH, and USDC holders explore new yield opportunities",
+     "url": "https://newsroompanama.com/2026/11/10/panama-canals-daily-traffic-volume-increases-to-34-vessels-btc-eth-and-usdc-holders-explore-new-yield-opportunities/",
+     "via": "",
+     "published": "2026-11-11T04:58+00:00",
+     "summary": "Guest Contribution – As Panama’s position in global trade becomes increasingly secure, Bull DeFi offers... The post Panama Canal’s daily traffic volume increases to 34 vessels: BTC, ETH, and USDC holders explore new yield opportunities appeared first on Newsroom Panama ."
+    },
     {
      "outlet": "Seatrade Maritime",
      "region": "Europe",
@@ -693,18 +737,44 @@
      "via": "",
      "published": "2026-11-11T00:58+00:00",
      "summary": "The waterway has added a slot as conditions improve in the canal’s watershed"
-    },
-    {
-     "outlet": "Newsroom Panama",
-     "region": "Latin America",
-     "title": "Panama Canal Increases Capacity to 34.",
-     "url": "https://newsroompanama.com/2026/11/10/panama-canal-increases-capacity-to-34/",
-     "via": "",
-     "published": "2026-11-10T11:01+00:00",
-     "summary": "As of today, the Panama Canal expanded its transit capacity to 34 slots per day,... The post Panama Canal Increases Capacity to 34. appeared first on Newsroom Panama ."
     }
    ],
-   "id": 10
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-11T03:36+00:00",
+   "earliest": "2026-11-09T14:48+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Barrick moves ahead with North American gold IPO",
+     "url": "https://mining.com.au/barrick-moves-ahead-with-north-american-gold-ipo/",
+     "via": "",
+     "published": "2026-11-11T03:36+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Barrick targets November filing for North American IPO",
+     "url": "https://www.mining.com/barrick-targets-november-filing-for-north-american-ipo/",
+     "via": "",
+     "published": "2026-11-09T14:48+00:00",
+     "summary": "The offering follows an August agreement with Newmont to contribute to their Nevada Gold Mines joint venture."
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -739,7 +809,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -774,42 +844,42 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Financial Times",
-    "Al Jazeera"
+    "Mining.com.au",
+    "MINING.COM"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "North America",
+    "Oceania"
    ],
-   "latest": "2026-11-11T00:01+00:00",
-   "earliest": "2026-11-10T22:36+00:00",
+   "latest": "2026-11-10T23:08+00:00",
+   "earliest": "2026-11-10T17:19+00:00",
    "items": [
     {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "House blocks impeachment of US defence secretary Pete Hegseth",
-     "url": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Gunnison strikes massive copper-zinc sulphides in Arizona",
+     "url": "https://mining.com.au/gunnison-strikes-massive-copper-zinc-sulphides-in-arizona/",
      "via": "",
-     "published": "2026-11-11T00:01+00:00",
-     "summary": "Congressional effort to unseat incumbent over conduct of Iran war fails at first hurdle"
+     "published": "2026-11-10T23:08+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "US House Republicans block Pete Hegseth impeachment effort",
-     "url": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Gunnison hits rich copper and zinc in Arizona",
+     "url": "https://www.mining.com/gunnison-hits-rich-copper-and-zinc-in-arizona/",
      "via": "",
-     "published": "2026-11-10T22:36+00:00",
-     "summary": "Hegseth has been accused of spearheading war on Iran without required congressional approval."
+     "published": "2026-11-10T17:19+00:00",
+     "summary": "The company has confirmed a high-grade copper-zinc zone at its Strong & Harris deposit."
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -844,42 +914,7 @@
      "summary": ""
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-10T21:13+00:00",
-   "earliest": "2026-11-10T17:19+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Gunnison strikes massive copper-zinc sulphides in Arizona",
-     "url": "https://mining.com.au/gunnison-strikes-massive-copper-zinc-sulphides-in-arizona/",
-     "via": "",
-     "published": "2026-11-10T21:13+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Gunnison hits rich copper and zinc in Arizona",
-     "url": "https://www.mining.com/gunnison-hits-rich-copper-and-zinc-in-arizona/",
-     "via": "",
-     "published": "2026-11-10T17:19+00:00",
-     "summary": "The company has confirmed a high-grade copper-zinc zone at its Strong & Harris deposit."
-    }
-   ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -914,112 +949,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "CBC News"
-   ],
-   "regions": [
-    "East Asia",
-    "North America"
-   ],
-   "latest": "2026-11-10T20:15+00:00",
-   "earliest": "2026-11-10T13:09+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Canada reimposes sanctions against 11 Iranian companies: statement",
-     "url": "https://www.koreaherald.com/article/10932712",
-     "via": "",
-     "published": "2026-11-10T20:15+00:00",
-     "summary": "PARIS (AFP) — Canada on Tuesday said it was reimposing sanctions against 11 Iranian companies in the energy and banking sectors for contributing to the Islamic republic's nuclear drive, ballistic missile program or the financing of \"malign activities.\" The companies, which include the National Iranian Oil Co. and leading banks Mellat and Melli, were delisted from Canadian sanctions in 2016. But th"
-    },
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "Canada reimposes sanctions on Iran for violating nuclear non-proliferation commitments",
-     "url": "https://www.cbc.ca/news/politics/canada-iran-nuclear-commitments-9.7416081",
-     "via": "",
-     "published": "2026-11-10T13:09+00:00",
-     "summary": ""
-    }
-   ],
    "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-10T17:47+00:00",
-   "earliest": "2026-11-10T09:57+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "NMDC said to be in talks with Russia’s Rosatom over lithium investments",
-     "url": "https://www.thehindu.com/business/nmdc-said-to-be-in-talks-with-russias-rosatom-over-lithium-investments/article71687322.ece",
-     "via": "",
-     "published": "2026-11-10T17:47+00:00",
-     "summary": "Rosatom and Russian miner Nornickel, however, are developing the country’s largest lithium deposit through their PolarLithium joint venture, with commercial production expected to begin by 2030"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "India's NMDC in talks with Russia's Rosatom over lithium investments, sources say",
-     "url": "https://www.reuters.com/world/china/indias-nmdc-talks-with-russias-rosatom-over-lithium-investments-sources-say-2026-11-10/",
-     "via": "",
-     "published": "2026-11-10T09:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Bloomberg",
-    "The Straits Times"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-10T14:48+00:00",
-   "earliest": "2026-11-09T03:00+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "US CPI Report October 2026: Key Takeaways on Inflation, Consumer Price Index",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-10/us-cpi-report-october-2026-key-takeaways-on-inflation-consumer-price-index",
-     "via": "",
-     "published": "2026-11-10T14:48+00:00",
-     "summary": "Here are the key takeaways from the US CPI report for October, released Tuesday:"
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "China’s factory-gate inflation at fastest in nearly 4½ years in October, while CPI rise moderates",
-     "url": "https://www.straitstimes.com/business/economy/chinas-factory-gate-inflation-gains-momentum-in-october-consumer-price-pressures-stay-muted",
-     "via": "",
-     "published": "2026-11-09T03:00+00:00",
-     "summary": "The producer price index climbed by 5.7% in October from a year earlier, compared with a 5% increase in September."
-    }
-   ],
-   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1054,7 +984,42 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-11-10T10:48+00:00",
+   "earliest": "2026-11-10T09:41+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Stocks rally as investors snap up tech shares at lower prices",
+     "url": "https://www.euronews.com/2026/11/10/european-stocks-rise-as-tech-rally-spreads-and-oil-prices-fall",
+     "via": "",
+     "published": "2026-11-10T10:48+00:00",
+     "summary": "Stocks rallied on Tuesday, extending a technology-led surge on Wall Street, as investors took advantage of lower prices following last week's rout. Falling oil prices added to the upbeat mood."
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Seoul shares open sharply higher on US tech rally, falling oil prices",
+     "url": "https://www.koreaherald.com/article/10931652",
+     "via": "",
+     "published": "2026-11-10T09:41+00:00",
+     "summary": "South Korean stocks started sharply higher Tuesday following overnight Wall Street gains driven by hopes for diplomatic talks aimed at ending the US-Iran war, which led to a drop in oil prices amid a scandal swirling around Nvidia CEO Jensen Huang. The benchmark Korea Composite Stock Price Index gained 275.50 points, or 5.49 percent, to 5,294.35 as of 9:15 a.m. With the sharp rise, the Korea Excha"
+    }
+   ],
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1089,42 +1054,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-10T10:15+00:00",
-   "earliest": "2026-11-09T12:40+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Cruise ship that stranded passengers in Cambodia kept in Singapore under court order",
-     "url": "https://www.reuters.com/world/asia-pacific/cruise-ship-that-stranded-passengers-cambodia-kept-singapore-under-court-order-2026-11-10/",
-     "via": "",
-     "published": "2026-11-10T10:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "‘Forever cruise’ ship seized in Singapore as passengers remain in Cambodia",
-     "url": "https://www.straitstimes.com/asia/se-asia/forever-cruise-ship-seized-in-singapore-as-passengers-remain-in-cambodia",
-     "via": "",
-     "published": "2026-11-09T12:40+00:00",
-     "summary": "The vessel is now under the control of its lender after owner Villa Vie failed to keep up with payments."
-    }
-   ],
-   "id": 22
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1159,77 +1089,7 @@
      "summary": "US President Donald Trump said on Monday that Nvidia chief executive Jensen Huang had told him he did not know a woman at the centre of espionage allegations was a suspected Chinese spy, and that he believed the technology executive’s account. Speaking to reporters at the White House, Trump said he had spoken to Huang earlier in the day, as the chipmaker faces scrutiny over whether its founder was"
     }
    ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-10T09:05+00:00",
-   "earliest": "2026-11-10T03:50+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "China’s trade surplus tops $1 trn for second year in a row, exports jump 35.2% in October: What's leading the surge?",
-     "url": "https://www.livemint.com/news/world/chinas-trade-surplus-tops-1-trn-for-second-year-in-a-row-exports-jump-35-2-in-october-whats-leading-the-surge-11794300199631.html",
-     "via": "",
-     "published": "2026-11-10T09:05+00:00",
-     "summary": "China's trade surplus crossed $1 trillion in the first 10 months of 2026, driven by strong demand for AI-related products and high-tech exports. However, weak domestic consumption and growing trade tensions with the US and EU pose fresh challenges for Beijing."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "China’s trade surplus soars past US$1 trillion as AI boom powers exports",
-     "url": "https://www.straitstimes.com/business/chinas-trade-surplus-soars-past-us1-trillion-as-ai-boom-powers-exports",
-     "via": "",
-     "published": "2026-11-10T03:50+00:00",
-     "summary": "China’s trade surplus tops US$1 trillion for a second consecutive year, reaching the milestone a month earlier than in 2025."
-    }
-   ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "VnExpress International",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-10T04:01+00:00",
-   "earliest": "2026-11-09T22:40+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Nvidia, Jensen Huang sued over disclosures related to CEO's alleged affair",
-     "url": "https://e.vnexpress.net/news/business/companies/nvidia-jensen-huang-sued-over-disclosures-related-to-ceo-s-alleged-affair-5142746.html",
-     "via": "",
-     "published": "2026-11-10T04:01+00:00",
-     "summary": "Nvidia and Chief Executive Jensen Huang have been sued in a proposed class action accusing ‌them of defrauding shareholders by concealing Huang's ties with a suspected Chinese spy."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
-     "url": "https://www.reuters.com/world/nvidia-ceo-huang-sued-over-disclosures-related-suspected-chinese-spy-2026-11-09/",
-     "via": "",
-     "published": "2026-11-09T22:40+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1264,42 +1124,7 @@
      "summary": ""
     }
    ],
-   "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "VnExpress International",
-    "Axios"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-09T14:47+00:00",
-   "earliest": "2026-11-08T20:14+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "4 things to know about Nvidia CEO Jensen Huang and his admitted affair",
-     "url": "https://e.vnexpress.net/news/business/billionaires/4-things-to-know-about-nvidia-ceo-jensen-huang-and-his-admitted-affair-5142359.html",
-     "via": "",
-     "published": "2026-11-09T14:47+00:00",
-     "summary": "Nvidia CEO Jensen Huang has admitted to having an affair as the chipmaking giant launches an investigation that some analysts say could put his top role at risk."
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Nvidia CEO Jensen Huang admits affair, board to launch investigation",
-     "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
-     "via": "",
-     "published": "2026-11-08T20:14+00:00",
-     "summary": "Nvidia CEO Jensen Huang admitted to having a romantic relationship with a suspected Chinese spy in a message to his company, and the company's board announced an independent investigation Sunday. Why it matters: The scandal raises national security concerns involving one of the world's most powerful tech CEOs, who has pushed to loosen restrictions on selling advanced AI chips to China amid the two"
-    }
-   ],
-   "id": 27
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1334,7 +1159,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1369,7 +1194,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1404,7 +1229,75 @@
      "summary": "President Trump told Israeli Prime Minister Benjamin Netanyahu during a phone call Thursday that he wants him to take steps to implement his Gaza peace plan , according to two sources with knowledge of the matter. Why it matters: The roadmap calls for disarming Hamas and demilitarizing Gaza, as well as transferring responsibility for governing the enclave to a new Palestinian technocratic governme"
     }
    ],
-   "id": 30
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-11T05:39+00:00",
+   "earliest": "2026-11-10T15:23+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Yemeni forces, Houthis exchange attacks, claim to inflict heavy losses",
+     "url": "https://www.aljazeera.com/news/2026/11/11/yemeni-forces-houthis-exchange-attacks-claim-to-inflict-heavy-losses?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-11T05:39+00:00",
+     "summary": "Yemen's government says 190 rebel fighters killed and wounded, as Houthis also claim inflicting heavy losses."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Yemeni Forces Neutralize 190 Houthis in 24 Hours",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/10/yemeni-forces-neutralize-190-houthis-in-24-hours",
+     "via": "",
+     "published": "2026-11-10T15:23+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-11-11T02:04+00:00",
+   "earliest": "2026-11-10T15:03+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "BMW adds LG Energy Solution and Samsung SDI to Gen6 battery supplier network",
+     "url": "https://www.digitimes.com/news/a20261111PD226/bmw-localization-lges-europe-samsung-sdi.html",
+     "via": "",
+     "published": "2026-11-11T02:04+00:00",
+     "summary": "BMW has added LG Energy Solution (LGES) and Samsung SDI as suppliers of sixth-generation (Gen6) high-voltage battery cells, expanding regional sourcing in the US and Europe. The companies are expected to supply cells from established plants in their respective regions from the late 2020s, BMW said in a November 9 announcement. The automaker did not disclose volumes or contract values."
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Samsung SDI, LG Energy Solution secure BMW battery cell deals",
+     "url": "https://www.koreaherald.com/article/10932364",
+     "via": "",
+     "published": "2026-11-10T15:03+00:00",
+     "summary": "South Korean battery-makers Samsung SDI and LG Energy Solution have signed deals to supply battery cells for BMW Group’s sixth-generation high-voltage batteries, the German luxury automaker said Tuesday. Under the agreement, Samsung SDI will supply cells to BMW’s European facilities, and LG Energy Solution will supply its plants in the US. Both companies will deliver from their production sites in"
+    }
+   ],
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1438,41 +1331,7 @@
      "summary": ""
     }
    ],
-   "id": 31
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MEED",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-10T08:20+00:00",
-   "earliest": "2026-11-09T16:46+00:00",
-   "items": [
-    {
-     "outlet": "MEED",
-     "region": "Middle East",
-     "title": "Saudi Arabia’s East-West pipeline targeted in latest attack",
-     "url": "https://www.meed.com/saudi-arabias-east-west-pipeline-targeted-in-latest-attack",
-     "via": "",
-     "published": "2026-11-10T08:20+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia’s East-West Pipeline targeted in attack",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/11/09/saudi-arabia-s-eastwest-pipeline-targeted-in-attack",
-     "via": "",
-     "published": "2026-11-09T16:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 32
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1506,7 +1365,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 29
   }
  ]
 }
