@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-11T01:15:26+00:00",
+ "fetched_at": "2026-11-11T02:38:26+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 696,
+ "items_read": 700,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,22 +32,22 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 32,
+   "items": 33,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 47,
+   "items": 45,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 19,
+   "items": 17,
    "errors": []
   },
   "Kyodo News": {
@@ -57,17 +57,17 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 25,
+   "items": 18,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Financial Times": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Bloomberg": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 5,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Australian Financial Review": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 33,
+   "items": 35,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 26,
+   "items": 28,
    "errors": []
   },
   "The Jakarta Post": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 9,
    "errors": []
   },
   "Newsroom Panama": {
@@ -311,47 +311,138 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "MINING.COM",
-    "Mining Weekly"
+    "Euronews",
+    "Times of Israel",
+    "Associated Press"
    ],
    "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
+    "Europe",
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-10T04:02+00:00",
-   "earliest": "2026-11-09T14:33+00:00",
+   "latest": "2026-11-10T10:04+00:00",
+   "earliest": "2026-11-09T22:02+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Alphamin to supply DRC tin to new US smelter",
-     "url": "https://mining.com.au/alphamin-to-supply-drc-tin-to-new-us-smelter/",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Trump says Iran war ‘effectively over’ as Tehran denies planned talks",
+     "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
      "via": "",
-     "published": "2026-11-10T04:02+00:00",
+     "published": "2026-11-10T10:04+00:00",
+     "summary": "Speaking after meeting Qatar’s prime minister, a key mediator, Trump said further strikes were “quite unlikely” but that the US was “locked and loaded”. Meanwhile, Iran’s security chief Mohsen Rezaei told Washington to stop “manufacturing fake news about imaginary talks”."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Trump: Iran war is militarily ‘effectively over’; ‘good chance’ a deal can be reached",
+     "url": "https://www.timesofisrael.com/liveblog_entry/trump-good-chance-a-deal-with-iran-can-be-reached-tehran-talking-very-politely/",
+     "via": "",
+     "published": "2026-11-10T01:57+00:00",
      "summary": ""
     },
     {
-     "outlet": "MINING.COM",
+     "outlet": "Associated Press",
      "region": "North America",
-     "title": "Alphamin directs Congo tin to new US smelter",
-     "url": "https://www.mining.com/alphamin-directs-congo-tin-to-new-us-smelter/",
+     "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
+     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
      "via": "",
-     "published": "2026-11-09T21:28+00:00",
-     "summary": "The initial two-year deal covers up to 3,600 tonnes of contained tin annually from Bisie."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Alphamin to supply Bisie tin concentrate to new US smelter",
-     "url": "https://www.miningweekly.com/article/alphamin-to-supply-bisie-tin-concentrate-to-new-us-smelter-2026-11-09",
-     "via": "",
-     "published": "2026-11-09T14:33+00:00",
+     "published": "2026-11-09T22:02+00:00",
      "summary": ""
     }
    ],
    "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Reuters",
+    "Caixin Global"
+   ],
+   "regions": [
+    "China",
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-11-10T06:33+00:00",
+   "earliest": "2026-11-09T21:43+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Nvidia legal chief accused of interfering in Megaspeed probe",
+     "url": "https://www.digitimes.com/news/a20261110PD242/nvidia-probe-jensen-huang-investigation-ceo.html",
+     "via": "",
+     "published": "2026-11-10T06:33+00:00",
+     "summary": "An alleged affair between Nvidia CEO Jensen Huang and former Singapore-based Megaspeed executive Alice Huang has triggered a storm. In 2024, the US Department of Commerce's Bureau of Industry and Security (BIS) launched an investigation into Megaspeed's alleged chip smuggling. New reports indicate that Nvidia closely monitored the probe and was accused of attempting to intervene."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "What we know about Megaspeed, Singapore-based customer of Nvidia",
+     "url": "https://www.reuters.com/world/china/what-we-know-about-megaspeed-singapore-based-customer-nvidia-2026-11-10/",
+     "via": "",
+     "published": "2026-11-10T05:38+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "Who Is Alice Huang, the Former Megaspeed Executive Linked to Nvidia’s CEO?",
+     "url": "https://www.caixinglobal.com/2026-11-10/former-megaspeed-executive-draws-scrutiny-over-ties-to-jensen-huang-102502883.html",
+     "via": "",
+     "published": "2026-11-09T21:43+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Associated Press",
+    "Axios"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-11T01:44+00:00",
+   "earliest": "2026-11-10T20:46+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
+     "url": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-11T01:44+00:00",
+     "summary": "The men, including one who is already in jail, face charges over alleged plot at UK air base used in US war on Iran."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US charges 3 men with plotting terror attacks, including planned assault on UK air base",
+     "url": "https://apnews.com/article/terror-plots-uk-airbase-bombers-trump-b9c7812aeb1d74a2cfbc4c4df1431095",
+     "via": "",
+     "published": "2026-11-11T00:24+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "3 charged with plotting terror attacks in U.S., Europe",
+     "url": "https://www.axios.com/2026/11/10/doj-charges-terror-plots-europe-us",
+     "via": "",
+     "published": "2026-11-10T20:46+00:00",
+     "summary": "The U.S. charged three individuals in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing"
+    }
+   ],
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -396,52 +487,7 @@
      "summary": ""
     }
    ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-10T23:38+00:00",
-   "earliest": "2026-11-10T19:44+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Fire contained on platform in Iran’s South Pars gas field",
-     "url": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-10T23:38+00:00",
-     "summary": "Officials are considering a gas leak or an operational mishap as possible causes of the fire, Fars news agency said."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Fire contained at Iran's South Pars gas platform, Fars says",
-     "url": "https://www.reuters.com/world/fire-contained-irans-south-pars-gas-platform-fars-says-2026-11-10/",
-     "via": "",
-     "published": "2026-11-10T21:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Fire breaks out on platform in Iran’s South Pars gas field: Report",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/10/fire-breaks-out-on-platform-in-iran-s-south-pars-gas-field-report",
-     "via": "",
-     "published": "2026-11-10T19:44+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -486,7 +532,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -537,7 +583,7 @@
      "summary": "BANGKOK, Nov 10 - Myanmar's military-led government is urging the United States to beef up re-engagement efforts and rapidly boost investment in the war-torn nation's rare earths mines, a critical sector now dominated by influential giant neighbour China."
     }
    ],
-   "id": 6
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -588,7 +634,42 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-11T02:13+00:00",
+   "earliest": "2026-11-09T20:33+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia investigates alleged spy plot involving its CEO: What we know",
+     "url": "https://www.business-standard.com/world-news/nvidia-investigates-alleged-spy-plot-involving-its-ceo-what-we-know-126111001079_1.html",
+     "via": "",
+     "published": "2026-11-11T02:13+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "What we know — and what we don't — as Nvidia investigates an alleged spy plot involving its CEO",
+     "url": "https://apnews.com/article/nvidia-jensen-huang-chinese-spy-investigation-df45d21030691f59c67bc0b35adb89a2",
+     "via": "",
+     "published": "2026-11-09T20:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -623,7 +704,42 @@
      "summary": "As of today, the Panama Canal expanded its transit capacity to 34 slots per day,... The post Panama Canal Increases Capacity to 34. appeared first on Newsroom Panama ."
     }
    ],
-   "id": 8
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-11T00:57+00:00",
+   "earliest": "2026-11-10T03:20+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "China hits $US1 trillion trade surplus as exports to US surge",
+     "url": "https://www.abc.net.au/news/2026-11-11/china-trade-surpasses-1-trillion-for-second-straight-year/107372090",
+     "via": "",
+     "published": "2026-11-11T00:57+00:00",
+     "summary": "Chinese exports surged 35 per cent last month, with the country on track to surpass the $US1.2 trillion trade surplus it achieved last year."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "China’s trade surplus surpasses $1 trillion for a 2nd straight year, as exports surge 35%",
+     "url": "https://apnews.com/article/china-trade-economy-trump-surplus-0fc56d7bd8bbff86ce6672bb67691f22",
+     "via": "",
+     "published": "2026-11-10T03:20+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -658,7 +774,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -693,7 +809,7 @@
      "summary": "Hegseth has been accused of spearheading war on Iran without required congressional approval."
     }
    ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -707,7 +823,7 @@
     "Southeast Asia"
    ],
    "latest": "2026-11-10T21:53+00:00",
-   "earliest": "2026-11-10T21:27+00:00",
+   "earliest": "2026-11-10T10:26+00:00",
    "items": [
     {
      "outlet": "The Straits Times",
@@ -724,46 +840,11 @@
      "title": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries",
      "url": "https://www.reuters.com/business/sp-500-dow-futures-climb-oil-slide-lifts-sentiment-2026-11-10/",
      "via": "",
-     "published": "2026-11-10T21:27+00:00",
+     "published": "2026-11-10T10:26+00:00",
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-10T21:15+00:00",
-   "earliest": "2026-11-10T12:55+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US stocks: US market falls as hot inflation, hawkish Fed fuel rate-hike fears",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-ends-lower-as-hot-inflation-data-fed-comments-heighten-rate-worries/articleshow/135719918.cms",
-     "via": "",
-     "published": "2026-11-10T21:15+00:00",
-     "summary": "US stocks closed lower after hotter-than-expected inflation data strengthened expectations of a December Federal Reserve rate hike and raised the possibility of more aggressive tightening. Rising Treasury yields and weakness in technology stocks, particularly Nvidia, weighed on the market, while investors also assessed hawkish Fed comments and Anthropic’s upcoming IPO."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Stocks End Lower as Rate-Hike Odds Climb After Hot Inflation",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-10/us-stock-futures-trade-mixed-with-focus-on-cpi-anthropic-ipo",
-     "via": "",
-     "published": "2026-11-10T12:55+00:00",
-     "summary": "US equities fell Tuesday as Treasury yields surged after Federal Reserve officials called for rate hikes in response to hotter-than-expected inflation data."
-    }
-   ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -798,7 +879,7 @@
      "summary": "The company has confirmed a high-grade copper-zinc zone at its Strong & Harris deposit."
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -833,7 +914,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -868,7 +949,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -903,7 +984,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -938,42 +1019,7 @@
      "summary": "The producer price index climbed by 5.7% in October from a year earlier, compared with a 5% increase in September."
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "Europe"
-   ],
-   "latest": "2026-11-10T13:47+00:00",
-   "earliest": "2026-11-10T13:20+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Alibaba AI chip unit T-Head files for Hong Kong IPO",
-     "url": "https://www.reuters.com/business/retail-consumer/alibaba-chip-unit-t-head-files-confidential-hong-kong-ipo-application-2026-11-10/",
-     "via": "",
-     "published": "2026-11-10T13:47+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Alibaba chip unit T-Head files Hong Kong IPO plan amid China’s AI self-sufficiency drive",
-     "url": "https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive",
-     "via": "",
-     "published": "2026-11-10T13:20+00:00",
-     "summary": "Alibaba Group Holding’s chip design unit T-Head has filed for an initial public offering (IPO) on a confidential basis in Hong Kong, the company said in a stock-exchange filing on Tuesday evening, setting up a high-profile listing in the city amid rising competition between the US and China as the latter continues its push for tech self-sufficiency. The size and structure of the listing were not f"
-    }
-   ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1008,42 +1054,42 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Seatrade Maritime",
-    "Nikkei Asia"
+    "Euronews",
+    "Associated Press"
    ],
    "regions": [
-    "East Asia",
-    "Europe"
+    "Europe",
+    "North America"
    ],
-   "latest": "2026-11-10T10:18+00:00",
-   "earliest": "2026-11-08T01:46+00:00",
+   "latest": "2026-11-10T10:48+00:00",
+   "earliest": "2026-11-09T15:09+00:00",
    "items": [
     {
-     "outlet": "Seatrade Maritime",
+     "outlet": "Euronews",
      "region": "Europe",
-     "title": "What the Democratic midterm sweep means for global shipping and trade",
-     "url": "https://www.seatrade-maritime.com/regulations/what-the-democratic-midterm-sweep-means-for-global-shipping-and-trade",
+     "title": "Japan to supply Philippine military with coastal radar and drones",
+     "url": "https://www.euronews.com/2026/11/10/japan-to-supply-philippine-military-with-coastal-radar-and-drones",
      "via": "",
-     "published": "2026-11-10T10:18+00:00",
-     "summary": "A blue wave may have swept the US congress, but an orange pen could still wield a lot of power"
+     "published": "2026-11-10T10:48+00:00",
+     "summary": "Tokyo says the new equipment will help Manila monitor shipping routes that are also important to Japan."
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "What the Democratic sweep means for Trump's tariffs and AI",
-     "url": "https://asia.nikkei.com/video/what-the-democratic-sweep-means-for-trump-s-tariffs-and-ai",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Japan to provide coastal radar and drones to the Philippines under $27M deal",
+     "url": "https://apnews.com/article/japan-philippines-vietnam-military-assistance-fe32ef6b4c11bb348bb4d5df253a8378",
      "via": "",
-     "published": "2026-11-08T01:46+00:00",
+     "published": "2026-11-09T15:09+00:00",
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1076,41 +1122,6 @@
      "via": "",
      "published": "2026-11-09T12:40+00:00",
      "summary": "The vessel is now under the control of its lender after owner Villa Vie failed to keep up with payments."
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "Business Standard"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-11-10T09:41+00:00",
-   "earliest": "2026-11-10T03:41+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Seoul shares open sharply higher on US tech rally, falling oil prices",
-     "url": "https://www.koreaherald.com/article/10931652",
-     "via": "",
-     "published": "2026-11-10T09:41+00:00",
-     "summary": "South Korean stocks started sharply higher Tuesday following overnight Wall Street gains driven by hopes for diplomatic talks aimed at ending the US-Iran war, which led to a drop in oil prices amid a scandal swirling around Nvidia CEO Jensen Huang. The benchmark Korea Composite Stock Price Index gained 275.50 points, or 5.49 percent, to 5,294.35 as of 9:15 a.m. With the sharp rise, the Korea Excha"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
-     "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-amid-falling-oil-prices-on-hopes-of-us-iran-talks-126111000080_1.html",
-     "via": "",
-     "published": "2026-11-10T03:41+00:00",
-     "summary": ""
     }
    ],
    "id": 22
@@ -1189,32 +1200,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
+    "VnExpress International",
     "Reuters"
    ],
    "regions": [
-    "East Asia",
-    "Europe"
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-10T06:33+00:00",
-   "earliest": "2026-11-10T05:38+00:00",
+   "latest": "2026-11-10T04:01+00:00",
+   "earliest": "2026-11-09T22:40+00:00",
    "items": [
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Nvidia legal chief accused of interfering in Megaspeed probe",
-     "url": "https://www.digitimes.com/news/a20261110PD242/nvidia-probe-jensen-huang-investigation-ceo.html",
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Nvidia, Jensen Huang sued over disclosures related to CEO's alleged affair",
+     "url": "https://e.vnexpress.net/news/business/companies/nvidia-jensen-huang-sued-over-disclosures-related-to-ceo-s-alleged-affair-5142746.html",
      "via": "",
-     "published": "2026-11-10T06:33+00:00",
-     "summary": "An alleged affair between Nvidia CEO Jensen Huang and former Singapore-based Megaspeed executive Alice Huang has triggered a storm. In 2024, the US Department of Commerce's Bureau of Industry and Security (BIS) launched an investigation into Megaspeed's alleged chip smuggling. New reports indicate that Nvidia closely monitored the probe and was accused of attempting to intervene."
+     "published": "2026-11-10T04:01+00:00",
+     "summary": "Nvidia and Chief Executive Jensen Huang have been sued in a proposed class action accusing ‌them of defrauding shareholders by concealing Huang's ties with a suspected Chinese spy."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "What we know about Megaspeed, Singapore-based customer of Nvidia",
-     "url": "https://www.reuters.com/world/china/what-we-know-about-megaspeed-singapore-based-customer-nvidia-2026-11-10/",
+     "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
+     "url": "https://www.reuters.com/world/nvidia-ceo-huang-sued-over-disclosures-related-suspected-chinese-spy-2026-11-09/",
      "via": "",
-     "published": "2026-11-10T05:38+00:00",
+     "published": "2026-11-09T22:40+00:00",
      "summary": ""
     }
    ],
@@ -1224,71 +1235,36 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "ABC News (Australia)"
+    "MINING.COM",
+    "Mining Weekly"
    ],
    "regions": [
-    "East Asia",
-    "Oceania"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-11-10T04:05+00:00",
-   "earliest": "2026-11-09T05:30+00:00",
+   "latest": "2026-11-09T21:28+00:00",
+   "earliest": "2026-11-09T14:33+00:00",
    "items": [
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Jensen Huang drawn into spy allegations as China denies complicity",
-     "url": "https://www.digitimes.com/news/a20261110PD230/nvidia-jensen-huang-ceo-chips-new-york-times.html",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Alphamin directs Congo tin to new US smelter",
+     "url": "https://www.mining.com/alphamin-directs-congo-tin-to-new-us-smelter/",
      "via": "",
-     "published": "2026-11-10T04:05+00:00",
-     "summary": "Nvidia CEO Jensen Huang’s admission of an extramarital affair with Alice Huang, a former senior executive at Singapore-based Megaspeed, has triggered controversy, while China’s Ministry of Foreign Affairs has again rejected allegations that she was a Chinese spy."
+     "published": "2026-11-09T21:28+00:00",
+     "summary": "The initial two-year deal covers up to 3,600 tonnes of contained tin annually from Bisie."
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "China denies allegations Nvidia CEO had affair with Chinese spy",
-     "url": "https://www.abc.net.au/news/2026-11-09/nvidia-ceo-jensen-huang-affair-with-suspected-chinese-spy/107362878",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Alphamin to supply Bisie tin concentrate to new US smelter",
+     "url": "https://www.miningweekly.com/article/alphamin-to-supply-bisie-tin-concentrate-to-new-us-smelter-2026-11-09",
      "via": "",
-     "published": "2026-11-09T05:30+00:00",
+     "published": "2026-11-09T14:33+00:00",
      "summary": ""
     }
    ],
    "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-10T01:57+00:00",
-   "earliest": "2026-11-09T23:37+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump: Iran war is militarily ‘effectively over’; ‘good chance’ a deal can be reached",
-     "url": "https://www.timesofisrael.com/liveblog_entry/trump-good-chance-a-deal-with-iran-can-be-reached-tehran-talking-very-politely/",
-     "via": "",
-     "published": "2026-11-10T01:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
-     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
-     "via": "",
-     "published": "2026-11-09T23:37+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1323,7 +1299,7 @@
      "summary": "Nvidia CEO Jensen Huang admitted to having a romantic relationship with a suspected Chinese spy in a message to his company, and the company's board announced an independent investigation Sunday. Why it matters: The scandal raises national security concerns involving one of the world's most powerful tech CEOs, who has pushed to loosen restrictions on selling advanced AI chips to China amid the two"
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1358,42 +1334,7 @@
      "summary": ""
     }
    ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "The Straits Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-09T09:12+00:00",
-   "earliest": "2026-11-09T05:55+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia's shares slide as chip giant probes CEO Huang over spy claims",
-     "url": "https://www.business-standard.com/markets/news/nvidia-s-shares-slide-as-chip-giant-probes-ceo-huang-over-spy-claims-126110900547_1.html",
-     "via": "",
-     "published": "2026-11-09T09:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia’s shares slide as chip giant probes CEO Jensen Huang over spy claims",
-     "url": "https://www.straitstimes.com/business/nvidias-out-of-hour-shares-fall-as-firm-probes-ceo-jensen-huang",
-     "via": "",
-     "published": "2026-11-09T05:55+00:00",
-     "summary": "Analysts also said a long probe could delay Nvidia decisions."
-    }
-   ],
-   "id": 30
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1428,7 +1369,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1463,75 +1404,41 @@
      "summary": "President Trump told Israeli Prime Minister Benjamin Netanyahu during a phone call Thursday that he wants him to take steps to implement his Gaza peace plan , according to two sources with knowledge of the matter. Why it matters: The roadmap calls for disarming Hamas and demilitarizing Gaza, as well as transferring responsibility for governing the enclave to a new Palestinian technocratic governme"
     }
    ],
-   "id": 32
+   "id": 30
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Axios"
+    "Al Jazeera",
+    "Al Arabiya"
    ],
    "regions": [
-    "North America"
+    "Middle East"
    ],
-   "latest": "2026-11-10T23:11+00:00",
-   "earliest": "2026-11-10T20:46+00:00",
+   "latest": "2026-11-10T23:38+00:00",
+   "earliest": "2026-11-10T19:44+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "US charges 3 men with plotting terror attacks, including planned assault on UK airbase",
-     "url": "https://apnews.com/article/terror-plots-uk-airbase-bombers-trump-b9c7812aeb1d74a2cfbc4c4df1431095",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Fire contained on platform in Iran’s South Pars gas field",
+     "url": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
      "via": "",
-     "published": "2026-11-10T23:11+00:00",
+     "published": "2026-11-10T23:38+00:00",
+     "summary": "Officials are considering a gas leak or an operational mishap as possible causes of the fire, Fars news agency said."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Fire breaks out on platform in Iran’s South Pars gas field: Report",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/10/fire-breaks-out-on-platform-in-iran-s-south-pars-gas-field-report",
+     "via": "",
+     "published": "2026-11-10T19:44+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "3 charged with plotting terror attacks in U.S., Europe",
-     "url": "https://www.axios.com/2026/11/10/doj-charges-terror-plots-europe-us",
-     "via": "",
-     "published": "2026-11-10T20:46+00:00",
-     "summary": "The U.S. charged three individuals in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing"
     }
    ],
-   "id": 33
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America"
-   ],
-   "latest": "2026-11-10T21:30+00:00",
-   "earliest": "2026-11-10T21:26+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "American Barrick files for proposed IPO",
-     "url": "https://www.mining.com/american-barrick-files-for-proposed-ipo/",
-     "via": "",
-     "published": "2026-11-10T21:30+00:00",
-     "summary": "Barrick Mining announced Tuesday that its planned new publicly listed company will be named American Barrick Gold Corporation."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Barrick Mining Files for IPO of North American Gold Assets",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-10/barrick-mining-files-to-take-north-american-gold-assets-public",
-     "via": "",
-     "published": "2026-11-10T21:26+00:00",
-     "summary": "Barrick Mining Corp. is taking its North American gold business public in a US initial public offering, as the Canadian miner presses ahead with a strategic overhaul under long-time Chairman John Thornton."
-    }
-   ],
-   "id": 34
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1565,7 +1472,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1599,7 +1506,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 33
   }
  ]
 }
