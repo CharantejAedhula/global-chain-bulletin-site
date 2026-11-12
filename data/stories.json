@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-12T03:41:32+00:00",
+ "fetched_at": "2026-11-12T07:12:04+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 782,
+ "items_read": 794,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,72 +12,72 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 35,
+   "items": 38,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 40,
+   "items": 41,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 53,
+   "items": 41,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 28,
+   "items": 14,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 18,
+   "items": 41,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 34,
+   "items": 39,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 2,
+   "items": 5,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Euronews": {
@@ -97,12 +97,12 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 12,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 27,
+   "items": 26,
    "errors": []
   },
   "Times of Israel": {
@@ -127,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 18,
+   "items": 23,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 12,
+   "items": 13,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 17,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,12 +164,12 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 23,
+   "items": 27,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "Interfax": {
@@ -184,12 +184,12 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 16,
+   "items": 18,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 33,
+   "items": 30,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -216,17 +216,17 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Rio Times": {
@@ -242,19 +242,14 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
-   "same_headline_groups": [
-    [
-     "Africanews",
-     "Euronews"
-    ]
-   ],
+   "independent_outlets": 5,
+   "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Africanews",
     "Euronews",
+    "Africanews",
     "Al Arabiya",
-    "Associated Press"
+    "Associated Press",
+    "Deutsche Welle"
    ],
    "regions": [
     "Africa",
@@ -262,32 +257,23 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-11T23:50+00:00",
-   "earliest": "2026-11-11T22:20+00:00",
+   "latest": "2026-11-12T07:10+00:00",
+   "earliest": "2026-11-11T21:58+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Barcelona erupts in violence after general strike",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Spain holds its first general strike in 14 years amid mass protests and police charges",
+     "url": "https://www.euronews.com/2026/11/12/spain-holds-its-first-general-strike-in-14-years-amid-mass-protests-and-police-charges",
      "via": "",
-     "published": "2026-11-11T23:50+00:00",
-     "summary": "Protesters hurled fireworks at police and set rubbish bins ablaze in Barcelona after Spain’s general strike."
+     "published": "2026-11-12T07:10+00:00",
+     "summary": "Thousands of people have taken to the streets across Spain during the first general strike in 14 years, called to protest against the housing crisis and low wages."
     },
     {
      "outlet": "Africanews",
      "region": "Africa",
      "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
      "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
-     "via": "",
-     "published": "2026-11-11T22:54+00:00",
-     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-     "url": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
      "via": "",
      "published": "2026-11-11T22:54+00:00",
      "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
@@ -309,107 +295,136 @@
      "via": "",
      "published": "2026-11-11T22:20+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
+     "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-11T21:58+00:00",
+     "summary": "Hundreds of thousands of citizens have hit the streets to protest Spain's housing crisis after millions of union workers staged a general strike. The crisis has triggered snap elections to take place on November 29."
     }
    ],
    "id": 1
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Times of Israel",
     "Associated Press",
-    "Axios"
+    "CBC News",
+    "Al Jazeera",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
     "Europe",
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-11T08:48+00:00",
-   "earliest": "2026-11-10T20:46+00:00",
+   "latest": "2026-11-12T05:53+00:00",
+   "earliest": "2026-11-11T12:47+00:00",
    "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Men linked to London synagogue attacks charged over UK airbase plot",
-     "url": "https://www.euronews.com/2026/11/11/men-linked-to-london-synagogue-attacks-charged-over-uk-airbase-plot",
-     "via": "",
-     "published": "2026-11-11T08:48+00:00",
-     "summary": "Prosecutors say one of the accused passed coded instructions to the others through his mother and sister while he was in a US jail."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US charges 3 Iran-backed operatives over attacks against Jews, plot targeting UK airbase",
-     "url": "https://www.timesofisrael.com/us-charges-3-iran-backed-operatives-over-attacks-against-jews-plot-targeting-uk-airbase/",
-     "via": "",
-     "published": "2026-11-11T02:15+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "US charges 3 men with plotting terror attacks, including planned assault on UK air base",
-     "url": "https://apnews.com/article/terror-plots-uk-airbase-bombers-trump-b9c7812aeb1d74a2cfbc4c4df1431095",
+     "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+     "url": "https://apnews.com/article/gaza-israel-hospital-strike-people-killed-50b547b5a82388b6b415aee4d776fbfb",
      "via": "",
-     "published": "2026-11-11T00:01+00:00",
+     "published": "2026-11-12T05:53+00:00",
      "summary": ""
     },
     {
-     "outlet": "Axios",
+     "outlet": "CBC News",
      "region": "North America",
-     "title": "3 charged with plotting terror attacks in U.S., Europe",
-     "url": "https://www.axios.com/2026/11/10/doj-charges-terror-plots-europe-us",
+     "title": "Camps destroyed in 2 Israeli military strikes on Gaza City",
+     "url": "https://www.cbc.ca/player/play/video/9.7418368",
      "via": "",
-     "published": "2026-11-10T20:46+00:00",
-     "summary": "Three individuals were charged in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing cod"
+     "published": "2026-11-12T03:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Israel strikes intensive care at Gaza’s Nasser Hospital",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-12T01:20+00:00",
+     "summary": "Gaza's Civil Defence says an Israeli strike on Nasser Hospital has killed at least six people."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Israeli strike on southern Gaza hospital kills six, Gaza civil defence says",
+     "url": "https://www.reuters.com/world/middle-east/israeli-strike-southern-gaza-hospital-kills-four-gaza-civil-defence-says-2026-11-11/",
+     "via": "",
+     "published": "2026-11-11T23:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israeli strikes kill three people including two brothers in Gaza, medics say",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/11/israeli-strikes-kill-three-people-including-two-brothers-in-gaza-medics-say",
+     "via": "",
+     "published": "2026-11-11T12:47+00:00",
+     "summary": ""
     }
    ],
    "id": 2
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Mining.com.au",
-    "BNamericas"
+    "Al Jazeera",
+    "The Jakarta Post",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
-    "Latin America",
-    "Oceania",
-    "South Asia"
+    "Europe",
+    "Middle East",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-12T02:56+00:00",
-   "earliest": "2026-11-11T19:46+00:00",
+   "latest": "2026-11-12T04:41+00:00",
+   "earliest": "2026-11-11T17:08+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Codelco, Adani Group sign agreement for copper exploration project",
-     "url": "https://www.business-standard.com/companies/news/codelco-adani-group-sign-agreement-for-copper-exploration-project-126111200010_1.html",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
+     "url": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca?traffic_source=rss",
      "via": "",
-     "published": "2026-11-12T02:56+00:00",
+     "published": "2026-11-12T04:41+00:00",
+     "summary": "World Health Organization says more than 320,000 people have been displaced in Yemen fighting since August 1."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Debris from intercepted missiles falls in Mecca region",
+     "url": "https://www.thejakartapost.com/world/2026/11/12/debris-from-intercepted-missiles-falls-in-mecca-region",
+     "via": "",
+     "published": "2026-11-12T02:10+00:00",
      "summary": ""
     },
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Codelco, Adani Group sign pact for copper exploration project",
-     "url": "https://mining.com.au/codelco-adani-group-sign-pact-for-copper-exploration-project/",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudi Arabia says debris from intercepted missiles falls in Mecca region",
+     "url": "https://www.reuters.com/world/middle-east/saudi-arabia-says-debris-intercepted-missiles-falls-mecca-region-2026-11-12/",
      "via": "",
-     "published": "2026-11-11T21:07+00:00",
+     "published": "2026-11-12T00:21+00:00",
      "summary": ""
     },
     {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Indian conglomerate Adani signs MoU with Codelco for Chile copper exploration",
-     "url": "https://www.bnamericas.com/en/news/indian-conglomerate-adani-signs-mou-with-codelco-for-chile-copper-exploration",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi air defenses intercept three missiles launched by Houthis toward Riyadh region",
+     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/11/saudi-air-defenses-intercept-three-missiles-launched-by-houthis-toward-riyadh-region-",
      "via": "",
-     "published": "2026-11-11T19:46+00:00",
+     "published": "2026-11-11T17:08+00:00",
      "summary": ""
     }
    ],
@@ -603,6 +618,51 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Al Arabiya",
+    "Times of Israel",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-11T15:23+00:00",
+   "earliest": "2026-11-09T22:02+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump says Iran war is militarily ‘effectively over’",
+     "url": "https://english.alarabiya.net/webtv/programs/gnt/2026/11/11/trump-says-iran-war-is-militarily-effectively-over-",
+     "via": "",
+     "published": "2026-11-11T15:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Trump: Iran war is militarily ‘effectively over’; ‘good chance’ a deal can be reached",
+     "url": "https://www.timesofisrael.com/liveblog_entry/trump-good-chance-a-deal-with-iran-can-be-reached-tehran-talking-very-politely/",
+     "via": "",
+     "published": "2026-11-10T01:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
+     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
+     "via": "",
+     "published": "2026-11-09T22:02+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Livemint / Economic Times",
     "Business Standard",
     "Reuters"
@@ -642,7 +702,52 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 9
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Associated Press",
+    "Axios"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-11T02:15+00:00",
+   "earliest": "2026-11-10T20:46+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US charges 3 Iran-backed operatives over attacks against Jews, plot targeting UK airbase",
+     "url": "https://www.timesofisrael.com/us-charges-3-iran-backed-operatives-over-attacks-against-jews-plot-targeting-uk-airbase/",
+     "via": "",
+     "published": "2026-11-11T02:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US charges 3 men with plotting terror attacks, including planned assault on UK air base",
+     "url": "https://apnews.com/article/terror-plots-uk-airbase-bombers-trump-b9c7812aeb1d74a2cfbc4c4df1431095",
+     "via": "",
+     "published": "2026-11-11T00:01+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "3 charged with plotting terror attacks in U.S., Europe",
+     "url": "https://www.axios.com/2026/11/10/doj-charges-terror-plots-europe-us",
+     "via": "",
+     "published": "2026-11-10T20:46+00:00",
+     "summary": "Three individuals were charged in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing cod"
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 3,
@@ -687,69 +792,58 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
-     "Business Standard",
-     "The Jakarta Post",
-     "Reuters"
+     "Mining Weekly",
+     "Mining.com.au"
     ]
    ],
    "outlets": [
-    "Business Standard",
-    "The Jakarta Post",
-    "Reuters",
-    "Financial Times"
+    "Mining Weekly",
+    "Mining.com.au",
+    "BNamericas"
    ],
    "regions": [
-    "Europe",
-    "South Asia",
-    "Southeast Asia"
+    "Africa",
+    "Latin America",
+    "Oceania"
    ],
-   "latest": "2026-11-12T02:50+00:00",
-   "earliest": "2026-11-12T01:13+00:00",
+   "latest": "2026-11-12T06:36+00:00",
+   "earliest": "2026-11-11T19:46+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
-     "url": "https://www.business-standard.com/markets/news/asian-stocks-fragile-nvidia-plummets-as-board-to-decide-ceo-s-fate-126111200065_1.html",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Codelco, Adani Group sign pact for copper exploration project",
+     "url": "https://www.miningweekly.com/article/codelco-adani-group-sign-pact-for-copper-exploration-project-2026-11-12",
      "via": "",
-     "published": "2026-11-12T02:50+00:00",
+     "published": "2026-11-12T06:36+00:00",
      "summary": ""
     },
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
-     "url": "https://www.thejakartapost.com/business/2026/11/12/asian-stocks-fragile-nvidia-plummets-as-board-to-decide-ceos-fate?utm_source",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Codelco, Adani Group sign pact for copper exploration project",
+     "url": "https://mining.com.au/codelco-adani-group-sign-pact-for-copper-exploration-project/",
      "via": "",
-     "published": "2026-11-12T02:00+00:00",
+     "published": "2026-11-11T21:07+00:00",
      "summary": ""
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
-     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Indian conglomerate Adani signs MoU with Codelco for Chile copper exploration",
+     "url": "https://www.bnamericas.com/en/news/indian-conglomerate-adani-signs-mou-with-codelco-for-chile-copper-exploration",
      "via": "",
-     "published": "2026-11-12T01:53+00:00",
+     "published": "2026-11-11T19:46+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
-     "url": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-12T01:13+00:00",
-     "summary": "Head of US chip giant comes under mounting pressure days after claims he had affair with alleged Chinese spy"
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -800,112 +894,138 @@
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Australian Financial Review"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-12T02:20+00:00",
-   "earliest": "2026-11-12T01:56+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Alice Huang, alleged Chinese spy at centre of Nvidia firestorm, said to be in Beijing",
-     "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-alleged-chinese-spy-at-centre-of-nvidia-firestorm-said-to-be-in-beijing",
-     "via": "",
-     "published": "2026-11-12T02:20+00:00",
-     "summary": "It was not immediately clear when or why she travelled to the capital, sources said."
-    },
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Suspected Chinese spy at centre of Nvidia firestorm living in Beijing",
-     "url": "https://www.afr.com/world/asia/suspected-chinese-spy-at-centre-of-nvidia-firestorm-living-in-beijing-20261112-p61dmu?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-11-12T01:56+00:00",
-     "summary": "Megaspeed founder Alice Huang, who Jensen Huang admitted to having an affair with, is currently in the Chinese capital with the knowledge of security officials."
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-12T01:20+00:00",
-   "earliest": "2026-11-11T23:49+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Israel strikes intensive care at Gaza’s Nasser Hospital",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-12T01:20+00:00",
-     "summary": "Gaza's Civil Defence says an Israeli strike on Nasser Hospital has killed at least six people."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Israeli strike on southern Gaza hospital kills five, Gaza civil defence says",
-     "url": "https://www.reuters.com/world/middle-east/israeli-strike-southern-gaza-hospital-kills-four-gaza-civil-defence-says-2026-11-11/",
-     "via": "",
-     "published": "2026-11-11T23:49+00:00",
-     "summary": ""
-    }
-   ],
    "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Al Arabiya"
+    "The Hindu",
+    "Reuters"
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "South Asia"
    ],
-   "latest": "2026-11-12T00:21+00:00",
-   "earliest": "2026-11-11T17:08+00:00",
+   "latest": "2026-11-12T06:51+00:00",
+   "earliest": "2026-11-12T05:31+00:00",
    "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of U.S. curbs",
+     "url": "https://www.thehindu.com/sci-tech/technology/chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs/article71692635.ece",
+     "via": "",
+     "published": "2026-11-12T06:51+00:00",
+     "summary": "A major Chinese ‌cloud provider has discussed internally whether to lock in overseas Nvidia chip capacity, while some companies have ‌contacted ⁠data-centre operators about reserving it, per sources"
+    },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Saudi Arabia says debris from intercepted missiles falls in Mecca region",
-     "url": "https://www.reuters.com/world/middle-east/saudi-arabia-says-debris-intercepted-missiles-falls-mecca-region-2026-11-12/",
+     "title": "EXCLUSIVE: Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of US curbs",
+     "url": "https://www.reuters.com/world/china/chinese-ai-firms-rush-secure-nvidia-chip-capacity-spy-scandal-stirs-fear-us-2026-11-12/",
      "via": "",
-     "published": "2026-11-12T00:21+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi air defenses intercept three missiles launched by Houthis toward Riyadh region",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/11/saudi-air-defenses-intercept-three-missiles-launched-by-houthis-toward-riyadh-region-",
-     "via": "",
-     "published": "2026-11-11T17:08+00:00",
+     "published": "2026-11-12T05:31+00:00",
      "summary": ""
     }
    ],
    "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-12T04:58+00:00",
+   "earliest": "2026-11-12T02:36+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Stock markets climb in early trade led by foreign fund inflows, lower crude oil prices",
+     "url": "https://www.thehindu.com/business/markets/stock-markets-climb-in-early-trade-led-by-foreign-fund-inflows-lower-crude-oil-prices/article71692361.ece",
+     "via": "",
+     "published": "2026-11-12T04:58+00:00",
+     "summary": "Brent crude, the global oil benchmark, traded 1.12% lower at $91.75 per barrel"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Indian shares extend gains as lower crude oil, foreign inflows boost sentiment",
+     "url": "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T02:36+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "The Jakarta Post",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "The Jakarta Post",
+    "Reuters",
+    "Financial Times"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-12T04:06+00:00",
+   "earliest": "2026-11-12T01:13+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO’s fate",
+     "url": "https://www.straitstimes.com/business/asian-stocks-fragile-nvidia-plummets-as-board-to-decide-ceos-fate",
+     "via": "",
+     "published": "2026-11-12T04:06+00:00",
+     "summary": "Regional indexes fared better after a choppy start."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
+     "url": "https://www.thejakartapost.com/business/2026/11/12/asian-stocks-fragile-nvidia-plummets-as-board-to-decide-ceos-fate",
+     "via": "",
+     "published": "2026-11-12T02:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
+     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T01:53+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
+     "url": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-12T01:13+00:00",
+     "summary": "Head of US chip giant comes under mounting pressure days after claims he had affair with alleged Chinese spy"
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -918,7 +1038,7 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-11T23:15+00:00",
+   "latest": "2026-11-12T03:39+00:00",
    "earliest": "2026-11-11T15:17+00:00",
    "items": [
     {
@@ -927,7 +1047,7 @@
      "title": "Altius strikes $125 million TNR Gold takeover deal",
      "url": "https://mining.com.au/altius-strikes-125-million-tnr-gold-takeover-deal/",
      "via": "",
-     "published": "2026-11-11T23:15+00:00",
+     "published": "2026-11-12T03:39+00:00",
      "summary": ""
     },
     {
@@ -938,76 +1058,6 @@
      "via": "",
      "published": "2026-11-11T15:17+00:00",
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
-    }
-   ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-11T23:05+00:00",
-   "earliest": "2026-11-11T22:59+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
-     "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-11T23:05+00:00",
-     "summary": "The historic victory flips an eighth US Senate seat for Democrats after last week's pivotal midterm election."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Democrat Scott Colom wins election to U.S. Senate from Mississippi",
-     "url": "https://apnews.com/article/race-call-colom-wins-mississippi-u-s-senate-1787bf4967fd46cfbed2fe4d777a5781",
-     "via": "",
-     "published": "2026-11-11T22:59+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Reuters"
-   ],
-   "regions": [
-    "China",
-    "Europe"
-   ],
-   "latest": "2026-11-11T22:28+00:00",
-   "earliest": "2026-11-11T07:43+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "China backs Cuba as Havana raises US fuel pressure in Beijing",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3374127/china-backs-cuba-havana-raises-us-fuel-pressure-beijing",
-     "via": "",
-     "published": "2026-11-11T22:28+00:00",
-     "summary": "China pledged on Wednesday to stand by Cuba against sanctions and foreign interference, days after Washington penalised two Chinese state-linked firms for allegedly supplying the Cuban military. Foreign Minister Wang Yi told his Cuban counterpart Bruno Rodriguez in Beijing that China would firmly support Cuba in safeguarding its sovereignty and opposing sanctions, blockades and foreign interferenc"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "China backs Cuba in opposing sanctions, blockades; pledges 'firm support', Xinhua reports",
-     "url": "https://www.reuters.com/world/china/china-backs-cuba-opposing-sanctions-blockades-pledges-firm-support-xinhua-2026-11-11/",
-     "via": "",
-     "published": "2026-11-11T07:43+00:00",
-     "summary": ""
     }
    ],
    "id": 17
@@ -1051,41 +1101,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Jakarta Post",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-11T21:00+00:00",
-   "earliest": "2026-11-11T12:27+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "The Grain Initiative and the safety of shipping in the Black Sea",
-     "url": "https://www.thejakartapost.com/opinion/2026/11/11/the-grain-initiative-and-the-safety-of-shipping-in-the-black-sea",
-     "via": "",
-     "published": "2026-11-11T21:00+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Russia turns to giant plastic bags to store unexported grain as Black Sea trade stalls",
-     "url": "https://www.reuters.com/business/russia-turns-giant-plastic-bags-store-unexported-grain-black-sea-trade-stalls-2026-11-11/",
-     "via": "",
-     "published": "2026-11-11T12:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "MINING.COM",
     "BNamericas"
    ],
@@ -1115,112 +1130,7 @@
      "summary": ""
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-11T15:30+00:00",
-   "earliest": "2026-11-11T07:50+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Railway workers threaten Dec. 10 strike",
-     "url": "https://www.koreaherald.com/article/10933949",
-     "via": "",
-     "published": "2026-11-11T15:30+00:00",
-     "summary": "The Korean Railway Workers’ Union said Wednesday it would launch an indefinite strike on Dec. 10 unless its demands for more safety staff and a fairer promotion system are met. The walkout could affect high-speed trains serving Seoul’s Suseo Station as well as other Korail services. In previous Korail strikes, SRT trains continued to run under a separate operator, giving passengers an alternative."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "South Korean rail workers threaten strike in Dec, raising concerns over nationwide train disruptions",
-     "url": "https://www.straitstimes.com/asia/east-asia/south-korean-rail-workers-threaten-dec-10-strike-raising-concerns-over-nationwide-train-disruptions",
-     "via": "",
-     "published": "2026-11-11T07:50+00:00",
-     "summary": "The Korean Railway Workers’ Union is demanding for more safety staff and a fairer promotion system."
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-11T15:23+00:00",
-   "earliest": "2026-11-09T23:37+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump says Iran war is militarily ‘effectively over’",
-     "url": "https://english.alarabiya.net/webtv/programs/gnt/2026/11/11/trump-says-iran-war-is-militarily-effectively-over-",
-     "via": "",
-     "published": "2026-11-11T15:23+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
-     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
-     "via": "",
-     "published": "2026-11-09T23:37+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MEED",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-11T12:42+00:00",
-   "earliest": "2026-11-10T22:04+00:00",
-   "items": [
-    {
-     "outlet": "MEED",
-     "region": "Middle East",
-     "title": "Poland's Orlen terminates QatarEnergy LNG supply deal",
-     "url": "https://www.meed.com/polands-orlen-terminates-qatarenergy-lng-supply-deal",
-     "via": "",
-     "published": "2026-11-11T12:42+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Poland's Orlen ends long-term QatarEnergy LNG contract over delivery failure",
-     "url": "https://www.reuters.com/business/energy/polands-orlen-ends-long-term-qatarenergy-lng-contract-over-delivery-failure-2026-11-10/",
-     "via": "",
-     "published": "2026-11-10T22:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1255,7 +1165,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1290,7 +1200,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1325,7 +1235,7 @@
      "summary": "Nvidia is coming under fire for having no clear succession plan to replace Jensen Huang in the event that something unexpected happens — like an international incident with him at the center . Why it matters: The spotlight on Huang shows the vulnerabilities of a large company being dependent on one executive — and the risks it poses to investors and customers, corporate governance experts tell Axi"
     }
    ],
-   "id": 26
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1360,42 +1270,7 @@
      "summary": ""
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "ABC News (Australia)",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-11T00:57+00:00",
-   "earliest": "2026-11-10T03:20+00:00",
-   "items": [
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "China hits $US1 trillion trade surplus as exports to US surge",
-     "url": "https://www.abc.net.au/news/2026-11-11/china-trade-surpasses-1-trillion-for-second-straight-year/107372090",
-     "via": "",
-     "published": "2026-11-11T00:57+00:00",
-     "summary": "Chinese exports surged 35 per cent last month, with the country on track to surpass the $US1.2 trillion trade surplus it achieved last year."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "China’s trade surplus surpasses $1 trillion for a 2nd straight year, as exports surge 35%",
-     "url": "https://apnews.com/article/china-trade-economy-trump-surplus-0fc56d7bd8bbff86ce6672bb67691f22",
-     "via": "",
-     "published": "2026-11-10T03:20+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 28
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1430,7 +1305,7 @@
      "summary": "The company has confirmed a high-grade copper-zinc zone at its Strong & Harris deposit."
     }
    ],
-   "id": 29
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1465,7 +1340,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1500,7 +1375,7 @@
      "summary": "October exports ‌were ⁠the highest since February when the war ⁠started and were up from September’s corresponding tally of 23 vessels exiting the strait"
     }
    ],
-   "id": 31
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1535,7 +1410,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1570,7 +1445,76 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 28
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-09T12:03+00:00",
+   "earliest": "2026-11-09T10:04+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "American Rare Earths begins testing US metal production",
+     "url": "https://www.mining.com/american-rare-earths-begins-testing-us-rare-earth-metal-production/",
+     "via": "",
+     "published": "2026-11-09T12:03+00:00",
+     "summary": "Ore from Wyoming's Halleck Creek has entered continuous processing trials as the miner seeks to advance domestic magnet supply chains."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "American Rare Earths starts small-scale processing of rare earths ore",
+     "url": "https://www.miningweekly.com/article/american-rare-earths-starts-small-scale-processing-of-rare-earths-ore-2026-11-09",
+     "via": "",
+     "published": "2026-11-09T10:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "The Africa Report"
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "latest": "2026-11-12T06:19+00:00",
+   "earliest": "2026-11-11T06:00+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "DRC Central Bank Licenses New Microfinance Institution Proxima Capital",
+     "url": "https://www.ecofinagency.com/news-finances/1211-60735-drc-central-bank-licenses-new-microfinance-institution-proxima-capital",
+     "via": "",
+     "published": "2026-11-12T06:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Africa Report",
+     "region": "Africa",
+     "title": "From Glencore to the central bank, who are the women driving DRC’s economy?",
+     "url": "https://www.theafricareport.com/435885/from-glencore-to-the-central-bank-who-are-the-women-driving-drcs-economy/",
+     "via": "",
+     "published": "2026-11-11T06:00+00:00",
+     "summary": "From the boardrooms of international mining giants to the country’s financial institutions and agribusiness sector, a growing number of Congolese women are taking up influential positions and helping shape the country’s economic future. We profile five leaders driving that change."
+    }
+   ],
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1604,7 +1548,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1638,7 +1582,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1672,7 +1616,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1706,7 +1650,7 @@
      "summary": ""
     }
    ],
-   "id": 37
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1740,41 +1684,7 @@
      "summary": "The authorities said Alice Huang had entered Taiwan, but is currently overseas."
     }
    ],
-   "id": 38
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-10T21:48+00:00",
-   "earliest": "2026-11-10T08:00+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran producing 50 missiles per month despite crippled industry: Western intelligence",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/11/iran-producing-50-missiles-per-month-despite-crippled-industry-western-intelligence",
-     "via": "",
-     "published": "2026-11-10T21:48+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran said producing up to 50 ballistic missiles a month, as IRGC unveils underground ‘missile city’",
-     "url": "https://www.timesofisrael.com/iran-producing-up-to-50-ballistic-missiles-a-month-half-its-prewar-rate-report/",
-     "via": "",
-     "published": "2026-11-10T08:00+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 39
+   "id": 35
   }
  ]
 }
