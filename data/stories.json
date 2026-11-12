@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-12T02:17:33+00:00",
+ "fetched_at": "2026-11-12T03:41:32+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 788,
+ "items_read": 782,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 33,
+   "items": 35,
    "errors": []
   },
   "Caixin Global": {
@@ -42,27 +42,27 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 52,
+   "items": 53,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 22,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Reuters": {
@@ -72,7 +72,7 @@
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -97,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 24,
+   "items": 27,
    "errors": []
   },
   "Bloomberg": {
@@ -159,7 +159,7 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 12,
+   "items": 9,
    "errors": []
   },
   "Mining.com.au": {
@@ -169,7 +169,7 @@
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Interfax": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 32,
+   "items": 33,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "The Indian Express": {
@@ -206,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 30,
+   "items": 28,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 8,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,78 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [
+    [
+     "Africanews",
+     "Euronews"
+    ]
+   ],
+   "outlets": [
+    "Al Jazeera",
+    "Africanews",
+    "Euronews",
+    "Al Arabiya",
+    "Associated Press"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-11T23:50+00:00",
+   "earliest": "2026-11-11T22:20+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Barcelona erupts in violence after general strike",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-11T23:50+00:00",
+     "summary": "Protesters hurled fireworks at police and set rubbish bins ablaze in Barcelona after Spain’s general strike."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+     "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
+     "via": "",
+     "published": "2026-11-11T22:54+00:00",
+     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+     "url": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
+     "via": "",
+     "published": "2026-11-11T22:54+00:00",
+     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Clashes Erupt After Barcelona General Strike",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/12/clashes-erupt-after-barcelona-general-strike",
+     "via": "",
+     "published": "2026-11-11T22:25+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Housing protests sweep Madrid and Barcelona after Spain’s workers strike, with clashes erupting",
+     "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
+     "via": "",
+     "published": "2026-11-11T22:20+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
@@ -295,68 +367,99 @@
      "summary": "Three individuals were charged in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing cod"
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "Africanews",
-     "Euronews"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Africanews",
-    "Euronews",
-    "Al Arabiya"
+    "Business Standard",
+    "Mining.com.au",
+    "BNamericas"
    ],
    "regions": [
-    "Africa",
-    "Europe",
-    "Middle East"
+    "Latin America",
+    "Oceania",
+    "South Asia"
    ],
-   "latest": "2026-11-11T23:50+00:00",
-   "earliest": "2026-11-11T18:25+00:00",
+   "latest": "2026-11-12T02:56+00:00",
+   "earliest": "2026-11-11T19:46+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Barcelona erupts in violence after general strike",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Codelco, Adani Group sign agreement for copper exploration project",
+     "url": "https://www.business-standard.com/companies/news/codelco-adani-group-sign-agreement-for-copper-exploration-project-126111200010_1.html",
      "via": "",
-     "published": "2026-11-11T23:50+00:00",
-     "summary": "Protesters hurled fireworks at police and set rubbish bins ablaze in Barcelona after Spain’s general strike."
+     "published": "2026-11-12T02:56+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-     "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Codelco, Adani Group sign pact for copper exploration project",
+     "url": "https://mining.com.au/codelco-adani-group-sign-pact-for-copper-exploration-project/",
      "via": "",
-     "published": "2026-11-11T22:54+00:00",
-     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
+     "published": "2026-11-11T21:07+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-     "url": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Indian conglomerate Adani signs MoU with Codelco for Chile copper exploration",
+     "url": "https://www.bnamericas.com/en/news/indian-conglomerate-adani-signs-mou-with-codelco-for-chile-copper-exploration",
      "via": "",
-     "published": "2026-11-11T22:54+00:00",
-     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Police Clash With Protesters During Spain’s General Strike",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/11/police-clash-with-protesters-during-spain-s-general-strike",
-     "via": "",
-     "published": "2026-11-11T18:25+00:00",
+     "published": "2026-11-11T19:46+00:00",
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters",
+    "Axios"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-12T02:22+00:00",
+   "earliest": "2026-11-11T20:59+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Lutnick stalled Trump's crackdown on diversion of Nvidia chips to China",
+     "url": "https://www.business-standard.com/world-news/lutnick-stalled-trump-s-crackdown-on-diversion-of-nvidia-chips-to-china-126111200064_1.html",
+     "via": "",
+     "published": "2026-11-12T02:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports",
+     "url": "https://www.reuters.com/world/china/lutnick-stalled-trump-crackdown-diversion-nvidia-chips-china-axios-reports-2026-11-11/",
+     "via": "",
+     "published": "2026-11-11T22:12+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
+     "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
+     "via": "",
+     "published": "2026-11-11T20:59+00:00",
+     "summary": "President Trump on Thursday authorized a crack down on companies suspected of diverting Nvidia's advanced AI chips to China for the third time this year — even consulting Elon Musk before giving the go-ahead. One administration official has repeatedly stood in the way: Commerce Secretary Howard Lutnick. Why it matters: This standoff illustrates a breakdown in efforts to keep American technology ou"
+    }
+   ],
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -371,7 +474,7 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-11T21:00+00:00",
+   "latest": "2026-11-11T21:07+00:00",
    "earliest": "2026-11-11T13:23+00:00",
    "items": [
     {
@@ -380,7 +483,7 @@
      "title": "Lithium Americas raises Thacker Pass cost estimate",
      "url": "https://mining.com.au/lithium-americas-raises-thacker-pass-cost-estimate/",
      "via": "",
-     "published": "2026-11-11T21:00+00:00",
+     "published": "2026-11-11T21:07+00:00",
      "summary": ""
     },
     {
@@ -402,7 +505,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -448,7 +551,7 @@
      "summary": "The waterway has added a slot as conditions improve in the canal’s watershed"
     }
    ],
-   "id": 4
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -494,7 +597,7 @@
      "summary": "The offering follows an August agreement with Newmont to contribute to their Nevada Gold Mines joint venture."
     }
    ],
-   "id": 5
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -539,7 +642,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -584,52 +687,69 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Business Standard",
+     "The Jakarta Post",
+     "Reuters"
+    ]
+   ],
    "outlets": [
-    "Times of Israel",
+    "Business Standard",
     "The Jakarta Post",
-    "VnExpress International"
+    "Reuters",
+    "Financial Times"
    ],
    "regions": [
-    "Middle East",
+    "Europe",
+    "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-09T05:44+00:00",
-   "earliest": "2026-11-09T02:36+00:00",
+   "latest": "2026-11-12T02:50+00:00",
+   "earliest": "2026-11-12T01:13+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Nvidia CEO Huang admits affair; board probes whether China targeted him",
-     "url": "https://www.timesofisrael.com/nvidia-probing-if-ceo-was-target-in-intel-operation-after-affair-with-chinese-asset/",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
+     "url": "https://www.business-standard.com/markets/news/asian-stocks-fragile-nvidia-plummets-as-board-to-decide-ceo-s-fate-126111200065_1.html",
      "via": "",
-     "published": "2026-11-09T05:44+00:00",
+     "published": "2026-11-12T02:50+00:00",
      "summary": ""
     },
     {
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
-     "title": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair - Companies",
-     "url": "https://www.thejakartapost.com/business/2026/11/09/nvidia-probes-whether-ceo-huang-was-target-of-foreign-spying-as-he-admits-affair",
+     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
+     "url": "https://www.thejakartapost.com/business/2026/11/12/asian-stocks-fragile-nvidia-plummets-as-board-to-decide-ceos-fate?utm_source",
      "via": "",
-     "published": "2026-11-09T02:42+00:00",
+     "published": "2026-11-12T02:00+00:00",
      "summary": ""
     },
     {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Nvidia CEO Jensen Huang admits affair",
-     "url": "https://e.vnexpress.net/news/business/companies/nvidia-ceo-jensen-huang-admits-affair-5142314.html",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
+     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
      "via": "",
-     "published": "2026-11-09T02:36+00:00",
-     "summary": "Nvidia said on Sunday its board was probing whether CEO Jensen Huang had been the target of a foreign intelligence effort, after a media report alleged he had a close relationship with a Chinese businesswoman."
+     "published": "2026-11-12T01:53+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
+     "url": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-12T01:13+00:00",
+     "summary": "Head of US chip giant comes under mounting pressure days after claims he had affair with alleged Chinese spy"
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -680,7 +800,42 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Australian Financial Review"
+   ],
+   "regions": [
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-12T02:20+00:00",
+   "earliest": "2026-11-12T01:56+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Alice Huang, alleged Chinese spy at centre of Nvidia firestorm, said to be in Beijing",
+     "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-alleged-chinese-spy-at-centre-of-nvidia-firestorm-said-to-be-in-beijing",
+     "via": "",
+     "published": "2026-11-12T02:20+00:00",
+     "summary": "It was not immediately clear when or why she travelled to the capital, sources said."
+    },
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Suspected Chinese spy at centre of Nvidia firestorm living in Beijing",
+     "url": "https://www.afr.com/world/asia/suspected-chinese-spy-at-centre-of-nvidia-firestorm-living-in-beijing-20261112-p61dmu?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-12T01:56+00:00",
+     "summary": "Megaspeed founder Alice Huang, who Jensen Huang admitted to having an affair with, is currently in the Chinese capital with the knowledge of security officials."
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -715,7 +870,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -750,7 +905,42 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-11T23:15+00:00",
+   "earliest": "2026-11-11T15:17+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Altius strikes $125 million TNR Gold takeover deal",
+     "url": "https://mining.com.au/altius-strikes-125-million-tnr-gold-takeover-deal/",
+     "via": "",
+     "published": "2026-11-11T23:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Altius to buy TNR Gold in $86-million royalty deal",
+     "url": "https://www.mining.com/altius-to-buy-tnr-gold-in-86-million-royalty-deal/",
+     "via": "",
+     "published": "2026-11-11T15:17+00:00",
+     "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
+    }
+   ],
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -785,42 +975,7 @@
      "summary": ""
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-11T22:57+00:00",
-   "earliest": "2026-11-11T15:17+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Altius strikes $125 million TNR Gold takeover deal",
-     "url": "https://mining.com.au/altius-strikes-125-million-tnr-gold-takeover-deal/",
-     "via": "",
-     "published": "2026-11-11T22:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Altius to buy TNR Gold in $86-million royalty deal",
-     "url": "https://www.mining.com/altius-to-buy-tnr-gold-in-86-million-royalty-deal/",
-     "via": "",
-     "published": "2026-11-11T15:17+00:00",
-     "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
-    }
-   ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -855,42 +1010,7 @@
      "summary": ""
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Axios"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-11T22:12+00:00",
-   "earliest": "2026-11-11T20:59+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports",
-     "url": "https://www.reuters.com/world/china/lutnick-stalled-trump-crackdown-diversion-nvidia-chips-china-axios-reports-2026-11-11/",
-     "via": "",
-     "published": "2026-11-11T22:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
-     "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
-     "via": "",
-     "published": "2026-11-11T20:59+00:00",
-     "summary": "President Trump on Thursday authorized a crack down on companies suspected of diverting Nvidia's advanced AI chips to China for the third time this year — even consulting Elon Musk before giving the go-ahead. One administration official has repeatedly stood in the way: Commerce Secretary Howard Lutnick. Why it matters: This standoff illustrates a breakdown in efforts to keep American technology ou"
-    }
-   ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -925,42 +1045,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "BNamericas"
-   ],
-   "regions": [
-    "Latin America",
-    "Oceania"
-   ],
-   "latest": "2026-11-11T21:07+00:00",
-   "earliest": "2026-11-11T19:46+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Codelco, Adani Group sign pact for copper exploration project",
-     "url": "https://mining.com.au/codelco-adani-group-sign-pact-for-copper-exploration-project/",
-     "via": "",
-     "published": "2026-11-11T21:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Indian conglomerate Adani signs MoU with Codelco for Chile copper exploration",
-     "url": "https://www.bnamericas.com/en/news/indian-conglomerate-adani-signs-mou-with-codelco-for-chile-copper-exploration",
-     "via": "",
-     "published": "2026-11-11T19:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -992,41 +1077,6 @@
      "url": "https://www.reuters.com/business/russia-turns-giant-plastic-bags-store-unexported-grain-black-sea-trade-stalls-2026-11-11/",
      "via": "",
      "published": "2026-11-11T12:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-11T19:52+00:00",
-   "earliest": "2026-11-11T18:25+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Russian Diesel Tanker Makes U-Turn After Heading to U.S.",
-     "url": "https://gcaptain.com/russian-diesel-tanker-makes-u-turn-after-heading-to-u-s/",
-     "via": "",
-     "published": "2026-11-11T19:52+00:00",
-     "summary": "(Bloomberg) — A tanker carrying Russian diesel that had briefly signaled the US made a U-turn about 400 nautical miles off New York, compounding uncertainty over deliveries to the North American market...."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US companies shunning Russian diesel as tanker carrying that fuel idles off East Coast",
-     "url": "https://www.reuters.com/legal/government/us-companies-shunning-russian-diesel-tanker-carrying-that-fuel-idles-off-east-2026-11-11/",
-     "via": "",
-     "published": "2026-11-11T18:25+00:00",
      "summary": ""
     }
    ],
@@ -1114,7 +1164,7 @@
     "North America"
    ],
    "latest": "2026-11-11T15:23+00:00",
-   "earliest": "2026-11-09T22:02+00:00",
+   "earliest": "2026-11-09T23:37+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
@@ -1131,7 +1181,7 @@
      "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
      "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
      "via": "",
-     "published": "2026-11-09T22:02+00:00",
+     "published": "2026-11-09T23:37+00:00",
      "summary": ""
     }
    ],
@@ -1211,6 +1261,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "South China Morning Post",
+    "The Jakarta Post"
+   ],
+   "regions": [
+    "China",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-11T07:13+00:00",
+   "earliest": "2026-11-11T02:57+00:00",
+   "items": [
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Inflation jitters throw a wrench into US Treasury auction as Fed official flags jumbo hike",
+     "url": "https://www.scmp.com/business/china-business/article/3374041/inflation-jitters-throw-wrench-us-treasury-auction-fed-official-flags-jumbo-hike",
+     "via": "",
+     "published": "2026-11-11T07:13+00:00",
+     "summary": "The latest auction of the 10-year US Treasury drew weak demand from investors after a hot reading on inflation and the prospect of an aggressive rate increase flagged by a Federal Reserve official spurred the most violent bond sell-offs in months. It may also further validate China’s de-dollarisation push to promote the internationalisation of its currency. The batch of the US$42 billion Treasury "
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Bonds reel as hot inflation fuels jumbo Fed hike fears",
+     "url": "https://www.thejakartapost.com/business/2026/11/11/bonds-reel-as-hot-inflation-fuels-jumbo-fed-hike-fears",
+     "via": "",
+     "published": "2026-11-11T02:57+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Business Standard",
     "Axios"
    ],
@@ -1240,7 +1325,7 @@
      "summary": "Nvidia is coming under fire for having no clear succession plan to replace Jensen Huang in the event that something unexpected happens — like an international incident with him at the center . Why it matters: The spotlight on Huang shows the vulnerabilities of a large company being dependent on one executive — and the risks it poses to investors and customers, corporate governance experts tell Axi"
     }
    ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1275,7 +1360,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1310,7 +1395,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1345,7 +1430,7 @@
      "summary": "The company has confirmed a high-grade copper-zinc zone at its Strong & Harris deposit."
     }
    ],
-   "id": 28
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1380,7 +1465,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1415,7 +1500,7 @@
      "summary": "October exports ‌were ⁠the highest since February when the war ⁠started and were up from September’s corresponding tally of 23 vessels exiting the strait"
     }
    ],
-   "id": 30
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1450,7 +1535,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1485,42 +1570,41 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 33
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "VnExpress International",
-    "South China Morning Post"
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
-    "China",
-    "Southeast Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-09T14:47+00:00",
-   "earliest": "2026-11-09T12:30+00:00",
+   "latest": "2026-11-11T20:51+00:00",
+   "earliest": "2026-11-11T17:48+00:00",
    "items": [
     {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "4 things to know about Nvidia CEO Jensen Huang and his admitted affair",
-     "url": "https://e.vnexpress.net/news/business/billionaires/4-things-to-know-about-nvidia-ceo-jensen-huang-and-his-admitted-affair-5142359.html",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US Has Won War With Iran, Seeks ‘Total Victory’: Trump",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/12/us-has-won-war-with-iran-seeks-total-victory-trump",
      "via": "",
-     "published": "2026-11-09T14:47+00:00",
-     "summary": "Nvidia CEO Jensen Huang has admitted to having an affair as the chipmaking giant launches an investigation that some analysts say could put his top role at risk."
+     "published": "2026-11-11T20:51+00:00",
+     "summary": ""
     },
     {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Nvidia fallout: chipmaker faces extensive risks after CEO affair, analysts and lawyers say",
-     "url": "https://www.scmp.com/tech/tech-war/article/3373820/nvidia-fallout-chipmaker-faces-extensive-risks-after-ceo-affair-analysts-and-lawyers-say",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Trump claims US has already won the Iran war, now wants ‘total victory’",
+     "url": "https://www.timesofisrael.com/liveblog_entry/trump-claims-us-has-already-won-the-iran-war-now-wants-total-victory/",
      "via": "",
-     "published": "2026-11-09T12:30+00:00",
-     "summary": "As Nvidia launched an investigation into CEO Jensen Huang after he admitted to an extramarital affair, the repercussions threaten not only his three-decade tenure but also the future of the chip giant’s delicate semiconductor trade with China, according to lawyers and analysts. The world’s leading maker of chips for artificial intelligence systems faces an unprecedented corporate and geopolitical "
+     "published": "2026-11-11T17:48+00:00",
+     "summary": ""
     }
    ],
-   "id": 33
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1554,7 +1638,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1588,7 +1672,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 36
   },
   {
    "independent_outlets": 2,
@@ -1622,7 +1706,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 37
   },
   {
    "independent_outlets": 2,
@@ -1656,7 +1740,7 @@
      "summary": "The authorities said Alice Huang had entered Taiwan, but is currently overseas."
     }
    ],
-   "id": 37
+   "id": 38
   },
   {
    "independent_outlets": 2,
@@ -1687,40 +1771,6 @@
      "url": "https://www.timesofisrael.com/iran-producing-up-to-50-ballistic-missiles-a-month-half-its-prewar-rate-report/",
      "via": "",
      "published": "2026-11-10T08:00+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 38
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-09T17:24+00:00",
-   "earliest": "2026-11-09T02:55+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Japan's Mitsui Chemicals to buy chip materials maker JSR for $11.6bn",
-     "url": "https://asia.nikkei.com/business/business-deals/japan-s-mitsui-chemicals-to-buy-chip-materials-maker-jsr-for-11.6bn",
-     "via": "",
-     "published": "2026-11-09T17:24+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "BREAKING NEWS: Mitsui Chemicals to buy chip material supplier JSR for 1.84 tril. yen",
-     "url": "https://english.kyodonews.net/articles/-/90786",
-     "via": "",
-     "published": "2026-11-09T02:55+00:00",
      "summary": ""
     }
    ],
