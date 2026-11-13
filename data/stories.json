@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-13T01:28:56+00:00",
+ "fetched_at": "2026-11-13T01:52:47+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 755,
+ "items_read": 763,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 23,
+   "items": 29,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
@@ -57,12 +57,12 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Bloomberg": {
@@ -132,12 +132,12 @@
   },
   "Axios": {
    "region": "North America",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 9,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 24,
+   "items": 20,
    "errors": []
   },
   "RNZ": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "The Indian Express": {
@@ -211,12 +211,12 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 9,
    "errors": []
   },
   "Newsroom Panama": {
@@ -428,8 +428,8 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
     "DigiTimes",
+    "Reuters",
     "Business Standard"
    ],
    "regions": [
@@ -437,9 +437,18 @@
     "Europe",
     "South Asia"
    ],
-   "latest": "2026-11-12T14:16+00:00",
+   "latest": "2026-11-13T01:13+00:00",
    "earliest": "2026-11-12T13:55+00:00",
    "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Nvidia's interim CEO Colette Kress signals stability first as board weighs future after Huang",
+     "url": "https://www.digitimes.com/news/a20261113VL205/nvidia-ceo-jensen-huang-technology-president.html",
+     "via": "",
+     "published": "2026-11-13T01:13+00:00",
+     "summary": "By handing the top job to its chief financial officer rather than an engineer, Nvidia's board has signaled that its priority after Jensen Huang's abrupt exit is to steady investors, customers, and operations, while the bigger strategic call on who will set the company's technology direction has been deferred to a search that analysts expect to take months."
+    },
     {
      "outlet": "Reuters",
      "region": "Europe",
@@ -448,15 +457,6 @@
      "via": "",
      "published": "2026-11-12T14:16+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-     "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
-     "via": "",
-     "published": "2026-11-12T14:15+00:00",
-     "summary": "Nvidia co-founder Jensen Huang resigned as president, CEO and board member on November 12, effective immediately, the company's board said. He had led the company for 33 years, since its founding."
     },
     {
      "outlet": "Business Standard",
@@ -521,8 +521,8 @@
    "same_headline_groups": [],
    "outlets": [
     "Africanews",
-    "ABC News (Australia)",
-    "Associated Press"
+    "Associated Press",
+    "ABC News (Australia)"
    ],
    "regions": [
     "Africa",
@@ -530,7 +530,7 @@
     "Oceania"
    ],
    "latest": "2026-11-11T22:54+00:00",
-   "earliest": "2026-11-11T05:14+00:00",
+   "earliest": "2026-11-11T18:03+00:00",
    "items": [
     {
      "outlet": "Africanews",
@@ -542,21 +542,21 @@
      "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
     },
     {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Housing protests sweep Madrid and Barcelona after Spain’s workers strike, with clashes erupting",
+     "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
+     "via": "",
+     "published": "2026-11-11T22:20+00:00",
+     "summary": ""
+    },
+    {
      "outlet": "ABC News (Australia)",
      "region": "Oceania",
      "title": "Four million stage general strike in Spain over national housing crisis",
      "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
      "via": "",
      "published": "2026-11-11T18:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Housing protests sweep Madrid and Barcelona after Spain’s workers strike, with clashes erupting",
-     "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
-     "via": "",
-     "published": "2026-11-11T05:14+00:00",
      "summary": ""
     }
    ],
@@ -657,26 +657,17 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
     "Al Jazeera",
-    "Euronews"
+    "Euronews",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-12T23:31+00:00",
-   "earliest": "2026-11-12T19:38+00:00",
+   "latest": "2026-11-12T21:03+00:00",
+   "earliest": "2026-11-12T18:32+00:00",
    "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
-     "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T23:31+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
@@ -694,6 +685,15 @@
      "via": "",
      "published": "2026-11-12T19:38+00:00",
      "summary": "Microsoft services outage: thousands of users report issues with Outlook, Teams and Copilot. The company is working to restore services."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
+     "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T18:32+00:00",
+     "summary": ""
     }
    ],
    "id": 9
@@ -826,41 +826,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-12T21:27+00:00",
-   "earliest": "2026-11-12T15:40+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Equities close lower as Nvidia drop outweighs energy gains",
-     "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T21:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "US equities close lower as Nvidia drop outweighs energy gains",
-     "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-fall-as-nvidia-ceos-exit-rattles-ai-stocks",
-     "via": "",
-     "published": "2026-11-12T15:40+00:00",
-     "summary": "The Dow Jones Industrial Average fell 190.29 points, or 0.36%, to 52,296.20."
-    }
-   ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "South China Morning Post",
     "Business Standard"
    ],
@@ -890,7 +855,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -922,6 +887,41 @@
      "url": "https://www.bnamericas.com/en/news/trump-threatens-to-double-tariffs-on-mexico-if-it-does-not-stop-migrant-caravan",
      "via": "",
      "published": "2026-11-12T14:52+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-12T15:40+00:00",
+   "earliest": "2026-11-12T09:37+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "US equities close lower as Nvidia drop outweighs energy gains",
+     "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-fall-as-nvidia-ceos-exit-rattles-ai-stocks",
+     "via": "",
+     "published": "2026-11-12T15:40+00:00",
+     "summary": "The Dow Jones Industrial Average fell 190.29 points, or 0.36%, to 52,296.20."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Equities close lower as Nvidia drop outweighs energy gains",
+     "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T09:37+00:00",
      "summary": ""
     }
    ],
@@ -966,41 +966,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "The Hindu"
-   ],
-   "regions": [
-    "Oceania",
-    "South Asia"
-   ],
-   "latest": "2026-11-12T13:53+00:00",
-   "earliest": "2026-11-11T14:06+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "India bans exports of lithium-ion battery waste",
-     "url": "https://mining.com.au/india-bans-exports-of-lithium-ion-battery-waste/",
-     "via": "",
-     "published": "2026-11-12T13:53+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Government bars export of lithium-ion battery waste and scrap containing black mass",
-     "url": "https://www.thehindu.com/business/govt-prohibits-export-of-unsorted-lithium-ion-batterywaste-scrap/article71688575.ece",
-     "via": "",
-     "published": "2026-11-11T14:06+00:00",
-     "summary": "Black mass, the particulate powdered mixture recovered during the recycling of lithium-ion batteries, is particularly essential for India's electronics and electric vehicle as well as renewable energy storage ecosystem"
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "The Straits Times",
     "Reuters"
    ],
@@ -1030,7 +995,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1065,7 +1030,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1100,7 +1065,7 @@
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1135,7 +1100,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1170,7 +1135,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1205,7 +1170,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1240,7 +1205,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1275,7 +1240,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1310,7 +1275,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1345,7 +1310,7 @@
      "summary": "The company has confirmed a high-grade copper-zinc zone at its Strong & Harris deposit."
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1380,7 +1345,7 @@
      "summary": "October exports ‌were ⁠the highest since February when the war ⁠started and were up from September’s corresponding tally of 23 vessels exiting the strait"
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1415,7 +1380,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1447,6 +1412,40 @@
      "via": "",
      "published": "2026-11-11T18:08+00:00",
      "summary": ""
+    }
+   ],
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Seatrade Maritime"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-12T16:27+00:00",
+   "earliest": "2026-11-12T03:14+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
+     "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T16:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Seatrade Maritime",
+     "region": "Europe",
+     "title": "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz",
+     "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz",
+     "via": "",
+     "published": "2026-11-12T03:14+00:00",
+     "summary": "Iran continues daily attacks on commercial shipping in the Strait of Hormuz with at least Sinokor vessels struck since July"
     }
    ],
    "id": 30
