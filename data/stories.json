@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-12T21:06:58+00:00",
+ "fetched_at": "2026-11-13T00:41:56+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 754,
+ "outlets_read": 44,
+ "items_read": 757,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Africa Report": {
@@ -17,27 +17,27 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 25,
+   "items": 28,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 32,
+   "items": 30,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 42,
+   "items": 41,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mysteel": {
@@ -57,22 +57,22 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 35,
+   "items": 34,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 50,
+   "items": 19,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 35,
+   "items": 38,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 7,
+   "items": 5,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,15 +82,13 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 0,
-   "errors": [
-    "https://www.hellenicshippingnews.com/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 16,
+   "errors": []
   },
   "Seatrade Maritime": {
    "region": "Europe",
@@ -99,22 +97,22 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 16,
+   "items": 19,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
@@ -124,17 +122,17 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 23,
+   "items": 27,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 29,
+   "items": 26,
    "errors": []
   },
   "CBC News": {
@@ -146,22 +144,22 @@
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "gCaptain": {
    "region": "North America",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 22,
+   "items": 26,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
@@ -186,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 27,
+   "items": 28,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 6,
+   "items": 9,
    "errors": []
   },
   "The Indian Express": {
@@ -208,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 31,
+   "items": 28,
    "errors": []
   },
   "The Jakarta Post": {
@@ -218,22 +216,22 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,135 +242,117 @@
  },
  "clusters": [
   {
-   "independent_outlets": 6,
-   "same_headline_groups": [],
+   "independent_outlets": 4,
+   "same_headline_groups": [
+    [
+     "Africanews",
+     "Euronews"
+    ]
+   ],
    "outlets": [
     "Al Jazeera",
-    "Reuters",
-    "DigiTimes",
-    "Business Standard",
+    "Africanews",
+    "Euronews",
     "Financial Times",
-    "VnExpress International"
+    "Times of Israel"
    ],
    "regions": [
-    "East Asia",
+    "Africa",
     "Europe",
-    "Middle East",
-    "South Asia",
-    "Southeast Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-12T19:45+00:00",
-   "earliest": "2026-11-12T05:28+00:00",
+   "latest": "2026-11-12T18:03+00:00",
+   "earliest": "2026-11-12T08:24+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
-     "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress?traffic_source=rss",
+     "title": "Al Jazeera reports from Gaza hospital attacked by Israel",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss",
      "via": "",
-     "published": "2026-11-12T19:45+00:00",
-     "summary": "Huang has stepped down amid revelations about extramarital affairs and allegations of Chinese espionage."
+     "published": "2026-11-12T18:03+00:00",
+     "summary": "Al Jazeera’s Tareq Abu Azzoum reports on the aftermath of an Israeli strike on Nasser Hospital"
     },
     {
-     "outlet": "Reuters",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
+     "url": "http://www.africanews.com/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike/",
+     "via": "",
+     "published": "2026-11-12T16:10+00:00",
+     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
+    },
+    {
+     "outlet": "Euronews",
      "region": "Europe",
-     "title": "Who is Nvidia interim CEO Colette Kress?",
-     "url": "https://www.reuters.com/technology/who-is-nvidia-interim-ceo-colette-kress-2026-11-12/",
+     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
+     "url": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike",
      "via": "",
-     "published": "2026-11-12T14:16+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-     "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
-     "via": "",
-     "published": "2026-11-12T14:15+00:00",
-     "summary": "Nvidia co-founder Jensen Huang resigned as president, CEO and board member on November 12, effective immediately, the company's board said. He had led the company for 33 years, since its founding."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia CEO Jensen Huang resigns; CFO Kress to take over as interim chief",
-     "url": "https://www.business-standard.com/world-news/nvidia-s-jensen-huang-resigns-as-president-ceo-with-immediate-effect-126111201571_1.html",
-     "via": "",
-     "published": "2026-11-12T13:55+00:00",
-     "summary": ""
+     "published": "2026-11-12T16:10+00:00",
+     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
     },
     {
      "outlet": "Financial Times",
      "region": "Europe",
-     "title": "Jensen Huang resigns as Nvidia chief executive",
-     "url": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
+     "title": "Israel strikes Gaza hospital despite ceasefire",
+     "url": "https://www.ft.com/content/2a3d0391-c4d9-4195-af36-b5ee66415cd9?syn-25a6b1a6=1",
      "via": "",
-     "published": "2026-11-12T13:51+00:00",
-     "summary": "Shares in chipmaker slide after group says chief financial officer Colette Kress to take over as interim head"
+     "published": "2026-11-12T12:03+00:00",
+     "summary": "Doctor and patients among six killed in attack on Nasser medical complex"
     },
     {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Who are the likely candidates to replace Jensen Huang at Nvidia?",
-     "url": "https://e.vnexpress.net/news/business/companies/who-are-the-likely-candidates-to-replace-jensen-huang-at-nvidia-5143797.html",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Israel confirms target of Gaza hospital complex strike was commander of Hamas's Khan Younis Brigade",
+     "url": "https://www.timesofisrael.com/liveblog_entry/israel-confirms-target-of-gaza-hospital-complex-strike-was-commander-of-hamass-khan-younis-brigade/",
      "via": "",
-     "published": "2026-11-12T05:28+00:00",
-     "summary": "Jensen Huang has never anointed a successor, but many analysts and investors see Nvidia's uber-engineer Ian Buck and CFO Colette Kress as particularly likely candidates, ​at least for the short term."
+     "published": "2026-11-12T08:24+00:00",
+     "summary": ""
     }
    ],
    "id": 1
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
-    "Africanews",
     "Associated Press",
-    "ABC News (Australia)"
+    "The Korea Herald",
+    "Reuters"
    ],
    "regions": [
-    "Africa",
     "East Asia",
-    "North America",
-    "Oceania"
+    "Europe",
+    "North America"
    ],
-   "latest": "2026-11-12T13:28+00:00",
-   "earliest": "2026-11-11T18:03+00:00",
+   "latest": "2026-11-12T22:03+00:00",
+   "earliest": "2026-11-12T01:53+00:00",
    "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Millions of Spaniards stage first general strike in 14 years as anger over housing leads to clashes",
-     "url": "https://www.koreaherald.com/article/10935093",
-     "via": "",
-     "published": "2026-11-12T13:28+00:00",
-     "summary": "A general strike ‌by 4 million Spanish workers — around one-fifth of the total workforce — against the country's housing crisis was mostly peaceful Wednesday, unions said, though by the evening clashes erupted in some areas of Barcelona and Madrid. Workers endured stormy weather to set up picket lines, with large marches taking place in Madrid, Barcelona and cities across Spain less than three wee"
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-     "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
-     "via": "",
-     "published": "2026-11-11T22:54+00:00",
-     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
-    },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Housing protests sweep Madrid and Barcelona after Spain’s workers strike, with clashes erupting",
-     "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
+     "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
+     "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a",
      "via": "",
-     "published": "2026-11-11T22:20+00:00",
+     "published": "2026-11-12T22:03+00:00",
      "summary": ""
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Four million stage general strike in Spain over national housing crisis",
-     "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Seoul shares turn lower amid Nvidia controversies despite Wall Street rally",
+     "url": "https://www.koreaherald.com/article/10934707",
      "via": "",
-     "published": "2026-11-11T18:03+00:00",
+     "published": "2026-11-12T09:48+00:00",
+     "summary": "South Korean shares turned lower Thursday despite overnight gains on Wall Street driven by a tech rally amid escalating controversies over Nvidia CEO Jensen Huang. After opening 0.2 percent higher, the benchmark Korea Composite Stock Price Index (KOSPI) turned negative, losing 11.32 points, or 0.21 percent, to 5,364.04 as of 9:15 a.m. Overnight on Wall Street, three major stock indexes finished hi"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Wall Street edges up, Nvidia drops after CEO resigns",
+     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T01:53+00:00",
      "summary": ""
     }
    ],
@@ -382,44 +362,44 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Euronews",
-    "RNZ"
+    "Reuters",
+    "Livemint / Economic Times",
+    "The Straits Times"
    ],
    "regions": [
     "Europe",
-    "North America",
-    "Oceania"
+    "South Asia",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-12T20:26+00:00",
-   "earliest": "2026-11-12T19:05+00:00",
+   "latest": "2026-11-12T21:27+00:00",
+   "earliest": "2026-11-12T15:40+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Is Outlook down? Widespread outage hits Microsoft apps",
-     "url": "https://apnews.com/article/microsoft-outlook-outage-email-teams-6376045281feb430c0b923e3a4b251c2",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Equities close lower as Nvidia drop outweighs energy gains",
+     "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
      "via": "",
-     "published": "2026-11-12T20:26+00:00",
+     "published": "2026-11-12T21:27+00:00",
      "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Microsoft outage hits Outlook, Teams and Copilot, disrupting thousands",
-     "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US stocks: US market closes lower as Nvidia slide outweighs energy rally",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-ends-lower-as-energy-gains-offset-nvidia-slide/articleshow/135782290.cms",
      "via": "",
-     "published": "2026-11-12T19:38+00:00",
-     "summary": "Microsoft services outage: thousands of users report issues with Outlook, Teams and Copilot. The company is working to restore services."
+     "published": "2026-11-12T21:15+00:00",
+     "summary": "US stocks closed lower as Nvidia’s decline following CEO Jensen Huang’s departure outweighed a rally in energy shares. The S&P 500 fell 0.34%, the Nasdaq lost 0.40% and the Dow declined 0.36%, while retail investors made a record $111 million opening bid for Nvidia shares."
     },
     {
-     "outlet": "RNZ",
-     "region": "Oceania",
-     "title": "Global outage hits Microsoft's Outlook",
-     "url": "https://www.rnz.co.nz/news/business/2569444/global-outage-hits-microsoft-s-outlook",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "US equities close lower as Nvidia drop outweighs energy gains",
+     "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-fall-as-nvidia-ceos-exit-rattles-ai-stocks",
      "via": "",
-     "published": "2026-11-12T19:05+00:00",
-     "summary": "More than 100,000 users worldwide are struggling to access their email inboxes as Microsoft battles to fix an Outlook outage."
+     "published": "2026-11-12T15:40+00:00",
+     "summary": "The Dow Jones Industrial Average fell 190.29 points, or 0.36%, to 52,296.20."
     }
    ],
    "id": 3
@@ -489,6 +469,52 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Reuters",
+    "DigiTimes",
+    "Business Standard"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-12T14:16+00:00",
+   "earliest": "2026-11-12T13:55+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Who is Nvidia interim CEO Colette Kress?",
+     "url": "https://www.reuters.com/technology/who-is-nvidia-interim-ceo-colette-kress-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T14:16+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+     "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
+     "via": "",
+     "published": "2026-11-12T14:15+00:00",
+     "summary": "Nvidia co-founder Jensen Huang resigned as president, CEO and board member on November 12, effective immediately, the company's board said. He had led the company for 33 years, since its founding."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia CEO Jensen Huang resigns; CFO Kress to take over as interim chief",
+     "url": "https://www.business-standard.com/world-news/nvidia-s-jensen-huang-resigns-as-president-ceo-with-immediate-effect-126111201571_1.html",
+     "via": "",
+     "published": "2026-11-12T13:55+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "VnExpress International",
     "Business Standard",
     "South China Morning Post"
@@ -529,7 +555,189 @@
      "summary": "Top US business leaders, including Tesla and SpaceX chief Elon Musk and Mastercard’s Michael Miebach, are expected to join Donald Trump’s delegation to China for next week’s Apec summit, the South China Morning Post understands. Nvidia chief Jensen Huang had been in talks to join, but his participation is now in doubt amid a controversy that has rocked his company and the wider tech industry. Sour"
     }
    ],
-   "id": 5
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "Associated Press",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Africa",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-11T22:54+00:00",
+   "earliest": "2026-11-11T18:03+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+     "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
+     "via": "",
+     "published": "2026-11-11T22:54+00:00",
+     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Housing protests sweep Madrid and Barcelona after Spain’s workers strike, with clashes erupting",
+     "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
+     "via": "",
+     "published": "2026-11-11T22:20+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Four million stage general strike in Spain over national housing crisis",
+     "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
+     "via": "",
+     "published": "2026-11-11T18:03+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Africa",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-11T08:23+00:00",
+   "earliest": "2026-11-10T21:30+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Barrick moves ahead with North American gold IPO",
+     "url": "https://mining.com.au/barrick-moves-ahead-with-north-american-gold-ipo/",
+     "via": "",
+     "published": "2026-11-11T08:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Canada's Barrick Mining files for IPO of North American business in New York",
+     "url": "https://www.miningweekly.com/article/canadas-barrick-mining-files-for-ipo-of-north-american-business-in-new-york-2026-11-11",
+     "via": "",
+     "published": "2026-11-11T06:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "American Barrick files for proposed IPO",
+     "url": "https://www.mining.com/american-barrick-files-for-proposed-ipo/",
+     "via": "",
+     "published": "2026-11-10T21:30+00:00",
+     "summary": "Barrick Mining announced Tuesday that its planned new publicly listed company will be named American Barrick Gold Corporation."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-12T23:52+00:00",
+   "earliest": "2026-11-12T17:49+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+     "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-12T23:52+00:00",
+     "summary": "Saudi-led coalition intercepts flurry of suspected Houthi drones targeting oil and military infrastructure."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline",
+     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west-oil-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T20:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Yemen’s Houthis say they targeted Saudi East-West pipeline, oil facility",
+     "url": "https://www.timesofisrael.com/liveblog_entry/yemens-houthis-say-they-targeted-saudi-east-west-pipeline-oil-facility/",
+     "via": "",
+     "published": "2026-11-12T17:49+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Jazeera",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-12T23:31+00:00",
+   "earliest": "2026-11-12T19:38+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
+     "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T23:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Microsoft outage hits tens of thousands of users",
+     "url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-12T21:03+00:00",
+     "summary": "Microsoft says servers unexpectedly went offline, disrupting Outlook email, Teams, Copilot and other services."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Microsoft outage hits Outlook, Teams and Copilot, disrupting thousands",
+     "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands",
+     "via": "",
+     "published": "2026-11-12T19:38+00:00",
+     "summary": "Microsoft services outage: thousands of users report issues with Outlook, Teams and Copilot. The company is working to restore services."
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 3,
@@ -574,93 +782,121 @@
      "summary": "Three individuals were charged in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing cod"
     }
    ],
-   "id": 6
+   "id": 11
   },
   {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Africanews",
-     "Euronews"
-    ]
-   ],
+   "independent_outlets": 3,
+   "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "Euronews",
-    "Times of Israel"
+    "Yicai Global",
+    "South China Morning Post",
+    "Caixin Global"
    ],
    "regions": [
-    "Africa",
-    "Europe",
-    "Middle East"
+    "China"
    ],
-   "latest": "2026-11-12T16:10+00:00",
-   "earliest": "2026-11-12T08:24+00:00",
+   "latest": "2026-11-11T11:05+00:00",
+   "earliest": "2026-11-11T08:44+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
-     "url": "http://www.africanews.com/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike/",
+     "outlet": "Yicai Global",
+     "region": "China",
+     "title": "Alibaba’s Chip Design Unit T-Head Files for Hong Kong IPO",
+     "url": "https://www.yicaiglobal.com/news/alibabas-chipmaking-arm-t-head-files-for-spin-off-listing-in-hong-kong",
      "via": "",
-     "published": "2026-11-12T16:10+00:00",
-     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
+     "published": "2026-11-11T11:05+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
-     "url": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Alibaba readies T-Head chip IPO as Hong Kong frenzy cools",
+     "url": "https://www.scmp.com/plus/business/banking-finance/article/3374068/alibaba-readies-t-head-chip-ipo-hong-kong-frenzy-cools",
      "via": "",
-     "published": "2026-11-12T16:10+00:00",
-     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
+     "published": "2026-11-11T09:19+00:00",
+     "summary": "Alibaba has applied to list chip-design unit T-Head in Hong Kong, as the Chinese tech giant braves a cooling initial public offering (IPO) market to raise funds for artificial intelligence (AI) ambitions. The Hong Kong stock exchange has approved the proposed separation and a confidential listing application was filed in September, Alibaba said in a statement on Tuesday. T-Head, which provides ful"
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Israel confirms target of Gaza hospital complex strike was commander of Hamas's Khan Younis Brigade",
-     "url": "https://www.timesofisrael.com/liveblog_entry/israel-confirms-target-of-gaza-hospital-complex-strike-was-commander-of-hamass-khan-younis-brigade/",
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "Alibaba Files to Spin Off Chip Unit in Hong Kong",
+     "url": "https://www.caixinglobal.com/2026-11-11/alibaba-files-to-spin-off-chip-unit-in-hong-kong-102503517.html",
      "via": "",
-     "published": "2026-11-12T08:24+00:00",
+     "published": "2026-11-11T08:44+00:00",
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining.com.au"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-12T22:25+00:00",
+   "earliest": "2026-11-11T01:48+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Nemaska pause clouds Rio Tinto’s Quebec lithium plans",
+     "url": "https://www.mining.com/nemaska-pause-clouds-quebec-lithium-plans/",
+     "via": "",
+     "published": "2026-11-12T22:25+00:00",
+     "summary": "The Bécancour project forms part of Quebec’s attempt to build a battery supply chain that converts locally mined minerals into higher-value materials."
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Rio Tinto cuts jobs at Québec lithium project",
+     "url": "https://mining.com.au/rio-tinto-cuts-jobs-at-quebec-lithium-project/",
+     "via": "",
+     "published": "2026-11-11T01:48+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "South China Morning Post",
-    "Axios"
+    "Business Standard"
    ],
    "regions": [
     "China",
-    "North America"
+    "South Asia"
    ],
-   "latest": "2026-11-12T20:19+00:00",
-   "earliest": "2026-11-12T16:03+00:00",
+   "latest": "2026-11-12T21:08+00:00",
+   "earliest": "2026-11-12T05:52+00:00",
    "items": [
     {
      "outlet": "South China Morning Post",
      "region": "China",
-     "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
+     "title": "Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374268/nvidias-hunt-jensen-huangs-successor-insiders-rivals-and-trump-pick",
      "via": "",
-     "published": "2026-11-12T20:19+00:00",
-     "summary": "Senior White House officials are discussing whether Commerce Secretary Howard Lutnick should be pushed out amid a spy scandal surrounding Nvidia’s now-former CEO Jensen Huang, two people familiar with the situation said on Thursday. A growing number of lawmakers criticised Lutnick for the administration’s refusal to add dozens of Chinese companies to a key US trade blacklist, and over whether the "
+     "published": "2026-11-12T21:08+00:00",
+     "summary": "Nvidia is searching for its first new leader in 33 years after Jensen Huang quit on Thursday, with interim chief Colette Kress, veteran engineers, members of Huang’s own family and the bosses of rival chipmakers all touted as possible successors. The AI chip giant was left without the only leader it has ever had when Huang, 63, stepped down as president, chief executive and board member. The move "
     },
     {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump sticks by Commerce Secretary Lutnick despite Nvidia inaction",
-     "url": "https://www.axios.com/2026/11/12/trump-lutnick-nvidia",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia drama triggers difficult search for Jensen Huang's successor",
+     "url": "https://www.business-standard.com/world-news/nvidia-drama-triggers-difficult-search-for-jensen-huang-s-successor-126111200343_1.html",
      "via": "",
-     "published": "2026-11-12T16:03+00:00",
-     "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
+     "published": "2026-11-12T05:52+00:00",
+     "summary": ""
     }
    ],
-   "id": 8
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -695,42 +931,7 @@
      "summary": ""
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-11-12T16:07+00:00",
-   "earliest": "2026-11-12T03:40+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Gold price falls towards one-year low on inflation worries",
-     "url": "https://mining.com.au/gold-price-falls-towards-one-year-low-on-inflation-worries/",
-     "via": "",
-     "published": "2026-11-12T16:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears",
-     "url": "https://www.reuters.com/world/india/gold-falls-over-one-week-low-firm-dollar-fed-rate-hike-bets-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T03:40+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -765,7 +966,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 11
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -800,42 +1001,7 @@
      "summary": "Black mass, the particulate powdered mixture recovered during the recycling of lithium-ion batteries, is particularly essential for India's electronics and electric vehicle as well as renewable energy storage ecosystem"
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Yicai Global",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "China",
-    "Europe"
-   ],
-   "latest": "2026-11-12T10:38+00:00",
-   "earliest": "2026-11-11T05:44+00:00",
-   "items": [
-    {
-     "outlet": "Yicai Global",
-     "region": "China",
-     "title": "China’s Cosco Shipping Energy to Expand Fleet With 40 VLCCs by 2030",
-     "url": "https://www.yicaiglobal.com/news/cosco-shipping-energy-to-expand-fleet-with-40-vlccs-by-2030",
-     "via": "",
-     "published": "2026-11-12T10:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Cosco Shipping Energy unveils massive VLCC expansion",
-     "url": "https://www.seatrade-maritime.com/tankers/cosco-shipping-energy-unveils-massive-vlcc-expansion",
-     "via": "",
-     "published": "2026-11-11T05:44+00:00",
-     "summary": "The Chinese firm locks in 10 new VLCCs and secures bareboat charter for another 14"
-    }
-   ],
-   "id": 13
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -870,7 +1036,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -905,7 +1071,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -940,42 +1106,7 @@
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Business Standard"
-   ],
-   "regions": [
-    "Africa",
-    "South Asia"
-   ],
-   "latest": "2026-11-12T07:48+00:00",
-   "earliest": "2026-11-11T15:23+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "India's Reliance plans $4.6bn coal gasification project in Andhra Pradesh, document shows",
-     "url": "https://www.miningweekly.com/article/indias-reliance-plans-46bn-coal-gasification-project-in-andhra-pradesh-document-shows-2026-11-12",
-     "via": "",
-     "published": "2026-11-12T07:48+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "From Reliance to Sarvam, Nvidia sits at the heart of India's AI plans",
-     "url": "https://www.business-standard.com/companies/start-ups/from-reliance-to-sarvam-nvidia-sits-at-the-heart-of-india-s-ai-plans-126111101483_1.html",
-     "via": "",
-     "published": "2026-11-11T15:23+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1010,42 +1141,7 @@
      "summary": ""
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Axios"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-12T02:22+00:00",
-   "earliest": "2026-11-11T20:59+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Lutnick stalled Trump's crackdown on diversion of Nvidia chips to China",
-     "url": "https://www.business-standard.com/world-news/lutnick-stalled-trump-s-crackdown-on-diversion-of-nvidia-chips-to-china-126111200064_1.html",
-     "via": "",
-     "published": "2026-11-12T02:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
-     "url": "https://www.axios.com/2026/11/11/trump-lutnick-nvidia-china-chip-export-controls",
-     "via": "",
-     "published": "2026-11-11T20:59+00:00",
-     "summary": "President Trump on Thursday authorized a crack down on companies suspected of diverting Nvidia's advanced AI chips to China for the third time this year — even consulting Elon Musk before giving the go-ahead. One administration official has repeatedly stood in the way: Commerce Secretary Howard Lutnick. Why it matters: This standoff illustrates a breakdown in efforts to keep American technology ou"
-    }
-   ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1080,7 +1176,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1115,42 +1211,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-11T15:23+00:00",
-   "earliest": "2026-11-09T23:37+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump says Iran war is militarily ‘effectively over’",
-     "url": "https://english.alarabiya.net/webtv/programs/gnt/2026/11/11/trump-says-iran-war-is-militarily-effectively-over-",
-     "via": "",
-     "published": "2026-11-11T15:23+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump after meeting with Qatari PM says he believes war with Iran is militarily 'effectively over'",
-     "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff",
-     "via": "",
-     "published": "2026-11-09T23:37+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1182,41 +1243,6 @@
      "url": "https://www.miningweekly.com/article/lithium-americas-raises-thacker-pass-cost-estimate-by-31-2026-11-11",
      "via": "",
      "published": "2026-11-11T13:23+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-11T08:23+00:00",
-   "earliest": "2026-11-11T06:30+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Barrick moves ahead with North American gold IPO",
-     "url": "https://mining.com.au/barrick-moves-ahead-with-north-american-gold-ipo/",
-     "via": "",
-     "published": "2026-11-11T08:23+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Canada's Barrick Mining files for IPO of North American business in New York",
-     "url": "https://www.miningweekly.com/article/canadas-barrick-mining-files-for-ipo-of-north-american-business-in-new-york-2026-11-11",
-     "via": "",
-     "published": "2026-11-11T06:30+00:00",
      "summary": ""
     }
    ],
@@ -1296,41 +1322,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Newsroom Panama",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America"
-   ],
-   "latest": "2026-11-11T04:58+00:00",
-   "earliest": "2026-11-11T00:58+00:00",
-   "items": [
-    {
-     "outlet": "Newsroom Panama",
-     "region": "Latin America",
-     "title": "Panama Canal’s daily traffic volume increases to 34 vessels: BTC, ETH, and USDC holders explore new yield opportunities",
-     "url": "https://newsroompanama.com/2026/11/10/panama-canals-daily-traffic-volume-increases-to-34-vessels-btc-eth-and-usdc-holders-explore-new-yield-opportunities/",
-     "via": "",
-     "published": "2026-11-11T04:58+00:00",
-     "summary": "Guest Contribution – As Panama’s position in global trade becomes increasingly secure, Bull DeFi offers... The post Panama Canal’s daily traffic volume increases to 34 vessels: BTC, ETH, and USDC holders explore new yield opportunities appeared first on Newsroom Panama ."
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Panama Canal increases capacity to 34 daily slots",
-     "url": "https://www.seatrade-maritime.com/maritime-transportation/panama-canal-increases-capacity-to-34-daily-slots",
-     "via": "",
-     "published": "2026-11-11T00:58+00:00",
-     "summary": "The waterway has added a slot as conditions improve in the canal’s watershed"
-    }
-   ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Mining.com.au",
     "MINING.COM"
    ],
@@ -1360,7 +1351,7 @@
      "summary": "The company has confirmed a high-grade copper-zinc zone at its Strong & Harris deposit."
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1395,7 +1386,7 @@
      "summary": "October exports ‌were ⁠the highest since February when the war ⁠started and were up from September’s corresponding tally of 23 vessels exiting the strait"
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1430,41 +1421,7 @@
      "summary": ""
     }
    ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Rio Times",
-    "MercoPress"
-   ],
-   "regions": [
-    "Latin America"
-   ],
-   "latest": "2026-11-12T20:59+00:00",
-   "earliest": "2026-11-12T18:02+00:00",
-   "items": [
-    {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Lula to Visit Madrid and Back Sánchez",
-     "url": "https://www.riotimesonline.com/lula-to-visit-spain-monday-back-sanchez/",
-     "via": "",
-     "published": "2026-11-12T20:59+00:00",
-     "summary": "Brazil’s president Lula will meet Spain’s Pedro Sánchez in Madrid on 16 November 2026, less than two weeks before the Spanish election. The post Lula to Visit Madrid and Back Sánchez appeared first on The Rio Times ."
-    },
-    {
-     "outlet": "MercoPress",
-     "region": "Latin America",
-     "title": "Lula to visit Madrid on Monday to meet Sánchez, two weeks before Spain’s election",
-     "url": "https://en.mercopress.com/2026/11/12/lula-to-visit-madrid-on-monday-to-meet-sanchez-two-weeks-before-spain-s-election?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-     "via": "",
-     "published": "2026-11-12T18:02+00:00",
-     "summary": "Brazilian President Luiz Inácio Lula da Silva will visit Madrid on Monday, November 16, to meet Spanish Prime Minister Pedro Sánchez, less than two weeks before the snap general election on November 29, in which Sánchez is seeking re-election. It will be Lula’s first visit to Spain since he won Brazil’s election on October 25."
-    }
-   ],
-   "id": 31
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1498,7 +1455,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1532,7 +1489,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1566,7 +1523,41 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 32
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "The Jakarta Post"
+   ],
+   "regions": [
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-12T04:53+00:00",
+   "earliest": "2026-11-11T09:01+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Alice Huang, Chinese woman accused of spying on Nvidia chief, entered Taiwan 8 times",
+     "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-chinese-woman-accused-of-spying-on-nvidia-chief-entered-taiwan-8-times",
+     "via": "",
+     "published": "2026-11-12T04:53+00:00",
+     "summary": "Beijing has rejected the spying allegations."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Chinese woman accused of spying on Nvidia boss entered Taiwan on Hong Kong passport - People",
+     "url": "https://www.thejakartapost.com/culture/2026/11/11/chinese-woman-accused-of-spying-on-nvidia-boss-entered-taiwan-on-hong-kong-passport",
+     "via": "",
+     "published": "2026-11-11T09:01+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1600,75 +1591,7 @@
      "summary": ""
     }
    ],
-   "id": 35
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Yicai Global",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China"
-   ],
-   "latest": "2026-11-11T11:05+00:00",
-   "earliest": "2026-11-11T09:19+00:00",
-   "items": [
-    {
-     "outlet": "Yicai Global",
-     "region": "China",
-     "title": "Alibaba’s Chip Design Unit T-Head Files for Hong Kong IPO",
-     "url": "https://www.yicaiglobal.com/news/alibabas-chipmaking-arm-t-head-files-for-spin-off-listing-in-hong-kong",
-     "via": "",
-     "published": "2026-11-11T11:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Alibaba readies T-Head chip IPO as Hong Kong frenzy cools",
-     "url": "https://www.scmp.com/plus/business/banking-finance/article/3374068/alibaba-readies-t-head-chip-ipo-hong-kong-frenzy-cools",
-     "via": "",
-     "published": "2026-11-11T09:19+00:00",
-     "summary": "Alibaba has applied to list chip-design unit T-Head in Hong Kong, as the Chinese tech giant braves a cooling initial public offering (IPO) market to raise funds for artificial intelligence (AI) ambitions. The Hong Kong stock exchange has approved the proposed separation and a confidential listing application was filed in September, Alibaba said in a statement on Tuesday. T-Head, which provides ful"
-    }
-   ],
-   "id": 36
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "CBC News",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America"
-   ],
-   "latest": "2026-11-10T23:37+00:00",
-   "earliest": "2026-11-10T18:23+00:00",
-   "items": [
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "How the Democrats are preparing to challenge tariffs after U.S. midterm wins",
-     "url": "https://www.cbc.ca/player/play/video/9.7417241",
-     "via": "",
-     "published": "2026-11-10T23:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Despite Democrats' sweeping midterm wins, Carney says Trump remains central to Canada-US trade talks",
-     "url": "https://apnews.com/article/canada-carney-trump-trade-midterms-tariffs-af6d41018f8ea99b7143f92cc1f2a834",
-     "via": "",
-     "published": "2026-11-10T18:23+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 37
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1702,7 +1625,7 @@
      "summary": ""
     }
    ],
-   "id": 38
+   "id": 35
   }
  ]
 }
