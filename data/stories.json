@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-13T03:19:18+00:00",
+ "fetched_at": "2026-11-13T06:46:29+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 795,
+ "outlets_read": 43,
+ "items_read": 779,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "The Africa Report": {
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 40,
+   "items": 42,
    "errors": []
   },
   "Yicai Global": {
@@ -47,7 +47,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "Kyodo News": {
@@ -57,22 +57,24 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 32,
+   "items": 21,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 226, column 135"
+   ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 38,
+   "items": 40,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +84,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -92,12 +94,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -117,17 +119,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Axios": {
@@ -137,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 11,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,22 +156,22 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 28,
+   "items": 30,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 11,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Interfax": {
@@ -184,12 +186,12 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 23,
+   "items": 26,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 32,
+   "items": 40,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -211,12 +213,12 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 24,
+   "items": 22,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +228,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 8,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +243,63 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "South China Morning Post",
+    "Axios",
+    "Reuters"
+   ],
+   "regions": [
+    "China",
+    "Europe",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-13T03:21+00:00",
+   "earliest": "2026-11-12T14:23+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "White House weighs Lutnick's ouster amid Nvidia chip export concerns",
+     "url": "https://www.business-standard.com/world-news/white-house-weighs-lutnick-s-ouster-amid-nvidia-chip-export-concerns-126111300101_1.html",
+     "via": "",
+     "published": "2026-11-13T03:21+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
+     "via": "",
+     "published": "2026-11-12T20:19+00:00",
+     "summary": "Senior White House officials are discussing whether Commerce Secretary Howard Lutnick should be pushed out amid a spy scandal surrounding Nvidia’s now-former CEO Jensen Huang, two people familiar with the situation said on Thursday. A growing number of lawmakers criticised Lutnick for the administration’s refusal to add dozens of Chinese companies to a key US trade blacklist, and over whether the "
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump sticks by Commerce Secretary Lutnick despite Nvidia inaction",
+     "url": "https://www.axios.com/2026/11/12/trump-lutnick-nvidia",
+     "via": "",
+     "published": "2026-11-12T16:03+00:00",
+     "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "White House weighs Commerce Secretary Lutnick's ouster amid Nvidia export concerns, sources say",
+     "url": "https://www.reuters.com/world/china/republican-senator-urges-ban-chinese-chipmaker-cxmt-us-market-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T14:23+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
@@ -295,216 +354,7 @@
      "summary": ""
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Al Jazeera",
-    "Euronews",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-13T02:15+00:00",
-   "earliest": "2026-11-12T18:32+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Widespread outage hits Microsoft Outlook, disrupts services for users",
-     "url": "https://www.business-standard.com/world-news/widespread-outage-hits-microsoft-outlook-disrupts-services-for-users-126111300037_1.html",
-     "via": "",
-     "published": "2026-11-13T02:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Microsoft outage hits tens of thousands of users",
-     "url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-12T21:03+00:00",
-     "summary": "Microsoft says servers unexpectedly went offline, disrupting Outlook email, Teams, Copilot and other services."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Microsoft outage hits Outlook, Teams and Copilot, disrupting thousands",
-     "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands",
-     "via": "",
-     "published": "2026-11-12T19:38+00:00",
-     "summary": "Microsoft services outage: thousands of users report issues with Outlook, Teams and Copilot. The company is working to restore services."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
-     "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T18:32+00:00",
-     "summary": ""
-    }
-   ],
    "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "The Korea Herald",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-12T22:03+00:00",
-   "earliest": "2026-11-12T01:53+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
-     "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a",
-     "via": "",
-     "published": "2026-11-12T22:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Seoul shares turn lower amid Nvidia controversies despite Wall Street rally",
-     "url": "https://www.koreaherald.com/article/10934707",
-     "via": "",
-     "published": "2026-11-12T09:48+00:00",
-     "summary": "South Korean shares turned lower Thursday despite overnight gains on Wall Street driven by a tech rally amid escalating controversies over Nvidia CEO Jensen Huang. After opening 0.2 percent higher, the benchmark Korea Composite Stock Price Index (KOSPI) turned negative, losing 11.32 points, or 0.21 percent, to 5,364.04 as of 9:15 a.m. Overnight on Wall Street, three major stock indexes finished hi"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Wall Street ends lower as Nvidia CEO resigns; US yields up",
-     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T01:53+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "Africanews",
-     "Euronews"
-    ]
-   ],
-   "outlets": [
-    "Africanews",
-    "Euronews",
-    "Financial Times",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-12T16:10+00:00",
-   "earliest": "2026-11-12T08:24+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
-     "url": "http://www.africanews.com/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike/",
-     "via": "",
-     "published": "2026-11-12T16:10+00:00",
-     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
-     "url": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike",
-     "via": "",
-     "published": "2026-11-12T16:10+00:00",
-     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Israel strikes Gaza hospital despite ceasefire",
-     "url": "https://www.ft.com/content/2a3d0391-c4d9-4195-af36-b5ee66415cd9?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-12T12:03+00:00",
-     "summary": "Doctor and patients among six killed in attack on Nasser medical complex"
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Israel confirms target of Gaza hospital complex strike was commander of Hamas's Khan Younis Brigade",
-     "url": "https://www.timesofisrael.com/liveblog_entry/israel-confirms-target-of-gaza-hospital-complex-strike-was-commander-of-hamass-khan-younis-brigade/",
-     "via": "",
-     "published": "2026-11-12T08:24+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "VnExpress International",
-    "Business Standard",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-12T07:03+00:00",
-   "earliest": "2026-11-10T06:16+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Elon Musk says hiring Jensen Huang would be 'an honor'",
-     "url": "https://e.vnexpress.net/news/business/billionaires/elon-musk-says-hiring-jensen-huang-would-be-an-honor-5143825.html",
-     "via": "",
-     "published": "2026-11-12T07:03+00:00",
-     "summary": "World's richest man Elon Musk has said it would be an honor to hire Nvidia CEO Jensen Huang, as the chipmaker's board meets to decide the future of its leader."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Elon Musk says it would be an honor to hire Nvidia's Jensen Huang",
-     "url": "https://www.business-standard.com/world-news/elon-musk-says-it-would-be-an-honor-to-hire-nvidia-s-jensen-huang-126111200423_1.html",
-     "via": "",
-     "published": "2026-11-12T06:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Elon Musk and Michael Miebach to join Trump at Apec in Shenzhen. What about Jensen Huang?",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3373901/top-us-business-leaders-including-elon-musk-set-join-donald-trump-apec-china",
-     "via": "",
-     "published": "2026-11-10T06:16+00:00",
-     "summary": "Top US business leaders, including Tesla and SpaceX chief Elon Musk and Mastercard’s Michael Miebach, are expected to join Donald Trump’s delegation to China for next week’s Apec summit, the South China Morning Post understands. Nvidia chief Jensen Huang had been in talks to join, but his participation is now in doubt amid a controversy that has rocked his company and the wider tech industry. Sour"
-    }
-   ],
-   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -550,7 +400,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -596,52 +446,7 @@
      "summary": "Barrick Mining announced Tuesday that its planned new publicly listed company will be named American Barrick Gold Corporation."
     }
    ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-12T23:52+00:00",
-   "earliest": "2026-11-12T17:49+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-     "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-12T23:52+00:00",
-     "summary": "Saudi-led coalition intercepts flurry of suspected Houthi drones targeting oil and military infrastructure."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline",
-     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west-oil-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T20:18+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Yemen’s Houthis say they targeted Saudi East-West pipeline, oil facility",
-     "url": "https://www.timesofisrael.com/liveblog_entry/yemens-houthis-say-they-targeted-saudi-east-west-pipeline-oil-facility/",
-     "via": "",
-     "published": "2026-11-12T17:49+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -686,7 +491,7 @@
      "summary": "Three individuals were charged in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing cod"
     }
    ],
-   "id": 9
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -730,7 +535,93 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Africanews",
+     "Euronews"
+    ]
+   ],
+   "outlets": [
+    "Africanews",
+    "Euronews",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-12T16:10+00:00",
+   "earliest": "2026-11-12T08:24+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
+     "url": "http://www.africanews.com/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike/",
+     "via": "",
+     "published": "2026-11-12T16:10+00:00",
+     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
+     "url": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike",
+     "via": "",
+     "published": "2026-11-12T16:10+00:00",
+     "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Israel confirms target of Gaza hospital complex strike was commander of Hamas's Khan Younis Brigade",
+     "url": "https://www.timesofisrael.com/liveblog_entry/israel-confirms-target-of-gaza-hospital-complex-strike-was-commander-of-hamass-khan-younis-brigade/",
+     "via": "",
+     "published": "2026-11-12T08:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-13T06:03+00:00",
+   "earliest": "2026-11-12T22:25+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Microsoft races to restore services after global outage",
+     "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-13T06:03+00:00",
+     "summary": "Issue affecting Outlook, Teams and other services not caused by ‘malicious or cyber activity’, company says"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "'No indication' Outlook outage caused by cyber attack, Microsoft says",
+     "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outage-teams-outlook-copilot/107381196",
+     "via": "",
+     "published": "2026-11-12T22:25+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -765,7 +656,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -800,7 +691,42 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-12T19:29+00:00",
+   "earliest": "2026-11-12T18:32+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for thousands",
+     "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outlook-outage/107380958",
+     "via": "",
+     "published": "2026-11-12T19:29+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Microsoft outage drags on for hours, disrupting Outlook, Teams for businesses and governments",
+     "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T18:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -835,7 +761,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -870,42 +796,42 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "Business Standard"
+    "Deutsche Welle",
+    "VnExpress International"
    ],
    "regions": [
-    "East Asia",
-    "South Asia"
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-12T14:15+00:00",
-   "earliest": "2026-11-12T13:55+00:00",
+   "latest": "2026-11-12T15:08+00:00",
+   "earliest": "2026-11-12T14:04+00:00",
    "items": [
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-     "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Jensen Huang: Spy row, second affair leaves Nvidia without its rockstar CEO",
+     "url": "https://www.dw.com/en/jensen-huang-spy-row-second-affair-leaves-nvidia-without-its-rockstar-ceo/a-79926972?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-11-12T14:15+00:00",
-     "summary": "Nvidia co-founder Jensen Huang resigned as president, CEO and board member on November 12, effective immediately, the company's board said. He had led the company for 33 years, since its founding."
+     "published": "2026-11-12T15:08+00:00",
+     "summary": "Jensen Huang, who built Nvidia into the world’s dominant AI chipmaker, is stepping down as CEO after a second affair came to light. DW examines how losing its figurehead will affect the firm and the US-China AI race."
     },
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia CEO Jensen Huang resigns; CFO Kress to take over as interim chief",
-     "url": "https://www.business-standard.com/world-news/nvidia-s-jensen-huang-resigns-as-president-ceo-with-immediate-effect-126111201571_1.html",
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Nvidia CEO Jensen Huang resigns",
+     "url": "https://e.vnexpress.net/news/business/companies/nvidia-ceo-jensen-huang-resigns-5144040.html",
      "via": "",
-     "published": "2026-11-12T13:55+00:00",
-     "summary": ""
+     "published": "2026-11-12T14:04+00:00",
+     "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 15
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -940,7 +866,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -975,7 +901,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1008,6 +934,41 @@
      "via": "",
      "published": "2026-11-11T15:17+00:00",
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
+    }
+   ],
+   "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "VnExpress International",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-12T07:03+00:00",
+   "earliest": "2026-11-12T06:52+00:00",
+   "items": [
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Elon Musk says hiring Jensen Huang would be 'an honor'",
+     "url": "https://e.vnexpress.net/news/business/billionaires/elon-musk-says-hiring-jensen-huang-would-be-an-honor-5143825.html",
+     "via": "",
+     "published": "2026-11-12T07:03+00:00",
+     "summary": "World's richest man Elon Musk has said it would be an honor to hire Nvidia CEO Jensen Huang, as the chipmaker's board meets to decide the future of its leader."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Elon Musk says it would be an honor to hire Nvidia's Jensen Huang",
+     "url": "https://www.business-standard.com/world-news/elon-musk-says-it-would-be-an-honor-to-hire-nvidia-s-jensen-huang-126111200423_1.html",
+     "via": "",
+     "published": "2026-11-12T06:52+00:00",
+     "summary": ""
     }
    ],
    "id": 18
@@ -1261,71 +1222,35 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "The Hindu"
+    "Business Standard",
+    "Livemint / Economic Times"
    ],
    "regions": [
-    "Middle East",
     "South Asia"
    ],
-   "latest": "2026-11-10T09:09+00:00",
-   "earliest": "2026-11-10T04:48+00:00",
+   "latest": "2026-11-13T03:43+00:00",
+   "earliest": "2026-11-13T01:05+00:00",
    "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Hormuz LNG traffic hits highest in October since Iran war began",
-     "url": "https://english.alarabiya.net/amp/News/gulf/2026/11/10/hormuz-lng-traffic-hits-highest-in-october-since-iran-war-began",
-     "via": "",
-     "published": "2026-11-10T09:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Strait of Hormuz LNG traffic hits highest in October since Iran war began",
-     "url": "https://www.thehindu.com/business/Economy/strait-of-hormuz-lng-traffic-hits-highest-in-october-since-iran-war-began/article71684981.ece",
-     "via": "",
-     "published": "2026-11-10T04:48+00:00",
-     "summary": "October exports ‌were ⁠the highest since February when the war ⁠started and were up from September’s corresponding tally of 23 vessels exiting the strait"
-    }
-   ],
-   "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Business Standard"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-11-10T07:31+00:00",
-   "earliest": "2026-11-10T05:02+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "3 workers die at Tata's India iPhone parts factory during maintenance work",
-     "url": "https://asia.nikkei.com/spotlight/supply-chain/3-workers-die-at-tata-s-india-iphone-parts-factory-during-maintenance-work",
-     "via": "",
-     "published": "2026-11-10T07:31+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Business Standard",
      "region": "South Asia",
-     "title": "3 workers die of asphyxiation at Tata's iPhone parts factory in Tamil Nadu",
-     "url": "https://www.business-standard.com/companies/news/3-workers-die-of-asphyxiation-at-tata-s-iphone-parts-factory-in-tamil-nadu-126111000129_1.html",
+     "title": "Jensen Huang to forfeit $108 million in unvested Nvidia stock awards",
+     "url": "https://www.business-standard.com/world-news/jensen-huang-to-forfeit-108-million-in-unvested-nvidia-stock-awards-126111300257_1.html",
      "via": "",
-     "published": "2026-11-10T05:02+00:00",
+     "published": "2026-11-13T03:43+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Jensen Huang forfeits $108 million in unvested Nvidia equity",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/jensen-huang-forfeits-108-million-in-unvested-nvidia-equity/articleshow/135785775.cms",
+     "via": "",
+     "published": "2026-11-13T01:05+00:00",
+     "summary": "The relinquished awards represent roughly 0.08% of his net worth, according to the Bloomberg Billionaires Index, which puts his fortune at $138.4 billion."
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1359,7 +1284,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1393,41 +1318,41 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Seatrade Maritime"
+    "The Hindu",
+    "Business Standard"
    ],
    "regions": [
-    "Europe"
+    "South Asia"
    ],
-   "latest": "2026-11-12T16:27+00:00",
-   "earliest": "2026-11-12T03:14+00:00",
+   "latest": "2026-11-12T15:48+00:00",
+   "earliest": "2026-11-12T12:50+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
-     "url": "https://www.reuters.com/world/middle-east/two-oil-tankers-disabled-by-explosions-strait-hormuz-irgc-says-2026-11-12/",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Oil India net profit more the doubles on better realisations, higher output",
+     "url": "https://www.thehindu.com/business/Industry/oil-india-net-profit-more-the-doubles-on-better-realisations-higher-output/article71694370.ece",
      "via": "",
-     "published": "2026-11-12T16:27+00:00",
-     "summary": ""
+     "published": "2026-11-12T15:48+00:00",
+     "summary": "Oil India declared an interim dividend of ₹7 per equity share."
     },
     {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz",
-     "url": "https://www.seatrade-maritime.com/security/four-injured-on-sinokor-vlcc-as-multiple-tankers-attacked-in-hormuz",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Oil India Q2 net profit rises 53% to ₹2,521 crore on higher realisation",
+     "url": "https://www.business-standard.com/companies/quarterly-results/oil-india-q2-net-profit-rises-53-to-2-521-crore-on-higher-realisation-126111201419_1.html",
      "via": "",
-     "published": "2026-11-12T03:14+00:00",
-     "summary": "Iran continues daily attacks on commercial shipping in the Strait of Hormuz with at least Sinokor vessels struck since July"
+     "published": "2026-11-12T12:50+00:00",
+     "summary": ""
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1461,7 +1386,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1495,7 +1420,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1529,7 +1454,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1563,7 +1488,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 33
   }
  ]
 }
