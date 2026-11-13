@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-13T00:41:56+00:00",
+ "fetched_at": "2026-11-13T01:28:56+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 757,
+ "items_read": 755,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 28,
+   "items": 26,
    "errors": []
   },
   "Ecofin Agency": {
@@ -37,12 +37,12 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,7 +52,7 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "The Korea Herald": {
@@ -62,7 +62,7 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Reuters": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 9,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 26,
+   "items": 24,
    "errors": []
   },
   "RNZ": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,118 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "Associated Press",
+    "The Korea Herald",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-13T00:23+00:00",
+   "earliest": "2026-11-12T01:53+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Stocks Fall as Huang Resigns, Nvidia Turns to CFO",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-12-2026-video",
+     "via": "",
+     "published": "2026-11-13T00:23+00:00",
+     "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Ross Gerber, Gerber Kawasaki Wealth and Investment Management Co-Founder, President & CEO, Emily Kilcrease, Center for a New American Security Senior Fellow & Director, Nell Minow, ValueEdge Advisors Chair, Carolyn Everson, Pe"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
+     "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a",
+     "via": "",
+     "published": "2026-11-12T22:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Seoul shares turn lower amid Nvidia controversies despite Wall Street rally",
+     "url": "https://www.koreaherald.com/article/10934707",
+     "via": "",
+     "published": "2026-11-12T09:48+00:00",
+     "summary": "South Korean shares turned lower Thursday despite overnight gains on Wall Street driven by a tech rally amid escalating controversies over Nvidia CEO Jensen Huang. After opening 0.2 percent higher, the benchmark Korea Composite Stock Price Index (KOSPI) turned negative, losing 11.32 points, or 0.21 percent, to 5,364.04 as of 9:15 a.m. Overnight on Wall Street, three major stock indexes finished hi"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Wall Street edges up, Nvidia drops after CEO resigns",
+     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T01:53+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Axios",
+    "Livemint / Economic Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-12T20:35+00:00",
+   "earliest": "2026-11-12T15:44+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Tim Cook for Nvidia CEO? Trump and the world ponder who's next",
+     "url": "https://www.reuters.com/legal/transactional/tim-cook-nvidia-ceo-trump-world-ponder-whos-next-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T20:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump pitches Apple's Tim Cook as new Nvidia CEO",
+     "url": "https://www.axios.com/2026/11/12/trump-jensen-huang-resign-tim-cook-apple",
+     "via": "",
+     "published": "2026-11-12T16:10+00:00",
+     "summary": "President Trump is backing Apple executive chairman Tim Cook to replace tech giant Jensen Huang after Huang resigned as Nvidia CEO, though it's unclear whether he meant it as a joke. The big picture: Trump didn't weigh in on the controversy surrounding Huang's departure following alleged affairs with a suspected Chinese spy and an Nvidia executive, instead calling Huang \"a Legend\" in his Truth Soc"
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Trump endorses former Apple CEO Tim Cook to replace Jensen Huang as Nvidia CEO: ‘A legend replaces a legend’",
+     "url": "https://www.livemint.com/news/trump-endorses-former-apple-ceo-tim-cook-to-replace-jensen-huang-as-nvidia-ceo-a-legend-replaces-a-legend-11794498668369.html",
+     "via": "",
+     "published": "2026-11-12T15:55+00:00",
+     "summary": "US President Donald Trump has endorsed former Apple Inc. chief executive Tim Cook as the CEO of Nvidia."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
+     "url": "https://www.business-standard.com/world-news/iran-deal-not-needed-trump-asks-vance-to-focus-on-domestic-corruption-126111201547_1.html",
+     "via": "",
+     "published": "2026-11-12T15:44+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [
@@ -310,160 +422,7 @@
      "summary": ""
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "The Korea Herald",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-12T22:03+00:00",
-   "earliest": "2026-11-12T01:53+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
-     "url": "https://apnews.com/article/stock-markets-oil-ai-earnings-nvidia-8bf08407eafe1655ed73112f7494029a",
-     "via": "",
-     "published": "2026-11-12T22:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Seoul shares turn lower amid Nvidia controversies despite Wall Street rally",
-     "url": "https://www.koreaherald.com/article/10934707",
-     "via": "",
-     "published": "2026-11-12T09:48+00:00",
-     "summary": "South Korean shares turned lower Thursday despite overnight gains on Wall Street driven by a tech rally amid escalating controversies over Nvidia CEO Jensen Huang. After opening 0.2 percent higher, the benchmark Korea Composite Stock Price Index (KOSPI) turned negative, losing 11.32 points, or 0.21 percent, to 5,364.04 as of 9:15 a.m. Overnight on Wall Street, three major stock indexes finished hi"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Wall Street edges up, Nvidia drops after CEO resigns",
-     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T01:53+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Livemint / Economic Times",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-12T21:27+00:00",
-   "earliest": "2026-11-12T15:40+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Equities close lower as Nvidia drop outweighs energy gains",
-     "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T21:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US stocks: US market closes lower as Nvidia slide outweighs energy rally",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-ends-lower-as-energy-gains-offset-nvidia-slide/articleshow/135782290.cms",
-     "via": "",
-     "published": "2026-11-12T21:15+00:00",
-     "summary": "US stocks closed lower as Nvidia’s decline following CEO Jensen Huang’s departure outweighed a rally in energy shares. The S&P 500 fell 0.34%, the Nasdaq lost 0.40% and the Dow declined 0.36%, while retail investors made a record $111 million opening bid for Nvidia shares."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "US equities close lower as Nvidia drop outweighs energy gains",
-     "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-fall-as-nvidia-ceos-exit-rattles-ai-stocks",
-     "via": "",
-     "published": "2026-11-12T15:40+00:00",
-     "summary": "The Dow Jones Industrial Average fell 190.29 points, or 0.36%, to 52,296.20."
-    }
-   ],
    "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Business Standard"
-    ]
-   ],
-   "outlets": [
-    "Reuters",
-    "Axios",
-    "Livemint / Economic Times",
-    "Business Standard"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-12T16:12+00:00",
-   "earliest": "2026-11-12T15:44+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
-     "url": "https://www.reuters.com/world/trump-says-ex-apple-ceo-cook-should-replace-huang-nvidia-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T16:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump pitches Apple's Tim Cook as new Nvidia CEO",
-     "url": "https://www.axios.com/2026/11/12/trump-jensen-huang-resign-tim-cook-apple",
-     "via": "",
-     "published": "2026-11-12T16:10+00:00",
-     "summary": "President Trump is backing Apple executive chairman Tim Cook to replace tech giant Jensen Huang after Huang resigned as Nvidia CEO, though it's unclear whether he meant it as a joke. The big picture: Trump didn't weigh in on the controversy surrounding Huang's departure following alleged affairs with a suspected Chinese spy and an Nvidia executive, instead calling Huang \"a Legend\" in his Truth Soc"
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Trump endorses former Apple CEO Tim Cook to replace Jensen Huang as Nvidia CEO: ‘A legend replaces a legend’",
-     "url": "https://www.livemint.com/news/trump-endorses-former-apple-ceo-tim-cook-to-replace-jensen-huang-as-nvidia-ceo-a-legend-replaces-a-legend-11794498668369.html",
-     "via": "",
-     "published": "2026-11-12T15:55+00:00",
-     "summary": "US President Donald Trump has endorsed former Apple Inc. chief executive Tim Cook as the CEO of Nvidia."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
-     "url": "https://www.business-standard.com/world-news/iran-deal-not-needed-trump-asks-vance-to-focus-on-domestic-corruption-126111201547_1.html",
-     "via": "",
-     "published": "2026-11-12T15:44+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -509,7 +468,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -555,15 +514,15 @@
      "summary": "Top US business leaders, including Tesla and SpaceX chief Elon Musk and Mastercard’s Michael Miebach, are expected to join Donald Trump’s delegation to China for next week’s Apec summit, the South China Morning Post understands. Nvidia chief Jensen Huang had been in talks to join, but his participation is now in doubt amid a controversy that has rocked his company and the wider tech industry. Sour"
     }
    ],
-   "id": 6
+   "id": 5
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Africanews",
-    "Associated Press",
-    "ABC News (Australia)"
+    "ABC News (Australia)",
+    "Associated Press"
    ],
    "regions": [
     "Africa",
@@ -571,7 +530,7 @@
     "Oceania"
    ],
    "latest": "2026-11-11T22:54+00:00",
-   "earliest": "2026-11-11T18:03+00:00",
+   "earliest": "2026-11-11T05:14+00:00",
    "items": [
     {
      "outlet": "Africanews",
@@ -583,15 +542,6 @@
      "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Housing protests sweep Madrid and Barcelona after Spain’s workers strike, with clashes erupting",
-     "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
-     "via": "",
-     "published": "2026-11-11T22:20+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "ABC News (Australia)",
      "region": "Oceania",
      "title": "Four million stage general strike in Spain over national housing crisis",
@@ -599,9 +549,18 @@
      "via": "",
      "published": "2026-11-11T18:03+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Housing protests sweep Madrid and Barcelona after Spain’s workers strike, with clashes erupting",
+     "url": "https://apnews.com/article/spain-strike-housing-elections-pedro-sanchez-68a061a72d7cdf842b7803a816e46ef0",
+     "via": "",
+     "published": "2026-11-11T05:14+00:00",
+     "summary": ""
     }
    ],
-   "id": 7
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -647,7 +606,7 @@
      "summary": "Barrick Mining announced Tuesday that its planned new publicly listed company will be named American Barrick Gold Corporation."
     }
    ],
-   "id": 8
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -692,7 +651,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -737,7 +696,7 @@
      "summary": "Microsoft services outage: thousands of users report issues with Outlook, Teams and Copilot. The company is working to restore services."
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 3,
@@ -782,7 +741,7 @@
      "summary": "Three individuals were charged in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing cod"
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 3,
@@ -826,7 +785,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -859,6 +818,41 @@
      "via": "",
      "published": "2026-11-11T01:48+00:00",
      "summary": ""
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-12T21:27+00:00",
+   "earliest": "2026-11-12T15:40+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Equities close lower as Nvidia drop outweighs energy gains",
+     "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T21:27+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "US equities close lower as Nvidia drop outweighs energy gains",
+     "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-fall-as-nvidia-ceos-exit-rattles-ai-stocks",
+     "via": "",
+     "published": "2026-11-12T15:40+00:00",
+     "summary": "The Dow Jones Industrial Average fell 190.29 points, or 0.36%, to 52,296.20."
     }
    ],
    "id": 13
