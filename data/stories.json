@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-14T00:28:29+00:00",
+ "fetched_at": "2026-11-14T01:03:37+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 794,
+ "outlets_read": 42,
+ "items_read": 790,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,17 +22,17 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 39,
+   "items": 40,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 49,
+   "items": 48,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,7 +52,7 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "The Korea Herald": {
@@ -74,7 +74,7 @@
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Deutsche Welle": {
@@ -94,7 +94,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Al Jazeera": {
@@ -109,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Amwaj.media": {
@@ -129,7 +129,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Axios": {
@@ -166,7 +166,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "RNZ": {
@@ -196,7 +196,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "The Indian Express": {
@@ -223,17 +223,19 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 6,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://en.mercopress.com/rss/: ParseError: syntax error: line 1, column 0"
+   ]
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 36,
+   "items": 35,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,100 +246,13 @@
  },
  "clusters": [
   {
-   "independent_outlets": 7,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Axios",
-    "Al Jazeera",
-    "Bloomberg",
-    "Reuters",
-    "Deutsche Welle",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-14T00:22+00:00",
-   "earliest": "2026-11-13T21:04+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "All passengers and crew on New Orleans paddleboat survive crash with tanker on Mississippi River",
-     "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764",
-     "via": "",
-     "published": "2026-11-14T00:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
-     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
-     "via": "",
-     "published": "2026-11-13T23:03+00:00",
-     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after an Atlantic Asphalt tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press con"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
-     "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-13T22:47+00:00",
-     "summary": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video",
-     "via": "",
-     "published": "2026-11-13T22:33+00:00",
-     "summary": "A tanker collided with a docked river cruise ship on the Mississippi River in New Orleans, leaving the smaller vessel partly submerged and setting off a rescue operation. (Source: Bloomberg)"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Freighter collides with cruise ship in New Orleans, passengers in the water",
-     "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T22:15+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
-     "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-13T21:31+00:00",
-     "summary": "A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Tanker collides with New Orleans river cruise carrying 129 passengers, rescue operation underway",
-     "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-     "via": "",
-     "published": "2026-11-13T21:04+00:00",
-     "summary": "A tanker struck and partially submerged a New Orleans river cruise carrying around 129 passengers. Multiple people were rescued as search-and-rescue operations continued."
-    }
-   ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
     "South China Morning Post",
     "Financial Times",
-    "Bloomberg",
-    "Axios"
+    "Bloomberg"
    ],
    "regions": [
     "China",
@@ -345,7 +260,7 @@
     "North America"
    ],
    "latest": "2026-11-13T21:24+00:00",
-   "earliest": "2026-11-11T18:03+00:00",
+   "earliest": "2026-11-13T13:44+00:00",
    "items": [
     {
      "outlet": "Associated Press",
@@ -382,18 +297,9 @@
      "via": "",
      "published": "2026-11-13T13:44+00:00",
      "summary": "Treasury Secretary Scott Bessent said his agency had long supported putting Megaspeed International on a trade blacklist but that responsibility for doing so rested with Commerce Secretary Howard Lutnick."
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Scoop: Inside Bessent's Situation Room confrontation with Lutnick over China chip security",
-     "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
-     "via": "",
-     "published": "2026-11-11T18:03+00:00",
-     "summary": "Treasury Secretary Scott Bessent confronted Commerce Secretary Howard Lutnick over a failure to place Nvidia customer Megaspeed on a list of companies that pose national security concerns, sources familiar told Axios. Why it matters: The Commerce Department oversees the export of sensitive U.S. technologies and Lutnick's actions — or lack thereof — are increasingly under scrutiny following revelat"
     }
    ],
-   "id": 2
+   "id": 1
   },
   {
    "independent_outlets": 3,
@@ -437,6 +343,52 @@
      "via": "",
      "published": "2026-11-12T18:12+00:00",
      "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Bloomberg",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-13T22:47+00:00",
+   "earliest": "2026-11-13T21:04+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
+     "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-13T22:47+00:00",
+     "summary": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video",
+     "via": "",
+     "published": "2026-11-13T22:33+00:00",
+     "summary": "A tanker collided with a docked river cruise ship on the Mississippi River in New Orleans, leaving the smaller vessel partly submerged and setting off a rescue operation. (Source: Bloomberg)"
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Tanker collides with New Orleans river cruise carrying 129 passengers, rescue operation underway",
+     "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+     "via": "",
+     "published": "2026-11-13T21:04+00:00",
+     "summary": "A tanker struck and partially submerged a New Orleans river cruise carrying around 129 passengers. Multiple people were rescued as search-and-rescue operations continued."
     }
    ],
    "id": 3
@@ -793,41 +745,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Deutsche Welle",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-13T22:57+00:00",
-   "earliest": "2026-11-13T22:02+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "FAA issues US national ground stop on all flights",
-     "url": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-13T22:57+00:00",
-     "summary": "The US federal aviation regulator announced a nationwide ground stop for all airports. Federal officials blamed a communications outage and said technicians are investigating."
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-13T22:02+00:00",
-     "summary": "US air regulators have issued a nationwide ground stop for departing flights, citing a communications problem."
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Business Standard",
     "Euronews"
    ],
@@ -857,7 +774,7 @@
      "summary": "Huang's decision to exit Nvidia 33 years after founding the company came as reports emerged that he had had a relationship with an executive at the firm. He had already been facing scrutiny over reports of an affair with an alleged spy."
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -892,7 +809,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -927,7 +844,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -962,7 +879,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -997,7 +914,7 @@
      "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1032,7 +949,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1067,7 +984,7 @@
      "summary": "Construction advances on a major West African deposit targeting 320,000 oz. annually as development costs climb 13%."
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1102,7 +1019,7 @@
      "summary": "The Commerce and Finance ministries have reportedly discussed the dispute over customs duties on bulk Scotch whisky imports under the India-UK FTA. The DRI maintains that the reduced 75% duty applies only to finished Scotch, not concentrates, leaving several shipments held up at Indian ports."
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1137,7 +1054,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1172,7 +1089,7 @@
      "summary": "Ousted Nvidia CEO Jensen Huang ​had an intimate relationship with a second employee, according to two people ‌familiar with the matter, Reuters has learned."
     }
    ],
-   "id": 22
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1207,7 +1124,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1242,7 +1159,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1277,7 +1194,7 @@
      "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1312,7 +1229,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1347,7 +1264,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1382,7 +1299,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1417,7 +1334,7 @@
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1452,7 +1369,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1487,7 +1404,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1522,7 +1439,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1557,7 +1474,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1592,7 +1509,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1627,7 +1544,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1662,7 +1579,75 @@
      "summary": ""
     }
    ],
+   "id": 35
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Axios"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-14T00:22+00:00",
+   "earliest": "2026-11-13T23:03+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "All passengers and crew on New Orleans paddleboat survive crash with tanker on Mississippi River",
+     "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764",
+     "via": "",
+     "published": "2026-11-14T00:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
+     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
+     "via": "",
+     "published": "2026-11-13T23:03+00:00",
+     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after an Atlantic Asphalt tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press con"
+    }
+   ],
    "id": 36
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-13T22:15+00:00",
+   "earliest": "2026-11-13T21:31+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Freighter collides with cruise ship in New Orleans, passengers in the water",
+     "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T22:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+     "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-13T21:31+00:00",
+     "summary": "A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for."
+    }
+   ],
+   "id": 37
   },
   {
    "independent_outlets": 2,
@@ -1696,7 +1681,7 @@
      "summary": ""
     }
    ],
-   "id": 37
+   "id": 38
   },
   {
    "independent_outlets": 2,
@@ -1730,7 +1715,7 @@
      "summary": ""
     }
    ],
-   "id": 38
+   "id": 39
   },
   {
    "independent_outlets": 2,
@@ -1764,7 +1749,7 @@
      "summary": "At least five other restaurants of the fast-food chain have ceased operations in 2026."
     }
    ],
-   "id": 39
+   "id": 40
   },
   {
    "independent_outlets": 2,
@@ -1798,7 +1783,7 @@
      "summary": ""
     }
    ],
-   "id": 40
+   "id": 41
   },
   {
    "independent_outlets": 2,
@@ -1832,7 +1817,7 @@
      "summary": ""
     }
    ],
-   "id": 41
+   "id": 42
   },
   {
    "independent_outlets": 2,
@@ -1866,7 +1851,7 @@
      "summary": ""
     }
    ],
-   "id": 42
+   "id": 43
   },
   {
    "independent_outlets": 2,
@@ -1900,7 +1885,7 @@
      "summary": ""
     }
    ],
-   "id": 43
+   "id": 44
   }
  ]
 }
