@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-14T01:03:37+00:00",
+ "fetched_at": "2026-11-14T01:28:09+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 42,
- "items_read": 790,
+ "outlets_read": 43,
+ "items_read": 794,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 30,
+   "items": 28,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 40,
+   "items": 39,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 48,
+   "items": 50,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 47,
+   "items": 46,
    "errors": []
   },
   "DigiTimes": {
@@ -69,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "Financial Times": {
@@ -109,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,7 +124,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Bloomberg": {
@@ -156,7 +156,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 28,
+   "items": 27,
    "errors": []
   },
   "Australian Financial Review": {
@@ -166,7 +166,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "RNZ": {
@@ -186,17 +186,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 44,
+   "items": 45,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 16,
    "errors": []
   },
   "The Indian Express": {
@@ -223,14 +223,12 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 0,
-   "errors": [
-    "https://en.mercopress.com/rss/: ParseError: syntax error: line 1, column 0"
-   ]
+   "items": 6,
+   "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 35,
+   "items": 34,
    "errors": []
   },
   "Rio Times": {
@@ -246,13 +244,14 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
     "South China Morning Post",
     "Financial Times",
-    "Bloomberg"
+    "Bloomberg",
+    "Axios"
    ],
    "regions": [
     "China",
@@ -260,7 +259,7 @@
     "North America"
    ],
    "latest": "2026-11-13T21:24+00:00",
-   "earliest": "2026-11-13T13:44+00:00",
+   "earliest": "2026-11-11T18:03+00:00",
    "items": [
     {
      "outlet": "Associated Press",
@@ -297,6 +296,15 @@
      "via": "",
      "published": "2026-11-13T13:44+00:00",
      "summary": "Treasury Secretary Scott Bessent said his agency had long supported putting Megaspeed International on a trade blacklist but that responsibility for doing so rested with Commerce Secretary Howard Lutnick."
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Scoop: Inside Bessent's Situation Room confrontation with Lutnick over China chip security",
+     "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+     "via": "",
+     "published": "2026-11-11T18:03+00:00",
+     "summary": "Treasury Secretary Scott Bessent confronted Commerce Secretary Howard Lutnick over a failure to place Nvidia customer Megaspeed on a list of companies that pose national security concerns, sources familiar told Axios. Why it matters: The Commerce Department oversees the export of sensitive U.S. technologies and Lutnick's actions — or lack thereof — are increasingly under scrutiny following revelat"
     }
    ],
    "id": 1
@@ -675,16 +683,25 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "CBC News",
-    "The Hindu"
+    "The Hindu",
+    "CBC News"
    ],
    "regions": [
     "North America",
     "South Asia"
    ],
-   "latest": "2026-11-14T00:03+00:00",
-   "earliest": "2026-11-13T17:02+00:00",
+   "latest": "2026-11-14T01:18+00:00",
+   "earliest": "2026-11-14T00:03+00:00",
    "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Microsoft Outage updates: No ETA yet on full recovery, company says",
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+     "via": "",
+     "published": "2026-11-14T01:18+00:00",
+     "summary": "Microsoft services are beginning to come back online after a massive global outage left millions of users without access for nearly 18 hours"
+    },
     {
      "outlet": "CBC News",
      "region": "North America",
@@ -693,15 +710,6 @@
      "via": "",
      "published": "2026-11-14T00:03+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Microsoft Outage LIVE: Microsoft apologises for outage, says it was not linked to cyber or AI",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
-     "via": "",
-     "published": "2026-11-13T17:02+00:00",
-     "summary": "Microsoft services are beginning to come back online after a massive global outage left millions of users without access for nearly 18 hours"
     }
    ],
    "id": 10
@@ -745,6 +753,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "MINING.COM",
+    "Mining.com.au"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-13T22:36+00:00",
+   "earliest": "2026-11-13T01:30+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Capstone cuts copper outlook as restart slips",
+     "url": "https://www.mining.com/capstone-cuts-copper-outlook-as-restart-slips/",
+     "via": "",
+     "published": "2026-11-13T22:36+00:00",
+     "summary": "The company has lowered the bottom of its annual copper production forecast by 5,000 tonnes."
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Capstone Copper delays Pinto Valley restart, trims guidance",
+     "url": "https://mining.com.au/capstone-copper-delays-pinto-valley-restart-trims-guidance/",
+     "via": "",
+     "published": "2026-11-13T01:30+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Business Standard",
     "Euronews"
    ],
@@ -774,7 +817,7 @@
      "summary": "Huang's decision to exit Nvidia 33 years after founding the company came as reports emerged that he had had a relationship with an executive at the firm. He had already been facing scrutiny over reports of an affair with an alleged spy."
     }
    ],
-   "id": 12
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -809,7 +852,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -844,7 +887,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -879,7 +922,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -914,7 +957,7 @@
      "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
     }
    ],
-   "id": 16
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -949,7 +992,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -984,7 +1027,7 @@
      "summary": "Construction advances on a major West African deposit targeting 320,000 oz. annually as development costs climb 13%."
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1019,7 +1062,7 @@
      "summary": "The Commerce and Finance ministries have reportedly discussed the dispute over customs duties on bulk Scotch whisky imports under the India-UK FTA. The DRI maintains that the reduced 75% duty applies only to finished Scotch, not concentrates, leaving several shipments held up at Indian ports."
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1054,7 +1097,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1089,7 +1132,7 @@
      "summary": "Ousted Nvidia CEO Jensen Huang ​had an intimate relationship with a second employee, according to two people ‌familiar with the matter, Reuters has learned."
     }
    ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1124,7 +1167,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1159,7 +1202,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1194,7 +1237,7 @@
      "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
     }
    ],
-   "id": 24
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1229,7 +1272,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1264,7 +1307,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1299,7 +1342,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 27
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1334,7 +1377,7 @@
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
     }
    ],
-   "id": 28
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1369,7 +1412,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1404,7 +1447,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1439,7 +1482,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1474,7 +1517,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1509,7 +1552,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1544,7 +1587,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1579,21 +1622,30 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 36
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Axios"
+    "Axios",
+    "Associated Press"
    ],
    "regions": [
     "North America"
    ],
-   "latest": "2026-11-14T00:22+00:00",
-   "earliest": "2026-11-13T23:03+00:00",
+   "latest": "2026-11-14T01:17+00:00",
+   "earliest": "2026-11-14T00:22+00:00",
    "items": [
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
+     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
+     "via": "",
+     "published": "2026-11-14T01:17+00:00",
+     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
+    },
     {
      "outlet": "Associated Press",
      "region": "North America",
@@ -1602,18 +1654,9 @@
      "via": "",
      "published": "2026-11-14T00:22+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
-     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
-     "via": "",
-     "published": "2026-11-13T23:03+00:00",
-     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after an Atlantic Asphalt tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press con"
     }
    ],
-   "id": 36
+   "id": 37
   },
   {
    "independent_outlets": 2,
@@ -1647,7 +1690,7 @@
      "summary": "A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for."
     }
    ],
-   "id": 37
+   "id": 38
   },
   {
    "independent_outlets": 2,
@@ -1681,7 +1724,7 @@
      "summary": ""
     }
    ],
-   "id": 38
+   "id": 39
   },
   {
    "independent_outlets": 2,
@@ -1715,7 +1758,7 @@
      "summary": ""
     }
    ],
-   "id": 39
+   "id": 40
   },
   {
    "independent_outlets": 2,
@@ -1749,7 +1792,7 @@
      "summary": "At least five other restaurants of the fast-food chain have ceased operations in 2026."
     }
    ],
-   "id": 40
+   "id": 41
   },
   {
    "independent_outlets": 2,
@@ -1783,7 +1826,7 @@
      "summary": ""
     }
    ],
-   "id": 41
+   "id": 42
   },
   {
    "independent_outlets": 2,
@@ -1817,7 +1860,7 @@
      "summary": ""
     }
    ],
-   "id": 42
+   "id": 43
   },
   {
    "independent_outlets": 2,
@@ -1851,7 +1894,7 @@
      "summary": ""
     }
    ],
-   "id": 43
+   "id": 44
   },
   {
    "independent_outlets": 2,
@@ -1885,7 +1928,7 @@
      "summary": ""
     }
    ],
-   "id": 44
+   "id": 45
   }
  ]
 }
