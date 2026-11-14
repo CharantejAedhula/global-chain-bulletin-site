@@ -1,21 +1,19 @@
 {
- "fetched_at": "2026-11-13T20:39:23+00:00",
+ "fetched_at": "2026-11-14T00:28:29+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 42,
- "items_read": 784,
+ "outlets_read": 43,
+ "items_read": 794,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 5,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
@@ -24,17 +22,17 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 40,
+   "items": 39,
    "errors": []
   },
   "Yicai Global": {
@@ -44,17 +42,17 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 50,
+   "items": 49,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
@@ -76,25 +74,23 @@
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 10,
+   "items": 5,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 0,
-   "errors": [
-    "https://www.hellenicshippingnews.com/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 17,
+   "errors": []
   },
   "Seatrade Maritime": {
    "region": "Europe",
@@ -108,12 +104,12 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 22,
+   "items": 24,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Amwaj.media": {
@@ -128,29 +124,29 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 25,
+   "items": 22,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 23,
+   "items": 19,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 13,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 25,
+   "items": 27,
    "errors": []
   },
   "gCaptain": {
@@ -160,7 +156,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 31,
+   "items": 28,
    "errors": []
   },
   "Australian Financial Review": {
@@ -175,7 +171,7 @@
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Interfax": {
@@ -195,18 +191,20 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 37,
+   "items": 44,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 8,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -215,12 +213,12 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 12,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 21,
+   "items": 19,
    "errors": []
   },
   "MercoPress": {
@@ -230,12 +228,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 33,
+   "items": 36,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Newsroom Panama": {
@@ -246,22 +244,118 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 7,
    "same_headline_groups": [],
    "outlets": [
-    "South China Morning Post",
     "Associated Press",
+    "Axios",
+    "Al Jazeera",
+    "Bloomberg",
+    "Reuters",
+    "Deutsche Welle",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-14T00:22+00:00",
+   "earliest": "2026-11-13T21:04+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "All passengers and crew on New Orleans paddleboat survive crash with tanker on Mississippi River",
+     "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764",
+     "via": "",
+     "published": "2026-11-14T00:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
+     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
+     "via": "",
+     "published": "2026-11-13T23:03+00:00",
+     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after an Atlantic Asphalt tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press con"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "32 passengers taken to hospital after tanker hits river cruise boat in US",
+     "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-13T22:47+00:00",
+     "summary": "American Heritage paddleboat with 129 passengers on board is partially submerged on Mississippi River in New Orleans."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video",
+     "via": "",
+     "published": "2026-11-13T22:33+00:00",
+     "summary": "A tanker collided with a docked river cruise ship on the Mississippi River in New Orleans, leaving the smaller vessel partly submerged and setting off a rescue operation. (Source: Bloomberg)"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Freighter collides with cruise ship in New Orleans, passengers in the water",
+     "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T22:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+     "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-13T21:31+00:00",
+     "summary": "A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Tanker collides with New Orleans river cruise carrying 129 passengers, rescue operation underway",
+     "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+     "via": "",
+     "published": "2026-11-13T21:04+00:00",
+     "summary": "A tanker struck and partially submerged a New Orleans river cruise carrying around 129 passengers. Multiple people were rescued as search-and-rescue operations continued."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 5,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "South China Morning Post",
     "Financial Times",
-    "Bloomberg"
+    "Bloomberg",
+    "Axios"
    ],
    "regions": [
     "China",
     "Europe",
     "North America"
    ],
-   "latest": "2026-11-13T20:20+00:00",
-   "earliest": "2026-11-13T13:44+00:00",
+   "latest": "2026-11-13T21:24+00:00",
+   "earliest": "2026-11-11T18:03+00:00",
    "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Bessent blames Lutnick’s Commerce Department for not restricting Nvidia chip exports",
+     "url": "https://apnews.com/article/nvidia-megaspeed-scott-bessent-howard-lutnick-17582a5098a5fb4c8fe866a084a6e52b",
+     "via": "",
+     "published": "2026-11-13T21:24+00:00",
+     "summary": ""
+    },
     {
      "outlet": "South China Morning Post",
      "region": "China",
@@ -270,15 +364,6 @@
      "via": "",
      "published": "2026-11-13T20:20+00:00",
      "summary": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department, led by Howard Lutnick, for delaying the blacklisting of Megaspeed, an Nvidia customer suspected of diverting advanced AI chips to China, days before US President Donald Trump and Chinese President Xi Jinping are expected to meet in Shenzhen. Bessent spoke a day after Nvidia co-founder Jensen Huang resigned as chief execu"
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Bessent blames Lutnick’s Commerce Department for not restricting Nvidia chips to China",
-     "url": "https://apnews.com/article/nvidia-megaspeed-scott-bessent-howard-lutnick-17582a5098a5fb4c8fe866a084a6e52b",
-     "via": "",
-     "published": "2026-11-13T18:05+00:00",
-     "summary": ""
     },
     {
      "outlet": "Financial Times",
@@ -297,121 +382,110 @@
      "via": "",
      "published": "2026-11-13T13:44+00:00",
      "summary": "Treasury Secretary Scott Bessent said his agency had long supported putting Megaspeed International on a trade blacklist but that responsibility for doing so rested with Commerce Secretary Howard Lutnick."
-    }
-   ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "The Straits Times",
-    "Australian Financial Review",
-    "Financial Times"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-13T19:03+00:00",
-   "earliest": "2026-11-13T17:45+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports",
-     "url": "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T19:03+00:00",
-     "summary": ""
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia approached Arm CEO Rene Haas to succeed Jensen Huang, report says",
-     "url": "https://www.straitstimes.com/business/nvidia-approached-arm-ceo-rene-haas-to-succeed-jensen-huang-report-says",
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Scoop: Inside Bessent's Situation Room confrontation with Lutnick over China chip security",
+     "url": "https://www.axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
      "via": "",
-     "published": "2026-11-13T18:49+00:00",
-     "summary": "Haas spent seven formative years at Nvidia, rising to vice-president and general manager of its computing products business."
-    },
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Nvidia board approaches CEO of semiconductor rival to succeed Huang",
-     "url": "https://www.afr.com/politics/federal/australia-news-live-updates-traders-forced-to-work-via-phone-and-whatsapp-as-microsoft-outage-continues-20261114-p61e3e?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-11-13T18:12+00:00",
-     "summary": "US Treasury Secretary Scott Bessent attacks Howard Lutnick’s Commerce Department over Nvidia; Albanese and Bowen caught on hot-mic. Follow live updates."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-     "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-13T17:45+00:00",
-     "summary": "Head of SoftBank-owned UK semiconductor group sounded out after Jensen Huang resigned over affairs"
+     "published": "2026-11-11T18:03+00:00",
+     "summary": "Treasury Secretary Scott Bessent confronted Commerce Secretary Howard Lutnick over a failure to place Nvidia customer Megaspeed on a list of companies that pose national security concerns, sources familiar told Axios. Why it matters: The Commerce Department oversees the export of sensitive U.S. technologies and Lutnick's actions — or lack thereof — are increasingly under scrutiny following revelat"
     }
    ],
    "id": 2
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
     "Reuters",
-    "Axios",
-    "Business Standard"
+    "Business Standard",
+    "Associated Press"
    ],
    "regions": [
     "Europe",
     "North America",
     "South Asia"
    ],
-   "latest": "2026-11-13T02:51+00:00",
-   "earliest": "2026-11-12T15:44+00:00",
+   "latest": "2026-11-13T23:33+00:00",
+   "earliest": "2026-11-12T18:12+00:00",
    "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "‘So sad to see it happen’: Trump reacts to Jensen Huang’s resignation amid spy scandal; endorses Tim Cook to take charge",
-     "url": "https://www.livemint.com/news/us-news/so-sad-to-see-it-happen-trump-reacts-to-jensen-huang-s-resignation-amid-spy-scandal-endorses-tim-cook-to-take-charge-11794537583426.html",
-     "via": "",
-     "published": "2026-11-13T02:51+00:00",
-     "summary": "US President Donald Trump has reacted to Jensen Huang's reported resignation from Nvidia amid allegations surrounding his relationship with a Chinese businesswoman suspected of espionage. Trump called the development ‘horrible’ but said her alleged links to China remained unproven."
-    },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Tim Cook for Nvidia CEO? Trump and the world ponder who's next",
-     "url": "https://www.reuters.com/legal/transactional/tim-cook-nvidia-ceo-trump-world-ponder-whos-next-2026-11-12/",
+     "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+     "url": "https://www.reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/",
      "via": "",
-     "published": "2026-11-12T20:35+00:00",
+     "published": "2026-11-13T23:33+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump pitches Apple's Tim Cook as new Nvidia CEO",
-     "url": "https://www.axios.com/2026/11/12/trump-jensen-huang-resign-tim-cook-apple",
-     "via": "",
-     "published": "2026-11-12T16:10+00:00",
-     "summary": "President Trump is backing Apple executive chairman Tim Cook to replace tech giant Jensen Huang after Huang resigned as Nvidia CEO, though it's unclear whether he meant it as a joke. The big picture: Trump didn't weigh in on the controversy surrounding Huang's departure following alleged affairs with a suspected Chinese spy and an Nvidia executive, instead calling Huang \"a Legend\" in his Truth Soc"
     },
     {
      "outlet": "Business Standard",
      "region": "South Asia",
-     "title": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
-     "url": "https://www.business-standard.com/world-news/iran-deal-not-needed-trump-asks-vance-to-focus-on-domestic-corruption-126111201547_1.html",
+     "title": "Meet Colette Kress, Nvidia's interim CEO after Jensen Huang's exit",
+     "url": "https://www.business-standard.com/world-news/meet-colette-kress-nvidia-s-interim-ceo-after-jensen-huang-s-exit-126111300261_1.html",
      "via": "",
-     "published": "2026-11-12T15:44+00:00",
+     "published": "2026-11-13T03:44+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Who is Colette Kress, Nvidia's interim CEO? Longtime exec takes top spot after Jensen Huang resigns",
+     "url": "https://apnews.com/article/nvidia-jensen-huang-colette-kress-39ea208c040539166e10d8c6f473bc57",
+     "via": "",
+     "published": "2026-11-12T18:12+00:00",
      "summary": ""
     }
    ],
    "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "BNamericas",
+    "Business Standard"
+   ],
+   "regions": [
+    "Europe",
+    "Latin America",
+    "South Asia"
+   ],
+   "latest": "2026-11-13T20:00+00:00",
+   "earliest": "2026-11-12T12:46+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Mexico's Sheinbaum says migrant caravan not moving toward US now as Trump threatens tariffs",
+     "url": "https://www.reuters.com/world/americas/no-migrant-caravans-headed-us-says-mexico-president-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T20:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Trump threatens to double tariffs on Mexico if it does not stop migrant caravan",
+     "url": "https://www.bnamericas.com/en/news/trump-threatens-to-double-tariffs-on-mexico-if-it-does-not-stop-migrant-caravan",
+     "via": "",
+     "published": "2026-11-12T14:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Trump threatens to double tariffs on Mexico if it does not halt migrants",
+     "url": "https://www.business-standard.com/world-news/trump-threatens-to-double-tariffs-on-mexico-if-it-does-not-halt-migrants-126111201413_1.html",
+     "via": "",
+     "published": "2026-11-12T12:46+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -455,52 +529,6 @@
      "via": "",
      "published": "2026-11-12T14:43+00:00",
      "summary": "The trial of more than 1,200 people charged with illegal gold mining opened in Conakry on Wednesday amid a recent crackdown on the practice. The defendants were arrested in Guinea's northeastern gold-producing region of Siguiri. A number of local officials have also been struck off, accused of"
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Business Standard",
-    "Associated Press"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-13T17:32+00:00",
-   "earliest": "2026-11-12T18:12+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
-     "url": "https://www.reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T17:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Meet Colette Kress, Nvidia's interim CEO after Jensen Huang's exit",
-     "url": "https://www.business-standard.com/world-news/meet-colette-kress-nvidia-s-interim-ceo-after-jensen-huang-s-exit-126111300261_1.html",
-     "via": "",
-     "published": "2026-11-13T03:44+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Who is Colette Kress, Nvidia's interim CEO? Longtime exec takes top spot after Jensen Huang resigns",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-colette-kress-39ea208c040539166e10d8c6f473bc57",
-     "via": "",
-     "published": "2026-11-12T18:12+00:00",
-     "summary": ""
     }
    ],
    "id": 5
@@ -555,180 +583,46 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "CBC News",
-    "Times of Israel",
-    "The Straits Times"
+    "Reuters",
+    "The Straits Times",
+    "Financial Times"
    ],
    "regions": [
-    "Middle East",
-    "North America",
+    "Europe",
     "Southeast Asia"
    ],
-   "latest": "2026-11-13T14:05+00:00",
-   "earliest": "2026-11-13T09:24+00:00",
+   "latest": "2026-11-13T23:11+00:00",
+   "earliest": "2026-11-13T17:45+00:00",
    "items": [
     {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "UN nuclear watchdog increasingly concerned about Iranian enrichment plant, report says",
-     "url": "https://www.cbc.ca/news/world/united-nations-nuclear-watchdog-iaea-iran-9.7420465",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
+     "url": "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/",
      "via": "",
-     "published": "2026-11-13T14:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "UN nuclear watchdog increasingly concerned about Iran enrichment plant, report says",
-     "url": "https://www.timesofisrael.com/liveblog_entry/un-nuclear-watchdog-urges-iran-to-take-steps-to-allow-inspectors-report-says/",
-     "via": "",
-     "published": "2026-11-13T11:03+00:00",
+     "published": "2026-11-13T23:11+00:00",
      "summary": ""
     },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-     "url": "https://www.straitstimes.com/asia/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+     "title": "Nvidia approached Arm CEO Rene Haas to succeed Jensen Huang, report says",
+     "url": "https://www.straitstimes.com/business/nvidia-approached-arm-ceo-rene-haas-to-succeed-jensen-huang-report-says",
      "via": "",
-     "published": "2026-11-13T09:24+00:00",
-     "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
+     "published": "2026-11-13T18:49+00:00",
+     "summary": "Haas spent seven formative years at Nvidia, rising to vice-president and general manager of its computing products business."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+     "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-13T17:45+00:00",
+     "summary": "Head of SoftBank-owned UK semiconductor group sounded out after Jensen Huang resigned over affairs"
     }
    ],
    "id": 7
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Times of Israel",
-    "Axios"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-11T17:34+00:00",
-   "earliest": "2026-11-10T20:46+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "US charges 3 men with plotting terror attacks, including planned assault on UK air base",
-     "url": "https://apnews.com/article/terror-plots-uk-airbase-bombers-trump-b9c7812aeb1d74a2cfbc4c4df1431095",
-     "via": "",
-     "published": "2026-11-11T17:34+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US charges 3 Iran-backed operatives over attacks against Jews, plot targeting UK airbase",
-     "url": "https://www.timesofisrael.com/us-charges-3-iran-backed-operatives-over-attacks-against-jews-plot-targeting-uk-airbase/",
-     "via": "",
-     "published": "2026-11-10T22:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "3 charged with plotting terror attacks in U.S., Europe",
-     "url": "https://www.axios.com/2026/11/10/doj-charges-terror-plots-europe-us",
-     "via": "",
-     "published": "2026-11-10T20:46+00:00",
-     "summary": "Three individuals were charged in connection with alleged Iranian-linked terror plots, including a September scheme against a British Royal Air Force Base that housed U.S. military personnel and aircraft, per an indictment unsealed Tuesday. The big picture: The indictment alleges that a leader of an Islamic terrorist group attempted to coordinate with his fellow defendants from jail by passing cod"
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-13T19:23+00:00",
-   "earliest": "2026-11-12T08:47+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-13T19:23+00:00",
-     "summary": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says 2 oil tankers carrying 4 million barrels caught fire in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/iran-says-2-oil-tankers-carrying-4-million-barrels-caught-fire-in-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-11-12T13:08+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says two oil tankers carrying over four million barrels ablaze in Hormuz Strait",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/12/iran-says-two-oil-tankers-carrying-over-four-million-barrels-ablaze-in-hormuz-strait",
-     "via": "",
-     "published": "2026-11-12T08:47+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "The Indian Express",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-11T14:06+00:00",
-   "earliest": "2026-11-11T06:12+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Government bars export of lithium-ion battery waste and scrap containing black mass",
-     "url": "https://www.thehindu.com/business/govt-prohibits-export-of-unsorted-lithium-ion-batterywaste-scrap/article71688575.ece",
-     "via": "",
-     "published": "2026-11-11T14:06+00:00",
-     "summary": "Black mass, the particulate powdered mixture recovered during the recycling of lithium-ion batteries, is particularly essential for India's electronics and electric vehicle as well as renewable energy storage ecosystem"
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "Government bans export of lithium-ion battery waste days after new scheme on critical minerals processing",
-     "url": "https://indianexpress.com/article/business/india-bans-lithium-ion-battery-black-mass-exports-10958913/",
-     "via": "",
-     "published": "2026-11-11T10:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Centre bans export of battery waste, including lithium-ion black mass",
-     "url": "https://www.business-standard.com/economy/news/centre-bans-export-of-battery-waste-including-lithium-ion-black-mass-126111100415_1.html",
-     "via": "",
-     "published": "2026-11-11T06:12+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
   },
   {
    "independent_outlets": 3,
@@ -772,7 +666,198 @@
      "summary": ""
     }
    ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "Reuters",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-13T22:15+00:00",
+   "earliest": "2026-11-13T21:12+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+     "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-end-lower-as-nvidia-uncertainty-weighs-on-tech-shares",
+     "via": "",
+     "published": "2026-11-13T22:15+00:00",
+     "summary": "The Dow Jones Industrial Average rose 50.46 points, or 0.10%, to 52,347.55, the S&P 500 lost 30.73 points, or 0.40%, to 7,561.67."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+     "url": "https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T21:34+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US stocks: S&P 500, Nasdaq close lower as Nvidia woes and rate-hike bets pressure US market",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-sp-500-nasdaq-close-lower-as-rate-hike-bets-pressure-tech-shares/articleshow/135815984.cms",
+     "via": "",
+     "published": "2026-11-13T21:12+00:00",
+     "summary": "The S&P 500 and Nasdaq experienced declines on Friday, primarily driven by concerns surrounding Nvidia and CEO Jensen Huang's resignation. The tech sector faced increased pressure, particularly the Philadelphia Semiconductor Index, which fell significantly. Although inflation data suggested a slightly lower increase, expectations for further Federal Reserve rate hikes remained unchanged. Major tec"
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "CBC News",
+    "The Hindu"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-14T00:03+00:00",
+   "earliest": "2026-11-13T17:02+00:00",
+   "items": [
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Microsoft apologizes for global outage as services come back online",
+     "url": "http://www.cbc.ca/player/play/video/9.7421711",
+     "via": "",
+     "published": "2026-11-14T00:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Microsoft Outage LIVE: Microsoft apologises for outage, says it was not linked to cyber or AI",
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+     "via": "",
+     "published": "2026-11-13T17:02+00:00",
+     "summary": "Microsoft services are beginning to come back online after a massive global outage left millions of users without access for nearly 18 hours"
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-14T00:00+00:00",
+   "earliest": "2026-11-13T18:58+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-14T00:00+00:00",
+     "summary": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack",
+     "url": "https://www.reuters.com/world/middle-east/turkey-qatar-sign-mutual-defence-agreement-turkish-presidency-says-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T18:58+00:00",
+     "summary": ""
+    }
+   ],
    "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-13T22:57+00:00",
+   "earliest": "2026-11-13T22:02+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "FAA issues US national ground stop on all flights",
+     "url": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-13T22:57+00:00",
+     "summary": "The US federal aviation regulator announced a nationwide ground stop for all airports. Federal officials blamed a communications outage and said technicians are investigating."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-13T22:02+00:00",
+     "summary": "US air regulators have issued a nationwide ground stop for departing flights, citing a communications problem."
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-13T18:33+00:00",
+   "earliest": "2026-11-13T10:59+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia crisis: Senate panel summons Jensen Huang, Howard Lutnick to testify",
+     "url": "https://www.business-standard.com/world-news/nvidia-crisis-senate-panel-summons-jensen-huang-howard-lutnick-to-testify-126111400004_1.html",
+     "via": "",
+     "published": "2026-11-13T18:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Ex-Nvidia CEO Huang and US Commerce Secretary Lutnick summoned to testify before Congress",
+     "url": "https://www.euronews.com/2026/11/13/ex-nvidia-ceo-huang-and-us-commerce-secretary-howard-lutnick-summoned-to-testify-before-co",
+     "via": "",
+     "published": "2026-11-13T10:59+00:00",
+     "summary": "Huang's decision to exit Nvidia 33 years after founding the company came as reports emerged that he had had a relationship with an executive at the firm. He had already been facing scrutiny over reports of an affair with an alleged spy."
+    }
+   ],
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -807,42 +892,7 @@
      "summary": ""
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Ecofin Agency",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-13T14:43+00:00",
-   "earliest": "2026-11-13T10:03+00:00",
-   "items": [
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Paladin Energy Plans $356 Million Raise to Expand Uranium Output Beyond Africa",
-     "url": "https://www.ecofinagency.com/news-industry/1311-60802-paladin-energy-plans-356-million-raise-to-expand-uranium-output-beyond-africa",
-     "via": "",
-     "published": "2026-11-13T14:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Paladin banks $525 million for Patterson Lake South uranium",
-     "url": "https://mining.com.au/paladin-banks-525-million-for-patterson-lake-south-uranium/",
-     "via": "",
-     "published": "2026-11-13T10:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -877,7 +927,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -912,7 +962,42 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "CBC News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-13T14:05+00:00",
+   "earliest": "2026-11-13T09:24+00:00",
+   "items": [
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "UN nuclear watchdog increasingly concerned about Iranian enrichment plant, report says",
+     "url": "https://www.cbc.ca/news/world/united-nations-nuclear-watchdog-iaea-iran-9.7420465",
+     "via": "",
+     "published": "2026-11-13T14:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
+     "url": "https://www.straitstimes.com/asia/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+     "via": "",
+     "published": "2026-11-13T09:24+00:00",
+     "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -947,7 +1032,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -982,7 +1067,7 @@
      "summary": "Construction advances on a major West African deposit targeting 320,000 oz. annually as development costs climb 13%."
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1015,76 +1100,6 @@
      "via": "",
      "published": "2026-11-13T06:42+00:00",
      "summary": "The Commerce and Finance ministries have reportedly discussed the dispute over customs duties on bulk Scotch whisky imports under the India-UK FTA. The DRI maintains that the reduced 75% duty applies only to finished Scotch, not concentrates, leaving several shipments held up at Indian ports."
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-13T09:41+00:00",
-   "earliest": "2026-11-11T09:37+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Quantum Systems says grounded German military drones flying again after cyberattack",
-     "url": "https://www.reuters.com/business/aerospace-defense/quantum-systems-says-grounded-german-military-drones-flying-again-after-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T09:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "German military to stop using Chinese-made drones, citing security concerns",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/11/11/german-military-to-stop-using-chinesemade-drones-citing-security-concerns",
-     "via": "",
-     "published": "2026-11-11T09:37+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-13T06:50+00:00",
-   "earliest": "2026-11-12T23:22+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Barrick furloughs some employees at Congo mine as Ebola precaution, memo says",
-     "url": "https://www.miningweekly.com/article/barrick-furloughs-some-employees-at-congo-mine-as-ebola-precaution-memo-says-2026-11-13",
-     "via": "",
-     "published": "2026-11-13T06:50+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Barrick furloughs some employees at Congo mine as Ebola precaution",
-     "url": "https://mining.com.au/barrick-furloughs-some-employees-at-congo-mine-as-ebola-precaution/",
-     "via": "",
-     "published": "2026-11-12T23:22+00:00",
-     "summary": ""
     }
    ],
    "id": 20
@@ -1233,6 +1248,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "South China Morning Post",
+    "Axios"
+   ],
+   "regions": [
+    "China",
+    "North America"
+   ],
+   "latest": "2026-11-12T20:19+00:00",
+   "earliest": "2026-11-12T16:03+00:00",
+   "items": [
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
+     "via": "",
+     "published": "2026-11-12T20:19+00:00",
+     "summary": "Senior White House officials are discussing whether Commerce Secretary Howard Lutnick should be pushed out amid a spy scandal surrounding Nvidia’s now-former CEO Jensen Huang, two people familiar with the situation said on Thursday. A growing number of lawmakers criticised Lutnick for the administration’s refusal to add dozens of Chinese companies to a key US trade blacklist, and over whether the "
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump sticks by Commerce Secretary Lutnick despite Nvidia inaction",
+     "url": "https://www.axios.com/2026/11/12/trump-lutnick-nvidia",
+     "via": "",
+     "published": "2026-11-12T16:03+00:00",
+     "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
+    }
+   ],
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Africanews",
     "Al Arabiya"
    ],
@@ -1262,7 +1312,42 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Axios",
+    "Business Standard"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-12T16:10+00:00",
+   "earliest": "2026-11-12T15:44+00:00",
+   "items": [
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump pitches Apple's Tim Cook as new Nvidia CEO",
+     "url": "https://www.axios.com/2026/11/12/trump-jensen-huang-resign-tim-cook-apple",
+     "via": "",
+     "published": "2026-11-12T16:10+00:00",
+     "summary": "President Trump is backing Apple executive chairman Tim Cook to replace tech giant Jensen Huang after Huang resigned as Nvidia CEO, though it's unclear whether he meant it as a joke. The big picture: Trump didn't weigh in on the controversy surrounding Huang's departure following alleged affairs with a suspected Chinese spy and an Nvidia executive, instead calling Huang \"a Legend\" in his Truth Soc"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
+     "url": "https://www.business-standard.com/world-news/iran-deal-not-needed-trump-asks-vance-to-focus-on-domestic-corruption-126111201547_1.html",
+     "via": "",
+     "published": "2026-11-12T15:44+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1297,7 +1382,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 26
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1332,7 +1417,7 @@
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
     }
    ],
-   "id": 27
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1367,7 +1452,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1402,7 +1487,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1437,42 +1522,7 @@
      "summary": ""
     }
    ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-11T22:54+00:00",
-   "earliest": "2026-11-11T18:03+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-     "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
-     "via": "",
-     "published": "2026-11-11T22:54+00:00",
-     "summary": "Burning barricades and clashes with riot police erupted in Barcelona after a peaceful march against soaring housing costs. Police used projectiles to disperse masked protesters as violence spread through the city centre."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Four million stage general strike in Spain over national housing crisis",
-     "url": "https://www.abc.net.au/news/2026-11-12/spain-protests-housing-election/107375816",
-     "via": "",
-     "published": "2026-11-11T18:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 31
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1507,7 +1557,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1542,7 +1592,42 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 34
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-11T08:23+00:00",
+   "earliest": "2026-11-11T06:30+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Barrick moves ahead with North American gold IPO",
+     "url": "https://mining.com.au/barrick-moves-ahead-with-north-american-gold-ipo/",
+     "via": "",
+     "published": "2026-11-11T08:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Canada's Barrick Mining files for IPO of North American business in New York",
+     "url": "https://www.miningweekly.com/article/canadas-barrick-mining-files-for-ipo-of-north-american-business-in-new-york-2026-11-11",
+     "via": "",
+     "published": "2026-11-11T06:30+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1577,7 +1662,41 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 36
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-13T19:23+00:00",
+   "earliest": "2026-11-12T13:08+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-13T19:23+00:00",
+     "summary": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran says 2 oil tankers carrying 4 million barrels caught fire in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/iran-says-2-oil-tankers-carrying-4-million-barrels-caught-fire-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-11-12T13:08+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 37
   },
   {
    "independent_outlets": 2,
@@ -1611,7 +1730,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 38
   },
   {
    "independent_outlets": 2,
@@ -1645,7 +1764,7 @@
      "summary": "At least five other restaurants of the fast-food chain have ceased operations in 2026."
     }
    ],
-   "id": 36
+   "id": 39
   },
   {
    "independent_outlets": 2,
@@ -1679,41 +1798,7 @@
      "summary": ""
     }
    ],
-   "id": 37
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-12T20:10+00:00",
-   "earliest": "2026-11-11T17:43+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Hormuz Strait Won't Return to Pre-war Status: Ghalibaf",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/13/hormuz-strait-wont-return-to-prewar-status-ghalibaf",
-     "via": "",
-     "published": "2026-11-12T20:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Strait of Hormuz will not return to prewar status, Iran’s Ghalibaf says",
-     "url": "https://www.timesofisrael.com/liveblog_entry/strait-of-hormuz-will-not-return-to-pre-war-status-irans-ghalibaf-says/",
-     "via": "",
-     "published": "2026-11-11T17:43+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 38
+   "id": 40
   },
   {
    "independent_outlets": 2,
@@ -1747,7 +1832,7 @@
      "summary": ""
     }
    ],
-   "id": 39
+   "id": 41
   },
   {
    "independent_outlets": 2,
@@ -1781,20 +1866,20 @@
      "summary": ""
     }
    ],
-   "id": 40
+   "id": 42
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "The Hindu",
-    "The Indian Express"
+    "Business Standard"
    ],
    "regions": [
     "South Asia"
    ],
    "latest": "2026-11-12T15:24+00:00",
-   "earliest": "2026-11-12T10:39+00:00",
+   "earliest": "2026-11-12T11:37+00:00",
    "items": [
     {
      "outlet": "The Hindu",
@@ -1806,16 +1891,16 @@
      "summary": "The Consumer Price Index saw almost all categories hit series highs as inflation spread across sectors of the economy"
     },
     {
-     "outlet": "The Indian Express",
+     "outlet": "Business Standard",
      "region": "South Asia",
-     "title": "Retail inflation crosses RBI’s 6% limit, food inflation at 9%; interest hikes likely",
-     "url": "https://indianexpress.com/article/business/economy/household-inflation-crosses-6-percent-rbi-rate-hike-10960140/",
+     "title": "Retail inflation breaches RBI's 6% upper limit at 2-yr high of 6.09% in Oct",
+     "url": "https://www.business-standard.com/economy/news/retail-inflation-breaches-rbi-s-6-upper-limit-at-2-yr-high-of-6-09-in-oct-126111201211_1.html",
      "via": "",
-     "published": "2026-11-12T10:39+00:00",
+     "published": "2026-11-12T11:37+00:00",
      "summary": ""
     }
    ],
-   "id": 41
+   "id": 43
   }
  ]
 }
