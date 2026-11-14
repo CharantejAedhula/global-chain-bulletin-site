@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-14T01:28:09+00:00",
+ "fetched_at": "2026-11-14T02:57:29+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 794,
+ "items_read": 793,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 34,
+   "items": 35,
    "errors": []
   },
   "Ecofin Agency": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 50,
+   "items": 51,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 46,
+   "items": 44,
    "errors": []
   },
   "DigiTimes": {
@@ -69,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 33,
+   "items": 35,
    "errors": []
   },
   "Financial Times": {
@@ -79,7 +79,7 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "Euronews": {
@@ -94,7 +94,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Al Jazeera": {
@@ -109,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Amwaj.media": {
@@ -129,7 +129,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Axios": {
@@ -139,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 13,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 27,
+   "items": 29,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "RNZ": {
@@ -191,7 +191,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 45,
+   "items": 44,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -213,7 +213,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "VnExpress International": {
@@ -233,7 +233,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 8,
    "errors": []
   },
   "Newsroom Panama": {
@@ -406,6 +406,52 @@
    "same_headline_groups": [],
    "outlets": [
     "Reuters",
+    "The Jakarta Post",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-13T20:54+00:00",
+   "earliest": "2026-11-11T12:01+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Yemen's Houthis say they fired missiles at Saudi forces in Jazan",
+     "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-says-danger-passed-jazan-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T20:54+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Debris from intercepted missiles falls in Mecca region",
+     "url": "https://www.thejakartapost.com/world/2026/11/12/debris-from-intercepted-missiles-falls-in-mecca-region",
+     "via": "",
+     "published": "2026-11-12T02:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi air defenses intercept three missiles launched by Houthis toward Riyadh region",
+     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/11/11/saudi-air-defenses-intercept-three-missiles-launched-by-houthis-toward-riyadh-region-",
+     "via": "",
+     "published": "2026-11-11T12:01+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
     "BNamericas",
     "Business Standard"
    ],
@@ -445,7 +491,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -489,52 +535,6 @@
      "via": "",
      "published": "2026-11-12T14:43+00:00",
      "summary": "The trial of more than 1,200 people charged with illegal gold mining opened in Conakry on Wednesday amid a recent crackdown on the practice. The defendants were arrested in Guinea's northeastern gold-producing region of Siguiri. A number of local officials have also been struck off, accused of"
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Africanews",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-13T15:32+00:00",
-   "earliest": "2026-11-13T06:08+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Iran targeted US radar system in Bahrain",
-     "url": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-13T15:32+00:00",
-     "summary": "Iran claimed it struck US radar systems in Bahrain, while the US said it had intercepted the attacks. Clashes continue in the Strait of Hormuz, as the war remains in a state of de-escalation."
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Iran showcases missiles as military targets US army radar in Bahrain",
-     "url": "http://www.africanews.com/2026/11/13/iran-showcases-missiles-as-military-targets-us-army-radar-in-bahrain/",
-     "via": "",
-     "published": "2026-11-13T11:10+00:00",
-     "summary": "The Revolutionary Guards said on Friday that it had destroyed a US early-warning radar in the Gulf country, the first such claim in months."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IRGC says it targeted US early-warning radar in Bahrain after 'enemy attack' on telecom tower",
-     "url": "https://www.timesofisrael.com/liveblog_entry/irgc-says-it-targeted-us-early-warning-radar-in-bahrain-after-enemy-attack-on-telecom-tower/",
-     "via": "",
-     "published": "2026-11-13T06:08+00:00",
-     "summary": ""
     }
    ],
    "id": 6
@@ -637,9 +637,60 @@
     ]
    ],
    "outlets": [
+    "Business Standard",
     "The Straits Times",
-    "Reuters",
-    "Livemint / Economic Times"
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-14T02:07+00:00",
+   "earliest": "2026-11-12T18:32+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Microsoft outage eases after over a day, recovery timeline uncertain",
+     "url": "https://www.business-standard.com/world-news/microsoft-outage-eases-after-over-a-day-recovery-timeline-uncertain-126111400033_1.html",
+     "via": "",
+     "published": "2026-11-14T02:07+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Microsoft Outlook, Teams outage eases after over a day; recovery timeline uncertain",
+     "url": "https://www.straitstimes.com/business/microsoft-deeply-sorry-as-outage-triggers-global-chaos",
+     "via": "",
+     "published": "2026-11-13T19:27+00:00",
+     "summary": "The company was not aware of any malicious activity and ruled out AI as the cause."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Microsoft Outlook, Teams outage eases after over a day; recovery timeline uncertain",
+     "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
+     "via": "",
+     "published": "2026-11-12T18:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "Livemint / Economic Times",
+    "Reuters"
    ],
    "regions": [
     "Europe",
@@ -647,7 +698,7 @@
     "Southeast Asia"
    ],
    "latest": "2026-11-13T22:15+00:00",
-   "earliest": "2026-11-13T21:12+00:00",
+   "earliest": "2026-11-13T10:35+00:00",
    "items": [
     {
      "outlet": "The Straits Times",
@@ -659,15 +710,6 @@
      "summary": "The Dow Jones Industrial Average rose 50.46 points, or 0.10%, to 52,347.55, the S&P 500 lost 30.73 points, or 0.40%, to 7,561.67."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-     "url": "https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T21:34+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "Livemint / Economic Times",
      "region": "South Asia",
      "title": "US stocks: S&P 500, Nasdaq close lower as Nvidia woes and rate-hike bets pressure US market",
@@ -675,44 +717,88 @@
      "via": "",
      "published": "2026-11-13T21:12+00:00",
      "summary": "The S&P 500 and Nasdaq experienced declines on Friday, primarily driven by concerns surrounding Nvidia and CEO Jensen Huang's resignation. The tech sector faced increased pressure, particularly the Philadelphia Semiconductor Index, which fell significantly. Although inflation data suggested a slightly lower increase, expectations for further Federal Reserve rate hikes remained unchanged. Major tec"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+     "url": "https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T10:35+00:00",
+     "summary": ""
     }
    ],
-   "id": 9
+   "id": 10
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Hindu",
-    "CBC News"
+    "Livemint / Economic Times",
+    "Al Jazeera"
    ],
    "regions": [
-    "North America",
+    "Middle East",
     "South Asia"
    ],
-   "latest": "2026-11-14T01:18+00:00",
-   "earliest": "2026-11-14T00:03+00:00",
+   "latest": "2026-11-14T01:22+00:00",
+   "earliest": "2026-11-13T23:45+00:00",
    "items": [
     {
-     "outlet": "The Hindu",
+     "outlet": "Livemint / Economic Times",
      "region": "South Asia",
-     "title": "Microsoft Outage updates: No ETA yet on full recovery, company says",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+     "title": "US FAA grounds flights nationwide for second time since 9/11: What caused the disruption as 10,000 flights face delays?",
+     "url": "https://www.livemint.com/news/us-news/us-faa-grounds-flights-nationwide-for-second-time-since-9-11-what-caused-the-disruption-as-10-000-flights-face-delays-11794618671184.html",
      "via": "",
-     "published": "2026-11-14T01:18+00:00",
-     "summary": "Microsoft services are beginning to come back online after a massive global outage left millions of users without access for nearly 18 hours"
+     "published": "2026-11-14T01:22+00:00",
+     "summary": "The FAA grounded US flights nationwide after a telecommunications outage disrupted air traffic control centres. More than 10,000 delays were reported, with cancellations and diversions mounting. This was the second nationwide ground stop since 9/11."
     },
     {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "Microsoft apologizes for global outage as services come back online",
-     "url": "http://www.cbc.ca/player/play/video/9.7421711",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "FAA grounds all fights across the US over ‘telecommunication outage’",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss",
      "via": "",
-     "published": "2026-11-14T00:03+00:00",
+     "published": "2026-11-13T23:45+00:00",
+     "summary": "The FAA has issued a ground stop for departing flights in the US after a communications failure disrupted air traffic."
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Mysteel"
+   ],
+   "regions": [
+    "China",
+    "Latin America"
+   ],
+   "latest": "2026-11-14T01:10+00:00",
+   "earliest": "2026-11-13T10:59+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Vale Shares Slip 0.5% Near Yearly Low | Iron Ore Wrap, Nov 13",
+     "url": "https://www.riotimesonline.com/iron-ore-markets-latam-friday-november-13-2026/",
+     "via": "",
+     "published": "2026-11-14T01:10+00:00",
+     "summary": "Vale, Brazil's iron-ore giant, closed at US$11.22 in New York on Friday, 2.2% above its 12-month low, as US yields rose and CSN Mineração fell. The post Vale Shares Slip 0.5% Near Yearly Low | Iron Ore Wrap, Nov 13 appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Mysteel",
+     "region": "China",
+     "title": "Mysteel Iron Ore Index (Nov 13, 202...",
+     "url": "https://www.mysteel.net/daily-prices/7241896-mysteel-iron-ore-index",
+     "via": "",
+     "published": "2026-11-13T10:59+00:00",
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -747,7 +833,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -782,7 +868,42 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Business Standard"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-13T19:28+00:00",
+   "earliest": "2026-11-13T06:13+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Fallout from the Nvidia scandal may dampen the exuberance around the AI boom",
+     "url": "https://apnews.com/article/nvidia-jensen-china-ai-chips-1b7431af84c9d78773c277672a9486f3",
+     "via": "",
+     "published": "2026-11-13T19:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Fallout from Nvidia scandal may dampen investor exuberance around AI boom",
+     "url": "https://www.business-standard.com/world-news/fallout-from-nvidia-scandal-may-dampen-investor-exuberance-around-ai-boom-126111300524_1.html",
+     "via": "",
+     "published": "2026-11-13T06:13+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -817,7 +938,7 @@
      "summary": "Huang's decision to exit Nvidia 33 years after founding the company came as reports emerged that he had had a relationship with an executive at the firm. He had already been facing scrutiny over reports of an affair with an alleged spy."
     }
    ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -852,7 +973,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -887,7 +1008,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -922,7 +1043,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -957,7 +1078,7 @@
      "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
     }
    ],
-   "id": 17
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -992,7 +1113,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1027,7 +1148,7 @@
      "summary": "Construction advances on a major West African deposit targeting 320,000 oz. annually as development costs climb 13%."
     }
    ],
-   "id": 19
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1062,7 +1183,7 @@
      "summary": "The Commerce and Finance ministries have reportedly discussed the dispute over customs duties on bulk Scotch whisky imports under the India-UK FTA. The DRI maintains that the reduced 75% duty applies only to finished Scotch, not concentrates, leaving several shipments held up at Indian ports."
     }
    ],
-   "id": 20
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1091,13 +1212,13 @@
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
      "title": "Microsoft outage spills into Asia-Pacific business hours",
-     "url": "https://www.thejakartapost.com/business/2026/11/13/microsoft-outage-spills-into-asia-pacific-business-hours-?utm_source",
+     "url": "https://www.thejakartapost.com/business/2026/11/13/microsoft-outage-spills-into-asia-pacific-business-hours-",
      "via": "",
      "published": "2026-11-13T06:21+00:00",
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1132,42 +1253,7 @@
      "summary": "Ousted Nvidia CEO Jensen Huang ​had an intimate relationship with a second employee, according to two people ‌familiar with the matter, Reuters has learned."
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-12T22:25+00:00",
-   "earliest": "2026-11-11T01:48+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Nemaska pause clouds Rio Tinto’s Quebec lithium plans",
-     "url": "https://www.mining.com/nemaska-pause-clouds-quebec-lithium-plans/",
-     "via": "",
-     "published": "2026-11-12T22:25+00:00",
-     "summary": "The Bécancour project forms part of Quebec’s attempt to build a battery supply chain that converts locally mined minerals into higher-value materials."
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Rio Tinto cuts jobs at Québec lithium project",
-     "url": "https://mining.com.au/rio-tinto-cuts-jobs-at-quebec-lithium-project/",
-     "via": "",
-     "published": "2026-11-11T01:48+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1202,42 +1288,7 @@
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Axios"
-   ],
-   "regions": [
-    "China",
-    "North America"
-   ],
-   "latest": "2026-11-12T20:19+00:00",
-   "earliest": "2026-11-12T16:03+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
-     "via": "",
-     "published": "2026-11-12T20:19+00:00",
-     "summary": "Senior White House officials are discussing whether Commerce Secretary Howard Lutnick should be pushed out amid a spy scandal surrounding Nvidia’s now-former CEO Jensen Huang, two people familiar with the situation said on Thursday. A growing number of lawmakers criticised Lutnick for the administration’s refusal to add dozens of Chinese companies to a key US trade blacklist, and over whether the "
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump sticks by Commerce Secretary Lutnick despite Nvidia inaction",
-     "url": "https://www.axios.com/2026/11/12/trump-lutnick-nvidia",
-     "via": "",
-     "published": "2026-11-12T16:03+00:00",
-     "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
-    }
-   ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1272,7 +1323,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1307,7 +1358,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1342,7 +1393,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 28
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1377,7 +1428,7 @@
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
     }
    ],
-   "id": 29
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1412,7 +1463,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1447,42 +1498,42 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 32
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Jakarta Post",
-    "Al Arabiya"
+    "Business Standard",
+    "VnExpress International"
    ],
    "regions": [
-    "Middle East",
+    "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-12T02:10+00:00",
-   "earliest": "2026-11-11T12:01+00:00",
+   "latest": "2026-11-12T01:58+00:00",
+   "earliest": "2026-11-12T00:26+00:00",
    "items": [
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Debris from intercepted missiles falls in Mecca region",
-     "url": "https://www.thejakartapost.com/world/2026/11/12/debris-from-intercepted-missiles-falls-in-mecca-region",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia preparing to oust Jensen Huang after multiple extramarital affairs",
+     "url": "https://www.business-standard.com/world-news/nvidia-preparing-to-oust-jensen-huang-after-multiple-extramarital-affairs-126111200059_1.html",
      "via": "",
-     "published": "2026-11-12T02:10+00:00",
+     "published": "2026-11-12T01:58+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi air defenses intercept three missiles launched by Houthis toward Riyadh region",
-     "url": "https://english.alarabiya.net/News/saudi-arabia/2026/11/11/saudi-air-defenses-intercept-three-missiles-launched-by-houthis-toward-riyadh-region-",
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Nvidia said to be preparing to oust Jensen Huang as second affair reported",
+     "url": "https://e.vnexpress.net/news/business/billionaires/nvidia-said-to-be-preparing-to-oust-jensen-huang-as-second-affair-reported-5143622.html",
      "via": "",
-     "published": "2026-11-11T12:01+00:00",
-     "summary": ""
+     "published": "2026-11-12T00:26+00:00",
+     "summary": "Nvidia's board is preparing to oust CEO Jensen Huang after he had two extramarital affairs, including one with a suspected Chinese spy, the Wall Street Journal reported, citing people familiar with the matter."
     }
    ],
-   "id": 32
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1517,7 +1568,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1552,7 +1603,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1587,73 +1638,38 @@
      "summary": ""
     }
    ],
-   "id": 35
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "China",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-11T07:13+00:00",
-   "earliest": "2026-11-11T02:57+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Inflation jitters throw a wrench into US Treasury auction as Fed official flags jumbo hike",
-     "url": "https://www.scmp.com/business/china-business/article/3374041/inflation-jitters-throw-wrench-us-treasury-auction-fed-official-flags-jumbo-hike",
-     "via": "",
-     "published": "2026-11-11T07:13+00:00",
-     "summary": "The latest auction of the 10-year US Treasury drew weak demand from investors after a hot reading on inflation and the prospect of an aggressive rate increase flagged by a Federal Reserve official spurred the most violent bond sell-offs in months. It may also further validate China’s de-dollarisation push to promote the internationalisation of its currency. The batch of the US$42 billion Treasury "
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Bonds reel as hot inflation fuels jumbo Fed hike fears",
-     "url": "https://www.thejakartapost.com/business/2026/11/11/bonds-reel-as-hot-inflation-fuels-jumbo-fed-hike-fears",
-     "via": "",
-     "published": "2026-11-11T02:57+00:00",
-     "summary": ""
-    }
-   ],
    "id": 36
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Axios",
-    "Associated Press"
+    "gCaptain",
+    "Bloomberg"
    ],
    "regions": [
     "North America"
    ],
-   "latest": "2026-11-14T01:17+00:00",
-   "earliest": "2026-11-14T00:22+00:00",
+   "latest": "2026-11-14T02:34+00:00",
+   "earliest": "2026-11-14T00:29+00:00",
    "items": [
     {
-     "outlet": "Axios",
+     "outlet": "gCaptain",
      "region": "North America",
-     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
-     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
+     "title": "‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans",
+     "url": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/",
      "via": "",
-     "published": "2026-11-14T01:17+00:00",
-     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
+     "published": "2026-11-14T02:34+00:00",
+     "summary": "All passengers and crew aboard an American Cruise Lines riverboat survived after a Marshall Islands-flagged asphalt tanker struck the docked paddle-wheeler on the Mississippi River in New Orleans on Friday,..."
     },
     {
-     "outlet": "Associated Press",
+     "outlet": "Bloomberg",
      "region": "North America",
-     "title": "All passengers and crew on New Orleans paddleboat survive crash with tanker on Mississippi River",
-     "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764",
+     "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video",
      "via": "",
-     "published": "2026-11-14T00:22+00:00",
-     "summary": ""
+     "published": "2026-11-14T00:29+00:00",
+     "summary": "All passengers and crew members aboard a river cruise ship that capsized after a tanker collision in New Orleans on Friday were accounted for, with 32 people hospitalized but none critically injured, according to Mayor Helena Moreno. (Source: Bloomberg)"
     }
    ],
    "id": 37
@@ -1662,35 +1678,69 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Deutsche Welle"
+    "Livemint / Economic Times",
+    "The Hindu"
    ],
    "regions": [
-    "Europe"
+    "South Asia"
    ],
-   "latest": "2026-11-13T22:15+00:00",
-   "earliest": "2026-11-13T21:31+00:00",
+   "latest": "2026-11-14T02:30+00:00",
+   "earliest": "2026-11-13T17:34+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Freighter collides with cruise ship in New Orleans, passengers in the water",
-     "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Can markets extend gains amid rising crude and rate hike fears?",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-snap-3-day-rally-as-oil-inflation-worries-weigh/articleshow/135820525.cms",
      "via": "",
-     "published": "2026-11-13T22:15+00:00",
-     "summary": ""
+     "published": "2026-11-14T02:30+00:00",
+     "summary": "The Indian stock indices experienced a retreat as increasing crude oil costs negatively impacted market sentiment. Retail inflation hit 6.09% in October, breaching the tolerance threshold set by the Reserve Bank of India. This spike raised alarms about possible future rate adjustments. Sectors like realty, auto, and cement faced considerable selling activity due to these economic dynamics. However"
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
-     "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-rdf",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Stock markets snap three-day rally on rate hike fears; Sensex drops 318 points",
+     "url": "https://www.thehindu.com/business/stock-markets-snap-three-day-rally-on-rate-hike-fears-sensex-drops-318-points/article71699357.ece",
      "via": "",
-     "published": "2026-11-13T21:31+00:00",
-     "summary": "A freighter collided with a cruise ship carrying around 130 people in New Orleans, causing the paddlewheel vessel to capsize. More than 30 people were hospitalized, but all passengers survived and were accounted for."
+     "published": "2026-11-13T17:34+00:00",
+     "summary": "Retail inflation surged to 6.09% in October, breaching the RBI’s upper tolerance limit for the first time in two years and prompting expectations of a rate hike next month"
     }
    ],
    "id": 38
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Axios"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-14T01:52+00:00",
+   "earliest": "2026-11-14T01:17+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "All passengers and crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+     "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764",
+     "via": "",
+     "published": "2026-11-14T01:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
+     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
+     "via": "",
+     "published": "2026-11-14T01:17+00:00",
+     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
+    }
+   ],
+   "id": 39
   },
   {
    "independent_outlets": 2,
@@ -1724,7 +1774,7 @@
      "summary": ""
     }
    ],
-   "id": 39
+   "id": 40
   },
   {
    "independent_outlets": 2,
@@ -1758,7 +1808,7 @@
      "summary": ""
     }
    ],
-   "id": 40
+   "id": 41
   },
   {
    "independent_outlets": 2,
@@ -1792,7 +1842,7 @@
      "summary": "At least five other restaurants of the fast-food chain have ceased operations in 2026."
     }
    ],
-   "id": 41
+   "id": 42
   },
   {
    "independent_outlets": 2,
@@ -1826,7 +1876,7 @@
      "summary": ""
     }
    ],
-   "id": 42
+   "id": 43
   },
   {
    "independent_outlets": 2,
@@ -1860,7 +1910,7 @@
      "summary": ""
     }
    ],
-   "id": 43
+   "id": 44
   },
   {
    "independent_outlets": 2,
@@ -1894,7 +1944,7 @@
      "summary": ""
     }
    ],
-   "id": 44
+   "id": 45
   },
   {
    "independent_outlets": 2,
@@ -1928,7 +1978,7 @@
      "summary": ""
     }
    ],
-   "id": 45
+   "id": 46
   }
  ]
 }
