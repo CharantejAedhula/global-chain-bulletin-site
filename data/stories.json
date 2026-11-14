@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-14T02:57:29+00:00",
+ "fetched_at": "2026-11-14T06:23:55+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 793,
+ "outlets_read": 44,
+ "items_read": 800,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 35,
+   "items": 34,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,17 +32,17 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 39,
+   "items": 38,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 51,
+   "items": 48,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,7 +52,7 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
@@ -62,14 +62,12 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 0,
-   "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 446, column 135"
-   ]
+   "items": 25,
+   "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 35,
+   "items": 33,
    "errors": []
   },
   "Financial Times": {
@@ -84,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -94,22 +92,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 11,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Axios": {
@@ -156,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 29,
+   "items": 24,
    "errors": []
   },
   "Australian Financial Review": {
@@ -191,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 44,
+   "items": 43,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "The Indian Express": {
@@ -208,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 32,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "MercoPress": {
@@ -228,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 34,
+   "items": 35,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 8,
+   "items": 1,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,11 +242,12 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
     "South China Morning Post",
+    "Reuters",
     "Financial Times",
     "Bloomberg",
     "Axios"
@@ -278,6 +277,15 @@
      "via": "",
      "published": "2026-11-13T20:20+00:00",
      "summary": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department, led by Howard Lutnick, for delaying the blacklisting of Megaspeed, an Nvidia customer suspected of diverting advanced AI chips to China, days before US President Donald Trump and Chinese President Xi Jinping are expected to meet in Shenzhen. Bessent spoke a day after Nvidia co-founder Jensen Huang resigned as chief execu"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bessent blames Commerce Dept over lack of export controls for Nvidia partner Megaspeed",
+     "url": "https://www.reuters.com/business/retail-consumer/bessent-says-treasury-favored-limits-megaspeed-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T18:29+00:00",
+     "summary": ""
     },
     {
      "outlet": "Financial Times",
@@ -310,50 +318,198 @@
    "id": 1
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
     "Business Standard",
-    "Associated Press"
+    "Reuters",
+    "The Straits Times",
+    "Financial Times"
    ],
    "regions": [
     "Europe",
-    "North America",
-    "South Asia"
+    "South Asia",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-13T23:33+00:00",
-   "earliest": "2026-11-12T18:12+00:00",
+   "latest": "2026-11-14T02:55+00:00",
+   "earliest": "2026-11-13T17:45+00:00",
    "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
-     "url": "https://www.reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T23:33+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Business Standard",
      "region": "South Asia",
-     "title": "Meet Colette Kress, Nvidia's interim CEO after Jensen Huang's exit",
-     "url": "https://www.business-standard.com/world-news/meet-colette-kress-nvidia-s-interim-ceo-after-jensen-huang-s-exit-126111300261_1.html",
+     "title": "Nvidia approaches Arm CEO Rene Haas as employees seek Huang's return",
+     "url": "https://www.business-standard.com/world-news/nvidia-approaches-arm-ceo-rene-haas-as-employees-seek-huang-s-return-126111400075_1.html",
      "via": "",
-     "published": "2026-11-13T03:44+00:00",
+     "published": "2026-11-14T02:55+00:00",
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Who is Colette Kress, Nvidia's interim CEO? Longtime exec takes top spot after Jensen Huang resigns",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-colette-kress-39ea208c040539166e10d8c6f473bc57",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
+     "url": "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/",
      "via": "",
-     "published": "2026-11-12T18:12+00:00",
+     "published": "2026-11-13T23:11+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia approached Arm CEO Rene Haas to succeed Jensen Huang, report says",
+     "url": "https://www.straitstimes.com/business/nvidia-approached-arm-ceo-rene-haas-to-succeed-jensen-huang-report-says",
+     "via": "",
+     "published": "2026-11-13T18:49+00:00",
+     "summary": "Haas spent seven formative years at Nvidia, rising to vice-president and general manager of its computing products business."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+     "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-13T17:45+00:00",
+     "summary": "Head of SoftBank-owned UK semiconductor group sounded out after Jensen Huang resigned over affairs"
     }
    ],
    "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Deutsche Welle",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-14T04:55+00:00",
+   "earliest": "2026-11-13T21:39+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Trump, Xi and Putin to hold first three-way summit in China",
+     "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-14T04:55+00:00",
+     "summary": "White House says Trump plans to discuss the Iran war and nuclear arms at a meeting on the sidelines of APEC next week."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Trump to meet Xi, Putin for three-way huddle on nuclear arms talks",
+     "url": "https://www.dw.com/en/trump-to-meet-xi-putin-for-three-way-huddle-on-nuclear-arms-talks/a-79946408?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-14T04:11+00:00",
+     "summary": "The White House has said President Donald Trump will urge Xi Jinping and Vladimir Putin to discuss cutting nuclear arsenals in Shenzhen next week, though a senior US official expects no agreement."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
+     "url": "https://www.straitstimes.com/asia/east-asia/trump-to-hold-summit-with-xi-putin-in-shenzhen-on-thursday-ny-post-reports",
+     "via": "",
+     "published": "2026-11-13T21:39+00:00",
+     "summary": "Trump plans to discuss cutting nuclear weapons and Iran."
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Financial Times",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-11-14T03:32+00:00",
+   "earliest": "2026-11-14T02:01+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?",
+     "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-14T03:32+00:00",
+     "summary": "The FAA says nationwide ground stop disrupting thousands of US flights was caused by a telecommunications outage."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "US aviation regulator lifts order that grounded thousands of flights",
+     "url": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-14T03:21+00:00",
+     "summary": "Airports had halted take-offs because of a temporary ‘telecommunications outage’"
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US lifts nationwide flight ground stop after 4 hours of air traffic control outage, confirms no cyberattack",
+     "url": "https://www.livemint.com/news/us-news/us-lifts-nationwide-flight-ground-stop-after-4-hours-of-air-traffic-control-outage-confirms-no-cyberattack-11794621464302.html",
+     "via": "",
+     "published": "2026-11-14T02:01+00:00",
+     "summary": "Homeland Security Secretary Markwayne Mullin said there was no indication as of yet that anything nefarious was behind the ground stop, but that it was a telecommunications outage."
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Kyodo News",
+    "Euronews"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-14T01:51+00:00",
+   "earliest": "2026-11-13T08:31+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Microsoft outage hits businesses worldwide; India feels impact",
+     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-hits-businesses-worldwide-india-feels-impact/article71698919.ece",
+     "via": "",
+     "published": "2026-11-14T01:51+00:00",
+     "summary": "Disruption to Microsoft’s cloud-based email service affects business operations and airline customer support in India; public services in several countries also report problems"
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Microsoft outage disrupts email, AI services worldwide",
+     "url": "https://english.kyodonews.net/articles/-/91290",
+     "via": "",
+     "published": "2026-11-13T13:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Outlook outage: how to keep working and which email alternatives you can use",
+     "url": "https://www.euronews.com/2026/11/13/outlook-outage-how-to-keep-working-and-which-email-alternatives-you-can-use",
+     "via": "",
+     "published": "2026-11-13T08:31+00:00",
+     "summary": "After Microsoft 365 services went down on 12 November, affecting millions of users worldwide, here is how you can keep using Outlook while the issue is fixed."
+    }
+   ],
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -399,7 +555,7 @@
      "summary": "A tanker struck and partially submerged a New Orleans river cruise carrying around 129 passengers. Multiple people were rescued as search-and-rescue operations continued."
     }
    ],
-   "id": 3
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -445,7 +601,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -491,7 +647,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -537,52 +693,53 @@
      "summary": "The trial of more than 1,200 people charged with illegal gold mining opened in Conakry on Wednesday amid a recent crackdown on the practice. The defendants were arrested in Guinea's northeastern gold-producing region of Siguiri. A number of local officials have also been struck off, accused of"
     }
    ],
-   "id": 6
+   "id": 9
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Business Standard",
     "Reuters",
-    "The Straits Times",
-    "Financial Times"
+    "Associated Press"
    ],
    "regions": [
     "Europe",
-    "Southeast Asia"
+    "North America",
+    "South Asia"
    ],
-   "latest": "2026-11-13T23:11+00:00",
-   "earliest": "2026-11-13T17:45+00:00",
+   "latest": "2026-11-13T03:44+00:00",
+   "earliest": "2026-11-12T18:12+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
-     "url": "https://www.reuters.com/business/media-telecom/arms-haas-approached-by-nvidia-board-part-ceo-search-ft-reports-2026-11-13/",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Meet Colette Kress, Nvidia's interim CEO after Jensen Huang's exit",
+     "url": "https://www.business-standard.com/world-news/meet-colette-kress-nvidia-s-interim-ceo-after-jensen-huang-s-exit-126111300261_1.html",
      "via": "",
-     "published": "2026-11-13T23:11+00:00",
+     "published": "2026-11-13T03:44+00:00",
      "summary": ""
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia approached Arm CEO Rene Haas to succeed Jensen Huang, report says",
-     "url": "https://www.straitstimes.com/business/nvidia-approached-arm-ceo-rene-haas-to-succeed-jensen-huang-report-says",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+     "url": "https://www.reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/",
      "via": "",
-     "published": "2026-11-13T18:49+00:00",
-     "summary": "Haas spent seven formative years at Nvidia, rising to vice-president and general manager of its computing products business."
+     "published": "2026-11-13T02:08+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-     "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Who is Colette Kress, Nvidia's interim CEO? Longtime exec takes top spot after Jensen Huang resigns",
+     "url": "https://apnews.com/article/nvidia-jensen-huang-colette-kress-39ea208c040539166e10d8c6f473bc57",
      "via": "",
-     "published": "2026-11-13T17:45+00:00",
-     "summary": "Head of SoftBank-owned UK semiconductor group sounded out after Jensen Huang resigned over affairs"
+     "published": "2026-11-12T18:12+00:00",
+     "summary": ""
     }
    ],
-   "id": 7
+   "id": 10
   },
   {
    "independent_outlets": 3,
@@ -626,25 +783,53 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 11
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "DigiTimes"
    ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-14T04:02+00:00",
+   "earliest": "2026-11-13T07:41+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Political fallout widens in Nvidia spy scandal",
+     "url": "https://www.thejakartapost.com/world/2026/11/14/political-fallout-widens-in-nvidia-spy-scandal?utm_source",
+     "via": "",
+     "published": "2026-11-14T04:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Chinese AI firms reportedly race for overseas compute, fear upcoming chip curbs amid Nvidia spy case",
+     "url": "https://www.digitimes.com/news/a20261113VL224/nvidia-china-ai-chip-regulation-security.html",
+     "via": "",
+     "published": "2026-11-13T07:41+00:00",
+     "summary": "Chinese AI companies reportedly are racing to sign overseas compute deals as they fear the political fallout of the Nvidia spy scandal could push US lawmakers to restrict their remote access to advanced chips. Congress could boost passage of such bills after mid-term elections revealed the US public's desire to rein in AI leaders and have possibly limited President Donald Trump's hold over Republi"
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
    "outlets": [
     "Business Standard",
-    "The Straits Times",
     "Reuters"
    ],
    "regions": [
     "Europe",
-    "South Asia",
-    "Southeast Asia"
+    "South Asia"
    ],
    "latest": "2026-11-14T02:07+00:00",
    "earliest": "2026-11-12T18:32+00:00",
@@ -659,15 +844,6 @@
      "summary": ""
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Microsoft Outlook, Teams outage eases after over a day; recovery timeline uncertain",
-     "url": "https://www.straitstimes.com/business/microsoft-deeply-sorry-as-outage-triggers-global-chaos",
-     "via": "",
-     "published": "2026-11-13T19:27+00:00",
-     "summary": "The company was not aware of any malicious activity and ruled out AI as the cause."
-    },
-    {
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Microsoft Outlook, Teams outage eases after over a day; recovery timeline uncertain",
@@ -677,233 +853,57 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
-     "The Straits Times",
-     "Reuters"
+     "Reuters",
+     "Al Arabiya"
     ]
    ],
    "outlets": [
-    "The Straits Times",
-    "Livemint / Economic Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-13T22:15+00:00",
-   "earliest": "2026-11-13T10:35+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-     "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-end-lower-as-nvidia-uncertainty-weighs-on-tech-shares",
-     "via": "",
-     "published": "2026-11-13T22:15+00:00",
-     "summary": "The Dow Jones Industrial Average rose 50.46 points, or 0.10%, to 52,347.55, the S&P 500 lost 30.73 points, or 0.40%, to 7,561.67."
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US stocks: S&P 500, Nasdaq close lower as Nvidia woes and rate-hike bets pressure US market",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-sp-500-nasdaq-close-lower-as-rate-hike-bets-pressure-tech-shares/articleshow/135815984.cms",
-     "via": "",
-     "published": "2026-11-13T21:12+00:00",
-     "summary": "The S&P 500 and Nasdaq experienced declines on Friday, primarily driven by concerns surrounding Nvidia and CEO Jensen Huang's resignation. The tech sector faced increased pressure, particularly the Philadelphia Semiconductor Index, which fell significantly. Although inflation data suggested a slightly lower increase, expectations for further Federal Reserve rate hikes remained unchanged. Major tec"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-     "url": "https://www.reuters.com/business/nasdaq-futures-dip-nvidia-tumult-keeps-investors-edge-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T10:35+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-14T01:22+00:00",
-   "earliest": "2026-11-13T23:45+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US FAA grounds flights nationwide for second time since 9/11: What caused the disruption as 10,000 flights face delays?",
-     "url": "https://www.livemint.com/news/us-news/us-faa-grounds-flights-nationwide-for-second-time-since-9-11-what-caused-the-disruption-as-10-000-flights-face-delays-11794618671184.html",
-     "via": "",
-     "published": "2026-11-14T01:22+00:00",
-     "summary": "The FAA grounded US flights nationwide after a telecommunications outage disrupted air traffic control centres. More than 10,000 delays were reported, with cancellations and diversions mounting. This was the second nationwide ground stop since 9/11."
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "FAA grounds all fights across the US over ‘telecommunication outage’",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-13T23:45+00:00",
-     "summary": "The FAA has issued a ground stop for departing flights in the US after a communications failure disrupted air traffic."
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Rio Times",
-    "Mysteel"
-   ],
-   "regions": [
-    "China",
-    "Latin America"
-   ],
-   "latest": "2026-11-14T01:10+00:00",
-   "earliest": "2026-11-13T10:59+00:00",
-   "items": [
-    {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Vale Shares Slip 0.5% Near Yearly Low | Iron Ore Wrap, Nov 13",
-     "url": "https://www.riotimesonline.com/iron-ore-markets-latam-friday-november-13-2026/",
-     "via": "",
-     "published": "2026-11-14T01:10+00:00",
-     "summary": "Vale, Brazil's iron-ore giant, closed at US$11.22 in New York on Friday, 2.2% above its 12-month low, as US yields rose and CSN Mineração fell. The post Vale Shares Slip 0.5% Near Yearly Low | Iron Ore Wrap, Nov 13 appeared first on The Rio Times ."
-    },
-    {
-     "outlet": "Mysteel",
-     "region": "China",
-     "title": "Mysteel Iron Ore Index (Nov 13, 202...",
-     "url": "https://www.mysteel.net/daily-prices/7241896-mysteel-iron-ore-index",
-     "via": "",
-     "published": "2026-11-13T10:59+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters"
+    "Times of Israel",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-14T00:00+00:00",
-   "earliest": "2026-11-13T18:58+00:00",
+   "latest": "2026-11-14T01:38+00:00",
+   "earliest": "2026-11-13T22:02+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
+     "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+     "title": "US Air Force says it dealt with ‘unauthorized drone activity’ over UK airbase",
+     "url": "https://www.timesofisrael.com/us-air-force-says-it-dealt-with-unauthorized-drone-activity-over-uk-airbase/",
      "via": "",
-     "published": "2026-11-14T00:00+00:00",
-     "summary": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians."
+     "published": "2026-11-14T01:38+00:00",
+     "summary": ""
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack",
-     "url": "https://www.reuters.com/world/middle-east/turkey-qatar-sign-mutual-defence-agreement-turkish-presidency-says-2026-11-13/",
+     "title": "US Air Force responds to suspected drone activity over UK airbase",
+     "url": "https://www.reuters.com/world/uk/us-military-responds-suspected-drone-activity-raf-lakenheath-base-uk-sky-news-2026-11-13/",
      "via": "",
-     "published": "2026-11-13T18:58+00:00",
+     "published": "2026-11-13T22:34+00:00",
      "summary": ""
-    }
-   ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-13T22:36+00:00",
-   "earliest": "2026-11-13T01:30+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Capstone cuts copper outlook as restart slips",
-     "url": "https://www.mining.com/capstone-cuts-copper-outlook-as-restart-slips/",
-     "via": "",
-     "published": "2026-11-13T22:36+00:00",
-     "summary": "The company has lowered the bottom of its annual copper production forecast by 5,000 tonnes."
     },
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Capstone Copper delays Pinto Valley restart, trims guidance",
-     "url": "https://mining.com.au/capstone-copper-delays-pinto-valley-restart-trims-guidance/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US Air Force responds to suspected drone activity over UK airbase",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/11/14/us-air-force-responds-to-suspected-drone-activity-over-uk-airbase",
      "via": "",
-     "published": "2026-11-13T01:30+00:00",
+     "published": "2026-11-13T22:02+00:00",
      "summary": ""
     }
    ],
    "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Business Standard"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-13T19:28+00:00",
-   "earliest": "2026-11-13T06:13+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Fallout from the Nvidia scandal may dampen the exuberance around the AI boom",
-     "url": "https://apnews.com/article/nvidia-jensen-china-ai-chips-1b7431af84c9d78773c277672a9486f3",
-     "via": "",
-     "published": "2026-11-13T19:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Fallout from Nvidia scandal may dampen investor exuberance around AI boom",
-     "url": "https://www.business-standard.com/world-news/fallout-from-nvidia-scandal-may-dampen-investor-exuberance-around-ai-boom-126111300524_1.html",
-     "via": "",
-     "published": "2026-11-13T06:13+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -938,7 +938,7 @@
      "summary": "Huang's decision to exit Nvidia 33 years after founding the company came as reports emerged that he had had a relationship with an executive at the firm. He had already been facing scrutiny over reports of an affair with an alleged spy."
     }
    ],
-   "id": 16
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -973,7 +973,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1008,42 +1008,7 @@
      "summary": ""
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Kyodo News",
-    "BNamericas"
-   ],
-   "regions": [
-    "East Asia",
-    "Latin America"
-   ],
-   "latest": "2026-11-13T14:29+00:00",
-   "earliest": "2026-11-11T15:48+00:00",
-   "items": [
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "BREAKING NEWS: Japan, Mexico top diplomats agree to strengthen energy ties",
-     "url": "https://english.kyodonews.net/articles/-/91388",
-     "via": "",
-     "published": "2026-11-13T14:29+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Mexico and Belize strengthen cooperation in energy planning",
-     "url": "https://www.bnamericas.com/en/news/mexico-and-belize-strengthen-cooperation-in-energy-planning",
-     "via": "",
-     "published": "2026-11-11T15:48+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1078,7 +1043,7 @@
      "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
     }
    ],
-   "id": 20
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1113,7 +1078,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1148,7 +1113,7 @@
      "summary": "Construction advances on a major West African deposit targeting 320,000 oz. annually as development costs climb 13%."
     }
    ],
-   "id": 22
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1183,7 +1148,7 @@
      "summary": "The Commerce and Finance ministries have reportedly discussed the dispute over customs duties on bulk Scotch whisky imports under the India-UK FTA. The DRI maintains that the reduced 75% duty applies only to finished Scotch, not concentrates, leaving several shipments held up at Indian ports."
     }
    ],
-   "id": 23
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1218,7 +1183,42 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-13T03:54+00:00",
+   "earliest": "2026-11-13T02:03+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "COP31 pushes electrification goal as groups call for mining safeguards",
+     "url": "https://www.business-standard.com/world-news/cop31-pushes-electrification-goal-as-groups-call-for-mining-safeguards-126111300084_1.html",
+     "via": "",
+     "published": "2026-11-13T03:54+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "UN climate summit pushes electrification goal as groups call for mining safeguards",
+     "url": "https://apnews.com/article/cop31-summit-mining-electrification-human-rights-environment-40a6e8a12b8b83f6d2cd5dab600c2f8d",
+     "via": "",
+     "published": "2026-11-13T02:03+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1253,7 +1253,7 @@
      "summary": "Ousted Nvidia CEO Jensen Huang ​had an intimate relationship with a second employee, according to two people ‌familiar with the matter, Reuters has learned."
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1288,7 +1288,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1323,7 +1323,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1358,7 +1358,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1393,7 +1393,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1428,7 +1428,7 @@
      "summary": "The mining royalty company will acquire TNR's royalties, including three projects in Argentina."
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1463,7 +1463,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1498,42 +1498,7 @@
      "summary": ""
     }
    ],
-   "id": 32
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "VnExpress International"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-12T01:58+00:00",
-   "earliest": "2026-11-12T00:26+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia preparing to oust Jensen Huang after multiple extramarital affairs",
-     "url": "https://www.business-standard.com/world-news/nvidia-preparing-to-oust-jensen-huang-after-multiple-extramarital-affairs-126111200059_1.html",
-     "via": "",
-     "published": "2026-11-12T01:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Nvidia said to be preparing to oust Jensen Huang as second affair reported",
-     "url": "https://e.vnexpress.net/news/business/billionaires/nvidia-said-to-be-preparing-to-oust-jensen-huang-as-second-affair-reported-5143622.html",
-     "via": "",
-     "published": "2026-11-12T00:26+00:00",
-     "summary": "Nvidia's board is preparing to oust CEO Jensen Huang after he had two extramarital affairs, including one with a suspected Chinese spy, the Wall Street Journal reported, citing people familiar with the matter."
-    }
-   ],
-   "id": 33
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1568,7 +1533,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1603,7 +1568,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1638,7 +1603,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1672,41 +1637,7 @@
      "summary": "All passengers and crew members aboard a river cruise ship that capsized after a tanker collision in New Orleans on Friday were accounted for, with 32 people hospitalized but none critically injured, according to Mayor Helena Moreno. (Source: Bloomberg)"
     }
    ],
-   "id": 37
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Hindu"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-14T02:30+00:00",
-   "earliest": "2026-11-13T17:34+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Can markets extend gains amid rising crude and rate hike fears?",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-snap-3-day-rally-as-oil-inflation-worries-weigh/articleshow/135820525.cms",
-     "via": "",
-     "published": "2026-11-14T02:30+00:00",
-     "summary": "The Indian stock indices experienced a retreat as increasing crude oil costs negatively impacted market sentiment. Retail inflation hit 6.09% in October, breaching the tolerance threshold set by the Reserve Bank of India. This spike raised alarms about possible future rate adjustments. Sectors like realty, auto, and cement faced considerable selling activity due to these economic dynamics. However"
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Stock markets snap three-day rally on rate hike fears; Sensex drops 318 points",
-     "url": "https://www.thehindu.com/business/stock-markets-snap-three-day-rally-on-rate-hike-fears-sensex-drops-318-points/article71699357.ece",
-     "via": "",
-     "published": "2026-11-13T17:34+00:00",
-     "summary": "Retail inflation surged to 6.09% in October, breaching the RBI’s upper tolerance limit for the first time in two years and prompting expectations of a rate hike next month"
-    }
-   ],
-   "id": 38
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1740,41 +1671,7 @@
      "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
     }
    ],
-   "id": 39
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-13T19:23+00:00",
-   "earliest": "2026-11-12T13:08+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-13T19:23+00:00",
-     "summary": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says 2 oil tankers carrying 4 million barrels caught fire in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/iran-says-2-oil-tankers-carrying-4-million-barrels-caught-fire-in-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-11-12T13:08+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 40
+   "id": 36
   },
   {
    "independent_outlets": 2,
@@ -1808,7 +1705,7 @@
      "summary": ""
     }
    ],
-   "id": 41
+   "id": 37
   },
   {
    "independent_outlets": 2,
@@ -1842,7 +1739,7 @@
      "summary": "At least five other restaurants of the fast-food chain have ceased operations in 2026."
     }
    ],
-   "id": 42
+   "id": 38
   },
   {
    "independent_outlets": 2,
@@ -1876,7 +1773,7 @@
      "summary": ""
     }
    ],
-   "id": 43
+   "id": 39
   },
   {
    "independent_outlets": 2,
@@ -1910,7 +1807,7 @@
      "summary": ""
     }
    ],
-   "id": 44
+   "id": 40
   },
   {
    "independent_outlets": 2,
@@ -1944,7 +1841,7 @@
      "summary": ""
     }
    ],
-   "id": 45
+   "id": 41
   },
   {
    "independent_outlets": 2,
@@ -1978,7 +1875,7 @@
      "summary": ""
     }
    ],
-   "id": 46
+   "id": 42
   }
  ]
 }
