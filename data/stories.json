@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-15T02:29:10+00:00",
+ "fetched_at": "2026-11-15T06:33:26+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 705,
+ "items_read": 654,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 20,
+   "items": 22,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Caixin Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 46,
+   "items": 7,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 42,
+   "items": 35,
    "errors": []
   },
   "DigiTimes": {
@@ -72,7 +72,7 @@
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -92,12 +92,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 28,
+   "items": 27,
    "errors": []
   },
   "Amwaj.media": {
@@ -127,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Axios": {
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 27,
+   "items": 29,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "RNZ": {
@@ -174,19 +174,17 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 15,
+   "items": 12,
    "errors": []
   },
   "PortNews": {
    "region": "Russia",
    "items": 0,
-   "errors": [
-    "https://en.portnews.ru/news/rss/: ParseError: unclosed CDATA section: line 142, column 135"
-   ]
+   "errors": []
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 31,
+   "items": 28,
    "errors": []
   },
   "Business Standard": {
@@ -196,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 12,
    "errors": []
   },
   "The Indian Express": {
@@ -213,12 +211,12 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 18,
+   "items": 14,
    "errors": []
   },
   "MercoPress": {
@@ -228,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,17 +242,19 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
     "gCaptain",
     "Axios",
+    "ABC News (Australia)",
     "Euronews"
    ],
    "regions": [
     "Europe",
-    "North America"
+    "North America",
+    "Oceania"
    ],
    "latest": "2026-11-14T23:46+00:00",
    "earliest": "2026-11-13T21:04+00:00",
@@ -287,6 +287,15 @@
      "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
     },
     {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "All passengers rescued after tanker crash causes cruise ship to sink in US",
+     "url": "https://www.abc.net.au/news/2026-11-14/tanker-collides-with-cruise-ship-new-orleans/107385650",
+     "via": "",
+     "published": "2026-11-13T21:12+00:00",
+     "summary": ""
+    },
+    {
      "outlet": "Euronews",
      "region": "Europe",
      "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
@@ -299,12 +308,70 @@
    "id": 1
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters",
+    "The Korea Herald",
+    "South China Morning Post"
+   ],
+   "regions": [
+    "China",
+    "East Asia",
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-13T03:44+00:00",
+   "earliest": "2026-11-12T21:08+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Meet Colette Kress, Nvidia's interim CEO after Jensen Huang's exit",
+     "url": "https://www.business-standard.com/world-news/meet-colette-kress-nvidia-s-interim-ceo-after-jensen-huang-s-exit-126111300261_1.html",
+     "via": "",
+     "published": "2026-11-13T03:44+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+     "url": "https://www.reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T02:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Nvidia's Jensen Huang resigns as CEO amid spy scandal, CFO Kress takes over",
+     "url": "https://www.koreaherald.com/article/10935644",
+     "via": "",
+     "published": "2026-11-12T23:20+00:00",
+     "summary": "Jensen Huang has resigned as CEO of Nvidia, ending his 33-year reign over the world's leading AI chipmaker after revelations of extramarital affairs, including one with a woman suspected by US intelligence of spying for China. Nvidia announced Thursday that Huang, 63, had stepped down as president, CEO and board member, effective immediately. Chief Financial Officer Colette Kress will serve as int"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374268/nvidias-hunt-jensen-huangs-successor-insiders-rivals-and-trump-pick",
+     "via": "",
+     "published": "2026-11-12T21:08+00:00",
+     "summary": "Nvidia is searching for its first new leader in 33 years after Jensen Huang quit on Thursday, with interim chief Colette Kress, veteran engineers, members of Huang’s own family and the bosses of rival chipmakers all touted as possible successors. The AI chip giant was left without the only leader it has ever had when Huang, 63, stepped down as president, chief executive and board member. The move "
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Reuters",
     "gCaptain",
-    "Al Arabiya"
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
     "Europe",
@@ -312,7 +379,7 @@
     "North America"
    ],
    "latest": "2026-11-14T22:54+00:00",
-   "earliest": "2026-11-14T10:42+00:00",
+   "earliest": "2026-11-12T13:08+00:00",
    "items": [
     {
      "outlet": "Reuters",
@@ -340,9 +407,74 @@
      "via": "",
      "published": "2026-11-14T10:42+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran says 2 oil tankers carrying 4 million barrels caught fire in Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/iran-says-2-oil-tankers-carrying-4-million-barrels-caught-fire-in-strait-of-hormuz/",
+     "via": "",
+     "published": "2026-11-12T13:08+00:00",
+     "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Associated Press",
+    "MINING.COM",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-13T17:59+00:00",
+   "earliest": "2026-11-12T14:43+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Guinea illegal gold mining crackdown sparks clashes, kills 10",
+     "url": "https://mining.com.au/guinea-illegal-gold-mining-crackdown-sparks-clashes-kills-10/",
+     "via": "",
+     "published": "2026-11-13T17:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "At least 10 killed in Guinea in clashes over gold mining crackdown, authorities say",
+     "url": "https://apnews.com/article/guinea-illegal-mining-clashes-3bf55251d4da7159b04e031c8783d7a4",
+     "via": "",
+     "published": "2026-11-13T14:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Guinea gold mining crackdown leaves 10 dead, sparks exodus",
+     "url": "https://www.mining.com/guinea-gold-mining-crackdown-leaves-10-dead-sparks-exodus/",
+     "via": "",
+     "published": "2026-11-13T10:53+00:00",
+     "summary": "Mass expulsions overwhelm neighbouring countries as Mali warns of a humanitarian crisis and rising regional security threats."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Trial of more than 1,200 people accused of illegal gold mining opens in Conakry",
+     "url": "http://www.africanews.com/2026/11/12/trial-of-more-than-1200-people-accused-of-illegal-gold-mining-opens-in-conakry/",
+     "via": "",
+     "published": "2026-11-12T14:43+00:00",
+     "summary": "The trial of more than 1,200 people charged with illegal gold mining opened in Conakry on Wednesday amid a recent crackdown on the practice. The defendants were arrested in Guinea's northeastern gold-producing region of Siguiri. A number of local officials have also been struck off, accused of"
+    }
+   ],
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -388,7 +520,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -434,7 +566,7 @@
      "summary": "Ousted Nvidia CEO Jensen Huang ​had an intimate relationship with a second employee, according to two people ‌familiar with the matter, Reuters has learned."
     }
    ],
-   "id": 4
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -480,7 +612,7 @@
      "summary": "Haas spent seven formative years at Nvidia, rising to vice-president and general manager of its computing products business."
     }
    ],
-   "id": 5
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -526,53 +658,52 @@
      "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
     }
    ],
-   "id": 6
+   "id": 8
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Reuters",
-    "Associated Press"
+    "Times of Israel",
+    "Al Jazeera",
+    "Reuters"
    ],
    "regions": [
     "Europe",
-    "North America",
-    "South Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-13T03:44+00:00",
-   "earliest": "2026-11-12T16:31+00:00",
+   "latest": "2026-11-15T04:29+00:00",
+   "earliest": "2026-11-14T22:31+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Meet Colette Kress, Nvidia's interim CEO after Jensen Huang's exit",
-     "url": "https://www.business-standard.com/world-news/meet-colette-kress-nvidia-s-interim-ceo-after-jensen-huang-s-exit-126111300261_1.html",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Hamas confirms Rafah Brigade commander Samir Abu Younis killed in Israeli strike overnight",
+     "url": "https://www.timesofisrael.com/liveblog_entry/hamas-confirms-rafah-brigade-commander-samir-abu-younis-killed-in-israeli-strike-overnight/",
      "via": "",
-     "published": "2026-11-13T03:44+00:00",
+     "published": "2026-11-15T04:29+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Israeli air strike kills senior Hamas commander in Gaza",
+     "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-15T01:00+00:00",
+     "summary": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
-     "url": "https://www.reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/",
+     "title": "Hamas says senior armed commander killed in Israeli strike",
+     "url": "https://www.reuters.com/world/middle-east/israeli-military-says-it-struck-senior-commander-hamas-military-wing-2026-11-14/",
      "via": "",
-     "published": "2026-11-13T02:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Who is Colette Kress, Nvidia's interim CEO? Longtime exec takes top spot after Jensen Huang resigns",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-colette-kress-39ea208c040539166e10d8c6f473bc57",
-     "via": "",
-     "published": "2026-11-12T16:31+00:00",
+     "published": "2026-11-14T22:31+00:00",
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 3,
@@ -617,7 +748,7 @@
      "summary": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department, led by Howard Lutnick, for delaying the blacklisting of Megaspeed, an Nvidia customer suspected of diverting advanced AI chips to China, days before US President Donald Trump and Chinese President Xi Jinping are expected to meet in Shenzhen. Bessent spoke a day after Nvidia co-founder Jensen Huang resigned as chief execu"
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -630,79 +761,64 @@
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-15T01:00+00:00",
-   "earliest": "2026-11-14T22:31+00:00",
+   "latest": "2026-11-15T02:59+00:00",
+   "earliest": "2026-11-15T02:58+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Israeli air strike kills senior Hamas commander in Gaza",
-     "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+     "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+     "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
      "via": "",
-     "published": "2026-11-15T01:00+00:00",
-     "summary": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday."
+     "published": "2026-11-15T02:59+00:00",
+     "summary": "Fighting escalates in Yemen's Marib and al-Jawf, as UN agency says more than 340,000 Yemenis displaced since August."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Hamas says senior armed commander killed in Israeli strike",
-     "url": "https://www.reuters.com/world/middle-east/israeli-military-says-it-struck-senior-commander-hamas-military-wing-2026-11-14/",
+     "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
+     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province-2026-11-15/",
      "via": "",
-     "published": "2026-11-14T22:31+00:00",
+     "published": "2026-11-15T02:58+00:00",
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Al Arabiya",
-     "Reuters"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Times of Israel",
-    "Reuters"
+    "Business Standard",
+    "The Straits Times"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "South Asia",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-14T12:27+00:00",
-   "earliest": "2026-11-14T11:04+00:00",
+   "latest": "2026-11-15T02:40+00:00",
+   "earliest": "2026-11-15T01:30+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
-     "url": "https://english.alarabiya.net/News/world/2026/11/14/trump-tells-advisers-he-may-hold-off-on-iran-attacks-barring-new-provocations-sources-say",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "AI retreat fuels India's stock market comeback in great rotation trade",
+     "url": "https://www.business-standard.com/world-news/ai-retreat-fuels-india-s-stock-market-comeback-in-great-rotation-trade-126111500057_1.html",
      "via": "",
-     "published": "2026-11-14T12:27+00:00",
+     "published": "2026-11-15T02:40+00:00",
      "summary": ""
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump told advisers he may not attack Iran as long as it doesn’t provoke US, sources say",
-     "url": "https://www.timesofisrael.com/liveblog_entry/trump-told-advisers-he-may-not-attack-iran-as-long-as-it-doesnt-provoke-us-sources-say/",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "AI retreat fuels India stock comeback in great rotation trade",
+     "url": "https://www.straitstimes.com/business/ai-retreat-fuels-india-stock-comeback-in-great-rotation-trade",
      "via": "",
-     "published": "2026-11-14T11:48+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
-     "url": "https://www.reuters.com/world/middle-east/trump-tells-advisers-he-may-hold-off-iran-attacks-barring-new-provocations-2026-11-14/",
-     "via": "",
-     "published": "2026-11-14T11:04+00:00",
-     "summary": ""
+     "published": "2026-11-15T01:30+00:00",
+     "summary": "The MSCI India gauge has rebounded 11% from a six-month low set in October."
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -737,7 +853,57 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Al Arabiya",
+     "Nikkei Asia"
+    ]
+   ],
+   "outlets": [
+    "The Korea Herald",
+    "Al Arabiya",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "Middle East"
+   ],
+   "latest": "2026-11-14T10:22+00:00",
+   "earliest": "2026-11-13T21:22+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Flights halted at airports across US due to air traffic control communications problems",
+     "url": "https://www.koreaherald.com/article/10936914",
+     "via": "",
+     "published": "2026-11-14T10:22+00:00",
+     "summary": "The Federal Aviation Administration grounded all flights nationwide Friday afternoon for just the second time since the 9/11 attacks, as officials cited \"extraordinary circumstances\" caused by communications problems at regional air traffic control centers. The nation's top homeland security official attributed the problem to a telecommunications outage and said there was no indication yet of a ne"
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US grounds flights nationwide after air traffic control communications outage",
+     "url": "https://english.alarabiya.net/business/aviation-and-transport/2026/11/14/us-grounds-flights-nationwide-after-air-traffic-control-communications-outage",
+     "via": "",
+     "published": "2026-11-13T22:01+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "US grounds flights nationwide after air traffic control communications outage",
+     "url": "https://asia.nikkei.com/business/transportation/us-grounds-flights-nationwide-after-air-traffic-control-communications-outage",
+     "via": "",
+     "published": "2026-11-13T21:22+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -772,42 +938,57 @@
      "summary": "Chinese AI companies reportedly are racing to sign overseas compute deals as they fear the political fallout of the Nvidia spy scandal could push US lawmakers to restrict their remote access to advanced chips. Congress could boost passage of such bills after mid-term elections revealed the US public's desire to rein in AI leaders and have possibly limited President Donald Trump's hold over Republi"
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Al Arabiya"
+    ]
+   ],
    "outlets": [
-    "The Hindu",
-    "Kyodo News"
+    "Times of Israel",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
-    "East Asia",
-    "South Asia"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-11-14T01:51+00:00",
-   "earliest": "2026-11-13T13:31+00:00",
+   "latest": "2026-11-14T01:27+00:00",
+   "earliest": "2026-11-13T22:02+00:00",
    "items": [
     {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Microsoft outage hits businesses worldwide; India feels impact",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-hits-businesses-worldwide-india-feels-impact/article71698919.ece",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US Air Force says it dealt with ‘unauthorized drone activity’ over UK airbase",
+     "url": "https://www.timesofisrael.com/us-air-force-says-it-dealt-with-unauthorized-drone-activity-over-uk-airbase/",
      "via": "",
-     "published": "2026-11-14T01:51+00:00",
-     "summary": "Disruption to Microsoft’s cloud-based email service affects business operations and airline customer support in India; public services in several countries also report problems"
+     "published": "2026-11-14T01:27+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Microsoft outage disrupts email, AI services worldwide",
-     "url": "https://english.kyodonews.net/articles/-/91290",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US Air Force responds to suspected drone activity over UK airbase",
+     "url": "https://www.reuters.com/world/uk/us-military-responds-suspected-drone-activity-raf-lakenheath-base-uk-sky-news-2026-11-13/",
      "via": "",
-     "published": "2026-11-13T13:31+00:00",
+     "published": "2026-11-13T22:34+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US Air Force responds to suspected drone activity over UK airbase",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/11/14/us-air-force-responds-to-suspected-drone-activity-over-uk-airbase",
+     "via": "",
+     "published": "2026-11-13T22:02+00:00",
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -842,7 +1023,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -877,7 +1058,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -912,7 +1093,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -947,7 +1128,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -982,7 +1163,7 @@
      "summary": "Construction advances on a major West African deposit targeting 320,000 oz. annually as development costs climb 13%."
     }
    ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1017,7 +1198,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1052,7 +1233,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1087,7 +1268,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1122,42 +1303,7 @@
      "summary": ""
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Business Standard"
-   ],
-   "regions": [
-    "China",
-    "South Asia"
-   ],
-   "latest": "2026-11-12T21:08+00:00",
-   "earliest": "2026-11-12T05:52+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3374268/nvidias-hunt-jensen-huangs-successor-insiders-rivals-and-trump-pick",
-     "via": "",
-     "published": "2026-11-12T21:08+00:00",
-     "summary": "Nvidia is searching for its first new leader in 33 years after Jensen Huang quit on Thursday, with interim chief Colette Kress, veteran engineers, members of Huang’s own family and the bosses of rival chipmakers all touted as possible successors. The AI chip giant was left without the only leader it has ever had when Huang, 63, stepped down as president, chief executive and board member. The move "
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia drama triggers difficult search for Jensen Huang's successor",
-     "url": "https://www.business-standard.com/world-news/nvidia-drama-triggers-difficult-search-for-jensen-huang-s-successor-126111200343_1.html",
-     "via": "",
-     "published": "2026-11-12T05:52+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1192,42 +1338,7 @@
      "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Ecofin Agency",
-    "Interfax"
-   ],
-   "regions": [
-    "Africa",
-    "Russia"
-   ],
-   "latest": "2026-11-12T18:40+00:00",
-   "earliest": "2026-11-12T13:03+00:00",
-   "items": [
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Guinea Projects Budget Deficit to Widen to 2.5% of GDP in 2027",
-     "url": "https://www.ecofinagency.com/news/1211-60774-guinea-projects-budget-deficit-to-widen-to-2-5-of-gdp-in-2027",
-     "via": "",
-     "published": "2026-11-12T18:40+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Interfax",
-     "region": "Russia",
-     "title": "Georgia's budget deficit to fall to 1.3% of GDP in 2026 - Finance Ministry",
-     "url": "https://interfax.com/newsroom/top-stories/119889/",
-     "via": "",
-     "published": "2026-11-12T13:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1262,7 +1373,7 @@
      "summary": "An Israeli airstrike hit Nasser Medical Complex in Khan Younis, southern Gaza, early on Thursday 12 November, killing six people, including a doctor, and injuring at least 27 others, according to the World Health Organization (WHO)."
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1297,7 +1408,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1332,7 +1443,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 28
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1367,7 +1478,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1401,7 +1512,41 @@
      "summary": "Mahanadi Coalfields Ltd has filed its Red Herring Prospectus for an initial public offering with regulatory bodies. This IPO features an offer for sale of roughly 66.18 crore equity shares from Coal India, amounting to a 10 percent stake in the subsidiary MCL. The intended capital raise is around Rs 9,500 crore, with the final execution reliant on regulatory approval and market conditions."
     }
    ],
-   "id": 30
+   "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "CBC News"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-14T09:00+00:00",
+   "earliest": "2026-11-13T03:53+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Odd Lots: Wall Street and the Post-Huang Nvidia Era (Podcast)",
+     "url": "https://www.bloomberg.com/news/audio/2026-11-14/odd-lots-wall-street-and-the-post-huang-nvidia-era-podcast",
+     "via": "",
+     "published": "2026-11-14T09:00+00:00",
+     "summary": "Nvidia's post-Jensen Huang era has just begun and there are so many open questions about the company's future. Who will the board choose to be Nvidia's next CEO? Will the government crack down on the chipmaker's business practices, particularly in Asia? And will Nvidia's uncertain position begin to spillover into the wider AI ecosystem, from the labs to data center providers? Stacy Rasgon, managin"
+    },
+    {
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "Nvidia CEO Jensen Huang's resignation ripples from Wall Street to Washington",
+     "url": "https://www.cbc.ca/player/play/video/9.7420235",
+     "via": "",
+     "published": "2026-11-13T03:53+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1435,7 +1580,7 @@
      "summary": "Leo KoGuan, a billionaire investor based in Singapore, has said he will not raise his stake in Nvidia after Jensen Huang resigned as the chipmaker's CEO."
     }
    ],
-   "id": 31
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1466,74 +1611,6 @@
      "url": "https://www.business-standard.com/markets/news/nifty-bank-auto-realty-skid-1-as-inflation-stokes-rbi-rate-hike-fears-126111300433_1.html",
      "via": "",
      "published": "2026-11-13T04:38+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 32
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "VnExpress International",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-12T23:53+00:00",
-   "earliest": "2026-11-12T05:27+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Indonesian tycoon Haji Isam reportedly mulls buying stake in one of world's largest nickel mines",
-     "url": "https://e.vnexpress.net/news/business/companies/indonesian-tycoon-haji-isam-reportedly-mulls-buying-stake-in-one-of-world-s-largest-nickel-mines-5143774.html",
-     "via": "",
-     "published": "2026-11-12T23:53+00:00",
-     "summary": "Tycoon Andi Syamsuddin Arsyad, also known as Haji Isam, is said to be considering acquiring a stake in PT Weda Bay Nickel, one of the world’s largest nickel mines located in Indonesia."
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Haji Isam reportedly weighs bid for Eramet’s stake in Weda Bay Nickel",
-     "url": "https://www.thejakartapost.com/business/2026/11/12/haji-isam-reportedly-weighs-bid-for-eramets-stake-in-weda-bay-nickel",
-     "via": "",
-     "published": "2026-11-12T05:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 33
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-12T15:48+00:00",
-   "earliest": "2026-11-12T12:50+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Oil India net profit more the doubles on better realisations, higher output",
-     "url": "https://www.thehindu.com/business/Industry/oil-india-net-profit-more-the-doubles-on-better-realisations-higher-output/article71694370.ece",
-     "via": "",
-     "published": "2026-11-12T15:48+00:00",
-     "summary": "Oil India declared an interim dividend of ₹7 per equity share."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Oil India Q2 net profit rises 53% to ₹2,521 crore on higher realisation",
-     "url": "https://www.business-standard.com/companies/quarterly-results/oil-india-q2-net-profit-rises-53-to-2-521-crore-on-higher-realisation-126111201419_1.html",
-     "via": "",
-     "published": "2026-11-12T12:50+00:00",
      "summary": ""
     }
    ],
@@ -1572,40 +1649,6 @@
     }
    ],
    "id": 35
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-12T13:08+00:00",
-   "earliest": "2026-11-12T08:47+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says 2 oil tankers carrying 4 million barrels caught fire in Strait of Hormuz",
-     "url": "https://www.timesofisrael.com/iran-says-2-oil-tankers-carrying-4-million-barrels-caught-fire-in-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-11-12T13:08+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says two oil tankers carrying over four million barrels ablaze in Hormuz Strait",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/12/iran-says-two-oil-tankers-carrying-over-four-million-barrels-ablaze-in-hormuz-strait",
-     "via": "",
-     "published": "2026-11-12T08:47+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 36
   }
  ]
 }
