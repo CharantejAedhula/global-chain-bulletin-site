@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-15T00:19:22+00:00",
+ "fetched_at": "2026-11-15T01:05:08+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 711,
+ "items_read": 705,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 32,
+   "items": 30,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 48,
+   "items": 47,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,12 +52,12 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 45,
+   "items": 46,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Financial Times": {
@@ -102,7 +102,7 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Times of Israel": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "Axios": {
@@ -154,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "Australian Financial Review": {
@@ -189,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 41,
+   "items": 42,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "MercoPress": {
@@ -242,28 +242,31 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
+    "Business Standard",
     "gCaptain",
+    "Associated Press",
     "Axios",
+    "Reuters",
     "Euronews"
    ],
    "regions": [
     "Europe",
-    "North America"
+    "North America",
+    "South Asia"
    ],
-   "latest": "2026-11-14T19:43+00:00",
+   "latest": "2026-11-14T08:44+00:00",
    "earliest": "2026-11-13T21:04+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
-     "url": "https://apnews.com/article/new-orleans-cruise-ship-tanker-crash-0c1cbee9c9b3f3103d84b8bb17b5073f",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Tanker hits cruise ship in New Orleans, 32 hospitalised, none critical",
+     "url": "https://www.business-standard.com/world-news/tanker-hits-cruise-ship-in-new-orleans-32-hospitalised-none-critical-126111400663_1.html",
      "via": "",
-     "published": "2026-11-14T19:43+00:00",
+     "published": "2026-11-14T08:44+00:00",
      "summary": ""
     },
     {
@@ -276,6 +279,15 @@
      "summary": "All passengers and crew aboard an American Cruise Lines riverboat survived after a Marshall Islands-flagged asphalt tanker struck the docked paddle-wheeler on the Mississippi River in New Orleans on Friday,..."
     },
     {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "All passengers and crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+     "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764",
+     "via": "",
+     "published": "2026-11-14T01:52+00:00",
+     "summary": ""
+    },
+    {
      "outlet": "Axios",
      "region": "North America",
      "title": "Mississippi River cruise crash has no fatalities, critical injuries",
@@ -283,6 +295,15 @@
      "via": "",
      "published": "2026-11-14T01:17+00:00",
      "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Tanker collides with cruise ship in New Orleans, 32 hospitalized",
+     "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/",
+     "via": "",
+     "published": "2026-11-13T22:15+00:00",
+     "summary": ""
     },
     {
      "outlet": "Euronews",
@@ -346,6 +367,52 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Reuters",
+    "Business Standard",
+    "VnExpress International"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-14T05:13+00:00",
+   "earliest": "2026-11-12T23:29+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+     "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+     "via": "",
+     "published": "2026-11-14T05:13+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Huang's third affair emerges after Nvidia exit; involves another employee",
+     "url": "https://www.business-standard.com/world-news/jensen-huang-s-third-affair-with-nvidia-employee-emerges-after-exit-126111300079_1.html",
+     "via": "",
+     "published": "2026-11-13T02:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Jensen Huang reportedly had a third affair involving another employee",
+     "url": "https://e.vnexpress.net/news/business/billionaires/jensen-huang-reportedly-had-a-third-affair-involving-another-employee-5144082.html",
+     "via": "",
+     "published": "2026-11-12T23:29+00:00",
+     "summary": "Ousted Nvidia CEO Jensen Huang ​had an intimate relationship with a second employee, according to two people ‌familiar with the matter, Reuters has learned."
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Business Standard",
     "Reuters",
     "The Straits Times"
@@ -386,7 +453,7 @@
      "summary": "Haas spent seven formative years at Nvidia, rising to vice-president and general manager of its computing products business."
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -432,7 +499,7 @@
      "summary": "The trial of more than 1,200 people charged with illegal gold mining opened in Conakry on Wednesday amid a recent crackdown on the practice. The defendants were arrested in Guinea's northeastern gold-producing region of Siguiri. A number of local officials have also been struck off, accused of"
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -478,7 +545,7 @@
      "summary": "VIENNA, Nov 13 - The UN nuclear watchdog is \\\"increasingly concerned\\\" about a uranium-enrichment plant at Isfahan that Iran declared to it last year but has still not let the watchdog inspect, it said in a confidential report on Iran on Friday seen by Reuters."
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -494,7 +561,7 @@
     "South Asia"
    ],
    "latest": "2026-11-13T03:44+00:00",
-   "earliest": "2026-11-12T16:31+00:00",
+   "earliest": "2026-11-12T18:12+00:00",
    "items": [
     {
      "outlet": "Business Standard",
@@ -520,11 +587,56 @@
      "title": "Who is Colette Kress, Nvidia's interim CEO? Longtime exec takes top spot after Jensen Huang resigns",
      "url": "https://apnews.com/article/nvidia-jensen-huang-colette-kress-39ea208c040539166e10d8c6f473bc57",
      "via": "",
-     "published": "2026-11-12T16:31+00:00",
+     "published": "2026-11-12T18:12+00:00",
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-14T15:09+00:00",
+   "earliest": "2026-11-14T06:16+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
+     "url": "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says",
+     "via": "",
+     "published": "2026-11-14T15:09+00:00",
+     "summary": "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney told reporters."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Canada, US Make Progress on Trade Deal: Carney",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/14/canada-us-make-progress-on-trade-deal-carney",
+     "via": "",
+     "published": "2026-11-14T10:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Canada, US make progress on trade deal, Carney says",
+     "url": "https://www.reuters.com/world/americas/canada-us-make-progress-trade-deal-carney-says-2026-11-14/",
+     "via": "",
+     "published": "2026-11-14T06:16+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -569,7 +681,7 @@
      "summary": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department, led by Howard Lutnick, for delaying the blacklisting of Megaspeed, an Nvidia customer suspected of diverting advanced AI chips to China, days before US President Donald Trump and Chinese President Xi Jinping are expected to meet in Shenzhen. Bessent spoke a day after Nvidia co-founder Jensen Huang resigned as chief execu"
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -619,7 +731,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -652,76 +764,6 @@
      "via": "",
      "published": "2026-11-14T11:01+00:00",
      "summary": ""
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-14T10:02+00:00",
-   "earliest": "2026-11-14T06:16+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Canada, US Make Progress on Trade Deal: Carney",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/14/canada-us-make-progress-on-trade-deal-carney",
-     "via": "",
-     "published": "2026-11-14T10:02+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Canada, US make progress on trade deal, Carney says",
-     "url": "https://www.reuters.com/world/americas/canada-us-make-progress-trade-deal-carney-says-2026-11-14/",
-     "via": "",
-     "published": "2026-11-14T06:16+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "VnExpress International"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-14T05:13+00:00",
-   "earliest": "2026-11-12T23:29+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
-     "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
-     "via": "",
-     "published": "2026-11-14T05:13+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Jensen Huang reportedly had a third affair involving another employee",
-     "url": "https://e.vnexpress.net/news/business/billionaires/jensen-huang-reportedly-had-a-third-affair-involving-another-employee-5144082.html",
-     "via": "",
-     "published": "2026-11-12T23:29+00:00",
-     "summary": "Ousted Nvidia CEO Jensen Huang ​had an intimate relationship with a second employee, according to two people ‌familiar with the matter, Reuters has learned."
     }
    ],
    "id": 11
@@ -1045,41 +1087,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-13T03:21+00:00",
-   "earliest": "2026-11-12T22:38+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "White House weighs Lutnick's ouster amid Nvidia chip export concerns",
-     "url": "https://www.business-standard.com/world-news/white-house-weighs-lutnick-s-ouster-amid-nvidia-chip-export-concerns-126111300101_1.html",
-     "via": "",
-     "published": "2026-11-13T03:21+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "White House weighs Lutnick's ouster after Nvidia scandal",
-     "url": "https://www.reuters.com/world/china/republican-senator-urges-ban-chinese-chipmaker-cxmt-us-market-2026-11-12/",
-     "via": "",
-     "published": "2026-11-12T22:38+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "South China Morning Post",
     "Business Standard"
    ],
@@ -1109,7 +1116,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1144,7 +1151,7 @@
      "summary": "The White House is standing by Commerce Secretary Howard Lutnick despite a view within the administration that Lutnick delayed action to address concerns over chip smuggling to China. Why it matters: Congress smells blood in the water following bombshell reports that U.S. national security may have been jeopardized by former Nvidia CEO Jensen Huang's relationship with a suspected Chinese spy. Lawm"
     }
    ],
-   "id": 23
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1179,7 +1186,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1214,7 +1221,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1249,7 +1256,7 @@
      "summary": "Nvidia CEO Jensen Huang is stepping down, leaving the AI industry without its biggest champion and clouding the future of the chipmaker he built into an AI powerhouse."
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1284,42 +1291,7 @@
      "summary": ""
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "VnExpress International"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-12T01:58+00:00",
-   "earliest": "2026-11-12T00:26+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia preparing to oust Jensen Huang after multiple extramarital affairs",
-     "url": "https://www.business-standard.com/world-news/nvidia-preparing-to-oust-jensen-huang-after-multiple-extramarital-affairs-126111200059_1.html",
-     "via": "",
-     "published": "2026-11-12T01:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Nvidia said to be preparing to oust Jensen Huang as second affair reported",
-     "url": "https://e.vnexpress.net/news/business/billionaires/nvidia-said-to-be-preparing-to-oust-jensen-huang-as-second-affair-reported-5143622.html",
-     "via": "",
-     "published": "2026-11-12T00:26+00:00",
-     "summary": "Nvidia's board is preparing to oust CEO Jensen Huang after he had two extramarital affairs, including one with a suspected Chinese spy, the Wall Street Journal reported, citing people familiar with the matter."
-    }
-   ],
-   "id": 28
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1353,7 +1325,7 @@
      "summary": "Mahanadi Coalfields Ltd has filed its Red Herring Prospectus for an initial public offering with regulatory bodies. This IPO features an offer for sale of roughly 66.18 crore equity shares from Coal India, amounting to a 10 percent stake in the subsidiary MCL. The intended capital raise is around Rs 9,500 crore, with the final execution reliant on regulatory approval and market conditions."
     }
    ],
-   "id": 29
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1387,7 +1359,7 @@
      "summary": "Leo KoGuan, a billionaire investor based in Singapore, has said he will not raise his stake in Nvidia after Jensen Huang resigned as the chipmaker's CEO."
     }
    ],
-   "id": 30
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1421,7 +1393,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1455,7 +1427,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1489,7 +1461,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1523,7 +1495,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1557,7 +1529,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1591,7 +1563,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 34
   }
  ]
 }
