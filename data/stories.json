@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-16T06:30:56+00:00",
+ "fetched_at": "2026-11-16T23:02:05+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 593,
+ "outlets_read": 37,
+ "items_read": 497,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,81 +12,83 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 4,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 15,
+   "items": 20,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 13,
+   "items": 17,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 3,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Acaixinglobal.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 29,
+   "items": 30,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 56,
+   "items": 53,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 14,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20when%3A3d&hl=en-US: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 25,
+   "items": 29,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 391, column 85"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 490, column 85"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 35,
+   "items": 21,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 13,
+   "items": 10,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -101,18 +103,20 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Atimesofisrael.com%20when%3A3d&hl=en-: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Amwaj.media": {
    "region": "Middle East",
@@ -126,12 +130,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 18,
+   "items": 26,
    "errors": []
   },
   "Axios": {
@@ -141,44 +145,47 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 9,
+   "items": 0,
    "errors": [
-    "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
+    "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out",
+    "https://news.google.com/rss/search?q=site%3Acbc.ca%20when%3A3d&hl=en-US&gl=US&ce: HTTPError: HTTP Error 429: Too Many Requests"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "gCaptain": {
    "region": "North America",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 26,
+   "items": 23,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 8,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 7,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Amining.com.au%20when%3A3d&hl=en-US&g: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "Interfax": {
    "region": "Russia",
-   "items": 4,
+   "items": 10,
    "errors": []
   },
   "PortNews": {
@@ -188,27 +195,29 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 18,
+   "items": 15,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 28,
+   "items": 22,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 3,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 29,
+   "items": 32,
    "errors": []
   },
   "The Jakarta Post": {
@@ -218,7 +227,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 5,
    "errors": []
   },
   "MercoPress": {
@@ -228,8 +237,10 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 16,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Abnamericas.com%20when%3A3d&hl=en-US&: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Rio Times": {
    "region": "Latin America",
@@ -244,34 +255,287 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
+    "gCaptain",
     "Al Jazeera",
-    "Business Standard",
-    "Associated Press",
-    "Euronews",
-    "The Straits Times"
+    "Reuters",
+    "Euronews"
    ],
    "regions": [
     "Europe",
     "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-16T20:36+00:00",
+   "earliest": "2026-11-16T15:03+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Cargo Ship Capsizes Off Bulgaria After Reported Sea Drone Attack",
+     "url": "https://gcaptain.com/cargo-ship-capsizes-off-bulgaria-after-reported-sea-drone-attack/",
+     "via": "",
+     "published": "2026-11-16T20:36+00:00",
+     "summary": "A Somali-flagged cargo ship carrying nearly 3,000 metric tons of wheat capsized off Bulgaria on Monday after what crew members described as an attack by two sea drones, marking the..."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Cargo ship capsizes off Bulgaria’s Black Sea coast",
+     "url": "https://www.aljazeera.com/news/2026/11/16/cargo-ship-capsizes-off-bulgarias-black-sea-coast?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-16T17:54+00:00",
+     "summary": "Bulgaria's Transport Ministry says that all 12 of the ship's crew members were saved in a rescue operation."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Drone strike behind sinking of cargo ship off Bulgaria's coast, maritime security sources say",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUUs2NE56Z2hUTXR1OHUtM3RLaUFRdkYzeS1IdkZaV1BfbkM2N29XamhOa2lhUkM2TUxNTkdNY0JyQWQ1LVJ1SlhnbEZHZ1RxSjZOeGp3WXljM0xkd3VyekJHUldSYmd2YlY3NUJjWHpFUkRDc3ZrRXpwN3hha1RrbFRVMjBMdHZVeVJVdzVUdWg4OThDWjJYSXFCUWdsclFLWHVCZFJTSnlEODg?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T16:12+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "12 crew members rescued after cargo ship capsizes off Bulgaria following suspected drone strike",
+     "url": "https://www.euronews.com/2026/11/16/12-crew-members-rescued-after-cargo-ship-capsizes-off-bulgaria-following-suspected-drone-s",
+     "via": "",
+     "published": "2026-11-16T15:03+00:00",
+     "summary": "All 12 crew members working on board the vessel were rescued and were being flown by helicopter to Bulgaria's Chaika air base, according to authorities."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "VnExpress International",
+    "The Straits Times",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-16T02:34+00:00",
+   "earliest": "2026-11-15T21:07+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Jensen Huang discusses comeback as Nvidia CEO as allies rally support",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSml4ZGRDS3VQd3YtcS1QUGJiNUpUOHpmVmNteDc3TFpBVFVQcEg3R1B0ZGpXSWl5Y0V3bGxHdVRqMjc2Uk5TWnNCTExxekROSnJRYkFhUVlsRzgzdXJnRl9XaUd2eXhHU2tYRkJRcFhKZmthUHZUOFotWXd5VldkMHlwazN3Z3Y3SUVEaGc4VkV2b1hCdXdjb2RnaGhmckpJN3hqMXNNTlpFREZ0S0JydVJSR0NTWDMzeGNBOTgzR09mQlNjS0lIOWxWWENCMlnSAdQBQVVfeXFMUEVULXRKMjV1UVNSQUVrWGpfM1FoSmFyRHBQWFhfSmFZcnVfQ2dxbW45bGxlbHBvSDhKSDlsbmVNSVkwbGdEN0FEQ1FYMTFNbTc2X1V5RER6eTN0N05HQmRZY2UySDFCakZWamtubW1icFp1NGlfX0tnRVdWVjg1Z2tFUHcxQUgzMlBISzFwMl9Tdkt2TzdjbnVERS05NjdaemVKT1ZVRU5XOGRnaHRZODdYcExGa3htTEtaUEJXZ2RjdGJYd3ZzYXNVdmxfZW5HaUNyTHI?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T02:34+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Jensen Huang reportedly discusses comeback as Nvidia CEO with allies",
+     "url": "https://e.vnexpress.net/news/business/companies/jensen-huang-reportedly-discusses-comeback-as-nvidia-ceo-with-allies-5145049.html",
+     "via": "",
+     "published": "2026-11-16T01:56+00:00",
+     "summary": "Jensen Huang is considering ​a comeback as Nvidia's CEO, and ‌has discussed with confidants the possibility of returning, the Financial Times reported on Sunday, citing people familiar ​with the matter."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia shares primed for bounce as investors eye report on Jensen Huang comeback",
+     "url": "https://www.straitstimes.com/business/nvidia-shares-primed-for-bounce-as-investors-eye-report-on-jensen-huang-comeback",
+     "via": "",
+     "published": "2026-11-16T01:40+00:00",
+     "summary": "Jensen Huang has already been discussing a return, with backing from several Silicon Valley allies."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Jensen Huang discusses comeback as Nvidia CEO with allies: Report",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSWFTcndjcVFydDd4OEd2cWFSdHJhV3FwMGxUZVl5TUtURERfcmlrbjhpMFRjbXgtZU54YXJna2IzQ0xIdmtZTS05ZFJHQXE4U3o4c0ZQNEQxV3JIem0wbWlMNF93OFVmZVBLUUZFQXRieGR1T19GaDdtcTA0MHRrSGlFcUJtNDI1ckk1bmllQmNReWh4TjlaV2syWmh5NFVzbElxQVNUMG1XeXBISVo1SDk0V3dBTHQ0OHVQSGhOLWd4MkVDeDlIMDhR0gHKAUFVX3lxTE9JYVNyd2NxUXJ0N3g4R3ZxYVJ0cmFXcXAwbFRlWXlNS1RERF9yaWtuOGkwVGNteC1lTnhhcmdrYjNDTEh2a1lNLTlkUkdBcThTejhzRlA0RDFXckh6bTBtaUw0X3c4VWZlUEtRRkVBdGJ4ZHVPX0ZoN21xMDQwdGtIaUVxQm00MjVySTVuaWVCY1F5aHhOOVpXazJaaHk0VXNsSXFBU1QwbVd5cEhJWjVIOTRXd0FMdDQ4dVBIaE4tZ3gyRUN4OUgwOFE?oc=5",
+     "via": "Google News",
+     "published": "2026-11-15T21:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "The Jakarta Post",
+     "Al Arabiya"
+    ]
+   ],
+   "outlets": [
+    "Africanews",
+    "The Jakarta Post",
+    "Al Arabiya",
+    "Business Standard"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-14T14:34+00:00",
+   "earliest": "2026-11-14T02:07+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Microsoft apologises for global outage and rules out cyberattack",
+     "url": "http://www.africanews.com/2026/11/14/microsoft-apologises-for-global-outage-and-rules-out-cyberattack/",
+     "via": "",
+     "published": "2026-11-14T14:34+00:00",
+     "summary": "The tech giant said on Saturday that service has now been restored across Teams, Outlook, and its other products, ending the shutdown."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Microsoft restores service to Outlook and Teams after global outage",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWll5bWU5ekF0SmdRemxXazJ6WF9FSHlMRGUtRkp4Q0FkVGgycEZuT1gxUG9ja1hhZmJrMUVlQ1pobnBTcU5wRlZVVDgwcUk1cDgzMk9oZHo0dnpSdXpuU3JER25KMWFtZk85ZnlST3lvWGNCSmludXZoVjhUanRuLU5TUFpudGxOSk1nY3M3RWt1cjFGSl9jdk5vNEZkdEphaHZyTHpBN01SVGhjQ1ZmU1puSWZqZk5mZ1BteGhZYU0wOVo4eTJsT29vOFVGQUd3VW12Tl9EeDRKTF9USUtLOG1XcnlBbUpKMEYyRFNKVExyN3c?oc=5",
+     "via": "Google News",
+     "published": "2026-11-14T08:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Microsoft restores service to Outlook and Teams after global outage",
+     "url": "https://english.alarabiya.net/amp/business/technology/2026/11/14/microsoft-restores-service-to-outlook-and-teams-after-global-outage",
+     "via": "",
+     "published": "2026-11-14T07:53+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Microsoft restores services after global outage hits Outlook and Teams",
+     "url": "https://www.business-standard.com/world-news/microsoft-outage-eases-after-over-a-day-recovery-timeline-uncertain-126111400033_1.html",
+     "via": "",
+     "published": "2026-11-14T02:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-16T22:06+00:00",
+   "earliest": "2026-11-16T21:21+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+     "via": "",
+     "published": "2026-11-16T22:06+00:00",
+     "summary": "Stocks in Asia looked set to decline, tracking losses on Wall Street as investors remained wary of the AI trade ahead of Nvidia Corp.’s high-stakes earnings and Anthropic PBC’s expected market debut."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "US stocks close sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "url": "https://www.straitstimes.com/business/companies-markets/us-stocks-wall-street-ends-sharply-lower-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo",
+     "via": "",
+     "published": "2026-11-16T21:44+00:00",
+     "summary": "The Dow Jones Industrial Average fell 739.38 points, or 1.41%, while the Nasdaq Composite lost 626.51 points, or 2.49%, to 24,509.76."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T21:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-16T18:32+00:00",
+   "earliest": "2026-11-16T10:06+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Canadian Natural Resources to buy Advantage Energy in $1.77 billion deal",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWVlkSEdUTG11TUMzMTctOExYOVE0ZUh0amNlazF6RmNjS1FLT1VjLWxRdmYwTnBySVRzU1BvUm1EQmFidnZici0tbFdXMGVQTGxJZEFDbGt5M1dQZ2ZHbEw1cVQ4bk1nNUVsZTNwdVJDaUFsY2dCaUpXTUlZYWNRZTh1b0FtaVJYeWRqT3d2WEs1VDI0bjhCclNPWHpNVjA0Si1Cak5VT0VrNXRkSDcwb1cxdzZOYnhfV09PRg?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T18:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Canadian Natural’s $1.77 billion Advantage takeover fuels Alberta oil expansion",
+     "url": "https://www.mining.com/canadian-naturals-1-77b-advantage-takeover-fuels-alberta-oil-expansion/",
+     "via": "",
+     "published": "2026-11-16T10:45+00:00",
+     "summary": "The Canadian energy giant will acquire Advantage Energy's Montney assets as consolidation in the oilpatch accelerates."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Canadian Natural Resources to buy Advantage Energy in $1.77bn deal",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0RGMW4td0NvRUVYRmc0dElqV2gyYzZqckhTeUFLZG1PQU51NUs1ZUk5WW1GMzFhSFEyRXU2LTVhbWZsSnNhLXpUMVJudFcwTU9vSENRUFlhbHg4Rm9lNl9DUXlHeGlNWE9oNUJ6NTBzNVM3V1Y1RnVRbHNJY1pEVjM5Uy0tLWhYaXBHM0hsY3FMb0JUc1Q1TEFvUFlPalNFSDMxRXBVZmhlcmtVWUFEWUhR?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T10:06+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Associated Press",
+    "The Straits Times"
+   ],
+   "regions": [
     "North America",
     "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-16T04:46+00:00",
+   "latest": "2026-11-16T03:13+00:00",
    "earliest": "2026-11-15T09:35+00:00",
    "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
-     "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-16T04:46+00:00",
-     "summary": "Chinese tech executive romantically linked to ex-Nvidia CEO Jensen Huang left in August 2025, Singapore-based firm says."
-    },
     {
      "outlet": "Business Standard",
      "region": "South Asia",
@@ -285,19 +549,10 @@
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
-     "url": "https://apnews.com/article/singapore-megaspeed-alice-huang-nvidia-probe-e9e2e18169dce0b30a34f39715bf35ed",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRFF3czVab0VWVUpGMVNfVjZlcU12U0g5Q2FJcU56LXZpZ1RFSGNtRjBWSTdyZGxsNWp4WWpCX0NPdzBVZkMtZGdYQzJKTXVoTlkwenctczZDbDNUakhPNHNDYjFSa2djcTVmMEExZjRHaFZPemNBVlBBaHkybFpFcndDcWJPcl9sSFZCek1hV04wTUJTQ21CVEVHeXNOMlJKNXVGZzlFaw?oc=5",
+     "via": "Google News",
      "published": "2026-11-15T19:54+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Megaspeed says alleged Chinese spy, Alice Huang, left company last year",
-     "url": "https://www.euronews.com/2026/11/15/megaspeed-says-alleged-chinese-spy-alice-huang-left-company-last-year",
-     "via": "",
-     "published": "2026-11-15T16:41+00:00",
-     "summary": "The cloud computing company with ties to Nvidia, Megaspeed, has said that Alice Huang, an alleged Chinese spy, left the company in 2025. Huang is at the heart of an international corporate scandal and alleged to have had an affair with former Nvidia CEO Jensen Huang"
     },
     {
      "outlet": "The Straits Times",
@@ -309,454 +564,143 @@
      "summary": "Her ties to former Nvidia CEO Jensen Huang raised US national security concerns."
     }
    ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 5,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Deutsche Welle",
-    "Times of Israel",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-16T02:22+00:00",
-   "earliest": "2026-11-15T08:59+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Houthis advance in Yemen as government forces move to defend Aden",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-16T02:22+00:00",
-     "summary": "An advance by the Houthi armed group in Yemen is threatening one of the government’s last strongholds."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Yemen: Anti-Houthi forces pull back as rebels advance",
-     "url": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-15T23:29+00:00",
-     "summary": "Forces aligned with the Yemeni government and Saudi Arabia are seeking to strengthen control over the interim capital Aden as the Iran-backed Houthis approach."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Houthis advance on Aden as government bolsters city defenses",
-     "url": "https://www.timesofisrael.com/liveblog_entry/houthis-advance-on-aden-as-government-bolsters-city-defenses/",
-     "via": "",
-     "published": "2026-11-15T21:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain",
-     "url": "https://www.reuters.com/world/middle-east/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain-2026-11-15/",
-     "via": "",
-     "published": "2026-11-15T18:59+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Yemen’s Southern Armed Forces announce troop redeployment amid Houthi threats",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/15/yemen-s-southern-armed-forces-announce-troop-redeployment-amid-houthi-threats",
-     "via": "",
-     "published": "2026-11-15T08:59+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Times of Israel",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-15T23:03+00:00",
-   "earliest": "2026-11-15T08:01+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Israel kills a top Hamas commander as Jordan sentences 3 in church attack, and other Mideast news",
-     "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c",
-     "via": "",
-     "published": "2026-11-15T23:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Jordan sentences 3 men to death over October church attack that killed nine",
-     "url": "https://www.timesofisrael.com/jordan-sentences-3-men-to-death-over-october-church-attack-that-killed-nine/",
-     "via": "",
-     "published": "2026-11-15T11:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Jordan sentences three men to death over deadly church attack",
-     "url": "https://www.reuters.com/world/middle-east/jordan-sentences-three-men-death-over-deadly-church-attack-2026-11-15/",
-     "via": "",
-     "published": "2026-11-15T10:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Jordan sentences three men to death over church attack",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/jordan-sentences-three-men-to-death-over-church-attack",
-     "via": "",
-     "published": "2026-11-15T08:01+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Deutsche Welle",
-    "Euronews",
-    "Africanews"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-15T19:52+00:00",
-   "earliest": "2026-11-13T15:42+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Cape Verde election could deliver first woman president since independence in 1975",
-     "url": "https://apnews.com/article/cape-verde-presidential-election-rosa-neves-b066358194132f21ea91bcbd6699d5e0",
-     "via": "",
-     "published": "2026-11-15T19:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Cape Verde election: Jose Maria Neves set to win second term",
-     "url": "https://www.dw.com/en/cape-verde-election-jose-maria-neves-set-to-win-second-term/a-79952606?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-15T16:47+00:00",
-     "summary": "Nearly two-thirds of the voters in the West African nation voted to keep President Jose Maria Neves in office, according to provisional results."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Cape Verde heads to the polls in presidential election",
-     "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
-     "via": "",
-     "published": "2026-11-15T09:45+00:00",
-     "summary": "Incumbent President José Maria Neves, who won the 2021 presidential election, is favoured to win a second term in office."
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Cape verde presidential election: Neves seeks second term",
-     "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
-     "via": "",
-     "published": "2026-11-13T15:42+00:00",
-     "summary": "The Portuguese-speaking island nation, located off the coast of Senegal, is widely regarded as one of Africa’s strongest democracies, standing out in a region increasingly affected by coups and political instability."
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters",
-    "gCaptain"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-15T13:16+00:00",
-   "earliest": "2026-11-14T14:41+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Two tankers on fire after hitting naval mines in the Strait of Hormuz, Iran’s IRGC says",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/two-tankers-on-fire-after-hitting-naval-mines-in-the-strait-of-hormuz-iran-s-irgc-says",
-     "via": "",
-     "published": "2026-11-15T13:16+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran's navy says three tankers on fire after hitting mines in Hormuz",
-     "url": "https://www.reuters.com/world/middle-east/irans-navy-says-oil-tanker-fire-after-hitting-mine-hormuz-2026-11-14/",
-     "via": "",
-     "published": "2026-11-14T22:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Oil Tanker On Fire After Hitting Mine In Hormuz",
-     "url": "https://gcaptain.com/oil-tanker-on-fire-after-hitting-mine-in-hormuz/",
-     "via": "",
-     "published": "2026-11-14T14:41+00:00",
-     "summary": "Nov 14 (Reuters) – Iran’s navy said an oil tanker caught fire on Saturday morning after hitting a naval mine in the eastern Strait of Hormuz, Iranian state media reported. Reuters could not immediately..."
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Euronews",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-15T17:31+00:00",
-   "earliest": "2026-11-15T12:49+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Three Ships Struck By Drones In Black Sea Near Romanian Shipping Canal",
-     "url": "https://gcaptain.com/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal/",
-     "via": "",
-     "published": "2026-11-15T17:31+00:00",
-     "summary": "BUCHAREST, Nov 15 (Reuters) – Drones have struck three commercial ships in the Black Sea near Romania’s Sulina canal, Prime Minister Luca Niculescu said on Sunday, adding that his armed forces had scrambled fighter jets..."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Three commercial vessels struck by drones near Romania's Black Sea coast, PM says",
-     "url": "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says",
-     "via": "",
-     "published": "2026-11-15T13:55+00:00",
-     "summary": "Romania's Prime Minister called the attack on the three vessels Saturday 'unacceptable' and a 'violation of international law'. A day prior, a separate cargo-bound vessel was also struck. No injuries were reported."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Three ships struck by drones in Black Sea near Romanian shipping canal, PM says",
-     "url": "https://www.reuters.com/business/aerospace-defense/three-ships-struck-by-drones-black-sea-near-romanian-shipping-canal-pm-says-2026-11-15/",
-     "via": "",
-     "published": "2026-11-15T12:49+00:00",
-     "summary": ""
-    }
-   ],
    "id": 6
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Reuters",
-    "Deutsche Welle"
+    "MINING.COM",
+    "Mining Weekly"
    ],
    "regions": [
-    "Europe"
+    "Africa",
+    "North America"
    ],
-   "latest": "2026-11-16T06:10+00:00",
-   "earliest": "2026-11-15T18:29+00:00",
+   "latest": "2026-11-16T21:49+00:00",
+   "earliest": "2026-11-16T09:05+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Estonia to close Russia border after 'sabotage' bid on drone maker, foreign minister says",
-     "url": "https://www.euronews.com/2026/11/16/estonia-to-close-russia-border-after-sabotage-bid-on-drone-maker-foreign-minister-says",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Greenland Energy, 80 Mile merge in $97 million all share deal",
+     "url": "https://www.mining.com/greenland-energy-80-mile-merge-in-97-million-all-share-deal/",
      "via": "",
-     "published": "2026-11-16T06:10+00:00",
-     "summary": "On Sunday, Prime Minister Kristen Michal wrote on X that the GRU had ordered a \"sabotage attempt\" at the Estonian defence company Threod Systems on Saturday night."
+     "published": "2026-11-16T21:49+00:00",
+     "summary": "The combination will consolidate 100% ownership of the Jameson Land Basin licences within a single Nasdaq-listed vehicle."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Estonia to close Russian border crossings after attempted arson attack",
-     "url": "https://www.reuters.com/world/europe/estonia-close-russian-border-crossings-after-attempted-arson-attack-2026-11-15/",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Greenland Energy to acquire 80 Mile in all-share merger valued at £74m",
+     "url": "https://www.miningweekly.com/article/greenland-energy-to-acquire-80-mile-in-all-share-merger-valued-at-74m-2026-11-16",
      "via": "",
-     "published": "2026-11-15T20:49+00:00",
+     "published": "2026-11-16T09:05+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Estonia closes border to Russia after suspected drone factory arson",
-     "url": "https://www.dw.com/en/estonia-closes-border-to-russia-after-suspected-drone-factory-arson/a-79953115?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-15T18:29+00:00",
-     "summary": "Tallinn has accused Russia of conducting hybrid warfare after a drone factory was set alight in Viimsi. Now it will close its border crossings at the start of December."
     }
    ],
    "id": 7
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya",
-    "Times of Israel"
+    "Livemint / Economic Times",
+    "Reuters"
    ],
    "regions": [
-    "Middle East"
+    "Europe",
+    "South Asia"
    ],
-   "latest": "2026-11-16T04:53+00:00",
-   "earliest": "2026-11-14T19:33+00:00",
+   "latest": "2026-11-16T21:27+00:00",
+   "earliest": "2026-11-16T01:25+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
-     "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Gold price slides to one-year low, heads for worst year since 2015",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/gold-price-slides-to-one-year-low-heads-for-worst-year-since-2015/articleshow/135902147.cms",
      "via": "",
-     "published": "2026-11-16T04:53+00:00",
-     "summary": "Iran-aligned Kataib Hezbollah says the group is subjected to 'blackmail' to force disarmament amid US pressure on Iraq."
+     "published": "2026-11-16T21:27+00:00",
+     "summary": "Gold prices have been declining due to increased Treasury yields and a stronger dollar affecting demand. The market anticipates tighter monetary policy, which is influencing gold’s performance negatively. Central banks initially showed strong demand for gold, but this may weaken now, particularly from Poland. While gold remained above $3,800 an ounce, volatility in equities has pressured investors"
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iraqi armed group denies accusation of oil smuggling",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/15/iraqi-armed-group-denies-accusation-of-oil-smuggling",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Gold drops to more than one-year low as US dollar marches higher",
+     "url": "https://www.reuters.com/world/india/gold-edges-higher-investors-await-warsh-remarks-rate-signals-2026-11-16/",
      "via": "",
-     "published": "2026-11-15T18:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iraq’s PM sacks officials over oil smuggling in stronghold of Iran-backed terror group",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iraqs-pm-sacks-officials-over-oil-smuggling-in-stronghold-of-iran-backed-terror-group/",
-     "via": "",
-     "published": "2026-11-14T19:33+00:00",
+     "published": "2026-11-16T01:25+00:00",
      "summary": ""
     }
    ],
    "id": 8
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "gCaptain",
     "Associated Press",
-    "Axios"
+    "Euronews"
    ],
    "regions": [
+    "Europe",
     "North America"
    ],
-   "latest": "2026-11-14T02:34+00:00",
-   "earliest": "2026-11-14T01:17+00:00",
+   "latest": "2026-11-16T19:26+00:00",
+   "earliest": "2026-11-16T15:53+00:00",
    "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans",
-     "url": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/",
-     "via": "",
-     "published": "2026-11-14T02:34+00:00",
-     "summary": "All passengers and crew aboard an American Cruise Lines riverboat survived after a Marshall Islands-flagged asphalt tanker struck the docked paddle-wheeler on the Mississippi River in New Orleans on Friday,..."
-    },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "All passengers and crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
-     "url": "https://apnews.com/article/new-orleans-tanker-river-cruise-rescue-passengers-757bed7a70ceb72f0d7140143fe2a764",
+     "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+     "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
      "via": "",
-     "published": "2026-11-14T01:52+00:00",
+     "published": "2026-11-16T19:26+00:00",
      "summary": ""
     },
     {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
-     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Trump says he could meet with North Korean leader Kim Jong-un in China",
+     "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
      "via": "",
-     "published": "2026-11-14T01:17+00:00",
-     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
+     "published": "2026-11-16T15:53+00:00",
+     "summary": "Trump is planning to discuss nuclear disarmament when he meets with Russian President Vladimir Putin and Chinese President Xi Jinping in Shenzhen, China this week."
     }
    ],
    "id": 9
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Nikkei Asia",
-     "Al Arabiya"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "ABC News (Australia)",
-    "Nikkei Asia",
+    "Euronews",
     "Al Arabiya"
    ],
    "regions": [
-    "East Asia",
-    "Middle East",
-    "Oceania"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-11-14T18:40+00:00",
-   "earliest": "2026-11-13T22:01+00:00",
+   "latest": "2026-11-16T15:14+00:00",
+   "earliest": "2026-11-16T14:36+00:00",
    "items": [
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "US government says wire replacement caused nationwide grounding of flights",
-     "url": "https://www.abc.net.au/news/2026-11-15/us-airlines-more-disruptions-ahead-of-thanksgiving/107386452",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "President Trump says he 'wouldn't mind' Jensen Huang being reinstated as Nvidia CEO",
+     "url": "https://www.euronews.com/2026/11/16/president-trump-says-he-wouldnt-mind-jensen-huang-being-reinstated-as-nvidia-ceo",
      "via": "",
-     "published": "2026-11-14T18:40+00:00",
-     "summary": "The US government has blamed a nationwide aviation shutdown which has disrupted more than 20,000 flights on a program to replace copper wires with new fibre ones."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "US grounds flights nationwide after air traffic control communications outage",
-     "url": "https://asia.nikkei.com/business/transportation/us-grounds-flights-nationwide-after-air-traffic-control-communications-outage",
-     "via": "",
-     "published": "2026-11-13T22:45+00:00",
-     "summary": ""
+     "published": "2026-11-16T15:14+00:00",
+     "summary": "The comments come as a petition calls on Nvidia to reinstate Huang."
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "US grounds flights nationwide after air traffic control communications outage",
-     "url": "https://english.alarabiya.net/business/aviation-and-transport/2026/11/14/us-grounds-flights-nationwide-after-air-traffic-control-communications-outage",
-     "via": "",
-     "published": "2026-11-13T22:01+00:00",
+     "title": "Trump says he would not mind Huang being reinstated as Nvidia CEO",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYW5fUkV1ckc3TzF4U2ZnVkZ3SFNNVUxMS2lJeFppTW9ia3h6aGprVEZYRkFjaVhHeTQ2T2FrNWJmYzFSTVdlek91bVQwOUxaMndEN0FkY1Z0NzREakczcVdUX1paajlqNldvYWRicm5FajdwMm9LaHprS3JSa0gyUmNaWWZoS2hDODNRZTZKdmdMZUhiNkR6LWtRU1BnVEZtOEc3NVcxNzNkb3NCMm5qSXFlUjVnNTZvcXE5R3J30gG-AUFVX3lxTE5hbl9SRXVyRzdPMXhTZmdWRndIU01VTExLaUl4WmlNb2JreHpoamtURlhGQWNpWEd5NDZPYWs1YmZjMVJNV2V6T3VtVDA5TFoyd0Q3QWRjVnQ3NERqRzNxV1RfWlpqOWo2V29hZGJybkVqN3Ayb0toemtLclJrSDJSY1pZZmhLaEM4M1FlNkp2Z0xlSGI2RHota1FTUGdURm04Rzc1VzE3M2Rvc0IybmpJcWVSNWc1Nm9xcTlHcnc?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T14:36+00:00",
      "summary": ""
     }
    ],
@@ -766,33 +710,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Australian Financial Review",
-    "Financial Times"
+    "Africanews",
+    "ABC News (Australia)"
    ],
    "regions": [
-    "Europe",
+    "Africa",
     "Oceania"
    ],
-   "latest": "2026-11-16T05:06+00:00",
-   "earliest": "2026-11-15T18:28+00:00",
+   "latest": "2026-11-16T13:54+00:00",
+   "earliest": "2026-11-16T13:33+00:00",
    "items": [
     {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Nvidia’s CEO search draws fire with Bessent’s ‘shake-up’ call",
-     "url": "https://www.afr.com/world/north-america/nvidia-s-ceo-search-draws-fire-with-bessent-s-shake-up-call-20261116-p61el7?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Israel: Party chiefs say Netanyahu's election fraud claims a coup attempt",
+     "url": "http://www.africanews.com/2026/11/16/israel-party-chiefs-say-netanyahus-election-fraud-claims-a-coup-attempt/",
      "via": "",
-     "published": "2026-11-16T05:06+00:00",
-     "summary": "The US Treasury secretary is looking to close off the possibility of a Jensen Huang comeback, calling on the board to go outside the company for new leadership."
+     "published": "2026-11-16T13:54+00:00",
+     "summary": "Netanyahu subsequently accused Arab parties of electoral fraud after they gained a record number of seats. His Likud party issued a statement denying the latest allegations"
     },
     {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Bessent says Nvidia needs ‘shake-up’ with external CEO",
-     "url": "https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Netanyahu rival demands probe into PM's office over election fraud claims",
+     "url": "https://www.abc.net.au/news/2026-11-17/benjamin-netanyahu-gadi-eisenkot-call-for-investigation/107392590",
      "via": "",
-     "published": "2026-11-15T18:28+00:00",
-     "summary": "US Treasury secretary demands to know if chipmaker is complying with restrictions on exports to China"
+     "published": "2026-11-16T13:33+00:00",
+     "summary": ""
     }
    ],
    "id": 11
@@ -801,32 +745,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Associated Press"
+    "gCaptain",
+    "Mining Weekly"
    ],
    "regions": [
-    "Europe",
+    "Africa",
     "North America"
    ],
-   "latest": "2026-11-16T04:40+00:00",
-   "earliest": "2026-11-16T02:59+00:00",
+   "latest": "2026-11-16T13:16+00:00",
+   "earliest": "2026-11-16T13:13+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Canada ready to turn to Chinese carmakers if US trade talks fail to protect auto sector, PM Carney says",
-     "url": "https://www.euronews.com/2026/11/16/canada-ready-to-turn-to-chinese-carmakers-if-us-trade-talks-fail-to-protect-auto-sector-pm",
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Guinea Says $1.9 billion Deep-Water Port Plan Draws US, Chinese Interest",
+     "url": "https://gcaptain.com/guinea-says-1-9-billion-deep-water-port-plan-draws-us-chinese-interest/",
      "via": "",
-     "published": "2026-11-16T04:40+00:00",
-     "summary": "Carney's remarks come days before a planned meeting with Chinese President Xi Jinping in Shenzhen, where auto manufacturing is expected to be on the agenda."
+     "published": "2026-11-16T13:16+00:00",
+     "summary": "Guinea is seeking backing from US, Chinese and multilateral financiers for a planned $1.9 billion deep-water port, its mines minister told Reuters, aiming to build on the giant Simandou iron ore project and turn the country into a regional trade hub."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
-     "url": "https://apnews.com/article/canada-carney-trump-china-trade-autos-cbb2d3f90eed95925ffa4cb9a4b25239",
-     "via": "",
-     "published": "2026-11-16T02:59+00:00",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Guinea says $1.9bn deep-water port plan draws US, Chinese interest",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHQ3SE84RkFHQkt4OHVMbXY2b29UYlFDNzJwbnhPY2k3cDlIN2xRZXpiTFhmY3Q0RTVDSm9lRDFDeGVZSXlSQ0h1TWE5M3ViTlVqX2VPNzF5MTZJMEVJM0tIT0tyY0Flb2UyTzN0dzJ0TkhNRWlwRXF0VW5xQ05oQXBVSzZSYk9VWko1aU9xcENBUHhWaTZybXdxQjB1U2dPdWhVRlI2R0w4cVBpVWZodQ?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T13:13+00:00",
      "summary": ""
     }
    ],
@@ -836,32 +780,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Reuters"
+    "The Korea Herald",
+    "Associated Press"
    ],
    "regions": [
-    "Europe",
-    "South Asia"
+    "East Asia",
+    "North America"
    ],
-   "latest": "2026-11-16T04:24+00:00",
-   "earliest": "2026-11-16T02:06+00:00",
+   "latest": "2026-11-16T12:17+00:00",
+   "earliest": "2026-11-15T19:13+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "China's economy slows in Oct as factory output, retail sales miss forecasts",
-     "url": "https://www.business-standard.com/world-news/china-s-economy-slows-in-oct-as-factory-output-retail-sales-miss-forecasts-126111600592_1.html",
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "In Cape Verde election, Neves seeks second term",
+     "url": "https://www.koreaherald.com/article/10938542",
      "via": "",
-     "published": "2026-11-16T04:24+00:00",
-     "summary": ""
+     "published": "2026-11-16T12:17+00:00",
+     "summary": "Cape Verde residents voted Sunday in a presidential election that could make Joana Rosa the country’s first woman head of state since independence from Portugal in 1975. Polls closed Sunday evening in the vote in which the former justice minister is challenging President Jose Maria Neves, who is seeking a second term. Six candidates are competing. If none wins more than half the votes, a runoff wi"
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "China's economy falters as factory output, retail sales undershoot expectations",
-     "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
-     "via": "",
-     "published": "2026-11-16T02:06+00:00",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Cape Verde election could deliver first woman president since independence in 1975",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNEZaaVg2di1CeGcyQlpLZjBmeHpaYXQ5YTRGMk8xM0NyZkVtSmFuX2d1ckFqOExOMVhmbzk4U0lEYk96VVd3OENPVTd6bERTNTJDQl8tR3ZxS2JZX2xER3JfSHdCRF9JQkxLMm11bnFTYmN1LUN4R3lfRy15MmJsSS04VUEzX183SDFYSVFDaHJIaTJFT1VQeHljX2FFbkYwV0hmY1VB?oc=5",
+     "via": "Google News",
+     "published": "2026-11-15T19:13+00:00",
      "summary": ""
     }
    ],
@@ -871,33 +815,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "VnExpress International",
+    "The Straits Times",
     "Bloomberg"
    ],
    "regions": [
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-16T01:56+00:00",
-   "earliest": "2026-11-16T00:40+00:00",
+   "latest": "2026-11-16T10:32+00:00",
+   "earliest": "2026-11-16T09:12+00:00",
    "items": [
     {
-     "outlet": "VnExpress International",
+     "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "Jensen Huang reportedly discusses comeback as Nvidia CEO with allies",
-     "url": "https://e.vnexpress.net/news/business/companies/jensen-huang-reportedly-discusses-comeback-as-nvidia-ceo-with-allies-5145049.html",
+     "title": "Thai central bank pushes back against proposed legal changes",
+     "url": "https://www.straitstimes.com/business/thai-central-bank-pushes-back-against-proposed-legal-changes",
      "via": "",
-     "published": "2026-11-16T01:56+00:00",
-     "summary": "Jensen Huang is considering ​a comeback as Nvidia's CEO, and ‌has discussed with confidants the possibility of returning, the Financial Times reported on Sunday, citing people familiar ​with the matter."
+     "published": "2026-11-16T10:32+00:00",
+     "summary": "It was responding to criticism from its board chairman over the slow progress of legal reforms."
     },
     {
      "outlet": "Bloomberg",
      "region": "North America",
-     "title": "Nvidia Shares Steady After Report on Jensen Huang Comeback Talks",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-shares-primed-for-bounce-as-investors-eye-comeback-report",
+     "title": "Thai Central Bank Chief Plays Down Chairman Rift on Legal Reform",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/thai-central-bank-chief-plays-down-chairman-rift-on-legal-reform",
      "via": "",
-     "published": "2026-11-16T00:40+00:00",
-     "summary": "Nvidia Corp.’s stock may see some relief after the Financial Times reported Jensen Huang is discussing a possible comeback to the chipmaker."
+     "published": "2026-11-16T09:12+00:00",
+     "summary": "Bank of Thailand Governor Vitai Ratanakorn denied tensions with the central bank’s chairman after the two publicly disagreed over the pace of legal reforms and how the institution should be governed."
     }
    ],
    "id": 14
@@ -906,33 +850,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Jakarta Post",
-    "South China Morning Post"
+    "Africanews",
+    "Al Arabiya"
    ],
    "regions": [
-    "China",
-    "Southeast Asia"
+    "Africa",
+    "Middle East"
    ],
-   "latest": "2026-11-16T01:46+00:00",
-   "earliest": "2026-11-13T15:00+00:00",
+   "latest": "2026-11-16T07:41+00:00",
+   "earliest": "2026-11-15T18:41+00:00",
    "items": [
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Trade war, Pax Silica in focus at ASEAN summit ahead of Trump arrival",
-     "url": "https://www.thejakartapost.com/world/2026/11/16/trade-war-pax-silica-in-focus-at-asean-summit-ahead-of-trump-arrival",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Sudan and Ethiopia trade accusations over armed groups",
+     "url": "http://www.africanews.com/2026/11/16/sudan-and-ethiopia-trade-accusations-over-armed-groups/",
      "via": "",
-     "published": "2026-11-16T01:46+00:00",
-     "summary": ""
+     "published": "2026-11-16T07:41+00:00",
+     "summary": "Tensions between Sudan and Ethiopia have escalated, with each accusing the other of supporting armed groups that wage war within its borders, undermining efforts to resolve the conflicts that have gripped the two neighboring African countries."
     },
     {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Trump to press Southeast Asia nations to join Pax Silica at Asean summit in Manila",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3374393/trump-press-southeast-asia-nations-join-pax-silica-asean-summit-manila",
-     "via": "",
-     "published": "2026-11-13T15:00+00:00",
-     "summary": "US President Donald Trump will press Southeast Asian economies to join Pax Silica, his campaign to China-proof AI and chip supply chains, when he attends the Asean summit in Manila next week. According to people familiar with the matter, artificial intelligence and critical minerals will top his agenda at the Association of Southeast Asian Nations gathering, his first trip abroad since his party’s"
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iraqi armed group denies accusation of oil smuggling",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVEF4ajMxcWZsMU5XMkp0VEZZMzVtU1FWVmhxdmxSQklVcWZmSGlZSFNDTGxIZ24tZGtMOHhabTh4LWVUcnpvcjB1Nmp1RktjV0Ryd3lfeXJBbUZlV0RpZGYzOFF4LUx0V0doLVFmN0Ixc21zemFwN3g3ekx1S2puLU13b2llUnU5RkV3MHJlVG9FTEdYOUxWTE1KNTdYLWxMVXZJeTlpT3gyWjA4ellJ0gG0AUFVX3lxTFBqbjc5OW5YdGUzbllwcF9YOTN5NmlYUDl2SjZUUVhSRjk5enkxRm93TU11RlJVXzZpdXgtQ2NJNjFfQ0E3VHNxd1M5emM1dmRJaGp5cGtvdlMwTFZRMFpERXNpTXk4ZW5NdExla2RSZ2R4dnllblBwWFBfbnVhMXNDM3BkYkJpRzEwd0s3TVJ2MDNxQ21LTzhwS1VzbW9WX2VqUmdmWWxpclBXT3JzVEtTZFphMA?oc=5",
+     "via": "Google News",
+     "published": "2026-11-15T18:41+00:00",
+     "summary": ""
     }
    ],
    "id": 15
@@ -941,33 +885,33 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Deutsche Welle"
+    "The Straits Times",
+    "ABC News (Australia)"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "Oceania",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-16T01:44+00:00",
-   "earliest": "2026-11-15T15:23+00:00",
+   "latest": "2026-11-16T03:38+00:00",
+   "earliest": "2026-11-16T01:17+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Pope urges end to Amazon deforestation",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-urges-end-to-amazon-deforestation?traffic_source=rss",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australian lawmaker leaves hospital after losing legs in alleged attack",
+     "url": "https://www.straitstimes.com/asia/australianz/australian-lawmaker-leaves-hospital-after-losing-legs-in-alleged-attack",
      "via": "",
-     "published": "2026-11-16T01:44+00:00",
-     "summary": "Pope Leo XIV warns deforestation and illegal mining are threatening the Amazon rainforest and the local communities."
+     "published": "2026-11-16T03:38+00:00",
+     "summary": "A car had rammed into politician Helen Haines outside her office in rural Australia in October."
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Pope Leo heads to the Amazon on the final leg of his South American tour",
-     "url": "https://www.dw.com/en/pope-leo-heads-to-the-amazon-on-the-final-leg-of-his-south-american-tour/a-79952884?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-15T15:23+00:00",
-     "summary": "The religious leader warned that deforestation, illegal mining and pollution threaten the Amazon and its inhabitants. In Peru, the pope also demanded justice for Indigenous leaders killed defending their ancestral lands."
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Helen Haines says she is in next stage of recovery after alleged attack",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPejFZLUp2ZXhJQkVIbkMtTTV2elN6QXhmWGxNVDQ0b0ZpVEhvNmZpY3V0S3c3bGlkeEg0YTJBVFhhZ1p5eUdyc2J3blc4Qlc4aGJnbXhSbEFpX2lGdzE3NHEzQXJEMkFka3JiZlBXWGg2WkFid3RmUU1lbWRKSUZlZDliazFEeWNpT1RPSlBhUDBqUmlObmNXNWY0Y1ZKcFMxdEJaS2Fkbw?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T01:17+00:00",
+     "summary": ""
     }
    ],
    "id": 16
@@ -976,106 +920,36 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "BNamericas"
+    "Associated Press",
+    "Al Arabiya"
    ],
    "regions": [
-    "Latin America",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-16T01:30+00:00",
-   "earliest": "2026-11-13T21:12+00:00",
+   "latest": "2026-11-15T23:03+00:00",
+   "earliest": "2026-11-15T09:10+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Cerrado acquires Pan American’s former Argentina mine for 2027 restart",
-     "url": "https://mining.com.au/cerrado-acquires-pan-americans-former-argentina-mine-for-2027-restart/",
-     "via": "",
-     "published": "2026-11-16T01:30+00:00",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Israel kills a top Hamas commander as Jordan sentences 3 in church attack, and other Mideast news",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0lIYjU0OG55Z253dDhlYmdmSURkRWZWU3NnWUdwVk5iekp3aXJDbGVQM0RfMUpGRnVQbkowUHBNdEtFaWFYMjRwN2Z5VU04WURFcEhzUTEtcWRMclhYcHlQc0hLV0QxZmNZR0ZMS3RpdkpnNnNMdjhRN0hodGgzaGVHS0N3cjhrcjNPUDNpbTVGNnZzQlhSMnEyelczQVdZLVI5SlFtVzhFUQ?oc=5",
+     "via": "Google News",
+     "published": "2026-11-15T23:03+00:00",
      "summary": ""
     },
     {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Cerrado Gold buys Argentina’s Manantial Espejo for US$20mn, readies 2027 restart",
-     "url": "https://www.bnamericas.com/en/news/cerrado-gold-buys-manantial-espejo-mine-in-argentina-from-pan-american-for-us20mn-eyes-2027-restart",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Senior Hamas commander killed in Israeli strike in Gaza",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/senior-hamas-commander-killed-in-israeli-strike-in-gaza",
      "via": "",
-     "published": "2026-11-13T21:12+00:00",
+     "published": "2026-11-15T09:10+00:00",
      "summary": ""
     }
    ],
    "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-16T00:45+00:00",
-   "earliest": "2026-11-16T00:10+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "SK Hynix to spend $1.35 billion over five years to support chip suppliers",
-     "url": "https://www.straitstimes.com/business/sk-hynix-to-spend-1-35-billion-over-five-years-to-support-chip-suppliers",
-     "via": "",
-     "published": "2026-11-16T00:45+00:00",
-     "summary": "It aims to open a testing facility in May 2027 to cut costs and speed up testing."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "SK Hynix to spend $1 billion over five years to support chip suppliers",
-     "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-2026-11-16/",
-     "via": "",
-     "published": "2026-11-16T00:10+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-16T00:26+00:00",
-   "earliest": "2026-11-15T21:23+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Steering Problem On Tanker Caused Collision In New Orleans",
-     "url": "https://gcaptain.com/steering-problem-on-tanker-caused-collision-in-new-orleans/",
-     "via": "",
-     "published": "2026-11-16T00:26+00:00",
-     "summary": "By Siddharth Cavale Nov 15 (Reuters) – The asphalt tanker vessel that struck a docked paddlewheel cruise boat in the Mississippi River at New Orleans last week experienced a steering problem in which its..."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Steering problem on tanker caused collision in New Orleans, NTSB says",
-     "url": "https://www.reuters.com/world/us/tanker-new-orleans-ship-collision-suffered-steering-casualty-ntsb-says-2026-11-15/",
-     "via": "",
-     "published": "2026-11-15T21:23+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1110,38 +984,106 @@
      "summary": "Jensen Huang stepped down as Nvidia chief on Nov 12 after revelations of extramarital affairs."
     }
    ],
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-14T08:24+00:00",
+   "earliest": "2026-11-14T06:37+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Canada’s Carney touts Philippine trade deal on Asia tour",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbjUyN0QwdWh5UkJXMEl0VXFEMXZ4a05NcWQyTmQ2dVVpR3ZxT1lpYVlNX2FTWUdfU3Rkb1VYRjdOblZUNkI2LXNITXhNQS1MS3pncEEya09KZ3RSbkhMelIyTmxJUGduWTBLdmlDc3JwVE56WXJuLUR3UURFR0hqWDI1TmtkaThFZlItRGtXdXNpSWhRbzB2bHpzSFZsc25JN0xvaDZ3LWtqU0JIclJBMVhR0gGyAUFVX3lxTE9uNTI3RDB1aHlSQlcwSXRVcUQxdnhrTk1xZDJOZDZ1VWlHdnFPWWlhWU1fYVNZR19TdGRvVVhGN05uVlQ2QjYtc0hNeE1BLUxLemdwQTJrT0pndFJuSEx6UjJObElQZ25ZMEt2aUNzcnBUTnpZcm4tRHdRREVHSGpYMjVOa2RpOEVmUi1Ea1d1c2lJaFFvMHZsenNIVmxzbkk3TG9oNncta2pTQkhyUkExWFE?oc=5",
+     "via": "Google News",
+     "published": "2026-11-14T08:24+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Canada’s Carney reports progress in trade talks with Trump as he expands ties with Asia",
+     "url": "https://apnews.com/article/canada-carney-trump-us-trade-deal-philippines-00dea030028a7c221840458b25469e02",
+     "via": "",
+     "published": "2026-11-14T06:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Axios",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-16T22:42+00:00",
+   "earliest": "2026-11-16T22:42+00:00",
+   "items": [
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "United Airlines experiencing \"widespread system outage\"",
+     "url": "https://www.axios.com/2026/11/16/united-airlines-outage-faa",
+     "via": "",
+     "published": "2026-11-16T22:42+00:00",
+     "summary": "United Airlines said Monday that it is experiencing a \"widespread system outage\" just days after a nationwide ground stop halted air traffic across the U.S. Why it matters: It's another blow to the U.S.' beleaguered airspace, which was just digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We sincerely apologize for"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "United Airlines has a widespread system outage just days after nationwide ground stop",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc2xoSnd5Sm9rYTl5eFVRVzc2MFlNSk5qNUJRckg2X0tVazZEZG4wNTVVYW9JeWNyY1J6TWlKS0VURXd1c1JzUUdYU01WQzhQNWhkOEVCOXo4TTlLSnFNanUzVW9BYkZMOVBSb3ZfRnFMWXZFSGp1ZE5vSF9MTEd3VmxSTGI0YlR1VlE?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T22:42+00:00",
+     "summary": ""
+    }
+   ],
    "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Reuters"
+    "Al Jazeera",
+    "Al Arabiya"
    ],
    "regions": [
-    "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-15T18:35+00:00",
-   "earliest": "2026-11-15T08:34+00:00",
+   "latest": "2026-11-16T21:06+00:00",
+   "earliest": "2026-11-16T09:16+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
+     "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Yemeni government forces retreat from Bab el-Mandeb Strait in setback against Houthis",
-     "url": "https://www.timesofisrael.com/yemeni-government-forces-retreat-from-bab-el-mandeb-strait-in-setback-against-houthis/",
+     "title": "Sudanese army air attack kills 13 in western Sudan: Rights group",
+     "url": "https://www.aljazeera.com/news/2026/11/16/sudanese-army-air-attack-kills-13-in-western-sudan-rights-group?traffic_source=rss",
      "via": "",
-     "published": "2026-11-15T18:35+00:00",
-     "summary": ""
+     "published": "2026-11-16T21:06+00:00",
+     "summary": "'Preliminary monitoring' shows women and children killed, homes destroyed in West Kordofan, says Emergency Lawyers."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Yemeni government force retreats from strait in major setback in war against Houthis",
-     "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Sudan army strike kills 15, including children, in Kordofan offensive",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/16/sudan-army-strike-kills-15-including-children-in-kordofan-offensive",
      "via": "",
-     "published": "2026-11-15T08:34+00:00",
+     "published": "2026-11-16T09:16+00:00",
      "summary": ""
     }
    ],
@@ -1151,32 +1093,31 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Times of Israel"
+    "Mining Weekly",
+    "Ecofin Agency"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "Africa"
    ],
-   "latest": "2026-11-15T15:45+00:00",
-   "earliest": "2026-11-15T14:34+00:00",
+   "latest": "2026-11-16T06:49+00:00",
+   "earliest": "2026-11-14T17:58+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "\"Dans Gaza\" wins best documentary at Montreal's Cinemania festival",
-     "url": "https://www.euronews.com/2026/11/15/dans-gaza-wins-best-documentary-at-montreals-cinemania-festival",
-     "via": "",
-     "published": "2026-11-15T15:45+00:00",
-     "summary": "Directed by Hélène Lam Trong, \"Dans Gaza\" won the best documentary prize at Montreal's Cinemania festival. This 72-minute film immerses in the daily lives of four AFP Palestinian journalists, who covered the first months of the war at the risk of their lives."
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "UN climate chief urges speed as COP31 confronts fossil fuel divide",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN18xRktrM3NXZWozWDY2LTZLWWR2X1IzZFp0S0NMVVFaeUIybE50YlFOSElkRHI4bUJCWDNDUXBBVzVIc0owVEQ3VWtQQlc2eDVsRkZfVUE1UmVKZjU4Q1NSbkVWZVZGMGVfenI5MHExT01Za1VDMkF0eGhQbkwwckFrX041X2dKa0x6ZlhkUzdvajB2b09hVFVnclpZOTlGZlUyNE5tLXVCNy1jYU1OdV9jdW8?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T06:49+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Film tracking journalists in Gaza during war wins best documentary at Montreal fest",
-     "url": "https://www.timesofisrael.com/film-tracking-journalists-in-gaza-during-war-wins-best-documentary-at-montreal-fest/",
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Nigeria Pitches Climate Funders at COP31 to Expand Gas, EV Drive",
+     "url": "https://www.ecofinagency.com/news-industry/1411-60815-nigeria-pitches-climate-funders-at-cop31-to-expand-gas-ev-drive",
      "via": "",
-     "published": "2026-11-15T14:34+00:00",
+     "published": "2026-11-14T17:58+00:00",
      "summary": ""
     }
    ],
@@ -1186,451 +1127,35 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "CBC News",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-15T13:18+00:00",
-   "earliest": "2026-11-13T14:38+00:00",
-   "items": [
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "Senior Hamas commander who helped oversee Oct. 7 attack killed in Israeli strike in Gaza",
-     "url": "https://www.cbc.ca/news/world/hamas-killed-gaza-israel-9.7422641",
-     "via": "",
-     "published": "2026-11-15T13:18+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF: 10 operatives, including Oct. 7 terrorists killed in Gaza strikes this week",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-10-operatives-including-oct-7-terrorists-killed-in-gaza-strikes-this-week/",
-     "via": "",
-     "published": "2026-11-13T14:38+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-15T06:25+00:00",
-   "earliest": "2026-11-15T02:58+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition intercepts two Houthi missiles, three drones",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/saudiled-coalition-intercepts-two-houthi-missiles-three-drones",
-     "via": "",
-     "published": "2026-11-15T06:25+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
-     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province-2026-11-15/",
-     "via": "",
-     "published": "2026-11-15T02:58+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-15T06:05+00:00",
-   "earliest": "2026-11-15T04:25+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Bahrain says air defenses intercepted Iranian aerial attacks before reaching targets",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/bahrain-says-air-defenses-intercepted-destroyed-iranian-drones",
-     "via": "",
-     "published": "2026-11-15T06:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base",
-     "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
-     "via": "",
-     "published": "2026-11-15T04:25+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-11-14T01:51+00:00",
-   "earliest": "2026-11-13T13:31+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Microsoft outage hits businesses worldwide; India feels impact",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-hits-businesses-worldwide-india-feels-impact/article71698919.ece",
-     "via": "",
-     "published": "2026-11-14T01:51+00:00",
-     "summary": "Disruption to Microsoft’s cloud-based email service affects business operations and airline customer support in India; public services in several countries also report problems"
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Microsoft outage disrupts email, AI services worldwide",
-     "url": "https://english.kyodonews.net/articles/-/91290",
-     "via": "",
-     "published": "2026-11-13T13:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Associated Press",
-    "South China Morning Post"
+    "Axios"
    ],
    "regions": [
-    "China",
     "North America"
    ],
-   "latest": "2026-11-13T21:24+00:00",
-   "earliest": "2026-11-13T20:20+00:00",
+   "latest": "2026-11-14T23:46+00:00",
+   "earliest": "2026-11-14T01:17+00:00",
    "items": [
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Bessent blames Lutnick’s Commerce Department for not restricting Nvidia chip exports",
-     "url": "https://apnews.com/article/nvidia-megaspeed-scott-bessent-howard-lutnick-17582a5098a5fb4c8fe866a084a6e52b",
+     "title": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+     "url": "https://apnews.com/article/new-orleans-cruise-ship-tanker-crash-0c1cbee9c9b3f3103d84b8bb17b5073f",
      "via": "",
-     "published": "2026-11-13T21:24+00:00",
+     "published": "2026-11-14T23:46+00:00",
      "summary": ""
     },
     {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Bessent blames US Commerce Department for not restricting Nvidia chip exports to China",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china",
-     "via": "",
-     "published": "2026-11-13T20:20+00:00",
-     "summary": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department, led by Howard Lutnick, for delaying the blacklisting of Megaspeed, an Nvidia customer suspected of diverting advanced AI chips to China, days before US President Donald Trump and Chinese President Xi Jinping are expected to meet in Shenzhen. Bessent spoke a day after Nvidia co-founder Jensen Huang resigned as chief execu"
-    }
-   ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-13T14:40+00:00",
-   "earliest": "2026-11-13T06:35+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
+     "outlet": "Axios",
      "region": "North America",
-     "title": "Copper shortage or surplus? Banks split on 2027 outlook",
-     "url": "https://www.mining.com/copper-shortage-or-surplus-banks-split-on-2027-outlook/",
+     "title": "Mississippi River cruise crash has no fatalities, critical injuries",
+     "url": "https://www.axios.com/2026/11/13/new-orleans-cruise-ship-tanker-strike",
      "via": "",
-     "published": "2026-11-13T14:40+00:00",
-     "summary": "Deutsche bank warns dwindling supplies could trigger a price squeeze, while Goldman Sachs sees risks from tariffs and investor positioning."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Goldman Sachs flags risks to $15 400/t copper price forecast for 2027",
-     "url": "https://www.miningweekly.com/article/goldman-sachs-flags-risks-to-15-400t-copper-price-forecast-for-2027-2026-11-13",
-     "via": "",
-     "published": "2026-11-13T06:35+00:00",
-     "summary": ""
+     "published": "2026-11-14T01:17+00:00",
+     "summary": "Thirty-two people are in local hospitals and all passengers and crew are accounted for after a tanker collided with a Mississippi River cruise ship near the Port of New Orleans , officials said Friday. The big picture: With approximately 180 people on the ship, the rescue of all aboard is \"truly is a miracle on the Mississippi,\" New Orleans Mayor Helena Moreno said at a press conference. What they"
     }
    ],
-   "id": 28
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "CBC News",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-13T14:05+00:00",
-   "earliest": "2026-11-13T11:03+00:00",
-   "items": [
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "UN nuclear watchdog increasingly concerned about Iranian enrichment plant, report says",
-     "url": "https://www.cbc.ca/news/world/united-nations-nuclear-watchdog-iaea-iran-9.7420465",
-     "via": "",
-     "published": "2026-11-13T14:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "UN nuclear watchdog increasingly concerned about Iran enrichment plant, report says",
-     "url": "https://www.timesofisrael.com/liveblog_entry/un-nuclear-watchdog-urges-iran-to-take-steps-to-allow-inspectors-report-says/",
-     "via": "",
-     "published": "2026-11-13T11:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-13T14:03+00:00",
-   "earliest": "2026-11-13T13:27+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iraq turns to trucks to export oil in overland Syrian route revival",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/13/iraq-turns-to-trucks-to-export-oil-in-overland-syrian-route-revival",
-     "via": "",
-     "published": "2026-11-13T14:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EXCLUSIVE: Iraq turns to trucks to export oil in overland Syrian route revival",
-     "url": "https://www.reuters.com/business/energy/iraq-turns-trucks-export-oil-overland-syrian-route-revival-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T13:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Australian Financial Review",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Oceania"
-   ],
-   "latest": "2026-11-16T05:15+00:00",
-   "earliest": "2026-11-16T01:17+00:00",
-   "items": [
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Haines ‘full of gratitude’ after being discharged from hospital",
-     "url": "https://www.afr.com/politics/federal/haines-full-of-gratitude-after-being-discharged-from-hospital-20261116-p61eko?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-11-16T05:15+00:00",
-     "summary": "Helen Haines used her first statement since her alleged attack last month to thank her medical team and acknowledge the outpouring of public support."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Helen Haines 'full of gratitude' in first statement since alleged attack",
-     "url": "https://www.abc.net.au/news/2026-11-16/helen-haines-discharged-from-hospital-wangaratta-attack/107389928",
-     "via": "",
-     "published": "2026-11-16T01:17+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 31
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Hindu"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-15T16:38+00:00",
-   "earliest": "2026-11-15T06:59+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Mumbai CNG prices rise to ₹91.50/kg after 8th hike this year: How much costlier is fuel since January 2026?",
-     "url": "https://www.livemint.com/news/mumbai-cng-prices-rise-to-91-50-kg-after-8th-hike-this-year-how-much-costlier-is-fuel-since-january-2026-11794759960876.html",
-     "via": "",
-     "published": "2026-11-15T16:38+00:00",
-     "summary": "Mahanagar Gas has raised CNG prices in Mumbai by ₹1.50 per kg to ₹91.50, marking its eighth hike this year. Fuel has become ₹11 per kg, or nearly 14%, costlier since January. The increase affects around 12.93 lakh vehicles across the Mumbai Metropolitan Region."
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Mahanagar Gas hikes CNG prices in Mumbai by ₹1.5/kg, sixth hike since May",
-     "url": "https://www.thehindu.com/business/Economy/mahanagar-gas-hikes-cng-prices-in-mumbai-by-15kg-sixth-hike-since-may/article71704245.ece",
-     "via": "",
-     "published": "2026-11-15T06:59+00:00",
-     "summary": "Cumulatively prices of the vehicular gas have increased ₹9.5 per kg across six tranches since May 14"
-    }
-   ],
-   "id": 32
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-14T14:41+00:00",
-   "earliest": "2026-11-14T12:27+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump tells advisers he may not attack Iran as long as it doesn’t provoke US, sources say",
-     "url": "https://www.timesofisrael.com/trump-tells-advisers-he-may-not-attack-iran-as-long-as-it-doesnt-provoke-us-sources-say/",
-     "via": "",
-     "published": "2026-11-14T14:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
-     "url": "https://english.alarabiya.net/News/world/2026/11/14/trump-tells-advisers-he-may-hold-off-on-iran-attacks-barring-new-provocations-sources-say",
-     "via": "",
-     "published": "2026-11-14T12:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 33
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "VnExpress International"
-   ],
-   "regions": [
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-14T08:00+00:00",
-   "earliest": "2026-11-13T09:37+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Singapore-based billionaire Leo KoGuan vows to halt Nvidia buys after Jensen Huang exit",
-     "url": "https://www.straitstimes.com/business/companies-markets/singapore-based-billionaire-leo-koguan-vows-to-halt-nvidia-buys-after-jensen-huang-exit",
-     "via": "",
-     "published": "2026-11-14T08:00+00:00",
-     "summary": "KoGuan said he will not increase his stake in the tech company with someone else at the helm."
-    },
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Singapore-based billionaire investor Leo KoGuan says no further investment in Nvidia after Jensen Huang's resignation",
-     "url": "https://e.vnexpress.net/news/business/billionaires/singapore-based-billionaire-investor-leo-koguan-says-no-further-investment-in-nvidia-after-jensen-huang-s-resignation-5144354.html",
-     "via": "",
-     "published": "2026-11-13T09:37+00:00",
-     "summary": "Leo KoGuan, a billionaire investor based in Singapore, has said he will not raise his stake in Nvidia after Jensen Huang resigned as the chipmaker's CEO."
-    }
-   ],
-   "id": 34
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-14T01:27+00:00",
-   "earliest": "2026-11-13T22:02+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US Air Force says it dealt with ‘unauthorized drone activity’ over UK airbase",
-     "url": "https://www.timesofisrael.com/us-air-force-says-it-dealt-with-unauthorized-drone-activity-over-uk-airbase/",
-     "via": "",
-     "published": "2026-11-14T01:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US Air Force responds to suspected drone activity over UK airbase",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/11/14/us-air-force-responds-to-suspected-drone-activity-over-uk-airbase",
-     "via": "",
-     "published": "2026-11-13T22:02+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 35
+   "id": 23
   }
  ]
 }
