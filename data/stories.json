@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-16T01:05:08+00:00",
+ "fetched_at": "2026-11-16T02:38:55+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 594,
+ "items_read": 607,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 27,
+   "items": 30,
    "errors": []
   },
   "Yicai Global": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 43,
+   "items": 41,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 20,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
@@ -57,22 +57,22 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 32,
+   "items": 29,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 25,
+   "items": 27,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 31,
+   "items": 34,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Deutsche Welle": {
@@ -92,12 +92,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 27,
+   "items": 26,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 12,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -159,12 +159,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 1,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "RNZ": {
@@ -194,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 9,
+   "items": 14,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "The Jakarta Post": {
@@ -221,7 +221,7 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "BNamericas": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 1,
    "errors": []
   },
   "Newsroom Panama": {
@@ -311,20 +311,29 @@
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
+    "DigiTimes",
     "Associated Press",
     "Euronews",
-    "The Straits Times",
-    "Caixin Global"
+    "The Straits Times"
    ],
    "regions": [
-    "China",
+    "East Asia",
     "Europe",
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-15T19:54+00:00",
-   "earliest": "2026-11-13T07:36+00:00",
+   "latest": "2026-11-16T01:11+00:00",
+   "earliest": "2026-11-15T09:35+00:00",
    "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Megaspeed says former executive Alice Huang left in 2025",
+     "url": "https://www.digitimes.com/news/a20261116VL203/2025-nvidia-ap-partnership-chips.html",
+     "via": "",
+     "published": "2026-11-16T01:11+00:00",
+     "summary": "Megaspeed International's claim that Alice Huang left in August 2025 has renewed attention on the Singapore cloud-computing company's origins, Nvidia partnership, and rapid expansion, as it faces scrutiny over alleged diversions of advanced chips to China. No regulator or court has publicly established that the company violated export controls, and the US government has not concluded that Alice Hu"
+    },
     {
      "outlet": "Associated Press",
      "region": "North America",
@@ -351,15 +360,6 @@
      "via": "",
      "published": "2026-11-15T09:35+00:00",
      "summary": "Her ties to former Nvidia CEO Jensen Huang raised US national security concerns."
-    },
-    {
-     "outlet": "Caixin Global",
-     "region": "China",
-     "title": "In Depth: How Alice Huang Built Megaspeed Into a Major Nvidia Customer",
-     "url": "https://www.caixinglobal.com/2026-11-13/in-depth-how-alice-huang-built-megaspeed-into-a-major-nvidia-customer-102504447.html",
-     "via": "",
-     "published": "2026-11-13T07:36+00:00",
-     "summary": ""
     }
    ],
    "id": 2
@@ -432,7 +432,7 @@
     "Oceania",
     "Southeast Asia"
    ],
-   "latest": "2026-11-16T00:44+00:00",
+   "latest": "2026-11-16T01:30+00:00",
    "earliest": "2026-11-14T11:01+00:00",
    "items": [
     {
@@ -441,7 +441,7 @@
      "title": "Indonesia President calls for greater share of mining benefits to state",
      "url": "https://mining.com.au/indonesia-president-calls-for-greater-share-of-mining-benefits-to-state/",
      "via": "",
-     "published": "2026-11-16T00:44+00:00",
+     "published": "2026-11-16T01:30+00:00",
      "summary": ""
     },
     {
@@ -697,6 +697,51 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Deutsche Welle",
+    "Euronews",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa",
+    "Europe"
+   ],
+   "latest": "2026-11-15T16:47+00:00",
+   "earliest": "2026-11-13T15:42+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Cape Verde election: Jose Maria Neves set to win second term",
+     "url": "https://www.dw.com/en/cape-verde-election-jose-maria-neves-set-to-win-second-term/a-79952606?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-15T16:47+00:00",
+     "summary": "Nearly two-thirds of the voters in the West African nation voted to keep President Jose Maria Neves in office, according to provisional results."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Cape Verde heads to the polls in presidential election",
+     "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
+     "via": "",
+     "published": "2026-11-15T09:45+00:00",
+     "summary": "Incumbent President José Maria Neves, who won the 2021 presidential election, is favoured to win a second term in office."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Cape verde presidential election: Neves seeks second term",
+     "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
+     "via": "",
+     "published": "2026-11-13T15:42+00:00",
+     "summary": "The Portuguese-speaking island nation, located off the coast of Senegal, is widely regarded as one of Africa’s strongest democracies, standing out in a region increasingly affected by coups and political instability."
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Africanews",
     "Associated Press",
     "MINING.COM"
@@ -736,7 +781,7 @@
      "summary": "Mass expulsions overwhelm neighbouring countries as Mali warns of a humanitarian crisis and rising regional security threats."
     }
    ],
-   "id": 10
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -787,7 +832,147 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-16T01:44+00:00",
+   "earliest": "2026-11-15T15:23+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Pope urges end to Amazon deforestation",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-urges-end-to-amazon-deforestation?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-16T01:44+00:00",
+     "summary": "Pope Leo XIV warns deforestation and illegal mining are threatening the Amazon rainforest and the local communities."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Pope Leo heads to the Amazon on the final leg of his South American tour",
+     "url": "https://www.dw.com/en/pope-leo-heads-to-the-amazon-on-the-final-leg-of-his-south-american-tour/a-79952884?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-15T15:23+00:00",
+     "summary": "The religious leader warned that deforestation, illegal mining and pollution threaten the Amazon and its inhabitants. In Peru, the pope also demanded justice for Indigenous leaders killed defending their ancestral lands."
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "BNamericas"
+   ],
+   "regions": [
+    "Latin America",
+    "Oceania"
+   ],
+   "latest": "2026-11-16T01:30+00:00",
+   "earliest": "2026-11-13T21:12+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Cerrado acquires Pan American’s former Argentina mine for 2027 restart",
+     "url": "https://mining.com.au/cerrado-acquires-pan-americans-former-argentina-mine-for-2027-restart/",
+     "via": "",
+     "published": "2026-11-16T01:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Cerrado Gold buys Argentina’s Manantial Espejo for US$20mn, readies 2027 restart",
+     "url": "https://www.bnamericas.com/en/news/cerrado-gold-buys-manantial-espejo-mine-in-argentina-from-pan-american-for-us20mn-eyes-2027-restart",
+     "via": "",
+     "published": "2026-11-13T21:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia",
+    "Oceania"
+   ],
+   "latest": "2026-11-16T01:00+00:00",
+   "earliest": "2026-11-15T13:21+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Trump blames Biden for flight stoppage",
+     "url": "https://www.abc.net.au/listen/programs/worldtoday/trump-blames-biden-for-flight-stoppage/107390152",
+     "via": "",
+     "published": "2026-11-16T01:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Repair of old copper wiring caused US flight disruption: Trump admin",
+     "url": "https://www.koreaherald.com/article/10937466",
+     "via": "",
+     "published": "2026-11-15T13:21+00:00",
+     "summary": "NEW YORK (AFP) -- Weary travelers endured more flight disruptions as service resumed at US airports after an hours-long total stoppage, with officials saying the situation should return to normal soon. The Trump administration blamed the mess that began Friday on a botched replacement of old copper wire communication lines. The nationwide ground stop -- meaning no planes can take off -- sparked wi"
+    }
+   ],
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-16T00:45+00:00",
+   "earliest": "2026-11-16T00:10+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "SK Hynix to spend $1.35 billion over five years to support chip suppliers",
+     "url": "https://www.straitstimes.com/business/sk-hynix-to-spend-1-35-billion-over-five-years-to-support-chip-suppliers",
+     "via": "",
+     "published": "2026-11-16T00:45+00:00",
+     "summary": "It aims to open a testing facility in May 2027 to cut costs and speed up testing."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "SK Hynix to spend $1 billion over five years to support chip suppliers",
+     "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-2026-11-16/",
+     "via": "",
+     "published": "2026-11-16T00:10+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -822,42 +1007,7 @@
      "summary": "Treasury Secretary Scott Bessent on Sunday questioned whether Nvidia's earnings might have been inflated by inappropriate sales to China and urged the company to hire an outsider as CEO. Why it matters: Nvidia is central to the AI economy, which has been key to U.S. economic growth. The Treasury secretary casting doubt on the quality of its financial results and leadership could be a blow to an al"
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "BNamericas"
-   ],
-   "regions": [
-    "Latin America",
-    "Oceania"
-   ],
-   "latest": "2026-11-16T00:31+00:00",
-   "earliest": "2026-11-13T21:12+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Cerrado acquires Pan American’s former Argentina mine for 2027 restart",
-     "url": "https://mining.com.au/cerrado-acquires-pan-americans-former-argentina-mine-for-2027-restart/",
-     "via": "",
-     "published": "2026-11-16T00:31+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Cerrado Gold buys Argentina’s Manantial Espejo for US$20mn, readies 2027 restart",
-     "url": "https://www.bnamericas.com/en/news/cerrado-gold-buys-manantial-espejo-mine-in-argentina-from-pan-american-for-us20mn-eyes-2027-restart",
-     "via": "",
-     "published": "2026-11-13T21:12+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -892,42 +1042,7 @@
      "summary": ""
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Financial Times"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-15T20:43+00:00",
-   "earliest": "2026-11-15T19:03+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports",
-     "url": "https://www.straitstimes.com/business/companies-markets/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports",
-     "via": "",
-     "published": "2026-11-15T20:43+00:00",
-     "summary": "One Huang ally says a “war room” is being put together to lobby for his return."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
-     "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-15T19:03+00:00",
-     "summary": "Tech supporters lobby chipmaker’s board to reinstate former CEO after he resigned following affair with alleged Chinese spy"
-    }
-   ],
-   "id": 15
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -962,7 +1077,7 @@
      "summary": "Jensen Huang stepped down as Nvidia chief on Nov 12 after revelations of extramarital affairs."
     }
    ],
-   "id": 16
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -997,7 +1112,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1032,7 +1147,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1067,42 +1182,7 @@
      "summary": ""
     }
    ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "Africanews"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-11-15T09:45+00:00",
-   "earliest": "2026-11-13T15:42+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Cape Verde heads to the polls in presidential election",
-     "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
-     "via": "",
-     "published": "2026-11-15T09:45+00:00",
-     "summary": "Incumbent President José Maria Neves, who won the 2021 presidential election, is favoured to win a second term in office."
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Cape verde presidential election: Neves seeks second term",
-     "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
-     "via": "",
-     "published": "2026-11-13T15:42+00:00",
-     "summary": "The Portuguese-speaking island nation, located off the coast of Senegal, is widely regarded as one of Africa’s strongest democracies, standing out in a region increasingly affected by coups and political instability."
-    }
-   ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1137,7 +1217,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1172,7 +1252,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1207,7 +1287,7 @@
      "summary": "The MSCI India gauge has rebounded 11% from a six-month low set in October."
     }
    ],
-   "id": 23
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1257,7 +1337,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1292,7 +1372,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1327,7 +1407,7 @@
      "summary": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department, led by Howard Lutnick, for delaying the blacklisting of Megaspeed, an Nvidia customer suspected of diverting advanced AI chips to China, days before US President Donald Trump and Chinese President Xi Jinping are expected to meet in Shenzhen. Bessent spoke a day after Nvidia co-founder Jensen Huang resigned as chief execu"
     }
    ],
-   "id": 26
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1362,7 +1442,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1397,7 +1477,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1432,7 +1512,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1467,7 +1547,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1499,76 +1579,6 @@
      "url": "https://www.thejakartapost.com/business/2026/11/13/microsoft-outage-spills-into-asia-pacific-business-hours-",
      "via": "",
      "published": "2026-11-13T06:21+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 31
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-13T03:54+00:00",
-   "earliest": "2026-11-13T02:03+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "COP31 pushes electrification goal as groups call for mining safeguards",
-     "url": "https://www.business-standard.com/world-news/cop31-pushes-electrification-goal-as-groups-call-for-mining-safeguards-126111300084_1.html",
-     "via": "",
-     "published": "2026-11-13T03:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "UN climate summit pushes electrification goal as groups call for mining safeguards",
-     "url": "https://apnews.com/article/cop31-summit-mining-electrification-human-rights-environment-40a6e8a12b8b83f6d2cd5dab600c2f8d",
-     "via": "",
-     "published": "2026-11-13T02:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 32
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-13T03:44+00:00",
-   "earliest": "2026-11-13T02:11+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Meet Colette Kress, Nvidia's interim CEO after Jensen Huang's exit",
-     "url": "https://www.business-standard.com/world-news/meet-colette-kress-nvidia-s-interim-ceo-after-jensen-huang-s-exit-126111300261_1.html",
-     "via": "",
-     "published": "2026-11-13T03:44+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
-     "url": "https://www.reuters.com/business/colette-kress-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-2026-11-13/",
-     "via": "",
-     "published": "2026-11-13T02:11+00:00",
      "summary": ""
     }
    ],
