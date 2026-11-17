@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-17T02:37:33+00:00",
+ "fetched_at": "2026-11-17T03:11:52+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 42,
- "items_read": 580,
+ "items_read": 572,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Yicai Global": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 49,
+   "items": 45,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Kyodo News": {
@@ -62,12 +62,12 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 22,
+   "items": 24,
    "errors": []
   },
   "Financial Times": {
@@ -92,7 +92,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Al Jazeera": {
@@ -107,8 +107,10 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 31,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Atimesofisrael.com%20when%3A3d&hl=en-: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Amwaj.media": {
    "region": "Middle East",
@@ -129,7 +131,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 26,
+   "items": 28,
    "errors": []
   },
   "Axios": {
@@ -156,22 +158,18 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 9,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aabc.net.au%20when%3A3d&hl=en-US&gl=U: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 21,
+   "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Amining.com.au%20when%3A3d&hl=en-US&g: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 14,
+   "errors": []
   },
   "RNZ": {
    "region": "Oceania",
@@ -195,12 +193,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "The Indian Express": {
@@ -237,7 +235,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Newsroom Panama": {
@@ -247,72 +245,6 @@
   }
  },
  "clusters": [
-  {
-   "independent_outlets": 5,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Axios",
-    "Rio Times",
-    "Deutsche Welle",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Latin America",
-    "North America"
-   ],
-   "latest": "2026-11-17T00:53+00:00",
-   "earliest": "2026-11-16T22:18+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "1.5-hour-long system outage forces United Airlines to delay departing flights",
-     "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
-     "via": "",
-     "published": "2026-11-17T00:53+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "United Airlines resolves \"widespread system outage\" that delayed flights",
-     "url": "https://www.axios.com/2026/11/16/united-airlines-outage-faa",
-     "via": "",
-     "published": "2026-11-16T23:41+00:00",
-     "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
-    },
-    {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "United Airlines Outage Follows Flight Halt",
-     "url": "https://www.riotimesonline.com/united-airlines-system-outage-days-after-us-flight-halt/",
-     "via": "",
-     "published": "2026-11-16T23:41+00:00",
-     "summary": "United Airlines reported a widespread outage on Monday, three days after a nationwide flight halt. Here is what is confirmed and what it means for travellers. The post United Airlines Outage Follows Flight Halt appeared first on The Rio Times ."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "United Airlines resolves tech outage that delayed flights",
-     "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-16T23:13+00:00",
-     "summary": "United Airlines said a system outage that delayed departures has been resolved. The disruption came on the heels of a stoppage that halted all flights to and across the US for five hours last week."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "United Airlines says technology outage that delayed departures has been resolved",
-     "url": "https://www.reuters.com/world/us/united-airlines-says-technology-issue-affecting-departing-flights-2026-11-16/",
-     "via": "",
-     "published": "2026-11-16T22:18+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 1
-  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
@@ -334,8 +266,8 @@
      "outlet": "Business Standard",
      "region": "South Asia",
      "title": "Jensen Huang discusses comeback as Nvidia CEO as allies rally support",
-     "url": "https://www.business-standard.com/world-news/jensen-huang-discusses-comeback-as-nvidia-ceo-as-allies-rally-support-126111600056_1.html",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSml4ZGRDS3VQd3YtcS1QUGJiNUpUOHpmVmNteDc3TFpBVFVQcEg3R1B0ZGpXSWl5Y0V3bGxHdVRqMjc2Uk5TWnNCTExxekROSnJRYkFhUVlsRzgzdXJnRl9XaUd2eXhHU2tYRkJRcFhKZmthUHZUOFotWXd5VldkMHlwazN3Z3Y3SUVEaGc4VkV2b1hCdXdjb2RnaGhmckpJN3hqMXNNTlpFREZ0S0JydVJSR0NTWDMzeGNBOTgzR09mQlNjS0lIOWxWWENCMlnSAdQBQVVfeXFMUEVULXRKMjV1UVNSQUVrWGpfM1FoSmFyRHBQWFhfSmFZcnVfQ2dxbW45bGxlbHBvSDhKSDlsbmVNSVkwbGdEN0FEQ1FYMTFNbTc2X1V5RER6eTN0N05HQmRZY2UySDFCakZWamtubW1icFp1NGlfX0tnRVdWVjg1Z2tFUHcxQUgzMlBISzFwMl9Tdkt2TzdjbnVERS05NjdaemVKT1ZVRU5XOGRnaHRZODdYcExGa3htTEtaUEJXZ2RjdGJYd3ZzYXNVdmxfZW5HaUNyTHI?oc=5",
+     "via": "Google News",
      "published": "2026-11-16T02:34+00:00",
      "summary": ""
     },
@@ -367,6 +299,61 @@
      "summary": ""
     }
    ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Axios",
+    "Deutsche Welle",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-17T00:53+00:00",
+   "earliest": "2026-11-16T22:18+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "1.5-hour-long system outage forces United Airlines to delay departing flights",
+     "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
+     "via": "",
+     "published": "2026-11-17T00:53+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "United Airlines resolves \"widespread system outage\" that delayed flights",
+     "url": "https://www.axios.com/2026/11/16/united-airlines-outage-faa",
+     "via": "",
+     "published": "2026-11-16T23:41+00:00",
+     "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "United Airlines resolves tech outage that delayed flights",
+     "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-16T23:13+00:00",
+     "summary": "United Airlines said a system outage that delayed departures has been resolved. The disruption came on the heels of a stoppage that halted all flights to and across the US for five hours last week."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "United Airlines says technology outage that delayed departures has been resolved",
+     "url": "https://www.reuters.com/world/us/united-airlines-says-technology-issue-affecting-departing-flights-2026-11-16/",
+     "via": "",
+     "published": "2026-11-16T22:18+00:00",
+     "summary": ""
+    }
+   ],
    "id": 2
   },
   {
@@ -389,8 +376,8 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Canadian Natural Resources to buy Advantage Energy in $1.77 billion deal",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWVlkSEdUTG11TUMzMTctOExYOVE0ZUh0amNlazF6RmNjS1FLT1VjLWxRdmYwTnBySVRzU1BvUm1EQmFidnZici0tbFdXMGVQTGxJZEFDbGt5M1dQZ2ZHbEw1cVQ4bk1nNUVsZTNwdVJDaUFsY2dCaUpXTUlZYWNRZTh1b0FtaVJYeWRqT3d2WEs1VDI0bjhCclNPWHpNVjA0Si1Cak5VT0VrNXRkSDcwb1cxdzZOYnhfV09PRg?oc=5",
-     "via": "Google News",
+     "url": "https://www.reuters.com/legal/transactional/canadian-natural-resources-buy-advantage-energy-177-billion-deal-2026-11-16/",
+     "via": "",
      "published": "2026-11-16T18:32+00:00",
      "summary": ""
     },
@@ -444,8 +431,8 @@
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
-     "url": "https://apnews.com/article/singapore-megaspeed-alice-huang-nvidia-probe-e9e2e18169dce0b30a34f39715bf35ed",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRFF3czVab0VWVUpGMVNfVjZlcU12U0g5Q2FJcU56LXZpZ1RFSGNtRjBWSTdyZGxsNWp4WWpCX0NPdzBVZkMtZGdYQzJKTXVoTlkwenctczZDbDNUakhPNHNDYjFSa2djcTVmMEExZjRHaFZPemNBVlBBaHkybFpFcndDcWJPcl9sSFZCek1hV04wTUJTQ21CVEVHeXNOMlJKNXVGZzlFaw?oc=5",
+     "via": "Google News",
      "published": "2026-11-15T19:54+00:00",
      "summary": ""
     },
@@ -511,51 +498,6 @@
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-16T19:32+00:00",
-   "earliest": "2026-11-16T09:07+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war",
-     "url": "https://apnews.com/article/us-iran-war-aircraft-carrier-middle-east-9858fc82c61c7a1d159e7bba72afe99a",
-     "via": "",
-     "published": "2026-11-16T19:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVkVhZGNTampMdFYyTGtDMEFUVDdxSnFIQ2d4Sk5jUFM5TEFNdEZtWC14aU1TOGMzcF9DN2ZYYnJpY3Fid2JuVHVudXZPOFczYUw5bE5zUy16Ny1ycVJWUVFqWUw5U1h0bWtZUlAwQ0g5VTB3b3lpSVphaUpBbzRsMlBBamloVXhsN0tIU0otVUwySWdUSDBxRDZ2bVFzcTJlMVJZX2VlTXRxS0Vta3UyWVdPY9IBuAFBVV95cUxNQVdIVEdjUzJRRndvMFdRT3ZKbWUyOEIyZDZVR09vN3F4dGplNkNoRGNRRlgyVHhpNkJHbVctR0xJS3EyQk9HSWgxaWwwMkpUb2lqSDYzSHNhRklGMjhjcEFRNmhqODNVZ3hkZUxiLWU2MzE1ZHdURlItbkNMb2dNRC1mel91ZDVQME9MSjdsb0hGcmI1R2VTMWhQWVREdzE2UmR6azl2ZWJ6dHdoNEVqandtM0U0alZO?oc=5",
-     "via": "Google News",
-     "published": "2026-11-16T10:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran rules out UN inspections of damaged nuclear sites until war ends",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/16/iran-rules-out-un-inspections-of-damaged-nuclear-sites-until-war-ends",
-     "via": "",
-     "published": "2026-11-16T09:07+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
     "CBC News",
     "Al Arabiya"
    ],
@@ -563,24 +505,24 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-16T12:35+00:00",
+   "latest": "2026-11-15T23:03+00:00",
    "earliest": "2026-11-15T09:10+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF says three Hamas operatives, including Oct. 7 terrorist, killed in south Gaza hospital strike",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-three-hamas-operatives-including-oct-7-terrorist-killed-in-south-gaza-hospital-strike/",
-     "via": "",
-     "published": "2026-11-16T12:35+00:00",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Israel kills a top Hamas commander as Jordan sentences 3 in church attack, and other Mideast news",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0lIYjU0OG55Z253dDhlYmdmSURkRWZWU3NnWUdwVk5iekp3aXJDbGVQM0RfMUpGRnVQbkowUHBNdEtFaWFYMjRwN2Z5VU04WURFcEhzUTEtcWRMclhYcHlQc0hLV0QxZmNZR0ZMS3RpdkpnNnNMdjhRN0hodGgzaGVHS0N3cjhrcjNPUDNpbTVGNnZzQlhSMnEyelczQVdZLVI5SlFtVzhFUQ?oc=5",
+     "via": "Google News",
+     "published": "2026-11-15T23:03+00:00",
      "summary": ""
     },
     {
      "outlet": "CBC News",
      "region": "North America",
      "title": "Senior Hamas commander who helped oversee Oct. 7 attack killed in Israeli strike in Gaza",
-     "url": "https://www.cbc.ca/news/world/hamas-killed-gaza-israel-9.7422641",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qVE1GMUZYbXNOOHdOSWNlVVJpWkFHRlB4bFZ6bWFxUmZtYmFIcW1vX21pUWVBTWMzR25lY1lXaUE5a1EtUXVyOE14TFRHYllwS2IycVoyUVNlVDNzalh1SFJEZkw4ZDI4VTlKLWN3SmhNdw?oc=5",
+     "via": "Google News",
      "published": "2026-11-15T13:18+00:00",
      "summary": ""
     },
@@ -588,27 +530,25 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Senior Hamas commander killed in Israeli strike in Gaza",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/senior-hamas-commander-killed-in-israeli-strike-in-gaza",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSjRWQVRNV05EeUZVMGw5OUZscm10Z0tIQ3lENXFMZ28zUklSNlZxSmRWWlNONEtfaTUwVWU0bTRXaE1IQU95QjJ6OGY5M2l4N3MxeWY3eFotRHh0X3pLSnZsellPc2dSU002Q1UxTnZ1aFA0dlB2S0pOY3pQOEQzUlJvM291TDVpUGlnRTk5aDlBZWk4N0pZYkFtSUlIMmI4bURfLXJLMi1oaGszdVlrR1ozWdIBuAFBVV95cUxQbENkdFRUZnFJWDZBQTdYMVVkT2hpem8yT3dHWWxybFNiYm82aFl4aDNJQS1jbFZoR0ZTSXVxZW45b1M3NGN4d0t0WE5VaGRpbm43Mk1fd21oR25GX0FwdXQ3NFBFdW5mVTJ0VEYxT1lkSm5VTWtISFBIZUMxakk1cVRpV2NuQmdFcGMtQmlkM2pEZC1kaVRHbGE2ZUV3X0xjcFA1ajlIVFdxbGJ0MHJ0dFFxT0Uxa0Zl?oc=5",
+     "via": "Google News",
      "published": "2026-11-15T09:10+00:00",
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 6
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
      "The Jakarta Post",
-     "Times of Israel",
      "Al Arabiya"
     ]
    ],
    "outlets": [
     "Africanews",
     "The Jakarta Post",
-    "Times of Israel",
     "Al Arabiya"
    ],
    "regions": [
@@ -638,21 +578,47 @@
      "summary": ""
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Microsoft restores service to Outlook and Teams after global outage",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTHVldWNnWFNWMUl0R1pTN1ZhVmlnMU9MTk9sbGw4WHBORlJpd3VXbFlwNzdYY3REUHRtX01oMzU0eDVBdm9sSW9HRHo0QmJFT2dSRnBDMmVDd3k1X0dmMWlxSWhkeFE5M2dHQXNac0FHQlBFQUc1cVVjX09JX3g0R0FPOVJURDVrWGdsQnl5WG1uSjNGaHFBXzFPS25qNmPSAaQBQVVfeXFMUGtTUUJSbGFHQlVWdk5TSk5yOW94N0RiLXhPSS1jTzVvY2lMUVczenEzTEZCVEI5YUJUTWxDcHhQbmw4TmxIZWFjZDdseUpzeVFRU1VkazZaZ1N5QlJvRmFOTFBRQWdsdUlIQnlSbjgzaDEtZGJMN3RvSUdqV3lYX0xTVExqQ21LWHdibjZjS1YwYWdYSGdqamd3VmptWmlBbHVpNDY?oc=5",
-     "via": "Google News",
-     "published": "2026-11-14T08:19+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Microsoft restores service to Outlook and Teams after global outage",
      "url": "https://english.alarabiya.net/amp/business/technology/2026/11/14/microsoft-restores-service-to-outlook-and-teams-after-global-outage",
      "via": "",
      "published": "2026-11-14T07:53+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Seatrade Maritime",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-17T02:56+00:00",
+   "earliest": "2026-11-14T19:43+00:00",
+   "items": [
+    {
+     "outlet": "Seatrade Maritime",
+     "region": "Europe",
+     "title": "New Orleans tanker crash revives 30-year-old river safety warnings",
+     "url": "https://www.seatrade-maritime.com/accidents/new-orleans-tanker-crash-revives-30-year-old-river-safety-warnings",
+     "via": "",
+     "published": "2026-11-17T02:56+00:00",
+     "summary": "Atlantic Asphalt steering failure echoes 1996 allision, raising fresh questions over USCG berth protections and Port State Control oversight"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+     "url": "https://apnews.com/article/new-orleans-cruise-ship-tanker-crash-0c1cbee9c9b3f3103d84b8bb17b5073f",
+     "via": "",
+     "published": "2026-11-14T19:43+00:00",
      "summary": ""
     }
    ],
@@ -732,6 +698,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Livemint / Economic Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-17T01:49+00:00",
+   "earliest": "2026-11-16T01:25+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
+     "via": "",
+     "published": "2026-11-17T01:49+00:00",
+     "summary": "Gold prices are under pressure, primarily due to a strengthening US dollar and rising expectations for an interest rate hike. Analysts project a notable chance of this occurring in December, influenced by current market data. The dollar's gains have diminished gold's appeal to yield-seeking investors. Market participants are eagerly awaiting the Federal Reserve's meeting minutes for further policy"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Gold drops to more than one-year low as US dollar marches higher",
+     "url": "https://www.reuters.com/world/india/gold-edges-higher-investors-await-warsh-remarks-rate-signals-2026-11-16/",
+     "via": "",
+     "published": "2026-11-16T01:25+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Reuters",
     "The Straits Times"
    ],
@@ -746,8 +747,8 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
-     "via": "Google News",
+     "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/",
+     "via": "",
      "published": "2026-11-16T23:45+00:00",
      "summary": ""
     },
@@ -761,7 +762,7 @@
      "summary": "The Dow Jones Industrial Average fell 739.38 points, or 1.41%, while the Nasdaq Composite lost 626.51 points, or 2.49%, to 24,509.76."
     }
    ],
-   "id": 11
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -796,7 +797,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -831,7 +832,7 @@
      "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
     }
    ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -860,44 +861,9 @@
      "outlet": "Mining Weekly",
      "region": "Africa",
      "title": "China's top rare earth firms' profits surge on supply caps",
-     "url": "https://www.miningweekly.com/article/chinas-top-rare-earth-firms-profits-surge-on-supply-caps-2026-11-16",
-     "via": "",
-     "published": "2026-11-16T09:36+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-16T16:28+00:00",
-   "earliest": "2026-11-14T19:33+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUlTdkFxaWpmd0tNUXA5WXRMbmQydm9xVGtYVXYwbnAxVWx3QnZfOUdJS2YwUkFmRWV3TkRHclFKdEZzcFlKLUlGSXhQQ1VBZUFENE9pSWdzRHBsYzg1QVA5am4weVVXeUJHZzF3OGZuVnZ6dmZlbmxUZExnREs4NEMwUFFFMGRsN2N4VThtbUZFS21hblF2bXEzQk5pR3k4SDJBZVhLTDEtT0V3UHN0dnRpWkZKNEk?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcThoY1piVV96eVltb25fYU5FSm1aa2F0ekw5QTNrMVBPa3g3VEdXZUQ4QXhZZFFWUTZBb09XSG0tNC0zNWZlWDVBazFjLWZlZW03VlFJeFlkVTB1TGVOeWJuNElVZWdRTzIxV2JmdFNycUZ6dzVHRGhOUnZVV19WWkRtUHBZV21RRE9McjZjeE5jaDl3anpITFVfZmNWTFY0VnZXeURWVQ?oc=5",
      "via": "Google News",
-     "published": "2026-11-16T16:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iraq’s PM sacks officials over oil smuggling in stronghold of Iran-backed terror group",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iraqs-pm-sacks-officials-over-oil-smuggling-in-stronghold-of-iran-backed-terror-group/",
-     "via": "",
-     "published": "2026-11-14T19:33+00:00",
+     "published": "2026-11-16T09:36+00:00",
      "summary": ""
     }
    ],
@@ -915,7 +881,7 @@
     "North America"
    ],
    "latest": "2026-11-16T15:53+00:00",
-   "earliest": "2026-11-16T05:25+00:00",
+   "earliest": "2026-11-16T06:45+00:00",
    "items": [
     {
      "outlet": "Euronews",
@@ -932,7 +898,7 @@
      "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcGw5a2lMb1B2bEtyYWotSkJYcWhXNHN2R3lwQlNuSUxfSHB5VzJ4Y25wNjZvcnVMLWhlN01rNnM3LXo2OHVScndJZm5VRWhjVFNrNnJZZDRhdEpoSThDelpzbDJlMTB0QXZ2al9FLWFkS3JTU1FfaFpBVkp1X2lrMU93bU5FbzlIQl9qbzFQLXE?oc=5",
      "via": "Google News",
-     "published": "2026-11-16T05:25+00:00",
+     "published": "2026-11-16T06:45+00:00",
      "summary": ""
     }
    ],
@@ -965,13 +931,48 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Trump says he would not mind Huang being reinstated as Nvidia CEO",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/11/16/trump-says-he-would-not-mind-huang-being-reinstated-as-nvidia-ceo",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYW5fUkV1ckc3TzF4U2ZnVkZ3SFNNVUxMS2lJeFppTW9ia3h6aGprVEZYRkFjaVhHeTQ2T2FrNWJmYzFSTVdlek91bVQwOUxaMndEN0FkY1Z0NzREakczcVdUX1paajlqNldvYWRicm5FajdwMm9LaHprS3JSa0gyUmNaWWZoS2hDODNRZTZKdmdMZUhiNkR6LWtRU1BnVEZtOEc3NVcxNzNkb3NCMm5qSXFlUjVnNTZvcXE5R3J30gG-AUFVX3lxTE5hbl9SRXVyRzdPMXhTZmdWRndIU01VTExLaUl4WmlNb2JreHpoamtURlhGQWNpWEd5NDZPYWs1YmZjMVJNV2V6T3VtVDA5TFoyd0Q3QWRjVnQ3NERqRzNxV1RfWlpqOWo2V29hZGJybkVqN3Ayb0toemtLclJrSDJSY1pZZmhLaEM4M1FlNkp2Z0xlSGI2RHota1FTUGdURm04Rzc1VzE3M2Rvc0IybmpJcWVSNWc1Nm9xcTlHcnc?oc=5",
+     "via": "Google News",
      "published": "2026-11-16T14:36+00:00",
      "summary": ""
     }
    ],
    "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-16T13:54+00:00",
+   "earliest": "2026-11-16T13:33+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Israel: Party chiefs say Netanyahu's election fraud claims a coup attempt",
+     "url": "http://www.africanews.com/2026/11/16/israel-party-chiefs-say-netanyahus-election-fraud-claims-a-coup-attempt/",
+     "via": "",
+     "published": "2026-11-16T13:54+00:00",
+     "summary": "Netanyahu subsequently accused Arab parties of electoral fraud after they gained a record number of seats. His Likud party issued a statement denying the latest allegations"
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Netanyahu rival demands probe into PM's office over election fraud claims",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQajVlQkwwNU1vc1dVb0FKMjBSYVVJdEs1Wl9URHdlbk9VM214cm5hVjAyeTZsMDBsMUlrU2s4SjdXUnA1MmlaQmhoc1hlN3RyZlFXWmliRkFoOGJvX0RpdGxFNkc1N2V1RU5WYk9vSkRNdkVPMmlpWTRtLVV6RFJzMTF0aTJnV3FMR1owSmYxSHRkSE5NblFyenh5ZTI1djB2bHlrSWJPaw?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T13:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1006,7 +1007,7 @@
      "summary": "Bank of Thailand Governor Vitai Ratanakorn denied tensions with the central bank’s chairman after the two publicly disagreed over the pace of legal reforms and how the institution should be governed."
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1035,48 +1036,48 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Iraqi armed group denies accusation of oil smuggling",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/iraqi-armed-group-denies-accusation-of-oil-smuggling",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVEF4ajMxcWZsMU5XMkp0VEZZMzVtU1FWVmhxdmxSQklVcWZmSGlZSFNDTGxIZ24tZGtMOHhabTh4LWVUcnpvcjB1Nmp1RktjV0Ryd3lfeXJBbUZlV0RpZGYzOFF4LUx0V0doLVFmN0Ixc21zemFwN3g3ekx1S2puLU13b2llUnU5RkV3MHJlVG9FTEdYOUxWTE1KNTdYLWxMVXZJeTlpT3gyWjA4ellJ0gG0AUFVX3lxTFBqbjc5OW5YdGUzbllwcF9YOTN5NmlYUDl2SjZUUVhSRjk5enkxRm93TU11RlJVXzZpdXgtQ2NJNjFfQ0E3VHNxd1M5emM1dmRJaGp5cGtvdlMwTFZRMFpERXNpTXk4ZW5NdExla2RSZ2R4dnllblBwWFBfbnVhMXNDM3BkYkJpRzEwd0s3TVJ2MDNxQ21LTzhwS1VzbW9WX2VqUmdmWWxpclBXT3JzVEtTZFphMA?oc=5",
+     "via": "Google News",
      "published": "2026-11-15T18:41+00:00",
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Al Arabiya"
+    "The Straits Times",
+    "ABC News (Australia)"
    ],
    "regions": [
-    "Middle East",
-    "North America"
+    "Oceania",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-15T23:03+00:00",
-   "earliest": "2026-11-15T08:01+00:00",
+   "latest": "2026-11-16T03:38+00:00",
+   "earliest": "2026-11-16T01:17+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Israel kills a top Hamas commander as Jordan sentences 3 in church attack, and other Mideast news",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0lIYjU0OG55Z253dDhlYmdmSURkRWZWU3NnWUdwVk5iekp3aXJDbGVQM0RfMUpGRnVQbkowUHBNdEtFaWFYMjRwN2Z5VU04WURFcEhzUTEtcWRMclhYcHlQc0hLV0QxZmNZR0ZMS3RpdkpnNnNMdjhRN0hodGgzaGVHS0N3cjhrcjNPUDNpbTVGNnZzQlhSMnEyelczQVdZLVI5SlFtVzhFUQ?oc=5",
-     "via": "Google News",
-     "published": "2026-11-15T23:03+00:00",
-     "summary": ""
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australian lawmaker leaves hospital after losing legs in alleged attack",
+     "url": "https://www.straitstimes.com/asia/australianz/australian-lawmaker-leaves-hospital-after-losing-legs-in-alleged-attack",
+     "via": "",
+     "published": "2026-11-16T03:38+00:00",
+     "summary": "A car had rammed into politician Helen Haines outside her office in rural Australia in October."
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Jordan sentences three men to death over church attack",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/jordan-sentences-three-men-to-death-over-church-attack",
-     "via": "",
-     "published": "2026-11-15T08:01+00:00",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Helen Haines says she is in next stage of recovery after alleged attack",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPejFZLUp2ZXhJQkVIbkMtTTV2elN6QXhmWGxNVDQ0b0ZpVEhvNmZpY3V0S3c3bGlkeEg0YTJBVFhhZ1p5eUdyc2J3blc4Qlc4aGJnbXhSbEFpX2lGdzE3NHEzQXJEMkFka3JiZlBXWGg2WkFid3RmUU1lbWRKSUZlZDliazFEeWNpT1RPSlBhUDBqUmlObmNXNWY0Y1ZKcFMxdEJaS2Fkbw?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T01:17+00:00",
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1111,7 +1112,7 @@
      "summary": "Jensen Huang stepped down as Nvidia chief on Nov 12 after revelations of extramarital affairs."
     }
    ],
-   "id": 21
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1140,13 +1141,13 @@
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Canada’s Carney reports progress in trade talks with Trump as he expands ties with Asia",
-     "url": "https://apnews.com/article/canada-carney-trump-us-trade-deal-philippines-00dea030028a7c221840458b25469e02",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX3VWTFFKXzZkZzJUZThSc0Y4cE5pWUF2TG1pR1A1UlY5N21QVUF6VjVmTjY0SzlVSUdXUjRoOVBtakhMMlVvazRqaVpwdGd6LWszcUtpcnp6emxFTDdoNGJKVTYzTXpJM1VWWUJDTDlXWGxpamhQb2NFeGIzSlQ2S25LVC11RUVBdHpjYk15RzJqdGNRQTVZSmM1MDFxYTNld1N4LTFRcWM?oc=5",
+     "via": "Google News",
      "published": "2026-11-14T06:37+00:00",
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1174,13 +1175,13 @@
      "outlet": "CBC News",
      "region": "North America",
      "title": "U.S. further restricts China's access to AI chips in wake of Nvidia scandal",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FY3JQVVpNd2hWU0pGRTJtYXJOYUdFQlZGcEZKV2g0czVHRVJZR2JGdWNuaElZOWtaekJ0Wms0czNqZmhOei1uRjkyLUY5bWVPdUxXSWp3U1JEOTFub3VyYV9zUjZpSWR3dlE?oc=5",
-     "via": "Google News",
+     "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734",
+     "via": "",
      "published": "2026-11-16T17:36+00:00",
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1208,81 +1209,13 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Sudan army strike kills 15, including children, in Kordofan offensive",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/16/sudan-army-strike-kills-15-including-children-in-kordofan-offensive",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWks3d0pQRTdpeTVMcTZZTlVpVVZLdXJOdnhyV25NaXpVcWF0enZOMW9tQmtra1NyS2w5RnZvaURvd0wwVUozRkcwNnRBOGR4UmpOa3JNeXJfWEFxYllwM29UclhyNEpTZ0pldGFhTUlzcXc2YkplOFFicDhaeks0NWR2bWlzd1FuOVNiemlUQWhmeTZ4U29MZ0VSaElqRkMtcnJ2b2hGSFFUQXdjVHViQ255WWluTnFoZFlVbHVzWktHaVQ0ZnBibNIByAFBVV95cUxQWks3d0pQRTdpeTVMcTZZTlVpVVZLdXJOdnhyV25NaXpVcWF0enZOMW9tQmtra1NyS2w5RnZvaURvd0wwVUozRkcwNnRBOGR4UmpOa3JNeXJfWEFxYllwM29UclhyNEpTZ0pldGFhTUlzcXc2YkplOFFicDhaeks0NWR2bWlzd1FuOVNiemlUQWhmeTZ4U29MZ0VSaElqRkMtcnJ2b2hGSFFUQXdjVHViQ255WWluTnFoZFlVbHVzWktHaVQ0ZnBibA?oc=5",
+     "via": "Google News",
      "published": "2026-11-16T09:16+00:00",
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-16T19:19+00:00",
-   "earliest": "2026-11-16T14:30+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-     "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-16T19:19+00:00",
-     "summary": "Move comes as government forces withdraw from Red Sea coast to halt Houthi approach to interim capital Aden."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi Arabia dismisses commander of anti-Houthi coalition",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-arabia-dismisses-commander-of-anti-houthi-coalition/",
-     "via": "",
-     "published": "2026-11-16T14:30+00:00",
-     "summary": ""
-    }
-   ],
    "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-16T14:05+00:00",
-   "earliest": "2026-11-15T01:43+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition intercepts two drones launched by Houthis in Mecca and Riyadh regions",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/16/saudiled-coalition-intercepts-two-drones-launched-by-houthis-in-mecca-and-riyadh-regions",
-     "via": "",
-     "published": "2026-11-16T14:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi-led coalition says it destroyed two Houthi ballistic missiles targeting Riyadh",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-says-it-destroyed-two-houthi-ballistic-missiles-targeting-riyadh/",
-     "via": "",
-     "published": "2026-11-15T01:43+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1301,8 +1234,8 @@
      "outlet": "Mining Weekly",
      "region": "Africa",
      "title": "UN climate chief urges speed as COP31 confronts fossil fuel divide",
-     "url": "https://www.miningweekly.com/article/un-climate-chief-urges-speed-as-cop31-confronts-fossil-fuel-divide-2026-11-16",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN18xRktrM3NXZWozWDY2LTZLWWR2X1IzZFp0S0NMVVFaeUIybE50YlFOSElkRHI4bUJCWDNDUXBBVzVIc0owVEQ3VWtQQlc2eDVsRkZfVUE1UmVKZjU4Q1NSbkVWZVZGMGVfenI5MHExT01Za1VDMkF0eGhQbkwwckFrX041X2dKa0x6ZlhkUzdvajB2b09hVFVnclpZOTlGZlUyNE5tLXVCNy1jYU1OdV9jdW8?oc=5",
+     "via": "Google News",
      "published": "2026-11-16T06:49+00:00",
      "summary": ""
     },
@@ -1316,41 +1249,7 @@
      "summary": ""
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-14T14:41+00:00",
-   "earliest": "2026-11-14T12:27+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump tells advisers he may not attack Iran as long as it doesn’t provoke US, sources say",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMTl4TTZra09VUF9MbktYNUlfbEZreGtFLUpHVDVWMmJ3N3drRGhxZ25nVkh3Qm9tVWJHMWNHckNRdlNtLUpuRmx6UlVmT19nTWhXN3JkaUZNeHRGVU8yTE9ia0ZERlpCUzJaZmlQcWFqT3NqVWdXN04wS3RabFZwUktockVKRDVILXE4Q1V4b2U1NF83X1lJeDFocFJBbnN2bUZHcUpzdHd3YnBXRVRFRU5pLTloeGJqQkHSAb8BQVVfeXFMT0RZYm81NDlOdlRTMXlfY0QyNFJpNEt1M0dCczdmbU93UHpXeEtSaU83OUdvVmU0Yjk3QmJlZHFGQkpNUnF6QlExd09OeUlNTUJvMWZDc1lWZWpreFdYa2Y1RVc2M29YNkFKR3VNTkJuaHRseVF1ZHJFZnpPdTZDdExxRE5sQi1SUGNITUlIWVZHZWo3ampyakk1b29IYWRNUC1pdi13TTNWaTVOTXVxckdDM3FObldwaGlHNGt1dzA?oc=5",
-     "via": "Google News",
-     "published": "2026-11-14T14:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU2YtSmxCd2NJRTlRZTd4cEVlUzc0cVlIdjFDYWdEY09QdENnaHJJYlFpWjZ2YTRMVlUtZDlMMENWMVJrRGlCcjdRUExDNEQzTG5sUW5RVEJqQk5CbEp0RUdZSE5aRjgwSDBweWRTbU5YdGVzZXJJUmVvdEpVSVN0WjREUWZTdjc5eHo0MXVIV2hJaV8wM2dtYjhpTHBTaS1yR2NxbVc1Mnc1OHNMVE1Rb3dITTI2SHV6UnJkQ0RtMHB3bnU4c252ZmpnZ3JBQngxZjZBcnR5bUfSAd4BQVVfeXFMTUI2MEREbm9GVWVPUkx2NW9xVHlsMnJwaFJPUkxTRTlWMVYxVGtYSVl0dVFBd1Q1dFN5cHFiSC1TS2k0YkNTMFF0cnZXVms5cjhWeDJqX0x5WHRUc0hfUV9VajBTZDNBVVVHdlptTy16anVGS0VrT3NFNWJDbTdZcTQwenQwbWhtdS1ObC1xbEw4dUFFd2RTZzVWcUdpaFhRZGhUYjU2aVV0R2Zib0dLendMMk9sRy0tUVJuVE9YMWRvdWRqV0xFSEY0aUdCMFlETUJCMkRhRDhYWU96REJB?oc=5",
-     "via": "Google News",
-     "published": "2026-11-14T12:27+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 28
+   "id": 26
   }
  ]
 }
