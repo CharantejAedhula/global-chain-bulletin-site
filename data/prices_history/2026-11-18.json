@@ -1,0 +1,783 @@
+{
+  "fetched_at": "2026-11-18T02:27:26Z",
+  "sources": {
+    "te_commodities": {
+      "url": "https://tradingeconomics.com/commodities",
+      "error": "no Metals/Industrial table rows found",
+      "status": 200,
+      "snippet": "Commodities - Live Quote Price Trading Data Calendar News Markets Commodities Indexes Shares Currencies Crypto Bonds Earnings Indicators Countries Forecasts Commodities Indexes Currencies Crypto Bonds"
+    },
+    "te_usdcny": {
+      "url": "https://tradingeconomics.com/china/currency",
+      "items": [
+        {
+          "name": "USD/CNY",
+          "value": 6.6683,
+          "unit": "CNY per USD",
+          "change_pct": 0.02,
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov/18",
+          "source_url": "https://tradingeconomics.com/china/currency"
+        }
+      ]
+    },
+    "smm_rare_earth": {
+      "url": "https://www-old.metal.com/Rare-Earth-Metals/",
+      "items": [
+        {
+          "name": "Lanthanum Metal (USD/tonne)",
+          "value": 2726.87,
+          "low": 2660.36,
+          "high": 2793.38,
+          "average": 2726.87,
+          "unit": "USD/tonne",
+          "change": "3.36",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "3N Lanthanum Metal (USD/tonne)",
+          "value": 2992.91,
+          "low": 2926.4,
+          "high": 3059.42,
+          "average": 2992.91,
+          "unit": "USD/tonne",
+          "change": "3.68",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Cerium Metal (USD/tonne)",
+          "value": 3757.76,
+          "low": 3724.51,
+          "high": 3791.01,
+          "average": 3757.76,
+          "unit": "USD/tonne",
+          "change": "4.63",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Praseodymium Metal (USD/tonne)",
+          "value": 128694.96,
+          "low": 128362.41,
+          "high": 129027.5,
+          "average": 128694.96,
+          "unit": "USD/tonne",
+          "change": "158.43",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Neodymium Metal (USD/tonne)",
+          "value": 122709.15,
+          "low": 122376.6,
+          "high": 123041.69,
+          "average": 122709.15,
+          "unit": "USD/tonne",
+          "change": "151.06",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Neodymium Metal, FOB China (USD/kg)",
+          "value": 151.0,
+          "low": 145.0,
+          "high": 157.0,
+          "average": 151.0,
+          "unit": "USD/kg",
+          "change": "0",
+          "asOf": "2026-11-11",
+          "asOf_raw": "Nov 11, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Samarium Metal (USD/tonne)",
+          "value": 9643.81,
+          "low": 9577.3,
+          "high": 9710.32,
+          "average": 9643.81,
+          "unit": "USD/tonne",
+          "change": "11.87",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Terbium Metal (USD/kg)",
+          "value": 1054.17,
+          "low": 1050.84,
+          "high": 1057.49,
+          "average": 1054.17,
+          "unit": "USD/kg",
+          "change": "4.62",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Dysprosium Metal (USD/kg)",
+          "value": 254.06,
+          "low": 252.73,
+          "high": 255.39,
+          "average": 254.06,
+          "unit": "USD/kg",
+          "change": "0.31",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Yttrium Metal (USD/kg)",
+          "value": 35.25,
+          "low": 34.58,
+          "high": 35.91,
+          "average": 35.25,
+          "unit": "USD/kg",
+          "change": "0.04",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Scandium Metal (USD/kg)",
+          "value": 3125.92,
+          "low": 3059.42,
+          "high": 3192.43,
+          "average": 3125.92,
+          "unit": "USD/kg",
+          "change": "3.85",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Aluminum Scandium Alloy (USD/kg)",
+          "value": 27.93,
+          "low": 27.27,
+          "high": 28.6,
+          "average": 27.93,
+          "unit": "USD/kg",
+          "change": "0.03",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "China 5N High Purity Scandium (USD/kg)",
+          "value": 4010.49,
+          "low": 3990.54,
+          "high": 4030.45,
+          "average": 4010.49,
+          "unit": "USD/kg",
+          "change": "4.94",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Lanthanum-Cerium Metal (Alloy Grade) (USD/tonne)",
+          "value": 2593.85,
+          "low": 2527.34,
+          "high": 2660.36,
+          "average": 2593.85,
+          "unit": "USD/tonne",
+          "change": "3.19",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Lanthanum-Cerium Metal (Battery-grade) (USD/tonne)",
+          "value": 2726.87,
+          "low": 2660.36,
+          "high": 2793.38,
+          "average": 2726.87,
+          "unit": "USD/tonne",
+          "change": "3.36",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Pr-Nd Alloy (USD/tonne)",
+          "value": 116058.24,
+          "low": 115725.7,
+          "high": 116390.79,
+          "average": 116058.24,
+          "unit": "USD/tonne",
+          "change": "142.87",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Battery-Grade mixed Rare Earth Metals (USD/tonne)",
+          "value": 34817.47,
+          "low": 34717.71,
+          "high": 34917.24,
+          "average": 34817.47,
+          "unit": "USD/tonne",
+          "change": "42.86",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Dysprosium-Iron (USD/tonne)",
+          "value": 198196.89,
+          "low": 196866.71,
+          "high": 199527.07,
+          "average": 198196.89,
+          "unit": "USD/tonne",
+          "change": "243.99",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Holmium-Iron Alloy (USD/tonne)",
+          "value": 89787.18,
+          "low": 89122.09,
+          "high": 90452.27,
+          "average": 89787.18,
+          "unit": "USD/tonne",
+          "change": "442.67",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Gadolinium-Iron Alloy (USD/tonne)",
+          "value": 21947.98,
+          "low": 21814.96,
+          "high": 22081.0,
+          "average": 21947.98,
+          "unit": "USD/tonne",
+          "change": "27.02",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        },
+        {
+          "name": "Gadolinium Metal (USD/tonne)",
+          "value": 55867.58,
+          "low": 54537.4,
+          "high": 57197.76,
+          "average": 55867.58,
+          "unit": "USD/tonne",
+          "change": "68.77",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Rare-Earth-Metals/"
+        }
+      ]
+    },
+    "smm_antimony": {
+      "url": "https://www-old.metal.com/Antimony/",
+      "items": [
+        {
+          "name": "China Antimony 99.65% Sb min (USD/tonne)",
+          "value": 11173.52,
+          "low": 10907.48,
+          "high": 11439.55,
+          "average": 11173.52,
+          "unit": "USD/tonne",
+          "change": "13.75",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "China Antimony 99.65% Sb min Bi>200ppm (USD/tonne)",
+          "value": 10907.48,
+          "low": 10641.44,
+          "high": 11173.52,
+          "average": 10907.48,
+          "unit": "USD/tonne",
+          "change": "13.43",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "China Antimony 99.70% Sb min (USD/tonne)",
+          "value": 11639.08,
+          "low": 11439.55,
+          "high": 11838.61,
+          "average": 11639.08,
+          "unit": "USD/tonne",
+          "change": "14.33",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "China Antimony 99.9% Sb min (USD/tonne)",
+          "value": 11905.12,
+          "low": 11705.59,
+          "high": 12104.64,
+          "average": 11905.12,
+          "unit": "USD/tonne",
+          "change": "14.66",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "USA Antimony 99.65% Sb min (USD/lb)",
+          "value": 11.0,
+          "low": 10.0,
+          "high": 12.0,
+          "average": 11.0,
+          "unit": "USD/lb",
+          "change": "0",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "Europe Antimony 99.65% Sb min (USD/tonne)",
+          "value": 17100.0,
+          "low": 16600.0,
+          "high": 17600.0,
+          "average": 17100.0,
+          "unit": "USD/tonne",
+          "change": "0",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "China 5N High Purity Antimony (USD/kg)",
+          "value": 73.83,
+          "low": 70.5,
+          "high": 77.15,
+          "average": 73.83,
+          "unit": "USD/kg",
+          "change": "0.09",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "China 6N High Purity Antimony (USD/kg)",
+          "value": 115.06,
+          "low": 111.74,
+          "high": 118.39,
+          "average": 115.06,
+          "unit": "USD/kg",
+          "change": "0.14",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        },
+        {
+          "name": "China 7N High Purity Antimony (USD/kg)",
+          "value": 332.55,
+          "low": 319.24,
+          "high": 345.85,
+          "average": 332.55,
+          "unit": "USD/kg",
+          "change": "0.41",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Antimony/"
+        }
+      ]
+    },
+    "smm_manganese": {
+      "url": "https://www-old.metal.com/Manganese/",
+      "items": [
+        {
+          "name": "Guangxi Electrolytic Manganese (USD/tonne)",
+          "value": 2393.75,
+          "low": 2380.45,
+          "high": 2407.05,
+          "average": 2393.75,
+          "unit": "USD/tonne",
+          "change": "-0.58",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Hunan Electrolytic Manganese (USD/tonne)",
+          "value": 2393.75,
+          "low": 2380.45,
+          "high": 2407.05,
+          "average": 2393.75,
+          "unit": "USD/tonne",
+          "change": "-0.58",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Guizhou Electrolytic Manganese (USD/tonne)",
+          "value": 2393.75,
+          "low": 2380.45,
+          "high": 2407.05,
+          "average": 2393.75,
+          "unit": "USD/tonne",
+          "change": "-0.58",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Shanghai Electrolytic Manganese in bags (USD/tonne)",
+          "value": 2446.94,
+          "low": 2433.64,
+          "high": 2460.24,
+          "average": 2446.94,
+          "unit": "USD/tonne",
+          "change": "-0.59",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Shanghai Electrolytic Manganese Drum-packed (USD/tonne)",
+          "value": 2579.93,
+          "low": 2566.63,
+          "high": 2593.23,
+          "average": 2579.93,
+          "unit": "USD/tonne",
+          "change": "-0.62",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Major Areas Electrolytic Manganese (USD/tonne)",
+          "value": 2393.75,
+          "low": 2380.45,
+          "high": 2407.05,
+          "average": 2393.75,
+          "unit": "USD/tonne",
+          "change": "-0.58",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Tianjin Port Electrolytic Manganese (USD/tonne)",
+          "value": 2433.64,
+          "low": 2420.35,
+          "high": 2446.94,
+          "average": 2433.64,
+          "unit": "USD/tonne",
+          "change": "-0.59",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Huangpu Port Electrolytic Manganese (USD/tonne)",
+          "value": 2433.64,
+          "low": 2420.35,
+          "high": 2446.94,
+          "average": 2433.64,
+          "unit": "USD/tonne",
+          "change": "-0.59",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "FOB China Electrolytic Manganese price (USD/tonne)",
+          "value": 2600.0,
+          "low": 2550.0,
+          "high": 2650.0,
+          "average": 2600.0,
+          "unit": "USD/tonne",
+          "change": "0",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        },
+        {
+          "name": "Electrolytic Manganese Metal, in-whs Rotterdam (USD/tonne)",
+          "value": 2750.0,
+          "low": 2700.0,
+          "high": 2800.0,
+          "average": 2750.0,
+          "unit": "USD/tonne",
+          "change": "0",
+          "asOf": "2026-11-18",
+          "asOf_raw": "Nov 18, 2026",
+          "source_url": "https://www-old.metal.com/Manganese/"
+        }
+      ]
+    },
+    "smm_cobalt": {
+      "url": "https://www-old.metal.com/Cobalt/",
+      "items": [
+        {
+          "name": "China Cobalt Sulfate Index (USD/tonne)",
+          "value": 6967.09,
+          "low": 6967.09,
+          "high": 6967.09,
+          "average": 6967.09,
+          "unit": "USD/tonne",
+          "change": "144.35",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Cobalt/"
+        },
+        {
+          "name": "China Cobalt Sulfate (USD/tonne)",
+          "value": 6983.45,
+          "low": 6783.92,
+          "high": 7182.97,
+          "average": 6983.45,
+          "unit": "USD/tonne",
+          "change": "141.45",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Cobalt/"
+        },
+        {
+          "name": "China Cobalt Tetroxide (USD/tonne)",
+          "value": 28931.42,
+          "low": 27933.79,
+          "high": 29929.06,
+          "average": 28931.42,
+          "unit": "USD/tonne",
+          "change": "699.89",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Cobalt/"
+        },
+        {
+          "name": "China Cobalt Chloride (USD/tonne)",
+          "value": 8180.61,
+          "low": 7715.05,
+          "high": 8646.17,
+          "average": 8180.61,
+          "unit": "USD/tonne",
+          "change": "142.92",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Cobalt/"
+        },
+        {
+          "name": "China Cobalt Oxide (USD/tonne)",
+          "value": 26936.15,
+          "low": 25273.43,
+          "high": 28598.88,
+          "average": 26936.15,
+          "unit": "USD/tonne",
+          "change": "1361.7",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Cobalt/"
+        },
+        {
+          "name": "China Cobalt Carbonate (USD/tonne)",
+          "value": 19287.62,
+          "low": 18622.53,
+          "high": 19952.71,
+          "average": 19287.62,
+          "unit": "USD/tonne",
+          "change": "1684.42",
+          "asOf": "2026-11-17",
+          "asOf_raw": "Nov 17, 2026",
+          "source_url": "https://www-old.metal.com/Cobalt/"
+        }
+      ]
+    },
+    "smm_tungsten_apt": {
+      "url": "https://www.metal.com/tungsten/202511260001",
+      "items": [
+        {
+          "name": "APT 88.5% CIF Rotterdam (market note)",
+          "value": null,
+          "low": 2500.0,
+          "high": 3000.0,
+          "average": null,
+          "unit": "USD/mtu",
+          "note": "This week, the quotation range for APT in the ex-China market moved down to $2,500-3,000/mtu, with an average price of $2,750/mtu, and the high end of the overall price range declined WoW.",
+          "asOf": "2027-01-01",
+          "source_url": "https://www.metal.com/tungsten/202511260001"
+        }
+      ]
+    },
+    "screener_ADANIPORTS": {
+      "url": "https://www.screener.in/company/ADANIPORTS/consolidated/",
+      "items": [
+        {
+          "name": "Current Price",
+          "value": 1917.0,
+          "unit": "INR",
+          "change_pct": 1.27,
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ADANIPORTS/consolidated/"
+        },
+        {
+          "name": "52-week High",
+          "value": 1980.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ADANIPORTS/consolidated/"
+        },
+        {
+          "name": "52-week Low",
+          "value": 1292.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ADANIPORTS/consolidated/"
+        },
+        {
+          "name": "Market Cap",
+          "value": 441669.0,
+          "unit": "INR Cr",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ADANIPORTS/consolidated/"
+        }
+      ]
+    },
+    "screener_LT": {
+      "url": "https://www.screener.in/company/LT/consolidated/",
+      "items": [
+        {
+          "name": "Current Price",
+          "value": 4156.0,
+          "unit": "INR",
+          "change_pct": 0.37,
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/LT/consolidated/"
+        },
+        {
+          "name": "52-week High",
+          "value": 4440.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/LT/consolidated/"
+        },
+        {
+          "name": "52-week Low",
+          "value": 3288.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/LT/consolidated/"
+        },
+        {
+          "name": "Market Cap",
+          "value": 571762.0,
+          "unit": "INR Cr",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/LT/consolidated/"
+        }
+      ]
+    },
+    "screener_ULTRACEMCO": {
+      "url": "https://www.screener.in/company/ULTRACEMCO/consolidated/",
+      "items": [
+        {
+          "name": "Current Price",
+          "value": 12290.0,
+          "unit": "INR",
+          "change_pct": 0.16,
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ULTRACEMCO/consolidated/"
+        },
+        {
+          "name": "52-week High",
+          "value": 13110.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ULTRACEMCO/consolidated/"
+        },
+        {
+          "name": "52-week Low",
+          "value": 10325.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ULTRACEMCO/consolidated/"
+        },
+        {
+          "name": "Market Cap",
+          "value": 362161.0,
+          "unit": "INR Cr",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/ULTRACEMCO/consolidated/"
+        }
+      ]
+    },
+    "screener_CONCOR": {
+      "url": "https://www.screener.in/company/CONCOR/consolidated/",
+      "items": [
+        {
+          "name": "Current Price",
+          "value": 442.0,
+          "unit": "INR",
+          "change_pct": -0.02,
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/CONCOR/consolidated/"
+        },
+        {
+          "name": "52-week High",
+          "value": 544.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/CONCOR/consolidated/"
+        },
+        {
+          "name": "52-week Low",
+          "value": 404.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/CONCOR/consolidated/"
+        },
+        {
+          "name": "Market Cap",
+          "value": 33656.0,
+          "unit": "INR Cr",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/CONCOR/consolidated/"
+        }
+      ]
+    },
+    "screener_IRB": {
+      "url": "https://www.screener.in/company/IRB/consolidated/",
+      "items": [
+        {
+          "name": "Current Price",
+          "value": 18.0,
+          "unit": "INR",
+          "change_pct": -0.94,
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/IRB/consolidated/"
+        },
+        {
+          "name": "52-week High",
+          "value": 24.0,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/IRB/consolidated/"
+        },
+        {
+          "name": "52-week Low",
+          "value": 15.7,
+          "unit": "INR",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/IRB/consolidated/"
+        },
+        {
+          "name": "Market Cap",
+          "value": 21680.0,
+          "unit": "INR Cr",
+          "asOf": "2026-11-17",
+          "source_url": "https://www.screener.in/company/IRB/consolidated/"
+        }
+      ]
+    }
+  }
+}
