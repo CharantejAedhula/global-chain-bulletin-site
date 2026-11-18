@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-18T02:55:51+00:00",
+ "fetched_at": "2026-11-18T04:05:41+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 694,
+ "outlets_read": 42,
+ "items_read": 660,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 39,
+   "items": 38,
    "errors": []
   },
   "Yicai Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 14,
+   "items": 12,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,24 +52,24 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 24,
+   "items": 21,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 94, column 140"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 270, column 140"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 37,
+   "items": 38,
    "errors": []
   },
   "Financial Times": {
@@ -94,7 +94,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Al Jazeera": {
@@ -109,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 40,
+   "items": 39,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,12 +124,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 25,
+   "items": 22,
    "errors": []
   },
   "Axios": {
@@ -156,12 +156,12 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
@@ -171,7 +171,7 @@
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Interfax": {
@@ -191,8 +191,10 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 24,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Abusiness-standard.com%20when%3A3d&hl: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
@@ -208,22 +210,22 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 36,
+   "items": 37,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 12,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "BNamericas": {
@@ -233,7 +235,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -424,6 +426,76 @@
    "id": 3
   },
   {
+   "independent_outlets": 4,
+   "same_headline_groups": [
+    [
+     "gCaptain",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "Seatrade Maritime",
+    "gCaptain",
+    "Reuters",
+    "Euronews",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-17T14:08+00:00",
+   "earliest": "2026-11-16T16:02+00:00",
+   "items": [
+    {
+     "outlet": "Seatrade Maritime",
+     "region": "Europe",
+     "title": "Seafarers injured as two vessels struck in Black Sea off Bulgaria",
+     "url": "https://www.seatrade-maritime.com/security/seafarers-injured-as-two-vessels-struck-in-black-sea-off-bulgaria",
+     "via": "",
+     "published": "2026-11-17T14:08+00:00",
+     "summary": "Two merchant vessels have sunk following reported drone attacks in the Black Sea, with several seafarers injured and 31 crew rescued."
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "LPG Tanker Reported to Have Sunk Off Bulgaria’s Black Sea Coast",
+     "url": "https://gcaptain.com/lpg-tanker-reported-to-have-sunk-off-bulgarias-black-sea-coast/",
+     "via": "",
+     "published": "2026-11-17T13:37+00:00",
+     "summary": "A liquefied petroleum gas tanker sank off Bulgaria's Black Sea coast on Tuesday, Bulgaria's defense ministry said, a few dozen miles from where another ship went down after a drone attack a day earlier."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "LPG tanker reported to have sunk off Bulgaria's Black Sea coast",
+     "url": "https://www.reuters.com/world/lpg-tanker-sends-distress-signal-off-bulgarias-black-sea-coast-maritime-security-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T13:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Second tanker in two days sinks off Bulgaria's Black Sea coast, search operation under way",
+     "url": "https://www.euronews.com/2026/11/17/second-tanker-in-two-days-sinks-off-bulgarias-black-sea-coast-search-operation-under-way",
+     "via": "",
+     "published": "2026-11-17T12:09+00:00",
+     "summary": "The tanker had disappeared from radar shortly after midnight, and by 8:02 am (07:02 CET) local time the emergency buoy was activated, emitting a signal for a sunken ship."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Cargo ship sinks off Bulgaria’s Black Sea coast",
+     "url": "https://apnews.com/article/bulgaria-romania-black-sea-cargo-ship-betul-9dd38253281fb1889e39ec7a9a57f9e5",
+     "via": "",
+     "published": "2026-11-16T16:02+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
@@ -466,30 +538,30 @@
      "summary": "Huang's children learnt from an early age to care about Nvidia."
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
+    "Al Jazeera",
     "The Straits Times"
    ],
    "regions": [
-    "South Asia",
+    "Middle East",
     "Southeast Asia"
    ],
-   "latest": "2026-11-18T02:29+00:00",
+   "latest": "2026-11-18T03:00+00:00",
    "earliest": "2026-11-17T22:28+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia board does not intend to reinstate Jensen Huang as CEO: Chairman",
-     "url": "https://www.business-standard.com/world-news/nvidia-board-does-not-intend-to-reinstate-jensen-huang-as-ceo-chairman-126111800077_1.html",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Nvidia shoots down calls for Jensen Huang’s return amid strong earnings",
+     "url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings?traffic_source=rss",
      "via": "",
-     "published": "2026-11-18T02:29+00:00",
-     "summary": ""
+     "published": "2026-11-18T03:00+00:00",
+     "summary": "Nvidia board chair says chip giant 'does not intend' to reinstate Huang as it projects revenues of $130bn in Q4."
     },
     {
      "outlet": "The Straits Times",
@@ -501,7 +573,42 @@
      "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
     }
    ],
-   "id": 5
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-18T02:31+00:00",
+   "earliest": "2026-11-17T23:09+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "NSA outage: National security's internal network goes offline amid software patch | Here's what we know",
+     "url": "https://www.livemint.com/news/us-news/nsa-outage-national-securitys-internal-network-goes-offline-amid-software-patch-heres-what-we-know-11794968355520.html",
+     "via": "",
+     "published": "2026-11-18T02:31+00:00",
+     "summary": "The NSA's internal network went offline following a software patch to address vulnerabilities discovered in October. Officials ruled out a cyberattack, saying backup systems would ensure secure communication with US President Donald Trump; efforts to restore the network are continuing."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Classified US national security communications network hit by outage, NSA says",
+     "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T23:09+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -536,7 +643,7 @@
      "summary": "Perpetua is exploring a funding and supply arrangement with a major aerospace and defence company to assess tungsten deposits in Idaho."
     }
    ],
-   "id": 6
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -571,42 +678,42 @@
      "summary": "Latest filing reveals a shift away from industrial metals and semiconductors as the billionaire refocuses his portfolio on gold."
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Australian Financial Review",
-    "Reuters"
+    "Mining.com.au",
+    "South China Morning Post"
    ],
    "regions": [
-    "Europe",
+    "China",
     "Oceania"
    ],
-   "latest": "2026-11-18T00:56+00:00",
-   "earliest": "2026-11-17T22:55+00:00",
+   "latest": "2026-11-18T01:52+00:00",
+   "earliest": "2026-11-17T23:18+00:00",
    "items": [
     {
-     "outlet": "Australian Financial Review",
+     "outlet": "Mining.com.au",
      "region": "Oceania",
-     "title": "Apple update sparks outage at internal, retail and iCloud operations",
-     "url": "https://www.afr.com/world/north-america/apple-update-sparks-outage-at-internal-retail-and-icloud-operations-20261118-p61f46?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "title": "Trump says US could catch China on rare earths ‘in 10 months’",
+     "url": "https://mining.com.au/trump-says-us-could-catch-china-on-rare-earths-in-10-months/",
      "via": "",
-     "published": "2026-11-18T00:56+00:00",
-     "summary": "The disruptions are the latest in a string of similar incidents that have occurred recently in US companies and government agencies."
+     "published": "2026-11-18T01:52+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Apple works to restore services after outage caused by internal update",
-     "url": "https://www.reuters.com/business/retail-consumer/apple-works-restore-services-after-outage-caused-by-internal-update-2026-11-17/",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Trump claims US will have enough rare earths in 10 months; experts call it unrealistic",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374808/trump-claims-us-will-have-enough-rare-earths-10-months-experts-call-it-unrealistic",
      "via": "",
-     "published": "2026-11-17T22:55+00:00",
-     "summary": ""
+     "published": "2026-11-17T23:18+00:00",
+     "summary": "US President Donald Trump’s claim on Tuesday that Washington would catch up to China on rare earth supplies “within 10 months” is “unrealistic” and “diplomatic bluster”, given Beijing’s decades-long dominance in supply chains, experts say. “The US will not catch up with China in rare earths production, processing or end-user rare earth-enabled product manufacturing in the next 10 months or the nex"
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -641,42 +748,7 @@
      "summary": ""
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-17T23:09+00:00",
-   "earliest": "2026-11-17T18:49+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Classified US national security communications network hit by outage, NSA says",
-     "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
-     "via": "",
-     "published": "2026-11-17T23:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US Electronic Spy Agency Suffers Classified Network Outage",
-     "url": "https://www.livemint.com/news/us-news/us-electronic-spy-agency-suffers-classified-network-outage-11794941399379.html",
-     "via": "",
-     "published": "2026-11-17T18:49+00:00",
-     "summary": "The National Security Agency is suffering an outage of a classified computer network it uses for internal communications and other daily work functions, according to a US official and another person familiar with the matter."
-    }
-   ],
-   "id": 10
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -711,7 +783,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -746,7 +818,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -781,7 +853,7 @@
      "summary": "An Indian government Minister says the Tara Gas was attacked a second time forcing the crew to abandon ship"
     }
    ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -816,7 +888,7 @@
      "summary": "The committee will oversee Nvidia’s national security and global trade compliance programs."
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -830,7 +902,7 @@
     "North America"
    ],
    "latest": "2026-11-17T14:49+00:00",
-   "earliest": "2026-11-16T06:45+00:00",
+   "earliest": "2026-11-17T02:44+00:00",
    "items": [
     {
      "outlet": "South China Morning Post",
@@ -847,11 +919,11 @@
      "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
      "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
      "via": "",
-     "published": "2026-11-16T06:45+00:00",
+     "published": "2026-11-17T02:44+00:00",
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -886,7 +958,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -919,56 +991,6 @@
      "via": "",
      "published": "2026-11-17T12:30+00:00",
      "summary": "A Conakry court has jailed 22 former local officials from the gold-rich northeastern Siguiri region, as well as 200 people accused of illegal mining. It's part of a wider crackdown that sent thousands fleeing into Mali."
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "gCaptain",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "gCaptain",
-    "Reuters",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-17T13:37+00:00",
-   "earliest": "2026-11-17T12:09+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "LPG Tanker Reported to Have Sunk Off Bulgaria’s Black Sea Coast",
-     "url": "https://gcaptain.com/lpg-tanker-reported-to-have-sunk-off-bulgarias-black-sea-coast/",
-     "via": "",
-     "published": "2026-11-17T13:37+00:00",
-     "summary": "A liquefied petroleum gas tanker sank off Bulgaria's Black Sea coast on Tuesday, Bulgaria's defense ministry said, a few dozen miles from where another ship went down after a drone attack a day earlier."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "LPG tanker reported to have sunk off Bulgaria's Black Sea coast",
-     "url": "https://www.reuters.com/world/lpg-tanker-sends-distress-signal-off-bulgarias-black-sea-coast-maritime-security-2026-11-17/",
-     "via": "",
-     "published": "2026-11-17T13:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Second tanker in two days sinks off Bulgaria's Black Sea coast, search operation under way",
-     "url": "https://www.euronews.com/2026/11/17/second-tanker-in-two-days-sinks-off-bulgarias-black-sea-coast-search-operation-under-way",
-     "via": "",
-     "published": "2026-11-17T12:09+00:00",
-     "summary": "The tanker had disappeared from radar shortly after midnight, and by 8:02 am (07:02 CET) local time the emergency buoy was activated, emitting a signal for a sunken ship."
     }
    ],
    "id": 18
@@ -1082,111 +1104,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Kyodo News",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-17T08:00+00:00",
-   "earliest": "2026-11-17T03:54+00:00",
-   "items": [
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "TIMELINE: How Trump and Xi went from tariff war to trade truce",
-     "url": "https://english.kyodonews.net/articles/-/91668",
-     "via": "",
-     "published": "2026-11-17T08:00+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "How Trump and Xi went from tariff war to trade truce",
-     "url": "https://www.straitstimes.com/asia/how-trump-and-xi-went-from-tariff-war-to-trade-truce1",
-     "via": "",
-     "published": "2026-11-17T03:54+00:00",
-     "summary": "SHENZHEN, China, Nov 17 - Chinese leader Xi Jinping is due to meet US President Donald Trump on the sidelines of an APEC leaders' summit in China later this week for talks aimed at keeping a fragile trade truce that is set to expire in January on track."
-    }
-   ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-11-17T05:51+00:00",
-   "earliest": "2026-11-16T21:48+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "US moves to restrict China's remote access to AI chips after Nvidia row",
-     "url": "https://www.business-standard.com/world-news/us-china-ai-chips-exports-restrictions-jensen-huang-nvidia-row-access-126111700312_1.html",
-     "via": "",
-     "published": "2026-11-17T05:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "US moves to curb China's remote access to AI chips after Nvidia scandal",
-     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
-     "via": "",
-     "published": "2026-11-16T21:48+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "The Straits Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-17T04:03+00:00",
-   "earliest": "2026-11-16T22:11+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Microsoft bug undetected in data centres since July triggered global outage",
-     "url": "https://www.business-standard.com/technology/tech-news/microsoft-bug-undetected-in-data-centres-since-july-triggered-global-outage-126111700158_1.html",
-     "via": "",
-     "published": "2026-11-17T04:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Microsoft bug undetected since July triggered worldwide outage",
-     "url": "https://www.straitstimes.com/business/microsoft-bug-undetected-since-july-triggered-worldwide-outage",
-     "via": "",
-     "published": "2026-11-16T22:11+00:00",
-     "summary": "The bug that crippled Microsoft productivity software last week had been lurking undetected in the company’s data centres since July."
-    }
-   ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "MINING.COM",
     "Mining Weekly"
    ],
@@ -1216,7 +1133,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1251,77 +1168,7 @@
      "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
     }
    ],
-   "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-16T19:32+00:00",
-   "earliest": "2026-11-16T10:28+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war",
-     "url": "https://apnews.com/article/us-iran-war-aircraft-carrier-middle-east-9858fc82c61c7a1d159e7bba72afe99a",
-     "via": "",
-     "published": "2026-11-16T19:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections",
-     "url": "https://www.timesofisrael.com/third-us-aircraft-carrier-arrives-in-mideast-as-iran-rules-out-nuclear-inspections/",
-     "via": "",
-     "published": "2026-11-16T10:28+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-16T03:13+00:00",
-   "earliest": "2026-11-15T19:54+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Amid Nvidia controversy, Megaspeed says Alice Huang left firm in Aug 2025",
-     "url": "https://www.business-standard.com/world-news/amid-nvidia-controversy-megaspeed-says-alice-huang-left-firm-in-aug-2025-126111600072_1.html",
-     "via": "",
-     "published": "2026-11-16T03:13+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
-     "url": "https://apnews.com/article/singapore-megaspeed-alice-huang-nvidia-probe-e9e2e18169dce0b30a34f39715bf35ed",
-     "via": "",
-     "published": "2026-11-15T19:54+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 28
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1355,7 +1202,7 @@
      "summary": "Huang is set to appear before the United States' House Foreign Affairs Committee, the Select Committee on the Chinese Communist Party and the House Intelligence Committee on 1 December."
     }
    ],
-   "id": 29
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1389,7 +1236,7 @@
      "summary": "Preliminary results, based on 98% of the ballots counted, show that the incumbent president and candidate for re-election, José Maria Neves, has won this presidential election with nearly 64% of the vote, while his opponent, Joana Rosa, received 31.5%."
     }
    ],
-   "id": 30
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1423,7 +1270,7 @@
      "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
     }
    ],
-   "id": 31
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1457,7 +1304,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1491,7 +1338,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 28
   }
  ]
 }
