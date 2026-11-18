@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-18T04:05:41+00:00",
+ "fetched_at": "2026-11-18T07:29:34+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 42,
- "items_read": 660,
+ "items_read": 695,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 27,
+   "items": 32,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 31,
+   "items": 39,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 38,
+   "items": 36,
    "errors": []
   },
   "Yicai Global": {
@@ -47,34 +47,34 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 21,
+   "items": 15,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 270, column 140"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 435, column 140"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 38,
+   "items": 33,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
@@ -84,7 +84,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -94,22 +94,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 33,
+   "items": 32,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 39,
+   "items": 38,
    "errors": []
   },
   "Amwaj.media": {
@@ -119,12 +119,12 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Bloomberg": {
@@ -139,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,22 +156,22 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 3,
+   "items": 8,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Interfax": {
@@ -186,19 +186,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Abusiness-standard.com%20when%3A3d&hl: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 26,
+   "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 19,
    "errors": []
   },
   "The Indian Express": {
@@ -210,17 +208,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 37,
+   "items": 39,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "MercoPress": {
@@ -235,7 +233,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -246,67 +244,76 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 6,
    "same_headline_groups": [],
    "outlets": [
-    "Axios",
+    "Bloomberg",
     "Euronews",
-    "Deutsche Welle",
-    "Livemint / Economic Times",
-    "Times of Israel"
+    "gCaptain",
+    "Times of Israel",
+    "Al Arabiya",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East",
-    "North America",
-    "South Asia"
+    "North America"
    ],
-   "latest": "2026-11-17T19:30+00:00",
-   "earliest": "2026-11-16T23:52+00:00",
+   "latest": "2026-11-18T05:37+00:00",
+   "earliest": "2026-11-17T19:40+00:00",
    "items": [
     {
-     "outlet": "Axios",
+     "outlet": "Bloomberg",
      "region": "North America",
-     "title": "What is a dirty bomb and how dangerous is the weapon",
-     "url": "https://www.axios.com/2026/11/17/dirty-bomb-radioactive-trump-washington-weapon",
+     "title": "US Strikes Iranian Missile Site after Bahrain Attacks",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-18/us-strikes-iranian-missile-site-after-bahrain-attacks-video",
      "via": "",
-     "published": "2026-11-17T19:30+00:00",
-     "summary": "President Trump warned Iran against orchestrating a \"dirty bomb\" attack in Washington, D.C., though the White House says there are no credible threats. The big picture: Unlike a nuclear weapon, a \"dirty bomb\" uses common explosives to scatter radioactive material, potentially contaminating surrounding areas, forcing evacuations and causing widespread disruption. Driving the news: Asked Tuesday abo"
+     "published": "2026-11-18T05:37+00:00",
+     "summary": "Bloomberg’s Jon Herskovitz discusses the latest exchange of strikes between the US and Iran after American warplanes hit an Islamic Revolutionary Guard Corps missile launch site in Iran. Iran previously targeted an air base in Bahrain in the first direct strike on the Gulf state in weeks, even as it reiterated that a path to ending the conflict with the US remains open. (Source: Bloomberg)"
     },
     {
      "outlet": "Euronews",
      "region": "Europe",
-     "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
-     "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+     "title": "US strikes targets in Qeshm Island after Iranian mines hit five ships in Hormuz",
+     "url": "https://www.euronews.com/2026/11/17/us-strikes-targets-in-qeshm-island-after-iranian-mines-hit-five-ships-in-hormuz",
      "via": "",
-     "published": "2026-11-17T16:10+00:00",
-     "summary": "Iran denied media reports based on US intelligence that it may be planning a dirty bomb attack in the US capital, with questions swirling about its actual intentions or real capabilities for such an act, but Trump issued a strong warning against Tehran \"because they happen to be crazy.\""
+     "published": "2026-11-17T20:54+00:00",
+     "summary": "Iran says the US military carried out several attacks on Qeshm Island in southern Iran, while at least five ships were set on fire by mines in the Strait of Hormuz earlier in the day."
     },
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
-     "url": "https://www.dw.com/en/iran-dismisses-report-of-alleged-dirty-bomb-attack-on-washington/a-79970741?maca=en-rss-en-all-1573-rdf",
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz",
+     "url": "https://gcaptain.com/u-s-military-strikes-iranian-missile-site-near-strait-of-hormuz/",
      "via": "",
-     "published": "2026-11-17T14:39+00:00",
-     "summary": "Iran has said CNN's claim that Tehran would attack Washington with a \"dirty bomb\" was an attempt to manufacture further legitimacy to continue the war. Trump has said his administration takes the claim \"very seriously.\""
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Iran planning ‘dirty bomb’, chemical weapon attack on Trump officials in Washington, warns US intelligence: Report",
-     "url": "https://www.livemint.com/news/us-news/iran-planning-dirty-bomb-chemical-weapon-attack-on-trump-officials-in-washington-warns-us-intelligence-report-11794882364671.html",
-     "via": "",
-     "published": "2026-11-17T02:40+00:00",
-     "summary": "US intelligence has reportedly identified detailed Iranian plans for potential attacks on US soil, including the use of unconventional weapons. CNN says the plotting is not considered evidence of an imminent attack, and sources say it is unclear whether Iran has operatives in place.&nbsp;"
+     "published": "2026-11-17T20:14+00:00",
+     "summary": "By Arsalan Shahla and Jen Judson (Bloomberg) — American warplanes hit an Iranian missile launch site on Qeshm Island in the Persian Gulf on Tuesday, a US military official said,..."
     },
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "US intel said to indicate Iran is drawing up plans for potential ‘dirty bomb’ attack in DC",
-     "url": "https://www.timesofisrael.com/liveblog_entry/us-intel-said-to-indicate-iran-is-drawing-up-plans-for-potential-dirty-bomb-attack-in-dc/",
+     "title": "US military official says fighter jets hit Iranian missile-launch site on Qeshm Island earlier today",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-military-official-says-fighter-jets-hit-iranian-missile-launch-site-on-qeshm-island-earlier-today/",
      "via": "",
-     "published": "2026-11-16T23:52+00:00",
+     "published": "2026-11-17T19:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US military strikes Iranian missile launch site on Qeshm Island, US official tells AAE",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/17/us-military-strikes-iranian-missile-launch-site-on-qeshm-island-us-official-tells-aae",
+     "via": "",
+     "published": "2026-11-17T19:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US strikes Iranian missile launch site on Qeshm Island, US official says",
+     "url": "https://www.reuters.com/world/middle-east/us-strikes-iranian-missile-launch-site-qeshm-island-us-official-says-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T19:40+00:00",
      "summary": ""
     }
    ],
@@ -373,60 +380,303 @@
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "gCaptain",
-    "Al Arabiya",
-    "Reuters"
+    "Reuters",
+    "Financial Times",
+    "The Straits Times",
+    "Associated Press"
    ],
    "regions": [
     "Europe",
-    "Middle East",
-    "North America"
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-17T21:04+00:00",
-   "earliest": "2026-11-17T19:40+00:00",
+   "latest": "2026-11-17T16:01+00:00",
+   "earliest": "2026-11-15T19:54+00:00",
    "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US strikes Iran’s Qeshm Island after Tehran attacks American radar site in Bahrain",
-     "url": "https://www.timesofisrael.com/us-strikes-irans-qeshm-island-after-tehran-attacks-american-radar-site-in-bahrain/",
-     "via": "",
-     "published": "2026-11-17T21:04+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz",
-     "url": "https://gcaptain.com/u-s-military-strikes-iranian-missile-site-near-strait-of-hormuz/",
-     "via": "",
-     "published": "2026-11-17T20:14+00:00",
-     "summary": "By Arsalan Shahla and Jen Judson (Bloomberg) — American warplanes hit an Iranian missile launch site on Qeshm Island in the Persian Gulf on Tuesday, a US military official said,..."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US military strikes Iranian missile launch site on Qeshm Island, US official tells AAE",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/17/us-military-strikes-iranian-missile-launch-site-on-qeshm-island-us-official-tells-aae",
-     "via": "",
-     "published": "2026-11-17T19:41+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "US strikes Iranian missile launch site on Qeshm Island, US official says",
-     "url": "https://www.reuters.com/world/middle-east/us-strikes-iranian-missile-launch-site-qeshm-island-us-official-says-2026-11-17/",
+     "title": "Jensen Huang's daughter helped steer Nvidia response to Megaspeed scrutiny, FT reports",
+     "url": "https://www.reuters.com/technology/jensen-huangs-daughter-helped-steer-nvidia-response-megaspeed-scrutiny-ft-2026-11-17/",
      "via": "",
-     "published": "2026-11-17T19:40+00:00",
+     "published": "2026-11-17T16:01+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "How Jensen Huang’s family shaped Nvidia’s Megaspeed dealings",
+     "url": "https://www.ft.com/content/65ff066f-a81c-4d24-95da-73c2d7b83a27?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-17T15:33+00:00",
+     "summary": "Daughter and son-in-law come under scrutiny as board launches probe over company’s links to Megaspeed"
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Jensen Huang’s daughter, a close ally, remains in senior role at Nvidia",
+     "url": "https://www.straitstimes.com/business/jensen-huangs-daughter-a-close-ally-remains-in-senior-role-at-nvidia",
+     "via": "",
+     "published": "2026-11-17T02:20+00:00",
+     "summary": "Huang's children learnt from an early age to care about Nvidia."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
+     "url": "https://apnews.com/article/singapore-megaspeed-alice-huang-nvidia-probe-e9e2e18169dce0b30a34f39715bf35ed",
+     "via": "",
+     "published": "2026-11-15T19:54+00:00",
      "summary": ""
     }
    ],
    "id": 3
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "Al Jazeera",
+    "The Straits Times",
+    "Reuters",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T04:12+00:00",
+   "earliest": "2026-11-17T20:27+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Australia issues sanctions targeting Israeli settlers",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-18T04:12+00:00",
+     "summary": "Australia has imposed sanctions on three Israeli individuals and four organisations for illegal settlement expansion."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australia sanctions Israeli settlers, organisations over West Bank expansion",
+     "url": "https://www.straitstimes.com/asia/australianz/australia-sanctions-israeli-settlers-organisations-over-west-bank-expansion",
+     "via": "",
+     "published": "2026-11-18T00:00+00:00",
+     "summary": "UN bodies and most countries deem the settlements illegal, a position Israel disputes."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Australia sanctions Israeli settlers, organisations over West Bank expansion",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVlFrYWNBX1NLTHhNc00ycmhVV0dFNlRNX0xOcGFKcUhaYmNSU093YzlyTm9xOVlGRGlxblJhajk5ME5HMy0zeXFHc2FQUGFBd3lvUGtaNENWMTB2YVV6eHJ4NzZ1N3pHcjJqam9sQ2kxRk4wNUU4Z1NLbDA4bWQyUVpMakxVa0Q3S2UxeUE1Nm92RmhKUFVHMVl3UUVETHQxMVk4QlYwS0ZhNXRPSGVsUGRQX0F6OFJiZ1N5WGIyb1l5TkliTkhwT2NB?oc=5",
+     "via": "Google News",
+     "published": "2026-11-17T23:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Australia hits the godmother of Israel's settler movement with sanctions",
+     "url": "https://www.abc.net.au/news/2026-11-18/founder-of-israeli-settler-organisation-sanctioned/107397140",
+     "via": "",
+     "published": "2026-11-17T20:27+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Africanews",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-18T04:18+00:00",
+   "earliest": "2026-11-17T12:30+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Guinea’s gold crackdown triggers regional exodus and export halt",
+     "url": "https://mining.com.au/guineas-gold-crackdown-triggers-regional-exodus-and-export-halt/",
+     "via": "",
+     "published": "2026-11-18T04:18+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Guinea jails more than 220 people in deadly crackdown on illegal gold mining",
+     "url": "http://www.africanews.com/2026/11/17/guinea-jails-more-than-220-people-in-deadly-crackdown-on-illegal-gold-mining/",
+     "via": "",
+     "published": "2026-11-17T14:16+00:00",
+     "summary": "Guinea is stepping up its fight against illegal gold mining, with more than 220 people sentenced to prison in a major crackdown that is triggering violence and mass displacement."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Guinea jails 200 in wildcat gold mining crackdown",
+     "url": "https://www.dw.com/en/guinea-jails-200-in-wildcat-gold-mining-crackdown/a-79968808?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-17T12:30+00:00",
+     "summary": "A Conakry court has jailed 22 former local officials from the gold-rich northeastern Siguiri region, as well as 200 people accused of illegal mining. It's part of a wider crackdown that sent thousands fleeing into Mali."
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining Weekly",
+    "Ecofin Agency",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-18T06:46+00:00",
+   "earliest": "2026-11-16T22:38+00:00",
+   "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "AngloGold Ashanti to invest about $2.5bn in Colombia copper mine",
+     "url": "https://www.miningweekly.com/article/anglogold-ashanti-to-invest-about-25bn-in-colombia-copper-mine-2026-11-18",
+     "via": "",
+     "published": "2026-11-18T06:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "AngloGold Ashanti Considers $2.5 Billion Copper Investment in Colombia While Africa Remains Its Gold Stronghold",
+     "url": "https://www.ecofinagency.com/news-industry/1811-60907-anglogold-ashanti-considers-2-5-billion-copper-investment-in-colombia-while-africa-remains-its-gold-stronghold",
+     "via": "",
+     "published": "2026-11-18T04:47+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Perenti inks $670 million contract with AngloGold Ashanti at Geita gold mine",
+     "url": "https://www.mining.com/perenti-inks-670-million-contract-with-anglogold-ashanti-at-geita-gold-mine/",
+     "via": "",
+     "published": "2026-11-16T22:38+00:00",
+     "summary": "The deal has a 60-month term until October 31 2031."
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Livemint / Economic Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-18T03:12+00:00",
+   "earliest": "2026-11-17T23:09+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US spy agency's internal network faces outage during 'routine maintenance'",
+     "url": "https://www.business-standard.com/world-news/us-spy-agency-s-internal-network-faces-outage-during-routine-maintenance-126111800045_1.html",
+     "via": "",
+     "published": "2026-11-18T03:12+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "NSA outage: National security's internal network goes offline amid software patch | Here's what we know",
+     "url": "https://www.livemint.com/news/us-news/nsa-outage-national-securitys-internal-network-goes-offline-amid-software-patch-heres-what-we-know-11794968355520.html",
+     "via": "",
+     "published": "2026-11-18T02:31+00:00",
+     "summary": "The NSA's internal network went offline following a software patch to address vulnerabilities discovered in October. Officials ruled out a cyberattack, saying backup systems would ensure secure communication with US President Donald Trump; efforts to restore the network are continuing."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Classified US national security communications network hit by outage, NSA says",
+     "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T23:09+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Deutsche Welle",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-17T16:10+00:00",
+   "earliest": "2026-11-17T09:35+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
+     "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+     "via": "",
+     "published": "2026-11-17T16:10+00:00",
+     "summary": "Iran denied media reports based on US intelligence that it may be planning a dirty bomb attack in the US capital, with questions swirling about its actual intentions or real capabilities for such an act, but Trump issued a strong warning against Tehran \"because they happen to be crazy.\""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
+     "url": "https://www.dw.com/en/iran-dismisses-report-of-alleged-dirty-bomb-attack-on-washington/a-79970741?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-17T14:39+00:00",
+     "summary": "Iran has said CNN's claim that Tehran would attack Washington with a \"dirty bomb\" was an attempt to manufacture further legitimacy to continue the war. Trump has said his administration takes the claim \"very seriously.\""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US intel said to indicate Iran planning potential ‘dirty bomb’ attack in Washington",
+     "url": "https://www.timesofisrael.com/us-intel-said-to-indicate-iran-planning-potential-dirty-bomb-attack-in-washington/",
+     "via": "",
+     "published": "2026-11-17T09:35+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 3,
    "same_headline_groups": [
     [
      "gCaptain",
@@ -437,7 +687,6 @@
     "Seatrade Maritime",
     "gCaptain",
     "Reuters",
-    "Euronews",
     "Associated Press"
    ],
    "regions": [
@@ -475,15 +724,6 @@
      "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Second tanker in two days sinks off Bulgaria's Black Sea coast, search operation under way",
-     "url": "https://www.euronews.com/2026/11/17/second-tanker-in-two-days-sinks-off-bulgarias-black-sea-coast-search-operation-under-way",
-     "via": "",
-     "published": "2026-11-17T12:09+00:00",
-     "summary": "The tanker had disappeared from radar shortly after midnight, and by 8:02 am (07:02 CET) local time the emergency buoy was activated, emitting a signal for a sunken ship."
-    },
-    {
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Cargo ship sinks off Bulgaria’s Black Sea coast",
@@ -493,75 +733,170 @@
      "summary": ""
     }
    ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Financial Times",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-17T16:01+00:00",
-   "earliest": "2026-11-17T02:20+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Jensen Huang's daughter helped steer Nvidia response to Megaspeed scrutiny, FT reports",
-     "url": "https://www.reuters.com/technology/jensen-huangs-daughter-helped-steer-nvidia-response-megaspeed-scrutiny-ft-2026-11-17/",
-     "via": "",
-     "published": "2026-11-17T16:01+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "How Jensen Huang’s family shaped Nvidia’s Megaspeed dealings",
-     "url": "https://www.ft.com/content/65ff066f-a81c-4d24-95da-73c2d7b83a27?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-17T15:33+00:00",
-     "summary": "Daughter and son-in-law come under scrutiny as board launches probe over company’s links to Megaspeed"
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Jensen Huang’s daughter, a close ally, remains in senior role at Nvidia",
-     "url": "https://www.straitstimes.com/business/jensen-huangs-daughter-a-close-ally-remains-in-senior-role-at-nvidia",
-     "via": "",
-     "published": "2026-11-17T02:20+00:00",
-     "summary": "Huang's children learnt from an early age to care about Nvidia."
-    }
-   ],
-   "id": 5
+   "id": 9
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "Mining.com.au",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia",
+    "Oceania"
+   ],
+   "latest": "2026-11-18T06:33+00:00",
+   "earliest": "2026-11-17T14:55+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Korea Zinc firms up US solar panel recycling JV",
+     "url": "https://mining.com.au/korea-zinc-firms-up-us-solar-panel-recycling-jv/",
+     "via": "",
+     "published": "2026-11-18T06:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Korea Zinc to establish US solar panel recycling venture with SolarCycle",
+     "url": "https://www.koreaherald.com/article/10939963",
+     "via": "",
+     "published": "2026-11-17T14:55+00:00",
+     "summary": "Korea Zinc is establishing a joint venture with US-based solar panel recycler SolarCycle to expand its resource recycling operations in the US. The partnership will combine SolarCycle's collection network with Korea Zinc's refining capabilities to recover valuable metals from discarded panels. Korea Zinc said Tuesday it had signed an agreement with SolarCycle to establish a joint venture called Ju"
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-18T06:27+00:00",
+   "earliest": "2026-11-16T08:00+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "US Democrats flip Alaska Senate seat as Mary Peltola wins race",
+     "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-18T06:27+00:00",
+     "summary": "The US Senate's final outstanding midterm election race has been won by Mary Peltola. She unseats Republican Dan Sullivan after winning 50.1% of the vote."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Alaska U.S. Senate Election Live Results 2026",
+     "url": "https://apnews.com/projects/elections-2026/alaska-us-senate-results/",
+     "via": "",
+     "published": "2026-11-16T08:00+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
     "The Straits Times"
    ],
    "regions": [
-    "Middle East",
+    "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-18T03:00+00:00",
+   "latest": "2026-11-18T05:02+00:00",
+   "earliest": "2026-11-18T02:00+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Xi Jinping calls for free and open trade as China threatens retaliation if US imposes more restrictions on AI chips",
+     "url": "https://www.livemint.com/news/world/xi-jinping-calls-for-free-and-open-trade-as-china-threatens-retaliation-if-us-imposes-more-restrictions-on-ai-chips-11794977422737.html",
+     "via": "",
+     "published": "2026-11-18T05:02+00:00",
+     "summary": "Xi Jinping urged support for multilateral trade and cooperation as US restrictions on China’s access to advanced AI chips intensified. Beijing opposed the measures and threatened countermeasures, while Washington said the controls aim to protect sensitive technology and national security."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "China warns US of retaliation over new AI chip restrictions",
+     "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-of-retaliation-over-new-ai-chip-restrictions",
+     "via": "",
+     "published": "2026-11-18T02:00+00:00",
+     "summary": "US threats to curb remote access to advanced chips risk reigniting tensions with China."
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-18T04:04+00:00",
+   "earliest": "2026-11-17T22:04+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Jensen Huang can nominate two directors to Nvidia board, filings show",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ19uNUs3ejNXWjVKVVJETG41Q1lVUmduOVIxRXAtOHFKMU1OQUNhbzN1MEtVeUJFOFR4SmhSSU1mcGJUQ0sySXVJNEVkaFBIcTEtRWo5Y21fZDlhMnJwZURodlVCT09lcUdzNHd6OERiaGhmV3lCLTJGVERNOTBidXg4c3liOUhWdXJpUms5TDdBWTdBelFKeXduc0d6eW9hWk5sbTFNbGExdU10UjF3ckVaaTBsNGJHX0I0aXdUNTA5WTBlZDVRUmNnWGpSQdIB0wFBVV95cUxQQmJOYnVuMnFyY2VLeGxWeTZPSWxIQjNlLXdlX1p5V2VVS0pTaVhGMXluWG16WUU4T243ejdpXzl2dGFOUW9vaGliZ1FlZDNza1liOEdJN3ZQUGl3dFQ2Q2l0dDA3ZmVWYnRlNXk2cU9LZnJQek04ZUJFRkE3SmJVMi04MDRfdHJJQTJMN0tjWElHazRwRUdBTXVkTmFqWXlrbjc2bHRld2pucFgtY2VZUjJubDVWNFgwbmxjZ20zWkxsVTR1dGtBSVdWRTFYbUVKOTNR?oc=5",
+     "via": "Google News",
+     "published": "2026-11-18T04:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Former Nvidia CEO Jensen Huang can nominate two directors to company board, filings show",
+     "url": "https://www.reuters.com/legal/transactional/former-nvidia-ceo-jensen-huang-can-nominate-two-directors-company-board-filings-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T22:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "The Straits Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T02:29+00:00",
    "earliest": "2026-11-17T22:28+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Nvidia shoots down calls for Jensen Huang’s return amid strong earnings",
-     "url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings?traffic_source=rss",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia board does not intend to reinstate Jensen Huang as CEO: Chairman",
+     "url": "https://www.business-standard.com/world-news/nvidia-board-does-not-intend-to-reinstate-jensen-huang-as-ceo-chairman-126111800077_1.html",
      "via": "",
-     "published": "2026-11-18T03:00+00:00",
-     "summary": "Nvidia board chair says chip giant 'does not intend' to reinstate Huang as it projects revenues of $130bn in Q4."
+     "published": "2026-11-18T02:29+00:00",
+     "summary": ""
     },
     {
      "outlet": "The Straits Times",
@@ -573,42 +908,7 @@
      "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-18T02:31+00:00",
-   "earliest": "2026-11-17T23:09+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "NSA outage: National security's internal network goes offline amid software patch | Here's what we know",
-     "url": "https://www.livemint.com/news/us-news/nsa-outage-national-securitys-internal-network-goes-offline-amid-software-patch-heres-what-we-know-11794968355520.html",
-     "via": "",
-     "published": "2026-11-18T02:31+00:00",
-     "summary": "The NSA's internal network went offline following a software patch to address vulnerabilities discovered in October. Officials ruled out a cyberattack, saying backup systems would ensure secure communication with US President Donald Trump; efforts to restore the network are continuing."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Classified US national security communications network hit by outage, NSA says",
-     "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
-     "via": "",
-     "published": "2026-11-17T23:09+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -643,182 +943,7 @@
      "summary": "Perpetua is exploring a funding and supply arrangement with a major aerospace and defence company to assess tungsten deposits in Idaho."
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-18T02:21+00:00",
-   "earliest": "2026-11-17T14:26+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Druckenmiller buys gold miners, dumps industrial metals",
-     "url": "https://mining.com.au/druckenmiller-buys-gold-miners-dumps-industrial-metals/",
-     "via": "",
-     "published": "2026-11-18T02:21+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Druckenmiller exits copper, steel and chip stocks to buy gold miners",
-     "url": "https://www.mining.com/druckenmiller-exits-copper-steel-and-chip-stocks-to-buy-gold-miners/",
-     "via": "",
-     "published": "2026-11-17T14:26+00:00",
-     "summary": "Latest filing reveals a shift away from industrial metals and semiconductors as the billionaire refocuses his portfolio on gold."
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "Oceania"
-   ],
-   "latest": "2026-11-18T01:52+00:00",
-   "earliest": "2026-11-17T23:18+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Trump says US could catch China on rare earths ‘in 10 months’",
-     "url": "https://mining.com.au/trump-says-us-could-catch-china-on-rare-earths-in-10-months/",
-     "via": "",
-     "published": "2026-11-18T01:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Trump claims US will have enough rare earths in 10 months; experts call it unrealistic",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3374808/trump-claims-us-will-have-enough-rare-earths-10-months-experts-call-it-unrealistic",
-     "via": "",
-     "published": "2026-11-17T23:18+00:00",
-     "summary": "US President Donald Trump’s claim on Tuesday that Washington would catch up to China on rare earth supplies “within 10 months” is “unrealistic” and “diplomatic bluster”, given Beijing’s decades-long dominance in supply chains, experts say. “The US will not catch up with China in rare earths production, processing or end-user rare earth-enabled product manufacturing in the next 10 months or the nex"
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-18T00:00+00:00",
-   "earliest": "2026-11-17T20:34+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Australia sanctions Israeli settlers, organisations over West Bank expansion",
-     "url": "https://www.straitstimes.com/asia/australianz/australia-sanctions-israeli-settlers-organisations-over-west-bank-expansion",
-     "via": "",
-     "published": "2026-11-18T00:00+00:00",
-     "summary": "UN bodies and most countries deem the settlements illegal, a position Israel disputes."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Australia hits the godmother of Israel's settler movement with sanctions",
-     "url": "https://www.abc.net.au/news/2026-11-18/founder-of-israeli-settler-organisation-sanctioned/107397140",
-     "via": "",
-     "published": "2026-11-17T20:34+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-17T21:28+00:00",
-   "earliest": "2026-11-17T18:03+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "UK sanctions Israeli settlement firms to protect two-state solution",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-17T21:28+00:00",
-     "summary": "The UK has imposed new sanctions on eight Israeli companies supporting illegal settlements in the occupied West Bank."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Britain sanctions Israeli settlement firms in push to protect two-state solution",
-     "url": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/",
-     "via": "",
-     "published": "2026-11-17T18:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Oceania"
-   ],
-   "latest": "2026-11-17T15:26+00:00",
-   "earliest": "2026-11-17T13:45+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Trump, Quad leaders meet amid critical minerals supply concerns",
-     "url": "https://mining.com.au/trump-quad-leaders-meet-amid-critical-minerals-supply-concerns/",
-     "via": "",
-     "published": "2026-11-17T15:26+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Trump meets Quad leaders, says 4 nations agree on 'critical mineral deals'",
-     "url": "https://asia.nikkei.com/politics/international-relations/indo-pacific/trump-meets-quad-leaders-says-4-nations-agree-on-critical-mineral-deals",
-     "via": "",
-     "published": "2026-11-17T13:45+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -853,7 +978,7 @@
      "summary": "An Indian government Minister says the Tara Gas was attacked a second time forcing the crew to abandon ship"
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -888,7 +1013,7 @@
      "summary": "The committee will oversee Nvidia’s national security and global trade compliance programs."
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -923,7 +1048,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -955,76 +1080,6 @@
      "url": "https://www.miningweekly.com/article/chiles-codelco-wins-environmental-approval-to-extend-gabriela-mistral-mine-life-2026-11-17",
      "via": "",
      "published": "2026-11-17T06:34+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-11-17T14:16+00:00",
-   "earliest": "2026-11-17T12:30+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Guinea jails more than 220 people in deadly crackdown on illegal gold mining",
-     "url": "http://www.africanews.com/2026/11/17/guinea-jails-more-than-220-people-in-deadly-crackdown-on-illegal-gold-mining/",
-     "via": "",
-     "published": "2026-11-17T14:16+00:00",
-     "summary": "Guinea is stepping up its fight against illegal gold mining, with more than 220 people sentenced to prison in a major crackdown that is triggering violence and mass displacement."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Guinea jails 200 in wildcat gold mining crackdown",
-     "url": "https://www.dw.com/en/guinea-jails-200-in-wildcat-gold-mining-crackdown/a-79968808?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-17T12:30+00:00",
-     "summary": "A Conakry court has jailed 22 former local officials from the gold-rich northeastern Siguiri region, as well as 200 people accused of illegal mining. It's part of a wider crackdown that sent thousands fleeing into Mali."
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-17T13:27+00:00",
-   "earliest": "2026-11-17T06:17+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Fresh public sector strike in France under way over pay as government struggles to pass budget",
-     "url": "https://www.euronews.com/2026/11/17/fresh-public-sector-strike-in-france-under-way-over-pay-as-government-struggles-to-pass-bu",
-     "via": "",
-     "published": "2026-11-17T13:27+00:00",
-     "summary": "Tuesday's demonstrations follow talks with Prime Minister Sebastien Lecornu, which left unions dissatisfied, as they continue to push for across the board pay rises."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "France braces for fresh public sector strike over pay",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/11/17/france-braces-for-fresh-public-sector-strike-over-pay",
-     "via": "",
-     "published": "2026-11-17T06:17+00:00",
      "summary": ""
     }
    ],
@@ -1069,36 +1124,71 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Reuters"
+    "Business Standard",
+    "Nikkei Asia"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "East Asia",
+    "South Asia"
    ],
-   "latest": "2026-11-17T08:08+00:00",
-   "earliest": "2026-11-17T07:47+00:00",
+   "latest": "2026-11-17T05:51+00:00",
+   "earliest": "2026-11-16T21:48+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Bahrain says it intercepted Iranian air attacks; IRGC says it targeted US radar at military base",
-     "url": "https://www.timesofisrael.com/liveblog_entry/bahrain-says-it-intercepted-iranian-air-attacks-irgc-says-it-targeted-us-radar-at-military-base/",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US moves to restrict China's remote access to AI chips after Nvidia row",
+     "url": "https://www.business-standard.com/world-news/us-china-ai-chips-exports-restrictions-jensen-huang-nvidia-row-access-126111700312_1.html",
      "via": "",
-     "published": "2026-11-17T08:08+00:00",
+     "published": "2026-11-17T05:51+00:00",
      "summary": ""
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Bahrain says it intercepts Iranian air attacks, IRGC says it targeted US radar",
-     "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-intercepts-iranian-air-attacks-irgc-says-it-targets-us-radar-2026-11-17/",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "US moves to curb China's remote access to AI chips after Nvidia scandal",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
      "via": "",
-     "published": "2026-11-17T07:47+00:00",
+     "published": "2026-11-16T21:48+00:00",
      "summary": ""
     }
    ],
    "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "The Straits Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-17T04:03+00:00",
+   "earliest": "2026-11-16T22:11+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Microsoft bug undetected in data centres since July triggered global outage",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcnRZOGoxUnk2R1QwSUE0TmY3T0t5VWE0UEEzRFJvWFNpRUkyQlZLQm5JcU9udzM5ZDh5cDdoM2hYd0Z2dW9CVFU0bUZqM2owMlB3MjBobHE1SkJud1U2b1Fvd1JpbnZzVjZXOU9nNnhkVnBlMm5oRjR1SGMyWHRnaVlyWWxUcHJVUDR5dUdqMmdLNWR3X3doY296RkphRi1kQTdnSzl6M1NfX3k4N3FtNHMzeXRLaVgwLWI5REFwSHZTNTBlRHFtenZUX19aRWZGUHJMbExfOXVLSkY0by1rdGs5RDPSAeoBQVVfeXFMT3JSSzNiSUQ5aVJzMmo4TkQ5dVRxNTFDZGV5cWt0bUlMMmN4U0ZBNmcyblRTVUc4akhlWjVMOXYxd25QdlZLTjBsYlAxdnFWcDByTlhDVlJlQXJNV2RpN0VpTThVUUdFX3BWN0NqRXBCSTkwUTN5R2c5YVBMNzhqWDk0RTM2U2FlRVlCcHJsazcwRnhCN1hud0pzdVJsQjNud0FHelR2MlY4dnR1TTNpZERPaHJVa2FpT2hMV2NOSmtDa3NNMWg5djE4VFhBV1hxZ3hTaVNnZ3h4T25scEtvblFTbnJmdGRFLU5B?oc=5",
+     "via": "Google News",
+     "published": "2026-11-17T04:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Microsoft bug undetected since July triggered worldwide outage",
+     "url": "https://www.straitstimes.com/business/microsoft-bug-undetected-since-july-triggered-worldwide-outage",
+     "via": "",
+     "published": "2026-11-16T22:11+00:00",
+     "summary": "The bug that crippled Microsoft productivity software last week had been lurking undetected in the company’s data centres since July."
+    }
+   ],
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1133,7 +1223,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1168,41 +1258,77 @@
      "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Euronews"
+    "Associated Press",
+    "Times of Israel"
    ],
    "regions": [
-    "Europe"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-17T16:01+00:00",
-   "earliest": "2026-11-17T15:48+00:00",
+   "latest": "2026-11-16T19:32+00:00",
+   "earliest": "2026-11-16T10:28+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Former Nvidia CEO to appear before Congress in December",
-     "url": "https://www.reuters.com/world/former-nvidia-ceo-huang-appear-before-us-congressional-committees-december-2026-11-17/",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war",
+     "url": "https://apnews.com/article/us-iran-war-aircraft-carrier-middle-east-9858fc82c61c7a1d159e7bba72afe99a",
      "via": "",
-     "published": "2026-11-17T16:01+00:00",
+     "published": "2026-11-16T19:32+00:00",
      "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Jensen Huang to face US Congress interviews on Nvidia’s sales to China on 1 December",
-     "url": "https://www.euronews.com/2026/11/17/jensen-huang-to-face-house-interviews-on-nvidias-sales-to-china-on-december-1",
-     "via": "",
-     "published": "2026-11-17T15:48+00:00",
-     "summary": "Huang is set to appear before the United States' House Foreign Affairs Committee, the Select Committee on the Chinese Communist Party and the House Intelligence Committee on 1 December."
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVkVhZGNTampMdFYyTGtDMEFUVDdxSnFIQ2d4Sk5jUFM5TEFNdEZtWC14aU1TOGMzcF9DN2ZYYnJpY3Fid2JuVHVudXZPOFczYUw5bE5zUy16Ny1ycVJWUVFqWUw5U1h0bWtZUlAwQ0g5VTB3b3lpSVphaUpBbzRsMlBBamloVXhsN0tIU0otVUwySWdUSDBxRDZ2bVFzcTJlMVJZX2VlTXRxS0Vta3UyWVdPY9IBuAFBVV95cUxNQVdIVEdjUzJRRndvMFdRT3ZKbWUyOEIyZDZVR09vN3F4dGplNkNoRGNRRlgyVHhpNkJHbVctR0xJS3EyQk9HSWgxaWwwMkpUb2lqSDYzSHNhRklGMjhjcEFRNmhqODNVZ3hkZUxiLWU2MzE1ZHdURlItbkNMb2dNRC1mel91ZDVQME9MSjdsb0hGcmI1R2VTMWhQWVREdzE2UmR6azl2ZWJ6dHdoNEVqandtM0U0alZO?oc=5",
+     "via": "Google News",
+     "published": "2026-11-16T10:28+00:00",
+     "summary": ""
     }
    ],
-   "id": 24
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "VnExpress International",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-16T01:56+00:00",
+   "earliest": "2026-11-15T21:07+00:00",
+   "items": [
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Jensen Huang reportedly discusses comeback as Nvidia CEO with allies",
+     "url": "https://e.vnexpress.net/news/business/companies/jensen-huang-reportedly-discusses-comeback-as-nvidia-ceo-with-allies-5145049.html",
+     "via": "",
+     "published": "2026-11-16T01:56+00:00",
+     "summary": "Jensen Huang is considering ​a comeback as Nvidia's CEO, and ‌has discussed with confidants the possibility of returning, the Financial Times reported on Sunday, citing people familiar ​with the matter."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Jensen Huang discusses comeback as Nvidia CEO with allies: Report",
+     "url": "https://english.alarabiya.net/business/technology/2026/11/16/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-report-",
+     "via": "",
+     "published": "2026-11-15T21:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1236,7 +1362,41 @@
      "summary": "Preliminary results, based on 98% of the ballots counted, show that the incumbent president and candidate for re-election, José Maria Neves, has won this presidential election with nearly 64% of the vote, while his opponent, Joana Rosa, received 31.5%."
     }
    ],
-   "id": 25
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-17T10:56+00:00",
+   "earliest": "2026-11-17T10:23+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Britain sanctions Israeli settlement builders, Gaza aid-blocking activists",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/17/britain-sanctions-israeli-settlement-builders-gaza-aidblocking-activists",
+     "via": "",
+     "published": "2026-11-17T10:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "UK sanctions West Bank settlement construction companies, activist group that blocks Gaza aid",
+     "url": "https://www.timesofisrael.com/liveblog_entry/uk-sanctions-west-bank-settlement-construction-companies-activist-group-that-blocks-gaza-aid/",
+     "via": "",
+     "published": "2026-11-17T10:23+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1255,8 +1415,8 @@
      "outlet": "Associated Press",
      "region": "North America",
      "title": "1.5-hour-long system outage forces United Airlines to delay departing flights",
-     "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc2xoSnd5Sm9rYTl5eFVRVzc2MFlNSk5qNUJRckg2X0tVazZEZG4wNTVVYW9JeWNyY1J6TWlKS0VURXd1c1JzUUdYU01WQzhQNWhkOEVCOXo4TTlLSnFNanUzVW9BYkZMOVBSb3ZfRnFMWXZFSGp1ZE5vSF9MTEd3VmxSTGI0YlR1VlE?oc=5",
+     "via": "Google News",
      "published": "2026-11-17T09:19+00:00",
      "summary": ""
     },
@@ -1270,7 +1430,75 @@
      "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
     }
    ],
-   "id": 26
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-16T19:06+00:00",
+   "earliest": "2026-11-15T09:10+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "IDF: 3 Hamas men, including Oct. 7 terrorist, killed in last week’s Gaza hospital strike",
+     "url": "https://www.timesofisrael.com/idf-3-hamas-men-including-oct-7-terrorist-killed-in-last-weeks-gaza-hospital-strike/",
+     "via": "",
+     "published": "2026-11-16T19:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Senior Hamas commander killed in Israeli strike in Gaza",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/senior-hamas-commander-killed-in-israeli-strike-in-gaza",
+     "via": "",
+     "published": "2026-11-15T09:10+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 30
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-16T15:45+00:00",
+   "earliest": "2026-11-16T09:21+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israel strikes east Lebanon, says targeting Hezbollah arms",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/16/israel-strikes-east-lebanon-says-targeting-hezbollah-arms",
+     "via": "",
+     "published": "2026-11-16T15:45+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Israel targets arms shipment in rare strike in Lebanon’s eastern Beqaa Valley",
+     "url": "https://www.timesofisrael.com/israel-targets-arms-shipment-in-rare-strike-in-lebanons-eastern-beqaa-valley/",
+     "via": "",
+     "published": "2026-11-16T09:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1304,41 +1532,7 @@
      "summary": ""
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-15T09:10+00:00",
-   "earliest": "2026-11-15T05:44+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Senior Hamas commander killed in Israeli strike in Gaza",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/senior-hamas-commander-killed-in-israeli-strike-in-gaza",
-     "via": "",
-     "published": "2026-11-15T09:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF confirms Hamas’s Rafah Brigade commander killed in overnight strike",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-confirms-hamass-rafah-brigade-commander-killed-in-overnight-strike/",
-     "via": "",
-     "published": "2026-11-15T05:44+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 28
+   "id": 32
   }
  ]
 }
