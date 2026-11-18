@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-18T01:52:23+00:00",
+ "fetched_at": "2026-11-18T02:36:33+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 24,
- "items_read": 349,
+ "outlets_read": 43,
+ "items_read": 701,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,31 +12,23 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 4,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aminingweekly.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 27,
+   "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aecofinagency.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 31,
+   "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Acaixinglobal.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 6,
+   "errors": []
   },
   "South China Morning Post": {
    "region": "China",
@@ -45,50 +37,40 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Ayicaiglobal.com%20when%3A3d&hl=en-US: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 6,
+   "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Amysteel.net%20when%3A3d&hl=en-US&gl=: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 14,
+   "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20when%3A3d&hl=en-US: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 21,
+   "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aenglish.kyodonews.net%20when%3A3d&hl: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 11,
+   "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 31,
+   "items": 25,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 31, column 79"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 94, column 140"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Areuters.com%20when%3A3d&hl=en-US&gl=: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 37,
+   "errors": []
   },
   "Financial Times": {
    "region": "Europe",
@@ -122,42 +104,32 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aenglish.alarabiya.net%20when%3A3d&hl: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 33,
+   "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Atimesofisrael.com%20when%3A3d&hl=en-: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 40,
+   "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aamwaj.media%20when%3A3d&hl=en-US&gl=: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 1,
+   "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Ameed.com%20when%3A3d&hl=en-US&gl=US&: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 1,
+   "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aapnews.com%20when%3A3d&hl=en-US&gl=U: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 19,
+   "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Axios": {
@@ -167,10 +139,9 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 0,
+   "items": 8,
    "errors": [
-    "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out",
-    "https://news.google.com/rss/search?q=site%3Acbc.ca%20when%3A3d&hl=en-US&gl=US&ce: HTTPError: HTTP Error 503: Service Unavailable"
+    "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
@@ -185,22 +156,18 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 9,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aabc.net.au%20when%3A3d&hl=en-US&gl=U: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 21,
+   "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Amining.com.au%20when%3A3d&hl=en-US&g: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 18,
+   "errors": []
   },
   "RNZ": {
    "region": "Oceania",
@@ -209,10 +176,8 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Ainterfax.com%20when%3A3d&hl=en-US&gl: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 17,
+   "errors": []
   },
   "PortNews": {
    "region": "Russia",
@@ -226,10 +191,8 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Abusiness-standard.com%20when%3A3d&hl: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 25,
+   "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
@@ -238,20 +201,20 @@
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 3,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 36,
+   "items": 37,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Athejakartapost.com%20when%3A3d&hl=en: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 9,
+   "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
@@ -265,10 +228,8 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Abnamericas.com%20when%3A3d&hl=en-US&: HTTPError: HTTP Error 503: Service Unavailable"
-   ]
+   "items": 26,
+   "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
@@ -283,20 +244,23 @@
  },
  "clusters": [
   {
-   "independent_outlets": 3,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
     "Axios",
     "Euronews",
-    "Livemint / Economic Times"
+    "Deutsche Welle",
+    "Livemint / Economic Times",
+    "Times of Israel"
    ],
    "regions": [
     "Europe",
+    "Middle East",
     "North America",
     "South Asia"
    ],
    "latest": "2026-11-17T19:30+00:00",
-   "earliest": "2026-11-17T02:40+00:00",
+   "earliest": "2026-11-16T23:52+00:00",
    "items": [
     {
      "outlet": "Axios",
@@ -317,6 +281,15 @@
      "summary": "Iran denied media reports based on US intelligence that it may be planning a dirty bomb attack in the US capital, with questions swirling about its actual intentions or real capabilities for such an act, but Trump issued a strong warning against Tehran \"because they happen to be crazy.\""
     },
     {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
+     "url": "https://www.dw.com/en/iran-dismisses-report-of-alleged-dirty-bomb-attack-on-washington/a-79970741?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-17T14:39+00:00",
+     "summary": "Iran has said CNN's claim that Tehran would attack Washington with a \"dirty bomb\" was an attempt to manufacture further legitimacy to continue the war. Trump has said his administration takes the claim \"very seriously.\""
+    },
+    {
      "outlet": "Livemint / Economic Times",
      "region": "South Asia",
      "title": "Iran planning ‘dirty bomb’, chemical weapon attack on Trump officials in Washington, warns US intelligence: Report",
@@ -324,113 +297,92 @@
      "via": "",
      "published": "2026-11-17T02:40+00:00",
      "summary": "US intelligence has reportedly identified detailed Iranian plans for potential attacks on US soil, including the use of unconventional weapons. CNN says the plotting is not considered evidence of an imminent attack, and sources say it is unclear whether Iran has operatives in place.&nbsp;"
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US intel said to indicate Iran is drawing up plans for potential ‘dirty bomb’ attack in DC",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-intel-said-to-indicate-iran-is-drawing-up-plans-for-potential-dirty-bomb-attack-in-dc/",
+     "via": "",
+     "published": "2026-11-16T23:52+00:00",
+     "summary": ""
     }
    ],
    "id": 1
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "ABC News (Australia)",
+    "Associated Press",
     "The Straits Times",
-    "VnExpress International"
+    "Reuters",
+    "The Korea Herald"
    ],
    "regions": [
-    "Oceania",
+    "East Asia",
+    "Europe",
+    "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-17T04:24+00:00",
-   "earliest": "2026-11-16T01:56+00:00",
+   "latest": "2026-11-17T21:38+00:00",
+   "earliest": "2026-11-17T09:33+00:00",
    "items": [
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Nvidia rules out Jensen Huang comeback despite backing from big names",
-     "url": "https://www.abc.net.au/news/2026-11-17/nvidia-rules-out-jensen-huang-return/107394520",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+     "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d5a35288288389d894e63e6bebe8240",
      "via": "",
-     "published": "2026-11-17T04:24+00:00",
-     "summary": "Nvidia is not considering reinstating the scandal-hit Jensen Huang as chief executive, despite a growing campaign for his return."
+     "published": "2026-11-17T21:38+00:00",
+     "summary": ""
     },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "Nvidia rules out Jensen Huang comeback as campaign for his return grows",
-     "url": "https://www.straitstimes.com/business/nvidia-faces-extraordinary-push-to-restore-jensen-huang-days-after-his-exit",
+     "title": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut",
+     "url": "https://www.straitstimes.com/business/companies-markets/wall-street-ends-lower-ahead-of-nvidia-earnings-anthropic-debut",
      "via": "",
-     "published": "2026-11-16T19:46+00:00",
-     "summary": "The “Stand With Jensen” campaign listed SpaceX CEO Elon Musk, Replit CEO Amjad Masad and Epic Games CEO Tim Sweeney among its signatories."
+     "published": "2026-11-17T21:27+00:00",
+     "summary": "The Dow Jones Industrial Average fell 859.71 points, or 1.67%, to 50,748.46."
     },
     {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Jensen Huang reportedly discusses comeback as Nvidia CEO with allies",
-     "url": "https://e.vnexpress.net/news/business/companies/jensen-huang-reportedly-discusses-comeback-as-nvidia-ceo-with-allies-5145049.html",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Wall Street ends lower ahead of Nvidia results, focus turns to Anthropic debut",
+     "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
      "via": "",
-     "published": "2026-11-16T01:56+00:00",
-     "summary": "Jensen Huang is considering ​a comeback as Nvidia's CEO, and ‌has discussed with confidants the possibility of returning, the Financial Times reported on Sunday, citing people familiar ​with the matter."
+     "published": "2026-11-17T10:51+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Seoul stocks open lower amid AI concerns ahead of Nvidia earnings, Anthropic IPO",
+     "url": "https://www.koreaherald.com/article/10939333",
+     "via": "",
+     "published": "2026-11-17T09:33+00:00",
+     "summary": "South Korean stocks opened lower Tuesday, tracking overnight losses on Wall Street amid lingering concerns over artificial intelligence investment ahead of Nvidia's earnings report and Anthropic's planned market debut. After opening 1.81 percent lower, the benchmark Korea Composite Stock Price Index pared its losses to trade 61.45 points, or 1.2 percent, lower at 5,039.05 as of 9:15 a.m. On Wall S"
     }
    ],
    "id": 2
   },
   {
-   "independent_outlets": 2,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "The Indian Express"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-17T22:23+00:00",
-   "earliest": "2026-11-17T22:05+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia delivers strong results as investors weigh post-Huang future​",
-     "url": "https://www.straitstimes.com/business/nvidia-delivers-strong-results-as-investors-weigh-post-huang-future",
-     "via": "",
-     "published": "2026-11-17T22:23+00:00",
-     "summary": "With Huang gone, investors are looking for clues about Nvidia’s future."
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "Nvidia delivers strong results to investors, shares rise nearly ​4% in extended trading",
-     "url": "https://indianexpress.com/article/business/world-market/nvidia-strong-results-to-investors-shares-rise-extended-trading-10967524/",
-     "via": "",
-     "published": "2026-11-17T22:05+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "gCaptain"
+    "gCaptain",
+    "Al Arabiya",
+    "Reuters"
    ],
    "regions": [
     "Europe",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-11-17T20:54+00:00",
-   "earliest": "2026-11-17T20:14+00:00",
+   "latest": "2026-11-17T20:14+00:00",
+   "earliest": "2026-11-17T19:40+00:00",
    "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "US strikes targets in Qeshm Island after Iranian mines hit five ships in Hormuz",
-     "url": "https://www.euronews.com/2026/11/17/us-strikes-targets-in-qeshm-island-after-iranian-mines-hit-five-ships-in-hormuz",
-     "via": "",
-     "published": "2026-11-17T20:54+00:00",
-     "summary": "Iran says the US military carried out several attacks on Qeshm Island in southern Iran, while at least five ships were set on fire by mines in the Strait of Hormuz earlier in the day."
-    },
     {
      "outlet": "gCaptain",
      "region": "North America",
@@ -439,9 +391,317 @@
      "via": "",
      "published": "2026-11-17T20:14+00:00",
      "summary": "By Arsalan Shahla and Jen Judson (Bloomberg) — American warplanes hit an Iranian missile launch site on Qeshm Island in the Persian Gulf on Tuesday, a US military official said,..."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US military strikes Iranian missile launch site on Qeshm Island, US official tells AAE",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/17/us-military-strikes-iranian-missile-launch-site-on-qeshm-island-us-official-tells-aae",
+     "via": "",
+     "published": "2026-11-17T19:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US strikes Iranian missile launch site on Qeshm Island, US official says",
+     "url": "https://www.reuters.com/world/middle-east/us-strikes-iranian-missile-launch-site-qeshm-island-us-official-says-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T19:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Financial Times",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-17T16:01+00:00",
+   "earliest": "2026-11-17T02:20+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Jensen Huang's daughter helped steer Nvidia response to Megaspeed scrutiny, FT reports",
+     "url": "https://www.reuters.com/technology/jensen-huangs-daughter-helped-steer-nvidia-response-megaspeed-scrutiny-ft-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T16:01+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "How Jensen Huang’s family shaped Nvidia’s Megaspeed dealings",
+     "url": "https://www.ft.com/content/65ff066f-a81c-4d24-95da-73c2d7b83a27?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-17T15:33+00:00",
+     "summary": "Daughter and son-in-law come under scrutiny as board launches probe over company’s links to Megaspeed"
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Jensen Huang’s daughter, a close ally, remains in senior role at Nvidia",
+     "url": "https://www.straitstimes.com/business/jensen-huangs-daughter-a-close-ally-remains-in-senior-role-at-nvidia",
+     "via": "",
+     "published": "2026-11-17T02:20+00:00",
+     "summary": "Huang's children learnt from an early age to care about Nvidia."
     }
    ],
    "id": 4
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-18T02:25+00:00",
+   "earliest": "2026-11-17T17:31+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Perpetua eyes $83 million aerospace backing for tungsten",
+     "url": "https://mining.com.au/perpetua-eyes-83-million-aerospace-backing-for-tungsten/",
+     "via": "",
+     "published": "2026-11-18T02:25+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Perpetua eyes $55.5 million deal to unlock US tungsten supply",
+     "url": "https://www.mining.com/perpetua-eyes-55-5-million-deal-to-unlock-us-tungsten-supply/",
+     "via": "",
+     "published": "2026-11-17T17:31+00:00",
+     "summary": "Perpetua is exploring a funding and supply arrangement with a major aerospace and defence company to assess tungsten deposits in Idaho."
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Australian Financial Review",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-18T00:56+00:00",
+   "earliest": "2026-11-17T22:55+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Apple update sparks outage at internal, retail and iCloud operations",
+     "url": "https://www.afr.com/world/north-america/apple-update-sparks-outage-at-internal-retail-and-icloud-operations-20261118-p61f46?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-18T00:56+00:00",
+     "summary": "The disruptions are the latest in a string of similar incidents that have occurred recently in US companies and government agencies."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Apple works to restore services after outage caused by internal update",
+     "url": "https://www.reuters.com/business/retail-consumer/apple-works-restore-services-after-outage-caused-by-internal-update-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T22:55+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T00:35+00:00",
+   "earliest": "2026-11-17T22:28+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Nvidia does not intend to reinstate Huang despite calls",
+     "url": "https://www.abc.net.au/news/2026-11-18/ex-nvidia-ceo-jensen-huang-says-he-would-be-honoured-to-return/107397042",
+     "via": "",
+     "published": "2026-11-18T00:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
+     "url": "https://www.straitstimes.com/business/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+     "via": "",
+     "published": "2026-11-17T22:28+00:00",
+     "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "ABC News (Australia)"
+   ],
+   "regions": [
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T00:00+00:00",
+   "earliest": "2026-11-17T20:34+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australia sanctions Israeli settlers, organisations over West Bank expansion",
+     "url": "https://www.straitstimes.com/asia/australianz/australia-sanctions-israeli-settlers-organisations-over-west-bank-expansion",
+     "via": "",
+     "published": "2026-11-18T00:00+00:00",
+     "summary": "UN bodies and most countries deem the settlements illegal, a position Israel disputes."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Australia hits the godmother of Israel's settler movement with sanctions",
+     "url": "https://www.abc.net.au/news/2026-11-18/founder-of-israeli-settler-organisation-sanctioned/107397140",
+     "via": "",
+     "published": "2026-11-17T20:34+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-17T23:09+00:00",
+   "earliest": "2026-11-17T18:49+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Classified US national security communications network hit by outage, NSA says",
+     "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T23:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US Electronic Spy Agency Suffers Classified Network Outage",
+     "url": "https://www.livemint.com/news/us-news/us-electronic-spy-agency-suffers-classified-network-outage-11794941399379.html",
+     "via": "",
+     "published": "2026-11-17T18:49+00:00",
+     "summary": "The National Security Agency is suffering an outage of a classified computer network it uses for internal communications and other daily work functions, according to a US official and another person familiar with the matter."
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-17T21:28+00:00",
+   "earliest": "2026-11-17T18:03+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "UK sanctions Israeli settlement firms to protect two-state solution",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-17T21:28+00:00",
+     "summary": "The UK has imposed new sanctions on eight Israeli companies supporting illegal settlements in the occupied West Bank."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Britain sanctions Israeli settlement firms in push to protect two-state solution",
+     "url": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T18:03+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-17T20:57+00:00",
+   "earliest": "2026-11-17T17:53+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US Navy chief says Iran war has put ‘strain’ on maritime forces",
+     "url": "https://www.aljazeera.com/news/2026/11/17/us-navy-chief-says-iran-war-has-put-strain-on-maritime-forces?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-17T20:57+00:00",
+     "summary": "Lawmakers hound Hung Cao over expanding war, opaque leadership shake-ups, and low crew morale at confirmation hearing."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump’s pick for Navy secretary acknowledges the Iran war is straining military resources",
+     "url": "https://apnews.com/article/navy-secretary-senate-nomination-cao-trump-c8857280ee38c402a81d5e58987fad06",
+     "via": "",
+     "published": "2026-11-17T17:53+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -476,7 +736,42 @@
      "summary": "President Trump's trilateral summit with Chinese President Xi Jinping and Russian President Vladimir Putin has the makings of an unpredictable spectacle — and that's exactly what has U.S. allies anxious. Why it matters: Trump's stated goal for the first-ever summit between the nations' three leaders is to start a discussion on nuclear disarmament. But the fear is that he could go off script and ta"
     }
    ],
-   "id": 5
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "Oceania"
+   ],
+   "latest": "2026-11-17T15:26+00:00",
+   "earliest": "2026-11-17T13:45+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Trump, Quad leaders meet amid critical minerals supply concerns",
+     "url": "https://mining.com.au/trump-quad-leaders-meet-amid-critical-minerals-supply-concerns/",
+     "via": "",
+     "published": "2026-11-17T15:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Trump meets Quad leaders, says 4 nations agree on 'critical mineral deals'",
+     "url": "https://asia.nikkei.com/politics/international-relations/indo-pacific/trump-meets-quad-leaders-says-4-nations-agree-on-critical-mineral-deals",
+     "via": "",
+     "published": "2026-11-17T13:45+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -511,7 +806,7 @@
      "summary": "An Indian government Minister says the Tara Gas was attacked a second time forcing the crew to abandon ship"
     }
    ],
-   "id": 6
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -546,7 +841,77 @@
      "summary": "The committee will oversee Nvidia’s national security and global trade compliance programs."
     }
    ],
-   "id": 7
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "South China Morning Post",
+    "Associated Press"
+   ],
+   "regions": [
+    "China",
+    "North America"
+   ],
+   "latest": "2026-11-17T14:49+00:00",
+   "earliest": "2026-11-17T02:44+00:00",
+   "items": [
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "A trade deal, rare earths and a Quad revival: day 1 of Trump’s Asia trip",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374794/trade-deal-rare-earths-and-quad-revival-day-1-trumps-asia-trip",
+     "via": "",
+     "published": "2026-11-17T14:49+00:00",
+     "summary": "US President Donald Trump arrived in Manila on Tuesday to start a three-day Asian swing, seeking to deepen ties with the region just weeks after his Republican Party suffered heavy losses in the midterm elections. In the Philippine capital for the annual gathering of the Association of Southeast Asian Nations (Asean), Trump held talks with leaders of the Quad – the informal grouping of the United "
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
+     "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
+     "via": "",
+     "published": "2026-11-17T02:44+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-17T14:25+00:00",
+   "earliest": "2026-11-17T06:34+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Codelco’s $866 million Gabriela Mistral extension clears key hurdle",
+     "url": "https://www.mining.com/codelcos-866m-gabriela-mistral-extension-clears-key-hurdle/",
+     "via": "",
+     "published": "2026-11-17T14:25+00:00",
+     "summary": "Chile’s state miner has secured environmental approval for a plan to sustain copper output at the mine through 2055."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Chile's Codelco wins environmental approval to extend Gabriela Mistral mine life",
+     "url": "https://www.miningweekly.com/article/chiles-codelco-wins-environmental-approval-to-extend-gabriela-mistral-mine-life-2026-11-17",
+     "via": "",
+     "published": "2026-11-17T06:34+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -581,7 +946,577 @@
      "summary": "A Conakry court has jailed 22 former local officials from the gold-rich northeastern Siguiri region, as well as 200 people accused of illegal mining. It's part of a wider crackdown that sent thousands fleeing into Mali."
     }
    ],
-   "id": 8
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "gCaptain",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "gCaptain",
+    "Reuters",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-17T13:37+00:00",
+   "earliest": "2026-11-17T12:09+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "LPG Tanker Reported to Have Sunk Off Bulgaria’s Black Sea Coast",
+     "url": "https://gcaptain.com/lpg-tanker-reported-to-have-sunk-off-bulgarias-black-sea-coast/",
+     "via": "",
+     "published": "2026-11-17T13:37+00:00",
+     "summary": "A liquefied petroleum gas tanker sank off Bulgaria's Black Sea coast on Tuesday, Bulgaria's defense ministry said, a few dozen miles from where another ship went down after a drone attack a day earlier."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "LPG tanker reported to have sunk off Bulgaria's Black Sea coast",
+     "url": "https://www.reuters.com/world/lpg-tanker-sends-distress-signal-off-bulgarias-black-sea-coast-maritime-security-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T13:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Second tanker in two days sinks off Bulgaria's Black Sea coast, search operation under way",
+     "url": "https://www.euronews.com/2026/11/17/second-tanker-in-two-days-sinks-off-bulgarias-black-sea-coast-search-operation-under-way",
+     "via": "",
+     "published": "2026-11-17T12:09+00:00",
+     "summary": "The tanker had disappeared from radar shortly after midnight, and by 8:02 am (07:02 CET) local time the emergency buoy was activated, emitting a signal for a sunken ship."
+    }
+   ],
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-17T13:27+00:00",
+   "earliest": "2026-11-17T06:17+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Fresh public sector strike in France under way over pay as government struggles to pass budget",
+     "url": "https://www.euronews.com/2026/11/17/fresh-public-sector-strike-in-france-under-way-over-pay-as-government-struggles-to-pass-bu",
+     "via": "",
+     "published": "2026-11-17T13:27+00:00",
+     "summary": "Tuesday's demonstrations follow talks with Prime Minister Sebastien Lecornu, which left unions dissatisfied, as they continue to push for across the board pay rises."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "France braces for fresh public sector strike over pay",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/11/17/france-braces-for-fresh-public-sector-strike-over-pay",
+     "via": "",
+     "published": "2026-11-17T06:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-17T09:11+00:00",
+   "earliest": "2026-11-17T03:42+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "China taps US AI models to train home-grown rivals as chip curbs bite",
+     "url": "https://www.straitstimes.com/asia/east-asia/china-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite",
+     "via": "",
+     "published": "2026-11-17T09:11+00:00",
+     "summary": "The practice – known as distillation – has expanded into mainstream industrial use in China."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: China taps US AI models to train homegrown rivals as chip curbs bite",
+     "url": "https://www.reuters.com/world/china/china-taps-us-ai-models-train-homegrown-rivals-chip-curbs-bite-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T03:42+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-17T08:08+00:00",
+   "earliest": "2026-11-17T07:47+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Bahrain says it intercepted Iranian air attacks; IRGC says it targeted US radar at military base",
+     "url": "https://www.timesofisrael.com/liveblog_entry/bahrain-says-it-intercepted-iranian-air-attacks-irgc-says-it-targeted-us-radar-at-military-base/",
+     "via": "",
+     "published": "2026-11-17T08:08+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bahrain says it intercepts Iranian air attacks, IRGC says it targeted US radar",
+     "url": "https://www.reuters.com/world/middle-east/bahrain-says-it-intercepts-iranian-air-attacks-irgc-says-it-targets-us-radar-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T07:47+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Kyodo News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-17T08:00+00:00",
+   "earliest": "2026-11-17T03:54+00:00",
+   "items": [
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "TIMELINE: How Trump and Xi went from tariff war to trade truce",
+     "url": "https://english.kyodonews.net/articles/-/91668",
+     "via": "",
+     "published": "2026-11-17T08:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "How Trump and Xi went from tariff war to trade truce",
+     "url": "https://www.straitstimes.com/asia/how-trump-and-xi-went-from-tariff-war-to-trade-truce1",
+     "via": "",
+     "published": "2026-11-17T03:54+00:00",
+     "summary": "SHENZHEN, China, Nov 17 - Chinese leader Xi Jinping is due to meet US President Donald Trump on the sidelines of an APEC leaders' summit in China later this week for talks aimed at keeping a fragile trade truce that is set to expire in January on track."
+    }
+   ],
+   "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-11-17T05:51+00:00",
+   "earliest": "2026-11-16T21:48+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US moves to restrict China's remote access to AI chips after Nvidia row",
+     "url": "https://www.business-standard.com/world-news/us-china-ai-chips-exports-restrictions-jensen-huang-nvidia-row-access-126111700312_1.html",
+     "via": "",
+     "published": "2026-11-17T05:51+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "US moves to curb China's remote access to AI chips after Nvidia scandal",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
+     "via": "",
+     "published": "2026-11-16T21:48+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "The Straits Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-17T04:03+00:00",
+   "earliest": "2026-11-16T22:11+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Microsoft bug undetected in data centres since July triggered global outage",
+     "url": "https://www.business-standard.com/technology/tech-news/microsoft-bug-undetected-in-data-centres-since-july-triggered-global-outage-126111700158_1.html",
+     "via": "",
+     "published": "2026-11-17T04:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Microsoft bug undetected since July triggered worldwide outage",
+     "url": "https://www.straitstimes.com/business/microsoft-bug-undetected-since-july-triggered-worldwide-outage",
+     "via": "",
+     "published": "2026-11-16T22:11+00:00",
+     "summary": "The bug that crippled Microsoft productivity software last week had been lurking undetected in the company’s data centres since July."
+    }
+   ],
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-16T21:49+00:00",
+   "earliest": "2026-11-16T09:05+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Greenland Energy, 80 Mile merge in $97 million all share deal",
+     "url": "https://www.mining.com/greenland-energy-80-mile-merge-in-97-million-all-share-deal/",
+     "via": "",
+     "published": "2026-11-16T21:49+00:00",
+     "summary": "The combination will consolidate 100% ownership of the Jameson Land Basin licences within a single Nasdaq-listed vehicle."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Greenland Energy to acquire 80 Mile in all-share merger valued at £74m",
+     "url": "https://www.miningweekly.com/article/greenland-energy-to-acquire-80-mile-in-all-share-merger-valued-at-74m-2026-11-16",
+     "via": "",
+     "published": "2026-11-16T09:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "BNamericas",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-16T19:55+00:00",
+   "earliest": "2026-11-16T15:03+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Laguna Verde lithium project hit by delay as Chile’s comptroller flags issues with CleanTech contract",
+     "url": "https://www.bnamericas.com/en/news/laguna-verde-lithium-project-hit-by-delay-as-chiles-comptroller-flags-issues-with-cleantech-contract",
+     "via": "",
+     "published": "2026-11-16T19:55+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "CleanTech’s key Chile lithium contract faces final review",
+     "url": "https://www.mining.com/chile-approval-delay-puts-cleantech-lithium-project-on-hold/",
+     "via": "",
+     "published": "2026-11-16T15:03+00:00",
+     "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
+    }
+   ],
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-16T19:32+00:00",
+   "earliest": "2026-11-16T10:28+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war",
+     "url": "https://apnews.com/article/us-iran-war-aircraft-carrier-middle-east-9858fc82c61c7a1d159e7bba72afe99a",
+     "via": "",
+     "published": "2026-11-16T19:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections",
+     "url": "https://www.timesofisrael.com/third-us-aircraft-carrier-arrives-in-mideast-as-iran-rules-out-nuclear-inspections/",
+     "via": "",
+     "published": "2026-11-16T10:28+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-16T03:13+00:00",
+   "earliest": "2026-11-15T19:54+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Amid Nvidia controversy, Megaspeed says Alice Huang left firm in Aug 2025",
+     "url": "https://www.business-standard.com/world-news/amid-nvidia-controversy-megaspeed-says-alice-huang-left-firm-in-aug-2025-126111600072_1.html",
+     "via": "",
+     "published": "2026-11-16T03:13+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Megaspeed says Alice Huang left in 2025 as company conducts internal probe over Nvidia fallout",
+     "url": "https://apnews.com/article/singapore-megaspeed-alice-huang-nvidia-probe-e9e2e18169dce0b30a34f39715bf35ed",
+     "via": "",
+     "published": "2026-11-15T19:54+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-17T16:01+00:00",
+   "earliest": "2026-11-17T15:48+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Former Nvidia CEO to appear before Congress in December",
+     "url": "https://www.reuters.com/world/former-nvidia-ceo-huang-appear-before-us-congressional-committees-december-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T16:01+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Jensen Huang to face US Congress interviews on Nvidia’s sales to China on 1 December",
+     "url": "https://www.euronews.com/2026/11/17/jensen-huang-to-face-house-interviews-on-nvidias-sales-to-china-on-december-1",
+     "via": "",
+     "published": "2026-11-17T15:48+00:00",
+     "summary": "Huang is set to appear before the United States' House Foreign Affairs Committee, the Select Committee on the Chinese Communist Party and the House Intelligence Committee on 1 December."
+    }
+   ],
+   "id": 30
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "latest": "2026-11-17T11:50+00:00",
+   "earliest": "2026-11-16T05:53+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Cape Verde President Neves Wins Re-Election, Vows Inclusive Growth",
+     "url": "https://www.ecofinagency.com/news/1711-60894-cape-verde-president-neves-wins-re-election-vows-inclusive-growth",
+     "via": "",
+     "published": "2026-11-17T11:50+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Cape Verde's President Neves projected to win re-election with 64% of vote",
+     "url": "http://www.africanews.com/2026/11/16/cape-verdes-president-neves-projected-to-win-re-election-with-64-of-vote/",
+     "via": "",
+     "published": "2026-11-16T05:53+00:00",
+     "summary": "Preliminary results, based on 98% of the ballots counted, show that the incumbent president and candidate for re-election, José Maria Neves, has won this presidential election with nearly 64% of the vote, while his opponent, Joana Rosa, received 31.5%."
+    }
+   ],
+   "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Axios"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-17T09:19+00:00",
+   "earliest": "2026-11-16T23:41+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "1.5-hour-long system outage forces United Airlines to delay departing flights",
+     "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
+     "via": "",
+     "published": "2026-11-17T09:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "United Airlines resolves \"widespread system outage\" that delayed flights",
+     "url": "https://www.axios.com/2026/11/16/united-airlines-outage-faa",
+     "via": "",
+     "published": "2026-11-16T23:41+00:00",
+     "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
+    }
+   ],
+   "id": 32
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-16T09:07+00:00",
+   "earliest": "2026-11-16T07:40+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran rules out UN inspections of damaged nuclear sites until war ends",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/16/iran-rules-out-un-inspections-of-damaged-nuclear-sites-until-war-ends",
+     "via": "",
+     "published": "2026-11-16T09:07+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran says UN inspectors not allowed to visit damaged nuclear sites until war ends",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-un-inspectors-not-allowed-to-visit-damaged-nuclear-sites-until-war-ends/",
+     "via": "",
+     "published": "2026-11-16T07:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 33
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-15T09:10+00:00",
+   "earliest": "2026-11-15T05:44+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Senior Hamas commander killed in Israeli strike in Gaza",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/15/senior-hamas-commander-killed-in-israeli-strike-in-gaza",
+     "via": "",
+     "published": "2026-11-15T09:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "IDF confirms Hamas’s Rafah Brigade commander killed in overnight strike",
+     "url": "https://www.timesofisrael.com/liveblog_entry/idf-confirms-hamass-rafah-brigade-commander-killed-in-overnight-strike/",
+     "via": "",
+     "published": "2026-11-15T05:44+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 34
   }
  ]
 }
