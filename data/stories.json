@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-18T02:36:33+00:00",
+ "fetched_at": "2026-11-18T02:55:51+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 701,
+ "items_read": 694,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -57,7 +57,7 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "DigiTimes": {
@@ -99,7 +99,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
@@ -124,7 +124,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 19,
+   "items": 22,
    "errors": []
   },
   "Bloomberg": {
@@ -161,7 +161,7 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
@@ -191,7 +191,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,12 +208,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 37,
+   "items": 36,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "VnExpress International": {
@@ -223,7 +223,7 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "BNamericas": {
@@ -233,7 +233,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 9,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -368,9 +368,10 @@
    "id": 2
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
+    "Times of Israel",
     "gCaptain",
     "Al Arabiya",
     "Reuters"
@@ -380,9 +381,18 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-17T20:14+00:00",
+   "latest": "2026-11-17T21:04+00:00",
    "earliest": "2026-11-17T19:40+00:00",
    "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US strikes Iran’s Qeshm Island after Tehran attacks American radar site in Bahrain",
+     "url": "https://www.timesofisrael.com/us-strikes-irans-qeshm-island-after-tehran-attacks-american-radar-site-in-bahrain/",
+     "via": "",
+     "published": "2026-11-17T21:04+00:00",
+     "summary": ""
+    },
     {
      "outlet": "gCaptain",
      "region": "North America",
@@ -462,6 +472,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Business Standard",
+    "The Straits Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T02:29+00:00",
+   "earliest": "2026-11-17T22:28+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia board does not intend to reinstate Jensen Huang as CEO: Chairman",
+     "url": "https://www.business-standard.com/world-news/nvidia-board-does-not-intend-to-reinstate-jensen-huang-as-ceo-chairman-126111800077_1.html",
+     "via": "",
+     "published": "2026-11-18T02:29+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
+     "url": "https://www.straitstimes.com/business/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+     "via": "",
+     "published": "2026-11-17T22:28+00:00",
+     "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Mining.com.au",
     "MINING.COM"
    ],
@@ -491,7 +536,42 @@
      "summary": "Perpetua is exploring a funding and supply arrangement with a major aerospace and defence company to assess tungsten deposits in Idaho."
     }
    ],
-   "id": 5
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-18T02:21+00:00",
+   "earliest": "2026-11-17T14:26+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Druckenmiller buys gold miners, dumps industrial metals",
+     "url": "https://mining.com.au/druckenmiller-buys-gold-miners-dumps-industrial-metals/",
+     "via": "",
+     "published": "2026-11-18T02:21+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Druckenmiller exits copper, steel and chip stocks to buy gold miners",
+     "url": "https://www.mining.com/druckenmiller-exits-copper-steel-and-chip-stocks-to-buy-gold-miners/",
+     "via": "",
+     "published": "2026-11-17T14:26+00:00",
+     "summary": "Latest filing reveals a shift away from industrial metals and semiconductors as the billionaire refocuses his portfolio on gold."
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -526,42 +606,7 @@
      "summary": ""
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "ABC News (Australia)",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-18T00:35+00:00",
-   "earliest": "2026-11-17T22:28+00:00",
-   "items": [
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Nvidia does not intend to reinstate Huang despite calls",
-     "url": "https://www.abc.net.au/news/2026-11-18/ex-nvidia-ceo-jensen-huang-says-he-would-be-honoured-to-return/107397042",
-     "via": "",
-     "published": "2026-11-18T00:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
-     "url": "https://www.straitstimes.com/business/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo",
-     "via": "",
-     "published": "2026-11-17T22:28+00:00",
-     "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
-    }
-   ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -596,7 +641,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -631,7 +676,7 @@
      "summary": "The National Security Agency is suffering an outage of a classified computer network it uses for internal communications and other daily work functions, according to a US official and another person familiar with the matter."
     }
    ],
-   "id": 9
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -666,77 +711,7 @@
      "summary": ""
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-17T20:57+00:00",
-   "earliest": "2026-11-17T17:53+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "US Navy chief says Iran war has put ‘strain’ on maritime forces",
-     "url": "https://www.aljazeera.com/news/2026/11/17/us-navy-chief-says-iran-war-has-put-strain-on-maritime-forces?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-17T20:57+00:00",
-     "summary": "Lawmakers hound Hung Cao over expanding war, opaque leadership shake-ups, and low crew morale at confirmation hearing."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump’s pick for Navy secretary acknowledges the Iran war is straining military resources",
-     "url": "https://apnews.com/article/navy-secretary-senate-nomination-cao-trump-c8857280ee38c402a81d5e58987fad06",
-     "via": "",
-     "published": "2026-11-17T17:53+00:00",
-     "summary": ""
-    }
-   ],
    "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Axios"
-   ],
-   "regions": [
-    "China",
-    "North America"
-   ],
-   "latest": "2026-11-17T19:49+00:00",
-   "earliest": "2026-11-17T10:10+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Shenzhen summit of Xi, Trump and Putin was Brazil’s Lula’s idea, Carney claims",
-     "url": "https://www.scmp.com/news/us/diplomacy/article/3374801/shenzhen-summit-xi-trump-and-putin-was-brazils-lulas-idea-carney-claims",
-     "via": "",
-     "published": "2026-11-17T19:49+00:00",
-     "summary": "Brazilian President Luiz Inacio Lula da Silva came up with the idea for the meeting between US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin, Canadian Prime Minister Mark Carney said on Monday, days before the three leaders were due to meet in Shenzhen. “He told me yesterday that he had encouraged this meeting to help bring about an end to the war in Ukr"
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "U.S. allies on edge as Trump heads to summit with Xi and Putin",
-     "url": "https://www.axios.com/2026/11/17/trump-xi-putin-summit-europe-worried",
-     "via": "",
-     "published": "2026-11-17T10:10+00:00",
-     "summary": "President Trump's trilateral summit with Chinese President Xi Jinping and Russian President Vladimir Putin has the makings of an unpredictable spectacle — and that's exactly what has U.S. allies anxious. Why it matters: Trump's stated goal for the first-ever summit between the nations' three leaders is to start a discussion on nuclear disarmament. But the fear is that he could go off script and ta"
-    }
-   ],
-   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -771,7 +746,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -806,7 +781,7 @@
      "summary": "An Indian government Minister says the Tara Gas was attacked a second time forcing the crew to abandon ship"
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -841,7 +816,7 @@
      "summary": "The committee will oversee Nvidia’s national security and global trade compliance programs."
     }
    ],
-   "id": 15
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -855,7 +830,7 @@
     "North America"
    ],
    "latest": "2026-11-17T14:49+00:00",
-   "earliest": "2026-11-17T02:44+00:00",
+   "earliest": "2026-11-16T06:45+00:00",
    "items": [
     {
      "outlet": "South China Morning Post",
@@ -872,11 +847,11 @@
      "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
      "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
      "via": "",
-     "published": "2026-11-17T02:44+00:00",
+     "published": "2026-11-16T06:45+00:00",
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -911,7 +886,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -946,7 +921,7 @@
      "summary": "A Conakry court has jailed 22 former local officials from the gold-rich northeastern Siguiri region, as well as 200 people accused of illegal mining. It's part of a wider crackdown that sent thousands fleeing into Mali."
     }
    ],
-   "id": 18
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -996,7 +971,7 @@
      "summary": "The tanker had disappeared from radar shortly after midnight, and by 8:02 am (07:02 CET) local time the emergency buoy was activated, emitting a signal for a sunken ship."
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1031,7 +1006,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1066,7 +1041,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1101,7 +1076,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1136,7 +1111,7 @@
      "summary": "SHENZHEN, China, Nov 17 - Chinese leader Xi Jinping is due to meet US President Donald Trump on the sidelines of an APEC leaders' summit in China later this week for talks aimed at keeping a fragile trade truce that is set to expire in January on track."
     }
    ],
-   "id": 23
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1171,7 +1146,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1206,7 +1181,7 @@
      "summary": "The bug that crippled Microsoft productivity software last week had been lurking undetected in the company’s data centres since July."
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1241,7 +1216,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1276,7 +1251,7 @@
      "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1311,7 +1286,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1346,7 +1321,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1380,7 +1355,7 @@
      "summary": "Huang is set to appear before the United States' House Foreign Affairs Committee, the Select Committee on the Chinese Communist Party and the House Intelligence Committee on 1 December."
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1414,7 +1389,7 @@
      "summary": "Preliminary results, based on 98% of the ballots counted, show that the incumbent president and candidate for re-election, José Maria Neves, has won this presidential election with nearly 64% of the vote, while his opponent, Joana Rosa, received 31.5%."
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1448,7 +1423,7 @@
      "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
     }
    ],
-   "id": 32
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1482,7 +1457,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1516,7 +1491,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 33
   }
  ]
 }
