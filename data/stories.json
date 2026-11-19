@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-18T21:36:49+00:00",
+ "fetched_at": "2026-11-19T01:30:01+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 737,
+ "outlets_read": 41,
+ "items_read": 729,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,59 +17,59 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 33,
+   "items": 32,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 40,
+   "items": 43,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 9,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Acaixinglobal.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 31,
+   "items": 33,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 12,
+   "items": 0,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 24,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 36,
+   "items": 33,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 0,
-   "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 622, column 140"
-   ]
+   "items": 22,
+   "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 41,
+   "items": 36,
    "errors": []
   },
   "Financial Times": {
@@ -89,7 +89,7 @@
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Seatrade Maritime": {
@@ -99,12 +99,12 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 33,
+   "items": 35,
    "errors": []
   },
   "Times of Israel": {
@@ -129,24 +129,25 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 17,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 11,
+   "items": 0,
    "errors": [
-    "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
+    "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out",
+    "https://news.google.com/rss/search?q=site%3Acbc.ca%20when%3A3d&hl=en-US&gl=US&ce: HTTPError: HTTP Error 429: Too Many Requests"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 23,
+   "items": 25,
    "errors": []
   },
   "gCaptain": {
@@ -156,7 +157,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 17,
    "errors": []
   },
   "Australian Financial Review": {
@@ -166,12 +167,12 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 17,
+   "items": 21,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "Interfax": {
@@ -186,17 +187,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 26,
+   "items": 25,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
@@ -208,12 +209,12 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 35,
+   "items": 34,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "VnExpress International": {
@@ -228,12 +229,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 33,
+   "items": 37,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 1,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -247,133 +248,6 @@
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Hellenic Shipping News",
-    "Reuters",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-18T20:09+00:00",
-   "earliest": "2026-11-18T12:53+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Federal Reserve Governor Christopher Waller presses for half-point December rate hike as inflation persists",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/federal-reserve-governor-christopher-waller-presses-for-half-point-december-rate-hike-as-inflation-persists/articleshow/135971152.cms",
-     "via": "",
-     "published": "2026-11-18T20:09+00:00",
-     "summary": "Federal Reserve Governor Christopher Waller has suggested a 50 basis point interest rate increase in December. He believes this aggressive action is necessary to tackle persistent inflation that exceeds the Fed's target. Other Fed officials are divided on the pace of these increases, with some advocating a cautious approach. Waller argues that a clear signal is essential for markets to respond app"
-    },
-    {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Fed’s Waller warns inflation is worsening, floats 50-basis-point December hike",
-     "url": "https://www.hellenicshippingnews.com/feds-waller-warns-inflation-is-worsening-floats-50-basis-point-december-hike/",
-     "via": "",
-     "published": "2026-11-18T18:00+00:00",
-     "summary": "Federal Reserve Governor Christopher Waller called for more aggressive action to contain inflation on Wednesday, warning that price pressures are proving more persistent than he expected and are spreading across the economy. Speaking in a live CNBC interview, Waller said the Federal Open Market Committee (FOMC) should consider raising its benchmark interest rate by 50 ..."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Waller says on CNBC the Fed needs to get more aggressive in inflation response",
-     "url": "https://www.reuters.com/markets/us/waller-says-cnbc-fed-needs-get-more-aggressive-inflation-response-2026-11-18/",
-     "via": "",
-     "published": "2026-11-18T13:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Waller Says Fed Should Consider Half-Point Rate Hike",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-s-waller-says-fed-should-consider-half-point-rate-hike",
-     "via": "",
-     "published": "2026-11-18T12:53+00:00",
-     "summary": "Federal Reserve Governor Christopher Waller said inflation remains headed in the wrong direction, urging the central bank to consider a larger, half-percentage-point rate hike at its December meeting."
-    }
-   ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [
-    [
-     "gCaptain",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Seatrade Maritime",
-    "Hellenic Shipping News",
-    "gCaptain",
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-18T12:31+00:00",
-   "earliest": "2026-11-18T07:03+00:00",
-   "items": [
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "One missing, 11 injured in attack on ADNOC tanker in Hormuz",
-     "url": "https://www.seatrade-maritime.com/security/one-missing-11-injured-in-attack-on-adnoc-tanker-in-hormuz",
-     "via": "",
-     "published": "2026-11-18T12:31+00:00",
-     "summary": "An ADNOC product tanker Navig8 Messi has been attacked for the second time in four months in the Strait of Hormuz"
-    },
-    {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "ADNOC L&S Confirms Attack on One Of Its Vessels",
-     "url": "https://www.hellenicshippingnews.com/adnoc-ls-confirms-attack-on-one-of-its-vessels/",
-     "via": "",
-     "published": "2026-11-18T11:00+00:00",
-     "summary": "ADNOC L&S can confirm that one of its vessels was attacked while transiting the Strait of Hormuz on the evening of 17 November 2026. One crew member remains unaccounted for, with search and rescue operations ongoing in coordination with the relevant authorities. All other crew members have been safely evacuated from the vessel. Eleven sustained ..."
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "UAE’s ADNOC L&S Says One Crew Member Missing After Attack on Its Vessel in Hormuz",
-     "url": "https://gcaptain.com/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-on-its-vessel-in-hormuz/",
-     "via": "",
-     "published": "2026-11-18T09:04+00:00",
-     "summary": "The United Arab Emirates' ADNOC L&S said on Wednesday that one crew member was missing and 11 injured after one of its vessels was attacked in the Strait of Hormuz on Tuesday."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz",
-     "url": "https://www.reuters.com/world/middle-east/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-its-vessel-hormuz-2026-11-18/",
-     "via": "",
-     "published": "2026-11-18T07:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "One missing, 11 injured after ADNOC vessel attacked in Strait of Hormuz",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/one-missing-11-injured-after-adnoc-vessel-attacked-in-strait-of-hormuz",
-     "via": "",
-     "published": "2026-11-18T07:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
     "Reuters",
     "The Hindu",
     "Livemint / Economic Times",
@@ -383,7 +257,7 @@
     "Europe",
     "South Asia"
    ],
-   "latest": "2026-11-18T18:32+00:00",
+   "latest": "2026-11-18T20:58+00:00",
    "earliest": "2026-11-18T12:29+00:00",
    "items": [
     {
@@ -392,7 +266,7 @@
      "title": "EXCLUSIVE: India to charge bulk Scotch imports 162.5% duty and tax amid UK pact standoff",
      "url": "https://www.reuters.com/world/india/india-charge-bulk-scotch-imports-1625-duty-tax-amid-uk-pact-standoff-2026-11-18/",
      "via": "",
-     "published": "2026-11-18T18:32+00:00",
+     "published": "2026-11-18T20:58+00:00",
      "summary": ""
     },
     {
@@ -423,68 +297,7 @@
      "summary": ""
     }
    ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "Al Arabiya",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Al Jazeera",
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-18T19:11+00:00",
-   "earliest": "2026-11-18T12:36+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse",
-     "url": "https://www.livemint.com/news/world/trumps-board-of-peace-warns-gaza-ceasefire-could-collapse-11795029096607.html",
-     "via": "",
-     "published": "2026-11-18T19:11+00:00",
-     "summary": "The Board of Peace set up by President Donald Trump warned his fragile Gaza peace deal could collapse if Israel and Hamas don’t recommit to pledges made during negotiations."
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "What has happened to the $18bn pledged to Trump’s Board of Peace for Gaza?",
-     "url": "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-18T17:45+00:00",
-     "summary": "Billions have been pledged for Gaza since a 2025 'ceasefire', but rebuilding hasn’t begun and Israeli attacks continue."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Trump’s Board of Peace faults Israel and Hamas for failure to end Gaza war",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/trump-s-board-of-peace-faults-israel-and-hamas-for-failure-to-end-gaza-war",
-     "via": "",
-     "published": "2026-11-18T12:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump's Board of Peace faults Israel and Hamas for failure to end Gaza war",
-     "url": "https://www.reuters.com/world/middle-east/trumps-board-peace-faults-israel-hamas-failure-end-gaza-war-2026-11-18/",
-     "via": "",
-     "published": "2026-11-18T12:36+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 4
+   "id": 1
   },
   {
    "independent_outlets": 3,
@@ -530,53 +343,68 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 2
   },
   {
    "independent_outlets": 3,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "gCaptain",
+     "Reuters"
+    ]
+   ],
    "outlets": [
-    "Livemint / Economic Times",
-    "Africanews",
-    "Reuters"
+    "Seatrade Maritime",
+    "gCaptain",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
-    "Africa",
     "Europe",
-    "South Asia"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-18T17:52+00:00",
-   "earliest": "2026-11-18T03:10+00:00",
+   "latest": "2026-11-18T12:31+00:00",
+   "earliest": "2026-11-18T07:03+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Gold plunges 3% to one-year low as hawkish Fed lifts dollar, yields",
-     "url": "https://economictimes.indiatimes.com/markets/commodities/gold-plunges-3-to-one-year-low-as-hawkish-fed-lifts-dollar-yields/articleshow/135968930.cms",
+     "outlet": "Seatrade Maritime",
+     "region": "Europe",
+     "title": "One missing, 11 injured in attack on ADNOC tanker in Hormuz",
+     "url": "https://www.seatrade-maritime.com/security/one-missing-11-injured-in-attack-on-adnoc-tanker-in-hormuz",
      "via": "",
-     "published": "2026-11-18T17:52+00:00",
-     "summary": "Gold fell below $3,800 an ounce for the first time since September 2025 as expectations of further Federal Reserve rate hikes strengthened the dollar and Treasury yields. Spot gold dropped 3% to $3,736.06, while silver, platinum and palladium also declined sharply."
+     "published": "2026-11-18T12:31+00:00",
+     "summary": "An ADNOC product tanker Navig8 Messi has been attacked for the second time in four months in the Strait of Hormuz"
     },
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Gold drops to over one-year low, raising concerns for African producers",
-     "url": "http://www.africanews.com/2026/11/18/gold-drops-to-over-one-year-low-raising-concerns-for-african-producers/",
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "UAE’s ADNOC L&S Says One Crew Member Missing After Attack on Its Vessel in Hormuz",
+     "url": "https://gcaptain.com/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-on-its-vessel-in-hormuz/",
      "via": "",
-     "published": "2026-11-18T16:38+00:00",
-     "summary": "The price of gold fell below $3,800 per ounce on Wednesday, reaching its lowest level in more than a year. This drop could have concrete impacts for African producers like Mali, Burkina Faso, Ghana or Tanzania."
+     "published": "2026-11-18T09:04+00:00",
+     "summary": "The United Arab Emirates' ADNOC L&S said on Wednesday that one crew member was missing and 11 injured after one of its vessels was attacked in the Strait of Hormuz on Tuesday."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric",
-     "url": "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/",
+     "title": "UAE's ADNOC L&S says one crew member missing after attack on its vessel in Hormuz",
+     "url": "https://www.reuters.com/world/middle-east/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-its-vessel-hormuz-2026-11-18/",
      "via": "",
-     "published": "2026-11-18T03:10+00:00",
+     "published": "2026-11-18T07:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "One missing, 11 injured after ADNOC vessel attacked in Strait of Hormuz",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/one-missing-11-injured-after-adnoc-vessel-attacked-in-strait-of-hormuz",
+     "via": "",
+     "published": "2026-11-18T07:03+00:00",
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -622,52 +450,98 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Euronews",
-    "Mining Weekly"
+    "Business Standard",
+    "Axios",
+    "Reuters"
    ],
    "regions": [
-    "Africa",
-    "Europe"
+    "Europe",
+    "North America",
+    "South Asia"
    ],
-   "latest": "2026-11-18T16:59+00:00",
-   "earliest": "2026-11-16T06:49+00:00",
+   "latest": "2026-11-18T05:34+00:00",
+   "earliest": "2026-11-17T21:28+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "OPEC speaks up for fossil fuels at COP31 climate talks",
-     "url": "https://www.reuters.com/business/energy/opec-speaks-up-fossil-fuels-cop31-climate-talks-2026-11-18/",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Why US SEC is probing Nvidia disclosures amid turmoil after Huang's exit",
+     "url": "https://www.business-standard.com/world-news/nvidia-sec-investigation-disclosures-jensen-huang-resignation-126111800277_1.html",
      "via": "",
-     "published": "2026-11-18T16:59+00:00",
+     "published": "2026-11-18T05:34+00:00",
      "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Fossil fuel exit becomes COP31 flashpoint – but four more European countries are taking the leap",
-     "url": "https://www.euronews.com/2026/11/18/cop31-is-once-again-shying-away-from-a-fossil-fuel-exit-but-one-european-country-is-taking",
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Nvidia posts strong earnings amid Jensen Huang exit, reported SEC probe",
+     "url": "https://www.axios.com/2026/11/17/nvidia-earnings-jensen-huang-colette-kress",
      "via": "",
-     "published": "2026-11-18T13:02+00:00",
-     "summary": "Four more EU countries have joined Finland, France, Germany and the Netherlands in publishing national roadmaps for the transition away from fossil fuels."
+     "published": "2026-11-17T22:17+00:00",
+     "summary": "Nvidia posted a stronger-than-expected third quarter and a bullish outlook in its first earnings report after Jensen Huang was ousted as CEO in a scandal that has reportedly spawned an SEC investigation. On the company's earnings call, newly appointed chairman Harvey Jones said the board \"does not intend to reinstate Jensen as CEO,\" despite a movement among some employees and investors to bring hi"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia facing SEC probe after Huang's resignation, WSJ reports",
+     "url": "https://www.reuters.com/technology/nvidia-facing-sec-probe-after-huangs-resignation-wsj-reports-2026-11-17/",
+     "via": "",
+     "published": "2026-11-17T21:28+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining Weekly",
+    "Ecofin Agency"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-18T22:17+00:00",
+   "earliest": "2026-11-18T04:47+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "AngloGold outlines $2.5B Quebradona copper plan",
+     "url": "https://www.mining.com/anglogold-outlines-2-5b-quebradona-copper-plan/",
+     "via": "",
+     "published": "2026-11-18T22:17+00:00",
+     "summary": "The underground project, about 60 km southwest of Medellín, could produce about 80,000 tonnes of copper a year."
     },
     {
      "outlet": "Mining Weekly",
      "region": "Africa",
-     "title": "UN climate chief urges speed as COP31 confronts fossil fuel divide",
-     "url": "https://www.miningweekly.com/article/un-climate-chief-urges-speed-as-cop31-confronts-fossil-fuel-divide-2026-11-16",
+     "title": "AngloGold Ashanti to invest about $2.5bn in Colombia copper mine",
+     "url": "https://www.miningweekly.com/article/anglogold-ashanti-to-invest-about-25bn-in-colombia-copper-mine-2026-11-18",
      "via": "",
-     "published": "2026-11-16T06:49+00:00",
+     "published": "2026-11-18T06:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "AngloGold Ashanti Considers $2.5 Billion Copper Investment in Colombia While Africa Remains Its Gold Stronghold",
+     "url": "https://www.ecofinagency.com/news-industry/1811-60907-anglogold-ashanti-considers-2-5-billion-copper-investment-in-colombia-while-africa-remains-its-gold-stronghold",
+     "via": "",
+     "published": "2026-11-18T04:47+00:00",
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -712,7 +586,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -763,7 +637,268 @@
      "summary": ""
     }
    ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Al Arabiya",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-11-18T19:11+00:00",
+   "earliest": "2026-11-18T12:36+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse",
+     "url": "https://www.livemint.com/news/world/trumps-board-of-peace-warns-gaza-ceasefire-could-collapse-11795029096607.html",
+     "via": "",
+     "published": "2026-11-18T19:11+00:00",
+     "summary": "The Board of Peace set up by President Donald Trump warned his fragile Gaza peace deal could collapse if Israel and Hamas don’t recommit to pledges made during negotiations."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump’s Board of Peace faults Israel and Hamas for failure to end Gaza war",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/trump-s-board-of-peace-faults-israel-and-hamas-for-failure-to-end-gaza-war",
+     "via": "",
+     "published": "2026-11-18T12:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump's Board of Peace faults Israel and Hamas for failure to end Gaza war",
+     "url": "https://www.reuters.com/world/middle-east/trumps-board-peace-faults-israel-hamas-failure-end-gaza-war-2026-11-18/",
+     "via": "",
+     "published": "2026-11-18T12:36+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Australian Financial Review",
+    "Financial Times"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-19T00:15+00:00",
+   "earliest": "2026-11-18T20:40+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Pay rises, phone torches and Tom Petty at Nvidia staff morale meeting",
+     "url": "https://www.afr.com/world/north-america/pay-rises-phone-torches-and-tom-petty-at-nvidia-staff-morale-meeting-20261119-p61fhu?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-19T00:15+00:00",
+     "summary": "Interim chief executive Colette Kress addressed a closed “all hands” meeting as departed founder Jensen Huang manoeuvres for a return."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Nvidia accelerates pay rises as interim CEO seeks to lift staff morale",
+     "url": "https://www.ft.com/content/9ee78a67-fcab-4e43-bee7-09c9244e76b8?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-18T20:40+00:00",
+     "summary": "Colette Kress addresses ‘all-hands’ meeting as departed founder Jensen Huang manoeuvres for a return"
+    }
+   ],
    "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T23:48+00:00",
+   "earliest": "2026-11-17T23:56+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "US tightens AI chip controls, freezing ByteDance's US$480 million loan",
+     "url": "https://www.digitimes.com/news/a20261118PD251/loan-bytedance-ai-chip-chips-financing.html",
+     "via": "",
+     "published": "2026-11-18T23:48+00:00",
+     "summary": "Banks have frozen a US$480 million loan intended to purchase advanced Nvidia chips for remote use by ByteDance, the parent company of TikTok, after the US tightened AI chip export controls on November 16."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Banks pause US$480 million chip loan tied to China’s ByteDance",
+     "url": "https://www.straitstimes.com/business/banks-pause-us480-million-chip-loan-tied-to-chinas-bytedance",
+     "via": "",
+     "published": "2026-11-17T23:56+00:00",
+     "summary": "The pause comes after US imposed curbs on access to its AI chips."
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Bloomberg",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-18T23:24+00:00",
+   "earliest": "2026-11-18T03:10+00:00",
+   "items": [
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
+     "via": "",
+     "published": "2026-11-18T23:24+00:00",
+     "summary": "Gold climbed from a 14-month low as dip buyers helped cushion growing expectations that the Federal Reserve will hike interest rates."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric",
+     "url": "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/",
+     "via": "",
+     "published": "2026-11-18T03:10+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-18T23:03+00:00",
+   "earliest": "2026-11-18T08:33+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Iron ore price may need to fall further before floor emerges, analysts say",
+     "url": "https://mining.com.au/iron-ore-price-may-need-to-fall-further-before-floor-emerges-analysts-say/",
+     "via": "",
+     "published": "2026-11-18T23:03+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Deeper negative copper ore refining charges needed to balance market, Mercuria analyst says",
+     "url": "https://www.miningweekly.com/article/deeper-negative-copper-ore-refining-charges-needed-to-balance-market-mercuria-analyst-says-2026-11-18",
+     "via": "",
+     "published": "2026-11-18T08:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T22:29+00:00",
+   "earliest": "2026-11-18T17:41+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "5.7-magnitude quake strikes Japan’s Kumamoto prefecture, no tsunami warning issued",
+     "url": "https://www.straitstimes.com/asia/east-asia/5-7-magnitude-quake-strikes-japans-kumamoto-prefecture-no-tsunami-warning-issued",
+     "via": "",
+     "published": "2026-11-18T22:29+00:00",
+     "summary": "The 2.22am temblor originated in the Amakusa-Ashikita area of the prefecture at a depth of about 10km."
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "M5.7 quake strikes Japan's Kumamoto Prefecture, no tsunami warning issued",
+     "url": "https://english.kyodonews.net/articles/-/91898",
+     "via": "",
+     "published": "2026-11-18T17:41+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Ecofin Agency"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-18T22:22+00:00",
+   "earliest": "2026-11-17T06:24+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "UAE top destination for smuggled African gold despite tighter measures, NGO says",
+     "url": "https://mining.com.au/uae-top-destination-for-smuggled-african-gold-despite-tighter-measures-ngo-says/",
+     "via": "",
+     "published": "2026-11-18T22:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "UAE Imported 453 Tonnes of Smuggled African Gold in 2024, SWISSAID Says",
+     "url": "https://www.ecofinagency.com/news/1711-60871-uae-imported-453-tonnes-of-smuggled-african-gold-in-2024-swissaid-says",
+     "via": "",
+     "published": "2026-11-17T06:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -798,112 +933,127 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Associated Press"
+    "The Hindu",
+    "Kyodo News"
    ],
    "regions": [
-    "Middle East",
-    "North America"
+    "East Asia",
+    "South Asia"
    ],
-   "latest": "2026-11-18T16:47+00:00",
-   "earliest": "2026-11-18T09:56+00:00",
+   "latest": "2026-11-18T16:16+00:00",
+   "earliest": "2026-11-18T05:23+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
-     "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Tata Steel plans hydrogen production using steel plant off-gases",
+     "url": "https://www.thehindu.com/business/tata-steel-plans-hydrogen-production-using-steel-plant-off-gases/article71716642.ece",
      "via": "",
-     "published": "2026-11-18T16:47+00:00",
-     "summary": "Iranian attacks on the Gulf countries draw condemnation from across the region."
+     "published": "2026-11-18T16:16+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Iran widens Gulf attacks by targeting a US air base in Kuwait and sites in Bahrain",
-     "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94",
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "Utility Global and Tata Steel Plan to Deploy Utility's First Industrial H2Gen® Project in India",
+     "url": "https://english.kyodonews.net/articles/-/91812",
      "via": "",
-     "published": "2026-11-18T09:56+00:00",
+     "published": "2026-11-18T05:23+00:00",
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 17
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Al Arabiya",
+     "Reuters"
+    ]
+   ],
    "outlets": [
+    "Times of Israel",
     "Al Arabiya",
-    "gCaptain"
+    "Reuters"
    ],
    "regions": [
-    "Middle East",
-    "North America"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-11-18T15:35+00:00",
-   "earliest": "2026-11-17T20:14+00:00",
+   "latest": "2026-11-18T15:53+00:00",
+   "earliest": "2026-11-18T15:46+00:00",
    "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Mossad chief urged renewed US-Israeli strikes on Iran during Washington visit — sources",
+     "url": "https://www.timesofisrael.com/liveblog_entry/mossad-chief-urged-renewed-us-israeli-strikes-on-iran-during-washington-visit-sources/",
+     "via": "",
+     "published": "2026-11-18T15:53+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "US strikes IRGC missile site on Qeshm Island in ‘self-defense’",
-     "url": "https://english.alarabiya.net/webtv/programs/w-news/2026/11/18/us-strikes-irgc-missile-site-on-qeshm-island-in-selfdefense-",
+     "title": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/israeli-spy-chief-lobbied-for-joint-iran-strikes-on-us-visit-sources-say",
      "via": "",
-     "published": "2026-11-18T15:35+00:00",
+     "published": "2026-11-18T15:49+00:00",
      "summary": ""
     },
     {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz",
-     "url": "https://gcaptain.com/u-s-military-strikes-iranian-missile-site-near-strait-of-hormuz/",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say",
+     "url": "https://www.reuters.com/world/middle-east/israeli-spy-chief-lobbied-joint-iran-strikes-us-visit-sources-say-2026-11-18/",
      "via": "",
-     "published": "2026-11-17T20:14+00:00",
-     "summary": "By Arsalan Shahla and Jen Judson (Bloomberg) — American warplanes hit an Iranian missile launch site on Qeshm Island in the Persian Gulf on Tuesday, a US military official said,..."
+     "published": "2026-11-18T15:46+00:00",
+     "summary": ""
     }
    ],
-   "id": 13
+   "id": 18
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
-    "Africanews"
+    "Euronews",
+    "South China Morning Post"
    ],
    "regions": [
-    "Africa",
-    "East Asia"
+    "China",
+    "Europe"
    ],
-   "latest": "2026-11-18T11:41+00:00",
-   "earliest": "2026-11-18T08:16+00:00",
+   "latest": "2026-11-18T13:25+00:00",
+   "earliest": "2026-11-17T10:54+00:00",
    "items": [
     {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Thousands demonstrate in Haiti’s capital to praise Bukele",
-     "url": "https://www.koreaherald.com/article/10941169",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Canada and China expand tariff relief on pork, seafood and metals amid US trade tensions",
+     "url": "https://www.euronews.com/2026/11/18/canada-and-china-expand-tariff-relief-on-pork-seafood-and-metals-amid-us-trade-tensions",
      "via": "",
-     "published": "2026-11-18T11:41+00:00",
-     "summary": "PORT-AU-PRINCE, Haiti (AP) — Thousands of people poured into the streets of Haiti’s capital and beyond on Tuesday to praise El Salvador’s president, Nayib Bukele, and his troops as they fight gangs in the Caribbean nation. Some clutched signs begging Bukele to not give up. “Keep fighting … because otherwise, they’ll end up killing us all,” one sign read. “Give them the drones and the dogs!” others"
+     "published": "2026-11-18T13:25+00:00",
+     "summary": "US tariffs have put pressure on Canadian exporters and pushed Ottawa to seek new markets. Canada is rebuilding trade ties with China while continuing talks with Washington to protect its car industry and other businesses that depend on the US market."
     },
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Haitians demonstrate in support of El Salvador's Bukele and anti-gang troops",
-     "url": "http://www.africanews.com/2026/11/18/haitians-demonstrate-in-support-of-el-salvadors-bukele-and-anti-gang-troops/",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "China and Canada agree on fresh tariff relief as Xi and Carney continue thaw",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374769/china-and-canada-agree-fresh-tariff-reliefs-thaw-continues-xi-carney-meeting",
      "via": "",
-     "published": "2026-11-18T08:16+00:00",
-     "summary": "An outpouring of gratitude on the streets of Haiti’s capital Port-au-Prince on Tuesday. Thousands of people came out to thank El Salvador’s president Nayib Bukele and the troops he sent to fight gangs in the troubled Caribbean nation."
+     "published": "2026-11-17T10:54+00:00",
+     "summary": "Chinese President Xi Jinping and Canadian Prime Minister Mark Carney have agreed on broader trade concessions as Ottawa seeks to reset relations with Beijing amid growing trade tensions with the United States. The two leaders met ahead of the Asia-Pacific Economic Cooperation leaders’ meeting in Shenzhen on Tuesday, where they discussed ways of managing their differences. Xi, who was meeting the C"
     }
    ],
-   "id": 14
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -938,42 +1088,7 @@
      "summary": ""
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-18T09:23+00:00",
-   "earliest": "2026-11-18T04:22+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Guinea jails more than 220 people in deadly crackdown on illegal gold mining",
-     "url": "http://www.africanews.com/2026/11/17/guinea-jails-more-than-220-people-in-deadly-crackdown-on-illegal-gold-mining/",
-     "via": "",
-     "published": "2026-11-18T09:23+00:00",
-     "summary": "Guinea is stepping up its fight against illegal gold mining, with more than 220 people sentenced to prison in a major crackdown that is triggering violence and mass displacement."
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Guinea’s gold crackdown triggers regional exodus and export halt",
-     "url": "https://mining.com.au/guineas-gold-crackdown-triggers-regional-exodus-and-export-halt/",
-     "via": "",
-     "published": "2026-11-18T04:22+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1008,42 +1123,7 @@
      "summary": ""
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-18T07:53+00:00",
-   "earliest": "2026-11-18T01:46+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Nvidia rejects Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://www.timesofisrael.com/nvidia-rejects-huangs-offer-to-return-as-ceo-despite-pressure-from-silicon-valley/",
-     "via": "",
-     "published": "2026-11-18T07:53+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-china-national-security-chips-3026bcbe04ab57b844884382e583422a",
-     "via": "",
-     "published": "2026-11-18T01:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1078,42 +1158,7 @@
      "summary": ""
     }
    ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-18T06:46+00:00",
-   "earliest": "2026-11-16T22:38+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "AngloGold Ashanti to invest about $2.5bn in Colombia copper mine",
-     "url": "https://www.miningweekly.com/article/anglogold-ashanti-to-invest-about-25bn-in-colombia-copper-mine-2026-11-18",
-     "via": "",
-     "published": "2026-11-18T06:46+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Perenti inks $670 million contract with AngloGold Ashanti at Geita gold mine",
-     "url": "https://www.mining.com/perenti-inks-670-million-contract-with-anglogold-ashanti-at-geita-gold-mine/",
-     "via": "",
-     "published": "2026-11-16T22:38+00:00",
-     "summary": "The deal has a 60-month term until October 31 2031."
-    }
-   ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1148,7 +1193,7 @@
      "summary": "Korea Zinc is establishing a joint venture with US-based solar panel recycler SolarCycle to expand its resource recycling operations in the US. The partnership will combine SolarCycle's collection network with Korea Zinc's refining capabilities to recover valuable metals from discarded panels. Korea Zinc said Tuesday it had signed an agreement with SolarCycle to establish a joint venture called Ju"
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1183,112 +1228,7 @@
      "summary": ""
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-18T05:02+00:00",
-   "earliest": "2026-11-18T03:25+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Xi Jinping calls for free and open trade as China threatens retaliation if US imposes more restrictions on AI chips",
-     "url": "https://www.livemint.com/news/world/xi-jinping-calls-for-free-and-open-trade-as-china-threatens-retaliation-if-us-imposes-more-restrictions-on-ai-chips-11794977422737.html",
-     "via": "",
-     "published": "2026-11-18T05:02+00:00",
-     "summary": "Xi Jinping urged support for multilateral trade and cooperation as US restrictions on China’s access to advanced AI chips intensified. Beijing opposed the measures and threatened countermeasures, while Washington said the controls aim to protect sensitive technology and national security."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "China’s Xi calls for free and open trade at APEC CEO summit",
-     "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-calls-for-free-and-open-trade-at-apec-summit",
-     "via": "",
-     "published": "2026-11-18T03:25+00:00",
-     "summary": "His remarks follow the US' announcement of further restrictions on China’s access to AI chips."
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "The Straits Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-18T02:29+00:00",
-   "earliest": "2026-11-17T22:28+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia board does not intend to reinstate Jensen Huang as CEO: Chairman",
-     "url": "https://www.business-standard.com/world-news/nvidia-board-does-not-intend-to-reinstate-jensen-huang-as-ceo-chairman-126111800077_1.html",
-     "via": "",
-     "published": "2026-11-18T02:29+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
-     "url": "https://www.straitstimes.com/business/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo",
-     "via": "",
-     "published": "2026-11-17T22:28+00:00",
-     "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
-    }
-   ],
    "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-18T02:25+00:00",
-   "earliest": "2026-11-17T17:31+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Perpetua eyes $83 million aerospace backing for tungsten",
-     "url": "https://mining.com.au/perpetua-eyes-83-million-aerospace-backing-for-tungsten/",
-     "via": "",
-     "published": "2026-11-18T02:25+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Perpetua eyes $55.5 million deal to unlock US tungsten supply",
-     "url": "https://www.mining.com/perpetua-eyes-55-5-million-deal-to-unlock-us-tungsten-supply/",
-     "via": "",
-     "published": "2026-11-17T17:31+00:00",
-     "summary": "Perpetua is exploring a funding and supply arrangement with a major aerospace and defence company to assess tungsten deposits in Idaho."
-    }
-   ],
-   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1323,7 +1263,7 @@
      "summary": "Two merchant vessels have sunk following reported drone attacks in the Black Sea, with several seafarers injured and 31 crew rescued."
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1358,7 +1298,7 @@
      "summary": "The committee will oversee Nvidia’s national security and global trade compliance programs."
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1372,7 +1312,7 @@
     "North America"
    ],
    "latest": "2026-11-17T14:49+00:00",
-   "earliest": "2026-11-16T06:45+00:00",
+   "earliest": "2026-11-17T02:44+00:00",
    "items": [
     {
      "outlet": "South China Morning Post",
@@ -1389,11 +1329,11 @@
      "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
      "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
      "via": "",
-     "published": "2026-11-16T06:45+00:00",
+     "published": "2026-11-17T02:44+00:00",
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1428,7 +1368,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1463,7 +1403,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1498,7 +1438,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1533,7 +1473,75 @@
      "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
     }
    ],
+   "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-19T00:01+00:00",
+   "earliest": "2026-11-18T05:47+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-19T00:01+00:00",
+     "summary": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition destroys 60 Houthi targets in Yemen, intercepts two cruise missiles",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/saudiled-coalition-destroys-60-houthi-targets-in-yemen-intercepts-cruise-missile",
+     "via": "",
+     "published": "2026-11-18T05:47+00:00",
+     "summary": ""
+    }
+   ],
    "id": 32
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "The Korea Herald"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-11-18T23:45+00:00",
+   "earliest": "2026-11-18T10:47+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Boston Dynamics to test Atlas humanoid in GlobalFoundries chip plants from early 2027",
+     "url": "https://www.digitimes.com/news/a20261118VL219/boston-dynamics-globalfoundries-atlas-robot-testing-2027.html",
+     "via": "",
+     "published": "2026-11-18T23:45+00:00",
+     "summary": "Boston Dynamics will begin testing its Atlas humanoid robot at GlobalFoundries' semiconductor facilities in early 2027, making the chipmaker the first customer outside the automotive industry to trial the robot, the companies announced on November 17."
+    },
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Boston Dynamics to deploy robots at GlobalFoundries' chip plants",
+     "url": "https://www.koreaherald.com/article/10940963",
+     "via": "",
+     "published": "2026-11-18T10:47+00:00",
+     "summary": "Boston Dynamics, a US robotics subsidiary of Hyundai Motor Group, has said it plans to deploy its four-legged robot Spot at semiconductor plants operated by US chipmaker GlobalFoundries (GF) worldwide. Under the agreement, Spot will be deployed at GF's facilities in the US states of New York and Vermont, as well as Germany and Singapore, Boston Dynamics said Wednesday. The two companies will also "
+    }
+   ],
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1567,7 +1575,75 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 34
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-18T16:59+00:00",
+   "earliest": "2026-11-18T13:02+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "OPEC speaks up for fossil fuels at COP31 climate talks",
+     "url": "https://www.reuters.com/business/energy/opec-speaks-up-fossil-fuels-cop31-climate-talks-2026-11-18/",
+     "via": "",
+     "published": "2026-11-18T16:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Fossil fuel exit becomes COP31 flashpoint – but four more European countries are taking the leap",
+     "url": "https://www.euronews.com/2026/11/18/cop31-is-once-again-shying-away-from-a-fossil-fuel-exit-but-one-european-country-is-taking",
+     "via": "",
+     "published": "2026-11-18T13:02+00:00",
+     "summary": "Four more EU countries have joined Finland, France, Germany and the Netherlands in publishing national roadmaps for the transition away from fossil fuels."
+    }
+   ],
+   "id": 35
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-18T16:56+00:00",
+   "earliest": "2026-11-18T09:24+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Apollo Micro, Redon ink MoU to collaborate for tethered drone systems",
+     "url": "https://www.thehindu.com/business/Industry/apollo-micro-redon-ink-mou-to-collaborate-for-tethered-drone-systems/article71717093.ece",
+     "via": "",
+     "published": "2026-11-18T16:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Apollo Micro Systems, Redon Systems sign MoU for defence drone systems",
+     "url": "https://www.business-standard.com/companies/news/apollo-micro-systems-redon-systems-sign-mou-for-defence-drone-systems-126111800658_1.html",
+     "via": "",
+     "published": "2026-11-18T09:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 36
   },
   {
    "independent_outlets": 2,
@@ -1601,7 +1677,41 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 37
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-18T15:35+00:00",
+   "earliest": "2026-11-17T21:04+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US strikes IRGC missile site on Qeshm Island in ‘self-defense’",
+     "url": "https://english.alarabiya.net/webtv/programs/w-news/2026/11/18/us-strikes-irgc-missile-site-on-qeshm-island-in-selfdefense-",
+     "via": "",
+     "published": "2026-11-18T15:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US strikes Iran’s Qeshm Island after Tehran attacks American radar site in Bahrain",
+     "url": "https://www.timesofisrael.com/us-strikes-irans-qeshm-island-after-tehran-attacks-american-radar-site-in-bahrain/",
+     "via": "",
+     "published": "2026-11-17T21:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 38
   },
   {
    "independent_outlets": 2,
@@ -1635,7 +1745,41 @@
      "summary": "He was one of the tycoons summoned by the Singaporean government over the transboundary haze."
     }
    ],
-   "id": 35
+   "id": 39
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-18T11:31+00:00",
+   "earliest": "2026-11-18T10:36+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Kuwait, Bahrain, Saudi Arabia come under attack as Middle East tensions flare",
+     "url": "https://www.timesofisrael.com/kuwait-bahrain-saudi-arabia-come-under-attack-as-middle-east-tensions-flare/",
+     "via": "",
+     "published": "2026-11-18T11:31+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Arabia condemns Iranian attacks on Kuwait, Bahrain and UAE oil tanker",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/18/saudi-arabia-condemns-iranian-attacks-on-kuwait-bahrain-and-uae-oil-tanker",
+     "via": "",
+     "published": "2026-11-18T10:36+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 40
   },
   {
    "independent_outlets": 2,
@@ -1669,7 +1813,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 41
   },
   {
    "independent_outlets": 2,
@@ -1703,7 +1847,41 @@
      "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
     }
    ],
-   "id": 37
+   "id": 42
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-16T15:58+00:00",
+   "earliest": "2026-11-16T07:27+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "MCL fixes IPO price band at ₹129-136; Coal India to raise ₹9,000 cr.",
+     "url": "https://www.thehindu.com/business/Industry/mcl-fixes-ipo-price-band-at-129-136-coal-india-to-raise-9000-cr/article71708776.ece",
+     "via": "",
+     "published": "2026-11-16T15:58+00:00",
+     "summary": "The proposed listing is part of the government’s broader strategy to unlock value in Coal India’s subsidiaries through public listings and widen investor participation in the country’s coal sector"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Mahanadi IPO explained: Valuation, reserves, risks and Coal India strategy",
+     "url": "https://www.business-standard.com/markets/ipo/mahanadi-ipo-explained-valuation-reserves-risks-and-coal-india-strategy-126111600933_1.html",
+     "via": "",
+     "published": "2026-11-16T07:27+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 43
   },
   {
    "independent_outlets": 2,
@@ -1737,7 +1915,7 @@
      "summary": ""
     }
    ],
-   "id": 38
+   "id": 44
   },
   {
    "independent_outlets": 2,
@@ -1771,7 +1949,7 @@
      "summary": ""
     }
    ],
-   "id": 39
+   "id": 45
   }
  ]
 }
