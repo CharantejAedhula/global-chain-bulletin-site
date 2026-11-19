@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-19T02:36:43+00:00",
+ "fetched_at": "2026-11-19T04:02:00+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 756,
+ "items_read": 744,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,17 +12,19 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 2,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 30,
+   "items": 28,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 43,
+   "items": 42,
    "errors": []
   },
   "Caixin Global": {
@@ -32,27 +34,27 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 34,
+   "items": 31,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
@@ -62,12 +64,12 @@
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 22,
+   "items": 32,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 34,
+   "items": 30,
    "errors": []
   },
   "Financial Times": {
@@ -92,12 +94,12 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Al Arabiya": {
@@ -107,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 39,
+   "items": 36,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +124,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Axios": {
@@ -137,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 13,
+   "items": 12,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 20,
+   "items": 19,
    "errors": []
   },
   "RNZ": {
@@ -184,12 +186,12 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 32,
+   "items": 30,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -199,10 +201,8 @@
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 0,
-   "errors": [
-    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 2,
+   "errors": []
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -211,7 +211,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "VnExpress International": {
@@ -221,7 +221,7 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "BNamericas": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -497,6 +497,57 @@
    "independent_outlets": 2,
    "same_headline_groups": [
     [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "Reuters",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-18T21:38+00:00",
+   "earliest": "2026-11-17T21:38+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
+     "url": "https://www.straitstimes.com/business/companies-markets/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes",
+     "via": "",
+     "published": "2026-11-18T21:38+00:00",
+     "summary": "The Dow Jones Industrial Average fell 566.39 points, or 1.12%, to 50,193.03."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
+     "url": "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/",
+     "via": "",
+     "published": "2026-11-18T10:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Wall Street shakes again as Nvidia and other jittery AI stocks swing lower",
+     "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d5a35288288389d894e63e6bebe8240",
+     "via": "",
+     "published": "2026-11-17T21:38+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
      "Reuters",
      "Al Arabiya"
     ]
@@ -542,7 +593,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -593,7 +644,112 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Kyodo News",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-19T03:21+00:00",
+   "earliest": "2026-11-18T22:29+00:00",
+   "items": [
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "M5.7 quake strikes Japan's Kumamoto Prefecture, no tsunami warning issued",
+     "url": "https://english.kyodonews.net/articles/-/91898",
+     "via": "",
+     "published": "2026-11-19T03:21+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "5.7-magnitude quake strikes Japan’s Kumamoto prefecture, no tsunami warning issued",
+     "url": "https://www.straitstimes.com/asia/east-asia/5-7-magnitude-quake-strikes-japans-kumamoto-prefecture-no-tsunami-warning-issued",
+     "via": "",
+     "published": "2026-11-18T22:29+00:00",
+     "summary": "The 2.22am temblor originated in the Amakusa-Ashikita area of the prefecture at a depth of about 10km."
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-19T02:40+00:00",
+   "earliest": "2026-11-18T18:31+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "EU authorize signature of trade deal agreement with Indonesia",
+     "url": "https://www.thejakartapost.com/business/2026/11/19/eu-authorize-signature-of-trade-deal-agreement-with-indonesia?utm_source",
+     "via": "",
+     "published": "2026-11-19T02:40+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EU governments authorise signature of trade deal agreement with Indonesia",
+     "url": "https://www.reuters.com/markets/emerging/eu-governments-authorise-signature-trade-deal-agreement-with-indonesia-2026-11-18/",
+     "via": "",
+     "published": "2026-11-18T18:31+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Business Standard"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-11-19T01:43+00:00",
+   "earliest": "2026-11-18T08:22+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "India's southern state offers up to 80% capital support for chip fabs, plans 5,000-acre park in Tirupati",
+     "url": "https://www.digitimes.com/news/a20261119VL207/government-cost-packaging-fab-design.html",
+     "via": "",
+     "published": "2026-11-19T01:43+00:00",
+     "summary": "Andhra Pradesh is seeking to compete head-on with established semiconductor destinations by significantly lowering the cost of setting up manufacturing facilities, The Times of India reported, pledging to match the central government's capital support for chip fabs rupee for rupee. Combined with central incentives, the offer would cover up to 80% of a silicon fab's eligible capital cost, a higher "
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Andhra launches semiconductor policy, offering up to 80% capital support",
+     "url": "https://www.business-standard.com/india-news/andhra-pradesh-semiconductor-policy-4-chip-subsidy-fabs-ism-2-126111800554_1.html",
+     "via": "",
+     "published": "2026-11-18T08:22+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -628,7 +784,7 @@
      "summary": "The pause comes after US imposed curbs on access to its AI chips."
     }
    ],
-   "id": 8
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -663,77 +819,42 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Kyodo News"
+    "CBC News",
+    "Euronews"
    ],
    "regions": [
-    "East Asia",
-    "Southeast Asia"
+    "Europe",
+    "North America"
    ],
-   "latest": "2026-11-18T22:29+00:00",
-   "earliest": "2026-11-18T17:41+00:00",
+   "latest": "2026-11-18T22:35+00:00",
+   "earliest": "2026-11-18T13:25+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "5.7-magnitude quake strikes Japan’s Kumamoto prefecture, no tsunami warning issued",
-     "url": "https://www.straitstimes.com/asia/east-asia/5-7-magnitude-quake-strikes-japans-kumamoto-prefecture-no-tsunami-warning-issued",
+     "outlet": "CBC News",
+     "region": "North America",
+     "title": "B.C.'s seafood industry applauds China tariff relief",
+     "url": "https://www.cbc.ca/news/canada/british-columbia/bc-china-seafood-tariff-relief-9.7426214",
      "via": "",
-     "published": "2026-11-18T22:29+00:00",
-     "summary": "The 2.22am temblor originated in the Amakusa-Ashikita area of the prefecture at a depth of about 10km."
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "M5.7 quake strikes Japan's Kumamoto Prefecture, no tsunami warning issued",
-     "url": "https://english.kyodonews.net/articles/-/91898",
-     "via": "",
-     "published": "2026-11-18T17:41+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Ecofin Agency"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-18T22:22+00:00",
-   "earliest": "2026-11-17T06:24+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "UAE top destination for smuggled African gold despite tighter measures, NGO says",
-     "url": "https://mining.com.au/uae-top-destination-for-smuggled-african-gold-despite-tighter-measures-ngo-says/",
-     "via": "",
-     "published": "2026-11-18T22:22+00:00",
+     "published": "2026-11-18T22:35+00:00",
      "summary": ""
     },
     {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "UAE Imported 453 Tonnes of Smuggled African Gold in 2024, SWISSAID Says",
-     "url": "https://www.ecofinagency.com/news/1711-60871-uae-imported-453-tonnes-of-smuggled-african-gold-in-2024-swissaid-says",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Canada and China expand tariff relief on pork, seafood and metals amid US trade tensions",
+     "url": "https://www.euronews.com/2026/11/18/canada-and-china-expand-tariff-relief-on-pork-seafood-and-metals-amid-us-trade-tensions",
      "via": "",
-     "published": "2026-11-17T06:24+00:00",
-     "summary": ""
+     "published": "2026-11-18T13:25+00:00",
+     "summary": "US tariffs have put pressure on Canadian exporters and pushed Ottawa to seek new markets. Canada is rebuilding trade ties with China while continuing talks with Washington to protect its car industry and other businesses that depend on the US market."
     }
    ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -768,7 +889,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -818,42 +939,42 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
+    "Al Arabiya",
+    "ABC News (Australia)"
    ],
    "regions": [
-    "Africa",
-    "North America"
+    "Middle East",
+    "Oceania"
    ],
-   "latest": "2026-11-18T10:43+00:00",
-   "earliest": "2026-11-18T06:55+00:00",
+   "latest": "2026-11-18T09:57+00:00",
+   "earliest": "2026-11-17T20:27+00:00",
    "items": [
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Brazil pushes back on EU review of Anglo American nickel deal",
-     "url": "https://www.mining.com/brazil-pushes-back-on-eu-review-of-anglo-american-nickel-deal/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Australia sanctions Israeli settlers, organizations over West Bank expansion",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/18/australia-sanctions-israeli-settlers-organizations-over-west-bank-expansion",
      "via": "",
-     "published": "2026-11-18T10:43+00:00",
-     "summary": "Brazil disputes Brussels' authority over a Chinese acquisition as Anglo American warns its two nickel mines could close."
+     "published": "2026-11-18T09:57+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Brazil contests EU review of Anglo American's nickel mine sale to China's MMG",
-     "url": "https://www.miningweekly.com/article/brazil-contests-eu-review-of-anglo-americans-nickel-mine-sale-to-chinas-mmg-2026-11-18",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Australia hits the godmother of Israel's settler movement with sanctions",
+     "url": "https://www.abc.net.au/news/2026-11-18/founder-of-israeli-settler-organisation-sanctioned/107397140",
      "via": "",
-     "published": "2026-11-18T06:55+00:00",
+     "published": "2026-11-17T20:27+00:00",
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -888,42 +1009,7 @@
      "summary": ""
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-18T07:53+00:00",
-   "earliest": "2026-11-18T01:46+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Nvidia rejects Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://www.timesofisrael.com/nvidia-rejects-huangs-offer-to-return-as-ceo-despite-pressure-from-silicon-valley/",
-     "via": "",
-     "published": "2026-11-18T07:53+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-china-national-security-chips-3026bcbe04ab57b844884382e583422a",
-     "via": "",
-     "published": "2026-11-18T01:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -958,7 +1044,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -993,7 +1079,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1028,7 +1114,7 @@
      "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1063,7 +1149,7 @@
      "summary": "Two merchant vessels have sunk following reported drone attacks in the Black Sea, with several seafarers injured and 31 crew rescued."
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1098,42 +1184,7 @@
      "summary": "The committee will oversee Nvidia’s national security and global trade compliance programs."
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Associated Press"
-   ],
-   "regions": [
-    "China",
-    "North America"
-   ],
-   "latest": "2026-11-17T14:49+00:00",
-   "earliest": "2026-11-17T02:44+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "A trade deal, rare earths and a Quad revival: day 1 of Trump’s Asia trip",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3374794/trade-deal-rare-earths-and-quad-revival-day-1-trumps-asia-trip",
-     "via": "",
-     "published": "2026-11-17T14:49+00:00",
-     "summary": "US President Donald Trump arrived in Manila on Tuesday to start a three-day Asian swing, seeking to deepen ties with the region just weeks after his Republican Party suffered heavy losses in the midterm elections. In the Philippine capital for the annual gathering of the Association of Southeast Asian Nations (Asean), Trump held talks with leaders of the Quad – the informal grouping of the United "
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump’s Asia trip: Deals in Manila and Shenzhen, nuclear summit with Xi and Putin, maybe Kim meeting",
-     "url": "https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e",
-     "via": "",
-     "published": "2026-11-17T02:44+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1168,7 +1219,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1203,7 +1254,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1238,41 +1289,41 @@
      "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
     }
    ],
-   "id": 25
+   "id": 26
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
+    "DigiTimes",
+    "The Korea Herald"
    ],
    "regions": [
-    "Middle East"
+    "East Asia"
    ],
-   "latest": "2026-11-19T00:01+00:00",
-   "earliest": "2026-11-18T05:47+00:00",
+   "latest": "2026-11-19T02:02+00:00",
+   "earliest": "2026-11-18T17:46+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "POSCO Group signs three-year lithium supply deal with CATL",
+     "url": "https://www.digitimes.com/news/a20261119VL205/lithium-catl-ev-battery-materials-market.html",
      "via": "",
-     "published": "2026-11-19T00:01+00:00",
-     "summary": "Saudi-led coalition says it destroyed a missile platform in Saada, Yemen, as Iran claims three ships hit mines."
+     "published": "2026-11-19T02:02+00:00",
+     "summary": "POSCO Group has signed a long-term contract to supply lithium for electric vehicle batteries to CATL, the world's largest EV battery maker, from 2026 through 2028, the South Korean group said on November 18. Deliveries under the contract are already underway."
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition destroys 60 Houthi targets in Yemen, intercepts two cruise missiles",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/saudiled-coalition-destroys-60-houthi-targets-in-yemen-intercepts-cruise-missile",
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "Posco, CATL signs 3-year lithium supply deal",
+     "url": "https://www.koreaherald.com/article/10941739",
      "via": "",
-     "published": "2026-11-18T05:47+00:00",
-     "summary": ""
+     "published": "2026-11-18T17:46+00:00",
+     "summary": "Posco Group said Wednesday it finalized a three-year lithium supply deal with CATL, the world’s largest electric vehicle battery manufacturer, expanding its footprint in a global critical minerals market long dominated by China. Running 2026-2028, the agreement aims to forge a long-term partnership and establish a stable raw materials supply chain. Details of the contract, including where the lith"
     }
    ],
-   "id": 26
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1304,40 +1355,6 @@
      "via": "",
      "published": "2026-11-18T10:47+00:00",
      "summary": "Boston Dynamics, a US robotics subsidiary of Hyundai Motor Group, has said it plans to deploy its four-legged robot Spot at semiconductor plants operated by US chipmaker GlobalFoundries (GF) worldwide. Under the agreement, Spot will be deployed at GF's facilities in the US states of New York and Vermont, as well as Germany and Singapore, Boston Dynamics said Wednesday. The two companies will also "
-    }
-   ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-18T20:24+00:00",
-   "earliest": "2026-11-18T18:08+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Putin’s nuclear briefcase makes surprise appearance at China summit",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/putins-nuclear-briefcase-makes-surprise-appearance-at-china-summit?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-18T20:24+00:00",
-     "summary": "Russian President Vladimir Putin’s nuclear briefcase was spotted at the APEC summit in China."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Putin’s Nuclear Briefcase Spotted in Shenzhen",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/18/putin-s-nuclear-briefcase-spotted-in-shenzhen",
-     "via": "",
-     "published": "2026-11-18T18:08+00:00",
-     "summary": ""
     }
    ],
    "id": 28
@@ -1421,7 +1438,7 @@
     "Middle East"
    ],
    "latest": "2026-11-18T15:35+00:00",
-   "earliest": "2026-11-17T21:04+00:00",
+   "earliest": "2026-11-17T19:43+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
@@ -1435,10 +1452,10 @@
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "US strikes Iran’s Qeshm Island after Tehran attacks American radar site in Bahrain",
-     "url": "https://www.timesofisrael.com/us-strikes-irans-qeshm-island-after-tehran-attacks-american-radar-site-in-bahrain/",
+     "title": "US military official says fighter jets hit Iranian missile-launch site on Qeshm Island earlier today",
+     "url": "https://www.timesofisrael.com/liveblog_entry/us-military-official-says-fighter-jets-hit-iranian-missile-launch-site-on-qeshm-island-earlier-today/",
      "via": "",
-     "published": "2026-11-17T21:04+00:00",
+     "published": "2026-11-17T19:43+00:00",
      "summary": ""
     }
    ],
