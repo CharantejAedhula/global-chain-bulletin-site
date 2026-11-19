@@ -1,55 +1,53 @@
 {
- "fetched_at": "2026-11-19T04:02:00+00:00",
+ "fetched_at": "2026-11-19T07:27:18+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 744,
+ "items_read": 736,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 18,
+   "items": 16,
    "errors": []
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 2,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 28,
+   "items": 30,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 42,
+   "items": 40,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 31,
+   "items": 27,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 9,
+   "items": 6,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Kyodo News": {
@@ -59,17 +57,17 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 27,
+   "items": 22,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 32,
+   "items": 40,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 30,
+   "items": 28,
    "errors": []
   },
   "Financial Times": {
@@ -79,12 +77,12 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -94,7 +92,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 17,
+   "items": 20,
    "errors": []
   },
   "Al Jazeera": {
@@ -104,12 +102,12 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 35,
+   "items": 33,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 36,
+   "items": 37,
    "errors": []
   },
   "Amwaj.media": {
@@ -119,12 +117,12 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Bloomberg": {
@@ -139,14 +137,14 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 12,
+   "items": 13,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "gCaptain": {
@@ -161,12 +159,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 4,
+   "items": 7,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "RNZ": {
@@ -176,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 27,
+   "items": 28,
    "errors": []
   },
   "PortNews": {
@@ -186,23 +184,25 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 30,
+   "items": 33,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 27,
+   "items": 21,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 2,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -211,7 +211,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 15,
+   "items": 14,
    "errors": []
   },
   "VnExpress International": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 36,
+   "items": 33,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -298,6 +298,67 @@
   },
   {
    "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "Al Arabiya",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "Euronews",
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-19T07:05+00:00",
+   "earliest": "2026-11-18T13:38+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "North Korea is expanding its original uranium enrichment facility, UN nuclear watchdog says",
+     "url": "https://www.straitstimes.com/asia/east-asia/north-korea-is-expanding-its-original-uranium-enrichment-facility-un-nuclear-watchdog-says",
+     "via": "",
+     "published": "2026-11-19T07:05+00:00",
+     "summary": "Yet another sign that North Korea is delivering on its vow to bolster its nuclear weapons programme."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "North Korea expanding original uranium enrichment facility, UN nuclear watchdog says",
+     "url": "https://www.euronews.com/2026/11/19/north-korea-expanding-original-uranium-enrichment-facility-un-nuclear-watchdog-says",
+     "via": "",
+     "published": "2026-11-19T07:00+00:00",
+     "summary": "The IAEA has not had access to Yongbyon or other locations in North Korea since the country kicked out the agency’s inspectors in 2009."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "IAEA says North Korea is expanding uranium-enrichment plant at Yongbyon",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/11/18/iaea-says-north-korea-is-expanding-uraniumenrichment-plant-at-yongbyon-",
+     "via": "",
+     "published": "2026-11-18T14:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "IAEA says North Korea is expanding uranium-enrichment plant at Yongbyon",
+     "url": "https://www.reuters.com/world/china/iaea-says-north-korea-is-expanding-uranium-enrichment-plant-yongbyon-2026-11-18/",
+     "via": "",
+     "published": "2026-11-18T13:38+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "gCaptain",
@@ -328,7 +389,7 @@
      "url": "https://www.seatrade-maritime.com/offshore/china-oilfield-services-orders-59-offshore-support-vessels",
      "via": "",
      "published": "2026-11-18T08:21+00:00",
-     "summary": ""
+     "summary": "Fujian Shipbuilding Industry Group secures the RMB10.93bn newbuildings, to be delivered in batches between 2028 and 2030"
     },
     {
      "outlet": "Yicai Global",
@@ -340,7 +401,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -401,7 +462,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -446,7 +507,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -491,7 +552,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -542,7 +603,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -587,13 +648,13 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/18/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-advisory-shows-",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-advisory-shows-",
      "via": "",
      "published": "2026-11-18T16:39+00:00",
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -644,7 +705,77 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Seatrade Maritime",
+    "South China Morning Post"
+   ],
+   "regions": [
+    "China",
+    "Europe"
+   ],
+   "latest": "2026-11-19T05:57+00:00",
+   "earliest": "2026-11-19T00:43+00:00",
+   "items": [
+    {
+     "outlet": "Seatrade Maritime",
+     "region": "Europe",
+     "title": "US panel urges FMC probe into China’s PSC vessel detentions",
+     "url": "https://www.seatrade-maritime.com/regulations/us-panel-urges-fmc-probe-into-china-s-psc-vessel-detentions",
+     "via": "",
+     "published": "2026-11-19T05:57+00:00",
+     "summary": "Commission requests sanctions, IMO referrals, and federal investigation into Beijing’s targeted detentions of Panama-flagged ships"
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "US panel urges Congress to punish China over Panama-flagged ship detentions",
+     "url": "https://www.scmp.com/news/us/article/3374807/us-panel-urges-congress-punish-china-over-panama-flagged-ship-detentions",
+     "via": "",
+     "published": "2026-11-19T00:43+00:00",
+     "summary": "A bipartisan US congressional commission has urged lawmakers to declare China’s detention of hundreds of Panama-flagged ships a form of “economic coercion” and to let the US president respond with sanctions, nearly 10 months after Panama’s Supreme Court stripped a subsidiary of Hong Kong-based CK Hutchison Holdings of its right to run two ports on the Panama Canal. In its annual report to Congress"
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "DigiTimes"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-11-19T05:45+00:00",
+   "earliest": "2026-11-19T03:54+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Cyient Semiconductors secures $10 million strategic investment from GlobalFoundries",
+     "url": "https://www.thehindu.com/business/Industry/cyient-semiconductors-secures-10-million-strategic-investment-from-globalfoundries/article71718802.ece",
+     "via": "",
+     "published": "2026-11-19T05:45+00:00",
+     "summary": "With design centres in India, Belgium and the U.S., Cyient Semiconductors is focused on catering to customers across automotive, industrial, AI, communications and data centre markets"
+    },
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "GlobalFoundries invests US$10 million in India-based Cyient Semiconductors",
+     "url": "https://www.digitimes.com/news/a20261119PR200/investment-globalfoundries-silicon-development-design.html",
+     "via": "",
+     "published": "2026-11-19T03:54+00:00",
+     "summary": "Cyient Semiconductors has approved a US$10 million strategic equity investment from GlobalFoundries, bringing the Indian company closer to a major semiconductor manufacturer. The deal is intended to expand its custom ASIC capabilities, accelerate silicon development, and improve wafer supply assurance, while highlighting India's growing role in the global semiconductor value chain."
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -657,16 +788,16 @@
     "East Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-19T03:21+00:00",
+   "latest": "2026-11-19T05:00+00:00",
    "earliest": "2026-11-18T22:29+00:00",
    "items": [
     {
      "outlet": "Kyodo News",
      "region": "East Asia",
-     "title": "M5.7 quake strikes Japan's Kumamoto Prefecture, no tsunami warning issued",
+     "title": "M5.7 quake strikes Japan's Kumamoto Prefecture, 2 injured",
      "url": "https://english.kyodonews.net/articles/-/91898",
      "via": "",
-     "published": "2026-11-19T03:21+00:00",
+     "published": "2026-11-19T05:00+00:00",
      "summary": ""
     },
     {
@@ -679,42 +810,7 @@
      "summary": "The 2.22am temblor originated in the Amakusa-Ashikita area of the prefecture at a depth of about 10km."
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Jakarta Post",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-19T02:40+00:00",
-   "earliest": "2026-11-18T18:31+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "EU authorize signature of trade deal agreement with Indonesia",
-     "url": "https://www.thejakartapost.com/business/2026/11/19/eu-authorize-signature-of-trade-deal-agreement-with-indonesia?utm_source",
-     "via": "",
-     "published": "2026-11-19T02:40+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EU governments authorise signature of trade deal agreement with Indonesia",
-     "url": "https://www.reuters.com/markets/emerging/eu-governments-authorise-signature-trade-deal-agreement-with-indonesia-2026-11-18/",
-     "via": "",
-     "published": "2026-11-18T18:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -749,7 +845,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -784,7 +880,7 @@
      "summary": "The pause comes after US imposed curbs on access to its AI chips."
     }
    ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -803,11 +899,11 @@
     {
      "outlet": "Bloomberg",
      "region": "North America",
-     "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
+     "title": "Gold Wavers Near 14-Month Low as Market Tracks Hawkish Fed",
      "url": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
      "via": "",
      "published": "2026-11-18T23:24+00:00",
-     "summary": "Gold climbed from a 14-month low as dip buyers helped cushion growing expectations that the Federal Reserve will hike interest rates."
+     "summary": "Gold wavered near a 14-month low after Federal Reserve officials signaled that interest-rate hikes are likely to stretch into next year."
     },
     {
      "outlet": "Reuters",
@@ -819,77 +915,42 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "CBC News",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-18T22:35+00:00",
-   "earliest": "2026-11-18T13:25+00:00",
-   "items": [
-    {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "B.C.'s seafood industry applauds China tariff relief",
-     "url": "https://www.cbc.ca/news/canada/british-columbia/bc-china-seafood-tariff-relief-9.7426214",
-     "via": "",
-     "published": "2026-11-18T22:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Canada and China expand tariff relief on pork, seafood and metals amid US trade tensions",
-     "url": "https://www.euronews.com/2026/11/18/canada-and-china-expand-tariff-relief-on-pork-seafood-and-metals-amid-us-trade-tensions",
-     "via": "",
-     "published": "2026-11-18T13:25+00:00",
-     "summary": "US tariffs have put pressure on Canadian exporters and pushed Ottawa to seek new markets. Canada is rebuilding trade ties with China while continuing talks with Washington to protect its car industry and other businesses that depend on the US market."
-    }
-   ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "BNamericas",
-    "Mining Weekly"
+    "MINING.COM"
    ],
    "regions": [
-    "Africa",
-    "Latin America"
+    "Latin America",
+    "North America"
    ],
-   "latest": "2026-11-18T17:20+00:00",
-   "earliest": "2026-11-18T06:50+00:00",
+   "latest": "2026-11-18T21:22+00:00",
+   "earliest": "2026-11-18T10:43+00:00",
    "items": [
     {
      "outlet": "BNamericas",
      "region": "Latin America",
-     "title": "AngloGold, Collective Mining eye US$3.6bn for Quebradona and Guayabales in Colombia",
-     "url": "https://www.bnamericas.com/en/features/anglogold-collective-mining-eye-us36bn-for-quebradona-and-guayabales-in-colombia",
+     "title": "Nickel caught in the crossfire as Brazil and the EU clash over Anglo American’s US$500mn sale to MMG",
+     "url": "https://www.bnamericas.com/en/features/nickel-caught-in-the-crossfire-as-brazil-and-the-eu-clash-over-anglo-americans-us500mn-sale-to-mmg",
      "via": "",
-     "published": "2026-11-18T17:20+00:00",
+     "published": "2026-11-18T21:22+00:00",
      "summary": ""
     },
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Collective Mining to invest $100m in Colombia in 2027, with more hinging on permit",
-     "url": "https://www.miningweekly.com/article/collective-mining-to-invest-100m-in-colombia-in-2027-with-more-hinging-on-permit-2026-11-18",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Brazil pushes back on EU review of Anglo American nickel deal",
+     "url": "https://www.mining.com/brazil-pushes-back-on-eu-review-of-anglo-american-nickel-deal/",
      "via": "",
-     "published": "2026-11-18T06:50+00:00",
-     "summary": ""
+     "published": "2026-11-18T10:43+00:00",
+     "summary": "Brazil disputes Brussels' authority over a Chinese acquisition as Anglo American warns its two nickel mines could close."
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -939,77 +1000,7 @@
      "summary": ""
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "ABC News (Australia)"
-   ],
-   "regions": [
-    "Middle East",
-    "Oceania"
-   ],
-   "latest": "2026-11-18T09:57+00:00",
-   "earliest": "2026-11-17T20:27+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Australia sanctions Israeli settlers, organizations over West Bank expansion",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/18/australia-sanctions-israeli-settlers-organizations-over-west-bank-expansion",
-     "via": "",
-     "published": "2026-11-18T09:57+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Australia hits the godmother of Israel's settler movement with sanctions",
-     "url": "https://www.abc.net.au/news/2026-11-18/founder-of-israeli-settler-organisation-sanctioned/107397140",
-     "via": "",
-     "published": "2026-11-17T20:27+00:00",
-     "summary": ""
-    }
-   ],
    "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-18T08:19+00:00",
-   "earliest": "2026-11-18T03:57+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Earthquake of magnitude 4.1 strikes Uttarakhand's Chamoli district",
-     "url": "https://www.business-standard.com/india-news/earthquake-of-magnitude-4-1-strikes-uttarakhand-s-chamoli-district-126111800439_1.html",
-     "via": "",
-     "published": "2026-11-18T08:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Magnitude 6 earthquake strikes Papua New Guinea, GFZ says",
-     "url": "https://www.reuters.com/business/environment/magnitude-6-earthquake-strikes-papua-new-guinea-gfz-says-2026-11-18/",
-     "via": "",
-     "published": "2026-11-18T03:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1044,7 +1035,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1079,7 +1070,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1114,7 +1105,7 @@
      "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
     }
    ],
-   "id": 21
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1149,7 +1140,7 @@
      "summary": "Two merchant vessels have sunk following reported drone attacks in the Black Sea, with several seafarers injured and 31 crew rescued."
     }
    ],
-   "id": 22
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1184,7 +1175,7 @@
      "summary": "The committee will oversee Nvidia’s national security and global trade compliance programs."
     }
    ],
-   "id": 23
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1219,7 +1210,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1254,7 +1245,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1287,6 +1278,41 @@
      "via": "",
      "published": "2026-11-16T15:03+00:00",
      "summary": "The country's regulator has requested changes to a key operating decree, adding uncertainty to the Laguna Verde project's timeline."
+    }
+   ],
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-16T19:32+00:00",
+   "earliest": "2026-11-16T10:28+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war",
+     "url": "https://apnews.com/article/us-iran-war-aircraft-carrier-middle-east-9858fc82c61c7a1d159e7bba72afe99a",
+     "via": "",
+     "published": "2026-11-16T19:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections",
+     "url": "https://www.timesofisrael.com/third-us-aircraft-carrier-arrives-in-mideast-as-iran-rules-out-nuclear-inspections/",
+     "via": "",
+     "published": "2026-11-16T10:28+00:00",
+     "summary": ""
     }
    ],
    "id": 26
@@ -1363,32 +1389,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Euronews"
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
-    "Europe"
+    "Middle East"
    ],
-   "latest": "2026-11-18T16:59+00:00",
-   "earliest": "2026-11-18T13:02+00:00",
+   "latest": "2026-11-18T17:42+00:00",
+   "earliest": "2026-11-16T07:40+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "OPEC speaks up for fossil fuels at COP31 climate talks",
-     "url": "https://www.reuters.com/business/energy/opec-speaks-up-fossil-fuels-cop31-climate-talks-2026-11-18/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Inspectors ‘Need to Return’ to Iran’s Nuclear Sites: IAEA",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/18/inspectors-need-to-return-to-iran-s-nuclear-sites-iaea",
      "via": "",
-     "published": "2026-11-18T16:59+00:00",
+     "published": "2026-11-18T17:42+00:00",
      "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Fossil fuel exit becomes COP31 flashpoint – but four more European countries are taking the leap",
-     "url": "https://www.euronews.com/2026/11/18/cop31-is-once-again-shying-away-from-a-fossil-fuel-exit-but-one-european-country-is-taking",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran says UN inspectors not allowed to visit damaged nuclear sites until war ends",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-un-inspectors-not-allowed-to-visit-damaged-nuclear-sites-until-war-ends/",
      "via": "",
-     "published": "2026-11-18T13:02+00:00",
-     "summary": "Four more EU countries have joined Finland, France, Germany and the Netherlands in publishing national roadmaps for the transition away from fossil fuels."
+     "published": "2026-11-16T07:40+00:00",
+     "summary": ""
     }
    ],
    "id": 29
@@ -1438,7 +1464,7 @@
     "Middle East"
    ],
    "latest": "2026-11-18T15:35+00:00",
-   "earliest": "2026-11-17T19:43+00:00",
+   "earliest": "2026-11-17T21:04+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
@@ -1452,10 +1478,10 @@
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "US military official says fighter jets hit Iranian missile-launch site on Qeshm Island earlier today",
-     "url": "https://www.timesofisrael.com/liveblog_entry/us-military-official-says-fighter-jets-hit-iranian-missile-launch-site-on-qeshm-island-earlier-today/",
+     "title": "US strikes Iran’s Qeshm Island after Tehran attacks American radar site in Bahrain",
+     "url": "https://www.timesofisrael.com/us-strikes-irans-qeshm-island-after-tehran-attacks-american-radar-site-in-bahrain/",
      "via": "",
-     "published": "2026-11-17T19:43+00:00",
+     "published": "2026-11-17T21:04+00:00",
      "summary": ""
     }
    ],
@@ -1499,6 +1525,40 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "gCaptain",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-18T09:11+00:00",
+   "earliest": "2026-11-18T05:18+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Smaller Tankers Join Hormuz Shuttle Trade to Keep Oil Flowing",
+     "url": "https://gcaptain.com/smaller-tankers-join-hormuz-shuttle-trade-to-keep-oil-flowing/",
+     "via": "",
+     "published": "2026-11-18T09:11+00:00",
+     "summary": "Oil is increasingly moving through the Strait of Hormuz on smaller vessels, helping sustain exports as attacks on supertankers squeeze availability of the ships that typically dominate the trade."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Smaller Tankers In Hormuz Shuttling Trade Keep Oil Flowing",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/smaller-tankers--hormuz-shuttle-trade-oil-flows-wti-brent-crude",
+     "via": "",
+     "published": "2026-11-18T05:18+00:00",
+     "summary": "Oil is increasingly moving through the Strait of Hormuz on smaller vessels, helping sustain exports as attacks on supertankers squeeze availability of the ships that typically dominate the trade."
+    }
+   ],
+   "id": 33
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Al Arabiya",
     "Times of Israel"
    ],
@@ -1527,7 +1587,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 34
   },
   {
    "independent_outlets": 2,
@@ -1561,7 +1621,7 @@
      "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
     }
    ],
-   "id": 34
+   "id": 35
   },
   {
    "independent_outlets": 2,
@@ -1580,7 +1640,7 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Israel strikes east Lebanon, says targeting Hezbollah arms",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/16/israel-strikes-east-lebanon-says-targeting-hezbollah-arms",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/16/israel-strikes-east-lebanon-says-targeting-hezbollah-arms",
      "via": "",
      "published": "2026-11-16T15:45+00:00",
      "summary": ""
@@ -1592,40 +1652,6 @@
      "url": "https://www.timesofisrael.com/israel-targets-arms-shipment-in-rare-strike-in-lebanons-eastern-beqaa-valley/",
      "via": "",
      "published": "2026-11-16T09:21+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 35
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-16T09:07+00:00",
-   "earliest": "2026-11-16T07:40+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran rules out UN inspections of damaged nuclear sites until war ends",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/16/iran-rules-out-un-inspections-of-damaged-nuclear-sites-until-war-ends",
-     "via": "",
-     "published": "2026-11-16T09:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says UN inspectors not allowed to visit damaged nuclear sites until war ends",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-un-inspectors-not-allowed-to-visit-damaged-nuclear-sites-until-war-ends/",
-     "via": "",
-     "published": "2026-11-16T07:40+00:00",
      "summary": ""
     }
    ],
