@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-19T21:49:23+00:00",
+ "fetched_at": "2026-11-20T01:26:44+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 741,
+ "items_read": 737,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 39,
+   "items": 41,
    "errors": []
   },
   "Caixin Global": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 5,
+   "items": 3,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,42 +52,42 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 16,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 39,
+   "items": 32,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 50,
+   "items": 27,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 24,
+   "items": 26,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 6,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 16,
+   "items": 18,
    "errors": []
   },
   "Seatrade Maritime": {
@@ -97,17 +97,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 1,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 35,
+   "items": 36,
    "errors": []
   },
   "Amwaj.media": {
@@ -127,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 17,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 14,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 17,
+   "items": 21,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 8,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "PortNews": {
@@ -189,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -206,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 30,
+   "items": 27,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 33,
+   "items": 39,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,117 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Australian Financial Review",
+    "Ecofin Agency",
+    "Reuters",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-20T01:08+00:00",
+   "earliest": "2026-11-19T16:03+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Aussie investors dudded on Anthropic; Bowen scrubs fossil fuels from COP31 deal; Victorian election: who won the week?",
+     "url": "https://www.afr.com/markets/equity-markets/aussie-investors-dudded-on-anthropic-bowen-scrubs-fossil-fuels-from-cop31-deal-victorian-election-who-won-the-week-20261120-p61fww?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-20T01:08+00:00",
+     "summary": "Read everything that’s happened in the news so far today."
+    },
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "OPEC Pushes Back on Fossil Fuel Phaseout Language at COP31",
+     "url": "https://www.ecofinagency.com/news-industry/1911-61006-opec-pushes-back-on-fossil-fuel-phaseout-language-at-cop31",
+     "via": "",
+     "published": "2026-11-19T19:17+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "COP31 draft drops fossil fuel language as talks near deadline",
+     "url": "https://www.reuters.com/sustainability/cop/cop31-negotiators-publish-revised-deal-text-with-no-mention-fossil-fuels-2026-11-19/",
+     "via": "",
+     "published": "2026-11-19T18:43+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "No mention of fossil fuels in latest COP31 draft deal",
+     "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-19T16:03+00:00",
+     "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now, all mention of fossil fuels has been removed from the summit's new draft agreement."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Associated Press",
+    "gCaptain",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-19T22:09+00:00",
+   "earliest": "2026-11-19T11:34+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "US offshore critical minerals lease sale draws $8.79 million in bids",
+     "url": "https://mining.com.au/us-offshore-critical-minerals-lease-sale/",
+     "via": "",
+     "published": "2026-11-19T22:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump administration auctions deep-sea mining leases near American Samoa in first sale of its kind",
+     "url": "https://apnews.com/article/deepsea-mining-american-samoa-oceans-trump-auction-1dad5cc71cd5b683c5d418edc3b78563",
+     "via": "",
+     "published": "2026-11-19T21:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "U.S. Holds Historic Deep-Sea Mining Lease Sale",
+     "url": "https://gcaptain.com/u-s-holds-historic-deep-sea-mining-lease-sale/",
+     "via": "",
+     "published": "2026-11-19T20:24+00:00",
+     "summary": "The Trump administration on Thursday completed the first-ever U.S. offshore critical minerals lease auction, drawing $6 million in high bids for more than 31.5 million acres of seabed off American..."
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Court ruling clouds US seabed auction off American Samoa",
+     "url": "https://www.mining.com/court-ruling-clouds-us-seabed-auction-off-american-samoa/",
+     "via": "",
+     "published": "2026-11-19T11:34+00:00",
+     "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
+    }
+   ],
+   "id": 2
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -285,7 +396,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -331,7 +442,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -377,7 +488,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -391,7 +502,7 @@
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-19T21:28+00:00",
+   "latest": "2026-11-19T21:56+00:00",
    "earliest": "2026-11-19T19:55+00:00",
    "items": [
     {
@@ -400,7 +511,7 @@
      "title": "Backing Trump, US Senate Republicans block Iran war resolution",
      "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/",
      "via": "",
-     "published": "2026-11-19T21:28+00:00",
+     "published": "2026-11-19T21:56+00:00",
      "summary": ""
     },
     {
@@ -416,58 +527,13 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "US Senate rejects resolution curbing Trump’s Iran war powers",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/20/us-senate-rejects-resolution-curbing-trump-s-iran-war-powers",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/us-senate-rejects-resolution-curbing-trump-s-iran-war-powers",
      "via": "",
      "published": "2026-11-19T19:55+00:00",
      "summary": ""
     }
    ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Ecofin Agency",
-    "Reuters",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-11-19T19:17+00:00",
-   "earliest": "2026-11-19T16:03+00:00",
-   "items": [
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "OPEC Pushes Back on Fossil Fuel Phaseout Language at COP31",
-     "url": "https://www.ecofinagency.com/news-industry/1911-61006-opec-pushes-back-on-fossil-fuel-phaseout-language-at-cop31",
-     "via": "",
-     "published": "2026-11-19T19:17+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "COP31 draft drops fossil fuel language as talks near deadline",
-     "url": "https://www.reuters.com/sustainability/cop/cop31-negotiators-publish-revised-deal-text-with-no-mention-fossil-fuels-2026-11-19/",
-     "via": "",
-     "published": "2026-11-19T18:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "No mention of fossil fuels in latest COP31 draft deal",
-     "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-19T16:03+00:00",
-     "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now, all mention of fossil fuels has been removed from the summit's new draft agreement."
-    }
-   ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -512,7 +578,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -556,42 +622,147 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Australian Financial Review",
-    "The Straits Times"
+    "Nikkei Asia",
+    "Reuters"
    ],
    "regions": [
-    "Oceania",
-    "Southeast Asia"
+    "East Asia",
+    "Europe"
    ],
-   "latest": "2026-11-19T21:42+00:00",
-   "earliest": "2026-11-19T17:39+00:00",
+   "latest": "2026-11-20T01:14+00:00",
+   "earliest": "2026-11-19T23:32+00:00",
    "items": [
     {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Anthropic breaks $3trn valuation in trading debut",
-     "url": "https://www.afr.com/technology/anthropic-breaks-us2trn-valuation-in-trading-debut-20261120-p61ft2?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Alibaba sued for allegedly concealing ties to suspected spy in Nvidia scandal",
+     "url": "https://asia.nikkei.com/business/technology/alibaba-sued-for-allegedly-concealing-ties-to-suspected-spy-in-nvidia-scandal",
      "via": "",
-     "published": "2026-11-19T21:42+00:00",
-     "summary": "Shares in the company soared nearly 34 per cent to open at $US111.50 on the Nasdaq as investors clamoured to buy a piece of the AI trade."
+     "published": "2026-11-20T01:14+00:00",
+     "summary": ""
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Anthropic soars 34% to US$2 trillion valuation on Wall Street debut",
-     "url": "https://www.straitstimes.com/business/companies-markets/anthropic-soars-34-to-us2-trillion-valuation-on-wall-street-debut",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says",
+     "url": "https://www.reuters.com/business/retail-consumer/alibaba-defrauded-shareholders-by-concealing-ties-suspected-spy-nvidia-scandal-2026-11-19/",
      "via": "",
-     "published": "2026-11-19T17:39+00:00",
-     "summary": "Investors shrug off an Nvidia spy scandal and fears of a tech bubble."
+     "published": "2026-11-19T23:32+00:00",
+     "summary": ""
     }
    ],
-   "id": 8
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-19T23:48+00:00",
+   "earliest": "2026-11-19T10:03+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Ivanhoe Electric makes ‘high-grade’ Arizona copper discovery",
+     "url": "https://mining.com.au/ivanhoe-electric-arizona-copper-gold-discovery/",
+     "via": "",
+     "published": "2026-11-19T23:48+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Friedland’s Ivanhoe Electric strikes high-grade copper in Arizona",
+     "url": "https://www.mining.com/friedlands-ivanhoe-electric-strikes-high-grade-copper-in-arizona/",
+     "via": "",
+     "published": "2026-11-19T10:03+00:00",
+     "summary": "Ivanhoe Electric's latest drilling reveals two mineralized zones at Gleeson, raising prospects for a new US mining district."
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-19T23:22+00:00",
+   "earliest": "2026-11-19T18:25+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Price tag for US war in Iran barrels past $48 billion",
+     "url": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-19T23:22+00:00",
+     "summary": "A Pentagon budget officer has said the price of the Iran war surpassed $48.3 billion last week. That does not include costs sustained in Iranian attacks on US bases — lawmakers want details the Pentagon is loath to give."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran war has cost US more than $48 billion, Pentagon official says",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-war-has-cost-us-more-than-48-billion-pentagon-official-says/",
+     "via": "",
+     "published": "2026-11-19T18:25+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-19T21:58+00:00",
+   "earliest": "2026-11-19T20:11+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US signed off on sales of nearly 900,000 AI chips to China in six months",
+     "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-19T21:58+00:00",
+     "summary": "US House committee releases chip export data amid scrutiny of former Nvidia CEO's alleged links to a Chinese spy."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US signed off on sales of nearly 900,000 AI chips to China in six months, House committee says",
+     "url": "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/",
+     "via": "",
+     "published": "2026-11-19T20:11+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -626,7 +797,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -661,7 +832,7 @@
      "summary": "Data centres could use roughly 1,000 terawatt-hours of power annually by 2030 under the International Energy Agency’s (IEA) Stated Policies Scenario."
     }
    ],
-   "id": 10
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -696,112 +867,77 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 15
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Reuters"
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
     "Europe",
-    "South Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-19T16:20+00:00",
-   "earliest": "2026-11-19T05:05+00:00",
+   "latest": "2026-11-19T18:40+00:00",
+   "earliest": "2026-11-18T17:42+00:00",
    "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "India to drive global oil demand growth, with consumption rising 3% annually through 2035: IEA",
-     "url": "https://www.livemint.com/news/india/india-to-drive-global-oil-demand-growth-with-consumption-rising-3-annually-through-2035-iea-11795099404416.html",
-     "via": "",
-     "published": "2026-11-19T16:20+00:00",
-     "summary": "India is expected to add 1.3 million barrels per day to oil demand by 2035, accounting for about half the increase across emerging economies."
-    },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Energy-security response to Iran war could cut oil demand by 4% by 2035, IEA says",
-     "url": "https://www.reuters.com/business/energy/energy-security-response-iran-war-could-cut-oil-demand-by-4-by-2035-iea-says-2026-11-19/",
+     "title": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites",
+     "url": "https://www.reuters.com/world/china/west-presses-iran-iaea-let-inspections-resume-bombed-nuclear-sites-2026-11-19/",
      "via": "",
-     "published": "2026-11-19T05:05+00:00",
+     "published": "2026-11-19T18:40+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Inspectors ‘Need to Return’ to Iran’s Nuclear Sites: IAEA",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/18/inspectors-need-to-return-to-iran-s-nuclear-sites-iaea",
+     "via": "",
+     "published": "2026-11-18T17:42+00:00",
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
-    "Bloomberg"
+    "Euronews",
+    "Times of Israel"
    ],
    "regions": [
-    "East Asia",
-    "North America"
+    "Europe",
+    "Middle East"
    ],
-   "latest": "2026-11-19T14:53+00:00",
-   "earliest": "2026-11-19T08:25+00:00",
+   "latest": "2026-11-19T17:18+00:00",
+   "earliest": "2026-11-19T16:37+00:00",
    "items": [
     {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "South Korea's exports top $1 trillion for first time on chip boom",
-     "url": "https://www.koreaherald.com/article/10942838",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Middle East conflict poses biggest threat to global energy security in history, IEA warns",
+     "url": "https://www.euronews.com/2026/11/19/middle-east-conflict-poses-biggest-threat-to-global-energy-security-in-history-iea-warns",
      "via": "",
-     "published": "2026-11-19T14:53+00:00",
-     "summary": "South Korea’s annual exports surpassed $1 trillion for the first time, making it the fourth country to reach the milestone after Germany, the US and China, and the first new entrant to the club in 19 years, as global spending on artificial intelligence sent semiconductor prices and shipments soaring. Cumulative exports crossed the mark on 2:09 p.m. Thursday, a year after first topping $700 billion"
+     "published": "2026-11-19T17:18+00:00",
+     "summary": "Disruption to oil supplies through the Strait of Hormuz is driving up costs for households, while the agency says the longer the crisis continues, the harder it will be for global energy markets to recover."
     },
     {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "South Korea’s Exports Top $1 Trillion for First Time on AI Boom",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-19/south-korea-s-exports-top-1-trillion-for-first-time-on-ai-boom",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran crisis largest threat to energy ever, agency warns",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-crisis-largest-threat-to-energy-ever-agency-warns/",
      "via": "",
-     "published": "2026-11-19T08:25+00:00",
-     "summary": "South Korea’s annual exports surpassed $1 trillion for the first time as a global artificial intelligence boom stoked record semiconductor shipments."
-    }
-   ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-19T12:16+00:00",
-   "earliest": "2026-11-19T11:34+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Court ruling clouds American Samoa seabed mineral lease sale",
-     "url": "https://mining.com.au/court-ruling-clouds-american-samoa-seabed-mineral-lease-sale/",
-     "via": "",
-     "published": "2026-11-19T12:16+00:00",
+     "published": "2026-11-19T16:37+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Court ruling clouds US seabed auction off American Samoa",
-     "url": "https://www.mining.com/court-ruling-clouds-us-seabed-auction-off-american-samoa/",
-     "via": "",
-     "published": "2026-11-19T11:34+00:00",
-     "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
     }
    ],
-   "id": 14
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -836,42 +972,7 @@
      "summary": "Washington unveiled rules restricting remote access to advanced US AI chips via overseas data centres."
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Hellenic Shipping News",
-    "MEED"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-19T11:00+00:00",
-   "earliest": "2026-11-19T05:47+00:00",
-   "items": [
-    {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Iraq resumes oil exports through Turkish pipeline after 12-year break",
-     "url": "https://www.hellenicshippingnews.com/iraq-resumes-oil-exports-through-turkish-pipeline-after-12-year-break/",
-     "via": "",
-     "published": "2026-11-19T11:00+00:00",
-     "summary": "After a 12-year hiatus, Iraq has resumed pumping oil through a Turkish pipeline at an initial capacity of 120,000 barrels per day, as the conflict between the US and Iran continues to disrupt oil shipments through the Strait of Hormuz. The Iraqi Ministry of Oil said on Tuesday that it planned gradually to increase export ..."
-    },
-    {
-     "outlet": "MEED",
-     "region": "Middle East",
-     "title": "Iraq brings second Turkiye oil pipeline online",
-     "url": "https://www.meed.com/iraq-brings-second-pipeline-online-for-turkiye-oil-exports",
-     "via": "",
-     "published": "2026-11-19T05:47+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -906,7 +1007,7 @@
      "summary": "Molten’s Oakland, California demonstration plant now operational, producing battery-grade graphite and clean hydrogen, commercial-scale."
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -941,147 +1042,42 @@
      "summary": "A bipartisan US congressional commission has urged lawmakers to declare China’s detention of hundreds of Panama-flagged ships a form of “economic coercion” and to let the US president respond with sanctions, nearly 10 months after Panama’s Supreme Court stripped a subsidiary of Hong Kong-based CK Hutchison Holdings of its right to run two ports on the Panama Canal. In its annual report to Congress"
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "DigiTimes"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-11-19T05:45+00:00",
-   "earliest": "2026-11-19T03:54+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Cyient Semiconductors secures $10 million strategic investment from GlobalFoundries",
-     "url": "https://www.thehindu.com/business/Industry/cyient-semiconductors-secures-10-million-strategic-investment-from-globalfoundries/article71718802.ece",
-     "via": "",
-     "published": "2026-11-19T05:45+00:00",
-     "summary": "With design centres in India, Belgium and the U.S., Cyient Semiconductors is focused on catering to customers across automotive, industrial, AI, communications and data centre markets"
-    },
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "GlobalFoundries invests US$10 million in India-based Cyient Semiconductors",
-     "url": "https://www.digitimes.com/news/a20261119PR200/investment-globalfoundries-silicon-development-design.html",
-     "via": "",
-     "published": "2026-11-19T03:54+00:00",
-     "summary": "Cyient Semiconductors has approved a US$10 million strategic equity investment from GlobalFoundries, bringing the Indian company closer to a major semiconductor manufacturer. The deal is intended to expand its custom ASIC capabilities, accelerate silicon development, and improve wafer supply assurance, while highlighting India's growing role in the global semiconductor value chain."
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Kyodo News",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-19T05:00+00:00",
-   "earliest": "2026-11-18T22:29+00:00",
-   "items": [
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "M5.7 quake strikes Japan's Kumamoto Prefecture, 2 injured",
-     "url": "https://english.kyodonews.net/articles/-/91898",
-     "via": "",
-     "published": "2026-11-19T05:00+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "5.7-magnitude quake strikes Japan’s Kumamoto prefecture, no tsunami warning issued",
-     "url": "https://www.straitstimes.com/asia/east-asia/5-7-magnitude-quake-strikes-japans-kumamoto-prefecture-no-tsunami-warning-issued",
-     "via": "",
-     "published": "2026-11-18T22:29+00:00",
-     "summary": "The 2.22am temblor originated in the Amakusa-Ashikita area of the prefecture at a depth of about 10km."
-    }
-   ],
    "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "The Straits Times"
+    "BNamericas",
+    "MINING.COM"
    ],
    "regions": [
-    "East Asia",
-    "Southeast Asia"
+    "Latin America",
+    "North America"
    ],
-   "latest": "2026-11-18T23:48+00:00",
-   "earliest": "2026-11-17T23:56+00:00",
+   "latest": "2026-11-18T21:22+00:00",
+   "earliest": "2026-11-18T10:43+00:00",
    "items": [
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "US tightens AI chip controls, freezing ByteDance's US$480 million loan",
-     "url": "https://www.digitimes.com/news/a20261118PD251/loan-bytedance-ai-chip-chips-financing.html",
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Nickel caught in the crossfire as Brazil and the EU clash over Anglo American’s US$500mn sale to MMG",
+     "url": "https://www.bnamericas.com/en/features/nickel-caught-in-the-crossfire-as-brazil-and-the-eu-clash-over-anglo-americans-us500mn-sale-to-mmg",
      "via": "",
-     "published": "2026-11-18T23:48+00:00",
-     "summary": "Banks have frozen a US$480 million loan intended to purchase advanced Nvidia chips for remote use by ByteDance, the parent company of TikTok, after the US tightened AI chip export controls on November 16."
+     "published": "2026-11-18T21:22+00:00",
+     "summary": ""
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Banks pause US$480 million chip loan tied to China’s ByteDance",
-     "url": "https://www.straitstimes.com/business/banks-pause-us480-million-chip-loan-tied-to-chinas-bytedance",
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Brazil pushes back on EU review of Anglo American nickel deal",
+     "url": "https://www.mining.com/brazil-pushes-back-on-eu-review-of-anglo-american-nickel-deal/",
      "via": "",
-     "published": "2026-11-17T23:56+00:00",
-     "summary": "The pause comes after US imposed curbs on access to its AI chips."
+     "published": "2026-11-18T10:43+00:00",
+     "summary": "Brazil disputes Brussels' authority over a Chinese acquisition as Anglo American warns its two nickel mines could close."
     }
    ],
    "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-18T18:38+00:00",
-   "earliest": "2026-11-18T16:39+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "U.S. Targets Ship-to-Ship Transfers in Expanded Iran Maritime Blockade",
-     "url": "https://gcaptain.com/u-s-targets-ship-to-ship-transfers-in-expanded-iran-maritime-blockade/",
-     "via": "",
-     "published": "2026-11-18T18:38+00:00",
-     "summary": "The US military will treat ships that receive cargo at sea from vessels loaded in Iran as attempting to evade its blockade of Iranian ports and could take action against them, according to an advisory issued by US Central Command (CENTCOM) on Wednesday."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US tightens Iran blockade with curbs on oil transfers at sea, advisory shows",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-advisory-shows-",
-     "via": "",
-     "published": "2026-11-18T16:39+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1116,42 +1112,7 @@
      "summary": ""
     }
    ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-18T07:41+00:00",
-   "earliest": "2026-11-18T01:46+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Nvidia rejects Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://www.timesofisrael.com/nvidia-rejects-huangs-offer-to-return-as-ceo-despite-pressure-from-silicon-valley/",
-     "via": "",
-     "published": "2026-11-18T07:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-china-national-security-chips-3026bcbe04ab57b844884382e583422a",
-     "via": "",
-     "published": "2026-11-18T01:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 24
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1186,42 +1147,7 @@
      "summary": ""
     }
    ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "The Straits Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-18T02:29+00:00",
-   "earliest": "2026-11-17T22:28+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia board does not intend to reinstate Jensen Huang as CEO: Chairman",
-     "url": "https://www.business-standard.com/world-news/nvidia-board-does-not-intend-to-reinstate-jensen-huang-as-ceo-chairman-126111800077_1.html",
-     "via": "",
-     "published": "2026-11-18T02:29+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO",
-     "url": "https://www.straitstimes.com/business/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo",
-     "via": "",
-     "published": "2026-11-17T22:28+00:00",
-     "summary": "This comes after he signalled interest earlier on Nov 17 in returning to lead the company."
-    }
-   ],
-   "id": 26
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1256,7 +1182,7 @@
      "summary": "Two merchant vessels have sunk following reported drone attacks in the Black Sea, with several seafarers injured and 31 crew rescued."
     }
    ],
-   "id": 27
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1291,75 +1217,109 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 25
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Financial Times",
-    "Hellenic Shipping News"
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-19T22:58+00:00",
+   "earliest": "2026-11-19T17:09+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Mosque torched in Israel sparks political backlash against Netanyahu",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_mosque-torched-in-israel-sparks-political-backlash-191126?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-19T22:58+00:00",
+     "summary": "A mosque in al-Dahi, a Palestinian Arab village in northern Israel, was set on fire in a suspected arson attack."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Mosque Set on Fire in Suspected Arson Attack in Northern Israel",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/19/mosque-set-on-fire-in-suspected-arson-attack-in-northern-israel",
+     "via": "",
+     "published": "2026-11-19T17:09+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Hellenic Shipping News",
+    "Seatrade Maritime"
    ],
    "regions": [
     "Europe"
    ],
-   "latest": "2026-11-19T21:00+00:00",
-   "earliest": "2026-11-19T11:00+00:00",
+   "latest": "2026-11-19T22:00+00:00",
+   "earliest": "2026-11-19T08:11+00:00",
    "items": [
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Australian PM to meet Xi Jinping as iron ore tensions loom",
-     "url": "https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-19T21:00+00:00",
-     "summary": "Prime Minister Anthony Albanese to hold bilateral talks with China’s president on Friday"
-    },
     {
      "outlet": "Hellenic Shipping News",
      "region": "Europe",
-     "title": "BHP, Rio Tinto executives to meet Chinese leaders amid iron ore tensions",
-     "url": "https://www.hellenicshippingnews.com/bhp-rio-tinto-executives-to-meet-chinese-leaders-amid-iron-ore-tensions/",
+     "title": "DP World Expands Mozambique Port Investment To $200 Million",
+     "url": "https://www.hellenicshippingnews.com/dp-world-expands-mozambique-port-investment-to-200-million/",
      "via": "",
-     "published": "2026-11-19T11:00+00:00",
-     "summary": "Executives from BHP and Rio Tinto will meet Chinese Premier Li Qiang and business leaders in Beijing on Friday, alongside Australian Prime Minister Anthony Albanese, as tensions over iron ore pricing and supply negotiations test economic ties between the two countries. The meeting, part of the ninth Australia-China CEO Roundtable co-hosted by the Business Council ..."
+     "published": "2026-11-19T22:00+00:00",
+     "summary": "DP World has reaffirmed its long-term commitment to Mozambique, announcing an expanded $200 million investment in the Port of Maputo, following a meeting between its Group Executive Chairman, H.E. Essa Kazim, and H.E. Daniel Chapo, President of the Republic of Mozambique. The investment supports DP World’s ambition to strengthen Mozambique’s position as a strategic trade ..."
+    },
+    {
+     "outlet": "Seatrade Maritime",
+     "region": "Europe",
+     "title": "DP World boosts Maputo port investment to $200m",
+     "url": "https://www.seatrade-maritime.com/ports-logistics/dp-world-boosts-maputo-port-investment-to-200m",
+     "via": "",
+     "published": "2026-11-19T08:11+00:00",
+     "summary": "DP World boosts Maputo port investment to $200m, nearly tripling capacity to 650,000 teu by 2027"
     }
    ],
-   "id": 29
+   "id": 27
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Rio Times",
-    "Newsroom Panama"
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
-    "Latin America"
+    "Middle East"
    ],
-   "latest": "2026-11-19T20:07+00:00",
-   "earliest": "2026-11-18T19:12+00:00",
+   "latest": "2026-11-19T18:39+00:00",
+   "earliest": "2026-11-19T08:38+00:00",
    "items": [
     {
-     "outlet": "Rio Times",
-     "region": "Latin America",
-     "title": "Regional Bank Chief Backs Panama Journalist",
-     "url": "https://www.riotimesonline.com/panama-holds-two-men-over-journalist-attack-rodriguez-2026/",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "The Saudi-led coalition releases footage showing strikes on Houthi missile",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/19/the-saudiled-coalition-releases-footage-showing-strikes-on-houthi-missile",
      "via": "",
-     "published": "2026-11-19T20:07+00:00",
-     "summary": "CAF's president backed journalist Rolando Rodríguez on 19 November after an arson attack on his Panama home; police have arrested two suspects. The post Regional Bank Chief Backs Panama Journalist appeared first on The Rio Times ."
+     "published": "2026-11-19T18:39+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Newsroom Panama",
-     "region": "Latin America",
-     "title": "In the Attack on the Residence of Panama Journalist Rolando Rodríguez, a Second Suspect has been Captured.",
-     "url": "https://newsroompanama.com/2026/11/18/in-the-attack-on-the-residence-of-panama-journalist-rolando-rodriguez-a-second-suspect-has-been-captured/",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Houthi missile threat towards Riyadh causes damage, Saudi-led coalition says",
+     "url": "https://www.timesofisrael.com/liveblog_entry/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says/",
      "via": "",
-     "published": "2026-11-18T19:12+00:00",
-     "summary": "A second citizen was arrested for his alleged involvement in the arson attack against the... The post In the Attack on the Residence of Panama Journalist Rolando Rodríguez, a Second Suspect has been Captured. appeared first on Newsroom Panama ."
+     "published": "2026-11-19T08:38+00:00",
+     "summary": ""
     }
    ],
-   "id": 30
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1371,97 +1331,63 @@
    "regions": [
     "Middle East"
    ],
-   "latest": "2026-11-19T08:38+00:00",
-   "earliest": "2026-11-19T07:32+00:00",
+   "latest": "2026-11-19T08:44+00:00",
+   "earliest": "2026-11-18T15:49+00:00",
    "items": [
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Houthi missile threat towards Riyadh causes damage, Saudi-led coalition says",
-     "url": "https://www.timesofisrael.com/liveblog_entry/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says/",
+     "title": "Mossad chief urged renewed US-Israeli strikes on Iran during Washington visit — sources",
+     "url": "https://www.timesofisrael.com/liveblog_entry/mossad-chief-urged-renewed-us-israeli-strikes-on-iran-during-washington-visit-sources/",
      "via": "",
-     "published": "2026-11-19T08:38+00:00",
+     "published": "2026-11-19T08:44+00:00",
      "summary": ""
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Saudi-led coalition intercepts Houthi missiles, destroys launchers in Yemen",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/19/saudiled-coalition-intercepts-houthi-missiles-destroys-launchers-in-yemen",
+     "title": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/israeli-spy-chief-lobbied-for-joint-iran-strikes-on-us-visit-sources-say",
      "via": "",
-     "published": "2026-11-19T07:32+00:00",
+     "published": "2026-11-18T15:49+00:00",
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 29
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "The Korea Herald"
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
-    "East Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-19T02:02+00:00",
-   "earliest": "2026-11-18T17:46+00:00",
+   "latest": "2026-11-18T15:40+00:00",
+   "earliest": "2026-11-17T09:35+00:00",
    "items": [
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "POSCO Group signs three-year lithium supply deal with CATL",
-     "url": "https://www.digitimes.com/news/a20261119VL205/lithium-catl-ev-battery-materials-market.html",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Is Iran plotting a ‘dirty bomb’ attack in US? Former Secret Service agent reacts",
+     "url": "https://english.alarabiya.net/amp/webtv/programs/gnt/2026/11/18/is-iran-plotting-a-dirty-bomb-attack-in-us-former-secret-service-agent-reacts",
      "via": "",
-     "published": "2026-11-19T02:02+00:00",
-     "summary": "POSCO Group has signed a long-term contract to supply lithium for electric vehicle batteries to CATL, the world's largest EV battery maker, from 2026 through 2028, the South Korean group said on November 18. Deliveries under the contract are already underway."
+     "published": "2026-11-18T15:40+00:00",
+     "summary": ""
     },
     {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Posco, CATL signs 3-year lithium supply deal",
-     "url": "https://www.koreaherald.com/article/10941739",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "US intel said to indicate Iran planning potential ‘dirty bomb’ attack in Washington",
+     "url": "https://www.timesofisrael.com/us-intel-said-to-indicate-iran-planning-potential-dirty-bomb-attack-in-washington/",
      "via": "",
-     "published": "2026-11-18T17:46+00:00",
-     "summary": "Posco Group said Wednesday it finalized a three-year lithium supply deal with CATL, the world’s largest electric vehicle battery manufacturer, expanding its footprint in a global critical minerals market long dominated by China. Running 2026-2028, the agreement aims to forge a long-term partnership and establish a stable raw materials supply chain. Details of the contract, including where the lith"
+     "published": "2026-11-17T09:35+00:00",
+     "summary": ""
     }
    ],
-   "id": 32
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "The Korea Herald"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-18T23:45+00:00",
-   "earliest": "2026-11-18T10:47+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Boston Dynamics to test Atlas humanoid in GlobalFoundries chip plants from early 2027",
-     "url": "https://www.digitimes.com/news/a20261118VL219/boston-dynamics-globalfoundries-atlas-robot-testing-2027.html",
-     "via": "",
-     "published": "2026-11-18T23:45+00:00",
-     "summary": "Boston Dynamics will begin testing its Atlas humanoid robot at GlobalFoundries' semiconductor facilities in early 2027, making the chipmaker the first customer outside the automotive industry to trial the robot, the companies announced on November 17."
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Boston Dynamics to deploy robots at GlobalFoundries' chip plants",
-     "url": "https://www.koreaherald.com/article/10940963",
-     "via": "",
-     "published": "2026-11-18T10:47+00:00",
-     "summary": "Boston Dynamics, a US robotics subsidiary of Hyundai Motor Group, has said it plans to deploy its four-legged robot Spot at semiconductor plants operated by US chipmaker GlobalFoundries (GF) worldwide. Under the agreement, Spot will be deployed at GF's facilities in the US states of New York and Vermont, as well as Germany and Singapore, Boston Dynamics said Wednesday. The two companies will also "
-    }
-   ],
-   "id": 33
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1480,7 +1406,7 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "US strikes IRGC missile site on Qeshm Island in ‘self-defense’",
-     "url": "https://english.alarabiya.net/webtv/programs/w-news/2026/11/18/us-strikes-irgc-missile-site-on-qeshm-island-in-selfdefense-",
+     "url": "https://english.alarabiya.net/amp/webtv/programs/w-news/2026/11/18/us-strikes-irgc-missile-site-on-qeshm-island-in-selfdefense-",
      "via": "",
      "published": "2026-11-18T15:35+00:00",
      "summary": ""
@@ -1495,7 +1421,7 @@
      "summary": ""
     }
    ],
-   "id": 34
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1529,7 +1455,7 @@
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1563,7 +1489,7 @@
      "summary": ""
     }
    ],
-   "id": 36
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1575,7 +1501,7 @@
    "regions": [
     "East Asia"
    ],
-   "latest": "2026-11-17T23:58+00:00",
+   "latest": "2026-11-18T01:03+00:00",
    "earliest": "2026-11-17T23:51+00:00",
    "items": [
     {
@@ -1584,7 +1510,7 @@
      "title": "Japan logs trade deficit for 6th straight month in October",
      "url": "https://asia.nikkei.com/economy/trade/japan-logs-trade-deficit-for-6th-straight-month-in-october",
      "via": "",
-     "published": "2026-11-17T23:58+00:00",
+     "published": "2026-11-18T01:03+00:00",
      "summary": ""
     },
     {
@@ -1597,41 +1523,7 @@
      "summary": ""
     }
    ],
-   "id": 37
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Axios"
-   ],
-   "regions": [
-    "North America"
-   ],
-   "latest": "2026-11-17T09:19+00:00",
-   "earliest": "2026-11-16T23:41+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "1.5-hour-long system outage forces United Airlines to delay departing flights",
-     "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
-     "via": "",
-     "published": "2026-11-17T09:19+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "United Airlines resolves \"widespread system outage\" that delayed flights",
-     "url": "https://www.axios.com/2026/11/16/united-airlines-outage-faa",
-     "via": "",
-     "published": "2026-11-16T23:41+00:00",
-     "summary": "United Airlines said Monday that it resolved what it called a \"widespread system outage\" that delayed departing flights for about 90 minutes. Why it matters: It was a quick resolution to yet another issue affecting the U.S.' beleaguered airspace, which spent days digging itself out of thousands of flight delays and cancellations following Friday's hours-long ground stop . What they're saying: \"We "
-    }
-   ],
-   "id": 38
+   "id": 34
   }
  ]
 }
