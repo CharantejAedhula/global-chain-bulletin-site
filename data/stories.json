@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-20T02:21:45+00:00",
+ "fetched_at": "2026-11-20T03:55:16+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 736,
+ "outlets_read": 43,
+ "items_read": 719,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,17 +22,17 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 41,
+   "items": 42,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 31,
+   "items": 34,
    "errors": []
   },
   "Yicai Global": {
@@ -57,12 +57,12 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 30,
+   "items": 28,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 28,
+   "items": 27,
    "errors": []
   },
   "Reuters": {
@@ -92,17 +92,17 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 29,
+   "items": 31,
    "errors": []
   },
   "Times of Israel": {
@@ -122,17 +122,17 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 21,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 19,
+   "items": 22,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "CBC News": {
@@ -144,8 +144,10 @@
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 25,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.mining.com/feed/: TimeoutError: The read operation timed out"
+   ]
   },
   "gCaptain": {
    "region": "North America",
@@ -154,7 +156,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 17,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,7 +166,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 20,
+   "items": 22,
    "errors": []
   },
   "RNZ": {
@@ -189,12 +191,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 18,
+   "items": 22,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "The Indian Express": {
@@ -211,7 +213,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "VnExpress International": {
@@ -226,12 +228,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 39,
+   "items": 37,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Newsroom Panama": {
@@ -255,17 +257,17 @@
     "Europe",
     "Oceania"
    ],
-   "latest": "2026-11-20T01:08+00:00",
+   "latest": "2026-11-19T23:18+00:00",
    "earliest": "2026-11-19T16:03+00:00",
    "items": [
     {
      "outlet": "Australian Financial Review",
      "region": "Oceania",
-     "title": "Aussie investors dudded on Anthropic; Bowen scrubs fossil fuels from COP31 deal; Victorian election: who won the week?",
-     "url": "https://www.afr.com/markets/equity-markets/aussie-investors-dudded-on-anthropic-bowen-scrubs-fossil-fuels-from-cop31-deal-victorian-election-who-won-the-week-20261120-p61fww?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "title": "Bowen scrubs fossil fuels from COP31 climate deal",
+     "url": "https://www.afr.com/policy/energy-and-climate/bowen-scrubs-fossil-fuels-from-cop31-climate-deal-20261120-p61fut?ref=rss&utm_medium=rss&utm_source=rss_feed",
      "via": "",
-     "published": "2026-11-20T01:08+00:00",
-     "summary": "Read everything that’s happened in the news so far today."
+     "published": "2026-11-19T23:18+00:00",
+     "summary": "All mentions of fossil fuels have been cut from the UN climate agreement as Energy Minister Chris Bowen pushes for a new global electrification goal."
     },
     {
      "outlet": "Ecofin Agency",
@@ -296,61 +298,6 @@
     }
    ],
    "id": 1
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Associated Press",
-    "gCaptain",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-19T22:09+00:00",
-   "earliest": "2026-11-19T11:34+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "US offshore critical minerals lease sale draws $8.79 million in bids",
-     "url": "https://mining.com.au/us-offshore-critical-minerals-lease-sale/",
-     "via": "",
-     "published": "2026-11-19T22:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump administration auctions deep-sea mining leases near American Samoa in first sale of its kind",
-     "url": "https://apnews.com/article/deepsea-mining-american-samoa-oceans-trump-auction-1dad5cc71cd5b683c5d418edc3b78563",
-     "via": "",
-     "published": "2026-11-19T21:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "U.S. Holds Historic Deep-Sea Mining Lease Sale",
-     "url": "https://gcaptain.com/u-s-holds-historic-deep-sea-mining-lease-sale/",
-     "via": "",
-     "published": "2026-11-19T20:24+00:00",
-     "summary": "The Trump administration on Thursday completed the first-ever U.S. offshore critical minerals lease auction, drawing $6 million in high bids for more than 31.5 million acres of seabed off American..."
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Court ruling clouds US seabed auction off American Samoa",
-     "url": "https://www.mining.com/court-ruling-clouds-us-seabed-auction-off-american-samoa/",
-     "via": "",
-     "published": "2026-11-19T11:34+00:00",
-     "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
-    }
-   ],
-   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -396,7 +343,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -442,7 +389,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -487,52 +434,52 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya",
-    "Reuters"
+    "Mining.com.au",
+    "Associated Press",
+    "gCaptain"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "North America",
+    "Oceania"
    ],
-   "latest": "2026-11-19T20:30+00:00",
-   "earliest": "2026-11-19T19:51+00:00",
+   "latest": "2026-11-19T22:09+00:00",
+   "earliest": "2026-11-19T20:24+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-     "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "US offshore critical minerals lease sale draws $8.79 million in bids",
+     "url": "https://mining.com.au/us-offshore-critical-minerals-lease-sale/",
      "via": "",
-     "published": "2026-11-19T20:30+00:00",
-     "summary": "The resolution was defeated 51-48. Three Republicans broke rank, voting for the measure."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US Senate rejects resolution curbing Trump’s Iran war powers",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/us-senate-rejects-resolution-curbing-trump-s-iran-war-powers",
-     "via": "",
-     "published": "2026-11-19T19:55+00:00",
+     "published": "2026-11-19T22:09+00:00",
      "summary": ""
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Backing Trump, US Senate Republicans block Iran war resolution",
-     "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump administration auctions deep-sea mining leases near American Samoa in first sale of its kind",
+     "url": "https://apnews.com/article/deepsea-mining-american-samoa-oceans-trump-auction-1dad5cc71cd5b683c5d418edc3b78563",
      "via": "",
-     "published": "2026-11-19T19:51+00:00",
+     "published": "2026-11-19T21:10+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "U.S. Holds Historic Deep-Sea Mining Lease Sale",
+     "url": "https://gcaptain.com/u-s-holds-historic-deep-sea-mining-lease-sale/",
+     "via": "",
+     "published": "2026-11-19T20:24+00:00",
+     "summary": "The Trump administration on Thursday completed the first-ever U.S. offshore critical minerals lease auction, drawing $6 million in high bids for more than 31.5 million acres of seabed off American..."
     }
    ],
-   "id": 6
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -577,121 +524,77 @@
      "summary": ""
     }
    ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Hindu",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-19T07:42+00:00",
-   "earliest": "2026-11-18T12:29+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Big hiccup! Scotch whisky faces 162.5% duty despite India-UK trade deal: Why shipments are stuck and what went wrong",
-     "url": "https://www.livemint.com/news/india/big-hiccup-scotch-whisky-faces-162-5-duty-despite-india-uk-trade-deal-why-shipments-are-stuck-and-what-went-wrong-11795073648471.html",
-     "via": "",
-     "published": "2026-11-19T07:42+00:00",
-     "summary": "India's 162.5% effective duty on bulk Scotch imports has left over 80 shipping containers stuck at ports, triggering a dispute under the India-UK trade pact. Liquor companies face higher costs and working capital pressure as they seek the agreed 75% tariff."
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "India imposes 162.5% duty and tax on bulk Scotch imports amid UK trade pact dispute",
-     "url": "https://www.thehindu.com/business/india-imposes-1625-duty-and-tax-on-bulk-scotch-imports-amid-uk-trade-pact-dispute/article71717239.ece",
-     "via": "",
-     "published": "2026-11-18T17:30+00:00",
-     "summary": "More than 80 containers belonging to Pernod Ricard, Diageo and Bacardi remain stuck at Indian ports as the dispute over customs classification threatens to disrupt the liquor industry."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Govt imposes 162.5% duty on bulk scotch imports despite UK trade pact",
-     "url": "https://www.business-standard.com/economy/news/govt-imposes-162-5-duty-on-bulk-scotch-imports-despite-uk-trade-pact-126111801046_1.html",
-     "via": "",
-     "published": "2026-11-18T12:29+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
+   "id": 6
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Nikkei Asia",
+    "Business Standard",
     "Reuters"
    ],
    "regions": [
-    "East Asia",
-    "Europe"
+    "Europe",
+    "South Asia"
    ],
-   "latest": "2026-11-20T01:14+00:00",
-   "earliest": "2026-11-19T23:32+00:00",
+   "latest": "2026-11-20T03:27+00:00",
+   "earliest": "2026-11-19T23:31+00:00",
    "items": [
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Alibaba sued for allegedly concealing ties to suspected spy in Nvidia scandal",
-     "url": "https://asia.nikkei.com/business/technology/alibaba-sued-for-allegedly-concealing-ties-to-suspected-spy-in-nvidia-scandal",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "California AG subpoenas Nvidia over ex-CEO Huang's alleged China links",
+     "url": "https://www.business-standard.com/world-news/california-ag-subpoenas-nvidia-over-ex-ceo-huang-s-alleged-china-links-126112000104_1.html",
      "via": "",
-     "published": "2026-11-20T01:14+00:00",
+     "published": "2026-11-20T03:27+00:00",
      "summary": ""
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says",
-     "url": "https://www.reuters.com/business/retail-consumer/alibaba-defrauded-shareholders-by-concealing-ties-suspected-spy-nvidia-scandal-2026-11-19/",
+     "title": "California AG subpoenas Nvidia over concerns about former CEO, China ties",
+     "url": "https://www.reuters.com/legal/litigation/california-ag-subpoenas-nvidia-over-concerns-about-former-ceo-china-2026-11-19/",
      "via": "",
-     "published": "2026-11-19T23:32+00:00",
+     "published": "2026-11-19T23:31+00:00",
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 7
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
+    "Al Jazeera",
+    "Associated Press"
    ],
    "regions": [
-    "North America",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-19T23:48+00:00",
-   "earliest": "2026-11-19T10:03+00:00",
+   "latest": "2026-11-20T02:25+00:00",
+   "earliest": "2026-11-19T23:15+00:00",
    "items": [
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Ivanhoe Electric makes ‘high-grade’ Arizona copper discovery",
-     "url": "https://mining.com.au/ivanhoe-electric-arizona-copper-gold-discovery/",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Trump nominee refuses to call Jan 6 an ‘attack’ at Senate hearing",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-nominee-refuses-to-call-jan-6-an-attack-at-senate-hearing?traffic_source=rss",
      "via": "",
-     "published": "2026-11-19T23:48+00:00",
-     "summary": ""
+     "published": "2026-11-20T02:25+00:00",
+     "summary": "Trump’s nominee to lead the US agency responsible for election security, refused to call the insurrection an attack."
     },
     {
-     "outlet": "MINING.COM",
+     "outlet": "Associated Press",
      "region": "North America",
-     "title": "Friedland’s Ivanhoe Electric strikes high-grade copper in Arizona",
-     "url": "https://www.mining.com/friedlands-ivanhoe-electric-strikes-high-grade-copper-in-arizona/",
+     "title": "Trump’s pick to lead an agency protecting US elections says Jan. 6 wasn’t an ‘attack’",
+     "url": "https://apnews.com/article/michael-losapio-cisa-trump-jan-6-3c88bb68960ce74206863794c4af9548",
      "via": "",
-     "published": "2026-11-19T10:03+00:00",
-     "summary": "Ivanhoe Electric's latest drilling reveals two mineralized zones at Gleeson, raising prospects for a new US mining district."
+     "published": "2026-11-19T23:15+00:00",
+     "summary": ""
     }
    ],
-   "id": 10
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -726,7 +629,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -761,7 +664,7 @@
      "summary": "Data centres could use roughly 1,000 terawatt-hours of power annually by 2030 under the International Energy Agency’s (IEA) Stated Policies Scenario."
     }
    ],
-   "id": 12
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -775,7 +678,7 @@
     "North America"
    ],
    "latest": "2026-11-19T19:24+00:00",
-   "earliest": "2026-11-19T17:26+00:00",
+   "earliest": "2026-11-19T15:55+00:00",
    "items": [
     {
      "outlet": "Associated Press",
@@ -792,11 +695,46 @@
      "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks, without major breakthroughs",
      "url": "https://www.timesofisrael.com/trump-xi-and-putin-hold-rare-3-way-talks-on-nuclear-risks-without-major-breakthroughs/",
      "via": "",
-     "published": "2026-11-19T17:26+00:00",
+     "published": "2026-11-19T15:55+00:00",
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Associated Press"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-19T18:00+00:00",
+   "earliest": "2026-11-18T23:32+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Fishermen sue Trump administration over 'drone strike and torture' at sea",
+     "url": "https://www.abc.net.au/news/2026-11-20/ecuador-fishermen-sue-us-government-over-drone-strike/107397866",
+     "via": "",
+     "published": "2026-11-19T18:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Fishermen from Ecuador sue Trump administration over boat strike",
+     "url": "https://apnews.com/article/boat-strikes-lawsuit-trump-ecuador-fishermen-ff521c1ccb82119042516de4ff5d3b1b",
+     "via": "",
+     "published": "2026-11-18T23:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -831,7 +769,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -866,7 +804,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -901,42 +839,7 @@
      "summary": "Washington unveiled rules restricting remote access to advanced US AI chips via overseas data centres."
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-19T07:50+00:00",
-   "earliest": "2026-11-18T22:38+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Molten Industries starts produces world's first battery-grade grapite, hydrogen from natural gas",
-     "url": "https://www.miningweekly.com/article/molten-industries-starts-produces-worlds-first-battery-grade-grapite-hydrogen-from-natural-gas-2026-11-19",
-     "via": "",
-     "published": "2026-11-19T07:50+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Molten Industries launches first US graphite plant using natural gas",
-     "url": "https://www.mining.com/molten-industries-launches-first-us-graphite-plant-using-natural-gas/",
-     "via": "",
-     "published": "2026-11-18T22:38+00:00",
-     "summary": "Molten’s Oakland, California demonstration plant now operational, producing battery-grade graphite and clean hydrogen, commercial-scale."
-    }
-   ],
-   "id": 17
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -971,7 +874,7 @@
      "summary": "A bipartisan US congressional commission has urged lawmakers to declare China’s detention of hundreds of Panama-flagged ships a form of “economic coercion” and to let the US president respond with sanctions, nearly 10 months after Panama’s Supreme Court stripped a subsidiary of Hong Kong-based CK Hutchison Holdings of its right to run two ports on the Panama Canal. In its annual report to Congress"
     }
    ],
-   "id": 18
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1006,7 +909,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1041,7 +944,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1076,42 +979,7 @@
      "summary": "Two merchant vessels have sunk following reported drone attacks in the Black Sea, with several seafarers injured and 31 crew rescued."
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-17T14:25+00:00",
-   "earliest": "2026-11-17T06:34+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Codelco’s $866 million Gabriela Mistral extension clears key hurdle",
-     "url": "https://www.mining.com/codelcos-866m-gabriela-mistral-extension-clears-key-hurdle/",
-     "via": "",
-     "published": "2026-11-17T14:25+00:00",
-     "summary": "Chile’s state miner has secured environmental approval for a plan to sustain copper output at the mine through 2055."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Chile's Codelco wins environmental approval to extend Gabriela Mistral mine life",
-     "url": "https://www.miningweekly.com/article/chiles-codelco-wins-environmental-approval-to-extend-gabriela-mistral-mine-life-2026-11-17",
-     "via": "",
-     "published": "2026-11-17T06:34+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1145,7 +1013,7 @@
      "summary": "DP World boosts Maputo port investment to $200m, nearly tripling capacity to 650,000 teu by 2027"
     }
    ],
-   "id": 23
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1179,41 +1047,41 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 21
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
+    "The Hindu",
+    "Business Standard"
    ],
    "regions": [
-    "Middle East"
+    "South Asia"
    ],
-   "latest": "2026-11-19T08:38+00:00",
-   "earliest": "2026-11-19T07:32+00:00",
+   "latest": "2026-11-18T17:30+00:00",
+   "earliest": "2026-11-18T12:29+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Houthi missile threat towards Riyadh causes damage, Saudi-led coalition says",
-     "url": "https://www.timesofisrael.com/liveblog_entry/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says/",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "India imposes 162.5% duty and tax on bulk Scotch imports amid UK trade pact dispute",
+     "url": "https://www.thehindu.com/business/india-imposes-1625-duty-and-tax-on-bulk-scotch-imports-amid-uk-trade-pact-dispute/article71717239.ece",
      "via": "",
-     "published": "2026-11-19T08:38+00:00",
-     "summary": ""
+     "published": "2026-11-18T17:30+00:00",
+     "summary": "More than 80 containers belonging to Pernod Ricard, Diageo and Bacardi remain stuck at Indian ports as the dispute over customs classification threatens to disrupt the liquor industry."
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition intercepts Houthi missiles, destroys launchers in Yemen",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/19/saudiled-coalition-intercepts-houthi-missiles-destroys-launchers-in-yemen",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Govt imposes 162.5% duty on bulk scotch imports despite UK trade pact",
+     "url": "https://www.business-standard.com/economy/news/govt-imposes-162-5-duty-on-bulk-scotch-imports-despite-uk-trade-pact-126111801046_1.html",
      "via": "",
-     "published": "2026-11-19T07:32+00:00",
+     "published": "2026-11-18T12:29+00:00",
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1247,7 +1115,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1281,7 +1149,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1315,7 +1183,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1349,7 +1217,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1383,7 +1251,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 27
   }
  ]
 }
