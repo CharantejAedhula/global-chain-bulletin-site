@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-20T21:32:52+00:00",
+ "fetched_at": "2026-11-21T00:57:13+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 723,
+ "outlets_read": 43,
+ "items_read": 705,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,32 +12,34 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 6,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 34,
+   "items": 32,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 35,
+   "items": 39,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Mysteel": {
@@ -47,7 +49,7 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 26,
+   "items": 23,
    "errors": []
   },
   "Kyodo News": {
@@ -67,12 +69,12 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +84,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -97,17 +99,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 5,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 28,
+   "items": 27,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 33,
+   "items": 31,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,29 +124,29 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 25,
+   "items": 23,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 14,
+   "items": 12,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 22,
+   "items": 24,
    "errors": []
   },
   "gCaptain": {
@@ -154,22 +156,22 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 14,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Interfax": {
@@ -200,13 +202,11 @@
   "The Indian Express": {
    "region": "South Asia",
    "items": 0,
-   "errors": [
-    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "errors": []
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 34,
+   "items": 33,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,52 +241,6 @@
   }
  },
  "clusters": [
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au",
-    "gCaptain"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-20T06:55+00:00",
-   "earliest": "2026-11-19T20:24+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "US offshore critical minerals lease sale draws $6m in bids off American Samoa",
-     "url": "https://www.miningweekly.com/article/us-offshore-critical-minerals-lease-sale-draws-6m-in-bids-off-american-samoa-2026-11-20",
-     "via": "",
-     "published": "2026-11-20T06:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "US offshore critical minerals lease sale draws $8.79 million in bids",
-     "url": "https://mining.com.au/us-offshore-critical-minerals-lease-sale/",
-     "via": "",
-     "published": "2026-11-20T04:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "U.S. Holds Historic Deep-Sea Mining Lease Sale",
-     "url": "https://gcaptain.com/u-s-holds-historic-deep-sea-mining-lease-sale/",
-     "via": "",
-     "published": "2026-11-19T20:24+00:00",
-     "summary": "The Trump administration on Thursday completed the first-ever U.S. offshore critical minerals lease auction, drawing $6 million in high bids for more than 31.5 million acres of seabed off American..."
-    }
-   ],
-   "id": 1
-  },
   {
    "independent_outlets": 2,
    "same_headline_groups": [
@@ -336,7 +290,112 @@
      "summary": ""
     }
    ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-20T23:06+00:00",
+   "earliest": "2026-11-19T16:03+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+     "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-20T23:06+00:00",
+     "summary": "EU warns COP31 risks turning into a 'fossil summit' as critical climate commitments are omitted from the draft deal."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "No mention of fossil fuels in latest COP31 draft deal",
+     "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-19T16:03+00:00",
+     "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now, all mention of fossil fuels has been removed from the summit's new draft agreement."
+    }
+   ],
    "id": 2
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "BNamericas",
+    "Mining.com.au"
+   ],
+   "regions": [
+    "Latin America",
+    "Oceania"
+   ],
+   "latest": "2026-11-20T21:45+00:00",
+   "earliest": "2026-11-20T01:06+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Argentina’s Mendoza adds BHP, Teck and Patagonia Gold to its mining map",
+     "url": "https://www.bnamericas.com/en/news/argentinas-mendoza-adds-bhp-teck-and-patagonia-gold-to-its-mining-map",
+     "via": "",
+     "published": "2026-11-20T21:45+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Patagonia Gold buys dormant Argentina project for $22 million",
+     "url": "https://mining.com.au/patagonia-gold-buys-dormant-argentina-project/",
+     "via": "",
+     "published": "2026-11-20T01:06+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-20T21:32+00:00",
+   "earliest": "2026-11-20T11:39+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "China copper smelters blend concentrate overseas to boost supply",
+     "url": "https://mining.com.au/china-copper-smelters-blend-concentrate-overseas-to-boost-supply/",
+     "via": "",
+     "published": "2026-11-20T21:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Two Chinese copper smelters blend concentrate overseas to boost supply, sources say",
+     "url": "https://www.miningweekly.com/article/two-chinese-copper-smelters-blend-concentrate-overseas-to-boost-supply-sources-say-2026-11-20",
+     "via": "",
+     "published": "2026-11-20T11:39+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 4
   },
   {
    "independent_outlets": 2,
@@ -371,7 +430,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -406,77 +465,42 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 6
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining.com.au",
-    "Mining Weekly"
+    "Caixin Global",
+    "Bloomberg"
    ],
    "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-20T12:52+00:00",
-   "earliest": "2026-11-20T11:39+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "China copper smelters blend concentrate overseas to boost supply",
-     "url": "https://mining.com.au/china-copper-smelters-blend-concentrate-overseas-to-boost-supply/",
-     "via": "",
-     "published": "2026-11-20T12:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Two Chinese copper smelters blend concentrate overseas to boost supply, sources say",
-     "url": "https://www.miningweekly.com/article/two-chinese-copper-smelters-blend-concentrate-overseas-to-boost-supply-sources-say-2026-11-20",
-     "via": "",
-     "published": "2026-11-20T11:39+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
+    "China",
     "North America"
    ],
-   "latest": "2026-11-20T07:07+00:00",
-   "earliest": "2026-11-19T11:36+00:00",
+   "latest": "2026-11-20T09:47+00:00",
+   "earliest": "2026-11-19T23:56+00:00",
    "items": [
     {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Chile's environmental regulator files charges against Codelco copper mine",
-     "url": "https://www.miningweekly.com/article/chiles-environmental-regulator-files-charges-against-codelco-copper-mine-2026-11-20",
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "Gold Slides as Fed Signals, AI Selloff Deepen Rout",
+     "url": "https://www.caixinglobal.com/2026-11-20/gold-slides-as-fed-signals-ai-selloff-deepen-rout-102507174.html",
      "via": "",
-     "published": "2026-11-20T07:07+00:00",
+     "published": "2026-11-20T09:47+00:00",
      "summary": ""
     },
     {
-     "outlet": "MINING.COM",
+     "outlet": "Bloomberg",
      "region": "North America",
-     "title": "Chile threatens Codelco mine permit over dust violations",
-     "url": "https://www.mining.com/chile-threatens-codelco-mine-permit-over-dust-violations/",
+     "title": "Gold Logs Worst Week Since March on Hawkish Fed, AI Selloff",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
      "via": "",
-     "published": "2026-11-19T11:36+00:00",
-     "summary": "Environmental regulator said Ministro Hales' dust control failures may lead to fines, closure, or permit revocation."
+     "published": "2026-11-19T23:56+00:00",
+     "summary": "Gold slid for a fifth day — notching its biggest weekly decline since March — as a hawkish Federal Reserve signaled more interest-rate hikes and a rout in AI stocks spurred selling across metals markets."
     }
    ],
-   "id": 6
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -511,7 +535,42 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining Weekly",
+    "Mining.com.au"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-20T06:55+00:00",
+   "earliest": "2026-11-20T04:51+00:00",
+   "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "US offshore critical minerals lease sale draws $6m in bids off American Samoa",
+     "url": "https://www.miningweekly.com/article/us-offshore-critical-minerals-lease-sale-draws-6m-in-bids-off-american-samoa-2026-11-20",
+     "via": "",
+     "published": "2026-11-20T06:55+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "US offshore critical minerals lease sale draws $8.79 million in bids",
+     "url": "https://mining.com.au/us-offshore-critical-minerals-lease-sale/",
+     "via": "",
+     "published": "2026-11-20T04:51+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -546,7 +605,7 @@
      "summary": "The Senate passed a sweeping, bipartisan bill Thursday night that's designed to cut permitting timelines for energy and infrastructure projects. Why it matters: The eyes of the entire energy industry are on this bill. If it becomes law, it could transform how America builds energy infrastructure, with major implications for everything from electricity costs to data centers. Getting rid of bureaucr"
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -581,7 +640,42 @@
      "summary": "Ivanhoe Electric's latest drilling reveals two mineralized zones at Gleeson, raising prospects for a new US mining district."
     }
    ],
-   "id": 9
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-19T19:24+00:00",
+   "earliest": "2026-11-19T15:55+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks but deliver no breakthroughs",
+     "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
+     "via": "",
+     "published": "2026-11-19T19:24+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks, without major breakthroughs",
+     "url": "https://www.timesofisrael.com/trump-xi-and-putin-hold-rare-3-way-talks-on-nuclear-risks-without-major-breakthroughs/",
+     "via": "",
+     "published": "2026-11-19T15:55+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -616,7 +710,7 @@
      "summary": "President Trump said in a brief phone interview Thursday that he won't make a determination on his next step in the Iran war until the new year. \"I am not rushing into any decision [on Iran]. We will see what happens after the beginning of the year,\" Trump told Axios from Air Force One, on his way back to the U.S. from China. Why it matters: The president's comments come as he faces heavy pressure"
     }
    ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -651,7 +745,7 @@
      "summary": "Molten’s Oakland, California demonstration plant now operational, producing battery-grade graphite and clean hydrogen, commercial-scale."
     }
    ],
-   "id": 11
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -686,7 +780,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -721,7 +815,41 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-21T00:00+00:00",
+   "earliest": "2026-11-19T07:32+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-21T00:00+00:00",
+     "summary": "Saudi Arabia issues a flurry of emergency alerts for Riyadh, as the Saudi coalition says it intercepted three missiles."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition intercepts Houthi missiles, destroys launchers in Yemen",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/19/saudiled-coalition-intercepts-houthi-missiles-destroys-launchers-in-yemen",
+     "via": "",
+     "published": "2026-11-19T07:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -755,41 +883,7 @@
      "summary": ""
     }
    ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Africa Report",
-    "Ecofin Agency"
-   ],
-   "regions": [
-    "Africa"
-   ],
-   "latest": "2026-11-20T11:51+00:00",
-   "earliest": "2026-11-18T13:38+00:00",
-   "items": [
-    {
-     "outlet": "The Africa Report",
-     "region": "Africa",
-     "title": "Nigeria: Dangote IPO is a chance to rethink financial inclusion",
-     "url": "https://www.theafricareport.com/437066/nigeria-dangote-ipo-is-a-chance-to-rethink-financial-inclusion/",
-     "via": "",
-     "published": "2026-11-20T11:51+00:00",
-     "summary": "Following the milestone Dangote refinery IPO, African policymakers must expand financial inclusion targets beyond basic bank and savings accounts to include retail investment accounts."
-    },
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Nigeria: Dangote Refinery Considers 30% Increase in IPO Size to $2.1 Billion",
-     "url": "https://www.ecofinagency.com/news-industry/1811-60930-nigeria-dangote-refinery-considers-30-increase-in-ipo-size-to-2-1-billion",
-     "via": "",
-     "published": "2026-11-18T13:38+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -801,16 +895,16 @@
    "regions": [
     "North America"
    ],
-   "latest": "2026-11-19T23:31+00:00",
+   "latest": "2026-11-19T21:10+00:00",
    "earliest": "2026-11-19T11:34+00:00",
    "items": [
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Deep-sea mining auctions spark environmental concerns in American Samoa and Northern Mariana Islands",
-     "url": "https://apnews.com/article/trump-deepsea-mining-oceans-environment-american-samoa-northern-marianas-d317c25ce85316b632b0369c9cce97a4",
+     "title": "Trump administration auctions deep-sea mining leases near American Samoa in first sale of its kind",
+     "url": "https://apnews.com/article/deepsea-mining-american-samoa-oceans-trump-auction-1dad5cc71cd5b683c5d418edc3b78563",
      "via": "",
-     "published": "2026-11-19T23:31+00:00",
+     "published": "2026-11-19T21:10+00:00",
      "summary": ""
     },
     {
@@ -823,41 +917,7 @@
      "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
     }
    ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-19T20:30+00:00",
-   "earliest": "2026-11-18T06:31+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi, Arab and Islamic FMs welcome UK, Australia sanctions over Israeli settlements",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/saudi-arab-and-islamic-fms-welcome-uk-australia-sanctions-over-israeli-settlements",
-     "via": "",
-     "published": "2026-11-19T20:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Australia declares sanctions over settlement expansion, violence against Palestinians",
-     "url": "https://www.timesofisrael.com/australia-declares-sanctions-over-settlement-expansion-violence-against-palestinians/",
-     "via": "",
-     "published": "2026-11-18T06:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -891,7 +951,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -925,7 +985,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -959,41 +1019,7 @@
      "summary": ""
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-18T01:03+00:00",
-   "earliest": "2026-11-17T23:51+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Japan logs trade deficit for 6th straight month in October",
-     "url": "https://asia.nikkei.com/economy/trade/japan-logs-trade-deficit-for-6th-straight-month-in-october",
-     "via": "",
-     "published": "2026-11-18T01:03+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "BREAKING NEWS: Japan logs 476.5 billion yen trade deficit in Oct.",
-     "url": "https://english.kyodonews.net/articles/-/91745",
-     "via": "",
-     "published": "2026-11-17T23:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
+   "id": 22
   }
  ]
 }
