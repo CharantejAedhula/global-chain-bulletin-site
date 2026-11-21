@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-21T00:57:13+00:00",
+ "fetched_at": "2026-11-21T01:45:18+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 705,
+ "outlets_read": 44,
+ "items_read": 707,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,10 +12,8 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 6,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
@@ -24,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 39,
+   "items": 38,
    "errors": []
   },
   "Caixin Global": {
@@ -34,12 +32,12 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Mysteel": {
@@ -49,17 +47,17 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "DigiTimes": {
@@ -69,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Financial Times": {
@@ -104,7 +102,7 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "Times of Israel": {
@@ -124,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
@@ -139,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 12,
+   "items": 13,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,8 +154,10 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
-   "errors": []
+   "items": 5,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Aabc.net.au%20when%3A3d&hl=en-US&gl=U: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Australian Financial Review": {
    "region": "Oceania",
@@ -196,13 +196,15 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 14,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
    "items": 0,
-   "errors": []
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -211,7 +213,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 10,
+   "items": 13,
    "errors": []
   },
   "VnExpress International": {
@@ -226,7 +228,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 33,
+   "items": 40,
    "errors": []
   },
   "Rio Times": {
@@ -241,6 +243,51 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-21T00:00+00:00",
+   "earliest": "2026-11-19T07:32+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-21T00:00+00:00",
+     "summary": "Saudi Arabia issues a flurry of emergency alerts for Riyadh, as the Saudi coalition says it intercepted three missiles."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
+     "url": "https://www.reuters.com/world/middle-east/saudi-arabia-issues-two-riyadh-alerts-says-danger-has-passed-2026-11-20/",
+     "via": "",
+     "published": "2026-11-20T23:36+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition intercepts Houthi missiles, destroys launchers in Yemen",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/19/saudiled-coalition-intercepts-houthi-missiles-destroys-launchers-in-yemen",
+     "via": "",
+     "published": "2026-11-19T07:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 2,
    "same_headline_groups": [
@@ -290,7 +337,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 2,
@@ -325,7 +372,7 @@
      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now, all mention of fossil fuels has been removed from the summit's new draft agreement."
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 2,
@@ -360,7 +407,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 2,
@@ -395,7 +442,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -430,7 +477,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -444,7 +491,7 @@
     "North America"
    ],
    "latest": "2026-11-20T17:43+00:00",
-   "earliest": "2026-11-20T14:20+00:00",
+   "earliest": "2026-11-18T20:55+00:00",
    "items": [
     {
      "outlet": "gCaptain",
@@ -458,14 +505,14 @@
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Tanker catches fire after projectile strike near Strait of Hormuz",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/fire-reported-on-tanker-after-projectile-strike-off-oman-ukmto-says",
+     "title": "Three oil tankers catch fire after hitting naval mines east of Strait of Hormuz: Report",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/19/three-oil-tankers-catch-fire-after-hitting-naval-mines-east-of-strait-of-hormuz-report",
      "via": "",
-     "published": "2026-11-20T14:20+00:00",
+     "published": "2026-11-18T20:55+00:00",
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -500,7 +547,7 @@
      "summary": "Gold slid for a fifth day — notching its biggest weekly decline since March — as a hawkish Federal Reserve signaled more interest-rate hikes and a rout in AI stocks spurred selling across metals markets."
     }
    ],
-   "id": 7
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -535,7 +582,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -570,7 +617,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -605,7 +652,7 @@
      "summary": "The Senate passed a sweeping, bipartisan bill Thursday night that's designed to cut permitting timelines for energy and infrastructure projects. Why it matters: The eyes of the entire energy industry are on this bill. If it becomes law, it could transform how America builds energy infrastructure, with major implications for everything from electricity costs to data centers. Getting rid of bureaucr"
     }
    ],
-   "id": 10
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -638,41 +685,6 @@
      "via": "",
      "published": "2026-11-19T10:03+00:00",
      "summary": "Ivanhoe Electric's latest drilling reveals two mineralized zones at Gleeson, raising prospects for a new US mining district."
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-19T19:24+00:00",
-   "earliest": "2026-11-19T15:55+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks but deliver no breakthroughs",
-     "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
-     "via": "",
-     "published": "2026-11-19T19:24+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks, without major breakthroughs",
-     "url": "https://www.timesofisrael.com/trump-xi-and-putin-hold-rare-3-way-talks-on-nuclear-risks-without-major-breakthroughs/",
-     "via": "",
-     "published": "2026-11-19T15:55+00:00",
-     "summary": ""
     }
    ],
    "id": 12
@@ -751,6 +763,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "BNamericas",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-18T21:22+00:00",
+   "earliest": "2026-11-18T10:43+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Nickel caught in the crossfire as Brazil and the EU clash over Anglo American’s US$500mn sale to MMG",
+     "url": "https://www.bnamericas.com/en/features/nickel-caught-in-the-crossfire-as-brazil-and-the-eu-clash-over-anglo-americans-us500mn-sale-to-mmg",
+     "via": "",
+     "published": "2026-11-18T21:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Brazil pushes back on EU review of Anglo American nickel deal",
+     "url": "https://www.mining.com/brazil-pushes-back-on-eu-review-of-anglo-american-nickel-deal/",
+     "via": "",
+     "published": "2026-11-18T10:43+00:00",
+     "summary": "Brazil disputes Brussels' authority over a Chinese acquisition as Anglo American warns its two nickel mines could close."
+    }
+   ],
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Seatrade Maritime",
     "Al Arabiya"
    ],
@@ -780,7 +827,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -812,40 +859,6 @@
      "url": "https://apnews.com/article/nvidia-jensen-huang-china-national-security-chips-3026bcbe04ab57b844884382e583422a",
      "via": "",
      "published": "2026-11-18T01:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-21T00:00+00:00",
-   "earliest": "2026-11-19T07:32+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-21T00:00+00:00",
-     "summary": "Saudi Arabia issues a flurry of emergency alerts for Riyadh, as the Saudi coalition says it intercepted three missiles."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition intercepts Houthi missiles, destroys launchers in Yemen",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/19/saudiled-coalition-intercepts-houthi-missiles-destroys-launchers-in-yemen",
-     "via": "",
-     "published": "2026-11-19T07:32+00:00",
      "summary": ""
     }
    ],
@@ -889,22 +902,90 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "The Africa Report",
+    "Ecofin Agency"
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "latest": "2026-11-20T11:51+00:00",
+   "earliest": "2026-11-18T13:38+00:00",
+   "items": [
+    {
+     "outlet": "The Africa Report",
+     "region": "Africa",
+     "title": "Nigeria: Dangote IPO is a chance to rethink financial inclusion",
+     "url": "https://www.theafricareport.com/437066/nigeria-dangote-ipo-is-a-chance-to-rethink-financial-inclusion/",
+     "via": "",
+     "published": "2026-11-20T11:51+00:00",
+     "summary": "Following the milestone Dangote refinery IPO, African policymakers must expand financial inclusion targets beyond basic bank and savings accounts to include retail investment accounts."
+    },
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Nigeria: Dangote Refinery Considers 30% Increase in IPO Size to $2.1 Billion",
+     "url": "https://www.ecofinagency.com/news-industry/1811-60930-nigeria-dangote-refinery-considers-30-increase-in-ipo-size-to-2-1-billion",
+     "via": "",
+     "published": "2026-11-18T13:38+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-20T11:04+00:00",
+   "earliest": "2026-11-20T11:04+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Saudi-led coalition warns civilians to evacuate Yemen’s Hodeida port",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-warns-civilians-to-evacuate-yemens-hodeida-port/",
+     "via": "",
+     "published": "2026-11-20T11:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition asks residents to evacuate parts of Yemen’s port of Hodeida",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/saudiled-coalition-asks-residents-to-evacuate-parts-of-yemen-s-port-of-hodeida",
+     "via": "",
+     "published": "2026-11-20T11:04+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Associated Press",
     "MINING.COM"
    ],
    "regions": [
     "North America"
    ],
-   "latest": "2026-11-19T21:10+00:00",
+   "latest": "2026-11-19T23:31+00:00",
    "earliest": "2026-11-19T11:34+00:00",
    "items": [
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Trump administration auctions deep-sea mining leases near American Samoa in first sale of its kind",
-     "url": "https://apnews.com/article/deepsea-mining-american-samoa-oceans-trump-auction-1dad5cc71cd5b683c5d418edc3b78563",
+     "title": "Deep-sea mining auctions spark environmental concerns in American Samoa and Northern Mariana Islands",
+     "url": "https://apnews.com/article/trump-deepsea-mining-oceans-environment-american-samoa-northern-marianas-d317c25ce85316b632b0369c9cce97a4",
      "via": "",
-     "published": "2026-11-19T21:10+00:00",
+     "published": "2026-11-19T23:31+00:00",
      "summary": ""
     },
     {
@@ -917,7 +998,75 @@
      "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
     }
    ],
-   "id": 19
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-19T20:30+00:00",
+   "earliest": "2026-11-18T06:31+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi, Arab and Islamic FMs welcome UK, Australia sanctions over Israeli settlements",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/saudi-arab-and-islamic-fms-welcome-uk-australia-sanctions-over-israeli-settlements",
+     "via": "",
+     "published": "2026-11-19T20:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Australia declares sanctions over settlement expansion, violence against Palestinians",
+     "url": "https://www.timesofisrael.com/australia-declares-sanctions-over-settlement-expansion-violence-against-palestinians/",
+     "via": "",
+     "published": "2026-11-18T06:31+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-19T17:09+00:00",
+   "earliest": "2026-11-19T05:32+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Mosque Set on Fire in Suspected Arson Attack in Northern Israel",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/19/mosque-set-on-fire-in-suspected-arson-attack-in-northern-israel",
+     "via": "",
+     "published": "2026-11-19T17:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Police probing northern Israel mosque fire amid suspicions of settler-linked attack",
+     "url": "https://www.timesofisrael.com/liveblog_entry/police-probing-northern-israel-mosque-fire-amid-suspicions-of-settler-linked-attack/",
+     "via": "",
+     "published": "2026-11-19T05:32+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -951,7 +1100,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -985,7 +1134,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1019,7 +1168,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 26
   }
  ]
 }
