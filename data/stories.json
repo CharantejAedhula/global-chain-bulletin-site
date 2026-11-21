@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-21T01:45:18+00:00",
+ "fetched_at": "2026-11-21T02:22:34+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 707,
+ "items_read": 705,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -47,17 +47,17 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Financial Times": {
@@ -102,7 +102,7 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 25,
+   "items": 27,
    "errors": []
   },
   "Times of Israel": {
@@ -122,7 +122,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Bloomberg": {
@@ -154,10 +154,8 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 5,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aabc.net.au%20when%3A3d&hl=en-US&gl=U: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 14,
+   "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
@@ -166,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 14,
+   "items": 11,
    "errors": []
   },
   "RNZ": {
@@ -176,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 26,
+   "items": 23,
    "errors": []
   },
   "PortNews": {
@@ -196,7 +194,7 @@
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
@@ -208,17 +206,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 13,
+   "items": 9,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "MercoPress": {
@@ -344,6 +342,41 @@
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
+    "Bloomberg"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-21T01:49+00:00",
+   "earliest": "2026-11-20T22:31+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
+     "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-21T01:49+00:00",
+     "summary": "US president calls tech giant to give former CEO 'a second chance' and urges him to 'make a big apology'."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-huang-should-return-to-nvidia-after-big-apology-video",
+     "via": "",
+     "published": "2026-11-20T22:31+00:00",
+     "summary": "President Trump called for Jensen Huang to make a big apology and return as CEO of Nvidia even as the prospect remains highly unlikely. (Source: Bloomberg)"
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
     "Deutsche Welle"
    ],
    "regions": [
@@ -372,7 +405,7 @@
      "summary": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now, all mention of fossil fuels has been removed from the summit's new draft agreement."
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 2,
@@ -407,7 +440,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -442,7 +475,7 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -474,41 +507,6 @@
      "url": "https://asia.nikkei.com/politics/international-relations/india-to-let-japan-use-firing-ranges-for-surface-to-ship-missile-tests",
      "via": "",
      "published": "2026-11-19T17:16+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-20T17:43+00:00",
-   "earliest": "2026-11-18T20:55+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Another Tanker Hit in Strait of Hormuz as Maritime Attacks Surge Worldwide",
-     "url": "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/",
-     "via": "",
-     "published": "2026-11-20T17:43+00:00",
-     "summary": "Another tanker was struck by a projectile and caught fire in the Strait of Hormuz on Friday, extending a wave of attacks on commercial shipping that has pushed maritime security..."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Three oil tankers catch fire after hitting naval mines east of Strait of Hormuz: Report",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/19/three-oil-tankers-catch-fire-after-hitting-naval-mines-east-of-strait-of-hormuz-report",
-     "via": "",
-     "published": "2026-11-18T20:55+00:00",
      "summary": ""
     }
    ],
@@ -693,6 +691,41 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Associated Press",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-19T20:17+00:00",
+   "earliest": "2026-11-19T19:51+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Senate Republicans block latest Democratic effort to end the war in Iran",
+     "url": "https://apnews.com/article/iran-war-trump-senate-war-powers-bcbb331cd6c847bf5d0bcb7446344714",
+     "via": "",
+     "published": "2026-11-19T20:17+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Backing Trump, US Senate Republicans block Iran war resolution",
+     "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/",
+     "via": "",
+     "published": "2026-11-19T19:51+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Times of Israel",
     "Axios"
    ],
@@ -722,7 +755,7 @@
      "summary": "President Trump said in a brief phone interview Thursday that he won't make a determination on his next step in the Iran war until the new year. \"I am not rushing into any decision [on Iran]. We will see what happens after the beginning of the year,\" Trump told Axios from Air Force One, on his way back to the U.S. from China. Why it matters: The president's comments come as he faces heavy pressure"
     }
    ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -757,7 +790,7 @@
      "summary": "Molten’s Oakland, California demonstration plant now operational, producing battery-grade graphite and clean hydrogen, commercial-scale."
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -792,7 +825,7 @@
      "summary": "Brazil disputes Brussels' authority over a Chinese acquisition as Anglo American warns its two nickel mines could close."
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -824,41 +857,6 @@
      "url": "https://english.alarabiya.net/News/middle-east/2026/11/18/one-missing-11-injured-after-adnoc-vessel-attacked-in-strait-of-hormuz",
      "via": "",
      "published": "2026-11-18T07:03+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-18T07:41+00:00",
-   "earliest": "2026-11-18T01:46+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Nvidia rejects Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://www.timesofisrael.com/nvidia-rejects-huangs-offer-to-return-as-ceo-despite-pressure-from-silicon-valley/",
-     "via": "",
-     "published": "2026-11-18T07:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley",
-     "url": "https://apnews.com/article/nvidia-jensen-huang-china-national-security-chips-3026bcbe04ab57b844884382e583422a",
-     "via": "",
-     "published": "2026-11-18T01:46+00:00",
      "summary": ""
     }
    ],
@@ -1004,74 +1002,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-19T20:30+00:00",
-   "earliest": "2026-11-18T06:31+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi, Arab and Islamic FMs welcome UK, Australia sanctions over Israeli settlements",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/saudi-arab-and-islamic-fms-welcome-uk-australia-sanctions-over-israeli-settlements",
-     "via": "",
-     "published": "2026-11-19T20:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Australia declares sanctions over settlement expansion, violence against Palestinians",
-     "url": "https://www.timesofisrael.com/australia-declares-sanctions-over-settlement-expansion-violence-against-palestinians/",
-     "via": "",
-     "published": "2026-11-18T06:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-19T17:09+00:00",
-   "earliest": "2026-11-19T05:32+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Mosque Set on Fire in Suspected Arson Attack in Northern Israel",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/19/mosque-set-on-fire-in-suspected-arson-attack-in-northern-israel",
-     "via": "",
-     "published": "2026-11-19T17:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Police probing northern Israel mosque fire amid suspicions of settler-linked attack",
-     "url": "https://www.timesofisrael.com/liveblog_entry/police-probing-northern-israel-mosque-fire-amid-suspicions-of-settler-linked-attack/",
-     "via": "",
-     "published": "2026-11-19T05:32+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "The Hindu",
     "Business Standard"
    ],
@@ -1100,7 +1030,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1134,7 +1064,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1168,7 +1098,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 24
   }
  ]
 }
