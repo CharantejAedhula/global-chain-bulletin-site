@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-21T02:22:34+00:00",
+ "fetched_at": "2026-11-21T03:51:21+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 44,
- "items_read": 705,
+ "items_read": 721,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 38,
+   "items": 40,
    "errors": []
   },
   "Caixin Global": {
@@ -37,7 +37,7 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Mysteel": {
@@ -47,17 +47,17 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 22,
+   "items": 19,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 10,
+   "items": 13,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 24,
+   "items": 27,
    "errors": []
   },
   "Financial Times": {
@@ -92,7 +92,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Al Jazeera": {
@@ -112,7 +112,7 @@
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 13,
+   "items": 14,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,27 +154,27 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Interfax": {
    "region": "Russia",
-   "items": 23,
+   "items": 26,
    "errors": []
   },
   "PortNews": {
@@ -189,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 40,
+   "items": 39,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 7,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,52 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Al Jazeera",
+    "Bloomberg"
+   ],
+   "regions": [
+    "Middle East",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-21T02:26+00:00",
+   "earliest": "2026-11-20T22:31+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Jensen Huang should return as Nvidia CEO after 'big apology', says Trump",
+     "url": "https://www.business-standard.com/world-news/jensen-huang-should-return-as-nvidia-ceo-after-big-apology-says-trump-126112100112_1.html",
+     "via": "",
+     "published": "2026-11-21T02:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
+     "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-21T01:49+00:00",
+     "summary": "US president calls tech giant to give former CEO 'a second chance' and urges him to 'make a big apology'."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-huang-should-return-to-nvidia-after-big-apology-video",
+     "via": "",
+     "published": "2026-11-20T22:31+00:00",
+     "summary": "President Trump called for Jensen Huang to make a big apology and return as CEO of Nvidia even as the prospect remains highly unlikely. (Source: Bloomberg)"
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
@@ -263,7 +309,7 @@
      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
      "via": "",
      "published": "2026-11-21T00:00+00:00",
-     "summary": "Saudi Arabia issues a flurry of emergency alerts for Riyadh, as the Saudi coalition says it intercepted three missiles."
+     "summary": "Saudi-led coalition says it intercepted three missiles as IRGC claims it downed a US MQ-9 drone over Strait of Hormuz."
     },
     {
      "outlet": "Reuters",
@@ -284,7 +330,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 2,
@@ -335,41 +381,6 @@
      "summary": ""
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Bloomberg"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-21T01:49+00:00",
-   "earliest": "2026-11-20T22:31+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
-     "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-21T01:49+00:00",
-     "summary": "US president calls tech giant to give former CEO 'a second chance' and urges him to 'make a big apology'."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-huang-should-return-to-nvidia-after-big-apology-video",
-     "via": "",
-     "published": "2026-11-20T22:31+00:00",
-     "summary": "President Trump called for Jensen Huang to make a big apology and return as CEO of Nvidia even as the prospect remains highly unlikely. (Source: Bloomberg)"
-    }
-   ],
    "id": 3
   },
   {
@@ -411,76 +422,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "BNamericas",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Latin America",
-    "Oceania"
-   ],
-   "latest": "2026-11-20T21:45+00:00",
-   "earliest": "2026-11-20T01:06+00:00",
-   "items": [
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Argentina’s Mendoza adds BHP, Teck and Patagonia Gold to its mining map",
-     "url": "https://www.bnamericas.com/en/news/argentinas-mendoza-adds-bhp-teck-and-patagonia-gold-to-its-mining-map",
-     "via": "",
-     "published": "2026-11-20T21:45+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Patagonia Gold buys dormant Argentina project for $22 million",
-     "url": "https://mining.com.au/patagonia-gold-buys-dormant-argentina-project/",
-     "via": "",
-     "published": "2026-11-20T01:06+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-20T21:32+00:00",
-   "earliest": "2026-11-20T11:39+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "China copper smelters blend concentrate overseas to boost supply",
-     "url": "https://mining.com.au/china-copper-smelters-blend-concentrate-overseas-to-boost-supply/",
-     "via": "",
-     "published": "2026-11-20T21:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Two Chinese copper smelters blend concentrate overseas to boost supply, sources say",
-     "url": "https://www.miningweekly.com/article/two-chinese-copper-smelters-blend-concentrate-overseas-to-boost-supply-sources-say-2026-11-20",
-     "via": "",
-     "published": "2026-11-20T11:39+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Livemint / Economic Times",
     "Nikkei Asia"
    ],
@@ -510,7 +451,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -545,7 +486,42 @@
      "summary": "Gold slid for a fifth day — notching its biggest weekly decline since March — as a hawkish Federal Reserve signaled more interest-rate hikes and a rout in AI stocks spurred selling across metals markets."
     }
    ],
-   "id": 8
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining Weekly",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-20T07:07+00:00",
+   "earliest": "2026-11-19T11:36+00:00",
+   "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Chile's environmental regulator files charges against Codelco copper mine",
+     "url": "https://www.miningweekly.com/article/chiles-environmental-regulator-files-charges-against-codelco-copper-mine-2026-11-20",
+     "via": "",
+     "published": "2026-11-20T07:07+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Chile threatens Codelco mine permit over dust violations",
+     "url": "https://www.mining.com/chile-threatens-codelco-mine-permit-over-dust-violations/",
+     "via": "",
+     "published": "2026-11-19T11:36+00:00",
+     "summary": "Environmental regulator said Ministro Hales' dust control failures may lead to fines, closure, or permit revocation."
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -580,7 +556,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -615,7 +591,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -650,7 +626,7 @@
      "summary": "The Senate passed a sweeping, bipartisan bill Thursday night that's designed to cut permitting timelines for energy and infrastructure projects. Why it matters: The eyes of the entire energy industry are on this bill. If it becomes law, it could transform how America builds energy infrastructure, with major implications for everything from electricity costs to data centers. Getting rid of bureaucr"
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -685,42 +661,7 @@
      "summary": "Ivanhoe Electric's latest drilling reveals two mineralized zones at Gleeson, raising prospects for a new US mining district."
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-19T20:17+00:00",
-   "earliest": "2026-11-19T19:51+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Senate Republicans block latest Democratic effort to end the war in Iran",
-     "url": "https://apnews.com/article/iran-war-trump-senate-war-powers-bcbb331cd6c847bf5d0bcb7446344714",
-     "via": "",
-     "published": "2026-11-19T20:17+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Backing Trump, US Senate Republicans block Iran war resolution",
-     "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/",
-     "via": "",
-     "published": "2026-11-19T19:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -755,7 +696,7 @@
      "summary": "President Trump said in a brief phone interview Thursday that he won't make a determination on his next step in the Iran war until the new year. \"I am not rushing into any decision [on Iran]. We will see what happens after the beginning of the year,\" Trump told Axios from Air Force One, on his way back to the U.S. from China. Why it matters: The president's comments come as he faces heavy pressure"
     }
    ],
-   "id": 14
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -790,7 +731,7 @@
      "summary": "Molten’s Oakland, California demonstration plant now operational, producing battery-grade graphite and clean hydrogen, commercial-scale."
     }
    ],
-   "id": 15
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -825,7 +766,7 @@
      "summary": "Brazil disputes Brussels' authority over a Chinese acquisition as Anglo American warns its two nickel mines could close."
     }
    ],
-   "id": 16
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -860,41 +801,7 @@
      "summary": ""
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Ecofin Agency"
-   ],
-   "regions": [
-    "Africa"
-   ],
-   "latest": "2026-11-20T12:07+00:00",
-   "earliest": "2026-11-20T10:54+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Newcore Gold submits mining lease application for Ghana gold project",
-     "url": "https://www.miningweekly.com/article/newcore-gold-submits-mining-lease-application-for-gold-project-in-ghana-2026-11-20",
-     "via": "",
-     "published": "2026-11-20T12:07+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Newcore Gold Sets Mid-2027 Deadline for Key Permit at Ghana’s $351 Million Enchi Project",
-     "url": "https://www.ecofinagency.com/news-industry/2011-61023-newcore-gold-sets-mid-2027-deadline-for-key-permit-at-ghana-s-351-million-enchi-project",
-     "via": "",
-     "published": "2026-11-20T10:54+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -928,7 +835,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -962,7 +869,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -996,7 +903,7 @@
      "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
     }
    ],
-   "id": 21
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1030,7 +937,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1064,7 +971,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1098,7 +1005,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 21
   }
  ]
 }
