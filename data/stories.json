@@ -1,63 +1,65 @@
 {
- "fetched_at": "2026-11-22T06:48:35+00:00",
+ "fetched_at": "2026-11-22T20:28:55+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 566,
+ "items_read": 507,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 6,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 24,
+   "items": 17,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 27,
+   "items": 23,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 11,
+   "items": 7,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 28,
+   "items": 23,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 18,
+   "items": 11,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 10,
+   "items": 3,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "DigiTimes": {
@@ -67,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 26,
+   "items": 23,
    "errors": []
   },
   "Financial Times": {
@@ -77,37 +79,37 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 11,
+   "items": 14,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 11,
+   "items": 14,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 8,
+   "items": 5,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 35,
+   "items": 24,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,49 +124,49 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 17,
+   "items": 15,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 15,
+   "items": 13,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 12,
+   "items": 8,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 9,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 15,
+   "items": 8,
    "errors": []
   },
   "gCaptain": {
    "region": "North America",
-   "items": 10,
+   "items": 12,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 12,
+   "items": 20,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "RNZ": {
@@ -174,7 +176,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 15,
+   "items": 6,
    "errors": []
   },
   "PortNews": {
@@ -189,29 +191,27 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 15,
+   "items": 23,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 10,
+   "items": 13,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 0,
-   "errors": [
-    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 4,
+   "errors": []
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 18,
+   "items": 13,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 6,
+   "items": 7,
    "errors": []
   },
   "VnExpress International": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 27,
+   "items": 21,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,220 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 6,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Euronews",
+    "ABC News (Australia)",
+    "Deutsche Welle",
+    "Reuters",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-22T14:42+00:00",
+   "earliest": "2026-11-22T03:06+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Indonesia candy factory fire leaves 3 workers dead and 37 others unaccounted for",
+     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
+     "via": "",
+     "published": "2026-11-22T14:42+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Emergency workers recover at least six body bags after Indonesian factory fire",
+     "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire",
+     "via": "",
+     "published": "2026-11-22T12:22+00:00",
+     "summary": "Video footage posted on social media by Indonesia's National Search and Rescue Agency (Basarnas), showed emergency crews looking through the charred remains of the building."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Bodies found, 29 workers missing after Indonesian factory fire",
+     "url": "https://www.abc.net.au/news/2026-11-22/bodies-recovered-after-indonesian-factory-fire/107414720",
+     "via": "",
+     "published": "2026-11-22T09:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Dozens missing as deadly fire hits Indonesian candy factory",
+     "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-22T06:14+00:00",
+     "summary": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tragedy."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Search for Indonesia factory fire missing to resume Monday, police remove 24 body bags",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesia-rescuers-search-36-missing-after-factory-fire-kills-3-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T03:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Search for Indonesia factory fire missing to resume on Nov 23, police remove 24 body bags",
+     "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
+     "via": "",
+     "published": "2026-11-22T03:06+00:00",
+     "summary": "The factory’s chief executive officer said around 300 people were present for the Nov 21 shift."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 5,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Jazeera",
+    "Deutsche Welle",
+    "Al Arabiya",
+    "gCaptain"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-22T18:32+00:00",
+   "earliest": "2026-11-22T15:09+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship in Benghazi",
+     "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T18:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-22T18:11+00:00",
+     "summary": "A Russian ship has been struck in a suspected drone attack while docked at Libya’s Benghazi naval base."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-22T16:50+00:00",
+     "summary": "A Russian vessel at an eastern Libyan naval base was hit by what is suspected to be a drone strike."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Libya’s eastern government suspects drone attack caused explosion on Russian ship",
+     "url": "https://english.alarabiya.net/News/africa/2026/11/22/libya-s-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship",
+     "via": "",
+     "published": "2026-11-22T15:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Suspected Drone Attack Caused Explosion On Russian Ship At Benghazi Port",
+     "url": "https://gcaptain.com/suspected-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port/",
+     "via": "",
+     "published": "2026-11-22T15:09+00:00",
+     "summary": "Nov 22 (Reuters) – Libya’s eastern-based government said on Sunday that a preliminary investigation indicated an explosion at the Benghazi naval base in eastern Libya occurred aboard a Russian ship docked at..."
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Al Arabiya"
+    ]
+   ],
+   "outlets": [
+    "Reuters",
+    "Deutsche Welle",
+    "Al Arabiya",
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-22T19:29+00:00",
+   "earliest": "2026-11-22T07:29+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+     "url": "https://www.reuters.com/world/middle-east/israels-eisenkot-condemns-arson-attacks-by-jewish-settlers-west-bank-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T19:29+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Israel's Eisenkot condemns 'Jewish terrorism' in West Bank",
+     "url": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-22T15:09+00:00",
+     "summary": "Israeli opposition leader Gadi Eisenkot has condemned a recent series of arson attacks in the occupied West Bank as \"Jewish terrorism.\" Israeli authorities have opened an investigation into the incidents."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
+     "via": "",
+     "published": "2026-11-22T14:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Israeli opposition leader condemns suspected settler attacks as 'terrorism,' and other Mideast news",
+     "url": "https://apnews.com/article/mideast-houthis-west-bank-november-22-2026-8d1680a23d592667db1ce1969b55b4f2",
+     "via": "",
+     "published": "2026-11-22T09:29+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Eisenkot condemns overnight West Bank arson attacks as 'Jewish terrorism,' urges crackdown",
+     "url": "https://www.timesofisrael.com/liveblog_entry/eisenkot-condemns-overnight-west-bank-arson-attacks-as-jewish-terrorism-urges-crackdown/",
+     "via": "",
+     "published": "2026-11-22T07:29+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
   {
    "independent_outlets": 3,
    "same_headline_groups": [
@@ -261,7 +475,7 @@
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-22T02:47+00:00",
+   "latest": "2026-11-22T07:14+00:00",
    "earliest": "2026-11-21T12:18+00:00",
    "items": [
     {
@@ -270,7 +484,7 @@
      "title": "‘We’ve got to stop the war’: Endurance athlete swims in Strait of Hormuz",
      "url": "https://www.abc.net.au/news/2026-11-22/strait-of-hormuz-swimmer-highlights-iran-war-impact-on-wildlife/107414066",
      "via": "",
-     "published": "2026-11-22T02:47+00:00",
+     "published": "2026-11-22T07:14+00:00",
      "summary": ""
     },
     {
@@ -301,198 +515,125 @@
      "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
     }
    ],
-   "id": 1
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Times of Israel",
-    "Reuters"
+    "Australian Financial Review",
+    "Financial Times",
+    "Nikkei Asia"
    ],
    "regions": [
+    "East Asia",
     "Europe",
-    "Middle East"
+    "Oceania"
    ],
-   "latest": "2026-11-21T22:02+00:00",
-   "earliest": "2026-11-21T19:15+00:00",
+   "latest": "2026-11-22T19:49+00:00",
+   "earliest": "2026-11-22T18:29+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Bahrain says Iranian attack hits industrial facility",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Scott Bessent refuses to rule out Jensen Huang’s return to Nvidia",
+     "url": "https://www.afr.com/world/north-america/scott-bessent-refuses-to-rule-out-jensen-huang-s-return-to-nvidia-20261123-p61gck?ref=rss&utm_medium=rss&utm_source=rss_feed",
      "via": "",
-     "published": "2026-11-21T22:02+00:00",
-     "summary": "Bahrain says Iranian attack hits industrial facility"
+     "published": "2026-11-22T19:49+00:00",
+     "summary": "The US Treasury secretary has softened his calls for new leadership at the tech giant amid a clamour from Silicon Valley to reinstate the former chief executive."
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Bahrain says Iranian strike hit civilian industrial facility, sparking fire; IRGC says US bases targeted",
-     "url": "https://www.timesofisrael.com/liveblog_entry/bahrain-says-iranian-strike-hit-civilian-industrial-facility-sparking-fire-irgc-says-us-bases-targeted/",
-     "via": "",
-     "published": "2026-11-21T19:49+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
+     "outlet": "Financial Times",
      "region": "Europe",
-     "title": "Bahrain says Iranian attack hits industrial facility as air defences intercept attacks",
-     "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+     "title": "Bessent refuses to rule out Huang’s return to Nvidia",
+     "url": "https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346?syn-25a6b1a6=1",
      "via": "",
-     "published": "2026-11-21T19:15+00:00",
+     "published": "2026-11-22T19:08+00:00",
+     "summary": "Treasury secretary says it depends ‘where the buck stops’ as US president calls for former chief’s reinstatement"
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "US must 'see where the buck stops' on Nvidia chip sales to China: Bessent",
+     "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-must-see-where-the-buck-stops-on-nvidia-chip-sales-to-china-bessent",
+     "via": "",
+     "published": "2026-11-22T18:29+00:00",
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 5
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Euronews",
     "Al Arabiya",
-    "Reuters",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-21T05:35+00:00",
-   "earliest": "2026-11-20T11:04+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia intercepts three Houthi missiles targeting Riyadh",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/21/saudi-arabia-intercepts-three-houthi-missiles-targeting-riyadh",
-     "via": "",
-     "published": "2026-11-21T05:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
-     "url": "https://www.reuters.com/world/middle-east/saudi-arabia-issues-two-riyadh-alerts-says-danger-has-passed-2026-11-20/",
-     "via": "",
-     "published": "2026-11-20T23:36+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi-led coalition warns civilians to evacuate Yemen’s Hodeida port",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-warns-civilians-to-evacuate-yemens-hodeida-port/",
-     "via": "",
-     "published": "2026-11-20T11:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Times of Israel"
-    ]
-   ],
-   "outlets": [
-    "Reuters",
-    "Times of Israel",
-    "Associated Press"
+    "gCaptain"
    ],
    "regions": [
     "Europe",
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-20T02:50+00:00",
-   "earliest": "2026-11-19T20:22+00:00",
+   "latest": "2026-11-22T18:07+00:00",
+   "earliest": "2026-11-21T19:38+00:00",
    "items": [
     {
-     "outlet": "Reuters",
+     "outlet": "Euronews",
      "region": "Europe",
-     "title": "Backing Trump, US Senate Republicans block Iran war resolution",
-     "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/",
+     "title": "Tanker incident “involving military forces” reported in Strait of Hormuz",
+     "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz",
      "via": "",
-     "published": "2026-11-20T02:50+00:00",
-     "summary": ""
+     "published": "2026-11-22T18:07+00:00",
+     "summary": "Amid conflicting reports that an Iranian tanker departed Iran’s Kharg Island on Sunday to force the US military blockade in the Strait of Hormuz, an incident was reported near the US navy blockade line. Iran threatened that any US attempt to stop its tankers would result in immediate attacks."
     },
     {
-     "outlet": "Times of Israel",
+     "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Backing Trump, US Senate Republicans block Iran war resolution",
-     "url": "https://www.timesofisrael.com/liveblog_entry/backing-trump-us-senate-republicans-block-iran-war-resolution/",
+     "title": "UKMTO reports incident involving tanker and military forces in Gulf of Oman",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/ukmto-reports-incident-involving-tanker-and-military-forces-in-gulf-of-oman",
      "via": "",
-     "published": "2026-11-19T21:55+00:00",
+     "published": "2026-11-22T16:41+00:00",
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
+     "outlet": "gCaptain",
      "region": "North America",
-     "title": "Senate Republicans block latest Democratic effort to end the war in Iran",
-     "url": "https://apnews.com/article/iran-war-trump-senate-war-powers-bcbb331cd6c847bf5d0bcb7446344714",
+     "title": "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz",
+     "url": "https://gcaptain.com/two-tanker-incidents-reported-near-oman-vessel-hit-mine-east-of-hormuz/",
      "via": "",
-     "published": "2026-11-19T20:22+00:00",
-     "summary": ""
+     "published": "2026-11-21T19:38+00:00",
+     "summary": "Nov 21 (Reuters) – A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United..."
     }
    ],
-   "id": 4
+   "id": 6
   },
   {
-   "independent_outlets": 2,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-22T02:31+00:00",
-   "earliest": "2026-11-22T00:00+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "China's $1.7 trillion AI rout turns once-hot tech trade into a losing bet",
-     "url": "https://www.business-standard.com/world-news/china-s-1-7-trillion-ai-rout-turns-once-hot-tech-trade-into-a-losing-bet-126112200085_1.html",
-     "via": "",
-     "published": "2026-11-22T02:31+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
-     "via": "",
-     "published": "2026-11-22T00:00+00:00",
-     "summary": "China’s AI stock trade, once a hot bet as the nation’s technology powerhouses raced to catch up with the US, has morphed into a losing strategy."
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
+    "gCaptain",
     "ABC News (Australia)",
     "Reuters"
    ],
    "regions": [
     "Europe",
+    "North America",
     "Oceania"
    ],
-   "latest": "2026-11-21T21:52+00:00",
-   "earliest": "2026-11-21T21:01+00:00",
+   "latest": "2026-11-22T14:31+00:00",
+   "earliest": "2026-11-21T11:50+00:00",
    "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Russian Cargo Ship Still On Fire Off Finland After Attack",
+     "url": "https://gcaptain.com/russian-cargo-ship-still-on-fire-off-finland-after-attack/",
+     "via": "",
+     "published": "2026-11-22T14:31+00:00",
+     "summary": "HELSINKI, Nov 22 (Reuters) – A fire onboard a Russian cargo ship that was struck by drones in the Baltic Sea continued to burn through the night even as efforts were made to..."
+    },
     {
      "outlet": "ABC News (Australia)",
      "region": "Oceania",
@@ -508,11 +649,352 @@
      "title": "Russian cargo ship ablaze in Baltic Sea after drone strike, crew evacuates",
      "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/",
      "via": "",
-     "published": "2026-11-21T21:01+00:00",
+     "published": "2026-11-21T11:50+00:00",
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-22T08:59+00:00",
+   "earliest": "2026-11-21T19:15+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Arabia condemns Iranian attack on civilian industrial facility in Bahrain",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/22/saudi-arabia-condemns-iranian-attack-on-civilian-industrial-facility-in-bahrain",
+     "via": "",
+     "published": "2026-11-22T08:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Bahrain says Iranian attack hit industrial facility; IRGC says it targeted US positions",
+     "url": "https://www.timesofisrael.com/bahrain-says-iranian-attack-hit-industrial-facility-irgc-says-it-targeted-us-positions/",
+     "via": "",
+     "published": "2026-11-22T01:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Bahrain says Iran strikes industrial facility as air defences intercept attacks",
+     "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+     "via": "",
+     "published": "2026-11-21T19:15+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Africanews",
+     "Euronews"
+    ]
+   ],
+   "outlets": [
+    "Al Jazeera",
+    "Africanews",
+    "Euronews"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-22T16:50+00:00",
+   "earliest": "2026-11-22T15:52+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Israeli settlers attack multiple Palestinian villages as pogroms surge",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/israeli-settlers-attack-multiple-palestinian-villages-as-pogroms-surge?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-22T16:50+00:00",
+     "summary": "Israeli settlers attacked several Palestinian towns and villages in the occupied West Bank on Sunday."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
+     "url": "http://www.africanews.com/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks/",
+     "via": "",
+     "published": "2026-11-22T15:52+00:00",
+     "summary": "Burnt-out cars, damaged trucks and anti-Arab graffiti were discovered in four Palestinian villages in the Israeli-occupied West Bank on Sunday 22 November 2026, following overnight attacks blamed by local activists on Israeli settlers."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
+     "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks",
+     "via": "",
+     "published": "2026-11-22T15:52+00:00",
+     "summary": "Burnt-out cars, damaged trucks and anti-Arab graffiti were discovered in four Palestinian villages in the Israeli-occupied West Bank on Sunday 22 November 2026, following overnight attacks blamed by local activists on Israeli settlers."
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-22T19:25+00:00",
+   "earliest": "2026-11-22T10:34+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Sudan: Drones hit UN building, residential area in Khartoum",
+     "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-22T19:25+00:00",
+     "summary": "The drones targeted Khartoum, damaging a UN building in the residential area. The UN agency deemed it unacceptable that humanitarian workers were exposed to such danger."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Drones strike residential areas in Sudan’s Khartoum, destroying homes",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/22/drones-strike-residential-areas-in-sudan-s-khartoum-destroying-homes",
+     "via": "",
+     "published": "2026-11-22T10:34+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-22T17:52+00:00",
+   "earliest": "2026-11-20T20:46+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery",
+     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-rabigh-oil-refinery-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T17:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
+     "url": "https://apnews.com/article/saudi-yemen-war-iran-iraq-november-20-2026-16c39c487a23b53b73c5eabb7f0fd57a",
+     "via": "",
+     "published": "2026-11-20T20:46+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-22T17:19+00:00",
+   "earliest": "2026-11-20T22:15+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Three Russian missiles flew into Poland Friday, prosecutors say",
+     "url": "https://www.reuters.com/world/three-russian-missiles-flew-into-poland-friday-prosecutors-say-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T17:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
+     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
+     "via": "",
+     "published": "2026-11-20T22:15+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-22T16:33+00:00",
+   "earliest": "2026-11-22T13:18+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
+     "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-22T16:33+00:00",
+     "summary": "Draft text considered too weak to deal with climate change after oil-producing countries oppose the term 'fossil fuels'."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
+     "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-22T13:18+00:00",
+     "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world."
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-22T16:28+00:00",
+   "earliest": "2026-11-20T23:11+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Lutnick asked battery startup Pure Lithium to accept US takeover",
+     "url": "https://mining.com.au/lutnick-asked-battery-startup-pure-lithium-to-accept-us-takeover/",
+     "via": "",
+     "published": "2026-11-22T16:28+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: Lutnick asked battery startup Pure Lithium to accept US takeover, documents and source say",
+     "url": "https://www.reuters.com/world/china/lutnick-asked-battery-startup-pure-lithium-accept-us-takeover-documents-source-2026-11-20/",
+     "via": "",
+     "published": "2026-11-20T23:11+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "South China Morning Post"
+   ],
+   "regions": [
+    "China",
+    "South Asia"
+   ],
+   "latest": "2026-11-22T13:06+00:00",
+   "earliest": "2026-11-20T22:35+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Who is Eva Yi Xie? Why was the 24-year-old Princeton PhD student detained by ICE in the US",
+     "url": "https://www.livemint.com/news/us-news/who-is-eva-yi-xie-why-was-the-24-year-old-princeton-phd-student-detained-by-ice-in-the-us-11795351609686.html",
+     "via": "",
+     "published": "2026-11-22T13:06+00:00",
+     "summary": "Princeton University doctoral student Eva Yi Xie was detained by US Immigration and Customs Enforcement after attending an academic conference. While the DHS alleges she overstayed her visa, her lawyers argue that her pending asylum application allows her to remain in the US."
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "Princeton PhD student from China detained by ICE after US academic conference",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3375301/princeton-phd-student-china-detained-ice-after-academic-conference",
+     "via": "",
+     "published": "2026-11-20T22:35+00:00",
+     "summary": "A Chinese PhD student at Princeton University, New Jersey, was detained by US Immigration and Customs Enforcement (ICE) on Thursday after presenting her research at a neuroscience conference in Washington, the South China Morning Post has confirmed. Eva Yi Xie, a third-year neuroscience student, was detained at Ronald Reagan National Airport in Washington while travelling home from the Society for"
+    }
+   ],
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-11-22T12:50+00:00",
+   "earliest": "2026-11-20T01:14+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "China's spies set sights on AI semiconductors years before Nvidia scandal",
+     "url": "https://www.business-standard.com/world-news/china-s-spies-set-sights-on-ai-semiconductors-years-before-nvidia-scandal-126112200539_1.html",
+     "via": "",
+     "published": "2026-11-22T12:50+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Alibaba sued for allegedly concealing ties to suspected spy in Nvidia scandal",
+     "url": "https://asia.nikkei.com/business/technology/alibaba-sued-for-allegedly-concealing-ties-to-suspected-spy-in-nvidia-scandal",
+     "via": "",
+     "published": "2026-11-20T01:14+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -547,171 +1029,22 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 17
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Bloomberg",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-21T11:44+00:00",
-   "earliest": "2026-11-21T09:46+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Russian Cargo Ship Attacked By Drones in Gulf of Finland",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
-     "via": "",
-     "published": "2026-11-21T11:44+00:00",
-     "summary": "Russia said a cargo ship bound for its Kaliningrad exclave was targeted in international waters in the Gulf of Finland, highlighting growing risks to the country’s energy and food exports through critical Baltic Sea shipping routes."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Russia says cargo vessel attacked by drones in Gulf of Finland",
-     "url": "https://english.alarabiya.net/News/world/2026/11/21/russia-says-cargo-vessel-attacked-by-drones-in-gulf-of-finland",
-     "via": "",
-     "published": "2026-11-21T09:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-21T07:53+00:00",
-   "earliest": "2026-11-20T08:55+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "India: Nepal PM Balendra Shah to arrive in Delhi for first visit",
-     "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-to-arrive-in-delhi-for-first-visit/live-80008104?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-21T07:53+00:00",
-     "summary": "Nepal's rapper-turned-prime minister Balendra Shah is in New Delhi for his first bilateral visit since taking office, with talks with Modi expected to focus on flood reconstruction aid, trade and energy. DW has more."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nepal PM Balendra Shah to visit India, meet Modi",
-     "url": "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi",
-     "via": "",
-     "published": "2026-11-20T08:55+00:00",
-     "summary": "KATHMANDU, Nov 20 - Nepal’s rapper-turned-Prime Minister Balendra Shah will meet Indian counterpart Narendra Modi next week on his first bilateral visit since the March election, officials said on Friday."
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-21T06:29+00:00",
-   "earliest": "2026-11-20T23:11+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Araghchi says Iran wants diplomacy to end war, Trump says terms unacceptable",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/21/araghchi-says-iran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
-     "via": "",
-     "published": "2026-11-21T06:29+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable",
-     "url": "https://www.reuters.com/world/middle-east/araqchi-says-iran-wants-diplomacy-end-war-trump-says-terms-unacceptable-2026-11-20/",
-     "via": "",
-     "published": "2026-11-20T23:11+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-20T21:32+00:00",
-   "earliest": "2026-11-20T01:48+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Gold price heads for worst weekly loss since March",
-     "url": "https://mining.com.au/gold-price-heads-for-worst-weekly-loss-since-march/",
-     "via": "",
-     "published": "2026-11-20T21:32+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
-     "url": "https://www.thejakartapost.com/business/2026/11/20/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate",
-     "via": "",
-     "published": "2026-11-20T01:48+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Africanews"
+    "Africanews",
+    "Associated Press"
    ],
    "regions": [
     "Africa",
     "North America"
    ],
-   "latest": "2026-11-20T19:52+00:00",
-   "earliest": "2026-11-20T16:02+00:00",
+   "latest": "2026-11-20T16:02+00:00",
+   "earliest": "2026-11-20T14:59+00:00",
    "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Workers and students protest across Europe as a strike in Italy disrupts services",
-     "url": "https://apnews.com/article/italy-europe-protests-strike-workers-students-inflation-8a742daa7242c84d99307c1fcc864f62",
-     "via": "",
-     "published": "2026-11-20T19:52+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Africanews",
      "region": "Africa",
@@ -720,219 +1053,121 @@
      "via": "",
      "published": "2026-11-20T16:02+00:00",
      "summary": "Workers and students marched through Rome, on Friday 20 November 2026, joining a nationwide strike over stagnant wages, rising living costs and government spending priorities. Protesters also demanded more funding for education and criticised military spending."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Workers and students protest across Europe as a strike in Italy disrupts services",
+     "url": "https://apnews.com/article/italy-europe-protests-strike-workers-students-inflation-8a742daa7242c84d99307c1fcc864f62",
+     "via": "",
+     "published": "2026-11-20T14:59+00:00",
+     "summary": ""
     }
    ],
-   "id": 12
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "BNamericas",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-20T12:06+00:00",
+   "earliest": "2026-11-20T10:15+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Daily headlines: Lithium behind Chile’s US$111bn pipeline",
+     "url": "https://www.bnamericas.com/en/news/daily-headlines-lithium-behind-chiles-us111bn-pipeline",
+     "via": "",
+     "published": "2026-11-20T12:06+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Chile’s $111 billion mining boom hinges on lithium approvals",
+     "url": "https://www.mining.com/chiles-111-billion-mining-boom-hinges-on-lithium-approvals/",
+     "via": "",
+     "published": "2026-11-20T10:15+00:00",
+     "summary": "The nation's project outlook reaches a 13-year high, facing permitting hurdles and regional strains on major upgrades."
+    }
+   ],
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-22T20:07+00:00",
+   "earliest": "2026-11-22T16:07+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Germany tests Kamikaze drones and AI targeting technology in Lithuania",
+     "url": "https://www.euronews.com/2026/11/22/germany-tests-kamikaze-drones-and-ai-targeting-technology-in-lithuania",
+     "via": "",
+     "published": "2026-11-22T20:07+00:00",
+     "summary": "The Bundeswehr's latest military trials highlight Germany's growing investment in unmanned weapons, artificial intelligence and preparations to defend NATO's eastern flank."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "German army starts testing kamikaze drones and AI targeting tool in Lithuania",
+     "url": "https://www.reuters.com/business/aerospace-defense/german-army-starts-testing-kamikaze-drones-ai-targeting-tool-lithuania-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T16:07+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 20
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Deutsche Welle",
-    "CBC News"
+    "Reuters"
    ],
    "regions": [
-    "Europe",
-    "North America"
+    "Europe"
    ],
-   "latest": "2026-11-20T12:58+00:00",
-   "earliest": "2026-11-19T12:57+00:00",
+   "latest": "2026-11-22T08:07+00:00",
+   "earliest": "2026-11-21T23:03+00:00",
    "items": [
     {
      "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "FIFA presidential election 2027: Infantino facing Diallo and Tashima — could an alliance change everything?",
-     "url": "https://www.dw.com/en/fifa-presidential-election-2027-infantino-facing-diallo-and-tashima-could-an-alliance-change-everything/a-80002882?maca=en-rss-en-all-1573-rdf",
+     "title": "Germany news: IG Metall union calls for new 24-hour strike",
+     "url": "https://www.dw.com/en/germany-news-ig-metall-union-calls-for-new-24-hour-strike/live-80008430?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-11-20T12:58+00:00",
-     "summary": "Two challengers to Gianni Infantino have registered for next year's FIFA presidential election. What do Philippe Diallo and Kozo Tashima stand for – and do they stand a chance against the incumbent?"
+     "published": "2026-11-22T08:07+00:00",
+     "summary": "Germany's biggest single union, IG Metall, is calling on car and shipyard workers to strike amid a pay row. Meanwhile, Germany's president is setting off on an Africa trip. DW has more."
     },
     {
-     "outlet": "CBC News",
-     "region": "North America",
-     "title": "France's Diallo, Japan's Tashima challenging Infantino in FIFA presidential election",
-     "url": "https://www.cbc.ca/sports/soccer/fifa-presidential-election-candidates-infantino-diallo-tashima-9.7427801",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "German car and shipyard workers set to strike as IG Metall union extends walkout",
+     "url": "https://www.reuters.com/business/world-at-work/german-car-shipyard-workers-set-strike-ig-metall-union-extends-walkout-2026-11-21/",
      "via": "",
-     "published": "2026-11-19T12:57+00:00",
+     "published": "2026-11-21T23:03+00:00",
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-20T10:10+00:00",
-   "earliest": "2026-11-20T01:16+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "COP31 delivers deals for host Turkey as climate diplomacy stalls",
-     "url": "https://www.straitstimes.com/asia/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls",
-     "via": "",
-     "published": "2026-11-20T10:10+00:00",
-     "summary": "ANTALYA, Turkey, Nov 20 - Turkey is set to emerge from COP31 with billions of dollars in investment deals, including on green energy, but the chances of an ambitious outcome to curb the world's carbon emissions looked slim as the talks entered what was meant to be their final day."
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "Sinopec Hosts Side Event at COP31's CHINA PAVILION, Releases Energy and Green Fuel Outlooks",
-     "url": "https://english.kyodonews.net/articles/-/92095",
-     "via": "",
-     "published": "2026-11-20T01:16+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "Africa",
-    "East Asia"
-   ],
-   "latest": "2026-11-20T06:59+00:00",
-   "earliest": "2026-11-19T14:48+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "US Steel, United Steelworkers reach tentative four-year deal",
-     "url": "https://www.miningweekly.com/article/us-steel-united-steelworkers-reach-tentative-four-year-deal-2026-11-20",
-     "via": "",
-     "published": "2026-11-20T06:59+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Steelworkers union USW announces tentative labor pact with U.S. Steel",
-     "url": "https://asia.nikkei.com/business/companies/steelworkers-union-usw-announces-tentative-labor-pact-with-u.s.-steel",
-     "via": "",
-     "published": "2026-11-19T14:48+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-19T23:51+00:00",
-   "earliest": "2026-11-19T10:03+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Ivanhoe Electric makes ‘high-grade’ Arizona copper discovery",
-     "url": "https://mining.com.au/ivanhoe-electric-arizona-copper-gold-discovery/",
-     "via": "",
-     "published": "2026-11-19T23:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Friedland’s Ivanhoe Electric strikes high-grade copper in Arizona",
-     "url": "https://www.mining.com/friedlands-ivanhoe-electric-strikes-high-grade-copper-in-arizona/",
-     "via": "",
-     "published": "2026-11-19T10:03+00:00",
-     "summary": "Ivanhoe Electric's latest drilling reveals two mineralized zones at Gleeson, raising prospects for a new US mining district."
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-19T19:24+00:00",
-   "earliest": "2026-11-19T15:55+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks but deliver no breakthroughs",
-     "url": "https://apnews.com/article/trump-xi-putin-nuclear-ukraine-iran-a04dc76ed8e786b087e2c1ea9598783a",
-     "via": "",
-     "published": "2026-11-19T19:24+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks, without major breakthroughs",
-     "url": "https://www.timesofisrael.com/trump-xi-and-putin-hold-rare-3-way-talks-on-nuclear-risks-without-major-breakthroughs/",
-     "via": "",
-     "published": "2026-11-19T15:55+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Axios"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-19T19:09+00:00",
-   "earliest": "2026-11-19T18:25+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Trump says he’s ‘not rushing’ into Iran strike, will wait until January",
-     "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-hes-not-rushing-into-iran-strike-will-wait-until-january/",
-     "via": "",
-     "published": "2026-11-19T19:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump to Axios: I'm \"not rushing into a decision\" on Iran",
-     "url": "https://www.axios.com/2026/11/19/trump-iran-attacks-israel-new-year",
-     "via": "",
-     "published": "2026-11-19T18:25+00:00",
-     "summary": "President Trump said in a brief phone interview Thursday that he won't make a determination on his next step in the Iran war until the new year. \"I am not rushing into any decision [on Iran]. We will see what happens after the beginning of the year,\" Trump told Axios from Air Force One, on his way back to the U.S. from China. Why it matters: The president's comments come as he faces heavy pressure"
-    }
-   ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -966,7 +1201,41 @@
      "summary": "Thousands of people demonstrated in Portugal and France on Saturday, calling for higher wages, affordable housing and action to tackle the rising cost of living. In Lisbon, workers marched despite heavy rain, while trade unions, Yellow Vest activists and youth groups gathered in Paris."
     }
    ],
-   "id": 19
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "The Indian Express"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-21T10:38+00:00",
+   "earliest": "2026-11-21T02:57+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "From record highs to a brutal rout: What is behind the meltdown in gold and silver?",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/from-record-highs-to-a-brutal-rout-what-is-behind-the-meltdown-in-gold-and-silver/articleshow/136051518.cms",
+     "via": "",
+     "published": "2026-11-21T10:38+00:00",
+     "summary": "Gold demand remains resilient despite a slowdown in the 2026 outlook, with ETF inflows and economic uncertainty providing support. Silver declined 41% in six months, while gold fell 19%. Analysts identify crucial support levels as investors assess monetary policy and demand."
+    },
+    {
+     "outlet": "The Indian Express",
+     "region": "South Asia",
+     "title": "Gold, silver rout leaves investors counting heavy losses in 2026",
+     "url": "https://indianexpress.com/article/business/gold-silver-price-crash-2026-etf-outflows-india-investors-loss-10972250/",
+     "via": "",
+     "published": "2026-11-21T02:57+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -978,131 +1247,29 @@
    "regions": [
     "Middle East"
    ],
-   "latest": "2026-11-21T16:05+00:00",
-   "earliest": "2026-11-21T12:56+00:00",
+   "latest": "2026-11-20T11:04+00:00",
+   "earliest": "2026-11-20T11:04+00:00",
    "items": [
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "IDF says Gaza City strike targeted terror operatives; witnesses say struck vehicle was carrying aid, 3 people killed",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-gaza-city-strike-targeted-terror-operatives-witnesses-say-struck-vehicle-was-carrying-aid-3-people-killed/",
+     "title": "Saudi-led coalition warns civilians to evacuate Yemen’s Hodeida port",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-warns-civilians-to-evacuate-yemens-hodeida-port/",
      "via": "",
-     "published": "2026-11-21T16:05+00:00",
+     "published": "2026-11-20T11:04+00:00",
      "summary": ""
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/21/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say",
+     "title": "Saudi-led coalition asks residents to evacuate parts of Yemen’s port of Hodeida",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/saudiled-coalition-asks-residents-to-evacuate-parts-of-yemen-s-port-of-hodeida",
      "via": "",
-     "published": "2026-11-21T12:56+00:00",
+     "published": "2026-11-20T11:04+00:00",
      "summary": ""
     }
    ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "The Korea Herald"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-20T08:57+00:00",
-   "earliest": "2026-11-19T14:53+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "South Korea surpasses US$1 trillion in annual exports, powered by AI",
-     "url": "https://www.digitimes.com/news/a20261120VL219/exports-demand-performance-germany-semiconductors.html",
-     "via": "",
-     "published": "2026-11-20T08:57+00:00",
-     "summary": "On November 19, South Korea officially surpassed US$1 trillion in annual exports. With this achievement, South Korea becomes only the fourth nation in history to join the US$1 trillion export club, following Germany, the United States, and China."
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "South Korea's exports top $1 trillion for first time on chip boom",
-     "url": "https://www.koreaherald.com/article/10942838",
-     "via": "",
-     "published": "2026-11-19T14:53+00:00",
-     "summary": "South Korea’s annual exports surpassed $1 trillion for the first time, making it the fourth country to reach the milestone after Germany, the US and China, and the first new entrant to the club in 19 years, as global spending on artificial intelligence sent semiconductor prices and shipments soaring. Cumulative exports crossed the mark on 2:09 p.m. Thursday, a year after first topping $700 billion"
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-20T07:16+00:00",
-   "earliest": "2026-11-19T14:13+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "US AI chip curbs force Alibaba to rethink overseas compute strategy",
-     "url": "https://www.digitimes.com/news/a20261120PD234/alibaba-t-head-ai-chip-computing-power-capacity-2027.html",
-     "via": "",
-     "published": "2026-11-20T07:16+00:00",
-     "summary": "Alibaba plans to increase its reliance on domestically developed AI chips as tighter US restrictions on overseas computing services threaten China's access to advanced Nvidia GPUs. CEO Eddie Wu acknowledged that regulatory uncertainty could weigh on cloud growth in 2027, while proprietary T-Head processors may eventually support the company's overseas operations."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Alibaba trains next-gen AI model on own chips amid tighter US curbs",
-     "url": "https://asia.nikkei.com/business/technology/alibaba-trains-next-gen-ai-model-on-own-chips-amid-tighter-us-curbs",
-     "via": "",
-     "published": "2026-11-19T14:13+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America"
-   ],
-   "latest": "2026-11-19T23:31+00:00",
-   "earliest": "2026-11-19T11:34+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Deep-sea mining auctions spark environmental concerns in American Samoa and Northern Mariana Islands",
-     "url": "https://apnews.com/article/trump-deepsea-mining-oceans-environment-american-samoa-northern-marianas-d317c25ce85316b632b0369c9cce97a4",
-     "via": "",
-     "published": "2026-11-19T23:31+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Court ruling clouds US seabed auction off American Samoa",
-     "url": "https://www.mining.com/court-ruling-clouds-us-seabed-auction-off-american-samoa/",
-     "via": "",
-     "published": "2026-11-19T11:34+00:00",
-     "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
-    }
-   ],
-   "id": 23
+   "id": 24
   }
  ]
 }
