@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-22T02:55:20+00:00",
+ "fetched_at": "2026-11-22T06:48:35+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 584,
+ "outlets_read": 43,
+ "items_read": 566,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,14 +12,12 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 6,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 27,
+   "items": 24,
    "errors": []
   },
   "Ecofin Agency": {
@@ -34,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Yicai Global": {
@@ -49,12 +47,12 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
@@ -69,22 +67,22 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 24,
+   "items": 26,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 15,
+   "items": 11,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -94,7 +92,7 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 11,
+   "items": 8,
    "errors": []
   },
   "Al Jazeera": {
@@ -109,27 +107,27 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 34,
+   "items": 35,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 15,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Axios": {
@@ -139,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 9,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "RNZ": {
@@ -186,27 +184,29 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 24,
+   "items": 20,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 16,
+   "items": 15,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 8,
+   "items": 10,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 2,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,12 +216,12 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "BNamericas": {
@@ -243,49 +243,110 @@
  "clusters": [
   {
    "independent_outlets": 3,
-   "same_headline_groups": [],
+   "same_headline_groups": [
+    [
+     "Africanews",
+     "Euronews"
+    ]
+   ],
    "outlets": [
     "ABC News (Australia)",
-    "Reuters",
-    "gCaptain"
+    "Associated Press",
+    "Africanews",
+    "Euronews"
    ],
    "regions": [
+    "Africa",
     "Europe",
     "North America",
     "Oceania"
    ],
-   "latest": "2026-11-21T21:52+00:00",
-   "earliest": "2026-11-21T16:34+00:00",
+   "latest": "2026-11-22T02:47+00:00",
+   "earliest": "2026-11-21T12:18+00:00",
    "items": [
     {
      "outlet": "ABC News (Australia)",
      "region": "Oceania",
-     "title": "Russian cargo ship burns in Baltic Sea after drone strike, crew evacuates",
-     "url": "https://www.abc.net.au/news/2026-11-22/russian-cargo-ship-burns-in-baltic-sea-after-drone-strike/107413782",
+     "title": "‘We’ve got to stop the war’: Endurance athlete swims in Strait of Hormuz",
+     "url": "https://www.abc.net.au/news/2026-11-22/strait-of-hormuz-swimmer-highlights-iran-war-impact-on-wildlife/107414066",
      "via": "",
-     "published": "2026-11-21T21:52+00:00",
+     "published": "2026-11-22T02:47+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Endurance athlete swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
+     "url": "https://apnews.com/article/strait-of-hormuz-swimmer-lewis-pugh-e772be52a06d75699594a7396ec78f25",
+     "via": "",
+     "published": "2026-11-21T19:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
+     "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
+     "via": "",
+     "published": "2026-11-21T12:18+00:00",
+     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
+     "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll",
+     "via": "",
+     "published": "2026-11-21T12:18+00:00",
+     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Times of Israel",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-21T22:02+00:00",
+   "earliest": "2026-11-21T19:15+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Bahrain says Iranian attack hits industrial facility",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-21T22:02+00:00",
+     "summary": "Bahrain says Iranian attack hits industrial facility"
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Bahrain says Iranian strike hit civilian industrial facility, sparking fire; IRGC says US bases targeted",
+     "url": "https://www.timesofisrael.com/liveblog_entry/bahrain-says-iranian-strike-hit-civilian-industrial-facility-sparking-fire-irgc-says-us-bases-targeted/",
+     "via": "",
+     "published": "2026-11-21T19:49+00:00",
      "summary": ""
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Russian cargo ship ablaze in Baltic Sea after drone strike, crew evacuates",
-     "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/",
+     "title": "Bahrain says Iranian attack hits industrial facility as air defences intercept attacks",
+     "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
      "via": "",
-     "published": "2026-11-21T21:01+00:00",
+     "published": "2026-11-21T19:15+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Russian Military-Linked Cargo Ship Burns After Suspected Drone Strike in Gulf of Finland",
-     "url": "https://gcaptain.com/russian-military-linked-cargo-ship-burns-after-suspected-drone-strike-in-gulf-of-finland/",
-     "via": "",
-     "published": "2026-11-21T16:34+00:00",
-     "summary": "A Russian cargo ship linked to Moscow’s military logistics network caught fire after a drone strike in the Gulf of Finland on Saturday, drifting into Finnish territorial waters and triggering..."
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -330,153 +391,58 @@
      "summary": ""
     }
    ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-21T17:54+00:00",
-   "earliest": "2026-11-21T12:56+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-21T17:54+00:00",
-     "summary": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF says Gaza City strike targeted terror operatives; witnesses say struck vehicle was carrying aid, 3 people killed",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-gaza-city-strike-targeted-terror-operatives-witnesses-say-struck-vehicle-was-carrying-aid-3-people-killed/",
-     "via": "",
-     "published": "2026-11-21T16:05+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/21/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say",
-     "via": "",
-     "published": "2026-11-21T12:56+00:00",
-     "summary": ""
-    }
-   ],
    "id": 3
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
-     "Africanews",
-     "Euronews"
+     "Reuters",
+     "Times of Israel"
     ]
    ],
    "outlets": [
-    "Africanews",
-    "Euronews",
+    "Reuters",
+    "Times of Israel",
     "Associated Press"
    ],
    "regions": [
-    "Africa",
     "Europe",
+    "Middle East",
     "North America"
    ],
-   "latest": "2026-11-21T12:18+00:00",
-   "earliest": "2026-11-21T06:02+00:00",
+   "latest": "2026-11-20T02:50+00:00",
+   "earliest": "2026-11-19T20:22+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
-     "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Backing Trump, US Senate Republicans block Iran war resolution",
+     "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/",
      "via": "",
-     "published": "2026-11-21T12:18+00:00",
-     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
+     "published": "2026-11-20T02:50+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
-     "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Backing Trump, US Senate Republicans block Iran war resolution",
+     "url": "https://www.timesofisrael.com/liveblog_entry/backing-trump-us-senate-republicans-block-iran-war-resolution/",
      "via": "",
-     "published": "2026-11-21T12:18+00:00",
-     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
+     "published": "2026-11-19T21:55+00:00",
+     "summary": ""
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Endurance athlete swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
-     "url": "https://apnews.com/article/strait-of-hormuz-swimmer-lewis-pugh-e772be52a06d75699594a7396ec78f25",
+     "title": "Senate Republicans block latest Democratic effort to end the war in Iran",
+     "url": "https://apnews.com/article/iran-war-trump-senate-war-powers-bcbb331cd6c847bf5d0bcb7446344714",
      "via": "",
-     "published": "2026-11-21T06:02+00:00",
+     "published": "2026-11-19T20:22+00:00",
      "summary": ""
     }
    ],
    "id": 4
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Africanews",
-     "Euronews"
-    ]
-   ],
-   "outlets": [
-    "Associated Press",
-    "Africanews",
-    "Euronews"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-20T19:52+00:00",
-   "earliest": "2026-11-20T16:02+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Workers and students protest across Europe as a strike in Italy disrupts services",
-     "url": "https://apnews.com/article/italy-europe-protests-strike-workers-students-inflation-8a742daa7242c84d99307c1fcc864f62",
-     "via": "",
-     "published": "2026-11-20T19:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Italy: Workers and students stage nationwide strike over living costs",
-     "url": "http://www.africanews.com/2026/11/20/italy-workers-and-students-stage-nationwide-strike-over-living-costs/",
-     "via": "",
-     "published": "2026-11-20T16:02+00:00",
-     "summary": "Workers and students marched through Rome, on Friday 20 November 2026, joining a nationwide strike over stagnant wages, rising living costs and government spending priorities. Protesters also demanded more funding for education and criticised military spending."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Italy: Workers and students stage nationwide strike over living costs",
-     "url": "https://www.euronews.com/video/2026/11/20/italy-workers-and-students-stage-nationwide-strike-over-living-costs",
-     "via": "",
-     "published": "2026-11-20T16:02+00:00",
-     "summary": "Workers and students marched through Rome, on Friday 20 November 2026, joining a nationwide strike over stagnant wages, rising living costs and government spending priorities. Protesters also demanded more funding for education and criticised military spending."
-    }
-   ],
-   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -511,77 +477,42 @@
      "summary": "China’s AI stock trade, once a hot bet as the nation’s technology powerhouses raced to catch up with the US, has morphed into a losing strategy."
     }
    ],
+   "id": 5
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-21T21:52+00:00",
+   "earliest": "2026-11-21T21:01+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Russian cargo ship burns in Baltic Sea after drone strike, crew evacuates",
+     "url": "https://www.abc.net.au/news/2026-11-22/russian-cargo-ship-burns-in-baltic-sea-after-drone-strike/107413782",
+     "via": "",
+     "published": "2026-11-21T21:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Russian cargo ship ablaze in Baltic Sea after drone strike, crew evacuates",
+     "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/",
+     "via": "",
+     "published": "2026-11-21T21:01+00:00",
+     "summary": ""
+    }
+   ],
    "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-21T22:02+00:00",
-   "earliest": "2026-11-21T21:24+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Bahrain says Iranian attack hits industrial facility",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-21T22:02+00:00",
-     "summary": "Bahrain says Iranian attack hits industrial facility"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Bahrain says Iranian attack hits industrial facility as air defences intercept attacks",
-     "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
-     "via": "",
-     "published": "2026-11-21T21:24+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-21T19:38+00:00",
-   "earliest": "2026-11-21T07:57+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz",
-     "url": "https://gcaptain.com/two-tanker-incidents-reported-near-oman-vessel-hit-mine-east-of-hormuz/",
-     "via": "",
-     "published": "2026-11-21T19:38+00:00",
-     "summary": "Nov 21 (Reuters) – A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United..."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz",
-     "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
-     "via": "",
-     "published": "2026-11-21T07:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -616,42 +547,7 @@
      "summary": ""
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-21T14:14+00:00",
-   "earliest": "2026-11-20T19:45+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Trump says Jensen Huang should apologize and return to Nvidia",
-     "url": "https://www.digitimes.com/news/a20261121VL200/nvidia-donald-trump-jensen-huang-taiwan-taipei.html",
-     "via": "",
-     "published": "2026-11-21T14:14+00:00",
-     "summary": "U.S. President Donald Trump said Friday that Jensen Huang should apologize and be allowed to return as Nvidia's chief executive. It was the second time this week Trump backed Huang publicly, and it came three days after Nvidia's board said it would not reinstate him."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump says he still backs Lutnick, urges Nvidia's Huang to apologize",
-     "url": "https://www.reuters.com/world/us/trump-says-he-still-backs-lutnick-urges-nvidias-huang-apologize-2026-11-20/",
-     "via": "",
-     "published": "2026-11-20T19:45+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -686,7 +582,42 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-21T07:53+00:00",
+   "earliest": "2026-11-20T08:55+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "India: Nepal PM Balendra Shah to arrive in Delhi for first visit",
+     "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-to-arrive-in-delhi-for-first-visit/live-80008104?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-21T07:53+00:00",
+     "summary": "Nepal's rapper-turned-prime minister Balendra Shah is in New Delhi for his first bilateral visit since taking office, with talks with Modi expected to focus on flood reconstruction aid, trade and energy. DW has more."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nepal PM Balendra Shah to visit India, meet Modi",
+     "url": "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi",
+     "via": "",
+     "published": "2026-11-20T08:55+00:00",
+     "summary": "KATHMANDU, Nov 20 - Nepal’s rapper-turned-Prime Minister Balendra Shah will meet Indian counterpart Narendra Modi next week on his first bilateral visit since the March election, officials said on Friday."
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -721,42 +652,7 @@
      "summary": ""
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-21T02:56+00:00",
-   "earliest": "2026-11-20T22:36+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Trump backs Huang's return as Nvidia CEO, says Xi Jinping called him 'brilliant' as US maintains China chip policy",
-     "url": "https://www.livemint.com/news/us-news/trump-backs-huangs-return-as-nvidia-ceo-says-xi-jinping-called-him-brilliant-as-us-maintains-china-chip-policy-11795229406386.html",
-     "via": "",
-     "published": "2026-11-21T02:56+00:00",
-     "summary": "Trump backed Jensen Huang's return as Nvidia CEO, saying Xi Jinping called him brilliant during their talks. Meanwhile, US Treasury Secretary Scott Bessent said Washington's policy allowing H200 chip sales to China remains unchanged."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
-     "url": "https://apnews.com/article/nvidia-chip-export-restrictions-china-bessent-lutnick-88142455395552afe74caec3399a648b",
-     "via": "",
-     "published": "2026-11-20T22:36+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -791,42 +687,42 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 11
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "gCaptain",
-    "Al Arabiya"
+    "Associated Press",
+    "Africanews"
    ],
    "regions": [
-    "Middle East",
+    "Africa",
     "North America"
    ],
-   "latest": "2026-11-20T17:43+00:00",
-   "earliest": "2026-11-20T14:20+00:00",
+   "latest": "2026-11-20T19:52+00:00",
+   "earliest": "2026-11-20T16:02+00:00",
    "items": [
     {
-     "outlet": "gCaptain",
+     "outlet": "Associated Press",
      "region": "North America",
-     "title": "Another Tanker Hit in Strait of Hormuz as Maritime Attacks Surge Worldwide",
-     "url": "https://gcaptain.com/another-tanker-hit-in-strait-of-hormuz-as-maritime-attacks-surge-worldwide/",
+     "title": "Workers and students protest across Europe as a strike in Italy disrupts services",
+     "url": "https://apnews.com/article/italy-europe-protests-strike-workers-students-inflation-8a742daa7242c84d99307c1fcc864f62",
      "via": "",
-     "published": "2026-11-20T17:43+00:00",
-     "summary": "Another tanker was struck by a projectile and caught fire in the Strait of Hormuz on Friday, extending a wave of attacks on commercial shipping that has pushed maritime security..."
+     "published": "2026-11-20T19:52+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Tanker catches fire after projectile strike near Strait of Hormuz",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/20/fire-reported-on-tanker-after-projectile-strike-off-oman-ukmto-says",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Italy: Workers and students stage nationwide strike over living costs",
+     "url": "http://www.africanews.com/2026/11/20/italy-workers-and-students-stage-nationwide-strike-over-living-costs/",
      "via": "",
-     "published": "2026-11-20T14:20+00:00",
-     "summary": ""
+     "published": "2026-11-20T16:02+00:00",
+     "summary": "Workers and students marched through Rome, on Friday 20 November 2026, joining a nationwide strike over stagnant wages, rising living costs and government spending priorities. Protesters also demanded more funding for education and criticised military spending."
     }
    ],
-   "id": 15
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -861,7 +757,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -896,7 +792,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -931,42 +827,7 @@
      "summary": ""
     }
    ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-20T03:27+00:00",
-   "earliest": "2026-11-20T01:33+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "California AG subpoenas Nvidia over ex-CEO Huang's alleged China links",
-     "url": "https://www.business-standard.com/world-news/california-ag-subpoenas-nvidia-over-ex-ceo-huang-s-alleged-china-links-126112000104_1.html",
-     "via": "",
-     "published": "2026-11-20T03:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "California attorney general subpoenas Nvidia over chips, former CEO’s affair",
-     "url": "https://apnews.com/article/nvidia-subpoena-california-bonta-china-94c179f5aed88c49b7f77670eae40013",
-     "via": "",
-     "published": "2026-11-20T01:33+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -1001,7 +862,7 @@
      "summary": "Ivanhoe Electric's latest drilling reveals two mineralized zones at Gleeson, raising prospects for a new US mining district."
     }
    ],
-   "id": 20
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1036,7 +897,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1071,7 +932,7 @@
      "summary": "President Trump said in a brief phone interview Thursday that he won't make a determination on his next step in the Iran war until the new year. \"I am not rushing into any decision [on Iran]. We will see what happens after the beginning of the year,\" Trump told Axios from Air Force One, on his way back to the U.S. from China. Why it matters: The president's comments come as he faces heavy pressure"
     }
    ],
-   "id": 22
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1105,41 +966,41 @@
      "summary": "Thousands of people demonstrated in Portugal and France on Saturday, calling for higher wages, affordable housing and action to tackle the rising cost of living. In Lisbon, workers marched despite heavy rain, while trade unions, Yellow Vest activists and youth groups gathered in Paris."
     }
    ],
-   "id": 23
+   "id": 19
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "Times of Israel",
     "Al Arabiya"
    ],
    "regions": [
     "Middle East"
    ],
-   "latest": "2026-11-21T18:05+00:00",
-   "earliest": "2026-11-21T15:50+00:00",
+   "latest": "2026-11-21T16:05+00:00",
+   "earliest": "2026-11-21T12:56+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
+     "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
+     "title": "IDF says Gaza City strike targeted terror operatives; witnesses say struck vehicle was carrying aid, 3 people killed",
+     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-gaza-city-strike-targeted-terror-operatives-witnesses-say-struck-vehicle-was-carrying-aid-3-people-killed/",
      "via": "",
-     "published": "2026-11-21T18:05+00:00",
-     "summary": "US President Donald Trump says he wants a permanent agreement to prevent Iran from developing nuclear weapons."
+     "published": "2026-11-21T16:05+00:00",
+     "summary": ""
     },
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Trump accuses Iran of violating MoU, says any deal must prevent nuclear weapons",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/21/trump-accuses-iran-of-violating-mou-says-any-deal-must-prevent-nuclear-weapons",
+     "title": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/21/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say",
      "via": "",
-     "published": "2026-11-21T15:50+00:00",
+     "published": "2026-11-21T12:56+00:00",
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1173,7 +1034,7 @@
      "summary": "South Korea’s annual exports surpassed $1 trillion for the first time, making it the fourth country to reach the milestone after Germany, the US and China, and the first new entrant to the club in 19 years, as global spending on artificial intelligence sent semiconductor prices and shipments soaring. Cumulative exports crossed the mark on 2:09 p.m. Thursday, a year after first topping $700 billion"
     }
    ],
-   "id": 25
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1207,7 +1068,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1241,41 +1102,7 @@
      "summary": "The US deep-sea mineral lease auction is set for noon ET Thursday after a judge dismissed the fisheries agency's approval."
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-19T05:45+00:00",
-   "earliest": "2026-11-19T05:22+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Cyient Semiconductors secures $10 million strategic investment from GlobalFoundries",
-     "url": "https://www.thehindu.com/business/Industry/cyient-semiconductors-secures-10-million-strategic-investment-from-globalfoundries/article71718802.ece",
-     "via": "",
-     "published": "2026-11-19T05:45+00:00",
-     "summary": "With design centres in India, Belgium and the U.S., Cyient Semiconductors is focused on catering to customers across automotive, industrial, AI, communications and data centre markets"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Cyient Semiconductors gets $10 mn strategic investment from GlobalFoundries",
-     "url": "https://www.business-standard.com/companies/news/globalfoundries-invests-10-million-cyient-semiconductors-asic-126111900309_1.html",
-     "via": "",
-     "published": "2026-11-19T05:22+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 28
+   "id": 23
   }
  ]
 }
