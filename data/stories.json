@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-23T01:08:43+00:00",
+ "fetched_at": "2026-11-23T01:46:48+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 505,
+ "items_read": 511,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -19,12 +19,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Caixin Global": {
@@ -44,12 +44,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 15,
+   "items": 18,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "Kyodo News": {
@@ -129,7 +129,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Axios": {
@@ -139,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 11,
+   "items": 10,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -166,7 +166,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 12,
+   "items": 10,
    "errors": []
   },
   "RNZ": {
@@ -186,12 +186,12 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "The Jakarta Post": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Newsroom Panama": {
@@ -252,9 +252,9 @@
    "outlets": [
     "Reuters",
     "ABC News (Australia)",
-    "Associated Press",
     "Deutsche Welle",
     "Al Arabiya",
+    "Associated Press",
     "Times of Israel"
    ],
    "regions": [
@@ -285,15 +285,6 @@
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Israeli opposition leader condemns suspected settler attacks as 'terrorism,' and other Mideast news",
-     "url": "https://apnews.com/article/mideast-houthis-west-bank-november-22-2026-8d1680a23d592667db1ce1969b55b4f2",
-     "via": "",
-     "published": "2026-11-22T19:44+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "Deutsche Welle",
      "region": "Europe",
      "title": "Israel's Eisenkot condemns 'Jewish terrorism' in West Bank",
@@ -309,6 +300,15 @@
      "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
      "via": "",
      "published": "2026-11-22T14:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Israeli opposition leader condemns suspected settler attacks as 'terrorism,' and other Mideast news",
+     "url": "https://apnews.com/article/mideast-houthis-west-bank-november-22-2026-8d1680a23d592667db1ce1969b55b4f2",
+     "via": "",
+     "published": "2026-11-22T09:29+00:00",
      "summary": ""
     },
     {
@@ -384,16 +384,16 @@
    "independent_outlets": 4,
    "same_headline_groups": [
     [
-     "Reuters",
-     "Al Arabiya"
+     "Al Arabiya",
+     "Reuters"
     ]
    ],
    "outlets": [
     "Al Jazeera",
-    "Reuters",
     "Deutsche Welle",
     "Al Arabiya",
-    "gCaptain"
+    "gCaptain",
+    "Reuters"
    ],
    "regions": [
     "Europe",
@@ -401,7 +401,7 @@
     "North America"
    ],
    "latest": "2026-11-22T22:01+00:00",
-   "earliest": "2026-11-22T15:09+00:00",
+   "earliest": "2026-11-22T14:25+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
@@ -411,15 +411,6 @@
      "via": "",
      "published": "2026-11-22T22:01+00:00",
      "summary": "A second attack has been reported on a commercial vessel flying a Maltese flag off Benghazi."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
-     "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
-     "via": "",
-     "published": "2026-11-22T21:44+00:00",
-     "summary": ""
     },
     {
      "outlet": "Deutsche Welle",
@@ -447,6 +438,15 @@
      "via": "",
      "published": "2026-11-22T15:09+00:00",
      "summary": "Nov 22 (Reuters) – Libya’s eastern-based government said on Sunday that a preliminary investigation indicated an explosion at the Benghazi naval base in eastern Libya occurred aboard a Russian ship docked at..."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship",
+     "url": "https://www.reuters.com/world/middle-east/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T14:25+00:00",
+     "summary": ""
     }
    ],
    "id": 3
@@ -511,52 +511,6 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Business Standard",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-23T00:00+00:00",
-   "earliest": "2026-11-20T01:14+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "China’s spies set sights on AI chips years before Nvidia scandal",
-     "url": "https://www.straitstimes.com/asia/east-asia/chinas-spies-set-sights-on-ai-chips-years-before-nvidia-scandal",
-     "via": "",
-     "published": "2026-11-23T00:00+00:00",
-     "summary": "Companies like Megaspeed are viewed as a potential vehicle for gathering intelligence, an expert said."
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "China's spies set sights on AI semiconductors years before Nvidia scandal",
-     "url": "https://www.business-standard.com/world-news/china-s-spies-set-sights-on-ai-semiconductors-years-before-nvidia-scandal-126112200539_1.html",
-     "via": "",
-     "published": "2026-11-22T12:50+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Alibaba sued for allegedly concealing ties to suspected spy in Nvidia scandal",
-     "url": "https://asia.nikkei.com/business/technology/alibaba-sued-for-allegedly-concealing-ties-to-suspected-spy-in-nvidia-scandal",
-     "via": "",
-     "published": "2026-11-20T01:14+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
     "Associated Press",
     "ABC News (Australia)",
     "Deutsche Welle"
@@ -597,7 +551,7 @@
      "summary": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tragedy."
     }
    ],
-   "id": 6
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -643,7 +597,7 @@
      "summary": "Nov 21 (Reuters) – A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United..."
     }
    ],
-   "id": 7
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -686,6 +640,51 @@
      "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/",
      "via": "",
      "published": "2026-11-21T11:50+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Reuters",
+    "The Indian Express"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-23T01:25+00:00",
+   "earliest": "2026-11-22T17:57+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Tata Steel approves sale of tubes & pipes business, Tata Steel Colors to Apollo Tubes for ₹28,000 crore",
+     "url": "https://www.thehindu.com/business/Industry/tata-steel-approves-sale-of-tubes-pipes-business-tata-steel-colors-to-apollo-tubes-for-28000-crore/article71733189.ece",
+     "via": "",
+     "published": "2026-11-23T01:25+00:00",
+     "summary": "The company directly holds 43,30,00,000 equity shares representing 50% equity stake in its wholly owned subsidiary Tata Steel Colors Pvt Ltd (formerly known as Tata BlueScope Steel Pvt Ltd) (TSCL)"
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
+     "url": "https://www.reuters.com/world/india/tata-steel-nears-deal-acquire-majority-stake-apl-apollo-tubes-moneycontrol-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T18:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Indian Express",
+     "region": "South Asia",
+     "title": "APL Apollo Tubes to acquire two Tata Steel businesses for Rs 28,000 crore",
+     "url": "https://indianexpress.com/article/business/companies/apl-apollo-two-tata-steel-businesses-acquisition-10974047/",
+     "via": "",
+     "published": "2026-11-22T17:57+00:00",
      "summary": ""
     }
    ],
@@ -791,6 +790,111 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-23T01:25+00:00",
+   "earliest": "2026-11-20T21:17+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Beijing to bar young ‘red-chip’ firms from listing outside mainland China, sources say",
+     "url": "https://www.straitstimes.com/business/beijing-to-bar-young-red-chip-firms-from-listing-outside-mainland-china-sources-say",
+     "via": "",
+     "published": "2026-11-23T01:25+00:00",
+     "summary": "A drop-off in listings is likely to hurt Hong Kong, the top IPO destination for Chinese firms."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: Beijing to bar young 'red-chip' firms from listing outside mainland China, sources say",
+     "url": "https://www.reuters.com/world/beijing-bar-young-red-chip-firms-listing-outside-mainland-china-sources-say-2026-11-20/",
+     "via": "",
+     "published": "2026-11-20T21:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-23T01:13+00:00",
+   "earliest": "2026-11-23T00:28+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Gold rebounds as traders pare bets on near-term US Fed rate hikes",
+     "url": "https://www.straitstimes.com/business/gold-rebounds-as-traders-pare-bets-on-near-term-us-fed-rate-hikes",
+     "via": "",
+     "published": "2026-11-23T01:13+00:00",
+     "summary": "Bullion rose as much as 1.3% to around US$3,582 an ounce."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes",
+     "via": "",
+     "published": "2026-11-23T00:28+00:00",
+     "summary": "Gold rebounded from its biggest weekly decline in eight months as traders scaled back bets on the Federal Reserve raising interest rates in the near term."
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-23T00:00+00:00",
+   "earliest": "2026-11-22T12:50+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "China’s spies set sights on AI chips years before Nvidia scandal",
+     "url": "https://www.straitstimes.com/asia/east-asia/chinas-spies-set-sights-on-ai-chips-years-before-nvidia-scandal",
+     "via": "",
+     "published": "2026-11-23T00:00+00:00",
+     "summary": "Companies like Megaspeed are viewed as a potential vehicle for gathering intelligence, an expert said."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "China's spies set sights on AI semiconductors years before Nvidia scandal",
+     "url": "https://www.business-standard.com/world-news/china-s-spies-set-sights-on-ai-semiconductors-years-before-nvidia-scandal-126112200539_1.html",
+     "via": "",
+     "published": "2026-11-22T12:50+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Deutsche Welle",
     "Al Arabiya"
    ],
@@ -820,42 +924,7 @@
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "The Indian Express"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-22T18:35+00:00",
-   "earliest": "2026-11-22T17:57+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
-     "url": "https://www.reuters.com/world/india/tata-steel-nears-deal-acquire-majority-stake-apl-apollo-tubes-moneycontrol-2026-11-22/",
-     "via": "",
-     "published": "2026-11-22T18:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "APL Apollo Tubes to acquire two Tata Steel businesses for Rs 28,000 crore",
-     "url": "https://indianexpress.com/article/business/companies/apl-apollo-two-tata-steel-businesses-acquisition-10974047/",
-     "via": "",
-     "published": "2026-11-22T17:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -890,7 +959,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -904,7 +973,7 @@
     "North America"
    ],
    "latest": "2026-11-22T17:19+00:00",
-   "earliest": "2026-11-20T11:43+00:00",
+   "earliest": "2026-11-20T22:15+00:00",
    "items": [
     {
      "outlet": "Reuters",
@@ -921,11 +990,11 @@
      "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
      "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
      "via": "",
-     "published": "2026-11-20T11:43+00:00",
+     "published": "2026-11-20T22:15+00:00",
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -960,7 +1029,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -995,7 +1064,7 @@
      "summary": "A Chinese PhD student at Princeton University, New Jersey, was detained by US Immigration and Customs Enforcement (ICE) on Thursday after presenting her research at a neuroscience conference in Washington, the South China Morning Post has confirmed. Eva Yi Xie, a third-year neuroscience student, was detained at Ronald Reagan National Airport in Washington while travelling home from the Society for"
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1030,7 +1099,42 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "BNamericas",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "Latin America"
+   ],
+   "latest": "2026-11-20T21:46+00:00",
+   "earliest": "2026-11-20T06:56+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Chile and Japan deepen critical minerals ties as Tokyo turns to Peru too",
+     "url": "https://www.bnamericas.com/en/news/chile-and-japan-deepen-critical-minerals-ties-as-tokyo-turns-to-peru-too",
+     "via": "",
+     "published": "2026-11-20T21:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "BREAKING NEWS: Japan, Peru agree to promote cooperation on critical mineral supply chains",
+     "url": "https://english.kyodonews.net/articles/-/92145",
+     "via": "",
+     "published": "2026-11-20T06:56+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1065,7 +1169,7 @@
      "summary": "Workers and students marched through Rome, on Friday 20 November 2026, joining a nationwide strike over stagnant wages, rising living costs and government spending priorities. Protesters also demanded more funding for education and criticised military spending."
     }
    ],
-   "id": 18
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1100,42 +1204,7 @@
      "summary": "The nation's project outlook reaches a 13-year high, facing permitting hurdles and regional strains on major upgrades."
     }
    ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Associated Press"
-   ],
-   "regions": [
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-20T03:27+00:00",
-   "earliest": "2026-11-20T01:33+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "California AG subpoenas Nvidia over ex-CEO Huang's alleged China links",
-     "url": "https://www.business-standard.com/world-news/california-ag-subpoenas-nvidia-over-ex-ceo-huang-s-alleged-china-links-126112000104_1.html",
-     "via": "",
-     "published": "2026-11-20T03:27+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "California attorney general subpoenas Nvidia over chips, former CEO’s affair",
-     "url": "https://apnews.com/article/nvidia-subpoena-california-bonta-china-94c179f5aed88c49b7f77670eae40013",
-     "via": "",
-     "published": "2026-11-20T01:33+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1169,41 +1238,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-22T08:10+00:00",
-   "earliest": "2026-11-21T00:29+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition intercepts Houthi ballistic missile, four drones",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/saudiled-coalition-intercepts-houthi-ballistic-missile-three-drones",
-     "via": "",
-     "published": "2026-11-22T08:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi-led coalition reports interception of 3 Houthi missiles headed for Riyadh",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-reports-interception-of-3-houthi-missiles-headed-for-riyadh/",
-     "via": "",
-     "published": "2026-11-21T00:29+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1237,7 +1272,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1271,7 +1306,7 @@
      "summary": "Thousands of people demonstrated in Portugal and France on Saturday, calling for higher wages, affordable housing and action to tackle the rising cost of living. In Lisbon, workers marched despite heavy rain, while trade unions, Yellow Vest activists and youth groups gathered in Paris."
     }
    ],
-   "id": 24
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1305,7 +1340,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 26
   }
  ]
 }
