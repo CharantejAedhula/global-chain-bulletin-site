@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-23T01:46:48+00:00",
+ "fetched_at": "2026-11-23T03:37:19+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 511,
+ "items_read": 510,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,10 +12,8 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 5,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
@@ -34,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Yicai Global": {
@@ -44,37 +42,37 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 18,
+   "items": 31,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 16,
+   "items": 13,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
@@ -99,7 +97,7 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
@@ -109,7 +107,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 27,
+   "items": 29,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,22 +122,22 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 17,
+   "items": 15,
    "errors": []
   },
   "Axios": {
    "region": "North America",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 8,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,7 +154,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 22,
+   "items": 24,
    "errors": []
   },
   "Australian Financial Review": {
@@ -166,7 +164,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 10,
+   "items": 8,
    "errors": []
   },
   "RNZ": {
@@ -191,18 +189,20 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 11,
+   "items": 10,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 4,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -211,7 +211,7 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "VnExpress International": {
@@ -226,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 18,
+   "items": 15,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,93 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 7,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Associated Press",
+    "Al Arabiya",
+    "Euronews",
+    "Deutsche Welle",
+    "Reuters",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-23T02:35+00:00",
+   "earliest": "2026-11-22T03:06+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Indonesian police remove 24 body bags from factory fire site",
+     "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-23T02:35+00:00",
+     "summary": "Authorities in Java are searching for dozens of missing workers as they continue to battle remaining hotspots."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire",
+     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
+     "via": "",
+     "published": "2026-11-23T01:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/22/police-remove-24-body-bags-from-a-firehit-candy-factory-in-indonesia",
+     "via": "",
+     "published": "2026-11-22T19:21+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Emergency workers recover at least six body bags after Indonesian factory fire",
+     "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire",
+     "via": "",
+     "published": "2026-11-22T12:22+00:00",
+     "summary": "Video footage posted on social media by Indonesia's National Search and Rescue Agency (Basarnas), showed emergency crews looking through the charred remains of the building."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Dozens missing as deadly fire hits Indonesian candy factory",
+     "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-22T06:14+00:00",
+     "summary": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tragedy."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Search for Indonesia factory fire missing to resume Monday, police remove 24 body bags",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesia-rescuers-search-36-missing-after-factory-fire-kills-3-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T03:56+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Search for Indonesia factory fire missing to resume on Nov 23, police remove 24 body bags",
+     "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
+     "via": "",
+     "published": "2026-11-22T03:06+00:00",
+     "summary": "The factory’s chief executive officer said around 300 people were present for the Nov 21 shift."
+    }
+   ],
+   "id": 1
+  },
   {
    "independent_outlets": 5,
    "same_headline_groups": [
@@ -321,7 +408,7 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 4,
@@ -378,7 +465,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 4,
@@ -400,17 +487,17 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-22T22:01+00:00",
+   "latest": "2026-11-23T01:51+00:00",
    "earliest": "2026-11-22T14:25+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Second ship targeted in series of naval drone attacks off Libyan coast",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/second-ship-targeted-in-series-of-naval-drone-attacks-off-libyan-coast?traffic_source=rss",
+     "title": "Libya’s military says ‘fully prepared’ after Benghazi attacks",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss",
      "via": "",
-     "published": "2026-11-22T22:01+00:00",
-     "summary": "A second attack has been reported on a commercial vessel flying a Maltese flag off Benghazi."
+     "published": "2026-11-23T01:51+00:00",
+     "summary": "Libyan military says Benghazi port is ‘under control’ and it is ‘fully prepared’ to respond to threats."
     },
     {
      "outlet": "Deutsche Welle",
@@ -449,106 +536,50 @@
      "summary": ""
     }
    ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Euronews",
-    "Reuters",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-22T19:21+00:00",
-   "earliest": "2026-11-22T03:06+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/22/police-remove-24-body-bags-from-a-firehit-candy-factory-in-indonesia",
-     "via": "",
-     "published": "2026-11-22T19:21+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Emergency workers recover at least six body bags after Indonesian factory fire",
-     "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire",
-     "via": "",
-     "published": "2026-11-22T12:22+00:00",
-     "summary": "Video footage posted on social media by Indonesia's National Search and Rescue Agency (Basarnas), showed emergency crews looking through the charred remains of the building."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Search for Indonesia factory fire missing to resume Monday, police remove 24 body bags",
-     "url": "https://www.reuters.com/world/asia-pacific/indonesia-rescuers-search-36-missing-after-factory-fire-kills-3-2026-11-22/",
-     "via": "",
-     "published": "2026-11-22T03:56+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Search for Indonesia factory fire missing to resume on Nov 23, police remove 24 body bags",
-     "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
-     "via": "",
-     "published": "2026-11-22T03:06+00:00",
-     "summary": "The factory’s chief executive officer said around 300 people were present for the Nov 21 shift."
-    }
-   ],
    "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "ABC News (Australia)",
-    "Deutsche Welle"
+    "Bloomberg",
+    "The Hindu",
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "North America",
-    "Oceania"
+    "South Asia"
    ],
-   "latest": "2026-11-22T18:15+00:00",
-   "earliest": "2026-11-22T06:14+00:00",
+   "latest": "2026-11-23T02:30+00:00",
+   "earliest": "2026-11-22T18:35+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
+     "outlet": "Bloomberg",
      "region": "North America",
-     "title": "Indonesia candy factory fire leaves 3 workers dead and 37 others unaccounted for",
-     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
+     "title": "Tata Steel to Acquire 26.4% in APL Apollo Tubes for $1.7 Billion",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/tata-steel-to-acquire-26-4-in-apl-apollo-tubes-for-1-7-billion",
      "via": "",
-     "published": "2026-11-22T18:15+00:00",
-     "summary": ""
+     "published": "2026-11-23T02:30+00:00",
+     "summary": "Tata Steel Ltd. has agreed to acquire a 26.4% stake in APL Apollo Tubes Ltd. for as much as 155.1 billion rupees ($1.7 billion), deepening its presence in India’s structural steel products market."
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Bodies found, 29 workers missing after Indonesian factory fire",
-     "url": "https://www.abc.net.au/news/2026-11-22/bodies-recovered-after-indonesian-factory-fire/107414720",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Tata Steel approves sale of tubes & pipes business, Tata Steel Colors to Apollo Tubes for ₹28,000 crore",
+     "url": "https://www.thehindu.com/business/Industry/tata-steel-approves-sale-of-tubes-pipes-business-tata-steel-colors-to-apollo-tubes-for-28000-crore/article71733189.ece",
      "via": "",
-     "published": "2026-11-22T09:23+00:00",
-     "summary": ""
+     "published": "2026-11-23T01:25+00:00",
+     "summary": "The company directly holds 43,30,00,000 equity shares representing 50% equity stake in its wholly owned subsidiary Tata Steel Colors Pvt Ltd (formerly known as Tata BlueScope Steel Pvt Ltd) (TSCL)"
     },
     {
-     "outlet": "Deutsche Welle",
+     "outlet": "Reuters",
      "region": "Europe",
-     "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-     "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-rdf",
+     "title": "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
+     "url": "https://www.reuters.com/world/india/tata-steel-nears-deal-acquire-majority-stake-apl-apollo-tubes-moneycontrol-2026-11-22/",
      "via": "",
-     "published": "2026-11-22T06:14+00:00",
-     "summary": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tragedy."
+     "published": "2026-11-22T18:35+00:00",
+     "summary": ""
     }
    ],
    "id": 5
@@ -649,51 +680,6 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Hindu",
-    "Reuters",
-    "The Indian Express"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-23T01:25+00:00",
-   "earliest": "2026-11-22T17:57+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Tata Steel approves sale of tubes & pipes business, Tata Steel Colors to Apollo Tubes for ₹28,000 crore",
-     "url": "https://www.thehindu.com/business/Industry/tata-steel-approves-sale-of-tubes-pipes-business-tata-steel-colors-to-apollo-tubes-for-28000-crore/article71733189.ece",
-     "via": "",
-     "published": "2026-11-23T01:25+00:00",
-     "summary": "The company directly holds 43,30,00,000 equity shares representing 50% equity stake in its wholly owned subsidiary Tata Steel Colors Pvt Ltd (formerly known as Tata BlueScope Steel Pvt Ltd) (TSCL)"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
-     "url": "https://www.reuters.com/world/india/tata-steel-nears-deal-acquire-majority-stake-apl-apollo-tubes-moneycontrol-2026-11-22/",
-     "via": "",
-     "published": "2026-11-22T18:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "APL Apollo Tubes to acquire two Tata Steel businesses for Rs 28,000 crore",
-     "url": "https://indianexpress.com/article/business/companies/apl-apollo-two-tata-steel-businesses-acquisition-10974047/",
-     "via": "",
-     "published": "2026-11-22T17:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
     "Times of Israel",
     "Al Arabiya",
     "Reuters"
@@ -733,7 +719,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -784,7 +770,112 @@
      "summary": "BANGKOK, Nov 22 - Thailand plans to stop exporting chemicals used in rare earth mining to Myanmar, amid mounting concerns about cross-border pollution, the country’s deputy prime minister said on Saturday."
     }
    ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-23T02:04+00:00",
+   "earliest": "2026-11-23T01:54+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US tracked Alice Huang's links with China spy agency during Nvidia affair",
+     "url": "https://www.business-standard.com/world-news/us-tracked-alice-huang-s-links-with-china-spy-agency-during-nvidia-affair-126112300082_1.html",
+     "via": "",
+     "published": "2026-11-23T02:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT says",
+     "url": "https://www.reuters.com/technology/alice-huang-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-nyt-says-2026-11-23/",
+     "via": "",
+     "published": "2026-11-23T01:54+00:00",
+     "summary": ""
+    }
+   ],
    "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "East Asia",
+    "Middle East"
+   ],
+   "latest": "2026-11-23T01:44+00:00",
+   "earliest": "2026-11-22T21:58+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Treasury Secretary Bessent leaves door open to Huang's return, says Nvidia still owes answers",
+     "url": "https://www.digitimes.com/news/a20261123VL203/nvidia-usa-policy-chips-taiwan.html",
+     "via": "",
+     "published": "2026-11-23T01:44+00:00",
+     "summary": "US Treasury Secretary Scott Bessent's appearance on CBS 's Face the Nation on November 22 suggested the administration sees the Nvidia case less as a matter of Jensen Huang's personal conduct than as a question of who inside the company was responsible for export-control compliance."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US Treasury Secretary Scott Bessent says NVIDIA has yet to answer questions",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/23/us-treasury-secretary-scott-bessent-says-nvidia-has-yet-to-answer-questions",
+     "via": "",
+     "published": "2026-11-22T21:58+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Business Standard"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-23T01:33+00:00",
+   "earliest": "2026-11-20T13:54+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Foreign inflows lend support to rupee, bonds; oil in focus",
+     "url": "https://www.reuters.com/world/india/foreign-inflows-lend-support-rupee-bonds-oil-focus-2026-11-23/",
+     "via": "",
+     "published": "2026-11-23T01:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+     "url": "https://www.business-standard.com/markets/news/markets-gain-2-6-on-fpi-inflows-rupee-rally-and-cooling-crude-oil-prices-126112000973_1.html",
+     "via": "",
+     "published": "2026-11-20T13:54+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -819,42 +910,42 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Bloomberg"
+    "ABC News (Australia)",
+    "Rio Times"
    ],
    "regions": [
-    "North America",
-    "Southeast Asia"
+    "Latin America",
+    "Oceania"
    ],
-   "latest": "2026-11-23T01:13+00:00",
-   "earliest": "2026-11-23T00:28+00:00",
+   "latest": "2026-11-23T00:49+00:00",
+   "earliest": "2026-11-22T18:21+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Gold rebounds as traders pare bets on near-term US Fed rate hikes",
-     "url": "https://www.straitstimes.com/business/gold-rebounds-as-traders-pare-bets-on-near-term-us-fed-rate-hikes",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Drone strikes kill four in Khartoum and damage UN building",
+     "url": "https://www.abc.net.au/news/2026-11-23/deadly-drone-strikes-in-khartoum-sudan-war/107415908",
      "via": "",
-     "published": "2026-11-23T01:13+00:00",
-     "summary": "Bullion rose as much as 1.3% to around US$3,582 an ounce."
+     "published": "2026-11-23T00:49+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes",
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Drones Hit Khartoum and Damage a UN Building",
+     "url": "https://www.riotimesonline.com/sudan-drones-hit-khartoum-un-building-nov-2026/",
      "via": "",
-     "published": "2026-11-23T00:28+00:00",
-     "summary": "Gold rebounded from its biggest weekly decline in eight months as traders scaled back bets on the Federal Reserve raising interest rates in the near term."
+     "published": "2026-11-22T18:21+00:00",
+     "summary": "Drones struck Khartoum, Omdurman and Jebel Aulia early on 22 November, killing at least four people and damaging a UN building with staff inside. The post Drones Hit Khartoum and Damage a UN Building appeared first on The Rio Times ."
     }
    ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -889,7 +980,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -924,7 +1015,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -959,7 +1050,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -994,7 +1085,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1029,7 +1120,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1064,7 +1155,7 @@
      "summary": "A Chinese PhD student at Princeton University, New Jersey, was detained by US Immigration and Customs Enforcement (ICE) on Thursday after presenting her research at a neuroscience conference in Washington, the South China Morning Post has confirmed. Eva Yi Xie, a third-year neuroscience student, was detained at Ronald Reagan National Airport in Washington while travelling home from the Society for"
     }
    ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1099,7 +1190,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1134,7 +1225,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1169,7 +1260,7 @@
      "summary": "Workers and students marched through Rome, on Friday 20 November 2026, joining a nationwide strike over stagnant wages, rising living costs and government spending priorities. Protesters also demanded more funding for education and criticised military spending."
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1204,7 +1295,7 @@
      "summary": "The nation's project outlook reaches a 13-year high, facing permitting hurdles and regional strains on major upgrades."
     }
    ],
-   "id": 22
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1238,7 +1329,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1272,7 +1363,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1306,7 +1397,7 @@
      "summary": "Thousands of people demonstrated in Portugal and France on Saturday, calling for higher wages, affordable housing and action to tackle the rising cost of living. In Lisbon, workers marched despite heavy rain, while trade unions, Yellow Vest activists and youth groups gathered in Paris."
     }
    ],
-   "id": 25
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1340,7 +1431,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 28
   }
  ]
 }
