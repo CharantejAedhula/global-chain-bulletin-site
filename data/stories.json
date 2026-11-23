@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-23T00:29:36+00:00",
+ "fetched_at": "2026-11-23T01:08:43+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 42,
- "items_read": 492,
+ "outlets_read": 43,
+ "items_read": 505,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,12 +12,14 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 5,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 13,
+   "items": 12,
    "errors": []
   },
   "Ecofin Agency": {
@@ -27,12 +29,12 @@
   },
   "Caixin Global": {
    "region": "China",
-   "items": 8,
+   "items": 9,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "Yicai Global": {
@@ -107,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 25,
+   "items": 27,
    "errors": []
   },
   "Amwaj.media": {
@@ -122,12 +124,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 14,
+   "items": 12,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Axios": {
@@ -137,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 10,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -159,7 +161,7 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 8,
    "errors": []
   },
   "Mining.com.au": {
@@ -184,25 +186,23 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 0,
-   "errors": [
-    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 4,
+   "errors": []
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -211,10 +211,8 @@
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Athejakartapost.com%20when%3A3d&hl=en: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 7,
+   "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
@@ -308,8 +306,8 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHowYm5LRWRsZGxOaWRKZnlmbnIzN3dzRklHRzIxUVNTZW45a3dQbFVMbWxZZE52ZG01RF8xUnFzbXJ2RUYwc1JGVXNEVW1QYXV3Ym9JbWU4WEtjczFuU1RjWGJsV0pvbEhQbmgzSXhWb2dZLTFSVnI5Nkp5aERPZ3dYVmJkcDVMdC1UWHF5ZEI0a01YcFU3UjlEQk93S1RlbWg5U1lfNC1tYmpuQ2JxOHlCWG5tbWVpS3hFUWNlOGpHR1pmRWpOZ2RR0gHPAUFVX3lxTE1tUzhhUFdfS1RTWThibXJXUkVPRExjZnJweHh4QnYtZHFlcTRIRk5PU00zZ2tNXzJWU0x3c3hxUklHekxHRVh2X2RzRDdNczlnQm9ReURMRVc0YnVpZ3BocUkwemJYVGh6eUoxVzNFOHlOcURadGd2OUJkQkpTMmdiamdwWEZXT2VRQkJ3VW14N1dMX0RzbDBlbWVkeWdXSjV0V3hZdURrVUFQTTZVWUZVWFRUQTZUbmhUVGltVE1OWEtiRzJ1eEE4bzhueGVVUQ?oc=5",
-     "via": "Google News",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
+     "via": "",
      "published": "2026-11-22T14:11+00:00",
      "summary": ""
     },
@@ -324,6 +322,63 @@
     }
    ],
    "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Africanews",
+    "Times of Israel",
+    "Associated Press"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East",
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-22T02:47+00:00",
+   "earliest": "2026-11-21T06:02+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "‘We’ve got to stop the war’: Endurance athlete swims in Strait of Hormuz",
+     "url": "https://www.abc.net.au/news/2026-11-22/strait-of-hormuz-swimmer-highlights-iran-war-impact-on-wildlife/107414066",
+     "via": "",
+     "published": "2026-11-22T02:47+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
+     "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
+     "via": "",
+     "published": "2026-11-21T12:18+00:00",
+     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Briton swims in Strait of Hormuz to highlight Iran war’s wildlife impact",
+     "url": "https://www.timesofisrael.com/man-swims-in-strait-of-hormuz-to-highlight-iran-wars-wildlife-impact/",
+     "via": "",
+     "published": "2026-11-21T07:37+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Endurance athlete swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
+     "url": "https://apnews.com/article/strait-of-hormuz-swimmer-lewis-pugh-e772be52a06d75699594a7396ec78f25",
+     "via": "",
+     "published": "2026-11-21T06:02+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
   },
   {
    "independent_outlets": 4,
@@ -394,7 +449,7 @@
      "summary": "Nov 22 (Reuters) – Libya’s eastern-based government said on Sunday that a preliminary investigation indicated an explosion at the Benghazi naval base in eastern Libya occurred aboard a Russian ship docked at..."
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 4,
@@ -417,8 +472,8 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSmVwNDFESlFYN1FhcWJMemVITU1Ka0RwOFlRa0ZkWHJRNDIzQl9WQTNlbXc2WGJMbTRjRlcxbjdmWWREd3FnZDJWczFJMnZiR0FUY1lmY1lXTFR2R0dPSmJ6bGtCbzBMUTdNUU1TVklkMlhGcGcwMmduT2RKUnJWV2xfSUdlbmZ0R1ZSR0pSOThISTl2Qk9vNEpPTlIzZTBVQXN5LWl6SFZTMXZKekJSRnZ4cl9PYzFsR2VmMkJn0gHDAUFVX3lxTE4xV3JXMnF1WFhqOWpwX083eTZuVHp3OUpxeFQ3QjBHNlZVcXExM00tc3JyX242TlpqdGY3U1RHeWlvcHFlM214bG9Gd1VCQW1vZ09GZGR0SXlqbUxNWnRfRlI4WktZcktfaHBMUW5ZUXJhZmhZNDVBNWhJcTl4VGpXYlZZSVBBTEVEclVSQWcyMzlPMDFpclhNeTRNU2hac0Y4YnlnM092dUZhTVJ3S29VQkFHTWMydzBYcnVMVEoxc01NZw?oc=5",
-     "via": "Google News",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/22/police-remove-24-body-bags-from-a-firehit-candy-factory-in-indonesia",
+     "via": "",
      "published": "2026-11-22T19:21+00:00",
      "summary": ""
     },
@@ -435,8 +490,8 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Search for Indonesia factory fire missing to resume Monday, police remove 24 body bags",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU1lYMkZSb1Y5Z2preUNtQlhuSHlEN0E0TFk2cGxwRE5FN255RnZqV3I1cE9QZzZjaG5sN2xod3JsUzZaZWNLWHE1SXZXTTd4LVI0eWUtV3RVYUt6SWFxZzVxVWl4QnYwUjRNLS13dEx5VWcxb3lLaGtBaU0tdUhTR0tnaHY2WkR2Qk9kS3prU1hReGtHV1lJUG5iTG1hRUtZSlR2WG1nS0I2eUxQZV9SU3pjM2NiemhJTmc?oc=5",
-     "via": "Google News",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesia-rescuers-search-36-missing-after-factory-fire-kills-3-2026-11-22/",
+     "via": "",
      "published": "2026-11-22T03:56+00:00",
      "summary": ""
     },
@@ -450,7 +505,7 @@
      "summary": "The factory’s chief executive officer said around 300 people were present for the Nov 21 shift."
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -496,52 +551,6 @@
      "summary": ""
     }
    ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Australian Financial Review",
-    "Financial Times"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "Oceania"
-   ],
-   "latest": "2026-11-22T21:58+00:00",
-   "earliest": "2026-11-22T19:08+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US Treasury Secretary Scott Bessent says NVIDIA has yet to answer questions",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/23/us-treasury-secretary-scott-bessent-says-nvidia-has-yet-to-answer-questions",
-     "via": "",
-     "published": "2026-11-22T21:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Scott Bessent refuses to rule out Jensen Huang’s return to Nvidia",
-     "url": "https://www.afr.com/world/north-america/scott-bessent-refuses-to-rule-out-jensen-huang-s-return-to-nvidia-20261123-p61gck?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-11-22T19:49+00:00",
-     "summary": "The US Treasury secretary has softened his calls for new leadership at the tech giant amid a clamour from Silicon Valley to reinstate the former chief executive."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Bessent refuses to rule out Huang’s return to Nvidia",
-     "url": "https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-22T19:08+00:00",
-     "summary": "Treasury secretary says it depends ‘where the buck stops’ as US president calls for former chief’s reinstatement"
-    }
-   ],
    "id": 5
   },
   {
@@ -564,8 +573,8 @@
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Indonesia candy factory fire leaves 3 workers dead and 37 others unaccounted for",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0J5Zy1JLXlBTWc5d0o3OEg0dVBLMXQ0TktFb0ZHT196VEgzYVNfOFhlamNLVjdEMUlOWVFldmsxeUN1MUk0VGFDMlkxWmpCSTFIQzVaZndyeFZjanNQajh2Y2I0c3duUllpOWRTRWdPYzFXeFZRdmJJUndoSDlYUFlQZHV2bU02YWZzdm1vclMwenNYbmZpZkk1UGg?oc=5",
-     "via": "Google News",
+     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
+     "via": "",
      "published": "2026-11-22T18:15+00:00",
      "summary": ""
     },
@@ -665,8 +674,8 @@
      "outlet": "ABC News (Australia)",
      "region": "Oceania",
      "title": "Russian cargo ship burns in Baltic Sea after drone strike, crew evacuates",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS0ZTVEFISHpBWVRLbUFRSGkwZmhtbVlrbnVtcGRkSjNrWjBXa043cUtKdjlTaU1iUERuMWdtNjg2TUtPcVFBYTdYQUdBdXJMY1JQMFpzYkFuYlB1bjRiYno0dXRSaGNtbUF0bmZ0R1VJX0JiWW01Vks4a19PYWZjel9rNjdEYjVBejNGV0dmQnRUT0tyZHJYbndzbGIzU2tFSTB1RE1TemhXUQ?oc=5",
-     "via": "Google News",
+     "url": "https://www.abc.net.au/news/2026-11-22/russian-cargo-ship-burns-in-baltic-sea-after-drone-strike/107413782",
+     "via": "",
      "published": "2026-11-21T21:52+00:00",
      "summary": ""
     },
@@ -681,52 +690,6 @@
     }
    ],
    "id": 8
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "ABC News (Australia)",
-    "Africanews",
-    "Associated Press"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-22T02:47+00:00",
-   "earliest": "2026-11-21T06:02+00:00",
-   "items": [
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "‘We’ve got to stop the war’: Endurance athlete swims in Strait of Hormuz",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ1JzcjVOdlZuMjNES21VNHh0cmV5V2ZGWUtoaHZQck8xYnBmaGstLU5aUEJ6WEdRM1Q1MHA2cFhMdFh1dnNaYTJBVkczTU5rVHY5emFUVXFrZ2RNUUhyZkJIV2dqOS00MFIybENGdFFSSmhFbkFFZ0l3YUNBWTY1Y2t2VnBVQW93Ujdfai1pVVExNFV5OWUyYlZVX2dtOVpKSmZGeGVDakxRd3Ryc0NyUmN3?oc=5",
-     "via": "Google News",
-     "published": "2026-11-22T02:47+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
-     "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
-     "via": "",
-     "published": "2026-11-21T12:18+00:00",
-     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Endurance athlete swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ0JtX0ptcWJJLXVuYkhxaG1uNTFXV0hEdzRSUDZIckpCQWVfVWZtMWU5b3AzYjhUcTdvdjNrQmNXMnVFSTdZWE9wTnhWQ2NBSnpBT0thUEdMQ1hKcGY0aURSMXFiM1UtUktHVEIzbzFCM2JYRGRvb01yOGhFSkNVSlJabk9fUUx1ekk0QWFNQzBOVDRvamdrRmZmcw?oc=5",
-     "via": "Google News",
-     "published": "2026-11-21T06:02+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
   },
   {
    "independent_outlets": 3,
@@ -747,8 +710,8 @@
      "outlet": "Times of Israel",
      "region": "Middle East",
      "title": "Saudi Arabia, Qatar blast ‘heinous’ Iranian attack on civilian Bahraini site",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb3NfWmtGd0JxcFpDTnhqTDA5UUIwZWI1SXZJVXVVeDdWa3F2blotSVFRM2Z5RlNPWl9nMHNXYUQ4Vnd2enNtZUFaTmltdFA4UkFLZ1REVGZvMXZPNVVQTWtiZkNkdlFWWGZkazc3WC16dXdRenNHakQ4RDNUQTFjRjdEUUFkZHlJeDJhNUxOTWZuZ0RNUDJ4dWo3SUIyTml3Y3VFV0g4WWNMQklULWxOUjl5TlNibmFlT1pn?oc=5",
-     "via": "Google News",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-arabia-qatar-blast-heinous-iranian-attack-on-civilian-bahraini-site/",
+     "via": "",
      "published": "2026-11-22T14:09+00:00",
      "summary": ""
     },
@@ -771,7 +734,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -798,8 +761,8 @@
      "outlet": "Mining.com.au",
      "region": "Oceania",
      "title": "Thailand to block exports of chemicals used in Myanmar rare earth mining",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLXNwcEJkZW1MWlFsc05lUVktTVI3TlhKb0NjLXp3Qmx0MFdkX0U0UDhOWmNfOUJ3eDFmbkwya3R3X2tZSHJ1TjVHcnA1cmxZeWpFUUREeG85R3RtOHNMQUVTN2oyVFlsOHI1VldJRnJDUWJGUG16NVNiUzBRNXdZVVBaa0Z1S1hGdC1V?oc=5",
-     "via": "Google News",
+     "url": "https://mining.com.au/thailand-to-block-exports-of-chemicals-for-rare-earth-mining/",
+     "via": "",
      "published": "2026-11-22T18:59+00:00",
      "summary": ""
     },
@@ -822,7 +785,7 @@
      "summary": "BANGKOK, Nov 22 - Thailand plans to stop exporting chemicals used in rare earth mining to Myanmar, amid mounting concerns about cross-border pollution, the country’s deputy prime minister said on Saturday."
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -857,6 +820,41 @@
      "summary": ""
     }
    ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "The Indian Express"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-22T18:35+00:00",
+   "earliest": "2026-11-22T17:57+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Tata Steel to sell tubes business, Tata Steel Colors stake to APL Apollo for up to $3 billion",
+     "url": "https://www.reuters.com/world/india/tata-steel-nears-deal-acquire-majority-stake-apl-apollo-tubes-moneycontrol-2026-11-22/",
+     "via": "",
+     "published": "2026-11-22T18:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Indian Express",
+     "region": "South Asia",
+     "title": "APL Apollo Tubes to acquire two Tata Steel businesses for Rs 28,000 crore",
+     "url": "https://indianexpress.com/article/business/companies/apl-apollo-two-tata-steel-businesses-acquisition-10974047/",
+     "via": "",
+     "published": "2026-11-22T17:57+00:00",
+     "summary": ""
+    }
+   ],
    "id": 12
   },
   {
@@ -877,8 +875,8 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjZLZW5ua05hQkRTLVhvZnNHZnpUM05mT3ZxNl9FUUoyMEhMN0gtTUVfT0Zhb0g2eUxaeHlvZWlIWXNTVGlSMlczMHdBUERvRjVsQVZVSW92MlFESWlmTGxVaWM2aXYwZ0NtUTlna3k4ZkV2S0k4YkhVOFRjaWRrcmhZeWg5NHpQaW9pRGIybUFpalV3U2lzdlZ5QzYteENUSWpWdm90SXNFWVU4OWxBaGx3?oc=5",
-     "via": "Google News",
+     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-rabigh-oil-refinery-2026-11-22/",
+     "via": "",
      "published": "2026-11-22T17:52+00:00",
      "summary": ""
     },
@@ -886,8 +884,8 @@
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5",
-     "via": "Google News",
+     "url": "https://apnews.com/article/saudi-yemen-war-iran-iraq-november-20-2026-16c39c487a23b53b73c5eabb7f0fd57a",
+     "via": "",
      "published": "2026-11-20T20:46+00:00",
      "summary": ""
     }
@@ -906,7 +904,7 @@
     "North America"
    ],
    "latest": "2026-11-22T17:19+00:00",
-   "earliest": "2026-11-20T22:15+00:00",
+   "earliest": "2026-11-20T11:43+00:00",
    "items": [
     {
      "outlet": "Reuters",
@@ -923,7 +921,7 @@
      "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
      "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
      "via": "",
-     "published": "2026-11-20T22:15+00:00",
+     "published": "2026-11-20T11:43+00:00",
      "summary": ""
     }
    ],
@@ -1026,8 +1024,8 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Russia says cargo vessel attacked by drones in Gulf of Finland",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb2RiVWE4N01yZFNPUHVOREpESVdRelBlMGpmaHJ6RzRvbkFlN3gyanpwVWhiTjM3OEZIa21tQzVRc09pQlZIU2t2U08taktXUXdkeHN6R3l4Nnc3OUhMX201NWNlWVpDY1c5T2gzR0JPd1dsN3RLSFR1a1lVa3NOLUQxdzQxNFRfZm1DTldoRmxmS1laUHR4ZTlOTUdBTUxBT29lX2p4dE8wS2Y3eTBHelNhOVnSAboBQVVfeXFMUDJpdGttYlFBSlNoUGRyNHhNYzl5VDdjRUlkNUZKYWdUaXlSSFNwQ1RrUERCMDhJUUE2QlNRZ21kMmdMSEZwRDg1bWFqRzVFc2Z0T05xeTBxSUF3a2I5R3dSY3FJbHdKV2NURG1mODJLakhEX0d1SXdaT09yWE43NzZ3T0U0OTBFOVdXajNyWjRGbDFIWmNkU3lwQU9XLUFPYTY2UzYyQnVjU25NdnJQMmZndUxUNE9Vbzln?oc=5",
-     "via": "Google News",
+     "url": "https://english.alarabiya.net/News/world/2026/11/21/russia-says-cargo-vessel-attacked-by-drones-in-gulf-of-finland",
+     "via": "",
      "published": "2026-11-21T09:46+00:00",
      "summary": ""
     }
@@ -1052,8 +1050,8 @@
      "outlet": "Associated Press",
      "region": "North America",
      "title": "Workers and students protest across Europe as a strike in Italy disrupts services",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZFlKamwzV1Zfbm9XMktPSUY2YWxfbUM3aXpna2ZycjFTaVBfOC1DVGExYUhMQ1JFM3h1S0Vkc1h5S0prXzBScTlBNFE1d2o3NlBxTk03T3NoYkFlX2Iza3FtWUZiSktkOGstenR3Nk1vY0QyZ1FPUTdiN1VDRTJNa01qcXIyNFZKS1JlTFRzZTBydTVKcDlTSVM2bG9MRHFfRVhVSDBRbzQ5Yk5JQW9pbVJRVmV3QQ?oc=5",
-     "via": "Google News",
+     "url": "https://apnews.com/article/italy-europe-protests-strike-workers-students-inflation-8a742daa7242c84d99307c1fcc864f62",
+     "via": "",
      "published": "2026-11-20T19:52+00:00",
      "summary": ""
     },
@@ -1122,8 +1120,8 @@
      "outlet": "Business Standard",
      "region": "South Asia",
      "title": "California AG subpoenas Nvidia over ex-CEO Huang's alleged China links",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWS0tdnZYdWdwT3VhVEJGaHlUZHBDRnBEazhydWVtdnpDWWl1cTJaR0xKRFFIbU9CdXRGeTBKUG5BRm5xbTBBczNYVy16NkpBZ1YtQWdRSFpZcXpHejZmS3FVQmJhRHh1M0ZDTDBPZy1sR0lEQ05kZ3Y4WkxqRjNoUFRPMFNOR3Z3MV9KLVhnRm40b2VMYTB4ajRnNDZhQUhaVVU4Z1p2TnY4U1p6eHNyMjRVZnltNXp1M1JvUmhDbGExM3NDS1BXOVJuUVhJd2Vp0gHWAUFVX3lxTFBsTEJpRENIN1FRdEdBRXYyOUx4UGVQbGQ0RWJRZ0JEVE83ODRSUTUtUjFkUllSVVVqSWdCZWhscGx6Vy12T19qZENyUU43SFZzM09PV2gyaE9zZEY2WXRaUEYwRWJham9qeTFmM2Y0cGZQU3Bfd1B2VEplSHRLdXpxb2lKNnRXTmFydjBSSVhOU1huTUhJWXJZeld6NjlhbTZseUdtSlpRcG16alVjZ2kwclFZSzVCQVUzcXV6elVZeUFlUmV4dmZaRWlyZS1XUjAxVGZMS1E?oc=5",
-     "via": "Google News",
+     "url": "https://www.business-standard.com/world-news/california-ag-subpoenas-nvidia-over-ex-ceo-huang-s-alleged-china-links-126112000104_1.html",
+     "via": "",
      "published": "2026-11-20T03:27+00:00",
      "summary": ""
     },
@@ -1177,6 +1175,40 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-22T08:10+00:00",
+   "earliest": "2026-11-21T00:29+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition intercepts Houthi ballistic missile, four drones",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/saudiled-coalition-intercepts-houthi-ballistic-missile-three-drones",
+     "via": "",
+     "published": "2026-11-22T08:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Saudi-led coalition reports interception of 3 Houthi missiles headed for Riyadh",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-reports-interception-of-3-houthi-missiles-headed-for-riyadh/",
+     "via": "",
+     "published": "2026-11-21T00:29+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Deutsche Welle",
     "Reuters"
    ],
@@ -1205,7 +1237,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1239,7 +1271,7 @@
      "summary": "Thousands of people demonstrated in Portugal and France on Saturday, calling for higher wages, affordable housing and action to tackle the rising cost of living. In Lisbon, workers marched despite heavy rain, while trade unions, Yellow Vest activists and youth groups gathered in Paris."
     }
    ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1258,8 +1290,8 @@
      "outlet": "Times of Israel",
      "region": "Middle East",
      "title": "Saudi-led coalition warns civilians to evacuate Yemen’s Hodeida port",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUTF6NGNqZEVwX294a2dLa2QtMzJOTno1OXRDSlVxSVpzSV92VjhhdW9MU0YwZFpKVVlQWWxyWUNSUkFKQ0F0dVplMF9pa3pUamhYRWpicGdWb1YwYTBaMUpRTWdnajhOd3U5U3diVUpPMWxBZy15T3hlVlEtSmM2cUExN0FLQUx0cFlIdk9SdVlhemhxSVlZLWQ2WEkxVUZBUXZScW85YjBfWjZlUWlBU21lUQ?oc=5",
-     "via": "Google News",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-warns-civilians-to-evacuate-yemens-hodeida-port/",
+     "via": "",
      "published": "2026-11-20T11:04+00:00",
      "summary": ""
     },
@@ -1273,7 +1305,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 25
   }
  ]
 }
