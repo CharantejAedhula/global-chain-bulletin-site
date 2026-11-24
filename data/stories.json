@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-24T04:27:18+00:00",
+ "fetched_at": "2026-11-24T04:59:35+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 615,
+ "items_read": 616,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -27,7 +27,7 @@
   },
   "Caixin Global": {
    "region": "China",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "South China Morning Post": {
@@ -42,7 +42,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 56,
+   "items": 57,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,7 +52,7 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 7,
+   "items": 3,
    "errors": []
   },
   "The Korea Herald": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 14,
+   "items": 15,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -102,17 +102,17 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 31,
+   "items": 29,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 33,
+   "items": 31,
    "errors": []
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 2,
    "errors": []
   },
   "MEED": {
@@ -122,12 +122,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Axios": {
@@ -154,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 8,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 10,
+   "items": 12,
    "errors": []
   },
   "RNZ": {
@@ -189,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 21,
+   "items": 23,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 7,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,22 +242,204 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
+   "independent_outlets": 5,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
    "outlets": [
-    "Ecofin Agency",
-    "Livemint / Economic Times",
-    "Deutsche Welle",
-    "Kyodo News"
+    "Euronews",
+    "Africanews",
+    "The Straits Times",
+    "Reuters",
+    "Al Arabiya",
+    "The Jakarta Post"
    ],
    "regions": [
     "Africa",
-    "East Asia",
     "Europe",
-    "South Asia"
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-23T14:39+00:00",
+   "earliest": "2026-11-22T04:15+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "At least 24 people killed in Indonesia factory fire, police say",
+     "url": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say",
+     "via": "",
+     "published": "2026-11-23T14:39+00:00",
+     "summary": "Dozens of employees are still reported to be missing after a blaze broke out at a candy factory in Banten province at around 4:30 pm local time on Saturday."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Indonesia: Rescuers recover 24 body bags from burnt-out factory",
+     "url": "http://www.africanews.com/2026/11/23/indonesia-rescuers-recover-24-body-bags-from-burnt-out-factory/",
+     "via": "",
+     "published": "2026-11-23T09:10+00:00",
+     "summary": "A devastating fire has gutted a confectionery factory near Jakarta, with authorities recovering 24 body bags from the wreckage. Rescue workers continue searching for missing employees as investigators examine the cause."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+     "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-24-killed-in-factory-blaze-as-rescuers-search-for-dozens-missing",
+     "via": "",
+     "published": "2026-11-23T05:39+00:00",
+     "summary": "The head of the Banten search and rescue agency said 29 people were confirmed safe, five of whom were hospitalised."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesia-says-24-killed-factory-blaze-rescuers-search-dozens-missing-2026-11-23/",
+     "via": "",
+     "published": "2026-11-23T03:49+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/22/police-remove-24-body-bags-from-a-firehit-candy-factory-in-indonesia",
+     "via": "",
+     "published": "2026-11-22T19:21+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Rescuers search for 36 missing after factory fire kills 3 in Banten",
+     "url": "https://www.thejakartapost.com/indonesia/2026/11/22/rescuers-search-for-36-missing-after-factory-fire-kills-3-in-banten",
+     "via": "",
+     "published": "2026-11-22T04:15+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Africanews",
+    "Al Arabiya",
+    "Associated Press"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-22T17:04+00:00",
+   "earliest": "2026-11-22T09:29+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Settler leader condemns arson attacks in Palestinian villages, but criticizes those calling it 'Jewish terrorism'",
+     "url": "https://www.timesofisrael.com/liveblog_entry/settler-leader-condemns-arson-attacks-in-palestinian-villages-but-criticizes-those-calling-it-jewish-terrorism/",
+     "via": "",
+     "published": "2026-11-22T17:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
+     "url": "http://www.africanews.com/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks/",
+     "via": "",
+     "published": "2026-11-22T15:52+00:00",
+     "summary": "Burnt-out cars, damaged trucks and anti-Arab graffiti were discovered in four Palestinian villages in the Israeli-occupied West Bank on Sunday 22 November 2026, following overnight attacks blamed by local activists on Israeli settlers."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
+     "via": "",
+     "published": "2026-11-22T14:11+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Israeli opposition leader condemns suspected settler attacks as 'terrorism,' and other Mideast news",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd1JSaXVlNUR1NmhkbmNlT0RQMEpGVlROckdUU0czRm5nNHJkc2VWeDVGeWRLUGJiU0ZtY19SVG5veUJsRk5oWlZzNzdkcW03VXRVajBoVU1TQVpHdHNFeUtaRURabFZEUHZUWG5KUWtINTdEVXROQllnTDRua0pNdzdkVXNBc3plTVRpd1V2aGs5MlpjdlJ4dEszcFpUMG83M2JPbQ?oc=5",
+     "via": "Google News",
+     "published": "2026-11-22T09:29+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-24T04:50+00:00",
+   "earliest": "2026-11-23T20:51+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Malaysian firm MSFusion, on US trade blacklist, denies equity links with Singapore-based Megaspeed",
+     "url": "https://www.straitstimes.com/asia/se-asia/malaysian-firm-msfusion-on-us-trade-blacklist-denies-equity-links-with-singapore-based-megaspeed",
+     "via": "",
+     "published": "2026-11-24T04:50+00:00",
+     "summary": "It said MSFusion, Megaspeed and its subsidiaries operated as separate and independent legal entities."
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US adds Megaspeed to trade blacklist after Nvidia spy scandal",
+     "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-24T00:52+00:00",
+     "summary": "Bureau of Security and Industry adds Singapore-based firm and six other entities to export control list."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US blacklists Alibaba subsidiary and Megaspeed linked to Nvidia scandal",
+     "url": "https://www.reuters.com/business/us-blacklist-megaspeed-chip-firm-linked-nvidia-scandal-source-says-2026-11-23/",
+     "via": "",
+     "published": "2026-11-23T20:51+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "Deutsche Welle",
+    "The Jakarta Post"
+   ],
+   "regions": [
+    "Africa",
+    "Europe",
+    "Southeast Asia"
    ],
    "latest": "2026-11-24T04:09+00:00",
-   "earliest": "2026-11-22T12:49+00:00",
+   "earliest": "2026-11-22T02:39+00:00",
    "items": [
     {
      "outlet": "Ecofin Agency",
@@ -269,15 +451,6 @@
      "summary": ""
     },
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "COP31 talks collapse: Why nations rejected final deal? Here's what China, Russia, EU, oil-producing countries said",
-     "url": "https://www.livemint.com/news/world/cop31-talks-collapse-why-nations-rejected-final-deal-heres-what-china-russia-eu-oil-producing-countries-said-11795404581192.html",
-     "via": "",
-     "published": "2026-11-23T03:43+00:00",
-     "summary": "The final deal at COP31, which had no mention of “fossil fuel”, was condemned by several countries. “There is nothing to do. We did all that we could,” Turkey's conference president Murat Kurum told the closing plenary, saying he would not advance any new text."
-    },
-    {
      "outlet": "Deutsche Welle",
      "region": "Europe",
      "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
@@ -287,16 +460,16 @@
      "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world."
     },
     {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "COP31 climate talks break down amid fossil fuel row",
-     "url": "https://english.kyodonews.net/articles/-/92289",
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Fossil fuel dispute threatens to scupper climate deal",
+     "url": "https://www.thejakartapost.com/world/2026/11/22/fossil-fuel-dispute-threatens-to-scupper-climate-deal",
      "via": "",
-     "published": "2026-11-22T12:49+00:00",
+     "published": "2026-11-22T02:39+00:00",
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -342,7 +515,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -382,13 +555,59 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT says",
-     "url": "https://www.reuters.com/technology/alice-huang-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-nyt-says-2026-11-23/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS1pvWmhMSm1MRktDOXJhZWNCdTJIZ25WejNRVExzUHhPeGhEeklEZW54T3NVZTJYbjJEa3Bmcm0xV3B2aVZnTE5oYm9MNEVYQXBzZmZYQXV4SmNWa3ZrVXVqczFEV0JqaXNoRERwTlZaNk1YSXo3TGlQNWRVekh5dC1XTmVhYU5SYVRUbjNnbmszTm5PRTdCeVEyMmFweGE1NTRHSmcyRXlrUnBGNk5aWXZyTkdvSmgwaWRvdks2bGIzejlMY0E?oc=5",
+     "via": "Google News",
      "published": "2026-11-23T01:54+00:00",
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "South China Morning Post",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "China",
+    "East Asia",
+    "Middle East"
+   ],
+   "latest": "2026-11-22T21:58+00:00",
+   "earliest": "2026-11-22T18:29+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US Treasury Secretary Scott Bessent says NVIDIA has yet to answer questions",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYjF6cXFhcWRwSWZDLXZXWnNFcFY0SnhqVjVZdGhCaG9Zc2pCVnJUdXp5NjVKYWlwSm5ILXJPV3EtdmE5aXJKT0E1XzQ1XzNScVhWYWw5YzhoRXYycWpnTFEtVzR5M1pwYS1zbWpTcjZ1VE1OMXdTQlUxQU9WLXUzYUdSX3ZJNTcwVWJLSGE5OHZud0U5X0drWWlQRmp1NnhqdnJoOXJwVWhWd2xvcjZmcE1qVkZqa1dwTG41akpYRDdUTjczaXRlMzh3TznSAcwBQVVfeXFMTmIxenFxYXFkcElmQy12V1pzRXBWNEp4alY1WXRoQmhvWXNqQlZyVHV6eTY1SmFpcEpuSC1yT1dxLXZhOWlySk9BNV80NV8zUnFYVmFsOWM4aEV2MnFqZ0xRLVc0eTNacGEtc21qU3I2dVRNTjF3U0JVMUFPVi11M2FHUl92STU3MFViS0hhOTh2bndFOV9Ha1lpUEZqdTZ4anZyaDlycFVoVndsb3I2ZnBNalZGamtXcExuNWpKWEQ3VE43M2l0ZTM4d085?oc=5",
+     "via": "Google News",
+     "published": "2026-11-22T21:58+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+     "via": "",
+     "published": "2026-11-22T20:03+00:00",
+     "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday. “We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … "
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "US must 'see where the buck stops' on Nvidia chip sales to China: Bessent",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMXN4dF9GTFo4blZGMUtKUXZ2TzNMTmE3aWVwLXhqby1wVFFWRmI2Zkhmendkb0N1b2tJTHctS0x2a3VvLVhHNmZzQUZLX2FFOTA2XzBRM2ZGdDhWektYVkVYalljZkJranp0Y1dyRXFyVWtxZWRUV0VyajEybnpWSUl5ejEzZnA0bDYyT2NZdTN1bXB0TVNPeU5MZXF0LUV6M2N2QTBOWGtmZ0duMGJva0ZLbXM0Y0NJS1F4ZjR6dExCOG1ELUZ3Rk5NSU1xZmdPRjFiOHYxd00teDYzX1E?oc=5",
+     "via": "Google News",
+     "published": "2026-11-22T18:29+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
   },
   {
    "independent_outlets": 3,
@@ -434,7 +653,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 8
   },
   {
    "independent_outlets": 3,
@@ -455,7 +674,7 @@
      "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
      "title": "Fed's Williams says inflation still too high, signals more rate hikes",
-     "url": "https://www.thejakartapost.com/business/2026/11/24/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes",
+     "url": "https://www.thejakartapost.com/business/2026/11/24/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes?utm_source",
      "via": "",
      "published": "2026-11-24T00:39+00:00",
      "summary": ""
@@ -479,67 +698,52 @@
      "summary": "Williams said inflation must be lowered back to the Fed’s target “in a timely manner and on a sustained basis”."
     }
    ],
-   "id": 5
+   "id": 9
   },
   {
    "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "The Straits Times",
+    "Al Jazeera",
     "Reuters",
-    "The Jakarta Post"
+    "Euronews"
    ],
    "regions": [
     "Europe",
-    "Southeast Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-23T14:39+00:00",
-   "earliest": "2026-11-22T04:15+00:00",
+   "latest": "2026-11-23T23:26+00:00",
+   "earliest": "2026-11-23T16:03+00:00",
    "items": [
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "At least 24 people killed in Indonesia factory fire, police say",
-     "url": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+     "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
      "via": "",
-     "published": "2026-11-23T14:39+00:00",
-     "summary": "Dozens of employees are still reported to be missing after a blaze broke out at a candy factory in Banten province at around 4:30 pm local time on Saturday."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
-     "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-24-killed-in-factory-blaze-as-rescuers-search-for-dozens-missing",
-     "via": "",
-     "published": "2026-11-23T05:39+00:00",
-     "summary": "The head of the Banten search and rescue agency said 29 people were confirmed safe, five of whom were hospitalised."
+     "published": "2026-11-23T23:26+00:00",
+     "summary": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
-     "url": "https://www.reuters.com/world/asia-pacific/indonesia-says-24-killed-factory-blaze-rescuers-search-dozens-missing-2026-11-23/",
+     "title": "EU Commission proposes ban on Russian athletes, ex-fighters in new Russia sanctions package",
+     "url": "https://www.reuters.com/business/finance/eu-commission-proposes-22nd-sanctions-package-russia-2026-11-23/",
      "via": "",
-     "published": "2026-11-23T03:49+00:00",
+     "published": "2026-11-23T16:26+00:00",
      "summary": ""
     },
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Rescuers search for 36 missing after factory fire kills 3 in Banten",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/22/rescuers-search-for-36-missing-after-factory-fire-kills-3-in-banten",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "EU goes after Russia's banks, soldiers and athletes in new sanctions package",
+     "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
      "via": "",
-     "published": "2026-11-22T04:15+00:00",
-     "summary": ""
+     "published": "2026-11-23T16:03+00:00",
+     "summary": "Russian banks, crypto, \"shadow fleet\", oil refineries, soldiers and athletes are all targeted in the latest sanctions package proposed by Brussels."
     }
    ],
-   "id": 6
+   "id": 10
   },
   {
    "independent_outlets": 3,
@@ -577,64 +781,48 @@
      "outlet": "Business Standard",
      "region": "South Asia",
      "title": "Tata Steel announces ₹28,000 cr deal with APL Apollo Tubes for two units",
-     "url": "https://www.business-standard.com/companies/news/tata-steel-board-clears-28k-cr-sale-of-two-businesses-to-apl-apollo-tubes-126112200721_1.html",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcFktbjdrUllSZDRjUElMZDEydVFhN09nZTEwVnY3MnlZSkhRVG1ldEcxbkUwc3NnOWhmYVNDWXpXY3dxejA1RlVJQmFvbVRXWC0xczdhN2pBaFNIRFctUEFYTTQtODA4UXhsLUhNOE11RnNkYWFSYVVkb2N6bTBBT0ppbVVYWGpHd0hNTUUwQ0ZpSUI3LUw1d3lrdTZKWUxZS0RycmU4bXhQWlpCeUFRMDhuYXlBaWhhNEtnM2tHSnF3Rjk3MEV0VUJkNFR0VmZwcEI5ZWdVVlBQUdIB3wFBVV95cUxPSWRoamVCaGpqT1Z1RlBpNi00UXVvdWRBWkVHdEN2LVRRS3I5MzViTTBLRHRPVDZ1SGNyVWVLUHdmeEEzcThoQUtVRVRxV3V1YmlMTHJhVmhqbVlwd0lEY2s5eXoxSk84cmpmZkR6WUZjVkU5S3NCOFVlMFBSeHNlb19TSTZFQ1hmTXVYTHBUdzJxYmo5cmxmVzBQbUp0MzRDTjViM0NkaWU4MjVmZ19fVGNmMVFYUHdkY2szVEIyVmM2U3JfRzgzOXFjS2E4eGtvZ3haR2JtQ3J3N3g0MUFv?oc=5",
+     "via": "Google News",
      "published": "2026-11-22T15:43+00:00",
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 11
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "South China Morning Post",
-     "Al Arabiya"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "South China Morning Post",
-    "Nikkei Asia",
-    "Al Arabiya"
+    "Euronews",
+    "The Straits Times"
    ],
    "regions": [
-    "China",
-    "East Asia",
-    "Middle East"
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-22T20:03+00:00",
-   "earliest": "2026-11-22T18:28+00:00",
+   "latest": "2026-11-24T04:30+00:00",
+   "earliest": "2026-11-23T15:42+00:00",
    "items": [
     {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Stocks climb as Huang's return to Nvidia lifts investor optimism",
+     "url": "https://www.euronews.com/2026/11/24/stocks-climb-as-huangs-return-to-nvidia-lifts-investor-optimism",
      "via": "",
-     "published": "2026-11-22T20:03+00:00",
-     "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday. “We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … "
+     "published": "2026-11-24T04:30+00:00",
+     "summary": "Shares in AI chip behemoth Nvidia rocketed 30% higher on Monday after the shock reinstatement of its CEO Jensen Huang, which sparked a recovery across markets after a technology-led rout last week."
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "US must 'see where the buck stops' on Nvidia chip sales to China: Bessent",
-     "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-must-see-where-the-buck-stops-on-nvidia-chip-sales-to-china-bessent",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Stocks climb as Huang’s stunning return to Nvidia lifts optimism",
+     "url": "https://www.straitstimes.com/business/stocks-climb-as-huangs-stunning-return-to-nvidia-lifts-optimism",
      "via": "",
-     "published": "2026-11-22T18:29+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
-     "url": "https://english.alarabiya.net/business/technology/2026/11/22/us-seeks-answers-on-nvidia-s-sale-of-chips-to-china-bessent-says",
-     "via": "",
-     "published": "2026-11-22T18:28+00:00",
-     "summary": ""
+     "published": "2026-11-23T15:42+00:00",
+     "summary": "Major indices dived between 7% and 10% last week but investors were galvanised on the news of Huang’s return."
     }
    ],
-   "id": 8
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -654,8 +842,8 @@
      "outlet": "MEED",
      "region": "Middle East",
      "title": "Libyan oil pipeline closed by militants",
-     "url": "https://www.meed.com/libyan-oil-pipeline-closed-by-militants",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80VGNjSHQxak5CYnJqdkF4S2ZGZzk1aXNTZmlsMWxJRGcwUFNQVVJnZXJtTnpFdWtfU3kyckR4ZWYzaE02S0V1VERKREctVjlaX1phazNBYjY3d0dhZ0FGU1p3dmNVWEVNcHBEVw?oc=5",
+     "via": "Google News",
      "published": "2026-11-24T04:17+00:00",
      "summary": ""
     },
@@ -663,13 +851,48 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Oil slumps to 3-month low on increased Middle East flows, Libyan pipeline restart",
-     "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016TW1Rc3N2Q0h6TVJZUFBSeXZqWklRWXgwZ2QyUnRCa0tnWnI4b0Z2YkVVZlVGWTJwa0E3SEVqNnotSE4zOFpOdjJUSE5GcjB5RHJxaklsM0I2U1owemZ4aUJmYkRhUUM2VjVFd09paWhIWHhFUWxmcmhzT3Y5RWhCTENfNE00a3RaYnhnOGgweEJoNEVtNTVKS0pLTWNiY2ZfM1pvbFNieG5DbWpGcUdOM19xZFF5QXl5LWZXNVRrZw?oc=5",
+     "via": "Google News",
      "published": "2026-11-23T02:24+00:00",
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "gCaptain",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-24T03:55+00:00",
+   "earliest": "2026-11-24T00:18+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "U.S. Probes Suspected Iranian Cyberattacks on Up to 50 Ships, WSJ Reports",
+     "url": "https://gcaptain.com/u-s-probes-suspected-iranian-cyberattacks-on-up-to-50-ships-wsj-reports/",
+     "via": "",
+     "published": "2026-11-24T03:55+00:00",
+     "summary": "The United States is investigating Iran's potential involvement in dozens of cyberattacks against energy tankers amid concerns that Tehran is widening the war with cyber operations and terror plots against Americans far from the Middle East, the Wall Street Journal reported on Monday."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US eyes Iran as possible culprit in dozens of new cyberattacks against ships, WSJ reports",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVjR1WG9RTVdfSTNnS1RTOWcwVlhpeGMtaUdMZGVIU1I0ZWt1ZlhtQ2F1ODJZOEwxVzB2ZHBYNDIxMkEtdjdMY1Z2X050QjY2VjYwR1VmTDZSbWxiQTNwZ09nZTRHYzdweXEzajYxcnZxTUp3eWdSdEtvX2RMTllnY205N3VoTlJnTEQtOEYySEVHNDZMa0p5bHdPWG9KTUw1Zzg3VnZuVEVGV3czanhjQUJxdDNqTXFvMXlZT1k4bmlQYkJfYXUya0lsbzRoUQ?oc=5",
+     "via": "Google News",
+     "published": "2026-11-24T00:18+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -698,13 +921,13 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Rene Haas to remain CEO of chipmaker Arm through 2033 amid Nvidia top job chatter",
-     "url": "https://www.reuters.com/business/arm-holdings-haas-extends-contract-lead-chip-firm-through-2033-2026-11-23/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTEVKTTZyVDYxTGdWYlI3bzFQSU9zSGhiaXpERE5MWHRYSVhZcDhZRDBpekhuODdWYlZCTFJmU1NDYWVzRlpMR2JWZ21xcUMzSmhkX2RoYnhPSmtJRDdqMGRyczN5UElOQV9BdUt5NDItbzlEb29RNmR0eFRWd1V5bkcwUXQ0NG5lWjRkUkw0Y0VRaUV0UXF6V1V4ZkRhdS02X1UtWkRpejVlT2M?oc=5",
+     "via": "Google News",
      "published": "2026-11-23T16:56+00:00",
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -739,7 +962,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -759,8 +982,8 @@
      "outlet": "Mysteel",
      "region": "China",
      "title": "Iron ore portside prices: Jingtang port (Nov 23, 2026 17:22)",
-     "url": "https://www.mysteel.net/daily-prices/7252783-iron-ore-portside-prices-jingtang-port",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWXhlX25wVlZDNE1QdFdiRnNWTjhsVm1kc2NseTZDdUxhUGlDMGdBVmJPZlcwNFVqYmVNaWJhcDB2cXpOc3FOWE1uYUkwSTlXc0Z3Z2lSUHVSX2p6N3FfeTRoX3ZvZURuZHhGTWdTUGdTX3dRc0VCWmNOMi00UGdaNEF4Q1JJZHdDSGZZ?oc=5",
+     "via": "Google News",
      "published": "2026-11-24T01:23+00:00",
      "summary": ""
     },
@@ -774,77 +997,42 @@
      "summary": "The average imported iron ore margin rebounded to 9.01 yuan/mt this period from -13.08 yuan/mt, driven mainly by a slight rise in port spot prices and lower premiums on some seaborne cargoes. On the demand side, average daily outbound volume at the 35 ports fell 80,000 mt week-on-week to 3 million mt, with lower hot ..."
     }
    ],
-   "id": 12
+   "id": 17
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Australian Financial Review",
-    "Financial Times"
+    "Rio Times",
+    "Mysteel"
    ],
    "regions": [
-    "Europe",
-    "Oceania"
+    "China",
+    "Latin America"
    ],
-   "latest": "2026-11-24T00:46+00:00",
-   "earliest": "2026-11-23T22:21+00:00",
+   "latest": "2026-11-24T01:00+00:00",
+   "earliest": "2026-11-23T11:16+00:00",
    "items": [
     {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Trump made up to $23m on Nvidia shares after Huang’s return",
-     "url": "https://www.afr.com/world/north-america/trump-made-up-to-23m-on-nvidia-shares-after-huang-s-return-20261124-p61gsg?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Vale Shares Rise 3.27% as China Steel Stays Weak | Iron Ore Wrap, Nov 23",
+     "url": "https://www.riotimesonline.com/iron-ore-markets-latam-monday-november-23-2026/",
      "via": "",
-     "published": "2026-11-24T00:46+00:00",
-     "summary": "The profit on a 30 per cent jump in the chip giant’s share price is based on a maximum amount the US president could have owned in the latest disclosures."
+     "published": "2026-11-24T01:00+00:00",
+     "summary": "Vale's New York shares bounced on Monday after a slide of more than a third in 60 sessions. China's weak steel winter still caps iron ore. The post Vale Shares Rise 3.27% as China Steel Stays Weak | Iron Ore Wrap, Nov 23 appeared first on The Rio Times ."
     },
     {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Trump made up to $15mn on Nvidia shares after Huang’s return",
-     "url": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
+     "outlet": "Mysteel",
+     "region": "China",
+     "title": "Mysteel Iron Ore Index (Nov 23, 202...",
+     "url": "https://www.mysteel.net/daily-prices/7252680-mysteel-iron-ore-index",
      "via": "",
-     "published": "2026-11-23T22:21+00:00",
-     "summary": "Profit on 30% jump in chip group’s share price based on maximum amount US president could have owned in latest disclosure"
-    }
-   ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-23T23:26+00:00",
-   "earliest": "2026-11-23T17:31+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
-     "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-23T23:26+00:00",
-     "summary": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events",
-     "url": "https://apnews.com/article/europe-russia-sanctions-banks-crypto-visas-sports-ecad86868390f6602b346c70d1fa5757",
-     "via": "",
-     "published": "2026-11-23T17:31+00:00",
+     "published": "2026-11-23T11:16+00:00",
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -879,8 +1067,8 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "US imposes sanctions on dozens linked to Iran's shadow banking networks",
-     "url": "https://www.reuters.com/business/finance/us-imposes-sanctions-dozens-linked-irans-shadow-banking-networks-2026-11-23/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON2NaMVlXcGRFQ3BpRFVieGtVRzR4bXFtTXRTRnpSV3JmNzY1REhheG5xNlV5MlptZ1lIM1BQWUhGcTBZNWpHckdxZG1kWUZoZUdxSnRneHJhVzBpUzg0ZGpXQ1lQblItbHg5WXpNUXBqbHpWZ0NqZzdQZEdhNTZKbDZXaHNydXhYM05hd2YtY1lvU0JkVnJBQ3diRVNDV210Z0pZdm5mRnMtUEk4TTNkOXNDMGpvbmpD?oc=5",
+     "via": "Google News",
      "published": "2026-11-23T19:39+00:00",
      "summary": ""
     },
@@ -888,13 +1076,13 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "US imposes sanctions on dozens linked to Iran’s shadow banking networks",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/23/us-issues-new-iranrelated-sanctions-",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkVfWi1Kb1IzYlIyN3dsb0pLWm1tQndEM3N5N0NvMDk4VTRMcmhHc3NkZFgyM3VGUW5aUkxzcFd4WWFucjBFMlZhTkEtTzV2LUVQbEU2ZUlTblVhcHd1VDJFaVRPQjkzR3g0NU85TURFMDJ5UkVlRUs3N2l3OHpmR2tJR1oyNy03dzQ4MG1uNGoteGE3UWpfWEx30gGfAUFVX3lxTE1JQm4wV1RwUTBpVUZnSEpGUS11UUxkdzVFQk9tSUZZcmVVbVBrNjN2VXdnRkQzZWFjdG9mV3VZS2dLS2xBYlpuRWczSWNzZmZSSTZmWmp6UDVoZXBfZVhBSkJOeHNtSEc4ZUxVcXBxQ2paMVVFeGF5UHdGV1JIaTAzWm5wclFrdTFoNlZBY3JlS19laUg1Y2tKRFllQkgzNA?oc=5",
+     "via": "Google News",
      "published": "2026-11-23T17:12+00:00",
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -929,7 +1117,42 @@
      "summary": "Nvidia shares surged 32.2%, on track for their biggest one-day jump in more than two decades after an extraordinary reversal, which followed President Donald Trump’s call for Jensen Huang’s return"
     }
    ],
-   "id": 16
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-23T17:05+00:00",
+   "earliest": "2026-11-23T13:33+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Panama, First Quantum restart negotiations on copper mine",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUGEyOXJMNm9aY0tiRXJieE5lbmZ1MllnX1NWTFNteXZoMjZhNXFiT3pYbDBNaWJLZGZVMnBUT0xXd3RkQi1XWWpDSUR5MVgyMWxJdmxxSkVoVGtWWFA5bVY4dGJzS2NyNlNxWUVoNzl0U3N4YS04YWplQlowQ2R5eGFnczVYdw?oc=5",
+     "via": "Google News",
+     "published": "2026-11-23T17:05+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Panama, First Quantum begin talks on giant copper mine’s reopening",
+     "url": "https://www.mining.com/panama-first-quantum-begin-talks-on-giant-copper-mines-reopening/",
+     "via": "",
+     "published": "2026-11-23T13:33+00:00",
+     "summary": "First Quantum accepted five conditions from the government for reopening negotiations, officials announced after Monday's meeting."
+    }
+   ],
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -949,8 +1172,8 @@
      "outlet": "Reuters",
      "region": "Europe",
      "title": "Mexico, China agree to create working group to boost trade",
-     "url": "https://www.reuters.com/world/mexico-china-agree-create-working-group-boost-trade-2026-11-23/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNGQzdEcwdnZKUC05dU4zQWZFRkRKV0tmVTM1d0oxeU5ldlM0Ukk4RVhlZTNPZXZtQ2tGejdIa1V1SEdvLUx5VHJ6dGxDWlhya041NE9MckZkOEFzbjNneGhwMzFDOXhrWGx3c0JFMFg1NnhnaURuYVNpRWRIakNqbWxueHlYeU1zY3ZLYkVtZTVoX1JEV2N0Ug?oc=5",
+     "via": "Google News",
      "published": "2026-11-23T16:47+00:00",
      "summary": ""
     },
@@ -964,7 +1187,7 @@
      "summary": "Mexico and China agreed on Monday to create a working group focused on bilateral economic priorities, Mexico’s ⁠Economy Ministry said. Economy ministers Marcelo ‌Ebrard of Mexico and Wang Wentao of China will look at ways to boost Mexican exports to China, the ministry said. During talks in Beijing, Ebrard ⁠highlighted a persistent trade imbalance, noting that China ‌is set to export more than US$"
     }
    ],
-   "id": 17
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -999,7 +1222,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1034,7 +1257,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1069,7 +1292,7 @@
      "summary": "BHP expects global copper demand to grow by 30% by 2040 to more than 45 million tonnes per year."
     }
    ],
-   "id": 20
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1104,42 +1327,7 @@
      "summary": ""
     }
    ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "gCaptain"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-22T16:41+00:00",
-   "earliest": "2026-11-21T19:38+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "UKMTO reports incident involving tanker and military forces in Gulf of Oman",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/ukmto-reports-incident-involving-tanker-and-military-forces-in-gulf-of-oman",
-     "via": "",
-     "published": "2026-11-22T16:41+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz",
-     "url": "https://gcaptain.com/two-tanker-incidents-reported-near-oman-vessel-hit-mine-east-of-hormuz/",
-     "via": "",
-     "published": "2026-11-21T19:38+00:00",
-     "summary": "Nov 21 (Reuters) – A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United..."
-    }
-   ],
-   "id": 22
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1159,8 +1347,8 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Libya’s eastern government suspects drone attack caused explosion on Russian ship",
-     "url": "https://english.alarabiya.net/News/africa/2026/11/22/libya-s-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMGRpdm9oaUJGUlE1RlFDUlFLT0h0M0FWenhfZzRvMGdLMVRtb2hvbEtoZW95Q3FFNm96S21fZ0FzSUUySnhBZ1pndm5LdnZwMW9GWkxCSlZLR3l3bE1kdi1NQUZBWTJKXzVqdDlJYlh4c2dLTFNIWWo1aDg2Y0hLZ1ptV2JLLWhra2NNUXRFcENsVXVSU1BEUFpneFhDbFFYOTRFX01obEpxcThqRWgtU0JELWtWeDRNYlZJNG9fU0Yxd3Z3ZWVtVy15R1VkXzDSAdQBQVVfeXFMT28xcnZLNkZyZGxrenRRWVBtVjNLQi1GOTBCcC1TZUk3TXVSUFJya1FMY0FSaVZBTnptZ2x6TjJtVUYzOWxCWWNpWFdTZWRhWHVTSlVDTENiWWVCN0pWbUhNZHFJbFhiMHJxa1p3bkJLUlpJcFlFa0daekhNOGIycENnX1lPTlVMQjJqVEN2T0h1QjFoNklkV3RuT1dWTmdNTUQ1UGJFajZCVFRzckwzTjlRVHRWZGVNZEI1Rm81Q0xfZWQ1ajRxSHVDMGRDeTh1VElBSUY?oc=5",
+     "via": "Google News",
      "published": "2026-11-22T15:41+00:00",
      "summary": ""
     },
@@ -1174,7 +1362,42 @@
      "summary": "Nov 22 (Reuters) – Libya’s eastern-based government said on Sunday that a preliminary investigation indicated an explosion at the Benghazi naval base in eastern Libya occurred aboard a Russian ship docked at..."
     }
    ],
-   "id": 23
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "gCaptain",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-22T14:31+00:00",
+   "earliest": "2026-11-21T09:46+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Russian Cargo Ship Still On Fire Off Finland After Attack",
+     "url": "https://gcaptain.com/russian-cargo-ship-still-on-fire-off-finland-after-attack/",
+     "via": "",
+     "published": "2026-11-22T14:31+00:00",
+     "summary": "HELSINKI, Nov 22 (Reuters) – A fire onboard a Russian cargo ship that was struck by drones in the Baltic Sea continued to burn through the night even as efforts were made to..."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Russia says cargo vessel attacked by drones in Gulf of Finland",
+     "url": "https://english.alarabiya.net/News/world/2026/11/21/russia-says-cargo-vessel-attacked-by-drones-in-gulf-of-finland",
+     "via": "",
+     "published": "2026-11-21T09:46+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1208,41 +1431,7 @@
      "summary": ""
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Euronews"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-11-23T16:26+00:00",
-   "earliest": "2026-11-23T16:03+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EU Commission proposes ban on Russian athletes, ex-fighters in new Russia sanctions package",
-     "url": "https://www.reuters.com/business/finance/eu-commission-proposes-22nd-sanctions-package-russia-2026-11-23/",
-     "via": "",
-     "published": "2026-11-23T16:26+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "EU goes after Russia's banks, soldiers and athletes in new sanctions package",
-     "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
-     "via": "",
-     "published": "2026-11-23T16:03+00:00",
-     "summary": "Russian banks, crypto, \"shadow fleet\", oil refineries, soldiers and athletes are all targeted in the latest sanctions package proposed by Brussels."
-    }
-   ],
-   "id": 25
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1276,41 +1465,41 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 30
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
+    "Times of Israel",
+    "Al Arabiya"
    ],
    "regions": [
     "Middle East"
    ],
-   "latest": "2026-11-22T14:11+00:00",
-   "earliest": "2026-11-22T07:29+00:00",
+   "latest": "2026-11-22T14:09+00:00",
+   "earliest": "2026-11-22T08:59+00:00",
    "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
-     "via": "",
-     "published": "2026-11-22T14:11+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Eisenkot condemns overnight West Bank arson attacks as 'Jewish terrorism,' urges crackdown",
-     "url": "https://www.timesofisrael.com/liveblog_entry/eisenkot-condemns-overnight-west-bank-arson-attacks-as-jewish-terrorism-urges-crackdown/",
+     "title": "Saudi Arabia, Qatar blast ‘heinous’ Iranian attack on civilian Bahraini site",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb3NfWmtGd0JxcFpDTnhqTDA5UUIwZWI1SXZJVXVVeDdWa3F2blotSVFRM2Z5RlNPWl9nMHNXYUQ4Vnd2enNtZUFaTmltdFA4UkFLZ1REVGZvMXZPNVVQTWtiZkNkdlFWWGZkazc3WC16dXdRenNHakQ4RDNUQTFjRjdEUUFkZHlJeDJhNUxOTWZuZ0RNUDJ4dWo3SUIyTml3Y3VFV0g4WWNMQklULWxOUjl5TlNibmFlT1pn?oc=5",
+     "via": "Google News",
+     "published": "2026-11-22T14:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Arabia condemns Iranian attack on civilian industrial facility in Bahrain",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/22/saudi-arabia-condemns-iranian-attack-on-civilian-industrial-facility-in-bahrain",
      "via": "",
-     "published": "2026-11-22T07:29+00:00",
+     "published": "2026-11-22T08:59+00:00",
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1329,8 +1518,8 @@
      "outlet": "Times of Israel",
      "region": "Middle East",
      "title": "Bahrain says 2 injured, one critically, in Iranian attacks yesterday",
-     "url": "https://www.timesofisrael.com/liveblog_entry/bahrain-says-2-injured-one-critically-in-iranian-attacks-yesterday/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdE1RNGZDaGdmVVJPRkhzWjhfTklPV0NHdUFHd2ltSnN1ZlZEUmkydkJnNE9VbmQ3YUdCbmZDc05BMlktRFhZMkpwaWZGVmNyME5ZTmt2dFBGRkU0YXpHVGlhbXNwWk5IT2NGQTV0cUxPZjU1b2NTUGI0eFNUYVgxbDRKUWdxQkR3VXhRVVVIdkMwb1lfUkQtS2ZpUEpNNVRzcDluNngwR0JDS3hYYWJaNXlB?oc=5",
+     "via": "Google News",
      "published": "2026-11-22T10:09+00:00",
      "summary": ""
     },
@@ -1344,75 +1533,7 @@
      "summary": ""
     }
    ],
-   "id": 28
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-22T08:59+00:00",
-   "earliest": "2026-11-22T01:01+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia condemns Iranian attack on civilian industrial facility in Bahrain",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/22/saudi-arabia-condemns-iranian-attack-on-civilian-industrial-facility-in-bahrain",
-     "via": "",
-     "published": "2026-11-22T08:59+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Bahrain says Iranian attack hit industrial facility; IRGC says it targeted US positions",
-     "url": "https://www.timesofisrael.com/bahrain-says-iranian-attack-hit-industrial-facility-irgc-says-it-targeted-us-positions/",
-     "via": "",
-     "published": "2026-11-22T01:01+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-22T08:10+00:00",
-   "earliest": "2026-11-21T22:24+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi-led coalition intercepts Houthi ballistic missile, four drones",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/saudiled-coalition-intercepts-houthi-ballistic-missile-three-drones",
-     "via": "",
-     "published": "2026-11-22T08:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi-led coalition says it intercepted Houthi ballistic missile targeting western region",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missile-targeting-western-region/",
-     "via": "",
-     "published": "2026-11-21T22:24+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 30
+   "id": 32
   }
  ]
 }
