@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-24T05:20:59+00:00",
+ "fetched_at": "2026-11-24T06:52:05+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 614,
+ "outlets_read": 42,
+ "items_read": 618,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,27 +12,29 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 3,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 19,
+   "items": 9,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 21,
+   "items": 22,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Yicai Global": {
@@ -42,12 +44,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 57,
+   "items": 60,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 19,
+   "items": 20,
    "errors": []
   },
   "Kyodo News": {
@@ -57,17 +59,17 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 15,
+   "items": 11,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 29,
+   "items": 30,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 43,
+   "items": 40,
    "errors": []
   },
   "Financial Times": {
@@ -107,7 +109,7 @@
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 30,
+   "items": 34,
    "errors": []
   },
   "Amwaj.media": {
@@ -117,7 +119,7 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
@@ -127,7 +129,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "Axios": {
@@ -137,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 11,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,7 +156,7 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 29,
+   "items": 27,
    "errors": []
   },
   "Australian Financial Review": {
@@ -164,12 +166,12 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Interfax": {
@@ -184,7 +186,7 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Business Standard": {
@@ -199,10 +201,8 @@
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 0,
-   "errors": [
-    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 4,
+   "errors": []
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Newsroom Panama": {
@@ -241,6 +241,130 @@
   }
  },
  "clusters": [
+  {
+   "independent_outlets": 5,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Nikkei Asia",
+    "Africanews",
+    "Associated Press",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Africa",
+    "East Asia",
+    "Europe",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-23T14:39+00:00",
+   "earliest": "2026-11-22T19:21+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "At least 24 people killed in Indonesia factory fire, police say",
+     "url": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say",
+     "via": "",
+     "published": "2026-11-23T14:39+00:00",
+     "summary": "Dozens of employees are still reported to be missing after a blaze broke out at a candy factory in Banten province at around 4:30 pm local time on Saturday."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Indonesia searches for 34 missing workers after candy factory fire",
+     "url": "https://asia.nikkei.com/economy/fires/indonesia-searches-for-34-missing-workers-after-candy-factory-fire",
+     "via": "",
+     "published": "2026-11-23T09:37+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Indonesia: Rescuers recover 24 body bags from burnt-out factory",
+     "url": "http://www.africanews.com/2026/11/23/indonesia-rescuers-recover-24-body-bags-from-burnt-out-factory/",
+     "via": "",
+     "published": "2026-11-23T09:10+00:00",
+     "summary": "A devastating fire has gutted a confectionery factory near Jakarta, with authorities recovering 24 body bags from the wreckage. Rescue workers continue searching for missing employees as investigators examine the cause."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire",
+     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
+     "via": "",
+     "published": "2026-11-23T01:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/22/police-remove-24-body-bags-from-a-firehit-candy-factory-in-indonesia",
+     "via": "",
+     "published": "2026-11-22T19:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "gCaptain",
+    "Associated Press",
+    "Africanews",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-23T12:31+00:00",
+   "earliest": "2026-11-21T07:37+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Fake Iran Tanker Highlights Uncertainty Around Hormuz Traffic",
+     "url": "https://gcaptain.com/fake-iran-tanker-highlights-uncertainty-around-hormuz-traffic/",
+     "via": "",
+     "published": "2026-11-23T12:31+00:00",
+     "summary": "An Iranian oil tanker with no track record signaled earlier on Monday that it had sailed past a US blockade outside the Strait of Hormuz — an unlikely trajectory that is raising fresh questions about obfuscation tactics and analysts’ limited ability to accurately track movements in the area."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Endurance athlete swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
+     "url": "https://apnews.com/article/strait-of-hormuz-swimmer-lewis-pugh-e772be52a06d75699594a7396ec78f25",
+     "via": "",
+     "published": "2026-11-21T19:02+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
+     "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
+     "via": "",
+     "published": "2026-11-21T12:18+00:00",
+     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Briton swims in Strait of Hormuz to highlight Iran war’s wildlife impact",
+     "url": "https://www.timesofisrael.com/man-swims-in-strait-of-hormuz-to-highlight-iran-wars-wildlife-impact/",
+     "via": "",
+     "published": "2026-11-21T07:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
   {
    "independent_outlets": 4,
    "same_headline_groups": [
@@ -310,63 +434,107 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 3
   },
   {
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Africanews",
-    "Al Arabiya",
-    "Associated Press"
+    "Livemint / Economic Times",
+    "The Indian Express",
+    "The Hindu",
+    "Business Standard"
    ],
    "regions": [
-    "Africa",
-    "Middle East",
-    "North America"
+    "South Asia"
    ],
-   "latest": "2026-11-22T17:04+00:00",
-   "earliest": "2026-11-22T09:29+00:00",
+   "latest": "2026-11-24T02:48+00:00",
+   "earliest": "2026-11-22T15:43+00:00",
    "items": [
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Settler leader condemns arson attacks in Palestinian villages, but criticizes those calling it 'Jewish terrorism'",
-     "url": "https://www.timesofisrael.com/liveblog_entry/settler-leader-condemns-arson-attacks-in-palestinian-villages-but-criticizes-those-calling-it-jewish-terrorism/",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Explained: Tata Steel’s pivot and APL funding burden unsettle the investors",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-steels-pivot-and-apl-apollos-funding-burden-unsettle-investors/articleshow/136117824.cms",
      "via": "",
-     "published": "2026-11-22T17:04+00:00",
+     "published": "2026-11-24T02:48+00:00",
+     "summary": "Tata Steel has revealed plans to acquire a significant 26.38% stake in APL Apollo Tubes for an impressive ₹15,510 crore. This strategic move involves Tata Steel transferring its tubes division and Tata Steel Colours to APL Apollo Tubes. However, the announcement triggered a substantial drop in share prices for both companies, raising investor concerns over the potential effects on Tata Steel's ope"
+    },
+    {
+     "outlet": "The Indian Express",
+     "region": "South Asia",
+     "title": "Tata Steel to now acquire 26.6% stake in APL Apollo Tubes for Rs 15,510 crore",
+     "url": "https://indianexpress.com/article/business/tata-steel-to-buy-26-6-stake-in-apl-apollo-promoters-for-rs-15510-crore-10975241/",
+     "via": "",
+     "published": "2026-11-23T13:29+00:00",
      "summary": ""
     },
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
-     "url": "http://www.africanews.com/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks/",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Tata Steel to acquire 26.6% promoter stake in APL Apollo; another 26% via open offer",
+     "url": "https://www.thehindu.com/business/Industry/tata-steel-apl-apollo-agreements-promoter-stake-open-offer-stake/article71733521.ece",
      "via": "",
-     "published": "2026-11-22T15:52+00:00",
-     "summary": "Burnt-out cars, damaged trucks and anti-Arab graffiti were discovered in four Palestinian villages in the Israeli-occupied West Bank on Sunday 22 November 2026, following overnight attacks blamed by local activists on Israeli settlers."
+     "published": "2026-11-23T08:12+00:00",
+     "summary": "Tata Steel to consolidate pipes and colour steel business under APL Apollo Tubes, buys entire promoter stake for ₹15,511 crore, to make ₹16,756 crore open offer"
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Tata Steel announces ₹28,000 cr deal with APL Apollo Tubes for two units",
+     "url": "https://www.business-standard.com/companies/news/tata-steel-board-clears-28k-cr-sale-of-two-businesses-to-apl-apollo-tubes-126112200721_1.html",
      "via": "",
-     "published": "2026-11-22T14:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Israeli opposition leader condemns suspected settler attacks as 'terrorism,' and other Mideast news",
-     "url": "https://apnews.com/article/mideast-houthis-west-bank-november-22-2026-8d1680a23d592667db1ce1969b55b4f2",
-     "via": "",
-     "published": "2026-11-22T09:29+00:00",
+     "published": "2026-11-22T15:43+00:00",
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "VnExpress International",
+    "RNZ",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-24T05:17+00:00",
+   "earliest": "2026-11-23T20:40+00:00",
+   "items": [
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Asian stocks rally as Jensen Huang's return to Nvidia revives the AI trade",
+     "url": "https://e.vnexpress.net/news/business/markets/asian-stocks-rally-as-jensen-huang-s-return-to-nvidia-revives-the-ai-trade-5148353.html",
+     "via": "",
+     "published": "2026-11-24T05:17+00:00",
+     "summary": "Asian shares leapt on Tuesday following a spectacular Wall Street surge, as Jensen Huang's return as Nvidia CEO sparked a ‌relief rally in the battered AI trade."
+    },
+    {
+     "outlet": "RNZ",
+     "region": "Oceania",
+     "title": "Kiwi stocks rebound after Jensen Huang's return to Nvidia",
+     "url": "https://www.rnz.co.nz/news/business/2759479/kiwi-stocks-rebound-after-jensen-huang-s-return-to-nvidia",
+     "via": "",
+     "published": "2026-11-23T23:12+00:00",
+     "summary": "The New Zealand share market rebounded strongly in trading on Tuesday morning following the Wall Street rally sparked by Jensen Huang's return to the helm of Nvidia."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Huang's stunning Nvidia return sparks relief for battered AI trade",
+     "url": "https://www.reuters.com/legal/transactional/huangs-stunning-nvidia-return-sparks-relief-battered-ai-trade-2026-11-23/",
+     "via": "",
+     "published": "2026-11-23T20:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -412,7 +580,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -458,187 +626,49 @@
      "summary": ""
     }
    ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Euronews",
-    "Africanews",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-23T14:39+00:00",
-   "earliest": "2026-11-22T19:21+00:00",
-   "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "At least 24 people killed in Indonesia factory fire, police say",
-     "url": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say",
-     "via": "",
-     "published": "2026-11-23T14:39+00:00",
-     "summary": "Dozens of employees are still reported to be missing after a blaze broke out at a candy factory in Banten province at around 4:30 pm local time on Saturday."
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Indonesia: Rescuers recover 24 body bags from burnt-out factory",
-     "url": "http://www.africanews.com/2026/11/23/indonesia-rescuers-recover-24-body-bags-from-burnt-out-factory/",
-     "via": "",
-     "published": "2026-11-23T09:10+00:00",
-     "summary": "A devastating fire has gutted a confectionery factory near Jakarta, with authorities recovering 24 body bags from the wreckage. Rescue workers continue searching for missing employees as investigators examine the cause."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/22/police-remove-24-body-bags-from-a-firehit-candy-factory-in-indonesia",
-     "via": "",
-     "published": "2026-11-22T19:21+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "The Straits Times",
-    "Mining Weekly"
-   ],
-   "regions": [
-    "Africa",
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-23T10:33+00:00",
-   "earliest": "2026-11-23T06:42+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "BHP bets $17.4 billion on doubling South Australian copper output",
-     "url": "https://www.mining.com/bhp-bets-17-4b-on-doubling-south-australian-copper-output/",
-     "via": "",
-     "published": "2026-11-23T10:33+00:00",
-     "summary": "Mining giant targets 650,000 tonnes annually by 2040, but high costs, water shortages and technical hurdles pose challenges."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "World’s largest miner unveils US$17.4b plan to double South Australian copper output by 2040",
-     "url": "https://www.straitstimes.com/business/worlds-largest-miner-unveils-us17-4b-plan-to-double-south-australian-copper-output-by-2040",
-     "via": "",
-     "published": "2026-11-23T07:33+00:00",
-     "summary": "BHP expects global copper demand to grow by 30% by 2040 to more than 45 million tonnes per year."
-    },
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "BHP unveils $17.4bn plan to double South Australian copper output by 2040",
-     "url": "https://www.miningweekly.com/article/bhp-unveils-174bn-plan-to-double-south-australian-copper-output-by-2040-2026-11-23/page:1",
-     "via": "",
-     "published": "2026-11-23T06:42+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Business Standard",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-23T05:34+00:00",
-   "earliest": "2026-11-23T01:54+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "NYT: Alice Huang was in touch with Chinese spy agency during affair with Nvidia CEO",
-     "url": "https://www.timesofisrael.com/liveblog_entry/nyt-alice-huang-was-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo/",
-     "via": "",
-     "published": "2026-11-23T05:34+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "US tracked Alice Huang's links with China spy agency during Nvidia affair",
-     "url": "https://www.business-standard.com/world-news/us-tracked-alice-huang-s-links-with-china-spy-agency-during-nvidia-affair-126112300082_1.html",
-     "via": "",
-     "published": "2026-11-23T02:04+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT says",
-     "url": "https://www.reuters.com/technology/alice-huang-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-nyt-says-2026-11-23/",
-     "via": "",
-     "published": "2026-11-23T01:54+00:00",
-     "summary": ""
-    }
-   ],
    "id": 7
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Associated Press",
-    "Africanews",
-    "Times of Israel"
+    "Al Arabiya",
+    "South China Morning Post",
+    "Nikkei Asia"
    ],
    "regions": [
-    "Africa",
-    "Middle East",
-    "North America"
+    "China",
+    "East Asia",
+    "Middle East"
    ],
-   "latest": "2026-11-21T19:02+00:00",
-   "earliest": "2026-11-21T07:37+00:00",
+   "latest": "2026-11-22T21:58+00:00",
+   "earliest": "2026-11-22T18:29+00:00",
    "items": [
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Endurance athlete swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
-     "url": "https://apnews.com/article/strait-of-hormuz-swimmer-lewis-pugh-e772be52a06d75699594a7396ec78f25",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US Treasury Secretary Scott Bessent says NVIDIA has yet to answer questions",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/23/us-treasury-secretary-scott-bessent-says-nvidia-has-yet-to-answer-questions",
      "via": "",
-     "published": "2026-11-21T19:02+00:00",
+     "published": "2026-11-22T21:58+00:00",
      "summary": ""
     },
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
-     "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
      "via": "",
-     "published": "2026-11-21T12:18+00:00",
-     "summary": "British endurance swimmer Lewis Pugh completed a 15-kilometre swim through the Strait of Hormuz over three days in November 2026, braving explosions and burning tankers nearby. His three-day challenge aimed to expose the environmental damage caused by the war with Iran."
+     "published": "2026-11-22T20:03+00:00",
+     "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday. “We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … "
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Briton swims in Strait of Hormuz to highlight Iran war’s wildlife impact",
-     "url": "https://www.timesofisrael.com/man-swims-in-strait-of-hormuz-to-highlight-iran-wars-wildlife-impact/",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "US must 'see where the buck stops' on Nvidia chip sales to China: Bessent",
+     "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-must-see-where-the-buck-stops-on-nvidia-chip-sales-to-china-bessent",
      "via": "",
-     "published": "2026-11-21T07:37+00:00",
+     "published": "2026-11-22T18:29+00:00",
      "summary": ""
     }
    ],
@@ -690,118 +720,39 @@
    "id": 9
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "The Hindu",
-    "Business Standard"
+    "Mining.com.au",
+    "MINING.COM"
    ],
    "regions": [
-    "South Asia"
+    "North America",
+    "Oceania"
    ],
-   "latest": "2026-11-24T02:48+00:00",
-   "earliest": "2026-11-22T15:43+00:00",
+   "latest": "2026-11-24T04:37+00:00",
+   "earliest": "2026-11-23T13:33+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Explained: Tata Steel’s pivot and APL funding burden unsettle the investors",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-steels-pivot-and-apl-apollos-funding-burden-unsettle-investors/articleshow/136117824.cms",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Panama, First Quantum restart negotiations on copper mine",
+     "url": "https://mining.com.au/panama-first-quantum-restart-negotiations-on-copper-mine/",
      "via": "",
-     "published": "2026-11-24T02:48+00:00",
-     "summary": "Tata Steel has revealed plans to acquire a significant 26.38% stake in APL Apollo Tubes for an impressive ₹15,510 crore. This strategic move involves Tata Steel transferring its tubes division and Tata Steel Colours to APL Apollo Tubes. However, the announcement triggered a substantial drop in share prices for both companies, raising investor concerns over the potential effects on Tata Steel's ope"
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Tata Steel to acquire 26.6% promoter stake in APL Apollo; another 26% via open offer",
-     "url": "https://www.thehindu.com/business/Industry/tata-steel-apl-apollo-agreements-promoter-stake-open-offer-stake/article71733521.ece",
-     "via": "",
-     "published": "2026-11-23T08:12+00:00",
-     "summary": "Tata Steel to consolidate pipes and colour steel business under APL Apollo Tubes, buys entire promoter stake for ₹15,511 crore, to make ₹16,756 crore open offer"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Tata Steel announces ₹28,000 cr deal with APL Apollo Tubes for two units",
-     "url": "https://www.business-standard.com/companies/news/tata-steel-board-clears-28k-cr-sale-of-two-businesses-to-apl-apollo-tubes-126112200721_1.html",
-     "via": "",
-     "published": "2026-11-22T15:43+00:00",
+     "published": "2026-11-24T04:37+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Panama, First Quantum begin talks on giant copper mine’s reopening",
+     "url": "https://www.mining.com/panama-first-quantum-begin-talks-on-giant-copper-mines-reopening/",
+     "via": "",
+     "published": "2026-11-23T13:33+00:00",
+     "summary": "First Quantum accepted five conditions from the government for reopening negotiations, officials announced after Monday's meeting."
     }
    ],
    "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "VnExpress International",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-24T05:17+00:00",
-   "earliest": "2026-11-23T20:40+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Asian stocks rally as Jensen Huang's return to Nvidia revives the AI trade",
-     "url": "https://e.vnexpress.net/news/business/markets/asian-stocks-rally-as-jensen-huang-s-return-to-nvidia-revives-the-ai-trade-5148353.html",
-     "via": "",
-     "published": "2026-11-24T05:17+00:00",
-     "summary": "Asian shares leapt on Tuesday following a spectacular Wall Street surge, as Jensen Huang's return as Nvidia CEO sparked a ‌relief rally in the battered AI trade."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Huang's stunning Nvidia return sparks relief for battered AI trade",
-     "url": "https://www.reuters.com/legal/transactional/huangs-stunning-nvidia-return-sparks-relief-battered-ai-trade-2026-11-23/",
-     "via": "",
-     "published": "2026-11-23T20:40+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-24T04:50+00:00",
-   "earliest": "2026-11-23T20:51+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Malaysian firm MSFusion, on US trade blacklist, denies equity links with Singapore-based Megaspeed",
-     "url": "https://www.straitstimes.com/asia/se-asia/malaysian-firm-msfusion-on-us-trade-blacklist-denies-equity-links-with-singapore-based-megaspeed",
-     "via": "",
-     "published": "2026-11-24T04:50+00:00",
-     "summary": "It said MSFusion, Megaspeed and its subsidiaries operated as separate and independent legal entities."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US blacklists Alibaba subsidiary and Megaspeed linked to Nvidia scandal",
-     "url": "https://www.reuters.com/business/us-blacklist-megaspeed-chip-firm-linked-nvidia-scandal-source-says-2026-11-23/",
-     "via": "",
-     "published": "2026-11-23T20:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -836,42 +787,7 @@
      "summary": "Major indices dived between 7% and 10% last week but investors were galvanised on the news of Huang’s return."
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MEED",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-24T04:17+00:00",
-   "earliest": "2026-11-23T02:24+00:00",
-   "items": [
-    {
-     "outlet": "MEED",
-     "region": "Middle East",
-     "title": "Libyan oil pipeline closed by militants",
-     "url": "https://www.meed.com/libyan-oil-pipeline-closed-by-militants",
-     "via": "",
-     "published": "2026-11-24T04:17+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Oil slumps to 3-month low on increased Middle East flows, Libyan pipeline restart",
-     "url": "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/",
-     "via": "",
-     "published": "2026-11-23T02:24+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -906,7 +822,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -941,7 +857,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -976,7 +892,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -1011,42 +927,77 @@
      "summary": "The average imported iron ore margin rebounded to 9.01 yuan/mt this period from -13.08 yuan/mt, driven mainly by a slight rise in port spot prices and lower premiums on some seaborne cargoes. On the demand side, average daily outbound volume at the 35 ports fell 80,000 mt week-on-week to 3 million mt, with lower hot ..."
     }
    ],
-   "id": 18
+   "id": 15
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Nikkei Asia"
+    "Al Jazeera",
+    "Associated Press"
    ],
    "regions": [
-    "East Asia",
-    "Europe"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-23T22:47+00:00",
-   "earliest": "2026-11-23T02:40+00:00",
+   "latest": "2026-11-23T23:26+00:00",
+   "earliest": "2026-11-23T17:31+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EXCLUSIVE: JD Vance's ties to prized Venezuelan oil contract under investigation by US Senate panel",
-     "url": "https://www.reuters.com/business/energy/exclusive-jd-vances-ties-prized-venezuelan-oil-contract-under-investigation-by-2026-11-23/",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+     "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss",
      "via": "",
-     "published": "2026-11-23T22:47+00:00",
-     "summary": ""
+     "published": "2026-11-23T23:26+00:00",
+     "summary": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports."
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "US-India energy ties tighten as New Delhi snaps up Venezuelan oil",
-     "url": "https://asia.nikkei.com/business/energy/us-india-energy-ties-tighten-as-new-delhi-snaps-up-venezuelan-oil",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events",
+     "url": "https://apnews.com/article/europe-russia-sanctions-banks-crypto-visas-sports-ecad86868390f6602b346c70d1fa5757",
      "via": "",
-     "published": "2026-11-23T02:40+00:00",
+     "published": "2026-11-23T17:31+00:00",
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Financial Times",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-23T22:46+00:00",
+   "earliest": "2026-11-23T20:25+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Inside the ‘war room’ that lobbied Trump to bring back Jensen Huang",
+     "url": "https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-23T22:46+00:00",
+     "summary": "Silicon Valley titans enlisted US president and JD Vance to rescue the billionaire tech boss whom they viewed as critical for the AI industry"
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Trump enlisted Vance in campaign to rescue Nvidia’s Jensen Huang: Report",
+     "url": "https://english.alarabiya.net/business/technology/2026/11/24/trump-enlisted-vance-in-campaign-to-rescue-nvidia-s-jensen-huang-report",
+     "via": "",
+     "published": "2026-11-23T20:25+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1057,7 +1008,7 @@
     ]
    ],
    "outlets": [
-    "Al Jazeera",
+    "Times of Israel",
     "Reuters",
     "Al Arabiya"
    ],
@@ -1065,17 +1016,17 @@
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-23T21:30+00:00",
+   "latest": "2026-11-23T21:01+00:00",
    "earliest": "2026-11-23T17:12+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
+     "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
-     "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
+     "title": "US sanctions dozens of alleged Iranian ‘shadow banking’ networks",
+     "url": "https://www.timesofisrael.com/us-sanctions-dozens-of-alleged-iranian-shadow-banking-networks/",
      "via": "",
-     "published": "2026-11-23T21:30+00:00",
-     "summary": "US Treasury sanctions over two dozen Iranian entities, citing efforts to disrupt Tehran's global financial activities."
+     "published": "2026-11-23T21:01+00:00",
+     "summary": ""
     },
     {
      "outlet": "Reuters",
@@ -1096,7 +1047,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1115,11 +1066,11 @@
     {
      "outlet": "ABC News (Australia)",
      "region": "Oceania",
-     "title": "Live: Wall St's one-day rally bigger than ASX 200 as Nvidia CEO reinstated",
+     "title": "Wall St's one-day rally bigger than ASX 200 as Nvidia CEO reinstated — as it happened",
      "url": "https://www.abc.net.au/news/2026-11-24/asx-markets-business-news-live-updates-nov-24-2026/107419524",
      "via": "",
      "published": "2026-11-23T20:36+00:00",
-     "summary": "Wall Street comes roaring back, after Nvidia sensationally announced the return of its scandal-engulfed chief executive and founder, Jensen Huang. Follow the day's events and insights from our business reporters on the ABC News live markets blog."
+     "summary": "Wall Street comes roaring back after Nvidia sensationally announced the return of its scandal-engulfed chief executive and founder, Jensen Huang."
     },
     {
      "outlet": "The Hindu",
@@ -1131,7 +1082,42 @@
      "summary": "Nvidia shares surged 32.2%, on track for their biggest one-day jump in more than two decades after an extraordinary reversal, which followed President Donald Trump’s call for Jensen Huang’s return"
     }
    ],
-   "id": 21
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Interfax"
+   ],
+   "regions": [
+    "Russia",
+    "South Asia"
+   ],
+   "latest": "2026-11-23T15:02+00:00",
+   "earliest": "2026-11-23T14:05+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Oil and gas production to pick up in 4-5 years as recent measures take effect, Petroleum Ministry says",
+     "url": "https://www.thehindu.com/business/Economy/oil-and-gas-production-to-pick-up-in-4-5-years-as-recent-measures-take-effect-petroleum-ministry-says/article71734940.ece",
+     "via": "",
+     "published": "2026-11-23T15:02+00:00",
+     "summary": "In a note accessed by The Hindu, the Ministry has said that the oil and gas industry has a long gestation period and so exploration and finance decisions taken more than a decade ago are affecting the industry now"
+    },
+    {
+     "outlet": "Interfax",
+     "region": "Russia",
+     "title": "Azerbaijan, Vietnam to discuss cooperation in oil and gas exploration, production",
+     "url": "https://interfax.com/newsroom/top-stories/120001/",
+     "via": "",
+     "published": "2026-11-23T14:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1166,38 +1152,73 @@
      "summary": ""
     }
    ],
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "The Straits Times"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-23T10:33+00:00",
+   "earliest": "2026-11-23T07:33+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "BHP bets $17.4 billion on doubling South Australian copper output",
+     "url": "https://www.mining.com/bhp-bets-17-4b-on-doubling-south-australian-copper-output/",
+     "via": "",
+     "published": "2026-11-23T10:33+00:00",
+     "summary": "Mining giant targets 650,000 tonnes annually by 2040, but high costs, water shortages and technical hurdles pose challenges."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "World’s largest miner unveils US$17.4b plan to double South Australian copper output by 2040",
+     "url": "https://www.straitstimes.com/business/worlds-largest-miner-unveils-us17-4b-plan-to-double-south-australian-copper-output-by-2040",
+     "via": "",
+     "published": "2026-11-23T07:33+00:00",
+     "summary": "BHP expects global copper demand to grow by 30% by 2040 to more than 45 million tonnes per year."
+    }
+   ],
    "id": 22
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Nikkei Asia",
-    "Associated Press"
+    "Times of Israel",
+    "Business Standard"
    ],
    "regions": [
-    "East Asia",
-    "North America"
+    "Middle East",
+    "South Asia"
    ],
-   "latest": "2026-11-23T09:37+00:00",
-   "earliest": "2026-11-23T01:23+00:00",
+   "latest": "2026-11-23T05:34+00:00",
+   "earliest": "2026-11-23T02:04+00:00",
    "items": [
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Indonesia searches for 34 missing workers after candy factory fire",
-     "url": "https://asia.nikkei.com/economy/fires/indonesia-searches-for-34-missing-workers-after-candy-factory-fire",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "NYT: Alice Huang was in touch with Chinese spy agency during affair with Nvidia CEO",
+     "url": "https://www.timesofisrael.com/liveblog_entry/nyt-alice-huang-was-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo/",
      "via": "",
-     "published": "2026-11-23T09:37+00:00",
+     "published": "2026-11-23T05:34+00:00",
      "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire",
-     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US tracked Alice Huang's links with China spy agency during Nvidia affair",
+     "url": "https://www.business-standard.com/world-news/us-tracked-alice-huang-s-links-with-china-spy-agency-during-nvidia-affair-126112300082_1.html",
      "via": "",
-     "published": "2026-11-23T01:23+00:00",
+     "published": "2026-11-23T02:04+00:00",
      "summary": ""
     }
    ],
@@ -1207,71 +1228,36 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "The Jakarta Post"
+    "Africanews",
+    "Al Arabiya"
    ],
    "regions": [
-    "Europe",
-    "Southeast Asia"
+    "Africa",
+    "Middle East"
    ],
-   "latest": "2026-11-23T03:49+00:00",
-   "earliest": "2026-11-22T04:15+00:00",
+   "latest": "2026-11-22T15:52+00:00",
+   "earliest": "2026-11-22T14:11+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
-     "url": "https://www.reuters.com/world/asia-pacific/indonesia-says-24-killed-factory-blaze-rescuers-search-dozens-missing-2026-11-23/",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
+     "url": "http://www.africanews.com/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks/",
      "via": "",
-     "published": "2026-11-23T03:49+00:00",
-     "summary": ""
+     "published": "2026-11-22T15:52+00:00",
+     "summary": "Burnt-out cars, damaged trucks and anti-Arab graffiti were discovered in four Palestinian villages in the Israeli-occupied West Bank on Sunday 22 November 2026, following overnight attacks blamed by local activists on Israeli settlers."
     },
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Rescuers search for 36 missing after factory fire kills 3 in Banten",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/22/rescuers-search-for-36-missing-after-factory-fire-kills-3-in-banten",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
      "via": "",
-     "published": "2026-11-22T04:15+00:00",
+     "published": "2026-11-22T14:11+00:00",
      "summary": ""
     }
    ],
    "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "Middle East"
-   ],
-   "latest": "2026-11-22T21:58+00:00",
-   "earliest": "2026-11-22T20:03+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US Treasury Secretary Scott Bessent says NVIDIA has yet to answer questions",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/23/us-treasury-secretary-scott-bessent-says-nvidia-has-yet-to-answer-questions",
-     "via": "",
-     "published": "2026-11-22T21:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
-     "via": "",
-     "published": "2026-11-22T20:03+00:00",
-     "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday. “We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … "
-    }
-   ],
-   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1306,7 +1292,7 @@
      "summary": "Nov 22 (Reuters) – Libya’s eastern-based government said on Sunday that a preliminary investigation indicated an explosion at the Benghazi naval base in eastern Libya occurred aboard a Russian ship docked at..."
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1341,7 +1327,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1375,7 +1361,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1409,7 +1395,7 @@
      "summary": "Russian banks, crypto, \"shadow fleet\", oil refineries, soldiers and athletes are all targeted in the latest sanctions package proposed by Brussels."
     }
    ],
-   "id": 29
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1443,41 +1429,7 @@
      "summary": ""
     }
    ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-22T14:09+00:00",
-   "earliest": "2026-11-22T08:59+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi Arabia, Qatar blast ‘heinous’ Iranian attack on civilian Bahraini site",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-arabia-qatar-blast-heinous-iranian-attack-on-civilian-bahraini-site/",
-     "via": "",
-     "published": "2026-11-22T14:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Saudi Arabia condemns Iranian attack on civilian industrial facility in Bahrain",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/22/saudi-arabia-condemns-iranian-attack-on-civilian-industrial-facility-in-bahrain",
-     "via": "",
-     "published": "2026-11-22T08:59+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 31
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1508,6 +1460,74 @@
      "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/bahrain-condemns-iranian-attack-on-civilian-industrial-facility-urges-un-action",
      "via": "",
      "published": "2026-11-22T06:24+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 30
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-22T08:59+00:00",
+   "earliest": "2026-11-22T01:01+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi Arabia condemns Iranian attack on civilian industrial facility in Bahrain",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/22/saudi-arabia-condemns-iranian-attack-on-civilian-industrial-facility-in-bahrain",
+     "via": "",
+     "published": "2026-11-22T08:59+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Bahrain says Iranian attack hit industrial facility; IRGC says it targeted US positions",
+     "url": "https://www.timesofisrael.com/bahrain-says-iranian-attack-hit-industrial-facility-irgc-says-it-targeted-us-positions/",
+     "via": "",
+     "published": "2026-11-22T01:01+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-22T08:10+00:00",
+   "earliest": "2026-11-21T22:24+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi-led coalition intercepts Houthi ballistic missile, four drones",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/saudiled-coalition-intercepts-houthi-ballistic-missile-three-drones",
+     "via": "",
+     "published": "2026-11-22T08:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Saudi-led coalition says it intercepted Houthi ballistic missile targeting western region",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missile-targeting-western-region/",
+     "via": "",
+     "published": "2026-11-21T22:24+00:00",
      "summary": ""
     }
    ],
