@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-25T08:34:58+00:00",
+ "fetched_at": "2026-11-25T22:47:38+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 700,
+ "outlets_read": 44,
+ "items_read": 778,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,29 +12,27 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 35,
+   "items": 26,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aecofinagency.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 41,
+   "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 5,
+   "items": 7,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 27,
+   "items": 31,
    "errors": []
   },
   "Yicai Global": {
@@ -44,32 +42,32 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 49,
+   "items": 50,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 26,
+   "items": 33,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 11,
+   "items": 4,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 18,
+   "items": 41,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 45,
+   "items": 51,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 28,
+   "items": 31,
    "errors": []
   },
   "Financial Times": {
@@ -84,32 +82,32 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 11,
+   "items": 12,
    "errors": []
   },
   "Hellenic Shipping News": {
    "region": "Europe",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 11,
+   "items": 14,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 32,
+   "items": 31,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 29,
+   "items": 23,
    "errors": []
   },
   "Amwaj.media": {
@@ -119,12 +117,12 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 2,
+   "items": 1,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 12,
+   "items": 17,
    "errors": []
   },
   "Bloomberg": {
@@ -146,37 +144,37 @@
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 25,
+   "items": 34,
    "errors": []
   },
   "gCaptain": {
    "region": "North America",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 7,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 16,
+   "items": 21,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 1,
+   "items": 5,
    "errors": []
   },
   "Interfax": {
    "region": "Russia",
-   "items": 15,
+   "items": 19,
    "errors": []
   },
   "PortNews": {
@@ -186,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 26,
+   "items": 20,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 28,
+   "items": 35,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 15,
+   "items": 10,
    "errors": []
   },
   "The Indian Express": {
@@ -208,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 38,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
@@ -218,7 +216,7 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 11,
+   "items": 13,
    "errors": []
   },
   "MercoPress": {
@@ -228,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 22,
+   "items": 26,
    "errors": []
   },
   "Rio Times": {
@@ -244,67 +242,58 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "Caixin Global",
     "The Straits Times",
-    "ABC News (Australia)",
-    "Mining.com.au",
-    "The Jakarta Post"
+    "DigiTimes",
+    "Livemint / Economic Times"
    ],
    "regions": [
-    "Middle East",
-    "Oceania",
+    "China",
+    "East Asia",
+    "South Asia",
     "Southeast Asia"
    ],
-   "latest": "2026-11-25T08:08+00:00",
-   "earliest": "2026-11-25T04:06+00:00",
+   "latest": "2026-11-25T17:53+00:00",
+   "earliest": "2026-11-25T02:43+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Rescuers search for dozens trapped in flooded Indonesia gold mine",
-     "url": "https://www.aljazeera.com/news/2026/11/25/rescuers-search-for-dozens-trapped-in-flooded-indonesia-gold-mine?traffic_source=rss",
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "U.S. Proposes Additional 20% Tariff on China Ahead of Trade Truce Deadline",
+     "url": "https://www.caixinglobal.com/2026-11-26/us-proposes-additional-20-tariff-on-china-ahead-of-trade-truce-deadline-102508768.html",
      "via": "",
-     "published": "2026-11-25T08:08+00:00",
-     "summary": "Police say 26 workers are yet to be rescued from a mine that flooded when a nearby river overflowed after heavy rain."
+     "published": "2026-11-25T17:53+00:00",
+     "summary": ""
     },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "Indonesian rescuers search for possibly ‘dozens’ trapped in mine",
-     "url": "https://www.straitstimes.com/asia/se-asia/indonesian-rescuers-search-for-possibly-dozens-trapped-in-mine",
+     "title": "China warns US against imposing new tariffs",
+     "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
      "via": "",
-     "published": "2026-11-25T05:53+00:00",
-     "summary": "The miners have been stuck in a mine 100m deep since Nov 23."
+     "published": "2026-11-25T09:02+00:00",
+     "summary": "Media reports said Washington’s new levies would affect major US trading partners including China."
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Rescuers search for workers trapped in Indonesian mine",
-     "url": "https://www.abc.net.au/news/2026-11-25/miners-trapped-underground-in-west-java-indonesia/107426126",
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Trump's next Section 301 tariffs raise stakes for US-China trade truce deadline",
+     "url": "https://www.digitimes.com/news/a20261125VL220/capacity-taiwan-investigation-eu-production.html",
      "via": "",
-     "published": "2026-11-25T05:26+00:00",
-     "summary": ""
+     "published": "2026-11-25T03:35+00:00",
+     "summary": "The Trump administration is preparing new US tariffs after investigating alleged excess factory capacity across 16 trading partners, including China, Taiwan, Japan, South Korea and the European Union, according to Bloomberg and Reuters . The findings could be released as early as November 24, three people familiar with the matter said. The proposed duties would vary by trading partner and stack on"
     },
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Indonesian rescuers searching for possibly ‘dozens’ trapped in mine",
-     "url": "https://mining.com.au/indonesian-rescuers-searching-for-possibly-dozens-trapped-in-mine/",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US preparing to raise tariffs on China, India, others; to be added to levies imposed under Section 301 | Here's why",
+     "url": "https://www.livemint.com/news/us-news/us-preparing-to-raise-tariffs-on-china-india-others-to-be-added-to-levies-imposed-under-section-301-heres-why-11795574083097.html",
      "via": "",
-     "published": "2026-11-25T04:14+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Dozens feared trapped as illegal gold mine floods in Bogor",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/25/dozens-feared-trapped-as-illegal-gold-mine-floods-in-bogor?utm_source",
-     "via": "",
-     "published": "2026-11-25T04:06+00:00",
-     "summary": ""
+     "published": "2026-11-25T02:43+00:00",
+     "summary": "The Trump administration is reportedly preparing fresh tariffs on over a dozen countries, including India and China, over concerns about industrial subsidies and excess production. The proposed duties could affect most imported goods and add to existing levies."
     }
    ],
    "id": 1
@@ -313,54 +302,54 @@
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Business Standard",
+    "The Jakarta Post",
+    "Africanews",
     "Nikkei Asia",
-    "Al Arabiya"
+    "Associated Press"
    ],
    "regions": [
+    "Africa",
     "East Asia",
-    "Europe",
-    "Middle East",
-    "South Asia"
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-24T12:01+00:00",
-   "earliest": "2026-11-23T22:03+00:00",
+   "latest": "2026-11-24T11:38+00:00",
+   "earliest": "2026-11-23T01:23+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "What we know about Megaspeed, the Nvidia customer blacklisted by US",
-     "url": "https://www.reuters.com/business/retail-consumer/what-we-know-about-megaspeed-nvidia-customer-blacklisted-by-us-2026-11-24/",
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Death toll from candy factory fire rises to 26: Police",
+     "url": "https://www.thejakartapost.com/indonesia/2026/11/24/death-toll-from-candy-factory-fire-rises-to-26-police",
      "via": "",
-     "published": "2026-11-24T12:01+00:00",
+     "published": "2026-11-24T11:38+00:00",
      "summary": ""
     },
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "US blacklists Megaspeed, firm at centre of Nvidia chip-smuggling probe",
-     "url": "https://www.business-standard.com/world-news/us-blacklists-megaspeed-firm-at-centre-of-nvidia-chip-smuggling-probe-126112400226_1.html",
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
+     "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
      "via": "",
-     "published": "2026-11-24T04:40+00:00",
-     "summary": ""
+     "published": "2026-11-24T09:19+00:00",
+     "summary": "The death toll from a devastating fire at a confectionery factory west of Jakarta has risen to 26. Rescue workers continue searching for victims trapped beneath the rubble."
     },
     {
      "outlet": "Nikkei Asia",
      "region": "East Asia",
-     "title": "US to place Megaspeed on trade blacklist amid Nvidia scandal",
-     "url": "https://asia.nikkei.com/business/tech/semiconductors/us-to-place-megaspeed-on-trade-blacklist-amid-nvidia-scandal",
+     "title": "Indonesia searches for 34 missing workers after candy factory fire",
+     "url": "https://asia.nikkei.com/economy/fires/indonesia-searches-for-34-missing-workers-after-candy-factory-fire",
      "via": "",
-     "published": "2026-11-23T23:20+00:00",
+     "published": "2026-11-23T09:37+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
-     "url": "https://english.alarabiya.net/business/technology/2026/11/24/us-blacklists-megaspeed-chip-firm-linked-to-nvidia-scandal",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire",
+     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
      "via": "",
-     "published": "2026-11-23T22:03+00:00",
+     "published": "2026-11-23T01:23+00:00",
      "summary": ""
     }
    ],
@@ -370,54 +359,54 @@
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
     "Deutsche Welle",
-    "Euronews",
-    "Times of Israel"
+    "Africanews",
+    "Associated Press",
+    "Euronews"
    ],
    "regions": [
+    "Africa",
     "Europe",
-    "Middle East",
-    "South Asia"
+    "North America"
    ],
-   "latest": "2026-11-25T02:37+00:00",
-   "earliest": "2026-11-24T21:05+00:00",
+   "latest": "2026-11-25T21:37+00:00",
+   "earliest": "2026-11-25T19:56+00:00",
    "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Huawei convicted of stealing trade secrets: What is the case and what does it mean for US-China ties? Explained",
-     "url": "https://www.livemint.com/news/us-news/huawei-convicted-of-stealing-us-trade-secrets-what-s-the-case-and-what-does-it-mean-for-us-china-ties-explained-11795572905540.html",
-     "via": "",
-     "published": "2026-11-25T02:37+00:00",
-     "summary": "Huawei Technologies Co, China’s largest technology company, was found guilty on 10 of 12 US criminal charges, including defrauding banks about its business dealings in Iran and engaging in money laundering."
-    },
     {
      "outlet": "Deutsche Welle",
      "region": "Europe",
-     "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
-     "url": "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
+     "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
+     "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-11-25T02:01+00:00",
-     "summary": "Huawei was found guilty of 10 out of 12 charges levelled against it. The company said it plans to appeal the verdict."
+     "published": "2026-11-25T21:37+00:00",
+     "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances are responding to the crash, and Egyptian health authorities say the death toll could rise."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
+     "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
+     "via": "",
+     "published": "2026-11-25T21:11+00:00",
+     "summary": "A crash involving a fuel tanker ignited a massive fire on a major highway surrounding Cairo on Wednesday, killing at least 30 people, Egyptian authorities said."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 30 people",
+     "url": "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e",
+     "via": "",
+     "published": "2026-11-25T20:22+00:00",
+     "summary": ""
     },
     {
      "outlet": "Euronews",
      "region": "Europe",
-     "title": "Tech giant Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-     "url": "https://www.euronews.com/2026/11/24/tech-giant-huawei-found-guilty-of-stealing-trade-secrets-but-acquitted-of-racketeering",
+     "title": "At least 30 killed in highway fire in Cairo district",
+     "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
      "via": "",
-     "published": "2026-11-24T21:51+00:00",
-     "summary": "In a statement, Huawei said the acquittal on the racketeering charge \"confirms that these allegations lack factual basis and vindicates our consistent position over the past eight years.\""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Chinese tech giant Huawei convicted in US for evading Iran sanctions, stealing trade secrets",
-     "url": "https://www.timesofisrael.com/liveblog_entry/chinese-tech-giant-huawei-convicted-in-us-for-evading-iran-sanctions-stealing-trade-secrets/",
-     "via": "",
-     "published": "2026-11-24T21:05+00:00",
-     "summary": ""
+     "published": "2026-11-25T19:56+00:00",
+     "summary": "A truck carrying fuel reportedly overturned on a busy highway, setting vehicles ablaze and prompting a major emergency response. Authorities warned that the death toll could rise."
     }
    ],
    "id": 3
@@ -426,26 +415,26 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Kyodo News",
+    "Al Jazeera",
     "The Straits Times",
     "Reuters"
    ],
    "regions": [
-    "East Asia",
     "Europe",
+    "Middle East",
     "Southeast Asia"
    ],
-   "latest": "2026-11-25T06:42+00:00",
+   "latest": "2026-11-25T16:58+00:00",
    "earliest": "2026-11-25T03:19+00:00",
    "items": [
     {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "N. Korea seeks closure of Swiss office in Pyongyang over sanctions",
-     "url": "https://english.kyodonews.net/articles/-/92578",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Switzerland forced to close office in North Korea over sanctions feud",
+     "url": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud?traffic_source=rss",
      "via": "",
-     "published": "2026-11-25T06:42+00:00",
-     "summary": ""
+     "published": "2026-11-25T16:58+00:00",
+     "summary": "The closure came after North Korea condemned Switzerland for adding a children’s camp to its sanctions list."
     },
     {
      "outlet": "The Straits Times",
@@ -472,43 +461,43 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "The Jakarta Post",
-    "Nikkei Asia",
-    "Associated Press"
+    "Livemint / Economic Times",
+    "Associated Press",
+    "Times of Israel"
    ],
    "regions": [
-    "East Asia",
+    "Middle East",
     "North America",
-    "Southeast Asia"
+    "South Asia"
    ],
-   "latest": "2026-11-24T11:21+00:00",
-   "earliest": "2026-11-22T18:05+00:00",
+   "latest": "2026-11-25T02:37+00:00",
+   "earliest": "2026-11-24T21:05+00:00",
    "items": [
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "More remains recovered as search continues for 34 missing in candy factory fire - Archipelago",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/24/more-remains-recovered-as-search-continues-for-34-missing-in-candy-factory-fire",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Huawei convicted of stealing trade secrets: What is the case and what does it mean for US-China ties? Explained",
+     "url": "https://www.livemint.com/news/us-news/huawei-convicted-of-stealing-us-trade-secrets-what-s-the-case-and-what-does-it-mean-for-us-china-ties-explained-11795572905540.html",
      "via": "",
-     "published": "2026-11-24T11:21+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Indonesia searches for 34 missing workers after candy factory fire",
-     "url": "https://asia.nikkei.com/economy/fires/indonesia-searches-for-34-missing-workers-after-candy-factory-fire",
-     "via": "",
-     "published": "2026-11-23T09:37+00:00",
-     "summary": ""
+     "published": "2026-11-25T02:37+00:00",
+     "summary": "Huawei Technologies Co, China’s largest technology company, was found guilty on 10 of 12 US criminal charges, including defrauding banks about its business dealings in Iran and engaging in money laundering."
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire",
-     "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
+     "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, US jury finds",
+     "url": "https://apnews.com/article/huawei-racketeering-trial-verdict-b39ac780e2e31140015a1be02f0329ab",
      "via": "",
-     "published": "2026-11-22T18:05+00:00",
+     "published": "2026-11-24T22:50+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Chinese tech giant Huawei convicted in US for evading Iran sanctions, stealing trade secrets",
+     "url": "https://www.timesofisrael.com/liveblog_entry/chinese-tech-giant-huawei-convicted-in-us-for-evading-iran-sanctions-stealing-trade-secrets/",
+     "via": "",
+     "published": "2026-11-24T21:05+00:00",
      "summary": ""
     }
    ],
@@ -518,43 +507,42 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "South China Morning Post",
-    "Nikkei Asia"
+    "Al Jazeera",
+    "Reuters",
+    "Al Arabiya"
    ],
    "regions": [
-    "China",
-    "East Asia",
+    "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-22T21:58+00:00",
-   "earliest": "2026-11-22T18:29+00:00",
+   "latest": "2026-11-25T19:15+00:00",
+   "earliest": "2026-11-25T12:40+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
+     "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "US Treasury Secretary Scott Bessent says NVIDIA has yet to answer questions",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/23/us-treasury-secretary-scott-bessent-says-nvidia-has-yet-to-answer-questions",
+     "title": "UK military ‘moving aircraft to hangars in case of drone attacks’",
+     "url": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
      "via": "",
-     "published": "2026-11-22T21:58+00:00",
+     "published": "2026-11-25T19:15+00:00",
+     "summary": "Experts say the move is a 'logical response' if there is intelligence suggesting a likely drone threat."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "UK is moving military aircraft to hangars at night over possible drone threats, media reports say",
+     "url": "https://www.reuters.com/world/uk/uk-raf-moving-aircraft-hangars-night-over-possible-drone-threats-sky-news-2026-11-25/",
+     "via": "",
+     "published": "2026-11-25T16:34+00:00",
      "summary": ""
     },
     {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "UK RAF moving aircraft to hangars at night over possible drone threats: Report",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/11/25/uk-raf-moving-aircraft-to-hangars-at-night-over-possible-drone-threats-report",
      "via": "",
-     "published": "2026-11-22T20:03+00:00",
-     "summary": "The US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday. “We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … "
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "US must 'see where the buck stops' on Nvidia chip sales to China: Bessent",
-     "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-must-see-where-the-buck-stops-on-nvidia-chip-sales-to-china-bessent",
-     "via": "",
-     "published": "2026-11-22T18:29+00:00",
+     "published": "2026-11-25T12:40+00:00",
      "summary": ""
     }
    ],
@@ -564,16 +552,106 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
+    "Reuters",
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-25T14:19+00:00",
+   "earliest": "2026-11-25T07:55+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Israeli strike kills Hamas official, his wife and children",
+     "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-hamas-official-his-wife-children-2026-11-25/",
+     "via": "",
+     "published": "2026-11-25T14:19+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israeli strike kills Hamas security official and family: Gaza officials",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/25/israeli-strike-kills-hamas-security-official-and-family-gaza-officials",
+     "via": "",
+     "published": "2026-11-25T08:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Hamas says top commander in internal security apparatus killed in overnight IDF strike, along with wife and daughters",
+     "url": "https://www.timesofisrael.com/liveblog_entry/hamas-says-top-commander-in-internal-security-apparatus-killed-in-overnight-idf-strike-along-with-wife-and-daughters/",
+     "via": "",
+     "published": "2026-11-25T07:55+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "The Straits Times",
+    "The Jakarta Post"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-25T12:51+00:00",
+   "earliest": "2026-11-25T04:06+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Nine dead, 17 trapped after illegal gold mine floods in Indonesia",
+     "url": "https://www.mining.com/nine-dead-18-trapped-after-illegal-gold-mine-floods-in-indonesia/",
+     "via": "",
+     "published": "2026-11-25T12:51+00:00",
+     "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Eight dead, 18 trapped after Indonesia mine floods: Rescue agency",
+     "url": "https://www.straitstimes.com/asia/se-asia/indonesian-rescuers-search-for-possibly-dozens-trapped-in-mine",
+     "via": "",
+     "published": "2026-11-25T05:53+00:00",
+     "summary": "The three unidentified bodies were recovered from a depth of 30m to 40m."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Dozens feared trapped as illegal gold mine floods in Bogor",
+     "url": "https://www.thejakartapost.com/indonesia/2026/11/25/dozens-feared-trapped-as-illegal-gold-mine-floods-in-bogor?utm_source",
+     "via": "",
+     "published": "2026-11-25T04:06+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "DigiTimes",
     "Africanews",
-    "Mining Weekly"
+    "Ecofin Agency"
    ],
    "regions": [
     "Africa",
     "East Asia"
    ],
    "latest": "2026-11-25T06:32+00:00",
-   "earliest": "2026-11-24T06:49+00:00",
+   "earliest": "2026-11-24T02:30+00:00",
    "items": [
     {
      "outlet": "DigiTimes",
@@ -594,37 +672,380 @@
      "summary": "The Democratic Republic of Congo will again suspend cobalt exports starting at the end of the month in an attempt to boost prices."
     },
     {
-     "outlet": "Mining Weekly",
+     "outlet": "Ecofin Agency",
      "region": "Africa",
-     "title": "China cobalt prices surge to three-month high as Congo bans exports",
-     "url": "https://www.miningweekly.com/article/china-cobalt-prices-surge-to-three-month-high-as-congo-bans-exports-2026-11-24",
+     "title": "DRC Suspends Cobalt Exports Again to Counter Falling Prices and Global Oversupply",
+     "url": "https://www.ecofinagency.com/news-industry/2411-61107-drc-suspends-cobalt-exports-again-to-counter-falling-prices-and-global-oversupply",
      "via": "",
-     "published": "2026-11-24T06:49+00:00",
+     "published": "2026-11-24T02:30+00:00",
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
-    "South China Morning Post",
-    "The Straits Times",
+    "Financial Times",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-25T22:24+00:00",
+   "earliest": "2026-11-25T08:23+00:00",
+   "items": [
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
+     "url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-25T22:24+00:00",
+     "summary": "FinCen takes systems offline after detecting unauthorised access amid growing fears over vulnerability of technology systems"
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "US Financial Crimes Bureau takes some systems offline after ‘unauthorised access’ as cyber attacks continue",
+     "url": "https://www.livemint.com/news/us-news/us-financial-crimes-bureau-takes-some-systems-offline-after-unauthorised-access-as-cyber-attacks-continue-11795594540875.html",
+     "via": "",
+     "published": "2026-11-25T08:23+00:00",
+     "summary": "The US Treasury’s FinCEN is investigating unauthorized access to some of its systems and took certain systems offline as a precaution. The incident adds to a series of cyberattacks and technology disruptions affecting US government agencies, businesses and critical services."
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Hellenic Shipping News",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-25T22:00+00:00",
+   "earliest": "2026-11-25T06:51+00:00",
+   "items": [
+    {
+     "outlet": "Hellenic Shipping News",
+     "region": "Europe",
+     "title": "Coalition targets ‘operational capabilities’ at Hodeidah port as diplomats condemn Houthis",
+     "url": "https://www.hellenicshippingnews.com/coalition-targets-operational-capabilities-at-hodeidah-port-as-diplomats-condemn-houthis/",
+     "via": "",
+     "published": "2026-11-25T22:00+00:00",
+     "summary": "The Coalition to Restore Legitimacy in Yemen carried out strikes at Hodeidah’s port early on Wednesday, as top diplomats condemned the Houthis for targeting a civilian building in Riyadh. Maj. Gen. Turki Al-Maliki, the coalition’s spokesperson, said that operational capabilities at the port on Yemen’s west coast were targeted. He said a number of other ..."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Saudi air defenses intercept 7 drones as coalition strikes Houthi targets in Yemen",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/25/saudi-air-defenses-intercept-7-drones-as-coalition-strikes-houthi-targets-in-yemen",
+     "via": "",
+     "published": "2026-11-25T06:51+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-25T21:26+00:00",
+   "earliest": "2026-11-24T20:53+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Tudor sketches 28-year Goldstorm underground mine",
+     "url": "https://mining.com.au/tudor-sketches-28-year-goldstorm-underground-mine/",
+     "via": "",
+     "published": "2026-11-25T21:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Tudor sees $2.3B value in Treaty Creek mine",
+     "url": "https://www.mining.com/tudor-sees-2-3b-value-in-treaty-creek-mine/",
+     "via": "",
+     "published": "2026-11-24T20:53+00:00",
+     "summary": "The Goldstorm mine, about 930 km northwest of Vancouver, could produce 4.68 million oz. of gold over 28 years with a 20% internal rate of return."
+    }
+   ],
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
     "Reuters"
    ],
    "regions": [
-    "China",
     "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-25T19:44+00:00",
+   "earliest": "2026-11-25T01:50+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "US stocks tumble as AI rout and Trump tariffs rattle markets",
+     "url": "https://www.abc.net.au/news/2026-11-26/nasdaq-ai-tariffs-rattle-markets/107428016",
+     "via": "",
+     "published": "2026-11-25T19:44+00:00",
+     "summary": "Chip makers lead US stock market falls, with Nvidia declining 8.7 per cent and the broader Philadelphia Semiconductor Index losing 7.3 per cent."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "World stocks tumble as Trump tariffs rattle markets, AI rally fades",
+     "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-25/",
+     "via": "",
+     "published": "2026-11-25T01:50+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-25T18:26+00:00",
+   "earliest": "2026-11-25T14:31+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US to cap India tariff at 17% if trade deal is reached, USTR says",
+     "url": "https://www.reuters.com/world/india/us-cap-india-tariff-17-if-trade-deal-is-reached-ustr-says-2026-11-25/",
+     "via": "",
+     "published": "2026-11-25T18:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US to cap India tariff at 17 percent if trade deal is reached, USTR says",
+     "url": "https://english.alarabiya.net/amp/business/economy/2026/11/25/us-to-cap-india-tariff-at-17-percent-if-trade-deal-is-reached-ustr-says",
+     "via": "",
+     "published": "2026-11-25T14:31+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "VnExpress International",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-25T16:06+00:00",
+   "earliest": "2026-11-25T05:43+00:00",
+   "items": [
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Trump unveils proposed tariffs on major partners, including EU and China",
+     "url": "https://e.vnexpress.net/news/business/economy/trump-unveils-proposed-tariffs-on-major-partners-including-eu-and-china-5148930.html",
+     "via": "",
+     "published": "2026-11-25T16:06+00:00",
+     "summary": "The U.S. on Wednesday unveiled proposed tariffs on 14 economies including the European Union and China, after a months-long probe into alleged excess production, the latest move by U.S. President Donald Trump to remake Washington's trade relationships."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Trump set to unveil new tariffs after probe on excess factory capacity",
+     "url": "https://www.livemint.com/news/world/trump-set-to-unveil-new-tariffs-after-probe-on-excess-factory-capacity-11795584975909.html",
+     "via": "",
+     "published": "2026-11-25T05:43+00:00",
+     "summary": "India is said to be among the 16 major US trading partners that may see additional tariffs to counter alleged excess industrial capacity."
+    }
+   ],
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "BNamericas",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-25T15:46+00:00",
+   "earliest": "2026-11-25T12:39+00:00",
+   "items": [
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "ValOre to acquire Água Azul gold project in Brazil for US$135mn",
+     "url": "https://www.bnamericas.com/en/news/valore-to-acquire-agua-azul-gold-project-in-brazil-for-us135mn",
+     "via": "",
+     "published": "2026-11-25T15:46+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "ValOre seeks financing for $135M Brazil gold deal",
+     "url": "https://www.mining.com/valore-seeks-financing-for-135m-brazil-gold-deal/",
+     "via": "",
+     "published": "2026-11-25T12:39+00:00",
+     "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
+    }
+   ],
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Korea Herald",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "East Asia"
+   ],
+   "latest": "2026-11-25T15:18+00:00",
+   "earliest": "2026-11-25T09:08+00:00",
+   "items": [
+    {
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "S-Oil completes W9tr Shaheen petrochemical project",
+     "url": "https://www.koreaherald.com/article/10949147",
+     "via": "",
+     "published": "2026-11-25T15:18+00:00",
+     "summary": "S-Oil marked the completion of its Shaheen petrochemical complex in Ulsan on Wednesday, capping South Korea’s largest-ever petrochemical investment as the refiner moves to expand its chemicals business. The project cost 9.26 trillion won ($6.9 billion). The Shaheen Project is scheduled to begin commercial operations in 2027 after trial runs. It will add about 3.2 million metric tons of annual petr"
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Aramco, S-Oil inaugurate $7bn petrochemicals complex in South Korea",
+     "url": "https://www.miningweekly.com/article/aramco-s-oil-inaugurate-7bn-petrochemicals-complex-in-south-korea-2026-11-25",
+     "via": "",
+     "published": "2026-11-25T09:08+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining Weekly",
+    "MINING.COM"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-25T09:33+00:00",
+   "earliest": "2026-11-24T14:25+00:00",
+   "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Investment firm Sprott backs Canadian miner Marimaca on Chilean copper ventures",
+     "url": "https://www.miningweekly.com/article/investment-firm-sprott-backs-canadian-miner-marimaca-on-chilean-copper-ventures-2026-11-25",
+     "via": "",
+     "published": "2026-11-25T09:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Marimaca gets Sprott’s backing for Chile copper project",
+     "url": "https://www.mining.com/marimaca-gets-sprotts-backing-for-chile-copper-project/",
+     "via": "",
+     "published": "2026-11-24T14:25+00:00",
+     "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
+    }
+   ],
+   "id": 18
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "East Asia",
+    "Middle East"
+   ],
+   "latest": "2026-11-25T09:10+00:00",
+   "earliest": "2026-11-24T11:03+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Pentagon reportedly in talks with Ford, GM to produce drones and military hardware",
+     "url": "https://www.digitimes.com/news/a20261125VL229/ford-general-motors-drones-military-hardware-production.html",
+     "via": "",
+     "published": "2026-11-25T09:10+00:00",
+     "summary": "The Pentagon is reportedly holding talks with Ford, General Motors, and other automotive manufacturers on producing military hardware, including drones and missiles. Discussions to branch into the defense sector reflect heightened competition in the global automotive market, along with the US government's push to expand the domestic military supply chain."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Pentagon in talks with General Motors and Ford on military drones: Report",
+     "url": "https://english.alarabiya.net/amp/News/united-states/2026/11/24/pentagon-in-talks-with-general-motors-and-ford-on-military-drones-report",
+     "via": "",
+     "published": "2026-11-24T11:03+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 19
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "South China Morning Post",
+    "The Straits Times"
+   ],
+   "regions": [
+    "China",
     "Southeast Asia"
    ],
    "latest": "2026-11-25T04:54+00:00",
-   "earliest": "2026-11-24T20:40+00:00",
+   "earliest": "2026-11-24T23:48+00:00",
    "items": [
     {
      "outlet": "South China Morning Post",
@@ -643,298 +1064,9 @@
      "via": "",
      "published": "2026-11-24T23:48+00:00",
      "summary": "A Shein spokesperson said the company had not admitted liability."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Shein to pay $100 million to settle US shipping, customer service claims",
-     "url": "https://www.reuters.com/world/shein-pay-100-million-settle-us-claims-ftc-official-says-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T20:40+00:00",
-     "summary": ""
     }
    ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-25T07:29+00:00",
-   "earliest": "2026-11-24T14:52+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "EU hybrid car quotas echo US curbs on AI computing via third countries",
-     "url": "https://www.digitimes.com/news/a20261125PD207/eu-automakers-uk-nvidia-jensen-huang.html",
-     "via": "",
-     "published": "2026-11-25T07:29+00:00",
-     "summary": "The EU is expected to announce annual import quotas for hybrid and plug-in hybrid cars, extending limits aimed at China to Japan, South Korea, the UK and Turkey, Automotive News Europe reported. The plan parallels US efforts to cut off access to advanced AI computing through third countries following Nvidia CEO Jensen Huang's return."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EU sets limits on hybrid vehicle imports from China and other countries",
-     "url": "https://www.reuters.com/world/china/eu-sets-limits-hybrid-vehicle-imports-china-other-countries-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T14:52+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "Africa",
-    "Oceania"
-   ],
-   "latest": "2026-11-25T07:22+00:00",
-   "earliest": "2026-11-24T17:51+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Congo mining forum announces $965m in sector financing",
-     "url": "https://www.miningweekly.com/article/congo-mining-forum-announces-965m-in-sector-financing-2026-11-25",
-     "via": "",
-     "published": "2026-11-25T07:22+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Congo mining forum announces $1.45 billion in sector financing",
-     "url": "https://mining.com.au/congo-mining-forum-announces-1-45-billion-in-sector-financing/",
-     "via": "",
-     "published": "2026-11-24T17:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Bloomberg",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-25T06:57+00:00",
-   "earliest": "2026-11-24T15:39+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Houthi Drone Hits Riyadh Financial District, Injuring 11 Amid Near-Daily Saudi Attacks",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-25/horizons-middle-east-africa-25-112026-video",
-     "via": "",
-     "published": "2026-11-25T06:57+00:00",
-     "summary": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or start your day in London or Johannesburg. (Source: Bloomberg)"
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Saudi civil defense says 11 injured in Houthi attack on Riyadh financial district",
-     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-civil-defense-says-11-injured-in-houthi-attack-on-riyadh-financial-district/",
-     "via": "",
-     "published": "2026-11-24T15:39+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "Reuters"
-   ],
-   "regions": [
-    "China",
-    "Europe"
-   ],
-   "latest": "2026-11-25T06:47+00:00",
-   "earliest": "2026-11-24T16:05+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "BYD eyes a second European plant, enters talks with Ineos over a French assembly",
-     "url": "https://www.scmp.com/business/china-evs/article/3375711/byd-eyes-second-european-plant-enters-talks-ineos-over-french-assembly-france",
-     "via": "",
-     "published": "2026-11-25T06:47+00:00",
-     "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "China's BYD in talks to buy French car factory from Ineos Automotive",
-     "url": "https://www.reuters.com/business/autos-transportation/chinas-byd-talks-buy-french-car-factory-ineos-automotive-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T16:05+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-25T05:43+00:00",
-   "earliest": "2026-11-24T16:19+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Trump set to unveil new tariffs after probe on excess factory capacity",
-     "url": "https://www.livemint.com/news/world/trump-set-to-unveil-new-tariffs-after-probe-on-excess-factory-capacity-11795584975909.html",
-     "via": "",
-     "published": "2026-11-25T05:43+00:00",
-     "summary": "India is said to be among the 16 major US trading partners that may see additional tariffs to counter alleged excess industrial capacity."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say",
-     "url": "https://www.reuters.com/world/us/trump-administration-set-unveil-new-tariffs-after-probe-on-excess-factory-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T16:19+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Oceania",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-25T05:37+00:00",
-   "earliest": "2026-11-25T01:40+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Thailand seeks China’s help to halt Myanmar mines",
-     "url": "https://mining.com.au/thailand-seeks-chinas-help-to-halt-myanmar-mines/",
-     "via": "",
-     "published": "2026-11-25T05:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Thailand asks China to help halt Myanmar mines over toxic rivers",
-     "url": "https://www.straitstimes.com/asia/se-asia/thailand-asks-china-to-help-halt-myanmar-mines-over-toxic-rivers",
-     "via": "",
-     "published": "2026-11-25T01:40+00:00",
-     "summary": "The request came during talks on Nov 24 involving Thailand, China and Myanmar, according to Thai officials."
-    }
-   ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-25T04:54+00:00",
-   "earliest": "2026-11-25T01:50+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Asian stocks tumble as AI rebound stumbles, US tariff threats loom",
-     "url": "https://www.business-standard.com/markets/news/asian-stocks-tumble-as-ai-rebound-stumbles-us-tariff-threats-loom-126112500066_1.html",
-     "via": "",
-     "published": "2026-11-25T04:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Stocks retreat as AI rebound stumbles, tariff threats loom",
-     "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-25/",
-     "via": "",
-     "published": "2026-11-25T01:50+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "The Straits Times"
-   ],
-   "regions": [
-    "South Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-25T04:36+00:00",
-   "earliest": "2026-11-24T11:57+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Bangladesh raises garment workers’ minimum wage by 36% to ₹12,865 after weeks of protests: What we know",
-     "url": "https://www.livemint.com/news/world/bangladesh-raises-garment-workers-minimum-wage-by-36-to-12865-after-weeks-of-protests-what-we-know-11795579428485.html",
-     "via": "",
-     "published": "2026-11-25T04:36+00:00",
-     "summary": "The garment industry employs over 4 million people and accounts for more than 80% of Bangladesh's export earnings."
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Bangladesh garment workers clash with police as pay protests shut factories",
-     "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-workers-clash-with-police-as-pay-protests-shut-factories",
-     "via": "",
-     "published": "2026-11-24T11:57+00:00",
-     "summary": "Workers are demanding that the minimum monthly wage more than double to $312."
-    }
-   ],
-   "id": 16
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -969,162 +1101,31 @@
      "summary": ""
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "South Asia"
-   ],
-   "latest": "2026-11-25T03:44+00:00",
-   "earliest": "2026-11-24T22:29+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in US",
-     "url": "https://www.business-standard.com/world-news/huang-s-return-to-nvidia-brings-open-weight-ai-debate-to-forefront-in-us-126112500118_1.html",
-     "via": "",
-     "published": "2026-11-25T03:44+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington",
-     "url": "https://www.reuters.com/world/china/huangs-return-nvidia-brings-open-weight-ai-debate-forefront-washington-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T22:29+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-11-25T03:35+00:00",
-   "earliest": "2026-11-25T02:43+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Trump's next Section 301 tariffs raise stakes for US-China trade truce deadline",
-     "url": "https://www.digitimes.com/news/a20261125VL220/capacity-taiwan-investigation-eu-production.html",
-     "via": "",
-     "published": "2026-11-25T03:35+00:00",
-     "summary": "The Trump administration is preparing new US tariffs after investigating alleged excess factory capacity across 16 trading partners, including China, Taiwan, Japan, South Korea and the European Union, according to Bloomberg and Reuters . The findings could be released as early as November 24, three people familiar with the matter said. The proposed duties would vary by trading partner and stack on"
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "US preparing to raise tariffs on China, India, others; to be added to levies imposed under Section 301 | Here's why",
-     "url": "https://www.livemint.com/news/us-news/us-preparing-to-raise-tariffs-on-china-india-others-to-be-added-to-levies-imposed-under-section-301-heres-why-11795574083097.html",
-     "via": "",
-     "published": "2026-11-25T02:43+00:00",
-     "summary": "The Trump administration is reportedly preparing fresh tariffs on over a dozen countries, including India and China, over concerns about industrial subsidies and excess production. The proposed duties could affect most imported goods and add to existing levies."
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-25T03:20+00:00",
-   "earliest": "2026-11-25T02:21+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Australian inflation hots up in October, core hits two-year high",
-     "url": "https://www.straitstimes.com/business/australian-inflation-heats-up-in-october-core-hits-two-year-high",
-     "via": "",
-     "published": "2026-11-25T03:20+00:00",
-     "summary": "Markets are still wagering that the next move in interest rates will be down given weakness in the labour market."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Australian inflation heats up in October, core hits two-year high",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaHo3dUJCUmRaTEFNN1NHaGIwSzhUTF9RVGduN1RfVk4xWGlyblRLYWhCT0F3N3hMMFFJekJHZnFsNHpucEF4TnVuakZWdHVDbF9QbFV5NkViTzQ4VHFLWjdtN0diMUJsblFGMWdxYXRrZGdaODhFcmtGZVVLeXh5bVZJdXduUHAxb0prR2I0NGRmaW5xZ19vZ1dRczdGU0gwSGVtSENBZGpmMDRqOFljRUJPNHpRM3M?oc=5",
-     "via": "Google News",
-     "published": "2026-11-25T02:21+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-25T02:23+00:00",
-   "earliest": "2026-11-24T19:27+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "WHO chief urges end to US fuel blockade on Cuba",
-     "url": "https://www.aljazeera.com/news/2026/11/25/who-chief-urges-end-to-us-fuel-blockade-on-cuba?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-25T02:23+00:00",
-     "summary": "UN allocates $2m for immunisation and medical equipment as Cuban healthcare struggles with critical shortages."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "WHO chief calls on US to lift oil blockade on Cuba, citing health impact",
-     "url": "https://www.reuters.com/legal/government/who-chief-calls-us-lift-oil-blockade-cuba-citing-health-impact-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T19:27+00:00",
-     "summary": ""
-    }
-   ],
    "id": 21
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "DigiTimes",
-    "Livemint / Economic Times"
+    "Business Standard",
+    "DigiTimes"
    ],
    "regions": [
     "East Asia",
     "South Asia"
    ],
-   "latest": "2026-11-25T02:06+00:00",
-   "earliest": "2026-11-25T01:20+00:00",
+   "latest": "2026-11-25T03:14+00:00",
+   "earliest": "2026-11-25T02:06+00:00",
    "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Pardon for reinstated Nvidia chief Huang was 'always an option', says Trump",
+     "url": "https://www.business-standard.com/world-news/pardon-for-reinstated-nvidia-chief-huang-was-always-an-option-says-trump-126112500099_1.html",
+     "via": "",
+     "published": "2026-11-25T03:14+00:00",
+     "summary": ""
+    },
     {
      "outlet": "DigiTimes",
      "region": "East Asia",
@@ -1133,193 +1134,9 @@
      "via": "",
      "published": "2026-11-25T02:06+00:00",
      "summary": "US President Donald Trump has said the government could still take an equity stake in Nvidia and that a pardon for reinstated CEO Jensen Huang remains \"an option.\" An Nvidia stake would extend Washington's run of corporate shareholdings from critical minerals and Intel to the center of the AI chip industry."
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Trump says pardon to Nvidia CEO Jensen Huang ‘an option’ but wants him to ‘tell the truth’ to Congress",
-     "url": "https://www.livemint.com/news/us-news/trump-willing-to-pardon-jensen-huang-if-necessary-says-i-want-him-to-just-tell-the-truth-before-congress-next-week-11795569164841.html",
-     "via": "",
-     "published": "2026-11-25T01:20+00:00",
-     "summary": "US President Donald Trump apparently pressured Nvidia’s board to take Jensen Huang back as CEO, 11 days after he resigned following revelations of extramarital affairs, one with a suspected Chinese spy."
     }
    ],
    "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Financial Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-25T00:38+00:00",
-   "earliest": "2026-11-24T20:18+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Huang tells Nvidia staff the company does not need a succession plan",
-     "url": "https://www.digitimes.com/news/a20261125VL200/nvidia-jensen-huang-staff-governance.html",
-     "via": "",
-     "published": "2026-11-25T00:38+00:00",
-     "summary": "Jensen Huang used his first all-hands meeting since returning as Nvidia's chief executive to tell employees the chipmaker doesn't need a succession plan, a message that leaves the company's future leadership resting on one person at a moment when investors and governance experts question whether its board can act independently of him."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "Huang says he still does not believe in CEO succession planning at Nvidia",
-     "url": "https://www.ft.com/content/cd1831d0-c3f1-4705-b8e2-badfb5e39764?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-24T20:18+00:00",
-     "summary": "Chief executive speaks to staff at first company-wide meeting after returning to the chipmaker"
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "BNamericas",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Latin America",
-    "North America"
-   ],
-   "latest": "2026-11-24T21:35+00:00",
-   "earliest": "2026-11-24T14:25+00:00",
-   "items": [
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Marimaca Copper secures Sprott approval for US$450mn package to build Chile oxide project",
-     "url": "https://www.bnamericas.com/en/news/marimaca-copper-secures-sprott-approval-for-us450mn-package-to-build-chile-oxide-project",
-     "via": "",
-     "published": "2026-11-24T21:35+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Marimaca gets Sprott’s backing for Chile copper project",
-     "url": "https://www.mining.com/marimaca-gets-sprotts-backing-for-chile-copper-project/",
-     "via": "",
-     "published": "2026-11-24T14:25+00:00",
-     "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
-    }
-   ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-24T21:28+00:00",
-   "earliest": "2026-11-24T10:52+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Nasdaq, S&P 500 slip following Nov 23’s Nvidia-fuelled rally",
-     "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-sp-500-end-lower-following-nov-23s-nvidia-fuelled-rally",
-     "via": "",
-     "published": "2026-11-24T21:28+00:00",
-     "summary": "The Dow Jones Industrial Average rose 433.48 points, or 0.87%, to 50,028.79."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nasdaq, S&P 500 slip following Monday's Nvidia-fueled rally",
-     "url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T10:52+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Bloomberg",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-24T19:26+00:00",
-   "earliest": "2026-11-24T17:15+00:00",
-   "items": [
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "South Africa Resigned to Losing US Free-Trade Access Under AGOA",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-24/south-africa-cyril-ramaphosa-us-free-trade-access-under-agoa",
-     "via": "",
-     "published": "2026-11-24T19:26+00:00",
-     "summary": "South African President Cyril Ramaphosa said there was little chance the US will reverse its decision to end the country’s duty-free trade access to the world’s largest economy."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Ramaphosa Says South Africa Still Negotiating US Trade Deal",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/24/ramaphosa-says-south-africa-still-negotiating-us-trade-deal",
-     "via": "",
-     "published": "2026-11-24T17:15+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-24T16:53+00:00",
-   "earliest": "2026-11-24T13:37+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "German FM 'Shocked' by Trump's Intervention on Nvidia",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/24/german-fm-shocked-by-trumps-intervention-on-nvidia",
-     "via": "",
-     "published": "2026-11-24T16:53+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Germany's Wadephul 'shocked' by Trump's Nvidia intervention",
-     "url": "https://www.dw.com/en/germany-s-wadephul-shocked-by-trump-s-nvidia-intervention/a-80033954?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-24T13:37+00:00",
-     "summary": "The German foreign minister has criticized Donald Trump's interference in the chip-maker's economic activities. Jensen Huang was brought back after stepping down as Nvidia CEO amid multiple scandals."
-    }
-   ],
-   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1354,112 +1171,7 @@
      "summary": ""
     }
    ],
-   "id": 28
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-24T13:32+00:00",
-   "earliest": "2026-11-24T08:29+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Land mine deaths reach five-year high, watchdog says",
-     "url": "https://www.dw.com/en/land-mine-deaths-reach-five-year-high-watchdog-says/a-80033092?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-24T13:32+00:00",
-     "summary": "Myanmar reported the highest annual land mine casualty toll, followed by Syria and Afghanistan, ICBL report says. Since 1999, nearly 50 thousand people were killed by land mines."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Global land mine casualties hit 5-year high, driven by Myanmar and Syria, with 36% of them children",
-     "url": "https://www.timesofisrael.com/liveblog_entry/global-land-mine-casualties-hit-5-year-high-driven-by-myanmar-and-syria-with-36-of-them-children/",
-     "via": "",
-     "published": "2026-11-24T08:29+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 29
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Jakarta Post",
-    "Africanews"
-   ],
-   "regions": [
-    "Africa",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-24T11:38+00:00",
-   "earliest": "2026-11-24T09:19+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Death toll from candy factory fire rises to 26: Police",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/24/death-toll-from-candy-factory-fire-rises-to-26-police",
-     "via": "",
-     "published": "2026-11-24T11:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-     "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
-     "via": "",
-     "published": "2026-11-24T09:19+00:00",
-     "summary": "The death toll from a devastating fire at a confectionery factory west of Jakarta has risen to 26. Rescue workers continue searching for victims trapped beneath the rubble."
-    }
-   ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "BNamericas"
-   ],
-   "regions": [
-    "Latin America",
-    "North America"
-   ],
-   "latest": "2026-11-24T08:55+00:00",
-   "earliest": "2026-11-23T18:24+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Trafigura takes control of $260 million copper-gold project in Chile",
-     "url": "https://www.mining.com/trafigura-takes-control-of-260-million-copper-gold-project-in-chile/",
-     "via": "",
-     "published": "2026-11-24T08:55+00:00",
-     "summary": "The commodities giant moves into mine development in the Atacama, but an Indigenous legal challenge threatens construction plans."
-    },
-    {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Trafigura takes over US$260mn La Farola project in bid to mine its own copper in Chile",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSTNmX2lhbklreWV2S2dEaEZITW03Mm1hOGM4dTR3TGMwV0dSZzNuSHJ0c0drYzd0Y0lsOEdOYi1CVFhrUzBHU0Fza05XQXVob3lOS3pVbWZkWGM5OVVTX2pXeFFkRjN4azZ2VVpya1hiWmVVcVBWcEMtQ09mVnFhXzdLbXAtYm1JNDVwZ2FkZGp4WE9xS0dnQU85M1cwYldWUFkxSlVwekNtVlhha2VGY20tbWV0M19odl91M0IzRHZqdw?oc=5",
-     "via": "Google News",
-     "published": "2026-11-23T18:24+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 31
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1494,180 +1206,144 @@
      "summary": "Binding offtake deal is for 100,000 tonnes of lithium."
     }
    ],
-   "id": 32
+   "id": 24
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-24T07:11+00:00",
-   "earliest": "2026-11-23T13:33+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Panama says First Quantum accepts conditions for talks on reopening Cobre Panama mine",
-     "url": "https://www.miningweekly.com/article/panama-says-first-quantum-accepts-conditions-for-talks-on-reopening-cobre-panama-mine-2026-11-24",
-     "via": "",
-     "published": "2026-11-24T07:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Panama, First Quantum begin talks on giant copper mine’s reopening",
-     "url": "https://www.mining.com/panama-first-quantum-begin-talks-on-giant-copper-mines-reopening/",
-     "via": "",
-     "published": "2026-11-23T13:33+00:00",
-     "summary": "First Quantum accepted five conditions from the government for reopening negotiations, officials announced after Monday's meeting."
-    }
-   ],
-   "id": 33
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Business Standard"
-   ],
-   "regions": [
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-23T05:34+00:00",
-   "earliest": "2026-11-23T02:04+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "NYT: Alice Huang was in touch with Chinese spy agency during affair with Nvidia CEO",
-     "url": "https://www.timesofisrael.com/liveblog_entry/nyt-alice-huang-was-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo/",
-     "via": "",
-     "published": "2026-11-23T05:34+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "US tracked Alice Huang's links with China spy agency during Nvidia affair",
-     "url": "https://www.business-standard.com/world-news/us-tracked-alice-huang-s-links-with-china-spy-agency-during-nvidia-affair-126112300082_1.html",
-     "via": "",
-     "published": "2026-11-23T02:04+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 34
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Kyodo News"
+    "Business Standard",
+    "Nikkei Asia"
    ],
    "regions": [
     "East Asia",
-    "Europe"
+    "South Asia"
    ],
-   "latest": "2026-11-22T13:18+00:00",
-   "earliest": "2026-11-22T12:49+00:00",
+   "latest": "2026-11-24T04:40+00:00",
+   "earliest": "2026-11-23T23:20+00:00",
    "items": [
     {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
-     "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US blacklists Megaspeed, firm at centre of Nvidia chip-smuggling probe",
+     "url": "https://www.business-standard.com/world-news/us-blacklists-megaspeed-firm-at-centre-of-nvidia-chip-smuggling-probe-126112400226_1.html",
      "via": "",
-     "published": "2026-11-22T13:18+00:00",
-     "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world."
+     "published": "2026-11-24T04:40+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Kyodo News",
+     "outlet": "Nikkei Asia",
      "region": "East Asia",
-     "title": "COP31 climate talks break down amid fossil fuel row",
-     "url": "https://english.kyodonews.net/articles/-/92289",
+     "title": "US to place Megaspeed on trade blacklist amid Nvidia scandal",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/us-to-place-megaspeed-on-trade-blacklist-amid-nvidia-scandal",
      "via": "",
-     "published": "2026-11-22T12:49+00:00",
+     "published": "2026-11-23T23:20+00:00",
      "summary": ""
     }
    ],
-   "id": 35
+   "id": 25
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Seatrade Maritime",
-    "Reuters"
+    "Caixin Global",
+    "South China Morning Post"
    ],
    "regions": [
-    "Europe"
+    "China"
    ],
-   "latest": "2026-11-25T08:05+00:00",
-   "earliest": "2026-11-25T02:42+00:00",
+   "latest": "2026-11-25T16:58+00:00",
+   "earliest": "2026-11-25T06:47+00:00",
    "items": [
     {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Houthis threaten Saudi ports as four ships attacked near Hormuz",
-     "url": "https://www.seatrade-maritime.com/security/houthis-threaten-saudi-ports-as-four-ships-attacked-near-hormuz",
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "BYD in Exclusive Talks to Buy INEOS Factory in France",
+     "url": "https://www.caixinglobal.com/2026-11-26/byd-in-exclusive-talks-to-buy-ineos-factory-in-france-102508766.html",
      "via": "",
-     "published": "2026-11-25T08:05+00:00",
-     "summary": "Saudi-led coalition airstrikes on Hodeidah prompt Houthi threats against Red Sea ports as fresh attacks on merchant shipping are reported in the Gulf."
+     "published": "2026-11-25T16:58+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
-     "url": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/",
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "BYD eyes a second European plant, enters talks with Ineos over a French assembly",
+     "url": "https://www.scmp.com/business/china-evs/article/3375711/byd-eyes-second-european-plant-enters-talks-ineos-over-french-assembly-france",
      "via": "",
-     "published": "2026-11-25T02:42+00:00",
-     "summary": ""
+     "published": "2026-11-25T06:47+00:00",
+     "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
-   "id": 36
+   "id": 26
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Al Arabiya",
-    "Al Jazeera"
+    "Times of Israel"
    ],
    "regions": [
     "Middle East"
    ],
-   "latest": "2026-11-25T06:51+00:00",
-   "earliest": "2026-11-25T00:00+00:00",
+   "latest": "2026-11-25T13:55+00:00",
+   "earliest": "2026-11-24T15:39+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
      "region": "Middle East",
-     "title": "Saudi air defenses intercept 7 drones as coalition strikes Houthi targets in Yemen",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/25/saudi-air-defenses-intercept-7-drones-as-coalition-strikes-houthi-targets-in-yemen",
+     "title": "Houthi ‘terrorist attack’ on tower in Riyadh’s financial district injures 11",
+     "url": "https://english.alarabiya.net/amp/webtv/programs/w-news/2026/11/25/houthi-terrorist-attack-on-tower-in-riyadh-s-financial-district-injures-11",
      "via": "",
-     "published": "2026-11-25T06:51+00:00",
+     "published": "2026-11-25T13:55+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Jazeera",
+     "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "Iran war live: Saudi-led coalition strikes Yemen’s Hodeidah port",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
+     "title": "Saudi civil defense says 11 injured in Houthi attack on Riyadh financial district",
+     "url": "https://www.timesofisrael.com/liveblog_entry/saudi-civil-defense-says-11-injured-in-houthi-attack-on-riyadh-financial-district/",
      "via": "",
-     "published": "2026-11-25T00:00+00:00",
-     "summary": "The Saudi coalition says its forces targeted operational capabilities at Hodeidah port and hit sites in northern Yemen."
+     "published": "2026-11-24T15:39+00:00",
+     "summary": ""
     }
    ],
-   "id": 37
+   "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-25T09:51+00:00",
+   "earliest": "2026-11-25T08:46+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Air passenger services see 35% inflation in Q2; banking, securities transaction witness deflation",
+     "url": "https://www.thehindu.com/business/Economy/air-passenger-services-see-35-inflation-in-q2-banking-securities-transaction-witness-deflation/article71741711.ece",
+     "via": "",
+     "published": "2026-11-25T09:51+00:00",
+     "summary": "The Commerce and Industry Ministry released the provisional Service Producer Price Indices (PPI) for the second quarter of 2026-27"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Air passenger services see 35% inflation in Q2, banking witness deflation",
+     "url": "https://www.business-standard.com/industry/news/air-passenger-services-see-35-inflation-in-q2-banking-witness-deflation-126112500453_1.html",
+     "via": "",
+     "published": "2026-11-25T08:46+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1701,143 +1377,75 @@
      "summary": ""
     }
    ],
-   "id": 38
+   "id": 29
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Hellenic Shipping News",
-    "Seatrade Maritime"
+    "Mining Weekly",
+    "Ecofin Agency"
    ],
    "regions": [
-    "Europe"
+    "Africa"
    ],
-   "latest": "2026-11-24T22:00+00:00",
-   "earliest": "2026-11-24T17:15+00:00",
+   "latest": "2026-11-24T12:25+00:00",
+   "earliest": "2026-11-24T12:14+00:00",
    "items": [
     {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Open letter to the Members of the European Parliament to reject the motion for a resolution and support the inclusion of Indian ship recycling yards on the European List",
-     "url": "https://www.hellenicshippingnews.com/open-letter-to-the-members-of-the-european-parliament-to-reject-the-motion-for-a-resolution-and-support-the-inclusion-of-indian-ship-recycling-yards-on-the-european-list/",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Silverback Minerals to buy stake in Uganda tungsten project",
+     "url": "https://www.miningweekly.com/article/silverback-minerals-to-buy-stake-in-uganda-tungsten-project-2026-11-24",
      "via": "",
-     "published": "2026-11-24T22:00+00:00",
-     "summary": "Dear Members of the European Parliament, Ahead of this week’s plenary vote, European Shipowners | ECSA, BIMCO, the Cruise Lines International Association (CLIA), the International Chamber of Shipping (ICS), INTERCARGO, INTERFERRY, INTERTANKO and the World Shipping Council (WSC) call on MEPs to reject the motion for a resolution objecting to the European Commission’s proposal to ..."
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "EU faces industry backlash over Indian ship recycling rejection",
-     "url": "https://www.seatrade-maritime.com/shipyards/eu-faces-industry-backlash-over-indian-ship-recycling-rejection",
-     "via": "",
-     "published": "2026-11-24T17:15+00:00",
-     "summary": "Shipping associations warn that rejecting compliant Indian recycling yards risks undermining the credibility of the EU’s own legislation."
-    }
-   ],
-   "id": 39
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Hellenic Shipping News",
-    "Seatrade Maritime"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-11-24T22:00+00:00",
-   "earliest": "2026-11-24T10:23+00:00",
-   "items": [
-    {
-     "outlet": "Hellenic Shipping News",
-     "region": "Europe",
-     "title": "Singapore Shipping Corporation orders two LNG-capable car carriers in China",
-     "url": "https://www.hellenicshippingnews.com/singapore-shipping-corporation-orders-two-lng-capable-car-carriers-in-china/",
-     "via": "",
-     "published": "2026-11-24T22:00+00:00",
-     "summary": "Singapore-based shipping firm Singapore Shipping Corporation (SSC) has signed shipbuilding contracts with Guangzhou Shipyard International in China for two pure car and truck carriers (PCTCs). The ships, each with a capacity of 7,000 car equivalent units, will have dual-fuel engines able to run on LNG or conventional marine fuels. They will be delivered on or ..."
-    },
-    {
-     "outlet": "Seatrade Maritime",
-     "region": "Europe",
-     "title": "Singapore Shipping orders PCTC pair from Guangzhou Shipyard International",
-     "url": "https://www.seatrade-maritime.com/shipyards/singapore-shipping-orders-pctc-pair-from-guangzhou-shipyard-international",
-     "via": "",
-     "published": "2026-11-24T10:23+00:00",
-     "summary": "First partnership to deliver LNG dual-fuel car carriers for the owner’s long-term fleet renewal and low-carbon shipping road map."
-    }
-   ],
-   "id": 40
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-24T11:11+00:00",
-   "earliest": "2026-11-24T10:56+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran’s rial plunges after fresh US sanctions targeting financial institutions",
-     "url": "https://www.timesofisrael.com/liveblog_entry/irans-rial-plunges-after-fresh-us-sanctions-targeting-financial-institutions/",
-     "via": "",
-     "published": "2026-11-24T11:11+00:00",
+     "published": "2026-11-24T12:25+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran currency plunges after fresh US sanctions",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/24/iran-currency-plunges-after-fresh-us-sanctions",
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Silverback Expands Uganda Tungsten Portfolio as Prices More Than Triple",
+     "url": "https://www.ecofinagency.com/news-industry/2411-61124-silverback-expands-uganda-tungsten-portfolio-as-prices-more-than-triple",
      "via": "",
-     "published": "2026-11-24T10:56+00:00",
+     "published": "2026-11-24T12:14+00:00",
      "summary": ""
     }
    ],
-   "id": 41
+   "id": 30
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "VnExpress International",
-    "The Straits Times"
+    "The Hindu",
+    "Business Standard"
    ],
    "regions": [
-    "Southeast Asia"
+    "South Asia"
    ],
-   "latest": "2026-11-24T06:50+00:00",
-   "earliest": "2026-11-24T00:00+00:00",
+   "latest": "2026-11-24T08:51+00:00",
+   "earliest": "2026-11-23T02:04+00:00",
    "items": [
     {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Singapore raises 2026 growth forecast to about 6%",
-     "url": "https://e.vnexpress.net/news/business/economy/singapore-raises-2026-growth-forecast-to-about-6-5148382.html",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "U.S. targets chip smuggling to China after Huang's return to scandal-hit Nvidia",
+     "url": "https://www.thehindu.com/news/international/us-targets-chip-smuggling-to-china-after-huangs-return-to-scandal-hit-nvidia/article71737766.ece",
      "via": "",
-     "published": "2026-11-24T06:50+00:00",
-     "summary": "Singapore raised its 2026 GDP growth forecast to around 6% on Tuesday after the economy expanded 6.1% year-on-year in the third quarter, driven by an AI boost to the wholesale trade and manufacturing sectors."
+     "published": "2026-11-24T08:51+00:00",
+     "summary": "Jensen Huang resigned over extramarital affairs, including with Alice Huang, linked to Singapore-based company Megaspeed International, who is suspected of being a Chinese spy"
     },
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
-     "url": "https://www.straitstimes.com/business/economy/singapore-hikes-2026-gdp-growth-forecast-to-around-6-sees-2-5-to-4-5-growth-in-2027",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "US tracked Alice Huang's links with China spy agency during Nvidia affair",
+     "url": "https://www.business-standard.com/world-news/us-tracked-alice-huang-s-links-with-china-spy-agency-during-nvidia-affair-126112300082_1.html",
      "via": "",
-     "published": "2026-11-24T00:00+00:00",
-     "summary": "The pace of growth is likely to slow in 2027 as AI investment eases, METI said."
+     "published": "2026-11-23T02:04+00:00",
+     "summary": ""
     }
    ],
-   "id": 42
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1871,7 +1479,7 @@
      "summary": "Williams said inflation must be lowered back to the Fed’s target “in a timely manner and on a sustained basis”."
     }
    ],
-   "id": 43
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1905,109 +1513,7 @@
      "summary": ""
     }
    ],
-   "id": 44
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-23T19:28+00:00",
-   "earliest": "2026-11-23T17:05+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Flydubai approved to resume flights to Tel Aviv, two months after thwarted attack",
-     "url": "https://www.timesofisrael.com/flydubai-approved-to-resume-flights-to-tel-aviv-two-months-after-thwarted-attack/",
-     "via": "",
-     "published": "2026-11-23T19:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israeli ministry approves resumption of flydubai flights after attack",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/23/israeli-ministry-approves-resumption-of-flydubai-flights-after-attack",
-     "via": "",
-     "published": "2026-11-23T17:05+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 45
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Business Standard",
-    "The Hindu"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-23T18:10+00:00",
-   "earliest": "2026-11-23T08:12+00:00",
-   "items": [
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "₹30,707 cr mcap erased as deal rattles Tata Steel, APL Apollo shareholders",
-     "url": "https://www.business-standard.com/markets/news/30-707-cr-mcap-erased-as-deal-rattles-tata-steel-apl-apollo-shareholders-126112301294_1.html",
-     "via": "",
-     "published": "2026-11-23T18:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Tata Steel to acquire 26.6% promoter stake in APL Apollo; another 26% via open offer",
-     "url": "https://www.thehindu.com/business/Industry/tata-steel-apl-apollo-agreements-promoter-stake-open-offer-stake/article71733521.ece",
-     "via": "",
-     "published": "2026-11-23T08:12+00:00",
-     "summary": "Tata Steel to consolidate pipes and colour steel business under APL Apollo Tubes, buys entire promoter stake for ₹15,511 crore, to make ₹16,756 crore open offer"
-    }
-   ],
-   "id": 46
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-23T10:25+00:00",
-   "earliest": "2026-11-23T09:29+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran says will use ‘all available means’ to counter US blockade",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/23/iran-says-will-use-all-available-means-to-counter-us-blockade",
-     "via": "",
-     "published": "2026-11-23T10:25+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran says it will use all available tools against US naval blockade",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-it-will-use-all-available-tools-against-us-naval-blockade/",
-     "via": "",
-     "published": "2026-11-23T09:29+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 47
+   "id": 33
   }
  ]
 }
