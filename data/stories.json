@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-24T23:16:37+00:00",
+ "fetched_at": "2026-11-25T03:10:20+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 719,
+ "outlets_read": 42,
+ "items_read": 677,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 32,
+   "items": 20,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 20,
+   "items": 23,
    "errors": []
   },
   "Yicai Global": {
@@ -42,12 +42,12 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 49,
+   "items": 38,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 27,
+   "items": 25,
    "errors": []
   },
   "Kyodo News": {
@@ -57,17 +57,17 @@
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 33,
+   "items": 30,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 43,
+   "items": 26,
    "errors": []
   },
   "Reuters": {
    "region": "Europe",
-   "items": 37,
+   "items": 34,
    "errors": []
   },
   "Financial Times": {
@@ -77,7 +77,7 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 12,
+   "items": 13,
    "errors": []
   },
   "Euronews": {
@@ -97,17 +97,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 7,
+   "items": 6,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 28,
+   "items": 29,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 30,
+   "items": 29,
    "errors": []
   },
   "Amwaj.media": {
@@ -117,17 +117,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 13,
+   "items": 15,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 23,
+   "items": 21,
    "errors": []
   },
   "Axios": {
@@ -137,14 +137,14 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 5,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "gCaptain": {
@@ -154,27 +154,27 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 25,
+   "items": 24,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 7,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 15,
+   "items": 18,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 3,
+   "items": 0,
    "errors": []
   },
   "Interfax": {
    "region": "Russia",
-   "items": 14,
+   "items": 13,
    "errors": []
   },
   "PortNews": {
@@ -184,17 +184,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 23,
+   "items": 24,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 26,
+   "items": 27,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 13,
+   "items": 18,
    "errors": []
   },
   "The Indian Express": {
@@ -206,13 +206,15 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 37,
+   "items": 39,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 14,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://news.google.com/rss/search?q=site%3Athejakartapost.com%20when%3A3d&hl=en: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "VnExpress International": {
    "region": "Southeast Asia",
@@ -221,17 +223,17 @@
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 8,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,15 +244,14 @@
  },
  "clusters": [
   {
-   "independent_outlets": 6,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
-    "The Jakarta Post",
     "Africanews",
     "The Straits Times",
     "Nikkei Asia",
-    "Al Arabiya",
-    "Associated Press"
+    "Associated Press",
+    "Al Arabiya"
    ],
    "regions": [
     "Africa",
@@ -259,18 +260,9 @@
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-24T11:38+00:00",
-   "earliest": "2026-11-22T18:05+00:00",
+   "latest": "2026-11-24T09:19+00:00",
+   "earliest": "2026-11-22T19:21+00:00",
    "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Death toll from candy factory fire rises to 26: Police",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/24/death-toll-from-candy-factory-fire-rises-to-26-police",
-     "via": "",
-     "published": "2026-11-24T11:38+00:00",
-     "summary": ""
-    },
     {
      "outlet": "Africanews",
      "region": "Africa",
@@ -299,25 +291,82 @@
      "summary": ""
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/22/police-remove-24-body-bags-from-a-firehit-candy-factory-in-indonesia",
-     "via": "",
-     "published": "2026-11-22T19:21+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "Associated Press",
      "region": "North America",
      "title": "More remains recovered in the search for 34 workers missing after an Indonesian candy factory fire",
      "url": "https://apnews.com/article/indonesia-serang-candy-factory-fires-fb73ec65390a34dc1e4aff4f87d6d111",
      "via": "",
-     "published": "2026-11-22T18:05+00:00",
+     "published": "2026-11-23T01:23+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Police remove 24 body bags from a fire-hit candy factory in Indonesia.",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVdyVzJxdVhYajlqcF9PN3k2blR6dzlKcXhUN0IwRzZWVXFxMTNNLXNycl9uNk5aanRmN1NUR3lpb3BxZTNteGxvRndVQkFtb2dPRmRkdEl5am1MTVp0X0ZSOFpLWXJLX2hwTFFuWVFyYWZoWTQ1QTVoSXE5eFRqV2JWWUlQQUxFRHJVUkFnMjM5TzAxaXJYTXk0TVNoWnNGOGJ5ZzNPdnVGYU1Sd0tvVUJBR01jMncwWHJ1TFRKMXNNTWfSAcMBQVVfeXFMTjFXclcycXVYWGo5anBfTzd5Nm5Uenc5SnF4VDdCMEc2VlVxcTEzTS1zcnJfbjZOWmp0ZjdTVEd5aW9wcWUzbXhsb0Z3VUJBbW9nT0ZkZHRJeWptTE1adF9GUjhaS1lyS19ocExRbllRcmFmaFk0NUE1aElxOXhUaldiVllJUEFMRURyVVJBZzIzOU8wMWlyWE15NE1TaFpzRjhieWczT3Z1RmFNUndLb1VCQUdNYzJ3MFhydUxUSjFzTU1n?oc=5",
+     "via": "Google News",
+     "published": "2026-11-22T19:21+00:00",
      "summary": ""
     }
    ],
    "id": 1
+  },
+  {
+   "independent_outlets": 4,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Deutsche Welle",
+    "Associated Press",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America",
+    "South Asia"
+   ],
+   "latest": "2026-11-25T02:37+00:00",
+   "earliest": "2026-11-24T21:05+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Huawei convicted of stealing trade secrets: What’s the case, and what does it mean for US-China ties? Explained",
+     "url": "https://www.livemint.com/news/us-news/huawei-convicted-of-stealing-us-trade-secrets-what-s-the-case-and-what-does-it-mean-for-us-china-ties-explained-11795572905540.html",
+     "via": "",
+     "published": "2026-11-25T02:37+00:00",
+     "summary": "Huawei Technologies Co., China’s largest technology company, was found guilty of 10 of 12 US criminal charges, including that it defrauded banks about its business in Iran and money laundering."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
+     "url": "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-25T02:01+00:00",
+     "summary": "Huawei was found guilty of 10 out of 12 charges levelled against it. The company said it plans to appeal the verdict."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, US jury finds",
+     "url": "https://apnews.com/article/huawei-racketeering-trial-verdict-b39ac780e2e31140015a1be02f0329ab",
+     "via": "",
+     "published": "2026-11-24T22:50+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Chinese tech giant Huawei convicted in US for evading Iran sanctions, stealing trade secrets",
+     "url": "https://www.timesofisrael.com/liveblog_entry/chinese-tech-giant-huawei-convicted-in-us-for-evading-iran-sanctions-stealing-trade-secrets/",
+     "via": "",
+     "published": "2026-11-24T21:05+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
   },
   {
    "independent_outlets": 4,
@@ -356,8 +405,8 @@
      "outlet": "Mining Weekly",
      "region": "Africa",
      "title": "China cobalt prices surge to three-month high as Congo bans exports",
-     "url": "https://www.miningweekly.com/article/china-cobalt-prices-surge-to-three-month-high-as-congo-bans-exports-2026-11-24",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOHh0bXM1djJoS3k2aFBLM0FEMk5WdTB1NWNKMkZQam4wT1BGVE40UUpnNGEwOW0wR2hPZ0pQVXhiRk14V19aNGRxbk1mVnRQN3A2dUV2Wk5XTU5tTFdxQXlwNVA4WW8zM1p5TkVNUUJBOEcwc293ZXE0aHNWa21yd1BjYzc2V0hrSjBNYV9lRkRzRTJjOHNoeThlRFBxY0hWZFFIcFh1a3h2VDRqWHNrdmhnbEdCZw?oc=5",
+     "via": "Google News",
      "published": "2026-11-24T06:49+00:00",
      "summary": ""
     },
@@ -371,53 +420,53 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Al Jazeera",
-    "Associated Press"
+    "Reuters",
+    "The Straits Times",
+    "Nikkei Asia"
    ],
    "regions": [
+    "East Asia",
     "Europe",
-    "Middle East",
-    "North America"
+    "Southeast Asia"
    ],
-   "latest": "2026-11-24T21:51+00:00",
-   "earliest": "2026-11-24T20:28+00:00",
+   "latest": "2026-11-24T12:01+00:00",
+   "earliest": "2026-11-23T23:20+00:00",
    "items": [
     {
-     "outlet": "Euronews",
+     "outlet": "Reuters",
      "region": "Europe",
-     "title": "Tech giant Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-     "url": "https://www.euronews.com/2026/11/24/tech-giant-huawei-found-guilty-of-stealing-trade-secrets-but-acquitted-of-racketeering",
+     "title": "What we know about Megaspeed, the Nvidia customer blacklisted by US",
+     "url": "https://www.reuters.com/business/retail-consumer/what-we-know-about-megaspeed-nvidia-customer-blacklisted-by-us-2026-11-24/",
      "via": "",
-     "published": "2026-11-24T21:51+00:00",
-     "summary": "In a statement, Huawei said the acquittal on the racketeering charge \"confirms that these allegations lack factual basis and vindicates our consistent position over the past eight years.\""
+     "published": "2026-11-24T12:01+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
-     "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Malaysian firm MSFusion, on US trade blacklist, denies equity links with Singapore-based Megaspeed",
+     "url": "https://www.straitstimes.com/asia/se-asia/malaysian-firm-msfusion-on-us-trade-blacklist-denies-equity-links-with-singapore-based-megaspeed",
      "via": "",
-     "published": "2026-11-24T21:43+00:00",
-     "summary": "Jurors acquit the company of the most serious charge it faced of engaging in a criminal racketeering conspiracy."
+     "published": "2026-11-24T04:50+00:00",
+     "summary": "It said MSFusion, Megaspeed and its subsidiaries operated as separate and independent legal entities."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, US jury finds",
-     "url": "https://apnews.com/article/huawei-racketeering-trial-verdict-b39ac780e2e31140015a1be02f0329ab",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "US to place Megaspeed on trade blacklist amid Nvidia scandal",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/us-to-place-megaspeed-on-trade-blacklist-amid-nvidia-scandal",
      "via": "",
-     "published": "2026-11-24T20:28+00:00",
+     "published": "2026-11-23T23:20+00:00",
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -463,79 +512,29 @@
      "summary": "BHP expects global copper demand to grow by 30% by 2040 to more than 45 million tonnes per year."
     }
    ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Ecofin Agency",
-    "Deutsche Welle",
-    "The Jakarta Post"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-24T04:09+00:00",
-   "earliest": "2026-11-22T02:39+00:00",
-   "items": [
-    {
-     "outlet": "Ecofin Agency",
-     "region": "Africa",
-     "title": "Fossil Fuel Divisions Prolong Climate Deadlock at COP31",
-     "url": "https://www.ecofinagency.com/news-industry/2411-61109-fossil-fuel-divisions-prolong-climate-deadlock-at-cop31",
-     "via": "",
-     "published": "2026-11-24T04:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
-     "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-22T13:18+00:00",
-     "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world."
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Fossil fuel dispute threatens to scupper climate deal",
-     "url": "https://www.thejakartapost.com/world/2026/11/22/fossil-fuel-dispute-threatens-to-scupper-climate-deal",
-     "via": "",
-     "published": "2026-11-22T02:39+00:00",
-     "summary": ""
-    }
-   ],
    "id": 5
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "South China Morning Post",
+     "Al Arabiya"
+    ]
+   ],
    "outlets": [
-    "Al Arabiya",
     "South China Morning Post",
-    "Nikkei Asia"
+    "Nikkei Asia",
+    "Al Arabiya"
    ],
    "regions": [
     "China",
     "East Asia",
     "Middle East"
    ],
-   "latest": "2026-11-22T21:58+00:00",
-   "earliest": "2026-11-22T18:29+00:00",
+   "latest": "2026-11-22T20:03+00:00",
+   "earliest": "2026-11-22T18:28+00:00",
    "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US Treasury Secretary Scott Bessent says NVIDIA has yet to answer questions",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/23/us-treasury-secretary-scott-bessent-says-nvidia-has-yet-to-answer-questions",
-     "via": "",
-     "published": "2026-11-22T21:58+00:00",
-     "summary": ""
-    },
     {
      "outlet": "South China Morning Post",
      "region": "China",
@@ -553,54 +552,158 @@
      "via": "",
      "published": "2026-11-22T18:29+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
+     "url": "https://english.alarabiya.net/business/technology/2026/11/22/us-seeks-answers-on-nvidia-s-sale-of-chips-to-china-bessent-says",
+     "via": "",
+     "published": "2026-11-22T18:28+00:00",
+     "summary": ""
     }
    ],
    "id": 6
   },
   {
-   "independent_outlets": 3,
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
-    "Times of Israel",
-    "Euronews"
+    "Reuters"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-24T18:20+00:00",
-   "earliest": "2026-11-24T12:16+00:00",
+   "latest": "2026-11-25T02:23+00:00",
+   "earliest": "2026-11-24T19:27+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
      "region": "Middle East",
-     "title": "Senior Hamas security official killed in Israeli drone strikes",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
+     "title": "WHO chief urges end to US fuel blockade on Cuba",
+     "url": "https://www.aljazeera.com/news/2026/11/25/who-chief-urges-end-to-us-fuel-blockade-on-cuba?traffic_source=rss",
      "via": "",
-     "published": "2026-11-24T18:20+00:00",
-     "summary": "A senior Hamas security official has been killed in a series of Israeli strikes across Gaza"
+     "published": "2026-11-25T02:23+00:00",
+     "summary": "UN allocates $2m for immunisation and medical equipment as Cuban healthcare struggles with critical shortages."
     },
     {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF, Shin Bet confirm Hamas’s latest internal security apparatus chief killed in Gaza strike",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-shin-bet-confirm-hamass-latest-internal-security-apparatus-chief-killed-in-gaza-strike/",
-     "via": "",
-     "published": "2026-11-24T13:34+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Euronews",
+     "outlet": "Reuters",
      "region": "Europe",
-     "title": "Israeli strikes kill Hamas security chief and six others in Gaza",
-     "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
+     "title": "WHO chief calls on US to lift oil blockade on Cuba, citing health impact",
+     "url": "https://www.reuters.com/legal/government/who-chief-calls-us-lift-oil-blockade-cuba-citing-health-impact-2026-11-24/",
      "via": "",
-     "published": "2026-11-24T12:16+00:00",
-     "summary": "Two policemen died when a police station in southern Gaza was hit, while coalition talks in Israel leave caretaker prime minister Benjamin Netanyahu in charge of military operations."
+     "published": "2026-11-24T19:27+00:00",
+     "summary": ""
     }
    ],
    "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Livemint / Economic Times"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-11-25T02:06+00:00",
+   "earliest": "2026-11-25T01:20+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Trump floats government stake in Nvidia and leaves pardon option for Huang open",
+     "url": "https://www.digitimes.com/news/a20261125VL213/nvidia-usa-government-donald-trump-intel.html",
+     "via": "",
+     "published": "2026-11-25T02:06+00:00",
+     "summary": "US President Donald Trump has said the government could still take an equity stake in Nvidia and that a pardon for reinstated CEO Jensen Huang remains \"an option.\" An Nvidia stake would extend Washington's run of corporate shareholdings from critical minerals and Intel to the center of the AI chip industry."
+    },
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Trump says pardon to Nvidia CEO Jensen Huang ‘an option’ but wants him to ‘tell the truth’ to Congress",
+     "url": "https://www.livemint.com/news/us-news/trump-willing-to-pardon-jensen-huang-if-necessary-says-i-want-him-to-just-tell-the-truth-before-congress-next-week-11795569164841.html",
+     "via": "",
+     "published": "2026-11-25T01:20+00:00",
+     "summary": "US President Donald Trump apparently pressured Nvidia’s board to take Jensen Huang back as CEO, 11 days after he resigned following revelations of extramarital affairs, one with a suspected Chinese spy."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Financial Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe"
+   ],
+   "latest": "2026-11-25T00:38+00:00",
+   "earliest": "2026-11-24T20:18+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Huang tells Nvidia staff the company does not need a succession plan",
+     "url": "https://www.digitimes.com/news/a20261125VL200/nvidia-jensen-huang-staff-governance.html",
+     "via": "",
+     "published": "2026-11-25T00:38+00:00",
+     "summary": "Jensen Huang used his first all-hands meeting since returning as Nvidia's chief executive to tell employees the chipmaker doesn't need a succession plan, a message that leaves the company's future leadership resting on one person at a moment when investors and governance experts question whether its board can act independently of him."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "Huang says he still does not believe in CEO succession planning at Nvidia",
+     "url": "https://www.ft.com/content/cd1831d0-c3f1-4705-b8e2-badfb5e39764?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-24T20:18+00:00",
+     "summary": "Chief executive speaks to staff at first company-wide meeting after returning to the chipmaker"
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-25T00:05+00:00",
+   "earliest": "2026-11-24T08:56+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "China’s Xi plays long game on US chip retaliation after Nvidia saga",
+     "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-plays-long-game-on-us-chip-retaliation-after-nvidia-saga",
+     "via": "",
+     "published": "2026-11-25T00:05+00:00",
+     "summary": "China’s Commerce Ministry on Nov 24 extended its pause on US export curbs for some critical minerals."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Xi Plays Long Game on US Chip Retaliation After Nvidia Saga",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-halts-critical-minerals-ban-to-maintain-truce-with-us",
+     "via": "",
+     "published": "2026-11-24T08:56+00:00",
+     "summary": "After a week of whiplash over Jensen Huang’s future and new US chip curbs, Beijing sent a clear message to Washington about their trade truce: China is holding up its side of the bargain — for now."
+    }
+   ],
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -635,42 +738,42 @@
      "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
     }
    ],
-   "id": 8
+   "id": 11
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Africanews",
-    "Al Jazeera"
+    "The Straits Times",
+    "Reuters"
    ],
    "regions": [
-    "Africa",
-    "Middle East"
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-24T21:26+00:00",
-   "earliest": "2026-11-24T17:39+00:00",
+   "latest": "2026-11-24T21:28+00:00",
+   "earliest": "2026-11-24T10:52+00:00",
    "items": [
     {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Cameroon separatist leader pleads not guilty at Norway war crimes trial",
-     "url": "http://www.africanews.com/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-at-norway-war-crimes-trial/",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nasdaq, S&P 500 slip following Nov 23’s Nvidia-fuelled rally",
+     "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-sp-500-end-lower-following-nov-23s-nvidia-fuelled-rally",
      "via": "",
-     "published": "2026-11-24T21:26+00:00",
-     "summary": "Cameroon separatist leader Lucas Cho Ayaba pleaded not guilty to being an accessory to war crimes and terrorism in a Norwegian court on Tuesday."
+     "published": "2026-11-24T21:28+00:00",
+     "summary": "The Dow Jones Industrial Average rose 433.48 points, or 0.87%, to 50,028.79."
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Cameroon separatist leader pleads not guilty at war crimes trial in Norway",
-     "url": "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial?traffic_source=rss",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nasdaq, S&P 500 slip following Monday's Nvidia-fueled rally",
+     "url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/",
      "via": "",
-     "published": "2026-11-24T17:39+00:00",
-     "summary": "Lucas Cho Ayaba is accused of remotely planning attacks that killed and injured dozens of civilians."
+     "published": "2026-11-24T10:52+00:00",
+     "summary": ""
     }
    ],
-   "id": 9
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -705,42 +808,7 @@
      "summary": ""
     }
    ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-24T20:38+00:00",
-   "earliest": "2026-11-24T08:15+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "ICC judge says sanctions 'overcompliance' aids US intimidation against court",
-     "url": "https://asia.nikkei.com/editor-s-picks/interview/icc-judge-says-sanctions-overcompliance-aids-us-intimidation-against-court",
-     "via": "",
-     "published": "2026-11-24T20:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Japan accelerates ICC funding as US sanctions threaten court",
-     "url": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T08:15+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -775,42 +843,7 @@
      "summary": "This project was announced on Monday by Emmanuel Macron during a closed-door meeting with industrialists at the Élysée. These mineral stocks will be accompanied by a mechanism of \"joint purchases\"."
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-24T17:30+00:00",
-   "earliest": "2026-11-24T16:57+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Microsoft declares ‘Code Red’ after historic outage, internal memos show",
-     "url": "https://english.alarabiya.net/amp/business/technology/2026/11/24/microsoft-declares-code-red-after-historic-outage-internal-memos-show",
-     "via": "",
-     "published": "2026-11-24T17:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EXCLUSIVE: Microsoft declares 'Code Red' after historic outage, internal memos show",
-     "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T16:57+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -845,7 +878,7 @@
      "summary": "The German foreign minister has criticized Donald Trump's interference in the chip-maker's economic activities. Jensen Huang was brought back after stepping down as Nvidia CEO amid multiple scandals."
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -880,7 +913,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -915,7 +948,42 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Euronews"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-24T13:34+00:00",
+   "earliest": "2026-11-24T12:16+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "IDF, Shin Bet confirm Hamas’s latest internal security apparatus chief killed in Gaza strike",
+     "url": "https://www.timesofisrael.com/liveblog_entry/idf-shin-bet-confirm-hamass-latest-internal-security-apparatus-chief-killed-in-gaza-strike/",
+     "via": "",
+     "published": "2026-11-24T13:34+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Israeli strikes kill Hamas security chief and six others in Gaza",
+     "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp",
+     "via": "",
+     "published": "2026-11-24T12:16+00:00",
+     "summary": "Two policemen died when a police station in southern Gaza was hit, while coalition talks in Israel leave caretaker prime minister Benjamin Netanyahu in charge of military operations."
+    }
+   ],
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -950,42 +1018,7 @@
      "summary": ""
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-24T09:31+00:00",
-   "earliest": "2026-11-24T08:33+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "TSMC eyes US$22.6 billion Texas campus for 2nm chips",
-     "url": "https://www.digitimes.com/news/a20261124VL226/tsmc-texas-arizona-investment-manufacturing.html",
-     "via": "",
-     "published": "2026-11-24T09:31+00:00",
-     "summary": "TSMC is considering a US$22.6 billion semiconductor manufacturing campus in Texas, including about US$14 billion in machinery and equipment investment, as the chipmaker weighs Texas against Arizona for its next major US expansion."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "TSMC unit seeks Texas property tax limit for proposed $22.6 billion chip making facility",
-     "url": "https://www.reuters.com/business/tsmc-unit-seeks-texas-property-tax-limit-proposed-226-billion-chip-making-2026-11-24/",
-     "via": "",
-     "published": "2026-11-24T08:33+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1020,77 +1053,7 @@
      "summary": ""
     }
    ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Times of Israel",
-    "gCaptain"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-24T08:45+00:00",
-   "earliest": "2026-11-24T03:55+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "US said investigating Iran as prime suspect in fresh cyberattacks on dozens of ships",
-     "url": "https://www.timesofisrael.com/us-said-investigating-iran-as-prime-suspect-in-fresh-cyberattacks-on-ships/",
-     "via": "",
-     "published": "2026-11-24T08:45+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "U.S. Probes Suspected Iranian Cyberattacks on Up to 50 Ships, WSJ Reports",
-     "url": "https://gcaptain.com/u-s-probes-suspected-iranian-cyberattacks-on-up-to-50-ships-wsj-reports/",
-     "via": "",
-     "published": "2026-11-24T03:55+00:00",
-     "summary": "The United States is investigating Iran's potential involvement in dozens of cyberattacks against energy tankers amid concerns that Tehran is widening the war with cyber operations and terror plots against Americans far from the Middle East, the Wall Street Journal reported on Monday."
-    }
-   ],
    "id": 20
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-24T08:40+00:00",
-   "earliest": "2026-11-23T20:51+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Alibaba disputes US blacklisting of Singapore subsidiary over chip rerouting risks",
-     "url": "https://www.straitstimes.com/business/alibaba-disputes-us-blacklisting-of-singapore-subsidiary-over-chip-rerouting-risks",
-     "via": "",
-     "published": "2026-11-24T08:40+00:00",
-     "summary": "The Chinese tech giant denied diverting restricted chips and said it will pursue legal action to defend itself."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US blacklists Alibaba subsidiary and Megaspeed linked to Nvidia scandal",
-     "url": "https://www.reuters.com/business/us-blacklist-megaspeed-chip-firm-linked-nvidia-scandal-source-says-2026-11-23/",
-     "via": "",
-     "published": "2026-11-23T20:51+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1125,42 +1088,7 @@
      "summary": "Binding offtake deal is for 100,000 tonnes of lithium."
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Africa",
-    "North America"
-   ],
-   "latest": "2026-11-24T07:37+00:00",
-   "earliest": "2026-11-23T16:00+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Namib Minerals revives Zimbabwe's Redwing mine with first gold pour",
-     "url": "https://www.miningweekly.com/article/namib-minerals-revives-zimbabwes-redwing-mine-with-first-gold-pour-2026-11-24",
-     "via": "",
-     "published": "2026-11-24T07:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Namib Minerals pours first gold at historic Redwing gold mine",
-     "url": "https://www.mining.com/namib-minerals-pours-first-gold-at-historic-redwing-gold-mine/",
-     "via": "",
-     "published": "2026-11-23T16:00+00:00",
-     "summary": "The mine in eastern Zimbabwe has been going through a phased restart, getting ready to restart commercial production."
-    }
-   ],
-   "id": 23
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1195,7 +1123,7 @@
      "summary": "First Quantum accepted five conditions from the government for reopening negotiations, officials announced after Monday's meeting."
     }
    ],
-   "id": 24
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1230,7 +1158,42 @@
      "summary": "Wall Street comes roaring back after Nvidia sensationally announced the return of its scandal-engulfed chief executive and founder, Jensen Huang."
     }
    ],
-   "id": 25
+   "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Africa",
+    "Europe"
+   ],
+   "latest": "2026-11-24T04:09+00:00",
+   "earliest": "2026-11-22T13:18+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Fossil Fuel Divisions Prolong Climate Deadlock at COP31",
+     "url": "https://www.ecofinagency.com/news-industry/2411-61109-fossil-fuel-divisions-prolong-climate-deadlock-at-cop31",
+     "via": "",
+     "published": "2026-11-24T04:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
+     "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-22T13:18+00:00",
+     "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world."
+    }
+   ],
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1265,7 +1228,7 @@
      "summary": "The quake was at a depth of 10km, EMSC said."
     }
    ],
-   "id": 26
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1300,7 +1263,75 @@
      "summary": ""
     }
    ],
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "DigiTimes",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia"
+   ],
+   "latest": "2026-11-25T01:32+00:00",
+   "earliest": "2026-11-24T11:08+00:00",
+   "items": [
+    {
+     "outlet": "DigiTimes",
+     "region": "East Asia",
+     "title": "Why Huawei's answer to US chip design curbs runs through Phlexing",
+     "url": "https://www.digitimes.com/news/a20261125VL211/huawei-design-software-eda-chairman.html",
+     "via": "",
+     "published": "2026-11-25T01:32+00:00",
+     "summary": "Huawei has named Hangzhou-based Phlexing Technology as a partner developing chip design software for its next generation of smartphone and server processors. The collaboration gives Huawei a domestic source of tools tailored to its Tau Scaling Law in a market long dominated by Synopsys and Cadence."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "China's Huawei says it has homegrown answer to US chip design tool curbs",
+     "url": "https://asia.nikkei.com/spotlight/huawei-crackdown/china-s-huawei-says-it-has-homegrown-answer-to-us-chip-design-tool-curbs",
+     "via": "",
+     "published": "2026-11-24T11:08+00:00",
+     "summary": ""
+    }
+   ],
    "id": 27
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-24T22:10+00:00",
+   "earliest": "2026-11-24T22:01+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Todd Blanche Calls Nvidia a ‘Good Corporate Citizen’",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/25/todd-blanche-calls-nvidia-a-good-corporate-citizen-",
+     "via": "",
+     "published": "2026-11-24T22:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
+     "url": "https://www.aljazeera.com/news/2026/11/24/todd-blanche-declines-to-confirm-if-nvidias-jensen-huang-was-investigated?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-24T22:01+00:00",
+     "summary": "The US attorney general refused to discuss claims by Donald Trump that his administration conducted a 'thorough' probe."
+    }
+   ],
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1334,7 +1365,7 @@
      "summary": "Shipping associations warn that rejecting compliant Indian recycling yards risks undermining the credibility of the EU’s own legislation."
     }
    ],
-   "id": 28
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1368,41 +1399,41 @@
      "summary": "First partnership to deliver LNG dual-fuel car carriers for the owner’s long-term fleet renewal and low-carbon shipping road map."
     }
    ],
-   "id": 29
+   "id": 30
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
-    "DigiTimes"
+    "Al Arabiya",
+    "Times of Israel"
    ],
    "regions": [
-    "East Asia"
+    "Middle East"
    ],
-   "latest": "2026-11-24T15:24+00:00",
-   "earliest": "2026-11-24T06:27+00:00",
+   "latest": "2026-11-24T20:12+00:00",
+   "earliest": "2026-11-24T19:55+00:00",
    "items": [
     {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Jensen Huang’s return eases HBM uncertainty for Samsung, SK hynix",
-     "url": "https://www.koreaherald.com/article/10947677",
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran’s IRGC says container ship hits mine in ‘unauthorized’ route near Strait of Hormuz",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/25/iran-s-irgc-says-container-ship-hits-mine-in-unauthorized-route-near-strait-of-hormuz",
      "via": "",
-     "published": "2026-11-24T15:24+00:00",
-     "summary": "Jensen Huang’s return as Nvidia CEO, announced just 11 days after his resignation, has eased concerns over Samsung Electronics and SK hynix’s high-bandwidth memory partnerships with the US chip giant and the longevity of Korea’s AI-driven memory boom. Both Korean chipmakers, however, are expected to continue broadening their customer base as global tech giants ramp up development of their own arti"
+     "published": "2026-11-24T20:12+00:00",
+     "summary": ""
     },
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Analysis: Samsung, SK Hynix look beyond Nvidia as Huang returns",
-     "url": "https://www.digitimes.com/news/a20261124VL217/nvidia-samsung-jensen-huang-sk-hynix-ceo.html",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iran Guards say container ship hits mine on ‘unauthorized’ route near Strait of Hormuz",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-guards-say-container-ship-hits-mine-on-unauthorized-route-near-strait-of-hormuz/",
      "via": "",
-     "published": "2026-11-24T06:27+00:00",
-     "summary": "Jensen Huang's return as Nvidia CEO has eased concerns among South Korean memory chipmakers over high-bandwidth memory (HBM) supply agreements and next-generation chip development, but growing demand for AI processors from Google, Amazon, and other technology companies continues to reshape the memory market."
+     "published": "2026-11-24T19:55+00:00",
+     "summary": ""
     }
    ],
-   "id": 30
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1436,7 +1467,7 @@
      "summary": ""
     }
    ],
-   "id": 31
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1470,7 +1501,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1502,40 +1533,6 @@
      "via": "",
      "published": "2026-11-24T00:00+00:00",
      "summary": "The pace of growth is likely to slow in 2027 as AI investment eases, METI said."
-    }
-   ],
-   "id": 33
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Jakarta Post",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-24T00:39+00:00",
-   "earliest": "2026-11-23T23:14+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Fed's Williams says inflation still too high, signals more rate hikes - Economy",
-     "url": "https://www.thejakartapost.com/business/2026/11/24/feds-williams-says-inflation-still-too-high-signals-more-rate-hikes",
-     "via": "",
-     "published": "2026-11-24T00:39+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "US Fed’s Williams says inflation still too high, signals more rate hikes possible",
-     "url": "https://www.straitstimes.com/business/us-fed-has-work-to-do-to-lower-inflation-williams-says",
-     "via": "",
-     "published": "2026-11-23T23:14+00:00",
-     "summary": "Williams said inflation must be lowered back to the Fed’s target “in a timely manner and on a sustained basis”."
     }
    ],
    "id": 34
@@ -1578,6 +1575,40 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Business Standard",
+    "The Hindu"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-23T18:10+00:00",
+   "earliest": "2026-11-23T08:12+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "₹30,707 cr mcap erased as deal rattles Tata Steel, APL Apollo shareholders",
+     "url": "https://www.business-standard.com/markets/news/30-707-cr-mcap-erased-as-deal-rattles-tata-steel-apl-apollo-shareholders-126112301294_1.html",
+     "via": "",
+     "published": "2026-11-23T18:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Tata Steel to acquire 26.6% promoter stake in APL Apollo; another 26% via open offer",
+     "url": "https://www.thehindu.com/business/Industry/tata-steel-apl-apollo-agreements-promoter-stake-open-offer-stake/article71733521.ece",
+     "via": "",
+     "published": "2026-11-23T08:12+00:00",
+     "summary": "Tata Steel to consolidate pipes and colour steel business under APL Apollo Tubes, buys entire promoter stake for ₹15,511 crore, to make ₹16,756 crore open offer"
+    }
+   ],
+   "id": 36
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "Al Arabiya",
     "Times of Israel"
    ],
@@ -1603,40 +1634,6 @@
      "url": "https://www.timesofisrael.com/liveblog_entry/iran-says-it-will-use-all-available-tools-against-us-naval-blockade/",
      "via": "",
      "published": "2026-11-23T09:29+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 36
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-22T14:11+00:00",
-   "earliest": "2026-11-22T07:29+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/22/israel-s-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank",
-     "via": "",
-     "published": "2026-11-22T14:11+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Eisenkot condemns overnight West Bank arson attacks as 'Jewish terrorism,' urges crackdown",
-     "url": "https://www.timesofisrael.com/liveblog_entry/eisenkot-condemns-overnight-west-bank-arson-attacks-as-jewish-terrorism-urges-crackdown/",
-     "via": "",
-     "published": "2026-11-22T07:29+00:00",
      "summary": ""
     }
    ],
