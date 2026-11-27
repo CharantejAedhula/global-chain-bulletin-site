@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-26T22:36:55+00:00",
+ "fetched_at": "2026-11-27T02:24:40+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 44,
- "items_read": 823,
+ "outlets_read": 43,
+ "items_read": 784,
  "feeds": {
   "Africanews": {
    "region": "Africa",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "The Africa Report": {
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 27,
+   "items": 59,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 41,
+   "items": 40,
    "errors": []
   },
   "Caixin Global": {
@@ -32,47 +32,49 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 38,
+   "items": 37,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 6,
+   "items": 8,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 49,
+   "items": 48,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 29,
+   "items": 26,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 39,
+   "items": 31,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
-   "items": 33,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 182, column 54"
+   ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 34,
+   "items": 31,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -97,17 +99,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 26,
+   "items": 33,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 20,
+   "items": 17,
    "errors": []
   },
   "Amwaj.media": {
@@ -117,17 +119,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 18,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 26,
+   "items": 24,
    "errors": []
   },
   "Axios": {
@@ -137,14 +139,14 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 3,
+   "items": 6,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 34,
+   "items": 35,
    "errors": []
   },
   "gCaptain": {
@@ -154,22 +156,22 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 6,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 19,
+   "items": 15,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Interfax": {
@@ -184,17 +186,17 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 24,
+   "items": 23,
    "errors": []
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 38,
+   "items": 36,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 16,
+   "items": 19,
    "errors": []
   },
   "The Indian Express": {
@@ -206,17 +208,17 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 37,
+   "items": 31,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 15,
+   "items": 12,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "MercoPress": {
@@ -226,12 +228,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 29,
+   "items": 32,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 5,
    "errors": []
   },
   "Newsroom Panama": {
@@ -242,24 +244,16 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
-   "same_headline_groups": [
-    [
-     "The Korea Herald",
-     "Associated Press"
-    ]
-   ],
+   "independent_outlets": 4,
+   "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
     "Africanews",
-    "The Korea Herald",
     "Al Arabiya",
-    "Times of Israel",
     "Associated Press"
    ],
    "regions": [
     "Africa",
-    "East Asia",
     "Middle East",
     "North America"
    ],
@@ -285,30 +279,12 @@
      "summary": "A fuel truck overturned on Wednesday, triggering a massive blaze that engulfed nearby vehicles. At least 31 people have been killed in the deadly fire. A man has been arrested in connection with the incident."
     },
     {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-     "url": "https://www.koreaherald.com/article/10950356",
-     "via": "",
-     "published": "2026-11-26T13:40+00:00",
-     "summary": "CAIRO (AP) — A crash involving a fuel tanker ignited a massive fire on a major highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities said. The blaze on Ring Road, a key artery that encircles the Egyptian capital, also injured at least 21 people and left more than two dozen cars and motorcycles charred, according to the latest figures released by the Health Minist"
-    },
-    {
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Egypt arrests driver over fuel truck crash, fire that killed 31 in Giza",
      "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/26/egypt-arrests-driver-over-fuel-truck-crash-fire-that-killed-31-in-giza",
      "via": "",
      "published": "2026-11-26T09:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "30 dead in Cairo fire after fuel truck overturns on busy highway",
-     "url": "https://www.timesofisrael.com/30-dead-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway/",
-     "via": "",
-     "published": "2026-11-26T02:55+00:00",
      "summary": ""
     },
     {
@@ -325,125 +301,9 @@
   },
   {
    "independent_outlets": 4,
-   "same_headline_groups": [
-    [
-     "gCaptain",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "Al Jazeera",
-    "gCaptain",
-    "Euronews",
-    "Deutsche Welle",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-26T15:56+00:00",
-   "earliest": "2026-11-26T07:41+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Diesel tanker capsizes near Ibiza, killing crew member",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_loaded-diesel-tanker-capsizes-off-ibiza-killing-one-261126?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-26T15:56+00:00",
-     "summary": "Aerial footage shows the capsized Maltese-flagged Med Emre chemical tanker off the Spanish island of Ibiza."
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Crew Member Dies After Diesel Tanker Capsizes Off Ibiza, No Pollution So Far",
-     "url": "https://gcaptain.com/crew-member-dies-after-diesel-tanker-capsizes-off-ibiza-no-pollution-so-far/",
-     "via": "",
-     "published": "2026-11-26T14:44+00:00",
-     "summary": "At least one crew member aboard a ship carrying diesel has died after the vessel capsized and partially sank off the Spanish island of Ibiza on Thursday, regional authorities said, adding there were no signs of pollution so far."
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Aerial footage shows diesel tanker sinking off Ibiza",
-     "url": "https://www.euronews.com/video/2026/11/26/aerial-footage-shows-diesel-tanker-sinking-off-ibiza",
-     "via": "",
-     "published": "2026-11-26T14:40+00:00",
-     "summary": "A tanker carrying around 7,000 tonnes of diesel has capsized off Ibiza, prompting Spanish authorities to assess the risk of marine pollution. One crew member died after all 17 people on board were rescued."
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Crew member dies after diesel tanker sinks off Ibiza coast",
-     "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-26T11:58+00:00",
-     "summary": "Authorities rescued 17 crew members but one later died in hospital after a diesel tanker sank off the Spanish island of Ibiza. A contingency plan against possible pollution damage is now in place."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far",
-     "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T07:41+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Deutsche Welle",
-    "Associated Press",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-26T16:13+00:00",
-   "earliest": "2026-11-24T14:16+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
-     "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-26T16:13+00:00",
-     "summary": "Thousands have gathered in the capital of northern Iraq's semiautonomous Kurdish region, waving flags and voicing opposition to plans for the federal government to take control of oil operations and border crossings."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Thousands protest in Irbil as Baghdad moves to seize Kurdish oil and border control",
-     "url": "https://apnews.com/article/iraq-krg-baghdad-oil-borders-kurds-protest-irbil-erbil-1b0e8cb02a09ce16b8885c60f4733a44",
-     "via": "",
-     "published": "2026-11-26T10:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iraq PM orders federal control of Kurdish border crossings, oil fields",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iraq-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/",
-     "via": "",
-     "published": "2026-11-24T14:16+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 3
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
+    "Reuters",
     "Euronews",
     "Associated Press",
     "The Straits Times"
@@ -453,9 +313,18 @@
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-26T11:40+00:00",
+   "latest": "2026-11-26T12:35+00:00",
    "earliest": "2026-11-26T08:38+00:00",
    "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Thailand's Bangchak shuts all units at Bangkok refinery after fire, says 9 workers injured",
+     "url": "https://www.reuters.com/business/energy/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T12:35+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Euronews",
      "region": "Europe",
@@ -484,7 +353,53 @@
      "summary": "There were no immediate reports of casualties."
     }
    ],
-   "id": 4
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Nikkei Asia",
+    "The Straits Times",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T02:10+00:00",
+   "earliest": "2026-11-26T22:34+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "New Zealand ruling coalition misses majority as election results announced",
+     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
+     "via": "",
+     "published": "2026-11-27T02:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "New Zealand’s ruling coalition falls just short of majority in final election count",
+     "url": "https://www.straitstimes.com/asia/new-zealands-ruling-coalition-falls-just-short-of-majority-in-final-election-count",
+     "via": "",
+     "published": "2026-11-27T02:02+00:00",
+     "summary": "WELLINGTON, Nov 27 - New Zealand’s ruling centre-right coalition has narrowly missed winning a parliamentary majority, final election results showed on Friday, leaving Prime Minister Christopher Luxon needing the support of the centrist Opportunity Party to remain in power."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Final New Zealand election vote count to confirm parliament make up",
+     "url": "https://www.reuters.com/world/asia-pacific/final-new-zealand-election-vote-count-confirm-parliament-make-up-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T22:34+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -495,19 +410,28 @@
     ]
    ],
    "outlets": [
+    "The Jakarta Post",
     "The Straits Times",
     "Reuters",
-    "MINING.COM",
-    "The Jakarta Post"
+    "MINING.COM"
    ],
    "regions": [
     "Europe",
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-26T04:30+00:00",
-   "earliest": "2026-11-25T12:11+00:00",
+   "latest": "2026-11-26T11:51+00:00",
+   "earliest": "2026-11-25T12:51+00:00",
    "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Death toll from flooded illegal gold mine in West Java climbs to 13",
+     "url": "https://www.thejakartapost.com/indonesia/2026/11/27/death-toll-from-flooded-illegal-gold-mine-in-west-java-climbs-to-13",
+     "via": "",
+     "published": "2026-11-26T11:51+00:00",
+     "summary": ""
+    },
     {
      "outlet": "The Straits Times",
      "region": "Southeast Asia",
@@ -534,32 +458,233 @@
      "via": "",
      "published": "2026-11-25T12:51+00:00",
      "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
+    }
+   ],
+   "id": 4
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Reuters",
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-26T20:56+00:00",
+   "earliest": "2026-11-26T18:19+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations",
+     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-houthis-attacked-aramcos-jazan-refinery-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T20:56+00:00",
+     "summary": ""
     },
     {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Eight dead, 18 missing after floods hit illegal gold mine in West Java",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/26/eight-dead-18-missing-after-floods-hit-illegal-gold-mine-in-west-java",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+     "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
      "via": "",
-     "published": "2026-11-25T12:11+00:00",
+     "published": "2026-11-26T20:34+00:00",
+     "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "One killed after Jazan refinery hit by hostile aerial projectile: Saudi energy ministry",
+     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/26/one-killed-after-jazan-refinery-hit-by-hostile-aerial-projectile-saudi-energy-ministry-",
+     "via": "",
+     "published": "2026-11-26T18:19+00:00",
      "summary": ""
     }
    ],
    "id": 5
   },
   {
+   "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "gCaptain",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "gCaptain",
+    "Euronews",
+    "Deutsche Welle",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-26T14:44+00:00",
+   "earliest": "2026-11-26T07:41+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Crew Member Dies After Diesel Tanker Capsizes Off Ibiza, No Pollution So Far",
+     "url": "https://gcaptain.com/crew-member-dies-after-diesel-tanker-capsizes-off-ibiza-no-pollution-so-far/",
+     "via": "",
+     "published": "2026-11-26T14:44+00:00",
+     "summary": "At least one crew member aboard a ship carrying diesel has died after the vessel capsized and partially sank off the Spanish island of Ibiza on Thursday, regional authorities said, adding there were no signs of pollution so far."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Aerial footage shows diesel tanker sinking off Ibiza",
+     "url": "https://www.euronews.com/video/2026/11/26/aerial-footage-shows-diesel-tanker-sinking-off-ibiza",
+     "via": "",
+     "published": "2026-11-26T14:40+00:00",
+     "summary": "A tanker carrying around 7,000 tonnes of diesel has capsized off Ibiza, prompting Spanish authorities to assess the risk of marine pollution. One crew member died after all 17 people on board were rescued."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Crew member dies after diesel tanker sinks off Ibiza coast",
+     "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-26T11:58+00:00",
+     "summary": "Authorities rescued 17 crew members but one later died in hospital after a diesel tanker capsized off the Spanish island of Ibiza. A contingency plan against possible pollution damage is now in place."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far",
+     "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T07:41+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T02:10+00:00",
+   "earliest": "2026-11-26T23:36+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Tokyo’s faster pace of inflation backs case for Bank of Japan rate hike",
+     "url": "https://www.straitstimes.com/business/tokyos-faster-pace-of-inflation-backs-case-for-bank-of-japan-rate-hike",
+     "via": "",
+     "published": "2026-11-27T02:10+00:00",
+     "summary": "Governor Kazuo Ueda will give a speech on Nov 30 before the Dec 18 BOJ decision."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure",
+     "via": "",
+     "published": "2026-11-26T23:36+00:00",
+     "summary": "Inflation in Japan’s capital city accelerated to the fastest pace this year, backing the case for a Bank of Japan rate increase next month as authorities focus on keeping price growth around their 2% target."
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Nikkei Asia",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T00:47+00:00",
+   "earliest": "2026-11-25T03:20+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Core inflation in Tokyo hits 16-month high, bolsters case for rate hike",
+     "url": "https://asia.nikkei.com/economy/core-inflation-in-tokyo-hits-16-month-high-bolsters-case-for-rate-hike",
+     "via": "",
+     "published": "2026-11-27T00:47+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australian inflation hots up in October, core hits two-year high",
+     "url": "https://www.straitstimes.com/business/australian-inflation-heats-up-in-october-core-hits-two-year-high",
+     "via": "",
+     "published": "2026-11-25T03:20+00:00",
+     "summary": "Markets are still wagering that the next move in interest rates will be down given weakness in the labour market."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Bloomberg"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-26T23:35+00:00",
+   "earliest": "2026-11-26T13:31+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australia clears law requiring LNG exporters to keep 20% for domestic use",
+     "url": "https://www.straitstimes.com/asia/australianz/australian-parliament-passes-government-plan-to-reserve-20-of-lng-for-domestic-market",
+     "via": "",
+     "published": "2026-11-26T23:35+00:00",
+     "summary": "Western Australia, which already operates its own 15% gas reservation, is exempted from the scheme."
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Australia Passes Gas Reserve Law in Upset to LNG Exporters",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-set-to-pass-gas-reserve-law-in-upset-to-lng-exporters",
+     "via": "",
+     "published": "2026-11-26T13:31+00:00",
+     "summary": "Australia adopted a law requiring liquefied natural gas exporters to reserve as much as a fifth of their supply for the domestic market."
+    }
+   ],
+   "id": 9
+  },
+  {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "Reuters",
-    "Al Jazeera"
+    "ABC News (Australia)"
    ],
    "regions": [
     "Europe",
-    "Middle East"
+    "Oceania"
    ],
    "latest": "2026-11-26T18:54+00:00",
-   "earliest": "2026-11-26T16:32+00:00",
+   "earliest": "2026-11-26T15:19+00:00",
    "items": [
     {
      "outlet": "Reuters",
@@ -571,16 +696,51 @@
      "summary": ""
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
+     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
      "via": "",
-     "published": "2026-11-26T16:32+00:00",
-     "summary": "Iran has strongly denied any involvement in the fatal incident."
+     "published": "2026-11-26T15:19+00:00",
+     "summary": ""
     }
    ],
-   "id": 6
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "Mining.com.au"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-26T18:41+00:00",
+   "earliest": "2026-11-26T17:42+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Nyrstar to halt production at Dutch zinc smelter",
+     "url": "https://www.mining.com/nyrstar-to-halt-production-at-dutch-zinc-smelter/",
+     "via": "",
+     "published": "2026-11-26T18:41+00:00",
+     "summary": "The halt is in response to significant increases in the site’s energy costs, the company said."
+    },
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Nyrstar to halt zinc production at Dutch plant",
+     "url": "https://mining.com.au/nyrstar-to-halt-zinc-production-at-dutch-plant/",
+     "via": "",
+     "published": "2026-11-26T17:42+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -615,7 +775,7 @@
      "summary": ""
     }
    ],
-   "id": 7
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -629,7 +789,7 @@
     "Middle East"
    ],
    "latest": "2026-11-26T18:27+00:00",
-   "earliest": "2026-11-26T16:04+00:00",
+   "earliest": "2026-11-26T15:18+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
@@ -646,81 +806,46 @@
      "title": "Trump demands probe of GDP data released before midterms",
      "url": "https://www.reuters.com/world/us/trump-demands-probe-gdp-data-released-before-midterms-2026-11-26/",
      "via": "",
-     "published": "2026-11-26T16:04+00:00",
+     "published": "2026-11-26T15:18+00:00",
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 13
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Korea Herald",
-    "Livemint / Economic Times"
-   ],
-   "regions": [
-    "East Asia",
-    "South Asia"
-   ],
-   "latest": "2026-11-26T13:30+00:00",
-   "earliest": "2026-11-26T02:31+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Vance says Jensen Huang won't need a pardon as scrutiny of Nvidia scandal builds in Washington",
-     "url": "https://www.koreaherald.com/article/10950342",
-     "via": "",
-     "published": "2026-11-26T13:30+00:00",
-     "summary": "US Vice President JD Vance on Wednesday played down the possibility that Nvidia CEO Jensen Huang could need a presidential pardon just days before the executive of the AI giant is expected to appear before a congressional committee. Vance told reporters that Justice Department officials and “multiple officials in our national security apparatus” have confirmed that Huang is “under no investigation"
-    },
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "JD Vance says Nvidia CEO Jensen Huang is not under investigation, rules out need for Trump pardon",
-     "url": "https://www.livemint.com/news/us-news/jd-vance-says-nvidia-ceo-jensen-huang-is-not-under-investigation-rules-out-need-for-trump-pardon-11795659756810.html",
-     "via": "",
-     "published": "2026-11-26T02:31+00:00",
-     "summary": "US Vice President JD Vance says Nvidia CEO Jensen Huang is not under investigation and does not need a presidential pardon. His remarks come amid conflicting accounts over a DOJ probe and ahead of Huang's congressional appearances."
-    }
-   ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
+    "Deutsche Welle",
+    "Times of Israel"
    ],
    "regions": [
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-26T13:00+00:00",
-   "earliest": "2026-11-26T12:06+00:00",
+   "latest": "2026-11-26T16:13+00:00",
+   "earliest": "2026-11-24T14:16+00:00",
    "items": [
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran’s IRGC says two oil tankers hit sea mines near Oman’s Khasab",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/26/iran-s-irgc-says-two-oil-tankers-hit-sea-mines-near-oman-s-khasab",
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+     "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-all-1573-rdf",
      "via": "",
-     "published": "2026-11-26T13:00+00:00",
-     "summary": ""
+     "published": "2026-11-26T16:13+00:00",
+     "summary": "Thousands have gathered in the capital of northern Iraq's semiautonomous Kurdish region, waving flags and voicing opposition to plans for the federal government to take control of oil operations and border crossings."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab",
-     "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-2026-11-26/",
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Iraq PM orders federal control of Kurdish border crossings, oil fields",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iraq-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/",
      "via": "",
-     "published": "2026-11-26T12:06+00:00",
+     "published": "2026-11-24T14:16+00:00",
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -755,91 +880,21 @@
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Korea Herald",
-    "Euronews"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-26T11:43+00:00",
-   "earliest": "2026-11-26T11:10+00:00",
-   "items": [
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "N. Korea's Kim inspects nuclear material sites, calls for broader use of tactical nukes",
-     "url": "https://www.koreaherald.com/article/10950253",
-     "via": "",
-     "published": "2026-11-26T11:43+00:00",
-     "summary": "North Korean leader Kim Jong-un has visited nuclear material production facilities and a research institute and called for using tactical nuclear weapons across a wide range of missions, state media reported Thursday. Kim visited the sites the previous day to review progress on the nuclear strategy set out at a key party congress earlier this year, the Korean Central News Agency reported. It did n"
-    },
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Images show Kim Jong Un inspecting North Korean nuclear facilities",
-     "url": "https://www.euronews.com/video/2026/11/26/images-show-kim-jong-un-inspecting-north-korean-nuclear-facilities",
-     "via": "",
-     "published": "2026-11-26T11:10+00:00",
-     "summary": "North Korean leader Kim Jong Un has called for expanding the country's nuclear arsenal after visiting nuclear material production facilities and a weapons research institute."
-    }
-   ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-26T10:28+00:00",
-   "earliest": "2026-11-25T14:43+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Former CEO’s nephew to lead Glencore coal unit, report says",
-     "url": "https://mining.com.au/former-ceos-nephew-to-lead-glencore-coal-unit-report-says/",
-     "via": "",
-     "published": "2026-11-26T10:28+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Glencore taps former CEO’s nephew to lead coal unit",
-     "url": "https://www.mining.com/glencore-taps-former-ceos-nephew-to-lead-coal-unit/",
-     "via": "",
-     "published": "2026-11-25T14:43+00:00",
-     "summary": "Colin Glasenberg has been working at Glencore since 2011, and his uncle, Ivan Glasenberg led the company for 20 years."
-    }
-   ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "VnExpress International",
-    "DigiTimes"
+    "Reuters"
    ],
    "regions": [
-    "East Asia",
+    "Europe",
     "Southeast Asia"
    ],
    "latest": "2026-11-26T09:33+00:00",
-   "earliest": "2026-11-26T07:33+00:00",
+   "earliest": "2026-11-26T05:09+00:00",
    "items": [
     {
      "outlet": "VnExpress International",
@@ -851,16 +906,16 @@
      "summary": "Nvidia has told its manufacturing partners to stop shipping servers to four Southeast Asian countries."
     },
     {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Nvidia reportedly halts server shipments to four Southeast Asian countries as new US chip rule bites",
-     "url": "https://www.digitimes.com/news/a20261126VL220/nvidia-chips-manufacturing-shipping-data.html",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Nvidia halts server shipments to four Southeast Asian countries, FT reports",
+     "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
      "via": "",
-     "published": "2026-11-26T07:33+00:00",
-     "summary": "Nvidia has told its manufacturing partners to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia, the Financial Times ( FT ) reported on November 26, as a new US rule against Chinese companies' rented access to AI computing hits the region's data center boom and governments there race to show Washington they will comply."
+     "published": "2026-11-26T05:09+00:00",
+     "summary": ""
     }
    ],
-   "id": 14
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -895,77 +950,42 @@
      "summary": ""
     }
    ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China",
-    "East Asia"
-   ],
-   "latest": "2026-11-26T04:30+00:00",
-   "earliest": "2026-11-25T10:30+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Huawei offers free chip patent licenses to take on Nvidia",
-     "url": "https://www.digitimes.com/news/a20261126VL211/huawei-ascend-patent-ip-nvidia.html",
-     "via": "",
-     "published": "2026-11-26T04:30+00:00",
-     "summary": "Huawei Technologies is offering free patent licenses for its UnifiedBus chip interconnect technology and has set up dedicated semiconductor and artificial intelligence (AI) patent teams as it seeks to attract overseas hardware suppliers and build a computing ecosystem to rival Nvidia's."
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Huawei forms patent teams for chips and AI, eyeing ecosystem to rival Nvidia",
-     "url": "https://www.scmp.com/tech/big-tech/article/3375756/huawei-forms-patent-teams-chips-and-ai-eyeing-ecosystem-rival-nvidia",
-     "via": "",
-     "published": "2026-11-25T10:30+00:00",
-     "summary": "Huawei Technologies has established dedicated patent teams for semiconductors and artificial intelligence as it seeks to establish an overseas foothold for a computing ecosystem to rival Nvidia’s. Extending an intellectual property (IP) operation rooted in telecommunications, the Shenzhen-based company had now created a semiconductor IP team and an AI-focused unit, with some engineers transferred "
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "gCaptain"
-   ],
-   "regions": [
-    "East Asia",
-    "North America"
-   ],
-   "latest": "2026-11-26T04:03+00:00",
-   "earliest": "2026-11-25T17:35+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Trump's overcapacity tariffs target chips, EVs, solar in 14 economies; China calls it 'false proposition'",
-     "url": "https://www.digitimes.com/news/a20261126PD218/us-china-trade-war-overcapacity-tariffs-industrial-manufacturing-solar.html",
-     "via": "",
-     "published": "2026-11-26T04:03+00:00",
-     "summary": "The Trump administration plans to impose new tariffs on 14 major trading partners over alleged \"excess capacity,\" with China among the main targets."
-    },
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "U.S. Targets China, EU With New Tariffs Citing Overcapacity",
-     "url": "https://gcaptain.com/u-s-targets-china-eu-with-new-tariffs-citing-overcapacity/",
-     "via": "",
-     "published": "2026-11-25T17:35+00:00",
-     "summary": "The US announced plans to impose a fresh round of tariffs on goods from China, the European Union and a dozen other economies under President Donald Trump’s push to restore sweeping global import taxes that the Supreme Court found unconstitutional."
-    }
-   ],
    "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-11-26T02:31+00:00",
+   "earliest": "2026-11-25T21:29+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "JD Vance says Nvidia CEO Jensen Huang is not under investigation, rules out need for Trump pardon",
+     "url": "https://www.livemint.com/news/us-news/jd-vance-says-nvidia-ceo-jensen-huang-is-not-under-investigation-rules-out-need-for-trump-pardon-11795659756810.html",
+     "via": "",
+     "published": "2026-11-26T02:31+00:00",
+     "summary": "US Vice President JD Vance says Nvidia CEO Jensen Huang is not under investigation and does not need a presidential pardon. His remarks come amid conflicting accounts over a DOJ probe and ahead of Huang's congressional appearances."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Vance Says NVIDIA Chief Doesn't Need Presidential Pardon",
+     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/26/vance-says-nvidia-chief-doesnt-need-presidential-pardon",
+     "via": "",
+     "published": "2026-11-25T21:29+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -994,13 +1014,13 @@
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "US to cap India tariff at 17 percent if trade deal is reached, USTR says",
-     "url": "https://english.alarabiya.net/business/economy/2026/11/25/us-to-cap-india-tariff-at-17-percent-if-trade-deal-is-reached-ustr-says",
+     "url": "https://english.alarabiya.net/amp/business/economy/2026/11/25/us-to-cap-india-tariff-at-17-percent-if-trade-deal-is-reached-ustr-says",
      "via": "",
      "published": "2026-11-25T14:31+00:00",
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1035,7 +1055,7 @@
      "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1070,7 +1090,7 @@
      "summary": ""
     }
    ],
-   "id": 20
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1103,41 +1123,6 @@
      "via": "",
      "published": "2026-11-24T14:25+00:00",
      "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
-    }
-   ],
-   "id": 21
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "South China Morning Post",
-    "The Straits Times"
-   ],
-   "regions": [
-    "China",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-25T04:54+00:00",
-   "earliest": "2026-11-24T23:48+00:00",
-   "items": [
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "Shein to pay US$100 million to settle US shipping, customer service claims",
-     "url": "https://www.scmp.com/tech/article/3375701/shein-pay-us100-million-settle-us-shipping-customer-service-claims",
-     "via": "",
-     "published": "2026-11-25T04:54+00:00",
-     "summary": "Chinese fast-fashion ⁠giant Shein will pay US$100 million ⁠to settle with the US Federal Trade ⁠Commission (FTC) over claims it misled consumers on shipping times, product reviews and the origin of cotton in some of its goods, according to court documents filed on Tuesday. Shein also agreed ⁠not to misrepresent shipping times or block negative reviews, among other changes. The FTC, which protects "
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Shein to pay $100 million to settle US shipping, customer service claims",
-     "url": "https://www.straitstimes.com/business/shein-to-pay-100-million-to-settle-us-shipping-customer-service-claims",
-     "via": "",
-     "published": "2026-11-24T23:48+00:00",
-     "summary": "A Shein spokesperson said the company had not admitted liability."
     }
    ],
    "id": 22
@@ -1181,32 +1166,31 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "MINING.COM",
-    "BNamericas"
+    "Livemint / Economic Times",
+    "Business Standard"
    ],
    "regions": [
-    "Latin America",
-    "North America"
+    "South Asia"
    ],
-   "latest": "2026-11-24T15:23+00:00",
-   "earliest": "2026-11-24T14:33+00:00",
+   "latest": "2026-11-27T00:18+00:00",
+   "earliest": "2026-11-26T14:13+00:00",
    "items": [
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Vale to resume operations at Viga iron ore mine",
-     "url": "https://www.mining.com/vale-to-resume-operations-at-viga-iron-ore-mine/",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Sebi may examine Tata Steel-APL Apollo deal amid investor concerns",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-likely-to-seek-deal-details-from-tata-steel-and-apl-apollo/articleshow/136206041.cms",
      "via": "",
-     "published": "2026-11-24T15:23+00:00",
-     "summary": "Production at the Brazilian mine has been halted since January 2026 due to water overflows."
+     "published": "2026-11-27T00:18+00:00",
+     "summary": "Tata Steel plans to acquire a controlling stake in APL Apollo Tubes while selling its steel-related businesses. Stakeholders have raised concerns about the deal's governance and its potential impact on minority shareholders. APL Apollo's largest institutional investors have expressed their discontent regarding the structure and debt implications. The arrangement involves multiple transactions affe"
     },
     {
-     "outlet": "BNamericas",
-     "region": "Latin America",
-     "title": "Vale partially restarts Viga iron ore mine after Minas Gerais overflow",
-     "url": "https://www.bnamericas.com/en/features/vale-partially-restarts-viga-iron-ore-mine-after-minas-gerais-overflow",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Sebi may scrutinise Tata Steel-APL Apollo deal over RPT, shareholder worry",
+     "url": "https://www.business-standard.com/markets/news/tata-steel-apl-apollo-deal-may-face-sebi-scrutiny-over-shareholder-concerns-126112601279_1.html",
      "via": "",
-     "published": "2026-11-24T14:33+00:00",
+     "published": "2026-11-26T14:13+00:00",
      "summary": ""
     }
    ],
@@ -1216,69 +1200,35 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Australian Financial Review",
-    "ABC News (Australia)"
+    "VnExpress International",
+    "The Straits Times"
    ],
    "regions": [
-    "Oceania"
+    "Southeast Asia"
    ],
-   "latest": "2026-11-26T22:18+00:00",
-   "earliest": "2026-11-26T06:38+00:00",
+   "latest": "2026-11-26T23:45+00:00",
+   "earliest": "2026-11-26T09:30+00:00",
    "items": [
     {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Gas reservation laws passes parliament with Coalition backing",
-     "url": "https://www.afr.com/politics/federal/australia-news-live-updates-donald-trump-threatens-china-with-40pc-tariffs-20261127-p61hq3?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Indonesia confiscates nearly 40 kg of gold in money laundering case tied to ‘nickel king’",
+     "url": "https://e.vnexpress.net/news/business/economy/indonesia-confiscates-nearly-40-kg-of-gold-in-money-laundering-case-tied-to-nickel-king-5149238.html",
      "via": "",
-     "published": "2026-11-26T22:18+00:00",
-     "summary": "Labor and Coalition have waved through new gas laws; The resources minister won’t guarantee retail gas prices under the scheme; Scathing report slams toothless sanctions watchdog. Follow live updates."
+     "published": "2026-11-26T23:45+00:00",
+     "summary": "Indonesian investigators have named “nickel king” Arif Kurniawan a suspect in a money laundering scheme and seized 37.8 kilograms of gold among assets linked to the case."
     },
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Gas reservation scheme passes parliament in bid to rein in energy costs",
-     "url": "https://www.abc.net.au/news/2026-11-26/gas-reservation-scheme-set-to-pass-parliament/107430804",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Indonesian nickel tycoon Arif Kurniawan named suspect in money laundering probe",
+     "url": "https://www.straitstimes.com/business/indonesian-nickel-tycoon-arif-kurniawan-named-suspect-in-money-laundering-probe",
      "via": "",
-     "published": "2026-11-26T06:38+00:00",
-     "summary": "Labor's plan to deliberately oversupply the domestic gas market has passed parliament, with support from the Coalition."
+     "published": "2026-11-26T09:30+00:00",
+     "summary": "The case could shake Indonesia’s nickel sector, which supplies about 60% of global output."
     }
    ],
    "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-26T20:34+00:00",
-   "earliest": "2026-11-26T18:19+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
-     "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-26T20:34+00:00",
-     "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "One killed after Jazan refinery hit by hostile aerial projectile: Saudi energy ministry",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/26/one-killed-after-jazan-refinery-hit-by-hostile-aerial-projectile-saudi-energy-ministry-",
-     "via": "",
-     "published": "2026-11-26T18:19+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1312,41 +1262,7 @@
      "summary": ""
     }
    ],
-   "id": 27
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "DigiTimes",
-    "The Korea Herald"
-   ],
-   "regions": [
-    "East Asia"
-   ],
-   "latest": "2026-11-26T01:14+00:00",
-   "earliest": "2026-11-25T17:43+00:00",
-   "items": [
-    {
-     "outlet": "DigiTimes",
-     "region": "East Asia",
-     "title": "Samsung Display to become ams OSRAM's largest shareholder in microLED push",
-     "url": "https://www.digitimes.com/news/a20261126PR200/sdc-microled-technology-investment-partnership.html",
-     "via": "",
-     "published": "2026-11-26T01:14+00:00",
-     "summary": "Samsung Display has signed an agreement to acquire a 9.1% equity interest in Ams Osram for approximately EUR210 million (US$230.14 million), a deal that is expected to make it the largest shareholder in the light-emission and optical-sensing semiconductor company, Samsung Display announced in Seoul on November 25, 2026."
-    },
-    {
-     "outlet": "The Korea Herald",
-     "region": "East Asia",
-     "title": "Samsung Display to become ams Osram’s largest shareholder",
-     "url": "https://www.koreaherald.com/article/10949386",
-     "via": "",
-     "published": "2026-11-25T17:43+00:00",
-     "summary": "Samsung Display said Wednesday it had agreed to buy a 9.1 percent stake in Austrian semiconductor maker ams Osram for 210 million euros ($230 million) as part of a partnership to develop ultra-small micro-LEDs for displays. Under the agreement, Samsung Display will purchase 9,984,439 newly issued shares, which would make it ams Osram’s largest shareholder. The transaction is expected to close by e"
-    }
-   ],
-   "id": 28
+   "id": 26
   },
   {
    "independent_outlets": 2,
@@ -1380,7 +1296,7 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1414,41 +1330,7 @@
      "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-25T09:51+00:00",
-   "earliest": "2026-11-25T08:46+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Air passenger services see 35% inflation in Q2; banking, securities transaction witness deflation",
-     "url": "https://www.thehindu.com/business/Economy/air-passenger-services-see-35-inflation-in-q2-banking-securities-transaction-witness-deflation/article71741711.ece",
-     "via": "",
-     "published": "2026-11-25T09:51+00:00",
-     "summary": "The Commerce and Industry Ministry released the provisional Service Producer Price Indices (PPI) for the second quarter of 2026-27"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Air passenger services see 35% inflation in Q2, banking witness deflation",
-     "url": "https://www.business-standard.com/industry/news/air-passenger-services-see-35-inflation-in-q2-banking-witness-deflation-126112500453_1.html",
-     "via": "",
-     "published": "2026-11-25T08:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 31
+   "id": 28
   }
  ]
 }
