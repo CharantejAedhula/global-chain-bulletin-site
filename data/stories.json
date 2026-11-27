@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-27T02:24:40+00:00",
+ "fetched_at": "2026-11-27T03:17:07+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 784,
+ "items_read": 751,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 59,
+   "items": 30,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 40,
+   "items": 37,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 37,
+   "items": 38,
    "errors": []
   },
   "Yicai Global": {
@@ -42,34 +42,34 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 48,
+   "items": 46,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 26,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 17,
+   "items": 8,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 31,
+   "items": 28,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 182, column 54"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 314, column 54"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 31,
+   "items": 28,
    "errors": []
   },
   "Financial Times": {
@@ -79,7 +79,7 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 10,
+   "items": 11,
    "errors": []
   },
   "Euronews": {
@@ -99,17 +99,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 33,
+   "items": 26,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "Amwaj.media": {
@@ -124,12 +124,12 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 18,
+   "items": 19,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "Axios": {
@@ -156,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 15,
+   "items": 23,
    "errors": []
   },
   "RNZ": {
@@ -191,7 +191,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 36,
+   "items": 35,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "The Jakarta Post": {
@@ -244,13 +244,91 @@
  },
  "clusters": [
   {
+   "independent_outlets": 6,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "ABC News (Australia)",
+    "Nikkei Asia",
+    "Associated Press",
+    "Reuters",
+    "The Straits Times"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "North America",
+    "Oceania",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T03:13+00:00",
+   "earliest": "2026-11-26T21:06+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "New Zealand election ends in hung parliament",
+     "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-27T03:13+00:00",
+     "summary": "A final vote count showed that neither the center-right bloc nor the opposition left bloc was able to secure a majority."
+    },
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Breaking: Official results of New Zealand's national election announced",
+     "url": "https://www.abc.net.au/news/2026-11-27/official-results-of-new-zealand-s-national-election-announced/107434326",
+     "via": "",
+     "published": "2026-11-27T02:42+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "New Zealand ruling coalition misses majority as election results announced",
+     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
+     "via": "",
+     "published": "2026-11-27T02:10+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Final count in New Zealand’s election gives neither right nor left bloc enough seats for a majority",
+     "url": "https://apnews.com/article/new-zealand-election-results-a19a838d8256a0762703ff0572aca3e6",
+     "via": "",
+     "published": "2026-11-27T01:13+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Final New Zealand election vote count to confirm parliament make up",
+     "url": "https://www.reuters.com/world/asia-pacific/final-new-zealand-election-vote-count-confirm-parliament-make-up-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T22:34+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "New Zealand’s ruling coalition falls short of majority in election final count",
+     "url": "https://www.straitstimes.com/asia/australianz/final-new-zealand-election-vote-count-to-confirm-parliament-make-up",
+     "via": "",
+     "published": "2026-11-26T21:06+00:00",
+     "summary": "Incumbent PM Luxon will require the support of the centrist Opportunity Party to remain in power."
+    }
+   ],
+   "id": 1
+  },
+  {
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Al Jazeera",
+    "Associated Press",
     "Africanews",
-    "Al Arabiya",
-    "Associated Press"
+    "Al Arabiya"
    ],
    "regions": [
     "Africa",
@@ -258,7 +336,7 @@
     "North America"
    ],
    "latest": "2026-11-26T21:08+00:00",
-   "earliest": "2026-11-25T23:14+00:00",
+   "earliest": "2026-11-26T09:52+00:00",
    "items": [
     {
      "outlet": "Al Jazeera",
@@ -268,6 +346,15 @@
      "via": "",
      "published": "2026-11-26T21:08+00:00",
      "summary": "Prosecutors order drug tests for the 21-year-old suspect, who says he was overtaking when the crash happened."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
+     "url": "https://apnews.com/article/cairo-egypt-highway-fire-tanker-fuel-traffic-db772346ece6e997a17c9aa3559bcee6",
+     "via": "",
+     "published": "2026-11-26T18:29+00:00",
+     "summary": ""
     },
     {
      "outlet": "Africanews",
@@ -286,18 +373,9 @@
      "via": "",
      "published": "2026-11-26T09:52+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-     "url": "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e",
-     "via": "",
-     "published": "2026-11-25T23:14+00:00",
-     "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
    "independent_outlets": 4,
@@ -351,52 +429,6 @@
      "via": "",
      "published": "2026-11-26T08:38+00:00",
      "summary": "There were no immediate reports of casualties."
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Nikkei Asia",
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-27T02:10+00:00",
-   "earliest": "2026-11-26T22:34+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "New Zealand ruling coalition misses majority as election results announced",
-     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
-     "via": "",
-     "published": "2026-11-27T02:10+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "New Zealand’s ruling coalition falls just short of majority in final election count",
-     "url": "https://www.straitstimes.com/asia/new-zealands-ruling-coalition-falls-just-short-of-majority-in-final-election-count",
-     "via": "",
-     "published": "2026-11-27T02:02+00:00",
-     "summary": "WELLINGTON, Nov 27 - New Zealand’s ruling centre-right coalition has narrowly missed winning a parliamentary majority, final election results showed on Friday, leaving Prime Minister Christopher Luxon needing the support of the centrist Opportunity Party to remain in power."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Final New Zealand election vote count to confirm parliament make up",
-     "url": "https://www.reuters.com/world/asia-pacific/final-new-zealand-election-vote-count-confirm-parliament-make-up-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T22:34+00:00",
-     "summary": ""
     }
    ],
    "id": 3
@@ -466,43 +498,43 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Al Jazeera",
-    "Al Arabiya"
+    "Livemint / Economic Times",
+    "Associated Press",
+    "Axios"
    ],
    "regions": [
-    "Europe",
-    "Middle East"
+    "North America",
+    "South Asia"
    ],
-   "latest": "2026-11-26T20:56+00:00",
-   "earliest": "2026-11-26T18:19+00:00",
+   "latest": "2026-11-26T18:33+00:00",
+   "earliest": "2026-11-26T16:29+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations",
-     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-houthis-attacked-aramcos-jazan-refinery-2026-11-26/",
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "‘Massive, purposeful error’: Trump seeks probe into alleged ‘FAKE’ US GDP figures after growth revised to 4.3%",
+     "url": "https://www.livemint.com/news/us-news/massive-purposeful-error-trump-seeks-probe-into-alleged-fake-us-gdp-figures-after-growth-revised-to-43-11795716885185.html",
      "via": "",
-     "published": "2026-11-26T20:56+00:00",
+     "published": "2026-11-26T18:33+00:00",
+     "summary": "Trump has demanded an investigation into US GDP figures, alleging earlier growth estimates were deliberately under-reported. His remarks came after the third-quarter growth estimate was revised up to 4.3% from 3.4%.&nbsp;"
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
+     "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e",
+     "via": "",
+     "published": "2026-11-26T16:55+00:00",
      "summary": ""
     },
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
-     "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump demands investigation into GDP data revisions",
+     "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
      "via": "",
-     "published": "2026-11-26T20:34+00:00",
-     "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "One killed after Jazan refinery hit by hostile aerial projectile: Saudi energy ministry",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/26/one-killed-after-jazan-refinery-hit-by-hostile-aerial-projectile-saudi-energy-ministry-",
-     "via": "",
-     "published": "2026-11-26T18:19+00:00",
-     "summary": ""
+     "published": "2026-11-26T16:29+00:00",
+     "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
     }
    ],
    "id": 5
@@ -606,41 +638,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Nikkei Asia",
-    "The Straits Times"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-27T00:47+00:00",
-   "earliest": "2026-11-25T03:20+00:00",
-   "items": [
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Core inflation in Tokyo hits 16-month high, bolsters case for rate hike",
-     "url": "https://asia.nikkei.com/economy/core-inflation-in-tokyo-hits-16-month-high-bolsters-case-for-rate-hike",
-     "via": "",
-     "published": "2026-11-27T00:47+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Australian inflation hots up in October, core hits two-year high",
-     "url": "https://www.straitstimes.com/business/australian-inflation-heats-up-in-october-core-hits-two-year-high",
-     "via": "",
-     "published": "2026-11-25T03:20+00:00",
-     "summary": "Markets are still wagering that the next move in interest rates will be down given weakness in the labour market."
-    }
-   ],
-   "id": 8
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "The Straits Times",
     "Bloomberg"
    ],
@@ -670,7 +667,7 @@
      "summary": "Australia adopted a law requiring liquefied natural gas exporters to reserve as much as a fifth of their supply for the domestic market."
     }
    ],
-   "id": 9
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -705,7 +702,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -740,77 +737,42 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Associated Press"
+    "Mining.com.au",
+    "MINING.COM"
    ],
    "regions": [
     "North America",
-    "South Asia"
+    "Oceania"
    ],
-   "latest": "2026-11-26T18:33+00:00",
-   "earliest": "2026-11-26T16:55+00:00",
+   "latest": "2026-11-26T17:43+00:00",
+   "earliest": "2026-11-26T13:33+00:00",
    "items": [
     {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "‘Massive, purposeful error’: Trump seeks probe into alleged ‘FAKE’ US GDP figures after growth revised to 4.3%",
-     "url": "https://www.livemint.com/news/us-news/massive-purposeful-error-trump-seeks-probe-into-alleged-fake-us-gdp-figures-after-growth-revised-to-43-11795716885185.html",
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Planet One to invest $1.41 billion in Senegalese iron ore project",
+     "url": "https://mining.com.au/planet-one-to-invest-in-senegalese-iron-ore-project/",
      "via": "",
-     "published": "2026-11-26T18:33+00:00",
-     "summary": "Trump has demanded an investigation into US GDP figures, alleging earlier growth estimates were deliberately under-reported. His remarks came after the third-quarter growth estimate was revised up to 4.3% from 3.4%.&nbsp;"
+     "published": "2026-11-26T17:43+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Associated Press",
+     "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
-     "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e",
+     "title": "Planet One leads $933M plan for Senegal iron ore",
+     "url": "https://www.mining.com/planet-one-leads-933m-plan-for-senegal-iron-ore/",
      "via": "",
-     "published": "2026-11-26T16:55+00:00",
-     "summary": ""
+     "published": "2026-11-26T13:33+00:00",
+     "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore."
     }
    ],
-   "id": 12
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-26T18:27+00:00",
-   "earliest": "2026-11-26T15:18+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Trump calls GDP data released before midterms ‘fake’, demands investigation",
-     "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-26T18:27+00:00",
-     "summary": "President says it was a deliberate decision to release 'fake' growth numbers before US midterm elections."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump demands probe of GDP data released before midterms",
-     "url": "https://www.reuters.com/world/us/trump-demands-probe-gdp-data-released-before-midterms-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T15:18+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 13
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -845,7 +807,42 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-26T13:00+00:00",
+   "earliest": "2026-11-26T12:06+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Iran’s IRGC says two oil tankers hit sea mines near Oman’s Khasab",
+     "url": "https://english.alarabiya.net/News/middle-east/2026/11/26/iran-s-irgc-says-two-oil-tankers-hit-sea-mines-near-oman-s-khasab",
+     "via": "",
+     "published": "2026-11-26T13:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab",
+     "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T12:06+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -877,6 +874,41 @@
      "url": "https://english.kyodonews.net/articles/-/92619",
      "via": "",
      "published": "2026-11-25T18:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-26T11:10+00:00",
+   "earliest": "2026-11-26T09:16+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Images show Kim Jong Un inspecting North Korean nuclear facilities",
+     "url": "https://www.euronews.com/video/2026/11/26/images-show-kim-jong-un-inspecting-north-korean-nuclear-facilities",
+     "via": "",
+     "published": "2026-11-26T11:10+00:00",
+     "summary": "North Korean leader Kim Jong Un has called for expanding the country's nuclear arsenal after visiting nuclear material production facilities and a weapons research institute."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
+     "url": "https://apnews.com/article/north-korea-kim-nuclear-uranium-trump-78d6642ea055e8257518c3d695a58cd4",
+     "via": "",
+     "published": "2026-11-26T09:16+00:00",
      "summary": ""
     }
    ],
@@ -956,76 +988,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Livemint / Economic Times",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-26T02:31+00:00",
-   "earliest": "2026-11-25T21:29+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "JD Vance says Nvidia CEO Jensen Huang is not under investigation, rules out need for Trump pardon",
-     "url": "https://www.livemint.com/news/us-news/jd-vance-says-nvidia-ceo-jensen-huang-is-not-under-investigation-rules-out-need-for-trump-pardon-11795659756810.html",
-     "via": "",
-     "published": "2026-11-26T02:31+00:00",
-     "summary": "US Vice President JD Vance says Nvidia CEO Jensen Huang is not under investigation and does not need a presidential pardon. His remarks come amid conflicting accounts over a DOJ probe and ahead of Huang's congressional appearances."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Vance Says NVIDIA Chief Doesn't Need Presidential Pardon",
-     "url": "https://english.alarabiya.net/amp/webtv/media/2026/11/26/vance-says-nvidia-chief-doesnt-need-presidential-pardon",
-     "via": "",
-     "published": "2026-11-25T21:29+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-25T18:26+00:00",
-   "earliest": "2026-11-25T14:31+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US to cap India tariff at 17% if trade deal is reached, USTR says",
-     "url": "https://www.reuters.com/world/india/us-cap-india-tariff-17-if-trade-deal-is-reached-ustr-says-2026-11-25/",
-     "via": "",
-     "published": "2026-11-25T18:26+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US to cap India tariff at 17 percent if trade deal is reached, USTR says",
-     "url": "https://english.alarabiya.net/amp/business/economy/2026/11/25/us-to-cap-india-tariff-at-17-percent-if-trade-deal-is-reached-ustr-says",
-     "via": "",
-     "published": "2026-11-25T14:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "BNamericas",
     "MINING.COM"
    ],
@@ -1055,7 +1017,7 @@
      "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
     }
    ],
-   "id": 20
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1090,7 +1052,7 @@
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1125,76 +1087,7 @@
      "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East",
-    "South Asia"
-   ],
-   "latest": "2026-11-24T17:49+00:00",
-   "earliest": "2026-11-24T02:46+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "U.S. President Donald Trump gains possibly millions from Nvidia shares after Jensen Huang's return, media report",
-     "url": "https://www.thehindu.com/business/us-president-donald-trump-gains-possibly-millions-from-nvidia-shares-after-jensen-huangs-return-media-report/article71739911.ece",
-     "via": "",
-     "published": "2026-11-24T17:49+00:00",
-     "summary": "Jensen Huang resigned on November 12 over extramarital affairs including one with a suspected Chinese spy, a departure that sent shares in the U.S. chip giant tumbling"
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Nvidia reinstates Jensen Huang as CEO despite affairs, spy scandal",
-     "url": "https://www.timesofisrael.com/nvidia-reinstates-jensen-huang-as-ceo-despite-spy-scandal/",
-     "via": "",
-     "published": "2026-11-24T02:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-27T00:18+00:00",
-   "earliest": "2026-11-26T14:13+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "Sebi may examine Tata Steel-APL Apollo deal amid investor concerns",
-     "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-likely-to-seek-deal-details-from-tata-steel-and-apl-apollo/articleshow/136206041.cms",
-     "via": "",
-     "published": "2026-11-27T00:18+00:00",
-     "summary": "Tata Steel plans to acquire a controlling stake in APL Apollo Tubes while selling its steel-related businesses. Stakeholders have raised concerns about the deal's governance and its potential impact on minority shareholders. APL Apollo's largest institutional investors have expressed their discontent regarding the structure and debt implications. The arrangement involves multiple transactions affe"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Sebi may scrutinise Tata Steel-APL Apollo deal over RPT, shareholder worry",
-     "url": "https://www.business-standard.com/markets/news/tata-steel-apl-apollo-deal-may-face-sebi-scrutiny-over-shareholder-concerns-126112601279_1.html",
-     "via": "",
-     "published": "2026-11-26T14:13+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 24
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1228,7 +1121,41 @@
      "summary": "The case could shake Indonesia’s nickel sector, which supplies about 60% of global output."
     }
    ],
-   "id": 25
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-26T20:34+00:00",
+   "earliest": "2026-11-26T18:19+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+     "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-26T20:34+00:00",
+     "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "One killed after Jazan refinery hit by hostile aerial projectile: Saudi energy ministry",
+     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/26/one-killed-after-jazan-refinery-hit-by-hostile-aerial-projectile-saudi-energy-ministry-",
+     "via": "",
+     "published": "2026-11-26T18:19+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1262,7 +1189,7 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1296,7 +1223,7 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1330,7 +1257,7 @@
      "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
-   "id": 28
+   "id": 25
   }
  ]
 }
