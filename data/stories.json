@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-27T03:39:20+00:00",
+ "fetched_at": "2026-11-27T04:52:40+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 43,
- "items_read": 766,
+ "outlets_read": 42,
+ "items_read": 776,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,7 +17,7 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 30,
+   "items": 60,
    "errors": []
   },
   "Ecofin Agency": {
@@ -32,44 +32,44 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 38,
+   "items": 40,
    "errors": []
   },
   "Yicai Global": {
    "region": "China",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 52,
+   "items": 48,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 26,
+   "items": 22,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 17,
+   "items": 8,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 28,
+   "items": 26,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 314, column 54"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 413, column 54"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 40,
+   "items": 29,
    "errors": []
   },
   "Financial Times": {
@@ -99,12 +99,12 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 26,
+   "items": 32,
    "errors": []
   },
   "Times of Israel": {
@@ -114,7 +114,7 @@
   },
   "Amwaj.media": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "MEED": {
@@ -124,7 +124,7 @@
   },
   "Associated Press": {
    "region": "North America",
-   "items": 19,
+   "items": 23,
    "errors": []
   },
   "Bloomberg": {
@@ -139,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 5,
+   "items": 4,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,17 +156,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 20,
+   "items": 18,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 3,
+   "items": 5,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "RNZ": {
@@ -191,7 +191,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 36,
+   "items": 37,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -208,32 +208,32 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 28,
+   "items": 34,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 17,
+   "items": 16,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 26,
+   "items": 33,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 6,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,69 +244,57 @@
  },
  "clusters": [
   {
-   "independent_outlets": 5,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
-    "Deutsche Welle",
-    "ABC News (Australia)",
-    "Nikkei Asia",
-    "Associated Press",
-    "The Straits Times"
+    "The Straits Times",
+    "Reuters",
+    "Euronews",
+    "Associated Press"
    ],
    "regions": [
-    "East Asia",
     "Europe",
     "North America",
-    "Oceania",
     "Southeast Asia"
    ],
-   "latest": "2026-11-27T03:13+00:00",
-   "earliest": "2026-11-26T21:06+00:00",
+   "latest": "2026-11-27T03:50+00:00",
+   "earliest": "2026-11-26T11:11+00:00",
    "items": [
     {
-     "outlet": "Deutsche Welle",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Residents can return after Bangchak refinery fire as Bangkok air checks continue",
+     "url": "https://www.straitstimes.com/asia/se-asia/residents-can-return-after-bangchak-refinery-fire-as-bangkok-air-checks-continue",
+     "via": "",
+     "published": "2026-11-27T03:50+00:00",
+     "summary": "The company previously shut down all production units after a fire on Nov 26."
+    },
+    {
+     "outlet": "Reuters",
      "region": "Europe",
-     "title": "New Zealand election ends in hung parliament",
-     "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf",
+     "title": "Thailand's Bangchak shuts all units at Bangkok refinery after fire, says 9 workers injured",
+     "url": "https://www.reuters.com/business/energy/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-2026-11-26/",
      "via": "",
-     "published": "2026-11-27T03:13+00:00",
-     "summary": "A final vote count showed that neither the center-right bloc nor the opposition left bloc was able to secure a majority."
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Breaking: Official results of New Zealand's national election announced",
-     "url": "https://www.abc.net.au/news/2026-11-27/official-results-of-new-zealand-s-national-election-announced/107434326",
-     "via": "",
-     "published": "2026-11-27T02:42+00:00",
+     "published": "2026-11-26T12:35+00:00",
      "summary": ""
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "New Zealand ruling coalition misses majority as election results announced",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMWtXTE85aWpFbUtKYWMwMWpuUkhab3dvb0dGaHVYMEZPRVlicGhNcEJnc0JPTEZzN2tlaHZhNFNzYVlnV0J1WFdKYmlKanVrVUlERDRqUi1yZVZZUWl3T3lsSXd6dndXUnFzN0FadTVicnUzWndpQnY4bFdlOU1iMThZVl9jaGMxVzVtdTJoZWNpYlZ2UU1XcGhraFkyaWZ2bGZpRER1TjJNdk0?oc=5",
-     "via": "Google News",
-     "published": "2026-11-27T02:10+00:00",
-     "summary": ""
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
+     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
+     "via": "",
+     "published": "2026-11-26T11:40+00:00",
+     "summary": "A powerful explosion rocks an oil depot in Bangkok, Thailand, sending thick black smoke into the sky and prompting evacuation warnings."
     },
     {
      "outlet": "Associated Press",
      "region": "North America",
-     "title": "Final count in New Zealand’s election gives neither right nor left bloc enough seats for a majority",
-     "url": "https://apnews.com/article/new-zealand-election-results-a19a838d8256a0762703ff0572aca3e6",
+     "title": "At least 9 injured by large explosion and fire at major oil facility in Bangkok",
+     "url": "https://apnews.com/article/thailand-bangkok-explosion-oil-facility-e8098146bfb994dffc14448b1027c5d1",
      "via": "",
-     "published": "2026-11-27T01:13+00:00",
+     "published": "2026-11-26T11:11+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "New Zealand’s ruling coalition falls short of majority in election final count",
-     "url": "https://www.straitstimes.com/asia/australianz/final-new-zealand-election-vote-count-to-confirm-parliament-make-up",
-     "via": "",
-     "published": "2026-11-26T21:06+00:00",
-     "summary": "Incumbent PM Luxon will require the support of the centrist Opportunity Party to remain in power."
     }
    ],
    "id": 1
@@ -368,57 +356,47 @@
    "id": 2
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Reuters",
-    "Euronews",
-    "Associated Press",
-    "The Straits Times"
+    "MINING.COM",
+    "The Jakarta Post"
    ],
    "regions": [
     "Europe",
     "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-26T12:35+00:00",
-   "earliest": "2026-11-26T08:38+00:00",
+   "latest": "2026-11-26T02:37+00:00",
+   "earliest": "2026-11-25T12:11+00:00",
    "items": [
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Thailand's Bangchak shuts all units at Bangkok refinery after fire, says 9 workers injured",
-     "url": "https://www.reuters.com/business/energy/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-2026-11-26/",
+     "title": "Heavy rain hampers Indonesian rescue of 13 people trapped inside illegal mine, agency says",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesian-rescuers-resume-search-13-people-trapped-inside-illegal-mine-after-13-2026-11-26/",
      "via": "",
-     "published": "2026-11-26T12:35+00:00",
+     "published": "2026-11-26T02:37+00:00",
      "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
-     "via": "",
-     "published": "2026-11-26T11:40+00:00",
-     "summary": "A powerful explosion rocks an oil depot in Bangkok, Thailand, sending thick black smoke into the sky and prompting evacuation warnings."
-    },
-    {
-     "outlet": "Associated Press",
+     "outlet": "MINING.COM",
      "region": "North America",
-     "title": "At least 9 injured by large explosion and fire at major oil facility in Bangkok",
-     "url": "https://apnews.com/article/thailand-bangkok-explosion-oil-facility-e8098146bfb994dffc14448b1027c5d1",
+     "title": "Nine dead, 17 trapped after illegal gold mine floods in Indonesia",
+     "url": "https://www.mining.com/nine-dead-18-trapped-after-illegal-gold-mine-floods-in-indonesia/",
      "via": "",
-     "published": "2026-11-26T11:11+00:00",
-     "summary": ""
+     "published": "2026-11-25T12:51+00:00",
+     "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
     },
     {
-     "outlet": "The Straits Times",
+     "outlet": "The Jakarta Post",
      "region": "Southeast Asia",
-     "title": "Nine hurt in huge explosion at Bangkok oil facility",
-     "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
+     "title": "Eight dead, 18 missing after floods hit illegal gold mine in West Java",
+     "url": "https://www.thejakartapost.com/indonesia/2026/11/26/eight-dead-18-missing-after-floods-hit-illegal-gold-mine-in-west-java",
      "via": "",
-     "published": "2026-11-26T08:38+00:00",
-     "summary": "There were no immediate reports of casualties."
+     "published": "2026-11-25T12:11+00:00",
+     "summary": ""
     }
    ],
    "id": 3
@@ -530,6 +508,162 @@
   },
   {
    "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "The Straits Times",
+     "Reuters"
+    ]
+   ],
+   "outlets": [
+    "The Straits Times",
+    "Nikkei Asia",
+    "Reuters"
+   ],
+   "regions": [
+    "East Asia",
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-25T22:55+00:00",
+   "earliest": "2026-11-25T16:31+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "S&P warns Nvidia’s board may be compromised, puts chipmaker’s rating on downgrade watch",
+     "url": "https://www.straitstimes.com/business/sp-warns-nvidias-board-may-be-compromised-puts-chipmakers-rating-on-downgrade-watch",
+     "via": "",
+     "published": "2026-11-25T22:55+00:00",
+     "summary": "The departure and subsequent reinstatement of its CEO had exposed weaknesses in the firm's management and board oversight."
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Nvidia's shares drop, credit rating on watch two days after Huang's return",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-s-shares-drop-credit-rating-on-watch-two-days-after-huang-s-return",
+     "via": "",
+     "published": "2026-11-25T21:30+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
+     "url": "https://www.reuters.com/technology/us-finds-no-evidence-china-directed-executive-spy-nvidia-ceo-wsj-reports-2026-11-25/",
+     "via": "",
+     "published": "2026-11-25T16:31+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Australian Financial Review",
+    "Financial Times"
+   ],
+   "regions": [
+    "Europe",
+    "Oceania"
+   ],
+   "latest": "2026-11-27T04:50+00:00",
+   "earliest": "2026-11-27T04:32+00:00",
+   "items": [
+    {
+     "outlet": "Australian Financial Review",
+     "region": "Oceania",
+     "title": "Ex-KPMG consultant now kingmaker in New Zealand’s deadlocked election",
+     "url": "https://www.afr.com/world/pacific/ex-kpmg-consultant-becomes-kingmaker-in-new-zealand-s-messy-election-20261127-p61hwc?ref=rss&utm_medium=rss&utm_source=rss_feed",
+     "via": "",
+     "published": "2026-11-27T04:50+00:00",
+     "summary": "Prime Minister Christopher Luxon’s National Party-led coalition has failed to win a majority and now needs support from a political upstart to form government."
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "New Zealand election leaves fate of PM Luxon in hands of ex-KPMG consultant",
+     "url": "https://www.ft.com/content/bc5d39a0-6610-481b-9138-5afdd22cf406?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-27T04:32+00:00",
+     "summary": "National Party-led coalition fails to win majority and needs support from Opportunity Party to form government"
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "ABC News (Australia)",
+    "Nikkei Asia"
+   ],
+   "regions": [
+    "East Asia",
+    "Oceania"
+   ],
+   "latest": "2026-11-27T03:50+00:00",
+   "earliest": "2026-11-27T02:10+00:00",
+   "items": [
+    {
+     "outlet": "ABC News (Australia)",
+     "region": "Oceania",
+     "title": "Official results of New Zealand's national election announced",
+     "url": "https://www.abc.net.au/news/2026-11-27/official-results-of-new-zealand-s-national-election-announced/107434326",
+     "via": "",
+     "published": "2026-11-27T03:50+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "New Zealand ruling coalition misses majority as election results announced",
+     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
+     "via": "",
+     "published": "2026-11-27T02:10+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-27T03:41+00:00",
+   "earliest": "2026-11-26T09:33+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Aterian signs exclusivity deal for Moroccan copper projects",
+     "url": "https://mining.com.au/aterian-signs-exclusivity-deal-for-moroccan-copper-projects/",
+     "via": "",
+     "published": "2026-11-27T03:41+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Aterian signs due diligence, exclusivity agreement for Morocco copper projects",
+     "url": "https://www.miningweekly.com/article/aterian-signs-due-diligence-exclusivity-agreement-for-morocco-copper-projects-2026-11-26",
+     "via": "",
+     "published": "2026-11-26T09:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "The Straits Times",
@@ -561,7 +695,7 @@
      "summary": "Inflation in Japan’s capital city accelerated to the fastest pace this year, backing the case for a Bank of Japan rate increase next month as authorities focus on keeping price growth around their 2% target."
     }
    ],
-   "id": 6
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -596,7 +730,7 @@
      "summary": "Australia adopted a law requiring liquefied natural gas exporters to reserve as much as a fifth of their supply for the domestic market."
     }
    ],
-   "id": 7
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -631,7 +765,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -666,42 +800,7 @@
      "summary": ""
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining.com.au",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-26T17:43+00:00",
-   "earliest": "2026-11-26T13:33+00:00",
-   "items": [
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Planet One to invest $1.41 billion in Senegalese iron ore project",
-     "url": "https://mining.com.au/planet-one-to-invest-in-senegalese-iron-ore-project/",
-     "via": "",
-     "published": "2026-11-26T17:43+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Planet One leads $933M plan for Senegal iron ore",
-     "url": "https://www.mining.com/planet-one-leads-933m-plan-for-senegal-iron-ore/",
-     "via": "",
-     "published": "2026-11-26T13:33+00:00",
-     "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore."
-    }
-   ],
-   "id": 10
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -736,42 +835,7 @@
      "summary": ""
     }
    ],
-   "id": 11
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-26T13:00+00:00",
-   "earliest": "2026-11-26T12:06+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Iran’s IRGC says two oil tankers hit sea mines near Oman’s Khasab",
-     "url": "https://english.alarabiya.net/News/middle-east/2026/11/26/iran-s-irgc-says-two-oil-tankers-hit-sea-mines-near-oman-s-khasab",
-     "via": "",
-     "published": "2026-11-26T13:00+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab",
-     "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T12:06+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -806,77 +870,42 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Jakarta Post",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-26T11:51+00:00",
-   "earliest": "2026-11-25T12:51+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Death toll from flooded illegal gold mine in West Java climbs to 13",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/27/death-toll-from-flooded-illegal-gold-mine-in-west-java-climbs-to-13",
-     "via": "",
-     "published": "2026-11-26T11:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Nine dead, 17 trapped after illegal gold mine floods in Indonesia",
-     "url": "https://www.mining.com/nine-dead-18-trapped-after-illegal-gold-mine-floods-in-indonesia/",
-     "via": "",
-     "published": "2026-11-25T12:51+00:00",
-     "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
-    }
-   ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Reuters",
-    "Kyodo News"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe"
-   ],
-   "latest": "2026-11-26T10:29+00:00",
-   "earliest": "2026-11-25T04:59+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "North Korea expels Swiss diplomat over sanctions weeks after office reopening",
-     "url": "https://www.reuters.com/business/aerospace-defense/north-korea-expels-swiss-representative-closes-diplomatic-office-over-sanctions-2026-11-25/",
-     "via": "",
-     "published": "2026-11-26T10:29+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Kyodo News",
-     "region": "East Asia",
-     "title": "N. Korea seeks closure of Swiss office in Pyongyang over sanctions",
-     "url": "https://english.kyodonews.net/articles/-/92578",
-     "via": "",
-     "published": "2026-11-25T04:59+00:00",
-     "summary": ""
-    }
-   ],
    "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Associated Press"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-26T11:10+00:00",
+   "earliest": "2026-11-26T09:16+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Images show Kim Jong Un inspecting North Korean nuclear facilities",
+     "url": "https://www.euronews.com/video/2026/11/26/images-show-kim-jong-un-inspecting-north-korean-nuclear-facilities",
+     "via": "",
+     "published": "2026-11-26T11:10+00:00",
+     "summary": "North Korean leader Kim Jong Un has called for expanding the country's nuclear arsenal after visiting nuclear material production facilities and a weapons research institute."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
+     "url": "https://apnews.com/article/north-korea-kim-nuclear-uranium-trump-78d6642ea055e8257518c3d695a58cd4",
+     "via": "",
+     "published": "2026-11-26T09:16+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -911,7 +940,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -946,7 +975,7 @@
      "summary": ""
     }
    ],
-   "id": 17
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -981,7 +1010,7 @@
      "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
     }
    ],
-   "id": 18
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1016,7 +1045,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1051,7 +1080,41 @@
      "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
     }
    ],
-   "id": 20
+   "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-27T03:13+00:00",
+   "earliest": "2026-11-26T22:34+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "New Zealand election ends in hung parliament",
+     "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-27T03:13+00:00",
+     "summary": "A final vote count showed that neither the center-right bloc nor the opposition left bloc was able to secure a majority."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Final New Zealand election vote count to confirm parliament make up",
+     "url": "https://www.reuters.com/world/asia-pacific/final-new-zealand-election-vote-count-confirm-parliament-make-up-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T22:34+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1085,7 +1148,7 @@
      "summary": "The case could shake Indonesia’s nickel sector, which supplies about 60% of global output."
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1119,41 +1182,7 @@
      "summary": ""
     }
    ],
-   "id": 22
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "Business Standard"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-26T17:09+00:00",
-   "earliest": "2026-11-26T06:45+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Supreme Court sets four-month deadline for FSSAI to finalise stricter food labelling norms",
-     "url": "https://www.thehindu.com/news/national/supreme-court-directs-tightening-of-front-of-package-nutrition-labelling/article71746251.ece",
-     "via": "",
-     "published": "2026-11-26T17:09+00:00",
-     "summary": "The court has asked FSSAI to treat ‘total sugars’ and ‘saturated fat’, rather than ‘added sugar’ and ‘added fat’, alongside salt, as the nutrients of concern"
-    },
-    {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "High sugar, salt or fat? Supreme Court orders warning labels on food packs",
-     "url": "https://www.business-standard.com/industry/news/sc-mandates-separate-warning-labels-for-salt-sugar-and-fat-on-food-packs-126112600449_1.html",
-     "via": "",
-     "published": "2026-11-26T06:45+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1187,7 +1216,7 @@
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1221,7 +1250,7 @@
      "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
-   "id": 25
+   "id": 26
   }
  ]
 }
