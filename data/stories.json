@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-27T03:17:07+00:00",
+ "fetched_at": "2026-11-27T03:39:20+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 43,
- "items_read": 751,
+ "items_read": 766,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -22,7 +22,7 @@
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 37,
+   "items": 39,
    "errors": []
   },
   "Caixin Global": {
@@ -37,22 +37,22 @@
   },
   "Yicai Global": {
    "region": "China",
-   "items": 8,
+   "items": 7,
    "errors": []
   },
   "Mysteel": {
    "region": "China",
-   "items": 46,
+   "items": 52,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 22,
+   "items": 26,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 17,
    "errors": []
   },
   "The Korea Herald": {
@@ -69,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 28,
+   "items": 40,
    "errors": []
   },
   "Financial Times": {
@@ -139,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 5,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -161,12 +161,12 @@
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 23,
+   "items": 15,
    "errors": []
   },
   "RNZ": {
@@ -191,12 +191,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 35,
+   "items": 36,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 19,
+   "items": 18,
    "errors": []
   },
   "The Indian Express": {
@@ -208,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 30,
+   "items": 28,
    "errors": []
   },
   "The Jakarta Post": {
@@ -228,12 +228,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 32,
+   "items": 26,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Newsroom Panama": {
@@ -244,14 +244,13 @@
  },
  "clusters": [
   {
-   "independent_outlets": 6,
+   "independent_outlets": 5,
    "same_headline_groups": [],
    "outlets": [
     "Deutsche Welle",
     "ABC News (Australia)",
     "Nikkei Asia",
     "Associated Press",
-    "Reuters",
     "The Straits Times"
    ],
    "regions": [
@@ -286,8 +285,8 @@
      "outlet": "Nikkei Asia",
      "region": "East Asia",
      "title": "New Zealand ruling coalition misses majority as election results announced",
-     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMWtXTE85aWpFbUtKYWMwMWpuUkhab3dvb0dGaHVYMEZPRVlicGhNcEJnc0JPTEZzN2tlaHZhNFNzYVlnV0J1WFdKYmlKanVrVUlERDRqUi1yZVZZUWl3T3lsSXd6dndXUnFzN0FadTVicnUzWndpQnY4bFdlOU1iMThZVl9jaGMxVzVtdTJoZWNpYlZ2UU1XcGhraFkyaWZ2bGZpRER1TjJNdk0?oc=5",
+     "via": "Google News",
      "published": "2026-11-27T02:10+00:00",
      "summary": ""
     },
@@ -298,15 +297,6 @@
      "url": "https://apnews.com/article/new-zealand-election-results-a19a838d8256a0762703ff0572aca3e6",
      "via": "",
      "published": "2026-11-27T01:13+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Final New Zealand election vote count to confirm parliament make up",
-     "url": "https://www.reuters.com/world/asia-pacific/final-new-zealand-election-vote-count-confirm-parliament-make-up-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T22:34+00:00",
      "summary": ""
     },
     {
@@ -435,67 +425,6 @@
   },
   {
    "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "The Jakarta Post",
-    "The Straits Times",
-    "Reuters",
-    "MINING.COM"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-26T11:51+00:00",
-   "earliest": "2026-11-25T12:51+00:00",
-   "items": [
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Death toll from flooded illegal gold mine in West Java climbs to 13",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/27/death-toll-from-flooded-illegal-gold-mine-in-west-java-climbs-to-13",
-     "via": "",
-     "published": "2026-11-26T11:51+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Heavy rain hampers Indonesian rescue of 13 people trapped inside illegal mine, agency says",
-     "url": "https://www.straitstimes.com/asia/se-asia/indonesian-rescuers-resume-search-for-13-people-trapped-inside-illegal-mine-after-13-confirmed-dead",
-     "via": "",
-     "published": "2026-11-26T04:30+00:00",
-     "summary": "26 workers were trapped 100m underground when heavy rain inundated the shaft on Nov 23."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Heavy rain hampers Indonesian rescue of 13 people trapped inside illegal mine, agency says",
-     "url": "https://www.reuters.com/world/asia-pacific/indonesian-rescuers-resume-search-13-people-trapped-inside-illegal-mine-after-13-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T02:37+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Nine dead, 17 trapped after illegal gold mine floods in Indonesia",
-     "url": "https://www.mining.com/nine-dead-18-trapped-after-illegal-gold-mine-floods-in-indonesia/",
-     "via": "",
-     "published": "2026-11-25T12:51+00:00",
-     "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
-    }
-   ],
-   "id": 4
-  },
-  {
-   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Livemint / Economic Times",
@@ -537,7 +466,7 @@
      "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
     }
    ],
-   "id": 5
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -597,7 +526,7 @@
      "summary": ""
     }
    ],
-   "id": 6
+   "id": 5
   },
   {
    "independent_outlets": 2,
@@ -632,7 +561,7 @@
      "summary": "Inflation in Japan’s capital city accelerated to the fastest pace this year, backing the case for a Bank of Japan rate increase next month as authorities focus on keeping price growth around their 2% target."
     }
    ],
-   "id": 7
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -667,7 +596,7 @@
      "summary": "Australia adopted a law requiring liquefied natural gas exporters to reserve as much as a fifth of their supply for the domestic market."
     }
    ],
-   "id": 8
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -702,7 +631,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -737,7 +666,7 @@
      "summary": ""
     }
    ],
-   "id": 10
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -772,7 +701,7 @@
      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore."
     }
    ],
-   "id": 11
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -807,7 +736,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -842,7 +771,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -877,38 +806,73 @@
      "summary": ""
     }
    ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-26T11:51+00:00",
+   "earliest": "2026-11-25T12:51+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Death toll from flooded illegal gold mine in West Java climbs to 13",
+     "url": "https://www.thejakartapost.com/indonesia/2026/11/27/death-toll-from-flooded-illegal-gold-mine-in-west-java-climbs-to-13",
+     "via": "",
+     "published": "2026-11-26T11:51+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Nine dead, 17 trapped after illegal gold mine floods in Indonesia",
+     "url": "https://www.mining.com/nine-dead-18-trapped-after-illegal-gold-mine-floods-in-indonesia/",
+     "via": "",
+     "published": "2026-11-25T12:51+00:00",
+     "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
+    }
+   ],
    "id": 14
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Associated Press"
+    "Reuters",
+    "Kyodo News"
    ],
    "regions": [
-    "Europe",
-    "North America"
+    "East Asia",
+    "Europe"
    ],
-   "latest": "2026-11-26T11:10+00:00",
-   "earliest": "2026-11-26T09:16+00:00",
+   "latest": "2026-11-26T10:29+00:00",
+   "earliest": "2026-11-25T04:59+00:00",
    "items": [
     {
-     "outlet": "Euronews",
+     "outlet": "Reuters",
      "region": "Europe",
-     "title": "Images show Kim Jong Un inspecting North Korean nuclear facilities",
-     "url": "https://www.euronews.com/video/2026/11/26/images-show-kim-jong-un-inspecting-north-korean-nuclear-facilities",
+     "title": "North Korea expels Swiss diplomat over sanctions weeks after office reopening",
+     "url": "https://www.reuters.com/business/aerospace-defense/north-korea-expels-swiss-representative-closes-diplomatic-office-over-sanctions-2026-11-25/",
      "via": "",
-     "published": "2026-11-26T11:10+00:00",
-     "summary": "North Korean leader Kim Jong Un has called for expanding the country's nuclear arsenal after visiting nuclear material production facilities and a weapons research institute."
+     "published": "2026-11-26T10:29+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
-     "url": "https://apnews.com/article/north-korea-kim-nuclear-uranium-trump-78d6642ea055e8257518c3d695a58cd4",
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "N. Korea seeks closure of Swiss office in Pyongyang over sanctions",
+     "url": "https://english.kyodonews.net/articles/-/92578",
      "via": "",
-     "published": "2026-11-26T09:16+00:00",
+     "published": "2026-11-25T04:59+00:00",
      "summary": ""
     }
    ],
