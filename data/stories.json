@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-27T04:52:40+00:00",
+ "fetched_at": "2026-11-27T08:35:01+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 42,
- "items_read": 776,
+ "items_read": 752,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,22 +17,22 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 60,
+   "items": 29,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 39,
+   "items": 37,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 9,
+   "items": 10,
    "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 40,
+   "items": 43,
    "errors": []
   },
   "Yicai Global": {
@@ -47,44 +47,44 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 22,
+   "items": 21,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 8,
+   "items": 14,
    "errors": []
   },
   "The Korea Herald": {
    "region": "East Asia",
-   "items": 26,
+   "items": 19,
    "errors": []
   },
   "DigiTimes": {
    "region": "East Asia",
    "items": 0,
    "errors": [
-    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 413, column 54"
+    "https://www.digitimes.com/rss/daily.xml: ParseError: not well-formed (invalid token): line 479, column 54"
    ]
   },
   "Reuters": {
    "region": "Europe",
-   "items": 29,
+   "items": 33,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 11,
+   "items": 9,
    "errors": []
   },
   "Euronews": {
    "region": "Europe",
-   "items": 18,
+   "items": 14,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -94,17 +94,17 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 18,
+   "items": 20,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 10,
+   "items": 9,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 32,
+   "items": 27,
    "errors": []
   },
   "Times of Israel": {
@@ -119,17 +119,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 3,
+   "items": 2,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 23,
+   "items": 20,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Axios": {
@@ -139,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 4,
+   "items": 2,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -156,12 +156,12 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 18,
+   "items": 17,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 5,
+   "items": 6,
    "errors": []
   },
   "Mining.com.au": {
@@ -176,7 +176,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 22,
+   "items": 23,
    "errors": []
   },
   "PortNews": {
@@ -186,7 +186,7 @@
   },
   "The Hindu": {
    "region": "South Asia",
-   "items": 23,
+   "items": 22,
    "errors": []
   },
   "Business Standard": {
@@ -208,7 +208,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 34,
+   "items": 32,
    "errors": []
   },
   "The Jakarta Post": {
@@ -228,12 +228,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 33,
+   "items": 32,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Newsroom Panama": {
@@ -247,9 +247,65 @@
    "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
+    "Al Jazeera",
+    "Euronews",
+    "Associated Press",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T07:55+00:00",
+   "earliest": "2026-11-26T21:06+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "New Zealand election results set up tricky talks for conservative incumbent",
+     "url": "https://www.aljazeera.com/news/2026/11/27/new-zealand-election-results-set-up-tricky-talks-for-conservative-incumbent?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-27T07:55+00:00",
+     "summary": "Conservative PM Luxon and populist coalition partners face negotiations with centrist kingmaker."
+    },
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "New Zealand election: newcomer centrist party to decide as Luxon scrambles for a majority",
+     "url": "https://www.euronews.com/2026/11/27/new-zealand-election-newcomer-centrist-party-holds-the-key-as-luxon-scrambles-for-a-majori",
+     "via": "",
+     "published": "2026-11-27T05:47+00:00",
+     "summary": "The final count showed more support for minor parties on the ideological flanks than before. A total of 2.8 million votes were cast."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Deadlocked final result in New Zealand’s election leaves a centrist newcomer as the decider",
+     "url": "https://apnews.com/article/new-zealand-election-results-a19a838d8256a0762703ff0572aca3e6",
+     "via": "",
+     "published": "2026-11-27T05:04+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "New Zealand’s ruling coalition falls short of majority in election final count",
+     "url": "https://www.straitstimes.com/asia/australianz/final-new-zealand-election-vote-count-to-confirm-parliament-make-up",
+     "via": "",
+     "published": "2026-11-26T21:06+00:00",
+     "summary": "Incumbent PM Luxon will require the support of the centrist Opportunity Party to remain in power."
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "The Straits Times",
     "Reuters",
-    "Euronews",
     "Associated Press"
    ],
    "regions": [
@@ -279,15 +335,6 @@
      "summary": ""
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Flames and thick smoke billow from Bangkok oil facility after massive explosion",
-     "url": "https://www.euronews.com/video/2026/11/26/flames-and-thick-smoke-billow-from-bangkok-oil-facility-after-massive-explosion",
-     "via": "",
-     "published": "2026-11-26T11:40+00:00",
-     "summary": "A powerful explosion rocks an oil depot in Bangkok, Thailand, sending thick black smoke into the sky and prompting evacuation warnings."
-    },
-    {
      "outlet": "Associated Press",
      "region": "North America",
      "title": "At least 9 injured by large explosion and fire at major oil facility in Bangkok",
@@ -297,13 +344,58 @@
      "summary": ""
     }
    ],
-   "id": 1
+   "id": 2
   },
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
+    "The Straits Times",
+    "Reuters",
+    "Bloomberg"
+   ],
+   "regions": [
+    "Europe",
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T02:10+00:00",
+   "earliest": "2026-11-26T23:36+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Tokyo’s faster pace of inflation backs case for Bank of Japan rate hike",
+     "url": "https://www.straitstimes.com/business/tokyos-faster-pace-of-inflation-backs-case-for-bank-of-japan-rate-hike",
+     "via": "",
+     "published": "2026-11-27T02:10+00:00",
+     "summary": "Governor Kazuo Ueda will give a speech on Nov 30 before the Dec 18 BOJ decision."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Tokyo core inflation at 16-month high, bolsters case for BOJ hike",
+     "url": "https://www.reuters.com/markets/asia/core-inflation-japans-capital-accelerates-november-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T23:42+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Bloomberg",
+     "region": "North America",
+     "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure",
+     "via": "",
+     "published": "2026-11-26T23:36+00:00",
+     "summary": "Inflation in Japan’s capital city accelerated to the fastest pace this year, backing the case for a Bank of Japan rate increase next month as authorities focus on keeping price growth around their 2% target."
+    }
+   ],
+   "id": 3
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
     "Associated Press",
     "Africanews",
     "Al Arabiya"
@@ -313,18 +405,9 @@
     "Middle East",
     "North America"
    ],
-   "latest": "2026-11-26T21:08+00:00",
+   "latest": "2026-11-26T18:29+00:00",
    "earliest": "2026-11-26T09:52+00:00",
    "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-     "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-26T21:08+00:00",
-     "summary": "Prosecutors order drug tests for the 21-year-old suspect, who says he was overtaking when the crash happened."
-    },
     {
      "outlet": "Associated Press",
      "region": "North America",
@@ -353,53 +436,53 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 4
   },
   {
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "MINING.COM",
-    "The Jakarta Post"
+    "Mining Weekly",
+    "BNamericas",
+    "MINING.COM"
    ],
    "regions": [
-    "Europe",
-    "North America",
-    "Southeast Asia"
+    "Africa",
+    "Latin America",
+    "North America"
    ],
-   "latest": "2026-11-26T02:37+00:00",
-   "earliest": "2026-11-25T12:11+00:00",
+   "latest": "2026-11-25T09:33+00:00",
+   "earliest": "2026-11-24T14:25+00:00",
    "items": [
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Heavy rain hampers Indonesian rescue of 13 people trapped inside illegal mine, agency says",
-     "url": "https://www.reuters.com/world/asia-pacific/indonesian-rescuers-resume-search-13-people-trapped-inside-illegal-mine-after-13-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T02:37+00:00",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Investment firm Sprott backs Canadian miner Marimaca on Chilean copper ventures",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOHpsRDVnUFFnSkNFS1RHRU5Zb04xeTBlRVRrX3A4bXFhTjNwZWZtS2VlN185MVhuRktraXFFQWQyQUp0M3lIc0loOHBsLXRBQ1o3d1p0dTZaX3JZX3ZMcVpoZ3ZIdy10dFYxc044bXdGcEkzU2JkNTdPUXBlMThPV3NDamNVRmp5TE1zUldOaHFXNFVHRDRUcmtJNFpYbGJaemtKRHNNb1ZvUzdVc21JZlR6UTlvM1plYUhpeHNiNnlIaVl2Wnc?oc=5",
+     "via": "Google News",
+     "published": "2026-11-25T09:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Marimaca Copper secures Sprott approval for US$450mn package to build Chile oxide project",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTVp6SWIzRXZGYkx6S29xcDhlYmpUNEhGUksxYjcwXzRXUHU1WGxwa1NUS01LcVNGcGxaUjgwU3ZzckNpOXNTNWFIOUJYMVVLZm1MSXdWbERsMnE3SnpJVHZZRnhhUlU5V1RmTF93alNoWEZGLTU2SkN5SlBsTEJxUkZDTGlNVmNOUlBpNjNEMURWbDd6aklzZXJ2VnZmTE85VXhrVVVLanRwMGZ4ZWJMQUtjLS0zVjlHbTJMNG1hU0o?oc=5",
+     "via": "Google News",
+     "published": "2026-11-24T21:35+00:00",
      "summary": ""
     },
     {
      "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Nine dead, 17 trapped after illegal gold mine floods in Indonesia",
-     "url": "https://www.mining.com/nine-dead-18-trapped-after-illegal-gold-mine-floods-in-indonesia/",
+     "title": "Marimaca gets Sprott’s backing for Chile copper project",
+     "url": "https://www.mining.com/marimaca-gets-sprotts-backing-for-chile-copper-project/",
      "via": "",
-     "published": "2026-11-25T12:51+00:00",
-     "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
-    },
-    {
-     "outlet": "The Jakarta Post",
-     "region": "Southeast Asia",
-     "title": "Eight dead, 18 missing after floods hit illegal gold mine in West Java",
-     "url": "https://www.thejakartapost.com/indonesia/2026/11/26/eight-dead-18-missing-after-floods-hit-illegal-gold-mine-in-west-java",
-     "via": "",
-     "published": "2026-11-25T12:11+00:00",
-     "summary": ""
+     "published": "2026-11-24T14:25+00:00",
+     "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
     }
    ],
-   "id": 3
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -444,7 +527,7 @@
      "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
     }
    ],
-   "id": 4
+   "id": 6
   },
   {
    "independent_outlets": 3,
@@ -504,128 +587,147 @@
      "summary": ""
     }
    ],
-   "id": 5
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "The Straits Times",
-     "Reuters"
-    ]
-   ],
-   "outlets": [
-    "The Straits Times",
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "regions": [
-    "East Asia",
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-25T22:55+00:00",
-   "earliest": "2026-11-25T16:31+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "S&P warns Nvidia’s board may be compromised, puts chipmaker’s rating on downgrade watch",
-     "url": "https://www.straitstimes.com/business/sp-warns-nvidias-board-may-be-compromised-puts-chipmakers-rating-on-downgrade-watch",
-     "via": "",
-     "published": "2026-11-25T22:55+00:00",
-     "summary": "The departure and subsequent reinstatement of its CEO had exposed weaknesses in the firm's management and board oversight."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "Nvidia's shares drop, credit rating on watch two days after Huang's return",
-     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-s-shares-drop-credit-rating-on-watch-two-days-after-huang-s-return",
-     "via": "",
-     "published": "2026-11-25T21:30+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
-     "url": "https://www.reuters.com/technology/us-finds-no-evidence-china-directed-executive-spy-nvidia-ceo-wsj-reports-2026-11-25/",
-     "via": "",
-     "published": "2026-11-25T16:31+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Australian Financial Review",
-    "Financial Times"
-   ],
-   "regions": [
-    "Europe",
-    "Oceania"
-   ],
-   "latest": "2026-11-27T04:50+00:00",
-   "earliest": "2026-11-27T04:32+00:00",
-   "items": [
-    {
-     "outlet": "Australian Financial Review",
-     "region": "Oceania",
-     "title": "Ex-KPMG consultant now kingmaker in New Zealand’s deadlocked election",
-     "url": "https://www.afr.com/world/pacific/ex-kpmg-consultant-becomes-kingmaker-in-new-zealand-s-messy-election-20261127-p61hwc?ref=rss&utm_medium=rss&utm_source=rss_feed",
-     "via": "",
-     "published": "2026-11-27T04:50+00:00",
-     "summary": "Prime Minister Christopher Luxon’s National Party-led coalition has failed to win a majority and now needs support from a political upstart to form government."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "New Zealand election leaves fate of PM Luxon in hands of ex-KPMG consultant",
-     "url": "https://www.ft.com/content/bc5d39a0-6610-481b-9138-5afdd22cf406?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-27T04:32+00:00",
-     "summary": "National Party-led coalition fails to win majority and needs support from Opportunity Party to form government"
-    }
-   ],
    "id": 7
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "ABC News (Australia)",
-    "Nikkei Asia"
+    "The Straits Times",
+    "Reuters"
    ],
    "regions": [
-    "East Asia",
-    "Oceania"
+    "Europe",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-27T03:50+00:00",
-   "earliest": "2026-11-27T02:10+00:00",
+   "latest": "2026-11-27T07:50+00:00",
+   "earliest": "2026-11-27T06:58+00:00",
    "items": [
     {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Official results of New Zealand's national election announced",
-     "url": "https://www.abc.net.au/news/2026-11-27/official-results-of-new-zealand-s-national-election-announced/107434326",
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "India’s election body website flaw exposing voter data fixed after Reuters findings",
+     "url": "https://www.straitstimes.com/asia/south-asia/indias-election-body-website-flaw-exposing-voter-data-fixed-after-reuters-findings",
      "via": "",
-     "published": "2026-11-27T03:50+00:00",
-     "summary": ""
+     "published": "2026-11-27T07:50+00:00",
+     "summary": "Exposed reference numbers could allow hackers to automate downloads of large amounts of data."
     },
     {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "New Zealand ruling coalition misses majority as election results announced",
-     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "EXCLUSIVE: India's election body website flaw exposing voter data fixed after Reuters findings",
+     "url": "https://www.reuters.com/world/indias-election-body-website-flaw-exposing-voter-data-fixed-after-reuters-2026-11-27/",
      "via": "",
-     "published": "2026-11-27T02:10+00:00",
+     "published": "2026-11-27T06:58+00:00",
      "summary": ""
     }
    ],
    "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining Weekly",
+    "Reuters"
+   ],
+   "regions": [
+    "Africa",
+    "Europe"
+   ],
+   "latest": "2026-11-27T06:33+00:00",
+   "earliest": "2026-11-27T04:17+00:00",
+   "items": [
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Coal India unit Mahanadi makes muted debut, valued at $9.6bn",
+     "url": "https://www.miningweekly.com/article/coal-india-unit-mahanadi-makes-muted-debut-valued-at-96bn-2026-11-27",
+     "via": "",
+     "published": "2026-11-27T06:33+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Coal India unit Mahanadi valued at $9.7 billion after subdued debut",
+     "url": "https://www.reuters.com/world/india/coal-india-unit-mahanadi-coalfields-falls-15-trading-debut-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T04:17+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-27T05:57+00:00",
+   "earliest": "2026-11-26T16:00+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Spain’s 2026 election explained in maps and charts",
+     "url": "https://www.aljazeera.com/news/2026/11/27/spains-2026-election-explained-in-maps-and-charts?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-27T05:57+00:00",
+     "summary": "Spaniards vote on November 29 in a snap general election. Here is how the system works, the parties and the key issues."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Spain general election 2026: polls, Sanchez vs Feijoo and what happens next",
+     "url": "https://www.reuters.com/world/europe/spains-snap-election-why-it-matters-who-might-win-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T16:00+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-27T04:15+00:00",
+   "earliest": "2026-11-27T01:36+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "China industrial profit growth hits 5-month high as recovery remains uneven",
+     "url": "https://www.business-standard.com/world-news/china-industrial-profit-growth-hits-5-month-high-as-recovery-remains-uneven-126112700186_1.html",
+     "via": "",
+     "published": "2026-11-27T04:15+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "China's industrial profit growth fastest in five months as recovery remains uneven",
+     "url": "https://www.reuters.com/markets/asia/chinese-industrial-profit-rises-16-january-october-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T01:36+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -654,83 +756,13 @@
      "outlet": "Mining Weekly",
      "region": "Africa",
      "title": "Aterian signs due diligence, exclusivity agreement for Morocco copper projects",
-     "url": "https://www.miningweekly.com/article/aterian-signs-due-diligence-exclusivity-agreement-for-morocco-copper-projects-2026-11-26",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdDhUQ0JIQUhQVkhSRWljNWl6N01kYko5R19CM1FER0RQSkRZTm9VZW5YM0pwX0dhT1hrUUdIZXBDZE5jNjJuVDhXbnZFemRwNnEzd2hWNXJiYXZkQ2Z0aURDdzRfRjF0WEJVX0J3TWZBRXZJdjYza1FoZFYwajNocDR4LUFJOUJ3MW9oSGVvbnpRVHo5SUNoenZ1aFN5dXBIRjd4WTJNU1ZIUEFWWkJZNURLQ1lwR3Y1SkI0V05wZUxtOWs?oc=5",
+     "via": "Google News",
      "published": "2026-11-26T09:33+00:00",
      "summary": ""
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-27T02:10+00:00",
-   "earliest": "2026-11-26T23:36+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Tokyo’s faster pace of inflation backs case for Bank of Japan rate hike",
-     "url": "https://www.straitstimes.com/business/tokyos-faster-pace-of-inflation-backs-case-for-bank-of-japan-rate-hike",
-     "via": "",
-     "published": "2026-11-27T02:10+00:00",
-     "summary": "Governor Kazuo Ueda will give a speech on Nov 30 before the Dec 18 BOJ decision."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure",
-     "via": "",
-     "published": "2026-11-26T23:36+00:00",
-     "summary": "Inflation in Japan’s capital city accelerated to the fastest pace this year, backing the case for a Bank of Japan rate increase next month as authorities focus on keeping price growth around their 2% target."
-    }
-   ],
-   "id": 10
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Bloomberg"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-26T23:35+00:00",
-   "earliest": "2026-11-26T13:31+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Australia clears law requiring LNG exporters to keep 20% for domestic use",
-     "url": "https://www.straitstimes.com/asia/australianz/australian-parliament-passes-government-plan-to-reserve-20-of-lng-for-domestic-market",
-     "via": "",
-     "published": "2026-11-26T23:35+00:00",
-     "summary": "Western Australia, which already operates its own 15% gas reservation, is exempted from the scheme."
-    },
-    {
-     "outlet": "Bloomberg",
-     "region": "North America",
-     "title": "Australia Passes Gas Reserve Law in Upset to LNG Exporters",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-26/australia-set-to-pass-gas-reserve-law-in-upset-to-lng-exporters",
-     "via": "",
-     "published": "2026-11-26T13:31+00:00",
-     "summary": "Australia adopted a law requiring liquefied natural gas exporters to reserve as much as a fifth of their supply for the domestic market."
-    }
-   ],
-   "id": 11
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -765,7 +797,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -800,7 +832,7 @@
      "summary": ""
     }
    ],
-   "id": 13
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -829,13 +861,13 @@
      "outlet": "Times of Israel",
      "region": "Middle East",
      "title": "Iraq PM orders federal control of Kurdish border crossings, oil fields",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iraq-pm-orders-federal-control-of-kurdish-border-crossings-oil-fields/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTmE5blNLNkNQVUVwM2FfQ3dIWHAxa0NXV2xJRloxWHF3YmpKVUdlc1hLYWc4X0ZhV0x0R2ctRGlYQXNNS0hrd2k4cTVEdFpIc1VZajJsRlo2REpfS0NpbVFyZ2V3N2gxSTFFSXdndGthSUdEVVJDeVFlLVZxYWNCT1FhTUpxMXZmWFNyenhsMEdSY3FZMXNLS0VvUGpIV3JpcksyQktmaGE4MFBjRXdIT2wzLWdRdw?oc=5",
+     "via": "Google News",
      "published": "2026-11-24T14:16+00:00",
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -870,31 +902,22 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Euronews",
-    "Associated Press"
+    "Associated Press",
+    "Kyodo News"
    ],
    "regions": [
-    "Europe",
+    "East Asia",
     "North America"
    ],
-   "latest": "2026-11-26T11:10+00:00",
-   "earliest": "2026-11-26T09:16+00:00",
+   "latest": "2026-11-26T09:16+00:00",
+   "earliest": "2026-11-26T07:09+00:00",
    "items": [
-    {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Images show Kim Jong Un inspecting North Korean nuclear facilities",
-     "url": "https://www.euronews.com/video/2026/11/26/images-show-kim-jong-un-inspecting-north-korean-nuclear-facilities",
-     "via": "",
-     "published": "2026-11-26T11:10+00:00",
-     "summary": "North Korean leader Kim Jong Un has called for expanding the country's nuclear arsenal after visiting nuclear material production facilities and a weapons research institute."
-    },
     {
      "outlet": "Associated Press",
      "region": "North America",
@@ -903,40 +926,14 @@
      "via": "",
      "published": "2026-11-26T09:16+00:00",
      "summary": ""
-    }
-   ],
-   "id": 16
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "VnExpress International",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-26T09:33+00:00",
-   "earliest": "2026-11-26T05:09+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Nvidia halts chip shipments to Southeast Asia",
-     "url": "https://e.vnexpress.net/news/business/companies/nvidia-halts-chip-shipments-to-southeast-asia-5149166.html",
-     "via": "",
-     "published": "2026-11-26T09:33+00:00",
-     "summary": "Nvidia has told its manufacturing partners to stop shipping servers to four Southeast Asian countries."
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Nvidia halts server shipments to four Southeast Asian countries, FT reports",
-     "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "North Korean leader Kim says nuclear development to continue",
+     "url": "https://english.kyodonews.net/articles/-/92638",
      "via": "",
-     "published": "2026-11-26T05:09+00:00",
+     "published": "2026-11-26T07:09+00:00",
      "summary": ""
     }
    ],
@@ -946,32 +943,32 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "The Straits Times",
-    "Reuters"
+    "Nikkei Asia",
+    "Business Standard"
    ],
    "regions": [
-    "Europe",
-    "Southeast Asia"
+    "East Asia",
+    "South Asia"
    ],
-   "latest": "2026-11-26T07:54+00:00",
-   "earliest": "2026-11-26T07:19+00:00",
+   "latest": "2026-11-25T17:32+00:00",
+   "earliest": "2026-11-25T13:41+00:00",
    "items": [
     {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "US chip curbs, distillation crackdown threaten Chinese AI model development, sources say",
-     "url": "https://www.straitstimes.com/asia/east-asia/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say",
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Trump rebuilds tariff wall with new duties on China, Japan and others",
+     "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/trump-rebuilds-tariff-wall-with-new-duties-on-china-japan-and-others",
      "via": "",
-     "published": "2026-11-26T07:54+00:00",
-     "summary": "Washington’s latest chip restrictions threaten further delays."
+     "published": "2026-11-25T17:32+00:00",
+     "summary": ""
     },
     {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "EXCLUSIVE: US chip curbs, distillation crackdown threaten Chinese AI model development, sources say",
-     "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Trump rebuilds global tariff wall, India faces proposed duties of up to 25%",
+     "url": "https://www.business-standard.com/world-news/trump-rebuilds-global-tariff-wall-india-faces-proposed-duties-of-up-to-25-126112501129_1.html",
      "via": "",
-     "published": "2026-11-26T07:19+00:00",
+     "published": "2026-11-25T13:41+00:00",
      "summary": ""
     }
    ],
@@ -1051,36 +1048,173 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Mining Weekly",
-    "MINING.COM"
+    "MINING.COM",
+    "The Jakarta Post"
    ],
    "regions": [
-    "Africa",
-    "North America"
+    "North America",
+    "Southeast Asia"
    ],
-   "latest": "2026-11-25T09:33+00:00",
-   "earliest": "2026-11-24T14:25+00:00",
+   "latest": "2026-11-25T12:51+00:00",
+   "earliest": "2026-11-25T12:11+00:00",
    "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Investment firm Sprott backs Canadian miner Marimaca on Chilean copper ventures",
-     "url": "https://www.miningweekly.com/article/investment-firm-sprott-backs-canadian-miner-marimaca-on-chilean-copper-ventures-2026-11-25",
-     "via": "",
-     "published": "2026-11-25T09:33+00:00",
-     "summary": ""
-    },
     {
      "outlet": "MINING.COM",
      "region": "North America",
-     "title": "Marimaca gets Sprott’s backing for Chile copper project",
-     "url": "https://www.mining.com/marimaca-gets-sprotts-backing-for-chile-copper-project/",
+     "title": "Nine dead, 17 trapped after illegal gold mine floods in Indonesia",
+     "url": "https://www.mining.com/nine-dead-18-trapped-after-illegal-gold-mine-floods-in-indonesia/",
      "via": "",
-     "published": "2026-11-24T14:25+00:00",
-     "summary": "The Marimaca oxide project has the potential to produce an average of 43,000 tonnes of copper cathode a year over 13 years."
+     "published": "2026-11-25T12:51+00:00",
+     "summary": "Rescue crews pump water from a 100-metre shaft in West Java as difficult terrain and poor visibility hamper efforts."
+    },
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Eight dead, 18 missing after floods hit illegal gold mine in West Java",
+     "url": "https://www.thejakartapost.com/indonesia/2026/11/26/eight-dead-18-missing-after-floods-hit-illegal-gold-mine-in-west-java",
+     "via": "",
+     "published": "2026-11-25T12:11+00:00",
+     "summary": ""
     }
    ],
    "id": 21
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "MINING.COM",
+    "BNamericas"
+   ],
+   "regions": [
+    "Latin America",
+    "North America"
+   ],
+   "latest": "2026-11-24T15:23+00:00",
+   "earliest": "2026-11-24T14:33+00:00",
+   "items": [
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Vale to resume operations at Viga iron ore mine",
+     "url": "https://www.mining.com/vale-to-resume-operations-at-viga-iron-ore-mine/",
+     "via": "",
+     "published": "2026-11-24T15:23+00:00",
+     "summary": "Production at the Brazilian mine has been halted since January 2026 due to water overflows."
+    },
+    {
+     "outlet": "BNamericas",
+     "region": "Latin America",
+     "title": "Vale partially restarts Viga iron ore mine after Minas Gerais overflow",
+     "url": "https://www.bnamericas.com/en/features/vale-partially-restarts-viga-iron-ore-mine-after-minas-gerais-overflow",
+     "via": "",
+     "published": "2026-11-24T14:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-27T08:08+00:00",
+   "earliest": "2026-11-26T14:13+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Sebi looks into Tata Steel-Apollo APL deal over minority shareholder concerns",
+     "url": "https://www.livemint.com/news/sebi-to-look-into-tata-steel-apollo-apl-deal-over-minority-shareholder-concerns-11795765448786.html",
+     "via": "",
+     "published": "2026-11-27T08:08+00:00",
+     "summary": "Sebi chairman Tuhin Kanta Pandey says the regulator is examining the transaction after minority shareholders and proxy advisers raised concerns over its structure and related-party implications."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Sebi may scrutinise Tata Steel-APL Apollo deal over RPT, shareholder worry",
+     "url": "https://www.business-standard.com/markets/news/tata-steel-apl-apollo-deal-may-face-sebi-scrutiny-over-shareholder-concerns-126112601279_1.html",
+     "via": "",
+     "published": "2026-11-26T14:13+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 23
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Euronews",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-27T06:44+00:00",
+   "earliest": "2026-11-26T15:58+00:00",
+   "items": [
+    {
+     "outlet": "Euronews",
+     "region": "Europe",
+     "title": "Germany's IG Metall reaches pay deal amid industrial crisis",
+     "url": "https://www.euronews.com/2026/11/27/germanys-ig-metall-reaches-pay-deal-amid-industrial-crisis",
+     "via": "",
+     "published": "2026-11-27T06:44+00:00",
+     "summary": "A pay deal that could cover 3.7 million workers across Germany raises wages in two stages and lets struggling manufacturers seek labour cost savings in return for binding pledges to invest and protect jobs in Germany."
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Germany: IG Metall union says deal reached with employers",
+     "url": "https://www.dw.com/en/germany-ig-metall-union-says-deal-reached-with-employers/a-80066792?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-26T15:58+00:00",
+     "summary": "IG Metall, representing millions of workers in Germany's metal and electrical industry, is the country's largest trade union. The deal came after more than 24 hours of talks with employers."
+    }
+   ],
+   "id": 24
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "latest": "2026-11-27T06:36+00:00",
+   "earliest": "2026-11-26T11:21+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Chinese Investors Eye Southern Africa Gold With $600 Million Zimbabwe Proposal",
+     "url": "https://www.ecofinagency.com/news/2711-61229-chinese-investors-eye-southern-africa-gold-with-600-million-zimbabwe-proposal",
+     "via": "",
+     "published": "2026-11-27T06:36+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "China Railway Resources Group plans $600m investment in Zimbabwe gold mines",
+     "url": "https://www.miningweekly.com/article/china-railway-resources-group-plans-600m-investment-in-zimbabwe-gold-mines-2026-11-26",
+     "via": "",
+     "published": "2026-11-26T11:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1114,7 +1248,41 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-27T02:36+00:00",
+   "earliest": "2026-11-26T03:11+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "'I did a great thing': Trump defends Jensen Huang's 'second term' as Nvidia CEO despite national security concerns",
+     "url": "https://www.livemint.com/news/us-news/i-did-a-great-thing-trump-defends-jensen-huangs-second-term-as-nvidia-ceo-despite-national-security-concerns-11795746346408.html",
+     "via": "",
+     "published": "2026-11-27T02:36+00:00",
+     "summary": "Trump has defended his role in Jensen Huang's return as Nvidia CEO, calling it a “great thing” despite national security concerns. He said Huang's second stint would be even better and dismissed questions about potential security risks."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "JD Vance defends Huang's return to Nvidia, blames 'anonymous sources'",
+     "url": "https://www.business-standard.com/world-news/jd-vance-defends-huang-s-return-to-nvidia-blames-anonymous-sources-126112600080_1.html",
+     "via": "",
+     "published": "2026-11-26T03:11+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1148,41 +1316,41 @@
      "summary": "The case could shake Indonesia’s nickel sector, which supplies about 60% of global output."
     }
    ],
-   "id": 23
+   "id": 28
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
+    "The Hindu",
+    "Business Standard"
    ],
    "regions": [
-    "Middle East"
+    "South Asia"
    ],
-   "latest": "2026-11-26T20:34+00:00",
-   "earliest": "2026-11-26T18:19+00:00",
+   "latest": "2026-11-26T17:09+00:00",
+   "earliest": "2026-11-26T06:45+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
-     "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Supreme Court sets four-month deadline for FSSAI to finalise stricter food labelling norms",
+     "url": "https://www.thehindu.com/news/national/supreme-court-directs-tightening-of-front-of-package-nutrition-labelling/article71746251.ece",
      "via": "",
-     "published": "2026-11-26T20:34+00:00",
-     "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says."
+     "published": "2026-11-26T17:09+00:00",
+     "summary": "The court has asked FSSAI to treat ‘total sugars’ and ‘saturated fat’, rather than ‘added sugar’ and ‘added fat’, alongside salt, as the nutrients of concern"
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "One killed after Jazan refinery hit by hostile aerial projectile: Saudi energy ministry",
-     "url": "https://english.alarabiya.net/amp/News/saudi-arabia/2026/11/26/one-killed-after-jazan-refinery-hit-by-hostile-aerial-projectile-saudi-energy-ministry-",
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "High sugar, salt or fat? Supreme Court orders warning labels on food packs",
+     "url": "https://www.business-standard.com/industry/news/sc-mandates-separate-warning-labels-for-salt-sugar-and-fat-on-food-packs-126112600449_1.html",
      "via": "",
-     "published": "2026-11-26T18:19+00:00",
+     "published": "2026-11-26T06:45+00:00",
      "summary": ""
     }
    ],
-   "id": 24
+   "id": 29
   },
   {
    "independent_outlets": 2,
@@ -1195,7 +1363,7 @@
     "Middle East"
    ],
    "latest": "2026-11-25T17:08+00:00",
-   "earliest": "2026-11-25T16:20+00:00",
+   "earliest": "2026-11-25T16:21+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
@@ -1212,11 +1380,11 @@
      "title": "Iran FM: Israel attempting 'to deceive' US into another war with chemical weapons allegations",
      "url": "https://www.timesofisrael.com/liveblog_entry/iran-fm-israel-attempting-to-deceive-us-into-another-war-with-chemical-weapons-allegations/",
      "via": "",
-     "published": "2026-11-25T16:20+00:00",
+     "published": "2026-11-25T16:21+00:00",
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1250,7 +1418,7 @@
      "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
-   "id": 26
+   "id": 31
   }
  ]
 }
