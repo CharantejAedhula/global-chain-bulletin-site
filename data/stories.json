@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-28T02:57:44+00:00",
+ "fetched_at": "2026-11-28T03:20:20+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 42,
- "items_read": 771,
+ "items_read": 774,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,19 +12,17 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 3,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 46,
+   "items": 47,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 43,
+   "items": 44,
    "errors": []
   },
   "Caixin Global": {
@@ -34,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 39,
+   "items": 37,
    "errors": []
   },
   "Yicai Global": {
@@ -49,12 +47,12 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 16,
+   "items": 23,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 10,
+   "items": 7,
    "errors": []
   },
   "The Korea Herald": {
@@ -69,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Financial Times": {
@@ -104,7 +102,7 @@
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "Times of Israel": {
@@ -129,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 24,
+   "items": 25,
    "errors": []
   },
   "Axios": {
@@ -139,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 8,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -171,7 +169,7 @@
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 4,
+   "items": 5,
    "errors": []
   },
   "Interfax": {
@@ -191,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 32,
+   "items": 33,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -201,8 +199,10 @@
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 5,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
@@ -242,20 +242,22 @@
  },
  "clusters": [
   {
-   "independent_outlets": 3,
+   "independent_outlets": 4,
    "same_headline_groups": [],
    "outlets": [
     "Associated Press",
     "The Straits Times",
-    "Business Standard"
+    "Business Standard",
+    "Nikkei Asia"
    ],
    "regions": [
+    "East Asia",
     "North America",
     "South Asia",
     "Southeast Asia"
    ],
    "latest": "2026-11-27T15:22+00:00",
-   "earliest": "2026-11-27T02:40+00:00",
+   "earliest": "2026-11-27T02:10+00:00",
    "items": [
     {
      "outlet": "Associated Press",
@@ -283,9 +285,79 @@
      "via": "",
      "published": "2026-11-27T02:40+00:00",
      "summary": ""
+    },
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "New Zealand ruling coalition misses majority as election results announced",
+     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
+     "via": "",
+     "published": "2026-11-27T02:10+00:00",
+     "summary": ""
     }
    ],
    "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Financial Times"
+    ]
+   ],
+   "outlets": [
+    "Business Standard",
+    "Reuters",
+    "Financial Times",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East",
+    "South Asia"
+   ],
+   "latest": "2026-11-28T02:55+00:00",
+   "earliest": "2026-11-27T20:40+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "OpenAI accuses Apple of trade secret theft, unfair hiring restrictions",
+     "url": "https://www.business-standard.com/technology/tech-news/openai-accuses-apple-of-trade-secret-theft-unfair-hiring-restrictions-126112800093_1.html",
+     "via": "",
+     "published": "2026-11-28T02:55+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "OpenAI countersues Apple for stealing trade secrets",
+     "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T23:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "OpenAI countersues Apple for stealing trade secrets",
+     "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-27T23:00+00:00",
+     "summary": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+     "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-27T20:40+00:00",
+     "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
+    }
+   ],
+   "id": 2
   },
   {
    "independent_outlets": 3,
@@ -331,7 +403,7 @@
      "summary": ""
     }
    ],
-   "id": 2
+   "id": 3
   },
   {
    "independent_outlets": 3,
@@ -377,7 +449,7 @@
      "summary": ""
     }
    ],
-   "id": 3
+   "id": 4
   },
   {
    "independent_outlets": 3,
@@ -423,7 +495,7 @@
      "summary": ""
     }
    ],
-   "id": 4
+   "id": 5
   },
   {
    "independent_outlets": 3,
@@ -469,7 +541,87 @@
      "summary": ""
     }
    ],
-   "id": 5
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Deutsche Welle",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "South Asia"
+   ],
+   "latest": "2026-11-28T02:55+00:00",
+   "earliest": "2026-11-27T07:39+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Norse Atlantic Airways: Another European airline goes bankrupt amid Iran war, rising fuel costs: All you need to know",
+     "url": "https://www.livemint.com/news/world/norse-atlantic-airways-another-european-airline-goes-bankrupt-amid-iran-war-rising-fuel-costs-all-you-need-to-know-11795833764321.html",
+     "via": "",
+     "published": "2026-11-28T02:55+00:00",
+     "summary": "Norse Atlantic’s Norwegian operating subsidiary filed for bankruptcy after failing to secure funds and withstand mounting financial pressure, including rising aviation fuel costs.&nbsp;"
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+     "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-27T14:20+00:00",
+     "summary": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into bankruptcy."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
+     "url": "https://www.reuters.com/business/aerospace-defense/norse-atlantic-says-lessors-terminate-aircraft-agreements-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T07:39+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Jazeera",
+    "Associated Press"
+   ],
+   "regions": [
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-27T23:55+00:00",
+   "earliest": "2026-11-27T20:43+00:00",
+   "items": [
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US disables ship attempting to breach Iran blockade",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-27T23:55+00:00",
+     "summary": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US military says it disabled another ship that tried to breach naval blockade on Iranian ports",
+     "url": "https://apnews.com/article/iran-naval-blockade-us-military-disabled-ship-800620518a351282f098faa9381b3375",
+     "via": "",
+     "published": "2026-11-27T20:43+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -519,57 +671,7 @@
      "summary": ""
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Financial Times"
-    ]
-   ],
-   "outlets": [
-    "Reuters",
-    "Financial Times",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-27T23:00+00:00",
-   "earliest": "2026-11-27T20:40+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "OpenAI countersues Apple for stealing trade secrets",
-     "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T23:00+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "OpenAI countersues Apple for stealing trade secrets",
-     "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-27T23:00+00:00",
-     "summary": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
-     "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-27T20:40+00:00",
-     "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
-    }
-   ],
-   "id": 7
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -619,7 +721,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -654,7 +756,7 @@
      "summary": "Thailand and Myanmar agreed this week to establish 12 water sampling locations."
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -689,7 +791,7 @@
      "summary": "GeoIntelX will digitize decades of historical records to help identify copper targets and build local geoscience skills."
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -724,7 +826,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -759,7 +861,7 @@
      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore."
     }
    ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -794,42 +896,7 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "The Straits Times"
-   ],
-   "regions": [
-    "Middle East",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-27T07:38+00:00",
-   "earliest": "2026-11-27T03:41+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Australia sanctions alleged Iranian agents suspected of directing antisemitic attacks",
-     "url": "https://english.alarabiya.net/amp/News/world/2026/11/27/australia-sanctions-alleged-iranian-agents-suspected-of-directing-antisemitic-attacks",
-     "via": "",
-     "published": "2026-11-27T07:38+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Australia sanctions two alleged Iranian agents over anti-Semitic attacks",
-     "url": "https://www.straitstimes.com/asia/australianz/australia-sanctions-two-alleged-iranian-agents-over-antisemitic-attacks",
-     "via": "",
-     "published": "2026-11-27T03:41+00:00",
-     "summary": "They reportedly used a “complex chain of proxies” to target a kosher restaurant and a synagogue."
-    }
-   ],
-   "id": 14
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -864,7 +931,7 @@
      "summary": ""
     }
    ],
-   "id": 15
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -914,7 +981,42 @@
      "summary": "Authorities rescued 17 crew members but one later died in hospital after a diesel tanker capsized off the Spanish island of Ibiza. A contingency plan against possible pollution damage is now in place."
     }
    ],
-   "id": 16
+   "id": 17
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Times of Israel",
+    "Deutsche Welle"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-27T00:52+00:00",
+   "earliest": "2026-11-26T09:37+00:00",
+   "items": [
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "Germany arrests Iraqi duo over alleged synagogue attack plots",
+     "url": "https://www.timesofisrael.com/liveblog_entry/germany-arrests-iraqi-duo-over-alleged-synagogue-attack-plots/",
+     "via": "",
+     "published": "2026-11-27T00:52+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Germany: 2 arrested, suspected of plotting synagogue attack",
+     "url": "https://www.dw.com/en/germany-2-arrested-suspected-of-plotting-synagogue-attack/a-80057715?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-26T09:37+00:00",
+     "summary": "Federal prosecutors say they have ordered the arrest of two members of a pro-Iranian group on suspicion of planning an attack on a synagogue. They were detained in the cities of Heidelberg and Cologne."
+    }
+   ],
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -949,7 +1051,7 @@
      "summary": "Nvidia has told its manufacturing partners to stop shipping servers to four Southeast Asian countries."
     }
    ],
-   "id": 17
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -984,7 +1086,7 @@
      "summary": ""
     }
    ],
-   "id": 18
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1019,7 +1121,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1054,7 +1156,7 @@
      "summary": "The Trump administration proposed a new round of tariffs targeting China, the European Union and 12 other economies over policies it says have created excess industrial capacity. Why it matters: Trump officials are pressing ahead with his trade agenda despite a Democratic midterm sweep fueled by affordability concerns. Post-election polling indicates voters overwhelmingly want tariffs to stay at c"
     }
    ],
-   "id": 20
+   "id": 22
   },
   {
    "independent_outlets": 2,
@@ -1089,7 +1191,7 @@
      "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
     }
    ],
-   "id": 21
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1124,7 +1226,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1155,74 +1257,6 @@
      "url": "https://www.reuters.com/world/europe/spains-sanchez-insists-he-will-defy-polls-election-campaign-wraps-up-2026-11-27/",
      "via": "",
      "published": "2026-11-27T19:12+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "The Indian Express"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-27T15:18+00:00",
-   "earliest": "2026-11-27T08:05+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "India-U.S. trade deal is close to culmination: Goyal",
-     "url": "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
-     "via": "",
-     "published": "2026-11-27T15:18+00:00",
-     "summary": "The Commerce and Industry Minister said the “process and pathway” for finalising the pact is now taking shape, after a USTR report proposed 25% tariffs on Indian imports, capped at 17% if a deal is agreed"
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "US trade deal close, final path emerging: Piyush Goyal after new US tariff plan",
-     "url": "https://indianexpress.com/article/business/us-trade-deal-path-piyush-goyal-us-tariff-10980874/",
-     "via": "",
-     "published": "2026-11-27T08:05+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe"
-   ],
-   "latest": "2026-11-27T14:20+00:00",
-   "earliest": "2026-11-27T07:39+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
-     "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-27T14:20+00:00",
-     "summary": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into bankruptcy."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
-     "url": "https://www.reuters.com/business/aerospace-defense/norse-atlantic-says-lessors-terminate-aircraft-agreements-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T07:39+00:00",
      "summary": ""
     }
    ],
@@ -1368,40 +1402,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-26T22:24+00:00",
-   "earliest": "2026-11-26T19:46+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israeli Army Strikes Hezbollah Rockets and Launchers",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/27/israeli-army-strikes-hezbollah-rockets-and-launchers",
-     "via": "",
-     "published": "2026-11-26T22:24+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF says it struck Hezbollah rockets and launchers in strikes on Lebanon’s Beqaa Valley",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-struck-hezbollah-rockets-and-launchers-in-strikes-on-lebanons-beqaa-valley/",
-     "via": "",
-     "published": "2026-11-26T19:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 30
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Associated Press",
     "Axios"
    ],
@@ -1430,41 +1430,7 @@
      "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
     }
    ],
-   "id": 31
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "The Indian Express"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-25T17:09+00:00",
-   "earliest": "2026-11-25T16:43+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Broad-based pressure on food prices continues: RBI Bulletin",
-     "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
-     "via": "",
-     "published": "2026-11-25T17:09+00:00",
-     "summary": "CPI inflation peaked to 6.1 % (y-o-y) in October 2026 from 5.5% in September 2026, slightly above the upper tolerance level of 6%–last observed in October 2024."
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "Retail inflation likely to stay elevated in November as food prices remain high: RBI bulletin",
-     "url": "https://indianexpress.com/article/business/india-retail-inflation-november-2026-rbi-report-10978576/",
-     "via": "",
-     "published": "2026-11-25T16:43+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 32
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1498,7 +1464,7 @@
      "summary": ""
     }
    ],
-   "id": 33
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1532,7 +1498,7 @@
      "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
-   "id": 34
+   "id": 32
   }
  ]
 }
