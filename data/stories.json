@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-27T22:20:50+00:00",
+ "fetched_at": "2026-11-28T02:11:30+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
- "outlets_read": 40,
- "items_read": 687,
+ "outlets_read": 42,
+ "items_read": 774,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,33 +12,27 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 3,
+   "errors": []
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aminingweekly.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 47,
+   "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 45,
+   "items": 43,
    "errors": []
   },
   "Caixin Global": {
    "region": "China",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Acaixinglobal.com%20when%3A3d&hl=en-U: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 9,
+   "errors": []
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 38,
+   "items": 39,
    "errors": []
   },
   "Yicai Global": {
@@ -53,14 +47,12 @@
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 0,
-   "errors": [
-    "https://news.google.com/rss/search?q=site%3Aasia.nikkei.com%20when%3A3d&hl=en-US: HTTPError: HTTP Error 429: Too Many Requests"
-   ]
+   "items": 16,
+   "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 12,
+   "items": 7,
    "errors": []
   },
   "The Korea Herald": {
@@ -75,7 +67,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 31,
+   "items": 29,
    "errors": []
   },
   "Financial Times": {
@@ -85,7 +77,7 @@
   },
   "Deutsche Welle": {
    "region": "Europe",
-   "items": 12,
+   "items": 14,
    "errors": []
   },
   "Euronews": {
@@ -100,22 +92,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 15,
+   "items": 16,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 9,
+   "items": 12,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 28,
+   "items": 30,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 19,
+   "items": 21,
    "errors": []
   },
   "Amwaj.media": {
@@ -125,17 +117,17 @@
   },
   "MEED": {
    "region": "Middle East",
-   "items": 1,
+   "items": 0,
    "errors": []
   },
   "Associated Press": {
    "region": "North America",
-   "items": 20,
+   "items": 21,
    "errors": []
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 22,
+   "items": 24,
    "errors": []
   },
   "Axios": {
@@ -145,14 +137,14 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 4,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
   },
   "MINING.COM": {
    "region": "North America",
-   "items": 33,
+   "items": 34,
    "errors": []
   },
   "gCaptain": {
@@ -162,17 +154,17 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 17,
+   "items": 18,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 2,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 13,
+   "items": 18,
    "errors": []
   },
   "RNZ": {
@@ -182,7 +174,7 @@
   },
   "Interfax": {
    "region": "Russia",
-   "items": 24,
+   "items": 22,
    "errors": []
   },
   "PortNews": {
@@ -197,7 +189,7 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 30,
+   "items": 32,
    "errors": []
   },
   "Livemint / Economic Times": {
@@ -207,17 +199,19 @@
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 5,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
+   ]
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 31,
+   "items": 30,
    "errors": []
   },
   "The Jakarta Post": {
    "region": "Southeast Asia",
-   "items": 7,
+   "items": 9,
    "errors": []
   },
   "VnExpress International": {
@@ -232,12 +226,12 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 26,
+   "items": 29,
    "errors": []
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 5,
+   "items": 8,
    "errors": []
   },
   "Newsroom Panama": {
@@ -248,22 +242,112 @@
  },
  "clusters": [
   {
-   "independent_outlets": 4,
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "The Straits Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "North America",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T15:22+00:00",
+   "earliest": "2026-11-27T02:40+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Deadlocked final result in New Zealand’s election leaves a centrist newcomer as the decider",
+     "url": "https://apnews.com/article/new-zealand-election-results-a19a838d8256a0762703ff0572aca3e6",
+     "via": "",
+     "published": "2026-11-27T15:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Explainer-Parties to negotiate after no one wins majority in New Zealand election",
+     "url": "https://www.straitstimes.com/asia/explainer-parties-to-negotiate-after-no-one-wins-majority-in-new-zealand-election",
+     "via": "",
+     "published": "2026-11-27T04:56+00:00",
+     "summary": "WELLINGTON, Nov 27 - New Zealand's ruling coalition fell short of winning a parliamentary majority, final results of the November 7 election showed on Friday, leaving Prime Minister Christopher Luxon needing the support of the centrist Opportunity Party to form government."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "New Zealand election ends in deadlock as both blocs fall short of majority",
+     "url": "https://www.business-standard.com/world-news/new-zealand-election-ends-in-deadlock-as-both-blocs-fall-short-of-majority-126112700095_1.html",
+     "via": "",
+     "published": "2026-11-27T02:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 1
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "Associated Press",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Africa",
+    "Middle East",
+    "North America"
+   ],
+   "latest": "2026-11-27T14:08+00:00",
+   "earliest": "2026-11-26T09:52+00:00",
+   "items": [
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Egypt arrests driver accused of causing deadly Cairo fuel tanker crash",
+     "url": "http://www.africanews.com/2026/11/27/egypt-arrests-driver-accused-of-causing-deadly-cairo-fuel-tanker-crash/",
+     "via": "",
+     "published": "2026-11-27T14:08+00:00",
+     "summary": "Egyptian authorities have arrested a driver accused of causing a fuel tanker to overturn.The accident on Wednesday on a busy ring road surrounding Cairo caused the death of 31 people and injured 26 others."
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
+     "url": "https://apnews.com/article/cairo-egypt-highway-fire-tanker-fuel-traffic-db772346ece6e997a17c9aa3559bcee6",
+     "via": "",
+     "published": "2026-11-26T18:29+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Egypt arrests driver over fuel truck crash, fire that killed 31 in Giza",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/26/egypt-arrests-driver-over-fuel-truck-crash-fire-that-killed-31-in-giza",
+     "via": "",
+     "published": "2026-11-26T09:52+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
     "Africanews",
     "Euronews",
-    "Times of Israel",
-    "ABC News (Australia)"
+    "Times of Israel"
    ],
    "regions": [
     "Africa",
     "Europe",
-    "Middle East",
-    "Oceania"
+    "Middle East"
    ],
    "latest": "2026-11-27T13:21+00:00",
-   "earliest": "2026-11-26T15:19+00:00",
+   "earliest": "2026-11-27T00:52+00:00",
    "items": [
     {
      "outlet": "Africanews",
@@ -287,120 +371,9 @@
      "outlet": "Times of Israel",
      "region": "Middle East",
      "title": "Iran denies responsibility for deadly attack on Kuwait air defense system",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-denies-responsibility-for-deadly-attack-on-kuwait-air-defense-system/",
-     "via": "",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWk9kMlN0VTZWcVpQVzBQTjdsemFTdnlMNC1Cdjc2bmtFY3A1V09VY2NoY3lUcGJBN0RuTHB3QS1RWUkyd3l1TWFCZW5zTzNWaU1rYzhod3VLNWJObmFIa1kyeV9Kazc4TnhXcllFMUVkQ2owLVZiSkcxTUwwUTRLY09OQUpMZUN5eWV1WFYyRDhiaTlVZEJkZk44TzZsOXJLUnRDTUJNTnlzejh4SnUtd3RIYkoxRUwzcW84?oc=5",
+     "via": "Google News",
      "published": "2026-11-27T00:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "ABC News (Australia)",
-     "region": "Oceania",
-     "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
-     "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
-     "via": "",
-     "published": "2026-11-26T15:19+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 1
-  },
-  {
-   "independent_outlets": 4,
-   "same_headline_groups": [],
-   "outlets": [
-    "Livemint / Economic Times",
-    "Associated Press",
-    "Axios",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America",
-    "South Asia"
-   ],
-   "latest": "2026-11-26T18:33+00:00",
-   "earliest": "2026-11-26T15:18+00:00",
-   "items": [
-    {
-     "outlet": "Livemint / Economic Times",
-     "region": "South Asia",
-     "title": "‘Massive, purposeful error’: Trump seeks probe into alleged ‘FAKE’ US GDP figures after growth revised to 4.3%",
-     "url": "https://www.livemint.com/news/us-news/massive-purposeful-error-trump-seeks-probe-into-alleged-fake-us-gdp-figures-after-growth-revised-to-43-11795716885185.html",
-     "via": "",
-     "published": "2026-11-26T18:33+00:00",
-     "summary": "Trump has demanded an investigation into US GDP figures, alleging earlier growth estimates were deliberately under-reported. His remarks came after the third-quarter growth estimate was revised up to 4.3% from 3.4%.&nbsp;"
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
-     "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e",
-     "via": "",
-     "published": "2026-11-26T16:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump demands investigation into GDP data revisions",
-     "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
-     "via": "",
-     "published": "2026-11-26T16:29+00:00",
-     "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump demands probe of GDP data released before midterms",
-     "url": "https://www.reuters.com/world/us/trump-demands-probe-gdp-data-released-before-midterms-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T15:18+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Al Arabiya",
-    "Associated Press"
-   ],
-   "regions": [
-    "Africa",
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-27T14:08+00:00",
-   "earliest": "2026-11-25T23:14+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Egypt arrests driver accused of causing deadly Cairo fuel tanker crash",
-     "url": "http://www.africanews.com/2026/11/27/egypt-arrests-driver-accused-of-causing-deadly-cairo-fuel-tanker-crash/",
-     "via": "",
-     "published": "2026-11-27T14:08+00:00",
-     "summary": "Egyptian authorities have arrested a driver accused of causing a fuel tanker to overturn.The accident on Wednesday on a busy ring road surrounding Cairo caused the death of 31 people and injured 26 others."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Egypt arrests driver over fuel truck crash, fire that killed 31 in Giza",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/26/egypt-arrests-driver-over-fuel-truck-crash-fire-that-killed-31-in-giza",
-     "via": "",
-     "published": "2026-11-26T09:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
-     "url": "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e",
-     "via": "",
-     "published": "2026-11-25T23:14+00:00",
      "summary": ""
     }
    ],
@@ -456,137 +429,53 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Business Standard",
-    "VnExpress International",
-    "Reuters"
+    "The Straits Times",
+    "Reuters",
+    "Associated Press"
    ],
    "regions": [
     "Europe",
-    "South Asia",
+    "North America",
     "Southeast Asia"
    ],
-   "latest": "2026-11-26T17:09+00:00",
-   "earliest": "2026-11-26T05:09+00:00",
+   "latest": "2026-11-27T03:50+00:00",
+   "earliest": "2026-11-26T11:11+00:00",
    "items": [
     {
-     "outlet": "Business Standard",
-     "region": "South Asia",
-     "title": "Nvidia halts shipments of AI servers to four Southeast Asian countries",
-     "url": "https://www.business-standard.com/world-news/nvidia-halts-shipments-of-ai-servers-to-four-southeast-asian-countries-126112601562_1.html",
-     "via": "",
-     "published": "2026-11-26T17:09+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "VnExpress International",
+     "outlet": "The Straits Times",
      "region": "Southeast Asia",
-     "title": "Nvidia halts chip shipments to Southeast Asia",
-     "url": "https://e.vnexpress.net/news/business/companies/nvidia-halts-chip-shipments-to-southeast-asia-5149166.html",
+     "title": "Residents can return after Bangchak refinery fire as Bangkok air checks continue",
+     "url": "https://www.straitstimes.com/asia/se-asia/residents-can-return-after-bangchak-refinery-fire-as-bangkok-air-checks-continue",
      "via": "",
-     "published": "2026-11-26T09:33+00:00",
-     "summary": "Nvidia has told its manufacturing partners to stop shipping servers to four Southeast Asian countries."
+     "published": "2026-11-27T03:50+00:00",
+     "summary": "The company previously shut down all production units after a fire on Nov 26."
     },
     {
      "outlet": "Reuters",
      "region": "Europe",
-     "title": "Nvidia halts server shipments to four Southeast Asian countries, FT reports",
-     "url": "https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/",
+     "title": "Thailand's Bangchak shuts all units at Bangkok refinery after fire, says 9 workers injured",
+     "url": "https://www.reuters.com/business/energy/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-2026-11-26/",
      "via": "",
-     "published": "2026-11-26T05:09+00:00",
+     "published": "2026-11-26T12:35+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "At least 9 injured by large explosion and fire at major oil facility in Bangkok",
+     "url": "https://apnews.com/article/thailand-bangkok-explosion-oil-facility-e8098146bfb994dffc14448b1027c5d1",
+     "via": "",
+     "published": "2026-11-26T11:11+00:00",
      "summary": ""
     }
    ],
    "id": 5
   },
   {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Financial Times"
-    ]
-   ],
-   "outlets": [
-    "Reuters",
-    "Al Jazeera",
-    "Financial Times"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-27T20:54+00:00",
-   "earliest": "2026-11-27T18:20+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "OpenAI countersues Apple for stealing trade secrets",
-     "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T20:54+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
-     "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-27T20:40+00:00",
-     "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "OpenAI countersues Apple for stealing trade secrets",
-     "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-27T18:20+00:00",
-     "summary": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates"
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
+   "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Reuters",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-27T20:06+00:00",
-   "earliest": "2026-11-27T17:55+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
-     "url": "https://www.reuters.com/world/middle-east/us-disables-ship-trying-leave-iran-tehran-vows-confront-blockade-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T20:06+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "US Military Disables Ship That Ran Iran Blockade",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/27/us-military-disables-ship-that-ran-iran-blockade",
-     "via": "",
-     "published": "2026-11-27T17:55+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
+    "Deutsche Welle",
     "Reuters",
     "Al Jazeera"
    ],
@@ -594,9 +483,18 @@
     "Europe",
     "Middle East"
    ],
-   "latest": "2026-11-27T19:12+00:00",
+   "latest": "2026-11-28T00:51+00:00",
    "earliest": "2026-11-27T17:15+00:00",
    "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Spain's Sanchez makes final appeal to voters before election",
+     "url": "https://www.dw.com/en/spain-s-sanchez-makes-final-appeal-to-voters-before-election/a-80082783?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-28T00:51+00:00",
+     "summary": "Spanish Prime Minister Pedro Sanchez told people to turn out in large numbers so the country does not go \"backwards.\" Polls suggest an end to his eight-year leftist leadership of Spain."
+    },
     {
      "outlet": "Reuters",
      "region": "Europe",
@@ -616,42 +514,237 @@
      "summary": "Prime Minister Pedro Sanchez makes last bid to beat right-wing parties before Spanish vote on Sunday."
     }
    ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Axios",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "North America"
+   ],
+   "latest": "2026-11-26T16:55+00:00",
+   "earliest": "2026-11-26T15:18+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
+     "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e",
+     "via": "",
+     "published": "2026-11-26T16:55+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump demands investigation into GDP data revisions",
+     "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
+     "via": "",
+     "published": "2026-11-26T16:29+00:00",
+     "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Trump demands probe of GDP data released before midterms",
+     "url": "https://www.reuters.com/world/us/trump-demands-probe-gdp-data-released-before-midterms-2026-11-26/",
+     "via": "",
+     "published": "2026-11-26T15:18+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Al Arabiya"
+    ]
+   ],
+   "outlets": [
+    "Reuters",
+    "Al Jazeera",
+    "Al Arabiya"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-27T23:26+00:00",
+   "earliest": "2026-11-27T14:32+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Son of Hamas chief survives Israeli strike, Hamas says",
+     "url": "https://www.reuters.com/world/middle-east/son-hamas-chief-survives-israeli-strike-hamas-says-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T23:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-27T20:18+00:00",
+     "summary": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday."
+    },
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Son of Hamas chief survives Israeli strike, Hamas says",
+     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/27/son-of-hamas-chief-survives-israeli-strike-hamas-says",
+     "via": "",
+     "published": "2026-11-27T14:32+00:00",
+     "summary": ""
+    }
+   ],
    "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "Reuters",
+     "Financial Times"
+    ]
+   ],
+   "outlets": [
+    "Reuters",
+    "Financial Times",
+    "Al Jazeera"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-27T23:00+00:00",
+   "earliest": "2026-11-27T20:40+00:00",
+   "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "OpenAI countersues Apple for stealing trade secrets",
+     "url": "https://www.reuters.com/technology/openai-countersues-apple-stealing-trade-secrets-ft-reports-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T23:00+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Financial Times",
+     "region": "Europe",
+     "title": "OpenAI countersues Apple for stealing trade secrets",
+     "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+     "via": "",
+     "published": "2026-11-27T23:00+00:00",
+     "summary": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates"
+    },
+    {
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+     "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+     "via": "",
+     "published": "2026-11-27T20:40+00:00",
+     "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
+    }
+   ],
+   "id": 9
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "MINING.COM",
-    "Mining.com.au"
+    "Al Jazeera",
+    "Associated Press"
    ],
    "regions": [
-    "North America",
-    "Oceania"
+    "Middle East",
+    "North America"
    ],
-   "latest": "2026-11-27T17:48+00:00",
-   "earliest": "2026-11-26T20:17+00:00",
+   "latest": "2026-11-27T22:22+00:00",
+   "earliest": "2026-11-27T21:26+00:00",
    "items": [
     {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Copper price jumps most since January as short sellers retreat",
-     "url": "https://www.mining.com/copper-price-jumps-most-since-january-as-short-sellers-retreat/",
+     "outlet": "Al Jazeera",
+     "region": "Middle East",
+     "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+     "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
      "via": "",
-     "published": "2026-11-27T17:48+00:00",
-     "summary": "Traders who had bet on further declines were forced to buy back copper as the rebound in US shares lifted sentiment."
+     "published": "2026-11-27T22:22+00:00",
+     "summary": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed."
     },
     {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Copper price bounces, zinc price jumps by most since January",
-     "url": "https://mining.com.au/copper-price-bounces-zinc-price-jumps-by-most-since-january/",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "US military says it has disabled another ship trying to breach its blockade, and other Mideast news",
+     "url": "https://apnews.com/article/saudi-iran-yemen-israel-november-27-2026-dbb2c950f5cd991a52f3a065b6325535",
      "via": "",
-     "published": "2026-11-26T20:17+00:00",
+     "published": "2026-11-27T21:26+00:00",
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 10
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [
+    [
+     "gCaptain",
+     "Mining Weekly"
+    ]
+   ],
+   "outlets": [
+    "gCaptain",
+    "MINING.COM",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "North America"
+   ],
+   "latest": "2026-11-27T15:32+00:00",
+   "earliest": "2026-11-27T06:47+00:00",
+   "items": [
+    {
+     "outlet": "gCaptain",
+     "region": "North America",
+     "title": "Rio Tinto Ships First Ore From Giant Simandou Mine to Europe",
+     "url": "https://gcaptain.com/rio-tinto-ships-first-ore-from-giant-simandou-mine-to-europe/",
+     "via": "",
+     "published": "2026-11-27T15:32+00:00",
+     "summary": "Guinea’s giant Simandou iron ore project, which began stepping up production this year, has exported its first cargo to a European customer, according to Kpler."
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Rio Tinto ships first Simandou iron ore cargo to Europe",
+     "url": "https://www.mining.com/rio-tinto-ships-first-simandou-iron-ore-cargo-to-europe/",
+     "via": "",
+     "published": "2026-11-27T11:03+00:00",
+     "summary": "A ship with 79,081 tonnes of iron ore fines left Simandou and will arrive in Dunkirk, France, in early December."
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Rio Tinto ships first ore from giant Simandou mine to Europe",
+     "url": "https://www.miningweekly.com/article/rio-tinto-ships-first-ore-from-giant-simandou-mine-to-europe-2026-11-27",
+     "via": "",
+     "published": "2026-11-27T06:47+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -686,7 +779,77 @@
      "summary": "Thailand and Myanmar agreed this week to establish 12 water sampling locations."
     }
    ],
-   "id": 10
+   "id": 12
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "MINING.COM"
+   ],
+   "regions": [
+    "North America",
+    "Oceania"
+   ],
+   "latest": "2026-11-27T14:08+00:00",
+   "earliest": "2026-11-26T08:43+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Ivanhoe Mines backs AI for Angola copper exploration",
+     "url": "https://mining.com.au/ivanhoe-mines-backs-ai-for-angola-copper-exploration/",
+     "via": "",
+     "published": "2026-11-27T14:08+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "MINING.COM",
+     "region": "North America",
+     "title": "Ivanhoe Mines taps AI to unlock Angola’s geological archives",
+     "url": "https://www.mining.com/ivanhoe-mines-taps-ai-to-unlock-angolas-geological-archives/",
+     "via": "",
+     "published": "2026-11-26T08:43+00:00",
+     "summary": "GeoIntelX will digitize decades of historical records to help identify copper targets and build local geoscience skills."
+    }
+   ],
+   "id": 13
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Mining.com.au",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa",
+    "Oceania"
+   ],
+   "latest": "2026-11-27T13:57+00:00",
+   "earliest": "2026-11-26T09:33+00:00",
+   "items": [
+    {
+     "outlet": "Mining.com.au",
+     "region": "Oceania",
+     "title": "Aterian signs exclusivity deal for Moroccan copper projects",
+     "url": "https://mining.com.au/aterian-signs-exclusivity-deal-for-moroccan-copper-projects/",
+     "via": "",
+     "published": "2026-11-27T13:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Aterian signs due diligence, exclusivity agreement for Morocco copper projects",
+     "url": "https://www.miningweekly.com/article/aterian-signs-due-diligence-exclusivity-agreement-for-morocco-copper-projects-2026-11-26",
+     "via": "",
+     "published": "2026-11-26T09:33+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -721,7 +884,77 @@
      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore."
     }
    ],
-   "id": 11
+   "id": 15
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T10:26+00:00",
+   "earliest": "2026-11-27T05:48+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Indonesia considers subsidized fuel price hike as fiscal pressure mounts: Reports - Regulations",
+     "url": "https://www.thejakartapost.com/business/2026/11/27/indonesia-considers-subsidized-fuel-price-hike-as-fiscal-pressure-mounts-reports",
+     "via": "",
+     "published": "2026-11-27T10:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Indonesia considers subsidised fuel price hike as fiscal pressure mounts, sources say",
+     "url": "https://www.reuters.com/business/energy/indonesia-considers-subsidised-fuel-price-hike-fiscal-pressure-mounts-sources-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T05:48+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 16
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "The Straits Times"
+   ],
+   "regions": [
+    "Middle East",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T07:38+00:00",
+   "earliest": "2026-11-27T03:41+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Australia sanctions alleged Iranian agents suspected of directing antisemitic attacks",
+     "url": "https://english.alarabiya.net/amp/News/world/2026/11/27/australia-sanctions-alleged-iranian-agents-suspected-of-directing-antisemitic-attacks",
+     "via": "",
+     "published": "2026-11-27T07:38+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Australia sanctions two alleged Iranian agents over anti-Semitic attacks",
+     "url": "https://www.straitstimes.com/asia/australianz/australia-sanctions-two-alleged-iranian-agents-over-antisemitic-attacks",
+     "via": "",
+     "published": "2026-11-27T03:41+00:00",
+     "summary": "They reportedly used a “complex chain of proxies” to target a kosher restaurant and a synagogue."
+    }
+   ],
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -756,7 +989,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -791,63 +1024,37 @@
      "summary": ""
     }
    ],
-   "id": 13
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-27T03:50+00:00",
-   "earliest": "2026-11-26T12:35+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Residents can return after Bangchak refinery fire as Bangkok air checks continue",
-     "url": "https://www.straitstimes.com/asia/se-asia/residents-can-return-after-bangchak-refinery-fire-as-bangkok-air-checks-continue",
-     "via": "",
-     "published": "2026-11-27T03:50+00:00",
-     "summary": "The company previously shut down all production units after a fire on Nov 26."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Thailand's Bangchak shuts all units at Bangkok refinery after fire, says 9 workers injured",
-     "url": "https://www.reuters.com/business/energy/thailands-bangchak-shuts-all-units-bangkok-refinery-after-fire-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T12:35+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
+   "id": 19
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
-     "gCaptain",
-     "Reuters"
+     "Reuters",
+     "gCaptain"
     ]
    ],
    "outlets": [
+    "Reuters",
     "gCaptain",
-    "Deutsche Welle",
-    "Reuters"
+    "Deutsche Welle"
    ],
    "regions": [
     "Europe",
     "North America"
    ],
-   "latest": "2026-11-26T14:44+00:00",
-   "earliest": "2026-11-26T07:41+00:00",
+   "latest": "2026-11-27T02:53+00:00",
+   "earliest": "2026-11-26T11:58+00:00",
    "items": [
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far",
+     "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/",
+     "via": "",
+     "published": "2026-11-27T02:53+00:00",
+     "summary": ""
+    },
     {
      "outlet": "gCaptain",
      "region": "North America",
@@ -865,18 +1072,44 @@
      "via": "",
      "published": "2026-11-26T11:58+00:00",
      "summary": "Authorities rescued 17 crew members but one later died in hospital after a diesel tanker capsized off the Spanish island of Ibiza. A contingency plan against possible pollution damage is now in place."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far",
-     "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T07:41+00:00",
-     "summary": ""
     }
    ],
-   "id": 15
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Business Standard",
+    "VnExpress International"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-26T17:09+00:00",
+   "earliest": "2026-11-26T09:33+00:00",
+   "items": [
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia halts shipments of AI servers to four Southeast Asian countries",
+     "url": "https://www.business-standard.com/world-news/nvidia-halts-shipments-of-ai-servers-to-four-southeast-asian-countries-126112601562_1.html",
+     "via": "",
+     "published": "2026-11-26T17:09+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Nvidia halts chip shipments to Southeast Asia",
+     "url": "https://e.vnexpress.net/news/business/companies/nvidia-halts-chip-shipments-to-southeast-asia-5149166.html",
+     "via": "",
+     "published": "2026-11-26T09:33+00:00",
+     "summary": "Nvidia has told its manufacturing partners to stop shipping servers to four Southeast Asian countries."
+    }
+   ],
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -911,7 +1144,42 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Nikkei Asia",
+    "Business Standard"
+   ],
+   "regions": [
+    "East Asia",
+    "South Asia"
+   ],
+   "latest": "2026-11-25T17:32+00:00",
+   "earliest": "2026-11-25T13:41+00:00",
+   "items": [
+    {
+     "outlet": "Nikkei Asia",
+     "region": "East Asia",
+     "title": "Trump rebuilds tariff wall with new duties on China, Japan and others",
+     "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/trump-rebuilds-tariff-wall-with-new-duties-on-china-japan-and-others",
+     "via": "",
+     "published": "2026-11-25T17:32+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Trump rebuilds global tariff wall, India faces proposed duties of up to 25%",
+     "url": "https://www.business-standard.com/world-news/trump-rebuilds-global-tariff-wall-india-faces-proposed-duties-of-up-to-25-126112501129_1.html",
+     "via": "",
+     "published": "2026-11-25T13:41+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -946,7 +1214,7 @@
      "summary": "The Trump administration proposed a new round of tariffs targeting China, the European Union and 12 other economies over policies it says have created excess industrial capacity. Why it matters: Trump officials are pressing ahead with his trade agenda despite a Democratic midterm sweep fueled by affordability concerns. Post-election polling indicates voters overwhelmingly want tariffs to stay at c"
     }
    ],
-   "id": 17
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -981,88 +1249,55 @@
      "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
     }
    ],
-   "id": 18
+   "id": 25
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Al Jazeera",
-    "Al Arabiya"
+    "The Korea Herald",
+    "Mining Weekly"
    ],
    "regions": [
-    "Middle East"
+    "Africa",
+    "East Asia"
    ],
-   "latest": "2026-11-27T20:18+00:00",
-   "earliest": "2026-11-27T14:32+00:00",
+   "latest": "2026-11-25T15:18+00:00",
+   "earliest": "2026-11-25T09:08+00:00",
    "items": [
     {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+     "outlet": "The Korea Herald",
+     "region": "East Asia",
+     "title": "S-Oil completes W9tr Shaheen petrochemical project",
+     "url": "https://www.koreaherald.com/article/10949147",
      "via": "",
-     "published": "2026-11-27T20:18+00:00",
-     "summary": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday."
+     "published": "2026-11-25T15:18+00:00",
+     "summary": "S-Oil marked the completion of its Shaheen petrochemical complex in Ulsan on Wednesday, capping South Korea’s largest-ever petrochemical investment as the refiner moves to expand its chemicals business. The project cost 9.26 trillion won ($6.9 billion). The Shaheen Project is scheduled to begin commercial operations in 2027 after trial runs. It will add about 3.2 million metric tons of annual petr"
     },
     {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Son of Hamas chief survives Israeli strike, Hamas says",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/27/son-of-hamas-chief-survives-israeli-strike-hamas-says",
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "Aramco, S-Oil inaugurate $7bn petrochemicals complex in South Korea",
+     "url": "https://www.miningweekly.com/article/aramco-s-oil-inaugurate-7bn-petrochemicals-complex-in-south-korea-2026-11-25",
      "via": "",
-     "published": "2026-11-27T14:32+00:00",
+     "published": "2026-11-25T09:08+00:00",
      "summary": ""
     }
    ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "gCaptain",
-    "MINING.COM"
-   ],
-   "regions": [
-    "North America"
-   ],
-   "latest": "2026-11-27T15:32+00:00",
-   "earliest": "2026-11-27T11:03+00:00",
-   "items": [
-    {
-     "outlet": "gCaptain",
-     "region": "North America",
-     "title": "Rio Tinto Ships First Ore From Giant Simandou Mine to Europe",
-     "url": "https://gcaptain.com/rio-tinto-ships-first-ore-from-giant-simandou-mine-to-europe/",
-     "via": "",
-     "published": "2026-11-27T15:32+00:00",
-     "summary": "Guinea’s giant Simandou iron ore project, which began stepping up production this year, has exported its first cargo to a European customer, according to Kpler."
-    },
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Rio Tinto ships first Simandou iron ore cargo to Europe",
-     "url": "https://www.mining.com/rio-tinto-ships-first-simandou-iron-ore-cargo-to-europe/",
-     "via": "",
-     "published": "2026-11-27T11:03+00:00",
-     "summary": "A ship with 79,081 tonnes of iron ore fines left Simandou and will arrive in Dunkirk, France, in early December."
-    }
-   ],
-   "id": 20
+   "id": 26
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "The Hindu",
-    "The Indian Express"
+    "Business Standard"
    ],
    "regions": [
     "South Asia"
    ],
    "latest": "2026-11-27T15:18+00:00",
-   "earliest": "2026-11-27T08:05+00:00",
+   "earliest": "2026-11-27T08:41+00:00",
    "items": [
     {
      "outlet": "The Hindu",
@@ -1074,16 +1309,16 @@
      "summary": "The Commerce and Industry Minister said the “process and pathway” for finalising the pact is now taking shape, after a USTR report proposed 25% tariffs on Indian imports, capped at 17% if a deal is agreed"
     },
     {
-     "outlet": "The Indian Express",
+     "outlet": "Business Standard",
      "region": "South Asia",
-     "title": "US trade deal close, final path emerging: Piyush Goyal after new US tariff plan",
-     "url": "https://indianexpress.com/article/business/us-trade-deal-path-piyush-goyal-us-tariff-10980874/",
+     "title": "India-US trade pact nears finish as pathway takes shape: Piyush Goyal",
+     "url": "https://www.business-standard.com/economy/news/india-us-trade-deal-close-to-culmination-piyush-goyal-ustr-tariff-126112700570_1.html",
      "via": "",
-     "published": "2026-11-27T08:05+00:00",
+     "published": "2026-11-27T08:41+00:00",
      "summary": ""
     }
    ],
-   "id": 21
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1117,7 +1352,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1151,7 +1386,41 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Ecofin Agency",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "latest": "2026-11-27T06:36+00:00",
+   "earliest": "2026-11-26T11:21+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Chinese Investors Eye Southern Africa Gold With $600 Million Zimbabwe Proposal",
+     "url": "https://www.ecofinagency.com/news/2711-61229-chinese-investors-eye-southern-africa-gold-with-600-million-zimbabwe-proposal",
+     "via": "",
+     "published": "2026-11-27T06:36+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "China Railway Resources Group plans $600m investment in Zimbabwe gold mines",
+     "url": "https://www.miningweekly.com/article/china-railway-resources-group-plans-600m-investment-in-zimbabwe-gold-mines-2026-11-26",
+     "via": "",
+     "published": "2026-11-26T11:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1185,75 +1454,7 @@
      "summary": "The case could shake Indonesia’s nickel sector, which supplies about 60% of global output."
     }
    ],
-   "id": 24
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Arabiya",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Middle East"
-   ],
-   "latest": "2026-11-26T22:24+00:00",
-   "earliest": "2026-11-26T19:46+00:00",
-   "items": [
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Israeli Army Strikes Hezbollah Rockets and Launchers",
-     "url": "https://english.alarabiya.net/webtv/media/2026/11/27/israeli-army-strikes-hezbollah-rockets-and-launchers",
-     "via": "",
-     "published": "2026-11-26T22:24+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "IDF says it struck Hezbollah rockets and launchers in strikes on Lebanon’s Beqaa Valley",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-struck-hezbollah-rockets-and-launchers-in-strikes-on-lebanons-beqaa-valley/",
-     "via": "",
-     "published": "2026-11-26T19:46+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 25
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Hindu",
-    "The Indian Express"
-   ],
-   "regions": [
-    "South Asia"
-   ],
-   "latest": "2026-11-25T17:09+00:00",
-   "earliest": "2026-11-25T16:43+00:00",
-   "items": [
-    {
-     "outlet": "The Hindu",
-     "region": "South Asia",
-     "title": "Broad-based pressure on food prices continues: RBI Bulletin",
-     "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
-     "via": "",
-     "published": "2026-11-25T17:09+00:00",
-     "summary": "CPI inflation peaked to 6.1 % (y-o-y) in October 2026 from 5.5% in September 2026, slightly above the upper tolerance level of 6%–last observed in October 2024."
-    },
-    {
-     "outlet": "The Indian Express",
-     "region": "South Asia",
-     "title": "Retail inflation likely to stay elevated in November as food prices remain high: RBI bulletin",
-     "url": "https://indianexpress.com/article/business/india-retail-inflation-november-2026-rbi-report-10978576/",
-     "via": "",
-     "published": "2026-11-25T16:43+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 26
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1287,7 +1488,41 @@
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 32
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Caixin Global",
+    "South China Morning Post"
+   ],
+   "regions": [
+    "China"
+   ],
+   "latest": "2026-11-25T16:58+00:00",
+   "earliest": "2026-11-25T06:47+00:00",
+   "items": [
+    {
+     "outlet": "Caixin Global",
+     "region": "China",
+     "title": "BYD in Exclusive Talks to Buy INEOS Factory in France",
+     "url": "https://www.caixinglobal.com/2026-11-26/byd-in-exclusive-talks-to-buy-ineos-factory-in-france-102508766.html",
+     "via": "",
+     "published": "2026-11-25T16:58+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "South China Morning Post",
+     "region": "China",
+     "title": "BYD eyes a second European plant, enters talks with Ineos over a French assembly",
+     "url": "https://www.scmp.com/business/china-evs/article/3375711/byd-eyes-second-european-plant-enters-talks-ineos-over-french-assembly-france",
+     "via": "",
+     "published": "2026-11-25T06:47+00:00",
+     "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
+    }
+   ],
+   "id": 33
   }
  ]
 }
