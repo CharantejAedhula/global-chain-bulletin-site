@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-28T02:11:30+00:00",
+ "fetched_at": "2026-11-28T02:57:44+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 42,
- "items_read": 774,
+ "items_read": 771,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -12,12 +12,14 @@
   },
   "The Africa Report": {
    "region": "Africa",
-   "items": 3,
-   "errors": []
+   "items": 0,
+   "errors": [
+    "https://www.theafricareport.com/feed/: HTTPError: HTTP Error 429: Too Many Requests"
+   ]
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 47,
+   "items": 46,
    "errors": []
   },
   "Ecofin Agency": {
@@ -42,7 +44,7 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 48,
+   "items": 49,
    "errors": []
   },
   "Nikkei Asia": {
@@ -52,7 +54,7 @@
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 7,
+   "items": 10,
    "errors": []
   },
   "The Korea Herald": {
@@ -67,7 +69,7 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 29,
+   "items": 25,
    "errors": []
   },
   "Financial Times": {
@@ -97,17 +99,17 @@
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 12,
+   "items": 11,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 30,
+   "items": 31,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 21,
+   "items": 20,
    "errors": []
   },
   "Amwaj.media": {
@@ -137,7 +139,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 7,
+   "items": 8,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -164,7 +166,7 @@
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 12,
    "errors": []
   },
   "RNZ": {
@@ -199,14 +201,12 @@
   },
   "The Indian Express": {
    "region": "South Asia",
-   "items": 0,
-   "errors": [
-    "https://indianexpress.com/section/business/feed/: HTTPError: HTTP Error 403: Forbidden"
-   ]
+   "items": 5,
+   "errors": []
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 30,
+   "items": 29,
    "errors": []
   },
   "The Jakarta Post": {
@@ -226,7 +226,7 @@
   },
   "BNamericas": {
    "region": "Latin America",
-   "items": 29,
+   "items": 28,
    "errors": []
   },
   "Rio Times": {
@@ -371,8 +371,8 @@
      "outlet": "Times of Israel",
      "region": "Middle East",
      "title": "Iran denies responsibility for deadly attack on Kuwait air defense system",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWk9kMlN0VTZWcVpQVzBQTjdsemFTdnlMNC1Cdjc2bmtFY3A1V09VY2NoY3lUcGJBN0RuTHB3QS1RWUkyd3l1TWFCZW5zTzNWaU1rYzhod3VLNWJObmFIa1kyeV9Kazc4TnhXcllFMUVkQ2owLVZiSkcxTUwwUTRLY09OQUpMZUN5eWV1WFYyRDhiaTlVZEJkZk44TzZsOXJLUnRDTUJNTnlzejh4SnUtd3RIYkoxRUwzcW84?oc=5",
-     "via": "Google News",
+     "url": "https://www.timesofisrael.com/liveblog_entry/iran-denies-responsibility-for-deadly-attack-on-kuwait-air-defense-system/",
+     "via": "",
      "published": "2026-11-27T00:52+00:00",
      "summary": ""
     }
@@ -472,96 +472,6 @@
    "id": 5
   },
   {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Deutsche Welle",
-    "Reuters",
-    "Al Jazeera"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-28T00:51+00:00",
-   "earliest": "2026-11-27T17:15+00:00",
-   "items": [
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Spain's Sanchez makes final appeal to voters before election",
-     "url": "https://www.dw.com/en/spain-s-sanchez-makes-final-appeal-to-voters-before-election/a-80082783?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-28T00:51+00:00",
-     "summary": "Spanish Prime Minister Pedro Sanchez told people to turn out in large numbers so the country does not go \"backwards.\" Polls suggest an end to his eight-year leftist leadership of Spain."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
-     "url": "https://www.reuters.com/world/europe/spains-sanchez-insists-he-will-defy-polls-election-campaign-wraps-up-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T19:12+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Spain’s Pedro Sanchez bets on left-wing voting surge to defy election polls",
-     "url": "https://www.aljazeera.com/news/2026/11/27/spains-pedro-sanchez-bets-on-left-wing-voting-surge-to-defy-election-polls?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-27T17:15+00:00",
-     "summary": "Prime Minister Pedro Sanchez makes last bid to beat right-wing parties before Spanish vote on Sunday."
-    }
-   ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Associated Press",
-    "Axios",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "North America"
-   ],
-   "latest": "2026-11-26T16:55+00:00",
-   "earliest": "2026-11-26T15:18+00:00",
-   "items": [
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
-     "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e",
-     "via": "",
-     "published": "2026-11-26T16:55+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump demands investigation into GDP data revisions",
-     "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
-     "via": "",
-     "published": "2026-11-26T16:29+00:00",
-     "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Trump demands probe of GDP data released before midterms",
-     "url": "https://www.reuters.com/world/us/trump-demands-probe-gdp-data-released-before-midterms-2026-11-26/",
-     "via": "",
-     "published": "2026-11-26T15:18+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
-  },
-  {
    "independent_outlets": 2,
    "same_headline_groups": [
     [
@@ -609,7 +519,7 @@
      "summary": ""
     }
    ],
-   "id": 8
+   "id": 6
   },
   {
    "independent_outlets": 2,
@@ -659,42 +569,7 @@
      "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
     }
    ],
-   "id": 9
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Al Jazeera",
-    "Associated Press"
-   ],
-   "regions": [
-    "Middle East",
-    "North America"
-   ],
-   "latest": "2026-11-27T22:22+00:00",
-   "earliest": "2026-11-27T21:26+00:00",
-   "items": [
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "US military says it disabled merchant ship trying to breach Iran blockade",
-     "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-27T22:22+00:00",
-     "summary": "The US military says it disabled the Palau-flagged ship’s propulsion but its crew was unharmed."
-    },
-    {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "US military says it has disabled another ship trying to breach its blockade, and other Mideast news",
-     "url": "https://apnews.com/article/saudi-iran-yemen-israel-november-27-2026-dbb2c950f5cd991a52f3a065b6325535",
-     "via": "",
-     "published": "2026-11-27T21:26+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 10
+   "id": 7
   },
   {
    "independent_outlets": 2,
@@ -744,7 +619,7 @@
      "summary": ""
     }
    ],
-   "id": 11
+   "id": 8
   },
   {
    "independent_outlets": 2,
@@ -779,7 +654,7 @@
      "summary": "Thailand and Myanmar agreed this week to establish 12 water sampling locations."
     }
    ],
-   "id": 12
+   "id": 9
   },
   {
    "independent_outlets": 2,
@@ -814,7 +689,7 @@
      "summary": "GeoIntelX will digitize decades of historical records to help identify copper targets and build local geoscience skills."
     }
    ],
-   "id": 13
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -849,7 +724,7 @@
      "summary": ""
     }
    ],
-   "id": 14
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -884,7 +759,7 @@
      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore."
     }
    ],
-   "id": 15
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -919,7 +794,7 @@
      "summary": ""
     }
    ],
-   "id": 16
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -954,42 +829,7 @@
      "summary": "They reportedly used a “complex chain of proxies” to target a kosher restaurant and a synagogue."
     }
    ],
-   "id": 17
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Reuters"
-   ],
-   "regions": [
-    "Europe",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-27T06:12+00:00",
-   "earliest": "2026-11-27T06:07+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Taiwan local election campaigns enter final day; China sends warplanes",
-     "url": "https://www.straitstimes.com/asia/east-asia/taiwan-candidates-campaign-for-key-local-elections-on-final-day",
-     "via": "",
-     "published": "2026-11-27T06:12+00:00",
-     "summary": "The vote on Nov 28 may shape early moves for the 2028 presidential race."
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Packed rallies close Taiwan election campaign; China sends warplanes",
-     "url": "https://www.reuters.com/world/china/taiwan-candidates-campaign-key-local-elections-final-day-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T06:07+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 18
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -1024,7 +864,7 @@
      "summary": ""
     }
    ],
-   "id": 19
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -1074,7 +914,7 @@
      "summary": "Authorities rescued 17 crew members but one later died in hospital after a diesel tanker capsized off the Spanish island of Ibiza. A contingency plan against possible pollution damage is now in place."
     }
    ],
-   "id": 20
+   "id": 16
   },
   {
    "independent_outlets": 2,
@@ -1109,7 +949,7 @@
      "summary": "Nvidia has told its manufacturing partners to stop shipping servers to four Southeast Asian countries."
     }
    ],
-   "id": 21
+   "id": 17
   },
   {
    "independent_outlets": 2,
@@ -1144,7 +984,7 @@
      "summary": ""
     }
    ],
-   "id": 22
+   "id": 18
   },
   {
    "independent_outlets": 2,
@@ -1179,7 +1019,7 @@
      "summary": ""
     }
    ],
-   "id": 23
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1214,7 +1054,7 @@
      "summary": "The Trump administration proposed a new round of tariffs targeting China, the European Union and 12 other economies over policies it says have created excess industrial capacity. Why it matters: Trump officials are pressing ahead with his trade agenda despite a Democratic midterm sweep fueled by affordability concerns. Post-election polling indicates voters overwhelmingly want tariffs to stay at c"
     }
    ],
-   "id": 24
+   "id": 20
   },
   {
    "independent_outlets": 2,
@@ -1249,7 +1089,7 @@
      "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
     }
    ],
-   "id": 25
+   "id": 21
   },
   {
    "independent_outlets": 2,
@@ -1284,20 +1124,54 @@
      "summary": ""
     }
    ],
-   "id": 26
+   "id": 22
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Deutsche Welle",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe"
+   ],
+   "latest": "2026-11-28T00:51+00:00",
+   "earliest": "2026-11-27T19:12+00:00",
+   "items": [
+    {
+     "outlet": "Deutsche Welle",
+     "region": "Europe",
+     "title": "Spain's Sanchez makes final appeal to voters before election",
+     "url": "https://www.dw.com/en/spain-s-sanchez-makes-final-appeal-to-voters-before-election/a-80082783?maca=en-rss-en-all-1573-rdf",
+     "via": "",
+     "published": "2026-11-28T00:51+00:00",
+     "summary": "Spanish Prime Minister Pedro Sanchez told people to turn out in large numbers so the country does not go \"backwards.\" Polls suggest an end to his eight-year leftist leadership of Spain."
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+     "url": "https://www.reuters.com/world/europe/spains-sanchez-insists-he-will-defy-polls-election-campaign-wraps-up-2026-11-27/",
+     "via": "",
+     "published": "2026-11-27T19:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 23
   },
   {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
     "The Hindu",
-    "Business Standard"
+    "The Indian Express"
    ],
    "regions": [
     "South Asia"
    ],
    "latest": "2026-11-27T15:18+00:00",
-   "earliest": "2026-11-27T08:41+00:00",
+   "earliest": "2026-11-27T08:05+00:00",
    "items": [
     {
      "outlet": "The Hindu",
@@ -1309,16 +1183,16 @@
      "summary": "The Commerce and Industry Minister said the “process and pathway” for finalising the pact is now taking shape, after a USTR report proposed 25% tariffs on Indian imports, capped at 17% if a deal is agreed"
     },
     {
-     "outlet": "Business Standard",
+     "outlet": "The Indian Express",
      "region": "South Asia",
-     "title": "India-US trade pact nears finish as pathway takes shape: Piyush Goyal",
-     "url": "https://www.business-standard.com/economy/news/india-us-trade-deal-close-to-culmination-piyush-goyal-ustr-tariff-126112700570_1.html",
+     "title": "US trade deal close, final path emerging: Piyush Goyal after new US tariff plan",
+     "url": "https://indianexpress.com/article/business/us-trade-deal-path-piyush-goyal-us-tariff-10980874/",
      "via": "",
-     "published": "2026-11-27T08:41+00:00",
+     "published": "2026-11-27T08:05+00:00",
      "summary": ""
     }
    ],
-   "id": 27
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1352,7 +1226,7 @@
      "summary": ""
     }
    ],
-   "id": 28
+   "id": 25
   },
   {
    "independent_outlets": 2,
@@ -1386,7 +1260,41 @@
      "summary": ""
     }
    ],
-   "id": 29
+   "id": 26
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Livemint / Economic Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-27T08:08+00:00",
+   "earliest": "2026-11-26T14:13+00:00",
+   "items": [
+    {
+     "outlet": "Livemint / Economic Times",
+     "region": "South Asia",
+     "title": "Sebi looking into Tata Steel–APL Apollo deal amid minority shareholder concerns",
+     "url": "https://www.livemint.com/news/sebi-to-look-into-tata-steel-apollo-apl-deal-over-minority-shareholder-concerns-11795765448786.html",
+     "via": "",
+     "published": "2026-11-27T08:08+00:00",
+     "summary": "Sebi chairman Tuhin Kanta Pandey says the regulator is examining the transaction after minority shareholders and proxy advisers raised concerns over its structure and related-party implications."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Sebi may scrutinise Tata Steel-APL Apollo deal over RPT, shareholder worry",
+     "url": "https://www.business-standard.com/markets/news/tata-steel-apl-apollo-deal-may-face-sebi-scrutiny-over-shareholder-concerns-126112601279_1.html",
+     "via": "",
+     "published": "2026-11-26T14:13+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 27
   },
   {
    "independent_outlets": 2,
@@ -1420,7 +1328,7 @@
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 28
   },
   {
    "independent_outlets": 2,
@@ -1454,7 +1362,109 @@
      "summary": "The case could shake Indonesia’s nickel sector, which supplies about 60% of global output."
     }
    ],
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Times of Israel"
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "latest": "2026-11-26T22:24+00:00",
+   "earliest": "2026-11-26T19:46+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "Israeli Army Strikes Hezbollah Rockets and Launchers",
+     "url": "https://english.alarabiya.net/webtv/media/2026/11/27/israeli-army-strikes-hezbollah-rockets-and-launchers",
+     "via": "",
+     "published": "2026-11-26T22:24+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Times of Israel",
+     "region": "Middle East",
+     "title": "IDF says it struck Hezbollah rockets and launchers in strikes on Lebanon’s Beqaa Valley",
+     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-struck-hezbollah-rockets-and-launchers-in-strikes-on-lebanons-beqaa-valley/",
+     "via": "",
+     "published": "2026-11-26T19:46+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 30
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Axios"
+   ],
+   "regions": [
+    "North America"
+   ],
+   "latest": "2026-11-26T16:55+00:00",
+   "earliest": "2026-11-26T16:29+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
+     "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e",
+     "via": "",
+     "published": "2026-11-26T16:55+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump demands investigation into GDP data revisions",
+     "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
+     "via": "",
+     "published": "2026-11-26T16:29+00:00",
+     "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
+    }
+   ],
    "id": 31
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "The Indian Express"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-25T17:09+00:00",
+   "earliest": "2026-11-25T16:43+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "Broad-based pressure on food prices continues: RBI Bulletin",
+     "url": "https://www.thehindu.com/business/Economy/broad-based-pressure-on-food-prices-continues-rbi-bulletin/article71743566.ece",
+     "via": "",
+     "published": "2026-11-25T17:09+00:00",
+     "summary": "CPI inflation peaked to 6.1 % (y-o-y) in October 2026 from 5.5% in September 2026, slightly above the upper tolerance level of 6%–last observed in October 2024."
+    },
+    {
+     "outlet": "The Indian Express",
+     "region": "South Asia",
+     "title": "Retail inflation likely to stay elevated in November as food prices remain high: RBI bulletin",
+     "url": "https://indianexpress.com/article/business/india-retail-inflation-november-2026-rbi-report-10978576/",
+     "via": "",
+     "published": "2026-11-25T16:43+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1488,7 +1498,7 @@
      "summary": ""
     }
    ],
-   "id": 32
+   "id": 33
   },
   {
    "independent_outlets": 2,
@@ -1522,7 +1532,7 @@
      "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
-   "id": 33
+   "id": 34
   }
  ]
 }
