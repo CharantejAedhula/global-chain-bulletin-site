@@ -1,9 +1,9 @@
 {
- "fetched_at": "2026-11-28T04:37:49+00:00",
+ "fetched_at": "2026-11-28T07:49:58+00:00",
  "window_hours": 72,
  "note": "Events reported by two or more different pinned outlets in the last 72 hours, grouped by headline words. Outlets listed together in same_headline_groups ran a word-for-word identical headline (usually the same wire copy) and count once in independent_outlets. Grouping is automatic: confirm each outlet reported the same event, and that a copy is not just another outlet's wire story, before citing it. 'url' is the outlet's own article; an item still marked via: Google News could not be resolved and links to a Google News redirect, so find the outlet's own URL before citing it.",
  "outlets_read": 42,
- "items_read": 758,
+ "items_read": 737,
  "feeds": {
   "Africanews": {
    "region": "Africa",
@@ -17,12 +17,12 @@
   },
   "Mining Weekly": {
    "region": "Africa",
-   "items": 32,
+   "items": 29,
    "errors": []
   },
   "Ecofin Agency": {
    "region": "Africa",
-   "items": 43,
+   "items": 41,
    "errors": []
   },
   "Caixin Global": {
@@ -32,7 +32,7 @@
   },
   "South China Morning Post": {
    "region": "China",
-   "items": 37,
+   "items": 36,
    "errors": []
   },
   "Yicai Global": {
@@ -42,17 +42,17 @@
   },
   "Mysteel": {
    "region": "China",
-   "items": 47,
+   "items": 46,
    "errors": []
   },
   "Nikkei Asia": {
    "region": "East Asia",
-   "items": 24,
+   "items": 17,
    "errors": []
   },
   "Kyodo News": {
    "region": "East Asia",
-   "items": 7,
+   "items": 8,
    "errors": []
   },
   "The Korea Herald": {
@@ -67,12 +67,12 @@
   },
   "Reuters": {
    "region": "Europe",
-   "items": 27,
+   "items": 30,
    "errors": []
   },
   "Financial Times": {
    "region": "Europe",
-   "items": 4,
+   "items": 2,
    "errors": []
   },
   "Deutsche Welle": {
@@ -82,7 +82,7 @@
   },
   "Euronews": {
    "region": "Europe",
-   "items": 17,
+   "items": 14,
    "errors": []
   },
   "Hellenic Shipping News": {
@@ -92,22 +92,22 @@
   },
   "Seatrade Maritime": {
    "region": "Europe",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Al Jazeera": {
    "region": "Middle East",
-   "items": 12,
+   "items": 8,
    "errors": []
   },
   "Al Arabiya": {
    "region": "Middle East",
-   "items": 31,
+   "items": 32,
    "errors": []
   },
   "Times of Israel": {
    "region": "Middle East",
-   "items": 22,
+   "items": 20,
    "errors": []
   },
   "Amwaj.media": {
@@ -127,7 +127,7 @@
   },
   "Bloomberg": {
    "region": "North America",
-   "items": 25,
+   "items": 26,
    "errors": []
   },
   "Axios": {
@@ -137,7 +137,7 @@
   },
   "CBC News": {
    "region": "North America",
-   "items": 6,
+   "items": 7,
    "errors": [
     "https://www.cbc.ca/webfeed/rss/rss-business: TimeoutError: The read operation timed out"
    ]
@@ -154,22 +154,22 @@
   },
   "ABC News (Australia)": {
    "region": "Oceania",
-   "items": 16,
+   "items": 17,
    "errors": []
   },
   "Australian Financial Review": {
    "region": "Oceania",
-   "items": 4,
+   "items": 3,
    "errors": []
   },
   "Mining.com.au": {
    "region": "Oceania",
-   "items": 18,
+   "items": 12,
    "errors": []
   },
   "RNZ": {
    "region": "Oceania",
-   "items": 5,
+   "items": 4,
    "errors": []
   },
   "Interfax": {
@@ -189,12 +189,12 @@
   },
   "Business Standard": {
    "region": "South Asia",
-   "items": 31,
+   "items": 34,
    "errors": []
   },
   "Livemint / Economic Times": {
    "region": "South Asia",
-   "items": 14,
+   "items": 11,
    "errors": []
   },
   "The Indian Express": {
@@ -206,7 +206,7 @@
   },
   "The Straits Times": {
    "region": "Southeast Asia",
-   "items": 25,
+   "items": 23,
    "errors": []
   },
   "The Jakarta Post": {
@@ -216,12 +216,12 @@
   },
   "VnExpress International": {
    "region": "Southeast Asia",
-   "items": 17,
+   "items": 19,
    "errors": []
   },
   "MercoPress": {
    "region": "Latin America",
-   "items": 3,
+   "items": 5,
    "errors": []
   },
   "BNamericas": {
@@ -231,7 +231,7 @@
   },
   "Rio Times": {
    "region": "Latin America",
-   "items": 3,
+   "items": 4,
    "errors": []
   },
   "Newsroom Panama": {
@@ -243,26 +243,29 @@
  "clusters": [
   {
    "independent_outlets": 3,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Financial Times"
-    ]
-   ],
+   "same_headline_groups": [],
    "outlets": [
+    "Associated Press",
     "Business Standard",
-    "Reuters",
-    "Financial Times",
-    "Al Jazeera"
+    "Reuters"
    ],
    "regions": [
     "Europe",
-    "Middle East",
+    "North America",
     "South Asia"
    ],
-   "latest": "2026-11-28T02:55+00:00",
-   "earliest": "2026-11-27T20:40+00:00",
+   "latest": "2026-11-28T03:23+00:00",
+   "earliest": "2026-11-27T23:00+00:00",
    "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, US jury finds",
+     "url": "https://apnews.com/article/huawei-racketeering-trial-verdict-b39ac780e2e31140015a1be02f0329ab",
+     "via": "",
+     "published": "2026-11-28T03:23+00:00",
+     "summary": ""
+    },
     {
      "outlet": "Business Standard",
      "region": "South Asia",
@@ -280,24 +283,6 @@
      "via": "",
      "published": "2026-11-27T23:00+00:00",
      "summary": ""
-    },
-    {
-     "outlet": "Financial Times",
-     "region": "Europe",
-     "title": "OpenAI countersues Apple for stealing trade secrets",
-     "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
-     "via": "",
-     "published": "2026-11-27T23:00+00:00",
-     "summary": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates"
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
-     "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-27T20:40+00:00",
-     "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
     }
    ],
    "id": 1
@@ -306,9 +291,55 @@
    "independent_outlets": 3,
    "same_headline_groups": [],
    "outlets": [
-    "Africanews",
     "Associated Press",
-    "Al Arabiya"
+    "The Straits Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "North America",
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-27T15:22+00:00",
+   "earliest": "2026-11-27T02:40+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Deadlocked final result in New Zealand’s election leaves a centrist newcomer as the decider",
+     "url": "https://apnews.com/article/new-zealand-election-results-a19a838d8256a0762703ff0572aca3e6",
+     "via": "",
+     "published": "2026-11-27T15:22+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Explainer-Parties to negotiate after no one wins majority in New Zealand election",
+     "url": "https://www.straitstimes.com/asia/explainer-parties-to-negotiate-after-no-one-wins-majority-in-new-zealand-election",
+     "via": "",
+     "published": "2026-11-27T04:56+00:00",
+     "summary": "WELLINGTON, Nov 27 - New Zealand's ruling coalition fell short of winning a parliamentary majority, final results of the November 7 election showed on Friday, leaving Prime Minister Christopher Luxon needing the support of the centrist Opportunity Party to form government."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "New Zealand election ends in deadlock as both blocs fall short of majority",
+     "url": "https://www.business-standard.com/world-news/new-zealand-election-ends-in-deadlock-as-both-blocs-fall-short-of-majority-126112700095_1.html",
+     "via": "",
+     "published": "2026-11-27T02:40+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 2
+  },
+  {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "Africanews",
+    "Al Arabiya",
+    "Associated Press"
    ],
    "regions": [
     "Africa",
@@ -316,7 +347,7 @@
     "North America"
    ],
    "latest": "2026-11-27T14:08+00:00",
-   "earliest": "2026-11-26T09:52+00:00",
+   "earliest": "2026-11-25T23:14+00:00",
    "items": [
     {
      "outlet": "Africanews",
@@ -328,15 +359,6 @@
      "summary": "Egyptian authorities have arrested a driver accused of causing a fuel tanker to overturn.The accident on Wednesday on a busy ring road surrounding Cairo caused the death of 31 people and injured 26 others."
     },
     {
-     "outlet": "Associated Press",
-     "region": "North America",
-     "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
-     "url": "https://apnews.com/article/cairo-egypt-highway-fire-tanker-fuel-traffic-db772346ece6e997a17c9aa3559bcee6",
-     "via": "",
-     "published": "2026-11-26T18:29+00:00",
-     "summary": ""
-    },
-    {
      "outlet": "Al Arabiya",
      "region": "Middle East",
      "title": "Egypt arrests driver over fuel truck crash, fire that killed 31 in Giza",
@@ -344,51 +366,14 @@
      "via": "",
      "published": "2026-11-26T09:52+00:00",
      "summary": ""
-    }
-   ],
-   "id": 2
-  },
-  {
-   "independent_outlets": 3,
-   "same_headline_groups": [],
-   "outlets": [
-    "Africanews",
-    "Euronews",
-    "Times of Israel"
-   ],
-   "regions": [
-    "Africa",
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-27T13:21+00:00",
-   "earliest": "2026-11-27T00:52+00:00",
-   "items": [
-    {
-     "outlet": "Africanews",
-     "region": "Africa",
-     "title": "Iran denies involvement in Kuwait strike that killed two Italians",
-     "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
-     "via": "",
-     "published": "2026-11-27T13:21+00:00",
-     "summary": "Iran’s foreign minister has denied his country was responsible for the deaths of two Italians nationals killed in a strike on Kuwait."
     },
     {
-     "outlet": "Euronews",
-     "region": "Europe",
-     "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-     "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "Fuel tanker crash ignites a massive fire on a highway surrounding Cairo, killing at least 31 people",
+     "url": "https://apnews.com/article/cairo-highway-fire-ring-road-89e4cd3d3d53016c9c35440b57c5ea1e",
      "via": "",
-     "published": "2026-11-27T10:20+00:00",
-     "summary": "Iran's Foreign Minister Abbas Araghchi called the accusations baseless and the incident \"suspicious\" and offered to cooperate on a joint investigation. Kuwait called it \"a heinous Iranian aggression\". Saudi Arabia, Bahrain, Qatar and the UAE condemned the attack."
-    },
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Iran denies responsibility for deadly attack on Kuwait air defense system",
-     "url": "https://www.timesofisrael.com/liveblog_entry/iran-denies-responsibility-for-deadly-attack-on-kuwait-air-defense-system/",
-     "via": "",
-     "published": "2026-11-27T00:52+00:00",
+     "published": "2026-11-25T23:14+00:00",
      "summary": ""
     }
    ],
@@ -486,6 +471,156 @@
    "id": 5
   },
   {
+   "independent_outlets": 3,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Jakarta Post",
+    "VnExpress International",
+    "Axios"
+   ],
+   "regions": [
+    "North America",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-26T00:57+00:00",
+   "earliest": "2026-11-25T13:41+00:00",
+   "items": [
+    {
+     "outlet": "The Jakarta Post",
+     "region": "Southeast Asia",
+     "title": "Trump unveils new tariffs over excess industrial capacity",
+     "url": "https://www.thejakartapost.com/business/2026/11/26/trump-unveils-new-tariffs-over-excess-industrial-capacity",
+     "via": "",
+     "published": "2026-11-26T00:57+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "VnExpress International",
+     "region": "Southeast Asia",
+     "title": "Trump unveils proposed tariffs on major partners, including EU and China",
+     "url": "https://e.vnexpress.net/news/business/economy/trump-unveils-proposed-tariffs-on-major-partners-including-eu-and-china-5148930.html",
+     "via": "",
+     "published": "2026-11-25T16:06+00:00",
+     "summary": "The U.S. on Wednesday unveiled proposed tariffs on 14 economies including the European Union and China, after a months-long probe into alleged excess production, the latest move by U.S. President Donald Trump to remake Washington's trade relationships."
+    },
+    {
+     "outlet": "Axios",
+     "region": "North America",
+     "title": "Trump prepares new round of tariffs on China, other U.S. trading partners",
+     "url": "https://www.axios.com/2026/11/25/trump-tariffs-china",
+     "via": "",
+     "published": "2026-11-25T13:41+00:00",
+     "summary": "The Trump administration proposed a new round of tariffs targeting China, the European Union and 12 other economies over policies it says have created excess industrial capacity. Why it matters: Trump officials are pressing ahead with his trade agenda despite a Democratic midterm sweep fueled by affordability concerns. Post-election polling indicates voters overwhelmingly want tariffs to stay at c"
+    }
+   ],
+   "id": 6
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Al Arabiya",
+    "Reuters"
+   ],
+   "regions": [
+    "Europe",
+    "Middle East"
+   ],
+   "latest": "2026-11-28T07:26+00:00",
+   "earliest": "2026-11-28T05:18+00:00",
+   "items": [
+    {
+     "outlet": "Al Arabiya",
+     "region": "Middle East",
+     "title": "US military repelled drones at UK airbase this month: Report",
+     "url": "https://english.alarabiya.net/News/world/2026/11/28/us-military-repelled-drones-at-uk-airbase-this-month-report",
+     "via": "",
+     "published": "2026-11-28T07:26+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Reuters",
+     "region": "Europe",
+     "title": "US military repelled drones at UK airbase this month, FT reports",
+     "url": "https://www.reuters.com/world/us-military-repelled-drones-raf-base-ft-reports-2026-11-28/",
+     "via": "",
+     "published": "2026-11-28T05:18+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 7
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Rio Times",
+    "Africanews"
+   ],
+   "regions": [
+    "Africa",
+    "Latin America"
+   ],
+   "latest": "2026-11-28T06:59+00:00",
+   "earliest": "2026-11-27T11:35+00:00",
+   "items": [
+    {
+     "outlet": "Rio Times",
+     "region": "Latin America",
+     "title": "Niger Guard Post Attack Kills 13",
+     "url": "https://www.riotimesonline.com/niger-national-guard-post-attack-sanam/",
+     "via": "",
+     "published": "2026-11-28T06:59+00:00",
+     "summary": "The defence ministry says attackers killed 13 National Guard members at Sanam in Tillabéri on 26 November. The toll is provisional. The post Niger Guard Post Attack Kills 13 appeared first on The Rio Times ."
+    },
+    {
+     "outlet": "Africanews",
+     "region": "Africa",
+     "title": "Armed men kill 13 guards in 'terrorist attack' in western Niger",
+     "url": "http://www.africanews.com/2026/11/27/armed-men-kill-13-guards-in-terrorist-attack-in-western-niger/",
+     "via": "",
+     "published": "2026-11-27T11:35+00:00",
+     "summary": "Armed men on Thursday killed at least 13 Nigerien guards in an attack in the restive Tillaberi region in western Niger, the defence ministry said in a statement."
+    }
+   ],
+   "id": 8
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Straits Times",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia",
+    "Southeast Asia"
+   ],
+   "latest": "2026-11-28T01:21+00:00",
+   "earliest": "2026-11-27T18:26+00:00",
+   "items": [
+    {
+     "outlet": "The Straits Times",
+     "region": "Southeast Asia",
+     "title": "Nvidia Blackwell tech used at China site tied to Alice Huang",
+     "url": "https://www.straitstimes.com/asia/east-asia/nvidia-blackwell-tech-used-at-china-site-tied-to-alice-huang",
+     "via": "",
+     "published": "2026-11-28T01:21+00:00",
+     "summary": "Nvidia shares fell as much as 2.6% to US$145.39 after markets opened in New York on Nov 27."
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "Nvidia's Blackwell chips found at China data centre linked to Alice Huang",
+     "url": "https://www.business-standard.com/world-news/nvidia-s-blackwell-chips-found-at-china-data-centre-linked-to-alice-huang-126112701497_1.html",
+     "via": "",
+     "published": "2026-11-27T18:26+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 9
+  },
+  {
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
@@ -518,92 +653,7 @@
      "summary": ""
     }
    ],
-   "id": 6
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [
-    [
-     "Reuters",
-     "Al Arabiya"
-    ]
-   ],
-   "outlets": [
-    "Reuters",
-    "Al Jazeera",
-    "Al Arabiya"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-27T23:26+00:00",
-   "earliest": "2026-11-27T14:32+00:00",
-   "items": [
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Son of Hamas chief survives Israeli strike, Hamas says",
-     "url": "https://www.reuters.com/world/middle-east/son-hamas-chief-survives-israeli-strike-hamas-says-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T23:26+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Al Jazeera",
-     "region": "Middle East",
-     "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
-     "via": "",
-     "published": "2026-11-27T20:18+00:00",
-     "summary": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday."
-    },
-    {
-     "outlet": "Al Arabiya",
-     "region": "Middle East",
-     "title": "Son of Hamas chief survives Israeli strike, Hamas says",
-     "url": "https://english.alarabiya.net/amp/News/middle-east/2026/11/27/son-of-hamas-chief-survives-israeli-strike-hamas-says",
-     "via": "",
-     "published": "2026-11-27T14:32+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 7
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "MINING.COM",
-    "Mining.com.au"
-   ],
-   "regions": [
-    "North America",
-    "Oceania"
-   ],
-   "latest": "2026-11-27T17:48+00:00",
-   "earliest": "2026-11-26T20:17+00:00",
-   "items": [
-    {
-     "outlet": "MINING.COM",
-     "region": "North America",
-     "title": "Copper price jumps most since January as short sellers retreat",
-     "url": "https://www.mining.com/copper-price-jumps-most-since-january-as-short-sellers-retreat/",
-     "via": "",
-     "published": "2026-11-27T17:48+00:00",
-     "summary": "Traders who had bet on further declines were forced to buy back copper as the rebound in US shares lifted sentiment."
-    },
-    {
-     "outlet": "Mining.com.au",
-     "region": "Oceania",
-     "title": "Copper price bounces, zinc price jumps by most since January",
-     "url": "https://mining.com.au/copper-price-bounces-zinc-price-jumps-by-most-since-january/",
-     "via": "",
-     "published": "2026-11-26T20:17+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 8
+   "id": 10
   },
   {
    "independent_outlets": 2,
@@ -653,7 +703,7 @@
      "summary": ""
     }
    ],
-   "id": 9
+   "id": 11
   },
   {
    "independent_outlets": 2,
@@ -688,7 +738,7 @@
      "summary": "Thailand and Myanmar agreed this week to establish 12 water sampling locations."
     }
    ],
-   "id": 10
+   "id": 12
   },
   {
    "independent_outlets": 2,
@@ -723,7 +773,7 @@
      "summary": "GeoIntelX will digitize decades of historical records to help identify copper targets and build local geoscience skills."
     }
    ],
-   "id": 11
+   "id": 13
   },
   {
    "independent_outlets": 2,
@@ -758,7 +808,7 @@
      "summary": ""
     }
    ],
-   "id": 12
+   "id": 14
   },
   {
    "independent_outlets": 2,
@@ -793,7 +843,7 @@
      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore."
     }
    ],
-   "id": 13
+   "id": 15
   },
   {
    "independent_outlets": 2,
@@ -825,76 +875,6 @@
      "url": "https://www.reuters.com/business/energy/indonesia-considers-subsidised-fuel-price-hike-fiscal-pressure-mounts-sources-2026-11-27/",
      "via": "",
      "published": "2026-11-27T05:48+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 14
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Mining Weekly",
-    "Reuters"
-   ],
-   "regions": [
-    "Africa",
-    "Europe"
-   ],
-   "latest": "2026-11-27T06:33+00:00",
-   "earliest": "2026-11-27T04:17+00:00",
-   "items": [
-    {
-     "outlet": "Mining Weekly",
-     "region": "Africa",
-     "title": "Coal India unit Mahanadi makes muted debut, valued at $9.6bn",
-     "url": "https://www.miningweekly.com/article/coal-india-unit-mahanadi-makes-muted-debut-valued-at-96bn-2026-11-27",
-     "via": "",
-     "published": "2026-11-27T06:33+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Reuters",
-     "region": "Europe",
-     "title": "Coal India unit Mahanadi valued at $9.7 billion after subdued debut",
-     "url": "https://www.reuters.com/world/india/coal-india-unit-mahanadi-coalfields-falls-15-trading-debut-2026-11-27/",
-     "via": "",
-     "published": "2026-11-27T04:17+00:00",
-     "summary": ""
-    }
-   ],
-   "id": 15
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "The Straits Times",
-    "Nikkei Asia"
-   ],
-   "regions": [
-    "East Asia",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-27T04:56+00:00",
-   "earliest": "2026-11-27T02:10+00:00",
-   "items": [
-    {
-     "outlet": "The Straits Times",
-     "region": "Southeast Asia",
-     "title": "Explainer-Parties to negotiate after no one wins majority in New Zealand election",
-     "url": "https://www.straitstimes.com/asia/explainer-parties-to-negotiate-after-no-one-wins-majority-in-new-zealand-election",
-     "via": "",
-     "published": "2026-11-27T04:56+00:00",
-     "summary": "WELLINGTON, Nov 27 - New Zealand's ruling coalition fell short of winning a parliamentary majority, final results of the November 7 election showed on Friday, leaving Prime Minister Christopher Luxon needing the support of the centrist Opportunity Party to form government."
-    },
-    {
-     "outlet": "Nikkei Asia",
-     "region": "East Asia",
-     "title": "New Zealand ruling coalition misses majority as election results announced",
-     "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
-     "via": "",
-     "published": "2026-11-27T02:10+00:00",
      "summary": ""
     }
    ],
@@ -989,41 +969,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "Times of Israel",
-    "Deutsche Welle"
-   ],
-   "regions": [
-    "Europe",
-    "Middle East"
-   ],
-   "latest": "2026-11-27T00:52+00:00",
-   "earliest": "2026-11-26T09:37+00:00",
-   "items": [
-    {
-     "outlet": "Times of Israel",
-     "region": "Middle East",
-     "title": "Germany arrests Iraqi duo over alleged synagogue attack plots",
-     "url": "https://www.timesofisrael.com/liveblog_entry/germany-arrests-iraqi-duo-over-alleged-synagogue-attack-plots/",
-     "via": "",
-     "published": "2026-11-27T00:52+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "Deutsche Welle",
-     "region": "Europe",
-     "title": "Germany: 2 arrested, suspected of plotting synagogue attack",
-     "url": "https://www.dw.com/en/germany-2-arrested-suspected-of-plotting-synagogue-attack/a-80057715?maca=en-rss-en-all-1573-rdf",
-     "via": "",
-     "published": "2026-11-26T09:37+00:00",
-     "summary": "Federal prosecutors say they have ordered the arrest of two members of a pro-Iranian group on suspicion of planning an attack on a synagogue. They were detained in the cities of Heidelberg and Cologne."
-    }
-   ],
-   "id": 19
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "Business Standard",
     "VnExpress International"
    ],
@@ -1053,7 +998,7 @@
      "summary": "Nvidia has told its manufacturing partners to stop shipping servers to four Southeast Asian countries."
     }
    ],
-   "id": 20
+   "id": 19
   },
   {
    "independent_outlets": 2,
@@ -1085,6 +1030,41 @@
      "url": "https://english.kyodonews.net/articles/-/92619",
      "via": "",
      "published": "2026-11-25T18:37+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 20
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "Associated Press",
+    "Kyodo News"
+   ],
+   "regions": [
+    "East Asia",
+    "North America"
+   ],
+   "latest": "2026-11-26T09:16+00:00",
+   "earliest": "2026-11-26T07:09+00:00",
+   "items": [
+    {
+     "outlet": "Associated Press",
+     "region": "North America",
+     "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
+     "url": "https://apnews.com/article/north-korea-kim-nuclear-uranium-trump-78d6642ea055e8257518c3d695a58cd4",
+     "via": "",
+     "published": "2026-11-26T09:16+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Kyodo News",
+     "region": "East Asia",
+     "title": "North Korean leader Kim says nuclear development to continue",
+     "url": "https://english.kyodonews.net/articles/-/92638",
+     "via": "",
+     "published": "2026-11-26T07:09+00:00",
      "summary": ""
     }
    ],
@@ -1129,41 +1109,6 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
-    "VnExpress International",
-    "Axios"
-   ],
-   "regions": [
-    "North America",
-    "Southeast Asia"
-   ],
-   "latest": "2026-11-25T16:06+00:00",
-   "earliest": "2026-11-25T13:41+00:00",
-   "items": [
-    {
-     "outlet": "VnExpress International",
-     "region": "Southeast Asia",
-     "title": "Trump unveils proposed tariffs on major partners, including EU and China",
-     "url": "https://e.vnexpress.net/news/business/economy/trump-unveils-proposed-tariffs-on-major-partners-including-eu-and-china-5148930.html",
-     "via": "",
-     "published": "2026-11-25T16:06+00:00",
-     "summary": "The U.S. on Wednesday unveiled proposed tariffs on 14 economies including the European Union and China, after a months-long probe into alleged excess production, the latest move by U.S. President Donald Trump to remake Washington's trade relationships."
-    },
-    {
-     "outlet": "Axios",
-     "region": "North America",
-     "title": "Trump prepares new round of tariffs on China, other U.S. trading partners",
-     "url": "https://www.axios.com/2026/11/25/trump-tariffs-china",
-     "via": "",
-     "published": "2026-11-25T13:41+00:00",
-     "summary": "The Trump administration proposed a new round of tariffs targeting China, the European Union and 12 other economies over policies it says have created excess industrial capacity. Why it matters: Trump officials are pressing ahead with his trade agenda despite a Democratic midterm sweep fueled by affordability concerns. Post-election polling indicates voters overwhelmingly want tariffs to stay at c"
-    }
-   ],
-   "id": 23
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
     "BNamericas",
     "MINING.COM"
    ],
@@ -1193,7 +1138,7 @@
      "summary": "Água Azul would give ValOre a second Brazilian property, as well as a first operating asset."
     }
    ],
-   "id": 24
+   "id": 23
   },
   {
    "independent_outlets": 2,
@@ -1228,7 +1173,7 @@
      "summary": ""
     }
    ],
-   "id": 25
+   "id": 24
   },
   {
    "independent_outlets": 2,
@@ -1259,6 +1204,40 @@
      "url": "https://www.reuters.com/world/europe/spains-sanchez-insists-he-will-defy-polls-election-campaign-wraps-up-2026-11-27/",
      "via": "",
      "published": "2026-11-27T19:12+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 25
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
+    "The Hindu",
+    "Business Standard"
+   ],
+   "regions": [
+    "South Asia"
+   ],
+   "latest": "2026-11-27T15:18+00:00",
+   "earliest": "2026-11-27T08:41+00:00",
+   "items": [
+    {
+     "outlet": "The Hindu",
+     "region": "South Asia",
+     "title": "India-U.S. trade deal is close to culmination: Goyal",
+     "url": "https://www.thehindu.com/news/national/india-us-trade-deal-is-close-to-culmination-goyal/article71749493.ece",
+     "via": "",
+     "published": "2026-11-27T15:18+00:00",
+     "summary": "The Commerce and Industry Minister said the “process and pathway” for finalising the pact is now taking shape, after a USTR report proposed 25% tariffs on Indian imports, capped at 17% if a deal is agreed"
+    },
+    {
+     "outlet": "Business Standard",
+     "region": "South Asia",
+     "title": "India-US trade pact nears finish as pathway takes shape: Piyush Goyal",
+     "url": "https://www.business-standard.com/economy/news/india-us-trade-deal-close-to-culmination-piyush-goyal-ustr-tariff-126112700570_1.html",
+     "via": "",
+     "published": "2026-11-27T08:41+00:00",
      "summary": ""
     }
    ],
@@ -1336,6 +1315,40 @@
    "independent_outlets": 2,
    "same_headline_groups": [],
    "outlets": [
+    "Ecofin Agency",
+    "Mining Weekly"
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "latest": "2026-11-27T06:36+00:00",
+   "earliest": "2026-11-26T11:21+00:00",
+   "items": [
+    {
+     "outlet": "Ecofin Agency",
+     "region": "Africa",
+     "title": "Chinese Investors Eye Southern Africa Gold With $600 Million Zimbabwe Proposal",
+     "url": "https://www.ecofinagency.com/news/2711-61229-chinese-investors-eye-southern-africa-gold-with-600-million-zimbabwe-proposal",
+     "via": "",
+     "published": "2026-11-27T06:36+00:00",
+     "summary": ""
+    },
+    {
+     "outlet": "Mining Weekly",
+     "region": "Africa",
+     "title": "China Railway Resources Group plans $600m investment in Zimbabwe gold mines",
+     "url": "https://www.miningweekly.com/article/china-railway-resources-group-plans-600m-investment-in-zimbabwe-gold-mines-2026-11-26",
+     "via": "",
+     "published": "2026-11-26T11:21+00:00",
+     "summary": ""
+    }
+   ],
+   "id": 29
+  },
+  {
+   "independent_outlets": 2,
+   "same_headline_groups": [],
+   "outlets": [
     "VnExpress International",
     "The Straits Times"
    ],
@@ -1364,7 +1377,7 @@
      "summary": "The case could shake Indonesia’s nickel sector, which supplies about 60% of global output."
     }
    ],
-   "id": 29
+   "id": 30
   },
   {
    "independent_outlets": 2,
@@ -1377,7 +1390,7 @@
     "Middle East"
    ],
    "latest": "2026-11-26T22:24+00:00",
-   "earliest": "2026-11-26T19:46+00:00",
+   "earliest": "2026-11-26T21:38+00:00",
    "items": [
     {
      "outlet": "Al Arabiya",
@@ -1391,14 +1404,14 @@
     {
      "outlet": "Times of Israel",
      "region": "Middle East",
-     "title": "IDF says it struck Hezbollah rockets and launchers in strikes on Lebanon’s Beqaa Valley",
-     "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-struck-hezbollah-rockets-and-launchers-in-strikes-on-lebanons-beqaa-valley/",
+     "title": "Air Force strikes Hezbollah rockets, launchers in eastern Lebanon — IDF",
+     "url": "https://www.timesofisrael.com/air-force-strikes-hezbollah-rockets-launchers-in-eastern-lebanon-idf/",
      "via": "",
-     "published": "2026-11-26T19:46+00:00",
+     "published": "2026-11-26T21:38+00:00",
      "summary": ""
     }
    ],
-   "id": 30
+   "id": 31
   },
   {
    "independent_outlets": 2,
@@ -1432,7 +1445,7 @@
      "summary": "President Trump called for an investigation into the government's economic statistics on Thursday, alleging without evidence that growth figures released before the midterm elections were deliberately understated. Why it matters: Revisions to GDP are routine and reflect more complete information that becomes available after the initial estimates are published. The allegations could renew concerns "
     }
    ],
-   "id": 31
+   "id": 32
   },
   {
    "independent_outlets": 2,
@@ -1464,40 +1477,6 @@
      "via": "",
      "published": "2026-11-25T16:21+00:00",
      "summary": ""
-    }
-   ],
-   "id": 32
-  },
-  {
-   "independent_outlets": 2,
-   "same_headline_groups": [],
-   "outlets": [
-    "Caixin Global",
-    "South China Morning Post"
-   ],
-   "regions": [
-    "China"
-   ],
-   "latest": "2026-11-25T16:58+00:00",
-   "earliest": "2026-11-25T06:47+00:00",
-   "items": [
-    {
-     "outlet": "Caixin Global",
-     "region": "China",
-     "title": "BYD in Exclusive Talks to Buy INEOS Factory in France",
-     "url": "https://www.caixinglobal.com/2026-11-26/byd-in-exclusive-talks-to-buy-ineos-factory-in-france-102508766.html",
-     "via": "",
-     "published": "2026-11-25T16:58+00:00",
-     "summary": ""
-    },
-    {
-     "outlet": "South China Morning Post",
-     "region": "China",
-     "title": "BYD eyes a second European plant, enters talks with Ineos over a French assembly",
-     "url": "https://www.scmp.com/business/china-evs/article/3375711/byd-eyes-second-european-plant-enters-talks-ineos-over-french-assembly-france",
-     "via": "",
-     "published": "2026-11-25T06:47+00:00",
-     "summary": "Chinese electric vehicle (EV) giant BYD has edged closer to a second plant in Europe after it entered exclusive talks to take over an assembly from Ineos Automotive in France, accelerating its plan for local production amid heightened import restrictions on the continent. The company said in a statement on Tuesday that it was still consulting relevant works councils before a transaction of the pla"
     }
    ],
    "id": 33
